@@ -1,0 +1,27 @@
+==========================================================================================================================================
+Tmid		Exposure	Rate	Rate	Err	Mag	Mag	    Mag Err	Mag UL	Flux		Flux		Flux Err
+				(obs) (ext.corr)	(obs) (ext.corr)			(obs)		(ext.corr)
+(s)		(s)		(cts/s) (cts/s)		      				(3-sig)	(mJys)		(mJys)
+==========================================================================================================================================
+643.0		19.4		1.586	2.865	0.315	16.99	16.35	+0.24	-0.20	16.48	1.468e-01	2.653e-01	2.916e-02
+815.8		19.5		1.665	3.007	0.313	16.94	16.29	+0.23	-0.19	16.45	1.541e-01	2.784e-01	2.899e-02
+1182.3		105.7		1.450	2.620	0.209	17.09	16.44	+0.17	-0.15	16.70	1.343e-01	2.425e-01	1.932e-02
+1528.9		105.7		0.740	1.337	0.161	17.82	17.18	+0.27	-0.21	17.27	6.849e-02	1.237e-01	1.494e-02
+5732.7		196.6		0.258	0.466	0.051	18.96	18.32	+0.24	-0.19	18.46	2.386e-02	4.310e-02	4.678e-03
+22848.1		885.6		0.052	0.094	0.015	20.70	20.05	+0.37	-0.28	20.01	4.835e-03	8.734e-03	1.407e-03
+53407.3		693.0		0.002	0.004	0.013	24.06	23.42	+nan	-2.02	20.96	2.185e-04	3.946e-04	1.191e-03
+
+
+column 1: mid-time in exposure, in seconds, since BAT trigger
+column 2: exposure of seconds
+column 3: count rate (uncorrected for galaxy extinction)
+column 4: count rate (corrected for galaxy extinction)
+column 5: count rate error
+column 6: magnitude (uncorrected for galactic extinction)
+column 7: magnitude (corrected for galaxy extinction)
+column 8: magnitude positive error
+column 9: magnitude negative error
+column 10: magnitude 3sigma upper limit
+column 11: flux density (mJys) (uncorrected for galactic extinction)
+column 12: flux density (mJys) (corrected for galaxy extinction)
+column 13: flux density error (mJys)

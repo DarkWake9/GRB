@@ -1,0 +1,418 @@
+GRB 071112C
+
+klotz
+kann10
+kele
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7061
+SUBJECT: GRB 071112C: ROTSE-III Confirmation of Optical Counterpart
+DATE:    07/11/12 19:43:56 GMT
+FROM:    Fang Yuan at ROTSE  <yuanfang@umich.edu>
+
+F. Yuan (U Mich), E.S. Rykoff (UCSB), W. Rujopakarn (Steward), H. Swan 
+(U Mich), report on behalf of the ROTSE collaboration:
+
+ROTSE-IIIc, located at the H.E.S.S. site at Mt. Gamsberg, Namibia, 
+responded to GRB 071112C (Swift trigger 296504; Perri, M. et. al., GCN 
+7059). The first image was at 18:34:01.8 UT, 64.3 s after the burst 
+(10.8 s after the GCN notice time). We detect the OT reported in GCN 
+7059. The magnitude of the OT was roughly constant for the first few 
+hundred seconds and then faded rapidly afterward. Further analysis is 
+ongoing. The unfiltered images are calibrated relative to USNO B1.0.
+
+Midtime UT       mag      magerror   mlim(of image)
+--------------------------------------------------------------------
+18:34:56.4   17.3       0.2     17.1
+18:38:52.2   17.1       0.1     18.0
+18:47:46.5   18.9       0.3     18.4
+
+
+A jpeg image of the OT (object 82) is available at 
+http://www.rotse.net/images/gsb296504_3c011-020_key.jpg
+
+Continuing observations are in progress.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7062
+SUBJECT: GRB 071112C: Optical and NIR afterglows observed with KANATA
+DATE:    07/11/12 20:07:47 GMT
+FROM:    Makoto Uemura at Hiroshima U  <uemuram@hiroshima-u.ac.jp>
+
+M. Uemura, M. Sasada, A. Arai, and T. Uehara (Hiroshima Univ.), 
+report on behalf of the KANATA GRB team:
+
+  We performed optical-NIR observations of the field of 
+GRB 071112C (GCN Circ. 7059) with TRISPEC attached to 
+the "KANATA" 1.5-m telescope.  
+
+  We found a fading object at the position of the optical 
+afterglow detected with UVOT.  
+Our preliminary results are below:
+
+time(UT)       mag.              exposure_time
+Nov. 2007                        (sec)
+12.77880       17.76 +/- 0.14 V  30sec * 10
+12.77911       16.39 +/- 0.22 J  25sec * 9
+12.78674       18.66 +/- 0.20 V  123sec * 5
+12.78672       17.16 +/- 0.17 J  120sec * 5
+
+Comparison star: 
+V-band: GSC2.3 02:36:55.72 +28:21:03.7 V=14.15
+J-band: 2MASS  02:36:55.72 +28:21:03.7 J=12.674
+ 
+The large errors of magnitudes are due to the rapidly 
+fading trend of the afterglow. 
+Further observation and analysis are ongoing.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7078
+SUBJECT: GRB 071112C: Optical observations at Crni Vrh
+DATE:    07/11/13 12:39:32 GMT
+FROM:    Herman Mikuz at OCV  <herman.mikuz@fmf.uni-lj.si>
+
+B. Dintinjana, S. Maticic, H. Mikuz and J. Skvarc on behalf of PIKA
+observing program at Crni Vrh Observatory:
+
+We observed the afterglow of GRB 071112C (Perri et al., GCN 7059) with 60-cm
+Cichocki robotic telescope at Crni Vrh Observatory, Slovenia in rather poor
+seeing conditions. The series of nineteen 90 second connsecutive exposures
+with Rc filter started at 18:35:51UT, 118 seconds after the GCN notice time.
+We confirm optical afterglow found by UVOT. The object measured coordinates
+are RA=02:36:50.95, DEC=+28:22:16.8 (J2000). The object was clearly detected
+on first nine frames after which it dropped below the detection limit.
+
+Photometry results are given in table below. The magnitudes are derived
+using comparison stars from the USNO-B1 catalogue. The 3-sigma limiting
+magnitude in R filter is around magnitude 18.2.
+
+Time refers to exposure start.
+
+Time (UT)           Exposure(s) Mag.    Err.   Filter
+2007 Nov 12.77490   90          17.25   0.13   R
+2007 Nov 12.77659   90          17.49   0.15   R
+2007 Nov 12.77826   90          17.84   0.18   R
+2007 Nov 12.77994   90          17.82   0.21   R
+2007 Nov 12.78162   90          18.53   0.29   R
+2007 Nov 12.78330   90          18.81   0.63   R
+2007 Nov 12.78498   90          18.51   0.31   R
+2007 Nov 12.78665   90          18.68   0.49   R
+2007 Nov 12.78834   90          18.88   0.62   R
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7080
+SUBJECT: GRB 071112C: Swift/UVOT observations
+DATE:    07/11/13 15:29:24 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S.R. Oates (MSSL/UCL) and G. Stratta (ASDC) report on behalf of the
+Swift-UVOT team:
+
+The Swift/UVOT observed the burst GRB 071112C (Perri et al., GCN Circ.
+7059) starting with the finding chart exposure in white, 92 seconds
+after the BAT trigger. The afterglow is detected at the UVOT position
+given in Perri et al. (GCN Circ. 7059) in white, v, b,
+u and uvw1. The afterglow decreases with an estimated temporal slope in 
+the v filter of alpha =1.28.
+
+The UVOT magnitudes and upper limits from single exposures or
+co-added exposures are given below:
+
+Filter  Tstart(s)  Tstop(s)  Exp(s)  Mag
+----------------------------------------------
+white     92      192         98    17.39 +/- 0.03
+          859     958         98    19.0  +/- 0.1
+v         198     597         393   17.8  +/- 0.08
+          965     1364        393   19.3  +/- 0.3
+b         679     689         10    18.3  +/- 0.4
+          1444    1626        39    19.7  +/- 0.5  (2.0-sigma)
+u         654     674         19    17.8  +/- 0.3
+          1419    1601        39    19.3  +/- 0.5  (2.0-sigma)
+uvw1      630     649         19    17.7  +/- 0.3
+          1394    1576        39    19.0  +/- 0.5  (2.3-sigma)
+uvm2      605     1552        78    >20.5
+uvw2      708     1663        55    >20.6
+----------------------------------------------
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E_{B-V} = 0.119 mag in the
+direction of the burst (Schlegel et al. 1998).
+
+[GCN OPS NOTE(13nov07): Per author's request, in the first line "071121C"
+was changed to "071112C"; and the first 'v' magnitude was changed from
+"17.9  +/- 0.4" to "17.8  +/- 0.08".]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7082
+SUBJECT: GRB071112C MITSuME Okayama Optical Observation
+DATE:    07/11/13 23:06:45 GMT
+FROM:    Michitoshi Yoshida at Okayama Astrophysical Obs  <yoshida@oao.nao.ac.jp>
+
+M. Yoshida, K. Yanagisawa, Y. Shimizu, S. Nagayama, H. Toda (OAO, NAOJ)
+and N. Kawai (Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We performed optical imaging observations (G, Rc and Ic) of the field of
+GRB 071112C (Perri et al., GCN 7059) with 50cm MITSuME telescope at
+Okayama Astrophysical Observatory from UT 18:35 to UT 19:52 on November
+12 2007.
+
+We found a fading source at the position of the optical afterglow
+reported by several authors (Yuan et al., GCN 7061; Wang et al., GCN
+7063; Burenin et al., GCN 7066; Chen et al., GCN 7067; Sollerman et al.,
+GCN 7070) in all bands. We made flux calibration using USNO B1.0
+catalog. The photometric results are following.
+
+start-T   end-T     mid-T     exp-T  G          Rc         Ic
+---------------------------------------------------------------------
+18:35:34  18:36:34  18:36:04   1min  17.1+-0.1  17.0+-0.1  17.9+-0.1
+18:35:34  18:39:00  18:37:17   3min  17.2+-0.1  17.2+-0.1  18.0+-0.1
+18:39:12  18:45:09  18:42:10   5min  17.9+-0.1  18.0+-0.1  18.6+-0.1
+18:45:19  18:56:20  18:50:49   7min  18.8+-0.2  18.5+-0.2  19.6+-0.2
+18:56:30  19:08:46  18:32:38  10min  19.3+-0.4  19.0+-0.2  >19.8
+19:08:56  19:57:01  19:32:58  40min  >19.5      19.6+-0.2  >20.0
+---------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7087
+SUBJECT: GRB 071112C MITSuME Akeno early optical observation
+DATE:    07/11/14 06:44:18 GMT
+FROM:    Nobuyuki Kawai at Tokyo Tech  <nkawai@hp.phys.titech.ac.jp>
+
+T. Ishimura, T. Shimokawabe, Y. Mori, Y. Kudou, N. Vasquez, Y. Yatsu, 
+and N. Kawai (Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 071112C (Perri et al., GCN 7059) with
+the 3-color 50cm MITSuME Telescope at Akeno, Japan starting at
+18:34:39 UT, 102s after the trigger.
+
+In the images of g' and Rc bands, we detected the optical
+counterpart reported by several authors (GCNs 7059, 7061, 7062 etc.).
+Photometric calibration was done using the USNO-B1.0 (Ic-band) and
+NOMAD (g'-bands) catalogs.  The results are following:
+
+start time  end time     Exposure    g' [mag]       Rc[mag]
+---------------------------------------------------------------
+18:34:39   18:35:39      1 x 60s     17.6 +/- 0.5  17.3 +/- 0.3
+---------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7089
+SUBJECT: GRB 071112C: optical observation
+DATE:    07/11/14 15:59:03 GMT
+FROM:    Giuseppe Greco at U Bologna  <giuseppe.greco2@studio.unibo.it>
+
+G. Greco (Bologna University), F. Terra (Second University of
+Roma "Tor Vergata"), C. Bartolini, A. Guarnieri, A. Piccioni
+(Bologna University), G. Pizzichini (INAF/IASF Bologna),
+D. Nanni (INAF/OAR and Second University of Rome "Tor Vergata"),
+R. Gualandi (Bologna Observatory) report:
+
+
+We observed the afterglow of GRB 071112C (Perri et al., GCN 7059) 
+with the 152 cm Cassini Telescope located in Loiano under clear 
+sky conditions (seeing approximately  1.8 arcsec).
+We  obtained three 20 min Rc-band images 
+starting on 2007 November 12.929 UT (mean time). 
+
+In our co-added images we estimated the following magnitude 
+by comparison with the NOMAD1 catalog: Rc= 21 +/- 0.2
+This result is consistent with a power-law index = -0.8 as
+reported by Burenin et al. (GCN7066) and Chen et al. (GCN 7083).
+
+
+The co-added Rc image, in which the comparison stars are marked, has been
+posted in our public directory from where it can be retrieved
+by sftp using
+hostname: ermione.bo.astro.it
+username: publicGRB
+password: GRB_bo.
+directory: GRB071112C
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7090
+SUBJECT: GRB 071112C: optical observation
+DATE:    07/11/14 19:45:18 GMT
+FROM:    AAVSO GRB Network at AAVSO  <matthewt@aavso.org>
+
+Stefano Sposetti (Gnosca, Switzerland) reports to the AAVSO
+International High Energy Network the following optical observations of
+GRB071112C (GCN #7059, Perri et al.):
+
+Stefano Sposetti reports the detection of the optical afterglow of
+GRB071112C (Perri et al., GCN 7059, and several subsequent reports). 
+The afterglow was observed unfiltered for 2700 seconds, using a
+0.4-meter Newtonian with an SBIG ST8XE CCD and no filter.  Observations
+commenced approximately 4 hours and 10 minutes post BAT detection; the
+midpoint of the observational sequence was 2007 November 12.9625 UT. The
+afterglow was detected at an unfiltered magnitude of 21.0 +/- 0.5,
+calibrated relative to USNO-A2.0.  This magnitude is consistent with the
+reported detection by Greco et al. (GCN #7089) on November 12.929 UT at
+Rc = 21 +/- 0.2.
+
+A detailed report on these observations is available on the AAVSO website
+at ftp://ftp.aavso.org/grb/StefanoSposetti_GRB071112C_2454419.20588_.txt
+
+A fits image is available at
+ftp://ftp.aavso.org/grb/StefanoSposetti_GRB071112C_2454419.20588_.fits
+
+The AAVSO thanks the Curry Foundation for their continued support of the
+AAVSO International High Energy Network.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7091
+SUBJECT: GRB071112C: Errata of MITSuME Ic band photometry
+DATE:    07/11/15 01:05:31 GMT
+FROM:    Michitoshi Yoshida at Okayama Astrophysical Obs  <yoshida@oao.nao.ac.jp>
+
+M. Yoshida, K. Yanagisawa, Y. Shimizu, S. Nagayama, H. Toda (OAO, NAOJ)
+and N. Kawai (Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+The Ic band photometry results reported in GCN 7082 are not correct.
+The correct values are 1.5 magnitude brighter than those in GCN 7082.
+We made a mistake in calculating the zero point magnitudes of our Ic
+band frames. We also checked the results of other two bands (g' and Rc)
+photometry carefully and found they are correct.
+
+Please discard the results of GCN 7082. The reviced data are following.
+
+Observation date: 2007-11-12 UT
+
+start-UT  end-UT    mid-UT     exp-T  g'         Rc         Ic
+---------------------------------------------------------------------
+18:35:34  18:36:34  18:36:04   1min  17.1+-0.1  17.0+-0.1  16.4+-0.1
+18:35:34  18:39:00  18:37:17   3min  17.2+-0.1  17.2+-0.1  16.5+-0.1
+18:39:12  18:45:09  18:42:10   5min  17.9+-0.1  18.0+-0.1  17.1+-0.1
+18:45:19  18:56:20  18:50:49   7min  18.8+-0.2  18.5+-0.2  18.1+-0.2
+18:56:30  19:08:46  18:32:38  10min  19.3+-0.4  19.0+-0.2  >18.3
+19:08:56  19:57:01  19:32:58  40min  >19.5      19.6+-0.2  >18.5
+---------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7094
+SUBJECT: GRB 071112C: Optical and NIR data observed with KANATA
+DATE:    07/11/15 15:13:07 GMT
+FROM:    Makoto Uemura at Hiroshima U  <uemuram@hiroshima-u.ac.jp>
+
+M. Uemura, M. Sasada, A. Arai, and T. Uehara (Hiroshima Univ.), 
+report on behalf of the KANATA GRB team:
+
+  We finished a full reduction of our optical-NIR images
+of the field of GRB061112C taken with TRISPEC/KANATA.  
+A part of preliminary results was reported in GCN Circ. 7062.  
+Obtained magnitudes are below: 
+
+# Time after burst V-mag  err.
+#     (sec)
+# mid start   end 
+  324   309   339  17.69  0.14
+  377   362   392  17.89  0.19
+  430   415   445  17.93  0.20
+  483   468   498  18.02  0.22
+  538   523   553  18.15  0.27
+  590   575   605  18.64  0.53
+  643   628   658  18.41  0.39
+  699   684   714  18.30  0.33
+  752   737   767  18.37  0.36
+  970   835  1105  18.72  0.36
+ 1271  1136  1406  19.53  0.11
+ 1571  1436  1706  19.59  0.39
+ 1873  1738  2008  19.62  0.53
+ 2173  2038  2308  19.61  0.13
+ 3079  2340  3818  20.66  0.53
+ 4583  3844  5322  19.80  0.34
+#
+# Time after burst J-mag  err.
+#     (sec)
+# mid start   end 
+  367   309   425  15.93  0.27
+  527   469   585  16.37  0.52
+  688   630   746  16.67  0.28
+  969   835  1103  17.07  0.42
+ 1269  1136  1402  17.34  0.46
+ 1570  1436  1704  17.19  0.18
+ 1871  1738  2004  17.47  0.41
+ 2172  2038  2306  17.50  0.45
+ 3078  2340  3816  17.97  0.35
+ 4581  3844  5318 >17.67
+#
+# Time after burst Ks-mag err.
+#     (sec)
+# mid start   end 
+  541   309   773  15.00  0.37
+ 1201   835  1567  15.91  0.50
+ 1959  1593  2325  16.58  0.45
+ 2728  2353  3103  16.70  1.01
+ 4222  3130  5314 >16.77
+
+Comparison star: 
+V-band: GSC2.3 02:36:41.48 +28:20:53.5 V=14.43
+J-band: 2MASS  02:36:41.46 +28:20:53.4 J=13.238
+K-band: 2MASS  02:36:41.46 +28:20:53.4 K=12.792
+
+  Using our data, we calculated decay indices, alpha :
+    alpha_V  = 0.96 +/- 0.09
+    alpha_J  = 0.82 +/- 0.06
+    alpha_Ks = 1.01 +/- 0.09
+No prominent color change was seen during our observations. 
+
+  After correcting the interstellar extinction in our galaxy 
+(Schlegel, et al. 1998), we calculated the spectral energy index, 
+beta = 0.65 +/- 0.03 between V and Ks-band region.  
+This beta is in agreement with the beta in X-rays 
+(GAMMA_X=1.7, beta_X=0.7, in Stratta et al. GCN Report 104.1), 
+while the optical emission is possibly affected by the 
+reddening effect in the host galaxy of the GRB.  
+
+  As reported in Stratta et al. GCN Report 104.1, 
+there is an X-ray flare around 600-700 sec after the burst, 
+whose amplitude is about factor 4 on the decay trend.  
+We found that no correlated flux variation was found in our 
+V-, J-, and Ks-band data.  The upper limit of the amplitude 
+is 0.4 mag in V-band.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  7135
+SUBJECT: GRB 071112C: Optical/NIR observations
+DATE:    07/11/26 22:26:00 GMT
+FROM:    Paul Price at IfA,UH  <price@ifa.hawaii.edu>
+
+T. Minezaki (IoA, Tokyo), P.A. Price (IfA, Hawaii), Y. Yoshii (IoA,
+Tokyo) and L.L. Cowie (IfA, Hawaii) report:
+
+We observed the optical afterglow of GRB 071112C (GCN #7059) with the
+MAGNUM telescope + MIPS dual-beam imager in RIJHK bands, commencing at
+2007-11-13T05:26Z.  We detect the afterglow in coadded images for each
+of these bands, though only marginally in H and K.  The following
+afterglow magnitudes were calibrated using the USNO-B1.0 and 2MASS
+catalogues:
+
+ Filter    midtime(UTC)   integ.time(min) magnitude
+   R      2007-11-13 6.5h      39         22.18 +- 0.11
+   I      2007-11-13 6.8h      39         22.06 +- 0.18
+   J      2007-11-13 6.2h      19         21.1  +- 0.3
+   H      2007-11-13 7.1h      18         21.2  +- 0.8  * marginally
+   K      2007-11-13 6.8h      18         19.1  +- 0.3  * marginally
+
+This message may be cited.
+
