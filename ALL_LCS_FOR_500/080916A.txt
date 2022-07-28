@@ -1,0 +1,87 @@
+GRB 080916A
+
+Kann10
+Racusin=UVOT
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8249
+SUBJECT: GRB080916A: Refined Swift/UVOT Observations
+DATE:    08/09/16 19:58:10 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (UCL-MSSL) and H. Ziaeepour (UCL-MSSL) report on
+behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of
+GRB 080916A, 78s after the BAT trigger (Ziaeepour et al., GCN 8237).
+We detect the afterglow in all of the UVOT filters at the position:
+
+RA(J2000.0)  =  22:25:06.20
+DEC(J2000.0) =  -57:01:22.9
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence).
+This position is consistent with the UVOT enhanced XRT position (Evans et
+al., GCN 8241) and the REM position (Fugazza et al., GCN 8238).
+
+UVOT magnitudes are reported below for the finding charts (fc) and images:
+
+Filter    Tstart(s)  Tstop   Expo(s)   Magnitude/3sigUL
+-----------------------------------------------------
+white (fc)    78    178        98       18.33 +/- 0.06
+white        872    972        98       18.47 +/- 0.06
+v     (fc)   182    582       393       17.55 +/- 0.06
+v            978   1378       393       18.39 +/- 0.11
+b           1458   1477        19       18.90 +/- 0.35
+u            538    658        19       17.53 +/- 0.19
+w1           613    633        19       18.25 +/- 0.39
+m2           741   1565        39       18.42 +/- 0.40
+w2           692    864        39       18.75 +/- 0.37
+-----------------------------------------------------
+
+These magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E{B-V} = 0.02 mag (Schlegel et al.
+1998). The photometry is on the UVOT flight system described in Poole
+et al. (2008,MNRAS,383,627).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8266
+SUBJECT: GRB 080916A: GROND lightcurve
+DATE:    08/09/18 11:23:16 GMT
+FROM:    Andrea Rossi at TLS Tautenburg  <rossi@tls-tautenburg.de>
+
+A. Rossi (Tautenburg Obs.),T. Kruehler, J. Greiner, A. Yoldas, C. Clemens,
+ R. Filgas (all MPE Garching), A. Kupcu Yoldas (ESO) and 
+G. Szokoly (Eoetvoes Univ.,Budapest) report on behalf of the GROND team:
+
+GROND (Greiner et al. 2008, PASP 120, 405),  mounted at the 2.2m ESO/MPI
+telescope at La Silla Observatory (Chile), started observations of the
+field of GRB 080916A (Ziaeepour et al. GCN #8237) in g'r'i'z'JHK at 
+23:57:34 UT on 2008-09-16, 14 hours after the burst trigger.
+
+We clearly detect the optical afterglow detected by UVOT (Ziaeepour 
+et al. GCN #8237) and REM telescope (Fugazza et al. GCN #8238). 
+Observations continued for 60 min and were repeated at the mid-time 
+06:40 UT for total 60 min.
+
+Calibrating the field on USNO-B1 stars, we derive the following
+r band magnitudes, not corrected for the Galactic foreground 
+extinction corresponding to a reddening of E_(B-V)=0.019 mag 
+(Schlegel et al. 1998):
+
+midtime(s)	r	er
+52239       	21.8	0.03
+54054       	21.9	0.04
+74076       	22.1	0.07
+76260        	22.3	0.07
+
+The total r band light curve is well fitted by power law with index 
+of 0.81+- 0.13. Assuming the optical light curve continues 
+the decline with the same power law index, we predict r' 
+band magnitudes 23.4 at 3 days after the burst. 
+
+
+

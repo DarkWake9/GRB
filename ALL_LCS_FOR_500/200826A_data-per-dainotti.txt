@@ -1,0 +1,51 @@
+3# not corrected for A_r=0.154, A_g=0.222, A_i=0.11, A_z=0.08, A_R=0.146, A_H=0.03, EB-V=0.06 from Sclafly
+#
+#t0=59087.18740741 MJD  ;   2459087.68740741 JD     #At 04:29:52 UT on 26 Aug 2020,
+#Date,      UT start, t-T0,   Exp.,  Filter, OT,    Err.,     UL    REF
+#  
+2020-08-26 10:02:12.072  0.2112   --     g      20.86  0.04  22.50    ZTF Ahumada paper       
+2020-08-26 10:02:12.532  0.2304   --     r      20.69  0.05  22.27    ZTF Ahumada paper
+2020-08-26 10:02:13.672  0.2779   --     g      20.95  0.16  21.23    ZTF Ahumada paper
+2020-08-26 10:03:14.502  1.1458   --     g      22.75  0.26  22.53    ZTF Ahumada paper
+2020-08-26 10:03:12.102  1.2125   --     r      --     --    21.30   ZTF Ahumada paper
+2020-08-26 10:03:13.902  1.2875   --     g      --     --    21.2   ZTF Ahumada paper
+#  
+2020-08-26  22:22:17     0.7663  3720   CR      n/d    n/d    20.2    Kitab GCN28306    
+2020-08-27  22:08:30     1.7351  5520   CR      n/d    n/d    20.4    kitab GCN28306  
+# 
+2020-08-28  08:53:00     2.183    60     r     23.39 0.16    ---     LBT  our-photo ap2  without sub: 22.10   0.09 
+2020-08-28  08:53:00     2.183    60     g     24.08 0.19    ---     LBT  our-photo ap2  without sub: 22.64   0.10 
+# 
+2020-08-28  ----         2.27    --      r    ---    ---     23.30   FNT+LCO  Ahumada paper
+2020-08-28  ----         2.28    --      g    ---    ---     23.41   FNT+LCO  Ahumada paper
+#
+2020-08-29  10:04:56    3.23     1440    r    24.46   0.12   26.37  Lowell(LDT+LMI) Ahumada paper
+#
+# this is the only point for which I did flux subtraction of the host, from the value reported by Zhang+21
+2020--08-30  ---         3.99     ---    r    24.51  0.14   25.1     GTC. flux sub=24.45+-0.23. Zhang not subtracted but ext corrected is: 22.45+-0.06
+# 
+2020-09-02  09:31:25     7.21     120    r     ---    ---   23.6     LBT  our-photo  without sub:  22.89   0.12
+2020-09-02  09:31:25     7.21     120    g     ---    ---   23.6     LBT  our photo  without sub:  23.14   0.17
+#
+# MAO data is not deep enough to egt the transient (AG+SN) but perhaps constraints the decay after the break
+2020-09-10  20:08:00     15.67   30*120  R     ---    ---   24.3     MAO ; 23.9 5 sigma
+#####
+# mostly or only SN component below
+2020-09-23  11:13:18     28.3    ---     i     24.53 0.21   ---     Gemini your photo after median sub
+2020-09-23  11:13:18     28.3    ---     r     ---    ---   25.5     Gemini your photo after median sub
+# ---   --- 
+2020-09-27  02:00:00     31.9    32*240  r     ---    ---   25.3    TNG  our-photo ok final
+#      ---   --- 
+2020-09-28  11:19:00     33.3    1980    r     ---    ---   25.7     LBT  our-photo ok final
+2020-09-28  11:19:00     33.3    1980    g     ---    ---   25.8      LBT  our-photo ok final
+#---   --- 
+2020-10-11  07:18:00     46.1    ---     i     25.36 0.26  ---     Gemini your photo after median sub
+2020-10-11  07:18:00     46.1    ---     r     ---    ---   25.5     Gemini your photo after median sub
+#      ---   --- 
+2020-10-16  02:01:34     50.88   2400    r     ---    ---   25.6     LBT  our-photo ok final
+2020-10-16  02:01:34     50.88   2400    g     ---    ---   26.2     LBT  our-photo ok final
+## NIR
+##     
+2020-10-02  06:00:00     37.1    1180    H     24.06 0.20  24.6    im sub LBT  our-photo  # H=22.68+-0.19 Vega,+1.38= 24.06 +-0.20 AB with 0.08 calib uncertainty in quadrature
+##
+2020-12-01  06:00:00     97.0    2430    H     ---   ---   24.7    im sub LBT  our-photo  # H=23.3 Vega,+1.38= 24.7 

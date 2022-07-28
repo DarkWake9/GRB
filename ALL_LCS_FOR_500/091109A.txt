@@ -1,0 +1,168 @@
+GRB091109
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  10142
+SUBJECT: GRB 091109: Faulkes Telescope South observations
+DATE:    09/11/09 12:12:49 GMT
+FROM:    Cristiano Guidorzi at Ferrara U,Italy  <guidorzi@fe.infn.it>
+
+C. Guidorzi (U. Ferrara), R.J. Smith, C.G. Mundell, D. Bersier,
+A. Melandri, Z. Cano, S. Kobayashi, C.J. Mottram, I.A. Steele
+(Liverpool JMU), A. Gomboc (U. Ljubljana) report on behalf of
+a large collaboration:
+
+On 2009 November 9 at 09:26:10 UT the 2-m Faulkes Telescope South
+began observing GRB 091109 (Oates et al., GCN Circ. 10138) using
+the R and i' filters.
+
+We detect the UVOT optical afterglow candidate at a position
+consistent with that reported by Oates et al. (but not consistent
+with the object reported by REM Antonelli et al., GCN Circ. 10139),
+with the following magnitudes:
+
+Mid Time from GRB   Total Exp  Filter   Magnitude
+(hours)             (s)
+-----------------------------------------------------
+4.74                600         i'      21.7  +- 0.3
+5.29                600         R       21.95 +- 0.25
+-----------------------------------------------------
+
+Magnitudes have been calibrated from the nearby USNOB-1 star
+20:37:02.508, -44:09:33.68, using R2=17.52 and I=17.61.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  10143
+SUBJECT: GRB 091109: Swift/UVOT observations
+DATE:    09/11/09 12:24:27 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (MSSL-UCL) reports on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began observerving the field of GRB 091109 156s
+after the BAT trigger (Oates et al., GCN Circ. 10138). We detect the
+optical afterglow in the white filter only, which faded rapidly.
+The refined UVOT position is:
+
+     RA (J2000)  20:37:01.80
+    Dec (J2000) -44: 9:29.6
+
+with an estimated uncertainty of 0.7 arcsec (radius, 90% confidence).
+This position is consistent with the XRT refined position (Beardmore
+et al., GCN Circ 10140).
+
+Preliminary magnitudes and the 3 sigma upper limits are reported below.
+
+Filter    T_start(s)  T_stop(s)  Exposure      Mag  Err
+###########################################################
+white        156        306         147     19.88 +\- 0.14
+white	     5371       5571        197        > 21.26
+v	     4345       5981        393        > 19.94
+b	     5166       5365        197        > 20.49
+u	     314        6572        615        > 20.97
+uvw1	     4755       6392        393        > 20.59
+uvm2	     4550       6186        393        > 20.46
+uvw2	     4140       5777        393        > 20.68
+###########################################################
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E_{B-V} = 0.03 mag (Schlegel et al.,
+1998, ApJS, 500, 525).  The photometry is on the UVOT photometric system
+described in Poole et al. (2008, MNRAS, 383,627).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  10158
+SUBJECT: GRB 091109A: GROND and VLT observations
+DATE:    09/11/10 14:59:13 GMT
+FROM:    Thomas Kruehler at MPE/MPI  <kruehler@mpe.mpg.de>
+
+P. Afonso, T. Kruehler, A. Rau, and J. Greiner (all MPE Garching) report 
+on behalf of the GROND team:
+
+
+GROND (Greiner et al. 2008, PASP 120, 405), mounted at the 2.2m ESO/MPI 
+telescope at La Silla Observatory (Chile), observed the field of GRB 
+091109A (Oates et al., GCN #10138) simultaneously in the g'r'i'z'JHK bands.
+
+Observations were done under clear sky conditions, starting on Nov 10 at 
+00:07 UTC, 19.1 h after the burst and lasted for 1.8 hours.
+
+In stacked images corresponding to a total integration time of 60 min in 
+JHK and 75 min in g'r'i'z', we detect the optical afterglow (Oates et 
+al., GCN #10138, Guidorzi et. al, GCN #10142) in the g'r'i'z' bands and 
+obtain the following preliminary magnitudes and upper limits (all in the 
+AB system):
+
+g' = 24.5 +/- 0.1
+r' = 23.6 +/- 0.1
+i' = 23.4 +/- 0.1
+z' = 23.3 +/- 0.2
+J > 22.2
+H > 21.8
+K > 21.2
+
+which were derived using the GROND zero points and 2MASS catalog field 
+stars as reference. No correction has been made for the expected 
+extinction corresponding to a reddening of E(B-V) = 0.03 mag in the 
+direction of the burst (Schlegel et al. 1998).
+
+Associating the blue g'-r' color with Lyman-alpha absorption in the host 
+of the GRB, we obtain a photometric redshift of z = 3.5 +/- 0.4 assuming 
+no intrinsic dust.
+
+In addition, we triggered VLT/FORS2 spectroscopy, that started Nov 10 at 
+02:23 UTC, 21.5 h post-burst. Two integrations of 1800 s each at a mean 
+airmass of 2.1 were obtained using the 600RI grism that covers the 
+wavelength range from 5300 to 8700 A.  In the low S/N spectrum we find a 
+tentative ~60A EW broad absorption feature around a wavelength of 5700A. 
+If associated with Lyman-alpha absorption, the corresponding redshift of 
+~3.5 would be in agreement with the GROND photo-z.
+
+We note, however, that all observations are also consistent with a host 
+galaxy at a redshift of z ~ 0.44. Given the absence of information about 
+a possible host galaxy contribution we cannot distinguish these two 
+possibilities at this point.
+
+We thank A. Smette and P. Lynam at Paranal for excellent support.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  10246
+SUBJECT: GRB 091109A: GROND confirmation of redshift z = 3.5
+DATE:    09/12/04 17:32:12 GMT
+FROM:    Paulo M. J. Afonso at MPE  <pafonso@mpe.mpg.de>
+
+GRB 091109A: GROND confirmation of redshift z = 3.5
+
+P. Afonso, T. Kruehler, A. Rau, and J. Greiner (all MPE Garching) report
+on behalf of the GROND team:
+
+GROND (Greiner et al. 2008, PASP 120, 405), mounted at the 2.2m ESO/MPI
+telescope at La Silla Observatory (Chile), reobserved the field of GRB
+091109A (Oates et al., GCN #10138) simultaneously in the g'r'i'z'JHK
+bands.
+
+Observations started 2009-11-20 00:42, 10.8 days after the trigger and
+lasted for an effective exposure of 75 min in g'r'i'z' and 60 min in JHK.
+
+At the position of the optical afterglow (Guidorzi et al. GCN#10142,
+Oates GCN#10143, Afonso et al., GCN #10158) we do not detect any source
+down to a limiting magnitude of r' > 25.1.
+
+Comparing with the brightness of r' = 23.6 +- 0.1 mag (AB) reported for
+the 1st epoch (Afonso et al., GCN #10158), the last imaging clearly
+shows a fading of more than 1.5 magnitudes. The 1st epoch was hence
+dominated by afterglow light, favoring a redshift of around z = 3.5 +/-
+0.4.
+
+A thorough analysis of the VLT data (GCN # 10158) was limited by the
+very low S/N of the optical spectrum and does not yield more precise
+redshift constraints.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
