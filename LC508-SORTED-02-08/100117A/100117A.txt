@@ -1,0 +1,117 @@
+GRB100117A
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  10337
+SUBJECT: GRB100117A: Possible afterglow from NOT observation
+DATE:    10/01/17 23:14:51 GMT
+FROM:    Dong Xu at DARK,NBI  <dong@astro.ku.dk>
+
+D. Xu (WIS, DARK/NBI), D. Malesani, G. Leloudas, J.P.U. Fynbo 
+(DARK/NBI), A.A. Djupvik, R. Karjalainen (NOT), N.R. Tanvir (U. 
+Leicester), P. Jakobsson (Univ. of Iceland) report on behalf of a larger 
+collaboration:
+
+We observed the field of GRB100117A (De Pasquale et al., GCN 10336) with 
+the Nordic Optical Telescope equipped with StanCam and NOTCam, starting 
+at 21:26:40 UT on Jan 17th, 20.35 mins after the burst trigger. The 
+observations were carried out at high airmass (~2) and in poor seeing.
+
+In a 900 s R-band image, starting at 21:48:42 UT, we notice the presence 
+of a faint, marginally significant object at coordinates:
+
+RA(J2000)=00h 45m 04.75s
+Dec(J2000)=-01d 35' 47.4"
+
+with an error circle of 0.5 arcsec. If real, its magnitude is R = 
+22.5+/-0.5.
+
+The co-addition of a series of K-band images doesn't show any convincing 
+counterpart on the position.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  10339
+SUBJECT: GRB 100117A: Gemini South Imaging and CFHT Pre-Explosion Images
+DATE:    10/01/18 02:06:23 GMT
+FROM:    S. Bradley Cenko at Caltech  <cenko@srl.caltech.edu>
+
+S. B. Cenko, D. A. Perley, J. S. Bloom, B. E. Cobb, and A. N. Morgan (UC
+Berkeley) report on behalf of a larger collaboration:
+
+We have obtained pre-explosion images of the field of GRB100117A from the
+Canada-France-Hawaii MegaCam archive.  Images were obtained in the g', r',
+and z' filters on 26 December 2005, and in the i' filter on 12 November
+2007.  Exposure times ranged from 240 s in g'-band to 500 s in i'-band.
+
+Inside the candidate XRT afterglow localization (de Pasquale; GCN 10336),
+we find four sources, with the following positions and R- and I-band
+magnitudes (calibrated relative to several USNO-B1 sources in the field;
+expected systematic uncertainty ~ 0.3 mag):
+
+Source 	RA		Dec (J2000.0)		R	I
+----------------------------------------------------------------------
+S1	00:45:04.82 	-01:35:47.7 		23.1	21.0
+S2	00:45:04.78 	-01:35:45.5 		23.6	22.9
+S3	00:45:04.70 	-01:35:42.0 		24.5	22.9
+S4	00:45:04.53 	-01:35:49.2 		> 24.7	23.6
+
+We have also obtained a single epoch of acquisition imaging in i'-band of
+the field with GMOS on Gemini South beginning at 00:46 on 18 January 2010
+(~ 4.7 hours after the burst).  We detect only S1 in this image, at a
+magnitude consistent with the value derived from the CFHT image.
+
+Furthermore, given the uncertainty in our astrometry (~ 0.5" in each
+coordinate), we believe it likely this is the same source identified by
+Xu et al. (GCN 10337) at R = 22.5 +/- 0.5.  We therefore have no evidence
+that this source has varied.
+
+Further observations are planned.
+
+We wish to thank the Gemini Observatory staff, in particular Peter Pessev,
+for assistance with these observations.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  10344
+SUBJECT: Swift/UVOT refined analysis of GRB100117A
+DATE:    10/01/18 18:00:20 GMT
+FROM:    Massimiliano de Pasquale at MSSL-UCL  <mdp@mssl.ucl.ac.uk>
+
+M. De Pasquale (MSSL/UCL), S. T. Holland (NASA/GSFC), S. Oates (MSSL) 
+report, on the behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 100117A
+89s after the BAT trigger (De Pasquale et al., GCN 10336). We do not
+detect any source in the UVOT-enhanced XRT error circle (Sbarufatti et
+al. GCN 10342) in the initial finding chart in the white filter, nor
+in the other filters. We do not detect the the S3 source of Cenko
+et al. (GCN 10339). UVOT magnitude 3-sigma upper limits are
+reported in the following table:
+
+Filter   T_start   T_stop   Exp(s)  Mag (3-sigma upper limit)
+-------------------------------------------------------------
+WHITE        89      238     147          > 20.4
+WHITE        89    11957    1228          > 21.4
+v          5589    17747    1082          > 19.8
+b           557     6607     216          > 19.9
+u           302     6402     442          > 19.9
+uvw1       5999    18941     474          > 20.1
+uvm2       5793    18652    1082          > 20.8
+uvw2       5384    12757     978          > 20.9
+
+No UVOT source has been found at the position of the NOT source
+(Xu et al., GCN 10337) outside the XRT error circle.
+
+The quoted upper limits have not been corrected for the expected
+Galactic extinction along the line of sight of E_(B-V) = 0.02 mag
+(Schlegel et al. 1998). All photometry is on the UVOT photometric
+system described in Poole et al. (2008, MNRAS, 383, 627).
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

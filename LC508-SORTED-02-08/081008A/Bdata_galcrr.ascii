@@ -1,0 +1,30 @@
+==========================================================================================================================================
+Tmid		Exposure	Rate	Rate	Err	Mag	Mag	    Mag Err	Mag UL	Flux		Flux		Flux Err
+				(obs) (ext.corr)	(obs) (ext.corr)			(obs)		(ext.corr)
+(s)		(s)		(cts/s) (cts/s)		      				(3-sig)	(mJys)		(mJys)
+==========================================================================================================================================
+519.6		19.5		21.686	30.852	1.109	15.77	15.39	+0.06	-0.05	15.61	1.995e+00	2.839e+00	1.021e-01
+692.4		19.4		14.731	20.957	0.933	16.19	15.81	+0.07	-0.07	16.00	1.355e+00	1.928e+00	8.581e-02
+1145.0		19.5		10.428	14.836	0.798	16.56	16.18	+0.09	-0.08	16.34	9.596e-01	1.365e+00	7.346e-02
+1318.5		19.4		8.595	12.228	0.735	16.77	16.39	+0.10	-0.09	16.53	7.909e-01	1.125e+00	6.760e-02
+1492.1		19.4		8.986	12.784	0.747	16.73	16.34	+0.09	-0.09	16.48	8.269e-01	1.176e+00	6.877e-02
+1664.2		19.4		7.497	10.666	0.691	16.92	16.54	+0.11	-0.10	16.66	6.898e-01	9.814e-01	6.363e-02
+7262.2		196.6		1.912	2.720	0.129	18.41	18.02	+0.08	-0.07	18.21	1.760e-01	2.503e-01	1.184e-02
+17071.1		599.0		0.621	0.883	0.053	19.63	19.24	+0.10	-0.09	19.38	5.713e-02	8.127e-02	4.902e-03
+41786.0		396.3		0.215	0.305	0.048	20.78	20.40	+0.27	-0.22	20.23	1.974e-02	2.809e-02	4.386e-03
+70718.5		409.0		0.121	0.173	0.045	21.40	21.02	+0.50	-0.34	20.59	1.117e-02	1.589e-02	4.143e-03
+
+
+column 1: mid-time in exposure, in seconds, since BAT trigger
+column 2: exposure of seconds
+column 3: count rate (uncorrected for galaxy extinction)
+column 4: count rate (corrected for galaxy extinction)
+column 5: count rate error
+column 6: magnitude (uncorrected for galactic extinction)
+column 7: magnitude (corrected for galaxy extinction)
+column 8: magnitude positive error
+column 9: magnitude negative error
+column 10: magnitude 3sigma upper limit
+column 11: flux density (mJys) (uncorrected for galactic extinction)
+column 12: flux density (mJys) (corrected for galaxy extinction)
+column 13: flux density error (mJys)

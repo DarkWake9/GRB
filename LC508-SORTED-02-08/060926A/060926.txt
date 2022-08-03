@@ -1,0 +1,128 @@
+GRB 060926
+
+racusin
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Lipunov 07
+
+Photometry of GRB 060926 obtained on the MASTER telescope
+Beginning of
+exposure, s
+Middle of
+exposure, s Exposure, s Magnitude
+Flux,
+erg cm−2 s−1 eV−1
+Flux after correction
+for absorption,
+erg cm−2 s−1 eV−1
+76     91 1 × 30 17.3m ± 0.3m (1.4 ± 0.3) × 10−13 (4.3 ± 1.0) × 10−12
+150 165 1 × 30 18.5 ± 0.3 (4.6 ± 1.1) × 10−14 (1.4 ± 0.4) × 10−12
+165 343 5 × 30 19.3 ± 0.3 (2.2 ± 0.5) × 10−14 (6.9 ± 1.7) × 10−13
+255 432 5 × 30 18.9 ± 0.3 (3.2 ± 0.8) × 10−14 (9.9 ± 2.4) × 10−13
+343 519 5 × 30 18.5 ± 0.3 (4.6 ± 1.1) × 10−14 (1.4 ± 0.3) × 10−12
+432 608 5 × 30 18.3 ± 0.3 (5.8 ± 1.3) × 10−14 (1.7 ± 0.4) × 10−12
+519 707 5 × 30 18.4 ± 0.3 (5.1 ± 1.2) × 10−14 (1.6 ± 0.4) × 10−12
+608 804 5 × 30 18.7 ± 0.3 (3.9 ± 0.9) × 10−14 (1.2 ± 0.3) × 10−12
+707 1001 5 × 30 20.0 ± 0.3 (1.2 ± 0.3) × 10−14 (3.6 ± 0.9) × 10−13
+804 1200 5 × 30 20.1 ± 0.3 (1.1 ± 0.3) × 10−14 (3.3 ± 0.8) × 10−13
+901 1298 5 × 30 > 20.1 ± 0.3 < (1.1 ± 0.3) × 10−14 < (3.3 ± 0.8) × 10−13
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5623
+SUBJECT: GRB 060926: OPTIMA-Burst -- further observations
+DATE:    06/09/27 00:40:02 GMT
+FROM:    Alexander Stefanescu at MPE  <astefan@mpe.mpg.de>
+
+A. Stefanescu, F. Schrey, S. Duscha, G. Kanbach, M. Muehlegger, N.
+Primak, H. Steinle (MPE Garching) of the OPTIMA-Burst Team report the
+following:
+
+We have observed the OT of GRB 060926 under unfavorable weather 
+conditions until it became unobservable at ~18:40 UT. To make 
+comparision easier with GCN 5618 (U. Kiziloglu et al.), we have 
+callibrated our observations against the R2-magnitudes of 4 nearby 
+USNO-B1 stars (1030-0324059, 1030-0324042, 1030-0324039, 1030-0324046). 
+We estimate the magnitude of the OT as follows:
+
+    t-t_BAT        exp-time
+[min] (mid-exp)     [s]         R_mag
+-----------------------------------------------
+    35.4             600         20.3 +-0.5
+    59.7             600         20.6 +-0.5
+    72.7             600         20.7 +-0.7
+    90.7             2x 1200     21.0 +-0.7
+    101.2            1200        21.1 +-0.7
+
+
+We fitted these values with a powerlaw with a decay index of 0.73 +-0.1.
+This is significantly shallower than the powerlaw between the MASTER 
+observations (GCN 5619, V. Lipunov et al.) and ours, with a decay index 
+of 0.90 +-0.06 - allthough this could be due to incompatibilities in 
+zero-point.
+
+We thank J. Papamastorakis of the University of Crete and his team for 
+the possibility to use the 1.3m Telescope at Skinakas Observatory for a 
+prolonged period of time.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5625
+SUBJECT: GRB 060926: Swift-UVOT Detections
+DATE:    06/09/27 02:20:21 GMT
+FROM:    Pete Roming at PSU  <roming@astro.psu.edu>
+
+P. Roming (PSU) and S. T. Holland (GSFC/USRA) report on behalf of the Swift-UVOT
+team:
+
+The Swift UVOT began observing GRB 060926, 57 seconds after the BAT trigger (GCN
+5612). We detect a source at the 4.8- and 4.3-sigma levels in the V- and UVW1-
+(251 nm) filters, respectively. The magnitude of the source is 19.0+/-0.2
+(V-filter) and 18.8+/-0.2 (UVW1-filter) as determined by the Swift analysis
+tool, uvotsource.
+
+No optical afterglow is detected at the 3-sigma level in individual or coadded
+exposures in the UVOT UVW2-, UVM2-, U-, or B-filters. The 3-sigma limiting
+magnitudes for the coadded images of the UVOT filters are listed below:
+
+Filter		T_range(s)	Exp(s)		Upper Limit (3-sigma)
+UVW2		551-6405	432		20.1
+UVM2		463-10840	1366		20.4
+U		511-12283	968		20.8
+B		535-6199	422		20.6
+
+where T_range is the start and end times of the coadded exposures. No correction
+has been made for Galactic reddening along the line of sight (E(B-V) = 0.16).
+
+No images were taken in the White-filter by the UVOT since bright stars were in
+the field-of-view.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5645
+SUBJECT: GRB 060926: Swift-UVOT UVW1 Detection Retraction
+DATE:    06/09/28 14:57:57 GMT
+FROM:    Pete Roming at PSU  <roming@astro.psu.edu>
+
+P. Roming (PSU) and S. T. Holland (GSFC/USRA) report on behalf of the 
+Swift-UVOT team:
+
+Due to an error in the flux calculation, the reported UVW1 (251 nm) filter 
+detection in GCN 5625 is not real. No optical afterglow is detected at the 
+3-sigma level in individual or coadded exposures in this filter. The 
+3-sigma limiting magnitude for the coadded images is listed below:
+
+Filter      T_range(s)      Exp(s)     Upper Limit (3-sigma)
+UVW1    487-11748      1337       20.4
+
+where T_range is the start and end times of the coadded exposures. No 
+correction has been made for Galactic reddening along the line of sight 
+(E(B-V) = 0.16). We also point out that the 4.8-sigma level V-filter 
+detection report in GCN 5625 is real. We apologize for any inconvenience 
+this error has created.

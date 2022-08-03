@@ -1,0 +1,225 @@
+GRB 081203
+
+Panaitescu 11
+
+Kuin 09 = UVOT
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8603
+SUBJECT: Swift UVOT observations of GRB 081203A
+DATE:    08/12/03 22:06:27 GMT
+FROM:    Massimiliano de Pasquale at MSSL-UCL  <mdp@mssl.ucl.ac.uk>
+
+  M. De Pasquale (MSSL/UCL) and A. Parsons (GSFC) reports, on the
+behalf of the Swift UVOT team:
+
+  Swift UVOT began settled exposures of GRB081203A (trigger 336489,
+Parsons et al, GCN circular 8595) 93 s after the burst trigger. A
+bright optical transient is detected at the following coordinates:
+
+RA = 15h 32m 07.58s (=233.031580), Dec = +63d 31m 14.9s (=63.520810) 
+J2000
+
+  with an uncertainty of 0.5'' (90% confidence level). This position is 
+consistent with the XRT refined error circle (Goad et al, GCN circ 8598).
+
+  The source is detected in all filters but um2. Below, we show time of 
+observations, the exposure time and the magnitude and 3 sigma upper
+limits for this optical afterglow.
+
+
+
+       T_start (s)   T_stop (s)   Exp (s)        Mag
+
+  wh       93          242        146.2      14.53 +/- 0.01
+
+  wh      586          605        19.5       13.91 +/- 0.01
+
+
+  v       636          655        19.5       13.30 +/- 0.03
+
+
+  b       561          580        19.5       13.53 +/- 0.01
+
+
+  u       306          555         246       13.07 +/- 0.01
+
+  u       709          728         19.5      13.53 +/- 0.02
+
+
+  uw1     685          704         19.5      14.82 +/- 0.07
+
+
+  um2     660          679         19.5          > 17.57
+
+  um2     660         6008        412.6          > 20.1
+
+
+  uw2     611          630         19.5       17.19 +/- 0.25
+
+
+
+  The nondetection in the um2 filter is consistent with the
+redshift z=2.1 derived from grism spectra (Landsman et al, GCN
+circ 8601). The detection in the uw2 filter is consistent with
+this redshift due to the long-wavelength tail of the uw2
+filter response.
+
+  The above magnitudes have not been corrected for the Galactic
+extinction corresponding to E(B-V) = 0.02 (Schlegel et al 1998)
+The photometry is on the UVOT flight system described in Poole
+et al (2008, MNRAS, 383,627)
+
+[GCN OPS NOTE(03dec08):  Per author's request, the "A" was added to the burst name.]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8617
+SUBJECT: GRB 081203A: Skynet/GORT Detections
+DATE:    08/12/05 01:15:13 GMT
+FROM:    James Philip West at UNC/Chapel Hill  <jpwest@uncg.edu>
+
+J. P. West, K. McLin, T. Brennan, J. Haislip, D. Reichart, L. Cominsky, T.
+Graves, G. Spear, K. Ivarsen, J. A. Crain, A. Foster, R. Holmes, A.
+LaCluyze, M. Schubel, J. Styblova, A. Trotter, and E. Weaver report:
+
+Skynet observed the localization of GRB 081203A (Parsons et al., GCN 8595)
+with the 14" GORT telescope at Hume Observatory in California beginning 122
+seconds after the trigger (101 seconds after notification) in RI.
+
+Only five exposures were taken before morning twilight.  We detect the
+afterglow (Parsons et al., GCN 8595) in all five exposures.  Calibrated to
+five USNO B1 stars, we find:
+
+mean time
+since trigger   exposure        filter          magnitude
+(sec)           (sec)
+
+134             20              I               12.79 +/- 0.02
+235             40              R               12.60 +/- 0.01
+345             40              I               11.58 +/- 0.01
+476             80              R               12.51 +/- 0.01
+625             80              I               12.02 +/- 0.01
+
+[GCN OPS NOTE(05dec08): Per author's request, the "magnutude time" column label
+was changed to "magnitude".]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8619
+SUBJECT: GRB081203A: MITSuME optical observation
+DATE:    08/12/05 11:04:48 GMT
+FROM:    Michitoshi Yoshida at Okayama Astrophysical Obs  <yoshida@oao.nao.ac.jp>
+
+Y. A. Mori, H. Nakajima, T. Shimokawabe, N. Kawai (Tokyo Tech),
+D. Kuroda, M. Yoshida, K. Yanagisawa, Y. Shimizu, H. Toda, and
+S. Nagayama (OAO, NAOJ) report on behalf of the MITSuME
+collaboration:
+
+We performed optical imaging observation of the field of GRB 081203A
+(Parsons, et al., GCN Circ. 8595) with the 3-color 50cm MITSuME
+Telescopes at Akeno Observatory and Okayama Astrophysical Observatory
+from UT 17:50 to UT 20:55, 3.9 hours after the trigger.
+
+In the co-added images of Rc, and g' bands, we detected the optical
+afterglow detected with UVOT (Parsons, et al., GCN Circ. 8595).
+Photometric calibration was done using the GSC2.3 catalogs.
+The results are following:
+
+Akeno:
+MID-MJD      MID-UT    EXP-T        g'            Rc
+----------------------------------------------------------
+54803.753779 18:12:54  1620.0  18.50+/-0.24  18.11+/-0.25
+----------------------------------------------------------
+
+Okayama:
+MID-MJD      MID-UT    EXP-T        g'            Rc
+----------------------------------------------------------
+54803.790960 18:58:59  1500.0  18.87+/-0.26  18.36+/-0.19
+54803.811830 19:29:03  1500.0  19.18+/-0.25  17.89+/-0.15
+54803.833037 19:59:35  1560.0  19.11+/-0.23  18.49+/-0.24
+54803.854522 20:30:31  1560.0  19.63+/-0.32  18.91+/-0.19
+----------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8629
+SUBJECT: GRB081203A: Optical observations at Ishigaki
+DATE:    08/12/06 13:25:53 GMT
+FROM:    Mizuki Isogai at NAOJ  <mizuki.isogai@nao.ac.jp>
+
+M. Isogai (IAO, NAOJ) and N. Kawai (Tokyo Tech) report with support 
+of MITuME collaboration:
+
+We observed the field of GRB 081203A(Parsons, et al., GCN Circ. 8595) 
+with the optical 3-color imager attached to the 105cm Murikabushi 
+Telescope at Ishigakizima Astronomical Observatory in Japan from 
+UT 19:52, 5.9 hours after the trigger.
+
+In the co-added images of Ic, Rc, and g' bands, we detected a fading
+point source and measured its magnitude. Photometric calibration was 
+performed using the GSC2.3 catalogs. 
+The results are following:
+
+MID-MJD      MID-UT    EXP-T      g'             Rc           Ic
+----------------------------------------------------------------------
+54803.837345 20:05:46  720.0                              18.50+/-0.09
+54803.837345 20:05:46  900.0  19.43+/-0.11  18.76+/-0.06
+54803.847273 20:20:04  720.0  19.39+/-0.11  
+54803.848363 20:21:38  900.0                18.83+/-0.06  18.49+/-0.08
+54803.859451 20:37:36  900.0  19.57+/-0.11  18.96+/-0.06  18.67+/-0.09
+54803.870356 20:53:18  900.0  19.77+/-0.11  18.94+/-0.07  18.72+/-0.10
+54803.881257 21:09:00  900.0  19.71+/-0.12  19.04+/-0.07  18.71+/-0.10
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8645
+SUBJECT: GRB 081203A: optical observations
+DATE:    08/12/10 02:07:24 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+V. Rumyantsev, K. Antonyuk (CrAO), M. Andreev(Terskol Branch of Institute 
+of Astronomy), A. Pozanenko (IKI) on behalf of larger GRB follow up 
+collaboration report:
+
+We observed   the field of GRB 081203  (Parsons  et al, GCN 8595) with the 
+AZT-11 telescope of CrAO observatory  starting  Dec. 03 (UT) 15:44:29 
+under good weather conditions and seeing of about ~2 arcsec. Several 
+exposures were obtained in VRI bands up to 17:13:56 and then between
+Dec. 04 (UT) 01:19:13 - 02:47:51.
+
+Coordinates of the afterglow are RA(J2000)= 15:32:07.58 Dec(J2000)= 
++63:31:14.8 with uncertainty of 0.2 arcsec which is compatible with the 
+coordinates of the afterglow (Parsons  et al, GCN 8595).
+
+Preliminary photometry based on SDSS star J153200.06+633229.9 
+(RA(J2000)=15:32:00.01 Dec(J2000)=+63:32:30.4) assuming V=17.28   R=16.85 
+I=16.46 is following
+
+T0+  Filter Exp.  mag.
+s           s
+
+  6528 V     180   16.84 +/-0.02
+  6712 R     180   16.63 +/-0.02
+  6896 I     180   16.22 +/-0.02
+11524 V     180   17.68 +/-0.05
+11708 R     180   17.53 +/-0.03
+11892 I     180   17.15 +/-0.04
+41196 R   3x180   20.27 +/-0.15
+46144 R   3x180   20.20 +/-0.14
+
+While light curves in a time interval 6500 - 12000 s after burst onset in 
+R and I bands look similar with a power law decay index of about 0.66, the 
+power law decay index in V-band is ~0.59 and one can suggest a spectral 
+variability of the afterglow. Also we observed steep decay between 12000 - 
+46000 s with a power law index of about 1.9.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

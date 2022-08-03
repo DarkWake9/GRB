@@ -1,0 +1,155 @@
+GRB 080607
+
+Kruelher 11
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Perley 11
+
+Photometry of GRB 080607
+Telescope/GCN ta Filter Exp. Time Mag.b Fluxc
+(s) (s) (μJy)
+PAIRITEL 89.0 J 23.4 13.766 ± 0.107 5048.6 ± 475.4
+PAIRITEL 89.0 H 23.4 12.050 ± 0.109 15657.3 ± 1501.3
+PAIRITEL 89.0 Ks 23.4 10.750 ± 0.139 33681.7 ± 4058.1
+KAIT 188.0 Clear 20.0 17.501 ± 0.055 326.0 ± 16.1
+KAIT 158.0 I 20.0 16.582 ± 0.094 587.2 ± 48.7
+KAIT 128.0 V 20.0 17.538 ± 0.142 379.9 ± 46.6
+ROTSE 24.5 Clear 5.0 14.920 ± 0.040 3512.1 ± 127.0
+Super-LOTIS 40.8 R . . . 15.060 ± 0.059 3087.2 ± 163.7
+P60 234.8 R 60.0 17.524 ± 0.014 319.1 ± 4.1
+P60 406.1 i 60.0 18.359 ± 0.022 171.1 ± 3.4
+P60 491.8 z 60.0 18.694 ± 0.092 127.3 ± 10.3
+UKIRT 2347.5 K 360.0 14.624 ± 0.025d 949.7 ± 21.6d
+UKIRT 4231.5 J 180.0 18.470 ± 0.054 66.29 ± 3.22
+UKIRT 4524.0 H 180.0 17.060 ± 0.035 155.1 ± 4.9
+Notes. Contains only the first data point in each filter taken by each telescope.
+a Exposure mid-time, measured from the Swift trigger (UT 06:07:27).
+b Observed value, not corrected for Galactic extinction.
+c Corrected for Galactic extinction (EB−V = 0.023 mag).
+d Point not used in modeling.
+(This table is available in its entirety in machine-readable and Virtual Observatory (VO) forms in the
+online journal. A portion is shown here for guidance regarding its form and content.)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7846
+SUBJECT: GRB 080607: ROTSE-III Detection of Optical Counterpart
+DATE:    08/06/07 06:11:50 GMT
+FROM:    Wiphu Rujopakarn at U AZ/Steward  <wiphu@as.arizona.edu>
+
+W. Rujopakarn (Steward), E.S. Rykoff (UCSB), report on behalf of the ROTSE
+collaboration:
+
+ROTSE-IIIb, located at McDonald Observatory, Texas, responded to GRB
+080607 (Swift trigger 313417). The first image was at 06:07:49.0 UT, 22.0
+s after the burst (6.0 s after the GCN notice time). The unfiltered images
+are calibrated relative to USNO A2.0. We detect a 14.8 magnitude, fading
+source with coordinates:
+
+     12:59:47.3      +15:55:10.8    (J2000), with positional uncertainty
+of 1" or better
+
+start UT    	mag     mlim(of image)
+----------------------------------
+06:07:49.0     14.8     16.4
+
+
+This source is not visible in DSS (second epoch), 2MASS or the MPChecker
+database.
+
+A jpeg image is available at
+http://www.rotse.net/images/gsb313417_3b00_img.jpg Note that the object
+marked 11 is the candidate in question.
+
+Continuing observations are in progress.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7850
+SUBJECT: GRB 080607 - PAIRITEL NIR detection
+DATE:    08/06/07 07:53:03 GMT
+FROM:    Adam Miller at UC Berkeley  <amiller@astro.berkeley.edu>
+
+A. A. Miller, J. S. Bloom, D. A. Perley (UC Berkeley), D. Starr (UCB, 
+LCOGT) report:
+
+We observed the optical afterglow of GRB 080607 (Mangano et al., GCN 
+7847, Rujopakarn et al., GCN 7846) with the 1.3m Peters Automated Infrared 
+Imaging Telescope (PAIRITEL). Observations began at 06:08:44 Jun 07, 
+2008 UT. We detect the afterglow in a 612 sec mosaic of 7.8 sec 
+simultaneous exposures in the J, H, and Ks filters. Preliminary 
+photometry for the afterglow in exposures beginning on 06:10:32 Jun 07, 
+2008 UT yields J = 17.1 +- 0.1, H = 15.3 +- 0.1, and  Ks = 13.7 +- 0.1, 
+calibrated to the 2MASS system.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7856
+SUBJECT: GRB 080607 KAIT observations
+DATE:    08/06/07 19:16:14 GMT
+FROM:    Ryan Chornock at UC Berkeley  <chornock@astro.berkeley.edu>
+
+R. Chornock, W. Li, and A. V. Filippenko (UC Berkeley) report:
+
+The Katzman Automatic Imaging Telescope (KAIT) at Lick Observatory responded to 
+the Swift alert for GRB 080607 (Mangano et al., GCN 7847) and detected the 
+optical afterglow previously announced by several other teams (Rujopakarn et 
+al., GCN 7846; Mangano et al., GCN 7847; Updike et al., GCN 7848; Prochaska et 
+al., GCN 7849; Miller et al., GCN 7850).
+
+KAIT took a series of V, I, and unfiltered images starting at 06:09:25 (UT), 
+118s after the BAT trigger.  The KAIT position is:
+   (J2000) 12:59:47.22  +15:55:11.0
+
+The preliminary unfiltered light curve shows a power-law decay from magnitude 
+17.60 at t=188s with a decay index of alpha = -1.27 +/- 0.09.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7858
+SUBJECT: Swift/UVOT Observations of GRB080607
+DATE:    08/06/07 21:15:59 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL/UCL) and V. Mangano (INAF-IASFPA) report on behalf of the
+Swift UVOT team
+
+The Swift UltraViolet/Optical Telescope (UVOT) began taking settled 
+observations of GRB 080607 92 seconds after the initial Swift BAT trigger 
+(Mangano et al., GCN Circ. 7847). A faint afterglow is detected in the first 
+white and v-band finding chart exposures only at the refined uvot position of 
+RA=194.94665, Dec=+15.91965 deg.(= 12:59:47.20 +15:55:10.74), with an accuracy 
+of 0.5". This is consistent with the GRB being at a redshift of z=3.036, as 
+reported in GCN Circ. 7849 (Prochaska et al.)
+
+The first white and v-band finding chart magnitudes with 1-sigma errors are 
+given below, as well as the 3-sigma upper limits for co-added images from later 
+observations.
+
+Filter Tmid(s) Exp(s)  Magnitude/3-sig UL
+---------------------------------------------
+wh     190.9     98.2    19.79 +/- 0.13
+wh     4806.9    510.6   > 22.07
+v      594.6     393.5   19.44 +/- 0.19
+v      4048.5    300.2   > 20.11
+b      5527.9    412.5   > 21.28
+u      4934.2    432.2   > 20.93
+uvw1   4934.2    432.1   > 20.80
+uvm2   4745.1    432.1   > 20.57
+uvw2   5745.6    358.5   > 20.83
+---------------------------------------------
+
+where Tmid is the weighted mid time of the observation. The values quoted above 
+are on the UVOT Photometric System (Poole et al, 2008, MNRAS 383,627). They are 
+not corrected for the expected galactic reddening of E(B-V) = 0.02 in the 
+direction of the burst (Schlegel et al. 1998).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

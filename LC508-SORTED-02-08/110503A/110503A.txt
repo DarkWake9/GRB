@@ -1,0 +1,394 @@
+GRB 110503A
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  11994
+SUBJECT: GRB 110503A: NOT afterglow photometry 
+DATE:    11/05/03 22:52:47 GMT
+FROM:    Giorgos Leloudas at Dark Cosmology Centre  <giorgos@dark-cosmology.dk>
+
+G. Leloudas (DARK/NBI),  D. Xu (WIS), A. de Ugarte Postigo (DARK/NBI), P. Jakobsson (U. Iceland), L. Guaita, A. Sandberg (OKC/Stockholm), report on behalf of a larger collaboration.
+
+We used the Nordic Optical Telescope (La Palma, Spain) equipped with MOSCA to observe GRB 110503A (Stamatikos et al., GCN 11991).
+Observations were conducted in the UBVRI filters starting at 21:18 UT (222.3 min after the BAT trigger). The exposure times were 600, 300, 300, 300 and 400 s respectively. 
+
+The afterglow is well detected in all filters at a position consistent with the UVOT observations (Stamatikos et al., GCN 11991). 
+
+Photometry, using stars 1422-0232263 and 1422-0232264 of the USNO B1.0 catalog as comparison, gives B ~ 19.7 and R ~ 19.3.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  11996
+SUBJECT: GRB 110503A - TLS Afterglow Observations
+DATE:    11/05/03 23:19:12 GMT
+FROM:    Alexander Kann at TLS Tautenburg  <kann@tls-tautenburg.de>
+
+D. A. Kann, S. Schmidl, C. Hoegner, B. Stecklum, S. Schumann and M.
+Hartmann (TLS Tautenburg) report:
+
+We observed the afterglow of GRB 110503A (M. Stamatikos et al., GCN 11991,
+G. Leloudas et al., GCN 11994) at z=1.613 (A. de Ugarte Postigo et al.,
+GCN 11993) with the 2m/1.34m Schmidt telescope of the Thueringer
+Landessternwarte Tautenburg under excellent observing conditions (low
+airmass, good transparency and seeing) starting during dawn at 0.098715
+days after the GRB.
+
+Observations consisted of 3 x 180 s each in Z, Ic, Rc, V, B, followed by 3
+x 300 s each in Z, Ic, Rc, V, B. The afterglow is detected on the single
+images.
+
+Assuming the USNO-B1.0 1421-0227752 star at RA = 08:51:10.01 (132.791692)
+Dec. = +52:11:04.75 (+52.184653) has R = 16.91 (mean of R1 and R2 mags,
+0.06 mags difference), we find for two Rc band observations:
+
+t (days after trigger) = 0.1187616, Rc = 19.07 +/- 0.03
+t (days after trigger) = 0.1750347, Rc = 19.51 +/- 0.04
+
+Errors are statistical only.
+
+Observations are continuing as weather permits with 600 s exposures in all
+five colors.
+
+This message may be cited.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  11998
+SUBJECT: GRB 110503A: PAIRITEL NIR Detection
+DATE:    11/05/04 06:36:46 GMT
+FROM:    Adam Morgan at U.C. Berkeley  <qmorgan@gmail.com>
+
+A. N. Morgan, and J. S. Bloom (UC Berkeley) report:
+
+We observed the field of GRB 110503A (Stamatikos et al., GCN 11991)
+with the 1.3m PAIRITEL located at Mt. Hopkins, Arizona under poor sky
+conditions. Observations began at 2011-05-04 02:46:35 UT, ~9.2 hours
+after the Swift Trigger.  In mosaics (effective exposure time of 1.28
+hours) taken simultaneously in the J and H filters, we marginally
+detect a source at the optical afterglow location (Stamatikos et al.,
+GCN 11991; Leloudas et al., GCN 11994; Kann et al., GCN 11996).  Our
+preliminary Ks band reduction is corrupted.
+
+The preliminary photometry yields:
+
+post burst
+t_mid (hr) exp.(hr) filt  mag    m_err
+10.2       1.28     J     18.19  0.26
+10.2       1.28     H     17.86  0.36
+
+All magnitudes are given in the Vega system, calibrated to 2MASS. No
+correction for Galactic extinction has been made to the above reported
+values.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  12000
+SUBJECT: GRB 110503A: Swift/UVOT Observations
+DATE:    11/05/04 10:58:36 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (MSSL-UCL) & M. Stamatikos (OSU/NASA/GSFC) report on behalf of the Swift-UVOT team
+
+The Swift/UVOT began settled observations of the field of GRB 110503A 212s 
+after the trigger (Stamatikos et al., GCN Circ. 11991). We detect a fading 
+source in all filters at a refined position of RA(J2000), DEC(J2000)= 
+132.77588 deg,52.20767 deg. This is equivalent to:
+
+     RA (J2000)   8:51:06.21
+    Dec (J2000)  52:12:27.6
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence).
+This is consistent with the UVOT position reported in Stamatikos et al. 
+(GCN Circ. 11991) and with the enhanced position of the X-ray afterglow 
+(Goad et al., GCN Circ. 11992).
+ 
+Preliminary magnitudes using the UVOT photometric system (Poole et al. 2008, 
+MNRAS, 383, 627) for the finding chart (FC) and summed exposures at the 
+location of the optical afterglow are:
+
+Filter  T_start(s)  T_stop(s)   Exp(s)       Mag
+#####################################################
+wh (FC)    212        362        147     15.82 +/- 0.02
+wh         864        1014       147     17.09 +/- 0.03
+v          368        388        20      16.23 +/- 0.14
+b          469        488        19      16.79 +/- 0.10      
+u          445        464        19      15.87 +/- 0.09
+uvw1       419        438        19      16.15 +/- 0.15
+uvm2       394        414        19      17.27 +/- 0.32
+uvw2       519        539        19      17.72 +/- 0.31
+#####################################################
+
+The values quoted above are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.02 in the direction of the burst
+(Schlegel et al. 1998).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  12001
+SUBJECT: GRB 110503A: SARA-N Observations and Photometric Calibration
+DATE:    11/05/04 17:13:05 GMT
+FROM:    Adria C. Updike at Clemson U  <aupdike@clemson.edu>
+
+Adria C. Updike (NASA/GSFC), D. A. Kann (TLS Tautenburg), Dieter H.
+Hartmann (Clemson University), and Ken Rumstay (Valdosta State University)
+report:
+
+We observed the field of GRB 110503A (M. Stamatikos et al., GCN 11991)
+with the SARA-North 0.9m telescope located at KPNO under good conditions
+beginning about 13 hours after the trigger and continuing for half an
+hour.  We detect the afterglow in each 120 sec exposure.  In a stacked 20
+min image with mean time 0.5484375 days after the trigger, we detect the
+afterglow at R = 20.20 +/- 0.07 using the SDSS-derived magnitude of the
+comparison star given by Kann et al. (GCN 11996).  Further observations
+are planned.
+
+The comparison star utilized by Kann et al. has the following SDSS
+magnitudes (transformation from Lupton (2005) and Jordi et al. (2006):
+
+u = 21.214
+g = 18.546
+r = 17.166
+i = 16.485
+z = 16.111
+
+and Vega magnitudes:
+
+U = 20.431
+B = 19.193
+V = 17.802
+R = 16.819
+I = 15.942
+Z = 15.562
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  12004
+SUBJECT: GRB 110503A: R-band Detection
+DATE:    11/05/05 00:43:08 GMT
+FROM:    Myungshin Im at Seoul Nat U  <mim@astro.snu.ac.kr>
+
+Myungshin Im (CEOU/Seoul National Univ), Hyun-Il Sung (KASI),
+and  Yuji Urata (NCU) on behalf of EAFON
+
+We observed GRB 110503A (Stamatikos et al., GCN 11991) in R-band
+with a 1.0-m telescope at Mt. Lemmon, Arizona. The observation
+started at 05-04-03:24:30 UT. We detect the afterglow with a
+magnitude at R ~ 20.28 +- 0.09 mag (mid-time of ~10.0 hrs after
+BAT alert) based on the photometry calibration star reported by
+Updike et al.(GCN 12001).
+
+Further analysis of the data and the follow-up observations of
+the object is ongoing. We thank the LOAO operator, I.-K. Baek
+for her assistance with the observation.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  12005
+SUBJECT: GRB 110503A: optical observation in CrAO
+DATE:    11/05/05 01:01:22 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+E. Pavlenko (CraO), A. Volnova (SAI MSU), A. Baklanov (CrAO), A. Pozanenko 
+(IKI)  on behalf of  larger GRB follow up collaboration report:
+
+We observed the field of GRB 110503A  (Stamatikos  et al. GCN  11991) with 
+Shajn telescope of CrAO  observatory  on May. 3 starting (UT) 23:56. We took 
+several frames with exposure of 60s in R-band. The afterglow (Stamatikos  et 
+al. GCN  11991)  is well detected  in each single frame.  A preliminary 
+photometry is based on the USNO B1.0 star  1421-0227752  (08:51:10.01 
++52:11:04.75)    assuming R=16.819   (Updike et al. GCN 12001):
+
+T0+         Filter,   Exposure, mag.
+(mid, d)               (s)
+
+0.26433    R         60       19.00 +/- 0.08
+0.27991    R         60       19.24 +/- 0.18
+0.29450    R         60       19.22 +/- 0.08
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  12009
+SUBJECT: GRB 110503A optical observations
+DATE:    11/05/05 10:50:09 GMT
+FROM:    AAVSO GRB Network at AAVSO  <matthewt@aavso.org>
+
+Eric Broens (Mol, Belgium) and David Boyd (West Challow, Oxfordshire, UK) 
+separately reported to the AAVSO International High Energy Network the 
+following optical observations of GRB 110503A (GCN Circ. #11991, 
+Stamatikos et al.):
+
+E. Broens (VVS WVS, Belgium) reports a detection of GRB 110503A at CR = 
+19.6 +/- 0.2 on 2011 May 3.921 UT (JD 2455685.421; midpoint of exposures), 
+approximately 4.5 hours after the Swift trigger (GCN Circ. #11991, 
+Stamatikos et al.).  Broens obtained 41 frames of 60 seconds exposure in a 
+clear filter using a 0.2-meter f7 SCT telescope with SBIG ST-7MXE CCD 
+camera.  An ensemble of three nearby SDSS stars were used as comparisons, 
+with their R-band magnitudes calculated using the Jester et al. (2009, AJ 
+130, 873) relations.  Comparison stars used were: SDSS J085110.53+521301.8 
+(R = 17.98) and SDSS J085110.02+521104.6 (R=17.20).  The measured position 
+of the GRB was:
+
+ 	RA: 08 51 06.3 , Dec: +52 12 26.9
+
+Prior to acquisition of the unfiltered frames, a total of thirty 60-second 
+frames (1800s total) were taken with a Cousins R filter centered at 2011 
+May 3.895 approximately four hours after the burst.  The filtered 
+observations yielded an upper limit of Rc < 18.7.
+
+
+D. Boyd (West Challow, Oxfordshire, UK) reports V-band optical time series 
+of GRB 110503A obtained using a 0.35-m SCT with a Starlight Express 
+SXVR-H9 CCD camera.  A total of 150 60-second frames were obtained, and 
+these were stacked in groups of 30 to obtain five 1800-second 
+integrations.  The burst was detected in all frames.  The resulting 
+time-series are as follows:
+
+2011 May 3.89920 UT	V=19.40 +/- 0.04
+2011 May 3.92022 UT	V=19.57 +/- 0.04
+2011 May 3.94123 UT	V=19.71 +/- 0.04
+2011 May 3.96225 UT	V=19.74 +/- 0.05
+2011 May 3.98326 UT	V=19.96 +/- 0.05
+
+Magnitudes were obtained using Astrometrica software using UCAC3 for 
+positions and photometry; Boyd reports that magnitudes were obtained using 
+varying ensembles of between 14 and 19 stars per stacked image. Boyd also 
+notes that the coorindates of the GRB on all frames was
+
+ 	RA: 08 51 06.19 , Dec: +52 12 27.3 (J2000)
+
+
+The AAVSO International High Energy Network was made possible through 
+grants from the Charles Curry Foundation and NASA.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  12010
+SUBJECT: GRB 110503A: Jet Break seen from TLS
+DATE:    11/05/06 00:36:27 GMT
+FROM:    Alexander Kann at TLS Tautenburg  <kann@tls-tautenburg.de>
+
+D. A. Kann, S. Schmidl, B. Stecklum and C. Hoegner (TLS Tautenburg) report:
+
+Observations of GRB 110503A (M. Stamatikos et al., GCN 11991) and its
+afterglow are continuing at TLS Tautenburg (D. A. Kann et al., GCN 11996).
+In the first night, we observed for a total of 6 hours, with conditions
+becoming worse (increasing airmass and passing clouds). 43 detections in
+BVRIZ were secured.
+
+In the second night, observational conditions were challenging, with
+passing clouds and high airmass at the time observations could begin. We
+obtained 3 x 300 s in Rc, 3 x 450 s in V and only a single 450 s B
+observation. The afterglow is faintly detected in the Rc and V stacks as
+well as the B image. Using the comparison star of GCN 11996, as calibrated
+by A. Updike et al. (GCN 12001), we find:
+
+t (days after trigger) = 1.24878, Rc = 21.39 +/- 0.12
+
+We re-observed the afterglow position in the third night under moderate
+conditions (low airmass, good seeing, but low transparency). We obtained 6
+x 600 s in the Rc band. Even in the stack, the afterglow is only faintly
+detected. We find:
+
+t (days after trigger) = 2.14026, Rc = 22.63 +/- 0.28
+
+Fitting our Rc band data shows a clear break, with alpha_1 = 0.83 +/-
+0.03, alpha_2 = 2.3 +/- 0.6 (due to sparse data with large errors), t_b =
+1.06 +/- 0.14 days. While both the post-break decay slope as well as the
+break time are insecure due to sparsity of the data, the data point at
+2.14 days lies a complete magnitude under the extrapolation of the early
+decay, making the existence of a break itself secure.
+
+We propose this is the jet break of the afterglow.
+
+Deeper follow-up with telescopes of larger aperature is highly encouraged.
+
+This message may be cited.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  12011
+SUBJECT: GRB 110503A: TAROT Calern observatory optical observations
+DATE:    11/05/06 16:56:18 GMT
+FROM:    Alain Klotz at CESR-CNRS  <Alain.Klotz@free.fr>
+
+Klotz A. (CESR-OMP), Gendre B. (ASDC),
+Boer M. (OHP-OAMP), Atteia J.L. (LATT-OMP) report:
+
+We imaged the field of GRB 110503A detected by SWIFT
+(trigger 451901) with the TAROT robotic telescope (D=25cm)
+located at the Calern observatory, France.
+
+The observations started 1.9h after the GRB trigger
+(trigger occured during daytime). The elevation of
+the field decreased from 69 degrees above horizon
+and weather conditions were good.
+
+We detect the candidate couterpart mentioned by
+Stamatikos et al. 2011 (GCNC 11991) on co-added
+series of exposures. We used the reference star
+USNO B1.0 1421-0227752 (08:51:10.01 +52:11:04.75
+J2000) described by Kann et al. 2011 (GCNC 11996)
+assuming  R=16.819 (Updike et al. GCN 12001).
+
+start   stop   R
+1.96h - 2.65h  18.42 +/- 0.15
+2.71h - 3.99h  19.11 +/- 0.10
+4.04h - 5.33h  19.51 +/- 0.12
+5.38h - 7.43h  19.93 +/- 0.15
+
+Magnitudes were estimated with the nearby USNO-B1 stars
+and are not corrected for galactic dust extinction.
+
+From 1.96h to 7.43h, the decay slope is alpha = 1.1.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TITLE:   GCN CIRCULAR
+NUMBER:  12014
+SUBJECT: GRB 110503A optical observation
+DATE:    11/05/16 15:06:57 GMT
+FROM:    AAVSO GRB Network at AAVSO  <matthewt@aavso.org>
+
+Andrea Tasselli (Lincoln, Lincolnshire, UK) reports to the AAVSO 
+International High Energy Network the following optical observation of GRB 
+110503A (GCN Circ. #11991, Stamatikos et al.):
+
+A. Tasselli (Lincoln, Lincolnshire, UK) reports a detection of GRB 110503A 
+at an unfiltered, Sloan r-derived magnitude of cr = 19.1 +/- 0.1 on 2011 
+May 05.9167 (JD 2455685.4167; midpoint of exposures), approximately 4 
+hours after the Swift trigger (GCN Circ. #11991, Stamatikos et al.). 
+Tasselli obtained 30 unfiltered images of 120 seconds exposure for a total 
+of 3600 seconds.  Tasselli used a 0.2-meter Maksutov-Cassegrain (f/6.8) 
+with a Starlight SXV-H9 CCD camera.  Photometry of the OT was done using 
+the Iris photometry package with an ensemble of six SDSS stars:
+
+SDSS J085118.11+521119.2, r=14.756;
+SDSS J085118.96+521055.4, r=15.565;
+SDSS J085110.02+521104.6, r=17.177;
+SDSS J085119.59+521406.2, r=13.871;
+SDSS J085131.83+521343.8, r=13.893; and
+SDSS J085110.53+521301.8, r=17.749.
+
+The position of the OT was measured using the Astrometrica package with 55 
+UCAC3 reference stars, and was found to be
+
+ 	RA(J2000)  =  08 51 06.2
+ 	Dec(J2000) = +52 12 30
+
+in good agreement with other measurements.
+
+The AAVSO International High Energy Network was made possible through 
+grants from the Charles Curry Foundation and NASA.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

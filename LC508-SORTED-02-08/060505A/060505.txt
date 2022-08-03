@@ -1,0 +1,113 @@
+GRB 060505
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+OFEK 07
+
+Log of Optical Observations
+Instrument
+Date
+(UTC 2006)
+Exp. Time
+(s) Band
+AB Mag
+(mag)
+Flux
+(Jy)
+GMOS........................ May 06.377 5 ; 180 r 21.93  0.16 6.1  1.0
+May 06.393 5 ; 240 g 22.43  0.08 3.9  0.3
+May 12.316 5 ; 180 g >24.8 <0.43
+May 12.330 5 ; 180 r >24.3 <0.69
+May 14.353 5 ; 180 g >24.6 <0.52
+May 14.367 5 ; 180 r >24.7 <0.48
+May 14.380 5 ; 180 i k23.3 P1.7
+May 26.318 10 ; 300 g . . .b . . .
+May 26.294 1 ; 300 r . . .b . . .
+UVOTa ....................... May 05.981 834.7 U >21.3 <10.7
+May 10.512 1300.9 U . . .b . . .
+May 05.996 834.6 V >20.4 <53
+May 21.818 11476.5 V . . .b . . .
+May 05.977 1666.3 UW1 >22.1 <5.8
+May 18.241 1735.6 UW1 . . .b . . .
+May 05.999 2228.9 UM2 >23.7 <3.1
+May 10.505 3974.5 UM2 . . .b . . .
+ACS............................ May 19.635 9 ; 783 F814W >27.3 <0.044
+May 19.636 18 ; 783 F475W >27.1 <0.053
+Jun 06.957 9 ; 760 F814W . . .b . . .
+Jun 07.160 18 ; 760 F475W . . .b . . .
+a Swift UVOT Vega-based zero points used are 17.29, 17.69, 18.38, and 17.88 mag for the UM2, UW1, U, and
+V bands, respectively. To convert Vega-based magnitudes to AB magnitudes, we added 1.65, 1.39, 0.99, and 0.00 mag
+to the UM2, UW1, U, and V bands, respectively.
+b Used as a reference image in the image subtraction process.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+xu09
+
+Log of Optical Observations of GRB 060505
+Time Bandpass Vega Magb σ (mag) Instrument Reference
+(day)a
+0.702 UVW1 >20.71 · · · UVOT 1
+0.706 U >20.31 · · · UVOT 1
+0.721 V >20.34 · · · UVOT 1
+0.724 UVM2 >22.05 · · · UVOT 1
+1.102 r 21.65 0.16 GMOS 1
+1.118 g 22.37 0.08 GMOS 1
+1.125 I 21.21 0.04 VLT+FORS1 2
+1.125 R 21.74 0.04 VLT+FORS1 2
+1.125 V 22.14 0.04 VLT+FORS1 2
+1.125 B 22.48 0.04 VLT+FORS1 2
+7.041 g >24.74 · · · GMOS 1
+7.055 r >24.02 · · · GMOS 1
+9.078 g >24.54 · · · GMOS 1
+9.092 r >24.32 · · · GMOS 1
+9.105 i >22.96 · · · GMOS 1
+18.0 R >24.95 · · · VLT+FORS2 3
+21.1 R >24.05 · · · D1.5m+DFOSC 3
+23.1 R >23.95 · · · D1.5m+DFOSC 3
+25.3 R >25.15 · · · Keck+LRIS 3
+31.1 R >23.75 · · · D1.5m+DFOSC 3
+48.1 R >24.35 · · · D1.5m+DFOSC 3
+Notes.
+a Time since BAT trigger.
+b The Vega magnitude is after correction for the Galactic extinction of
+E(B − V ) = 0.02 mag, and image subtraction to remove the host contribution.
+References. (1) Ofek et al. 2007; (2) This work; (3) Fynbo et al. 2006.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5082
+SUBJECT: GRB060505: Swift/UVOT Observations
+DATE:    06/05/06 17:17:46 GMT
+FROM:    Peter Brown at PSU  <pbrown@astro.psu.edu>
+
+P J. Brown (Penn State) & D. Palmer (LANL)
+on behalf of the Swift/UVOT team.
+
+The Swift/UVOT began observing the field of GRB060505
+(BAT Trigger=208654, Palmer et. al, GCN 5076) at
+2006-05-05 20:58:30 UT, 14.37 hours after the BAT trigger.
+The galaxy at the position of the first XRT source
+(Conciatore et al GCN 5078) is detected in all 6 filters
+but does not show significant variation, consistent with
+Conciatore et al (GCN 5081).
+
+No source is detected at the position of the second XRT
+source (Conciatore et al GCN 5081) in coadded images with
+any of the filters. The following 5-sigma magnitude
+upper limits are not corrected for Galactic extinction.
+
+Filter   T_range(h)  T_exp(s)  5sigmaUpperLimit(mag)
+
+V        14.85-19.73   835      19.1
+B        14.56-19.44   835      20.2
+U	 14.49-19.38   835      19.9
+UVW1     14.37-19.32   1666     19.8
+UVM2     14.92-19.85   1987     20.1
+UVW2     14.62-19.67   3388     21.0
+
+Where T_range is time post-trigger in hours, and T_exp
+is the exposure time of the summed image in seconds.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

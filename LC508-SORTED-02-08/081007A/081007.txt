@@ -1,0 +1,141 @@
+GRB 081007
+
+Greiner 11
+Racusin = UVOT
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8333
+SUBJECT: GRB 081007, Faulkes Telescope North optical observations
+DATE:    08/10/07 07:30:58 GMT
+FROM:    James Smith at ARI,Liverpool John Moors U  <rjs@astro.livjm.ac.uk>
+
+R.J. Smith, A. Melandri, I.A. Steele, D.F. Bersier, C.G. Mundell,
+(Liverpool JMU), A. Gomboc (Ljubljana), C. Guidorzi (INAF-OAB)
+on behalf of a larger collaboration reports:
+
+The robotic 2m Faulkes Telescope North located in Hawaii observed
+the field of the GRB 081007 (Baumgartner et al. GCN 8330) starting
+automatically as soon as the target rose above the observable horizon
+about 17 minutes after the GRB time.
+
+A fading optical source is detected at the XRT position reported by
+(Baumgartner et al. GCN 8330). Over the period from 0.2 - 1 hour after the
+burst, the OT is seen to fade in both R and I with a flux power law slope
+of -0.7.
+
+Filter  Mag		T_mid[min]
+-----------------------------
+R       17.9 +/- 0.4	17.50
+R       18.6 +/- 0.4	46.66
+
+I       17.1 +/- 0.4	21.55
+I       17.6 +/- 0.4	39.38
+-----------------------------
+
+
+The calibration was performed using the R2 and I magnitudes of the
+USNOB-1 catalogue field star at 22:39:43 -40:10:15.3 J2000. A equivalent
+amount of B-band data in which the source is detected have also been
+obtained and are being analysed. Further observations are ongoing.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8337
+SUBJECT: GRB 081007: Early RAPTOR measurements of optical counterpart
+DATE:    08/10/07 19:56:45 GMT
+FROM:    James Wren at LANL  <jwren@nis.lanl.gov>
+
+J. Wren, W.T. Vestrand, P.R. Wozniak, H. Davis, B. Norman
+of Los Alamos National Laboratory report:
+
+The RAPTOR telescope system responded to Swift trigger
+330856 (Baumgartner et al., GCN 8330) under fair observing conditions.
+Our narrow-field instruments began observing the location at
+05:24:17.13 UTC, 24.4 s after the Swift trigger and during the end
+of the Gamma-Ray emitting interval.  We detect the optical counterpart
+reported by Baumgartner et al. (GCN 8330) and Covino et al. (GCN 8331).
+We first detect the counterpart at R~16.4 at approximately 90s after
+the Swift trigger time.  The counterpart brightens over the next 50
+seconds to magnitude R~15.4 and then begins fading steadily.  Our
+unfiltered images were calibrated against the USNO-B1 R-band.  The
+following table gives selected observations, not corrected for
+extinction, from this event.
+
+t-mid(s)    exp(s)     mag     mag-err
+--------------------------------------------
+90.31        5.0      16.43    0.22
+139.58      10.0      15.38    0.06
+367.83      30.0      16.75    0.20
+685.42      30.0      17.28    0.19
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8339
+SUBJECT: GRB 081007, SMARTS optical afterglow observations
+DATE:    08/10/08 01:49:15 GMT
+FROM:    Bethany Cobb at Yale U  <bcobb@astro.berkeley.edu>
+
+B. E. Cobb (UC Berkeley) reports:
+
+Using the ANDICAM instrument on the 1.3m telescope at CTIO, we
+continued to obtain optical/IR imaging of the error region of GRB 081007
+(GCN 8330, Baumgartner et al.) following GCN 8332.
+
+At a mid-exposure time of 2008-10-07 06:04 UT (40 minutes post-burst),
+the GRB afterglow (GCN 8330, Baumgartner et al.) had the following
+magnitudes:
+B = 19.36 +/- 0.04
+R = 18.37 +/- 0.03
+I = 17.73 +/- 0.03
+
+Observations were obtained under non-photometric conditions.  These
+preliminary magnitudes are calibrated against several USNO-B1.0 stars in
+the field, so there is likely an additional photometric calibration error
+of ~0.2 magnitudes.
+
+From 23 minutes to 112 minutes post-burst the decay rate of the
+afterglow remains at alpha = -0.6 (where afterglow flux is proportional to
+t^alpha) in all our optical colors.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+TITLE:   GCN CIRCULAR
+NUMBER:  8340
+SUBJECT: GRB081007: Swift/UVOT Observations
+DATE:    08/10/08 12:40:42 GMT
+FROM:    Peter Brown at PSU  <pbrown@astro.psu.edu>
+
+P. J. Brown (PSU) and W. H. Baumgartner (GSFC/UMGC)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT observed the field of GRB 081007
+starting about 109 s after the BAT detection
+(Baumgartner et al., GCN Circ. 8330).  We report additional
+detections and 3 sigma upper limits of the fading afterglow
+(where T_start and T_stop represent the
+elapsed time since the BAT trigger in seconds).
+
+Filter  T_start(s) T_stop  Exp(s)   Mag or 3 Sigma Limit
+uvw2    725        1508    40       >18.8
+uvm2    621        1394    59       >18.8
+uvw1    646        1419    59       >19.3
+u       670        1443    59       18.5 +/- 0.2
+b       695        1468    39       19.1 +/- 0.2
+v       215        615     394      17.5 +/- 0.1
+v       969        1369    393      18.6 +/- 0.1
+white   109        209     98       17.0 +/- 0.1
+white   862        962     98       18.8 +/- 0.1
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E(B-V) = 0.015 mag (Schlegel et al.,
+1998, ApJS, 500, 525).  The photometry is on the UVOT photometric
+system described in Poole et al. (2008, MNRAS, 383,627).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
