@@ -1,51 +1,52 @@
-121027A_converted - REMOVED EVERYTHING EXECPT K BAND
-121201A_converted - REMOVED EVERYTHING EXCEPT u_SWIFT, b_SWIFT, v_swift, r'
-121209A_converted - REMOVED u_swift
-121211A_converted - removed except R, Rc, v_swift, b_swift, u_swift, r'
-121229A_converted - removed except B, u_swift, r'
-130408A_converted - removed except J, v_swift
-130418A_converted - removed except r
-130427B_converted - removed except r'
-130505A_converted - removed except r, i, H
-130511A_converted - removed except v_swift, b_swift, r, B, R, I
-130514A_converted - removed Z
-130518A_converted - removed except u, r'
-130603B_converted - removed except r, V, J
-130610A_converted - removed R, V, I, J, uvw1, uvw2, uwm2
-130612A_converted - removed R, J, i', uvw1, uvm2, uvw2, g', Ic
-130701A_converted - removed R, uvw2, i'
-130907A_converted - removed i, Z, Y, J
-130925A_converted - removed Y, H
-131004A_converted - removed R, g', r', z', J, H, K, r, i, Z, b_swift, uvw1, uvm2, uvw2, B, I
-131011A_converted - removed g', i', z', K, uvw2
-131030A_converted - NO CHANGE
-131103A_converted - removed uvw1, uvw2
-131105A_converted - removed R, uvw1
-131108A_converted - removed i, Z, Y, J, H, uvw1, uvm2, uvw2
-131117A_converted - NO CHANGE
-131231A_converted - removed R
-140114A_converted - removed i, Z, Y, J, H, uvw1, uvm2, uvw2, g', Ic, R
-140213A_converted - removed g', i', z', J, H, K, uvw1, uvm2, uvw2, I, B
-140226A_converted - removed R, i, Z, Y, J, H, K, g, z, R, uvm2, v_swift, g', i', z'
-140301A_converted - removed R, g', i', z', J, H, K, uvw1
-140304A_converted - removed g, i, Z, Y, J, H
-140311A_converted - removed i, Z
-140318A_converted - removed R, i', z', i, Z, Y, J, H, v_swift, uvw1, uvm2, uvw2
-140419A_converted - removed i, Z, H
-140428A_converted - removed g, g', i', z', J, H, K
-140506A_converted - removed uvw1, uvm2, uvw2
-140508A_converted - removed R, V, i, Z, Y, J, H, g', Ic
-140509A_converted - removed uvw1, uvm2, uvw2, g', i', z', J, H, K
-140512A_converted - removed R, g', i', z', J, H, K, uvw1, uvm2, uvw2
-140515A_converted - removed R, g', Ic, i', z', J, H, K
-140518A_converted - removed Y, Z
-140606B_converted - removed g, K
-140614A_converted - removed i', z', J, H, K, uvw1, uvm2, uvw2
-140620A_converted - removed R
-140623A_converted - NO CHANGE
-140629A_converted - NO CHANGE
-140703A_converted - removed i, z, J, K, Z, Y, H
-140710A_converted - removed i, z, Y, J, H
-140808A_converted - NO CHANGE
-140903A_converted - NO CHANGE
-141004A_converted - removed g, i
+file-first time( _converted_flux)-second time - (_”prefix”_converted _flux)-second time  –  “prefix:_mag comments-KANN-other comments-input dir
+121027A  -removed g’, I’, z’, J, H, r'-removed g’, I’, z’, J, H-all good--K, r’ clash but K has extra data point but r’ is prioritized-mainsample
+121201A  - REMOVED EVERYTHING EXCEPT u_SWIFT, b_SWIFT, v_swift, r'-removed g’, i'-all good(pre-removed in gcn_conv)--r’, z’ are duplicates: z’ is nearer to the curve but r’ is priotitized-lcs508
+121209A  - REMOVED u_swift-removed I’, z’-all good(pre-removed in gcn_conv)---lcs508
+121211A  - removed except R, Rc, v_swift, b_swift, u_swift, r'-removed Ic, g’, uvw1, uvm2, i’, z-all good(pre-removed in gcn_conv)---lcs508
+121229A  - removed except B, u_swift, r'-removed g’, I’, z’, J, H-all good(pre-removed in gcn_conv)--all the bands are duplicates: r’ is prioritized so it’s kept, rest removed-lcs508
+130408A  -removed g’, i’, z’, H, I, K , r'-removed g’, i’, z’, H, I, K -all good(pre-removed in gcn_conv)--J and r’ clash at one point, J has 4 other points while r’ is that sngle point-lcs508
+130418A  - removed except r-removed Z, Y, J, H-prefix = new_nissim; no_mag file found--r, i clash at 2 points, other than that, they just are really close by-lcs508
+130427B  - removed except r'-NULL FILE-all entries have 0 flux error--all the bands in gcn_mag have 0 flux_err so the gcn_conv file is NULL FILE-lcs508
+130505A  - removed except r, i, H-----
+130511A  - removed except v_swift, b_swift, r, B, R, I-----
+130514A  - removed Z-----
+130518A  - removed except u, r'-----
+130603B  - removed except r, V, J-----
+130610A  - removed R, V, I, J, uvw1, uvw2, uwm2-----
+130612A  - removed R, J, i', uvw1, uvm2, uvw2, g', Ic-----
+130701A  - removed R, uvw2, i'-----
+130907A  - removed i, Z, Y, J-----
+130925A  - removed Y, H-----
+131004A  - removed R, g', r', z', J, H, K, r, i, Z, b_swift, uvw1, uvm2, uvw2, B, I-----
+131011A  - removed g', i', z', K, uvw2-----
+131030A  - NO CHANGE-----
+131103A  - removed uvw1, uvw2-----
+131105A  - removed R, uvw1-----
+131108A  - removed i, Z, Y, J, H, uvw1, uvm2, uvw2-----
+131117A  - NO CHANGE-----
+131231A  - removed R-----
+140114A  - removed i, Z, Y, J, H, uvw1, uvm2, uvw2, g', Ic, R-----
+140213A  - removed g', i', z', J, H, K, uvw1, uvm2, uvw2, I, B-----
+140226A  - removed R, i, Z, Y, J, H, K, g, z, R, uvm2, v_swift, g', i', z'-----
+140301A  - removed R, g', i', z', J, H, K, uvw1-----
+140304A  - removed g, i, Z, Y, J, H-----
+140311A  - removed i, Z-----
+140318A  - removed R, i', z', i, Z, Y, J, H, v_swift, uvw1, uvm2, uvw2-----
+140419A  - removed i, Z, H-----
+140428A  - removed g, g', i', z', J, H, K-----
+140506A  - removed uvw1, uvm2, uvw2-----
+140508A  - removed R, V, i, Z, Y, J, H, g', Ic-----
+140509A  - removed uvw1, uvm2, uvw2, g', i', z', J, H, K-----
+140512A  - removed R, g', i', z', J, H, K, uvw1, uvm2, uvw2-----
+140515A  - removed R, g', Ic, i', z', J, H, K-----
+140518A  - removed Y, Z-----
+140606B  - removed g, K-----
+140614A  - removed i', z', J, H, K, uvw1, uvm2, uvw2-----
+140620A  - removed R-----
+140623A  - NO CHANGE-----
+140629A  - NO CHANGE-----
+140703A  - removed i, z, J, K, Z, Y, H-----
+140710A  - removed i, z, Y, J, H-----
+140808A  - NO CHANGE-----
+140903A  - NO CHANGE-----
+141004A  - removed g, i-----
