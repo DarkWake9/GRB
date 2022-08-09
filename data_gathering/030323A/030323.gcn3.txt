@@ -1,0 +1,455 @@
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1948
+SUBJECT: GRB030323, BVRcIc field calibration
+DATE:    03/03/24 18:46:14 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired BVRcIc all-sky photometry for
+a 20x20 arcmin field centered at the coordinates
+for the HETE burst GRB030323 (HETE trigger 2640)
+with the USNOFS 1.0-m telescope on one very marginal
+photometric night.  Stars brighter than V=13.5 are saturated and
+should be used with care.  We have placed the photometric data
+on our anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb030323.dat
+The astrometry in this file is based on linear plate solutions
+with respect to UCAC2.  The external errors are less than 100mas.
+There were approaching clouds from a weak frontal system
+that do not appear to have reached this field until well
+after the observations, but until further calibration
+is performed, a systematic error is possible.  Based purely
+on the standard star observations, the estimated external
+photometric error is 0.03mag.
+
+If an OT is discovered, this calibration will be extended
+with additional nights.  We will not be performing U-band
+calibration unless requested.  As always, you should check
+the dates on the .dat file prior to final publication to get
+the latest photometry.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1949
+SUBJECT: GRB030323, possible optical counterpart
+DATE:    03/03/24 19:40:26 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Gilmore and P. Kilmartin (U. Canterbury) and
+A. Henden (USRA/USNO) report:
+
+We have imaged the inner 20x20arcmin of the error circle for
+the HETE burst GRB030323 (HETE trigger 2640)
+with the Mt. John 0.6m telescope (unfiltered, using
+Rc zeropoint) and the USNO 1.0m telescope (Rc filter).
+Located in the northern part of the error circle,
+we find one fading object that may be the
+optical counterpart to GRB030323.  This object does
+not appear on any of the ESO/AAO red plates.  Its position,
+along with two preliminary comparison stars (photometry
+from Henden, GCN 1948), is:
+
+Star       R.A. (2000)  Dec.      Rc
+  A     11 06 15.21  -21 47 19.4  14.91
+  B     11 06 08.36  -21 45 42.5  16.94
+OT     11 06 09.38  -21 46 13.3
+
+where coordinates are based on USNO-A2.0.  A 4x4arcmin
+R-band finding chart can be found at
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb030323r.jpg
+Photometry of the candidate with respect to these two stars yields:
+
+   UTmid(hr) mag   Filter
+   07.5868  18.69   Rc
+   10.4750  19.56   CR
+   12.2083  19.72   CR
+   13.6555  19.96   CR
+   14.7333  20.42   CR
+
+Photometric errors range from 0.06mag at the beginning to
+0.4mag towards the end.
+
+These observations were made as part of the AAVSO GRB
+Network, and supported by a grant from the Curry Foundation.
+
+[GCN OPS NOTE (25mar03): The acknowledgement sentence at the end
+was added as per author's request.]
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1951
+SUBJECT: GRB030323, optical observations
+DATE:    03/03/24 20:43:25 GMT
+FROM:    Weidong Li at UC Berkeley KAIT/LOSS  <weidong@astron.berkeley.edu>
+
+W. Li, S. Jha, R. Chornock, and A. V. Filippenko (UC Berkeley), report
+that unfiltered images of a 12 arcmin x 12 arcmin region centered at the 
+position of GRB 030323 (HETE Trigger #2640) were taken with
+the Katzman Automatic Imaging Telescope (KAIT) at 05:28 Mar 24 UT 
+(about 7.5 hours after the burst). We found no obvious new source compared
+with the DSS II (red) to a limiting magnitude of 19.0 mag. Specifically,
+the candidate OT reported by Gilmore, Kilmartin, & Henden (GCN 1949) 
+was outside our imaged field. 
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1952
+SUBJECT: GRB030323, ROTSE-III detection of possible optical counterpart
+DATE:    03/03/24 21:15:18 GMT
+FROM:    Don Smith at U michigan  <dasmith@rotse2.physics.lsa.umich.edu>
+
+Smith, D. A. & Rykoff E. S. on behalf of the ROTSE collaboration report:
+
+We have observed the full error box of GRB 030323 (HETE trigger 2640) using the
+ROTSE-3B 0.45 meter telescope at McDonald Observatory, Texas, starting March
+24, 5:47 UT (7.8 hours after the burst).  Ninety one-minute unfiltered
+exposures were taken, yielding limiting magnitudes between 17.5 and 18.5,
+calibrated against USNO A2.0 R-band.  A source is marginally detected in seven
+of these images at the location of the optical counterpart candidate reported
+by Gilmore et al.  (GCN Circ. 1949).  We co-added four consecutive sets of
+twenty images, and the counterpart candidate is clearly detected in the first
+co-added image at a magnitude of 18.4+-0.1 at 5:59 hours UT (limiting magnitude
+for this co-added image is estimated at 19.5).  Visual inspection of the other
+three co-added images indicate that the source is present near the limiting
+magnitude in each frame, and we will continue analysis to derive a light curve.
+
+Images and light curves will soon be available at http://www.rotse.net
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1953
+SUBJECT: VLT/FORS2 spectra of GRB 030323
+DATE:    03/03/25 06:02:12 GMT
+FROM:    Paul Vreeswijk at ESO  <pvreeswi@eso.org>
+
+Paul Vreeswijk (ESO), Ralph Wijers, Evert Rol (U. of Amsterdam), and
+Jens Hjorth (U. of Copenhagen) report for the GRACE collaboration:
+
+The field of GRB 030323 (HETE trigger 2640) was observed last night
+(March 24/25) in spectroscopic mode with FORS2 at unit-4 of ESO's VLT
+at Paranal, Chile. The total exposure time was 1 hour in the 300V and
+300I grisms, covering approximately 4000-9300 A with a resolution of
+about 12 A. The slit (1" wide) was positioned to cover the position of
+the presumed afterglow (Gilmore, Kilmartin & Henden, GCN 1949; see
+also GCN 1952), as well as a nearby reference object.
+
+Preliminary reduction of the 300V spectra of the candidate afterglow
+shows very strong absorption over the range 516-545 nm, presumably a
+complex of Ly alpha clouds around z = 3.3-3.4. The detection of
+numerous narrow lines is consistent with this interpretation: we can
+identify these with metal-absorption lines (SiII, OI, CII, SiIV, CIV,
+AlII) at a redshift of z = 3.372. These Ly alpha and metal-absorption
+lines probably originate in the host galaxy of GRB 030323.
+
+We appreciate the assistance of the ESO staff at Paranal; in
+particular of Thomas Szeifert and Olivier Marco.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1956
+SUBJECT: GRB030323 (=H2640): A Faint, Long GRB Localized by the HETE WXM and SXC
+DATE:    03/03/25 21:33:01 GMT
+FROM:    Don Lamb at U.Chicago  <lamb@oddjob.uchicago.edu>
+
+C. Graziani, Y. Shirasaki, M. Matsuoka, T. Tamagawa, K. Torii, T.
+Sakamoto, M. Suzuki, A. Yoshida, E. Fenimore, M. Galassi, T. Tavenner,
+T. Donaghy, Y. Nakagawa, D. Takahashi, R. Satoh, and Y. Urata, on
+behalf of the HETE WXM Team;
+
+G. Ricker, J-L Atteia, N. Kawai, D. Lamb, and S. Woosley on behalf of
+the HETE Science Team;
+
+R. Vanderspek, J. Villasenor, G. Crew, J. Doty, G. Monnelly, N.
+Butler, T. Cline, J.G. Jernigan, A. Levine, F. Martel, E. Morgan, G.
+Prigozhin, G. Azzibrouck, J. Braga, R. Manchanda, and G. Pizzichini,
+on behalf of the HETE Operations and HETE Optical-SXC Teams;
+
+M. Boer, J-F Olive, J-P Dezalay, C.  Barraud and K. Hurley on behalf
+of the HETE FREGATE Team;
+
+write:
+
+At 21:56:57.60 UTC (79017.60 s UT) on 23 Mar 2003, the HETE FREGATE,
+WXM, and SXC instruments detected event H2460, a faint, long GRB.
+
+Ground analysis of the WXM data produced a localization which was
+reported in a GCN Notice at 02:55:11 UT on 24 Mar, about 5 hours after
+the burst.  The WXM localization SNR was 6.  The WXM localization can
+be expressed as a 90% confidence circle that is 18 arcminutes in radius
+and is centered at
+
+WXM:   RA = +11h 06m 54s, Dec = -21d 51' 00" (J2000).
+
+Ground analysis of the SXC data for the burst produced a more accurate
+location which was reported in a GCN Notice at 05:28:51 UT on 24 Mar,
+about 7 1/2 hours after the burst.  The SXC localization can be
+expressed as a 90% confidence trapezoid, whose base and top are 24.5
+and 11 arcminutes, whose height is 4 arcminutes, and whose area is 71
+square arcminutes.  The center of the trapezoid lies at
+
+RA = +11h 06m 06s, Dec = -21d 54' 20"  (J2000),
+
+and its corners lie at
+
+RA = +11h 05m 59.0s, Dec = -21d 48' 43"
+RA = +11h 05m 56.6s, Dec = -21d 59' 46"
+RA = +11h 06m 12.5s, Dec = -22d 06' 43"
+RA = +11h 06m 17.8s, Dec = -21d 42" 11"  (J2000).
+
+The SXC localization is trapezoidal because its sides are defined by
+the WXM error circle.
+
+The t_90 duration of the burst in the 30-400 keV band was 26 s. The
+fluence of the burst was 1.1 x 10-6 ergs cm-2 and the peak flux in 1.2
+sec was ~1.2 x 10-9 ergs cm-2 s-1 (i.e., ~ 0.05 x Crab flux) in the
+same energy band.
+
+A light curve and skymap for GRB030323 is provided at the following URL:
+
+http://space.mit.edu/HETE/Bursts/GRB030323
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1957
+SUBJECT: GRB030323: Upper limits from recent and historical observations.
+DATE:    03/03/25 22:41:37 GMT
+FROM:    Michael Wood-Vasey at UC Berkeley/LBNL/SNfactory  <wmwood-vasey@lbl.gov>
+
+W. M. Wood-Vasey, Lawrence Berkeley National Laboratory, using images
+obtained by R. Bambery, S. Pravdo, M. Hicks, and K. Lawrence
+(Near-Earth Asteroid Tracking project, Jet Propulsion Laboratory),
+reports historical upper limits for the optical transient for GRB
+20030323 of Gilmore et. al (GCN #1949) from images taken with the
+Palomar Oschin 1.2-m telescope during the previous year:
+
+UT Date               Limiting Unfiltered Mag
+                          ( @ S/N = 3)
+------------------------------------------------
+2002 Jan 12.56            [ 20.19                
+2002 Jan 12.57            [ 20.09                
+2002 Jan 13.57            [ 20.16                
+2002 Jan 13.58            [ 19.77                
+2002 Feb 11.36            [ 20.16                
+2002 Feb 11.38            [ 20.19                
+2002 Feb 11.40            [ 20.09                
+2003 Jan 12.53            [ 20.33                
+2003 Jan 12.55            [ 20.31                
+2003 Jan 12.56            [ 20.28                
+2003 Mar 12.38            [ 20.22                
+2003 Mar 20.30            [ 19.69                
+
+A co-addition of these images shows nothing at this location to a
+combined limiting magnitude of 21.87 (S/N = 3).
+
+The co-addition is available at:
+
+http://supernova.lbl.gov/~wwoodvas/GRB/#GRB20030323
+
+This message may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1960
+SUBJECT: GRB030323: V, R, I photometry 
+DATE:    03/03/26 04:20:54 GMT
+FROM:    Gianluca Masi at Bellatrix Astronomical Obs  <gianluca@bellatrixobservatory.org>
+
+G. Masi (University of Rome "Tor Vergata" and European Southern Observatory, 
+Chile), B. L. Jensen, J. Hjorth (Copenhagen University) and R. Michelsen 
+(Astronomical Observatory, Copenhagen) report: 
+
+We imaged the field around the afterglow candidate reported by Gilmore at 
+al. for GRB030323 (GCN 1949) with the Danish 1.54m telescope (La Silla) + 
+DFOSC CCD camera. Observations started around March 25.0, 2003 UT. We 
+located the source at the following position (J2000.0): 
+
+RA: 11h06m09.40s; Decl.: -21d46'13.2" 
+
+(mean residuals: 0.15"; catalogue: USNO-SA2.0) 
+
+in excellent agreement with the astrometry provided in the GCN cited above. 
+
+We performed time-resolved, R-band photometry, assuming for the reference 
+stars the magnitudes provided by Henden et al. (GCN 1948). Results follow: 
+
+25 Mar. 0:01    20.38 Rc
+       0:05    20.37
+       0:09    20.57
+       0:12    20.56
+       0:16    20.43
+       0:29    20.53
+       0:33    20.55
+       0:37    20.48
+       0:40    20.57
+       0:44    20.49
+       0:48    20.41
+       1:01    20.62
+       1:04    20.61
+       1:08    20.49
+       1:12    20.62
+       1:19    20.57
+       2:54    20.47
+       3:00    20.54
+       3:05    20.44
+       3:11    20.51
+       3:17    20.59 
+
+The candidate showed just a modest fading during the run. 
+
+In addition, we provide V and Ic magnitudes, again based on GCN 1948: 
+
+25 Mar. 2:23  20.10 Ic
+25 Mar. 3:35  22.08 V 
+
+If a better calibration for the field will be available, photometry will be 
+improved accordingly. 
+
+This message can be cited 
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1966
+SUBJECT: GRB 030323: SARA Optical Observations
+DATE:    03/03/26 22:52:11 GMT
+FROM:    Kevin Lindsay at Clemson U  <jlkevin@clemson.edu>
+
+K. Lindsay, D. H. Hartmann, L. Harris, A. Manning (Clemson University),
+M. Lopez-Morales (UNC Chapil Hill), M. Castelaz (PARI) 
+
+We have observed the optical afterglow of GRB030323,
+originally reported by Henden et al. GCN 1949, with the
+SARA 0.9m telescope at KPNO. We obtained 29, 300s
+exposures in the Johnson R band filter.  Observations
+began at 03:32:56UT, and ended at 07:22:56UT, on March
+25th.  The obsevations were carried out under good seeing
+conditions.  Aperture photometry was performed, and
+calibrated utilizing standards reported by Henden et al.,
+GCN 1948.
+
+We find a mean R magnitude of 20.6 +- 0.1.
+
+More information on the SARA Observatory
+can be found at http://www.saraobservatory.org/.
+
+This report may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1968
+SUBJECT: GRB030323: Detection on 2003/03/24 
+DATE:    03/03/27 18:35:44 GMT
+FROM:    Michael Wood-Vasey at UC Berkeley/LBNL/SNfactory  <wmwood-vasey@lbl.gov>
+
+W. M. Wood-Vasey (LBNL/UCB), P. A. Price (RSAA/ANU), and D. Fox
+(Caltech), using images obtained by R. Bambery, S. Pravdo, M. Hicks,
+and K. Lawrence (Near-Earth Asteroid Tracking project, Jet Propulsion
+Laboratory), report that an image taken with the Palomar 1.2-m
+telescope on 2003 Mar 24.27 UT shows the optical transient of Gilmore
+et. al (GCN #1949) at a unfiltered magnitude of 18.83 +0.09-0.08.  Two
+previous Mar 24 images taken under poor conditions do not show the OT:
+ 
+UT Date            Unfiltered Mag             
+---------------------------------------- 
+2003 Mar 24.19   [ 16.59                 
+2003 Mar 24.23   [ 16.26                 
+2003 Mar 24.27     18.83  +0.09  -0.08   
+ 
+Magnitudes are calibration against >300 USNO-A V1.0 R-band stars in
+the 0.25 sq. degree field of the images.  We clarify here that the
+limiting magnitudes quoted in GCN #1957 were calculated in the same
+manner.
+ 
+This message may be cited. 
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1970
+SUBJECT: Possible GRB030323 localized by INTEGRAL
+DATE:    03/03/27 19:36:36 GMT
+FROM:    INTEGRAL Shift Ops at INTEGRAL  <shift@isdcmail.unige.ch>
+
+V. Beckmann and S.E. Shaw on behalf of the INTEGRAL Science Data Center,
+J.-P. Roques on behalf of the SPI instrument team, Sergei Molkov (IKI),
+and the INTEGRAL Science Working team report the detection of a possible
+GRB at 08:42:24 UTC on March 23, 2003.
+
+The burst lasted about 5 seconds.
+
+The preliminary position is RA 19h 49m, DEC -12deg 30' (J2000)
+with an uncertainty of 2 degrees radius. The preliminary peak flux over
+2 seconds is about 2 * 10^-7 ergs/cm**2/sec between 25 and 100 keV.
+
+The burst has been detected by SPI at large off-axis angle (14.5
+degrees), outside the field of view of IBIS.
+
+This message may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1973
+SUBJECT: GRB030323 optical observations
+DATE:    03/03/28 06:37:56 GMT
+FROM:    Gianluca Masi at Bellatrix Astronomical Obs  <gianluca@bellatrixobservatory.org>
+
+G. Masi (University of Rome "Tor Vergata" and European Southern Observatory, 
+Chile), B. L. Jensen, J. Hjorth (Copenhagen University) and R. Michelsen 
+(Astronomical Observatory, Copenhagen) report: 
+
+
+Further to GCN 1960, we performed additional photometry of the OT initially 
+reported by Gilmore at al. (GCN 1949). The Danish 1.54m telescope (La Silla) 
++ DFOSC CCD camera were used to grab three, 360s R-band images; summing them 
+we obtained the following Rc magnitudes (based on GCN 1948): 
+
+Mar. 26, 00:54 UT   21.3 Rc
+Mar. 27, 00:50 UT   21.6 Rc
+Mar. 28, 03:45 UT   22.8 Rc 
+
+(Errors around 0.2 mag) 
+
+This message can be cited 
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2006
+SUBJECT: GRB 030323: Gemini South VRI obsevations.
+DATE:    03/03/29 23:26:48 GMT
+FROM:    Jose Maria Castro Ceron at STSciInst  <josemari@alumni.nd.edu>
+
+José María Castro Cerón (STScI),
+Javier Gorosabel (IAA-CSIC/STScI),
+Andrew S. Fruchter (STScI),
+Andrew J. Levan (U. Leicester) and
+James E. Rhoads (STScI),
+
+on behalf of a larger collaboration, report:
+
+
+
+"We have performed VRI band observartions of the optical afterglow (GCN
+1949) of the GRB 030323 (H2460; GCN 1956). For each band 30 x 45 s images
+were obtained with the Gemini South 8.1 m Telescope (+Acquisition Camera),
+as follows:
+
+
+ BAND |  UT MAR 2003   |  MAG  |  ERROR(*)
+-------------------------------------------
+   V  | 27.135--27.161 | 23.04 | +/-0.03
+   R  | 27.166--27.186 | 22.27 | +/-0.04
+   I  | 27.186--27.205 | 21.78 | +/-0.05
+-------------------------------------------
+* Only statistical error.
+
+
+The photometric calibration is based on the star located at
+RA(J2000) = 11h 06m 08.82s, DEC(J2000) = -21º 46' 37.5", which has been
+fixed at V = 18.97, R = 18.28 and I = 17.71 (GCN 1948).
+
+The coadded R band image can be found at:
+http://www.stsci.edu/~josemari/GRB/GRB030323/grb030323.gemini.R.gif
+
+This message may be cited."
+
+

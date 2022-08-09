@@ -1,0 +1,637 @@
+//////////////////////////////////////////////////////////////////////
+TITLE:          GCN/HETE BURST POSITION NOTICE
+NOTICE_DATE:    Fri 21 Sep 01 05:16:08 UT
+NOTICE_TYPE:    HETE S/C_Alert
+TRIGGER_NUM:    1761,   Seq_Num: 1
+GRB_DATE:       12173 TJD;   264 DOY;   01/09/21
+GRB_TIME:       18950.56 SOD {05:15:50.56} UT
+TRIGGER_SOURCE: Trigger on the 6-120 keV band.
+GAMMA_RATE:     376  [cnts/s]  on a 1.300 [sec] timescale
+SC_-Z_RA:       358 [deg]
+SC_-Z_DEC:        0 [deg]
+SUN_POSTN:      178.44d {+11h 53m 45s}   +0.68d {+00d 40' 39"}
+MOON_POSTN:     228.39d {+15h 13m 33s}  -14.42d {-14d 25' 08"}
+MOON_ILLUM:     19 [%]
+COMMENTS:       Probable GRB.
+ 
+ 
+//////////////////////////////////////////////////////////////////////
+TITLE:          GCN/HETE BURST POSITION NOTICE
+NOTICE_DATE:    Fri 21 Sep 01 05:19:57 UT
+NOTICE_TYPE:    HETE S/C_Last
+TRIGGER_NUM:    1761,   Seq_Num: 2
+GRB_DATE:       12173 TJD;   264 DOY;   01/09/21
+GRB_TIME:       18950.56 SOD {05:15:50.56} UT
+TRIGGER_SOURCE: Trigger on the 6-120 keV band.
+GAMMA_RATE:     376  [cnts/s]  on a 1.300 [sec] timescale
+SC_-Z_RA:       358 [deg]
+SC_-Z_DEC:        0 [deg]
+SUN_POSTN:      178.44d {+11h 53m 45s}   +0.68d {+00d 40' 39"}
+MOON_POSTN:     228.39d {+15h 13m 33s}  -14.42d {-14d 25' 08"}
+MOON_ILLUM:     19 [%]
+COMMENTS:       Probable GRB.
+COMMENTS:       There is no WXM or SXC position in this notice.
+ 
+ 
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1096
+SUBJECT: H1761: A Bright GRB Detected by HETE
+DATE:    01/09/21 10:25:28 GMT
+FROM:    George Ricker at MIT  <grr@space.mit.edu>
+
+H1761: A Bright GRB Detected by HETE
+
+G. Ricker, D. Lamb, and S. Woosley on behalf of the HETE Science Team;
+
+R. Vanderspek, G. Crew, J. Doty, G. Monnelly, J. Villasenor, N.
+Butler, T. Cline, J.G. Jernigan, A. Levine, F. Martel, E. Morgan, G.
+Prigozhin, J. Braga, R. Manchanda, and G. Pizzichini, on behalf of
+the HETE Operations and HETE Optical-SXC Teams;
+
+N. Kawai, M. Matsuoka, Y. Shirasaki, T. Tamagawa, K. Torii, T.
+Sakamoto, A. Yoshida, E. Fenimore, M. Galassi, T. Donaghy, and  C. Graziani, on
+behalf of the HETE WXM Team;
+
+J-L Atteia, M. Boer, J-F Olive, J-P Dezalay, and K. Hurley on behalf
+of the HETE FREGATE Team;
+
+write:
+
+The HETE Fregate instrument has detected a bright (>40 sigma) GRB 
+that has been reported in a GCN Notice as H1761. The burst occurred 
+at 18950.56 SOD {05:15:50.56} UT on 21 September.  The burst is seen 
+in the WXM X detector and is therefore well-localized in the X 
+direction; the burst was apparently outside the coded FOV of the WXM 
+Y detector, which therefore gives limited information about the Y 
+direction of the burst.
+
+The X-detector data gives a good (+/-10 arcmin) localization in the X
+direction and crude limits on Y, resulting in a localization that is a
+thin, long strip.
+
+Two points along one side of the strip are:
+
+R.A. = 22h52m36s.7, Dec. =  39o35'13"
+R.A. = 23h10m22s.8, Dec. =  48o57'43"
+
+Two points along the other side of the strip are:
+
+R.A. = 22h54m04s.0, Dec. =  39o34'23"
+R.A. = 23h11m52s.5, Dec. =  48o57'00"
+
+Our estimate is that the strip is  ~10  degrees in the long direction.
+
+The burst duration in the 8-85 keV band was ~12 s. A total of 5310 
+counts were detected during that interval, corresponding to a fluence 
+of ~1 x 10-6 ergs cm-2. The peak flux was >3 x 10-7 ergs cm-2 s-1 
+(ie >8 x Crab flux).
+
+Further refinement of the X localization is in progress; a further
+attempt is also being made to improve the coarse Y localization.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1097
+SUBJECT: IPN triangulation of GRB010921 (=H1761)
+DATE:    01/09/21 20:29:41 GMT
+FROM:    Kevin Hurley at UCBerkeley/SSL  <khurley@sunspot.ssl.berkeley.edu>
+
+K. Hurley and T. Cline, on behalf of the Ulysses and HETE
+GRB teams;
+
+F. Frontera, E. Montanari, C. Guidorzi, and M. Feroci, on
+behalf of the BeppoSAX GRBM team;
+
+G. Ricker, D. Lamb, and S. Woosley on behalf of the HETE Science Team;
+
+R. Vanderspek, G. Crew, J. Doty, G. Monnelly, J. Villasenor, N.
+Butler, T. Cline, J.G. Jernigan, A. Levine, F. Martel, E. Morgan, G.
+Prigozhin, J. Braga, R. Manchanda, and G. Pizzichini, on behalf of
+the HETE Operations and HETE Optical-SXC Teams;
+
+N. Kawai, M. Matsuoka, Y. Shirasaki, T. Tamagawa, K. Torii, T.
+Sakamoto, A. Yoshida, E. Fenimore, M. Galassi, T. Donaghy, and  C. Graziani, on behalf of the HETE WXM Team;
+
+J-L Atteia, M. Boer, J-F Olive, and J-P Dezalay, on behalf
+of the HETE FREGATE Team;
+
+report:
+
+Ulysses and BeppoSAX observed GRB010921 (=H1761, GCN 1096).  Triangulation
+gives an annulus centered at RA(2000), Decl.(2000)=
+232.299 deg., +67.605 deg., with radius 60.003 +/- 0.156 deg
+(3 sigma).  This annulus intersects the HETE-II WXM error
+box (GCN 1096) at
+
+RA(2000)	Dec(2000)
+
+343.596         +40.669
+343.763         +41.069
+344.027         +40.816 
+344.195         +41.215
+
+to form an error box whose area is approximately 250 sq. arcmin.
+Some improvement to this error box is possible.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1098
+SUBJECT: GRB 010921 DPOSS Images Available
+DATE:    01/09/22 03:00:24 GMT
+FROM:    Derek Fox at CIT  <derekfox@astro.caltech.edu>
+
+A. Mahabal, S. G. Djorgovski, and R. Brunner of the Caltech DPOSS
+group, with D. W. Fox and P. A. Price of the Caltech-NRAO-CARA GRB
+collaboration, report:
+
+"We have made Digital Palomar Observatory Sky Survey (DPOSS) images of
+the GRB 010921 error box (GCN #1097) publicly available through the
+React Group webpages at:
+
+    http://www.srl.caltech.edu/~react/GRB010921.html
+
+The images may also be accessed directly as:   
+
+    http://www.srl.caltech.edu/~react/fits/GRB010921j.fits
+    http://www.srl.caltech.edu/~react/fits/GRB010921f.fits
+    http://www.srl.caltech.edu/~react/fits/GRB010921n.fits
+
+The images are 1801x1801 pixels, centered at (J2000) RA 22:55:34.86,
+Dec +40:56:32.1, and covering 30'x30'.  The images are from the second
+Palomar Sky Survey and were digitized at STScI; they have subsequently
+been corrected for vignetting effects and have corrected astrometric
+coefficients in the image headers.  Note that the image bandpasses are
+green (j), red (f), and near-infrared (n), corresponding,
+respectively, to the IIIa-J, IIIa-F, and IV-N emulsions used in the
+survey.  Going forward, we hope to make DPOSS images of GRB fields in
+the northern hemisphere available on a regular basis.
+
+Please contact Ashish Mahabal <aam@astro.caltech.edu> or one of the
+other authors of the Circular if you have any questions."
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1099
+SUBJECT: GRB010921 Optical Observations
+DATE:    01/09/22 11:30:33 GMT
+FROM:    Derek Fox at CIT  <derekfox@astro.caltech.edu>
+
+D. W. Fox, R. Burruss, E. Berger, J. S. Bloom, S. G. Djorgovski, and
+S. R. Kulkarni (Caltech), with M. Haynes (Cornell), report on behalf
+of the larger Caltech-NRAO-CARA GRB collaboration:
+
+"R. Burrus obtained Sloan r' images of the joint HETE/IPN localization
+for GRB010921 (HETE trigger #1761; GCNs #1096 and #1097) with the Hale
+200-inch telescope at Palomar Observatory beginning 22 hours after the
+trigger (22 September 03:18 UT).  The instrument used was the Large
+Format Camera (LFC) and the observations were 4 min in duration (3
+pointings). Visual comparison with the Digital Palomar Observatory Sky
+Survey F plate reveals no obvious new source to the depth of the DPOSS
+image (R ~ 20.5 mag)."
+
+This message may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1100
+SUBJECT: GRB010921 field photometry
+DATE:    01/09/22 18:08:47 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired UBVRcIc all-sky photometry for
+an 11x11 arcmin field that covers the center of the
+error box for GRB010921 (GCN 1096,1097) with the USNOFS 1.0-m telescope
+on one photometric night.  Stars brighter than
+V=13.5 are saturated and should be used with care.
+We have placed the photometric data on our anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb010921.dat
+The current photometry has a potential external zero-point
+error of about two percent.  The astrometry in this file
+is based on linear plate solutions with respect to USNO-A2.0.
+The internal errors are less than 100mas.
+Further calibration of this field will be performed if
+an optical afterglow is identified.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1101
+SUBJECT: GRB010921, negative optical observations
+DATE:    01/09/22 19:14:47 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired single R-band images with the NOFS 1.0m
+telescope from 010922 0654-0807 UT, forming a mosaic that
+covers nearly all of the HETE/IPN error box (GCN 1097).
+
+Inspecting the DPOSS images posted by Fox, et al. (GCN 1098),
+this region shows a few galaxies, but also a fair amount
+of nebulosity and bright stars.  It is located at galactic
+longitude 100.5 and latitude -16.8, so not very far out of
+the galactic plane.  At the same time, the star colors 
+(Henden GCN 1100) indicate that there is not a great deal
+of reddening in the field.
+
+In agreement with Fox, et al. (GCN 1099), we find no obvious
+afterglow candidate down to the DPOSS plate limit.  There are
+several probable variable stars and a couple of faint high proper
+motion objects.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1107
+SUBJECT: GRB 010921: The afterglow of HETE #1761
+DATE:    01/10/19 16:34:55 GMT
+FROM:    Paul Price at RSAA, ANU at CIT  <pap@srl.caltech.edu>
+
+P. A. Price, E. Berger, D. W. Fox, D. A. Frail, S. R. Kulkarni,
+J. S. Bloom, R. S. Burrus, S. G. Djorgovski, M. Haynes, and
+A. Mahabal report on behalf of the Caltech-NRAO-CARA GRB
+collaboration:
+
+Following our observations of 2001 Sep 22.14 UT (t_GRB + 22 hr;
+GCN #1099), we re-observed the error box of GRB 010921 (HETE
+trigger #1761) with the Large Format Camera (LFC) on the Palomar
+200-inch telescope on 2001 Sep 27.35 UT.  Both observations covered
+the entire 250 square arcminute error box (GCN ##1096, 1097)
+with three pointings in Sloan r'.  In preliminary reduction
+of the images, we identified a number of variable sources, and
+so further observations were made of the error box on 2001 Oct
+17.15 UT with LFC.  We now identify one source within the error
+box that exhibited a power-law decay, with index alpha ~ 1.6,
+superposed on a bright (R ~ 21.7 mag) galaxy.  The coordinates
+of this source are
+
+	RA: 22:55:59.9, Dec: +40:55:53 (J2000)
+
+with an estimated error of 0.6 arcseconds.
+
+Radio observations made with the VLA on 2001 Oct 17.15 reveal
+a radio source at the location of the optical transient with
+a nu^1/3 spectrum between 4.86 and 22.5 GHz, as has been seen
+in previous GRB afterglows.
+
+At the above coordinates, we also find a source detected with
+the USNOFS 1.0-m telescope (GCN #1100), which when corrected for
+Galactic extinction has a ~ nu^-2.3 spectrum over BVRI, possibly
+indicating extinction in the source frame.
+
+While all properties of this transient source appear to be
+consistent with those of a GRB afterglow, we can not with this
+information completely exclude the possibility that this object
+is a low luminosity AGN.  Nevertheless, we believe that this
+object is most likely the afterglow of GRB 010921, detected
+and localised by HETE.
+
+This message may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1108
+SUBJECT: GRB010921: Spectroscopy of the Host Galaxy
+DATE:    01/10/19 16:50:57 GMT
+FROM:    George Djorgovski at Caltech/Palomar  <george@astro.caltech.edu>
+
+GRB010921: Spectroscopy of the Host Galaxy
+
+S.G. Djorgovski, A. Mahabal, P.A. Price, J.S. Bloom, D.E. Reichart, E. Berger, 
+D.W. Fox, S.R. Kulkarni, D.A. Frail, R. Sari, T. Galama, F. Harrison, and 
+S. Yost report on behalf of the Caltech-NRAO-CARA GRB collaboration: 
+
+"We obtained a spectrum of the host galaxy of the proposed afterglow of 
+GRB010921 (Price et al., GCN 1107) using the Double Spectrograph at the
+Palomar 200-inch telescope, on 17 October 2001 UT.  Preliminary reductions
+of the spectrum indicate a redshift of z = 0.450 +- 0.005, on the basis of 
+4 emission lines, [O II] 3727, H-beta, [O III] 5007, and H-alpha.  The 
+spectrum is typical for an actively star-forming galaxy, with no sign of 
+an active nucleus.  Further analysis is in progress.
+
+Assuming an H_0 = 65 km/s/Mpc, Omega_m = 0.3, Omega_lambda = 0.7 cosmology,
+we derive the luminosity distance of 8.30e+27 cm.  Using the fluence of 
+1.0e-6 erg/cm2 (Ricker et al. GCN #1096), the total energy release in the 
+restframe range 12-123 keV (redshifted bandpass of the HETE band at 8-85 keV) 
+is 6.0e+50 erg.  Though no spectral information was reported, we estimate that 
+the isotropic equivalent energy release in the 20-2000 keV range (see Bloom
+et al. 2001, AJ, 121, 2879) was E_iso(gamma) = (2.65 +- 1.45)e+51 erg.
+
+To conform with the constant energy of E_gamma = 5e+50 erg (Frail et al.
+2001, ApJ Letters, accepted; astro-ph/0102282), the time of the jet break 
+would be t_jet ~ 130 days after the GRB.  However, a possible supernova 
+associated with this event may be detectable now."
+
+This note can be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1113
+SUBJECT: GRB 010921, I-band observations
+DATE:    01/10/20 17:45:55 GMT
+FROM:    Sylvio Klose at TLS Tautenburg  <klose@tls-tautenburg.de>
+
+S. Klose, B. Stecklum (Thueringer Landessternwarte Tautenburg),  
+   on behalf of a larger collaboration, 
+
+report: 
+
+The improved error box of GRB 010921 (Hurley et al., GCN #1097) was
+imaged in the I band using the Tautenburg Schmidt telescope on 
+Sep. 22, 18:45 UT - 23:13 UT (38 frames, 2 min exposure time each;
+field of view about 35 x 35 arcmin).
+
+The source reported by Price et al. (GCN #1107) is clearly detected. 
+Based on the standard stars provided by Henden (GCN #1100) we measure 
+a magnitude of I=18.93 +/- 0.05.
+
+This message is quotable.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1114
+SUBJECT: GRB010921, optical observation at early time
+DATE:    01/10/20 23:15:54 GMT
+FROM:    Hye-Sook Park at LLNL  <hpark@llnl.gov>
+
+H.S. Park, G. Williams, S. Barthelmy, D. Hartmann, K. Hurley 
+report on behalf of the LOTIS collaboration:
+
+LOTIS observed the GRB 010921 optical afterglow area reported 
+in GCNC #1107 on 09/21/2001 at 06:08:31 (52 min after the burst)
+during a routine sky patrol. LOTIS uses 4 11 cm aperture
+telephoto lenses to view an 8.8 x 8.8 deg field of view in
+the R, V and clear bands. We searched for an optical counterpart 
+in the region of GRB 010921 and we found no source. The 10 sigma 
+limits are:
+
+	clear filter	15.3 +/- 0.15
+	V filter	14.2 +/- 0.15
+	R filter	shutter failed to open
+
+Further analys is in progress.
+
+This message may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1117
+SUBJECT: GRB 010921: Possible supernova component
+DATE:    01/10/28 06:09:46 GMT
+FROM:    Paul Price at RSAA, ANU at CIT  <pap@srl.caltech.edu>
+
+P.A. Price, S.R. Kulkarni, D.W. Fox, E. Berger, J.S. Bloom,
+S.G. Djorgovski, D.A. Frail, T.J. Galama, F.A. Harrison,
+A. Mahabal, D.E. Reichart, R. Sari and S.A. Yost of the
+Caltech-NRAO-CARA GRB collaboration report:
+
+We re-observed the optical transient associated with
+GRB 010921 (GCN ##1107,1108) with the Palomar 200-inch
+telescope in Sloan g'r'i'z' on 2001 Oct 19.1 UT.  Magnitudes
+of the counterpart were measured relative to stars in the
+field calibrated with the Palomar 60-inch telescope and
+the USNOFS 1.0-metre telescope (GCN #1100).  We find that,
+at this epoch, the counterpart has a spectral flux distribution
+that peaks between the r' and i' bands, and falls away on
+the red and blue sides as ~ nu^3.5 and ~ nu^-2.1 respectively.
+
+This spectral flux distribution finds a natural explanation
+in terms of a supernova underlying the GRB afterglow (Bloom
+et al. 1999; Reichart 1999; Galama et al. 2000).  If this
+interpretation is correct, the source should continue to
+fade beyond R ~ 22 mag over a timescale of a few weeks.
+
+We strongly encourage further monitoring of this source,
+especially in the blue and near infrared.
+
+This message may be cited.
+
+References:
+Bloom, J.S. et al., 1999, Nature, 401, 453.
+Reichart, D.E., 1999, ApJ, 521, L111.
+Galama, T.J. et al., 2000, ApJ, 536, 185.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1125
+SUBJECT: GRB010921, optical observations
+DATE:    01/11/01 18:06:54 GMT
+FROM:    Don Lamb at U.Chicago  <lamb@oddjob.uchicago.edu>
+
+D. Q. Lamb, B. C. Lee, D. L. Tucker, D. E. Vanden Berk, P. Newman,
+J. Krzesinski and A. N. Kleinman, on behalf of the SDSS GRB team,
+report:
+
+We observed the HETE error box for GRB 010921 (GCN 1096) using the SDSS
+0.5-m "Photometic Telescope" at APO under partly cloudy conditions on
+2001 September 22 beginning at UT 02:36 and on 2001 September 23
+beginning at UT 05:23.  Images of the entire improved HETE error box
+(GCN 1097) were acquired in the SDSS u, g , r, i, and z filters on both
+nights.
+
+The optical transient (OT) reported by Price et al. (GCN 1107; see also
+GCN 1108 and GCN 1113) was r'=19.6 +/-0.3 on September 22 and
+significantly fainter on September 23 (we place an upper limit on r' of
+roughly 20.0).  The OT is marginally visible (at perhaps the 1 to 2
+sigma level) in g and i on September 22 and in g and r on September 23.
+We place upper limits on u, g, i, and z of roughly 20.5, 18.5, 17.5,
+and 15.0 on September 22, with the completeness limit of the i and z
+filters heavily degraded by clouds, and 19.5, 20.0, 18.5, and 18.5 on
+September 23, again impacted by clouds.  These upper limits are
+consistent with a ~ nu^{-2.3} spectrum over u, g, r, i, and z (GCN
+1107).  Images can be found at http://sdss.fnal.gov:8000/grb/.
+
+This message is quotable.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1131
+SUBJECT: GRB010921, optical observation
+DATE:    01/11/06 21:35:41 GMT
+FROM:    Hye-Sook Park at LLNL  <hpark@llnl.gov>
+
+H.S. Park, G. Williams, S. Barthelmy, T. Cline, D. Hartmann, 
+K. Hurley, W. Pereira
+report on behalf of the LOTIS collaboration:
+
+Super-LOTIS observed the HETE/IPN error box of GRB 010921
+(GCNC #1096, #1097) on 09/22/2001 starting at 03:05 UTC, 
+21.8 hr after the burst. Super-LOTIS is a 0.6 m telescope 
+located at Kitt Peak. These observations were made with a 
+clear filter and an effective integration time is 1000 s. 
+We detect the afterglow reported by Price et al. (GCNC #1107) 
+at 2 epochs. The magnitude of the afterglow is calibrated 
+against R band secondary standards reported in GCNC #1100 
+by Henden.
+
+	UTC		Ropen
+	9/22/01 03:05	19.4 +/- 0.2
+	9/22/01 06:25	19.9 +/- 0.2
+	9/23/01 03:05	> 21.2 +/- 0.3
+	9/23/01 06:27	> 21.2 +/- 0.3
+
+Further analysis is in progress.
+
+This message can be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1131
+SUBJECT: GRB010921, optical observation
+DATE:    01/11/06 21:35:41 GMT
+FROM:    Hye-Sook Park at LLNL  <hpark@llnl.gov>
+
+H.S. Park, G. Williams, S. Barthelmy, T. Cline, D. Hartmann, 
+K. Hurley, W. Pereira
+report on behalf of the LOTIS collaboration:
+
+Super-LOTIS observed the HETE/IPN error box of GRB 010921
+(GCNC #1096, #1097) on 09/22/2001 starting at 03:05 UTC, 
+21.8 hr after the burst. Super-LOTIS is a 0.6 m telescope 
+located at Kitt Peak. These observations were made with a 
+clear filter and an effective integration time is 1000 s. 
+We detect the afterglow reported by Price et al. (GCNC #1107) 
+at 2 epochs. The magnitude of the afterglow is calibrated 
+against R band secondary standards reported in GCNC #1100 
+by Henden.
+
+	UTC		Ropen
+	9/22/01 03:05	19.4 +/- 0.2
+	9/22/01 06:25	19.9 +/- 0.2
+	9/23/01 03:05	> 21.2 +/- 0.3
+	9/23/01 06:27	> 21.2 +/- 0.3
+
+Further analysis is in progress.
+
+This message can be cited.
+
+[GCN OPS: This is being sent manually because it is believed that there were
+problems in the distribution during the original automated sending.
+Apologies if you are receiving this a second time.]
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1135
+SUBJECT: GRB 010921: HST Detection of the Afterglow and Host Galaxy
+DATE:    01/11/08 04:07:12 GMT
+FROM:    Josh Bloom at CIT  <jsb@astro.caltech.edu>
+
+GRB 010921: HST Detection of the Afterglow and Host Galaxy
+
+J. S. Bloom, S. R. Kulkarni, F. A. Harrison, T. J. Galama, P. A. Price,
+S. G. Djorgovski, D. W. Fox, E. Berger, and D. A. Frail report on behalf
+the larger Caltech-NRAO-CARA GRB Collaboration:
+
+"We observed the field of GRB 010921 (Ricker et al., GCN #1096; Hurley et
+al., GCN #1097; Price et al., GCN #1107) on 2001 October 26-27 UT using
+the WFPC F450W, F555W, F606W, F814W, F850LP filters on the Hubble Space
+Telescope for a total of 1200 s integration in each bandpass.  The
+observations were conducted as part of the HST-GO Proposal #8867 (S.
+Kulkarni, P.I.).
+
+An astrometric comparison of the HST images with the Price et al.
+discovery image from Palomar reveals that the transient position is
+consistent (to better than 1 sigma) with a red compact source O.41 arcsec
+to the East of the center of a galaxy. The Palomar localization is
+inconsistent (at the 3-sigma level) with the center of the galaxy (note:
+no correction has yet been made to the Palomar transient position in the
+Palomar image for the contribution of the galaxy to the centroid position;
+correcting for this effect would tend to push the Palomar transient
+position further from the galaxy center).  Given that the red color of the
+compact source is consistent with the Price et al. spectral slope and that
+the localization is consistent, we identify this source as the afterglow
+of GRB 010921 and the galaxy (z=0.45; Djorgovski et al. #1108) as the
+host."
+
+An image of the host and the optical transient may be found at:
+
+   http://www.astro.caltech.edu/~jsb/GRB/grb010921-host-reg.ps
+
+The 1 and 3-sigma uncertainty contours of the OT position measured from
+the Palomar discovery images is shown.
+
+Links to false-color images of the WFPC field and close-up images of the
+OT-host system may be found at:
+
+   http://www.astro.caltech.edu/~jsb/grb010921
+
+Analysis of the broadband afterglow spectra is underway and more HST
+observations are scheduled.
+
+This message may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1162
+SUBJECT: GRB010921 - Milagro GeV/TeV Observations
+DATE:    01/11/28 19:03:40 GMT
+FROM:    Julie McEnery at U. Wisconsin  <mcenery@titus.physics.wisc.edu>
+
+Julie McEnery on behalf of the Milagro collaboration reports:
+
+Milagro observed GRB010921 at GeV/TeV energies during the burst
+duration (12 s) reported by the HETE WXM (GCN 1096). No evidence for
+GeV/TeV emission was found.  A preliminary analysis (assuming a
+differential photon spectral index of -2.4) gives an upper limit on
+the fluence at the 99% confidence level of:
+
+J(E > 2 TeV) < 2 * 10^(-7) erg cm^(-2) 
+
+The spectrum of the host galaxy of the proposed afterglow of GRB010921
+implies a redhift of 0.45 (GCN 1108). We expect that TeV photons will
+be attenuated by pair production with infrared photons in
+intergalactic space so we also calculate an upper limit on the fluence,
+assuming a spectrum truncated at 150 GeV. In this case we 
+find an upper limit on the fluence at the 99% confidence level of:
+
+J(100-150 GeV) < 4 * 10^(-5) erg cm^(-2) 
+
+These upper limits are preliminary and will be refined with further
+analysis. These limits do not incorporate systematic uncertainties 
+which may be of order 50%.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1259
+SUBJECT: GRB 010921: HST Observations
+DATE:    02/03/06 01:54:55 GMT
+FROM:    Paul Price at RSAA, ANU at CIT  <pap@srl.caltech.edu>
+
+P.A. Price, B.P. Schmidt (RSAA, ANU) and S.R. Kulkarni (Caltech)
+report on behalf of the larger REACT GRB collaboration:
+
+As a part of our AO-9 HST GRB program, we observed the afterglow
+(Price et al GCN #1107) of GRB 010921 (Ricker et al. GCN #1096).
+We obtained WFPC2 observations through multiple filters, designed
+to detect or constrain underlying supernovae for low-redshift
+GRBs.  The observations were obtained on 2001 Oct 26, Nov 6,
+Nov 25 and 2002 Jan 4.  We have drizzled, registered and subtracted
+the images to obtain host-subtracted fluxes at each of the first
+three epochs, assuming the flux of the GRB in the final epoch
+image is negligible.  The light-curve is available from
+
+            http://www.mso.anu.edu.au/~pap/grb010921/
+
+We identify a break in the light-curve at approximately 35 days
+which may be due to collimation of the ejecta.  If so, then
+we calculate a jet-corrected gamma-ray energy release of
+6.7 x 10^50 erg, consistent with the clustering of gamma-ray
+energy releases found by Frail et al. (2001, ApJ, 562, L55).
+
+SN 1998bw at z = 0.451 should peak in the F702W and F814W bands,
+at approximately 4 uJy.  No evidence for such a component in the
+light-curve is seen in the F555W, F702W, F814W and F850LP bands.
+These measurements rule out the existence of a SN with a luminosity
+greater than approximately 20% that of SN 1998bw underlying the GRB.
+We note, however, that we cannot rule out the existence of a more
+typical SN Ib/c, such as SN 1994I.  We strongly recommend that
+observers planning a search for a SN underneath a GRB afterglow do
+not assume that the SN will be as luminous as SN 1998bw.
+
+A more detailed analysis of the data is in progress.
+
+This message may be cited.
+
+[GCN ED NOTE (06Mar02):  A type was corrected: "6.7 x 10^51" to "6.7 x 10^50".]
+

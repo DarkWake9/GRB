@@ -1,0 +1,443 @@
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3094
+SUBJECT: Swift-BAT detection of GRB 050315
+DATE:    05/03/15 21:55:41 GMT
+FROM:    Ann M. Parsons at NASA/GSFC/Swift  <parsons@milkyway.gsfc.nasa.gov>
+
+A. Parsons, S. Barthelmy, L. Barbier (GSFC), J. Cummings (GSFC/NRC),
+E. Fenimore (LANL), R. Fink, N. Gehrels (GSFC), S. Holland (GSFC/USRA),
+D. Hullinger (GSFC/UMD), K. Hurley (UCB), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), S. Piranomonte (ASDC),
+T. Sakamoto (GSFC/NRC), G. Sato (ISAS), A. Smale (NASA HQ), M. Suzuki 
+(Saitama),
+J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+At 20:59:42 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located on-board GRB 050315.  The spacecraft automatically slewed
+to the burst location, and UVOT began automated observations.  XRT was
+not in a mode suitable for immediate position determination.
+
+Using the time interval of the trigger of the burst, the 
+ground-calculated
+location is RA,Dec 306.476,-42.591 (J2000) with an uncertainty of 3 
+arcmin
+(radius, including a systematic uncertainty, 90% containment).
+The burst was 40 degrees off the BAT boresight (60% coding).
+
+The burst lightcurve has 2 overlapping FRED-like peaks.  The duration
+is ~40 sec.  There is no further emmission out to T+180 sec, where the 
+end
+of the real-time TDRSS data ends.  The peak count rate is ~2500 
+counts/sec. 
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3095
+SUBJECT: GRB 050315: Early Observations with Swift/UVOT
+DATE:    05/03/15 23:42:15 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. Rosen, K. McGowan, M. De Pasquale (MSSL), P. Boyd (GSFC/UMBC),
+S. T.  Holland, M. Still (GSFC/USRA), W. Landsman (GSFC),
+S. Hunsberger (PSU), A.  Breeveld (MSSL), P. Roming (PSU), K. Mason,
+P. Schady (MSSL), M.  Ivanushkina (PSU), T. Poole (MSSL), C. Gronwall
+(PSU), A. Blustin (MSSL), P. Brown, S. Koch (PSU), M. Carter,
+H. Huckle (MSSL), P. Broos (PSU), T.  Kennedy, P. Smith, B. Hancock
+(MSSL), A. Parsons (GSFC), J. Nousek (PSU), N. Gehrels (GSFC), on
+behalf of the Swift UVOT team.
+
+     The Swift Ultra-Violet/Optical Telescope (UVOT) began observing
+the field of GRB 050315 (GCN 3094) at 21:01:13 UT, approximately 90
+seconds after the BAT trigger.  The first image was sent down via the
+TDRSS link approximately 200 seconds after the trigger.  This image
+was a 100 second exposure taken with the V filter.  It was centred on
+the BAT position, and had a size of 5 x 5 arcminutes, which covered
+88% of the BAT error circle.  The middle of the exposure was 140.19
+seconds after the BAT trigger.  The image was binned 8 x 8 to reduce
+the bandwidth required for transmission.  A comparison against the DSS
+showed no new sources down to a 5-sigma limiting magnitude of
+approximately V = 18.5.  We stress that this limiting magnitude is
+based on ground calibrations and may be uncertain by approximately 0.5
+mag.  The full-resolution version of this image will be transmitted to
+the ground during the next Malindi pass, which will occur at
+approximately 0000 UTC March 16, 2005.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3097
+SUBJECT: GRB 050315: Swift XRT Position
+DATE:    05/03/16 01:06:00 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+D. C. Morris, D. N. Burrows, J. E. Hill, J. A. Kennea, J. A. Nousek (PSU), 
+C. Pagani,  G. Chincarini  (INAF-OAB), A. F. Abbey, P. T. O'Brien (U. 
+Leicester), G. Cusumano, T. Mineo (INAF-IASF/Palermo), M. Capalbi (ASDC), 
+A. Parsons, S. Holland, N. White, N. Gehrels (GSFC), K. Mason (MSSL), and 
+K. Hurley (UCB) report on behalf of the Swift XRT team:
+
+The Swift BAT instrument detected GRB 050315 at 20:59:42 UT on 15 March 
+2005 (Parsons et al 2005, GCN 3094).  The observatory executed an automated 
+slew to the BAT position and the XRT began taking data at 21:01:05.5 
+UT.  The XRT was in Manual state and made observations in Photon Counting 
+mode.  Data were dumped to the ground at about 00:00 UT on 16 March 2005 
+and a preliminary analysis was performed by the XRT team.  We find a bright 
+uncataloged, rapidly fading X-ray source located at:
+
+RA(J2000) = 20:25:54,
+Dec(J2000) = -42:36:0.2
+
+We estimate an uncertainty of about 6 arcseconds.   This source is 32 
+arcseconds from the BAT position reported in GCN 3094.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3098
+SUBJECT: Non-detection of GRB050315 in ATCA Radio Observations
+DATE:    05/03/16 03:02:01 GMT
+FROM:    Brian Schmidt at RSAA, ANU (MSSSO)  <brian@mso.anu.edu.au>
+
+Mark H Wieringa (Australia Telescope National Facility), Brian P Schmidt 
+(Australian National University)
+and Alicia Soderberg (CalTech) report on behalf of a larger collaboration:
+
+"We observed a region covering the Swift burst GRB 050315 (GCN#3094)
+using the Australia Telescope Compact Array for 1 hour centered on
+March 16.02 UT. At frequencies of 4.8 and 8.6 GHz no emission was
+detected within the 6 arcsec diameter error circle of the XRT position
+(GCN#3097). The 3-sigma detection limits are 0.6 and 0.8 mJy at 4.8 and
+8.6 GHz respectively. No detections above these limits are present
+in a larger area (1 arcmin diameter) around the XRT position."
+
+ We thank the ATNF Director for making this rapid response possible.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3099
+SUBJECT: GRB050315:  Swift-BAT Refined analysis
+DATE:    05/03/16 05:10:29 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/NRC), S. Barthelmy, L. Barbier (GSFC), 
+J. Cummings (GSFC/NRC), E. Fenimore (LANL), R. Fink, 
+N. Gehrels (GSFC), S. Holland (GSFC/USRA), 
+D. Hullinger (GSFC/UMD), K. Hurley (UCB), H. Krimm (GSFC/USRA), 
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC), 
+S. Piranomonte (ASDC), G. Sato (ISAS), A. Smale (NASA HQ), 
+M. Suzuki (Saitama), J. Tueller (GSFC) 
+on behalf of the Swift-BAT team: 
+
+Analysis of the available data for the Swift-BAT GRB050315 
+(Parsons et al., GCN Circ 3094) yields a fluence of > 2.8x10^-6 
+erg/cm2 in the 15-350 keV band and a peak flux of 2.5 ph/cm2/sec 
+(also 15-350 keV).  The photon index of the 1-s peak spectrum (T0+25 sec.) 
+is 2.5 +- 0.3 (90% confidence).  Although there is a data gap, 
+the time averaged spectrum also shows a soft spectrum.  
+This appears to be a soft X-ray-rich GRB.  
+
+We are planning a further circular when more complete data 
+are avaliable.  
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3100
+SUBJECT: GRB 050315: Optical afterglow identification
+DATE:    05/03/16 09:41:52 GMT
+FROM:    Edo Berger at Carnegie Obs  <eberger@ociw.edu>
+
+Dan Kelson and Edo Berger (Carnegie Observatories) report:
+
+"On 2005, March 16.347 UT we imaged the XRT error circle of GRB 050315
+(GCN 3097) with the newly-comissioned LDSS3 instrument on Magellan/Clay in
+the r-band filter.  Within the 6" radius error circle we find a single
+bright object which is not present in the DSS at coordinates (J2000):
+
+        RA  =  20:25:54.1
+        DEC = -42:36:02.2
+
+with an uncertainty of about 0.5" in each coordinate.  We consider this
+object to be the optical afterglow of GRB 050315."
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3101
+SUBJECT: GRB 050315: Absorption redshift 
+DATE:    05/03/16 09:57:54 GMT
+FROM:    Edo Berger at Carnegie Obs  <eberger@ociw.edu>
+
+Dan Kelson and Edo Berger (Carnegie Observatories) report:
+
+"Using LDSS3 on Magellan we also obtained a 20-minute spectrum of the
+afterglow candidate (GCN 3100).  We find several absorption features which
+we identify as AlIII (1854.7 and 1862.8) and SiII (1808.0) at a redshift
+of z=1.949.  We conclude that this is the redshift of GRB 050315.
+
+Given a fluence of >2.8e-6 erg/cm^2 (GCN 3099), the isotropic-equivalent
+gamma-ray energy is > 2.6e52 erg."
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3102
+SUBJECT: GRB050315: Radio afterglow
+DATE:    05/03/16 18:04:36 GMT
+FROM:    Alicia Soderberg at Caltech  <ams@astro.caltech.edu>
+
+A. M. Soderberg (Caltech) and D. A. Frail (NRAO) report
+on behalf of the Caltech-NRAO-Carnegie GRB collaboration:
+
+"Using the Very Large Array at 8.5 GHz, we observed the
+field of GRB050315 (GCN 3094) on 2005 Mar 16.68 UT (t=0.80 d).
+Within the XRT localization (GCN 3097), we detect a radio
+source at the following coordinates:
+
+          RA: 20:25:54.17   Dec: -42:36:01.0 (J2000)
+
+with a positional uncertainty of ~0.5 arcsec.  Noting that
+this source is roughly coincident with the optical afterglow position
+reported by Kelson and Berger (GCN 3100), we interpret this as the radio
+afterglow of GRB050315.
+
+Further observations are planned."
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3103
+SUBJECT: GRB 050315 I-band observations
+DATE:    05/03/16 21:51:06 GMT
+FROM:    David Bersier at STScI  <bersier@stsci.edu>
+
+D. Bersier, J. Rhoads, A. Fruchter (STScI), D. Gilbank (Toronto)
+report on behalf of the NOAO GRB collaboration:
+
+We have observed the field of GRB 050315 (GCN 3094) with the MOSAIC II
+wide-field camera on the CTIO 4m Blanco telescope, starting 0.47d after
+the burst.
+
+The afterglow seen in the optical and radio (GCNs 3100, 3101 and 3102)
+is well detected in our I-band data, taken at a mean time of 0.484d
+after the burst.  A preliminary reduction, using an average zero point
+for this camera, yields mI=20.7.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3104
+SUBJECT: GRB 050315, SMARTS optical/IR afterglow observations
+DATE:    05/03/16 22:18:02 GMT
+FROM:    Bethany Cobb at Yale U  <cobb@astro.yale.edu>
+
+B. E. Cobb and C. D. Bailyn (Yale), part of the larger SMARTS
+consortium, report:
+
+Using the ANDICAM instrument on the 1.3m telescope at CTIO, we
+obtained optical/IR imaging of the error region of GRB 050315
+(GCN 3094, Parsons et al.) beginning ~11.6 hours post-burst
+(2005-03-16 08:35:09 UT).  Total summed exposure times amounted
+to 180s in BRIYJK and 120s in H and V.
+
+An optical source is detected in R and I at the coordinates of the 
+reported optical afterglow candidate (GCN 3100, Kelson & Berger).  This 
+source is, however, only slightly brighter than our detection limits.  
+Preliminary comparison with Landolt Standard PG 1047+003 and USNO B1.0 
+stars yields the following approximate afterglow magnitudes:
+
+         R = 20.9
+         I = 20.3
+
+No source was detected in B or V with upper limits of B > 22.3 and V > 21.4.
+
+Additionally, the afterglow candidate is not detected in the IR images to 
+the following detection limits (obtained by comparison with 2MASS):
+
+         J > 18.0
+         H > 17.4
+         K > 16.3
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3105
+SUBJECT: GRB 050315: Swift-BAT further refined analysis
+DATE:    05/03/16 22:41:45 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+H. Krimm (GSFC/USRA), S. Barthelmy, L. Barbier (GSFC), J. Cummings (GSFC/NRC),
+E. Fenimore (LANL), R. Fink, N. Gehrels (GSFC), S.T. Holland (GSFC/USRA),
+D. Hullinger (GSFC/UMD), K. Hurley (UCB), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+S. Piranomonte (ASDC), T. Sakamoto (GSFC/NRC), G. Sato (ISAS),
+A. Smale (NASA HQ), M. Suzuki (Saitama), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Continued analysis of the full data set (now with telemetry gaps 
+filled in) for the Swift-BAT GRB050315 (Parsons et al., GCN Circ 
+3094, Sakamoto et al., GCN Circ 3099) yields a fluence of 4.2 x 10^-6 
+erg/cm2 in the 15-350 keV band and a peak flux of 2.4 ph/cm2/sec 
+(also 15-350 keV). The photon index of the 1-s peak spectrum (T0+24.6 
+sec.) is 2.4 +- 0.3 (90% confidence).  The time averaged spectrum 
+also shows a soft spectrum with a power law index of 2.3 +- 0.1 (90% 
+confidence).   The Swift mission is still in its early orbit phase 
+and the BAT spectral response continues to be refined.  Further 
+spectral analysis is in progress.  In particular, since there is an 
+uncertainty in the energy response at the lowest energies at the 
+current time, it is not possible to conclude that this event is an 
+X-ray flash.
+
+The burst shows considerable structure in its light curve.  There is 
+a precursor starting ~60 seconds before the trigger and continuing up 
+until the main peak emission begins. The first of the two main peaks 
+has a slow rise of about ten seconds and a gradual decline 
+interrupted at TO ~22 seconds by a second peak with a much steeper 
+rise.  The burst shows signs of spectral evolution (hard to soft) 
+from the precursor through the two main peaks. There is no 
+significant emission after the decay of the second peak.  The overall 
+measures of burst duration give T90 = 96 +- 10 seconds and T50 = 25 
++- 5 seconds.  The errors in duration are estimated systematic errors.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3110
+SUBJECT: GRB 050315, SMARTS optical afterglow decay
+DATE:    05/03/17 21:04:47 GMT
+FROM:    Bethany Cobb at Yale U  <cobb@astro.yale.edu>
+
+B. E. Cobb and C. D. Bailyn (Yale), part of the larger SMARTS
+consortium, report:
+
+Using the ANDICAM instrument on the 1.3m telescope at CTIO, we
+obtained additional optical/IR imaging of the reported optical afterglow
+candidate (GCN 3100, Kelson & Berger) of GRB 050315
+(GCN 3094, Parsons et al.) beginning ~35.6 hours post-burst.
+Total summed exposure times amounted to 10 minutes R and I and
+12.5 minutes in J.
+
+The source identified as the afterglow candidate has dimmed
+since our previous observations (GCN 3104, Cobb & Bailyn).
+Preliminary comparison with Landolt Standards PG 1047+003 and RU 149
+yields the following approximate afterglow magnitudes:
+
+        R = 21.6
+        I = 21.5
+
+The counterpart was again not detected in the IR, with a
+magnitude limit of J > 18.6.
+
+Our R and I observations are summarized below:
+
+        time post-burst:        R magnitude:    I magnitude:
+        11.6 hours              20.9            20.3
+        35.6 hours              21.6            21.5
+
+We note that the I-band observations are close to the detection
+limit, and have measurement errors of >0.2 magnitudes, so the
+evidence for a color change should be treated with caution.
+
+The R-band magnitudes have errors of ~0.2, so assuming
+a power-law afterglow decay (afterglow flux proportional to
+t^alpha), then this corresponds to an alpha of -0.57 +\- 0.25.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3128
+SUBJECT: GRB 050315: Variability Analysis of Swift BAT Time History
+DATE:    05/03/20 23:58:18 GMT
+FROM:    Don Lamb at U.Chicago  <lamb@oddjob.uchicago.edu>
+
+     GRB 050315: Variability Analysis of Swift BAT Time History
+
+T. Q. Donaghy, T. Sakamoto, D. Q. Lamb, E. E. Fenimore, D. E. Reichart, 
+on behalf of the Swift BAT Team report:
+
+We have calculated the variability measure V (Fenimore and Ramirez-Ruiz
+2000; Reichart et al. 2001) for GRB 050315 (Parsons et al., GCN Circular
+3094), using the Swift BAT time history data for this burst.  We find
+values V = 0.017 +/- 0.027, 0.068 +/- 0.022, 0.086 +/- 0.041, and 0.064
++/- 0.016 (68 percent confidence regions) in the 15-25 keV, 25-50 keV,
+50-100 keV, and 25-100 keV energy bands, respectively.  These values of
+V are the same within the statistical uncertainties; this is consistent
+with the results of Reichart et al. (2001), who found no significant
+trend of V with energy for BATSE bursts.
+
+Analyzing the Swift BAT spectral data for GRB 050315, we find a peak 
+photon energy flux in 1 s of (9.2 +/- 0.6) x 10-8 erg cm-2 s-1 (68%
+confidence region) in the 33.9 - 339.1 keV energy band [which
+corresponds to the 100-1000 keV energy band in the rest frame of the
+source for a redshift of z = 1.949 (Kelson and Berger, GCN Circular
+3101)].  This peak photon energy flux corresponds to an isotropic-
+equivalent peak luminosity in the 100-1000 keV energy band in the rest
+frame of the source of L_obs = (3.2 +/- 0.2) x 10^51 erg s-1.
+
+Using V in the 25-100 keV energy band as a luminosity (and therefore a
+redshift) estimator, we estimate an isotropic-equivalent luminosity in
+100-1000 keV in the rest frame of the source of log L_V (erg s-1) =
+51.46 +/- 0.747 and a redshift z_V = 1.94 (+2.02/-0.97) for the burst.
+These values are consistent with the observed values log L_obs (erg s-1) 
+= 51.51 (+0.02/-0.04) (90% confidence region) and z = 1.949 (Kelson and 
+Berger, GCN Circular 3101).
+
+These results are encouraging.  They suggest that analyses of the Swift
+BAT time history data for a large sample of bursts will provide a
+decisive test of the validity of the variability measure V as a
+luminosity (and therefore a redshift) estimator, and if the analyses
+confirm its validity, they will make possible a better calibration of
+the estimator.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3133
+SUBJECT: Refined Swift XRT positions for GRB050315, GRB050318 and GRB 050319
+DATE:    05/03/21 22:15:51 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+A. P. Beardmore, K. L. Page (U. Leicester), V. Mangano (INAF-IASF/Palermo), 
+P. Romano (INAF-OAB), M. R. Goad, O. Godet, J. P. Osborne (U. Leicester), 
+G. Chincarini, S. Campana (INAF-OAB), D. N. Burrows, J. L. Racusin 
+(PSU),  G. Cusumano, T. Mineo (INAF-IASF/Palermo), M. Perri, F. Tamburelli 
+(ASDC), L. Angelini, F. Marshall, N. Gehrels (GSFC) report on behalf of the 
+Swift XRT team:
+
+We report refined XRT source positions for GRB 050315 (GCN3094, GCN3097), 
+GRB 050318 (GCN3111, GCN3113), and GRB 050319 (GCN3117), based on improved 
+ground-based analysis of extended data sets from these three bursts.  We 
+find the following afterglow positions:
+
+GRB 050315: RA(J2000) = 20:25:53.9, Dec(J2000) = -42:36:01.4 (P. Romano), 
+which is 2.3" from the optical counterpart (GCN3100).
+
+GRB 050318: RA(J2000) = 03:18:51.1, Dec(J2000) = -46:23:44.7 (V. Mangano), 
+which is 1.1" from the optical counterpart (GCN3123).
+
+GRB 050319: RA(J2000) = 10:16:48.1, Dec(J2000) = +43:32:52.3 (K. Page), 
+which is 3.1" from the optical counterpart (GCN3116).
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3294
+SUBJECT: GRB 050315: potential host galaxy
+DATE:    05/04/19 13:53:07 GMT
+FROM:    Javier Gorosabel at LAEFF-INTA, Madrid  <jgu@laeff.esa.es>
+
+ J. Gorosabel (IAA-CSIC, Granada), P. Laursen, B.L. Jensen, J.P.U.
+ Fynbo, J. Hjorth, D. Watson, H. Pedersen, P. Jakobsson, J.M. Castro
+ Cer¢n (NBI, Copenhagen), M.I. Andersen (AIP, Potsdam), report:
+
+  "We have obtained deep R-band imaging of the field of the GRB
+   050315 optical afterglow (GCN Circ. 3100) with the 1.54m Danish
+   telescope on La Silla. The observations were carried out during
+   five nights (8, 9, 11, 12 & 14 April 2005) with a total exposure
+   time of ~7 hours. In the stacked image, which has a 3 sigma
+   limiting magnitude of 24.2, an object is detected within an arcsec
+   of the afterglow position. This object, which we tentatively
+   identify as the GRB 050315 host galaxy, shows an elongated shape
+   in the E-W direction.
+
+   The magnitude of the potential host galaxy is R=23.9+/-0.2. The
+   photometric calibration is based on observations of Landolt fields.
+   A finding chart can be found at:
+
+   http://www.dsri.dk/~jgu/grb050315/FCs/GRB050315.R.Danish.medianw.gif
+
+   Further sub-arsecond deep observations are necessary to clarify
+   the nature of this object."
+
+ This message can be cited.
+

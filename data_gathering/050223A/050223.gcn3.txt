@@ -1,0 +1,413 @@
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3054
+SUBJECT: GRB 050223: Swift XRT Position
+DATE:    05/02/23 05:20:33 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+P. Giommi, M. Capalbi, M. Perri, F. Tamburelli (ASDC), G. Cusumano, V. 
+Mangano, V. La Parola (INAF-IASF/Palermo), D. N. Burrows, J. A. Kennea, J. 
+A. Nousek (PSU), K. L. Page, M. R. Goad (U. Leicester), P. Romano, G. 
+Tagliaferri, G. Chincarini (INAF-OAB), N. Gehrels (GSFC), B. Zhang (U. 
+Nevada), report on behalf of the Swift XRT team:
+
+The Swift BAT instrument detected GRB 050223 at 03:09:06 UT on 23 Feb 
+2005.  The GRB was located within the Earth angle constraint of the Narrow 
+Field Instruments and the observatory was not able to slew to it at that 
+time.  Swift executed an automated slew to the BAT position at 03:44 UT 
+while the observatory was in the SAA.  The XRT began taking data at about 
+03:57 UT after exiting the SAA.  The XRT was in Manual state and made 
+observations in PCmode.  We find an uncataloged X-ray source located at:
+
+RA(J2000) = 18h 05m 32.6s,
+Dec(J2000) = -62d 28' 19.7"
+
+We estimate an uncertainty of about 8 arcseconds.  This position was 
+generated using PSU processing software on 400 s of data.  Once data become 
+available at the SDC a more accurate refined position will be determined.
+
+This position is within 1.6 arcminutes of the BAT position.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3055
+SUBJECT: GRB 050223 Swift/BAT detection of a burst
+DATE:    05/02/23 05:54:42 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+T. Mitani (ISAS), L. Barbier, S. Barthelmy, J. Cannizzo, J. Cummings (GSFC), 
+M. Chester (PSU), E. Fenimore, M. Galassi (LANL), N. Gehrels (GSFC), 
+D. Hullinger (GSFC/UMD), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), 
+F. Marshall (GSFC), D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC), 
+G. Sato (ISAS), M. Suzuki (Saitama), T. Takahashi (ISAS), F. Tamburelli (ASDC), M. Tashiro (Saitama), J. Tueller (GSFC)
+
+
+At 03:09:06 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located on-board GRB050223.  Because of the Earth-limb constraint,
+the spacecraft could not immediately slew to the burst location.
+The location became unconstrained at T+35 min, and the spacecraft slewed.
+The XRT and UVOT instruments then began their standard set of pre-programmed
+observing sequences.
+
+Using the time interval of the burst, the ground-calculated location
+is RA, Dec 271.390, -62.481 (J2000) with an uncertainty of 4 arcmin
+(radius, including a systematic uncertainty, 90% containment).
+The burst was 36 degrees off the BAT boresight (70% encoding).
+
+The burst lightcurve has several small, short peaks on top of a slow rise 
+and fall with a T90 duration of ~23 sec (and T50 is 10 sec). The 
+peak flux is 0.8 ph/cm2/sec for a 1-sec interval (15-350 keV).  Using 
+a simple power law model, the fluence is 7.4 e-7 erg/cm^2 (15-350 keV).
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3056
+SUBJECT: GRB050223: ROTSE-III Optical Observations
+DATE:    05/02/23 06:33:25 GMT
+FROM:    Don Smith at U michigan  <dasmith@rotse2.physics.lsa.umich.edu>
+
+Title: GRB050223: ROTSE-III Optical Observations
+
+Smith, D. A. (U. of Michigan) reports on behalf of the ROTSE collaboration:
+
+ROTSE-IIIc, located at the H.E.S.S. site at Mt. Gamsberg, Namibia responded to
+Swift GRB 050223 (Trigger #106709).  An automatic response resulted in a series
+of 97 images beginning 7.7 seconds after receipt of the GCN trigger under fair
+conditions.  Some light clouds drifted through the field, but the images
+calibrated successfully.  The first image began at 23 Feb 2005 03:10:07.74,
+61.6 seconds after the burst.  We took 10 5-second, 10 20-second and 67 60-s
+exposures.  The images are unfiltered and were calibrated relative to USNO
+A2.0. At 18.8 degrees galactic latitude, the source is in a crowded field, and
+our limits are adversely effected by source confusion.
+
+Individual images have limiting magnitudes ranging from 16.4-17.1 (for longer
+exposures).  Comparison to DSS (second epoch) reveals no new sources within the
+3-sigma BAT error circle to a limiting magnitude of 18.0 for co-adds of 10
+images taken up to 43 minutes after the burst.  In particular, no new source is
+found at the location of the XRT source coordinates (Giommi et al., GCN
+Circ. No. 3054).
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3057
+SUBJECT: GRB050223: No Swift UVOT Detection of Afterglow Emission
+DATE:    05/02/23 09:00:57 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+C. Gronwall (PSU), A. Blustin (MSSL), P. Brown (PSU), S. Rosen, K. 
+McGowan, M. De Pasquale (MSSL), P. Boyd (GSFC/UMBC), S. Holland, M. Still 
+(GSFC/USRA), W. Landsman (GSFC), S. Hunsberger (PSU), A. Breeveld (MSSL), 
+P. Roming (PSU), K. Mason, P. Schady (MSSL), M. Ivanushkina (PSU), T. 
+Poole, P. Smith, B. Hancock (MSSL), S. Koch (PSU), M. Carter, H. Huckle 
+(MSSL),  P. Broos (PSU), T. Kennedy (MSSL), J. Racusin (PSU), E. Fenimore 
+(LANL), B. Zhang (UNLV), J. Nousek (PSU), N. Gehrels (GSFC), on behalf of 
+the Swift UVOT team.
+
+The Swift Ultra-Violet/Optical Telescope (UVOT) began observations of 
+GRB050223 at 03:55:28 UT on 23 Feb 2005, about 46:22 UT after the initial 
+Swift Bat trigger (Mitani et al, GCN 3055). The delay in observations was 
+due to the Earth-limb constaint, which prevented an immediate slew. We 
+detect no source in the intial 100s exposure at the Swift XRT position 
+(Giommi et al, GCN 3054).
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3058
+SUBJECT: GRB 050223 : Planned XMM-Newton observation
+DATE:    05/02/23 11:27:55 GMT
+FROM:    Norbert Schartel at XMM-Newton/ESA  <too@xmm.vilspa.esa.es>
+
+XMM-Newton will observe GRB 050223 at location 
+(RA=18h 05m 32.6s, DEC=-62d 28' 20", J2000),
+starting at 12:45:00 UT, on February 23, 2005,
+for an exposure of 60000 seconds.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3059
+SUBJECT: INTEGRAL detection of GRB 050223
+DATE:    05/02/23 13:44:54 GMT
+FROM:    Sandro Mereghetti at IASF/CNR  <sandro@mi.iasf.cnr.it>
+
+S. Mereghetti, D. Gotz (IASF, Milano), N. Mowlavi, S. Shaw, M. Beck
+(ISDC, Versoix) and J. Borkowski (CAMK, Torun) on behalf of the IBAS
+Localization Team report:
+
+
+GRB 050223, discovered by Swift (Giommi et al. GCN 3054, Mitani et al.
+GCN 3055), has been also detected by the IBIS/ISGRI instrument on board
+INTEGRAL.
+
+The burst occurred during a 200 sec long time interval in which the
+automatic distribution of IBAS Alerts was disabled due to the temporary
+switch-off of one of the 8 modules of the IBIS/ISGRI detector.
+
+The GRB coordinates (J2000) derived from an off-line analysis are:
+
+RA:   271.4002 [degrees]
+DEC:  -62.4739 [degrees]
+
+with an uncertainty of 3 arcmin (90% c.l. radius).
+
+The peak flux measured with IBIS/ISGRI is 0.6 ph/cmsq/s (20-200 keV, 1 s
+integration time).
+
+This message can be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3060
+SUBJECT: GRB050223 XMM-Newton observation
+DATE:    05/02/23 16:41:03 GMT
+FROM:    Norbert Schartel at XMM-Newton/ESA  <too@xmm.vilspa.esa.es>
+
+R. Gonzalez-Riestra, M. Santos-Lleo, P. Rodriguez-Pascual and P. Munuera
+report:
+
+Quick-Look-Analysis of the XMM-Newton observation of the GRB050223
+field based on a 5ks exposure in the EPIC pn camera that started at
+13:57 UT, shows the
+presence of a source within the SWIFT/XRT error circle (Giommi et al.,
+GCN 3054).
+
+XMMU J180532.5-622821 (J2000):
+R.A. = 18h 05m 32.5s  Decl. = -62deg 28' 21''
+with an estimated EPIC/pn count rate of 0.03 counts/sec;
+
+At this stage of data reduction the position error is expected to be
+less than 5''.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3061
+SUBJECT: GRB 050223: optical observations
+DATE:    05/02/23 18:54:22 GMT
+FROM:    Javier Gorosabel at LAEFF-INTA, Madrid  <jgu@laeff.esa.es>
+
+J. Gorosabel (IAA-CSIC, Granada),
+S. Eguchi (Stelab, Nagoya Univ.),
+A. de Ugarte Postigo (IAA-CSIC),
+Ph. Yock (Univ. of Auckland) and
+A.J. Castro-Tirado (IAA-CSIC), report:
+
+"Following the detection by SWIFT of GRB
+050223 (Mitani et al. GCN Circ. 3055)
+we imaged the error box with the 0.6 m
+telescope at Mt. John Univ. Observatory.
+We obtained a 300s image with the MOA
+camera (+wide R-band filter) under poor
+seeing conditions (4") starting on
+23.55 Feb UT (i.e. 10.05 hr after the event).
+
+A finding chart can be found at:
+
+http://www.iaa.es/~deugarte/GRBs/050223/T1143-grb050223-red-2.gif
+
+Comparison of the R-band image with
+the DSS-2 revealed neither counterpart
+within the 5" radius X-ray afterglow position
+given by  XMM-Newton (Gonzalez-Riestra et 
+al. GCN Circ. 3060) nor variable source to 
+about R = 20.5 within the 4' radius SWIFT/BAT
+error box."
+
+This message can be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3065
+SUBJECT: XMM-Newton Images of GRB 050223
+DATE:    05/02/28 15:46:53 GMT
+FROM:    Norbert Schartel at XMM-Newton/ESA  <too@xmm.vilspa.esa.es>
+
+P. Rodriguez from the XMM-Newton SOC
+report:
+ 
+Preliminary EPIC-pn images, light-curves and spectra from the XMM-Newton
+observation of the field of GRB 050223 are available at the home-page of
+the XMM-Newton Science Operations Centre:
+
+http://xmm.vilspa.esa.es/external/xmm_news/items/grb050223/index.shtml
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3067
+SUBJECT: PROMPT VRcIc Observations of GRB 050223
+DATE:    05/03/01 05:38:41 GMT
+FROM:    Melissa Nysewander at UNC,Chapel Hill  <mnysewan@physics.unc.edu>
+
+M. Nysewander, M. Bayliss, J. Haislip, P. Price (Hawaii), C. MacLeod, J.
+Kirchbrown, D. Moschler, A. Foster, D. Reichart, O. Awam, A. Davis, M.
+Greco, D. Kumar, T. Mack, A. Mann, B. Russ, C. Owen, and J. Phelps report
+on behalf of the UNC team of the FUN GRB Collaboration:
+
+We observed the 8 arcsecond position of the uncataloged x-ray source found
+by the Swift XRT instrument (Giommi et al., GCN 3054) in the field of GRB
+050223 with three telescopes of the PROMPT robotic telescope array located
+at CTIO.  Manual observations first began in V 2.5 hours after the burst at
+high airmass and no new sources were observed to the limiting magnitude of
+a single exposure.  Observations continued in Rc and Ic and details are
+given below.
+
+PROMPT  filter   exposures        start       mean      2s limiting
+  #                             time (hr)   time (hr)    magnitude
+  1       Rc    20x90s, 120x60s   2.8         4.1          21.2
+  3       V     130x90s           2.5         4.2          21.3
+  5       Ic    60x90s            4.3         5.1          21.1
+times are given in hours after the burst (03:09:06 UT).
+
+Limiting magnitudes were calculated using 2 NOMAD stars for V, and 5
+USNO-B1.0 stars for Ic and Rc.
+
+An overview of PROMPT can be found at astro-ph/0502429.  The project is
+still in the building/commissioning phase with only three telescopes
+currently online.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3093
+SUBJECT: GRB050223: No XMM-Newton OM detection of afterglow emission
+DATE:    05/03/15 19:35:46 GMT
+FROM:    Alexander Blustin at MSSL-UCL  <ajb@mssl.ucl.ac.uk>
+
+A. Blustin (MSSL), G. Branduardi-Raymont (MSSL), A. Breeveld
+(MSSL), C. Brocksopp (MSSL), M. Cropper (MSSL), C. James
+(MSSL), N. Loaring (MSSL), K. Mason (MSSL), K. McGowan (MSSL),
+M. de Pasquale (MSSL), M. Page (MSSL), T. Poole (MSSL),
+G. Ramsay (MSSL), S. Rosen (MSSL), C. Saxton (MSSL), P. Schady
+(MSSL), K. Wu (MSSL), S. Zane (MSSL), H. Ziaeepour (MSSL) on
+behalf of the XMM-Newton Optical Monitor team
+
+
+The XMM-Newton Optical Monitor began observations of GRB050223
+at 14:23:15 on 2005-02-23, about 11 hours after the initial
+Swift BAT trigger (Mitani et al, GCN 3055). We detect no
+source at the position of the XMM-Newton pn source
+(Gonzalez-Riestra et al, GCN 3060). The estimated limiting
+magnitudes (5-sigma) in each of the OM filters are as follows:
+
+Filter  Lim_Mag  Duration  T_start
+
+B       21.22    4000      T+40449
+UVW1    20.24    2500      T+60374
+UVW1    20.49    4000      T+63181
+UVM2    19.60    4000      T+67488
+UVM2    19.56    4000      T+71795
+UVW2    18.70    4000      T+76102
+UVW2    18.67    4000      T+80409
+UVW2    18.64    4000      T+84716
+
+This message may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3109
+SUBJECT: GRB050223: analysis of the XMM-Newton observation
+DATE:    05/03/17 18:25:00 GMT
+FROM:    Andrea De Luca at IASF-CNR,Milano  <deluca@mi.iasf.cnr.it>
+
+A. De Luca (IASF-Mi), S. Campana (OAB) on behalf of a larger
+collaboration report:
+
+We have analyzed the data from the XMM-Newton observation of
+GRB050223, discovered by Swift on 2005, Feb 23, 03:09:06 UTC
+(Giommi et al., GCN3054).
+
+The XMM-Newton observation started on 2005, Feb. 23 at 13:04 UT
+and ended on 2005, Feb 24 at 06:14:20, with a gap between
+Feb. 23 16:54 UT and Feb. 23 18:56 UT  due to a ground station
+outage. A first account of results, based on the analysis of
+preliminary data, have been presented by the XMM-Newton SOC team
+(http://xmm.vilspa.esa.es/external/xmm_news/items/grb050223/index.shtml).
+
+Observation Data Files have been produced and released only for
+the part of the observation starting from Feb. 23 18:55:57 UT
+(after the gap) and lasting for 41 ks.
+
+The whole observation is badly affected by low-energy particle
+background, dramatically reducing the signal to noise, especially
+in the data from the back-illuminated pn detector, which is
+particularly sensitive to such background component.
+This hampers a detailed study of the spectral and temporal
+phenomenology of the faint source XMMU J180532.5-622821
+(Gonzalez-Riestra et al., GCN 3060), the likely afterglow
+of GRB050223.
+
+As a first step, we improved the astrometry of the XMM-Newton/EPIC
+images by matching X-ray sources in the field to bright stars in
+the USNO-B1 catalogue.
+The refined position (J2000) for the X-ray afterglow is
+
+RA: 18h 05m 32.49s  Dec: -62d 28' 21.07"
+
+The 1 sigma error radius is 1.5 arcsec (including the rms error on the
+cross-correlation as well as systematic uncertainties in the optical
+catalogue). The position is fully consistent with the XRT coordinates
+(Giommi et al., GCN 3054) as well as with the preliminary XMM-Newton
+position by Gonzalez-Riestra et al. (GCN 3060).
+
+The EPIC light curve in the 0.5-2 keV range (where the signal-to-noise
+is maximum) shows hints that the source is fading, following
+a power law decay with index in the range 0.5-3 (90% confidence level).
+
+We extracted time-averaged spectra from the three EPIC cameras and we
+generated ad-hoc response and effective area files. A slightly absorbed
+(NH<10^21 cm^-2, consistent with the Galactic column density in this
+direction, 7x10^20  cm^-2) power law model with photon index
+1.6(+0.6,-0.4) gives an acceptable description of the data in the 0.3-4
+keV range, with a reduced chi2 of 1.5 (32 d.o.f). The quoted errors are
+at 90% conf. level for a single interesting parameter.
+The not optimal quality of the fit is most likely due to the heavy
+background affecting the observation.
+The observed flux (0.2-10 keV) is of ~3.7x10^-14 ergs cm^-2 s^-1;
+the corresponding unabsorbed flux is ~4x10^-14 ergs cm^-2 s^-1.
+
+This message may be cited.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5268
+SUBJECT: GRB050223: Host Galaxy
+DATE:    06/06/16 20:57:59 GMT
+FROM:    Leonardo Pellizza at CEA/Saclay  <lpellizz@discovery.saclay.cea.fr>
+
+L.J. Pellizza (CEA Saclay, France & IAFE, Argentina), P.-A. Duc
+(CEA Saclay, France), E. Le Floc'h (Steward Obs., USA), & I.F.
+Mirabel (ESO), on behalf of the MISTICI collaboration.
+
+We imaged the field of GRB 050223 (Mitani et al. 2005, GCN 3055)
+on May 10, 2005 and June 5, 2005. R (10 x 308 seconds) and Ks
+(42 x 60 seconds) frames were obtained respectively with FORS1 and
+ISAAC at VLT. In the combined R and Ks images we detect a single
+galaxy within the revised XRT error circle (Moretti et al. 2006,
+A&A, 448, L9), down to our limiting magnitudes R_lim ~ 26 and
+Ks_lim ~ 21. Its position is RA(J2000) = 18:05:32.99, DEC(J2000) =
+-62:28:18.8 (0.2 arcsec error), We measured R = 21.6 and Ks = 18.9
+for this object (with an uncertainty of ~0.1 mag). Astrometry was
+performed using USNO B1.0 stars, while photometry was calibrated
+against 2MASS and USNO B1.0 (second epoch) magnitudes.
+
+////////////////////////////////////////////////////////////////////////
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5283
+SUBJECT: GRB 050223: Magellan redshift
+DATE:    06/07/03 21:31:23 GMT
+FROM:    Edo Berger at Carnegie Obs  <eberger@ociw.edu>
+
+E. Berger (Carnegie) and Min-Su Shin (Princeton) report:
+
+"We obtained spectroscopic observations of the host galaxy of GRB 050223
+(GCN 5268) with the LDSS-3 spectrograph on the Magellan/Clay telescope on
+2006 June 28 UT.  We find a single emission line at an observed
+(vacuum-corrected) wavelength of 5933.8A, corresponding to [OII]3727 at a
+redshift z=0.5915.  At this redshift, the observed brightness of the host,
+R=21.6 mag (GCN 5268), corresponds to an absolute magnitude, M_B=-20.2 mag
+or ~0.5L*.  We further detect an emission line at the same wavelength from
+a galaxy about 1.3 mag fainter located 10" to the east of the host galaxy,
+indicating that it is a companion to the host with a separation of about
+65 kpc and a luminosity of about 0.15L*.
+
+At the redshift of the host and with a fluence of 9.7e-7 erg/cm^2 (Page et
+al. 2005, MNRAS, 363, L76), the isotropic-equivalent gamma-ray energy of
+GRB 050223 is only 8.7e50 erg."
+
