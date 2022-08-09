@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10625
+SUBJECT: GRB 100418A: Swift/UVOT Observations
+DATE:    10/04/19 21:54:40 GMT
+FROM:    Mike Siegel at PSU/Swift MOC  <siegel@astro.psu.edu>
+
+M. H. Siegel (PSU) and F. Marshall (NASA/GSFC) report on behalf
+of the Swift/UVOT team.
+
+The Swift/UVOT began settled observations of the field of GRB
+100418A 87s after the BAT trigger (Marshall et al., GCN Circ. 10612).
+Data summed from the first and second orbits reveals the source
+reported by Marshall et al.  The source shows no fading between
+the first and second orbits within the photometric uncertainties.
+The photometry is consistent with a constant source with a white
+magnitude of 20.48+-0.13.  This likely represents the GRB host
+galaxy reported by Malesani (GCN Circ. 10621) and not the
+afterglow reported by Filgas et al. (GCN Circ. 10617), Updike
+et al. (GCN Circ. 10619) and Antonelli et al. (GCN Circ. 10620).
+The UVOT position of the source is:
+
+     RA(J2000.0) =  17:05:26.96  =  256.36278 (deg)
+    Dec(J2000.0) = +11:27:41.9   =  +11.46167 (deg)
+
+with a 90% confidence interval of 0."67.
+
+The 3-sigma upper limits for the finding chart (fc) and
+summed exposures from the first and second orbits are reported
+below:
+
+FILTER     T_start(s)  T_stop    Exposure     Mag/3UL
+========================================================
+white fc      87        237        147        20.62+-0.29
+white         89       1548        390        20.58+-0.20
+white       6143       6343        196        20.32+-0.20
+v            628       6754        491        >19.90
+b            554       6138        294        20.61+-.44
+u            299       7348        697        20.47+-0.41
+uvw1         678       7164        491        20.47+-0.42
+uvm2         653       6959        491        20.09+-0.32
+uvw2         604       6548        308        20.73+-0.54
+=======================================================
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E_{B-V} = 0.07 (Schlegel et al.,
+1998, ApJS, 500, 525). The photometry is on the UVOT photometric
+system described in Poole et al. (2008, MNRAS, 383, 627).
+

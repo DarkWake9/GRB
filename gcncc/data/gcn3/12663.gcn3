@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12663
+SUBJECT: Konus-Wind observation of GRB 111209A
+DATE:    11/12/11 14:10:38 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, P.
+Oleynik, M. Ulanov, D. Svinkin, and T. Cline on behalf of the Konus-Wind
+team report:
+
+The exceptionally long GRB 111209A (Swift-BAT trigger #509336: Hoversten 
+  et al., GCN 12632; Palmer et al., GCN 12640) was detected by 
+Konus-Wind in the waiting mode.
+
+The burst light curve shows the main multipeaked episode of emission 
+started at ~T0(BAT)-1900 s and lasted until ~T0(BAT)+4400 s (the 
+duration is ~6300 s; T0(BAT)=25928 s UT (07:12:08)). There is also a 
+weaker broad pulse of emission seen before the main pulse from 
+~T0(BAT)-5400 s to ~T0(BAT)-2600 s and a hint of an additional episode 
+of emission after the main pulse from ~T0(BAT)+5000 s to ~T0(BAT)+10000 
+s. Both these episodes might be related to GRB 111209A (they were 
+detected by the same KW detector, and the KW ecliptic latitude responses 
+for them are consistent with the common origin with the main episode). 
+The most intense peak in the Konus-Wind light curve, (which started at 
+~T0+1740 s, peaked at ~T0+2040 s, and ended at ~T0+2300 s), corresponds 
+to a significant raise in the XRT lc 
+(http://www.swift.ac.uk/xrt_curves/00509336/ - Grupe & Hoversten GCN 
+12643) and a bright optical flash (Klotz et al., GCN 12637).
+
+As observed by Konus-Wind, the burst (the main episode) had a fluence of 
+(4.86 ± 0.61)x10^-4 erg/cm2 (in the 20 - 1400 keV energy range).
+
+Modeling the KW 3-channel time-integrated spectrum (from T0-1890 s to
+T0+4400 s) by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.31 ± 0.09, and Ep = 310 ± 53 keV.
+
+Assuming z = 0.677 (Vreeswijk, Fynbo, & Melandri GCN 12648) and a 
+standard cosmology model with H_0 = 71 km/s/Mpc, Omega_M = 0.27,
+Omega_Lambda = 0.73, the isotropic energy release, E_iso, is (5.82 ± 
+0.73)x10^53 erg, and Ep_rest is 520 ±  89 keV.
+
+Thus, the prompt gamma-ray emission properties of this GRB: fluence, Ep, 
+and E_iso are similar to those observed in other long energetic GRBs. 
+The only exceptional feature of the prompt gamma-ray emission is the 
+huge duration.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB111209A/
+

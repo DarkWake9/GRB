@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10561
+SUBJECT: Swift detection of LS V +44 17
+DATE:    10/04/01 19:51:03 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+G. Stratta (ASDC), W. H. Baumgartner (GSFC/UMBC),
+S. Campana (INAF-OAB), P. A. Curran (UCL-MSSL), V. D'Elia (ASDC),
+N. Gehrels (NASA/GSFC), J. M. Gelbord (PSU),
+S. T. Holland (CRESST/USRA/GSFC), E. A. Hoversten (PSU),
+J. A. Kennea (PSU), W.B Landsman (GSFC), J. Mao (INAF-OAB),
+C. B. Markwardt (CRESST/GSFC/UMD), D. M. Palmer (LANL),
+M. H. Siegel (PSU), M. Stamatikos (OSU/NASA/GSFC), M. A. Stark (PSU),
+R. L. C. Starling (U Leicester) and E. Troja (NASA/GSFC/ORAU) report
+on behalf of the Swift Team:
+
+At 18:34:10 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located trigger 418109.  Swift slewed to the location at the end
+of the trigger image interval.  The BAT on-board calculated location
+is RA, Dec 70.262, +44.512 which is 
+   RA(J2000) = 04h 41m 03s
+   Dec(J2000) = +44d 30' 44"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This is an image trigger (30 minute duration). 
+The position is consistent with the known Be X-ray pulsar LS V +44 17, 
+which was recently reported to be active (Morii et al, ATEL #2527). 
+
+BAT has been detecting this source with marginal significance over
+the past few days, with the first detection (~60 mCrab) on
+2010 March 29 at 21:39 UT. 
+
+The XRT began observing the field at 19:08:39.4 UT, 2069.0 seconds
+after the BAT trigger. XRT found a bright X-ray source located at RA,
+Dec 70.2497, +44.5297 which is equivalent to:
+   RA(J2000)  = 04h 41m 00.07s
+   Dec(J2000) = +44d 31' 46.9"
+with an uncertainty of 5.2 arcseconds (radius, 90% containment). This
+location is 71 arcseconds from the BAT onboard position, within the BAT
+error circle. 
+
+XRT position is consistent with LS V +44 17. 
+  
+No event data are yet available to determine the column density using
+X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.60e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 2080 seconds after the BAT trigger. LS V +44 17 is
+bright at the XRT position and compromised by coincidence loss at a
+level which is uncorrectable.  The SIMBAD magnitude for the source is
+V = 10.7, which is consistent with the UVOT image although more
+quantitative statements cannot be made. 
+

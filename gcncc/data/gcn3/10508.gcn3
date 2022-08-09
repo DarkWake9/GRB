@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10508
+SUBJECT: GRB 100316B: Swift/UVOT observations
+DATE:    10/03/16 19:29:42 GMT
+FROM:    Patricia Schady at MSSL/Swift  <msslba@googlemail.com>
+
+S. R. Oates (MSSL-UCL) and W. H. Baumgartner (GSFC/UMBC) report on
+behalf of the Swift/UVOT team:
+
+The Swift/UVOT began observerving the field of GRB 100316B 67s
+after the BAT trigger (Baumgartner et al., GCN Circ. 10489). We detect the
+optical afterglow in the white, v, b, u and marginally in the uvw1 filter.
+The refined UVOT position is RA (J2000)= 163.48809, DEC (J2000)=-45.47265,
+which is equivalent to:
+
+     RA (J2000) = 10:53:57.141
+    Dec (J2000) = -45:28:21.54
+
+with an estimated uncertainty of 0.52 arcsec (radius, 90% confidence).
+This position is consistent with the XRT refined position (Beardmore
+et al., GCN Circ 10502). The marginal detection in the uvw1 filter is
+consistent with
+the VLT redshift upper limit (D'Avanzo et al., GCN Circ. 10495).
+
+
+Preliminary magnitudes and the 3 sigma upper limits are reported below for
+individual optical images and summed UV images.
+
+Filter    T_start(s)  T_stop(s)  Exposure      Mag  Err
+###########################################################
+white     67           216         147         18.36 +/- 0.05
+white     857          1007        147         19.15 +/- 0.09
+u	  279          528         246         18.44 +/- 0.10
+v         1212         1232        19          18.28 +/- 0.46
+b         535          555         19          18.97 +/- 0.36
+uvw1	  659          1108        58          18.91 +/- 0.36
+uvm2      634          1246        66          > 18.59
+uvw2      585          1207        78          > 19.13
+###########################################################
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a non-negligible reddening of E_{B-V} = 0.14 mag
+(Schlegel et al.,
+1998, ApJS, 500, 525).  The photometry is on the UVOT photometric system
+described in Poole et al. (2008, MNRAS, 383,627).
+

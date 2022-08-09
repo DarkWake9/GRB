@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12159
+SUBJECT: Swift J1822.3-1606: A Probable New SGR in Ground Analysis of BAT Data
+DATE:    11/07/15 17:35:23 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+Swift J1822.3-1606: A Probable New SGR in Ground Analysis of BAT Data
+
+J. R. Cummings (GSFC/UMBC), D. Burrows (PSU), S. Campana (INAF-OAB),
+J. A. Kennea (PSU), H. A. Krimm (GSFC/USRA), D. M. Palmer (LANL),
+T. Sakamoto (NASA/UMBC), S. Zane (MSSL-UCL)
+on behalf of the Swift Team
+
+At 2011-07-14 at 12:47:47.1 UTC, Swift-BAT triggered (#457261) on
+a previously unknown source, Swift J1822.3-1606.  This was at the
+same time as Fermi-GBM trigger #332340476.  Only a subthreshold source
+was detected onboard.  There were two subsequent rate increases of
+similar size, probably from the same source at about T+26 sec and
+T+308 sec, the latter also causing a rate trigger with no
+significant source found onboard (#457263).  There were also 2 other
+rate triggers within the same pointing period (about 1650 seconds
+long), but no significant flux was observed from the source at these
+times.
+
+Each pulse was about 0.005 +- 0.001 sec long.  All the emission
+was < 100 keV.  Because of the repeated soft and short rate
+increases, and the location of the source near the Galactic plane,
+we tentatively classify this object as a new Soft Gamma-ray
+Repeater.
+
+Combining BAT pulse-height events from the two rate triggers
+yields a highly significant source detection at
+RA, Dec 275.595, -16.100, which is:
+
+RA (J2000)  18h 22m 22.8s
+Dec (J2000) -16d 05' 59"
+
+with an estimated error of 2.3 arcmin (estimated radius, 90%
+containment).
+
+There was also a rate trigger (#457253) on a longer (~0.1 sec),
+larger, and harder event that was out of the BAT field of view
+at T-10754 sec.  SWIFT J1822.3-1606 was above the horizon and
+out of the BAT FOV, and we cannot determine if the event was
+associated with the source or not.
+
+The Swift/BAT hard X-ray transient archive was examined to search
+for previous emission from SWIFT J1822.3-1606 in daily averages.
+No significant excess was found back to 2011 June 15 with an
+average 1-sigma error in the 15-50 keV band of 0.0016 ct/s/cm2
+(~7 mCrab).  The history of Swift/BAT on-board source detections
+was examined and we found no previous rate-triggered or image-
+triggered detections of the source.
+
+We have detailed data for two rate increases.  A powerlaw fit to
+the combined spectrum has a photon index of 3.7 +- 0.5.  A
+blackbody fit to the combined spectrum has a marginally better
+chisquared with a temperature of 4.9 +- 0.5 keV.  The combined
+fluence of the two rate increases for which we have data, using
+the blackbody model, was (2.0 +- 0.4) x 10^-7 ergs/cm^2
+
+A Swift TOO has been approved, but the source is Moon constrained
+until at least 17:34 UT on July 15.  An observation is planned
+soon after the source comes out of constraint.
+
+This circular has also been posted as ATel #3488:
+http://www.astronomerstelegram.org/?read=3488
+

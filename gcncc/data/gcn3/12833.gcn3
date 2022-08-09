@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12833
+SUBJECT: GRB 120114A found in ground analysis of BAT data
+DATE:    12/01/15 14:56:28 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori.sakamoto-1@nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), C. Graziani (U of Chicago), J. R. Cummings (GSFC/UMBC), 
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), E. E. Fenimore (LANL), 
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), 
+D. M. Palmer (LANL), G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC), 
+T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Automated BAT ground analysis found a burst that occurred at 16:20:09 UT 
+with a significance of 9.1 sigma (15-200 keV) from the failed event data 
+of trigger #511739.  The event is temporally coincident with the Fermi GBM 
+348250807.  The best BAT location is RA, Dec = 317.9043, +57.0358 deg, which is
+
+  RA(J2000)  =  21h 11m 37.03s 
+  Dec(J2000) = +57d 02' 08.9" 
+
+with an uncertainty of 2.3 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 18%.
+
+The mask-weighted light curve created from the failed event data 
+(available from 16:20:06 to 16:20:16 UT) shows a constant positive 
+rate from the beginning.  And then, the rate increases by three times 
+around 16:20:13 UT.  From the BAT raw light curve, the duration of 
+the event is ~35 sec long.  
+
+The spectrum extracted using the full event data is best fit by a simple 
+power-law model.  The power law index of the spectrum is 1.4 +- 0.3 
+(90% confidence). 
+
+Since the GRB is too close to the Sun, no Swift ToO has been requested.
+
+

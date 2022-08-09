@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13379
+SUBJECT: GRB 120624B: Fermi-LAT Detection
+DATE:    12/06/25 10:18:47 GMT
+FROM:    Giacomo Vianello at SLAC  <giacomov@slac.stanford.edu>
+
+Giacomo Vianello (CIFS/SLAC), Daniel Kocevski (Stanford Univ.) report
+on behalf of the Fermi LAT Team:
+
+Fermi-LAT has detected high energy emission from the long, hard and
+bright GRB 120624B in ground analysis. The GRB was triggered on by the
+GBM on June 24, 2012 at 22:23:54.93 UTC, although the emission started
+~250 seconds earlier (trigger 362269436, GCN 13377).
+
+The best GBM position was \~70 deg off-axis for the whole duration of
+the prompt emission (~270 seconds), outside of the Fermi/LAT nominal
+field of view for the standard data analysis.
+
+Using a non-standard data selection most sensitive in the tens-of-MeV
+energy range and with a broader acceptance, we significantly detected
+the burst between ~T0-250s and ~T0+20 s. The significance of the
+excess corresponds to 10 sigma. The light curve shows 3 peaks, with a
+total duration of \~270 s.
+
+This burst was bright enough to result in a Fermi spacecraft
+autonomous rapid repoint (ARR) maneuver, starting 100 s after the GBM
+trigger. Thus, the GBM position entered the LAT field of view at
+\~T0+100 s.
+
+A preliminary maximum-likelihood analysis of the E>100MeV
+P7TRANSIENT_V6 LAT data generated during the interval T0+100, T0+1.3
+ks (until the GRB became occulted by the Earth) revealed a very
+significant transient source, with a spectrum well described by a
+power law of index -2.4 +/- 0.1 (68% c.l. statistical only). Using
+this analysis, we obtained the best LAT on-ground localization of:
+
+RA(J2000) = 170.73 deg
+Dec(J2000) = 9.48 deg
+
+with an error radius 0.45 deg (90% containment, statistical error
+only), which is 3.6 deg from the best GBM localization.
+
+The Zenith angle for this source was ~30 deg at the time of the
+trigger, thus very far from the Earth Limb.
+
+A Swift/ToO request has been submitted.
+
+The Fermi-LAT point of contact for this burst is Daniel Kocevski
+(kocevski@stanford.edu)
+

@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11574
+SUBJECT: New feature in Fermi GBM GRB Ground Position Notices
+DATE:    11/01/17 04:19:13 GMT
+FROM:    Valerie Connaughton at UAH/NSSTC  <valerie.connaughton@nasa.gov>
+
+Valerie Connaughton reports for the Fermi GBM Team:
+
+As of today, new information has been added to the GBM Ground Location
+GCN notices (GCN/FERMI_GBM_GND_POSITION) that will alert observers that
+a bright, hard burst has occurred in the LAT field-of-view.
+This additional information is derived from the limited real-time data
+extracted by the flight software, telemetered to the ground, and used
+to calculate the automated on-ground burst locations currently distributed
+in the notice within seconds - tens of seconds of the burst trigger.
+
+Background-subtracted count rates above 200 keV registered in the BGO
+detectors for events localized within 70 deg of the LAT boresight are
+used to flag the event.  This is done for each of the localizations
+performed on the ground, so that it is possible that an event can be
+flagged as interesting in one notice and not in another, owing to
+brightness variations and spectral evolution in the burst.
+
+The background measure and integration time for the data provide less
+information than is available after the full data download hours later,
+so the method is not completely reliable, but it is fast and should
+permit observers to dedicate more effort to following up the sub-set of
+events that contains the LAT-detected burst population.
+
+The identification technique is susceptible to false positives in the
+case of short bursts, which can be mistakenly identified as bright owing
+to short integration times being more susceptible to statistical
+fluctuations above backgrounds measured in a fairly crude automated
+fashion.  We have attempted to mitigate this by penalizing information
+obtained from integration times shorter than 64 ms, while still
+retaining the brighter short bursts.
+
+We have set a threshold which would have flagged 13 of the 18
+high-confidence LAT detections between July 2008 and December 2010, with
+an additional 24 flagged events that are not high-confidence LAT
+detections (though some are low-confidence LAT detections).   By
+lowering the threshold, we can identify all but two of the LAT
+high-confidence detections (GRB081215 was seen at 90 deg off-axis, and
+GRB100116 triggered on a precursor with the main, LAT-detected emission
+occurring 80 seconds later, beyond the time when the GBM FSW passes on
+the information for localization).  Lowering the threshold this way
+comes at a cost of flagging 81 additional bursts (out of a total 575 GBM
+GRBs).
+
+Our thresholds can easily be altered upon feedback from the community.
+
+Statistical uncertainties on these types of localizations can be as low
+as 1 deg.  An additional systematic error is associated with our
+localizations.    Based on a study using 150 GRBs localized by other
+instruments (LAT, Swift BAT, SuperAGILE, INTEGRAL, MAXI, the
+InterPlanetary Network), this additional uncertainty is 3.2 deg for 70%
+of the automated ground locations distributed in these notices, and 9.5
+deg for the remaining 30% (Briggs et al., in preparation).  The GBM team
+is working to reduce these uncertainties.
+
+Please address feedback and questions tovalerie@nasa.gov
+

@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13386
+SUBJECT: Swift detection of IGR J17062-6143
+DATE:    12/06/25 23:03:17 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+D. N. Burrows (PSU), J. A. Kennea (PSU), A. Melandri (INAF-OAB),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/PSU) and
+C. A. Swenson (PSU) report on behalf of the Swift Team:
+
+At 22:42:31 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located IGR J17062-6143 (trigger=525148).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 256.609, -61.728 which is 
+   RA(J2000)  =  17h 06m 26s
+   Dec(J2000) = -61d 43' 40"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical with image triggers (duration = 64 sec),
+the real-time lightcurve does not show anything significant. 
+
+The XRT began observing the field at 22:45:05.2 UT, 153.6 seconds after
+the BAT trigger. XRT found a bright X-ray source located
+at RA, Dec 256.5681, -61.7098 which is equivalent to:
+   RA(J2000)  = +17h 06m 16.34s
+   Dec(J2000) = -61d 42' 35.3"
+with an uncertainty of 5.7 arcseconds (radius, 90% containment). This
+location is 95 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+The initial flux in the 0.1 s image was 2.25e-08 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+321 seconds after the BAT trigger. There is a candidate afterglow in the
+rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	17:06:16.27 = 256.56779
+  DEC(J2000) = -61:42:40.0  = -61.71112
+with a 90%-confidence error radius of about 0.61 arc sec. This position is 4.8
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+15.84 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.15. 
+
+IGR J17062-6143 is a known X-ray transient with a location of 
+RA=256.56771, DEC=-61.71125 (RA=17 06 16.3, DEC=-61 42 40.5)
+with an uncertainty of 0.3 arc sec (ATEL #1840; Ricci et al.),
+consistent with this detection. 
+
+The nature of this transient is unknown and further observation
+are warranted. 
+

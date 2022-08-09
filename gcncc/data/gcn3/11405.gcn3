@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11405
+SUBJECT: GRB 101114A, Swift-BAT GRB detected by ground processing
+DATE:    10/11/15 00:08:33 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori.sakamoto-1@nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), J. R. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Based on the ground data processing, we found the GRB 101114A (trigger=438392) 
+at T0=00:32:50 UT.  The BAT onboard analysis of the trigger was prematurely 
+terminated by a slew to a different target.  We have only limited event-by-event 
+data on the ground for this trigger.
+
+Using the data set from T0 to T0+4.1 sec,  the BAT ground-calculated position 
+in the 15-200 keV band is RA, Dec = 303.193, 14.029 deg which is 
+   RA(J2000)  =  20h 12m 46.3s 
+   Dec(J2000) = +14d 01' 44.4" 
+with an uncertainty of 1.8 arcmin, (radius, sys+stat, 90% containment).
+The image significance is 13.6 sigma.  The partial coding was 30%.  
+ 
+The mask-weighted light curve shows a sigle FRED-like spike starting before 
+T0, peaking at T0+2 sec and ending after T0+10sec.  Because of the incomplete data 
+(the event data are only available from T0 to T0+10 sec), we can only state 
+that the duration of the burst is >10 sec.  
+
+The time-averaged spectrum from T0 to T0+10 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.29 +- 0.17.  The fluence in the 15-150 keV band is 8.0 +- 0.8 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+2.00 sec in the 15-150 keV band
+is 1.8 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+A Swift TOO is being done to get an XRT position.
+

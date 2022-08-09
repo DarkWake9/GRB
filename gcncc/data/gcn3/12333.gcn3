@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12333
+SUBJECT: GRB 110731A: SAO RAS and Terskol observations
+DATE:    11/09/09 08:30:16 GMT
+FROM:    Vladimir Sokolov at SAO RAS  <sokolov@sao.ru>
+
+A. S. Moskvitin, V. V. Sokolov, O. I. Spiridonova (SAO RAS, Russia),
+M. V. Andreev, A. V. Sergeev, N. A. Parakhin (Terskol Branch of Institute of
+Astronomy, Russia)
+
+We observed the field of GRB 110731A (Oates et al., GCN 12215) on July, 31
+with 0.6-m Zeiss-600 (Terskol Branch of Institute of Astronomy,  Russia)
+equipped with the PixelVision Vienna CCD (1024 x 1024, bin 2 x 2)
++ R filter, and 1-m Zeiss-1000 (SAO RAS, Russia) equipped with the
+E2V 42-40 CCD (2048 x 2048, bin 2 x 2) + B and Rc filters. In both cases
+the observations carried out at a high airmass and with the seeing ~4".
+
+At all stacked images we did not detect any source within the Swift/UVOT
+error circle (Oates., GCN 12222). Close to the error circle are visible two
+objects which are also present in the USNO-B.1 catalogue:
+S1: USNO-B.1 0614-0802286 (R.A.=18:42:00.72, Dec.=-28:32:14.9, E.=2000.0) &
+S2: USNO-B.1 0614-0802328 (R.A.=18:42:01.24, Dec.=-28:32:11.6, E.=2000.0).
+Our astrometric calibration and photometry of S1 object showed
+that it can contain flux from OT but due to large seeing we can not
+distinguish bright S1 and faint OT.
+
+All three co-added images are shown at
+ftp://ftp.sao.ru/pub/grb/GRB110731A/GRB110731A.jpg
+Upper limits are shown at the following table.
+_________________________________________________________
+mid. time, UT   filter exp., sec  3-sigma lim. telescope
+_________________________________________________________
+19:15           R      53 x 200   19.9        Zeiss-600
+19:24           Rc     31 x 60    21.7        Zeiss-1000
+19:38           B      22 x 60    20.8        Zeiss-1000
+_________________________________________________________
+
+We use USNO-B.1 star 0614-0802353 (R.A.=18:42:01.83, Dec.-28:32:23.9,
+E.=2000.0,  B2 = 15.77, R2 = 14.29) as a standard, and did not apply Galaxy
+extinction correction.
+
+This message can be cited.
+

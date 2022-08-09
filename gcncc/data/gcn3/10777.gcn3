@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10777
+SUBJECT: Update to the configuration of the Fermi-LAT onboard GRB search
+DATE:    10/05/19 00:54:02 GMT
+FROM:    Julie McEnery at NASA/GSFC  <julie.e.mcenery@nasa.gov>
+
+Julie McEnery (GSFC), Gregg Thayer (SLAC), J. J. Russell (SLAC), Sylvia Zhu
+(GSFC) and Nicola Omodei (Stanford) report on behalf of the Fermi-LAT
+collaboration.
+
+On May 14, the Fermi- LAT team made a significant update to the
+configuration of the GRB search algorithm onboard the LAT.
+
+There are two search modes in the onboard algorithm: a) one that
+searches solely within the LAT data for spatial and temporal clusters of
+events and b) another that seeds a search based on the position and time
+of a GBM detected burst. The recent changes affect the GBM seeded case.
+
+For most of the mission the configuration of the onboard algorithm had a
+very low threshold for the GBM seeded window, as a diagnostic test on
+the algorithm performance. This meant that if even 1 event was observed
+within 10 deg radius of the GBM seed position then the LAT onboard
+flight software would trigger and enter a localization and refinement
+stage (essentially always triggering if the GBM position was in the LAT
+FoV). The localization and refinement stage lasts for 600 seconds,
+during which time no further triggers are allowed. We applied a filter
+on the ground before sending public GCN notices to filter out the large
+number of false triggers.
+
+The updated configuration performs a LAT search on a GBM seeded position
+at 2, 5, 10, 20, 30, 60, 90, and 150s after the GBM trigger. The
+threshold is applied onboard so that the LAT remains in trigger mode
+unless and until a significant number of events are seen that are
+consistent with the seeded position. This provides a capability to
+generate a LAT trigger for GRB where the high energy emission is
+significantly delayed with respect to the GBM detection. This behaviour
+has been seen from several GRB detected at high energies.
+
+To explore the false trigger rate, we ran the new configuration on 80,000
+test positions. This resulted in a predicted false trigger rate of
+0.33/year. To explore the ability of the new configuration to detect
+GRB, we ran it on data containing known LAT bursts. This resulted in
+triggers of 5 out of the first 13 LAT detected bursts (080916C, 081024B,
+090510, 090902B, 090926). Previously, the LAT had sent out only one
+onboard-generated notice (090510). We thus expect the new configuration
+to provide onboard detections of 3-5 GRB/year, with localizations in the
+range 0.1 to 0.5 degrees.
+

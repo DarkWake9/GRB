@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13709
+SUBJECT: GRB 120830A: Swift-XRT and UVOT observations
+DATE:    12/08/31 18:43:14 GMT
+FROM:    Wayne Baumgartner at GSFC  <wayne@milkyway.gsfc.nasa.gov>
+
+W. H. Baumgartner (GSFC/UMBC), V. D'Elia (ASDC), M. Siegel (PSU),
+F. E. Marshall (NASA/GSFC), J. L. Racusin (NASA/GSFC), J. A. Kennea
+(PSU), and D. N. Burrows (PSU) report on behalf of the Swift team:
+
+Swift observed the the error circle for the Fermi/LAT and IPN detected
+GRB 120831A (Vianello et al., GCN Circ. 13704, Hurley et al. GCN Circ
+13705). Two 4 ks XRT observations were taken to cover the IPN error
+region, beginning about 60 ks and 72 ks after the burst.  Together
+these two XRT observations cover 100% of the IPN error box.
+
+One uncatologed X-ray source is found within the IPN error box at RA,
+Dec = 88.501667, -28.701333 which is equivalent to:
+
+RA (J2000): 05h 54m 00.40s
+Dec (J2000): -28d 42' 04.8"
+
+with an uncertainty of 8 arcsec (radius, 90% confidence).  The XRT
+source has a significance of 2.5 sigma, and the count rate during this
+observation in photon counting mode was 2.53e-3 +/- 1.0e-3 cts sec^-1.
+
+The Swift/UVOT began settled observations of the first of the two
+fields for GRB 120830A 59804 s after the LAT/IPN trigger.  No data are
+available yet for the second field.  A source consistent with the XRT
+source is detected in the initial UVOT exposures.  There is no
+corresponding source in the USNO-B1.0 catalog.
+
+The preliminary UVOT position is:
+     RA  (J2000) =  05:54:00.65 =  88.50270 (deg.)
+     Dec (J2000) = -28:42:06.4  = -28.70178 (deg.)
+with an estimated uncertainty of 0.55 arc sec. (radius, 90% confidence).
+
+Preliminary results using the UVOT photometric system (Breeveld et
+al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+white            59804        67310         3679         20.42 +/- 0.04
+
+The magnitude in the table is not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.032 in the direction of the burst
+(Schlegel et al. 1998).
+
+There is no convincing evidence for UVOT variability of the source.
+
+Further Swift observations are planned to determine whether the source
+is fading.
+

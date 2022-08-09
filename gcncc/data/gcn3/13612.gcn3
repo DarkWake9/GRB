@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13612
+SUBJECT: Swift Trigger 530441 is a false trigger
+DATE:    12/08/09 06:52:00 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+B. N. Barlow (PSU), S. D. Barthelmy (GSFC),
+J. R. Cummings (NASA/UMBC), C. Gronwall (PSU), D. M. Palmer (LANL) and
+P. Romano (INAF-IASFPA) report on behalf of the Swift Team:
+
+At 06:14:54 UT, the Swift Burst Alert Telescope (BAT) found a 
+marginal-significance peak in the vicinity of IGR J16283-4838 
+(trigger=530441).  Swift did not immediately slew to the burst 
+due to the low priority the onboard software gives to this source. 
+The BAT on-board calculated location is 
+RA, Dec 246.932, -48.541 which is 
+   RA(J2000) = 16h 27m 44s
+   Dec(J2000) = -48d 32' 26"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual for an image trigger, there
+is no obvious signal in the light curve. 
+
+This image peak is almost certainly a noise fluctuation in an
+image.  As part of an ongoing sensitivity enhancement program,
+we generate a GCN notice whenever a marginal significance
+peak is found within 12 arcminutes of a source in the on-board
+catalog.  Given the low significance (6.43 sigma) and inconsistent
+position (0.126 degrees from the catalogued position),
+there is no reason to believe that this peak is due to the
+astrophysical source. 
+

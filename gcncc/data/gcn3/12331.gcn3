@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12331
+SUBJECT: MAXI J1836-194 (originally GRB 110905A): Swift-BAT refined analysis
+DATE:    11/09/05 17:40:23 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (GSFC/UMBC)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T+592 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT trigger #502415 (Pagani, et al.,
+GCN Circ. 12327).  The BAT ground-calculated position is
+RA, Dec = 278.958, -19.269 deg, which is 
+   RA(J2000)  =  18h 35m 49.9s 
+   Dec(J2000) = -19d 16' 07.5" 
+with an uncertainty of 3.1 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+ 
+Because this was a long image trigger (26 minutes), the event-by-event data
+just before, during, and for 592 sec after the trigger time was overwritten
+in the ring buffer,  and as such, it is not possible to construct a lightcurve
+for the early phase of this event.  Starting at T+590, the lightcurve
+shows a low-level persistant emission out to T+963 sec.
+ 
+The time-averaged spectrum from T+590 to T+963 sec can be fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.53 +- 0.39.  The fluence in the 15-150 keV band is 7.8 +- 2.0 x 10^-7 erg/cm2.
+All the quoted errors are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/502415/BA/
+
+Given the (a) the long and constant hard x-ray emission (in the later phase)
+of this event, (b) the proximity to the Galactic Bulge, (c) the proximity
+to the MAXI J1836-194; we believe this trigger to be due to the MAXI source
+and not due to a GRB (as has been pointed out by J.Greiner (pri.comm.) and
+D.Fox (GCN 12329)).
+

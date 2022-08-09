@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10353
+SUBJECT: GRB 100116A: Suzaku WAM observation of the prompt emission
+DATE:    10/01/21 13:06:25 GMT
+FROM:    Takeshi Uehara at Hiroshima U  <uehara@hirax7.hepl.hiroshima-u.ac.jp>
+
+T. Uehara, Y.Hanabata, T. Takahashi, Y. Fukazawa (Hiroshima U.)
+K. Yamaoka (Aoyama Gakuin U.), S. Sugita (Nagoya U),
+Y. Terada, M. Tashiro, A. Endo, K. Onda, T. Sugasahara, W. Iwakiri (Saitama U.),
+M. Ohno, M. Suzuki, M. Kokubun, T. Takahashi (ISAS/JAXA),
+Y. E. Nakagawa, T. Tamagawa (RIKEN), N. Ohmori, A. Daikyuji,
+E. Sonoda, K. Kono, H. Hayashi, K. Noda, Y. Nishioka, M. Yamauchi
+(Univ. of Miyazaki), N. Vasquez (Tokyo Tech.), Y. Urata, H. M. Lin (NCU),
+T. Enoto, K. Nakazawa, K. Makishima (Univ. of Tokyo), S. Hong
+(Nihon U.), on behalf of the Suzaku WAM team, report:
+
+The long GRB 100116A (Fermi/GBM trigger #285370262 / 100116.89 
+Briggs et al., GCN 10330, McEnery et al., GCN 10333) triggered the Suzaku 
+Wide-band All-sky Monitor (WAM) which covers an energy range of 50 keV - 5 MeV 
+at 21:31:00.15 UT (=T0).
+
+The observed light curve shows two separated pulses, a precursor at T0+0 to T0+4 sec 
+and a main harder pulse at T0+81 to T0+111 sec, and the duration (T90) was about 
+96 seconds. The fluences in 100 - 1000 keV were 1.24(-0.16, +0.17) e-6 and 2.89 (-0.08, +0.06) e-5 erg/cm^2 
+in the precursor and the main pulse, respectively. The 1-s peak flux measured from T0+94 s
+was 7.26 (-0.43, +0.47) photons/cm^2/s in the same energy range.
+
+Preliminary result shows that the time-averaged spectrum from
+T0+81 s to T0+111 s is well fitted by a power-law with exponential cutoff model:
+  dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak) with
+  alpha      1.15 (-0.10, +0.09), and
+  Epeak      1119 (-135, +137) keV (chi^2/d.o.f. = 79.0/54).
+
+Due to the brightness of this burst, a 3% systematic error
+was added for low energy channels.
+All the quoted errors are at 90% confidence level.
+
+The light curves of this event are available at the following URL:
+ http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/trig/grb_table.html
+
+-- 
+
+ Takeshi Uehara  (Hiroshima Univ.)
+ E-mail: uehara@hep01.hepl.hiroshima-u.ac.jp
+

@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13262
+SUBJECT: Swift Trigger 520928 is probably not a burst
+DATE:    12/04/26 12:01:18 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+A. P. Beardmore (U Leicester), S. Campana (INAF-OAB),
+M. M. Chester (PSU), P. A. Evans (U Leicester), B. Gendre (ASDC),
+C. Guidorzi (U Ferrara), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), N. P. M. Kuin (UCL-MSSL),
+O. M. Littlejohns (U Leicester), A. Maselli (INAF-IASFPA),
+P. T. O'Brien (U Leicester), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU), R. L. C. Starling (U Leicester),
+G. Tagliaferri (INAF-OAB) and T. N. Ukwatta (MSU) report on behalf of
+the Swift Team:
+
+At 11:38:15 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a potential source which could be a GRB (trigger=520928).  
+Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 75.720, -26.314 which is 
+   RA(J2000) = 05h 02m 53s
+   Dec(J2000) = -26d 18' 51"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty). As is usual with an image trigger, the 
+currently available BAT light curve does not show much structure. 
+
+The XRT began observing the field at 11:40:56.3 UT, 160.5 seconds after
+the BAT trigger. No source was detected in 300 s of promptly downlinked
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+No UVOT processed data products are available at this time. 
+
+Due to the marginal detection (7.05 sigma) in the image, the lack
+of a detectable rate increase, and the non-detection by XRT and
+UVOT despite the prompt slew, it is likely that this is merely
+a statistical fluctuation and not an astrophysical source. 
+However, the immediately available XRT data covers only 70%
+of the BAT error circle.  A definitive determination of the
+reality of the source will require the download of the full dataset. 
+

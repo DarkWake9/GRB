@@ -1,0 +1,78 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13641
+SUBJECT: GRB 120811A: Swift/XRT-UVOT Obseravations
+DATE:    12/08/14 15:57:21 GMT
+FROM:    Binbin Zhang at PSU  <buz12@psu.edu>
+
+B.-B. Zhang (PSU), S. R. Oates (UCL-MSSL),  K. L. Page (U Leicester), P.A.
+Evans (U. Leicester), D. N. Burrows (PSU), J. R. Cummings (GSFC/UMBC),  J. A.
+Kennea (PSU),H. A. Krimm (GSFC/USRA), E. Helder (PSU) and S. D. Barthelmy
+(GSFC) report on behalf of the Swift-XRT and Swift-UVOT team: 
+
+We report further Swift XRT-UVOT observations of GRB 120811A (Zhang et al,  GCN
+13618).
+
+We performed 9.1 ks follow-up XRT observations of the field at T0+1.6 hr,
+T0+0.27 day, T0+0.94 days and T0+3.1 days (where T0 = 2012 Aug 11 at 02:35:18
+UT ), in order to determine whether or not the X-ray source had faded. We find
+a fading source with count rates in the 0.3-10 keV band as follows :
+
+T-T0                     Count Rate
+(5.8+/-0.2)x10^3 s   0.05+/-0.01 count/s
+(2.2+/-0.01)x10^4 s   0.02+/-0.01 count/s
+(8.1+/-0.03)x10^4 s  0.02+/-0.001 count/s
+(2.7+/-0.2)x10^5 s   < 0.005 count/s
+
+The data are entirely in Photon Counting (PC) mode. Using 1227 s of PC mode
+data and 2 UVOT images, we find an enhanced XRT position (using the XRT-UVOT
+alignment and matching UVOT field sources to the USNO-B1 catalogue): RA, Dec =
+257.16542, -22.71054 , which is equivalent to:
+
+RA (J2000): 17h 08m 39.70s
+Dec(J2000): -22d 42' 38.0"
+
+with an uncertainty of 2.8 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with  a power-law decay with a decay index of
+alpha=0.31 (+0.13, -0.12).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 1.9 (+/-0.5). The best-fitting
+absorption column is  7.4 (+4.2, -3.0) x 10^21 cm^-2, in excess of the Galactic
+value of 1.5 x 10^21 cm^-2 (Kalberla et al. 2005). The counts to observed
+(unabsorbed) 0.3-10 keV flux conversion factor deduced from this spectrum is
+5.5 x 10^-11 (9.7 x 10^-11) erg cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     7.4 (+4.2, -3.0) x 10^21 cm^-2
+Galactic foreground: 1.5 x 10^21 cm^-2
+Excess significance: 3.2 sigma
+Photon index:	     1.9 (+/-0.5)
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00530581.
+
+The fact that the XRT source is fading suggests that Swift trigger 530581
+(Zhang et al., GCN Circ. 13618) is most likely a GRB.
+
+The Swift/UVOT began settled observations of the field of GRB 120811A 5627 s
+after the BAT trigger (Zhang  et al., GCN Circ. 13618). No optical afterglow
+consistent with the XRT position is detected in the initial UVOT exposures.
+Preliminary 3-sigma upper limits using the UVOT photometric system(Breeveld et
+al. 2011,AIP Conf. Proc. 1358, 373) for the initial exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)    Mag
+
+white           6243        6443         197        > 20.7    
+v               6654        6853         197        > 19.1    
+b               6038        7593         313        > 20.2    
+u               5832        7468         393        > 20.0     
+uvw1            5627        7263         393        > 19.9
+uvw2            6449        6649         197        > 19.8    
+
+The magnitudes in the table are not corrected for the Galactic extinction due
+to the reddening of E(B-V) = 0.77 in the direction of the burst (Schlegel et
+al. 1998).
+
+This circular is an official product of the Swift-XRT and Swift-UVOT team.
+

@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12522
+SUBJECT: Trigger 506913: Swift detection of Swift J1922.7-1716 and its optical counterpart
+DATE:    11/11/03 14:37:59 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+D. N. Burrows (PSU), V. D'Elia (ASDC), P. A. Evans (U Leicester),
+D. Grupe (PSU), C. Guidorzi (U Ferrara),
+S. T. Holland (CRESST/USRA/GSFC), E. A. Hoversten (PSU),
+J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+N. P. M. Kuin (UCL-MSSL), V. Mangano (INAF-IASFPA),
+F. E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+P. T. O'Brien (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), C. J. Saxton (UCL-MSSL),
+B. Sbarufatti (INAF-OAB/IASFPA), E. Sonbas (GSFC/USRA/Adiyaman Univ.),
+R. L. C. Starling (U Leicester), C. A. Swenson (PSU) and
+B.-B. Zhang (PSU) report on behalf of the Swift Team:
+
+At 14:12:13 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located an event from the known source Swift J1922.7-1716 (trigger=506913). 
+Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 290.667, -17.284 which is 
+   RA(J2000) = 19h 22m 40s
+   Dec(J2000) = -17d 17' 02"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multiple-peaked
+structure with a duration of about 30 sec.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~4 sec after the trigger. 
+
+The XRT began observing the field at 14:14:23.4 UT, 130.2 seconds after
+the BAT trigger. XRT found a bright, X-ray source located
+at RA, Dec 290.6533, -17.2835 which is equivalent to:
+   RA(J2000)  = 19h 22m 36.79s
+   Dec(J2000) = -17d 17' 00.6"
+with an uncertainty of 5.3 arcseconds (radius, 90% containment). This
+location is 47 arcseconds from the BAT onboard position, within the BAT
+error circle, and 3.6 arc seconds from the position of Swift J1922.7-1716
+reported by Tueller et al. (ATEL #669). No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White 
+filter  starting 140 seconds after the BAT trigger. There is a 
+candidate optical counterpart in the rapidly available 2.7'x2.7' 
+sub-image at  
+ RA(J2000)  =	19:22:37.00 = 290.65415  
+ DEC(J2000) = -17:17:01.1  = -17.28363  
+with a 90%-confidence error radius of about 0.61 arc sec. 
+This position is 3.0  arc sec. from the center of the XRT 
+error circle. This counterpart is not observed in archival
+DSS imaging.  The estimated magnitude is 16.67 with a
+1-sigma error of about 0.14. No correction has been made for the  
+expected extinction corresponding to E(B-V) of 0.12. 
+
+This source, Swift J1922.7-1716, (Tueller et al., 2005, ATEL #669;
+Falanga et al., 2006, A&A v456 pL5), is currently in outburst 
+(Nakahira et al., 2011 ATEL #3548; Kennea et al., 2011 #3567) 
+and has been slowly rising for the past few months. 
+( http://swift.gsfc.nasa.gov/docs/swift/results/transients/SWIFTJ1922.7-1716/ )
+

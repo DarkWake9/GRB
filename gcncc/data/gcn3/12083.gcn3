@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12083
+SUBJECT: Swift J185003.2-005627: Swift detection of a burst from a new Galactic transient
+DATE:    11/06/25 00:32:47 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. P. Beardmore (U Leicester), W. H. Baumgartner (GSFC/UMBC),
+J. M. Gelbord (PSU), S. T. Holland (CRESST/USRA/GSFC),
+J. A. Kennea (PSU), N. P. M. Kuin (UCL-MSSL), C. Pagani (U Leicester),
+D. M. Palmer (LANL), T. Sakamoto (NASA/UMBC), C. J. Saxton (UCL-MSSL),
+M. H. Siegel (PSU) and C. A. Swenson (PSU) report on behalf of the
+Swift Team:
+
+At 00:06:07 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located an unknown source (trigger=456014).  Swift slewed immediately
+to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 282.551, -0.968 which is 
+   RA(J2000) = 18h 50m 12s
+   Dec(J2000) = -00d 58' 04"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single-peaked
+structure with a duration of about 2 sec.  The peak count rate
+was ~400 counts/sec (15-350 keV), at ~1 sec after the trigger. 
+
+The XRT began observing the field at 00:07:42.4 UT, 94.8 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 282.5134, -0.9410 which is equivalent to:
+   RA(J2000)  = 18h 50m 03.21s
+   Dec(J2000) = -00d 56' 27.5"
+with an uncertainty of 5.4 arcseconds (radius, 90% containment). This
+location is 166 arcseconds from the BAT onboard position, within the
+BAT error circle. No event data are yet available to determine the
+column density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter
+starting  263 seconds after the BAT trigger. No credible afterglow
+candidate has been  found in the initial data products. The 2.7'x2.7'
+sub-image covers 100% of the  XRT error circle. Because of the density
+of catalogued stars, further analysis  is required to report an upper
+limit for any afterglow in the sub-image.  Data from the list of
+sources generated on-board  are not available at this time. 
+
+Given the soft nature of the initial BAT detection
+and the proximity to the Galactic plane (7 arcmin)
+we believe that this is probably a previously-unknown
+Galactic transient, rather than a cosmological GRB,
+which we name 'Swift J185003.2-005627'. 
+
+Burst Advocate for this burst is A. P. Beardmore (apb AT star.le.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

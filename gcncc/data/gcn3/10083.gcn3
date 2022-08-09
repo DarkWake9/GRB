@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10083
+SUBJECT: Konus-Wind and Konus-RF observations of GRB 091024
+DATE:    09/10/26 17:18:48 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+P. Oleynik, M. Ulanov, and D. Svinkin on behalf of
+the Konus-Wind and Konus-RF teams, and
+T. Cline on behalf of the Konus-Wind team, report:
+
+The long GRB 091024 (Swift-BAT trigger #373674: Marshall et al. GCN 
+10062, Sakamoto et al. GCN 10072) was observed by Konus-Wind in the 
+waiting mode. The emission was detected in all three Konus-Wind energy 
+bands: G1 (18-70  keV), G2 (70-360 keV) and G3 (360-1360 keV) with high 
+S/N.
+
+The burst light curve shows three pulses: the first pulse starts at 
+~T0-10 s and has a duration of ~90 s, the second starts at ~T0+600 s and 
+has a duration of ~100 s, and the most intense third pulse starts at 
+T0+840 s and has a duration of ~400 s; there is a low-level emission 
+between the first and second pulses.
+
+The most intense part of the third pulse was also detected by Konus-RF, 
+while Coronas-F was exiting the SAA.
+
+The GBM localizations suggest a common origin of these events (Bissaldi 
+& Connaughton, GCN 10070). Both the K-W light curve and the K-W ecliptic 
+latitude response confirms this suggestion. So, we believe all these 
+pulses belong to the extremely long burst, GRB 091024, which has a total 
+duration of ~1200 s. Hence, some optical observations of this burst were 
+performed during the most intense part of the prompt emission, but no 
+bright optical flares have been reported.
+
+Modeling of the K-W 3-channel spectra by
+a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+yields the following parameters:
+--------------------------------------------------
+       Tstart    Tstop       alpha      Ep (keV)
+--------------------------------------------------
+P1     -7          80   -1.1+/-0.2    500+/-160
+P2    606         703   -1.6+/-0.2    200+/-120
+P3    835        1194   -1.4+/-0.2    230+/-50
+Total  -7        1194   -1.5+/-0.4    280+/-120
+--------------------------------------------------
+Tstart, Tstop - seconds since the BAT trigger time
+
+
+As observed by Konus-Wind, the burst had a fluence of (1.13 +/- 
+0.12)x10^-4 erg/cm2 (in the 20 - 1300 keV energy range).
+
+Assuming z = 1.092 (Cucchiara, Fox & Tanvir, GCN 10065) and a standard 
+cosmology model with H_0 = 70 km/s/Mpc, Omega_M=0.27, Omega_\Lambda = 
+0.7, the isotropic energy release E_iso ~3.2x10^53 erg.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB091024/
+

@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11951
+SUBJECT: Konus-Wind observation of GRB 110420A
+DATE:    11/04/21 13:41:09 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+P. Oleynik, M. Ulanov, D. Svinkin, and
+T. Cline on behalf of the Konus-Wind team, report:
+
+The long soft GRB 110420A (Swift-BAT trigger #451757: Mangano et al., 
+GCN 11941; Krimm et al., GCN 11945) triggered Konus-Wind at 
+T0(KW)=39750.543 s UT (11:02:30.543).
+
+The burst light curve shows a single pulse started at ~T0(KW)-9 s with a 
+duration of ~18 s.
+
+As observed by Konus-Wind the burst
+had a fluence of 6.54(-0.53, +0.64)x10^-6 erg/cm2,
+and a 256-ms peak flux measured from T0-0.320 s
+of (1.11 +/- 0.17)x10^-6 erg/cm2/s
+(both in the 20 - 500 keV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+8.448 s) is well fitted (in the 20 - 500 keV
+range) by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -1.71(-0.26, +0.31),
+and Ep = 43(-18, +17) keV (chi2 = 31.1/39 dof).
+Fitting by GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy
+photon index: beta < -2.61 (chi2 = 31.1/38 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.ru/LEA/GRBs/GRB110420_T39750/
+

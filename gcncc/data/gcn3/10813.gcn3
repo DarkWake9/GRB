@@ -1,0 +1,69 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10813
+SUBJECT: Swift UVOT and UVOT-enhanced XRT position for GRB 100528A 
+DATE:    10/05/28 22:03:49 GMT
+FROM:    Dirk Grupe at PSU/Swift-XRT  <grupe@astro.psu.edu>
+
+D. Grupe (PSU), M. Siegel (PSU), J. Gelbord (PSU),  P.A. Evans and
+M.R. Goad (U. Leicester) report on behalf of the Swift team:
+
+We report of the Swift UVOT and XRT detections of a bright source  
+within the 5'
+error radius of the SuperAGILE detected GRB 100528A (Del Monte et al.,
+GCN Circ 10810) at a level of 2e-12 ergs/s/cm2 in the 0.3-10 keV band.
+Swift started observing the field of GRB 100528A 42.5
+ks after the AGILE detection and has observed it so far for 5 ks (two
+orbits). At this point it is not obvious if the X-ray source is fading.
+However, this X-ray source was not present during the ROSAT All-Sky
+Survey. There is also an archival XMM data set that covers this
+position (OBSID 0037990101, a 17ks exposure taken 2002-11-21).
+There is no source detected at the position of the counter part.
+Measuring the flux within a 30" radius of this position, the 4-sigma
+upper limit of 5e-14 ergs/s/cm2 in the 0.2-12 keV band.  Most likely
+the X-ray source found by the XRT is the X-ray afterglow of GRB 100528A.
+
+
+Using 2497 s of XRT Photon Counting mode data and 2 UVOT
+images, we find an astrometrically corrected X-ray position (using the
+XRT-UVOT alignment and matching UVOT field sources to the USNO-B1
+catalogue): RA, Dec =
+311.14130, 27.80660 which is equivalent to:
+
+RA (J2000):  20 44 33.92
+Dec (J2000): +27 48 23.8
+
+with an uncertainty of 2.1 arcsec (radius, 90% confidence).
+
+This position may be improved as more data are received.  The latest
+position can be viewed at http://www.swift.ac.uk/xrt_positions. Position
+enhancement is described by Goad et al. (2007, A&A, 476, 1401) and Evans
+et al. (2009, MNRAS, 397, 1177).
+
+Using 4985 s of UVOT data take in the u, v and White filters,
+we identify a faint uncataloged source within the XRT error circle
+at a position in the white images of RA,DEC=311.14130, 27.80660 which
+is equivalent to:
+
+RA (J2000): 20 44 33.92
+Dec (J2000): +27 48 23.8
+
+with a 90%-confidence interval of about 0.60 arc sec. Preliminary
+magnitudes using the  UVOT photometric system (Poole et al. 2008,
+MNRAS, 383, 627) are:
+
+FILTER     T_start(s)  T_stop    Exposure        Mag
+=========================================================
+white      43296       49881      1632     20.96+-0.13
+v          44124       50777      1721     20.01+-0.35
+u          42469       49036      1632     20.63+-0.24
+=========================================================
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E_{B-V} = 0.29 (Schlegel et al.,
+1998, ApJS, 500, 525). The photometry is on the UVOT photometric
+system described in Poole et al. (2008, MNRAS, 383, 627).
+
+
+
+This circular is an official product of the Swift team.
+

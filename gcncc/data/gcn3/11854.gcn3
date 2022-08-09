@@ -1,0 +1,87 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11854
+SUBJECT: GRB 110328A / Swift J164449.3+573451: Radio-optical/NIR Astrometry
+DATE:    11/03/31 18:47:00 GMT
+FROM:    Edo Berger at Harvard  <eberger@cfa.harvard.edu>
+
+E. Berger (Harvard), A. Levan (U. Warwick), N. R. Tanvir
+(U. Leicester), A. Zauderer, A. M. Soderberg (Harvard), and
+D. A. Frail (NRAO) report:
+
+"We performed absolute and relative astrometry on radio and optical
+images of GRB 110328A / Swift J164449.3+573451 (GCNs 11823, 11824) in
+an atempt to locate the radio transient (GCNs 11836, 11848) relative
+to the quiescent optical source at z=0.35 (GCNs 11827, 11830, 11833,
+11834).  We used EVLA observations at a mean frequency of 5.8 GHz
+(GCNs 11836, 11848), a Gemini-N/GMOS r-band image, and a UKIRT/WFCAM
+J-band image (GCN 11846).
+
+The Gemini and UKIRT images were astrometrically aligned relative to
+2MASS using 20 and 55 objects in common, respectively, leading to an
+rms scatter of 0.14" and 0.10" in each coordinate, respectively.  For
+the EVLA image we used the native astrometric solution relative to the
+ICRS.  The accuracy of the astrometry is verified by imaging and
+measuring the position of the phase calibrator, which agrees with the
+ICRS position to better than 0.4 mas.  We note that the 2MASS
+point-source-catalog positions used to align the Gemini and UKIRT
+images are reconstructed onto the ICRS.
+
+We find the following coordinates for the optical source in the Gemini
+image (J2000):
+      RA = 16:44:49.939
+      DEC = +57:34:59.64
+with an uncertainty of 0.14" in each coordinate, dominated by the
+astrometric solution uncertainty.
+
+The position of the faint NIR counterpart in the UKIRT image is:
+      RA = 16:44:49.958
+      DEC = +57:35:00.00
+with an uncertainty of about 0.3" in the source centroid, and an
+additional 0.1" due to astrometric solution uncertainty.
+
+Finally, the ICRS position of the radio transient is:
+      RA = 16:44:49.925
+      DEC = +57:34:59.68
+with negligible centroid uncertainty of about 0.01".
+
+The relative offset between the radio and optical positions is
+therefore 0.12+/-0.20", or about 0.6+/-1.0 kpc (at z=0.35).  The
+offset relative to the NIR position is 0.42+/-0.42".  Thus, the radio
+transient position is consistent with arising in the nucleus of the
+host galaxy (GCN 11847).
+
+We find an additional common source between the radio, optical, and
+NIR images with the following positions:
+
+optical:
+      RA = 16:44:48.047
+      DEC = +57:32:16.83
+near-IR:
+      RA = 16:44:48.093
+      DEC = +57:32:17.03
+radio:
+      RA = 16:44:48.139
+      DEC = +57:32:16.74
+
+This source is a galaxy with extended structure in the optical/NIR
+images, but it is unresolved in the radio.  We therefore associate the
+radio position with the nucleus of the galaxy (positions given above).
+The resulting positional offsets are 0.75+/-0.20" (radio-to-optical)
+and 0.47+/-0.15" (radio-to-NIR).  We caution that the error bars do
+not include a systematic uncertainty in centroiding on the galaxy
+nucleus (~0.1"), and do not account for potential distortions due to
+the location of the object near the edge of the Gemini image.  Taken
+at face value, the offset between these positions potentially reflects
+a relative shift between the optical/NIR and radio astrometric
+systems.  If applied to the radio counterpart of GRB 110328A / Swift
+J164449.3+573451, this shift would lead to a significant offset
+(~3-sigma confidence level) between the radio position and the center
+of the host galaxy.
+
+To conclude, absolute astrometry indicates that the radio transient is
+consistent with arising in the nucleus of the host galaxy (0.6+/-1.0
+kpc); the relative radio-optical/NIR positions of an additional common
+source allow for an offset of up to ~3 kpc.  Additional wide-field
+(~10') deep NIR imaging may provide a larger number of common objects
+with the EVLA images, thereby impoving the relative astrometric
+solution.

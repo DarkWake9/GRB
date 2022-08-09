@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12067
+SUBJECT: Swift detection of the X-ray afterglow of GRB 110604A
+DATE:    11/06/10 17:07:44 GMT
+FROM:    Boris Sbarufatti at INAF-OAB/IASFPA  <boris.sbarufatti@brera.inaf.it>
+
+B. Sbarufatti (INAF-OAB/IASFPA), J. Cummings (GSFC), M. De Pasquale 
+(MSSL) report on behalf of the Swift Team.
+
+We have analyzed 14.5 ks of Photon Counting data for GRB 110604A 
+(Barthelmy et al., GCN 12063), observed from 138 ks to 425 ks after the 
+Konus-Wind trigger.
+
+We find a single, fading source inside the XRT field of view. Using 2497 
+s of XRT Photon Counting mode data and 2 UVOT images, we find an 
+astrometrically corrected X-ray position (using the XRT-UVOT alignment 
+and matching UVOT field sources to the USNO-B1 catalogue): RA, Dec = 
+270.85885, +18.39961 which is equivalent to:
+
+RA (J2000):   18h 03m 26s.12
+Dec(J2000):  +18d 23' 58".6
+
+with an uncertainty of 2.4 arcsec (radius, 90% confidence). This is 9.3 
+arcmin away from the initial IPN position. The source was first detected 
+at a level of (1.2+/-0.2)E-3 counts/s (equivalent to 5.1E-13 erg cm^-2 
+s^-1), 138 ks after the trigger, and has faded to a level of 
+(1.4+/-0.6)E-3 counts/s at 421 ks (equivalent to 6.0E-14 erg cm^-2 
+s^-1). Another Swift observation is planned for June 14, 2011 in order 
+to confirm fading.
+
+No optical source is found within the XRT error circle. Preliminary 
+3-sigma upper limits using the UVOT photometric system (Poole et al. 
+2008, MNRAS, 383, 627) are:
+
+
+Filter  T_start (s)   T_end (s)  Exp (s)  mag
+white    207930       237252     1399     >22.9
+v        208162       237295     516      >19.6
+u        207698       240533     2864     >21.5
+
+
+The magnitudes in the table are not corrected for the Galactic 
+extinction due to the reddening of E(B-V) = 0.24 in the direction of the 
+burst (Schlegel et al. 1998).
+
+This circular is an official product of the Swift-XRT team.
+

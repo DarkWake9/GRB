@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13452
+SUBJECT: GRB 120711A: Fermi LAT Detection
+DATE:    12/07/12 02:03:05 GMT
+FROM:    Daniel Kocevski at SLAC  <dankocevski@gmail.com>
+
+Daniel Kocevski (Stanford Univ.) and Giacomo Vianello (CIFS/SLAC), Nicola Omodei (Stanford Univ.), and Seth Digel (SLAC) report on behalf of the Fermi LAT Team:
+
+Fermi-LAT has detected high energy emission from the bright GRB 120711A in ground analysis. The GRB triggered the Fermi-GBM on July 11th, 2012 at 02:44:53.29 UTC (trigger 363667496/120711115, Gruber et al. GCN 13437) and was bright enough to result in a spacecraft autonomous repoint.
+
+At the time of the GBM trigger, the angle between the GRB position and the LAT bore-sight was 134.4 degrees for the duration of the prompt emission, and remained outside the Fermi-LAT nominal field of view for an additional ~600 seconds.
+
+A preliminary maximum-likelihood analysis of the E>75MeV P7TRANSIENT_V6 LAT data centered on the XRT position reported by Beardmore et al. (GCN 13442) generated for the interval T0+600s to T0+1100s revealed a significant transient source, with a spectrum well described by a power law of index -2.0 +/ 0.3 (68% C.L. statistical only). These results are in agreement with those found by Tam et al. (GCN 13444).  Using the data covering T0+600s to T0+1100s, we obtained the best LAT on-ground localization of:
+
+RA(J2000) = 94.7 deg
+Dec(J2000) = -70.9 deg
+
+with an error radius of 0.16 deg (90% containment, statistical error only), which is 0.09 deg from the XRT position, and 0.07 deg from the position reported by Tam et al. (GCN 13444).
+
+We note that this position is ~1.4 degrees away from the known variable gamma-ray source 2FGL J0601.1-7037, which has been associated with the blazar PKS 0601-70. In order to understand if the observed excess can be due to a brightening of the blazar we considered two nested models for our data, one including just the blazar, and one including both the blazar and a new source (the GRB). Our data favor the latter model, with the fit converging to a solution with a negligible contribution from the blazar, as expected from the mean flux reported in the Fermi 2FGL catalog (Nolan et al., 2012). An analysis using E>75MeV P7TRANSIENT_V6 data covering an interval before the burst (T0-6000s to T0-2000 s) shows no significant emission at the location of the blazar. Thus, 2FGL J0601.1-7037 is unlikely to be the source of the excess.
+
+We caution against the use of data after ~T0+2600 s, because of a large Zenith angle of the GRB, potentially resulting in a strong contamination from terrestrial gamma-rays originating from charged particle interactions with Earth's atmosphere.
+
+The Fermi-LAT point of contact for this burst is Daniel Kocevski
+(kocevski@stanford.edu)
+
+
+
+

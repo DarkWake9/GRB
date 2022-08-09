@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11746
+SUBJECT: Swift XRT and UVOT Observations of OT 110215
+DATE:    11/02/17 23:07:06 GMT
+FROM:    Margaret Chester at PSU  <chester@astro.psu.edu>
+
+M. M. Chester (PSU), J. M. Gelbord (PSU), S. T. Holland
+(CRESST/USRA/GSFC), J. A. Kennea (PSU), H. A. Krimm (GSFC/USRA),
+N. P. M. Kuin (MSSL-UCL), F. E. Marshall (NASA/GSFC), and
+D. M. Palmer (LANL) report on behalf of the Swift team:
+
+Swift began a target of opportunity observation of OT 110215
+on February 16, 2011 at 20:00:13 UT, 26.2 hours after the first
+detection of the optical transient (Sergey and Denisenko, GCN
+Circ. 11739).  Swift data for these observations utilize Target
+ID 31928.  We report a weak detection in XRT of a source
+consistent with the position of the OT; we obtain UVOT upper
+limits at the OT's position, but note a weak feature in the
+v-band 3.5 arc sec away.  At the time the transient was first
+detected, the source position was far outside the Swift/BAT
+field of view (148 degrees from the boresight) and close to the
+Earth's limb, making BAT insensitive to gamma-rays associated
+with the event.  The transient was also out of the FoV during
+the rebrightening reported by Sergey and Denisenko (GCN Circ.
+11739).
+
+We have analyzed 4.6 ks of XRT data spanning from T0+26.3 to
+T0+28.5 hr.  The data are entirely in Photon Counting mode.
+We detect a source with 3.8-sigma confidence consistent with
+the coordinates of the OT, with a count rate of 1.8 (+/- 0.8) x
+10^-3 counts per second.  No other source is detected within 3'
+of the OT.  There is insufficient data to determine whether the
+source is fading or to do a spectral analysis.  However, we note
+that the six photons detected all have energies below 1.5 keV,
+suggestive of a very soft source that would be more consistent
+with a stellar flare than the afterglow of a GRB.
+
+The UVOT instrument observed the field of the optical transient
+starting 2011-02-16 at 20:02:57 UT, 26.3 hours after the start
+of the OT, and ending at 22:18:33 UT.  Only upper limits are
+obtained at the reported position of the transient.  We note a
+weak feature in the reddest filter (v) at RA = 00:26:38,
+DEC = +83:24:10.5 (J2000), 3.5 arc sec away.  The 3-sigma upper
+limits are given below.  The magnitudes are based on the UVOT
+photometric system (Poole et al. 2008, MNRAS, 383, 627); they
+are not corrected for the Galactic extinction corresponding to
+a reddening of E_{B-V} = 0.166 mag (Schlegel et al., 1998, ApJS,
+500, 525).
+
+  Filter   exposure(sec)  magnitude
+  v         383          >20.1
+  b         383          >20.3
+  u         383          >19.8
+  uvw1      766          >20.3
+  uvm2     1092          >20.9
+  uvw2     1534          >21.3
+

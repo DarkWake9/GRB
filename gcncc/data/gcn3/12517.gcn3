@@ -1,0 +1,21 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12517
+SUBJECT: Swift-BAT trigger 506884 is not a GRB
+DATE:    11/11/03 04:20:54 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), E. A. Hoversten (PSU),
+F. E. Marshall (NASA/GSFC), B. Sbarufatti (INAF-OAB/IASFPA),
+M. H. Siegel (PSU) and M. C. Stroh (PSU) report on behalf of the Swift
+Team:
+
+At 03:28:08 UT 03 Nov 2011, Swift-BAT triggered as a result
+of the star tracker having lost lock.  This trigger is not
+due to a GRB or anything astrophysical. 
+
+Only one GCN Notice type (the Quick_Look type that goes to robotic
+telescopes) was distributed to the world.  All the rest of the notice types
+were automatically blocked-to-world for Image triggers that occur
+during a period of star tracker loss-of-lock.  But the Quick-Look notice
+is produced before any information is received that it is an Image trigger. 
+

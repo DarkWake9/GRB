@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12259
+SUBJECT: Swift SGR 1834.9-0846: Swift-BAT refined analysis
+DATE:    11/08/08 11:40:09 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+V. D'Elia (ASDC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (GSFC/UMBC), G. Sato (ISAS), M. Stamatikos (OSU),
+J. Tueller (GSFC), T. N. Ukwatta (MSU) (i.e. the Swift-BAT team):
+ 
+Using the data set from T-240 to T+963 sec from recent telemetry downlinks,
+we report further analysis of Swift SGR 1834.9-0846 (trigger #458907)
+(which we reported as GRB 110807A in D'Elia, et al., GCN Circ. 12253).
+The BAT ground-calculated position is RA, Dec = 278.709, -8.758 deg, which is 
+   RA(J2000)  =  18h 34m 50.1s 
+   Dec(J2000) = -08d 45' 28.4" 
+with an uncertainty of 2.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 89%.
+ 
+The mask-weighted light curve shows a single spike starting at T_zero and
+ending at ~T+0.04 sec.  T90 (15-350 keV) is 0.032 +- 0.008 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T+0.0 to T+0.040 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index -0.70 +- 2.57, 
+and Epeak of 40.5 +- 8.0 keV (chi squared 51.9 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 1.2 +- 0.3 x 10^-8 erg/cm2
+and the 1-sec peak flux measured from T-0.48 sec in the 15-150 keV band is
+0.3 +- 0.2 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 2.13 +- 0.30 (chi squared 59.7 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level. 
+
+Given the soft nature of this event, the Fermi-GBM event consistant
+with this location (Guiriec, 12255), and that the Swift location does not match
+any of the known SGRs, we classify this event as a new SGR source.  The digits
+in the name are derived from the Swift-XRT location (Circ 12253).
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/458907/BA/
+

@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1341
+SUBJECT: ASM GRB candidate 020406 refined error box
+DATE:    02/04/08 23:24:57 GMT
+FROM:    Don Smith at U michigan  <dasmith@rotse2.physics.lsa.umich.edu>
+
+D. A. Smith (U of Michigan) and R. Remillard (MIT) report on behalf of the
+RXTE/ASM teams at MIT and NASA/GSFC:
+
+Further RXTE/ASM detections of the event reported in GCN Circ. No. 1332 have
+been discovered in the ASM production data, missing from the realtime data
+stream available on the day of the event.  Rather than scanning *off* the
+source, as we reported, the ASM scan actually moved to put the source *closer*
+to the center of the FOV, greatly increasing the detector area exposed to this
+source.  The time series data show that the source remained bright, with some
+evidence for fading, for at least 100 seconds after the end of the observation
+reported in GCN Circ. 1332.  The light curve is strongest in the 5-12 keV band,
+with an average count rate during the second dwell of 21.3+-0.7 c/s, as
+compared to only 3.0+-0.6 c/s in the 1.5-3 keV band (ASM rates for the Crab are
+25.4 and 26.8 in the soft and hard bands, respectively).
+
+Using the strongest detection of this source in each camera, we were able to
+greatly refine our error box to a parallelogram roughly 3 arcminutes on a side.
+This box is centered on the coordinates 
+                R.A.: 19h 01m 45.95s, Decl: 1d 26' 15.7", 
+and its corners are located at the following coordinates (all coordinates in
+epoch J2000.0):
+
+R.A.      Decl.
+285.4381 1.4150
+285.3389 1.4563
+285.4472 1.4595
+285.5416 1.4201
+
+This refined localization appears to rule out the counterpart candidate
+proposed by Durig & McDermott in GCN #1138.
+
+A background-subtracted 5-12 keV light curve and the four ASM localizations of
+this event can be seen at http://xte.mit.edu/grb/grb020406/
+

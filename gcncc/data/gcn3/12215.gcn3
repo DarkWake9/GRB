@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12215
+SUBJECT: GRB 110731A: Swift detection of a burst with an optical counterpart
+DATE:    11/07/31 11:23:28 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. R. Oates (UCL-MSSL), A. P. Beardmore (U Leicester),
+S. T. Holland (CRESST/USRA/GSFC), E. A. Hoversten (PSU),
+A. Melandri (INAF-OAB), C. J. Mountford (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL), C. J. Saxton (UCL-MSSL)
+and T. N. Ukwatta (MSU) report on behalf of the Swift Team:
+
+At 11:09:30 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 110731A (trigger=458448).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 280.521, -28.546 which is 
+   RA(J2000) = 18h 42m 05s
+   Dec(J2000) = -28d 32' 44"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multiple-peaked
+structure with a duration of about 20 sec.  The peak count rate
+was ~20000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 11:10:36.9 UT, 66.4 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 280.5042, -28.5363 which is equivalent to:
+   RA(J2000)  = 18h 42m 01.00s
+   Dec(J2000) = -28d 32' 10.6"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 63 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 75 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	18:42:01.01 = 280.50419
+  DEC(J2000) = -28:32:13.7  = -28.53713
+with a 90%-confidence error radius of about 0.61 arc sec. This position is 3.0
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+15.80 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.17. 
+
+Burst Advocate for this burst is S. R. Oates (sro AT mssl.ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

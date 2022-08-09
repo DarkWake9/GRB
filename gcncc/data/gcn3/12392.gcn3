@@ -1,0 +1,22 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12392
+SUBJECT: Swift-BAT trigger 503926 is noise
+DATE:    11/09/24 16:05:45 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), D. Burrows (PSU), J. R. Cummings (GSFC/UMBC),
+E. A. Hoversten (PSU), H. A. Krimm (GSFC/USRA), S. Oates (UCL-MSSL),
+C Pagani (UL)
+(for the Swift team):
+ 
+Using the BAT data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of Swift-BAT trigger #503926 (Hoversten, et al.,
+GCN Circ. 12391).  This trigger is due to chance coincidence
+of noise fluctuations in the rate and image domains.
+
+XRT observations in Photon Counting mode data started 126 s after the 
+BAT trigger. In 2ks of PC data no source is detected inside the BAT
+error circle.  The three sigma upper limit is 4e-3 counts/second.
+
+This trigger is a noise event, and is not anything astrophysical.
+

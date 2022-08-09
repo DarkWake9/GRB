@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1303
+SUBJECT: GRB011211 revised BVRI field photometry
+DATE:    02/03/23 18:57:09 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired additional BVRcIc all-sky photometry for
+an 11x11 arcmin field that is approximately centered on
+the position of the optical transient for GRB011211 reported
+by Grav et al. (GCN 1191) with the USNOFS 1.0-m telescope.
+The field was observed on two more nights,
+with the new dataset posted at:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb011211.dat
+Stars brighter than V=13.5 are saturated and should be used with care.
+The current photometry has a potential external zero-point
+error of about one percent.  The astrometry in this file
+is based on linear plate solutions with respect to USNO-A2.0.
+The internal errors are less than 100mas.
+
+The two new nights have shown that the photometry
+reported in GCN 1197 has larger error than originally estimated,
+most likely caused by a combination of the very poor seeing,
+high airmass and approaching dawn.  For example, the
+comparison star U0675_11427359 that was used by Grav et al.and
+Jensen et al. (GCN 1195) to calibrate their field can be found
+in the new .dat file with the following magnitudes:
+
+GCN 1195 (Jensen)   B = 18.65  V = 18.18  R = 17.90  I = 17.07
+GCN 1197 (Henden)   B = 18.65  V = 18.11  R = 17.76  I = 17.42
+new result          B = 18.48  V = 18.00  R = 17.70  I = 17.37
+
+We apologize for the lateness of this correction, but this
+winter has had unusually few photometric nights.  This is
+the first case in several dozen calibrations that we have
+performed for the GRB community in which the final dataset
+differed from the initial dataset by more than a couple of percent.
+

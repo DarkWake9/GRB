@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11482
+SUBJECT: GRB 101219B: Swift/UVOT refined analysis
+DATE:    10/12/21 00:09:32 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N.P.M. Kuin (MSSL/UCL) and J.M. Gelbord (PSU) report on behalf
+of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 101219B
+156 s after the BAT trigger (Gelbord et al., GCN Circ. 11473).
+The optical afterglow is at 7 arcsec distance of a 16th magnitude star.
+Special care has been taken to subtract the estimated contribution
+of the neghboring star.  The data suggest that after an initial
+brightening, there was a dimming around T+550s followed by a
+second brightening.
+
+Preliminary magnitudes of the GRB, using the UVOT photometric system
+(Poole et al. 2008, MNRAS, 383, 627) for the first finding chart (FC)
+exposure and some selected subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)      Mag   Mag_err
+
+white_FC           156          306        147.4       17.87   0.06
+white              768          788         19.5       17.59   0.10
+white             6686         6886        196.6       18.58   0.06
+v                  820          840         19.5       17.55   0.27
+v                 7097         7296        196.6       18.39   0.15
+b                  570          590         19.5       18.79   0.30
+b                  744          764         19.4       18.00   0.19
+u                  718          738         19.5       17.25   0.18
+u                 1298         1318         19.5       17.26   0.18
+uvw1              1446         1465         19.4       17.43   0.28
+uvw1             16352        16861        501         18.40   0.11
+uvm2              7301         7392         89.6       18.15   0.24
+uvm2             51175        52075        856         19.54   0.16
+uvw2              6892         7092        197         18.04   0.13
+uvw2             56901        57801        886         20.21   0.20
+
+The values quoted above are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.02 in the direction of the burst
+(Schlegel et al. 1998).
+

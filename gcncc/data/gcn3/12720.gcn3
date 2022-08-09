@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12720
+SUBJECT: GRB 111225A: Swift detection of a burst with an optical counterpart
+DATE:    11/12/25 04:12:26 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+M. H. Siegel (PSU), W. H. Baumgartner (GSFC/UMBC),
+M. M. Chester (PSU), N. Gehrels (NASA/GSFC), D. Grupe (PSU),
+F. E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+D. M. Palmer (LANL), T. Sakamoto (NASA/UMBC), C. A. Swenson (PSU),
+T. N. Ukwatta (MSU) and B.-B. Zhang (PSU) report on behalf of the
+Swift Team:
+
+At 03:50:37 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 111225A (trigger=510341).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 13.102, +51.589 which is 
+   RA(J2000) = 00h 52m 24s
+   Dec(J2000) = +51d 35' 19"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The immediately available lightcurve was
+truncated for contact with the ground station. The BAT lightcurve showed 
+a rise at around T-10 seconds with flux continuing at least until
+T+8 seconds, the limit of of the immediately available data.  
+The peak count rate was ~1300 counts/sec (15-350 keV), at ~-2 sec 
+after the trigger. 
+
+The XRT began observing the field at 03:52:05.9 UT, 88.1 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 13.1548, 51.5741 which is equivalent to:
+   RA(J2000)  = +00h 52m 37.15s
+   Dec(J2000) = +51d 34' 26.8"
+with an uncertainty of 5.0 arcseconds (radius, 90% containment). This
+location is 129 arcseconds from the BAT onboard position, within the
+BAT error circle. No event data are yet available to determine the
+column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 2.96e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting 95
+seconds after the BAT trigger. There is a candidate afterglow in the rapidly
+available 2.7'x2.7' sub-image at
+  RA(J2000)  =	00:52:37.21 =  13.15503
+  DEC(J2000) = +51:34:19.5  =  51.57207
+with a 90%-confidence error radius of about 0.75 arc sec. This position is 7.3
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+19.42 with a 1-sigma error of about  0.20. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.26. 
+
+Burst Advocate for this burst is M. H. Siegel (siegel AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

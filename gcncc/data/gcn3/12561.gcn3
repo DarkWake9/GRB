@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12561
+SUBJECT: GRB 111117A: Swift-BAT refined analysis of a short hard burst
+DATE:    11/11/17 20:12:02 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), V. Mangano (INAF-IASFPA),
+J. Norris (BSU), D. M. Palmer (LANL), G. Sato (ISAS), M. Stamatikos (OSU),
+J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-240 to T+395 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 111117A (trigger #507901)
+(Mangano, et al., GCN Circ. 12559).  The BAT ground-calculated position is
+RA, Dec = 12.702, 23.021 deg, which is 
+   RA(J2000)  =   00h 50m 49.9s
+   Dec(J2000) =  +23d 00' 11.0"
+with an uncertainty of 1.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+ 
+The mask-weighted light curve shows two peaks, the first starts at ~T+0.00,
+peaks at ~T+0.15 and ends at ~T+0.30 sec.  The second starts at ~T+0.35,
+peaks at ~T+0.50, and ends at ~T+0.60 sec.  T90 (15-350 keV) is 0.47 +- 0.09 sec
+(estimated error including systematics).
+
+The spectral lag is 0.6 +/- 2.4 msec using the 100-350 and 25-50 keV bands
+with 4-ms binning of the raw lightcurves.  This clearly indicates a short burst.
+ 
+The time-averaged spectrum from T-0.016 to T+0.520 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.65 +- 0.22.  The fluence in the 15-150 keV band is 1.40 +- 0.18 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.00 sec in the 15-150 keV band
+is 1.35 +- 0.20 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/507901/BA/
+
+[GCN OPS NOTE(17nov11):  Per author's request, the missing position uncertainty
+was added (1.7 arcmin).]
+

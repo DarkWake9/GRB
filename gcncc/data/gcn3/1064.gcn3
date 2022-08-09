@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1064
+SUBJECT: HETE Fully-Automated GCN Notices
+DATE:    01/05/31 23:09:24 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+During the past two weeks, the final testing of HETE-GCN rapid data 
+interfaces was successfully completed.  Beginning today, HETE 
+localization releases are fully automatic.  HETE Notices will now be 
+promptly distributed through the GCN system.  The HETE positions
+are calculated on-board, down-linked through the 12 Secondary ground
+stations, forwarded to the HETE Ops computer at MIT, and then forwarded
+to GCN for distribution to those GCN sites that have elected to receive
+the GCN/HETE Notices (Alert, Update, Final, and/or GroundAnalysis subtypes).
+This is the full automated process; there are no humans in the loop,
+i.e. the minimum possible delay time.  The time delays range
+from 10 sec to 30 sec for the Alert and Update Notices (Updates are
+the first notice subtype that has position information.)
+
+A detailed description of the HETE Notices is contained in:
+http://gcn.gsfc.nasa.gov/gcn/hete.html
+and for the socket sites, the packets are defined in:
+http://gcn.gsfc.nasa.gov/gcn/sock_pkt_def_doc.html
+
+It should be stressed that because this is the fully automated, 
+"hands off" processing procedure, there will inevitably be non-GRB 
+triggers included in those sent to the ground and distributed.
+In fact, during the June-July period, when the Galactic Bulge region
+is passing through the HETE field-of-view, the majority of the triggers 
+will be non-GRBs.  While this is probably not a problem for the 
+automated instrument GCN sites, those sites that involve human effort 
+and/or consumables must understand that many of the HETE Notices will 
+be non-GRBs (eg x-ray bursters, soft gamma repeaters, flaring 
+galactic sources, etc).
+
+In general, there will also be follow-up GCN Circulars disseminated 
+for HETE burst events which prove to be confirmed GRBs.  These 
+follow-up Circulars will be based on detailed telemetry data which 
+becomes available on the ground 1-2 orbits after the burst, so such 
+HETE Circulars will lag the HETE Notices by a few hours.
+
+All those sites who have requested the HETE Notices to be enabled 
+need do nothing.  They will receive them.  If sites wish to change 
+their configuration, then please send a request.
+

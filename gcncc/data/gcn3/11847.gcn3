@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11847
+SUBJECT: GRB 110328A / Swift J164449.3+573451: X-ray analysis and a mini-blazar analogy
+DATE:    11/03/30 23:02:09 GMT
+FROM:    Josh Bloom at UC Berkeley  <jbloom@astron.berkeley.edu>
+
+J. S. Bloom, N. R. Butler, S. B. Cenko, D. A. Perley (UC Berkeley) report:
+
+"We perform a time-resolved X-ray spectral analysis of the Swit XRT data for GRB1103028A  / Swift J164449.3+573451 (Cummings et al., GCN 11823; Kennea et al., ATel  3242).  As reported by Kennea et al. (ATel 3250), the X-ray hardness correlates with the X-ray flux.  We find that, in the low-flux state, the spectrum is well-fit by an aborbed powerlaw; while a blackbody model is preferred for the high-flux state.
+
+For a reference time t0 of 2011/03/28 12:57:45.2 UT, the (PC mode) spectrum in the time regions:
+
+t-t0 = (6.08, 100.87 ksec):
+NH_excess= (0.61+/-0.03) x 10^22 cm^-2 (z=0)
+(NH_Galactic= 0.017 x 10^22 cm^-2)
+Gamma = 1.97+/-0.06
+Flux= (5.99+/-0.21) x 10^-11 erg cm^-2 s^-1 [0.3-10 keV]
+chi^2/nu= 312.50/254
+
+t-t0 = (116.89, 176.05 ksec):
+NH_excess= (0.60+/-0.05) x 10^22 cm^-2 (z=0)
+Gamma= 1.98+/-0.05
+Flux= (1.09+/-0.05) x 10^-10 erg cm^-2 s^-1 [0.3-10 keV]
+chi^2/nu= 253.06/224
+
+are well-fit by absorbed powerlaw models.  In both of these regions, an absorbed blackbody fit has a significantly lower fit quality (chi^2/nu= 845.01/254, and 609.46/224, respectively).  In contrast, in times of high flux, the WT and PC mode spectra are soft:
+
+t-t0 = (1.49, 6.08 ksec; WT):
+NH_excess = (0.61+/-0.03) x 10^22 cm^-2 (z=0)
+Gamma= 1.63+/-0.04
+Flux= (1.21+/-0.03) x 10^-9 erg cm^-2 s^-1 [0.3-10 keV]
+chi^2/nu= 840.42/449
+
+t-t0 = (111.35, 111.49 ksec; WT):
+NH_excess= (0.66+/-0.02) x 10^22 cm^-2 (z=0)
+Gamma= 1.64+/-0.03
+Flux= (2.02+/-0.03) x 10^-9 erg cm^-2 s^-1 [0.3-10 keV]
+chi^2/nu= 1339.16/583
+
+t-t0= (116.00, 116.46 ksec; PC):
+NH_excess= (0.3+/-0.3) x 10^22 cm^-2 (z=0)
+Gamma= 1.4+/-0.4
+Flux= (1.3+/-0.2) x 10^-9 erg cm^-2 s^-1 [0.3-10 keV]
+chi^2/nu= 9.16/10
+
+In each of these 3 high flux time regions, a blackbody fit is preferred relative to the quoted powerlaw fits above (chi^2/nu= 762.17/449, 1235.52/583, and  7.82/11, respectively).   In these regions, the best-fit temperature is kT ~ 1 keV.  The fact that none of the fits in these regions exhibits chi^2/nu ~ 1 may suggest a superposition of thermal and non-thermal components is required. We note that the BAT photon indices (Sakamoto et al.; GCN #11842) are comparable to the hard photon indices here, possibly indicating a continuation of these spectra to higher energies.
+
+The energetics of the continuing event are intriguing, with an average luminosity in the X-rays of L_X ~ 2.5 x 10^47 erg/s continuing for T~10^5 sec implying a total energy output of E_X,tot ~ 2.5x10^52 erg. Assuming this energy is liberated in an accretion process at 10% efficiency, the total mass involved in accretion over the first day is ~0.1 M_sun. If the source of this accreted mass is a tidal disruption of a main sequence star (M_* ~ 0.5 M_sun; R_* ~ 10^10 cm), then this implies a black hole mass of ~few x 10^6 M_sun assuming the disruption radius at the size scale implied by the X-ray variability timescale (500 s; Campana et al. [GCN 11843]), l=1.5x10^12 cm. This disruption radius would be several times the innermost stable orbit of a 10^6 M_sun BH.  
+
+We also note an analogy of the reported behavior to blazar activity, in that highly variable gamma-ray and (non-thermal) X-ray emission is accompanied by (presumably) non-thermal long-wavelength emission (radio and sub-mm). The compressed timescales of variability from ordinary blazars (~10 minutes vs ~1 day) could be attributable to a smaller mass BH (~10^6 instead of 10^8 - 10^9 M_sun).
+
+Taken together, this suggests that GRB 110328A / Swift J164449.3+57345 may be the result of tidal disruption event viewed (nearly) face on to a newly formed jet. Note if this is the case--and the evidence for beamed emission has been suggested elsewhere by Campana et al. [GCN 11843]--then the energetics and accretion-mass inferences would be relaxed by an unknown Gamma factor. Hence, the inferred BH mass of few x 10^6 M_sun might be considered an upper limit. With this interpretation, we would expect the emission to be astrometrically coincident with the nucelus of the host galaxy (something not observed with GRBs in general), exhibit time-variable behavior at radio wavebands (including short timescale flickering), and a rising OIR event over the next few weeks (to an unobscured absolute magnitude of M_V ~ -18 to -21 mag)."
+
+We thank Eliot Quataert for helpful discussions.
+
+
+

@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11766
+SUBJECT: IBAS distribution of coordinates for low significance INTEGRAL GRB triggers
+DATE:    11/02/24 16:18:42 GMT
+FROM:    Sandro Mereghetti at IASF/CNR  <sandro@iasf-milano.inaf.it>
+
+S.Mereghetti (INAF IASF-Milano), D.Gotz (CEA-Saclay), J. Borkowski (CAMK, 
+Torun), M. Beck, C.Ferrigno (ISDC, Versoix), on behalf of the IBAS 
+Localization Team announce:
+
+A new version of the IBAS Alert Distribution system is operational at the 
+INTEGRAL Science Data Center. In addition to the already available 
+functionalities, the new version distributes in real time also Alert 
+Packets for low significance triggers discovered in the field of view of 
+the IBIS imager.
+
+The new Alert Packets are called WEAK Alerts and are identified by the 
+field PKT_TYPE=6 (see http://www.isdc.unige.ch/integral/science/grb#IBAS 
+for details on the different Alert types).
+
+Users interested to receive the Alert Packets of the new type "WEAK" 
+should contact the ISDC IBAS team (isdc-ibas@unige.ch).
+
+The threshold for the distribution of the usual high significance IBAS 
+triggers remains unchanged at
+
+SIGMA= 8.0   (Alert Packets with PKT_TYPE= 3 (WAKEUP))
+
+while the threshold for the distribution of low significance IBAS triggers is 
+currently set at
+
+SIGMA= 6.5   (Alert Packets with PKT_TYPE= 6 (WEAK))
+
+This threshold corresponds to a rate of a few WEAK Alert Packets per week, 
+but it could be adjusted in the future.
+
+Many WEAK alerts will be produced by statistical fluctuations, but there 
+is also a non negligible probability that some of them are due to real 
+astrophysical events. In most cases it is not possible to recognize the 
+GRBs based only on the INTEGRAL data, but the detection of afterglows 
+could confirm some of these events as genuine GRBs.
+
+Several bursts that were confirmed by off-line interactive analysis of the 
+INTEGRAL data produced triggers above the threshold currently adopted for 
+the WEAK alerts. Recent examples include the two short bursts GRB 100703A 
+(GCN Circ. n.10936) and GRB 110112B (GCN Circ. n.11562) and the long burst 
+GRB 100909A (GCN Circ. n.11260).
+
+WEAK Alert Packets provide a single sky position, with error radius 
+smaller than 4 arcmin. They are intended for robotic telescopes which can 
+react without a negative impact on scheduled observing programmes. The 
+value of SIGMA in the WEAK Alert Packet can be used as a figure of merit.
+
+WEAK Alert Packets may or may not be followed by the usual WAKEUP and/or 
+REFINED Alert Packets, depending on the evolution of the detected signal.
+WEAK alerts for events belows WAKEUP threshold are neither confirmed nor
+cancelled with an OFFLINE packet.
+
+For further details see
+http://ibas.iasf-milano.inaf.it/IBAS_News.html
+
+It is recommended that current ibas clients upgrade their IBAS Client 
+Software to the version 2.1.0 (available at 
+http://www.isdc.unige.ch/integral/analysis#Software), although the 
+previous versions should process WEAK alert without problems.
+

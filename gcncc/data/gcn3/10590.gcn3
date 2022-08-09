@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10590
+SUBJECT: Konus-Wind observation of GRB 100413A
+DATE:    10/04/14 13:39:18 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, P.
+Oleynik, M. Ulanov, D. Svinkin, and T. Cline on behalf of the Konus-Wind
+team report:
+
+The long GRB 100413A (Swift-BAT trigger #419404: Holland et al., GCN 
+10581; Stamatikos et al., GCN 10585) was detected by Konus-Wind in the 
+waiting mode.
+
+The burst light curve shows a multipeaked structure with a total 
+duration of ~220 s.
+
+As observed by Konus-Wind, the burst had a fluence of (2.66 +/-
+0.23)x10^-5 erg/cm2 (in the 20 - 1200 keV energy range).
+
+Modeling the K-W 3-channel time-integrated spectrum (from T0-3 s to 
+T0+212 s) by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.01 ± 0.06, Ep = 446 +/- 123 keV.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB100413A/
+
+Assuming z ~ 3.9 (Campana, Evans, and Holland, GCN 10588) and a standard 
+cosmology model with H_0 = 71 km/s/Mpc, Omega_M = 0.27, Omega_Lambda = 
+0.73, the isotropic energy  release is E_iso ~8x10^53 erg, and Ep_rest 
+~2200 keV.
+

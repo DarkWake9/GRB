@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11047
+SUBJECT: GRB 100805A: Swift detection of a burst with an optical counterpart
+DATE:    10/08/05 04:27:27 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+E. A. Hoversten (PSU), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), J. M. Gelbord (PSU), C. Gronwall (PSU),
+S. T. Holland (CRESST/USRA/GSFC), D. M. Palmer (LANL),
+M. H. Siegel (PSU), M. C. Stroh (PSU) and T. N. Ukwatta (GSFC/GWU)
+report on behalf of the Swift Team:
+
+At 04:12:42 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 100805A (trigger=430957).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 299.874, +52.614 which is 
+   RA(J2000) = 19h 59m 30s
+   Dec(J2000) = +52d 36' 52"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a peak with a
+duration of about 20 sec.  The peak count rate
+was ~600 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 04:14:48.7 UT, 126.4 seconds after
+the BAT trigger. Using promptly downlinked data we find a fading,
+uncatalogued X-ray source located at RA, Dec 299.87559, 52.62758 which
+is equivalent to:
+   RA(J2000)  = 19h 59m 30.14s
+   Dec(J2000) = +52d 37' 39.3"
+with an uncertainty of 3.8 arcseconds (radius, 90% containment). This
+location is 47 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of
+1.69e+21 cm^-2 (Kalberla et al. 2005). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 129 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	19:59:30.52 = 299.87716
+  DEC(J2000) = +52:37:40.3  = 52.62787
+with a 90%-confidence error radius of about 0.62 arc sec. This position is 3.6
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+18.00 with a 1-sigma error of about 0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.19. 
+
+Burst Advocate for this burst is E. A. Hoversten (hoversten AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10585
+SUBJECT: GRB 100413A: Swift-BAT initial refined analysis
+DATE:    10/04/13 21:07:15 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+M. Stamatikos (GSFC/ORAU), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), S. T. Holland (CRESST/USRA/GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC/UMD), D. M. Palmer (LANL),
+T. Sakamoto (GSFC/UMBC), J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-60 to T+243 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 100413A (trigger #419404)
+(Holland, et al., GCN Circ. 10581).  The BAT ground-calculated position is
+RA, Dec = 266.223, 15.833 deg, which is 
+   RA(J2000)  =  17h 44m 53.4s 
+   Dec(J2000) = +15d 50' 00.3" 
+with an uncertainty of 1.9 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 48%.
+ 
+The mask-weighted light curve shows multiple overlapping peaks in two main
+clusters of peaks.  It starts at ~T-45 sec, with the first cluster ending 
+at ~T+40 sec.  The second cluster starts around T+90 sec, peaks around T+100 sec,
+and ends later than T+240 sec.  The emission does not return
+to background between the two clusters.  We are issuing this refined circular
+prior to receiving all the data, because there is a backlog in the downlinking
+of the data and it will be many hours until receive the data past T+240 sec.
+These results will be updated when we receive the full data set.
+ 
+Using this partial data set, the time-averaged spectrum
+from T-1.5 to T+213.1 sec is best fit by a simple power-law model.
+The power law index of the time-averaged spectrum is 1.17 +- 0.07.
+The fluence in the 15-150 keV band is 6.2 +- 0.2 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+116.78 sec in the 15-150 keV band
+is 0.7 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/419404/BA/
+

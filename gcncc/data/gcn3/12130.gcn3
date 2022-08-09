@@ -1,0 +1,71 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12130
+SUBJECT: GRB 110709B: Preliminary Swift-BAT refined analysis
+DATE:    11/07/10 01:47:27 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+E. E. Fenimore (LANL), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (GSFC/UMBC),
+G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+ 
+We report further analysis of BAT GRB 110709B (triggers #456967 and #456969;
+Cummings, et al., GCN Circ. 12122 and Barthelmy, et al., GCN Circ. 12124).
+
+Because of the interesting nature of this event, we are posting preliminary
+versions of the "refined" processing on the two triggers of GRB 110709B.
+The automated analysis of each trigger is provided separately.  We will likely
+post the final refined analysis later when all of the full data is downlinked,
+and the combined analysis can be performed.
+
+At present, the first of the two BAT triggers (trigger #456967) consists 
+of data from T-61 to T+234 sec.  The second trigger (trigger #456969) consists
+of only a small amount of data from T-11 to T+63 sec.  The two triggers
+are 645 sec apart.
+
+The BAT ground-calculated position of the first trigger (#456967) is,
+RA, Dec = 164.668, -23.470 deg, which is 
+   RA(J2000)  =  10h 58m 40.3s 
+   Dec(J2000) = -23d 28' 11.4" 
+with an uncertainty of 1.1 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 57%.   The position derived from the second trigger 
+(#456969) is RA, Dec = 164.664, -23.500 deg, which is 
+   RA(J2000)  =  10h 58m 39.4s 
+   Dec(J2000) = -23d 29' 59.6" 
+with an uncertainty of 3.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100% (on the BAT bore sight as a result of the
+slew from the first trigger).  The two positions are separated by
+1.8 arcmin.
+
+The mask-weighted light curve of the first trigger, trigger #456967, 
+shows the first peak of the cluster of peaks starting at ~T-30 sec
+(note that the partial downlinked data start only at T-61 sec),
+peaks at ~T+15 sec, and ends at T+130 or T+170 sec.
+T90 (15-350 keV) is 55.6 +- 3.2 sec (estimated error including systematics).
+ 
+The time-averaged spectrum of the data for the first trigger, trigger
+#456967, from T-27.4 to T+46.7 sec is best fit by a simple power-law model.
+The power law index of the time-averaged spectrum is 1.29 +- 0.04.
+The fluence in the 15-150 keV band is 9.4 +- 0.2 x 10-6 erg/cm2.
+The 1-sec peak photon flux measured from T+13.59 sec in the 15-150 keV band
+is 3.4 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+The mask-weighted light curve of the second trigger, #456969, 
+shows emission starting some time before the current data set
+starting at T=21:43:25.4 - 11 sec  and extending beyond the
+T=21:43:25.4 + 63 sec of the partially downlinked data.
+ 
+The time-averaged spectrum of the second trigger, #456969, 
+from T-8.2 to T+52.8 sec is best fit by a power law with an
+exponential cutoff.  This fit gives a photon index 1.08 +- 0.17, 
+and Epeak of 171.5 +- 81.8 keV (chi squared 36.6 for 56 d.o.f.).
+A fit to a simple power law gives a photon index of 1.39 +- 0.04
+(chi squared 47.2 for 57 d.o.f.).  All the quoted errors are
+at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+  Trigger 456967:  http://gcn.gsfc.nasa.gov/notices_s/456967/BA/
+  Trigger 456969:  http://gcn.gsfc.nasa.gov/notices_s/456969/BA/
+

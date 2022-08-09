@@ -1,0 +1,87 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13405
+SUBJECT: GRB 120630A: Swift-BAT/-XRT/-UVOT refined analysis
+DATE:    12/07/03 11:32:29 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC), Gehrels (GSFC),
+E. Sonbaas (GSFC)   (for the Swift-BAT team);
+O. Littlejohns (U. Leicester)  (for the Swift-XRT team);
+S. R. Oates (MSSL-UCL) (of the Swift-UVOT team):
+ 
+Using the data set from T-60 to T+243 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 120630A (trigger #525451).
+There was no initial set of GCN Notices nor a rapid-response circular
+because of the power outage at GSFC when this burst occurred.
+Swift slewed immediately to the burst location.
+
+The BAT ground-calculated position is RA, Dec = 352.300, 42.495 deg, which is 
+   RA(J2000)  =  23h 29m 12.0s 
+   Dec(J2000) = +42d 29' 41.5" 
+with an uncertainty of 2.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 65%.
+ 
+The mask-weighted light curve shows a single spike starting at ~T-0.05 sec
+and ending at ~T+0.65 sec.  T90 (15-350 keV) is 0.6 +- 0.2 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.1 to T+0.6 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.04 +- 0.43.  The fluence in the 15-150 keV band is 6.1 +- 1.4 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.25 sec in the 15-150 keV band
+is 0.7 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence level. 
+
+Given the short duration and the hard spectrum of this burst,
+it is very likely a short GRB.
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/525451/BA/ .
+
+
+We have analysed 1.4 ks of XRT data for GRB 120630A from 97 s to 1.5 ks
+after the BAT trigger.  The data are entirely in Photon Counting (PC) mode.
+The refined XRT position is RA, Dec = 352.29481, 42.55483 which is equivalent to:
+   RA (J2000): 23 29 10.75
+   Dec(J2000): +42 33 17.4
+with an uncertainty of 3.9 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with a power-law decay with a decay index
+of alpha=1.7 (+/-0.5).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed power-law
+with a photon spectral index of 1.7 (+/-0.4).  The best-fitting absorption column
+is consistent with the Galactic value of 8.8 x 10^20 cm^-2 (Kalberla et al. 2005).
+The counts to observed (unabsorbed) 0.3-10 keV flux conversion factor deduced
+from this spectrum is 4.2 x 10^-11 (4.9 x 10^-11) erg cm^-2 count^-1.
+
+A summary of the PC-mode spectrum is thus:
+   Total column:        0 (+2.2, -0) x 10^21 cm^-2
+   Galactic foreground: 8.8 x 10^20 cm^-2
+   Excess significance: <1.6 sigma
+   Photon index:        1.7 (+/-0.4)
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00525451 .
+
+
+The Swift/UVOT began settled observations of the field of GRB 120630A
+150 s after the BAT trigger (trigger #525451).  No optical afterglow
+consistent with the refined XRT position nor with the candidate optical
+afterglow (Xu et al., GCN Circ. 13403) is detected in the initial UVOT
+exposures.  Preliminary 3-sigma upper limits using the UVOT photometric
+system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first
+finding chart (FC) exposure and subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+v                  457          1409         117         >19.0
+b                  406          1508         156         >20.0
+u_FC               150          400          246         >20.2
+u                  150          1032         393         >20.3
+uvw1               506          1458         117         >19.3
+uvm2               481          1434          97         >19.0
+uvw2               432          1530         131         >19.5
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.106 in the direction of the burst
+(Schlegel et al. 1998).
+

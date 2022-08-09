@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11428
+SUBJECT: Swift detection of MAXIJ1409-619
+DATE:    10/11/30 16:24:09 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+V. Mangano (INAF-IASFPA), S. D. Barthelmy (GSFC),
+S. Campana (INAF-OAB), M. M. Chester (PSU), V. D'Elia (ASDC),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+J. M. Gelbord (PSU), C. Gronwall (PSU),
+S. T. Holland (CRESST/USRA/GSFC), N. P. M. Kuin (UCL-MSSL),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/IASFPA),
+R. L. C. Starling (U Leicester) and G. Stratta (ASDC) report on behalf
+of the Swift Team:
+
+At 15:35:29 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located the previously-known source MAXI J1409-619 (trigger=439550). 
+Swift slewed immediately to the source. The BAT on-board calculated
+location is 
+RA, Dec 211.975, -61.988 which is 
+   RA(J2000)  = 14h 07m 54s
+   Dec(J2000) = -61d 59' 17"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows nothing obvious
+as is typical for a 10-min image trigger. 
+
+No source was detected in the 2.5 sec promptly available XRT image. 
+We are waiting for the full dataset to detect and localise the XRT
+counterpart. 
+
+UVOT took a finding chart exposure of  87 seconds with the White
+filter  starting 1108 seconds after the BAT trigger.  UVOT detected no
+new source within the BAT error circle. 
+
+The GCN Notice sequence was complicated because of a 20-sec gap
+in TDRSS coverage (a hand-off from one TDRSS to the next satellite),
+so the initial BAT_Position message was lost, which was then immediately
+followed by a 14-min telemetry downlink pass for which the TDRSS messages
+are held on-board until the end of the pass. 
+
+Burst Advocate for this burst is V. Mangano (vanessa AT ifc.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

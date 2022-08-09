@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12689
+SUBJECT: GRB 111215A: Swift-BAT refined analysis
+DATE:    11/12/15 23:04:57 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+E. E. Fenimore (LANL), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),   
+C. B. Markwardt (GSFC), S. R. Oates (UCL-MSSL), D. M. Palmer (LANL),
+T. Sakamoto (GSFC/UMBC), G. Sato (ISAS), M. Stamatikos (OSU),
+J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 111215A (trigger #509717)   
+(Oates, et al., GCN Circ. 12681).  The BAT ground-calculated position is
+RA, Dec = 349.582, 32.440 deg, which is
+   RA(J2000)  =  23h 18m 19.6s
+   Dec(J2000) = +32d 26' 24.2"
+with an uncertainty of 4.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 46%.
+   
+The mask-weighted light curve shows the emission starting at ~T-110 sec,
+although we note that the burst location came into the BAT FoV around
+T-200 sec, so we can not make any statement about possible earlier emission.
+There are a few overlapping peaks at ~T+20 sec, ~T+170 sec, and T+300 sec,
+the the lightcurve slowly decreases back to baseline around T+1500 sec.
+T90 (15-350 keV) is 796 +- 250 sec (estimated error including systematics).
+   
+The time-averaged spectrum from T-116.4 to T+960.1 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.70 +- 0.18.  The fluence in the 15-150 keV band is 4.5 +- 0.5 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+216.35 sec in the 15-150 keV band
+is 0.5 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+   
+The duration of this burst is very long, and we note that this location is
+well off the Galactic Plane (lon=101,lat=-26).  We can not rule out
+a non-GRB source for this event.
+   
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/509717/BA/
+

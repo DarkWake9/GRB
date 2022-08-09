@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11662
+SUBJECT: GRB 110206A:  UVOT detection of afterglow candidate
+DATE:    11/02/07 17:27:08 GMT
+FROM:    Erik Hoversten at Swift/Penn State  <hoversten@astro.psu.edu>
+
+E. A. Hoversten (PSU) and P. A. Evans (U. Leicester) report on behalf of
+the Swift UVOT team:
+
+We have analyzed Swift UVOT observations of the INTEGRAL-detected
+GRB 110206A (Mereghetti et al. et al. GCN Circ. 11654).  UVOT  
+observations
+began 26.9 ks after the INTEGRAL trigger.  The UVOT data reveal a  
+faint new
+source that does not appear in archival MAST DSS images.  The refined  
+UVOT
+position of the new source is:
+
+      RA (J2000)  06:09:20.14  =  92.33392 (deg)
+     Dec (J2000) -58:48:25.3   =  -58.80703 (deg)
+
+with an estimated uncertainty of 0.8 arcsec (radius, 90% confidence,
+statistical + systematic).  This position is within 0.2 arcseconds of  
+the
+enhanced XRT position (Evans, GCN Circ. 11657) which is well within the
+measurement errors.
+
+The source is detected in the uvw1, u, and b filters, while an upper  
+limit
+was found in uvm2.  The observed magnitudes and 3-sigma upper limits  
+using
+the UVOT photometric system (Poole et al. 2008, MNRAS, 383, 627) are:
+
+Filter  T_start(s)  T_stop(s)   Exp(s)     Mag
+=============================================================
+b        28761       29253       480   21.00 +/- 0.37
+u        27847       34952      1044   20.56 +/- 0.24
+uvw1     26941       34783      1771   20.36 +/- 0.26
+uvm2     32977       33876       885      > 20.61
+
+The values quoted above are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.05 in the direction of the burst
+(Schlegel et al. 1998).
+

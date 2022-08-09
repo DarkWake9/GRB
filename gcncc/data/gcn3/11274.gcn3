@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11274
+SUBJECT: Swift BAT Trigger 433953 probably not a GRB
+DATE:    10/09/12 05:11:47 GMT
+FROM:    Dirk Grupe at PSU/Swift-XRT  <grupe@astro.psu.edu>
+
+D. Grupe (PSU), S. D. Barthelmy (GSFC), M. M. Chester (PSU),
+J. R. Cummings (NASA/UMBC), N. Gehrels (NASA/GSFC),
+J. M. Gelbord (PSU), C. Guidorzi (U Ferrara),
+C. B. Markwardt (NASA/GSFC) and M. H. Siegel (PSU) report on behalf of
+the Swift Team:
+
+At 04:49:05 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located trigger 433953.  Swift slewed immediately to the location.
+The BAT on-board calculated location is RA, Dec 42.643, -2.200 which is
+    RA(J2000) = 02h 50m 34s
+    Dec(J2000) = -02d 12' 00"
+with an uncertainty of 3 arcmin (radius, 90% containment, including
+systematic uncertainty).  The raw BAT light curve does not show an
+obvious signal, which is typical for a BAT image-only trigger. The
+reported image significance was 7.3.  To fully assess the significance
+of the trigger we will need to examine the event-by-event data
+available on the next downlink.
+
+The XRT began observing the field at 04:51:34.5 UT, 148.7 seconds after
+the BAT trigger. No source was detected in the promptly available XRT
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart.
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 151 seconds after the BAT trigger. No credible afterglow  
+candidate has
+been found in the initial data products. Because part of the 2.7'x2.7'
+sub-image was not received, the overlap with the BAT error circle is  
+uncertain.
+The overlap is at most 25%. The 8'x8' region for the list of sources  
+generated
+on-board covers 100% of the BAT error circle. The list of sources is  
+typically
+complete to about 18 mag. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.06.
+

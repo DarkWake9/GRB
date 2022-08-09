@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11981
+SUBJECT: GRB 110426A: MASTER synchronous with MAXI/GSC  observations 
+DATE:    11/04/28 08:09:19 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+O. Gres, K.Ivanov, V.A.Poleshchuk, S.Yazev, N.M.Budnev, O.Chuvalaev
+Irkutsk State University
+
+E. Gorbovskoy, V. Lipunov, V.Kornilov, D.Kuvshinov, A.Belinski, N.Tyurina, 
+N.Shatskiy, P.Balanutsa, V.V.Chazov, P.V.Kortunov, A.Kuznetsov, D.Zimnukhov, M. 
+Kornilov, A.Kuznetsov, D.Zimnukhov, M. Kornilov, A.Sankovich
+Sternberg Astronomical Institute, Moscow State University
+
+A. Tlatov, A.V. Parhomenko, D. Dormidontov
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+V.Krushinski, I.Zalozhnich, T.Kopytova, A. Popov
+Ural State University, Kourovka
+
+V.Yurkov, Yu.Sergienko, D.Varda, I.Kudelina
+Blagoveschensk Educational State University, Blagoveschensk
+
+
+First we pointed to FERMI trigger N325523188 (ra=217.133 dec=-12.333
+err=32.42) at 15:07:28 (62 sec after trigger time). We observed this area 
+to 15:08:33, until the next more exact FERMI  alert  (ra=205.160 
+dec=-11.570 err=10.9) comes.
+Unfortunately, after that replacement, the part of MAXI error-box has left 
+a FOV of ours widefield cameras. We observ this new place to 15:13:33.
+
+We coadd all wide field (500 square degrees) camera unfiltered images. 
+There is no OT from automatical identification. 
+So we have following results:
+
+
+T_start     T_s-T_fermi     T_s-T_maxi     exptime    limit    Cover_MAXI
+15:07:28       62 sec        -68 sec        55 sec     13.0      100 %
+15:08:33      126 sec         -3 sec       250 sec     13.8       85 %
+
+First  epoch image 
+http://observ.pereplet.ru/images/evgeny/grb110426a1.jpeg
+Second epoch image 
+http://observ.pereplet.ru/images/evgeny/grb110426a2.jpeg
+Black lines is MAXI error_box.
+
+  The main  MASTER  telescopes (40 sm) also made observations in 
+2 polarizations, in the center of each of FERMI error-boxes, but them FOV 
+(4 sq. degree) it has appeared not enough for observ at least parts MAXI
+error-box.
+
+

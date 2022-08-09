@@ -1,0 +1,662 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1571
+SUBJECT: XRF020903, BVRI field photometry
+DATE:    02/10/04 22:32:34 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired BVRcIc all-sky photometry for
+a 20x20 arcmin field centered at the variable object coordinates
+for XRF020903 (Ricker et al. GCN 1530; Soderberg et al. GCN 1554)
+with the USNOFS 1.0-m telescope on one photometric night.  Stars
+brighter than V=14.0 are saturated and should be used with care.
+We have placed the photometric data on our anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/xrf020903.dat
+The astrometry in this file is based on linear plate solutions
+with respect to UCAC2.  The external errors are less than 100mas.
+
+While the night was photometric, the XRF field is towards
+our southern horizon and so there is a higher risk of
+zeropoint errors.  We estimate the present zeropoint errors to
+be about 0.03mag.  We will be extending this
+calibration with additional nights to ensure against
+a systematic zeropoint error.  You should check the dates on
+the .dat file prior to final publication to get the latest photometry.
+
+In particular, the two stars marked on Soderberg et al. finding
+chart have the following position and magnitudes:
+
+           RA (J2000) DEC           V     B-V    V-R   R-I
+Star 1  22:48:36.05  -20:44:34.8  16.381  0.789  0.455 0.399
+Star 2  22:48:53.48  -20:43:23.1  14.743  0.466  0.304 0.313
+
+These values match closely those given in Covino et al. (GCN 1563).
+
+Calibration of the GRB021004 field will occur around October 9 UT.
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1563
+SUBJECT: XRF020903: TNG and Asiago photometry 
+DATE:    02/10/03 08:43:21 GMT
+FROM:    Stefano Covino at Brera Astronomical Observatory  <covino@merate.mi.astro.it>
+
+Covino S., Malesani D., Ghisellini G., Stefanon M., Tavecchio F. (INAF-OAB), 
+Covone G., Fugazza D. (INAF-TNG), Di Paola A., Israel G.L. (INAF-OAR), 
+Mannucci F. (IRA-CNR), Masetti N. (IASF-CNR), Pian E. ((INAF-OAT), on behalf 
+of a larger Italian collaboration, report:
+
+
+We observed the varying source (VS) in the field of XRF 020903 (Ricker et al., 
+GCN 1530; Soderberg et al., GCN 1554) on Oct 1.9 UT, with the Italian 3.5m 
+TNG telescope, using BVRI filters. Seeing conditions were moderate (about 1.5 
+arcsec) and airmass about 1.6. Magnitudes were derived by PSF fitting 
+photometry. One standard star field was also observed under clear (but not 
+photometric) conditions; therefore a small zeropoint offset is still 
+possible. The magnitudes for the VS are the following:
+
+Filter  UT     Magnitude
+-----------------------------
+ B      1.941  21.87 +- 0.06
+ V      1.932  21.14 +- 0.04
+ R      1.916  20.60 +- 0.09
+ I      1.919  20.29 +- 0.07
+
+
+For comparison, we also report the magnitudes of some nearby USNO stars; 
+U0675_37142330 is named "star 1" in Soderberg et al. finding chart.
+
+U0675_37143953 U0675_37141960 U0675_37142330
+----------------------------------------------
+B 18.54 +- 0.02  19.51 +- 0.02  17.14 +- 0.01
+V 17.77 +- 0.01  19.02 +- 0.01  16.40 +- 0.01
+R 17.21 +- 0.04  18.63 +- 0.04  15.92 +- 0.03
+I 16.81 +- 0.03  18.36 +- 0.03  15.58 +- 0.03
+
+
+Based on the photometry performed at the TNG, we re-analyzed data obtained on 
+Sep., 29.9 UT with the Asiago telescope (GCN 1561). Seeing conditions were 
+mediocre (about 2 arcsec) and airmass about 2. Magnitudes were again derived 
+by PSF fitting photometry. We report the following results for the VS:
+
+Filter  UT      Magnitude
+-----------------------------
+ V      29.923  20.94 +- 0.12
+ R      29.931  20.42 +- 0.10
+ I      29.937  19.98 +- 0.13
+
+The source has simultaneously faded by about 0.2 mag in all V, R and I bands 
+between Sep 29.9 and Oct 1.9. Comparing with the R-band measurement by 
+Soderberg et al. on Sep 28.3, the source appears fainter by more than 1 
+magnitude.
+
+
+A color-color diagram, together with a BVRI spectrum and a light curve are 
+shown at the web page: http://www.merate.mi.astro.it/~malesani/XRF020903 .
+
+The values reported here supersede those in our GCN 1561, that were based on a 
+misidentification of the reference star. We apologize for any inconvenience 
+this may have caused.
+
+Detailed analsys of these data is still in progress, and more observations 
+will be performed in the next few days.
+
+
+This message may be cited.
+
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1562
+SUBJECT: GRB 020903: Optical observations at RIKEN
+DATE:    02/10/01 11:18:09 GMT
+FROM:    Ken ichi Torii at RIKEN  <torii@crab.riken.go.jp>
+
+K. Torii (RIKEN) and H. Yamaoka (Kyushu Univ.) report:
+
+ The entire WXM error circle of XRF 020903 (Ricker, et al. GCN 1530)
+was observed at RIKEN with the 0.25-m reflector equipped with
+unfiltered cooled CCD AP6E. The observation started at 2002 September
+3.6479 UT (5.23 hours after the burst trigger) and 20-s exposures were
+repeated.
+
+ The first 168 frames, obtained between 3.6479 and 3.6965 UT, have
+been stacked and inspected for the variable source (hereafter VS)
+found by Soderberg, et al. (GCN 1554). In our image (4".2/pixel) a
+spatially unresolvable source is detected at (R.A., Dec.) =
+(22:48:42.37, -20:46:13.0) (J2000). The position is derived by using
+12 comparison stars from UCAC1 and the fitting error is 0".3 in both
+coordinates. This position is closer to the galaxy G2 (as tabulated in
+USNO-A2.0) rather than to the VS.
+
+ We also find that the flux for the spatially unresolved G2+VS was
+2.0+/-0.2 mag fainter than the star 1 in the finding chart of
+Soderberg et al. (GCN 1554), which is consistent with the magnitude
+difference (G2 - star 1 = +2.17) in GSC-2.2.1 F magnitude. These
+results, both astrometrically and photometrically, show that the VS
+was much fainter than the galaxy G2 during our observation.
+
+==========
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1561
+SUBJECT: XRF 020903: Correction to GCN 1560
+DATE:    02/09/30 21:32:57 GMT
+FROM:    Daniele Malesani at Brera Astro. Obs.  <malesani@merate.mi.astro.it>
+
+M. Stefanon, S. Covino, D. Malesani (INAF, Merate Obs., Milan, I), N.
+Masetti (IASF/CNR, Bologna, I.), G. Temporin (Inst. fur Astr. Innsbruck,
+A), and S. Desidera (Padova Astr. Obs., I), on behalf of a larger
+Italian collaboration, communicate:
+
+We have found that the star named (2) in our previous circular (GCN
+1560) was actually saturated in our images. We hence removed it from our
+analysis. Here is the whole correct text.
+
+We observed the variable source in the field of XRF 020903 (Ricker et
+al., GCN 1530; Soderberg et al, GCN 1554) on 29.9 UT, with the 182cm
+telescope at Cima Ekar-Asiago, near Padova (Italy). The object was at
+high airmass.
+
+We find the following magnitudes for the suspect afterglow (AG) with
+respect to the USNO star (1) reported in the finding chart of Soderberg
+et al. (see http://www.astro.caltech.edu/~ams/XrF.html ):
+
+Filter  UT      Exposure  AG - (1)
+------------------------------------
+V       29.923  600 sec   4.20+-0.09
+R       29.931  600 sec   2.63+-0.01
+I       29.937  300 sec   4.50+-0.13
+
+In the I-band image, the object is barely visible. Using the USNO
+R-magnitude for the reference star (1), R = 16.0 (star 2 is saturated),
+we find
+
+R = 18.63 +- 0.2  @29.931 UT (26.5 days after XRF),
+
+where the error is mainly due to calibration. More accurate photometry
+will be distributed when available. Our data suggest further brightening
+between 28.3 and 29.9 UT, with respect to the value found in Soderberg
+et al. web page.
+
+With present data, we cannot say if the varying source is a rising
+supernova or a variable radio-loud AGN, as suggested by Gal-Yam (GCN
+1556). Further observations are planned tonight.
+
+This message may be cited.
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1560
+SUBJECT: XRF 020903: VRI observations
+DATE:    02/09/30 19:52:42 GMT
+FROM:    Daniele Malesani at Brera Astro. Obs.  <malesani@merate.mi.astro.it>
+
+M. Stefanon, S. Covino, D. Malesani (INAF, Merate Obs., Milan, I), N.
+Masetti (IASF/CNR, Bologna, I.), G. Temporin (Inst. fur Astr. Innsbruck,
+A), and S. Desidera (Padova Astr. Obs., I), on behalf of a larger
+Italian collaboration, communicate:
+
+We observed the variable source in the field of XRF 020903 (Ricker et
+al., GCN 1530; Soderberg et al, GCN 1554) on 29.9 UT, with the 182cm
+telescope at Cima Ekar-Asiago, near Padova (Italy). The object was at
+high airmass.
+
+We find the following magnitudes with respect to the USNO stars (1) and
+(2) reported in the finding chart of Soderberg et al. (see
+http://www.astro.caltech.edu/~ams/XrF.html ):
+
+Filter  UT      OT - (1)    OT - (2)
+--------------------------------------
+V       29.923  4.20+-0.09  2.82+-0.09
+R       29.931  2.63+-0.01  1.34+-0.01
+I       29.937  4.50+-0.13  5.85+-0.13
+
+In the I-band image (300 s exposure), the object is barely visible.
+Using the USNO R-magnitudes for the stars 1 (R = 16.0) and 2 (R = 17.1),
+we find
+
+R = 18.55 +- 0.2  @29.931 UT (26.5 days after XRF),
+
+where the error is mainly due to calibration. More accurate photometry
+will be distributed when available. Our data suggest further brightening
+between 28.3 and 29.9 UT, with respect to the value found in Soderberg
+et al. web page.
+
+With present data, we cannot say if the varying source is a rising
+supernova or a variable radio-loud AGN, as suggested by Gal-Yam (GCN
+1556). Further observations are planned this night.
+
+This message is citeable.
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1558
+SUBJECT: GRB 020903:  correction to GCN 1557
+DATE:    02/09/29 21:52:35 GMT
+FROM:    Andrew S. Fruchter at STScI  <fruchter@mindspring.com>
+
+The date of the first observations of GRB 020903 on the CTIO 4-m reported in
+GCN 1557 should have read "September 4.1".
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1557
+SUBJECT: XRF 020903: R band observations
+DATE:    02/09/29 21:36:32 GMT
+FROM:    Andrew S. Fruchter at STScI  <fruchter@mindspring.com>
+
+A. Fruchter, L. Strolger, B. Mobasher,  J. Rhoads,  A. Levan, I. Burud
+(STScI),  A. Becker (Lucent) report for a larger collaboration:
+
+We observed the field of  XRF 020903 on both September 3.1 and 9.1 (UT) using
+the Mosaic imager on the CTIO 4-m telescope.  Images were taken in B, R and I
+on the first night and in only R on the second.  An image subtraction
+performed shortly after the second night showed no variability consistent with
+that expected of a GRB/XRF.  
+
+In light of the report of the possible discovery of a counterpart to this
+object (GCN 1554) we have re-examined our data.    We find that the object
+cited as the possible counterpart declined by approximately 0.2 mags in R
+between our two epochs.   
+
+Unfortunately, we do not have a reliable absolute calibration of the field at
+this moment.  We expect that a better calibration and more complete analysis
+will be available on a relatively short timescale.
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1556
+SUBJECT: XRF 020903: Archival Optical Images
+DATE:    02/09/29 19:46:04 GMT
+FROM:    Edo Berger at Caltech  <ejb@astro.caltech.edu>
+
+A. Gal-Yam (Tel Aviv University) reports:
+
+"We have extracted from the USNO plate archive
+(http://ftp.nofs.navy.mil/data/fchpix/) two blue plates, covering the
+location of the variable object possibly connected with XRF 020903,
+reported by Soderberg et al (GCN 1554). Inspecting these plates we find
+the following:
+
+1) A plate obtained on UT 1977.6 reveals an object, coincident with the
+variable source reported by Soderberg et al. The B-band magnitude of this
+object appears to be about one magnitude fainter than that of the nearby
+galaxy noted as "G2" by these authors.
+
+2) Comparison of the 1977 plate with the (much poorer) POSSI blue plate
+obtained on 1954.6 may suggest a variation of the flux ratio between the
+source coincident with the Soderberg et al. variable, and the galaxy G2,
+with G2 being brighter on the 1977 plate, but possibly fainter than the
+source reported by Soderberg et al., in 1954. This may hint that this
+source was variable in the past. We stress, however, that the 1954 data
+are quite poor, so past variability can not be ascertained at this stage.
+
+GIF Cutouts from both plates, showing the area around the Soderberg et al.
+variable, can be obtained from ftp://wise3.tau.ac.il/pub/avishay/xrf.
+These can be compared with the Palomar data shown by Soderberg at
+http://www.astro.caltech.edu/~ams/XrF.html.
+
+The source detected on the 1977 plate may be hard to interpret as a
+possible "host" galaxy for the Soderberg et al. transient, even if we
+disregard its possible past variability. Soderberg et al. report that this
+source is not detected on POSSII red plates, and estimate a magnitude of
+R=22 from their OT+SN+host model. This fact can be reconciled with the
+1977 B-band data, showing this object only about 1 magnitude fainter than
+G2 (which has R=17 mag), if this object has a very blue B-R color.
+However, this appears to be in contradiction with the Magellan spectrum
+presented by Soderberg et al., which is flat, or possibly even red, in
+B-R.
+
+An alternative explanation fitting both the archival analysis and the
+entire data set presented by Soderberg et al. and Berger et al (GCN 1555)
+is that this source is a variable radio-loud AGN. We have recently shown
+(Gal-Yam et al. 2002, PASP, 114, 587) that such objects can appear to be
+very similar to optical transients associated with GRBs. Further
+inspection of archival data, as well as further observations (B-band
+especially), can distinguish between an OT+SN model, and an AGN, according
+to their variability properties.
+
+If an AGN, the source discovered by Soderberg et al. may still be related
+to XRF 020903. However, in that case, a SN component no longer seems to be
+required.
+
+Until this issue is clarified, we urge some caution in interpreting the
+Soderberg et al. data set as evidence for a connection between XRF 020903
+and a SN.
+
+This work has made use of the USNOFS Image and Catalogue Archive operated
+by the United States Naval Observatory, Flagstaff Station
+(http://www.nofs.navy.mil/data/fchpix/)."
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1555
+SUBJECT: Radio Observations of XRF 020903: The Missing Link
+DATE:    02/09/29 06:22:30 GMT
+FROM:    Edo Berger at Caltech  <ejb@astro.caltech.edu>
+
+E. Berger, S. R. Kulkarni, D. A. Frail, A. Soderberg, P. A. Price, D. W.
+Fox, F. A. Harrison, and S. Yost report on behalf of the larger
+Caltech-NRAO-CARA GRB collaboration:
+
+Following the discovery of the optical transient of GRB 020903 (GCN #1530)
+by Soderberg et al. (GCN #1554), we observed the position of the OT with
+the VLA on Sep. 27.22 UT.  We detect a bright radio source at the position
+of the OT, with a flux of 1.1 mJy at 8.46 GHz.  The source is not detected
+in the NRAO VLA Sky Survey (NVSS; Condon et al. 1998, AJ, 115, 1693) above
+their flux limit of 1 mJy at 1.4 GHz.  Observations undertaken today (Sep.
+29.11 UT) show that the source is fading with a flux of 0.7 mJy at 8.46
+GHz.
+
+The variable radio counterpart lends supports to the identification of the
+optical transient (OT) reported by Soderberg et al. as the afterglow of
+XRF 020903.  Unlike the optical emission, the radio emission is dominated
+by the afterglow.
+
+The isotropic, prompt energy release of XRF 020903 (using the redshift of
+z=0.25, GCN #1554, and a rough estimate of the fluence detected by WXM;
+see the HETE-2 web page: http://space.mit.edu/HETE/Bursts/GRB020903/) is
+well below those of typical cosmological GRBs but higher than that of GRB
+980425.  Therefore, the energy in relativistic ejecta of XRF 020903 is
+intermediate between that of SN1998bw, about 10^49 erg, as inferred from
+the radio emission (Kulkarni et al. 1998, Nature, 395, 663), and that of
+typical cosmological GRBs.  Finally, the ratio of energy in the
+relativistic ejecta to the energy in the SN of XRF 020903 is well below
+those of cosmological GRBs (typically 1-10), but higher than SN1998bw
+(~0.01). These arguments suggest that XRF 020903 is a "transition" object
+-- a link between GRB 980425 and comsological GRBs.
+
+Scaling the ratio of radio to X-ray luminosity of SN1998bw to XRF 020903,
+we predict detectable X-ray emission on this timescale, which may be an
+additional robust indicator of the relativistic energy in the ejecta.
+
+See http://www.astro.caltech.edu/~ams/XrF.html for a full discussion.
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1554
+SUBJECT: XRF 020903: Supernova
+DATE:    02/09/29 05:12:28 GMT
+FROM:    Alicia Soderberg at Caltech  <ams@astro.caltech.edu>
+
+A.M. Soderberg, P.A. Price, D.W. Fox, S.R. Kulkarni, S.G. Djorgovski, E.
+Berger and F. Harrison, S. Yost (Caltech); M. Hamuy and S. Shectman (OCIW);
+E. Armstrong, C. Espaillat N. Mirabal and J. Halpern (Columbia); and
+J. Kemp (Joint Astronomy Center and Columbia) report:
+
+We imaged the entire error-box of XRF 020903 with the Palomar 200-inch
+telescope + Large Format Camera (LFC) on Sep 4.3 UT (epoch 1) and Sep 10.3
+UT (epoch 2) in Steidel R-band.  Visual comparison of these images with
+the Digitised Sky Survey and with each other did not reveal any obvious
+transient.  Recently, we undertook a more detailed analysis, namely
+PSF-matched image subtraction of these two epochs, and found
+an optical transient (OT) located at coordinates:
+
+	  RA: 22:48:42.34   Dec: -20:46:09.3   J2000
+
+with a bright elliptical galaxy 4 arcsec SE (hereafter G2).
+
+The source is also present in images from the MSO 50-inch telescope
+(GCN #1533) when the second epoch LFC image is subtracted.
+
+Upon discovery of the OT, we immediately pursued further observations,
+thereby obtaining a third epoch of imaging with the MDM 1.3-meter
+telescope on Sep 28.3 UT in the R-band.  Initial photometry demonstrates
+that the object has re-brightened by ~ 0.3-0.4 mag between epochs 2 and
+3.  We propose that this optical rebrightening is from an associated
+supernova, peaking between ~7-24 days after the initial XRF trigger.
+
+Spectroscopic observations by M. Hamuy and S. Shectman for the source were
+also obtained with the Magellan 6.5m telescopes (Baade+LDSS2, Clay+B&C) on
+Sep 28.1 UT.  We detect narrow emission lines from an underlying host
+galaxy (hereafter G1) are (Halpha, Hbeta, Hgamma, [O III], [Ne III],
+[O II]) at a mean redshift of z = 0.25 +/- 0.01.  Subtraction of the
+emission lines reveals a continuum that is consistent with a SN-like
+transient near maximum.  In particular, the spectrum reveals
+deficit of emission at rest wavelengths < 4000A, as would be expected
+from a SN.
+
+Spectra of G2 (R ~ 17 mag) reveal it to be an elliptical galaxy at
+z = 0.23 and therefore is not associated with the optical transient.
+
+If the OT is indeed associated with XRF020903, it is the first known
+optical afterglow of an XRF, and may be the most nearby cosmological high
+energy transient known yet.  Parenthetically we note that microlensing
+from G2 may result in sharp variations of the light curve (see
+Garnavich, Loeb and Stanek, 2000). We encourage further monitoring of
+this OT/SN.
+
+A web page summarizing the discovery and subsequent observations can be
+found at:
+	http://www.astro.caltech.edu/~ams/XrF.html
+
+This message may be cited.
+
+[GCN OPS NOTE (29Sep02):  Three names were added to the author list.]
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1537
+SUBJECT: XRF 020903: optical observation at Kyoto
+DATE:    02/09/06 11:26:27 GMT
+FROM:    Taichi Kato at Kyoto U  <tkato@kusastro.kyoto-u.ac.jp>
+
+M. Uemura, R. Ishioka, T. Kato (Kyoto U) and H. Yamaoka (Kyushu U)
+report on behalf of VSNET-grb collaboration:
+
+  "We have performed a full analysis of unfiltered CCD images 
+of XRF 020903 (GCN 1530) taken with 25-cm telescope at Kyoto.
+The observation starts on Sept. 3.595 UT, i.e., 4.2 hours after 
+the flash detection.  We imaged the central region of initial 
+XWM error circle, so the coverage of WXM+SXC error box is 
+as rather small as 10%.  Our field of view is described in:
+http://www.rc.kyushu-u.ac.jp/~yamaoka/XRF020903/FOV.gif .
+It contains the central region of the cluster Abell 2487.
+
+  A stacked image (30s x 60 exposures), whose limiting magnitude 
+is R ~ 17.5 compared with USNO-A2.0 r mag, revealed no definite 
+new source within our image compared with DSS 2 red image.
+
+(Note: XRF 020903 occurred at a location very close to GRB 990527 
+(GCN 347).  The WXM+SXC error box of XRF 020903, however, does 
+not overlap the IPN error box of GRB 990527, as shown in 
+FOV.gif mentioned above.)"
+
+This message may be cited.
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1535
+SUBJECT: XRF 020903: Optical observations
+DATE:    02/09/05 12:55:58 GMT
+FROM:    Vasilij Rumjantsev at CrAO  <rum@crao.crimea.ua>
+
+E.Pavlenko (CrAO), V.Rumyantsev (CrAO) and A.Pozanenko (IKI)
+report:
+
+We have imaged of the error box of XRF 020903 (Ricker et al. GCN #1530)
+with the 0.38-m Cassegrain telescope of Crimean Astrophysical Observatory
+(field 7x10 arcminutes). 
+We obtained several frames which include the center of error box
+and partially covered its area on 2002 Sept. 3.9203 
+(12h after the burst) - 3.9540 UT. 
+We did not identify any afterglow candidate by visual comparison with the DSS2 
+to a limit approximately R ~ 17.4 mag.
+Images will by posted shortly in http://grb.rssi.ru/XRF020903.
+
+This message may be cited.
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1533
+SUBJECT: XRF 020903: Optical observations
+DATE:    02/09/04 14:55:51 GMT
+FROM:    Paul Price at RSAA, ANU  <pap@mso.anu.edu.au>
+
+P.A. Price, B.P. Schmidt (RSAA, ANU) and T.S. Axelrod (Arizona) report:
+
+We have observed the error-circle of XRF 020903 (Ricker et al. GCN #1530)
+with the robotic 50-inch telescope at Mount Stromlo Observatory beginning 
+at Sep 4.42 UT.  Observations consisted of 3x300 sec exposures in R_MACHO
+and cover the entire error circle to a limiting magnitude of approximately
+R ~ 19.8 mag.  We do not identify any source in our images not present on
+the DSS2 upon visual inspection.  Further observations are planned.
+
+This message may be cited.
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1531
+SUBJECT: XRF 020903, optical observations
+DATE:    02/09/03 20:02:15 GMT
+FROM:    Alberto Castro-Tirado at Inst.de Astro. de Andalucia  <ajct@iaa.es>
+
+XRF 020903, optical observations
+-------------------------
+
+P. Tristram (Univ. of Auckland)
+A. J. Castro-Tirado (IAA-CSIC, Granada)
+J. Gorosabel (IAA-CSIC, Granada)
+J. M. Castro Cer�n (ROA, San Fernando)
+P. Kilmartin (Mt. John Univ. Observatory)
+Y. Furuta (Univ. of Nagoya)
+Ph. Yock (Univ. of Auckland)
+
+communicate:
+
+"Following the detection of the X-ray flash 020903 by HETE (Ricker
+et al. GCN Circ. 1530), we have imaged the entire error box with
+the 0.6-m (+MOA camera) at Mt. John Observatory in a wide B-
+and wide R-band filters (600-s and 1200-s respectively) starting
+on Sep 3.5944 UT (i.e. 4.18 hr after the event). Comparison of the
+frames with the DSS-2 (R-band) reveals no optical transient down
+to the DSS-2 limiting magnitude."
+
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1530
+SUBJECT: GRB020903(=H2314): An X-Ray Flash Localized by HETE
+DATE:    02/09/03 17:12:01 GMT
+FROM:    Don Lamb at U.Chicago  <lamb@oddjob.uchicago.edu>
+
+G. Ricker, J-L Atteia, N. Kawai, D. Lamb, and S. Woosley on behalf of
+the HETE Science Team;
+
+R. Vanderspek, J. Doty, J. Villasenor, G. Crew, G. Monnelly, N. Butler,
+T. Cline, J.G. Jernigan, A. Levine, F. Martel, E. Morgan, G. Prigozhin,
+G. Azzibrouck, J. Braga, R. Manchanda, and G. Pizzichini, on behalf of
+the HETE Operations and HETE Optical-SXC Teams;
+
+C. Graziani, Y. Shirasaki, M. Matsuoka, T. Tamagawa, K. Torii,
+T. Sakamoto, A. Yoshida, E. Fenimore, M. Galassi, T. Tavenner, and
+T. Donaghy, on behalf of the HETE WXM Team;
+
+M. Boer, J-F Olive, J-P Dezalay, and K. Hurley on behalf of the HETE
+FREGATE Team;
+
+write:
+
+
+At 10:05:37.96 UTC (36337.96 s UT) on 3 Sep 2002, the HETE WXM and SXC
+instruments detected event H2314, an X-ray flash.  The WXM flight
+localization was correct but was not set out as a GCN Notice because
+events which trigger only the WXM are currently not sent out, in order
+not to overwhelm the community with X-ray burst localizations.  Ground
+analysis of the WXM data for the burst produced a refined location,
+which was reported in a GCN Position Notice at 13:56:24 UT, 231 minutes
+after the burst.  The WXM location can be expressed as a 90% confidence
+circle that is 16.6 arcminutes in radius and is centered at
+
+RA = 22h 49m 25s, Dec = -20o 53' 59" (J2000).
+
+
+Ground analysis of the SXC data for the burst produced a
+one-dimensional localization, which -- when combined with the WXM
+localization -- produced a further refinement in the location.  This
+refined location was reported in a GCN Position Notice at 17:00:34 UT,
+7 hrs after the burst.  The refined location produced by combining the
+SXC and WXM localizations can be expressed as a 90% confidence
+quadrilateral that is 4 arcminutes in width and ~31 arcminutes in
+length, is centered at
+
+
+RA = 22h 49m 01s, Dec = -20o 55' 47" (J2000).
+
+and is defined by
+
+RA = 22h 48m 48.00  -20o 39' 36.0"
+RA = 22h 48m 33.60  -20o 42' 36.0"
+RA = 22h 49m 10.80  -21o 10' 12.0"
+RA = 22h 49m 30.00  -21o 10' 48.0"
+
+
+In the WXM 2-25 keV band, the burst had a duration of ~3.3 seconds.
+The WXM localization SNR was ~10.  The SXC localization SNR was ~3.
+
+Further information (including a light curve) for GRB020903 is provided
+at the following URL:
+
+http://space.mit.edu/HETE/Bursts/
+
+This message is citable.
+

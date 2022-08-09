@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10511
+SUBJECT: GRB 100316D: Swift-BAT refined analysis
+DATE:    10/03/16 23:16:32 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC/UMD), D. M. Palmer (LANL), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-60 to T+243 sec from the telemetry downlinks,
+we report further analysis of BAT GRB 100316D (trigger #416135)
+(Stamatikos, et al., GCN Circ. 10496).  The BAT ground-calculated position is
+RA, Dec = 107.599, -56.275 deg, which is 
+   RA(J2000)  =  07h 10m 23.8s 
+   Dec(J2000) = -56d 16' 28.9" 
+with an uncertainty of 3.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 85%.
+ 
+The mask-weighted light curve is relatively flat.  The emission started
+before T-80 sec when the location came into the BAT FoV during a
+Swift planned-target slew.  Using the event-by-event data, the lightcurve
+conitinue through the 64-sec integration of the image trigger and out to
+at least T+240 sec.  Using the on-board mask-weighted lightcurve,
+the lightcurve continues out to at least T+740 sec where the data ends.
+ 
+The time-averaged spectrum using just the T+0.0 to T+64.0 sec image-trigger
+interval is best fit by a simple power-law model.  The power law index of the
+time-averaged spectrum is 2.29 +- 0.41.  The fluence in the 15-150 keV band
+is 3.0 +- 0.8 x 10^-7 erg/cm2.  The 1-sec peak photon flux measured
+from T+0.00 sec in the 15-150 keV band is 0.1 +- 0.0 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/416135/BA/
+
+We note that this lightcurve is very non-typical for a GRB and that
+the spectrum is soft.  This is similar both in the temporal and spectral
+properties to the GRB060218-SN2006aj burst (Camapana, et al.; Nature,
+v224, p1008, Figure 1).  In the 060218 burst, the BAT lightcurve was flat
+from T-50 to T+300 sec.  The X-ray temporal decay (Starling, GCN Circ 10505)
+is shallow as it was in SN2006aj (Campana, Fig 1).  We further note
+that the 5 arcsec XRT error circle (GCN 10496) covers the edge
+of an extended object (a pair of unresolved stars or a galaxy) in DSS.
+

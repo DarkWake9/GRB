@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10973
+SUBJECT: GRB 100724A:  Swift/UVOT observations
+DATE:    10/07/24 15:21:51 GMT
+FROM:    Craig Swenson at PSU/Swift  <cswenson@astro.psu.edu>
+
+C. A. Swenson (PSU) and C. B. Markwardt (CRESST/GSFC/UMD) report
+on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 100724A 
+74s after the BAT trigger (Markwardt et al., GCN 10968).  We detect a 
+source at the position of the detected X-ray source (Markwardt et al., 
+GCN 10968) and the location reported by GROND (Olivares et al., GCN 
+10969).  The source is clearly fading in the UVOT white filter between 
+the first finding chart and a later observation.
+
+The magnitudes and 3-sigma upper limits using the UVOT photometric 
+system (Poole et al., 2008, MNRAS, 383, 627) for finding chart exposures 
+(FC) and the summed images are:
+
+Filter      T_start    T_stop    Exp(s)    Magnitude/3-sigma upper limit
+----------------------------------------------------------------------
+white (FC)      92       242      147            18.46 ± 0.11
+white          584       775       39            > 19.71
+u     (FC)     304       554      246            18.54 ± 0.15
+u              706       726       19            18.17 ± 0.37
+v               74      1050       60            > 18.31
+b              559       751       39            > 18.99
+uvw1           682       702       19            > 17.96
+uvm2           658       850       39            > 18.19
+uvw2           609      1034       58            > 18.97
+
+The quoted upper limits have not been corrected for the expected 
+Galactic extinction along the line of sight of E_(B-V) = 0.043 mag 
+(Schlegel, et al., 1998, ApJS, 500, 525).
+

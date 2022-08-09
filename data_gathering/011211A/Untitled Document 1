@@ -1,0 +1,268 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1199
+SUBJECT: GRB 011211, Optical Observations
+DATE:    01/12/13 19:18:54 GMT
+FROM:    Stephen Holland at U. of Notre Dame  <sholland@nd.edu>
+
+GRB 011211, Optical Observations
+
+I. Soszynski (Warsaw University Observatory),
+S. Holland, P. M. Garnavich (Notre Dame)
+D. Bersier, S. Jha, K. Z. Stanek (Harvard-Smithsonian Center
+for Astrophysics),
+
+     We have obtained deep VRI images of the field containing GRB
+011211 using the OGLE 1.3-metre telescope (using the 8k x 8k OGLE-III
+mosaic) at the Las Campanas Observatory on Dec. 12 and Dec. 13 UT.
+The optical afterglow of GRB 011211 (Grav et al. 2001, GCN 1191) is
+visible on all of our images.  We performed PSF photometry on each
+image and calibrated data using the VRI magnitudes for USNO star
+U0675_11427359 given by Henden (2001, GCN 1197).  Preliminary
+magnitudes, relative to the USNO star, are:
+
+ Band    Date  Start UT    Mag  err  Exptime(s)
+-----------------------------------------------
+   V    Dec 12 07:16:02   20.79 0.05   600
+   V    Dec 13 06:19:28   21.71 0.09   600
+
+   R    Dec 12 05:55:55   20.10 0.08   180
+   R    Dec 12 06:04:34   20.41 0.04   600
+   R    Dec 12 06:33:59   20.43 0.05   600
+   R    Dec 12 06:59:04   20.35 0.03   600
+   R    Dec 12 07:39:27   20.40 0.04   600
+   R    Dec 13 05:43:15   21.48 0.11   600
+   R    Dec 13 08:09:13   21.52 0.07   600
+
+   I    Dec 12 06:18:16   19.95 0.06   600
+   I    Dec 12 06:47:12   19.92 0.07   600
+   I    Dec 12 07:27:46   19.96 0.05   600
+   I    Dec 12 07:51:13   20.10 0.06   600
+   I    Dec 13 06:03:48   20.80 0.11   600
+   I    Dec 13 08:23:44   20.94 0.12   600
+
+The quoted uncertainties are internal errors only and do not include
+uncertainties in the calibration of the USNO star.  The frame-to-frame
+variation in several stars located near the optical afterglow and the
+USNO star is approximately 0.03 mag.
+
+     The optical afterglow faded by approximately one mag between
+approximately Dec. 12.3 and Dec. 13.3 in each of the V, R, and I
+bands.  The decays are well fit by single power laws with slopes of
+-0.80 +/- 0.12 in the V band, -0.93 +/- 0.06 in the R band, and -0.74
++/- 0.08 in the I band.  If we include the V and R data from Jensen et
+al. (2001, GCN 1195) the slopes change by less than one sigma.  We see
+no evidence for a break in the light curve.  A plot of the VRI light
+curves and the best-fitting single power laws is available at
+"http://www.nd.edu/~sholland/grb/grb011211/ogle_fit.eps".
+
+     We do not detect any evidence for a host galaxy at the location
+of the proposed optical afterglow.
+
+This message may be cited.
+
+
+
+
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1197
+SUBJECT: GRB011211, BVRI field photometry
+DATE:    01/12/13 17:22:44 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired BVRcIc all-sky photometry for
+an 11x11 arcmin field that is approximately centered on
+the position of the candiate optical transient reported
+by Grav et al. (GCN 1191) with the USNOFS 1.0-m telescope
+on one photometric (but poor seeing) night.  Stars brighter than
+V=13.5 are saturated and should be used with care.
+We have placed the photometric data on our anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb011211.dat
+The current photometry has a potential external zero-point
+error of about two percent.  The astrometry in this file
+is based on linear plate solutions with respect to USNO-A2.0.
+The internal errors are less than 100mas.
+
+In particular, the comparison star U0675_11427359 that was
+used to calibrate their field can be found in the .dat file
+with the following magnitudes:
+  B = 18.65  V = 18.11  R = 17.76  I = 17.42
+with estimated photometric errors of about 4 percent, including
+the zeropoint errors quoted above.
+
+Further calibration of this field will be performed when
+weather conditions improve.
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1195
+SUBJECT: GRB 011211: BVRi-band photometry
+DATE:    01/12/12 15:54:51 GMT
+FROM:    Brian Lindgren Jensen at U.of Copenhagen  <brian_j@astro.ku.dk>
+
+B. L. Jensen, H. Pedersen, J. Hjorth, R. Michelsen (U. of Copenhagen),
+T. Grav, M. W. Hansen (U. of Oslo), J. U. Fynbo (ESO),
+M. Weidinger (U. of Aarhus),  M. I. Andersen (U. of Oulu) and
+J. Gorosabel (DSRI) report:
+
+"We have performed aperture photometry of the afterglow candidate for
+GRB 011211 reported in GCN#1191 (Grav et al.), and obtain the
+following results based on a preliminary photometric calibration:
+
+For USNO-star U0675_11427359 at RA,Dec (J2000) = (11:15:19.00,
+-21:58:04.9) we obtain:
+
+I = 17.07, R = 17.90, V = 18.18, B = 18.65
+
+For the afterglow candidate we measure:
+
+Tel.      Date (UT)   exp    filter  mag.
+=========================================
+NOT-2.5m  Dec.12.22   900s     R    20.07
+NOT-2.5m  Dec.12.28   300s     B    21.41
+NOT-2.5m  Dec.12.28   300s    g-i   20.09
+NOT-2.5m  Dec.12.29   300s     V    21.14
+
+DK-1.5m   Dec.12.28  4200s     R    20.12
+DK-1.5m   Dec.12.36   300s     V    21.21
+
+Conservative errors on the absolute photometry is ~0.15 mag, due
+to lack of precise calibration. Errors relative to the USNO-star
+are around a few percent.
+
+Further images will be made available at
+http://www.astro.ku.dk/~brian_j/grb/grb011211 "
+
+
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1193
+SUBJECT: Fading of the optical source associated of XRF 011211
+DATE:    01/12/12 12:48:54 GMT
+FROM:    Josh Bloom at CIT  <jsb@astro.caltech.edu>
+
+Fading of the optical source associated of XRF 011211
+
+J. S. Bloom and Edo Berger report on behalf of the larger
+Caltech-NRAO-CARA GRB Collaboration:
+
+"Following the report of a new bright source (Grav et al. GCN #1191) in
+the field of XRF 011211 (Gandolfi et al. GCN #1188, GCN #1189; Santos-Lleo
+et al. GCN #1192) we began observing the source position with the Palomar
+200" + JCAM dual-band optical imager on 12 Dec 01, 10:48 UT in very poor
+observing conditions. In Sloan-r', the source is clearly fainter than the
+three objects to the northwest (the source plus the three objects appear
+to be of comparable brightness on the Grav et al. finding chart).  This
+confirms the transient nature of the source discovered by Grav et al. and
+helps solidify its association with XRF 011211.
+
+The source was also detected the Sloan g' filter, suggesting an origin
+z <~ 4.3.
+
+A finding chart with a single g' and r' integration (110s and 100s
+exposure) may be found at:
+
+http://www.astro.caltech.edu/~jsb/xrf011211.gif
+
+This message may be cited.
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1191
+SUBJECT: GRB 011211 Optical Observations: Likely Afterglow
+DATE:    01/12/12 10:15:57 GMT
+FROM:    Jens Hjorth at U.Copenhagen  <jens@astro.ku.dk>
+
+T. Grav, M. W. Hansen (U. of Oslo), H. Pedersen, J. Hjorth, R. Michelsen, 
+B. L. Jensen (U. of Copenhagen), M. I. Andersen (U. of Oulu), 
+J. Gorosabel (DSRI), J. U. Fynbo (ESO) report:
+
+We have obtained optical follow-up observations of the SAX error circle of 
+GRB 011211 (cf. GCN ##1188,1189) with the ALFOSC on the 2.56-m NOT and with 
+DFOSC on the Danish 1.5m on La Silla starting at about 12.2 December 2001 UT. 
+In R-band images a new point source, not visible in the DSS-2 (red), is 
+detected at RA (J2000) = 11:15:17.98, Dec(J2000) = -21:56:56.2 with an 
+estimated error of +- 1". The magnitude is about R = 19. Given the proximity 
+to the refined SAX WFC position and its absence in DSS, the source is likely 
+the afterglow of GRB 011211.
+
+The above findings are preliminary. More details will be reported later.
+Images will be made available at http://www.astro.ku.dk/~brian_j/grb/grb011211
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1189
+SUBJECT: GRB011211(=XRF011211): BeppoSAX refined positions
+DATE:    01/12/12 02:20:11 GMT
+FROM:    Giangiacomo Gandolfi at IAS/CNR Frascati  <gandolfi@ias.rm.cnr.it>
+
+GRB011211(=XRF011211): BeppoSAX refined positions
+
+Refined coordinates from WFC are:
+
+R.A.(2000)= 168.818
+DEC.(2000)= -21.929
+
+The error radius  is 2'.
+
+Giangiacomo Gandolfi
+on behalf of
+BeppoSAX Mission Scientist
+
+
+
+
+
+
+
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1188
+SUBJECT: BeppoSAX Alert: GRB011211(=XRF011211)
+DATE:    01/12/12 00:31:47 GMT
+FROM:    Giangiacomo Gandolfi at IAS/CNR Frascati  <gandolfi@ias.rm.cnr.it>
+
+BeppoSAX Alert: GRB011211(=XRF011211)
+
+
+On Dec. 11, 19:09:21 UT an X-ray rich GRB (XRF011211) has been
+detected in BeppoSAX WFC1
+
+Preliminary  coordinates are:
+
+R.A.(2000)= 168.812
+DEC.(2000)= -21.935
+
+The error radius  at this stage of analysis is 5'.
+
+Giangiacomo Gandolfi
+on behalf of
+BeppoSAX Mission Scientist
+

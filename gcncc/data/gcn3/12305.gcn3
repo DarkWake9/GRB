@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12305
+SUBJECT: Swift-BAT Trigger 501485 is noise
+DATE:    11/08/26 09:06:44 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+B.-B. Zhang (PSU), S. D. Barthelmy (GSFC), V. D'Elia (ASDC),
+C. Gronwall (PSU), P. T. O'Brien (U Leicester),
+J. P. Osborne (U Leicester) and D. M. Palmer (LANL) report on behalf
+of the Swift Team:
+
+At 08:30:08 UT, the Swift Burst Alert Telescope (BAT) triggered on noise 
+(trigger=501485).  Swift slewed immediately. 
+The BAT on-board calculated location is 
+RA, Dec 264.165, -27.375, which is 
+   RA(J2000)  =  17h 36m 40s
+   Dec(J2000) = -27d 22' 29"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows nothing significant
+as is typical for an image trigger. 
+
+The XRT began observing the field at 08:32:04.8 UT, 116.1 seconds after
+the BAT trigger. No source was detected in 1.2 ks of promptly
+downlinked data. We are waiting for the full dataset to detect and
+localise the XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 119 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. Because of the density of catalogued stars, further
+analysis is required to report an upper limit for any afterglow in the
+sub-image. The 8'x8' region for the list of sources generated on-board covers
+100% of the BAT error circle. Because of the density of catalogued stars,
+further analysis is required to report an upper limit for any afterglow in the
+region. No correction has been made for the large, but uncertain extinction
+expected. 
+
+Due to the marginal significance of the detection, the lack of an XRT
+source, the poor positional match with any known gamma-ray source,
+and the increase in the noise level caused by Sco X-1 and other
+galactic center sources in the Field of View, we believe that this
+trigger was probably a noise fluctuation. 
+
+Burst Advocate for this burst is B.-B. Zhang (bbzhang AT psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

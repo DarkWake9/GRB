@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10045
+SUBJECT: Konus-RF observation of GRB 091018
+DATE:    09/10/19 21:35:13 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <lanzelot@mail.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+P. Oleynik, M. Ulanov, and D. Svinkin on behalf of
+the Konus-RF team, report:
+
+The soft GRB 091018 (Swift-BAT trigger #373172: Stamatikos et al.,
+GCN 10034, Markwardt et al., GCN 10040) triggered Konus-RF
+at T0=74900.651 s UT (20:48:20.651).
+
+The burst light curve shows a single pulse with a duration of ~5 s.
+
+As observed by Konus-RF the burst
+had a fluence of 1.44(-0.16, +0.19)x10^-6 erg/cm2,
+and a 256-ms peak flux measured from T0-0.280 s
+of 4.32(-0.94, +0.97)x10^-7 erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+
+The time-integrated spectrum of the burst (from T0-2s to T0+3s)
+is well fitted (in the 10 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep), with
+alpha = -1.53(-0.39, +0.59),  and
+Ep = 28(-16, +10) keV (chi2 = 83.4/94 dof).
+Fitting by GRB (Band) model yields the same alpha and Ep,
+and only an upper limit on the high energy
+photon index: beta < -2.44 (chi2 = 81.7/93 dof).
+
+All the quoted values are preliminary.
+All the quoted errors are at the 90% confidence level.
+
+Assuming z = 0.971 (Chen et al., GCN 10038) and
+a standard cosmology model with H_0 = 70 km/s/Mpc, Omega_M = 0.27,
+Omega_Lambda = 0.73, the isotropic energy release E_iso ~3.7x10^51 erg,
+the peak luminosity (L_iso)_max ~2.2x10^51 erg/s,
+and Ep_rest ~55 keV.
+
+The Konus-RF light curve of this GRB is available
+at http://www.ioffe.ru/LEA/GRBs/GRB091018_T74900/KRF/
+

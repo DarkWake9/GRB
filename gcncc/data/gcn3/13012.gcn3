@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13012
+SUBJECT: GRB 120302A: Swift-BAT refined position and a possible XRT and UVOT counterpart
+DATE:    12/03/06 18:59:28 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), V. Mangano (INAF-IASF/Palermo),
+A. Maselli (INAF-IASF/Palermo), M. H. Siegel (PSU), 
+M. J. R. Cummings (GSFC/UMBC), P.A. Evans (U. Leicester), 
+F. E. Marshall (NASA/GSFC), K.L. Page (U. Leicester) and 
+B. Sbarufatti (INAF-OAB/IASFPA) on behalf of the Swift team:
+
+We report further analysis of BAT ground detected GRB 120302A
+(Sakamoto, et al., GCN Circ. 13000).  By carefully examining the BAT image,
+we found a position with a higher significance (9.2 sigma in the 14-200 keV image)
+than that originally reported (Sakamoto, et al., GCN Circ. 13000).  The best
+BAT position is RA, Dec = 122.426, +29.642 deg which is
+   RA(J2000)  =  08h 09m 42.2s
+   Dec(J2000) = +29d 38' 31.2"
+with an uncertainty of 2.3 arcmin, (radius, sys+stat, 90% containment).
+The center of this position differs by 1.6 arcmin from the position reported
+on the initial circular (Sakamoto, et al., GCN Circ. 13000).
+
+A 5 ksec Swift ToO observation was performed on 18:17 UT on March 2
+(~16.4 hr after the burst).  The XRT observation was performed in PC mode.
+Using 666 s of XRT Photon Counting mode data and 1 UVOT image, we find an
+astrometrically corrected X-ray position (using the XRT-UVOT alignment and
+matching UVOT field sources to the USNO-B1 catalogue; Evans et al. 2009):
+RA, Dec = 122.39761, 29.62781 which is equivalent to:
+   RA(J2000)  =  08h 09m 35.43s
+   Dec(J2000) = +29d 37' 40.1"
+with an uncertainty of 3.2 arcsec (radius, 90% confidence).  This XRT
+refined position is consistent with an afterglow candidate reported by
+GROND (Elliott et al., GCN Circ. 13003).
+
+The X-ray light curve shows a roughly constant count rate at the average
+level of 1.2e-2 counts s^-1.  A fit with a power-law model cannot constrain
+the slope.  A spectrum formed from the PC mode data can be fitted with an
+absorbed power-law with a photon spectral index of 1.29 (+0.68, -0.35).  The best-fitting
+absorption column is less than 1.9 x 10^21 cm^-2, in excess of the Galactic value
+of 3.77 x 10^20 cm^-2 (Kalberla et al. 2005).  The observed (unabsorbed) 0.3-10 keV
+flux is 6.1 (-2.1,+2.2) x 10^-13 (6.1 (-1.7, +2.3) x 10^-13) erg cm^-2 s^-1.
+All the quoted erros are at the 90% confidence level.
+
+The Swift/UVOT data were taken entirely in the u filter.  Using the first u 
+data (T0+58.9 ksec, 1391 s exposure), we find a candidate optical afterglow at: 
+RA, Dec = 122.39810, 29.62807 which is equivalent to:
+    RA(J2000)  =  08h 09m 35.54s 
+    DEC(J2000) = +29d 37' 41.1"  
+with a 90%-confidence error radius of about 0.6".  The source has a u magnitude of
+20.25+/-0.14 (1 sigma) on the system of Breeveld et al. 2011, AIP Conf. Proc. 1358, 373.
+This position is consistent with the GROND position.  The magnitude is not corrected 
+for the Galactic extinction due to the reddening of E(B-V) = 0.04 in the direction 
+of the burst (Schlegel et al. 1998).
+
+The 2nd epoch observation of Swift ToO has been approved.  This observation
+will be scheduled on March 8.  
+
+

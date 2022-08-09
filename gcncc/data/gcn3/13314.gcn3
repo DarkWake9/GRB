@@ -1,0 +1,84 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13314
+SUBJECT: Swift starts a new program to find fainter transients
+DATE:    12/05/21 15:55:01 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S.D. Barthelmy (GSFC), D.M. Palmer (LANL) and Neil Gehrels (GSFC)
+for the Swift Team:
+
+PUNCHLINE:
+Swift has started a new campaign structured to detect fainter transients
+in nearby galaxies -- in particular subluminous long GRBs and SGR Superflares.
+(This campaign started ~13:00 UT 14 may 2012.)
+
+INTRO:
+Swift/BAT lowered the triggering threshold for peaks in the image domain
+that are near locations of known sources in the on-board catalog.
+It is called the "interesting source" threshold.  We are lowering it
+from 6.40 sigma (where it has been for years) to 5.80 sigma.
+To satisfy the interesting source threshold, a peak in the image domain
+must be greater than 5.80 sigma AND it must be within a 12 arcmin radius
+of one of these sources in the catalog AND the peak intensity minus
+the current on-board threshold intensity for that source must be
+greater than 2 sigma.  We have about 600 nearby galaxies (distance < 20 Mpc)
+in the on-board catalog, ~70 tiles covering M31, and ~600 other known
+hard x-ray sources.  For the 670 galaxy entries (nearby and M31),
+their thresholds have been set to 0.  For nearly all of the 600
+known sources, their thresholds are twice their previous trigger level.
+It is the "(peak_intensity - threshold_intensity) > 2 sigma"
+that inhibits this new Interesting Source trigger from firing
+on the many known sources.  We are going after the underluminous
+long GRBs and SGRs in the nearby galaxies.
+
+DETAILS:
+The following bullets describe key aspects about the information
+you will receive for these Interesting Source triggers:
+* The full, normal set of Swift GCN Notices will be produced for these triggers.
+And these Notices will have their full set of information content;
+there is no format or content change for these triggers.
+These triggers (in the 5.8 - 6.4 sigma range) will still cause BAT to trigger
+and produce the normal set of messages down TDRSS, through GCN, and out to
+the world, ie BAT_POS, BAT_LC, BAT_SCALEDMAP, FOM, SC_SLEW, XRT_POS_[NACK], etc.
+* If the spacecraft decides it is safe to slew (just like normal),
+then the spacecraft will slew  and the XRT & UVOT will produce their normal set
+of observations and GCN notices (including updates).  (On rare occaisions,
+the merit value of the new interesting source will be below the merit value
+of the target currently being observed, and so no slew will occur until
+a planned target of lower merit value comes along AND the interesting source
+is still visible.)
+* Since, by definition, these triggers will be spatially coincident with a source
+in the on-board BAT catalog, there will be a COMMENT line in the full-format GCN email
+notice that says "this matches source XYZ123 in the on-board catalog;  delta=0.NNN [deg]".
+And a COMMENT line "this matches source XYZ123 in the ground catalog;  delta=0.NNN [deg]".
+Because the matching tolerance (12 arcmin=0.20 deg) is much larger than the typical BAT
+position error (3 arcmin=0.05 deg), most spurious events will have a delta > 0.07 deg.
+However, a large delta can also indicate a true object in the halo of a galaxy
+(35 kpc @ 10 Mpc = 0.2 deg).
+* Because of these catalog matches, GCN will label the trigger as a TRANSIENT
+(not a GRB).  (So there will be the usual two GCN notices go out for these
+catalog-matching triggers: (a) the BAT_GRB_POS notice, and (b) the BAT_TRANSIENT notice.
+* Other noteworthy pieces of information for these Interesting Sources are:
+(a) these Interesting Source triggers can result from both Rate Triggers (4msec - 32 sec)
+and from Image Triggers (Trigger_Dur > 60 sec).
+(b) the "IMAGE_SIGNIF:  5.83 [sigma]" line in the BAT_POS notice
+will have a value between 5.8 & 6.4.
+This will also cause a COMMENT line to appear to the effect of "low image significance...".
+(c) If the "TRIGGER_DUR:  0.032 [sec]" has a small value (probably 4 to ~128 msec),
+then it is likely an SGR Superflare or a Short GRB in nearby galaxy or noise.
+If it is a big value, then it is either a long GRB or a hard x-ray transient
+in a nearby galaxy, or noise.
+
+OCCURANCE RATE:
+We currently estimate that the false positive rate will be ~1 per week.
+If this turns out to be significantly off, we will adjust the 5.80 value
+higher or lower accordingly.
+The rate of reals is somewhat harder to calculate, but is expected
+to be in the 0.5-1 per month range.
+
+RAPID-RESPONSE CIRCULARS:
+The Swift Team will issue its rapid-response Circular only if the trigger is
+a real astrophysical source, but not for noise-caused triggers (this is because
+the Team is getting smaller and this would increase the work-load).
+These rapid-response Circulars are typically issued within 30 min of the trigger time.
+

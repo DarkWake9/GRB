@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12242
+SUBJECT: GRB110731A: MOA optical observations of the steeply fading afterglow
+DATE:    11/08/03 11:49:40 GMT
+FROM:    Akihiko Fukui at Nagoya U/MOA  <afukui@stelab.nagoya-u.ac.jp>
+
+P. J. Tristram (MJUO), A. Fukui (Nagoya U.), K. Ohnishi (Nagano NCT) and T. Sako (Nagoya U.) 
+report on behalf of the MOA collaboration.
+
+We began prompt observations of the afterglow of GRB110731A (Oates et al., GCN 12215)
+at July 31 11:12:47 UT responding to the Swift trigger 458448 (3.3 min after the trigger)  
+using the 61 cm B&C telescope at the Mt John University Observatory in New Zealand.
+We obtained a series of I and V band images with 60 sec exposure times followed by some 
+120 sec exposures until 12:56 UT (105 min after the trigger). 
+The total number of I and V images are 39 and 35, respectively. 
+Although the first image had a poor psf, the following images had well-shaped psf's and 
+we confirmed the steeply fading afterglow, which is consistent with the previous reports 
+(e.g. Bersier et al. GCN 12216), on these images in both the I and V bands. 
+The afterglow is located within the error circle reported by Oates et al. GCN 12222.
+The magnitude of the afterglow on the second and on the last images in the I band obtained 
+by psf-fitting photometry with the DoPHOT package 
+(Schechter et al. 1993) and calibrated to the USNO-B1.0 N magnitude (similar to I magnitude) 
+follow.
+
+------------------------------------------
+Filter mid_JD-2450000 exptime[sec] dT[min] Nmag error 
+I  5773.96831  60  4.86  14.75  0.20
+I  5774.03807  120  105.31  20.2  2.7
+------------------------------------------
+
+Here dT denotes the difference between the mid_JD (mid time of exposure) and the trigger 
+time. The large error in the magnitude of the last image resulted from the calibration relying on extrapolation.  
+

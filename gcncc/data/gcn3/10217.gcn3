@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10217
+SUBJECT: Swift trigger 377436 (possible GRB 091130A) is not a burst 
+DATE:    09/11/30 22:38:10 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+H. A. Krimm (CRESST/GSFC/USRA), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), J. R. Cummings (CRESST/GSFC/UMBC),
+E. Hoversten (PSU), on behalf of the Swift team.
+
+Using the Swift/BAT data set from T-60 to T+236 sec and the
+XRT data set beginning at T+58 minutes from recent telemetry
+downlinks, we report that BAT trigger 356516 (reported as
+possible GRB 091130A, Krimm et al, Circ 10212) is probably
+not a GRB.  We base this conclusion on the low significance
+in the BAT and the lack of a counterpart in the XRT.
+However, we can not rule out that this is an astrophysical
+event which was extended in duration in the BAT (the
+original trigger was a 400-sec integration), but rapidly
+fading prior to the XRT observations.
+
+The BAT image shows a 3.5 sigma bump and the mask-weighted
+light curve shows an integrated 5-sigma positive excess out
+to T+236 sec.  If the source is real, it is at RA, Dec =
+161.854, +11.580 deg with an uncertainty of 4.5 arcmin,
+(radius, sys+stat, 90% containment). The partial coding is 97%.
+
+In 2.57 ks of Swift-XRT photon counting mode data beginning
+at T+58 minutes, we do not detect any X-ray source in the
+BAT error circle to a 3 sigma upper limit count rate
+of 8.0e-3 count/s. This corresponds to a  0.3-10 keV
+observed flux limit of 3.1e-13 erg cm-2 s-1, assuming a
+typical counts-to-flux conversion factor
+of 3.9e-11 erg cm-2 count-1.
+
+UVOT took a finding chart exposure of 150 seconds with
+the White filter starting 3592 seconds after the BAT trigger.
+No credible afterglow candidate has been found in the initial
+data products. The 2.7'x 2.7' sub-image covers 25% of the BAT
+error circle. The typical 3-sigma upper limit has been
+about 19.6 mag. The 8'x8' region for the list of sources
+generated on-board covers 100% of the BAT error circle.
+The list of sources is typically complete to about 18 mag.
+No correction has been made for the expected extinction
+corresponding to E(B-V) of 0.03.
+
+

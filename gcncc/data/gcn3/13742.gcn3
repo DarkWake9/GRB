@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13742
+SUBJECT: GRB 120908A and GRB 120909A : Fermi/LAT upper limit
+DATE:    12/09/10 19:20:18 GMT
+FROM:    Weikang Zheng at U.of Michigan  <zwk@umich.edu>
+
+Weikang Zheng and Carl Akerlof (Umich), report on behalf of the ROTSE
+collaboration:
+
+We analyzed Fermi/LAT data of GRB 120908A (Morii et al., GCN 13731)
+and GRB 120909A (Immler et al., GCN 13727)
+as a follow-up of routine search in Swift trigger catalogs in our LAT
+data processing pipeline using both the matched filter technique
+(Akerlof et al. 2010, ApJ, 725, L15; 2011 ApJ, 726, 22; 2012,
+arXiv:1205.3066; Zheng et al. 2012, ApJ 745,72; ApJ, 756, 64)
+and likelihood method. We do NOT detect high energy photon emission
+from both methods in the two GRBs.
+
+A standard data selection method is applied when extracting the LAT
+photon data with energy E > 100 MeV, and a duration of T0 - T0+47.5s
+after the trigger. A zenith angle cut of <105 degree is applied to
+all photons.
+
+For GRB 120908A, the burst location was about 72 degrees from the
+LAT boresight, and the zenith angle was about 64 degrees at trigger time.
+Using the likelihood method, we estimated the upper limit in LAT energy
+range (0.1 - 10 GeV) is 8.3e-09 (photons cm^-2 s^-1) by assuming a
+spectral index of -2.2.
+The pipeline result of GRB 120908A is given in the following link:
+http://www.rotse.net/LAT/SwiftTriggers/368836516/
+
+For GRB 120909A, the burst location was about 65 degrees from the
+LAT boresight, and the zenith angle was about 98 degrees at trigger time.
+Using the likelihood method, we estimated the upper limit in LAT energy
+range (0.1 - 10 GeV) is 2.0e-08 (photons cm^-2 s^-1) by assuming a
+spectral index of -2.2.
+The pipeline result of GRB 120909A is given in the following link:
+http://www.rotse.net/LAT/SwiftTriggers/368847726/
+
+
+
+

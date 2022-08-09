@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10289
+SUBJECT: GRB 091221: Swift/UVOT refined analysis
+DATE:    09/12/22 13:58:52 GMT
+FROM:    Massimiliano de Pasquale at MSSL-UCL  <mdp@mssl.ucl.ac.uk>
+
+   M. De Pasquale (MSSL/UCL) and H. Krimm (CRESST/GSFC/USRA)
+report on behalf of the Swift/UVOT team:
+
+  The Swift/UVOT began settled observations of the field of GRB091221
+80s after the BAT trigger with a 150s finding chart exposure in
+the White filter.
+
+  We detect the optical afterglow in the finding chart exposure.
+The refined UVOT position is RA = 55.79750, Dec = 23.24119 (J2000), 
+corresponding to
+
+             RA = 03h 43m 11.40s,
+             Dec = +23d 14m 28.3s (J2000)
+
+with an estimated uncertainty of 0.6 arcsec (radius, 90% confidence).
+This position is consistent with the XRT enhanced position (Evans
+et al., GCN 10287) and ground-based detections (Zheng et al., GCN
+10284; Klose et al., GCN 10286).
+
+  The afterglow is not detected anymore in single or summed exposures
+in all filters. Preliminary magnitudes and 3 sigma upper limits
+are reported below.
+
+Filter    T_start(s) T_stop(s)  Exposure(s)    Mag  Err
+-----------------------------------------------------------------------
+white        80        230       149.8       20.19 +/- 0.27
+white      3657      11605       927.1          >21.62
+v          4068       5704       393.2          >19.56
+b          3452      11054      1278.4          >21.11
+u          4683      10142      1083.4          >20.68
+uvw1       4478       6075       354.4          >19.96
+uvm2       4273       5909       393.3          >19.79
+uvw2       3863       5499       393.3          >20.07
+------------------------------------------------------------------------
+
+The values quoted above are not corrected for the heavy Galactic 
+extinction corresponding to the reddening of E(B-V) = 0.22 in the 
+direction of the burst (Schlegel et al. 1998, ApJS, 500, 525). The 
+photometry is on the UVOT photometric system described in Poole et al. 
+(2008, MNRAS, 383, 627).
+
+[GCN OPS NOTE(22dec09): Per author's request, the Subject-line
+was changed from 091208B to 091221.]

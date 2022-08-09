@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12209
+SUBJECT: Swift detection of a SGR-like burst from the AXP 4U 0142+61
+DATE:    11/07/29 11:52:33 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. R. Oates (UCL-MSSL), W. H. Baumgartner (GSFC/UMBC),
+A. P. Beardmore (U Leicester), S. Campana (INAF-OAB),
+N. Gehrels (NASA/GSFC), E. A. Hoversten (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), V. Mangano (INAF-IASFPA),
+F. E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+C. J. Mountford (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), P. Romano (INAF-IASFPA), C. J. Saxton (UCL-MSSL),
+B. Sbarufatti (INAF-OAB/IASFPA) and G. Tagliaferri (INAF-OAB) report
+on behalf of the Swift Team:
+
+At 11:19:15 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located on a short burst from the AXP 4U 0142+61 (trigger=458345).  
+Swift slewed immediately to the source location. 
+The BAT on-board calculated location is 
+RA, Dec 26.598, +61.729 which is 
+   RA(J2000) = 01h 46m 24s
+   Dec(J2000) = +61d 43' 43"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single-peaked
+structure with a duration of about 0.1 sec.  The peak count rate
+was ~3500 counts/sec (15-350 keV), at ~0.1 sec after the trigger. 
+
+The XRT began observing the field at 11:20:38.1 UT, 82.7 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright
+source with an enhanced position: RA,Dec = 26.5937, 61.7510 (degrees) 
+which is equivalent to:
+
+RA  (J2000.0) = 01 46 22.48
+DEC (J2000.0) = +61 45 03.6
+
+with an uncertainty of 2.2 arcsec (radius, 90% containment). 
+This is consistent with the position of 4U 0142+61. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 93 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+Swift has been regularly monitoring this source 4U 0142+61 as
+part of program of regular monitoring of AXPs (PI: V. Kaspi). 
+This AXP has previously been seen to emit SGR-like bursts
+(e.g. ATEL #794, Kaspi et al., 2006)
+
+Burst Advocate for this burst is S. R. Oates (sro AT mssl.ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

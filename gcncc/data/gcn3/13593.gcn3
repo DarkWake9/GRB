@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13593
+SUBJECT: GRB 120802A: Swift/UVOT Upper Limits
+DATE:    12/08/06 12:36:40 GMT
+FROM:    Stephen Holland at STScI  <sholland@stsci.edu>
+
+S. T. Holland (STScI)
+reports on behalf of the Swift/UVOT team:
+
+     The Swift/UVOT observed the field of GRB 120802A starting 70 s
+after the BAT trigger (Holland et al., 2012, GCNC 13555).  Settled
+observations started at 87 s.  We do not detect any source inside the
+UVOT-enhanced XRT error circle (Evans et al., 2012, GCNC 13558).
+Preliminary magnitudes 3-sigma upper limits at this location for the
+finding charts (FC) and the co-added images, are
+
+Filter       TSTART   TSTOP   Exp Time    3-sigma UL
+----------------------------------------------------
+white (FC)      87      237        147         >20.8
+    u (FC)     300      550        246         >19.9
+----------------------------------------------------
+    v          630   16,594       1317         >20.5
+    b          555     6625        332         >20.4
+    u          300     6548        658         >20.5
+ uvw1          678   17,567        492         >20.4
+ uvm2         4504   17,499       1279         >21.2
+ uvw2         4095   11,737       1279         >21.4
+white           87   10,731       1268         >22.1
+----------------------------------------------------
+
+    The quoted magnitudes and upper limits have not been corrected for
+the Galactic extinction along the line of sight to this burst of
+E_{B-V} = 0.14 mag (Schlafly et al. 2011, ApJS, 737, 103).
+

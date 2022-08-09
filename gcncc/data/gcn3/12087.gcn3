@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12087
+SUBJECT: Swift J185003.2-005627: Swift-XRT/UVOT refined analysis
+DATE:    11/06/25 16:51:02 GMT
+FROM:    Andy Beardmore at U Leicester  <apb@star.le.ac.uk>
+
+A. P. Beardmore (U. Leicester), S. Campana (INAF-OAB), J. A. Kennea
+(PSU) and C. A. Swenson (PSU) report on behalf of the Swift/XRT
+and UVOT teams:
+
+We have analysed 2.8 ks of Swift/XRT data from the transient Swift
+J185003.2-005627 (Beardmore, et al., GCN Circ. 12083), from 88 s to
+17.5 ks after the BAT trigger. The data comprise 421 s in Windowed
+Timing (WT) mode (the first 5 s were taken while Swift was slewing),
+with the remainder in Photon Counting (PC) mode.
+
+The astrometrically corrected X-ray position for this source (using
+the XRT-UVOT alignment and matching UVOT field sources to the USNO-B1
+catalogue), derived from 1660 s of XRT Photon Counting mode data and 2
+UVOT images, is RA, Dec = 282.51390, -0.93980 which is equivalent to:
+
+RA (J2000):  18 50 3.33
+Dec (J2000): -00 56 23.3
+
+with an uncertainty of 1.7 arcsec (radius, 90% confidence). This
+position may be improved as more data are received. The position
+enhancement is described by Goad et al. (2007, A&A, 476, 1401) and
+Evans et al. (2009, MNRAS, 397, 1177).
+
+The X-ray light curve initially decays like a powerlaw, with an index
+of 1.158 (+0.102, -0.125), before flattening to a slope of 0.161
+(+0.035, -0.072) at T +365 (+109, -40) s after the trigger.
+
+A spectrum formed from the WT mode data from T+101 to T+429 s after
+the trigger is best fit by an absorbed blackbody, with a temperature
+of 0.83 +/- 0.03 keV and column density of 1.71 +/- 0.19 x 10^22
+cm^-2, consistent with the Galactic column in the direction of the
+source (Kalberla et al.  2005).  The observed (unabsorbed) 0.3-10 keV
+flux for this spectrum is 4.85e-10 (6.76e-10) ergs cm^-2 s^-1.
+
+The XRT spectrum, together with the soft BAT spectrum reported by
+Markwardt et al. (GCN Circ. 12086) and the location of the source in
+the Galactic plane, is suggestive of emission from a type I burst.
+
+Swift/UVOT observations of the field were also performed but no
+optical counterpart is detected at the XRT position.  Preliminary
+3-sigma upper limits, using the UVOT photometric system (Poole et
+al. 2008, MNRAS, 383, 627), are:
+
+Filter       T_start(s)   T_stop(s)    Exp(s)     Mag
+
+---------------------------------------------------------------------------
+
+white          104          5305        628       >18.9
+v              593          1763        136       >17.2
+b              519          1863        136       >18.9
+u              263          1837        382       >19.9
+w1             642          1813        130       >19.7
+w2             742          5340        125       >20.3
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 16.09 in the direction of the transient
+(Schlegel et al. 1998).
+

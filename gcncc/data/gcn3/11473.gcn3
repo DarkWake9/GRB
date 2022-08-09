@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11473
+SUBJECT: GRB 101219B: Swift detection of a burst with an optical afterglow
+DATE:    10/12/19 16:52:57 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+J. M. Gelbord (PSU), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+M. M. Chester (PSU), S. T. Holland (CRESST/USRA/GSFC),
+J. A. Kennea (PSU), N. P. M. Kuin (UCL-MSSL),
+C. B. Markwardt (NASA/GSFC), F. E. Marshall (NASA/GSFC),
+P. T. O'Brien (U Leicester), D. M. Palmer (LANL) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 16:27:53 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 101219B (trigger=440635).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 12.257, -34.532 which is 
+   RA(J2000)  =  00h 49m 02s
+   Dec(J2000) = -34d 31' 53"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This is an image trigger so as is typical,
+the BAT lightcurve does not show anything. 
+
+The XRT began observing the field at 16:30:19.8 UT, 146.3 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 12.2306, -34.5662 which is equivalent to:
+   RA(J2000)  = 00h 48m 55.34s
+   Dec(J2000) = -34d 33' 58.3"
+with an uncertainty of 5.6 arcseconds (radius, 90% containment). This
+location is 145 arcseconds from the BAT onboard position, within the
+BAT error circle. No event data are yet available to determine the
+column density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 156 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	00:48:55.35 =  12.23061
+  DEC(J2000) = -34:33:59.5  = -34.56652
+with a 90%-confidence error radius of about 0.62 arc sec. This position is 1.2
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+17.84 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.02. 
+
+Burst Advocate for this burst is J. M. Gelbord (jgelbord AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

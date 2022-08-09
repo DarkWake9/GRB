@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11095
+SUBJECT: Swift/UVOT observations of GRB100814A
+DATE:    10/08/14 15:26:23 GMT
+FROM:    Patricia Schady at MPE/Swift  <msslba@googlemail.com>
+
+M. De Pasquale (MSSL-UCL) and C.J. Saxton (MSSL-UCL)
+report on the behalf of the Swift UVOT team:
+
+ The Swift/UVOT began settled observations of the field of
+GRB 100814A 153 s after the BAT trigger  (Beardmore et
+al. 2010, GCN Circ. 11087) with a finding chart in the u
+filter. We detect the optical afterglow in all filters except
+uvw2. The refined UVOT position is
+
+ RA  (J2000) = 01h 29m 53.61s = 22.47338
+ Dec (J2000) = -17d 59m 43.6s = -17.99545
+
+
+with an estimated uncertainty of 0.6 arcsec (radius, 90% confidence,
+statistical + systematic). This is about 1.5 arcsec north of the
+UVOT-enhanced XRT position (Beardmore et al. 2010, GCN Circ.
+11092).
+
+ Preliminary magnitudes, and 3-sigma upper limits for detecting a
+source in the finding charts and in co-added images are
+
+Filter      T_start   T_stop    Exp(s)      Mag   Err
+---------------------------------------------------------------------
+   u (fc)      153      403        246      16.80  0.06
+   v            458      627         39       17.91  0.32
+   b            408      721         53       21.22  0.20
+   u            153      701       285       16.84  0.06
+ uvw1        507      676         39       17.33  0.20
+ uvm2       483       651         39       17.86  0.31
+ uvw2        434      602          39    >18.52  3-sigma UL
+ white      3858     4211        344      18.63  0.07
+-----------------------------------------------------------
+
+ The quoted magnitudes and upper limits have not been corrected
+for the expected Galactic extinction along the line of sight
+corresponding to a reddening of E_{B-V} = 0.02 mag (Schlegel, et al.,
+1998, ApJS, 500, 525).  All photometry is on the UVOT photometry
+system described in Poole et al. (2008, MNRAS, 383, 627).
+

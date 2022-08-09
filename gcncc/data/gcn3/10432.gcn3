@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10432
+SUBJECT: GRB 100219A: Swift/UVOT Detection of a Source near the XRT Position 
+DATE:    10/02/19 17:29:24 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <Stephen.T.Holland@nasa.gov>
+
+S. T. Holland (CRESST/GSFC/USRA),
+N. P. M. Kuin (UCL-MSSL), and
+A. Rowlinson (U Leicester)
+report on the behalf of the Swift/UVOT team:
+
+       The Swift/UVOT observed the field of GRB 100219A (Rowlinson et
+al. 2010, GCN Circ. 10430) starting 183 s after the BAT detection.  We
+do not detect any source inside the XRT error circle, but we do detect
+a source 3.8 arcsec north of the centre of the 2.1 arcsec XRT error
+circle.  This source is not present in the SDSS DR7, USNO B1.0, or
+2MASS point source catalogues.  It is at the detection limit of the
+DSS, so it is unclear if this is a new source.  The preliminary UVOT
+position is
+
+     RA (J2000)  10:16:48.54  =  154.20225 (deg)
+    Dec (J2000) -12:33:57.9   =  -12.56608 (deg)
+
+with an estimated uncertainty of 1.0 arcsec (radius, 90% confidence,
+statistical + systematic).
+
+Preliminary magnitudes for this source are
+
+Filter   TSTART    TSTOP   Exposure      Mag   Err   Sigma
+---------------------------------------------------------------
+white       183      333        150    20.70  0.34     3.2
+white       875     1025        150   >20.9            3-sigma UL
+u           341      591        250    21.00  0.56     2.0
+---------------------------------------------------------------
+
+It is not clear if this source is fading, or if it is associated with
+GRB 100219A.
+
+     The quoted magnitudes have not been corrected for the expected
+Galactic extinction along the line of sight corresponding to a
+reddening of E_{B-V} = 0.08 mag (Schlegel et al., 1998, ApJS, 500,
+525).  All photometry is on the UVOT photometry system described in
+Poole et al. (2008, MNRAS, 383, 627).
+

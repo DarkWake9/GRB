@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11102
+SUBJECT: GRB 100816A: Swift detection of a possibly short burst with optical afterglow
+DATE:    10/08/16 01:17:12 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. R. Oates (UCL-MSSL), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), J. M. Gelbord (PSU), J. A. Kennea (PSU),
+N. P. M. Kuin (UCL-MSSL), O. M. Littlejohns (U Leicester),
+C. B. Markwardt (NASA/GSFC), F. E. Marshall (NASA/GSFC),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+C. J. Saxton (UCL-MSSL), M. Stamatikos (OSU/NASA/GSFC) and
+R. L. C. Starling (U Leicester) report on behalf of the Swift Team:
+
+At 00:37:51 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 100816A (trigger=431764).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 351.740, +26.561 which is 
+   RA(J2000) = 23h 26m 58s
+   Dec(J2000) = +26d 33' 38"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single symmetric
+peak structure with a duration of about 2 sec.  There is possible
+further activity at around T+80s.  The peak count rate
+was ~13000 counts/sec (15-350 keV), at ~0.5 sec after the trigger. 
+
+The XRT began observing the field at 00:39:14.2 UT, 82.8 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 351.7381, +26.5785 which is equivalent to:
+   RA(J2000)  = 23h 26m 57.15s
+   Dec(J2000) = +26d 34' 42.6"
+with an uncertainty of 5.5 arcseconds (radius, 90% containment). This
+location is 63 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White 
+filter  starting 91 seconds after the BAT trigger. The refined UVOT 
+position is    
+     RA (J2000)  23:26:57.56  
+    Dec (J2000)  26:34:42.9      with an estimated uncertainty of 0.5
+arcsec (radius, 90% confidence). This position is 5.5 arc sec. from
+the  center of the XRT error circle. The estimated magnitude is 17.00
+with  a 1-sigma error of about 0.03. No correction has been made for
+the  expected extinction corresponding to E(B-V) of 0.09. 
+
+There were no real-time GCN Notices on this burst because the block2world
+filter was still in place due to the earlier episode of the startracker
+loss-of-lock problem.  The MOC had just gotten the startracker back to lock
+and BAT triggers restored when the trigger occurred.  But the block2world
+had not yet been removed.  BAT_POSITION and XRT_POSITION notices were manually
+generated and distributed. 
+
+Burst Advocate for this burst is S. R. Oates (sro AT mssl.ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

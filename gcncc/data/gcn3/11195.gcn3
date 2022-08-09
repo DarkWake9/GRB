@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11195
+SUBJECT: Tentative redshift of GRB100902A from Swift-XRT data
+DATE:    10/09/03 13:40:08 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+S. Campana (INAF-OAB), R. L. C. Starling (U Leicester), P. A. Evans  (U 
+Leicester), and T. Sakamoto (NASA/UMBC) report on behalf of the Swift Team:
+
+Swift BAT triggered on the early activity of GRB 100902A (Sakamoto et 
+al. 2010, GCN 11181). Swift XRT started observing 316 s after the 
+trigger observing the main event. By using the Swift/XRT spectrum 
+repository at http://www.swift.ac.uk/xrt_spectra/ (see Evans et al. 
+2009, MNRAS, 397, 1177) we selected two time intervals with an almost 
+constant hardness ratio. These are at the end of the main event between 
+500-550 s (in Window Timing, WT, mode) and the entire first orbit in 
+Photon Counting (PC) mode (between 600-3000 s). We then fit the two 
+spectra with XSPEC using the model tbabs*ztbabs (cutoff), keeping the 
+same absorption pattern and leaving free the cutoff power-law model for 
+the two spectra (the cutoff power-law model provides much better results 
+in terms of column density evaluation with respect to a simple power-law 
+model when small spectral variations are present).
+We assume a Galactic column density of 1.1x1021 cm-2 (Kalberla et al. 
+2005, A&A 440 775) and we allow for a 30% uncertainty in the fit.  We 
+fit the spectrum using C-statistics. In the intrinsic column density vs. 
+redshift plane there is just one deep minimum hinting for a redshift 
+z=4.5^+0.3_-0.2 (90% confidence level) and an intrinsic column density 
+N_H(z)=(2.3^+0.5_-0.3)x1023 cm-2. The X-ray spectrum is very soft with 
+Gamma~3.9 at the end of the prompt phase (with a cut-off energy >17 keV) 
+and with Gamma~1.9 and E_cut~5 keV in the PC spectrum. The two spectra 
+indicate the same redshift even separately.
+The high redshift and the large absorbing column density are in line 
+with the non-detection with UVOT and other ground based optical facilities.
+
+The contour plot is available at
+http://www.brera.inaf.it/utenti/campana/100902.gif
+

@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11493
+SUBJECT: Trigger 441015: Swift detection of a possible burst or transient
+DATE:    10/12/25 19:19:33 GMT
+FROM:    Judith Racusin at GSFC  <judith.racusin@nasa.gov>
+
+J. L. Racusin (NASA/GSFC), A. P. Beardmore (U Leicester),
+S. Campana (INAF-OAB), M. M. Chester (PSU),
+J. R. Cummings (NASA/UMBC), N. Gehrels (NASA/GSFC),
+J. M. Gelbord (PSU), S. T. Holland (CRESST/USRA/GSFC),
+J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+O. M. Littlejohns (U Leicester), K. L. Page (U Leicester),
+B. Sbarufatti (INAF-OAB/IASFPA) and M. H. Siegel (PSU) report on
+behalf of the Swift Team:
+
+At 18:37:45 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 101225A (trigger=441015).  Swift slewed immediately to the burst. 
+However, given that this was a 1088-second image trigger, the time from the
+trigger time (at the start of the image interval) to the XRT observation is 
+over 23 minutes.  The BAT on-board calculated location is 
+RA, Dec 0.234, +44.602 which is 
+   RA(J2000) = 00h 00m 56s
+   Dec(J2000) = +44d 36' 06"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Since this was an image trigger, the 
+currently available BAT light curve does not show significant structure. 
+
+The XRT began observing the field at 19:00:48.5 UT, 1383.0 seconds
+after the BAT trigger. XRT found a bright, uncatalogued X-ray source
+located at RA, Dec 0.1992, +44.6017 which is equivalent to:
+   RA(J2000)  = 00h 00m 47.80s
+   Dec(J2000) = +44d 36' 06.1"
+with an uncertainty of 5.1 arcseconds (radius, 90% containment). This
+location is 89 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT data products have not been received at this time. 
+
+The BAT trigger was an unusually long image trigger.  Due to the 
+relative proximity to the Galactic plane (l=113.55,b=-17.35), and lack
+of fading  information from XRT at this time, we are unsure if this
+trigger is a  GRB or transient.  We will report as more information is
+available. 
+
+Burst Advocate for this burst is J. L. Racusin (judith.racusin AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

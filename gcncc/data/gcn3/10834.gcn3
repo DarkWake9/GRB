@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10834
+SUBJECT: Trigger 424161: Swift/BAT trigger on XTE J1946+274/GRO J1944+26
+DATE:    10/06/08 12:13:11 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+M. De Pasquale (UCL-MSSL), A. P. Beardmore (U Leicester),
+D. N. Burrows (PSU), P. A. Curran (UCL-MSSL), V. D'Elia (ASDC),
+P. A. Evans (U Leicester), J. M. Gelbord (PSU),
+C. Guidorzi (U Ferrara), S. T. Holland (CRESST/USRA/GSFC),
+J. A. Kennea (PSU), O. M. Littlejohns (U Leicester),
+V. Mangano (INAF-IASFPA), J. Mao (INAF-OAB), R. Margutti (INAF-OAB),
+S. R. Oates (UCL-MSSL), J. P. Osborne (U Leicester),
+C. Pagani (U Leicester), K. L. Page (U Leicester),
+P. Romano (INAF-IASFPA), A. Rowlinson (U Leicester),
+M. H. Siegel (PSU), M. Stamatikos (OSU/NASA/GSFC),
+R. L. C. Starling (U Leicester), T. N. Ukwatta (GSFC/GWU) and
+L. Vetere (PSU) report on behalf of the Swift Team:
+
+At 11:20:42 UT, the Swift Burst Alert Telescope (BAT) triggered on the cataloged
+source XTE J1946+274 (trigger=424161).  Swift slewed to the source as soon as
+the BAT detected it as an image trigger.  The BAT on-board calculated location is 
+RA, Dec 296.430, +27.366 which is 
+   RA(J2000) = 19h 45m 43s
+   Dec(J2000) = +27d 21' 57"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty). 
+
+The XRT began observing the field at 11:51:28.2 UT, 1846.1 seconds
+after the BAT trigger. Using promptly downlinked data we find a bright
+X-ray source located at RA, Dec 296.41360, 27.36422 which is equivalent
+to:
+   RA(J2000)  = 19h 45m 39.26s
+   Dec(J2000) = +27d 21' 51.2"
+with an uncertainty of 3.8 arcseconds (radius, 90% containment). This
+location is 53 arcseconds from the BAT onboard position, within the
+BAT error circle. This is 4.5 arcsec from the position of XTE J1946+274
+(2MASS J19453935+2721555).  The XRT position may be improved as more 
+data are received; the latest position is available at 
+http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (9.43e+21
+cm^-2, Kalberla et al. 2005), with an excess column of 7.8
+(+9.36/-7.22) x 10^21 cm^-2 (90% confidence). 
+
+The initial flux in the 2.5 s image was 7.09e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1854 seconds after the BAT trigger. No credible optical transient
+has been found in the initial data products. The 2.7'x2.7' sub-image covers
+100% of the XRT error circle. Because of the density of catalogued stars,
+further analysis is required to report an upper limit for any afterglow in the
+sub-image. No correction has been made for the large, but uncertain
+extinction expected. 
+

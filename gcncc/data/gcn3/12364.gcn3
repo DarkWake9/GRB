@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12364
+SUBJECT: GRB 110918A: Swift-XRT observations
+DATE:    11/09/20 13:32:36 GMT
+FROM:    Vanessa Mangano at INAF-IASFPA  <vanessa@ifc.inaf.it>
+
+V. Mangano (INAF-IASFPA), B. Sbarufatti (INAF-OAB/IASFPA), P. A. Evans
+(U Leicester), H. A. Krimm (GSFC/USRA)	report on behalf of the
+Swift-XRT team:
+
+We have analysed 2.5 ks of XRT data for the IPN-detected burst: GRB
+110918A (Hurley et al. et al. GCN Circ. 12357), from 107.4 ks to 113.6
+ks after the  IPN trigger. The data are entirely in Photon Counting
+(PC) mode.  An new X-ray source is detected close to the edge of the
+XRT FoV. Using 2498 s of PC mode data and 6 UVOT images, we find an
+enhanced XRT position (using the XRT-UVOT alignment and matching UVOT
+field sources to the USNO-B1 catalogue): RA, Dec = 32.53860, -27.10610
+which is equivalent to:
+
+RA (J2000): 02h 10m 9.27s
+Dec(J2000): -27d 06' 22.0"
+
+with an uncertainty of 1.5 arcsec (radius, 90% confidence). This
+position is 640 arcsec from the IPN position, and outside the IPN error
+box.  The light curve uses only the first 1.5 ks of data, since after
+this the source is too near the edge of the field of view for the light
+curve extraction tools to work. This light curve is consistent with a
+constant source of mean count rate 2.7e-01 ct/sec. A power-law fit
+gives an index of -1.320 (+3.525, -0.013). The source count rate is
+definitely above the 3 sigma upper limit of 0.08 ct/sec obtained from
+the analysis of RASS data.
+We believe that such a bright uncatalogued X-ray source close to the
+IPN error box is likely the afterglow of the GRB.
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 2.12 (+0.28, -0.23). The
+best-fitting absorption column is  1.5 (+0.7, -0.6) x 10^21 cm^-2, in
+excess of the Galactic value of 1.7 x 10^20 cm^-2 (Kalberla et al.
+2005). The counts to observed (unabsorbed) 0.3-10 keV flux conversion
+factor deduced from this spectrum  is 2.9 x 10^-11 (4.2 x 10^-11) erg
+cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     1.5 (+0.7, -0.6) x 10^21 cm^-2
+Galactic foreground: 1.7 x 10^20 cm^-2
+Excess significance: 3.9 sigma
+Photon index:	     2.12 (+0.28, -0.23)
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00020186.
+
+This circular is an official product of the Swift-XRT team.
+

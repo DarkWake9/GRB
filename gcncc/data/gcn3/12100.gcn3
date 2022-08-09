@@ -1,0 +1,72 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12100
+SUBJECT: GRB 110625A: Fermi GBM and LAT observations
+DATE:    11/06/27 21:24:51 GMT
+FROM:    David Gruber at MPE  <dgruber@mpe.mpg.de>
+
+David Gruber (MPE), Nicola Omodei (Stanford U.), Vandiver Chaplin (UAH), 
+J. Chiang (KIPAC/SLAC), J. McEnery (NASA/GSFC), J. L. Racusin (NASA/GSFC) 
+report on behalf of the Fermi GBM and LAT Teams: 
+
+At 21:08:18.24 UT on 25 June 2011, the Fermi Gamma-Ray Burst Monitor 
+triggered and located GRB 110625A (trigger 330728900 / 110625881), which 
+was also detected by the Swift/BAT (Page et al. 2011, GCN 12088). The GBM 
+on-ground location is consistent with the Swift position.
+
+The angle from the Fermi LAT boresight is 88 degrees at the trigger time. 
+Moreover, this burst was bright enough to result in a Fermi spacecraft 
+autonomous rapid repoint (ARR) maneuver.
+
+This burst was also independently detected by INTEGRAL SPI-ACS.
+
+The GBM light curve shows several pulses with a duration (T90) of about 
+27.7 +/- 1.4 s (50-300 keV). The time-averaged spectrum from T0-2.048 s 
+to T0+60.417 s is best fit by a power law function with an exponential 
+high-energy cutoff.  The power law index is -0.95 +/- 0.01 and the cutoff 
+energy, parameterized as Epeak, is 209 +/- 3 keV.
+
+The event fluence (10-1000 keV) in this time interval is 
+(6.71 +/- 0.02)E-05 erg/cm^2. The 1-sec peak photon flux measured starting 
+from T0+23.9 s in the 10-1000 keV band is 77.3 +/- 0.7 ph/s/cm^2.
+
+A Band function fits the spectrum equally well with Epeak= 175 +/- 5 keV, 
+alpha = -0.85 +/- 0.02 and beta = -2.37 +/- 0.05. 
+
+The spectral analysis results presented above are preliminary; 
+final results will be published in the GBM GRB Catalog.
+
+The ARR maneuver put the GRB inside the Fermi/LAT field of view 
+for several hundred seconds (from ~100-600 seconds after the GBM trigger).
+
+The Spacecraft continued its maneuver toward the Fermi GBM flight software 
+reconstructed position, that was off by 68 degrees from the Enhanced Swift/XRT 
+position (GCN 12092), providing non-optimal exposure for LAT follow-up 
+observations.
+
+We analyzed the LAT data and we see significant high-energy emission from a 
+point source coincident with the XRT position, confirming the already 
+reported results by P.H.T. Tam and A.K.H. Kong (GCN 12097). 
+
+We model the source spectrum with a power law model N(e) = N0 e^{\beta}, and 
+the background including both the contribution from the Galactic diffuse 
+emission and the isotropic contribution due to the residual contamination of 
+charged particles.
+
+We detect the GRB in two distinct time periods. In the first time bin (from 
+237.1 seconds to 316.2 seconds after the GBM trigger), we measure a flux 
+(100 MeV-10 GeV) of (4.9 +/- 1.9) x 1e-05 ph/cm^2/s and a spectral index beta 
+of -2.1 +/- 0.3, with a Test Statistic TS=31.
+
+In the second time bin, from 421.7 to 562.3 seconds after the GBM trigger, 
+the measured flux is (3.7 +/- 1.5) x 1e-5  ph/cm^2/s with spectral index beta 
+of -3.6 +/- 0.8 and a TS=19 (stat errors only).
+
+The Fermi LAT point of contact for this burst is Nicola Omodei (nicola.omodei@gmail.com).
+
+The Fermi LAT is a pair conversion telescope designed to cover the energy band 
+from 20 MeV to greater than 300 GeV. It is the product of an international 
+collaboration between NASA and DOE in the U.S. and many scientific institutions 
+across France, Italy, Japan and Sweden.
+
+
+

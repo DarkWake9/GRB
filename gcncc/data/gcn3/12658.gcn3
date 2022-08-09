@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12658
+SUBJECT: GRB 111208A: Swift-XRT refined analysis
+DATE:    11/12/11 01:25:02 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori.sakamoto-1@nasa.gov>
+
+C. A. Wolf (PSU) reports on behalf of the Swift-XRT team:
+
+We have analysed 4.5 ks of XRT data for the Swift/BAT ground-detected
+burst: GRB 111208A (Sakamoto et al. GCN Circ. 12628), from 24.3 ks to
+40.8 ks after the burst. The data are entirely in Photon Counting (PC)
+mode.  An X-ray source is detected within the Swift/BAT error circle.
+Using 4204 s of PC mode data and 6 UVOT images, we find an enhanced XRT
+position (using the XRT-UVOT alignment and matching UVOT field sources
+to the USNO-B1 catalogue): RA, Dec = 290.22434, +40.67616 which is
+equivalent to:
+
+RA (J2000): 19h 20m 53.84s
+Dec(J2000): +40d 40' 34.2"
+
+with an uncertainty of 1.6 arcsec (radius, 90% confidence). This
+position is 37 arcsec from the Swift/BAT position. 
+
+The light curve can be modelled with  a power-law decay with a decay
+index of alpha=3.14 (+0.23, -0.90).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 2.14 (+0.25, -0.37). The
+best-fitting absorption column is  1.7 (+1.1, -0.9) x 10^21 cm^-2,
+consistent with the Galactic value of 8.4 x 10^20 cm^-2 (Kalberla et
+al. 2005). The counts to observed (unabsorbed) 0.3-10 keV flux
+conversion factor deduced from this spectrum  is 3.5 x 10^-11 (5.3 x
+10^-11) erg cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     1.7 (+1.1, -0.9) x 10^21 cm^-2
+Galactic foreground: 8.4 x 10^20 cm^-2
+Excess significance: <1.6 sigma
+Photon index:	     2.14 (+0.25, -0.37)
+
+The results of the XRT-team automatic analysis are available at
+
+http://www.swift.ac.uk/xrt_products/00020190
+.
+
+This circular is an official product of the Swift-XRT team.
+

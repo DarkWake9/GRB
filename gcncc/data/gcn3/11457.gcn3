@@ -1,0 +1,71 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11457
+SUBJECT: Redshift solution(s) for GRB101213A from Swift-XRT data
+DATE:    10/12/15 13:55:47 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+S. Campana (INAF-OAB), S. Covino (INAF-OAB), A. Cucchiara (UCB/LBNL/UCSC),
+P. A. Evans  (U Leicester), D. Grupe (PSU), D. Malesani (DARK/NBI),
+T. Sakamoto (NASA/UMBC) and R. L. C. Starling (U Leicester):
+
+Swift BAT triggered on the early activity of GRB 101213A (Sakamoto et
+al. 2010, GCN 11448). Swift XRT started observing 106 s after the
+trigger observing the main event. We selected the time interval between
+112-154 s during which the hardness ratio (as judged from the Swift/XRT
+spectrum repository at http://www.swift.ac.uk/xrt_spectra/00440285/ )
+and the power law photon index (as judged from the Swift/XRT burst analyser
+http://www.swift.ac.uk/burst_analyser/00440285/ ) are consistent
+with a constant. We bin the spectrum to 30 counts per energy bin and
+used the latest response matrices v012. The spectrum is in Windowed Timing
+mode (WT) and contains about 6,000 counts. We fit the WT spectrum with 
+XSPEC
+using the model tbabs*ztbabs*(cutoff), (the cutoff power-law model provides
+much better results in terms of column density evaluation with respect to a
+simple power-law model when small spectral variations are present).
+We assume a Galactic column density of 4.6x10^20 cm^-2 (Kalberla et al.
+2005, A&A 440 775). In the intrinsic column density vs.
+redshift plane there is just one deep minimum hinting for a redshift
+z=2.9^+0.2_-0.8 (90% confidence level) and an intrinsic column density
+N_H(z)=(1.5^+0.7_-0.3)x10^23 cm^-2. The X-ray spectrum is soft with
+Gamma~2.5 at the end of the prompt phase and no signs of spectral curvature
+(cut-off energy > 30 keV).
+
+The absorption pattern towards GRB 101213A is complicated by the galaxy
+reported by Malesani & de Ugarte Postigo (2010, GCN 11449). We tried to fit
+an extra absorption component fixed either to z=0.1 or z=0.5 (i.e. the two
+possible photometric redshifts of the putative host galaxy observed in the
+SDSS, z=0.10+/-0.07 and z=0.47+/-0.22, respectively), with basically no
+effects on the overall results. This low-redshift component is not able
+alone to account for the observed absorption pattern.
+
+Looking at the burst analyser page (see above), we also note that there is
+a mismatch in the BAT and XRT power law photon indices during the short
+interval during which there are contemporanous data. Motivated by this we
+fit the XRT spectrum with a broken power law.
+The fit is as good as the power law fit. In this case we obtain a very soft
+low-energy photon index of Gamma1=3.1+/-0.2 and a high-energy photon index
+Gamma2=2.0+/-0.2 (consistent with the BAT extrapolation). The transition
+energy is around 3 keV. In this case, the redshift is z=0.3^+0.4_-0.1 
+and the
+intrinsic column density is (1.1^+0.3_-0.2)x10^22 cm^-2. In this case the
+redshift determination is consistent with the putative host galaxy but the
+resulting X-ray spectrum is peculiar, with a spectral variation Delta 
+Gamma~1
+and a spectrum that remains (almost) constant for ~150 s, becoming even
+softer later on.
+Alternatively, the X-ray spectrum could be fit (equally well) with a black
+body plus a power law component. In this case the redshift is 
+z=0.3^+0.1_-0.2
+and the intrinsic column density NH=(1.1^+0.3_-0.2)x10^22 cm^-2. The power
+law is very soft with Gamma~3.3 and the black body (rest-frame) temperature
+is high kT=2.3^+1.3_-0.5 keV. The black body radius is ~2x10^11 cm.
+We note that the black body temperature is much higher than what is observed
+in, e.g., GRB 060218 (kT~0.2 keV, Campana et al. 2006, Nat 442 1008) or
+GRB 100316D (kT~0.1 keV, Starling et al. 2010, MNRAS in press).
+
+We can conclude that in all cases, the X-ray afterglow flux is heavily
+absorbed and this is in line with the non-detection with UVOT.
+Given the presence of a candidate host galaxy within the XRT refined error
+circle (Malesani & de Ugarte Postigo 2010), we cannot rule out a low
+redshift solution, but in this case a peculiar X-ray spectrum is observed.
+

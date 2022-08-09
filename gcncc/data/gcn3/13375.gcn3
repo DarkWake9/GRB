@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13375
+SUBJECT: Swift Trigger 524949: Noise fluctuation near a galaxy
+DATE:    12/06/23 06:48:53 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), V. D'Elia (ASDC), C. B. Markwardt (NASA/GSFC),
+D. M. Palmer (LANL) and B. Sbarufatti (INAF-OAB/PSU) report on behalf
+of the Swift Team:
+
+At 06:08:23 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible near-threshold image peak near the location of
+the nearby galaxies NGC4405 and NGC 4383 (trigger=524949).  Swift 
+slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 186.424, +16.302, which is 
+   RA(J2000)  =  12h 25m 42s
+   Dec(J2000) = +16d 18' 09"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As it typical with image trigger (11.7 min)
+the TDRSS lightcurve does not show anything significant. 
+
+The XRT began observing the field at 06:25:33.5 UT, 1029.9 seconds
+after the BAT trigger. No source was detected in 631 s of promptly
+downlinked data, which covered 82% of the BAT error circle. We are
+waiting for the full dataset to detect and localise the XRT
+counterpart if any. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1033 seconds after the BAT trigger. No credible afterglow candidate
+has been found in the initial data products. The 2.7'x2.7' sub-image covers 25%
+of the BAT error circle. The typical 3-sigma upper limit has been about 19.6
+mag. The 8'x8' region for the list of sources generated on-board covers 100% of
+the BAT error circle. The list of sources is typically complete to about 18
+mag. No correction has been made for the expected extinction corresponding to
+E(B-V) of 0.02. 
+
+As part of a sensitivity enhancement program for Swift, we now
+do follow-up observations on weak fluctuations near to a
+catalog of ~600 nearby galaxies and other objects.  Most of these
+follow-ups are expected to be noise fluctuations.  Given the 
+lack of an XRT confirmation it is most likely that this source
+one of those false triggers. 
+

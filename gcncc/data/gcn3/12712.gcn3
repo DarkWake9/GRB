@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12712
+SUBJECT: Trigger 510075 is not a GRB
+DATE:    11/12/21 02:47:35 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+W. H. Baumgartner (GSFC/UMBC), D. N. Burrows (PSU),
+M. M. Chester (PSU), J. R. Cummings (NASA/UMBC), D. Grupe (PSU),
+E. A. Hoversten (PSU), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), C. B. Markwardt (NASA/GSFC),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU), M. H. Siegel (PSU), C. A. Swenson (PSU)
+and B.-B. Zhang (PSU) report on behalf of the Swift Team:
+
+At 02:14:47 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located trigger 510075.  Swift slewed immediately to the location. 
+The BAT on-board calculated location is RA, Dec 91.175, -23.979 which is 
+   RA(J2000) = 06h 04m 42s
+   Dec(J2000) = -23d 58' 43"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve is potentially confused 
+by the presence of Vela X-1 in the Field of View.  Although the 
+on-board significance was strong enough to report a trigger (6.74 sigma), 
+a refined ground analysis produces a significance of 6.0 sigma, which
+is below the standard BAT triggering threshold. 
+
+The XRT began observing the field at 02:17:00.1 UT, 132.5 seconds after
+the BAT trigger. No source was detected in 428 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 135 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.04. 
+
+Due to the low significance in the ground re-analysis of the BAT map
+and the non-detection by XRT, we believe that this event is not a GRB. 
+

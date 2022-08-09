@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10517
+SUBJECT: Tentative redshift of GRB100316D from X-ray data
+DATE:    10/03/17 06:37:22 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+S. Campana (INAF-OAB) reports on behalf of the Swift-XRT team:
+
+Swift XRT observed GRB 100316D (Stamatikos et al. 2010, GCN10496)
+in Windowed Timing (WT) mode in the 144-737 s time interval.
+During this interval the light curve decays very slowly (decay
+index alpha=-0.13, Starling et al. 2010, GCN 10505).
+In addition, the 1.5-10 keV to 0.3-1.5 keV hardness ratio remains
+constant (reduced chi2=0.91 with 97 degrees of freedom, dof).
+Motivated by the high count rate (around 30 c s^-1, but far from
+the pile up limit) and by the constant spectral shape we tried to
+estimate the GRB redshift from the X-ray data.
+We assume a Galactic column density of 7x10^20 cm^-2 (Kalberla et
+al. 2005, A&A 440 775) and fit the WT spectrum taken from the
+Leicester pages (http://www.swift.ac.uk/xrt_spectra/00416135/)
+with an absorbed (phabs*zphabs) cutoff power law model (the cutoff
+power law model provides much better results in terms of column
+density evaluation with respect to a simple power law model when
+small spectral variations are present). Given the high count rate
+we selected single pixel events only.
+The resulting fit is good (reduced chi2=1.2, 333 dof). The redshift
+is constrained to lie within the 90% confidence level (delta
+chi2=4.61) of 0.014<z<0.28 (with a best fit redshift of z=0.1 and
+intrinsic column density of N_H(z)=7x10^21 cm^-2).
+Filtering WT counts with grades 0-2 (standard WT grades) slightly
+shifts the best fit range to larger redshifts (in the approximate
+range 0.1-0.6).
+
+The contour plot is available at
+http://www.brera.inaf.it/utenti/campana/100316d.gif
+
+This circular is an official product of the Swift-XRT team.
+
+[GCN OPS NOTE(18mar10):  Per author's request, the chi2=2.71 
+was changed to chi2=4.61.]
+
