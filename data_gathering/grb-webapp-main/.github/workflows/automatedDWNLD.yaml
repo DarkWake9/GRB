@@ -1,0 +1,38 @@
+on:
+  schedule:
+    - cron: "0 0 * * *"
+    
+jobs:
+  GCN-archive-update-automation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+   
+      - name: Install streamlit
+        run: pip install streamlit
+        
+      - name: Install glob2
+        run: pip install glob2
+      
+      - name: Install BeautifulSoup4
+        run: pip install BeautifulSoup4
+
+   
+      - name: Run Automation
+        run: python GCNupdater.py
+        
+      - name: Commit changes
+        run: |
+          git config --global user.name 'Vysakh13579'
+          git config --global user.email 'vysakhpa13579@gmail.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ridha-mm/grb-webapp.git
+          git commit -am "Updated GCN json table on `date +'%Y-%m-%d %H:%M:%S'`"
+          git push
