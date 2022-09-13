@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17023
+SUBJECT: GRB 141022A: Skynet PROMPT-CTIO Observations
+DATE:    14/11/03 13:24:59 GMT
+FROM:    Adam S. Trotter at UNC-Chapel Hill/PROMPT/Skynet  <atrotter@physics.unc.edu>
+
+A. Trotter, J. Haislip, D. Reichart, A. Aji, R. Beauchemin, T. Berger, 
+A. Dow, A. Foster, N. Frank, M. Hinckle, K. Ivarsen, A. LaCluyze, M. 
+Maples, J. Moore, M. Nysewander, C. Salemi, L. Zbinden, and J. A. Crain 
+report:
+
+Skynet observed the Swift BAT/XRT localization of GRB 141022A (Vargas et 
+al., GCN 16938, Swift trigger=616061) with one 24" telescope (PROMPT 8; 
+I band) and two 16" telescopes (PROMPT 1,5; V,I bands) of the PROMPT 
+array at CTIO, Chile.
+Starting at 2014-10-22 01:29:40 UT and continuing until 02:50 UT 
+(t=2m-83m post-trigger), Skynet took a total of 126 exposures ranging 
+from 10s-160s each. We stacked subsets of these images to maximize the 
+S/N ratio, and detected no optical source in either band at the OT 
+position reported by GROND (Kann et al., GCN 16939). Our 3-sigma 
+limiting magnitudes are:
+
+==================================
+tmid  scope   expos  fil  limit
+==================================
+50m  PROMPT1  25x160s V   >21.2
+50m  PROMPT5  24x160s I   >20.6
+45m  PROMPT8  46x80s  I   >20.3
+==================================
+
+Magnitudes are in the Vega System, calibrated to 3 APASS stars in the 
+field.  Magnitudes have not been corrected for line-of-sight Milky Way 
+dust extinction, with expected E(B-V)=0.09 (Schlafly & Finkbeiner 2011).
+
+No further Skynet observations are scheduled.
+

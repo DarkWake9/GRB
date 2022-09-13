@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20316
+SUBJECT: GRB 161220A: Swift-XRT refined Analysis
+DATE:    16/12/21 08:56:04 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+A.P. Beardmore (U. Leicester), P.A. Evans (U. Leicester), P. D'Avanzo
+(INAF-OAB), A. D'Ai (INAF-IASFPA), J.A. Kennea (PSU), B. Sbarufatti
+(INAF-OAB/PSU), D.N. Burrows (PSU), S.L. Gibson (U. Leicester) and V.
+D'Elia report on behalf of the Swift-XRT team:
+
+We have analysed 3.4 ks of XRT data for GRB 161220A (D'Elia et al. GCN
+Circ. 20302), from 60 s to 58.3 ks after the  BAT trigger. The data
+comprise 85 s in Windowed Timing (WT) mode (the first 7 s were taken
+while Swift was slewing) with the remainder in Photon Counting (PC)
+mode. The refined XRT position is RA, Dec = 350.8479, -47.4978 which is
+equivalent to:
+
+RA (J2000): 23 23 23.49
+Dec(J2000): -47 29 52.2
+
+with an uncertainty of 3.6 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with a series of power-law decays. The
+light curve initially rises, with an index alpha=-1.5 (+0.0, -2.0). At
+T+71.0 s it breaks to an alpha of 4.75 (+0.51, -0.29) before breaking
+again at T+217 s to a final decay with index alpha=0.82 (+0.13, -0.11).
+
+A spectrum formed from the WT mode data can be fitted with an absorbed
+power-law with a photon spectral index	of 3.57 (+0.20, -0.19). The
+best-fitting absorption column is  3.2 (+/-0.4) x 10^21 cm^-2, in
+excess of the Galactic value of 1.2 x 10^20 cm^-2 (Willingale et al.
+2013). The counts to observed (unabsorbed) 0.3-10 keV flux conversion
+factor deduced from this spectrum  is 2.1 x 10^-11 (9.9 x 10^-11) erg
+cm^-2 count^-1. 
+
+A summary of the WT-mode spectrum is thus:
+Total column:	     3.2 (+/-0.4) x 10^21 cm^-2
+Galactic foreground: 1.2 x 10^20 cm^-2
+Excess significance: 12.4 sigma
+Photon index:	     3.57 (+0.20, -0.19)
+
+If the light curve continues to decay with a power-law decay index of
+0.82, the count rate at T+24 hours will be 2.7 x 10^-3 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 5.7 x
+10^-14 (2.6 x 10^-13) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00727610.
+
+This circular is an official product of the Swift-XRT team.
+

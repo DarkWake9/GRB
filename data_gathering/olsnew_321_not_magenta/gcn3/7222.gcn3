@@ -1,0 +1,18 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7222
+SUBJECT: Swift trigger(=301779) is not a GRB
+DATE:    08/01/25 20:08:29 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+Swift trigger (=301779, trig_time=19:11:20.16 UT) is not due to a burst,
+nor anything astrophysical.  This trigger is a result from the testing
+of the SubThresold operational mode in Swift.  Some of the UVOT Notice types
+(Source List and Image) were distributed to the world.  This distribution
+was the result of stopping and restarting the GCN programs and as a result
+the "state vector" of which triggers were to be considered SubThreshold and
+which were normal triggers got lost.  And this restarting was done too quickly
+after a prior SubThreshold trigger such that after the spacecraft came out
+of a Malindi downlink pass, the TDRSS transmission channel resumed operations
+and transmitted down the remaining UVOT notices.  We apologize for the
+confusion and inconvenience.
+

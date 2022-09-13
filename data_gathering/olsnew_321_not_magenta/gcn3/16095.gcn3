@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16095
+SUBJECT: Swift Trigger 595345 is not an astrophysical source
+DATE:    14/04/10 17:47:19 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+W. H. Baumgartner (GSFC/UMBC), D. N. Burrows (PSU),
+S. B. Cenko (GSFC), V. D'Elia (ASDC), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU),
+M. H. Siegel (PSU) and T. N. Ukwatta (MSU) report on behalf of the
+Swift Team:
+
+At 17:20:28 UT, the Swift Burst Alert Telescope (BAT) triggered and found an image
+peak in the vicinity of NGC 4457 (trigger=595345).  Swift slewed immediately to the 
+BAT position. The BAT on-board calculated location is 
+RA, Dec 187.132, +3.480 which is 
+   RA(J2000) = 12h 28m 32s
+   Dec(J2000) = +03d 28' 47"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual for an image trigger, nothing of note
+is found in the BAT light curve. 
+
+The XRT began observing the field at 17:22:21.6 UT, 113.5 seconds after
+the BAT trigger. No source was detected in 1.2 ks of promptly
+downlinked data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 117 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+Due to the low significance of the BAT peak (6.51 sigma) in an image trigger,
+the lack of a corresponding rate increase, the large distance between 
+the image peak and the potential host galaxy (0.149 degrees), and the lack of 
+an XRT detection, we believe that this trigger was a noise peak and not 
+an astrophysical source. 
+

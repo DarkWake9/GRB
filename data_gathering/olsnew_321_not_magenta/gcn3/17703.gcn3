@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17703
+SUBJECT: Konus-Wind observation of a bright burst from SGR 1935+2154
+DATE:    15/04/14 15:02:18 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A.Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+A bright, short-duration, soft burst which is likely originated from
+SGR 1935+2154 (IPN triangulation: Golenetskii et al., GCN 17699)
+triggered Konus-Wind at T0=41064.683 s UT (11:24:24.683).
+
+The light curve shows a single pulse with a sharp(<10 ms) rise
+and a total duration of ~1.7 s.
+The emission is seen up to ~200 keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/SGRs/150412_T41064/
+
+As observed by Konus-Wind, the burst had a fluence
+of 2.60(-0.03,+0.03)x10^-5 erg/cm2, and a 16-ms peak flux,
+measured from T0+0.800 s, of 2.3(-0.1,+0.1)x10^-5 erg/cm2/s
+(both in the 20 - 200 keV energy range).
+
+The time-averaged spectrum (measured from T0 to T0+9.472 s)
+is best fit in the 20 - 250 keV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = +0.21(-0.13,+0.13),
+and Ep = 36.5(-0.6,+0.6) keV
+(chi2 = 28.6/31 dof).
+A double blackbody fit to this spectrum yields
+the lower temperature kT1 = 6.4 (-0.7,+0.7) keV and
+the higher temperature kT2 = 12.3 (-0.6,+0.7) keV
+(chi2=36.3/30 dof).
+
+The rather long duration of the burst along with the
+large measured energy fluence put the burst in the class
+of "intermediate" SGR bursts.
+The measured spectral parameters are in typical range for
+bright short and intermediate SGR bursts;
+also, they resemble the fits reported by Swift/BAT
+and Fermi/GBM for much weaker and shorter bursts detected
+during the recent SGR 1935+2154 activity in February, 2015
+(Lien et al., GCN 17490; Burns & Younes, GCN 17496).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

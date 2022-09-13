@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6946
+SUBJECT: Swift autonomous slewing re-enabled
+DATE:    07/10/19 21:31:28 GMT
+FROM:    Neil Gehrels at GSFC  <gehrels@milkyway.gsfc.nasa.gov>
+
+Neil Gehrels (NASA-GSFC) reports on behalf of the Swift team:
+
+This is an update on Swift status following earlier Circulars
+(Gehrels 6760; Barthelmy et al. 6781; Burrows et al. 6791;
+Gehrels 6825).  As of today, Swift is re-enabled for full-time
+autonomous GRB slewing.  The gyro problems of the past 2 months
+are resolved and the observatory is back to slewing accurately
+within its 3 arcmin requirement.  BAT and XRT continue to be
+fully operational and performing science, as they have been for
+several weeks.  UVOT is in engineering mode, and will be activated
+for science observations in the middle of next week.  The TOO web
+site is back on line.
+
+More details on the problem and solution are as follows:  On
+August 10 gyro #3 (known as Two Axis Rate Assembly - TARA 3)
+exhibited jumps in its bias offset level (voltage output when gyro
+is not rotating) that caused the spacecraft to go into safe hold.
+Redundant TARA 2 was switched in for recovery.  It was then found
+that TARA 2 is slightly misaligned from TARA 1, with the consequence
+that slew accuracy was degraded.  Due to memory limitations of the
+onboard spacecraft computer, assumptions were made in the matrix
+manipulation mathematics that did not permit a simple correction
+for the misalignment.  However, a clever technique was found by
+Craig Markwardt to use available parameters to combine signals
+from all 3 gyros for accurate slewing.  This mode of operation,
+which is now the baseline, is called TARA 123 and uses TARA 3 to
+correct the TARA 1 and 2 alignments.  The TARA 3 term comes in at
+low weight and, as such, is not sensitive to its small bias shifts.
+A more elaborate software patch has been developed that could be used
+in the event of a failure of TARA 3.
+

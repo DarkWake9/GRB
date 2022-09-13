@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8866
+SUBJECT: GRB 090201: ROTSE-III Optical Limits
+DATE:    09/02/01 19:01:36 GMT
+FROM:    Brad Schaefer at LSU  <schaefer@grb.phys.lsu.edu>
+
+B. E. Schaefer (Louisiana State) reports on behalf of the ROTSE 
+collaboration:
+
+ROTSE-IIIc, located at the H.E.S.S. site at Mt. Gamsberg, Namibia,
+responded to GRB 090201 (Swift trigger 341749; S. R. Oates et al., GCN
+8865), producing images beginning 41 minutes after the burst trigger.  
+Weather constraints in Namibia were the cause of the delay, as we had to
+await the clearing of the skies.  Our first image was at 18:28:03.6 UT,
+2460.9 s after the burst, under fair conditions. We took 10 5-sec, 10
+20-sec and -8 60-sec exposures. These unfiltered images are calibrated
+relative to USNO A2.0 (R). Imaging is on going.
+
+Comparison to the DSS (second epoch) reveals no new sources within the
+3-sigma Swift/BAT error circle, for both single images and coadding into
+sets of 10; the field is not crowded.  Swift has not slewed to this burst
+yet, so there is no XRT position to examine in detail.  Individual images
+have limiting magnitudes ranging from 16.6-17.4; we set the following
+specific limits.
+
+start UT       end UT      t_exp(s)   mlim   t_start-tGRB(s)  Coadd?
+--------------------------------------------------------------------
+18:28:03.6   18:29:03.6        60     16.6         2460.9       N
+18:28:03.6   18:30:15.5       131     16.9         2460.9       Y
+18:42:25.4   18:54:11.1       705     18.2         3322.7       Y
+

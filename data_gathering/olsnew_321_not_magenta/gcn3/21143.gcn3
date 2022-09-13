@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21143
+SUBJECT: GRB 170524A: Swift-BAT refined analysis 
+DATE:    17/05/25 18:53:59 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), J.G. Gropp (PSU),
+H. A. Krimm (NSF/USRA), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-61 to T+242 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 170524A (trigger #754322)
+(Gropp et al., GCN Circ. 21135).  The BAT ground-calculated position is
+RA, Dec = 319.488, 48.603 deg which is
+  RA(J2000)  =  21h 17m 57.2s
+  Dec(J2000) = +48d 36' 12.5"
+with an uncertainty of 2.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 96%.
+
+The mask-weighted light curve shows a double peaked structure
+with the first pulse from ~T0 to ~T+0.05, and second pulse from ~T+0.05 to ~T+0.1.
+T90 (15-350 keV) is 0.10 +- 0.02 sec (estimated error including systematics).
+
+The time-averaged spectrum from T+0.00 to T+0.12 sec fit by a simple
+power-law model shows the power law index of 1.07 +- 0.24 (chi squared 47.68 for 57 d.o.f.).
+The fluence in the 15-150 keV band is 3.7 +- 0.6 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.44 sec in the 15-150 keV band
+is 0.5 +- 0.1 ph/cm2/sec.
+
+A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 21.09 +- 3.99 keV (chi squared 51.91 for 57 d.o.f.).
+A thermal bremsstrahlung model fit shows the temperature of 199.36 +- -80.44 keV
+(chi squared 57.87 for 57 d.o.f.).  A double blackbody fit shows the lower temperature
+of 5.84 (error not unconstrained) keV and the higher temperature of 25.96 +15.56 keV
+(chi squared 45.99 for 55 d.o.f.).  All the quoted errors are at the 90% confidence level.
+
+The photon index of ~ 1 using the simple power-law model is consistent with those from
+the BAT-detected short GRBs (Lien & Sakamoto et al. 2016), and harder than
+the spectra of many BAT-detected SGRs, which have photon index ~ 3.
+In addition, the double-peaked structure seen in this burst is not commonly observed in
+the BAT light curves of SGRs (with time bins >= 2 ms).
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/754322/BA/

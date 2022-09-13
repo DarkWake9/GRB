@@ -1,0 +1,33 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5460
+SUBJECT: Konus-Wind observation of GRB 060814
+DATE:    06/08/15 22:52:56 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 060814 (Swift-BAT trigger #224552; Moretti et al., GCN 5447)
+triggered Konus-Wind at T0=82954.447 s UT (23:02:34.447).
+
+As observed by Konus-Wind the burst shows
+two main pulses and a weak extended emission seen up to T-T0 ~200s.
+The most intense pulse starts at T-T0 ~ -21 s
+and has a duration of ~40 s,
+the second pulse starts at T-T0 ~38 s and has a duration of ~35 s.
+T90 (18-1160 keV) is 134 +- 4 sec.
+
+The burst fluence is 2.69(-0.79, +0.12)x10^-5 erg/cm2,
+and the 256-ms peak flux measured from T0+0.576 s
+2.13(-0.55, +0.29)x10^-6  erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+
+The spectrum of the burst integrated from T0 to T0+73.984 s
+is well fitted (in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-(2-alpha)*E/Ep)
+with alpha = 1.43(-0.16, +0.15)
+and Ep = 257(-58, +122) keV (chi2 = 65/57 dof).
+
+All the quoted errors are at the 90% confidence level.
+

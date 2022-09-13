@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7272
+SUBJECT: GRB 080207, Swift-BAT refined analysis
+DATE:    08/02/08 15:19:29 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+M. Stamatikos (GSFC/ORAU), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), J. L. Racusin (PSU),
+T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS), J. Tueller (GSFC),
+T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 080207 (trigger #302728)
+(Racusin, et al., GCN Circ. 7264).  The BAT ground-calculated position is
+RA, Dec = 207.514, 7.492 deg which is 
+   RA(J2000)  = 13h 50m 3.3s 
+   Dec(J2000) =  7d 29' 32" 
+with an uncertainty of 1.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+ 
+The mask-weighted light curve shows a long smooth rise starting at ~T-20 sec,
+peaking around T+100 sec, then dropping to a minimum around T+200 sec,
+then rising again out to T+320 sec at which point the location went out
+of the BAT FOV when the spacecraft slewed to a new target.
+T90 (15-350 keV) is >300 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T+4.7 to T+332.9 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 1.17 +- 0.27, 
+and Epeak of 107.8 +- 72.5 keV (chi squared 51.31 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 6.1 +- 0.2 x 10^-06 erg/cm2
+and the 1-sec peak flux measured from T+330.34 sec in the 15-150 keV band is
+1.0 +- 0.3 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.58 +- 0.06 (chi squared 57.73 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level. 
+
+The BAT characteristics of this burst, particularly the long smooth 
+lightcurve, suggest that it might be at high redshift, but the high 
+absorption of the XRT spectrum (Racusin et al. GCN 7266) make it unlikely.
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/302728/BA/
+ 
+

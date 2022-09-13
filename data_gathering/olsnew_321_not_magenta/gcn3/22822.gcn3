@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22822
+SUBJECT: Konus-Wind observation of GRB 180618A (a short GRB with extended emission)
+DATE:    18/06/22 10:32:51 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, A. Tsvetkova, A. Lysenko, A. Kozlova, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The bright, short-duration, hard GRB 180618A
+(Swift-BAT detection: LaPorte et al., GCN Circ 22790;
+Fermi-GBM detection: Hamburg et al., GCN Circ 22794)
+triggered Konus-Wind at T0=2591.201 s UT (00:43:11.201).
+
+The burst light curve shows a bright multi-peaked initial pulse
+with a total duration of ~0.250 s, followed by
+an extended emission seen up to ~T0+10 s.
+The emission of the initial pulse is seen up to ~10 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB180618_T02591/
+
+As observed by Konus-Wind, the burst
+had a fluence of 6.24(-1.13,+1.20)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0-0.010 s,
+of 5.60(-1.83,+1.88)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the initial pulse
+(measured from T0 to T0+0.192 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.36(-0.24,+0.30)
+and Ep = 2461(-565,+788) keV (chi2 = 47/38 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.4
+(chi2 = 47/37 dof).
+
+The time-averaged spectrum of the extended emission
+(measured from T0+0.256 to T0+8.448 s)
+is best fit in the 20 keV - 2 MeV range
+by the CPL model with alpha = -0.68(-0.79,+1.59),
+Ep = 170(-66,+203) keV (chi2 = 102/98 dof).
+
+Among ~300 bursts from the Konus catalog of short GRBs
+(Svinkin et al., 2016, ApJS 224, 10), GRB 180618A is within top 1%
+in the terms of 16-ms peak energy flux and within top 15% in the terms
+of the total energy fluence, both in the 20 keV - 10 MeV range.
+In the terms of Epeak, the burst is within 1% hardest
+GRBs in the sample.
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22419
+SUBJECT: Swift J1658.2-4242: Swift BAT and XRT refined analysis
+DATE:    18/02/16 18:42:40 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), J. A. Kennea (PSU),
+S. D. Barthelmy (GSFC), A.P. Beardmore (U. Leicester),
+P. A. Evans (U Leicester), H. A. Krimm (NSF/USRA),
+D. Malesani (DARK/NBI), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), K. L. Page (U Leicester),
+T. Sakamoto (AGU), M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+report on behalf of the Swift team:
+
+Using the data set from the recent telemetry downlink,
+we report further analysis of Swift J1658.2-4242 (trigger #810300)
+(Barthelmy et al., GCN Circ. 22416).
+
+Using the BAT data from T+210 to T+963 sec, the BAT ground-calculated position is
+RA, Dec = 254.537, -42.712 deg which is
+   RA(J2000)  =  16h 58m 08.8s
+   Dec(J2000) = -42d 42' 42.1"
+with an uncertainty of 3.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 78%.
+
+The BAT mask-weighted light curve shows a continuous weak emission
+that starts before and ends after the event data range from T+210 s to T+963 s.
+Data from the BAT transient monitor (Krimm et al. 2013) show the source
+starts flaring around Feb. 14, 2018, and has reached a brightness of ~ 70 mCrab
+(15-50 keV). This is generally consistent with the detections reported by INTEGRAL
+(Grebenev et al., ATEL 11306).
+
+The BAT time-averaged spectrum from T+210.00 to T+963.02 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.98 +- 0.28.  The fluence in the 15-150 keV band is 2.2 +- 0.4 x 10^-6 erg/cm2.
+All the quoted errors are at the 90% confidence level.
+
+Swift/XRT began observation of the transient at 06:54 UT and observed the target
+in a mixture of Windowed Timing and Photon Counting mode for a total of 3.1 ks.
+In XRT data we localize the transient, utilizing UVOT to reduce the systematics
+on astrometry, to the following coordinates: RA/Dec(J2000) = 254.55266, -42.69845,
+which is equivalent to:
+
+RA(J2000) = 16h 58m 12.64s,
+Dec(J2000) = -42d 41m 54.4s,
+
+with an estimated uncertainty of 1.6 arc-seconds radius (90% confidence). We note
+that this position lies 0.4 arc-seconds from the IR source VVV J165812.62-424154.78,
+from the VISTA Variables DR2 catalog (Minniti et al., 2017), which has magnitudes
+H=16.2 and K=15.252. In addition G343.2514+00.0537, a source in the GLIMPSE catalog,
+is also consistent with the XRT localization.
+
+Spectral fits to the PC and WT data are consistent, although as WT data are unaffected
+by pile-up we report that fit here. The spectrum is well fit by a highly absorbed
+power-law model, with NH = 1.9 +/- 0.5  10^23 cm-2, and photon index = 1.7 +/- 0.5.
+The average flux, corrected for absorption, is ~1.6 x 10^-9 erg/s/cm2 (0.3 - 10 keV).
+The light-curve shows some evidence of fading during the observed period, although
+planned later observations of the new transient will be required to determine any fading.
+
+We find no evidence of pulsations or QPOs in the XRT data, although as the data are mainly
+taken in PC mode and suffer from pile-up, this does not place strong constraints on
+the presence of any periodicities in the data.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/810300/BA/
+
+The results of the BAT transient monitor are available at
+https://swift.gsfc.nasa.gov/results/transients/weak/SwiftJ1658.2-4242/

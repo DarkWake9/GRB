@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7071
+SUBJECT: GRB 071112B, Swift-BAT partial refined analysis of the SHB
+DATE:    07/11/13 00:06:15 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+E. Fenimore (LANL), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+D. Palmer (LANL), A. Parsons (GSFC), M. Perri (ASDC),
+T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-120 to T+182 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 071112 (trigger #296503)
+(Perri, et al., GCN Circ. 7058).  The BAT ground-calculated position is
+RA, Dec = 260.213, -80.884 deg, which is 
+   RA(J2000)  =  17h 20m 51.0s 
+   Dec(J2000) = -80d 53' 02" 
+with an uncertainty of 2.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 78%.
+ 
+The mask-weighted light curve shows two separated narrow peaks.  The first
+starts at T-0.7 sec and has a total width of ~64 msec.  The second
+starts at T+0.0 sec, peaks at T+0.1 sec, and ends at 0.3 sec.
+T90 (15-350 keV) is 0.30 +- 0.05 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.0 to T+0.3 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.69 +- 0.34.  The fluence in the 15-150 keV band is 4.8 +- 0.9 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.38 sec in the 15-150 keV band
+is 1.3 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+The automated script processing has generated fluence and spectral numbers
+for the second peak only.  Since there seems to be urgent need in the 
+community, we are pushing this circular out the door quickly so that at
+least these partial (second peak only) values are available to the 
+follow-up community.  By eye, the first peak appears to have a fluence
+one third that of the second peak.  Also by eye, there appears to be no
+extended emission for this SHB out to at least T+180 sec and to a flux
+level ~0.007 counts/cm2/sec.
+

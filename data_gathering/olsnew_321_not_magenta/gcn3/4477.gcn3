@@ -1,0 +1,36 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4477
+SUBJECT: GRB 060110: Swift-BAT refined analysis
+DATE:    06/01/11 02:57:21 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+A. Parsons (GSFC), L. Barbier (GSFC), S. Barthelmy (GSFC), 
+J. Cummings (GSFC/ORAU), E. Fenimore (LANL), N. Gehrels (GSFC), 
+D. Hullinger (UMD), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+J. Nousek (PSU),  D. Palmer (LANL), T. Sakamoto (GSFC/ORAU), 
+G. Sato (ISAS), M. Tripicco (GSFC-SSAI), J. Tueller (GSFC), 
+on behalf of the Swift-BAT team:
+
+Using the data set from T-299.7 to T+95 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 060110
+(trigger #176702)  (Zane, et al., GCN 4463).  
+The BAT ground-calculated position
+is (RA,Dec) = 72.738, 28.427 {4h 50m 57.2s, 28d 25' 35.7"} (deg; J2000)
++- 0.7 arcmin, (radius, sys+stat, 90% containment).  
+The partial coding was 92%.
+ 
+The mask-tagged lightcurve shows a single FRED like peak starting from 
+T-2 sec.  T90 (15-350 keV) is (17 +- 2) sec 
+(estimated error including systematics).
+Due to viewing constraints, Swift slewed away from this burst after
+95 seconds, so no information on any possible later emission is
+available.  There is no sign of emission after the single FRED peak,
+however.
+
+Over the full burst interval (T-3.7 to T+20.4 sec), 
+the power law index of the time-averaged spectrum is 1.63 +- 0.08.
+The fluence in the 15-150 keV band is (1.4 +- 0.1) x 10^-06 erg/cm2.
+The 1-sec peak photon flux measured from T+1.22 sec in the 15-150 keV
+band is (1.9 +- 0.2) ph/cm2/sec.  All the quoted errors are at the 90%
+confidence level. 
+

@@ -1,0 +1,37 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3669
+SUBJECT: GRB 050724: early Swift XRT analysis results
+DATE:    05/07/24 18:30:47 GMT
+FROM:    Pat Romano at OAB-Swift  <romano@merate.mi.astro.it>
+
+P. Romano, A. Moretti, S. Covino (INAF-OAB), L.A. Antonelli(IANF-OAR), 
+D.N. Burrows, D. Grupe (PSU), M. Chester (PSU),  G. Chincarini, G. 
+Tagliaferri (INAF-OAB), P. Boyd (GSFC-UMBC) on behalf of the Swift-XRT 
+Team report.
+
+We have analyzed the Swift XRT data from the first orbit observation of 
+GRB 050724 (Covino et al., GCN 3665). The new refined coordinates are: 
+RA(J2000) =  16h 24m 45s  Dec(J2000) = -27 32 25.2. This position is 65 
+arcseconds from the refined BAT position given in GCN 3667 (H. Krimm et 
+al), and 9 arcseconds from the XRT position given in GCN 3665. We 
+estimate an uncertainty of 6.3 arcseconds radius (90% containment). 
+However, we note that there is accumulating evidence of a time-dependent 
+systematic shift in XRT positions derived from ground-processed data 
+towards lower declinations than the optical counterparts. This effect is 
+being investigated but is not yet understood.  Extrapolation of earlier 
+positional errors suggests that the correct position could be 
+approximately 7 arcseconds north of the position given above, which 
+would be close to the on-board position given in GCN 3665.
+
+A preliminary spectral fit (simple absorbed power-law) to the WT data 
+yields a photon index of 1.93-/+0.05 in the [0.5-10] keV band. The 
+derived NH is (5.7)E21 cm^-2, which is higher than the Galactic value 
+(1.46E+21 cm-2; Dickey & Lockman 1990). The average (79-342 seconds from 
+trigger) estimated unabsorbed 0.5-10 keV flux is 5.3E-9 ergs/s/cm2.
+
+The light curves in Windowed Timing (WT) and Photon Counting (PC) mode 
+start 79 and 343 seconds from the BAT trigger (T0), and they show a 
+fading afterglow which can be fitted with a broken power law of slopes 
+-3.2+/-0.1 and -0.8+/-0.2. The unabsorbed 0.5-10.0 keV flux at 24 hours 
+after the burst is then estimated to 9E-14 ergs/s/cm2.
+

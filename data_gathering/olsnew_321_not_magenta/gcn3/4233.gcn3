@@ -1,0 +1,26 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4233
+SUBJECT: GRB051109B: no UVOT source detected
+DATE:    05/11/09 18:44:19 GMT
+FROM:    Massimiliano de Pasquale at MSSL-UCL  <mdp@mssl.ucl.ac.uk>
+
+M. De Pasquale (UCL-MSSL), G. Tagliaferri (INAF-Brera), A.J. Blustin 
+(UCL-MSSL), D. Hinshaw (GSFC-SPSYS), M. Carter (UCL-MSSL),
+N. Gehrels (GSFC) on the behalf the UVOT/Swift Team:
+
+  The Swift UVOT began observing the field of GRB051109B at 08:41:03 UT,
+84 seconds after the BAT Trigger (Tagliaferri et al, GCN 4222). No new
+source with respect to USNO B1.0 is detected within the 4 arcsecond
+radius XRT error circle (Campana et al., GCN 4226), either in the first
+exposure or in the coadded V-band exposures down to the following 3
+sigma magnitude upper limits:
+
+  Filter   T_range (sec)   Exp (sec)   3sigUL
+    V         84-284         200       18.9
+    V         84-8280        4956      20.8
+
+  The source previously reported in GCN 4222 was actually an artefact
+of the onboard processing and was not a real source.
+
+  These values are not corrected for Galactic extinction.
+

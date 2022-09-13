@@ -1,0 +1,97 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26747
+SUBJECT: IceCube-200109A: Candidate Counterparts from the Zwicky Transient Facility
+DATE:    20/01/14 15:44:12 GMT
+FROM:    Simeon Reusch at DESY  <simeon.reusch@desy.de>
+
+*
+
+Simeon Reusch and Robert Stein (DESY) report, 
+
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of
+Observatories Watching Transients Happen (GROWTH) collaborations:
+
+
+We observed the localization region of the neutrino event
+IceCube-200109A (Stein et. al, GCN 26696) with the Palomar 48-inch
+telescope, equipped with the 47 square degree ZTF camera (Bellm et al.
+2019, Graham et al. 2019). We started observations in the g-band and
+r-band beginning at 2020-01-11T08:03:45.800 UTC, approximately 32.4
+hours after event time due to bad weather. We covered 22.4 sq deg,
+corresponding to the entire localisation region. This estimate accounts
+does not account for chip gaps. Each exposure was 300s with a typical
+depth of 21.0 mag. 
+
+
+The images were processed in real-time through the ZTF reduction and
+image subtraction pipelines at IPAC to search for potential counterparts
+(Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the
+alerts database for candidates. We reject stellar sources (Tachibana and
+Miller 2018) and moving objects, and apply machine learning algorithms
+(Mahabal et al. 2019). We are left with the following high-significance
+transient candidates by our pipeline, all lying within the 90.0%
+localization of the neutrino. 
+
+
++--------------------------------------------------------------------------------+
+
+| ZTF Name     | IAU Name | RA (deg)   | DEC (deg) | Filter | Mag   |
+MagErr |
+
++--------------------------------------------------------------------------------+
+
+| ZTF19acmwlds | AT 2019yfm | 163.8379011| +11.0507782 | r      | 20.74
+| 0.13 | 
+
+| ZTF20aaeuufe | AT 2019yii | 161.616044 | +10.8570761 | r      | 20.80
+| 0.18 |  
+
+| ZTF20aaevfwa | AT 2019zxa | 162.7251345| +12.9120284 | r      | 21.13
+| 0.21 | 
+
+| ZTF20aaevgvt | AT 2020uw  | 162.25426 | +10.6885268 | r      | 20.54 |
+0.16 | 
+
++--------------------------------------------------------------------------------+
+
+
+AT 2019yfm was reported to the TNS by the Pan-STARRS1 survey (Chambers,
+et al. 2019), who first detected it on 2019-11-02. This object was first
+detected by ZTF on 2019-10-29, and has since faded by 1 mag. AT 2019yii
+was also first reported by Pan-STARRS1 to the TNS, with a discovery on
+2019-12-24. ZTF first detected it on 2019-12-29.ZTF20aaevfwa (AT
+2019zxy) was first detected on 2019-12-29. It has a hostspectroscopic
+redshift of z=0.13, which gives it an absolute magnitude of -17.91.
+These three objects have lightcurves consistent with supernovae that are
+now post-peak.
+
+
+ZTF20aaevgvt (AT 2020uw) was first detected on 2020-01-07. There is no
+apparent host galaxy. This candidate is consistent with being young SNe. 
+
+
+The arrival of a neutrino from any of these four objects would be
+consistent with a supernova CSM-interaction model for neutrino production.
+
+
+We encourage spectroscopic and photometric observations to discern the
+nature of the four unclassified objects listed above.
+
+
+Additional observations of the localisation region of IceCube 200109A
+will continue as part of the regular survey operations.
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA;
+IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA;
+DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech,
+Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd,
+Australia. ZTF acknowledges the generous support of the NSF under AST
+MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF
+under PIRE Grant No 1545949. Alert distribution service provided by
+DIRAC@UW (Patterson et al. 2019). Alert database searches are done by
+AMPEL (Nordin et al. 2019). Alert filtering and follow-up co-ordination
+is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).
+
+*

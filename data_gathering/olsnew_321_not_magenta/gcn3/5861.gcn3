@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5861
+SUBJECT: GRB 061126: Swift/UVOT Observations
+DATE:    06/11/26 19:28:23 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL/UCL) and B. Sbarufatti (INAF-IASFPA) report on behalf of the 
+Swift/UVOT team:
+
+The Swift/UVOT began observing the field of GRB 061121 at 09:14:41 on 
+2006-11-26, 27.6 minutes after the BAT trigger (Sbarufatti et al., GCN 5854). 
+An optical counterpart is detected in the V, B, U, UVW1 and UVM2 filters, as 
+well as in the White-band filter (160-650 nm) at a position consistent with 
+that reported by Vanden Berk et al. (GCN 5856). We can, therefore, put a 
+photometric upper limit on the redshift of GRB 061126 of z < ~1.5.
+
+The photometry results for each UVOT filter are given below where Tmid is 
+the average time of the exposure, in seconds, since the BAT trigger. For those 
+filters in which the afterglow is detected we report the magnitude of the 
+afterglow in the first and last exposures taken before the spacecraft slewed to 
+another target 4.3hrs after the BAT trigger. The upper limit (3 sigma) reported 
+for the UVW2 filter is taken from a co-added exposure and for all detections 
+that are less than 3-sigma above background, the significance of the detection 
+is given. The quoted errors do not include the 0.1 mag systematic uncertainty 
+in the photometric zero points.
+
+   Filter   Tmid    Exposure  Mag  Err
+              (s)     (s)
+==========================================
+   V         3423     197     19.29 0.58 (1.9 sigma)
+             9178     295     19.86 0.78 (1.4 sigma)
+
+   B         2809     197     19.75 0.24
+             7097     197     21.04 0.75 (1.5 sigma)
+
+   U         7702     197     19.54 0.27
+             15331    110     > 18.72
+
+   UVW1      5664     279     19.34 0.37
+             14515    886     > 20.04
+
+   UVM2      3627     197     19.79 0.56
+             13608    886     21.38 0.85 (1.3 sigma)
+
+   UVW2      5767     393     > 20.00
+
+   White     1655     98      18.50 0.12
+             8111     197     19.72 0.22
+==========================================
+
+The values quoted above are not corrected for the expected Galactic
+extinction of E_{B-V} = 0.18 mag (Schlegel et al. 1998).
+

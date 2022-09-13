@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20819
+SUBJECT: GRB 170306A: Swift detection of a burst
+DATE:    17/03/06 07:26:32 GMT
+FROM:    Jamie A. Kennea at PSU/Swift-XRT  <kennea@swift.psu.edu>
+
+C. B. Markwardt (NASA/GSFC), V. D'Elia (ASDC), J. A. Kennea (PSU),
+A. Y. Lien (GSFC/UMBC), A. Melandri (INAF-OAB) and
+K. L. Page (U Leicester) report on behalf of the Swift Team:
+
+At 07:06:12 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 170306A (trigger=741220).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 263.082, -44.747 which is 
+   RA(J2000) = 17h 32m 20s
+   Dec(J2000) = -44d 44' 50"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 20 sec.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~5 sec after the trigger. 
+
+The XRT began observing the field at 07:08:26.0 UT, 133.5 seconds after
+the BAT trigger. Using promptly downlinked data we find a fading,
+uncatalogued X-ray source located at RA, Dec 263.06892, -44.74808 which
+is equivalent to:
+   RA(J2000)  = 17h 32m 16.54s
+   Dec(J2000) = -44d 44' 53.1"
+with an uncertainty of 3.7 arcseconds (radius, 90% containment). This
+location is 33 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 3.82
+x 10^21 cm^-2 (Willingale et al. 2013). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 139 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. Because of the density of catalogued stars, further
+analysis is required to report an upper limit for any afterglow in the
+sub-image. The 8'x8' region for the list of sources generated on-board covers
+100% of the XRT error circle. Because of the density of catalogued stars,
+further analysis is required to report an upper limit for any afterglow in the
+region. No correction has been made for the expected extinction corresponding
+to E(B-V) of 0.41. 
+
+Burst Advocate for this burst is C. B. Markwardt (Craig.Markwardt AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,69 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1085
+SUBJECT: GCN and HETE status
+DATE:    01/07/30 21:57:49 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+INTRO:
+There have been a lot of HETE triggers in the last week.  Many people
+are wondering what is going on.  This announcement attempts to explain
+the recent developments.
+
+TRIGGERS:
+Starting about a week ago, the HETE Operations team resumed sending
+the HETE messages from the s/c to GCN -- there were gaps due to HETE and due
+to GCN (the network problems).  And since the Galactic Center
+is still in the HETE FOV, this has caused a marked step increase
+in the amount of HETE Notices (from zero to several per day).
+This increase has been further enhanced by the fact that Sco X-1 has left
+the FOV of the HETE instruments two weeks ago.  The decrease in the background
+due to the loss of Sco X-1 has increased the sensitivity to the the XRB
+sources in the Galactic Center.
+
+POSITIONS:
+Since a larger fraction of these triggers is caused by X-ray Burst sources
+which are very weak, they produce poor image detections and therefore
+locations with large uncertainites.  The HETE Operations team
+has commanded the s/c to suppress the positions if the "source"
+in the image is not significant enough.  This results in the large
+number of Notices with no positions.
+
+FILTERING:
+I have changed the GCN filtering system to compensate for this change
+in the Notice content.  If there is no position in the S/C_Update,
+S/C_Last, or even the Gnd_Analysis messages, then they are NOT distributed
+the sites requesting HETE Notices.  The reasoning is that with no position
+information in the Notice, what possible use could a follow-up observer
+make of the notification.  This change was made Saturday, 28 Jul 01.
+
+TOO MANY ALERTS?
+However, the S/C_Alerts never were intended to have position information
+(except for rare instances (~10%)), so they are still being distributed
+to those sites that have requested the HETE S/C_Alert subtype.
+Even with the filtering of the U/L/GA's that have no positions, there are
+still a large number of Alert Notices being distributed to sites.  If you feel
+that you are receiving too many Alerts (that subsequently have no U/L/GA
+follow-ups), then you might consider requesting that the Alert subtype
+be disabled for your site.  (Or you might consider "toughing it out"
+for another 4-6 weeks until the Galactic Center is no longer in the HETE FOV 
+in which case the trigger rate should drop dramatically.)
+
+ACTION ITEM:
+Sites can:
+1) keep their current configurations,   or
+2) request that S/C_Alerts be disabled,   or
+3) request that S/C_Alerts/Updates/Lasts be disabled (say for the next month
+or so, and then request they be turned back on),   or
+4) request that all HETE subtypes (A/U/L/GA) be disabled (again for the next
+month or so).
+Given the no-positions-filtering incorporated last Saturday, choice "2"
+seems like a reasonable approach if a site has any concern about "too many
+Notices".
+
+Sincerely,
+
+Scott Barthelmy
+NASA-GSFC
+301-286-3106
+scott@lheamail.gsfs.nasa.gov
+

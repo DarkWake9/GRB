@@ -1,0 +1,75 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24041
+SUBJECT: GRB 190331B: Swift observations of a ground-detected burst 
+DATE:    19/04/01 20:40:32 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+K. L. Page (U. Leicester), D. M. Palmer (LANL) and N. P. M. Kuin
+(UCL-MSSL) report on behalf of the Neil Gehrels Swift Observatory Team:
+
+Ground processing of Swift-BAT data has discovered a possible long
+duration burst, GRB 190331B, in onboard images covering 03:59:05 -
+04:25:29 UT of 2019-03-31. The onboard-calculated source location is RA,
+Dec = 326.258, -54.555 deg which is
+ RA(J2000)  =  21h 45m 01.9s
+ Dec(J2000) = -54d 33' 17.1"
+As is usual for image triggers, the light curve shows no obvious
+variation.  However, the source appears both in a single image covering
+the time range given above, and in individual shorter images covering
+subintervals, specifically 03:59:05-04:05:21; 04:05:21-04:11:21; and
+04:23:37-04:25:29 The location was outside of the BAT Field of View both
+before and after this time interval due to Swift's pre-planned observing
+schedule, so this 26 minute span is the lower limit of the emission
+interval.
+
+Swift-XRT has performed follow-up observations of this source, collecting
+2.0 ks of Photon Counting (PC) mode data between T0+73.3 ks and T0+79.0
+ks.
+
+One uncatalogued X-ray source has been detected consistent with being
+within 394 arcsec of the Swift/BAT position, it is below the RASS limit
+and shows no definitive signs of fading. Therefore, at the present time
+we cannot confirm this as the afterglow. Details of this source are
+given below:
+
+Source 1:
+  RA (J2000.0):  326.2238  =  21:44:53.71
+  Dec (J2000.0): -54.4717  =  -54:28:18.2
+  Error: 3.7 arcsec (radius, 90% conf. [Enhanced position])
+  Count-rate: 0.0124 +/- 0.0030 ct s^-1
+  Distance: 261 arcsec from Swift/BAT position.
+  Flux: (5.5 +/- 1.3)e-13 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+
+Another uncatalogued source was also detected, however this was too far
+from the GRB position to be the afterglow.
+
+The results of the XRT-team automatic analysis of the XRT observations,
+including a position-specific upper limit calculator, are available at
+http://www.swift.ac.uk/ToO_GRBs/00020885.
+
+The Swift-UVOT observations of GRB 190331B  did not find a new source,
+although a source, present in the  DSS near the XRT position, is also seen
+in the UVOT.
+
+Preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) are: 
+
+Filter         T_start(s)   T_stop(s)      Exp(s)       3-sigma UL
+
+white          73752         79024          283         >18.71
+v              74187         74615          421         >17.35
+u              73318         78999         1075         >18.73
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.02 in the direction of the burst
+(Schlegel et al. 1998).
+
+Although the gamma-ray emission duration is unusually long for a GRB, the
+source's location is 45 degrees from the Galactic plane, reducing the
+likelihood that this is a Galactic transient.
+
+Burst Advocate for this burst is K. L. Page (klp5 AT leicester.ac.uk).
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)

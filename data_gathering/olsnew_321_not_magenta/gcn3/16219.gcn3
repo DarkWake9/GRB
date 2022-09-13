@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16219
+SUBJECT: GRB 140506A: Swift/UVOT Detection
+DATE:    14/05/07 17:00:49 GMT
+FROM:    Mike Siegel at PSU/Swift MOC  <siegel@swift.psu.edu>
+
+M. H. Siegel (PSU) and B. P. Gompertz (U Leicester)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 140506A
+108 s after the BAT trigger (Gompertz et al., GCN Circ. 16214).
+A source consistent with the XRT position
+(Osborne et al. GCN Circ. 16215)
+is detected in the initial UVOT exposures.
+
+The preliminary UVOT position is:
+  RA  (J2000) =  18:27:06.04 = 276.77516 (deg.)
+  Dec (J2000) = -55:38:08.7  = -55.63575 (deg.)
+with an estimated uncertainty of 0.43 arc sec. (radius, 90% confidence).
+
+Preliminary detections and 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first and second 
+orbits are: 
+
+Filter         T_start(s)   T_stop(s)      Exp(s)       Mag
+
+white (fc)         108          257          147     17.19+-0.03
+white              108         1545          390     17.82+-0.05
+white             6078         6278          196     20.07+-0.14
+white            11748        12655          885     21.52+-0.26
+v                  650         1576           98    >18.87
+v                 5053         6688          393     19.82+-0.32
+b                  576         1520           97     19.40+-0.30
+b                 5873         7334          221    >20.57
+u (fc)             320          570          245     17.34+-0.07
+u                  320         1496          323     17.50+-0.07
+u                 5668         7303          393     20.04+-0.34
+uvw1               700         1471           77     18.60+-0.29
+uvw1              5463         7098          393    >20.29
+uvm2               675         1446           97    >18.96
+uvm2              5257         6893          393    >20.17
+uvw2               626         1570          116    >19.41
+uvw2              6284         6484          196    >19.97
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.09 in the direction of the burst
+(Schlegel et al. 1998).
+

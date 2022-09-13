@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30905
+SUBJECT: Swift Trigger 1076121 is not a GRB
+DATE:    21/10/01 01:06:32 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+E. Ambrosi (INAF-IASFPA), A. D'Ai (INAF-IASFPA),
+V. D'Elia (SSDC & INAF-OAR), J.D. Gropp (PSU), S. Laha (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL) and M. H. Siegel (PSU)
+report on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 00:43:19 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a marginal peak (trigger=1076121).  Swift slewed immediately
+to the location.  The BAT on-board calculated location is 
+RA, Dec 71.470, +12.040 which is 
+   RA(J2000) = 04h 45m 53s
+   Dec(J2000) = +12d 02' 26"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve does not show
+any significant activity. 
+
+The XRT began observing the field at 00:44:28.8 UT, 69.2 seconds after
+the BAT trigger. No source was detected in 461 s of promptly downlinked
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+284 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image covers 24% of the
+BAT error circle. The typical 3-sigma upper limit has been about 19.2 mag. The
+8'x8' region for the list of sources generated on-board covers 100% of the BAT
+error circle. The list of sources is typically complete to about 18.0 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.411. 
+
+Due to the marginal significance of the image peak (6.54 sigma), the
+lack of a peak in the light curve, the existence of a noisy pixel in
+the BAT detector plane histogram, and the lack of a detection
+of a counterpart by XRT, we believe that this trigger is
+not due to an astrophysical event. 
+

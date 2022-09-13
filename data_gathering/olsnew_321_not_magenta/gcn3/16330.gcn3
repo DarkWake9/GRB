@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16330
+SUBJECT: Swift detection of SFXT IGR J17544-2619
+DATE:    14/05/25 22:51:03 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), S. B. Cenko (GSFC), V. D'Elia (ASDC),
+A. Y. Lien (NASA/GSFC/ORAU), V. Mangano (PSU),
+F. E. Marshall (NASA/GSFC), A. Maselli (INAF-IASFPA),
+P. Romano (INAF-IASFPA), B. Sbarufatti (INAF-OAB/PSU) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 22:25:47 UT, the Swift Burst Alert Telescope (BAT) triggered twice on
+an SFXT IGR J17544-2619, (triggers=599954 and 599955).  Swift slewed immediately
+to the source.  The BAT on-board calculated location is 
+RA, Dec 268.617, -26.339, which is 
+   RA(J2000)  =  17h 54m 28s
+   Dec(J2000) = -26d 20' 19"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for image triggers the real-time BAT
+light curve shows nothing significant. 
+
+The XRT began observing the field at 22:33:07.4 UT, 439.5 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+268.6050, -26.3322 which is equivalent to:
+   RA(J2000)  = +17h 54m 25.20s
+   Dec(J2000) = -26d 19' 55.9"
+with an uncertainty of 4.9 arcseconds (radius, 90% containment). This
+location is 45 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 3.58e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+Previously, Swift observed bright flares from this source on 
+2007 November 8 (Krimm et al. 2007, Atel #1265), 
+2008 March 31 (Sidoli et al. 2009, ApJ, 690, 120), 
+2008 September 4 (Sidoli et al. 2009, MNRAS, 397, 1528), 
+2009 March 15 (Krimm et al. 2009, Atel #1971), 
+2009 June 6 (Romano et al. 2011, MNRAS, 410, 1825), 
+2010 March 4 (Romano et al. 2011, MNRAS, 412, L30),  
+2011 March 24 (Farinelli et al. 2012, MNRAS, 424, 2854),
+2012 April 12 (Romano et. al. 2012, ATel #4040),
+2012 July 24 (Romano et al. 2012, ATel #4275),
+2013 June 28 (Romano et al. 2013, ATel #5179), and 
+2013 September 11 (Romano et al. 2013, ATel #5388). 
+The historical light curve from the BAT hard X-ray transient monitor 
+(Krimm et al, 2013, ApJS, 209, 14; 15-50 keV) can be found at 
+http://swift.gsfc.nasa.gov/docs/swift/results/transients/weak/IGRJ17544-2619 . 
+

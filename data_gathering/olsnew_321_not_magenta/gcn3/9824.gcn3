@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9824
+SUBJECT: GRB 090815C: Swift refined analysis
+DATE:    09/08/17 20:41:44 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. R. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC), P.A. Evans (U. Leicester)
+on behalf of the Swift Team:
+
+At 23:21:39 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 090815C (trigger=360068).  No GCN Notices were issued
+because the trigger was below the normal acceptance level.  Also,
+the spacecraft did not execute an automated slew to the location
+because of an Earth observing constraint.  Later, ground-processing
+using the full data set T-60 to T+303 sec determined the location to be
+RA, Dec = 64.490, -65.943 deg, which is
+   RA(J2000)  =  04h 17m 57.6s
+   Dec(J2000) = -65d 56' 33.5"
+with an uncertainty of 2.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 76%.
+
+The BAT mask-weighted light curve shows a single weak peak.  T90 (15-350 keV)
+is 0.6 +- 0.3 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-0.0 to T+0.7 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.90 +- 0.47.  The fluence in the 15-150 keV band is 4.4 +- 1.2 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.18 sec in the 15-150 keV band
+is 0.6 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/360068/BA/
+
+Based on the ground-processing of the full BAT data, a ToO was executed
+6.1 hours after the trigger.  Swift-XRT obtained 4.3 ks of Photon Counting
+(PC) mode data, from T0+22 ks to T0+56 ks.  No source is found in the BAT
+error circle, with a 3-sigma upper limit of 1.9 x 10^-3 ct/sec;
+for a typical GRB, this corresponds to an upper limit on the observed
+0.3-10 keV flux of 7 x 10^-14 erg cm^-2 s^-1.
+

@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14433
+SUBJECT: Swift Trigger 554135 is probably not a GRB or transient
+DATE:    13/04/21 21:18:18 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+W. H. Baumgartner (GSFC/UMBC), D. N. Burrows (PSU),
+M. M. Chester (PSU), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), J. A. Kennea (PSU), N. P. M. Kuin (UCL-MSSL),
+F. E. Marshall (NASA/GSFC), S. R. Oates (UCL-MSSL),
+D. M. Palmer (LANL) and M. H. Siegel (PSU) report on behalf of the
+Swift Team:
+
+At 21:02:10 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a peak in the resulting image (trigger=554135).  Swift slewed 
+immediately to the location.  The BAT on-board calculated location is 
+RA, Dec 235.706, +58.498 which is 
+   RA(J2000) = 15h 42m 49s
+   Dec(J2000) = +58d 29' 51"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve is consistent with
+random variation. 
+
+The XRT began observing the field at 21:03:36.4 UT, 86.4 seconds after
+the BAT trigger. No source was detected in 253 s of promptly downlinked
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 89 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.01. 
+
+Because BAT's detection was marginal, and XRT found nothing at
+the location, we believe that this is probably not a GRB. 
+However, a final determination of the reality of the source
+will require the full downlinked dataset. 
+

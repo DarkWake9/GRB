@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5881
+SUBJECT: GRB 061201: Swift detection of a short hard burst
+DATE:    06/12/01 16:24:30 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+F. E. Marshall (NASA/GSFC), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), O. Godet (U Leicester),
+S. T. Holland (GSFC/USRA), J. A. Kennea (PSU),
+H. A. Krimm (GSFC/USRA), W. B. Landsman (NASA/GSFC),
+V. Mangano (INAF-IASFPA), C. B. Markwardt (GSFC/UMD),
+K. M. McLean (LANL/UTD), A. Moretti (INAF-OAB), D. M. Palmer (LANL),
+S. B. Pandey (UCL-MSSL), A. M. Parsons (GSFC),
+T. Sakamoto (NASA/ORAU), R. L. C. Starling (U Leicester) and
+D. E. Vanden Berk (PSU) report on behalf of the Swift Team:
+
+At 15:58:36 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 061201 (trigger=241840). Swift slewed immediately to the
+burst. The BAT on-board calculated location is RA, Dec 331.972,
+-74.600 which is 
+
+RA(J2000) = 22h 07m 53s 
+Dec(J2000) = -74d 36' 01" 
+
+with an uncertainty of 3 arcmin (radius, 90% containment, including
+systematic uncertainty). The BAT light curve showed a single peak
+with some sub-structure and total duration of about 2 sec. The peak
+count rate was ~20000 counts/sec (15-350 keV), at ~1 sec after the
+trigger. This is also a very hard burst with ~8000 counts/sec in the
+highest energy bin (100-350 keV) and ~1000 counts/sec in the lowest
+energy bin (15-25 keV). 
+
+The XRT began taking data at 15:59:58 UT, 81 seconds after the BAT
+trigger.  The XRT on-board centroid algorithm did not find a source in the
+image and no prompt position is available. Down-linked
+data show a variable source at position:
+
+RA(J2000) =  22h 08m 32.07s 
+DEC(J2000) = -74d 34' 47.0"
+
+with 3.8" of uncertainty (90% confidence). 
+This position lies 170 arcseconds from the BAT position. 
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 86 seconds after the BAT trigger. No afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.08. 
+

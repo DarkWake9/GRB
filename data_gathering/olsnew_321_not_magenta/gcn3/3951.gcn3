@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3951
+SUBJECT: GRB 050908:  Swift-BAT refined analysis
+DATE:    05/09/08 15:27:17 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+G. Sato (ISAS), L. Barbier (GSFC), S. Barthelmy (GSFC),
+P. Boyd (GSFC/UMBC), J. Cummings (GSFC/NRC), D. Hullinger (GSFC/UMD),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/NRC), J. Tueller (GSFC), W. Voges (MPE),
+on behalf of the Swift-BAT team:
+
+Using the data set from T-60 to T+120 sec from the recent telemetry
+downlink, we report further analysis of Swift-BAT GRB 050908
+(trigger #154112)  (Goad, et al., GCN 3942).  The refined BAT ground position
+is (RA,Dec) = 20.451,-12.962 {01h 21m 48s, -12d 57' 45"} [deg; J2000]
++- 1.6 arcmin, (radius, 90% containment, statistical plus systematic).
+This is 35 arcsec from the optical position reported by the KAIT GRB team
+in Li et al. 2005, GCN 3945.  The partial coding was 80%.
+
+The mask-weighted BAT light curve shows a roughly triangular shape with a
+single peak rising from T-8 sec to peak at T+2 sec and return to background
+levels at T+15 sec. The duration T90 (15-350 keV) is 20 +/- 2 sec.
+(estimated error including systematics). There is an indication of hard to
+soft spectral  evolution.  The soft emission decays more slowly and in fact
+the duration in the 50-300 keV band is T90 = 7 +/- 1 seconds.
+
+The power law index of the time-averaged spectrum fit over T-10.3 to
+T+15.4 sec is 1.93 +- 0.17.   The fluence in the 15-150 keV band is
+(5.1 +/- 0.5) x 10^-7 erg/cm2.  The 1-s peak photon flux measured from
+T+1.66 sec to T+2.66 sec in the 15-150 keV band is (0.7 +/- 0.1) ph/cm2/s.
+All the quoted errors are at the 90% confidence level.
+
+Given the measured redshift for this burst, z=3.35 (Fugazza et al., GCN 3948;
+Foley et al., GCN 3949) and assuming a cosmology with Omega_M = 0.3,
+Omega_lamda = 0.7, H0 = 65, we derive Eiso for this burst of 1.36 x 10^52 ergs
+in  65.25 - 652.50 keV at the GRB rest frame.
+

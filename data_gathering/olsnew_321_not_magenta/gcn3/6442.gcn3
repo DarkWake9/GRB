@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6442
+SUBJECT: GRB 070520B: Swift/UVOT Upper Limits
+DATE:    07/05/21 20:04:41 GMT
+FROM:    Frank Marshall at GSFC  <marshall@milkyway.gsfc.nasa.gov>
+
+F.E. Marshall (NASA/GSFC) and A. Moretti (INAF-OAB)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT observed the field of GRB 070520B starting 107 s after
+the BAT trigger (Moretti et al., GCN Circ. 6425).  We do not find any source
+in any of the UVOT observations inside the refined XRT error circle
+(Moretti et al., GCN Circ. 6438). The 3-sigma upper limits for detecting 
+a source inside the XRT error circle in the first finding chart (FC)
+exposure and co-added frames are:
+
+Filter            T_start(s)   T_stop(s)     Exp(s)     Mag (3-sigma UL)
+
+White (FC)        107          207           98         >20.3
+White             107          6197          491        >21.0
+V                 213          11338         1356       >20.1
+B                 4360         5992          393        >20.3
+U                 4155         5788          393        >20.0
+UVW1              3950         5583          393        >19.9
+UWM2              3745         12043         1094       >20.5
+UVW2              4769         10411         1152       >20.9
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E(B-V) = 0.04 mag towards
+the direction of the burst (Schlegel et al. 1998).
+
+[GCN OPS NOTE(03jun07): Per author's request, the typo in the Subject-line
+was changed from "075020B" to "070520B".]
+

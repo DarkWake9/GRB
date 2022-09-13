@@ -1,0 +1,51 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5187
+SUBJECT: GRB060526: afterglow fitting and probable jet break
+DATE:    06/05/30 16:43:38 GMT
+FROM:    Christina Thoene at Niels Bohr Institute,DARK Cosmo Ctr  <cthoene@astro.ku.dk>
+
+D. A. Kann (TLS Tautenburg) and C. C. Thoene (DARK Cosmology Center)
+report:
+
+
+Gathering further data from the GCN (Khamitov et al., GCN 5183, 5186,
+Baliyan et al., GCN 5185) in addition to those referenced in Kann &
+Hoegner (GCN 5182), we perform fits to the R afterglow light curve.
+
+A single power law fit to all data beyond 6000 seconds yields alpha = 1.04
++/- 0.01, but the late-time data beyond two days lie significantly beneath
+the fit.
+
+A broken power law gives a better fit, with alpha_1 = 0.98 +/- 0.10,
+alpha_2 = 2.06 +/- 0.13, and break time t_b = 1.76 +/- 0.1 days. The break
+smoothness parameter n is fixed to 10.
+Still, the fit is not acceptable, with strong deviations around 0.5 days.
+
+Fitting separate parts of the light curve, we find a better fit with a
+double broken power law. The first part (0.19 to 1.1 days) is described by
+alpha_1 = 1.35 +/- 0.07, alpha_2 = 0.85 +/- 0.08 and t_b = 0.44 +/- 0.08
+days, n = -10 fixed. The fit is marginally acceptable, with
+deviations due to scatter (different zero points and comparison stars).
+
+The second part (0.53 days to the end) is described by alpha_1 = 0.76 +/-
+0.04, alpha_2 = 1.87 +/- 0.07 and t_b = 1.42 +/- 0.08 days, n = 10 fixed.
+This fit is acceptable. Alpha_2 of the first part and alpha_1 of the
+second part are identical within errors, as expected. We note that the
+extension of this last fit to early times is consistent with the first
+ROTSE data point (Rykoff et al., GCN 5166) and marginally consisten with
+the very early Watcher data (French & Jelinek, GCN 5165).
+
+This strengthens the picture that the break first described by Thoene et
+al. (GCN 5179) is the jet break. The post-break decay is relatively
+smooth.
+
+We caution that these fits do not include the dense data set presented by
+Halpern, Armstrong & Mirabal (GCN 5176) and the optical flare they
+detected. Similar to early fits of GRB 030329 presented in the GCN, these fits may
+be the result of inhomogenous coverage of a highly variable light curve.
+
+Further deep monitoring is encouraged.
+
+The plots for the double broken power law fits can be found at
+www.astro.ku.dk/~cthoene
+

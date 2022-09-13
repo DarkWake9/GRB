@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22024
+SUBJECT: Swift Trigger on AXP CXOU J164710.2-455216/PSR J1647-4552
+DATE:    17/10/19 05:20:20 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+A. P. Beardmore (U Leicester), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester),
+M. H. Siegel (PSU) and A. Tohuvavohu (PSU) report on behalf of the
+Swift Team:
+
+At 04:48:48 UT, the Swift Burst Alert Telescope (BAT) triggered on 
+AXP CXOU J164710.2-455216 (trigger=780203). Swift slewed immediately 
+to the burst. The BAT on-board calculated location is 
+RA, Dec 251.794, -45.877 which is 
+   RA(J2000) = 16h 47m 11s
+   Dec(J2000) = -45d 52' 36"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single-peaked
+structure with a duration of about 0.1 sec.  The peak count rate
+was ~5000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 04:50:17.6 UT, 89.7 seconds after
+the BAT trigger. Using promptly downlinked data we find a fading X-ray
+source with an enhanced position: RA, Dec 251.7919, -45.8714 which is
+equivalent to:
+   RA(J2000)  = 16h 47m 10.06s
+   Dec(J2000) = -45d 52' 17.1"
+with an uncertainty of 2.3 arcseconds (radius, 90% containment). This
+location is 20 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. This
+position is 2.6 arcseconds from a known X-ray source: CXOU 
+J164710.2-455216/PSR J1647-4552, a known magnetar (e.g. Woods et al., 
+2011, ApJ, 726, 37), which has triggered BAT previously (GCNs 5581, 12359
+ and 21095). This source is in the Swift XRT 1SXPS catalogue as 
+1SXPSJ164710.3-455217 with a mean 0.3-10 keV count-rate of 
+0.2290 +/- 0.0028 ct/sec; see http://www.swift.ac.uk/1SXPS/1SXPSJ164710.3-455217
+for details of these previous observations. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 2.03
+x 10^22 cm^-2 (Willingale et al. 2013). 
+
+UVOT observed the source in the U band and the resulting source list
+was examined. No source was detected at the XRT position. The E(B-V) =
+11 and its high value is consistent with no detection in the UVOT. 
+

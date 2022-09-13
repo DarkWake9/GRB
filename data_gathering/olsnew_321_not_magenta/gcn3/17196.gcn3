@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17196
+SUBJECT: GRB 141220A: Swift detection of a burst with an optical afterglow
+DATE:    14/12/20 06:23:27 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. R. Cummings (NASA/UMBC), V. D'Elia (ASDC), N. Gehrels (NASA/GSFC),
+A. Y. Lien (GSFC/UMBC), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU) and M. H. Siegel (PSU) report on behalf
+of the Swift Team:
+
+At 06:02:52 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 141220A (trigger=621915).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 195.050, +32.144 which is 
+   RA(J2000) = 13h 00m 12s
+   Dec(J2000) = +32d 08' 37"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a double-peaked
+structure with a duration of about 10 sec.  The peak count rate
+was ~5000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 06:04:31.8 UT, 99.2 seconds after
+the BAT trigger. The position determined from promptly downlinked data
+differs significantly from the on-board position, suggesting that the
+XRT may have centroided on a cosmic ray; the initial XRT position
+notice should be treated with caution. Using promptly downlinked data
+we find a fading, uncatalogued X-ray source located at RA, Dec
+195.06735, 32.13361 which is equivalent to:
+   RA(J2000)  = 13h 00m 16.16s
+   Dec(J2000) = +32d 08' 01.0"
+with an uncertainty of 3.7 arcseconds (radius, 90% containment). This
+location is 64 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.33
+x 10^20 cm^-2 (Willingale et al. 2013). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 105 seconds after the BAT trigger. The 2.7'x2.7' sub-image shows a
+likely optical afterglow near the XRT position. We are unable to confirm or
+measure a magnitude due to the loss of star tracker lock. 
+
+We note that the XRT position may have an additional error of order
+10 arcseconds due to star tracker lock.  A more accurate location
+will be generated when the full dataset is available. 
+
+Burst Advocate for this burst is J. R. Cummings (jayc AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,52 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2076
+SUBJECT: GRB030328: Full Observation, X-ray Fading and Spectrum Measured
+DATE:    03/04/03 00:22:56 GMT
+FROM:    George Ricker at MIT  <grr@space.mit.edu>
+
+GRB030328: Full Observation, X-ray Fading and Spectrum Measured with Chandra
+
+N. R. Butler, H. L. Marshall, P. G. Ford, R. K. Vanderspek, G. R.
+Ricker (MIT), J. G. Jernigan (U.C. Berkeley), and D. Q. Lamb (U. Chicago)
+
+report:
+
+We have analyzed the full 94.0 ksec (livetime) Chandra LETGS 
+observation of GRB030328 (Villasenor et al, GCN1978), lasting from 
+March 29.112 (t[burst] + 15.33 hr) until March 30.278 (t[burst] + 
+43.32 hr).  The mean counting rate for the X-ray afterglow (Butler et 
+al. GCN2007) is 0.012 counts/s (summed over the dispersed signal from 
+the LETGS, and including the 0th order flux).  We observe that the 
+brightness over the full observation decays with a slope -1.5 +/- 
+0.1, consistent with the value reported by Ford et al. (GCN2027). 
+(The chi^2 is 34.27 for 30 degrees of freedom, and the fit is 
+rejectable at only 73% confidence.)  We see no evidence for a 
+temporal break.  We fit the dispersed LETGS counts (+/-1 orders 
+summed) and the counts in 0th order jointly by minimizing chi^2, 
+requiring 12 or more counts per spectral bin.  In the 0.5 to 3.0 keV 
+band, the data are well fit (chi^2/nu=48.45/48, rejectable at 54% 
+confidence) by an absorbed power-law:
+
+dN/dE = A * E^ (-gamma) * exp(-NH * sigma[E]) ,
+
+where NH = ( 5 +/- 3 ) x 10^20 cm^(-2) is the line of sight column 
+density, which is consistent with the anticipated galactic absorption 
+in the source direction; A = ( 6.8 +/- 0.9 ) x 10^(-5) ph cm^(-2) 
+s^(-1) keV^(-1); and gamma = 1.7 +/- 0.2 .  These are 1 parameter 
+1-sigma confidence intervals.
+
+Integrating the above model over the 0.5 to 3.0 keV band, the mean 
+flux for the duration of the Chandra observation is ~1.9 x 10^(-13) 
+ergs cm^(-2) s^(-1).
+
+Our analyses are continuing, and more detailed results will be posted at:
+
+http://space.mit.edu/HETE/
+
+We thank Harvey Tananbaum for his generous allocation of Director's 
+Discretion Time to this observation, and the Chandra X-ray 
+Observatory Operations personnel for the impressive promptness with 
+which this observation was planned and carried out.
+
+The preliminary results reported here may be cited.
+

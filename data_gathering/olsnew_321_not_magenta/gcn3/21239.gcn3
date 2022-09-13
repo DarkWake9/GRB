@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21239
+SUBJECT: LIGO/Virgo G288732: Updated sky map from gravitational-wave data
+DATE:    17/06/10 00:50:16 GMT
+FROM:    Eve Chase at Northwestern U./LIGO  <eve.chase@ligo.org>
+
+The LIGO Scientific Collaboration and Virgo Collaboration report:
+
+We have re-analyzed LIGO data around the time of the compact binary
+coalescence (CBC) event candidate G288732 (GCN 21221) taking into
+account our current understanding of calibration uncertainties.
+
+Parameter estimation has been performed using LALInference (Veitch et
+al., PRD 91, 042003) and a new sky map, LALInference.fits.gz, is
+available for retrieval from the GraceDB event page:
+https://gracedb.ligo.org/events/G288732
+
+This is the preferred sky map at this time. This map spans one arc in
+the Northern hemisphere in nearly the same position as the original
+BAYESTAR sky map but the region with the highest probability has
+shifted further north.
+
+The 50% and 90% credible regions span about 340 and 1090 square
+degrees, respectively, which are somewhat larger than the initial
+BAYESTAR sky map due to marginalizing over calibration uncertainties.
+
+We will recalculate the sky map once the full recalibration is
+complete and will share it at that time, but that is likely at least a
+few weeks away.

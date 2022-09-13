@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6394
+SUBJECT: GRB 070509: Swift detection of a burst
+DATE:    07/05/09 03:17:03 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+L. Vetere (PSU), S. D. Barthelmy (GSFC), M. M. Chester (PSU),
+D. Grupe (PSU), S. T. Holland (CRESST/GSFC/USRA), J. A. Kennea (PSU),
+C. B. Markwardt (GSFC/UMD), F. E. Marshall (NASA/GSFC),
+C. Pagani (PSU), D. M. Palmer (LANL), J. L. Racusin (PSU),
+M. Stamatikos (NASA/ORAU) and D. E. Vanden Berk (PSU) report on
+behalf of the Swift Team:
+
+At 02:48:27 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070509 (trigger=278903).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 237.927, -78.681 which is 
+   RA(J2000)  =  15h 51m 42s
+   Dec(J2000) = -78d 40' 49"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single FRED-like peak
+with a duration of about 10 sec.  The peak count rate
+was ~2000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began taking data at 02:49:35 UT, 68 seconds after the BAT
+trigger. XRT found a faint, uncatalogued X-ray source. The ground 
+calculated location is  RA, Dec 237.9592, -78.6511 which is   
+   RA(J2000) = 15h 51m 50.2s   
+   Dec(J2000) = -78d 39'04.0" 
+with an uncertainty of 4.6 arcsec (radius, 90% containment,
+including  systematic uncertainty). This location is 1.8 arcmin from
+the BAT on-board position, within the BAT error circle. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 72 seconds after the BAT trigger, and a
+finding chart exposure of 400 seconds in V starting 177 seconds after
+the BAT trigger. No afterglow candidate has been found in the initial
+data products. The 2.7'x2.7' sub-image covers none of the XRT error
+circle; the 8'x8' region for the list of sources generated on-board
+covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.14. 
+

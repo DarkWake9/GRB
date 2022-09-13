@@ -1,0 +1,67 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31429
+SUBJECT: Konus-Wind detection of GRB 220107A
+DATE:    22/01/10 19:41:10 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, D. Frederiks, A. Lysenko, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 220107A
+(Fermi/GBM trigger #663259536: Fermi GBM Team, GCN 31399;
+Kunzweiler et al., GCN 31400; Veres and Meegan, GCN 31406;
+Swift/BAT-GUANO localization: DeLaunay et al., GCN 31402;
+AstroSat CZTI detection: Suresh et al., GCN 31408)
+triggered Konus-Wind at T0=53142.427 s UT (14:45:42.427).
+
+The burst light curve shows a multipeaked structure
+started at ~T0-7.6 s with a total duration of ~110.8 s.
+The emission is seen up to ~2 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220107_T53142/
+
+As observed by Konus-Wind, the burst
+had a fluence of 5.48(-0.30,+0.34)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+81.344 s,
+of 8.18(-1.55,+1.54)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+105.984 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.02(-0.11,+0.12)
+and Ep = 247(-24,+30) keV (chi2 = 53/61 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.4
+(chi2 = 53/60 dof).
+
+The spectrum near the maximum count rate
+(measured from T0+73.984 to T0+89.600 s)
+is best fit in the 20 keV - 2 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.86(-0.11,+0.12),
+the high energy photon index beta = -2.91(-1.53,+0.32),
+the peak energy Ep = 186(-15,+17) keV
+(chi2 = 46/60 dof).
+
+Assuming the redshift z=1.246 (Castro-Tirado et al., GCN 31423)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the isotropic energy release E_iso to (2.3 ± 0.1)x10^53 erg,
+the isotropic luminosity L_iso to (7.8 ± 1.5)x10^52 erg/s,
+the rest-frame peak energy of the time-integrated spectrum Epi,z to (555 ±
+67) keV,
+and the rest-frame peak energy of the 'peak' spectrum Epp,z to (418 ± 38)
+keV.
+With these values, GRB 220107A is within 68% prediction bands for
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW
+GRBs
+with known redshifts (Tsvetkova et al., 2021, ApJ, 908, 83),
+see http://www.ioffe.ru/LEA/GRBs/GRB220107_T53142/GRB220107A_rest_frame.pdf
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

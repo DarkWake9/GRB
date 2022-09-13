@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9912
+SUBJECT: GRB 090915 Swift-BAT detection of a burst in ground analysis
+DATE:    09/09/16 03:11:44 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+J. R. Cummings (NASA/GSFC/CRESST) and
+C. B. Markwardt (NASA/GSFC/CRESST)
+on behalf of the Swift-BAT team
+
+At 15:35:36 Swift-BAT triggered on GRB 090915. This was
+probably the same event as Fermi-GBM trigger 274721737. No
+source was found onboard. A weak but significant source was
+found in ground analysis, 15 degrees from the GBM ground-
+calculated (2nd version) position as reported at
+http://gcn.gsfc.nasa.gov/fermi_grbs.html. The GBM position
+was also in the BAT FOV.
+
+The BAT ground-calculated position is
+RA, Dec = 237.990, +15.480 deg which is
+    RA(J2000)  =  15h 51m 57.6s
+    Dec(J2000) = +15d 28' 48"
+with an uncertainty of 3 arcmin, (radius, sys+stat, 90%
+containment). The partial coding was 12%.
+
+The mask-weighted light curve shows a single weak peak.
+T90 (15-350 keV) is 8 +- 2 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T-3 to T+5 sec is best fit
+by a power law. This fit gives a photon index 1.0 +- 0.2.
+For this model the total fluence in the 15-150 keV band
+is 5 +- 2 x 10-7 erg/cm2 and the 1-sec peak flux measured
+from T+2 sec in the 15-150 keV band is 0.8 +- 0.3 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level.
+
+A Swift TOO has been requested and approved. The narrow-
+field instruments will observe the location approximately
+13 hours after the burst.
+

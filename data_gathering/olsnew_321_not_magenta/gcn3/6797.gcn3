@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6797
+SUBJECT: Swift Status and XRT Calibration Uncertainties
+DATE:    07/09/18 10:57:59 GMT
+FROM:    David Burrows at PSU/Swift  <dnburrows@gmail.com>
+
+D. N. Burrows (PSU), J. P. Osborne (U. Leicester), G. Chincarini 
+(OAB), and N. Gehrels (NASA/GSFC) report on behalf of the Swift XRT team:
+
+The Swift observatory continues to progress toward full operations. 
+Currently BAT and XRT are turned on and operating.  BAT is detecting 
+GRBs and distributing Notices in real time (Barthelmy et al. GCN 
+6781).  UVOT remains off and autonomous GRB slewing remains disabled 
+until completion of the spacecraft gyro calibrations, which are still 
+on-going.  XRT is performing some delayed observations of GRBs and 
+posting results by manually generated Circulars (such as GCN Circular 
+6796).  XRT Notices are not yet enabled for automatic distribution.
+
+We would like to issue the following general caveats for performance 
+of the XRT following the observatory safe-hold recovery operations:
+
+1) Position determination: The safe-hold event resulted in all 3 
+Swift instruments being turned off and the observatory cooling down 
+to survival temperatures.  The observatory is now operating at its 
+normal operating temperature once again, but there is a possibility 
+that the thermal cycle caused by the safe-hold may have resulted in a 
+shift to the XRT boresight.  There is also a known boresight shift 
+introduced into the ACS software during the recovery operations as 
+part of the change to a redundant gryo.  Initial indications suggest 
+that the XRT boresight shift is small, but until XRT boresight 
+recalibrations are complete, we cannot guarantee the same level of 
+accuracy in XRT positions obtained prior to the 
+safehold.  Recalibration of the XRT boresight is our top priority and 
+we will provide updates on the results as they become available.  In 
+the meantime, we are increasing XRT position uncertainties (to 6-8 
+arcseconds) to account for the uncertainty introduced by this event.
+
+2) Spectroscopy: the XRT team has been working for many months 
+towards a change in the CCD substrate voltage in order to reduce dark 
+current and minimize the effects of the elevated operating 
+temperatures of the XRT CCD.  This voltage change has now been 
+implemented and we are recalibrating the instrument.  Until the 
+recalibration is completed, there may be small gain changes (of order 
+5%) and QE changes (of order 10% for E>6 keV) that are not correctly 
+accounted for by the current CALDB files.  We will update the CALDB 
+files as soon as possible.  Meanwhile, we urge caution in the 
+interpretation of spectral data, and we urge all users to process 
+data through xrtpipeline themselves using the latest available CALDB 
+files until the changes have worked their way into the standard 
+production pipelines at the Swift Data Center.  In particular, we 
+note that small gain errors can introduce spurious spectral features 
+associated with the Oxygen K edge, the Si K edge, and the Gold M edge 
+in the instrument response.  These can be handled during spectral 
+fits by allowing a gain adjustment in XSPEC to minimize these features.
+

@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15022
+SUBJECT: GRB 130722A: Swift/UVOT Detection
+DATE:    13/07/23 02:38:51 GMT
+FROM:    Frank Marshall at GSFC  <femarsha@khamseen.gsfc.nasa.gov>
+
+F. E. Marshall (NASA/GSFC) and E. Troja (NASA/GSFC/UMCP)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 130722A
+120 s after the BAT trigger (Troja et al., GCN Circ. 15013).
+A decaying source consistent with the optical position
+(Melandri et al. GCN Circ. 15015)
+is detected in the initial UVOT exposures.
+As noted by Melandri et al., there is a catalogued source
+near the position of the optical afterglow.
+The magnitudes and uncertainties reported below have been
+adjusted to accommodate the possibility that the nearby
+source accounts for all or none of the UVOT count rate
+observed at late times.
+
+The preliminary UVOT position is:
+  RA(J2000)  =  17:22:36.47 = 260.65196
+  DEC(J2000) = -02:58:21.6  =  -2.97268
+with an estimated uncertainty of 0.7 arcsec (radius, 90% confidence).
+The uncertainty has been adjusted slightly due to the
+possible contamination of the nearby source by up to 10%.
+
+The preliminary detection and 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures are: 
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white_FC           120          270          147          19.6 (+0.12/-0.20)
+v                 4209         5844          393         >19.7
+b                 3594        17728         2039         >20.9
+u                  332        16943         2059         >21.0
+w1                4619        16030         1218         >21.2
+w2                4004         5640          393         >21.3
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.63 in the direction of the burst
+(Schlegel et al. 1998).
+

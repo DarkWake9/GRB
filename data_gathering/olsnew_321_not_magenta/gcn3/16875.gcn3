@@ -1,0 +1,75 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16875
+SUBJECT: GRB 140930B: MASTER early possible OT detection
+DATE:    14/10/02 06:41:06 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+E. Gorbovskoy, V. Lipunov, M.Pruzhinskaya,  V.Kornilov, D.Kuvshinov, N.Tyurina, 
+P.Balanutsa, A.Kuznetsov, V.V.Chazov, D.Denisenko
+Lomonosov Moscow State University,
+Sternberg Astronomical Institute, Moscow State University
+
+A. Tlatov, A.V. Parhomenko, D. Dormidontov, V.Sennik
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+V.Yurkov, Yu.Sergienko, D.Varda, E.Sinyakov, A. Gabovich
+Blagoveschensk Educational State University, Blagoveschensk
+
+K.Ivanov, S.Yazev, N.M.Budnev, O.Gres, O.Chuvalaev, V.A.Poleshchuk
+Irkutsk State University
+
+V.Krushinski, I.Zalozhnih,  A. Popov
+Ural Federal University, Kourovka
+
+Hugo Levato and Carlos Saffe
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+Claudio Mallamaci, Carlos Lopez and Federico Podest
+Observatorio Astronomico Felix Aguilar (OAFA)
+
+
+Two MASTER II twin  robotic telescope (MASTER-Net: 
+http://observ.pereplet.ru)  located in  Blagoveschensk  and Kislovodsk was 
+pointed to the  GRB140930B (Pasquale et. al GCN 16857) 21 and 36 sec after
+notice time and  39 and 54 sec after trigger time respectively.
+
+So we have 4 first images in four different polarization started after 21 
+sec (Blagoveschensk) and 36 sec (Kislovodsk) with 10 sec exposure.
+We found 3-sigma OT    on one  tube image in Blagoveschensk at the
+WHT  position (Tanvir et. al, GCN16861, Fong et. al. GCN16863) with m = 
+16+-0.5 mag. The OT seen at one first image only.
+The image with OT is available at 
+http://master.sai.msu.ru/static/GRB/GRB140930B_MASTER_OT.png
+
+We do not see OT (Tanvir et. al GCN16857, Fong et. al. GCN16857) on three
+tube images on single and coadd images.
+The analysis strongly is complicated by presence of very bright star (USNO 
+B1 1142-0005722 ~14m) close to OT position. 
+The upper limits received by MASTER are given in the table below:
+
+
+t_start      | t-t_mid    | exptime | filt | lim  | site | coadd
+--------------------------+---------+------+------+------+-------
+19:42:21.909 | 44 sec     |      10 | P/   | 16.4 | A    |     1
+19:42:21.909 | 44 sec     |      10 | P\   | 15.7 | A    |     1*
+19:42:36.837 | 59 sec     |      10 | P|   | 15.6 | K    |     1
+19:42:36.837 | 59 sec     |      10 | P-   | 16.0 | K    |     1
+19:42:21.909 | 70 sec     |      40 | P/   | 17.3 | A    |     3
+19:42:36.837 | 98 sec     |      50 | P-   | 16.9 | K    |     3
+19:42:21.909 | 130 sec    |     130 | P/   | 18.5 | A    |     6
+19:44:26.834 | 243 sec    |     120 | P-   | 18.0 | K    |     3
+19:42:36.837 | 188 sec    |     170 | P-   | 18.6 | K    |     6
+19:42:36.837 | 692 sec    |    1060 | P-   | 19.9 | K    |    13
+19:42:21.909 | 698 sec    |    1160 | P/   | 19.7 | A    |    14
+20:29:14.938 | 6120 sec   |    5400 | C    |~21.5 | K    |    30
+
+* possible OT
+
+C is  our white (clear) band which is well described by a parity 0.8R+0.2B (USNO B1).
+
+P/ and P\ is a polarization filter which are oriented at an angle 45 and 
+135 degrees to RA axis respectivel. P- and P| is a polarization filter 
+which are oriented at an angle 0 and 90 degrees to RA axis respectivel.
+
+This message may be cited.
+

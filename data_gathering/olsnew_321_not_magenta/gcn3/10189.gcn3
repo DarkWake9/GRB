@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10189
+SUBJECT: Konus-Wind observation of GRB 091120
+DATE:    09/11/24 13:28:56 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, E. Mazets, V. Pal'shin,
+P. Oleynik, M. Ulanov, D. Svinkin, and T. Cline on behalf
+of the Konus-Wind team, report:
+
+The long GRB 091120 reported by Fermi GBM, (Gruber, GCN 10187)
+and localized by MAXI GSC (Nakajima et al., GCN 10188)
+triggered Konus-Wind at T0=16476.183 s UT (04:34:36.183).
+
+The burst light curve consists of several peaks with a total
+duration of ~55 s. The Konus-Wind light curve of this GRB
+is available at http://www.ioffe.ru/LEA/GRBs/GRB091120_T16476/
+Considerable hard to soft spectral evolution is noticed during the
+initial part of the burst.
+
+As observed by Konus-Wind the burst
+had a fluence of 2.6(+/-0.3)x10-5 erg/cm2,
+and a 256-ms peak flux measured from T0 + 25.344s
+of 2.4(+/-0.3)x10-6 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+57.600 s) is well fitted
+in the 20 keV - 2 MeV range by a power law
+with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep), with
+alpha = -1.2(-0.25, +0.28),
+and Ep = 145(-18, +26) keV (chi2 = 67/61 dof).
+
+The spectrum of the most intense peak (measured
+from T0+24.832 to T0+33.024 s) is also well fitted
+in the 20 keV - 2 MeV range by a power law
+with exponential cutoff model, for which
+alpha = -1.0(-0.4, +0.45),
+and Ep = 101(-15, +16) keV (chi2 = 48/61 dof).
+
+
+All the quoted results are preliminary.
+All the quoted errors are at the 90% confidence level.
+

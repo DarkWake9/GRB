@@ -1,0 +1,42 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  116
+SUBJECT: SGR1627-41, RXTE/ASM observations
+DATE:    98/06/19 17:20:20 GMT
+FROM:    Don Smith at MIT  <dasmith@space.mit.edu>
+
+D. A. Smith and A. M. Levine, on behalf of the RXTE/ASM teams at
+MIT and NASA/GSFC, report:
+
+"Although the ASM did not observe any of the BATSE-detected events from
+SGR 1627-41, during the interval from Jun 15 to Jun 19, three short
+(<~1 s) burst events were detected in SSC 3 at May 17.943917,
+17.954243, and 18.010803 (UTC).
+
+During the first event, the original BATSE location (GCN 107) was
+outside the FOV of the ASM.  The full width of the FOV of SSC 3 during
+the first event restricts the range of declination values along the
+IPN annulus (GCN 115) between -44.4 and -56.4 degrees.  This is fully
+consistent with the revised BATSE position reported in GCN 113.
+
+Due to low signal-to-noise, our standard cross-correlation technique
+was unable to isolate these events in our position data, but given the
+IPN annulus, we were able to search along it for a best-fit location.
+We find a minimum reduced chi-squared at R.A. = 16h35m50s, Decl.=
+-47o32' for event 1 and R.A. = 16h35m50s, Decl.= -47o39' for event 2
+(1-sigma error of 4' in Decl. in both cases).  Both positions are
+consistent with the location of the SNR (g337.0-0.1) mentioned in
+GCN 113.
+
+If we assume these bursts are coming from SNR G337.0-0.1, we can use
+its location to measure the burst fluxes:
+
+Event      Fluence            Peak Flux (2-12 keV)
+      (10^{-7} erg/cm^2)      (10^{-7} erg/cm^2/s)
+    1.5-3    3-5    5-12 kev     (1-s averages)
+
+1   <0.6    <0.4    2.1 (+- 0.3)      1.1
+2   <0.8    <0.4    2.9 (+- 0.5)      2.8
+
+Upper limits are 2-sigma.  We do not yet have pointing information for
+the observation of the third burst."
+

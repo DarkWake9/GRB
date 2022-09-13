@@ -1,0 +1,106 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20390
+SUBJECT: LIGO/Virgo G268556: Swift-XRT detection of ATLAS17aeu
+DATE:    17/01/07 13:33:36 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), S.D. Barthelmy
+(NASA/GSFC), A.P. Beardmore (U. Leicester), A.A. Breeveld (UCL-MSSL),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G.
+Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V.D'Elia(ASDC), N. Gehrels (NASA/GSFC), P. Giommi (ASI), C. Gronwall
+(PSU), H.A. Krimm (CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL), A.Y. Lien
+(GSFC/UMBC), D. Malesani (DARK/NBI), F.E. Marshall (NASA/GSFC), A.
+Melandri (INAF-OAB), B. Mingo (U. Leicester),  J.A. Nousek (PSU), S.R.
+Oates (U. Warwick), P.T. O'Brien (U. Leicester), J.P. Osborne (U.
+Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester), D.M.
+Palmer (LANL), M. Perri (ASDC), J.L. Racusin (NASA/GSFC), B. Sbarufatti
+(INAF-OAB/PSU), M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB), E. Troja
+(NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+Swift has performed a targetted observation of the interesting
+transient ATLAS17aeu (Tonry et al., LVC Circ. 20382). The observations
+ran from 00:00 UT to 01:37 UT on 2017 Jan 7, and contained 1.4 ks of
+cleaned PC mode data.
+
+A faint, uncatalouged X-ray source is found at RA, Dec = 138.3059,
++61.0919 degrees, which corresponds to:
+
+RA (J2000):  09h 13m 13.42s
+Dec (J2000): +61d 05' 30.8") 
+
+with an uncertainty of 6.3 arcsec (radius, 90% confidence). This is
+4.1" from the position of ATLAS17aeu, consitent with that object.
+
+This source ("source5" of the XRT follow up of G268556) has a 0.3-10
+keV count rate of 7.2 (+/-2.9) ×10^-3 ct s^-1, corresponding to a
+0.3-10 keV flux of 3.1 (+/-1.2) ×10^-13 erg cm^-2 s^-1, assuming a
+power-law spectrum with Gamma=1.7 and NH=3e20 cm^-2. This is below the
+upper limit derived from the RASS at the source location. This source
+has not been previously observed by public XMM data, or Swift
+observations.
+
+At the present time we cannot ascertain whether the source is variable,
+but follow up in encouraged.
+
+
+A second, catalogued ("rank 4") source is also detected in our
+observations. Details of both sources are below.
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3e20 cm^2, and photon index (Gamma)=1.7
+
+
+RANK 3 sources
+==============
+
+These are uncatalogued X-ray sources, however they are not brighter
+than previous upper limits, so do not stand out as likely counterparts
+to the GW trigger.
+  
+  Source 5:
+  =============
+    RA: 	 138.3059 ( = 09h 13m 13.42s) J2000
+    Dec:	 +61.0919 ( = +61d 05' 30.8") J2000
+    Error:	 +6.3 (arcsec, radius, 90% confidence).
+    Peak Rate:	 7.2e-03 +/- 2.9e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 3.1e-13 +/- 1.2e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    RASS UL:	 1.8e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+       so the source is not above the RASS 3-sigma upper limit.
+    There is no evidence for fading.
+    NOTE: this source is NOT within 200 kpc of a GWGC or 2MPZ galaxy
+      which is consistent (within 3-sigma) with the distance to the GW
+object.
+
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+  
+  Source 4:
+  =============
+    RA: 	 138.0838 ( = 09h 12m 20.11s) J2000
+    Dec:	 +60.9299 ( = +60d 55' 47.6") J2000
+    Error:	 +5.1 (arcsec, radius, 90% confidence).
+    Peak Rate:	 1.6e-02 +/- 4.4e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 6.7e-13 +/- 1.9e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J091222.2+605603 in the ROSAT/RASSFSC catalogue
+    Separation:  22.1" from the XRT source
+    Cat Rate:	 2.5e-02 +/- 9.4e-03 ct/sec 
+    Cat Flux:	 7.1e-13 +/- 2.6e-13 erg cm^-2 s^-1 (0.3-10 keV)
+       so the source is not above the catalogued flux.
+    There is no evidence for fading.
+    NOTE: this source is NOT within 200 kpc of a GWGC or 2MPZ galaxy
+      which is consistent (within 3-sigma) with the distance to the GW
+object.
+    A SIMBAD object `2MASS J09122029+6055503' is 3.1" away.
+    There is 1 2MASS object within the source's 3-sigma error radius.
+
+This circular is an official product of the Swift team.
+
+

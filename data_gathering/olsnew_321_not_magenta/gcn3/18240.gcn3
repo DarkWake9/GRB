@@ -1,0 +1,102 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18240
+SUBJECT: ANTARES neutrino Alert150901.32 alert and Swift XRT counterpart: MASTER optical observations and new possible candidate 
+DATE:    15/09/04 19:54:20 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+D. Dornic (CPPM), V.Lipunov (Lomonosov MSU),  S. Basa (LAM), P. A. Evans (U. 
+Leicester), J. A. Kennea (PSU), E.Gorbovskoy and N. Tyurina (Lomonosov MSU), D. 
+Buckley (SAAO), R. Rebolo (IAC)
+
+MASTER-SAAO robotic telescope (MASTER­Net: http://observ.pereplet.ru) located 
+in Sutherland received Antares neutrino alert at 2015-09-01 07:38:24.99UT 
+(sunrise) in 16s after trigger time. So and we start observations at nearest 
+available time.
+
+MASTER-SAAO automatically started Inspect  survey on the Antares neutrino 
+Alert150901.32 error­box (ra=16 25 42 dec=­27 23 24 r=1.726600) 35107 sec after 
+notice time and 35123 sec after trigger time (2015-09-01 07:38:24.99, sunrise) 
+at 2015­09­01 17:23:48 UT. Observations were up to 2015-09-01 20:25:18 (very 
+cloudy) . MASTER auto-detection system didn’t find any real transient inside 
+the neutrino error box, the unfiltered optical limit on single images is 
+18.5-19.8 (180s), the sum limit is 20.6 (540s).
+
+Observations were continuing on 2015-09-03 17:13:59 (sunset) up to 2015-09-03 
+21:21:59 (the weather disappeared). We observed in parallel MASTER twin tubes 
+in different filters BV, RI.  The optical limit in B filter on single images 
+was m_B_lim=19.1 (180s), 19.6 on sum (540s) in V filter: m_V_lim=19.3(180s), 
+19.9 on the sum(540s). The optical limit n R is m_R_lim=18.4-19.0 on single 
+images(60-180s), m_R_lim=19.7-20.3 on sum (540s-1800s). The limit in I was 
+m_I_lim=17.5-18.0 on single images(180s), 18.5 on sum (540s).
+
+MASTER-IAC robotic telescope automatically started Inspect observations on 
+2015-09-01 21:02:44, observed up to 2015-09-01 21:17:34, unfiltered 
+ (W=0.2B+0.8R, USNOB1 calibrated) limit m_lim=18.7-19.2 (180s exposition), 
+19.8(540s). Observations were continuing in B and V on 2015-09-03 20:08:40 up 
+to 2015-09-03 22:09:12 with limit up to 19.8 in B(180s) and 18.6 in V (180s). 
+No optical transient inside the neutrino error box.
+
+The Swift location 16h 26m 02.1s -27d 18m 14s  is difficult for observations 
+from Nothern hemisphere (MASTER-Kislovodsk, -Tunka, -Ural, -Amur). It can be 
+observed at sunset near the horizon.
+
+MASTER-Kislovodsk: 02 of Sept there was rain at this observatory at sunset. 
+MASTER-Kislovodsk robotic telescope automatically started Inspect survey on 
+Antares Alert Alert150901.32 on 2015-09-03 16:39:11 UT, at sunset (Object: 
+Altitude: 14.85, Sun: Altitude: -10.65), and were continuing up to 2015-09-03 
+18:04:47 when the objects’ set. The first hour we have 7  of 30-s expositions 
+ with bad weather condition, the optical  limit in V is 12.0-14.1. Unfiltered 
+observations  starts from 2015-09-03 17:21:39 (Object’s Altitude: 11.01)with 
+optical limit 17.8 on single images (60s expositions), 18.4 on sum (180s). No 
+optical transients detected by MASTER auto-detection system inside ANTARES 
+error-box.
+
+MASTER-Tunka robotic telescope started observations of this alert at sunset at 
+2015-09-03 12:40:59. The Object’s Altitude was 6.86 , the Sun: Altitude: -8.12. 
+Very close to horizon, the object goes under it, 16 expositions of 60s in V,R , 
+no OT inside ANTARES error-box..
+
+MASTER-SAAO optical light curve of bright star USNO-B1.0 0626-0501169 inside 
+Swift XRT error box   in B,V,R and I bands (top diagram) and color diagram 
+(bottom)  represented here:
+
+http://master.sai.msu.ru/static/master_antares_alert_150901.png
+The source is stable in all four band as well as its color. The average color 
+is:
+
+B-V = 0.93 +- 0.06
+
+R-I  = 1.07 +- 0.03
+
+
+  A few words about  association USNO-B1.0 0626-0501169  and X-ray Swift source 
+(Dornic et al. GCN 18231, ATel #7987 ).  Following Swift XRT observation the 
+X-ray flux is changing from 5e-13 to  4e-12 erg/cm2/s (in 0.3-10keV). Full 
+optical flux in MASTER system calibrates as:  15 mag correspond 6.4 
+10<sub>-12</sub> erg/sm<sub>2</sub>/s .  MASTER-SAAO observations of USNO-B1.0 
+0626-0501169 in January, May and September 2015 show that unfiltered magnitude 
+is m (unfiltered) = 12.36 +-0.03 (Jan); 12.32+- 0.03(May) and 12.32+-0.04 
+(Sep). Thus it can be argued that the brightness of the star has not changed by 
+more than 3%. Since the X-ray emission occurs near the stellar photosphere, so 
+due to the heating effect of its brightness should slightly increase. The 
+observed brightness of the star persistence restricts the change in X-ray flux 
+in September compared with a May and January: F_x/ F_opt  < 3 %. Consequently, 
+F_x < 7 e-11 erg/s.  This means that the X-ray heating can  not cause optical 
+variability more than  0.003 magnitude.
+  It seems the X-ray is result of the X-ray flare activity of the star (de 
+Ugarte Postigo et al. GCN 18236, ATel #7994; Smartt et al. ATel 7992; Dichiara 
+et al. ATel#7993 ).
+
+There is Globular Cluster M4 (NGC621) with millisecond pulsar (Lyne et al., 
+1988, Nature, V.332, 45-47) and possible massive (~10e3  Solar Mass) black hole 
+inside ANTARES alert 3-sigma error box (the MASTER images of the Antares  error 
+box is available at http://master.sai.msu.ru/static/Antares_alert_Image.jpeg
+
+By the way there is star Antares (1.3 degrees from center ANTARES error box, 
+but outside! ).
+
+So, we propose M4 (with relativistic objects inside) is the possible source of 
+the neutrino, which created after cosmic partical acceleration. The follow up 
+millisecond pulsars observations request.
+
+  The message may be cited.

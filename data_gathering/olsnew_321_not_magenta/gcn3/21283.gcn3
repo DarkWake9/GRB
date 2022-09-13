@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21283
+SUBJECT: GRB 170629A: Swift detection of a burst
+DATE:    17/06/29 13:22:45 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. Cholden-Brown (PSU), A. A. Breeveld (UCL-MSSL),
+S. W. K Emery (UCL-MSSL), J. A. Kennea (PSU),
+N. P. M. Kuin (UCL-MSSL), A. Y. Lien (GSFC/UMBC),
+P. T. O'Brien (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/PSU) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 12:53:33 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 170629A (trigger=759159).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 130.016, -46.587 which is 
+   RA(J2000) = 08h 40m 04s
+   Dec(J2000) = -46d 35' 11"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve is incomplete at this
+time due to lost telemetry, but was still rising at 8 sec after 
+the trigger with a count rate of ~1500 counts/sec. 
+
+The XRT began observing the field at 12:54:56.0 UT, 82.9 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+uncatalogued X-ray source located at RA, Dec 129.98653, -46.57155 which
+is equivalent to:
+   RA(J2000)  = 08h 39m 56.77s
+   Dec(J2000) = -46d 34' 17.6"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). This
+location is 91 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper.  We
+cannot determine whether the source is fading at the present time. No
+spectrum from the promptly downlinked event data is yet available to
+determine the column density. 
+
+The initial flux in the 2.5 s image was 5.16e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of  90 seconds with the UVW2 filter
+ starting  86 seconds after the BAT trigger. No credible afterglow 
+candidate has been  found in the initial data products. Analysis is
+complicated because of a nearby bright star (b Vel). Full  results
+will have to await the full dataset. 
+
+Burst Advocate for this burst is A. Cholden-Brown (aaronb AT swift.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

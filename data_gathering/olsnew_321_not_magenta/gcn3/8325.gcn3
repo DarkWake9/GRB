@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8325
+SUBJECT: AXP 1E 1547.0-5408: Swift/UVOT Upper Limits
+DATE:    08/10/04 20:26:11 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/GSFC/USRA) and H. Krimm (CRESST/USRA/GSFC)
+report on the behalf of the Swift UVOT team:
+
+       The Swift/UVOT observed the field of the anomalous X-ray pulsar
+1E 1547.0-5408 starting 63 s after the first BAT trigger (Krimm et
+al. 2008, GCN Circ. 8311).  We do not find any new source, relative to
+the DSS, at the location of the XRT source.  The 3-sigma upper limits
+for detecting a source are:
+
+Filter     T_start     T_stop     Exp(s)     Mag
+------------------------------------------------
+    v           188        588        373   >19.8
+    v           188       6183        982   >20.4
+    b           668       7003        412   >20.7
+    u           643       6798        432   >20.3
+  uvw1          619       6593        252   >20.2
+  uvm2          594       6388        255   >20.0
+  uvw2          699       7222        243   >20.2
+  white          82        182         98   >20.7
+  white          82       7208        609   >21.7
+------------------------------------------------
+
+The quoted upper limits have not been corrected for the expected, and
+highly uncertain, Galactic extinction along the line of sight
+corresponding to a reddening of E_{B-V} = 16.7 mag (Schlegel, et al.,
+1998, ApJS, 500, 525).  All photometry is on the UVOT flight system
+described in Poole et al. (2008, MNRAS, 383, 627).
+

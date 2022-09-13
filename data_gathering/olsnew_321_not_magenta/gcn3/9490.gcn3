@@ -1,0 +1,21 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9490
+SUBJECT: Ignore GCN/Swift-BAT Lightcurve Notices for trigger 353567
+DATE:    09/06/05 16:16:44 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. Barthelmy (GSFC) writes:
+
+Some of you recently received a GCN Notice for a
+Swift-BAT Lightcuve trigger 353567.  This notice
+was due to a bug in the GCN processing of the
+Swift telelmetry stream.  Due to a combination of
+(a) a BAT subthreshold trigger, (b) a gap in the TDRSS
+telemetry stream, (c) a possible (uncomfirmed yet)
+corruption in the telelmetry stream, and (d) a delay
+in the telemetry stream due to a Swift-Malindi
+telemetry downlink,  an old BAT lightcurve packet
+was converted to a Notice and distributed.
+Again, this LC Notice (trig=353567) should be ignored.
+My apologies for the confusion.
+

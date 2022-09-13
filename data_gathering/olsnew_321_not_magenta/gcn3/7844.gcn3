@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7844
+SUBJECT: GRB 080605: Swift-UVOT refined analysis
+DATE:    08/06/06 20:45:57 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@googlemail.com>
+
+N. P. M. Kuin (MSSL/UCL),  B. Sbarufatti (INAF-IASFPA), F. Marshall (GSFC),
+and P.Schady (MSSL/UCL), report on behalf of the Swift UVOT team
+
+The Swift UltraViolet/Optical Telescope (UVOT) began observations
+of GRB 080605, on June 5, 2008, at  23:49:19 UT,  82 seconds after
+the initial Swift BAT trigger (Mangano et al., GCN Circ. 7794), and
+started the finding chart exposure in the white filter at 102
+seconds after the trigger.
+
+The refined uvot position of GRB080605 is RA=262.12522, Dec=+4.01555
+deg.(= 17:28:30.05 +04:00:55.97), with an accuracy of 0.5", consistent
+with the positions reported in GCN Circ. 7830 (Holland et al.) and
+7835 (Goad et al.).
+
+The GRB is found close (about 4" distant) to a star, which may cause
+an error in the measured flux, especially at later times. For this
+analysis we use a small 2" aperture which which reduces the
+contamination, and apply a standard aperture correction. We note that
+the DSS image indicates the presence of a weak, possibly extended
+source near the position of the afterglow.
+
+The magnitudes with 1-sigma errors for GRB080605 are given below
+for the initial observation sequence.
+
+Filter Tstart(s) Tstop(s) Exp(s) Magnitude
+
+wh      102      201     98.2    18.11 +/- 0.06
+v       208      607    393.5    18.53 +/- 0.11
+wh      858      957     98.2    20.02 +/- 0.17
+uvm2    615      788     38.9   >18.38 (3 sigma UL)
+uvw1    639      813     38.9   >18.95 (3 sigma UL)
+uvw2    720      739     19.5   >18.16 (3 sigma UL)
+b     27679    28264    571.7    21.10 +/- 0.27
+u     18432    41856    550.7    21.17 +/- 0.43
+
+The values quoted above are on the UVOT Photometric System
+(Poole et al, 2008, MNRAS 383,627). They are not corrected for the
+expected galactic reddening of E(B-V) = 0.137 in the direction of
+the burst (Schlegel et al. 1998).
+

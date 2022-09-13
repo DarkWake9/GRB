@@ -1,0 +1,33 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3977
+SUBJECT: GRB 050915: Swift detection of a GRB 
+DATE:    05/09/15 12:07:39 GMT
+FROM:    David Palmer at LANL  <dmpalmer@mac.com>
+
+D. Grupe (PSU), A. Beardmore (U. Leicester), D. Burrows (PSU),
+J. Cummings (GSFC/NRC), K. Page (U. Leicester), D. Palmer (LANL),
+P. Roming (PSU), E. Rol (U. Leicester) N. Gehrels (GSFC)
+on behalf of the Swift Team
+
+
+At 11:22:42 UT, Swift-BAT triggered and located GRB050915
+(trigger=155242).  The BAT on-board calculated location is
+RA,Dec 81.714d, -28.030d {05h 26m 51s, -28d 01' 48"} (J2000),
+with an uncertainty of 3 arcmin (radius, 90% containment, stat+sys).
+The BAT light curve showed a multi-peak structure with at least
+4 well-separated peaks and a total duration of 25 sec.  The peak
+count rate was ~1500 counts/sec (15-350 keV), at ~14 seconds after
+the trigger.
+
+The spacecraft slewed immediately and the XRT began
+observing the BAT position at 11:24:09 UT (T+87 s).  The
+count rate was too low for an on-board centroid, but the
+spectrum and lightcurve strongly suggest that XRT observed a
+rapidly-fading X-ray source in the field.  The XRT position
+will be available following the next ground station data
+dump.
+
+UVOT finds no obvious new sources in the BAT error circle in
+a 100 sec image starting at T+85 s.  Further analysis will
+follow.
+

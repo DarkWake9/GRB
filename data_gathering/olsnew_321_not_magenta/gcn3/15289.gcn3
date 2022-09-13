@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15289
+SUBJECT: Swift J1242.9-3530, Swift-BAT refined analysis
+DATE:    13/10/02 18:43:17 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+J. R. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+E. E. Fenimore (LANL), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (NASA/GSFC/ORAU), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC),
+T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T0 to T+1699 sec from the recent telemetry downlink,
+we report further analysis of Swift J1242.9-3530 (formerly cited as GRB 130930A,
+BAT trigger #572489) (Ukwatta, et al., GCN Circ. 15276).  The BAT ground-
+calculated position is RA, Dec = 190.725, -35.511, which is
+RA (J2000)      12h 42m 53.9s
+Dec (J2000)     -35d 30' 40"
+with an uncertainty of 2.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 86%.
+
+The mask-weighted light curve varies slowly over the duration of the observation.
+The emission appears to extend before and after the observation so we cannot
+determine a T90 interval.
+
+The time-averaged spectrum from T0 to T0+1699 sec is best fit by a simple power-
+law model.  The power-law index of the time-averaged spectrum is 1.90 +- 0.18.
+The fluence in the 15-150 keV band is (3.9 +/- 0.4) x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+0.00 sec in the 15-150 keV band
+is 0.036 +- 0.004 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The source is also detected at a similar intensity in ground analysis of an
+earlier observation, from T0-46108 to T0-44561 seconds, but is not detected
+in an observation with a similar pointing from T0-51899 to T0-50201 seconds.
+The 90% confidence upper limit is 0.2 times the intensity observed later.
+We note that the location of the source is 27 degrees from the Galactic plane
+and not in the direction of the Galactic center.
+
+The narrow-field instruments of Swift cannot observe this location until late
+November at the earliest due to the proximity of the Sun.
+
+The data included in the automated analysis covers only T-239 to T+963 seconds.
+The results of the batgrbproduct automated analysis will be available if the US
+government ever returns to normal operations at
+http://gcn.gsfc.nasa.gov/notices_s/572489/BA/
+

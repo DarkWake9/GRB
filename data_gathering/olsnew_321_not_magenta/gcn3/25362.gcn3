@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25362
+SUBJECT: LIGO/Virgo S190814bv: Candidates identified in DECam images by the DECam-GROWTH team
+DATE:    19/08/16 11:04:37 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+I. Andreoni (Caltech), D. A. Goldstein (Caltech), T. Ahumada (UMD), S. Anand (Caltech), M. Bulla (OKC), A. Dahiwale (Caltech), K. De (Caltech), S. Dhawan (OKC), M. M. Kasliwal (Caltech), A. K. H. Kong (NTHU), D. Perley (LJMU), Y. Sharma (Caltech), J. Sollerman (OKC), A. Tzanidakis (Caltech), K. Zhang (UCB), S. B. Cenko (NASA GSFC), C. Copperwheat (LJMU), M. W. Coughlin (Caltech), D. Kaplan (UWM)
+
+report on behalf of the Global Relay of Observatories Watching Transients Happen (GROWTH) collaboration
+
+
+We processed the public data obtained by the DESGW team (GCN #25336, GCN #25360) during the follow-up of the gravitational wave event S190814bv (GCN #25324) using the image subtraction pipelines described in Goldstein, Andreoni et al. (2019) and Andreoni, Goldstein et al. (2019). 
+
+Here we report a set of candidates found within the 95% integrated probability area of the LIGO/Virgo LALInference skymap (GCN #25333) that were not previously reported on TNS or via GCN. The candidates are located far from known asteroids present in the Minor Planet Center and were detected at the same location on repeat visits separated by at least 30 minutes.
+
++------------------------------------------- -------------------------------------+
+| name      | RA        | Dec        |filter| mag  | MJD      | notes             |
++---------------------------------------------------------------------------------+
+| DG19hqpgc | 11.736272 | -25.376851 |  i   | 19.1 | 58710.28 | AT2019npd | (a)   |
+| DG19prsgc | 10.388877 | -23.742207 |  z   | 20.1 | 58710.28 | AT2019npe | (b)(c)|
+| DG19frdgc | 11.548253 | -22.118828 |  z   | 19.9 | 58710.28 | AT2019npj | (d)   |
+| DG19sevhc | 14.050077 | -25.490123 |  z   | 20.4 | 58711.32 | AT2019npy | (e)   |
+| DG19wgmjc | 13.968328 | -25.783281 |  i   | 20.5 | 58711.32 | AT2019npw | (e)   |
+| DG19tzyhc | 13.273165 | -24.360753 |  z   | 20.5 | 58711.25 | AT2019npz | (b)   |
+| DG19qabkc | 22.265283 | -32.705156 |  z   | 20.8 | 58711.35 | AT2019nqc | (e)   |
++------------------------------------------ --------------------------------------+
+(a) Probably located in the nearby galaxy NGC 0253 (z = 0.00081) therefore unlikely related with S190814bv
+(b) Consistent with the nucleus of a galaxy, could be AGN. 
+(c) SDSS photo z = 0.1594 +- 0.0225 
+(d) Hostless, or with a faint counterpart in Pan-STARRS (Chambers et al., 2016) archival images
+(e) Offset from possible host galaxy
+
+
+The observing conditions on the second night of observations (MJD 58711) were on average better than on the previous night. Therefore, faint candidates identified on the second night may not be 'young' transients close to their onset time.
+
+
+GROWTH is a worldwide collaboration comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, TTU, USyd, Australia, and SDSU, USA. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+We gratefully acknowledge Amazon, Inc. for a generous grant that funded our use of the Amazon Web Services cloud computing infrastructure to process the data above.
+
+

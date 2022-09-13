@@ -1,0 +1,85 @@
+==> /universe/htdocs/docs/gamcosray/legr/bacodine/bin_web/tmp/new_gcn3_mesg <==
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3692
+SUBJECT: Swift-BAT trigger 147918 is not a real GRB
+DATE:    05/07/28 02:10:37 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S. Barthelmy (GSFC) and D. Palmer (LANL)
+on behalf of the Swift-BAT team:
+
+The Swift-BAT trigger (trigger=147918) at 06:31:44.34 UT on 27 July 2005
+is not due to a real GRB.  A retraction Notice was issued at 07:16:16 UT;
+45 min after the trigger (appended below in the full email format).
+We note that the KAIT and RTT150 teams (GCN 3689 and 3691, resp)
+have issued Circulars on this BAT trigger.  We apologize for the
+inconvenience to these, and any other follow-up observers on this trigger.
+It will now be Swift-BAT policy to issue retraction Circulars
+in addition to the retraction Notices to insure the maximum possible
+distribution of this information.
+
+After further analysis, we confirm that the cause of the incorrect
+BAT trigger was due to a momentary loss in the Star Tracker lock
+and that this incorrect spacecraft attitude information resulted
+in the point source found in the BAT image not matching the approrpriate
+source in the BAT on-board catalog.
+
+S. Barthelmy (of GCN) further notes that the retraction Notice
+was distributed to 228 recipients, whereas the original Notice
+was distributed to 243 recipients.  The difference is due
+to those sites that have Trigger_ID enabled in their GCN configurations.
+Since the retraction Notice has the "non-GRB" flag set, the GCN filtering code
+does not send this Notice to sites with Trigger_ID filtering enabled.
+The Retraction flag should override the non-GRB flag in these delayed
+(non-realtime) Notices that are paired with original Notices.
+This is clearly a mistake in the design of the GCN filtering code
+and will be rectified soon.  We apologise for the inconvenience
+this has caused on this 147918 trigger and the other retraction Notices
+the Swift-BAT team has issued in the past.
+
+
+TITLE:           GCN/SWIFT NOTICE
+NOTICE_DATE:     Wed 27 Jul 05 07:16:16 UT
+NOTICE_TYPE:     Swift-BAT GRB Position RETRACTION
+TRIGGER_NUM:     147918,   Seg_Num: 0
+GRB_RA:          238.256d {+15h 53m 01s} (J2000),
+                 238.338d {+15h 53m 21s} (current),
+                 237.522d {+15h 50m 05s} (1950)
+GRB_DEC:         -21.768d {-21d 46' 04"} (J2000),
+                 -21.784d {-21d 47' 02"} (current),
+                 -21.620d {-21d 37' 11"} (1950)
+GRB_ERROR:       4.00 [arcmin radius, statistical only]
+GRB_INTEN:       0 [cnts]    Image_Peak=1308 [image_cnts]
+TRIGGER_DUR:     64.000 [sec]
+TRIGGER_INDEX:   20000     E_range: 15-50 keV
+BKG_INTEN:       0 [cnts]
+BKG_TIME:        0.00 SOD {00:00:00.00} UT
+BKG_DUR:         0 [sec]
+GRB_DATE:        13578 TJD;   208 DOY;   05/07/27
+GRB_TIME:        23504.34 SOD {06:31:44.34} UT
+GRB_PHI:          57.31 [deg]
+GRB_THETA:        34.52 [deg]
+SOLN_STATUS:     0x33
+RATE_SIGNIF:     0.00 [sigma]
+IMAGE_SIGNIF:    7.98 [sigma]
+MERIT_PARAMS:     +1  +0  +0  +6  +1  -2  +0  +0 +44  +1 
+SUN_POSTN:       126.67d {+08h 26m 41s}  +19.17d {+19d 10' 27"}
+SUN_DIST:        116.47 [deg]
+MOON_POSTN:       21.77d {+01h 27m 06s}   +9.68d {+09d 40' 47"}
+MOON_DIST:       142.90 [deg]
+MOON_ILLUM:      59 [%]
+GAL_COORDS:      349.43, 24.29 [deg] galactic lon,lat of the burst (or transient)
+ECL_COORDS:      240.74, -1.50 [deg] ecliptic lon,lat of the burst (or transient)
+COMMENTS:        SWIFT-BAT GRB Coordinates.  
+COMMENTS:        This is an image trigger.  (The RATE_SIGNIF & BKG_{INTEN, TIME, DUR} are undefined.)  
+COMMENTS:        A point_source was found.  
+COMMENTS:        This does not match any source in the on-board catalog.  
+COMMENTS:        This does not match any source in the ground catalog.  
+COMMENTS:        This is not a GRB.  
+COMMENTS:        This is a RETRACTION of a previous notice that identified this as a GRB -- it is NOT a GRB.  
+COMMENTS:        This Notice was ground-reprocessed from flight-data.  
+COMMENTS:          
+COMMENTS:        This is NOT a real GRN, nor is it a Transient.  
+COMMENTS:        The s/c attitude information was not valid at the time of the trigger.  
+COMMENTS:        So it is very likely this is a known source misidentified due to incorrect pointing information.  
+

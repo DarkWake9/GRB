@@ -1,0 +1,52 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3996
+SUBJECT: GRB050916 : Swift-XRT refined analysis
+DATE:    05/09/17 08:55:44 GMT
+FROM:    David Morris at PSU/Swift-XRT  <morris@astro.psu.edu>
+
+D. C. Morris (PSU), D. N. Burrows (PSU), and N. Gehrels (GSFC) report on 
+behalf of the Swift XRT team:
+
+We have analysed the first six orbits of data for GRB050916 (GCN 3991, 
+Morris et al., 2005). Using xrtcentoid, the refined position is:
+
+RA(J2000) = 09h 03m 56.8s
+Dec(J2000) = -51d 25' 50.3"
+
+with an uncertainty of 8 arcsec. This is 3.5 arcsec from the original 
+XRT position (GCN 3995, Morris et al., 2005) and 23 arcsecs from the 
+initial BAT position..
+
+The XRT began taking data at 16:39:22, 210 seconds after the BAT 
+trigger. The early data (<T+1 ks) show a fading lightcurve with decay 
+index ~-1.5. Data from T+5ks to T+15ks also show a fading lightcurve 
+consistent with decay index=-1.5 but at a flux level ~x3 greater than 
+would be expected by extrapolating the decay index from the earlier 
+data. A bright flare (peaking at x100 above the expected level) is seen 
+at T+18ks and flux levels remain elevated for 5-7ks thereafter.
+
+The overall spectrum of all the data is well fit (reduced chi-sq of 
+1.04) by a power law with neutral hydrogen equal to the galactic column 
+density of 1.1e22 :
+
+NH=1.1e22(frozen)
+gamma=1.77 + / - 0.09
+
+Due to the low overall number of events, separate fits to the flaring 
+and non-flaring portions of the lightcurve are poorly contrained and do 
+not show any significant evidence of spectral evolution:
+
+flaring:
+NH=0.89e22 + / - 0.16e22
+gamma= 1.54 + / - 0.19
+
+non-flaring:
+NH=1.12e22 + / - 0.34e22
+gamma=1.85 + / - 0.37
+
+Assuming that the decay slope has returned to ~-1.5 after the flare, the 
+expected count rate at T+1e5s is ~2e-3 cts/s which converts to an 
+unabsorbed flux of  2.4e-13 ergs cm^-2s^-1. The peak flux (seen at the 
+start of the XRT observation and at the peak of the flare) is 0.5 cts/s, 
+for a peak unabsorbed flux of 6e-11 ergs cm^-2s^-1.
+

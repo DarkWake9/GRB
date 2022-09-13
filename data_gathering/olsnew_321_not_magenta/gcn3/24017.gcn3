@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24017
+SUBJECT: Swift Trigger 895257: Detection of GRO J2058+42 in outburst
+DATE:    19/03/27 09:19:51 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+A. Y. Lien (GSFC/UMBC) and K. L. Page (U Leicester) report on behalf
+of the Neil Gehrels Swift Observatory Team:
+
+At 09:00:17 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRO J2058+42 (trigger=895257).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 314.698, +41.822 which is 
+   RA(J2000) = 20h 58m 47s
+   Dec(J2000) = +41d 49' 20"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with an image trigger, the available
+BAT light curve shows no significant structure. 
+
+The XRT began observing the field at 09:02:24.7 UT, 127.3 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+314.6953, 41.7772 which is equivalent to:
+   RA(J2000)  = 20h 58m 46.87s
+   Dec(J2000) = +41d 46' 37.9"
+with an uncertainty of 5.9 arcseconds (radius, 90% containment). This
+location is 161 arcseconds from the BAT onboard position, within the
+BAT error circle. This position is 4.8 arcseconds from a known X-ray
+source: 1SXPS J205847.2+414637. This source is in the Swift XRT 1SXPS
+catalogue with a mean 0.3-10 keV count-rate of 1.350 +/- 0.043 ct/sec;
+see http://www.swift.ac.uk/1SXPS/1SXPSJ205847.2%2B414637 for details of
+these previous observations. No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 7.09e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+131 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image covers 100% of the
+XRT error circle. The typical 3-sigma upper limit has been about 19.2 mag. The
+8'x8' region for the list of sources generated on-board covers 100% of the XRT
+error circle. The list of sources is typically complete to about 18.0 mag. No
+correction has been made for the large, but uncertain, extinction expected. 
+
+Swift-BAT previously triggered on this source on 2019 March 22 (GCN Circ. 23985). 
+The BAT transient monitor of this source shows it to be in outburst:
+https://swift.gsfc.nasa.gov/results/transients/weak/GROJ2058p42/
+

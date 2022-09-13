@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26437
+SUBJECT: LIGO/Virgo S191213g: Additional candidates from the Zwicky Transient Facility
+DATE:    19/12/15 18:58:06 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+Robert Stein (DESY), Simeon Reusch (DESY), Dan Perley (LJMU), Igor Andreoni (Caltech) and Michael Coughlin (Caltech) report on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+
+We observed the localization region of the S191213g with the Palomar 48-inch telescope, equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). We started observations in the g-band and r-band beginning at 2019-12-13T04:34:15.300 UTC, approximately 0.0 hours after event time. We covered 29.0% of the enclosed probability based on the map in 1922.7 sq deg. This estimate accounts for chip gaps. Each exposure was 30s with a typical depth of 20.5 mag.
+
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the alerts database for candidates. We reject stellar sources (Tachibana and Miller 2018) and moving objects, apply machine learning algorithms (Mahabal et al. 2019), and remove candidates with history of variability prior to the merger time. We are left with the following 10 high-significance transient candidates, each not previously reported but lying within the 95.0% localization of the skymap.
+
++--------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name   | RA (deg)   | DEC (deg)   | Filter | Mag   | MagErr |
++--------------------------------------------------------------------------------+
+| ZTF19acykyqu | AT 2019wre | 38.8196462 | +38.319851  | r      | 20.86 | 0.19   |
+| ZTF19acykyrz | AT 2019wrf | 36.0649724 | +38.0803881 | r      | 20.61 | 0.17   |
+| ZTF19acykyzj | AT 2019wrg | 36.0566238 | +51.3671257 | r      | 20.62 | 0.16   |
+| ZTF19acykzfy | AT 2019wrh | 43.1151937 | +41.6603028 | r      | 20.96 | 0.18   |
+| ZTF19acyldum | AT 2019wrn | 79.6818835 | -7.1852786  | g      | 19.84 | 0.14   |
+| ZTF19acyldun | AT 2019wrt | 79.199988  | -7.4787095  | g      | 19.97 | 0.17   |
+| ZTF19acymapa | AT 2019wro | 78.2073207 | -5.9489359  | r      | 20.53 | 0.17   |
+| ZTF19acymaxu | AT 2019wrp | 82.9524848 | -26.6945228 | g      | 18.69 | 0.08   |
+| ZTF19acymixu | AT 2019wrr | 90.9139363 | +60.728245  | r      | 20.06 | 0.13   |
+| ZTF19acymlhi | AT 2019wrs | 91.5924259 | -18.8047267 | g      | 19.36 | 0.11   |
++--------------------------------------------------------------------------------+
+
+Among our candidates, we highlight two in particular. ZTF19acyldun, first detected 24.0 hours after merger, was not detected 0.9 days prior to a depth of 19.29. The host galaxy spectroscopic redshift of ZTF19acyldun, z = 0.057273, is consistent with the distance estimate for S191213g. ZTF19acymixu, first detected 2.5 hours after merger, was not detected 0.2 days prior to a depth of 18.94.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.

@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27384
+SUBJECT: SGR Swift J1818.0-1607: Swift-BAT refined analysis
+DATE:    20/03/14 05:40:49 GMT
+FROM:    Takanori Sakamoto at AGU  <tsakamoto@phys.aoyama.ac.jp>
+
+M. Stamatikos (OSU), S. D. Barthelmy (GSFC), J. R. Cummings (CPI),
+P. A. Evans (U Leicester), H. A. Krimm (NSF),S. Laha (GSFC/UMBC),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+  
+Using the data set from T-61 to T+242 sec from the recent telemetry downlink,
+we report further analysis of the BAT detection of a burst from a newly
+discovered SGR Swift J1818.0-1607 (trigger #960986)
+(Evans, et al., GCN Circ. 27373).  The BAT ground-calculated position is
+RA, Dec = 274.515, -16.125 deg which is
+    RA(J2000)  =  18h 18m 03.7s
+    Dec(J2000) = -16d 07' 31.8"
+with an uncertainty of 2.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 99%.
+  
+The mask-weighted light curve in 2 ms time bins shows a burst that starts
+at T-0.005 sec, peaks at T+0.002 sec and ends at T+0.015 sec.  There is a hint
+of a second pulse around T+0.01 s.  T90 (15-350 keV) is ~0.01 sec.
+  
+The time-averaged spectrum from T+0.00 to T+0.01 sec fit by a simple
+power-law model shows the power law index of 3.17 +- 0.63
+(chi squared 51.9 for 57 d.o.f.).  The fluence in the 15-150 keV band is
+2.9 +- 1.1 x 10^-9 erg/cm2.  The 1-sec peak photon flux measured from
+T+0.00 sec in the 15-150 keV band is 8.7 +- 3.1 ph/cm2/sec.
+
+A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 5.5 +- 0.9 keV (chi squared 43.2 for 57 d.o.f.).  A thermal
+bremsstrahlung model fit shows the temperature of 15.8 +- 6.5 keV
+(chi squared 48.7 for 57 d.o.f.).  All the quoted errors are at the 90%
+confidence level.
+  
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/960986/BA/
+

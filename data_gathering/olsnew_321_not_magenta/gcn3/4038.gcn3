@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4038
+SUBJECT: GRB050925: Swift UVOT upper limits
+DATE:    05/09/26 17:04:31 GMT
+FROM:    Simon Rosen at MSSL-UCL  <srr@mssl.ucl.ac.uk>
+
+S. Rosen (MSSL), S. T. Holland (GSFC/USRA),  F. Marshall(GSFC), 
+P. Boyd (GSFC-UMBC), N. Gehrels (GSFC) on behalf of the Swift/UVOT team.
+
+
+The Swift/UVOT began observing the field of the short-soft burst, GRB050925, 
+at 09:06:03 UT, 90s seconds after the BAT trigger (Holland et al., GCN 4034). 
+There has been no reported XRT detection of a fading afterglow and no 
+counterpart found in ground-based observations (GCN 4035 and 4036) so 
+no positional information other than the BAT location (revised position 
+from Markwardt et al., GCN 4037) is currently available.
+
+Within the 1.5 arcmin BAT error circle (GCN 4037), no new optical/UV source 
+is detected and we derive the following 3 sigma upper limit magnitudes 
+on any optical/UV counterpart in the summed images in each UVOT filter 
+(from 6" radius apertures centred on the BAT location which is 
+representative of the local background).
+
+    Filter  T_range(sec)  Exp(sec)  3sig UL
+
+      V        90-50567     3885     20.2
+      B      3787-57196     4600     21.8
+      U      3682-56297     4654     21.2
+      UVW1   3578-52239     4080     21.4
+      UVM2   3473-51474     4541     21.8
+      UVW2   3892-62080     4356     21.8
+
+Where T_range is the time post-trigger over which
+the summed images were accumulated and Exp is the
+total exposure time. The magnitudes upper limits
+are not corrected for extinction which is high since 
+the BAT position is in the galactic plane.
+
+

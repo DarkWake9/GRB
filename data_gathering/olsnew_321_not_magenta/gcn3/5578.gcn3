@@ -1,0 +1,36 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5578
+SUBJECT: GRB 060919, Swift-BAT refined analysis
+DATE:    06/09/19 14:55:29 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+G. Sato (GSFC/ISAS), L. Barbier (GSFC), S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+C. Guidorzi (Univ Bicocca&INAF-OAB), D. Hullinger (BYU-Idaho),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/ORAU), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+ 
+Using the data set from T-239 to T+950 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 060919 (trigger #230115)
+(Guidorzi, et al., GCN Circ. 5575).  The BAT ground-calculated position
+is RA,Dec = 276.900, -50.994 deg {18h 27m 36.0s, -50d 59' 39.8"} (J2000)
++- 1.6 arcmin, (radius, sys+stat, 90% containment).  The partial coding was 29%.
+ 
+There is an initial FRED peak starting at T-1 sec, peaking at T+0,
+and lasting out to T+5 sec.  There is smaller, 4-sec wide FRED-like peak
+starting at T+6 sec.  There is an even smaller, 4-sec wide peak centered
+at T+24 sec.  We note that our initial circular using the raw TDRSS rate
+lightcurves described a second episode of emission at T+300 sec.
+Now using the masked-tagged light curves, this second episode was due
+to a noisy detector in the instrument.  T90 (15-350 keV) is 9.1 +- 0.2 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-1.0 to T+9.0 is best fit by 
+a simple power-law model.  The power law index of the time-averaged
+spectrum is 1.85 +- 0.19.  The fluence in the 15-150 keV band
+is 5.5 +- 0.6 x 10^-7 erg/cm2.  The 1-sec peak photon flux measured
+from T-0.49 sec in the 15-150 keV band is 2.2 +- 0.3 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level. 
+

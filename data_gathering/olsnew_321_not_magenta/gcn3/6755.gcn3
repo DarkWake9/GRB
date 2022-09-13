@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6755
+SUBJECT: GRB070810B: Swift/UVOT Upper Limits
+DATE:    07/08/11 19:32:53 GMT
+FROM:    Peter Brown at PSU  <pbrown@astro.psu.edu>
+
+P.J. Brown and F.E. Marshall (NASA/GSFC)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT observed the field of GRB 070810B (trigger #287409)
+starting 65 s after the BAT trigger (Marshall et al., GCN Circ. 6743).
+We do not find any new source in the UVOT observations inside the
+refined BAT error circle (Sakamoto et al., GCN Circ. 6753) including
+the two low significance XRT sources (Starling et al., GCN Circ. 6754).
+The galaxy 2MASX J00355339+0849273 (= LEDA 1354367) is visible in
+all filters except uvm2, but does not show signs of variability.
+The 3-sigma upper limits for detecting a source in the first
+finding chart (FC) exposure and co-added frames are:
+
+Filter       T_start(s)   T_stop(s)     Exp(s)     Mag (3-sigma UL)
+
+white (FC)   66           165           98         >20.5
+white        66           13134         1345       >22.0
+v            172          7372          1296       >20.4
+b            653          12222         1299       >21.2
+u            628          7987          549        >20.3
+uvw1         604          7782          549        >20.5
+uvm2         579          7577          549        >20.4
+uvw2         683          13859         1237       >21.1
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E(B-V) = 0.053 mag towards
+the direction of the burst (Schlegel et al. 1998).
+

@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15260
+SUBJECT: Konus-Wind observation of GRB 130925A
+DATE:    13/09/26 15:36:02 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin,
+P. Oleynik, M. Ulanov, D. Svinkin, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The very long GRB 130925A
+(Swift-BAT trigger #571830: Lien et al., GCN 15246;
+Markwardt et al., GCN 15257;
+MAXI/GSC detection: Suzuki et al., GCN 15248;
+Fermi/GBM detection: Fitzpatrick, GCN 15255;
+INTEGRAL/SPI-ACS observation: Savchenko et al., GCN 15259)
+was detected by Konus-Wind in the waiting mode.
+
+The light curve shows several multi-peaked pulses separated
+by long periods of a low-level emission with a total duration of ~4500 s.
+At least three major emission episodes can be distingushed:
+the first one, which triggered BAT, started at ~T0(BAT)-130 s
+and lasted until ~T0(BAT)+170 s; the second, more fluent episode,
+from ~T0(BAT)+1750 s to ~T0(BAT)+2950 s;
+and the third, the weakest one, which onset corresponds
+to the MAXI detection, from ~T0(BAT)+3730 s to ~T0(BAT)+4360 s.
+
+The possible precursor detected by GBM is clearly seen
+at ~T0(BAT)-900 s in the softest KW energy band.
+
+As observed by Konus-Wind, the burst had a fluence of
+(5.0 ± 0.1)x10^-4 erg/cm2 and a 2.944-s peak energy flux,
+measured from T0(BAT)+2548.858, of (1.0 ± 0.03)x10^-6 erg/cm2
+(both in the 20 - 10000 keV energy range).
+
+The emission shows no signs of strong spectral variability.
+Modeling the KW 3-channel time-integrated spectrum
+(from T0(BAT)-120 s to T0(BAT)+4340 s) by a power law
+with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.42 ± 0.04, and Ep = 181 ± 10 keV.
+
+Assuming z = 0.347 (Vreeswijk et al., GCN 15249) and a
+standard cosmology model with H_0 = 71 km/s/Mpc, Omega_M = 0.27,
+Omega_Lambda = 0.73,
+the isotropic energy release E_iso = (1.50 ± 0.03)x10^53 erg,
+the peak isotropic luminosity L_iso = (4.0 ± 0.1)x10^50 erg,
+and Ep_rest is 244 ±  13 keV.
+
+Thus, the prompt gamma-ray emission properties of this GRB: fluence, Ep,
+and E_iso are similar to those observed in other long energetic GRBs;
+the only outstanding feature of the burst is its huge duration.
+In that, it resembles other ultra-long bursts: GRB 111209A at z=0.677
+(with total duration of ~10000 s: Golenetskii et al., GCN 12663)
+and GRB 121027A at z=1.77 (with a total duration of >4000 s: Starling et al.,
+in preparation).
+Therefore, we suggest that the extremely rapid and dramatic X-ray flaring
+observed over the first 10^4 s after the BAT trigger (Evans et al., GCN 15254)
+at least partially corresponds to the burst prompt emission.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB130925A/
+

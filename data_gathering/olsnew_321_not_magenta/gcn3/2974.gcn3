@@ -1,0 +1,47 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2974
+SUBJECT: GRB 050124: Swift XRT Detection of X-ray Afterglow Emission
+DATE:    05/01/24 18:37:21 GMT
+FROM:    David Burrows at PSU/Swift  <burrows@astro.psu.edu>
+
+C. Pagani (OAB), J. Kennea, D. N. Burrows, J. E. Hill, J. A. Nousek (PSU), G.
+Chincarini, G. Tagliaferri, A. Moretti, P. Romano, S. Campana (OAB), M. Goad,
+K. Page, A. Wells, J. Osborne, A. Beardmore (U. Leicester), M. Chester (PSU),
+S. Barthelmy, N. Gehrels, N. White (GSFC), P. Schady (MSSL), M. Tripicco
+(GSFC), L. Cominsky (Sonoma State U.),
+P. Giommi (ASDC) on behalf of the Swift XRT team.
+
+The Swift X-Ray Telescope (XRT) was pointed at GRB050124 ( GCN 2972, Markwardt
+et al.; GCN 2973, Cummings et al.) on 2005/01/24 at 14:34 UT.  The spacecraft
+did not autonomously slew to the burst since automated slewing was not enabled
+at the time the burst occurred.  The observation was performed as a Target of
+Opportunity beginning about 3 hours after the burst.  The first XRT exposure
+was at 14:35:16 UT.  The observation continued until 15:17:12 UT.  The XRT was
+in Auto State and the ToO was performed as if it were an automated burst
+observation.  XRT attempted to determine a prompt centroid but found
+insufficient counts.  It took one frame in Piled-up Photodiode mode, one in
+Low-rate Photodiode mode, and then settled into Windowed Timing mode (1-D
+position resolution, 2 ms timing) for the bulk of the observation (1100
+frames), with about 220 frames in Photon-Counting mode (2-D position
+resolution, 2.5s timing).
+
+We processed the data on the ground and detect a bright X-ray source in this
+field.  The X-ray centroid has an approximate location of:
+RA(J2000) = 12:51:31.1
+Dec(J2000) = 13:02:34.3.
+
+This position is not corrected for stellar aberration, and we estimate an
+uncertainty of about 30 arcseconds as a result.  A more accurate position will
+be available once the data are processed by the XRT pipeline software.
+
+Checks against SIMBAD and the HEASARC master X-ray catalog yielded no known
+source at this position on the sky.   The XRT position is about 70 arcseconds
+from the refined BAT positions (GCN 2973).
+
+We have a total of about 600 counts from this object in the first observation
+set.  The spectrum appears consistent with a power-law, but detailed fitting
+awaits the pipeline-processed data.  Additional automated observations are in
+progress when the afterglow field is observable by Swift.
+
+[GCN OPS NOTE (24Jan05): In the first line, the "GRB010124" was changed to "GRB050124"
+as per author's request.]

@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21095
+SUBJECT: Swift Trigger on AXP CXOU J164710.2-455216
+DATE:    17/05/16 07:44:47 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+A. D'Ai (INAF-IASFPA), P.A. Evans (U Leicester),
+H. A. Krimm (NSF/USRA), N. P. M. Kuin (UCL-MSSL),
+A. Y. Lien (GSFC/UMBC) and K. L. Page (U Leicester) report on behalf
+of the Swift Team:
+
+At 07:09:02 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located an outburst (trigger=753085).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 251.827, -45.895 which is 
+   RA(J2000) = 16h 47m 18s
+   Dec(J2000) = -45d 53' 40"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single short spike
+with a duration of about 0.1 sec.  The peak count rate
+was ~2000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 07:09:57.4 UT, 55.5 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 251.7913, -45.8715 which is
+equivalent to:
+   RA(J2000)  = 16h 47m 09.91s
+   Dec(J2000) = -45d 52' 17.5"
+with an uncertainty of 2.7 arcseconds (radius, 90% containment). This
+location is 122 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper.  We cannot determine whether the source is
+fading at the present time. This position is 2.9 arcseconds from a
+known X-ray source: CXOU J164710.2-455216/PSR J1647-4552, a known 
+magnetar (e.g. Woods et al., 2011, ApJ, 726, 37), which has triggered 
+BAT previously (GCNs 5581 and 12359). This source is also in the 
+Swift XRT 1SXPS catalogue with a mean 0.3-10 keV count-rate of 0.2290 +/- 0.0028 
+ct/sec; see http://www.swift.ac.uk/1SXPS/1SXPSJ164710.3-455217 for details of 
+these previous observations. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (2.03 x
+10^22 cm^-2, Willingale et al. 2013), with an excess column of 3.8
+(+4.22/-3.09) x 10^22 cm^-2 (90% confidence). 
+
+UVOT observed the source in the U band and the resulting source list
+was examined. No source was detected at the XRT position. The E(B-V) =
+11 and its high value is consistent with no detection in the UVOT. 
+

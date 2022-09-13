@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24918
+SUBJECT: GRB 190630B, Swift-BAT refined analysis
+DATE:    19/06/30 16:01:10 GMT
+FROM:    Hans Krimm at NSF/NASA-GSFC  <hkrimm@nsf.gov>
+
+J. R. Cummings (CPI), S. D. Barthelmy (GSFC),  H. A. Krimm (NSF),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), F. Marshall (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+50 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 190630B (trigger #912102)
+(Krimm, et al., GCN Circ. 24913).  The BAT ground-calculated position is
+RA, Dec = 223.729, 41.528 deg which is 
+  RA(J2000)  =  14h 54m 55.0s 
+  Dec(J2000) = +41d 31' 42.4" 
+with an uncertainty of 2.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+
+The mask-weighted light curve shows a single, weak pulse with a FRED-like
+shape, starting from T-3 sec, peaking at T+1 sec and fading to background by
+T+6 sec.  We note that data is available until approximately T+250 sec.  However,
+after T+50 sec, the background cannot be properly subtracted due to high 
+background levels arising from Swift’s entry into the SAA.  Therefore we only
+use data prior to T+50 sec for analysis.  The raw light curve shows no sign of any
+burst activity after the initial pulse.  T90 (15-350 keV) is 5.6 +- 0.9 sec 
+(estimated error including systematics).
+
+The time-averaged spectrum from T-1.7 to T+4.7 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.36 +- 0.24.  The fluence in the 15-150 keV band is 2.8 +- 0.4 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.19 sec in the 15-150 keV band
+is 1.1 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+In the initial circular for GRB 190630B (Krimm, et al., GCN Circ. 24913), this event
+was reported as a possible burst.   After the more complete analysis carried out here,
+we conclude that Swift trigger 912102 is indeed a GRB.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/912102/BA/
+
+

@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19505
+SUBJECT: Trigger 689353 (possible transient near Sgr A*), Swift-BAT refined analysis
+DATE:    16/06/07 21:27:11 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+H. A. Krimm (GSFC/USRA), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), J. A. Kennea (PSU), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT trigger #689353 (possible transient near Sgr A*;
+Barthelmy, et al., GCN Circ. 19499).  The BAT ground-calculated position is
+RA, Dec = 266.507, -29.063 deg which is
+  RA(J2000)  =  17h 46m 01.6s
+  Dec(J2000) = -29d 03' 47.3"
+with an uncertainty of 3.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 93%.
+
+The mask-weighted light curve shows some very weak emissions that starts
+before the source came into the BAT field of view, and extends beyond the end
+of the event data range. The Bayesian-block analysis failed to find the duration
+due to the lack of obvious light curve structure.
+
+The time-averaged spectrum from T+0.0 to T+344.0 sec (the BAT image-trigger
+interval) is best fit by a simple power-law model.  The power law index of the
+time-averaged spectrum is 2.00 +- 0.50.  The fluence in the 15-150 keV band
+is 6.4 +- 2.0 x 10^-7 erg/cm2. All the quoted errors are at the 90% confidence
+level.
+
+Because of the low-significance detection (5.2 sigma), we cannot rule out the
+possibility of this detection is due to instrumental noise.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/689353/BA/

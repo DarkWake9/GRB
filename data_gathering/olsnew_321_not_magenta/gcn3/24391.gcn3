@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24391
+SUBJECT: LIGO/Virgo S190503bf: Swift/BAT Counterpart Search
+DATE:    19/05/04 18:00:39 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), S. D. Barthelmy (NASA/GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU),
+A. A. Breeveld (MSSL-UCL), A. P. Beardmore (U. Leicester),
+D. N. Burrows (PSU), S. Campana (INAF-OAB), S. B. Cenko (NASA/GSFC),
+G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA),
+P. D'Avanzo (INAF-OAB), V. D'Elia(ASDC), S. Emery (UCL-MSSL),
+P. A. Evans (U. Leicester), P. Giommi (ASI), C. Gronwall (PSU),
+D. Hartmann (Clemson U.), J. A. Kennea (PSU), H. A. Krimm (NSF),
+N. P. M. Kuin (UCL-MSSL), F. E. Marshall (NASA/GSFC),
+A. Melandri (INAF-OAB), B. Mingo (U. Leicester), J. A. Nousek (PSU),
+S. R. Oates (Uni. of Warwick), P. T. O'Brien (U. Leicester),
+J. P. Osborne (U. Leicester), C. Pagani (U. Leicester),
+K. L. Page (U.Leicester), M. Perri (ASDC),
+J. L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU),
+M. H. Siegel (PSU), G. Tagliaferri (INAF-OAB), A. Tohuvavohu (PSU),
+E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+We report the search results in the BAT data within T0 +/- 100 s of the
+LVC event S190503bf (LIGO/VIRGO Collaboration GCN Circ. 24377),
+where T0 is the LVC trigger time (2019-05-03T18:54:04.294 UTC).
+
+The center of the BAT field of view at T0 is
+RA = 94.035 deg,
+DEC = -21.368 deg,
+ROLL = 293.102 deg.
+The BAT FOV (>10% partial coding) covers 99.75% of the integrated
+LVC localization probability, and 99.82% of the galaxy convolved
+probability (Evans et al. 2016).
+
+Within T0 +/- 100 s, no significant detections (signal-to-noise ratio
+>~ 5 sigma) are found in the BAT raw light curves with time bins of 64 ms,
+1 s, and 1.6 s. Note that the short spike around ~T-400s is due to
+detector noise. Assuming an on-axis (100% coded) short GRB with a typical
+spectrum in the BAT energy range (i.e., a simple power-law model with a
+power-law index of -1.32, Lien & Sakamoto et al. 2016), the 5-sigma upper
+limit in the 1-s binned light curve corresponds to a flux upper limit
+(15-350 keV) of ~ 6.74 x 10^-8 erg/s/cm^2.
+
+Event data are available from T0+17.837 to T0+21.002. Image analysis from
+the entire event data range and in 15-350 keV shows a marginal detection
+of 6.049 sigma at (RA, DEC) = (42.0339,-20.9022) deg (following the BAT
+onboard image trigger threshold, we consider detections below ~ 7 sigma
+in the image domain to be sub-threshold.). The location is at the edge of
+the BAT FOV and well outside of the 90% LVC containment region. Also, no
+significant structure is seen in the mask-weighted light curve at this
+position. Therefore, we believe that this marginal detection is unlikely
+to be related to the LVC event, and possibly not astrophysical.
+Within the LVC 99.5% containment region, the highest significance detection
+in this image is 4.7 sigma, which is consistent with noise fluctuation that
+we have seen in BAT images.
+
+BAT retains decreased, but significant, sensitivity to rate increases for
+gamma-ray events outside of its FOV. About 0.25% of the integrated LVC
+localization probability was outside of the BAT FOV but above the
+Earth's limb from Swift's location, and the corresponding flux upper limits
+for this region are within roughly an order of magnitude higher than those
+within the FOV.
+
+The results of the BAT analysis are available at
+https://swift.gsfc.nasa.gov/results/BATbursts/team_web/S190503bf/web/source.html

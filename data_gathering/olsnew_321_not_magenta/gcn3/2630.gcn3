@@ -1,0 +1,78 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2630
+SUBJECT: XRF040701: Second-Epoch Chandra Observations
+DATE:    04/07/22 00:23:59 GMT
+FROM:    Derek Fox at CIT  <derekfox@astro.caltech.edu>
+
+D.B. Fox (Caltech) reports on behalf of a larger collaboration: 
+
+"We have observed the HETE localization region for XRF040701 (Barraud
+et al., GCN 2620) with the Chandra X-ray Observatory + ACIS for 20.4
+ksec beginning at 01:07 UT on July 18, 2004.  The observation aimpoint
+and dither pattern are identical to that of our first-epoch
+observation (Fox, GCN 2626); however, a change in the roll angle has
+resulted in a slightly different exposure pattern due to the chip gaps
+of the ACIS-I array.  A comprehensive "wavdetect" analysis provides
+the following second-epoch fluxes for sources from the catalog of our
+initial observation:  
+
+                                     Ep #1     Ep #2     Variability
+   #   RA             Dec          Flux  Unc  Flux  Unc    %  Sigma
+  ==================================================================
+   1   20 47 20.696  -40 19 41.52  25.6  3.2  20.5  3.0    80  -1.6
+   2   20 48 16.097  -40 11 08.83  11.1  2.1   6.4  1.7    58  -2.2
+   3   20 47 46.602  -40 13 57.15   9.0  2.0   9.4  2.3   105   0.2
+   4   20 47 23.970  -40 10 56.07   8.8  2.2  12.2  2.3   138   1.5
+   5   20 47 19.056  -40 12 34.33   8.5  1.8   7.8  1.9    92  -0.4
+   6   20 48 05.696  -40 18 23.01   8.1  1.8   7.5  1.8    93  -0.3
+   7   20 47 51.810  -40 19 36.90   8.0  1.7   5.1  1.5    63  -1.7
+   8   20 47 06.231  -40 14 45.66   7.8  1.8   7.7  2.0    99  -0.0
+   9   20 48 05.337  -40 12 33.74   6.1  1.5   7.2  1.7   118   0.8
+  10   20 47 36.158  -40 16 23.76   6.0  1.4   5.5  1.4    92  -0.3
+  11   20 47 39.249  -40 17 48.32   5.5  1.4   6.2  1.6   112   0.5
+  12   20 48 09.981  -40 07 21.19   5.4  1.6   3.8  1.4    71  -1.0
+  13   20 47 40.281  -40 12 25.99   4.5  1.3   4.8  1.8   107   0.2
+  14   20 48 23.282  -40 18 01.06   4.3  1.7   4.5  1.6   105   0.1
+  15   20 47 33.118  -40 14 47.48   4.1  1.2   6.0  1.6   146   1.6
+  16   20 47 12.288  -40 11 12.49   4.1  1.3   4.4  1.5   106   0.2
+  17   20 48 10.054  -40 19 32.71   4.1  1.3   3.4  1.3    83  -0.5
+  18   20 47 51.377  -40 06 03.64   3.9  1.4   1.6  1.0    41  -1.7
+  19   20 47 56.453  -40 07 15.01   3.9  1.3   2.5  1.2    65  -1.0
+  20   20 47 55.713  -40 13 47.56   3.8  1.1   4.0  1.3   104   0.1
+  21   20 47 47.349  -40 15 16.97   3.7  1.1   4.2  1.3   112   0.4
+  22   20 47 34.678  -40 10 42.16   3.7  1.1   1.9  0.9    53  -1.6
+  23   20 48 09.739  -40 10 05.74   3.6  1.2   3.4  1.2    95  -0.1
+  ==================================================================
+  24   20 48 16.866  -40 11 46.55   3.0  1.1   4.1  1.2   135   0.9
+  25   20 47 49.854  -40 06 27.14   2.8  1.1   2.7  1.2    96  -0.1
+  26   20 48 10.259  -40 12 56.78   2.7  1.0   3.2  1.2   121   0.5
+  27   20 47 36.341  -40 14 26.55   2.6  1.0   3.6  1.2   135   1.0
+  28   20 47 48.624  -40 08 28.52   2.5  1.0   1.6  0.9    64  -0.9
+  29   20 47 17.085  -40 08 25.65   2.3  1.0   1.5  0.0    66  -0.7
+  30   20 48 03.514  -40 10 28.77   2.0  0.9   3.7  1.4   180   1.7
+  31   20 48 03.294  -40 10 47.68   1.8  0.9  <1.5   -    <82 <-0.4
+  32   20 48 08.121  -40 18 42.44   1.8  0.9   2.0  1.0   108   0.2
+  33   20 47 48.309  -40 15 04.50   1.8  0.8  <1.5   -    <83 <-0.4
+  34   20 47 48.316  -40 16 00.24   1.8  0.8   1.6  0.8    89  -0.3
+  35   20 47 47.796  -40 15 12.32   1.7  0.6  <1.5   -     88  -0.4
+  36   20 47 58.094  -40 17 35.49   1.4  0.8  <1.5   -   <103  <0.1
+  37   20 47 28.350  -40 14 29.01   1.4  0.8  <1.5   -   <107  <0.1
+  ==================================================================
+
+As in the original catalog, fluxes here are in approximate units of
+1E-06 photons/cm^2/s.  Given a flux F1 and flux uncertainty U1 at the
+first epoch, and flux (uncertainty) F2 (U2) at the second epoch, we
+calculate the "Variability %" as 100*F2/F1, and the "Variability
+Sigma" as (F2-F1)/U1.
+
+Our two Chandra observations take place 7.9 and 16.6 days after the
+burst, respectively, and we therefore expect a flux decay of
+approximately 53% for an afterglow power-law decay with index alpha ~
+-1.  The sources showing the strongest evidence for a decrease in flux
+of this magnitude are (in decreasing order of confidence) sources #2,
+#7, and #18.  Source #18 is 13-arcsec outside the HETE localization.
+
+Given the brightness of Source #2, its fading behavior, and its
+association with a z=0.2146 galaxy (Kelson et al., GCN 2627), this
+source is our preferred candidate of these three."
+

@@ -1,0 +1,101 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3795
+SUBJECT: GRB050813, SDSS pre-burst observations
+DATE:    05/08/13 21:26:42 GMT
+FROM:    Daniel Eisenstein at U of Arizona  <deisenstein@as.arizona.edu>
+
+Daniel J. Eisenstein (Arizona) and Richard Cool (Arizona)
+report on behalf of the Sloan Digital Sky Survey (SDSS) Collaboration:
+
+The Sloan Digital Sky Survey imaged the region of GRB 050813 on May 
+8 & 10, 2005 (MJD 53499.42 and 53501.25, roughly 90 days before the burst
+trigger; the XRT position itself was imaged on May 10).  These data will
+be part of a future SDSS data release, but as they should be useful as
+a pre-burst comparison image and for calibrating photometry, we are
+supplying the images and photometry measurements for this GRB field.
+SDSS spectroscopy has not yet been performed here.
+
+Data from the SDSS is being placed at 
+    http://cmb.as.arizona.edu/~eisenste/grb050813
+These include a JPG and 2 files of photometry and astrometry.  We plan
+to supply FITS image cutouts from the SDSS next week, but technical
+problems have stalled us this weekend.
+
+
+Inspecting the images and catalogs, the conclusion most immediately
+relevant to the topic of short-hard bursts is that there is no bright
+galaxy anywhere close to the GRB position.
+
+To the limit of the SDSS imaging, there are only 2 objects within 15" of
+the XRT position.  One is a bright star discussed by Berger (GCN 3792):
+RA = 241.98915, Dec = 11.24521, u = 17.286, g = 16.112, r = 15.694,
+i = 15.552, z = 15.481.  The photon errors on this photometry are 1%
+or less in all bands.  The colors of this object are that of an F star
+and the morphology is point-like; it is extremely unlikely that this
+object is extragalactic.
+
+The other object is faint: RA = 241.98688, Dec = 11.25030, g = 22.36+-0.1,
+r = 21.34+-0.06, i = 20.87+-0.06, and essentially undetected in u and z.
+The above are model magnitudes; the Petrosian magnitudes are brighter by
+several tenths of a magnitude but have much larger errors.  This object
+is also point-like in the SDSS imaging, and the g-r/r-i colors are that
+of a K star.  Hence, this object is probably also a star, but it is close
+enough to the SDSS detection limit that a deeper image would be needed to
+be certain of this.
+
+Going out to 19" from the XRT position, there is a third point-like
+object: RA = 241.98325, Dec = 11.24473, g=22.44+-0.1, r=20.95+-0.05,
+i=19.74+-03, z=19.18+-0.07.  This is very likely an M star.
+
+There are 2 extended sources at r=21 within 1 arcminute of the XRT position,
+a blue galaxy at RA=241.97903, Dec=11.24401 (33" from the XRT position) 
+and a red one at RA=241.97762, Dec=11.24578 (36" from the XRT position).
+There are no galaxies brighter than r=19.5 within 3 arcminutes of the XRT
+position.
+
+
+The file grb050813.jpg contains a simple JPG made from the SDSS gri
+images.  North is *not* up in this image; rather, north is about 2:30
+on the clock and east is at 5:30.  The bright star mentioned above is
+the one close to the center.  The second object is the nearest faint
+object to the upper right.  The XRT position is halfway in between these.
+The image is about 4' on a side.
+
+
+In the file grb050813.sdss_objects.dat, we report photometry of 201
+objects detected by SDSS within 3' radius of the Swift BAT position.
+We have removed saturated objects and objects fainter than 23.0 in the
+r-band model magnitude.
+
+All quantities are standard SDSS photometry, meaning that they are
+very close to AB zeropoints and are quoted in asinh magnitudes.
+Photometric zeropoints are known to about 2% rms; photon noise can be
+much worse, of course.  See documentation for details.  None of this
+photometry is corrected for dust extinction.  The Schlegel, Finkbeiner,
+and Davis (1998) predictions for this region are A_u = 0.288 mag, A_g =
+0.212 mag, A_r = 0.154 mag, A_i = 0.117 mag, and A_z = 0.083 mag.
+
+SDSS astrometry is generally better than 0.1 arcsecond per coordinate.
+Users requiring high precision astrometry should take note that the SDSS
+astrometric system can differ from other systems, such as those used in
+GCN 3792; we have not checked the offsets in this region.
+
+See the SDSS DR4 documentation for more details: http://www.sdss.org/dr4.
+
+These data have been reduced with the DR4 data pipelines; however, they
+are not part of that data release.  We cannot guarantee that the values
+here will exactly match those of the data release in which these data
+are included.
+
+
+To aid with calibration of other data sets, we also report the
+astrometry and photometry of 147 brighter stars (r<20.5) in a wider
+region (roughly 6') around the burst.  These data are in the file
+grb050813.sdss_calibstars.dat.  Beware that some of these stars are not
+well-detected in the u-band; use the errors to monitor this.
+
+
+This note can be cited, but please also cite the SDSS data release paper,
+Abazajian et al. (AJ, 129, 1755, 2005), when using the data or referring
+to the technical documentation.
+

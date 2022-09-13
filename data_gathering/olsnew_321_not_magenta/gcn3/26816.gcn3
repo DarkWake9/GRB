@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26816
+SUBJECT: IceCube-200117A: One Additional Candidate Counterpart from the Zwicky Transient Facility
+DATE:    20/01/19 15:18:05 GMT
+FROM:    Simeon Reusch at DESY  <simeon.reusch@desy.de>
+
+Simeon Reusch and Robert Stein (DESY) report,
+
+On behalf of the Zwicky Transient Facility (ZTF) and the Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+
+We observed the localization region of the neutrino event IC200117A (GCN 26802) with the Palomar 48-inch telescope, equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). We started observations in the g-band and r-band beginning at 2020-01-18T09:06:01.700 UTC, approximately 22.0 hours after event time. We covered 2.7 sq deg, corresponding to 99.9% of the reported localisation region. This estimate accounts for chip gaps. Each exposure was 300s with a typical depth of 21.0 mag.
+ 
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the alerts database for candidates. We reject stellar sources (Tachibana and Miller 2018) and moving objects, and apply machine learning algorithms (Mahabal et al. 2019). After an additional night of ZTF follow-up, we detected another high-significance transient candidate lying within the 90.0% localization of the skymap:
+
++---------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name   | RA (deg)    | DEC (deg)   | Filter | Mag   | MagErr |
++---------------------------------------------------------------------------------+
+| ZTF20aaglixd | AT 2020agt | 116.9488624 | +28.6654337 | g      | 21.25 | 0.19   |
++---------------------------------------------------------------------------------+
+
+ZTF20aaglixd (AT 2020agt) was first detected on 2020-01-19. The lightcurve evolution is compatible with ZTF20aaglixd being a young supernova. A high-energy neutrino from this source would be consistent with a supernova-CSM interaction model for neutrino production. 
+
+To discern the nature of this event we encourage spectroscopic follow-up of both this object and ZTF19acxopgh/AT 2019zyu, the other potential counterpart previously identified by ZTF (Reusch and Stein, GCN 26813).
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341.
+GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).
+Alert database searches are done by AMPEL (Nordin et al. 2019).
+

@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18110
+SUBJECT: GRB 150801B: Swift-BAT refined analysis
+DATE:    15/08/02 19:47:20 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+S. D. Barthelmy (GSFC),  J. R. Cummings (CPI), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+  
+Using the data set from T-240 to T+962 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 150801B (trigger #650977) (Sbarufatti,
+et al., GCN Circ. 18104).  The BAT ground-calculated position is
+RA, Dec = 82.961, -5.374 deg which is
+    RA(J2000)  =  05h 31m 50.7s
+    Dec(J2000) = -05d 22' 28.0"
+with an uncertainty of 1.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 62%.
+  
+The mask-weighted light curve shows two widely separated episodes.  The first
+episode was about 40 seconds long starting at about T-20 seconds.  There were two
+prominent overlapping FRED peaks at T0 and T+10 seconds, followed by a return to
+background level.  The second episode became detectable in BAT at about T+330
+seconds and returned to background about T+450 seconds.  There were two smaller
+cusp-shaped peaks at T+370 and T+390 seconds, about 10 and 7 seconds long.  The
+peaks between 330 and 450 seconds are at the same time as bright X-ray flares
+detected by XRT.  T90 (15-350 keV) was 426 +- 30 sec (estimated error including
+systematics).
+  
+The time-averaged spectrum from T-30.16 to T+433.94 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.84 +- 0.14.  The fluence in the 15-150 keV band is 3.1 +- 0.2 x 10^-06 erg/cm2.
+The 1-sec peak photon flux measured from T+9.32 sec in the 15-150 keV band
+is 2.5 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+  
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/650977/BA/
+

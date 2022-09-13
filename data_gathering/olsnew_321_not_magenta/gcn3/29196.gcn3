@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29196
+SUBJECT: Konus-Wind observation of GRB 201227A
+DATE:    20/12/29 16:42:04 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, A. Tsvetkova, A. Lysenko, A. Ridnaia, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration, very bright GRB 201227A
+(AGILE detection: Ursi et al., GCN Circ. 29179;
+IPN triangulation: Svinkin et al., GCN Circ. 29182;
+Insight-HXMT/HE detection: Xiao et al., GCN Circ. 29187)
+triggered Konus-Wind at T0=54846.705 s UT (15:14:06.705).
+
+The burst light curve shows a multipeaked structure
+which starts at ~T0-28 ms and has a total duration of ~106 ms.
+The emission is seen up to ~4 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB201227_T54846/
+
+As observed by Konus-Wind, the burst
+had a fluence of 4.30(-0.52,+0.54)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0,
+of 1.05(-0.18,+0.18)x10^-4 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+0.064 s)
+is best fit in the 20 keV - 4 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.17(-0.18,+0.21)
+and Ep = 870(-130,+151) keV (chi2 = 17/19 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.3
+(chi2 = 17/18 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

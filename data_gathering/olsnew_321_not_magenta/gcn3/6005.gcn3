@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6005
+SUBJECT: GRB 070110: Swift detection of a burst with a possible optical afterglow
+DATE:    07/01/10 07:57:12 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+H. A. Krimm (GSFC/USRA), S. D. Barthelmy (GSFC), M. M. Chester (PSU),
+G. Cusumano (INAF-IASFPA), P. A. Evans (U Leicester),
+N. Gehrels (NASA/GSFC), C. B. Markwardt (GSFC/UMD),
+T. Mineo (INAF-IASFPA), K. L. Page (U Leicester),
+D. M. Palmer (LANL), P. Romano (Univ. Bicocca & INAF-OAB),
+B. Sbarufatti (INAF-IASFPA), M. Stamatikos (NASA/ORAU) and
+R. L. C. Starling (U Leicester) report on behalf of the Swift Team:
+
+At 07:22:41 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070110 (trigger=255445).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 0.910, -52.961 which is 
+   RA(J2000)  =  00h 03m 38s
+   Dec(J2000) = -52d 57' 39"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a multi-peaked
+structure with a duration of about 70 sec.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~18 sec after the trigger. 
+
+The XRT began observing the field at 07:24:15 UT, 93 seconds after the
+BAT trigger. XRT found a bright, variable, uncatalogued X-ray source
+located at RA(J2000) = 00h 03m 39.6s, Dec(J2000) = -52d 58' 29.1", with an
+estimated uncertainty of 4.2 arcseconds (90% confidence radius). 
+This is a ground calculated position based on prompt downlinked data. 
+This location is 52 arcseconds from the BAT on-board position, within
+the BAT error circle. The initial flux in the 2.5s image was
+2.1e-09 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 104 seconds after the BAT trigger. An
+afterglow candidate is apparent at RA=0.9133 (00h 03m 39.20s),
+DEC=-52.9740 (-52d 58' 26.3") with an estimated uncertainty of ± 1
+arcsec, which is 4.6" from the XRT position. The estimated magnitude
+is 20.9 (white), with an uncertainty of ± 1 mag. Additional data
+products are not yet available to confirm the candidate. The
+2.7'x2.7' sub-image covers 100% of the XRT error circle. No
+correction has been made for the expected extinction corresponding to
+E(B-V) of 0.014. 
+

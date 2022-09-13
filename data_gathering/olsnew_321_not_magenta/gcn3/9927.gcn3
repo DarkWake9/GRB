@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9927
+SUBJECT: GRB 090715B: Skynet/PROMPT Detections
+DATE:    09/09/21 04:34:58 GMT
+FROM:    Josh Haislip at U.North Carolina  <haislip@physics.unc.edu>
+
+J. Haislip, D. Reichart, K. Ivarsen, A. LaCluyze, A. Foster, J. Moore, A. 
+Oza, M. Schubel, J. Styblova, A. Trotter, J. A. Crain, and M. Nysewander 
+report:
+
+Skynet observed the Swift/BAT localization of GRB 090715B (Vetere et al., 
+GCN 9668) with three of the 16" PROMPT telescopes at CTIO beginning 3.1 
+hours after the trigger in UBRI.
+
+We detect the afterglow (Vetere et al., GCN 9668).  Stacking only images 
+that increase the limiting magnitude yields:
+
+mean                                                          1-sig. 
+1-sig.
+time                                                          sys.    stat.
+since                                              cal.       cal.    cal.
+trig.  tel.      exp.     fil.  magnitude          stars*     unc.    unc.
+(h)              (# x s)                                      (mag)   (mag)
+
+3.4    PROMPT-3  12 x 80  U     > 17.5 (3 sig.)    10 SDSS 7  0.094   0.001
+3.8    PROMPT-5  40 x 80  I     19.80 +0.40 -0.29  93 SDSS 7  0.268   0.000
+3.8    PROMPT-4  41 x 80  R     20.31 +0.20 -0.17  78 SDSS 7  0.151   0.000
+4.0    PROMPT-3  29 x 80  B     > 20.8 (3 sig.)    37 SDSS 7  0.134   0.000
+
+* Transformed using Jester et al., 2005, ApJ, 130, 873.
+

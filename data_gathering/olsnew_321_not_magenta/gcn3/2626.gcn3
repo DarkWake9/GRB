@@ -1,0 +1,82 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2626
+SUBJECT: XRF040701: First-Epoch Chandra Observations
+DATE:    04/07/12 17:09:09 GMT
+FROM:    Derek Fox at CIT  <derekfox@astro.caltech.edu>
+
+D.B. Fox (Caltech) reports on behalf of a larger collaboration: 
+
+"We have observed the HETE localization region for XRF040701 (Barraud
+et al., GCN 2620) with the Chandra X-ray Observatory + ACIS for 22.3
+ksec beginning at 07:35 UT on July 9, 2004.  The observation aimpoint
+and dither pattern provide coverage of the full 8'-radius error
+circle, with some decrease in exposure over the chip gaps of the
+ACIS-I array.  A comprehensive "wavdetect" analysis provides the
+following catalog of sources detected with >3-sigma confidence in or
+near (<15") the HETE localization region (coordinates are J2000):
+
+   #  Name                   RA            Dec           Flux  DSS?
+  ==================================================================
+   1  CXOU J204720.7-401941  20 47 20.696  -40 19 41.52  25.6
+   2  CXOU J204816.1-401108  20 48 16.097  -40 11 08.83  11.1   Y*
+   3  CXOU J204746.6-401357  20 47 46.602  -40 13 57.15   9.0
+   4  CXOU J204724.0-401056  20 47 23.970  -40 10 56.07   8.8   Y
+   5  CXOU J204719.1-401234  20 47 19.056  -40 12 34.33   8.5
+   6  CXOU J204805.7-401823  20 48 05.696  -40 18 23.01   8.1
+   7  CXOU J204751.8-401936  20 47 51.810  -40 19 36.90   8.0
+   8  CXOU J204706.2-401445  20 47 06.231  -40 14 45.66   7.7
+   9  CXOU J204805.3-401233  20 48 05.337  -40 12 33.74   6.1
+  10  CXOU J204736.2-401623  20 47 36.158  -40 16 23.76   6.0   Y
+  11  CXOU J204739.2-401748  20 47 39.249  -40 17 48.32   5.5   Y
+  12  CXOU J204810.0-400721  20 48 09.981  -40 07 21.19   5.4
+  13  CXOU J204740.3-401225  20 47 40.281  -40 12 25.99   4.5
+  14  CXOU J204823.3-401801  20 48 23.282  -40 18 01.06   4.3
+  15  CXOU J204733.1-401447  20 47 33.118  -40 14 47.48   4.1
+  16  CXOU J204712.3-401112  20 47 12.288  -40 11 12.49   4.1
+  17  CXOU J204810.1-401932  20 48 10.054  -40 19 32.71   4.1
+  18  CXOU J204751.4-400603  20 47 51.377  -40 06 03.64   3.9
+  19  CXOU J204756.5-400715  20 47 56.453  -40 07 15.01   3.9
+  20  CXOU J204755.7-401347  20 47 55.713  -40 13 47.56   3.8   Y
+  21  CXOU J204747.3-401516  20 47 47.349  -40 15 16.97   3.7   Y
+  22  CXOU J204734.7-401042  20 47 34.678  -40 10 42.16   3.7
+  23  CXOU J204809.7-401005  20 48  9.739  -40 10 05.74   3.6
+  ==================================================================
+  24  CXOU J204816.9-401146  20 48 16.866  -40 11 46.55   3.0
+  25  CXOU J204749.9-40 627  20 47 49.854  -40 06 27.14   2.8   Y
+  26  CXOU J204810.3-401256  20 48 10.259  -40 12 56.78   2.7
+  27  CXOU J204736.3-401426  20 47 36.341  -40 14 26.55   2.6
+  28  CXOU J204748.6-40 828  20 47 48.624  -40 08 28.52   2.5
+  29  CXOU J204717.1-40 825  20 47 17.085  -40 08 25.65   2.3
+  30  CXOU J204803.5-401028  20 48 03.514  -40 10 28.77   2.0
+  31  CXOU J204803.3-401047  20 48 03.294  -40 10 47.68   1.8
+  32  CXOU J204808.1-401842  20 48 08.121  -40 18 42.44   1.8
+  33  CXOU J204748.3-401504  20 47 48.309  -40 15 04.50   1.8
+  34  CXOU J204748.3-401600  20 47 48.316  -40 16 00.24   1.8
+  35  CXOU J204747.8-401512  20 47 47.796  -40 15 12.32   1.7
+  36  CXOU J204758.1-401735  20 47 58.094  -40 17 35.49   1.5
+  37  CXOU J204728.4-401429  20 47 28.350  -40 14 29.01   1.4
+  ==================================================================
+
+Source positions have been adjusted for the observation boresight
+correction of (0.4" E, 0.1" S), determined by reference to DSS images
+of the field, and are uncertain by +/- 0.5" (two-sigma).  Approximate
+0.3-8.0 keV fluxes are given in units of 1E-06 photons/cm^2/s, and
+sources with an identifiable counterpart in the DSS are indicated
+("Y").  Source #2, CXOU J204816.1-401108, is unique among these ("Y*")
+in that it is associated with a resolved galaxy or galaxies in the
+DSS, perhaps reminiscent of the host galaxy of GRB031203 (Prochaska et
+al. 2004, astro-ph/0402085).
+
+We expect the X-ray afterglow of XRF040701 to be found in the brighter
+portions of the above catalog.  In particular, most known X-ray
+afterglows would have F_X above the 3E-06 photons/cm^2/s division
+indicated in the table.
+
+A second observation of this region is scheduled for July 18, 2004,
+with processed data products expected within three days of the
+observation.  Results of the observation and a comparison of the two
+epochs will be reported by GCN at that time."
+
+We acknowledge an extraordinary effort by the CXC in providing rapid
+processing of this challenging data-set, thereby enabling this report.
+

@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16332
+SUBJECT: Swift detection of a bright X-ray source in M31
+DATE:    14/05/27 22:15:08 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+S. B. Cenko (GSFC), V. D'Elia (ASDC), D. Malesani (DARK/NBI),
+V. Mangano (PSU), F. E. Marshall (NASA/GSFC) and
+B. Sbarufatti (INAF-OAB/PSU) report on behalf of the Swift Team:
+
+At 21:24:27 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a source in M31 (NGC224) (trigger=600114).  Swift slewed immediately
+to the target.  The BAT on-board calculated location is 
+RA, Dec 10.402, +41.556, which is 
+   RA(J2000)  =  00h 41m 37s
+   Dec(J2000) = +41d 33' 23"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This is an image trigger of 64 second duration,
+with significance 6.18 sigma, which is lower than typical blind detection 
+significance.  The BAT light curve does not show obvious structure, which 
+is typical for image triggers. 
+
+The XRT began observing the field at 21:27:05.4 UT, 157.5 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 10.4292, 41.5734 which is equivalent to:
+   RA(J2000)  = 00h 41m 43.02s
+   Dec(J2000) = +41d 34' 24.3"
+with an uncertainty of 2.9 arcseconds (radius, 90% containment). This
+location is 96 arcseconds from the BAT onboard position, within the BAT
+error circle. The XRT position may be improved as
+more data are received; the latest position is available at
+http://www.swift.ac.uk/sper. This position is 4.0 arcseconds from that
+of a known X-ray source: 3XMM J004143.0+413420 in the XMM-NEWTON XMMSSC
+catalogue. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.81
+x 10^21 cm^-2 (Willingale et al. 2013). 
+
+The associated source in the 3rd XMM catalog has a spectrum and variability
+which is consistent with a low-mass X-ray binary (Stiele 2010).  However,
+the target is also spatially consistent with a globular cluster FMZ2005-7 of M31. 
+There may be multiple X-ray binaries within the same globular cluster. 
+
+The XRT count rate is approximately 30 counts per second.  Assuming a typical
+conversion factor to flux, the 0.3-10 keV flux is approximately 1e-9 erg/cm2/s
+(uncertain to a factor of 2x).  At the distance of Andromeda, this would be a
+luminosity of 7e40 erg/s (uncertain to the same factor). 
+
+This luminosity is clearly super-Eddington for a ~solar mass compact object,
+so either the object is of ULX class, or it is significantly beamed. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 162 seconds after the BAT trigger. UVOT detects a 16.9 mag source
+at the position
+  RA (J2000) = 00:41:43.10 = 10.42957
+  Dec(J2000) =+41:34:20.4  = 41.57232
+with a 90% confidence error radius of 0.61 arc sec. 
+This position is 4 arc seconds from the center of the XRT error circle
+and consistent with the position of the globular cluster. 
+No correction has been made for the expected extinction corresponding to E(B-V) of 0.06. 
+

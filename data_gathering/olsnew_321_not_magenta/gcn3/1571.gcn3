@@ -1,0 +1,37 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1571
+SUBJECT: XRF020903, BVRI field photometry
+DATE:    02/10/04 22:32:34 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired BVRcIc all-sky photometry for
+a 20x20 arcmin field centered at the variable object coordinates
+for XRF020903 (Ricker et al. GCN 1530; Soderberg et al. GCN 1554)
+with the USNOFS 1.0-m telescope on one photometric night.  Stars
+brighter than V=14.0 are saturated and should be used with care.
+We have placed the photometric data on our anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/xrf020903.dat
+The astrometry in this file is based on linear plate solutions
+with respect to UCAC2.  The external errors are less than 100mas.
+
+While the night was photometric, the XRF field is towards
+our southern horizon and so there is a higher risk of
+zeropoint errors.  We estimate the present zeropoint errors to
+be about 0.03mag.  We will be extending this
+calibration with additional nights to ensure against
+a systematic zeropoint error.  You should check the dates on
+the .dat file prior to final publication to get the latest photometry.
+
+In particular, the two stars marked on Soderberg et al. finding
+chart have the following position and magnitudes:
+
+           RA (J2000) DEC           V     B-V    V-R   R-I
+Star 1  22:48:36.05  -20:44:34.8  16.381  0.789  0.455 0.399
+Star 2  22:48:53.48  -20:43:23.1  14.743  0.466  0.304 0.313
+
+These values match closely those given in Covino et al. (GCN 1563).
+
+Calibration of the GRB021004 field will occur around October 9 UT.
+

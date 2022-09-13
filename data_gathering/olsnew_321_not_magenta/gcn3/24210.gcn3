@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24210
+SUBJECT: LIGO/Virgo S190425z: Pan-STARRS observations and transients in the skymap
+DATE:    19/04/26 05:33:19 GMT
+FROM:    Ken Smith at Queen's University Belfast  <k.w.smith@qub.ac.uk>
+
+K. W. Smith, D. R. Young, O. McBrien, J. Gillanders. S. Srivastav,
+S. J. Smartt, D. O'Neil, P. Clark, S. Sim (QUB), K. C. Chambers ,
+M. Huber, E. Magnier, A. Schultz, (IfA, Univ. Hawaii), L. Denneau,
+H. Flewelling, A. Heinze, J. Tonry, H. Weiland, A. Rest (STScI),
+B. Stalder (LSST), C. Stubbs (Harvard)
+
+We report observations of the BAYESTAR skymap of the BNS event S190425z
+(The LIGO Scientific Collaboration and the Virgo Collaboration, GCN 24168)
+with the Pan-STARRS1 telescope (Chambers et al. 2016, arXiv:1612.05560C).
+Images were taken in the PS1 i-band (Tonry et al. 2012, ApJ 750, 99) and at
+each pointing position a dithered sequence of 4 x 45 sec was taken. These
+dithered sequences were repeated, with overlaps, to map 1258.10 square
+degrees of the bayestar map 90% credible region and covered a sky region
+totalling of 28.1% of the event's localisation likelihood. We began taking
+data at 2019-04-25 09:39:48 (UTC).
+
+The images were processed with the IPP (Magnier et al. 2016, arXiv:1612.05240)
+and difference images for the co-added stacks were produced using the
+Pan-STARRS1 Science Consortium 3Pi data to detect transient objects. Standard
+filtering procedures, combined with a machine learning algorithm (Wright et al.
+2015, MNRAS, 449, 451) were applied and all candidates were spatially cross-
+matched with known minor planets, and major star, galaxy, AGN and multi-
+wavelength catalogues (as described in Smartt et al. 2016, MNRAS, 462 4094).
+
+We report the following transients (bPC denotes the probability contour within
+which the transient is found according to the bayestar.fits map).
+
+Name      | PS Name | RA (J2000)  | Dec (J2000) |   z   | Disc Mag | bPC | Notes
+AT2019ebu | PS19pp  | 14 19 49.43 | +33 00 21.7 |       |  20.77 i | 30  |
+AT2019ebw | PS19pq  | 15 02 17.02 | +31 14 51.6 |       |  20.92 i | 10  |
+AT2019ebv | PS19pr  | 15 02 41.20 | +29 12 01.7 |       |  20.98 i | 70  |
+AT2019eby | PS19ps  | 15 10 15.68 | +33 04 17.6 |       |  20.22 i | 10  |
+AT2019ebz | PS19pv  | 15 25 41.74 | +32 19 42.9 |       |  20.01 i | 10  |
+AT2019ecc | PS19pw  | 15 26 29.53 | +31 39 47.5 |       |  20.10 i | 10  |
+AT2019ecb | PS19px  | 15 32 23.52 | +31 04 19.2 | 0.066 |  21.15 i | 10  | (1)
+AT2019ece | PS19py  | 15 32 54.55 | +33 29 00.8 | 0.083 |  20.33 i | 20  | (2)
+AT2019ecg | PS19qa  | 15 35 02.10 | +31 08 02.6 |       |  21.56 i | 10  |
+AT2019ecf | PS19qb  | 15 37 22.53 | +31 35 24.5 |       |  20.67 i | 10  |
+AT2019ech | PS19qd  | 15 41 53.81 | +26 59 12.9 |       |  20.67 i | 10  |
+AT2019eck | PS19qe  | 15 44 24.53 | +32 41 11.0 |       |  20.81 i | 20  |
+AT2019ecj | PS19qf  | 15 45 42.22 | +31 32 42.5 |       |  20.67 i | 20  |
+AT2019ecl | PS19qg  | 15 48 11.85 | +29 12 07.1 |       |  20.51 i | 10  |
+AT2019ebr | PS19qj  | 16 35 26.48 | +22 21 36.4 | 0.152 |  19.79 i | 20  | (3)
+AT2019ebo | PS19qn  | 16 54 54.71 | +04 51 31.5 |       |  20.02 i | 10  |
+AT2019ebp | PS19qo  | 16 59 57.74 | +12 06 18.3 | 0.045 |  20.29 i | 20  | (4)
+AT2019ebq | PS19qp  | 17 01 18.33 | -07 00 10.4 |       |  20.40 i | 10  |
+AT2019ebs | PS19qq  | 17 09 58.27 | +07 35 44.6 |       |  20.81 i | 20  |
+AT2019ebt | PS19qr  | 17 11 35.79 | +09 48 05.6 |       |  20.07 i | 40  |
+
+NOTES
+
+(1) Probable host is 2MASX J15322384+3104169 at 286 Mpc (NED)
+(2) Probable host is 2MASS J15325460+3328553 at 365 Mpc (NED)
+(3) Coincident with the core of 2MASX J16352643+2221368 at 700 Mpc (NED)
+(4) Probable host is 16595787+1206238 at 199 Mpc (GLADE)
+
+

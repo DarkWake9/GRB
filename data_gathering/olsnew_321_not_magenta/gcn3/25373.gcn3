@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25373
+SUBJECT: LIGO/Virgo S190814bv:  New candidates from DECam DESGW difference imaging search
+DATE:    19/08/16 20:55:58 GMT
+FROM:    Ken Herner at Fermi Nat Accelerator Lab  <kherner@fnal.gov>
+
+LIGO/Virgo S190814bv:  New candidates from DECam DESGW difference imaging search
+
+Ken Herner, Antonella Palmese, Marcelle Soares-Santos, Douglas Tucker, Sahar Allam, James Annis, Alyssa Garcia, Robert Morgan, Tristan Bachmann, Dillon Brout
+
+On behalf of the DESGW team*:
+
+We report 3 new candidate counterparts to the LIGO/Virgo  black hole/neutron star merger S190814bv (reported by the LIGO/VIRGO Collaboration in GCN Circular No. 25324, updated GCN Circular No. 25333) found by our target of opportunity program (PI: Soares-Santos, PropID: 2019B-0372), and provide additional photometry on one candidate discovered by GROWTH (PIs: Andreoni & Goldstein, GCN No. 25362).
+
+The region was imaged by DECam, on the CTIO Blanco Telescope. First and second epochs were obtained on the nights of 2019 Aug 16 (GCN Circular No. 25336) and Aug 17, at 9.5h and 33h post merger (GCN No. 25360). We observed through clouds and full moon on both nights. Depth achieved is 20.5 mag (10 sigma point source) in i and z bands.
+
+Images were processed by our difference imaging pipeline (Herner et al. 2017; see also Soares-Santos et al. 2015, 2017; Doctor et al. 2018; Morgan et al. 2019 for recent applications) using DES images as templates. We employ a machine learning code (autoscan, Goldstein et al. 2015) to reject subtraction artifacts. Candidates were initially selected by requiring at least two high signal to noise detections, rejecting asteroids. We then applied catalog-based vetting to reject variable stars, variable AGNs, using various catalogs including GAIA DR2, and candidates with hosts at redshifts inconsistent (>2sigma, H0=70) with the distance reported by the LVC for S190814bv (276 +/- 56 Mpc) using a variety of photometric and spectroscopic catalogs including DES. The final vetting was done via visual inspection. We matched our remaining candidates using the Transient Name Server to avoid reporting those previously reported by other groups, and the Minor Planet Center to further filter against slow moving asteroids. The following candidates pass our selection criteria:
+
+NAME TNS_NAME RA DEC DISCOVERY_MJD DISCOVERY_MAG_I DISCOVERY_MAG_Z
+desgw-190814c  2019nqq 20.955072  -33.03472 558710.298 20.76 N/A
+desgw-190814d  2019nqr 23.573539  -32.741781 58711.272  18.34 18.22
+desgw-190814e  2019nqs 23.396516 -31.780134 58711.273  20.43 19.69
+
+CANDIDATE_ID   HOST_ID       HOST_MAG HOST_Z HOST_ZERR ANG_SEP
+desgw-190814c  2dFGRS TGS507Z156  18.66(R) 0.07 N/A   3.86”
+desgw-190814d  DES-269486823     14.14(i) 0.025 0.01  0.1”
+desgw-190814e  DES- 231522219     17.54(i) 0.139 0.01  1.15”
+
+We also detect four (DG19frdgc, DG19tzyhc, DG19prsgc, DG19qabkc) of the candidates previously reported by GROWTH (Goldstein et al., GCN 25362). One of them met our selection criteria: DG19qabkc. We provide additional photometry for their remaining candidate:
+
+NAME TNS_NAME RA DEC DISCOVERY_MJD DISCOVERY_MAG_I DISCOVERY_MAG_I_ERR  LASTOBS_MJD LASTOBS_MAG_Z LASTOBS_MAG_Z_ERR
+DG19qabkc  AT2019nqc  22.26529 -32.705155  58711.35 21.080 0.014   58711.368 21.283 0.014
+
+All magnitudes reported are observed magnitudes. We encourage spectroscopic followup of these candidates.
+
+The DECam Search & Discovery Program for Optical Signatures of Gravitational Wave Events (DESGW) is carried out by the Dark Energy Survey (DES) collaboration in partnership with wide ranging groups in the community. DESGW uses data obtained with the Dark Energy Camera (DECam), which was constructed by the DES collaboration with support from the Department of Energy and member institutions, and utilizes data as distributed by the Science Data Archive at NOAO. NOAO is operated by the Association of Universities for Research in Astronomy (AURA) under a cooperative agreement with the National Science Foundation.
+
+*The DESGW Collboration:
+
+Sahar Allam (Fermilab), James Annis (Fermilab), Iair Arcavi (Tel Aviv U), Tristan Bachmann (U Chicago), Paulo Barchi (INPE & Brandeis U), Thomas Beatty (U of Arizona) Keith Bechtol (U of Wisconsin-Madison), Federico Berlfein (Brandeis U), Antonio Bernardo (U of Sao Paulo), Dillon Brout (U Penn), Robert Butler (Indiana U), Melissa Butner, (Fermilab), Annalisa Calamida (STScI), Hsin-Yu Chen (Harvard U), Chris Conselice (U of Nottingham), Carlos Contreras (STScI), Jeff Cooke (Swinburne U), Chris D’Andrea (U Penn), Tamara Davis (U Queensland), Reinaldo de Carvalho (UNICSUL), H. Thomas Diehl (Fermilab), Zoheyr Doctor (U Chicago), Alex Drlica-Wagner (Fermilab), Maria Drout (U Toronto), Maya Fishbach (U Chicago), Francisco Forster (U de Chile), Ryan Foley (UCSC), Joshua Frieman (Fermilab & U Chicago), Chris Frohmaier (U of Portsmouth), Ori Fox (STScI), Alyssa Garcia (Brandeis U), Juan Garcia-Bellido (U Autonoma de Madrid), Mandeep Gill (SLAC & Stanford U), Robert Gruendl (NCSA), Will Hartley (U College London), Kenneth Herner (Fermilab), Daniel Holz (U Chicago), Jorge Horvath (U of Sao Paulo), D. Andrew Howell (Las Cumbres Observatory), Richard Kessler (U Chicago), Charles Kilpatrick (UCSC), Nikolay Kuropatkin (Fermilab), Ofer Lahav (U College London), Huan Lin (Fermilab), Andrew Lundgren (U of Portsmouth), Martin Makler (CBPF), Clara Martinez-Vazquez (CTIO/NOAO), Curtis McCully (Las Cumbres Observatory), Mitch McNanna (U of Wisconsin-Madison), Robert Morgan (U of Wisconsin-Madison), Gautham Narayan (STScI), Eric Neilsen (Fermilab), Robert Nichol (U of Portsmouth), Antonella Palmese (Fermilab), Francisco Paz-Chinchon (NCSA & UIUC), Matthew Penny (OSU), Maria Pereira (Brandeis U), Sandro Rembold (UFSM), Armin Rest (STScI & JHU), Livia Rocha (U Sao Paulo), Russell Ryan (STScI), Masao Sako (U Penn), Samir Salim (Indiana U), David Sand (U of Arizona), Luidhy Santana-Silva (Valongo Observatory), Daniel Scolnic (Duke U), Nora Sherman (Fermilab), J. Allyn Smith (Austin Peay State U), Mathew Smith (U of Southampton), Marcelle Soares-Santos (Brandeis U), Lou Strolger (STScI), Riccardo Sturani (UFRN), Mark Sullivan (U of Southampton), Masaomi Tanaka (NAOJ), Nozomu Tominaga (Konan U), Douglas Tucker (Fermilab), Yousuke Utsumi (Stanford U), Stefano Valenti (UC Davis), Kathy Vivas (NOAO/CTIO), Alistair Walker (NOAO/CTIO), Sara Webb (Swinburne U), Matt Wiesner (Benedictine U), Brian Yanny (Fermilab), Michitoshi Yoshida (NAOJ), Alfredo Zenteno (NOAO/CTIO)
+

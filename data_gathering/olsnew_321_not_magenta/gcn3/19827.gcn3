@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19827
+SUBJECT: BAT detection and localization of GRB 160819A
+DATE:    16/08/20 23:08:58 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+D. M. Palmer (LANL), S. D. Barthelmy (GSFC),
+and A. Y. Lien (GSFC/UMBC) report on behalf of the Swift Team:
+
+At 20:27:30.40 UT on 2016-08-19, the Swift Burst Alert Telescope (BAT)
+detected GRB 160819A, which was also detected by Fermi/GBM and
+INTEGRAL SPI-ACS (Veres et al., GCN Circ. 19826). BAT was slewing to
+a pre-planned target at that time, so it did not trigger on the burst.
+
+However, ground analysis using the slew data fromT+27 to T+106 sec
+reveals the GRB location of RA, Dec = 114.139, -22.347 deg, which is
+  RA(J2000)  =  07h 36m 33.3s
+  Dec(J2000) = -22d -20' -50.2"
+with an uncertainty of 3.0 arcmin, (radius, sys+stat, 90% containment).
+This position is 4.76 deg from the one reported by Fermi GBM, which is
+consistent with the reported GBM error circle (Veres et al., GCN Circ. 19826).
+
+The mask-weighted light curve shows a double-peaked structure that starts
+before the beginning of the available event data, and ends at ~ T+70 s. The
+two peaks occur at ~T+47 s and ~T+53 s, respectively.
+
+The time-averaged spectrum from T+26.6 to T+73.6 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.70 +- 0.05.  The fluence in the 15-150 keV band is (7.76 +/- 0.23) x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+46.70 sec in the 15-150 keV band
+is 12.1 +- 0.6 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/00086022006/BA/

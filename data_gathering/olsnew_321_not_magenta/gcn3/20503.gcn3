@@ -1,0 +1,70 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20503
+SUBJECT: LIGO/Virgo G270580:  ATLAS coverage and 4 optical transients
+DATE:    17/01/22 22:58:06 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+K. W. Smith (QUB), J. Tonry, L. Denneau, A. Heinze, B. Stalder,
+H. Weiland (IfA), C. W. Stubbs (Harvard), D. R. Young
+(QUB), S. J. Smartt, (QUB), A. Rest (STScI), K. C. Chambers (IfA),
+T.-W. Chen (MPE), M. Coughlin (Harvard), M. E. Huber (IfA),
+D. E. Wright (QUB), H. Flewelling, E. A. Magnier, A. S. B. Schultz,
+C. Waters, R. J. Wainscoat (IfA)
+
+We report the following observations of the skymap for LIGO/Virgo
+G270580 (discovered MJD = 57773.5215; LIGO Scientific Collaboration
+and Virgo, GCN 20486) with the ATLAS telescope system. ATLAS
+is a twin 0.5m telescope system on Haleakala and Mauna Loa (see Tonry
+et al. ATel 8680 and Tonry 2011, PASP, 123, 58). The first unit is
+operational on Haleakala and is robotically surveying the sky in two
+filters cyan and orange (denoted c and o, all mags are in AB
+system). More information is on http://www.fallingstar.com
+
+ATLAS covered 1294 sq. deg. of the ~non-zero probability regions on
+the nights MJD=577773,57774. We estimate that the coverage equates to
+39.9% total all-sky probability of containing the source (from the
+LALInference map; Veitch et al., PRD 91, 042003).  A map of the ATLAS
+footprints will be placed on GraceDB.  The probability region was
+covered in normal ATLAS survey mode, with typically 5 exposure per
+footprint.
+
+We detect the following transients. None are convincing counterparts
+to the GW source for various reasons, but should be spectrally
+classified. All four are in the Liverpool Telescope queue. 
+
+Name       | RA (J2000)  | Dec (J2000) | Disc. MJD | Disc. Date  | Disc Mag | Notes
+ATLAS17ajr | 12:28:58.69 | +31:39:37.7 | 57773.63  | 20170120.63 |  17.73 o | 1. AT2017mq
+ATLAS17akl | 14:16:31.06 | +39:35:10.7 | 57766.67  | 20170113.67 |  17.72 o | 2. AT2017mf
+ATLAS17akq | 13:16:05.81 | +36:04:19.9 | 57774.56  | 20170121.56 |  18.17 o | 3. 
+ATLAS17ajv | 10:26:42.36 | +36:40:49.9 | 57774.49  | 20170121.49 |  16.32 o | 4. PTSS-17dfc
+
+
+1. ATLAS17ajr = AT2017mq.  Host galaxy is z=0.03848. Close to, but
+outside both the LIB cWB maps, hence released on the IAU Transient
+name server. Some 3-sigma detections on forced photometry on
+MJD=57761,
+
+2. ATLAS17akl : 5 arcseconds from SN2006cb (and not related to that
+SN). Amateur discovery on TNS (as AT2017mf). This is not within LIB,
+but is within cWB map. However ATLAS detection on 57766.67, shows it
+to have occurred 7 days before the GW detection.
+
+3. ATLAS17akq : transient coincident with core of SDSS r=20.25 galaxy
+(photo-z z=0.12).  This is within the LIB map. But there is some
+evidence of 3-4 sigma detections 8-12 days before this discovery.
+
+4. ATLAS17ajv : we independently discovered this object which is
+PTSS-17dfc (Zhao et al. GCN 20497).  No detection (o < 18.3) on
+MJD=57766. This is outside the LIB map, but within the cWB 90%
+contours.  Note we do not register objects publicly on the TNS if they
+fall within the LIGO maps (and timeframe), hence we did not register
+this one.
+
+
+
+
+
+
+
+
+

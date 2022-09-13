@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22677
+SUBJECT: Swift Trigger 829046 is probably noise
+DATE:    18/04/26 13:43:12 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. D'Avanzo (INAF-OAB), J.D. Gropp (PSU), J. A. Kennea (PSU),
+A. Melandri (INAF-OAB), K. L. Page (U Leicester), M. H. Siegel (PSU)
+and A. Tohuvavohu (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 13:18:35 UT, the Swift Burst Alert Telescope (BAT) detected a low
+significance image peak in an untriggered image. Because the image 
+peak was near the line of sight to a nearby galaxy, BAT alerted 
+Swift (trigger=829046).  Swift could not slew to the location
+due to an Earth limb constraint. 
+The BAT on-board calculated location is 
+RA, Dec 57.459, -48.782 which is 
+   RA(J2000) = 03h 49m 50s
+   Dec(J2000) = -48d 46' 53"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows no activity,
+which is consistent with an image trigger with or without a weak source. 
+
+Due to the observing constraint, there are no immediately available
+XRT or UVOT data. 
+
+Due to the marginal significance of the image peak (5.86 sigma),
+the lack of a rate trigger or rate variation in the available
+lightcurve, and the distance of the image peak from the potential
+host (8 arcminutes) we believe that this is a statistical fluctuation
+in image space and not an astrophysical source. 
+

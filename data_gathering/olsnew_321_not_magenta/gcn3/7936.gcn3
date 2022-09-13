@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7936
+SUBJECT: GRB 080703: Swift detection of a burst with optical afterglow
+DATE:    08/07/03 19:17:07 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+H. Ziaeepour (UCL-MSSL), S. D. Barthelmy (GSFC), M. M. Chester (PSU),
+J. R. Cummings (NASA/UMBC), P. A. Evans (U Leicester),
+N. Gehrels (NASA/GSFC), O. Godet (U Leicester),
+H. A. Krimm (CRESST/GSFC/USRA), C. B. Markwardt (CRESST/GSFC/UMD),
+F. E. Marshall (NASA/GSFC), P. T. O'Brien (U Leicester),
+C. Pagani (PSU), K. L. Page (U Leicester), D. M. Palmer (LANL),
+D. Perez (U Leicester), P. Schady (MSSL-UCL),
+R. L. C. Starling (U Leicester), M. C. Stroh (PSU),
+T. N. Ukwatta (GSFC/GWU), D. E. Vanden Berk (PSU) and
+P. A. Ward (MSSL-UCL) report on behalf of the Swift Team:
+
+At 19:00:13 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080703 (trigger=315819).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 101.867, -63.222 which is 
+   RA(J2000)  =  06h 47m 28s
+   Dec(J2000) = -63d 13' 19"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single peak
+with a duration of about 5 sec.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+Using promptly downlinked data we find a bright, uncatalogued
+X-ray source. The position, astrometrically enhanced by aligning promptly
+available UVOT field source  positions to the USNO-B1 catalogue, is RA,Dec =
+101.80538,  -63.22039 (degrees) which is equivalent to:
+
+RA  (J2000.0) =  06 47 13.29
+DEC (J2000.0) =  -63 13 13.4
+
+with an uncertainty of 3.04 arcsec (radius, 90% containment). 
+This position is 100.1 arcsec from the BAT position, inside the BAT
+error circle and 6.3 arcseconds from the UVOT position. 
+
+UVOT took a finding chart exposure of nominal 100 seconds with the White
+(160-650 nm) filter starting 100 seconds after the BAT trigger. There is a
+candidate afterglow in the list of sources generated on-board at
+  RA(J2000)  =  06:47:12.65 = 101.8027
+  DEC(J2000) = -63:13:08.8  = -63.2191
+with a 1-sigma error radius of about 0.8 arc sec. This position is 104.9 arc
+sec. from the center of the BAT error circle. The estimated magnitude is 17.6
+with a 1-sigma error of about 0.5 mag. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.07. 
+
+Burst Advocate for this burst is H. Ziaeepour (hz AT mssl.ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

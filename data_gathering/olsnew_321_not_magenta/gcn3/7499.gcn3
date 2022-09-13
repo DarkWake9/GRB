@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7499
+SUBJECT: GRB080319B: Time-Independent XRT Spectrum
+DATE:    08/03/21 16:41:56 GMT
+FROM:    Nat Butler at MIT/CSR  <nrbutler@space.mit.edu>
+
+Nat Butler (UC Berkeley) reports:
+
+I have applied our time-dependent pileup correction code (Butler &
+Kocevski 2007; ApJ, 663, 407) to the XRT spectrum of GRB080319B (see, Racusin
+et al., GCN 7459).  Although I find similar temporal properties in the     
+afterglow decay to those quoted by the XRT team, I find significantly
+different spectral properties.  Notably, there is no significant evidence
+for a time-variation in N_H and no significant need for a thermal component.
+The WT model (0.4-10 keV) and PC mode (0.3-10 keV) spectra fitted jointly
+and well (chi^2/nu=799.70/788) with an absorbed powerlaw yields:
+
+Gamma = 1.84+/-0.01
+N_H = 1.7+/-0.1 x 10^21 cm^(-2) @ z=0.937 (Vreeswijk et al., GCN 7451), in 
+  addition to the expected Galaxy contribution along the line of sight.  Here 
+  we assume the solar chemical abundances from Anders & Ebihara (1982).
+  This value of N_H implies ~2 mag extinction in the observer frame V band
+  assuming the mean Galactic dust+gas properties.
+
+Allowing the photon indices to vary separately: Gamma1=1.84^{+0.1}_{-0.2} and 
+Gamma2=1.85+/-0.05, closely consistent.  The fractional possible increase in 
+rest-frame N_H between the WT mode data (t=660s to 4.95 ksec) and the PC mode 
+data (t=4.95 to 174 ksec) is modest and weakly significant: 
+0.74^{+0.43}_{-0.37}%.  I suspect the indicated variations are purely due to 
+calibration uncertainties in the WT mode data.  The hard WT mode spectral fit 
+in GCN 7459 can be reproduced by relaxing our pileup correction.
+
+Additional evidence disfavors an interpretation of an evolving X-ray
+spectrum:
+
+Time resolved fits to the WT mode data show no significant evidence for
+spectral evolution in the WT mode data considered alone. See,
+http://astro.berkeley.edu/~nat/080319B_spec.jpg
+
+The light curve is a simple (broken) powerlaw for the WT mode data, with
+no flaring.  Afterglows with such light curves typically exhibit weak
+or no spectral evolution (e.g., Butler & Kocevski 2007, ApJ, 668, 400).
+There is no significant variations in the X-ray hardness ratio for this event.
+See, http://astro.berkeley.edu/~nat/080319B_hardness.jpg
+
+A fit to BAT data (see also, Cummings et al., GCN 7462) in a time     
+region (58s to 303s; chi^2/nu=36.46/55) overlapping the XRT observation has
+a roughly consistent powerlaw (Gamma=2.1+/-0.1), and also allows for a
+smooth extrapolation in flux between BAT and XRT assuming a simple powerlaw
+model connecting the flux in both instruments.
+
+This message can be cited.
+

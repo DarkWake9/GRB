@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7921
+SUBJECT: Swift Trigger 315630: Probably not a GRB
+DATE:    08/07/02 13:25:50 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC), C. Markwardt (GSFC/UMD),
+P. A. Evans (U Leicester), C. P. O'Brian (Leicester U), Pagani (PSU)
+report on behalf of the Swift-BAT/XRT teams.
+
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of Swift BAT trigger #315630
+(Pagani, et al., GCN Circ. 7912).  The BAT ground-calculated position is
+RA, Dec = 35.555, 39.818 deg which is 
+   RA(J2000)  =  02h 22m 13.1s 
+   Dec(J2000) = +39d 49' 03.4" 
+with an uncertainty of 3.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 67%.
+
+This was a weak detection on-board, and manual ground analysis
+improved the significance only slightly.
+
+The mask-weighted lightcurve shows weak peaks in the middle two
+energy bands (25-100 keV).  The duration is ~0.3 sec.
+
+The best fit to the BAT data is a powerlaw with an exponential cutoff,
+yielding an Epeak of 41 +- 5 keV and 15-150 keV band fluence of
+7.5 +- 2.1 x 10^-9 erg/cm2.
+
+The XRT began observing the field of the BAT trigger 315630
+in Photon counting mode at 12:51:49 UT, 104 seconds after  
+the BAT trigger.  The observations during the first orbit were  
+immediately interrupted due to the Earth Limb constraint.  The total time
+on target for that initial orbit was 17 sec.  No point source was detected.
+
+During the second orbit beginning at T+3600 sec XRT collected 1380 sec of PC data,
+no source is detected inside the BAT error circles (flight and ground).
+The  3-sigma upper limit is 5.4e-3 counts/sec, which assuming an absorbed  
+power law spectrum with photon index=2 and Galactic absorption  
+would correspond to an observed 0.3-10 keV flux of 2e-13 erg cm^-2 s^-1.
+
+In following orbits, no source is detected inside the BAT error circles
+in 3965 sec of PC data taken from T+26.5 ksec to T+34.5 ksec.
+
+Using past XRT afterglow data for all bursts, there is only a 20-30% chance
+that no afterglow would have been detected from a real burst
+at this time delay of 1.5 hours and an observation duration of 1380 sec.
+
+Combining all these results, we conclude that this trigger is probably
+not a real GRB -- however, we can not rule out its reality.
+
+[GCN OPS NOTE(02jul08): Per author's request, P. O'Brian was added
+to the author list.]

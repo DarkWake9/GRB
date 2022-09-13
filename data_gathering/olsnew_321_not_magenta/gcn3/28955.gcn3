@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28955
+SUBJECT: IceCube-201114A: Updated photometry for three DECam candidate optical counterparts
+DATE:    20/11/26 18:20:12 GMT
+FROM:    Robert Morgan at U. of Wisconsin-Madison  <robert.morgan@wisc.edu>
+
+Robert Morgan (U of Wisconsin-Madison), Alyssa Garcia (U of Michigan), Ken Herner (Fermilab), Robert Gruendl (NCSA), Keith Bechtol (U of Wisconsin-Madison), Kathy Vivas (NOIRLab), Clara E. Martínez-Vázquez (NOIRLab), Claudio Aguilera (NOIRLab), Alex Drlica-Wagner (Fermilab), Julio Carballo-Bello (U de Tarapacá), Peter Ferguson (Texas A&M U), Alex Goater (U of Surrey), Jeff Cooke (Swinburne U), Timothy M. C. Abbott (NOIRLab), Guy Stringfellow (U of Colorado-Boulder), Amy Miller (Leibniz-Institut für Astrophysik Potsdam)
+
+
+We triggered the Dark Energy Camera (DECam) at Cerro Tololo Inter-American Observatory in Chile on the localization area of the GOLD neutrino event detected by IceCube (IceCube-201114A, GCN 28887). Observations took place on 2020-11-14, 2020-11-15, 2020-11-18, and 2020-11-24 in the gri bands, using 150 second exposures, and reaching 10-sigma limiting magnitudes of approximately 23 mag (see GCN 28947 for full limiting magnitudes). Each night, ~95% of the 90% localization area was covered by DECam. We reduced the DECam images using the DESGW difference imaging pipeline (Herner et al. 2020), using the 2020-11-14 images as reference images, to find candidate counterparts.
+
+
+We have detected three candidate optical counterparts to IceCube-201114A using the selection methodology described in GCN 28947:
+
+
+| NAME           | TNS        | RA         | DEC      | HOST                  | HOST MAG_i |
+
+| DESNU-c-882497 | AT2020aava | 105.939736 | 5.514658 | PSO J105.9396+05.5147 | 19.70      |
+
+| DESNU-d-885649 | AT2020aaxh | 106.091719 | 5.509099 | PSO J106.0918+05.5091 | 19.54      |
+| DESNU-e-889367 | AT2020abag | 105.997798 | 5.839717 | PSO J105.9982+05.8396 | 19.48      |
+
+
+The photometry reported previously for these candidates is now believed to have underestimated the real brightness of each transient. The candidates were observed to be bright during the epoch used as templates in difference imaging, which biased the estimates in GCN 28947 and TNS reports. Each candidate is expected to be approximately mag_i = 20 based on the relative brightness to the host in our images and the previously measured magnitude of the host galaxy.
+
+
+These candidates are consistent with supernovae based on their photometric behavior in our 4 observing epochs, and high-energy neutrinos have a proposed source class of core-collapse supernovae. Spectroscopic follow-up of these mag_i ~20 objects is encouraged to characterize the objects and exclude the largest expected background of type-Ia supernovae. DESNU-e-889367 is of highest interest because it appears to be brightening and therefore possibly temporally consistent with IceCube-201114A.
+
+
+Spectroscopic teams interested in performing follow-up can contact Robert Morgan (robert.morgan@wisc.edu<mailto:robert.morgan@wisc.edu>) if any additional information is needed.
+
+
+

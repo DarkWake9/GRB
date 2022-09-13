@@ -1,0 +1,82 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  323
+SUBJECT: GRB 990510: Broad Band Break
+DATE:    99/05/13 05:12:06 GMT
+FROM:    Shri Kulkarni at Caltech  <srk@astro.caltech.edu>
+
+J. S. Bloom, S. R. Kulkarni and S. Djorgovski California Institute of
+Technology; D. A. Frail, NRAO; T. S. Axelrod, J. R. Mould, B. P. Schmidt
+The Australian National University report:
+
+We have observed a number of Landolt Stars on May 11 under photometric
+condition with the MSO 50inch. Based on these observations we report
+the following magnitudes for the secondary stars discussed in GCN 316:
+
+        Offset from GRB  RA (J)        Dec (J)       R      V    sig
+Star 1  33.4"E  43.9"S   13:38:20.56  -80:30:31.9  15.09  15.58  0.03
+Star 2  59.8"W  21.0"N   13:37:43.48  -80:29:26.7  15.62  16.19  0.03
+Star 3  16.5"W  36.7"N   13:38:00.82  -80:29:11.5  16.50  16.99  0.03
+
+At the time of these observations, the OT and these stars have very
+similar colors and  we have transformed both MachoR and MachoV to
+standard R_C and V magnitudes from color transformations determined
+from the Landolt Standard stars. The corrections from VM->V and RM->R_C
+are less than 0.02 magnitudes in all cases, and are invariant in time,
+because the color of the OT is not varying significantly.
+
+Star 3 is the reference star used by Galama et al. (GCN 313) and we
+note that our new determination is 0.7 mag brighter than the value
+assumed by Galama et al. and Axelrod et al. (GCN 315).  Our analysis
+reported below takes into account this new calibration.
+
+We report the following new measurements:
+    DATE (UT)        V        Verr        R        Rerr   
+   May 11.508       20.11     0.09       19.67     0.07 
+   May 11.512       20.01     0.08       19.71     0.06
+   May 11.516       20.06     0.07       19.76     0.09
+
+As noted earlier (GCN #318; GCN #320) analysis of the R-band light
+curve shows steepening of the initially observed power law decay.  We
+model the flux in each band with the following analytic 4-parameter
+function:
+
+        F_nu(t) = [f_* x (t/t_*)^alpha1] x  [1 - exp(-J)]/J
+where
+        J(t,t_*,alpha1,alpha2) = (t/t_*)^(alpha1 - alpha2).
+
+The principal virtue of this formulation is that the asymptotic
+power law indices are alpha1 (at early times) and alpha2 (at late
+times).
+
+We have fitted this function to the MSO V and R band data of May 10 and
+May 11 and the R and I band data reported in earlier GCNs.  Remarkably,
+the flux in V, R, I-bands are all consistent with same set of shape
+parameters, differing only by the flux normalization f_*:
+
+        alpha1 =  -0.88 (+/- 0.02)
+        alpha2 =  -2.5  (+/- 0.3)
+        t_*    =   1.55 days (+/- 0.05)
+
+The consistency of alpha1, alpha2 and t_* between the different bands
+means that the break is wide band. This is the first clear observation
+of a wide band break. A break due to electron cooling is strongly
+chromatic and the expected difference in asymptotic slopes would be
+small: alpha1 - alpha2 = 0.25.  The simplest interpretation is that we
+are seeing evidence for a spreading jet.  
+
+We assume that the optical band is below the cooling frequency given
+the relatively flat spectrum (see below). If so, application of
+standard afterglow models (Sari, Piran & Halpern 1999; astroph/9903339)
+we deduced from the measured alpha1 that the electron energy spectral
+index is p=2.2.  In the simplest models for spreading jets (Rhoads
+1999, astroph/9903399; Sari, Piran, Halpern 1999), we expect alpha2 = p.
+The observed value of alpha2 is consistent with this expectation.
+Future observations of the flux will define alpha2 better and the
+consistency between alpha2 and p can be tested more rigorously.
+
+However, as with the case of GRB 990123, the frequency spectral index
+is not consistent with theoretical expectations. After correcting for
+Galactic extinction (GCN 312) the spectral index in the optical (V,R)
+is nearly 0 on May 11."
+
+This message can be cited.

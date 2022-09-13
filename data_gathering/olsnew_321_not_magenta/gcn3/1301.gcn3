@@ -1,0 +1,34 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1301
+SUBJECT: GRB020322 BVRI field photometry
+DATE:    02/03/23 18:25:03 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired BVRcIc all-sky photometry for
+an 11x11 arcmin field that is approximately centered on
+the position of the candiate optical transient reported
+by Bloom et al. (GCN 1296) with the USNOFS 1.0-m telescope
+on one marginally photometric night.  Stars brighter than
+V=13.5 are saturated and should be used with care.
+We have placed the photometric data on our anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb020322.dat
+The conditions were basically clear, but with weather maps
+indicating passing clouds over the northern horizon in the direction
+of the GRB field.  There is a slight possibility that the
+photometry has larger than the expected 0.02mag external
+error, but all tests (such as color consistency) seem reasonable.
+The astrometry in this file is based on linear plate solutions
+with respect to USNO-A2.0.  The internal errors are less than 100mas.
+
+In particular, the USNO-A2.0 star at 18:00:58.03, +81:06:08.3
+that was used to calibrate their field can be found in the .dat file
+with the following magnitudes:
+  B = 19.42  V = 18.12  R = 17.30  I = 16.59
+with estimated photometric errors of about 2 percent, including
+the known zeropoint errors quoted above.
+
+Further calibration of this field will be performed when
+weather conditions improve and moonlight decreases.
+

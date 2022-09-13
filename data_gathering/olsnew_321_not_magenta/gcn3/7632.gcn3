@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7632
+SUBJECT: GRB 080420?: Swift detection of a possible short burst
+DATE:    08/04/20 04:37:41 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+L. Vetere (PSU), D. N. Burrows (PSU), M. M. Chester (PSU),
+D. Grupe (PSU), J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+C. B. Markwardt (CRESST/GSFC/UMD), C. Pagani (PSU),
+D. M. Palmer (LANL), J. L. Racusin (PSU), M. Stamatikos (NASA/ORAU)
+and M. C. Stroh (PSU) report on behalf of the Swift Team:
+
+At 04:12:47 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located possible GRB 080420 (trigger=309665).  Swift slewed immediately 
+to the calculated location.  The BAT on-board calculated location is 
+RA, Dec 152.639, +43.242 which is 
+   RA(J2000) = 10h 10m 33s
+   Dec(J2000) = +43d 14' 33"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single spike
+structure in a single 64 msec bin.  The peak count rate
+was ~1300 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+Because of the low significance of the detection (6.6 sigma) we
+cannot positively confirm that this is a real event until we
+receive the downlinked data from Malindi around 10:00 UT. 
+
+The XRT began observing the source at 04:13:42 UT, 54 s after the BAT trigger. 
+The on-board detection algorithm did not centroid on a source due to 
+insufficient counts so no prompt X-ray position is available at the moment. 
+No source is seen in 300 seconds of promptly downloaded data; therefore 
+any X-ray source is extremely faint.  No further data will be available until
+about 10 UT. 
+
+UVOT took a finding chart exposure of 100 seconds with the White 
+(160-650 nm)  filter starting 57 seconds after the BAT trigger, and 
+an exposure of 400 seconds with the V filter starting 163 seconds 
+after the BAT trigger. No afterglow candidate has  been found in  the
+initial data products. The 2.7'x2.7' sub-image covers 25% of  the  BAT
+error circle. The typical 3-sigma upper limit has been about 18.5 
+mag. The 8'x8' region for the list of sources generated on-board  
+covers 100% of the BAT error circle. The list of sources is typically
+ complete  to about 18 mag. No correction has been made for the 
+expected extinction  corresponding to E(B-V) of 0.01. 
+
+Burst Advocate for this burst is L. Vetere (vetere AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+
+[GCN OPS NOTE(21apr08): Per author's request, the "~2000 counts/sec"
+in the first paragraph was changed to "~1300 counts/sec".]
+

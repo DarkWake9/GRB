@@ -1,0 +1,125 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27973
+SUBJECT: Swift-XRT observations of IceCube 200615A
+DATE:    20/06/17 07:53:24 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), T. Gregoire (PSU), J.A. Kennea (PSU), 
+H. A. Ayala Solares (PSU), D.F. Cowen (PSU), J. DeLaunay (PSU) , D. B. Fox (PSU),
+A. Keivani (Columbia U.), F. Krauss (PSU), F.E. Marshell (GSFC) 
+J.P. Osborne (U. Leicester) report:
+
+Swift observed the field of IceCube 200615A (GCN Circ. 27950) between 08:58:51 UT
+2020 June 15 and 11:12:28 UT on 2020 June 16, collecting a total of 12.8 ks of
+cleaned photon counting (PC) mode data. The observations used a 7-point tiling
+pattern with a radius of ~0.5 degrees.
+
+We found 9 X-ray sources, as detailed below. All of these are either known X-ray
+sources consistent with catalogued fluxes, or are unknown but with count rates
+consistent with the previous non-detections. We therefore do not claim any of
+them as the likely counterpart to IceCube 200615A
+
+The 3-sigma upper limit in the field was in the range 3.6-6.4 x 10^-3 ct/sec.
+
+The detected sources were:
+
+Source 1:
+  RA  (J2000): `09h 31m 17.80s`   = 142.82418 deg
+  Dec (J2000): `+03d 31' 18.4"`   = 3.52179 deg	
+  Err(radius):                    2.5"
+  Count rate (0.3-10 keV):        0.040 ( +/- 0.004)
+  Flux (0.3-10 keV):              1.72 (+/- 0.19) x 10^-12
+  Notes: This source corresponds to 1RXS J093117.6+033146.
+
+Source 2:
+  RA  (J2000): `09h 31m 00.25s`   = 142.75103 deg
+  Dec (J2000): `+03d 30' 02.6"`   = 3.50071 deg	
+  Err(radius):                    6.9"
+  Count rate (0.3-10 keV):        2.3 (+1.7, -1.1) x 10^-3
+  Flux (0.3-10 keV):              10 (+7, -5) x 10^-14
+  Notes: This does not match a catalogued X-ray source, but the RASS 
+    3-sigma upper limit at this position corresponds to 0.028 ct/sec
+    in XRT.
+  WARNING: This was a low significance detection which may well be spurious.
+
+Source 3:
+  RA  (J2000): `09h 30m 32.99s`   = 142.63746 deg
+  Dec (J2000): `+03d 44' 43.2"`   = 3.74534 deg	
+  Err(radius):                    4.0"
+  Count rate (0.3-10 keV):        0.020 ( +/- 0.004)
+  Flux (0.3-10 keV):              8.5 (+1.8, -1.6) x 10^-13
+  Notes: This does not match a catalogued X-ray source, but the RASS 
+    3-sigma upper limit at this position corresponds to 0.031 ct/sec
+    in XRT.
+    The position is consistent with 2MASX J09303302+0344432
+
+Source 4:
+  RA  (J2000): `09h 33m 04.66s`   = 143.26942 deg
+  Dec (J2000): `+03d 56' 42.4"`   = 3.94512 deg	
+  Err(radius):                    5.6"
+  Count rate (0.3-10 keV):        8.7 (+3.1, -2.5) x 10^-3
+  Flux (0.3-10 keV):              3.8 (+1.3, -1.1) x 10^-13
+  Notes: This source corresponds to 1RXS J093305.7+035648.
+
+Source 5:
+  RA  (J2000): `09h 30m 36.31s`   = 142.65130 deg
+  Dec (J2000): `+03d 31' 25.3"`   = 3.52369 deg	
+  Err(radius):                    5.0"
+  Count rate (0.3-10 keV):        3.4 (+1.6, -1.2) x 10^-3
+  Flux (0.3-10 keV):              1.5 (+0.7, -0.5) x 10^-13
+  Notes: This does not match a catalogued X-ray source, but the RASS 
+    3-sigma upper limit at this position corresponds to 0.021 ct/sec
+    in XRT.
+  WARNING: This was a low significance detection which may well be spurious.
+
+Source 6:
+  RA  (J2000): `09h 32m 01.68s`   = 143.00700 deg
+  Dec (J2000): `+03d 18' 57.7"`   = 3.31602 deg	
+  Err(radius):                    5.8"
+  Count rate (0.3-10 keV):        7.8 (+2.8, -2.3) x 10^-3
+  Flux (0.3-10 keV):              3.34 (+1.22, -0.98) x 10^-13
+  Notes: This does not match a catalogued X-ray source, but the RASS 
+    3-sigma upper limit at this position corresponds to 0.12 ct/sec
+    in XRT.
+    The position is consistent with QSO J0932+0318
+
+Source 7:
+  RA  (J2000): `09h 30m 57.98s`   = 142.74159 deg
+  Dec (J2000): `+03d 31' 51.0"`   = 3.53083 deg	
+  Err(radius):                    4.4"
+  Count rate (0.3-10 keV):        1.95 (+1.20, -0.86) x 10^-3
+  Flux (0.3-10 keV):              8 (+5, -4) x 10^-14
+  Notes: This does not match a catalogued X-ray source, but the RASS 
+    3-sigma upper limit at this position corresponds to 0.027 ct/sec
+    in XRT.
+  WARNING: This was a low significance detection which may well be spurious.
+  
+Source 8:
+  RA  (J2000): `09h 32m 53.51s`   = 143.22296 deg
+  Dec (J2000): `+04d 05' 00.4"`   = 4.08343 deg	
+  Err(radius):                    5.2"
+  Count rate (0.3-10 keV):        5.4 (+2.6, -1.9) x 10^-3
+  Flux (0.3-10 keV):              2.31 (+1.10, -0.84) x 10^-13
+  Notes: This does not match a catalogued X-ray source, but the RASS 
+    3-sigma upper limit at this position corresponds to 0.035 ct/sec
+    in XRT.
+
+Source 9:
+  RA  (J2000): `09h 30m 58.40s`   = 142.74333 deg
+  Dec (J2000): `+03d 48' 33.3"`   = 3.80925 deg	
+  Err(radius):                    4.9"
+  Count rate (0.3-10 keV):        2.3 (+2.1, -1.3) x 10^-3
+  Flux (0.3-10 keV):              10 (+9, -6) x 10^-14
+  Notes: This does not match a catalogued X-ray source, but the RASS 
+    3-sigma upper limit at this position corresponds to 0.017 ct/sec
+    in XRT.
+    The position is consistent with SDSS-C4-DR3 1119
+  WARNING: This was a low significance detection which may well be spurious.
+
+  
+All errors are at the 90% confidence level, fluxes are observed flux in erg cm^-2 s^-1
+and are calculated assuming an absorbed power-law with NH=3e20 and Gamma=1.7
+
+
+
+

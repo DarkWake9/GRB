@@ -1,0 +1,75 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30791
+SUBJECT: GRB 210619B: Maidanak and Assy optical observations, broken power law parametrization
+DATE:    21/09/09 21:25:26 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+S. Belkin (IKI),  A. Pozanenko (IKI), O. Burhonov (UBAI), V. Kim (FAI, 
+HSE), M. Krugov (FAI), N. Pankov (HSE), Sh. Ehgamberdiev (UBAI),  report 
+on behalf of IKI-GRB-FuN:
+
+We observed the field of GRB 210619B (D'Avanzo et al. GCN 30261) with 
+AZT-22 telescope of Maidanak Observatory and AZT-20 telescope of 
+Assy-Turgen observatory. The optical afterglow (D'Avanzo et al. GCN 
+30261; Jelinek et al., GCN 30263; Kong, GCN 30265; Pellegrin et al., GCN 
+30268; Perley, GCN 30271; Zheng and Filippenko, GCN 30273; Blazek et 
+al., GCN 30274; Kann et al., GCN 30275; Xin et al., GCN 30277; Kiun et 
+al., GCN 30278; Shrestha et al., GCN 30280; Jelkinek et al., GCN 30281; 
+Kumar et al., GCN 30286; D'Avanzo et al., GCN 30288; Moskvitin and 
+Maslennikova, GCN 303291; Romanov, GCN 30292; Hu et al., GCN 30293; Zhu 
+et al., GCN 30294; Belkin et al., GCN 30299; Moskvitin and Maslennikova, 
+GCN 30303; Romanov and Lane, GCN 30305; Moskvitin and Maslennikova, GCN 
+30309; Vinko et al., GCN 30320; Kann et al., GCN 30338; Zaznobin et al., 
+GCN 30343) is clearly detected on the most of stacked images. 
+Preliminary photometry of the afterglow of some of observations is 
+following.
+
+Date UT start t-T0 Filter Exp. OT UL(3sigma) Telescope
+                         (mid, days) (s)
+
+2021-06-20 19:02:53 0.79963  R 8*300  19.47 0.06 23.0 AZT-22
+2021-06-21 19:53:41 1.85019  R 12*300 20.43 0.05 23.2 AZT-22
+2021-06-22 17:15:29 2.74206  r 75*60  21.82 0.26 22.6 AZT-20
+2021-06-22 18:35:45 2.79606  R 12*300 21.21 0.09 23.1 AZT-22
+2021-06-26 20:15:18 6.86520  R 20*180 22.55 0.24 23.2 AZT-22
+2021-07-02 20:16:53 12.86630 R 12*300 23.5  0.3  23.5 AZT-22
+2021-07-08 19:16:40 18.83003 r 76*60  n/d   n/d  23.2 AZT-20
+2021-07-18 19:50:46 28.84816 R 12*300 n/d   n/d  23.9 AZT-22
+
+Photometry is based on the USNO-B1.0 and PanSTARRS-PS1 nearby stars.
+USNO-B1.0_id R2 I
+1238-0493928 15.08 14.33
+1238-0494511 15.67 15.03
+1238-0493842 17.53 17.36
+1238-0493787 16.81 16.12
+
+PanSTARRS-PS1
+RA DEC r
+21:18:52.24182 +33:49:14.6348 15.2925
+21:18:45.71408 +33:50:40.3319 18.1642
+
+Using our data and those published in the GCN circulars cited above we 
+plot a light curve which an be found at
+
+http://grb.rssi.ru/GRB210619B/GRB210619B_LC_all.png
+
+Using only Maidanak data after 0.7 days, it was found that the light 
+curve can be fitted by a single power law with the index alpha = -1.48 
++/-0.04. Using early data published in GCNs we can describe the LC by a 
+broken power law with parameters of alpha = -0.72+/-0.01, beta = -1.52 
++/-0.04, and break time of 0.57+/-0.12.
+
+The fitted LC can be found at
+
+http://grb.rssi.ru/GRB210619B/GRB210619B_AZT22_LC.png
+
+It confirms the steeping decay suggested by Jelinek et al., GCN 30281, 
+Kumar et al., GCN 30286. The power-law index before the break is 
+approximately the same as that obtained by Kann et al., GCN 30338 and 
+Oganesyan et al., arXiv:2109.00010, while the power law index after the 
+break is steeper and coincides with XRT afterglow power law index.
+
+We also not detected any influence of host galaxy on afterglow light 
+curve, and after late time observations we can estimate brightness of 
+the host galaxy R > 23.9.
+

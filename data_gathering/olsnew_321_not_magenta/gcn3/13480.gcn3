@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13480
+SUBJECT: Swift-BAT refined analysis of 1E 1841-045 (Trigger=526660)
+DATE:    12/07/15 13:46:50 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), T. Sakamoto (GSFC/UMBC)
+(on behalf of the Swift-BAT team):
+ 
+Using the data set from T-119 to T+183 sec from recent telemetry downlinks,
+we report further analysis of 1E 1841-045 (aka Kes 73) (trigger #526660)
+(Barthelmy, et al., GCN Circ. 13475).  The BAT ground-calculated position is
+RA, Dec = 280.374, -4.923 deg which is 
+   RA(J2000)  =  18h 41m 29.8s 
+   Dec(J2000) = -04d 55' 23.4" 
+with an uncertainty of 2.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 44%.
+ 
+The mask-weighted light curve shows a singple spike (possibly 2 overlapping spikes)
+starting at ~T-0.008 and ending at ~T+0.012 sec.  T90 (15-350 keV) is 0.012 +- 0.006 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.008 to T+0.012 sec fit by a simple
+power-law model shows the power law index of 2.66 +- 0.40 (chi squared 50.1 for 57 d.o.f.).
+The fluence in the 15-150 keV band is 1.2 +- 0.3 x 10^-8 erg/cm2.
+A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 8.77 +- 1.67 keV (chi squared 40.8 for 59 d.o.f.).
+All the quoted errors are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/526660/BA/
+
+We note the previous activity of this source: Swift BAT triggers 456505
+on 02 Jul 2011 (GCN 12103 & 12104), 455904 on 23 Jun 2011 (GCN 12079 & 12082), and
+445776 on 11 Feb 2011 (GCN 11673).
+

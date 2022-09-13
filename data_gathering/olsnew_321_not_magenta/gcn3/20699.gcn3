@@ -1,0 +1,147 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20699
+SUBJECT: LIGO/Virgo G274296:  Pan-STARRS imaging and discovery of 70 transients 
+DATE:    17/02/19 13:56:33 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+K. C. Chambers (IfA), K. W. Smith (QUB), M. E. Huber (IfA),
+D. R. Young, S. J. Smartt, (QUB), M. Coughlin (Harvard), T.-W. Chen
+(MPE), L. Denneau, H. Flewelling, A. Heinze, E. Kankare (QUB),
+T. Lowe, E. A. Magnier (IfA), A. Rest (STScI), B. Stalder (IfA),
+A. S. B. Schultz, C. W. Stubbs (Harvard) J. Tonry, C. Waters,
+R. J. Wainscoat, H. Weiland, M. Willman (IfA), D. E. Wright (QUB)
+
+We report that we covered 501 square degrees on the first night
+following the release of the G274296 alert. We began taking data at
+2017-02-18.29 UT (57802.29; 25hrs after the event detection).  We
+estimate that this first night of data coverage corresponds to a
+probability of containing the source of 44.7%, (based on the cWB map
+skyprobcc_cWB.fits ; GCN 20689). Maps will be posted on GraceDB.
+
+Images were taken in the Pan-STARRS i-band filter in a series of
+overlapping 45s exposures, with typically 4-8 images at each position.
+Difference images were produced by subtracting the Pan-STARRS1 3Pi
+reference image from these separate 45s exposures (Chambers et
+al. arXiv:1612.05560, and available at http://panstarrs.stsci.edu).
+We reach i ~ 21 - 21.5 in the individual exposures. 
+
+Using techniques discussed in Smartt et al. (2016, MNRAS, 462, 4094),
+we have located and vetted transients with quality filters and a
+machine learning algorithm on the difference images.  
+
+In the following table, we give our 70 targets, sorted by magnitude.
+To select these targets we required a minimum of 2 detections in these
+sets of images. There are 10 transients in galaxies with redshifts
+(from SDSS DR12), and these are listed first. The rest of the
+transients are not obviously associated with a galaxy with a redshift.
+The closest transient is PS17bfl (i=21.06) 2.9" offset from 2MASX
+J11504136+3715422 : z=0.035, mu=35.8, D=140 Mpc, M_i = -14.8.  With
+this relatively faint  absolute magnitude, spectroscopic classification of
+this transient in particular is recommended.
+
+Variable sources which are likely AGN/QSOs or variable stars have, as
+far as possible, been removed from this transient list.  We remove
+likely AGN/QSOs either from catalogues, SDSS DR12 spectra, or nuclear
+transients which are in galaxies with previous core variability seen
+in Pan-STARRS general survey mode. Similarly variable stars or stellar
+outbursts are removed through catalogue matching. The following list
+is composed of SN-like transients, as far as we can tell from current
+data.
+
+We found 10 transients which are previously known transients or 
+supernovae found in preceding weeks or months before G274296, and 
+we list them here for reference. 
+
+Name    RA          DEC         MJD-Disc                mag(i)      z
+Transients with host spectroscopic redshifts :
+PS17bda 09:30:36.08 +11:29:53.6 57802.32131  19.41   0.090
+PS17bel 10:50:34.63 +30:25:30.7 57802.30825  20.09   0.116
+PS17bew 11:13:30.66 +29:40:02.9 57802.38998  20.14   0.046
+PS17bdt 10:17:28.88 +22:24:57.4 57802.30240  20.26   0.048
+PS17bfg 11:45:39.79 +33:23:38.9 57802.41584  20.67   0.141
+PS17bdr 10:11:35.41 +19:15:46.7 57802.30099  20.74   0.078
+PS17bfy 12:06:57.57 +35:25:36.9 57802.40619  21.01   0.081
+PS17bfl 11:50:41.38 +37:15:45.0 57802.40490  21.06   0.035
+PS17bdz 10:27:42.90 +28:21:20.3 57802.30500  21.06   0.161
+PS17bef 10:38:13.94 +25:49:24.6 57802.30435  21.19   0.078
+
+Transients with no host spectroscopic redshifts :
+PS17bgn 11:31:52.98 +29:59:45.1 57802.41391  18.33   bright nuclear transient 
+PS17bfc 11:29:33.54 +34:12:07.1 57802.39565  19.42   
+PS17beo 10:53:24.67 +28:51:27.1 57802.30825  19.51   
+PS17bgt 11:58:09.80 +34:04:38.0 57802.40426  19.81   
+PS17bek 10:47:41.90 +26:50:06.0 57802.30629  19.85   
+PS17bcv 09:16:27.70 +03:35:25.1 57802.28975  19.90   
+PS17bgf 10:59:22.27 +29:44:11.3 57802.41064  19.91   
+PS17bed 10:31:52.14 +24:26:31.0 57802.35657  20.10   
+PS17bep 10:57:33.56 +31:05:16.0 57802.42273  20.17   
+PS17bdv 10:21:15.87 +23:38:53.3 57802.30370  20.23   
+PS17bem 10:51:31.88 +26:29:10.4 57802.30760  20.29   
+PS17bgm 11:28:24.06 +30:06:26.5 57802.39965  20.31   
+PS17bgx 09:20:37.00 +12:53:17.8 57802.48646  20.37   
+PS17bgz 10:29:39.67 +26:38:57.9 57802.43359  20.45   
+PS17bdm 10:05:41.12 +22:31:24.9 57802.35248  20.47   
+PS17bev 11:11:17.74 +31:28:53.4 57802.39824  20.57   
+PS17bfh 11:46:47.23 +31:34:13.4 57802.40169  20.63   
+PS17bcs 09:02:44.47 +02:12:41.1 57802.44885  20.65   
+PS17bdn 10:05:43.77 +22:31:05.8 57802.29958  20.66   
+PS17bff 11:42:16.34 +32:36:01.9 57802.40169  20.70   
+PS17bgu 12:04:37.88 +32:07:42.4 57802.31211  20.74   
+PS17bgp 11:42:27.80 +31:02:12.5 57802.40169  20.74   
+PS17bfm 11:55:15.38 +35:50:48.6 57802.40490  20.80   
+PS17beg 10:40:17.22 +27:47:37.2 57802.30629  20.82   
+PS17bgr 11:47:04.86 +35:13:14.0 57802.40490  20.85   
+PS17bgd 10:28:30.41 +22:30:23.2 57802.30370  20.90   
+PS17beh 10:42:02.04 +29:51:18.1 57802.30564  20.97   
+PS17bgs 11:55:32.52 +29:55:29.7 57802.40362  20.99   
+PS17bgo 11:33:14.22 +30:53:06.1 57802.39965  21.02   
+PS17bdx 10:22:58.46 +24:38:17.0 57802.35590  21.02   
+PS17bgc 10:22:36.15 +21:12:37.9 57802.30163  21.03   
+PS17bgw 12:09:21.73 +36:46:08.2 57802.40619  21.05   
+PS17beb 10:31:19.80 +26:56:54.5 57802.33322  21.05   
+PS17bcx 09:24:03.25 +08:04:33.8 57802.34338  21.05   
+PS17bgi 11:12:46.03 +28:38:50.4 57802.41131  21.10   
+PS17bfz 09:16:10.00 +08:37:10.4 57802.45144  21.12   
+PS17bdu 10:20:34.54 +20:12:51.4 57802.30163  21.13   
+PS17bgb 09:46:52.25 +10:39:51.1 57802.29491  21.13   
+PS17bei 10:42:41.75 +25:35:06.8 57802.35990  21.15   
+PS17bdw 10:22:57.59 +24:38:22.1 57802.38244  21.15   
+PS17bdb 09:32:00.94 +15:00:40.2 57802.29362  21.16   
+PS17bcu 09:15:24.05 +03:45:37.4 57802.34263  21.16   
+PS17bee 10:34:00.57 +26:56:00.3 57802.35723  21.17   
+PS17bfk 11:50:33.88 +35:33:45.1 57802.40490  21.19   
+PS17bge 10:57:22.95 +30:22:03.4 57802.38805  21.19   
+PS17bfo 11:57:44.78 +32:54:59.9 57802.39192  21.20   
+PS17bgq 11:43:47.66 +32:44:07.0 57802.40169  21.21   
+PS17bgg 11:03:12.23 +31:56:23.9 57802.33709  21.21   
+PS17bgl 11:24:07.20 +36:13:14.2 57802.40233  21.36   
+PS17bds 10:16:57.14 +24:34:18.8 57802.30240  21.40   
+PS17bfb 11:24:05.27 +33:26:57.0 57802.40105  21.42   
+PS17bgh 11:12:08.04 +30:21:11.1 57802.38998  21.45   
+PS17bet 11:08:34.19 +30:03:46.3 57802.38934  21.46   
+PS17bgy 09:32:17.63 +13:36:14.5 57802.48711  21.50   
+PS17bgv 12:08:20.09 +38:45:20.8 57802.40554  21.53   
+PS17bdl 10:04:29.91 +22:01:20.9 57802.32850  21.54   
+PS17bgk 11:15:17.75 +30:53:09.5 57802.42537  21.57   
+PS17bgj 11:15:16.28 +32:14:05.4 57802.39062  21.64   
+PS17bga 09:16:19.41 +00:47:06.0 57802.44950  21.69   
+PS17bfe 11:41:34.79 +30:39:15.2 57802.40169  21.73   
+
+
+Already known objects : 
+PS17bhc 09:47:26.75 +19:36:31.1 57789.49854  21.00   
+PS17bhb 09:44:33.28 +15:15:42.4 57789.50327  21.61   
+PS17bha 09:27:42.08 +12:00:14.1 57789.47490  20.78   
+PS17beu 11:10:52.80 +28:16:27.8 57802.30954  19.18   AT2017nf
+PS17bfw 12:01:07.05 +38:52:35.0 57802.40554  20.66   CSS160514-120107+385236
+PS17abg 10:50:24.61 +23:59:21.5 57802.35990  21.24   AT2017qh
+PS17bdp 10:06:29.10 +22:26:43.9 57802.32850  16.89   SN2016idl
+PS17gn 10:01:11.46 +19:29:43.2 57802.29814  20.91   AT2016ieg
+PS17bdj 10:00:18.25 +19:23:05.1 57802.29814  19.85   MLS160217-100018+192305
+PS17m 09:34:55.90 +06:17:27.0 57802.29169  20.01   AT2017D
+
+
+
+
+
+

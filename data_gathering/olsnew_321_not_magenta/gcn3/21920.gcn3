@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21920
+SUBJECT: LIGO/Virgo G298048: Effelsberg 100-m  Radio Telescope observations of SSS17a
+DATE:    17/09/23 20:34:41 GMT
+FROM:    Samaya Nissanke at Redboud U  <samaya@astro.ru.nl>
+
+M. Kramer, A. Kraus, R. Eatough (MPI fuer Radioastronomie)
+
+The 100-m Effelsberg telescope of the MPIfR  observed the location of SSS17a 
+(Coulter et al. 2017, LVC GCN 21529) using the position provided by Adams et al.
+(LVC GCN 21816). Observations were conducted at 5, 15 and 32 GHz; none of them
+detected a counterpart.
+
+Observations at 32 GHz were performed at 10/9/2017 at UT 13:35 with the 100m telescope under moderate weather 
+conditions using its secondary focus 9mm multi-beam receiver. In total, six maps were performed
+on the position of SSS17a. Data analysis was done with the MPIfR’s software packages 
+„Toolbox“ and „Nod3“ (see Müller et al., 2017). First, some weather effects were removed by 
+subtracting the maps of one of the „Off“-Horns from the „On“-Horn. After some additional
+baseline adjustment, the data was averaged and calibrated in Jy. Calibration parameters 
+were determined by a similar observation of 3C286. The rms of the final map was 30 mJy 
+(due to imperfect weather conditions and low elevation). Efforts are ongoing to
+improve those limits.
+
+Observations at C-band were also conducted at 10/9/2017 13:10 UT.  No source was detected and limits do not
+improve on previous reports (e.g. Paragi et al., LVC CGN 21763; Alexander et al., LVC CGN 21851).
+
+At a central frequency of 14.6 GHz, we used a cryogenically cooled
+receiver (summed polarisations for 128 spectral channels, across a
+bandwidth of 500 MHz, and with a data sampling interval of ∼ 65 us) on
+15/9/2017 (MJD 58011.537210648) for approximately 4025 seconds. Data
+have been dedispersed in the range 0 to 50 000 pc cm−3 and analysed
+for periodic signals and transient burst like events (e.g. FRBs) using
+single pulse search tools in the presto software package
+(http://www.cv.nrao.edu/ sransom/presto/).
+
+For a 10-sigma detection threshold, we achieve the following limits to
+periodic signals: 76 uJy and 52 uJy for duty cycles of 10% and 5%,
+respectively. Note that at this frequency, weather effects can
+decrease the sensitivity by at least a factor of two. More accurate
+flux calibration using a noise diode and reference source is on-going.
+
+At this observing frequency our transient search has revealed signals
+that cannot yet be easily distinguished from terrrestrial radio
+interference. Sensitivity limits for transients depend upon the
+unknown intrinsic pulse width and pulse broadening factors, however
+for a single pulse of width 1,3,5 and 10 ms, and DM of 1000 pc cm−3
+(smearing at the central frequecny channel = 10.414 us), we find
+6-sigma flux density limits of 0.32, 0.19, 0.15 and 0.10 Jy
+respectively.
+

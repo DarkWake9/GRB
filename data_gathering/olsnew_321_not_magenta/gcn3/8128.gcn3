@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8128
+SUBJECT: GRB 080822B, Swift-BAT refined analysis
+DATE:    08/08/24 21:02:00 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+G. Sato (ISAS), S. D. Barthelmy (GSFC), W. Baumgartner (GSFC/UMBC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+S. T. Holland (CRESST/USRA/GSFC), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+K. McLean (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/UMBC), M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC),
+T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+903 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 080822B (trigger #321376)
+(Holland, et al., GCN Circ. 8117).  The BAT ground-calculated position is
+RA, Dec = 63.560, 25.760 deg, which is 
+   RA(J2000)  =  04h 14m 14.5s 
+   Dec(J2000) = +25d 45' 35.5" 
+with an uncertainty of 3.6 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 82%.
+ 
+The mask-weighted light curve shows weak emission starting around T-50 sec
+and ending around T+70 sec.  T90 (15-350 keV) is 64 +- 20 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T+0.0 to T+64.0 sec is fit by a power law.
+This fit gives a photon index 2.54 +- 0.5.  (chi squared 76.5 for 59 d.o.f.).
+For this model the total fluence in the 15-150 keV band is 1.7 +- 0.6 x 10^-07
+erg/cm2 and the 1-sec peak flux measured from T+0.00 sec in the 15-150 keV band
+is 0.06 +- 0.02 ph/cm2/sec.  All the quoted errors are at the 90%
+confidence level. 
+
+We note that this is a weak detection for BAT and that we can not rule out
+a non-burst explanation for this trigger.
+

@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32138
+SUBJECT: GRB 220527A: MITSuME Akeno optical observation
+DATE:    22/05/28 02:37:56 GMT
+FROM:    Yuri Imai at Tokyo Inst of Tech  <imai@hp.phys.titech.ac.jp>
+
+Y. Imai, S. Sato, R. Hosokawa, K. L. Murata, M. Sasada, M. Niwano, N.
+Ito, Y. Takamatsu, M. Tateda, T. Hattori, Y. Yatsu, and N. Kawai
+(Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 220527A (A. Ursi et al. GCN Circular
+#32129, The Fermi GBM team et al. GCN Circular #32130, Bissaldi  et
+al. GCN Circular #32131, Evans et al. GCN Circular #32132, Mangan et
+al. GCN Circular #32133, Sbarufatti et al. GCN Circular #32135,
+Tohuvavohu et al. GCN Circular #32136,) with the optical three color
+(g', Rc, and Ic) CCD cameras attached to the MITSuME 50 cm telescope
+Akeno.
+
+The observation with a series of 60 sec exposures started at
+2022-05-27 16:05:50 UT (6.8 hours after the AGILE detection). We
+stacked the images with good conditions. Here we report magnitudes by
+the forced-photometry at the Swift/XRT position (Sbarufatti et al. GCN
+Circular #32135).
+
+T0+[hour] |MID-UT | T-EXP[sec] | magnitudes of forced-photometry
+------------------------------------------------------------------------------------------------
+7.5 | 2022-05-27 16:46:53| 3780 | g'=18.9 +/- 0.2, Rc=18.5 +/- 0.1,
+Ic=18.3 +/- 0.1
+8.7 | 2022-05-27 17:58:38| 3420 | g'=18.9 +/- 0.2, Rc=18.6 +/- 0.1,
+Ic=18.7 +/- 0.2
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration. The magnitudes are expressed
+in the AB system. The images were processed in real-time through the
+MITSuME GPU reduction pipeline (Niwano et al. 2021, PASJ, Vol.73,
+Issue 1, Pages 4-24; https://github.com/MNiwano/Eclaire).
+

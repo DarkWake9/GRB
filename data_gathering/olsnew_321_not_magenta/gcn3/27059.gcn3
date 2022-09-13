@@ -1,0 +1,98 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27059
+SUBJECT: LIGO/Virgo S200213t: MANGROVE catalog galaxy ranking
+DATE:    20/02/13 17:45:04 GMT
+FROM:    Jean-Gregoire Ducoin at LAL  <ducoin@lal.in2p3.fr>
+
+J.-G. Ducoin (IJCLab), D. Corre (IJCLab), N. Leroy (IJCLab), E. Le Floch (IRFU/CEA)
+
+On behalf of the Mass AssociatioN for GRavitational waves ObserVations
+Efficiency (MANGROVE) Team.
+
+We spatially cross-matched the LIGO/Virgo S200213t event skymap
+(90% probability volume) with the MANGROVE [1] galaxy catalog
+and found 33991 compatible galaxies. We classified as "compatible"       
+with the skymap, a galaxy which fulfills the two following conditions:
+
+-Its 2D position in the sky has to be in the 90% of the 2D skymap
+probability distribution.
+-Its distance has to fall within the 3 sigma distance error
+localization at the position of the galaxy.
+
+We rank galaxies according to the grade Gtot presented in
+Ducoin et al. [1] which uses the galaxies stellar mass in addition to
+their localisation to assess their probability of hosting the event.
+The stellar mass is estimated from the WISE1 luminosity. 
+The list of the 20 first galaxies ranked by this grade is given below,
+the full list of galaxies is available at https://mangrove.lal.in2p3.fr
+
++--------+------------------------+---------+---------+-----------+------------+---------+
+|   Rank | Name                   |      RA |     DEC |    log(M) |   AGN_flag |    Gtot |
+|        |                        |   [deg] |   [deg] |   [M_sun] |            |         |
++========+========================+=========+=========+===========+============+=========+
+|      1 | 2MASS 01192705+5831151 |  19.863 |  58.521 |      11.3 |          0 | 3.7e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|      2 | HyperLEDA 137452       |  15.442 |  55.949 |      11.2 |          0 | 3.4e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|      3 | HyperLEDA 137873       |  22.541 |  57.846 |      11.2 |          0 | 2.7e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|      4 | HyperLEDA 2413196      |  14.865 |  52.367 |      10.9 |          0 | 2.4e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|      5 | GWGC PGC137746         |  20.290 |  57.658 |      11.0 |          0 | 2.3e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|      6 | 2MASS 01103706+5536121 |  17.654 |  55.603 |      10.8 |          0 | 2.2e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|      7 | HyperLEDA 2410161      |  15.600 |  52.243 |      10.8 |          0 | 2.0e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|      8 | 2MASS 01182764+5821363 |  19.615 |  58.360 |      11.0 |          0 | 2.0e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|      9 | 2MASS 01192582+5824261 |  19.858 |  58.407 |      11.0 |          0 | 1.8e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     10 | GWGC PGC089894         |  21.124 |  56.182 |      11.1 |          0 | 1.8e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     11 | 2MASS 01131453+5410558 |  18.311 |  54.182 |      10.7 |          0 | 1.8e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     12 | GWGC NGC0020           |   2.386 |  33.309 |      11.1 |          0 | 1.6e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     13 | 2MASS 01020132+5558266 |  15.506 |  55.974 |      10.7 |          0 | 1.6e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     14 | HyperLEDA 2318158      |   9.727 |  48.468 |      11.3 |          0 | 1.5e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     15 | 2MASS 01044353+5137119 |  16.181 |  51.620 |      10.7 |          0 | 1.5e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     16 | 2MASS 01085147+5453309 |  17.214 |  54.892 |      10.6 |          0 | 1.5e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     17 | HyperLEDA 2389143      |  13.787 |  51.145 |      10.7 |          0 | 1.4e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     18 | HyperLEDA 3574         |  14.987 |  47.786 |      11.4 |          0 | 1.4e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     19 | 2MASS 00580831+5358326 |  14.535 |  53.976 |      10.6 |          0 | 1.4e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+|     20 | 2MASS 01155827+5806430 |  18.993 |  58.112 |      10.7 |          0 | 1.4e-03 |
++--------+------------------------+---------+---------+-----------+------------+---------+
+
+Where the grade Gtot is defined in [1], M is the stellar mass,
+AGN_flag is equal to 1 if the source is identified
+as AGN from mid-infrared color criterion [1], 0 otherwise.
+
+The estimated mass completeness of the catalog for the skymap
+distance is about 56%.
+This calculation was made by comparing the total mass within
+the Mangrove catalog to the stellar mass function derived from
+the GAMA survey [4] in the range 224 +/- 90Mpc (within 1 sigma
+of the skymap [1]).
+
+The MANGROVE catalog compiles information from the GLADE
+catalog [2] and AllWISE catalog [3] up to 400Mpc and is
+fully available on the MANGROVE website
+(https://mangrove.lal.in2p3.fr). This website
+also provides tools to download a complete list of
+compatible galaxies for every gravitational wave event
+below 400Mpc of the LVC O3 run with the possibility to add
+observational constraints.
+
+[1] Ducoin et al., ui.adsabs.harvard.edu/abs/2020MNRAS.492.4768D/abstract
+[2] Dálya et al., ui.adsabs.harvard.edu/abs/2018MNRAS.479.2374D
+[3] Cutri et al., ui.adsabs.harvard.edu/abs/2014yCat.2328....0C
+[4] Wright et al., 2017, MNRAS, 470, 283
+

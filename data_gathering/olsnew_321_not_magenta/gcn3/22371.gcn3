@@ -1,0 +1,81 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22371
+SUBJECT: LIGO/Virgo GW170817: Chandra X-ray Emission Continues to Rise ~156 Days Post-Merger
+DATE:    18/01/29 19:21:22 GMT
+FROM:    Daryl Haggard at McGill U  <daryl.haggard@mcgill.ca>
+
+Daryl Haggard, Melania Nynka, John J. Ruan (McGill/MSI), Phil Evans 
+(Leicester), and Vicky Kalogera (Northwestern/CIERA) report:
+
+We have obtained new X-ray observations of GW170817 via Chandra 
+Director's Discretionary Time (PI: Wilkes, Program Number 19408607). The 
+X-ray counterpart to GW170817/GRB170817A/SSS17a continues to be detected 
+and the X-ray emission continues to brighten approximately 156 days 
+after the neutron star merger. This contradicts previous claims of the 
+X-ray fading of GW170817 in XMM-Newton observations at 135 days 
+(D'Avanzo et al. 2018, arXiv: 1801.06164).
+
+This new Chandra program acquired several exposures of GRB170817A:
+
+ObsID,  ExpTime,  StartDate,           Days Post-Burst
+-----   -------   ---------            ---------------
+20936   31.75 ks  2018-01-17 21:55:17  153.5 days
+20938   15.86 ks  2018-01-21 13:45:18  157.1 days
+20939   22.25 ks  2018-01-24 08:18:48  159.9 days
+
+Since these new Chandra exposures are close in time and the X-ray 
+emission of GRB170817A is not expected to vary significantly over <10 
+day timescales, we co-add these three data sets into one 69.86 ks 
+exposure at 156.4 days post-burst.
+
+We perform spectral extractions assuming an absorbed power-law spectral 
+model with fixed NH = 7.5e20 cm^−2 and find that the X-ray flux of 
+GRB170817A has an absorbed flux of f(0.3−8 keV) = 1.93(+0.39/-0.32)e−14 
+erg s^−1 cm^−2  (with Gamma ~ 1.67) at 156.4 days post-burst, which 
+corresponds to an unabsorbed luminosity of L(0.3−10 keV) = 
+5.23(+1.30/-0.95)e39 erg s^−1 (assuming a luminosity distance of 42.5 Mpc).
+
+This represents continued X-ray brightening compared to Chandra 
+observations at 15.6 and 109.2 days post-burst, for which we find an 
+absorbed flux of f(0.3−8 keV) = 0.36(+0.1/-0.07)e−14 erg s^−1 cm^−2 
+(with Gamma = 2.4 +/- 0.8, unabsorbed L(0.3−10 keV) = 10.4(+2.0/-1.6)e38 
+erg s^−1; Haggard et al. 2017) and f(0.3−8 keV) = 1.58(+0.14/-0.13)e−14 
+erg s^−1 cm^−2 (with Gamma = 1.6 +/- 0.3, unabsorbed L(0.3−10 keV) = 
+42.5(+3.7/-3.5)e38 erg s^−1; Ruan et al. 2018), respectively.
+
+Our findings here contradict recent reports of dimming in the X-ray flux 
+from XMM Newton at 135 days (D'Avanzo et al. 2018), which was reported 
+to be 2.1(+0.7/-0.5)e-15 erg s^−1 cm^−2 (0.3-10 keV unabsorbed). 
+However, this reported flux value is a typo, and should be 
+2.1(+0.7/-0.5)e-14 erg s^−1 cm^−2 (D’Avanzo 2018, private 
+communication). Taking this corrected flux and rescaling to a 0.3-8 keV 
+absorbed flux for comparison to the previous Chandra measurements above 
+gives 1.67(+0.87/-0.64)e-14 erg s^−1 cm^−2. Thus, the recent X-ray data 
+at 15.6 days (Chandra), 109.2 days (Chandra), 135 days (XMM), and 156.4 
+days (Chandra) are all consistent with continued X-ray brightening. We 
+provide a light curve table summarizing these measurements:
+
+Days,  Telescope,  Flux* (0.3-8 abs),     Ref
+----   ---------   ----------------       ---
+15.6   Chandra     0.36(+0.10/-0.07)e−14  Haggard et al. (2017)
+109.2  Chandra     1.58(+0.14/-0.13)e−14  Ruan et al. (2018)		
+135    XMM         1.67(+0.87/-0.64)e-14  D'Avanzo et al. (2018)	
+156.4  Chandra     1.93(+0.39/-0.32)e-14  This work
+
+*Flux units: erg s^−1 cm^−2; all uncertainties are 90% confidence interval
+
+Current post-merger models suggest that the origin of the X-rays could 
+be afterglow emission from either a mildly-relativistic cocoon or a 
+structured jet. For a cocoon, the continued rise of X-ray emission 
+suggest that the cocoon has not yet reached a deceleration phase. For a 
+structured jet, the rising X-ray emission suggest emission from the jet 
+core has not yet entered the observed line of sight. Continued 
+monitoring of GW170817 will be critical for discriminating between these 
+and other models.
+
+Note that another ~30 ks of Chandra observations during this same time 
+interval are forthcoming.
+
+We thank Belinda Wilkes and the Chandra scheduling, data processing, and 
+archive teams for making these observations possible.
+

@@ -1,0 +1,54 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3890
+SUBJECT: GRB050824, HETE-2 Observation
+DATE:    05/08/27 04:40:15 GMT
+FROM:    Carlo Graziani at U.Chicago  <carlo@oddjob.uchicago.edu>
+
+G. Crew, G. Ricker, J-L. Atteia, N. Kawai, D. Lamb, and S. Woosley, on
+behalf of the HETE Science Team;
+
+M. Arimoto, T. Donaghy, E. Fenimore, M. Galassi, C. Graziani,
+J. Kotoku, M. Maetou, M. Matsuoka, Y. Nakagawa, T. Sakamoto, R. Sato,
+Y. Shirasaki, M. Suzuki, T. Tamagawa, K. Tanaka, Y. Yamamoto,
+and A. Yoshida, on behalf of the HETE WXM Team;
+
+N. Butler, J. Doty, G. Prigozhin, R. Vanderspek, J. Villasenor,
+J. G. Jernigan, A. Levine, G. Azzibrouck, J. Braga, R. Manchanda,
+and G. Pizzichini, on behalf of the HETE Operations and HETE
+Optical-SXC Teams;
+
+M. Boer, J-F Olive, J-P Dezalay, and K. Hurley, on behalf of the HETE
+FREGATE Team;
+
+report:
+
+The FREGATE instrument onboard HETE also detected the Swift burst GRB
+050824 (Campana, et al., GCN 3866) as an untriggered event (U11648)
+with a significance of 6 sigma.  The direction to the burst source was
+about 50 degrees from the instrument boresight, placing it outside the
+WXM and SXC fields-of-view.
+
+We have analyzed the spectrum of the event.  A power-law (PL) fit to
+the full FREGATE energy range (6-400 keV) yields a best-fit power-law
+index of 2.35 +0.88/-0.48 (90% CL), consistent with the PL index
+reported by the Swift BAT team (Krimm et al., GCN 3871).  Assuming the
+best-fit PL index, the value of the fluence ratio S(2-30)/S(30-400) is
+2.7.  GRB 050824 is thus an X-Ray Flash.
+
+A PL fit restricted to photons with energy above 20 keV yields a
+best-fit PL index of 3.29 +2.50/-1.36 (90% CL).  This steepening of 
+the PL index suggests that the spectrum is representable by a Band
+model with a value of E_peak near or below the low end of the FREGATE
+energy range, so that the PL fit to the full energy range represents 
+an average of the contributions from the high- and low-energy parts of 
+the Band model.
+
+Because of the low S/N of the event, a PL times exponential fit and a
+Band-function fit are not statistically preferred over the simple PL
+model.  Nonetheless, in order to constrain E_peak, we have performed a
+"constrained-Band model" analysis of the spectrum (see Sakamoto et al.,
+ApJ 602, 875), and find E_peak < 12.7 keV (90% CL).
+
+FREGATE light curve data and plots will be available soon at the
+following URL: http://space.mit.edu/HETE/Bursts/U11648.
+

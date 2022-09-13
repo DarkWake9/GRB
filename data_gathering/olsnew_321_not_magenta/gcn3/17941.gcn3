@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17941
+SUBJECT: GRB 150616A: Swift-BAT refined analysis
+DATE:    15/06/17 16:05:44 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+M. Stamatikos (OSU), S. D. Barthelmy (GSFC),  W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+962 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 150616A (trigger #644259)
+(Lien, et al., GCN Circ. 17936).  The BAT ground-calculated position is
+RA, Dec = 314.713, -53.403 deg which is
+  RA(J2000)  =  20h 58m 51.1s
+  Dec(J2000) = -53d 24' 11.3"
+with an uncertainty of 1.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 28%.
+
+The mask-weighted light curve shows a long multi-peaked structure that starts
+at ~ T-50 s and ends at ~ T+710 s. The major pulse starts at ~ T+60 s, peaks
+at ~ T+93 s, and ends at ~ T+140 s. There is a weak emission from the source
+from T-240 s to T-200 s. There may be additional low-level emission before
+this time that we cannot confirm nor rule out. T90 (15-350 keV) is 599.5 +- 99.3 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T-52.3 to T+705.9 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 1.37 +- 0.25,
+and Epeak of 92.5 +- 45.9 keV (chi squared 55.79 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 1.9 +- 0.1 x 10^-5 erg/cm2
+and the 1-sec peak flux measured from T+93.58 sec in the 15-150 keV band is
+2.9 +- 0.4 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.73 +- 0.06 (chi squared 62.56 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/644259/BA/

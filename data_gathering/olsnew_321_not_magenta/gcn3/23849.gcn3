@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23849
+SUBJECT: Swift Trigger 887541: Swift detection of Swift J1728.9-3613
+DATE:    19/02/03 21:42:07 GMT
+FROM:    Aaron Tohuvavohu at PSU/Swift  <aaronb@swift.psu.edu>
+
+S. D. Barthelmy (GSFC), M. G. Bernardini (INAF-OAB),
+P. D'Avanzo (INAF-OAB), J.D. Gropp (PSU), N. J. Klingler (PSU),
+N. P. M. Kuin (UCL-MSSL), D. M. Palmer (LANL) and A. Tohuvavohu (PSU)
+report on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 21:18:17 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located SWIFT J1728.9-3613 (trigger=887541).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 262.301, -36.267 which is 
+   RA(J2000) = 17h 29m 12s
+   Dec(J2000) = -36d 16' 01"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty). As is usual with an image trigger, the available
+BAT light curve shows no significant structure. 
+
+The XRT began observing the field at 21:28:10.1 UT, 592.5 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+262.2442, -36.2421 which is equivalent to:
+   RA(J2000)  = 17h 28m 58.61s
+   Dec(J2000) = -36d 14' 31.6"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). This
+location is 187 arcseconds from the BAT onboard position, outside the
+BAT error circle. This position is consistent with the position of Swift J1728.9-3613 (J. Kennea ATel #12445). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 602 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain, extinction expected. 
+

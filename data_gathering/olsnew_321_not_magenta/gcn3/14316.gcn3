@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14316
+SUBJECT: Swift XRT observations of GRB 130310A
+DATE:    13/03/15 22:03:36 GMT
+FROM:    Boris Sbarufatti at INAF-OAB/IASFPA  <boris.sbarufatti@brera.inaf.it>
+
+B. Sbarufatti (INAF-OAB/PSU), D. N. Burrows (PSU), P. E. Evans (U
+Leicester) report on behalf of the Swift XRT team:
+
+Swift performed a total of 7 pointings for this burst on March 11th: 4x1ks
+covering the Fermi LAT error circle (Guiriec et al., GCN #1482) and 3x1.5
+ks covering the IPN error box (Golenetskii et al., GCN #14284). We detect
+a total of 5 sources:
+
+#  RA          DEC          Err     counts  rate(counts/ks)
+1  09 28 45.9  -17 18 49.5  7.4"    9	    11  (+11/-7)
+2  09 29 27.0  -17 30 13.8  6.8"    12	    13  (+14/-8)
+3  09 28 59.0  -17 00 40.8  5.4"    8	    9   (+10/-7)
+4  09 27 58.9  -17 12 57.9  8.6"    10	    11  (+12/-7)
+5  09 27 31.7  -17 08 55.3  11.0"   5	    4.7 (+6/-4)
+
+The fluxes are computed at the 99% confidence level, following Kraft,
+Burrows & Nousek (1991). The background level was computed both generally,
+using the 'background' task of XIMAGE on each pointing, and locally, using
+the 'sosta' task of XIMAGE, and selecting the highest value.
+All sources are inside the LAT error circle, but only source #5 is inside
+the IPN error box.
+
+Swift performed another observation in the direction of source #5 on March
+13th, with a 3.4 ks exposure. The 99% confidence level upper limit at the
+position of source #5 is 4.6E-3 counts/s, which does not give strong
+evidence for fading.
+
+No further observations are planned.
+
+This circular is an official product of the Swift-XRT team.
+

@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7548
+SUBJECT: Konus-Wind observation of GRB 080328
+DATE:    08/03/30 15:58:08 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 080328 (Swift-BAT trigger #307931: Perri et al., GCN
+7525, Krimm et al., GCN 7533)
+triggered Konus-Wind at T0=28982.306 s UT (08:03:02.306).
+
+The burst light curve shows a multipeaked structure
+with a total duration of ~90 s.
+
+As observed by Konus-Wind the burst
+had a fluence of 2.23(-0.22, +0.23)x10^-5 erg/cm2,
+and a 256-ms peak flux measured from T0+10.512 s
+of (2.51 +/- 0.41)x10^-6 erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+90.368 s) is well fitted (in the 20 keV-1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -1.13(-0.20, +0.17),
+and Ep = 289(-57, +93) keV (chi2 = 62.8/56 dof).
+
+The spectrum of the most intense part (from T0+8.448 to T0+16.640 s)
+is well fitted (in the same range)
+by a power law with exponential cutoff model
+with alpha =  -0.59(-0.19, +0.17)
+and Ep = 338(-40, +51) keV (chi2 = 60.8/56 dof).
+The fluence of this part is (8.79 +/- 0.68)x10^-6 erg/cm2.
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB080328_T28982/
+

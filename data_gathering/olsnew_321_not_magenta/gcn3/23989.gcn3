@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23989
+SUBJECT: Swift detection of LS I +61 303
+DATE:    19/03/23 21:16:23 GMT
+FROM:    Boris Sbarufatti at PSU  <bxs60@psu.edu>
+
+S. D. Barthelmy (GSFC), J.D. Gropp (PSU), A. Y. Lien (GSFC/UMBC),
+D. M. Palmer (LANL) and B. Sbarufatti (PSU) report on behalf of the
+Neil Gehrels Swift Observatory Team:
+
+At 20:30:47 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located LS I +61 303 (trigger=894557).  Swift slewed immediately to 
+the source. 
+The BAT on-board calculated location is 
+RA, Dec 40.153, +61.246 which is 
+   RA(J2000) = 02h 40m 37s
+   Dec(J2000) = +61d 14' 45"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed multiple short
+spikes with a total duration of about 20 sec.  The peak count rate
+was ~2400 counts/sec (15-350 keV), at ~3 sec after the trigger. 
+
+The XRT began observing the field at 20:32:12.5 UT, 85.3 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 40.1330, 61.2290 which is equivalent
+to:
+   RA(J2000)  = 02h 40m 31.91s
+   Dec(J2000) = +61d 13' 44.2"
+with an uncertainty of 2.0 arcseconds (radius, 90% containment). This
+location is 70 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. This
+position is 2.0 arcseconds from LS I +61 303. This source is in the 
+Swift XRT 1SXPS catalogue with a mean 0.3-10 keV count-rate of 
+0.19600 +/- 0.00093 ct/sec; see 
+http://www.swift.ac.uk/1SXPS/1SXPSJ024031.5%2B611344 
+for details of these previous observations. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 9.01
+x 10^21 cm^-2 (Willingale et al. 2013). 
+
+UVOT data cannot properly be analyzed at this time. A full analysis
+will be possible once the full dataset comes to the ground. 
+
+The light curve from the BAT transient monitor is available at
+https://swift.gsfc.nasa.gov/results/transients/weak/LSIp61303/
+

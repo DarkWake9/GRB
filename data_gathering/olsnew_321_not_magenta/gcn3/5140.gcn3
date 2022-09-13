@@ -1,0 +1,49 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5140
+SUBJECT: GRB 060512: TAROT optical observation
+DATE:    06/05/15 15:07:31 GMT
+FROM:    Alain Klotz at CESR-CNRS  <Alain.Klotz@free.fr>
+
+ Klotz, A. (CESR-OMP), Boer M. (OHP), Atteia J.L. (LATT-OMP) report:
+
+We imaged the field of GRB 060512 detected by SWIFT
+(trigger 209755) with the TAROT robotic telescope (D=25cm)
+located at the Calern observatory, France.
+
+First image was acquired 796.8s after the GRB trigger
+(5s after the notice). The field elevation decreased from
+65 degrees above horizon and weather conditions
+were good but the full moon was at 68 deg from the
+GRB position.
+
+We detected the OT source mentioned by Cummings et al
+(GCNC 5117). We co-added series of unfiltered
+exposures to increase signal to noise ratio:
+
+t-t_trig (min)
+begin -   end   CRmag     1*sigma(mag.)
+  13.3   34.7   17.64     0.28
+  34.8  228.3   19.03     0.60
+t_trig = 2006-05-12T23:13:20.640 (Date of trigger)
+
+CR means Clear filter calibrated by R magnitude.
+Magnitudes were estimated by PSF fit with the
+two following nearby USNO-B1 stars:
+
+1311-0234453 R=16.63 (I=14.94)
+1311-0234485 R=17.09 (I=15.87)
+
+We combined R optical observations
+(Mundell et al. GCNC 5119,
+Malesani et al. GCNC 5122 assuming R=18.65 at t-t_trig=1.2h,
+Cenko et al. GCNC 5125,
+Milne et al. GCNC 5127)
+with those of TAROT.
+All these data are compatible with a
+decay index alpha 0.85 +/- 0.08 (assuming a
+flux decay F(t) = K*t^-alpha).
+Complementary data are available on:
+http://www.cesr.fr/~klotz/grb060512/
+
+This message can be cited
+

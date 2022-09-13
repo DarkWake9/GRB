@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14735
+SUBJECT: GRB 130603B: Swift detection of a bright short burst
+DATE:    13/06/03 16:15:25 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. Melandri (INAF-OAB), W. H. Baumgartner (GSFC/UMBC),
+D. N. Burrows (PSU), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), C. Gronwall (PSU), K. L. Page (U Leicester),
+D. M. Palmer (LANL), R. L. C. Starling (U Leicester) and
+T. N. Ukwatta (MSU) report on behalf of the Swift Team:
+
+At 15:49:14 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 130603B (trigger=557310).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 172.209, +17.045 which is 
+   RA(J2000) = 11h 28m 50s
+   Dec(J2000) = +17d 02' 42"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single spike
+structure with a duration of about 0.4 sec.  The peak count rate
+was 60000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 15:50:12.8 UT, 59.0 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source with an enhanced position: RA, Dec 172.2006, 17.0719 which
+is equivalent to:
+   RA(J2000)  = 11h 28m 48.16s
+   Dec(J2000) = +17d 04' 18.8"
+with an uncertainty of 2.7 arcseconds (radius, 90% containment). This
+location is 101 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (1.93 x
+10^20 cm^-2, Kalberla et al. 2005), with an excess column of 6.8
+(+4.00/-3.31) x 10^21 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 62 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+The Swift star trackers were not locked at the time of the
+burst, so there may be some additional error in the position. 
+However the spike in the rates and the image detection is
+unambiguously real. 
+
+We note that this bright short hard GRB is near (12 arcminutes) 
+the location of the nearby galaxy NGC 3691.  At z=0.003566, this
+corresponds to a nominal projected distance of about 50 kpc. 
+
+Burst Advocate for this burst is A. Melandri (andrea.melandri AT brera.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

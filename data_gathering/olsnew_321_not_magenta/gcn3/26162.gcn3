@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26162
+SUBJECT: SGR 1935+2154: Swift-BAT refined analysis
+DATE:    19/11/04 15:06:58 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+T. N. Ukwatta (LANL) E. Ambrosi (INAF-IASFPA), S. D. Barthelmy (GSFC), 
+J. R. Cummings (CPI), H. A. Krimm (NSF), S. Laha (GSFC/UMBC),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU), (i.e. the Swift-BAT team):
+
+Using the data set from T-119 to T+183 sec from recent telemetry downlinks,
+we report further analysis of the BAT detection of a burst from SGR 1935+2154
+(trigger #933083)  (Ambrosi, et al., GCN Circ. 26153).  The BAT
+ground-calculated position is RA, Dec = 293.741, 21.901 deg which is 
+  RA(J2000)  =  19h 34m 57.8s 
+  Dec(J2000) = +21d 54' 02.7" 
+with an uncertainty of 1.9 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 85%.
+
+The lightcurve consists of a single peak with a total duration of ~0.04 sec.
+T90 (15-350 keV) is 0.03 +- 0.01 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-0.00 to T+0.04 sec fit by a simple
+power-law model shows the power law index of 2.67 +- 0.31 (chi squared 38.4 for 57 d.o.f.).
+The fluence in the 15-150 keV band is 2.4 +- 0.4 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.48 sec in the 15-150 keV band
+is 0.8 +- 0.2 ph/cm2/sec.
+
+A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 6.16 +- 0.86 keV (chi squared 36.86 for 57 d.o.f.).
+A thermal bremsstrahlung model fit shows the temperature of 24.16 +- 7.80 keV
+(chi squared 36.5 for 57 d.o.f.).  A double blackbody fit shows the lower temperature
+of 5.78 +0.95 keV and the higher temperature of 52.64 -7.00 keV
+(chi squared 30.61 for 55 d.o.f.).  All the quoted errors are at the 90% confidence level. 
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/933083/BA/
+

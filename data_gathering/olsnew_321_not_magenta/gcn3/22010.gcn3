@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22010
+SUBJECT: BAT trigger 778435 is not a GRB. 
+DATE:    17/10/13 16:03:27 GMT
+FROM:    Boris Sbarufatti at PSU  <bxs60@psu.edu>
+
+B. Sbarufatti (PSU), A. Y. Lien (GSFC/UMBC) and S. R. Oates (Uni. of Warwick) report on behalf of the Swift team:
+
+We report on further analysis of BAT trigger 778435/possible GRB 171013A (Sbarufatti et al., GCN Circ. 22007).
+
+The BAT ground analysis using the data set from T-240 to T+962 s shows nothing significant in the mask-weighted light curve. Also, the BAT image significance in 15-350 keV is only 4.3 sigma. 
+
+The XRT ground analysis on 6.5 ks of data observed between T+107 s to T+21.6 ks.  No X-ray source was detected inside the BAT error circle, down to a 3 sigma upper limit of 5.4e-3  cts s^-1, corresponding to a 0.3-10 keV observed flux of 2.7e-13 erg cm^-2 s^-1 (assuming a typical GRB spectrum).
+
+The Swift/UVOT began settled observations of the field of GRB 171013A 110 s after the BAT trigger.
+No optical afterglow consistent with the BAT position is detected in the initial UVOT exposures.
+Preliminary 3-sigma upper limits using the UVOT photometric system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first finding chart (FC) exposure and subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white_FC           110          260          147         >20.2
+u_FC               322          572          246         >19.1
+white              110          621          167         >20.1
+v                  652          672           19         >17.0
+b                  577          597           19         >18.0
+u                  322          572          246         >19.2
+m2                 677          696           19         >17.2
+w2                 628          647           19         >17.5
+
+The magnitudes in the table are not corrected for the Galactic extinction due to the reddening of E(B-V) = 0.97 in the direction of the burst (Schlegel et al. 1998).
+
+We therefore conclude that BAT trigger 778435 was caused by a noise fluctuation.
+
+This circular is an official product of the Swift Team
+

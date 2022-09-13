@@ -1,0 +1,25 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8685
+SUBJECT: Modification of Swift/UVOT response to bright GRBs
+DATE:    08/12/19 21:10:47 GMT
+FROM:    Wayne Landsman at GSFC/SSAI  <wayne.b.landsman@nasa.gov>
+
+W. Landsman (GSFC), P. Kuin (MSSL), F. Marshall (GSFC), M. Page (MSSL), 
+P. Roming (PSU), N. Gehrels (GSFC) report on behalf of the Swift/UVOT team
+
+The Swift/UVOT has modified its automated response to GRBs with a BAT 
+trigger rate larger than 100 cps.   For these bright GRBs, a 50s UV 
+grism exposure is now inserted following the first 150s finding chart in 
+the white filter.      Roughly half of all Swift GRBs are sufficiently 
+bright to trigger the use of the grism.
+
+The UVOT grism covers the spectral range 1700 - 5500 A, and  can provide 
+useful spectra for GRBs brighter than about V~13.     Further details 
+are available in Kuin et al. (2008, astro-ph 0812/2943 ) who report 
+their analysis of the UVOT grism spectrum of GRB081203A.
+
+The grism zero-order spectrum in the 50s exposure can provide photometry 
+for sources brighter than B-18.    The zero-order spectrum includes 
+visible light and its brightness roughly  correlates with Johnson B 
+magnitude, with a scatter of about 0.23 mag.
+

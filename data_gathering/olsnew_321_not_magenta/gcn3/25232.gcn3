@@ -1,0 +1,92 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25232
+SUBJECT: IceCube 190730A: one weakly associated counterpart candidates in INTEGRAL SPI-ACS, and IBIS prompt observation
+DATE:    19/07/31 10:10:41 GMT
+FROM:    Carlo Ferrigno at IAAT/ISDC  <carlo.Ferrigno@unige.ch>
+
+C. Ferrigno, V. Savchenko (ISDC/UniGE, Switzerland)
+Maeve Doyle (UCD, Ireland), Alexander Lutovinov (IKI, Moscow, Russia)
+J. Rodi (IAPS-Roma, Italy)
+A. Coleiro (APC, France)
+S. Mereghetti (INAF IASF-Milano, Italy)
+
+on behalf of the INTEGRAL multi-messenger collaboration:
+https://www.astro.unige.ch/cdci/integral-multimessenger-collaboration
+
+Using the INTEGRAL all-sky detectors
+SPI/ACS (following [1]), IBIS/Veto, and IBIS, we have performed a search 
+for a prompt
+gamma-ray counterpart of IceCube 190730A, a probable high-energy 
+neutrino (GCN 25225).
+
+At the time of the event (2019-07-30 20:50:41 UTC, hereafter T0),
+INTEGRAL was operating in nominal mode. The most likely event
+localization was at an angle of 81 deg with respect to the
+spacecraft pointing axis. This orientation implies strongly suppressed
+(15% of optimal) response of ISGRI, strongly suppressed (31% of
+optimal) response of IBIS/Veto, and near-optimal (90% of optimal)
+response of SPI-ACS.
+
+The background within +/-300 seconds around the event was very stable
+(excess variance 1.1). However, we note the presence of excessive background
+variations in the hours surrounding the event, increasing the chance of
+spurious counterpart associations, and complicating the preliminary 
+background estimation reported here.
+
+We have performed a search for impulsive events in INTEGRAL SPI-ACS
+(as described in [2]), IBIS, and IBIS/Veto data. We detect a moderately
+significant event (S/N 4.7) at 30s time scale at T0+10 s.
+The peak count rate (30s time scale) of the signal in SPI-ACS is 314 cts/s,
+which corresponds to 4.7e-8 erg/cm2/s in the 75-2000 keV energy range,
+assuming coordinates within the localization region and a typical
+long GRB spectrum (Band function with alpha=-1, beta=-2.5, and Ep=300 keV).
+This estimate does not account for uncertainties related to the unknown 
+event spectrum,
+systematic uncertainty on the response (20%), or any dead-time correction.
+The non-detection of the event in IBIS would be compatible with a source
+at the location of the IceCube neutrino.
+We derive a preliminary estimate of the association False Alarm 
+Probability (FAP)
+at the level of 0.046 (2 sigma), which suggests a likely random 
+coincidence.
+Further analysis, taking into account accurate FAR measured on the basis 
+of the study of the background during days surrounding the event will be 
+reported elsewhere.
+
+
+Given the high chance of a random coincidence of the above event,
+we estimate a 3-sigma upper limit on the 75-2000 keV
+fluence of 1.8e-07 erg/cm^2 (within the 50% probability containment
+region of the source localization) for a burst lasting less than 1 s
+with a characteristic short GRB spectrum (an exponentially cut off
+power law with alpha=-0.5 and Ep=600 keV) occurring at any time in the
+interval within 300 s around T0. For the typical long GRB spectrum used 
+also above,
+the derived peak flux upper limit is ~1.6e-07 (5.4e-08) erg/cm^2/s at 1 
+s (8 s) time
+scale in 75-2000 keV energy range.
+
+ From now on, we will report all the low-S/N excesses detected by our 
+pipelines
+with preliminary FAP below unity, which are likely background fluctuations.
+In addition to the event described above, we find:
+
+       scale (s) | T-T0 (s) | S/N | flux ( x 1e-7 erg/cm2/s) |   FAP
+        0.25     | -6.6     | 3.1 | 4.11 +/-  1.22 +/-   1.1 | 0.433
+        0.95     |  101     | 3.5 | 2.31 +/- 0.625 +/- 0.618 | 0.785
+
+In this list "flux" is the derived flux assuming a short-GRB typical 
+spectrum
+with statistical and systematic uncertainties.
+Note that FAP estimates (especially at timescales above 2s) may be 
+underestimated
+due to non-stationary local background noise.
+
+All results quoted are preliminary.
+
+This circular is an official product of the INTEGRAL Multi-Messenger team.
+
+[1] Savchenko et al. 2017, A&A 603, A46
+[2] Savchenko et al. 2012, A&A 541A, 122S
+
+

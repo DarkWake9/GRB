@@ -1,0 +1,182 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26362
+SUBJECT: LIGO/Virgo S191129u : No significant candidates in FRAM-TAROT-GRANDMA observations.  
+DATE:    19/12/06 10:26:54 GMT
+FROM:    Cyril Lachaud at APC/Univ. Paris Diderot  <cyril.lachaud@in2p3.fr>
+
+S. Beradze (Iliauni), T. Sadibekova (AIM-CEA),  D. Coward (OzGrav-UWA), C. 
+Lachaud (APC), M. Boer (Artemis), N. Christensen (Artemis), L. Eymar 
+(Artemis), S. Karpov, M. Masek, M. Prouza (FZU), A. Klotz (IRAP), K. 
+Noysena (Artemis, IRAP), S. Antier (APC), A. Coleiro (APC), D. Corre 
+(LAL), M. Coughlin (Caltech), J.G. Ducoin (LAL), B. Gendre (OzGrav-UWA), 
+P. Hello (LAL), D. A. Kann (HETH/IAA-CSIC), N. Kochiashvili (Iliauni), 
+N. Leroy (LAL), C. Thoene (HETH/IAA-CSIC), D. Turpin (AIM-CEA, NAOC), 
+X. Wang (THU)
+
+report on behalf of the FRAM-Auger, TAROT-Calern (TCA), TAROT-Chili 
+(TCH) and GRANDMA collaborations.
+
+We performed tiled observations of the LIGO/Virgo S191129u event with the 
+FRAM-Auger, TAROT-Calern (TCA) and TAROT-Chili (TCH) 
+telescopes, operating in the R-band for FRAM and Clear for TAROT, located 
+respectively at Pierre Auger Observatory (Malargue, Argentina), 
+the Cote d'Azur Observatory and La Silla ESO (LaS/ESO).
+
+The following table shows for each telescope: the delay in minutes 
+from the trigger, which filter is used, the field of view of the 
+telescope in degrees and the typical magnitude in R (AB mag) for a 
+given exposure in seconds.
+
++-------------+---------+----------+-----------+------------+
+| Telescope   | Delay   | Filter   | f.o.v.    | Limiting   |
+|             | [min]   |          | [deg]     | Mag.       |
+|-------------+---------+----------+-----------+------------|
+| FRAM-Auger  | 677     | R        | 1.0 x 1.0 | 17.0 (60s) |
+| TCA         | 633     | Clear    | 1.9 x 1.9 | 18.0 (60s) |
+| TCH         | 640     | Clear    | 1.9 x 1.9 | 18.0 (60s) |
++-------------+---------+----------+-----------+------------+
+
+We performed the following joint tiled observations [1]:
+
++-------------+------------+------------+---------+---------+---------+
+| Telescope   | TStart     | TEnd       | RA      | DEC     | Proba   |
+|             | [UTC]      | [UTC]      | [deg]   | [deg]   | [%]     |
+|-------------+------------+------------+---------+---------+---------|
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 337.391 | -55.946 | 0.3     |
+|             | 00:57:25   | 01:01:52   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 338.614 | -56.919 | 0.3     |
+|             | 01:20:02   | 01:22:02   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 334.170 | -53.027 | 0.3     |
+|             | 01:22:39   | 01:27:06   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 335.785 | -53.027 | 0.3     |
+|             | 01:27:42   | 01:32:09   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 336.832 | -56.919 | 0.3     |
+|             | 01:32:45   | 01:37:12   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 338.071 | -57.892 | 0.3     |
+|             | 01:37:47   | 01:42:14   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 339.899 | -57.892 | 0.3     |
+|             | 01:42:50   | 01:47:17   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 336.881 | -54.000 | 0.3     |
+|             | 01:48:50   | 01:53:17   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 342.099 | -60.811 | 0.3     |
+|             | 01:54:00   | 01:58:27   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 340.645 | -59.838 | 0.3     |
+|             | 01:59:56   | 02:04:23   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 339.267 | -58.865 | 0.2     |
+|             | 02:05:14   | 02:09:41   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 335.652 | -55.946 | 0.2     |
+|             | 02:10:36   | 02:15:03   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 335.279 | -51.081 | 0.2     |
+|             | 02:30:51   | 02:35:18   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 338.028 | -54.973 | 0.2     |
+|             | 02:35:54   | 02:40:21   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 341.152 | -58.865 | 0.2     |
+|             | 02:40:58   | 02:45:25   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 344.634 | -63.730 | 0.2     |
+|             | 02:46:01   | 02:50:28   |         |         |         |
+| FRAM-Auger  | 2019-11-30 | 2019-11-30 | 340.111 | -60.811 | 0.2     |
+|             | 02:51:02   | 03:08:26   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| TCA         | 2019-11-30 | 2019-11-30 | 191.012 | 35.280  | 0.6     |
+|             | 00:13:27   | 00:19:46   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 185.236 | 31.569  | 0.5     |
+|             | 00:26:27   | 05:33:02   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 193.561 | 37.136  | 0.5     |
+|             | 00:33:14   | 03:09:47   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 187.535 | 33.424  | 0.5     |
+|             | 00:39:58   | 05:45:47   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 187.379 | 31.569  | 0.7     |
+|             | 00:54:20   | 02:00:21   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 201.487 | 40.847  | 0.4     |
+|             | 01:05:54   | 03:41:42   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 189.521 | 31.569  | 0.4     |
+|             | 01:18:41   | 01:25:00   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 198.147 | 37.136  | 0.4     |
+|             | 01:25:20   | 04:01:08   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 204.536 | 42.703  | 0.3     |
+|             | 01:44:51   | 04:20:52   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 185.738 | 29.713  | 0.7     |
+|             | 02:11:10   | 04:47:26   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 189.731 | 33.424  | 0.7     |
+|             | 02:17:53   | 04:54:12   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 193.248 | 35.280  | 0.6     |
+|             | 02:30:33   | 05:06:52   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 195.855 | 37.136  | 0.6     |
+|             | 02:37:18   | 05:13:37   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 198.597 | 38.991  | 0.5     |
+|             | 02:49:57   | 05:26:17   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 200.950 | 38.991  | 0.4     |
+|             | 03:15:58   | 03:22:17   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 191.926 | 33.424  | 0.4     |
+|             | 03:22:43   | 03:29:02   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 196.244 | 38.991  | 0.4     |
+|             | 03:42:21   | 03:48:40   |         |         |         |
+| TCA         | 2019-11-30 | 2019-11-30 | 207.019 | 42.703  | 0.4     |
+|             | 04:01:33   | 04:07:52   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| TCH         | 2019-11-30 | 2019-12-01 | 334.643 | -52.686 | 1.0     |
+|             | 00:20:23   | 04:09:13   |         |         |         |
+| TCH         | 2019-11-30 | 2019-11-30 | 335.463 | -54.505 | 1.0     |
+|             | 00:27:00   | 00:33:18   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 326.623 | -39.959 | 1.0     |
+|             | 00:39:24   | 04:16:01   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 339.298 | -58.141 | 0.9     |
+|             | 00:46:12   | 06:52:11   |         |         |         |
+| TCH         | 2019-11-30 | 2019-11-30 | 326.111 | -38.141 | 0.9     |
+|             | 00:52:57   | 01:11:40   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-02 | 341.443 | -59.959 | 0.9     |
+|             | 01:18:24   | 00:35:44   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-02 | 344.009 | -63.595 | 0.7     |
+|             | 01:31:19   | 01:07:37   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-02 | 337.732 | -60.434 | 0.4     |
+|             | 01:38:05   | 01:14:23   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-02 | 342.950 | -65.414 | 0.4     |
+|             | 01:44:51   | 01:21:08   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 332.350 | -49.050 | 1.1     |
+|             | 02:11:04   | 03:30:54   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 329.646 | -45.414 | 1.1     |
+|             | 02:17:50   | 03:24:11   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 330.701 | -47.232 | 1.1     |
+|             | 02:24:34   | 01:00:55   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 333.659 | -50.868 | 1.0     |
+|             | 02:37:02   | 03:43:18   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 327.945 | -41.777 | 1.0     |
+|             | 02:43:45   | 01:20:06   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 337.617 | -56.323 | 1.0     |
+|             | 03:02:59   | 01:39:22   |         |         |         |
+| TCH         | 2019-11-30 | 2019-12-01 | 328.434 | -38.141 | 0.4     |
+|             | 04:08:05   | 02:44:21   |         |         |         |
+| TCH         | 2019-11-30 | 2019-11-30 | 327.352 | -36.323 | 0.4     |
+|             | 04:14:50   | 04:21:09   |         |         |         |
+| TCH         | 2019-12-01 | 2019-12-01 | 328.627 | -43.595 | 1.0     |
+|             | 03:43:46   | 03:50:04   |         |         |         |
++-------------+------------+------------+---------+---------+---------+
+
+TStart and TEnd refer respectively to the time of the first and last 
+exposure for a given tile. Observations are not necessarily continuous
+in this interval.
+The Probability refers to the 2D spatial probability of the GW skymap 
+enclosed in a given tile.
+
+These observations cover about 24% of the cumulative probability of 
+the BAYESTAR skymap available on 2019-11-29 13:42:00 (UTC).
+
+
+The coverage map is available at:
+https://grandma-owncloud.lal.in2p3.fr/index.php/s/YMk334EKRjSfnGD
+
+No significant transient candidates were found during our low latency 
+analysis [2,3].
+
+GRANDMA (Global Rapid Advanced Network Devoted to the Multi-messenger 
+Addicts) is a network of robotic telescopes connected all over the 
+world with both photometry and spectrometry capabilities for Time-
+domain Astronomy [2](https://grandma.lal.in2p3.fr/).
+
+Details on the different telescopes are available on the GRANDMA web 
+pages.
+
+[1] M. W Coughlin et al., MNRAS 2019, doi.org/10.1093/mnras/stz2485
+[2] S. Antier et al., MNRAS 2019, arXiv:1910.11261
+[3] K. Noysena et al., ApJ 2019, arXiv:1910.02770
+

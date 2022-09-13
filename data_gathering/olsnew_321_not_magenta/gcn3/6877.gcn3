@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6877
+SUBJECT: GRB 071010B, Swift-BAT refined analysis
+DATE:    07/10/11 01:12:33 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. Markwardt (GSFC/UMD), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+D. Palmer (LANL), T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-119 to T+183 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 071010B (trigger #293795)
+(Markwardt, et al., GCN Circ. 6871).  The BAT ground-calculated position is
+RA, Dec = 150.531, 45.733 deg  which is 
+   RA(J2000)  = 10h 2m 7.5s 
+   Dec(J2000) = 45d 44' 0" 
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 84%.
+ 
+The mask-weighted light curve shows a pretrigger pulse starting at ~T-45 sec,
+peaking at ~T-20 sec, and returning almost to background at ~T-8 sec.
+Then the main FRED pulse started at ~T-8 sec, peaked at ~T+2 sec, and
+ends around T+60 sec.  Swift slewed to a preplanned target at T+130 sec
+at which point the burst location went out of the BAT FOV, so we have
+no more data about activity on this burst after that time.  A small third peak
+starts at ~T+95 sec and is terminated by the spacecraft slew.
+T90 (15-350 keV) is at least 35.7 +- 0.5 sec (estimated error
+including systematics).
+ 
+The time-averaged spectrum from T-35.7 to T+24.1 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 1.53 +- 0.22, 
+and Epeak of 52.0 +- 6.4 keV (chi squared 31.19 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 4.4 +- 0.1 x 10^-6 erg/cm2
+and the 1-sec peak flux measured from T+1.40 sec in the 15-150 keV band is
+7.7 +- 0.3 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 2.01 +- 0.05 (chi squared 46.71 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+

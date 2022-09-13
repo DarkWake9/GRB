@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10737
+SUBJECT: Trigger 421695: Swift detection of a possible burst
+DATE:    10/05/11 14:20:12 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+B. Sbarufatti (INAF-OAB/IASFPA), W. H. Baumgartner (GSFC/UMBC),
+D. N. Burrows (PSU), J. R. Cummings (NASA/UMBC), V. D'Elia (ASDC),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+J. M. Gelbord (PSU), C. Guidorzi (U Ferrara),
+S. T. Holland (CRESST/USRA/GSFC), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), J. Mao (INAF-OAB),
+R. Margutti (INAF-OAB), P. T. O'Brien (U Leicester),
+J. P. Osborne (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), P. Romano (INAF-IASFPA),
+A. Rowlinson (U Leicester), M. H. Siegel (PSU), M. A. Stark (PSU) and
+L. Vetere (PSU) report on behalf of the Swift Team:  
+
+At 11:50:39 UT, the Swift Burst Alert Telescope (BAT) triggered
+on trigger=421695.  Swift slewed immediately to the location.
+The BAT on-board calculated location is
+RA, Dec 280.612, +18.328 which is
+   RA(J2000) = 18h 42m 27s
+   Dec(J2000) = +18d 19' 40"
+with an uncertainty of 3 arcmin (radius, 90% containment, including
+systematic uncertainty).  The onboard significance is low (~6.5 sigma)
+in both the rate and image domains. Also the initial BAT light curve
+does not show any significant peaks, so we do not believe that this
+is a real burst.
+
+The XRT began observing the field at 11:51:50.7 UT, 71.7 seconds after
+the BAT trigger. No source was detected in the promptly available XRT
+data. We are waiting for the full dataset to detect and localise any
+XRT counterpart.
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter starting 75 seconds after the BAT trigger. No credible
+afterglow candidate has been found in the initial data products.
+Because part of the 2.7'x2.7' sub-image was not received, the overlap  
+with the BAT error circle is uncertain. The overlap is at most 25%.
+The coverage of the BAT error circle by the 8'x8' region for the list
+of sources generated on-board is uncertain because the large number of
+sources filled the available telemetry. No correction has been made
+for the expected extinction corresponding to E(B-V) of 0.33.
+
+Due to the marginal detection of this event in BAT, and the lack
+of a detection in the early XRT data, we believe that this is
+probably not a real astrophysical event.  Further determination
+of its reality will require analysis of the ground-linked data
+after ~17:00 UT.
+
+Burst Advocate for this burst is B. Sbarufatti (sbarufatti AT ifc.inaf.it).
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31919
+SUBJECT: GRB 220418B: Swift/BAT-GUANO candidate arcminute localization of a short burst
+DATE:    22/04/19 05:52:20 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+Aaron Tohuvavohu (U Toronto), James DeLaunay (UAlabama), Gayathri
+Raman (PSU), Jamie A. Kennea (PSU), report:
+
+Swift/BAT did not localize GRB 220418B onboard (T0:
+2022-04-18T17:16:21 UTC, Fermi/GBM trig #671994986).
+
+The Fermi notice, distributed in near real-time, triggered the Swift
+Mission Operations Center operated Gamma-ray Urgent Archiver for Novel
+Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1).
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst
+Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from
+[-50,+150] seconds around the time of the burst. All the requested
+event mode data was delivered to the ground.
+
+The BAT likelihood search, NITRATES (DeLaunay + Tohuvavohu,
+arXiv:2111.01769), detects the burst in a 2.048 s analysis time bin
+with a sqrt(TS) of 10.4.
+
+A candidate arcminute localization is found with DeltaLLHPeak of 11.8.
+
+See Section 9.1 and Figure 20 in the NITRATES paper for brief
+descriptions and interpretations of sqrt(TS), DeltaLLHPeak, and
+DeltaLLHOut.
+
+The BAT position is
+RA, Dec = 224.329, -17.514 deg which is
+   RA(J2000)  = 14h 57m 18.96s
+   Dec(J2000) = -17d 30′ 15.4″
+with an estimated uncertainty of 5 arcmin.
+
+This position is consistent with the Fermi/GBM localization (GCN 31915).
+
+XRT and UVOT follow-up has been requested, but will be delayed due to
+the position's proximity to the Moon.
+We encourage prompt followup from other facilities.
+
+GUANO is a fully autonomous, extremely low latency, spacecraft
+commanding pipeline designed for targeted recovery of BAT event mode
+data around the times of compelling astrophysical events to enable
+more sensitive GRB searches.
+
+A live reporting of Swift/BAT event data recovered by GUANO can be
+found at: https://www.swift.psu.edu/guano/
+

@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29545
+SUBJECT: GRB 210222B: Swift detection of a burst with an optical counterpart
+DATE:    21/02/22 23:02:05 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J.D. Gropp (PSU), J. A. Kennea (PSU), N. J. Klingler (PSU),
+N. P. M. Kuin (UCL-MSSL), F. E. Marshall (NASA/GSFC),
+M. J. Moss (GWU), D. M. Palmer (LANL) and B. Sbarufatti (PSU) report
+on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 22:37:26 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 210222B (trigger=1034325).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 154.621, -14.898 which is 
+   RA(J2000) = 10h 18m 29s
+   Dec(J2000) = -14d 53' 52"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 20 sec.  The peak count rate
+was ~1250 counts/sec (15-350 keV), at ~1 sec after the trigger. 
+
+The XRT began observing the field at 22:39:02.1 UT, 95.9 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 154.6062, -14.9316 which is
+equivalent to:
+   RA(J2000)  = 10h 18m 25.50s
+   Dec(J2000) = -14d 55' 53.7"
+with an uncertainty of 2.1 arcseconds (radius, 90% containment). This
+location is 131 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+https://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (8.87 x
+10^20 cm^-2, Willingale et al. 2013), with an excess column of 3
+(+1.87/-1.66) x 10^21 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of nominal 150.000 seconds with the White
+filter starting 100 seconds after the BAT trigger. There is a candidate
+afterglow in the list of sources generated on-board at
+  RA(J2000)  =	10:18:25.45 = 154.60606
+  DEC(J2000) = -14:55:55.7  = -14.93215
+with a 90%-confidence error radius of about 1.10 arc sec. This position is 2.0
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+17.65. No correction has been made for the expected extinction corresponding to
+E(B-V) of 0.101. 
+
+This source lies within the current (Sector 35) field-of-view of TESS camera 1. 
+
+We note that this source is 32 arcseconds from the known ROSAT All-Sky 
+X-ray Survey source 1RXS J101827.6-145604.  This is outside of the nominal 
+joint error radius and so we believe that the ROSAT source is a 
+coincidental alignment unrelated to the new GRB and its optical counterpart. 
+

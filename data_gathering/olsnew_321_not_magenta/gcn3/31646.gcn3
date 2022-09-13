@@ -1,0 +1,69 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31646
+SUBJECT: Konus-Wind observation of GRB 220219B
+DATE:    22/02/25 05:54:26 GMT
+FROM:    Anastasia Tsvetkova at Ioffe Institute  <tsvetkova@mail.ioffe.ru>
+
+A. Tsvetkova, D. Frederiks, A. Lysenko, A. Ridnaia, D. Svinkin,
+M. Ulanov, and T. Cline on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 220219B
+(IPN triangulation: Svinkin et al., GCN 31624),
+consistent with the optical transient ZTF22aabjpxh/AT2022cva
+reported by ZTF (Ho et al., GCN 31619),
+triggered Konus-Wind at T0=34045.350 s UT (09:27:25.350).
+
+The burst light curve consists of two broad pulses:
+the first one lasts from ~T0-34 s to ~T0+13 s peaking at ~T0,
+the second pulse lasts from ~T0+18 s to ~T0+45 s peaking at ~T0+20 s,
+The emission is seen up to ~1 MeV.
+
+As observed by Konus-Wind, the burst had
+a fluence of the first pulse 1.21(-0.15,+0.16)x10^-5 erg/cm^2,
+a fluence of the whole burst 1.76(-0.14,+0.12)x10^-5 erg/cm^2,
+and a 64-ms peak energy flux, measured from T0-0.064 s,
+of 1.76(-0.27,+0.52)x10^-6 erg/cm^2/s
+(all in the 20 keV - 10 MeV energy range).
+
+Since the main fraction of the first pulse was detected
+before the trigger, its spectral analysis was performed using
+the KW 3-channel light curve data.
+
+Modelling its spectrum (measured from T0-33.723 s to T0+13.380 s)
+by the exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep),
+yields alpha = -1.86(-0.09,+4.36) and Ep = 39(-24,+27) keV.
+
+Fitting the most intense part of the first pulse
+(measured from T0-1.340 s to T0+1.604 s)
+with by the exponential cutoff model yields
+alpha = -1.75(-0.20,+4.25) and Ep = 61(-46,+24) keV.
+
+The spectrum of the second emission pulse
+(from T0+16.640 s to T0+49.408 s)
+is well described by a simple power law (PL) with the photon PL index
+of 2.60(-0.10,+0.10) and chi2/dof = 69.5/61.
+
+Assuming the redshift z = 0.293 (Fremling et al., GCN 31629)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the following burst rest-frame parameters:
+the isotropic energy release in the first pulse is
+Eiso = 2.75(-0.34,+0.36)x10^51 erg,
+the isotropic peak luminosity is Liso = 5.17(-0.79,+1.53)x10^50 erg/s;
+the rest-frame peak energy of the first pulse is Epiz = 50(-31,+35) keV;
+and the rest-frame peak energy of the 'peak' spectrum is
+Eppz = 79(-59,+31) keV.
+
+With these values, GRB 220219B is within 68% prediction bands for
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW
+GRBs with known redshifts (Tsvetkova et al., 2021, ApJ, 908, 83),
+see http://www.ioffe.ru/LEA/GRBs/GRB220219_T34045/GRB220219B_rest_frame.pdf
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220219_T34045/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+
+

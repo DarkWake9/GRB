@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15323
+SUBJECT: Trigger 574266 is not a Swift detection of a known source
+DATE:    13/10/11 22:55:55 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. P. Beardmore (U Leicester), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), A. Y. Lien (NASA/GSFC/ORAU),
+C. J. Mountford (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL) and M. H. Siegel (PSU) report on behalf of the
+Swift Team:
+
+At 22:16:58 UT, the Swift Burst Alert Telescope (BAT) triggered on a rate 
+increase  (trigger=574266), and produced an image.  This image included a 
+statistically marginal peak which was 6 arcminutes from the RS CVn source 
+VY Ari.  Swift slewed immediately to the peak location.  The BAT on-board 
+calculated location is 
+RA, Dec 42.286, +7.440 which is 
+   RA(J2000) = 02h 49m 09s
+   Dec(J2000) = +07d 26 24
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multi-peaked 
+structure with a duration of about 30 sec, starting gradually at about 
+T-20.  The peak count rate was ~3386 counts/sec (15-350 keV), at ~0 
+sec after the trigger. 
+
+The XRT began observing the field at 22:18:47.5 UT, 109.3 seconds after
+the BAT trigger. No source was detected in 957 s of promptly downlinked
+data, which covered 84% of the BAT error circle. We are waiting for the
+full dataset to detect and localise the XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 113 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.22. 
+
+When a marginal BAT image peak is found near to a previously-known
+source, Swift is programmed to make follow-up observations
+to test whether the detection is real. In this case, the strength of
+the rate variation in the BAT light curve is inconsistent with the 
+low significance of the image peak location, and the peak location
+is outside of the expected BAT error circle for the VY Ari source. 
+
+For these reasons, we believe that VY Ari is not the source of the BAT 
+lightcurve variations, which may be due to a GRB outside of the BAT FOV. 
+
+Burst Advocate for this burst is A. P. Beardmore (apb AT star.le.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

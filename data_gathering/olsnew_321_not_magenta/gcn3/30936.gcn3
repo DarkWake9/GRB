@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30936
+SUBJECT: Swift trigger 1078701: MITSuME Akeno optical upper limits
+DATE:    21/10/13 06:01:01 GMT
+FROM:    Naohiro Ito at Tokyo Tech  <n.ito@hp.phys.titech.ac.jp>
+
+N. Ito, R. Hosokawa, K. L. Murata, Y. Imai, Y. Takamatsu, M. Niwano, R.
+Noto, S. Sato, M. Takaku, R. Yamaguchi, Y. Yatsu, and N. Kawai (Tokyo Tech)
+report on behalf of the MITSuME collaboration:
+
+We observed the field of Swift/BAT trigger 1078701 (Bernardini et al., GCN
+#30929) with the optical three color (g', Rc, and Ic) CCD cameras attached
+to the MITSuME 50 cm telescope Akeno. The observation with a series of 10
+sec exposures started at 2021-10-10 10:43:22 (46 seconds after Swift
+trigger). We stacked the images with good conditions. We did not detect any
+uncatalogued sources within the BAT error region (Bernardini et al., GCN
+#30929). Also, we did not detect the possible optical counterpart reported
+by Mondy, CrAO, AbAO observations (N. Pankov et al., GCN #30932). We
+obtained the 5-sigma limits of the stacked images as follows.
+
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+1.3 2021-10-10 12:00:19 540 g'>17.4, Rc>17.5, Ic>16.3
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU reduction
+pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages 4-24;
+https://github.com/MNiwano/Eclaire).

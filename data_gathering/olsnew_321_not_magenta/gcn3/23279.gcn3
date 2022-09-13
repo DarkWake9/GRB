@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23279
+SUBJECT: GRB 180930A: Swift detection of a burst
+DATE:    18/09/30 12:57:20 GMT
+FROM:    David Burrows at PSU/Swift  <burrows@astro.psu.edu>
+
+A. Tohuvavohu (PSU), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+J.D. Gropp (PSU), J. A. Kennea (PSU), N. P. M. Kuin (UCL-MSSL),
+D. M. Palmer (LANL) and B. Sbarufatti (PSU) report on behalf of the
+Neil Gehrels Swift Observatory Team:
+
+At 12:43:49 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 180930A (trigger=864584).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 76.870, -25.138 which is 
+   RA(J2000) = 05h 07m 29s
+   Dec(J2000) = -25d 08' 17"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 20 sec.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 12:47:17.6 UT, 208.3 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source located at RA, Dec 76.86228, -25.11720 which is equivalent
+to:
+   RA(J2000)  = 05h 07m 26.95s
+   Dec(J2000) = -25d 07' 01.9"
+with an uncertainty of 3.6 arcseconds (radius, 90% containment). This
+location is 78 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (2.09 x
+10^20 cm^-2, Willingale et al. 2013), with an excess column of 2.9
+(+1.93/-1.74) x 10^21 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 211 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.02. 
+
+Burst Advocate for this burst is A. Tohuvavohu (aaronb AT swift.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

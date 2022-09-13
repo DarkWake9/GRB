@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5987
+SUBJECT: Retractions of previous Swift-BAT triggers
+DATE:    07/01/03 18:53:10 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. Barthelmy (GSFC) on behalf of the Swift-BAT Team
+
+This corrects the classification of 27 Swift-BAT triggers since the beginning
+of the mission.  In a few cases over the two year period, we did not issue
+retraction announcements when there should have been one (in either Notice or
+Circular form), for various reasons (e.g. we got busy with the next trigger,
+we did not believe it was a non-GRB until just recently, or we just plain
+forgot).
+
+In some cases the classification issued in the real-time notice was wrong. 
+For example, some notices said a trigger was cause by a GRB when in fact it
+was a known source in a variable state, but the source was not in the catalog
+used for the real-time notices.  In other cases the real-time classification
+was indecisive (i.e. it contained words like "possible").  We apologize for
+any inconvenience that the original incorrect classifications may have caused. 
+
+In a few cases we thought we did not need to retract the trigger because we
+thought nobody outside the Swift team was notified, when in fact partial
+sets of Notices went out to the community.  A hole in the GCN Notice filtering
+code was allowing the FOM_OBS and SC_SLEW Notices to be distributed to the
+world.  That filtering code correctly blocked the bogus BAT_POS and
+BAT_LIGHTCURVE Notices, but allowed the other two through.
+
+The table below contains the Trigger Number, the Trigger Date and Time,
+and a Comment about what we are currently classifying the trigger.
+
+TRIGNUM  DATE      TIME        DESCRIPTION
+
+106416   05 Feb 19 14:14:47    FSW bug, old ACS, Vela X-1 misidentified
+114292   05 Apr 10 08:38:17    FSW bug, old ACS, Crab mididentified
+114959   05 Apr 19 05:47:21    Noise fluctuation
+117883   05 May 07 00:21:28    FSW bug, old ACS, known source misidentified
+118087   05 May 07 13:33:52    Chance noise coinc with SAX0835.9+5118
+123171   05 May 20 11:15:04    Noise fluctuation
+131113   05 May 31 23:31:57    S/C drifting in Sun_Reference Safe_Hold mode
+131156   05 Jun 01 04:24:45    S/C drifting in Sun_Reference Safe_Hold mode
+131160   05 Jun 01 05:17:27    S/C drifting in Sun_Reference Safe_Hold mode
+131177   05 Jun 01 10:07:47    S/C drifting in Sun_Reference Safe_Hold mode
+131185   05 Jun 01 12:34:21    S/C drifting in Sun_Reference Safe_Hold mode
+131213   05 Jun 01 14:55:47    S/C drifting in Sun_Reference Safe_Hold mode
+131266   05 Jun 01 22:13:56    S/C drifting in Sun_Reference Safe_Hold mode
+131395   05 Jun 02 10:41:45    S/C drifting in Sun_Reference Safe_Hold mode
+142851   05 Jun 26 03:30:20    Chance noise coinc with SAX2224.9+5421
+146134   05 Jul 15 23:56:08    FSW Bug, bad RA,Dec long Image-trigger
+146547   05 Jul 18 13:20:32    FSW Bug, bad RA,Dec long Image-trigger
+147704   05 Jul 25 15:57:52    FSW Bug, bad RA,Dec long Image-trigger
+147857   05 Jul 26 19:33:36    Chance noise coinc with 4U 1746-370
+148146   05 Jul 30 04:14:48    FSW bug, bad RA,Dec values in the notice
+148715   05 Aug 02 23:56:16    Bad ACS, roll-only maneuver, Cyg X-1
+152762   05 Aug 30 17:13;12    Noise in the Image-domain
+158262   05 Oct 04 11;16:48    Chance noise coinc with EXO 0748-676 (or Possibly real EXO detection)
+163240   05 Nov 09 21:33:36    Chance noise coinc with IGR00234+6141
+178754   06 Jan 24 17:17:35    Chance noise coinc with sw333.4+17.4 (Probably)
+179477   06 Jan 29 17:18:39    Chance noise coinc with IGR14175-4641
+203045   06 Mar 28 13:50:14    Chance noise coinc with 1E1743.1-2843
+

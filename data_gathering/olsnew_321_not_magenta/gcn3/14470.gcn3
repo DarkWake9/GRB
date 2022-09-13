@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14470
+SUBJECT: GRB 130427A: Swift-BAT refined analysis
+DATE:    13/04/27 19:33:00 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+E. E. Fenimore (LANL), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (NASA/GSFC/ORAU), C. B. Markwardt (GSFC), A. Maselli (INAF-IASFPA),
+D. M. Palmer (LANL), T. Sakamoto (AGU), G. Sato (ISAS),
+M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-60 to T+243 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 130427A (trigger #554620)
+(Maselli, et al., GCN Circ. 14448).  The BAT ground-calculated position is
+RA, Dec = 173.150, 27.706 deg which is 
+   RA(J2000)  =  11h 32m 36.1s 
+   Dec(J2000) = +27d 42' 20.3" 
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 14%.
+ 
+The mask-weighted light curve shows the main emission occuring during a
+pre-planned slew.  The burst location came into the BAT FoV at ~T-52 sec.
+The first recorded peak started at ~T-51 sec and ending at ~T-50 sec.
+The main, large peak started at ~T-50 sec, peaked at ~T-42 sec (~310 cnts/cm2/sec),
+and ended at ~T-10 sec.  The spacecraft settled at T+0, and then BAT triggered
+(a 64-sec image trigger) at the beginning a long slow peak starting at ~T+0 sec,
+peaking at ~T+90 sec, and returning to baseline ~T+2000 sec.
+T90 (15-350 keV) is 162.83 +- 1.36 sec (estimated error including systematics).
+We note that (a) there is a possibility that there was emission from this burst
+before it came into the BAT FoV at ~T-52 sec, and (b) that Fermi-GBM triggered
+on this burst at 07:47:06.42 (T_bat-51 sec) [GCN/FERMI_GBM_FLIGHT_POSITION Notice,
+TrigNum=388741629].
+ 
+The time-averaged spectrum from T-51.05 to T+223.50 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.21 +- 0.02.  The fluence in the 15-150 keV band is 3.1 +- 0.03 x 10^-4 erg/cm2.
+The 1-sec peak photon flux measured from T-44.25 sec in the 15-150 keV band
+is 331.0 +- 4.6 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/554620/BA/
+

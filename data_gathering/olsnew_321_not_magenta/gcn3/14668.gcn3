@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14668
+SUBJECT: Konus-Wind observation of GRB 130515A
+DATE:    13/05/16 10:01:58 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, P.
+Oleynik, M. Ulanov, D. Svinkin, and T. Cline on behalf of the Konus-Wind
+team report:
+
+The short-duration GRB 130515A (Swift-BAT trigger #555880:
+Malesani et al., GCN 14650, Barthelmy et al., GCN 14658;
+Fermi-GBM detection: Jenke, GCN 14663)
+triggered Konus-Wind at T0=04880.440s UT (01:21:20.440)
+
+The burst light curve shows a single pulse
+from ~T0-0.05 s to ~T0-0.2 s, with a total duration of ~0.25s.
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB130515_T04880/
+
+As observed by Konus-Wind, the burst had a fluence
+of (1.1 ± 0.2)x10-6 erg/cm2 and a 16-ms peak flux,
+measured from T0-0.016 s, of (2.1 ± 0.5)x10-5 erg/cm2
+(both in the 20 - 1500 keV energy range).
+
+Modelling the K-W 3-channel time-integrated spectrum
+(from T0-0.064 s to T0+0.192 s)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = 0.0 ± 0.4, and Ep = 410 ± 90 keV
+
+Modelling the K-W 3-channel spectrum at the maximum count rate
+(from T0-0.064 s to T0)
+by a power law with exponential cutoff model
+yields alpha = -0.5 ± 0.4, and Ep = 715 ± 360 keV
+
+
+All the quoted errors are at the 1 sigma confidence level.
+

@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7584
+SUBJECT: GRB 080411: Swift detection of a bright burst
+DATE:    08/04/11 21:47:27 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+F. E. Marshall (NASA/GSFC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), A. P. Beardmore (U Leicester),
+D. N. Burrows (PSU), N. Gehrels (NASA/GSFC), O. Godet (U Leicester),
+S. T. Holland (CRESST/USRA/GSFC), H. A. Krimm (CRESST/GSFC/USRA),
+C. B. Markwardt (CRESST/GSFC/UMD), K. M. McLean (GSFC/UMD),
+C. Pagani (PSU), K. L. Page (U Leicester), D. M. Palmer (LANL),
+M. Stamatikos (NASA/ORAU), R. L. C. Starling (U Leicester),
+T. N. Ukwatta (GSFC/GWU), L. Vetere (PSU) and P. A. Ward (MSSL-UCL)
+report on behalf of the Swift Team:
+
+At 21:15:32 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080411 (trigger=309010).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 38.018, -71.342 which is 
+   RA(J2000)  =  02h 32m 04s
+   Dec(J2000) = -71d 20' 30"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The TDRSS BAT lightcurve shows the burst
+starting with a fast rise from background to ~13,000 counts/sec in
+approximately 0.5 sec.  There are several peaks after that with the
+fourth peak (T+19 sec) at 75,000 cnts/sec.  There are several more peaks 
+after that lasting out to at least T+70 sec. 
+
+The XRT began observing the source at 21:16:42 UT (71 s after the 
+trigger).  The XRT centroided on something very bright. 
+We have lost most of our prompt diagnostic messages
+because the spacecraft switched from TDRSS telemetry
+to Malindi telemetry shortly after the burst, and our
+prompt image does not include the source.  However,
+the information within the header indicates that the
+source is located near the center of the XRT field
+of view, and is therefore probably real.  If real,
+the position is 
+GRB_RA:           37.9860d {+02h 31m 56.6s} (J2000),
+GRB_DEC:         -71.3021d {-71d 18' 07.5"} (J2000),
+
+with an uncertainty of 4.3 arcseconds (90% confidence 
+radius), and the flux during this image was approximately
+4.4e-7 cgs (~ 10 Crabs) in the 0.1 s image.  The XRT 
+position is 148 arcseconds from the BAT position. 
+
+No UVOT data for this burst are currently available. 
+
+Burst Advocate for this burst is F. E. Marshall (marshall AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

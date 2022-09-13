@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19550
+SUBJECT: Swift-BAT refined analysis of the recent outburst from SGR 1617-5103 (a.k.a. 1E 161348-5055 and 2E 1613.5-5053)
+DATE:    16/06/22 22:35:22 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+M. Stamatikos (OSU), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+A. D'Ai (INAF-IASFPA), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), D. Malesani (DARK/NBI),
+D. M. Palmer (LANL), T. Sakamoto (AGU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of the recent outburst from SGR 1617-5103,
+a.k.a. 1E 161348-5055 and 2E 1613.5-5053 (trigger #700791; D'Ai et al.,
+GCN Circ. 19547, formerly identified as a GRB). The BAT ground-calculated
+position is
+RA, Dec = 244.357, -51.060 deg which is
+  RA(J2000)  =  16h 17m 25.7s
+  Dec(J2000) = -51d 03' 37.0"
+with an uncertainty of 1.8 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 71%.
+
+The mask-weighted light curve shows a very short spike that starts and peaks
+at ~T0, and ends at ~T+0.008 s. T90 (15-350 keV) is 0.008 +- 0.004 sec (estimated
+error including systematics).
+
+We note that the short single spike seen by BAT is typical of SGR large flares.
+This could be an SGR flare from the central neutron star of SNR RCW103.
+
+The time-averaged spectrum from T+0.0 to T+0.008 sec is best fit by a simple
+power-law model (chi2 = 37.71; 57 degrees of freedom).  The power law index of the
+time-averaged spectrum is 1.77 +- 0.26.  The fluence in the 15-150 keV band
+is 1.9 +- 0.4 x 10^-8 erg/cm2. If using a black-body model, which is more suitable
+for an SGR, the spectral fit finds that kT = 9.9 +- 1.9 keV (chi2 = 48.25; 57 degrees
+of freedom). All the quoted errors are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/700791/BA/
+

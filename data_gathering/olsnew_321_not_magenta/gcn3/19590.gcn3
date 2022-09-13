@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19590
+SUBJECT: Trigger 701590: Swift detection of a bright outburst from SGR 1935+2154
+DATE:    16/06/26 14:12:09 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), A. D'Ai (INAF-IASFPA), N. Gehrels (NASA/GSFC),
+C. Gronwall (PSU) and D. M. Palmer (LANL) report on behalf of the
+Swift Team:
+
+At 13:54:30 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located SGR 1935+2154 (trigger=701590).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 293.730, +21.884 which is 
+   RA(J2000)  =  19h 34m 55s
+   Dec(J2000) = +21d 53' 03"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single spike
+with a duration of about 0.3 sec.  The peak count rate
+was ~416,000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 13:56:19.8 UT, 108.9 seconds after
+the BAT trigger. Using promptly downlinked data we find a
+X-ray source located at RA, Dec 293.73009, 21.89586 which is equivalent
+to:
+   RA(J2000)  = 19h 34m 55.22s
+   Dec(J2000) = +21d 53' 45.1"
+with an uncertainty of 4.1 arcseconds (radius, 90% containment). This is
+consistent with the known source SGR 1935+2154.  This
+position may be improved as more data are received; the latest position
+is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (1.27 x
+10^22 cm^-2, Willingale et al. 2013), with an excess column of 6
+(+6.83/-4.97) x 10^22 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 112 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+

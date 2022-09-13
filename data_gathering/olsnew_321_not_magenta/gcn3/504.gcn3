@@ -1,0 +1,38 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  504
+SUBJECT: GRB 991216: Updated BATSE parameters
+DATE:    99/12/20 16:52:41 GMT
+FROM:    R. Marc Kippen at BATSE/UAH/MSFC  <marc.kippen@msfc.nasa.gov>
+
+R. M. Kippen (University of Alabama in Huntsville) reports on behalf
+of the BATSE GRB team the updated standard BATSE parameters for GRB
+991216 (trigger 7906):
+
+Duration (seconds)
+     T50:  6.2720 +/- 0.0905
+     T90: 15.1680 +/- 0.1109
+
+Peak Flux (photons / cm^2-s, 50-300 keV)
+    64ms: 91.4654 +/- 1.053570     (3rd brightest in BATSE catalog)
+   256ms: 82.0787 +/- 0.498275     (3rd brightest in BATSE catalog)
+  1024ms: 67.5055 +/- 0.226543     (2nd brightest in BATSE catalog)
+ 
+Peak Flux (ergs / cm^2-s, 50-300 keV)
+    64ms: 1.99303e-05 +/- 2.39823e-07
+   256ms: 1.78031e-05 +/- 1.12832e-07
+  1024ms: 1.45472e-05 +/- 1.27662e-07
+ 
+Fluence in 4 discriminator channels (ergs / cm^2)
+    1: 1.72637e-05 +/- 5.28282e-08    ( 20.6  -  64.7 keV)
+    2: 2.29693e-05 +/- 5.43826e-08    ( 64.7  - 118.1 keV)
+    3: 6.50656e-05 +/- 1.36158e-07    (118.1  - 345.5 keV)
+    4: 1.50204e-04 +/- 1.16799e-06    (       > 345.5 keV)
+ 
+Total fluence (ergs / cm^2, > 20.6 keV)
+       2.55503e-04 +/- 1.17834e-06    (13th largest fluence in 
+                                      BATSE catalog)
+
+High time resolution lightcurves of this burst are available at
+http://gammaray.msfc.nasa.gov/batse/grb/lightcurve/
+
+-eof-

@@ -1,0 +1,80 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5009
+SUBJECT: GRB060418: Swift XRT Team Further Refined Analysis
+DATE:    06/04/27 17:05:58 GMT
+FROM:    Abe Falcone at PSU/Swift  <afalcone@astro.psu.edu>
+
+A. D. Falcone, D. N. Burrows, D. Morris, J. Racusin (PSU), P. T.
+O'Brien, J. P. Osborne (U Leicester), N. Gehrels (GSFC) report on behalf
+of the Swift XRT team:
+
+We have performed more analysis on recent Swift XRT data from GRB 060418
+(Falcone et al., GCN4966).  As reported by Falcone et al. (GCN4973), the
+early afterglow decay has bright flaring.  This flaring made it
+difficult to estimate the afterglow decay index at the time of the
+previous report, which made use of only the initial flare-dominated
+data.  Here we give a better estimate of this decay, along with some
+preliminary spectral information.
+
+ From 78 s until about 115 s after the burst trigger time, the light
+curve had a steep power law decay index of alpha = 4.6 +/- 0.2.  A large
+flare begins at T+115 s, peaking at T+135 s (where T is the BAT trigger
+time) with a maximum count rate of ~560 c/s.  Flaring continues to at
+least T+6000 s.  No flares are evident after T+40,000 s, at which point
+the count rate has dropped to less than 0.01 c/s.  The temporal decay of
+the underlying afterglow was fit using two time regions that showed no
+evidence of flaring (T+350 to T+530 s, and T+40,000 to T+190,000 s).
+The underlying afterglow has a power law decay index of alpha = 1.4 ±
+0.1 from T+350 s until the last detection at T+700,000 s.  There is no
+evidence for a break in the underlying decay curve up to 9 days after
+the trigger.  In particular, we do not detect the break predicted by
+Ghisellini et al. (GCN 4991), although we have only a single 2 sigma
+data point after the predicted break time.  Due to a normal orbital gap,
+we have no data during the time of the potential second burst reported
+by Konus-Wind (Golenetskii et al. GCN4989).
+
+A preliminary light curve can be viewed at
+http://www.astro.psu.edu/users/afalcone/grb060418/falcone_grb060418.gif
+
+The observed spectra of the underlying afterglow can be described by a
+simple absorbed power law, with photon index 2.04 +/- 0.13 and total N_H
+= (19 +/- 4)e20 cm^-2, with a chi2/dof of 1.22 (75 dof).  This fit
+assumes all absorption is local to the observer.  The Galactic N_H at
+this position is ~9e20 cm^-2 (Dickey and Lockman 1990).  We fit the time
+period during the large flare with a spectral model that was the sum of
+two power laws; one was the underlying afterglow frozen to the values
+shown above (with the normalization changed based on the measured
+temporal decay) and the other was a power law that was free to vary.
+This fit resulted in a chi2/dof of 1.07 (321 dof), with the following
+flare power law component parameters: photon index 2.04 +/- 0.05 and N_H
+= (29 +/-2)e20 cm^-2.  For the flare component, we also tried a cutoff
+power law, a Band function, and a blackbody model.  In all cases, the
+fits were equivalently acceptable, with chi2/dof always falling in the
+range from 1.05 to 1.07.  The cutoff power law was equivalent to the
+simple power law since the cutoff reached a maximum value in excess of
+500 keV.  The Band function and the blackbody models both resulted in
+harder energy spectral indices, with an N_H that was consistent (within
+1 sigma error bars) with that of the underlying afterglow.  This is in
+contrast to the simple power law that implies an N_H increase during the
+flare (relative to the underlying afterglow value).
+
+This Circular is an official product of the Swift XRT Team.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

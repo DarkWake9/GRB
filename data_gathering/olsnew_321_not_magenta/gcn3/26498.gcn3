@@ -1,0 +1,92 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26498
+SUBJECT: LIGO/Virgo S191216ap, Swift XRT observations: 16 X-ray sources in the HAWC error region search
+DATE:    19/12/19 09:22:13 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), A. Tohuvavohu (U.
+Toronto), S.D. Barthelmy (NASA/GSFC), A.P. Beardmore (U. Leicester),
+M.G. Bernardini (INAF-OAB), A.A. Breeveld (UCL-MSSL), P. Brown (TAMU),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G.
+Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V. D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P. Giommi (ASI), C. Gronwall
+(PSU), D. Hartmann (U. Clemson), H.A. Krimm (CRESST/GSFC/USRA), N.J.
+Klingler (PSU), N.P.M. Kuin (UCL-MSSL), A.Y. Lien (GSFC/UMBC), F.E.
+Marshall (NASA/GSFC), A. Melandri (INAF-OAB), J.A. Nousek (PSU), S.R.
+Oates (U. Birmingham), P.T. O'Brien (U. Leicester), J.P. Osborne (U.
+Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester), M.J.Page
+(UCL-MSSL), D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin
+(NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G.
+Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP) report on behalf of
+the Swift team:
+
+Swift has carried out further observations of S191216ap. We performed a
+series of tiles to cover the HAWC error region (GCN Circ. 26472) for
+500 s per tile, and then 3ks observations of each of the galaxies
+listed by Singer et al (GCN Circ. 26479). All of the Swift pointings
+and associated metadata have been reported to the Treasure Map (Wyatt
+et al., GCN Circ. 26244;
+http://treasuremap.space/alerts?graceids=S191216ap).
+
+In these observations, we detected 17 X-ray sources, these are either
+new detections, or have been given a higher 'rank' than in the last
+circular. Each source is assigned a rank of 1-4 which describes how
+likely it is to be related to the GW trigger, with 1 being the most
+likely and 4 being the least likely. The ranks are described at
+https://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 13 sources of rank 3
+  * 4 sources of rank 4
+
+
+RANK 3 sources
+==============
+
+These are uncatalogued X-ray sources, however they are not brighter
+than previous upper limits, so do not stand out as likely counterparts
+to the GW trigger.
+
+| Source ID	 | RA		  | Dec 	   | Err90   |
+|  S191216ap_X4  | 21h 33m 49.19s | +04d 57' 18.9" |	6.7" |
+|  S191216ap_X5  | 21h 33m 18.81s | +05d 17' 04.9" |	6.9" |
+|  S191216ap_X6  | 21h 34m 53.19s | +05d 19' 11.0" |	6.6" |
+|  S191216ap_X7  | 21h 32m 44.20s | +04d 20' 06.0" |	5.8" |
+|  S191216ap_X8  | 21h 32m 47.89s | +04d 27' 52.2" |	5.5" |
+|  S191216ap_X9  | 21h 32m 26.75s | +04d 21' 31.6" |	5.3" |
+| S191216ap_X10  |  21h 32m 6.50s | +04d 18' 38.2" |	6.9" |
+| S191216ap_X12  | 21h 31m 46.59s | +05d 44' 44.4" |	7.0" |
+| S191216ap_X13  | 21h 31m 56.80s | +05d 11' 22.4" |	8.0" |
+| S191216ap_X17  | 21h 31m 43.77s | +05d 25' 15.7" |	6.0" |
+| S191216ap_X19  | 21h 31m 57.63s | +04d 43' 38.4" |	7.4" |
+| S191216ap_X20  | 21h 31m 31.98s | +04d 54' 03.0" |	5.0" |
+| S191216ap_X21  | 21h 31m 44.49s | +05d 23' 12.0" |	7.4" |
+
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+
+| Source ID	 | RA		  | Dec 	   | Err90   |
+| S191216ap_X11  | 21h 32m 41.01s | +04d 24' 18.6" |	6.2" |
+| S191216ap_X14  | 21h 30m 32.91s | +05d 02' 18.4" |	7.6" |
+| S191216ap_X15  | 21h 30m 26.31s | +05d 06' 07.0" |	7.2" |
+| S191216ap_X16  | 21h 31m 22.64s | +05d 02' 37.5" |	5.4" |
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3x10^20 cm^-2, and photon index (Gamma)=1.7
+
+The results of the XRT automated analysis, including details of the
+sources listed above, are online at
+https://www.swift.ac.uk/LVC/S191216ap
+
+This circular is an official product of the Swift XRT team.
+
+

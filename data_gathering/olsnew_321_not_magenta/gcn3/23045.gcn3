@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23045
+SUBJECT: GRB 180727A: Swift-XRT refined Analysis
+DATE:    18/07/28 14:58:03 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+V. D'Elia (ASDC), D.N. Burrows (PSU), A. Tohuvavohu (PSU), S. J.
+LaPorte (PSU), Z. Liu (NAOC / U. Leicester), J.P. Osborne (U.
+Leicester), K.L. Page (U. Leicester), A. D'Ai (INAF-IASFPA), A.
+Melandri (INAF-OAB) and A.P. Beardmore report on behalf of the
+Swift-XRT team:
+
+We have analysed 5.9 ks of XRT data for GRB 180727A (Beardmore et al.
+GCN Circ. 23043), from 58 s to 80.1 ks after the  BAT trigger. The data
+comprise 24 s in Windowed Timing (WT) mode (the first 7 s were taken
+while Swift was slewing) with the remainder in Photon Counting (PC)
+mode. Using 503 s of PC mode data and 2 UVOT images, we find an
+enhanced XRT position (using the XRT-UVOT alignment and matching UVOT
+field sources to the USNO-B1 catalogue): RA, Dec = 346.66632, -63.05183
+which is equivalent to:
+
+RA (J2000): 23h 06m 39.92s
+Dec(J2000): -63d 03' 06.6"
+
+with an uncertainty of 1.7 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with a power-law decay with a decay
+index of alpha=2.4 (+0.3, -0.4).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 1.9 (+/-0.4). The
+best-fitting absorption column is  2.1 (+1.8, -1.4) x 10^21 cm^-2, in
+excess of the Galactic value of 2.1 x 10^20 cm^-2 (Willingale et al.
+2013). The counts to observed (unabsorbed) 0.3-10 keV flux conversion
+factor deduced from this spectrum  is 3.9 x 10^-11 (5.0 x 10^-11) erg
+cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     2.1 (+1.8, -1.4) x 10^21 cm^-2
+Galactic foreground: 2.1 x 10^20 cm^-2
+Excess significance: 2.2 sigma
+Photon index:	     1.9 (+/-0.4)
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00850231.
+
+This circular is an official product of the Swift-XRT team.
+

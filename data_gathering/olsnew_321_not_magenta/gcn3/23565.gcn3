@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23565
+SUBJECT: GRB 181225A: Swift observations and X-ray candidate afterglow
+DATE:    18/12/26 19:34:17 GMT
+FROM:    Antonino D'Ai at IASF-PA  <antonino.dai@ifc.inaf.it>
+
+V. D’Elia (SSDC), A. D’Ai (INAF-IASFPA), and M. H. Siegel (PSU) report on behalf of the Swift team
+
+Swift-XRT and Swift-UVOT have performed follow-up observations of the AGILE-, GBM- and LAT-detected burst GRB 181225A (Ursi et al., GCN Circ. 23560; Arimoto et al. GCN Circ., 23561; Poolakkil et al., GCN Circ. 23562). The XRT total exposure time is 5 ks. The data were collected ~15 hr after the trigger, and are entirely in Photon Counting (PC) mode. Swift-UVOT data were collected simultaneously with the XRT data in UVOT’s u, v and white filters. 
+
+Two sources are detected in the XRT field of view, at the border of the LAT error circle (0.13 deg, 90% containment, statistical error only, Arimoto et al. GCN Circ. 23561). 
+
+The first one is located at:
+RA(J2000)   =  23h 12m 12.2s
+Dec(J2000) = -09d 19’ 29.5”
+and is 0.156 deg away from the best LAT localization. Its count rate is (2.5 +/- 0.3)E-2 cts/s. However, its position is coincident with SDSSJ23122-0919, a radio source with a ROSAT X-ray counterpart, and thus it is likely unrelated with the X-ray afterglow of GRB181225A. 
+
+This source is detected in all three UVOT filters with magnitudes and colors roughly consistent with archival values.
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white          55175        61751         1213      17.89+/-0.03
+u                54338        66054         1868      19.45+/-0.15
+v                56013        62624         1373      18.56+/-0.12
+
+The magnitudes in the table are not corrected for the Galactic extinction due to the reddening of E(B-V) = 0.04 in the direction of the burst (Schlegel et al. 1998).
+
+
+The second X-ray source is located at: 
+RA(J2000)   = 23h 12m 51.5s 
+Dec(J2000) = -09d 30’ 08.9”
+and is 0.144 deg away from the LAT localization. Its count rate is (3.7 +/-1.1)E-3 cts/s. This source is not related with any known astrophysical object, and it is thus a candidate X-ray afterglow for GRB181225A. This source was too far off the pointing to be imaged by UVOT. No new source is detected in the UVOT images. Given its faintness, low significance (S/N ~3), and no current information on variability in X-ray, we cannot confirm at the present stage if it is the X-ray afterglow. 
+
+This is an official product of the Swift team.
+

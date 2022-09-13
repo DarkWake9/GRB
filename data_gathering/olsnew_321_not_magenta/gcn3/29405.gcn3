@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29405
+SUBJECT: ZTF21aagwbjr/AT2021buv: ZTF discovery of a fast optical transient likely associated with GRB 210104A
+DATE:    21/02/05 20:10:12 GMT
+FROM:    Erik Kool at Stockholm University  <erik.kool@astro.su.se>
+
+Erik Kool (OKC), Igor Andreoni (Caltech), Anna Ho (UCB), Michael Coughlin (UMN), Tomas Ahumada (UMD), Yuhan Yao (Caltech), Daniel Perley (LJMU), Shreya Anand (Caltech), Mansi Kasliwal (Caltech) on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations.
+
+
+We report the discovery of the fast optical transient ZTF21aagwbjr/AT2021buv with the Zwicky Transient Facility (ZTF, Bellm et al. 2019, Graham et al. 2019) at coordinates (J2000, <0.5”):
+
+RA = 07:48:19.32 (117.08054d)
+Dec = +11:24:34.21 (+11.40949d)
+
+ZTF21aagwbjr was first detected at r=17.11 mag on 2021-02-04 07:07 UT, hereafter labelled T_det, with an upper limit (g > 18.74 mag) 1.9 hours prior. It faded by ~2.1 mag in r-band in the next 0.9 days. The transient was most recently detected on 2021-02-05 06:07 UT at g = 19.70 ± 0.07 mag. The color appears to be red, with g-r~0.4 on 2021-02-05. The Galactic extinction along the line of sight is low, with E(B-V)=0.04 mag (Planck Collaboration et al., 2015).
+
+We note that ZTF21aagwbjr falls in the center of the error region of GRB210204A (GCN 29390), a long burst triggered by Fermi GBM 45 minutes before T_det. ZTF21aagwbjr is temporally and spatially consistent with GRB210204A (see https://zwicky.tf/j0s), and likely the afterglow.
+
+In the table below, we report photometry obtained on images processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC (Masci et al. 2019).
+
+-------------------------------------
+Date (UT) | mag | emag | band
+-------------------------------------
+2021-02-04 05:14 | > 18.74 | - | g
+2021-02-04 07:07 | 17.11 | 0.02 | r
+2021-02-05 05:09 | 19.26 | 0.06 | r
+2021-02-05 06:07 | 19.70 | 0.07 | g
+-------------------------------------
+
+ZTF21aagwbjr is located off the Galactic plane, with Galactic latitude b_Gal = 17.7 deg. A possible faint host is listed in the Legacy Survey DR9 catalog (Dey et al. 2019, ApJ, 157, 5), at RA, Dec = 07:48:19.32, 11:24:34.3, with a small separation of 0.1 arcsec from ZTF21aagwbjr. The source has a galaxy morphological classification, according to the DR9 Tractor model. The possible host has reported magnitudes of g=24.60, r=23.74, z=23.26, and a photometric redshift of 0.92 ± 0.3.
+
+We encourage spectroscopic classification and multi-wavelength follow-up of ZTF21aagwbjr, the likely afterglow of GRB210204A.
+
+
+ZTF21aagwbjr was observed as part of the Caltech TESS shadowing survey (ATel #12952), and identified independently by two ZTF data mining programs: i) the “ZTF Realtime Search and Triggering” (ZTF-ReST) project, which aims at near real-time identification of compelling kilonova candidates in ZTF data using the methods described in Andreoni et al. (2020, ApJ, 904, 2), independently of gravitational-wave or gamma-ray triggers; ii) a filtering algorithm designed for fast transient discovery (Ho et al. 2020, ApJ, 905, 2).
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert database searches are done with Kowalski (Duev et al. 2019).
+

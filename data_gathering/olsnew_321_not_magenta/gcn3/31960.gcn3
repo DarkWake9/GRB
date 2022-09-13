@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31960
+SUBJECT: GRB 220427A: Swift detection of a burst with an optical counterpart
+DATE:    22/04/27 21:26:22 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. D'Ai (INAF-IASFPA), E. Ambrosi (INAF-IASFPA),
+V. D'Elia (SSDC & INAF-OAR), C. Gronwall (PSU), J.D. Gropp (PSU),
+J. A. Kennea (PSU), S. Laha (GSFC/UMBC), D. M. Palmer (LANL) and
+A. Tohuvavohu (U Toronto) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 21:00:34 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 220427A (trigger=1104343).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 275.869, -56.253 which is 
+   RA(J2000) = 18h 23m 29s
+   Dec(J2000) = -56d 15' 09"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 80 sec.  The peak count rate
+was ~4000 counts/sec (15-350 keV), at ~10 sec after the trigger. 
+
+The XRT began observing the field at 21:03:33.0 UT, 178.1 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source located at RA, Dec 275.88860, -56.25508 which is
+equivalent to:
+   RA(J2000)  = 18h 23m 33.26s
+   Dec(J2000) = -56d 15' 18.3"
+with an uncertainty of 3.5 arcseconds (radius, 90% containment). This
+location is 39 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at https://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (1.02 x
+10^21 cm^-2, Willingale et al. 2013), with an excess column of 2.9
+(+3.18/-2.73) x 10^21 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 150 seconds with the White 
+filter  starting 181 seconds after the BAT trigger. There is a 
+candidate afterglow in  the rapidly available 2.7'x2.7' sub-image at  
+RA(J2000) = 18:23:33.32 = 275.88882    
+DEC(J2000) = -56:15:18.3 = -56.25507    
+with a 90%-confidence error radius of about 0.61 arc sec. 
+This position is 1.4  arc sec. from the center of the XRT error
+circle. The estimated magnitude is  17.23 with a 1-sigma error of
+about 0.14. No correction has been made for the  expected extinction
+corresponding to E(B-V) of 0.097. 
+
+The original BAT Position Notice found an approximate coincidence
+(~10 arcmin) with the position of IGR J18244-5622 (which in turn 
+is coincident with the Sey2 galaxy IC 4709 at z=0.017). 
+However, the position of the X-ray and Optical counterpart 
+excludes this source and galaxy, indicating that this is a new GRB. 
+
+Burst Advocate for this burst is A. D'Ai (antonino.dai AT inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

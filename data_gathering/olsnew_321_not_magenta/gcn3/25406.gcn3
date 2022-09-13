@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25406
+SUBJECT: Fermi GBM-190816: A subthreshold GRB candidate potentially associated with a subthreshold LIGO/Virgo compact binary merger candidate
+DATE:    19/08/20 05:23:25 GMT
+FROM:    Adam Goldstein at Fermi-GBM, USRA  <adam.michael.goldstein@gmail.com>
+
+The LIGO Scientific Collaboration, the Virgo Collaboration and the Fermi
+GBM team report:
+
+In routine Fermi GBM follow-up analysis of subthreshold GW triggers from
+LIGO/Virgo, a potential short gamma-ray burst counterpart GBM-190816 was
+identified.
+
+Offline analysis of data from LIGO Livingston Observatory (L1) and Virgo
+Observatory (V1) identified a possible compact binary merger candidate at
+2019-08-16 21:22:13.027 UTC (GPS time: 1250025751.027). The LIGO Hanford
+Observatory was not collecting low-noise data at the time. The candidate
+was found by the PyCBC Live [1], MBTAOnline [2], and GstLAL [3] analysis
+pipelines.
+
+The GBM Targeted Search [4,5,6], a sensitive and coherent search for
+subthreshold GRB-like signals, was run from +/-30 s around the GW candidate
+and identified a candidate gamma-ray signal starting at 21:22:14.563 UTC,
+1.5 s after the GW trigger time. GBM-190816 is approximately 0.1 s in
+duration and was identified with the hard spectral template [6]. The
+offset, duration, and spectral properties are consistent with a short GRB
+origin, while the observed properties are inconsistent with other
+astrophysical or terrestrial transients that GBM observes. The False Alarm
+Rate (FAR) for the GBM Targeted Search detection statistic is 1.2E-4 Hz.
+
+Neither the GW trigger nor the potential short GRB are significant enough
+to report on their own merit. However, these events are of interest because
+of their potential association. Investigation on the data quality of the
+gravitational-wave event is ongoing. At this time we cannot reliably
+estimate the FAR of the gravitational-wave event. Analysis is ongoing in
+establishing the FAR, data-quality and overall potential astrophysical
+nature of the event.
+
+The skymap available at this moment is obtained primarily by combining the
+localization from L1-V1 using BAYESTAR [7] with the Fermi-GBM localization;
+the 90% error area corresponds to 5855 sq. deg. while the 50% error area is
+1257 sq. deg. This skymap is available through the OpenLVEM wiki page at
+
+https://wiki.gw-astronomy.org/OpenLVEM/FermiGBM-LVC
+
+From a preliminary inspection of the GW analysis, if the signal is
+astrophysical, the lighter compact object may have a mass < 3 solar masses.
+
+ [1] Nitz et al. PRD 98, 024050 (2018)
+
+ [2] Adams et al. CQG 33, 175012 (2016)
+
+ [3] Messick et al. PRD 95, 042001 (2017)
+
+ [4] Blackburn et al. 2015, ApJS 217, 8
+
+ [5] Goldstein et al. arXiv:1612.02395
+
+ [6] Goldstein et al. arXiv:1903.12597
+
+ [7] Singer & Price PRD 93, 024013 (2016)

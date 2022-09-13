@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7000
+SUBJECT: Swift UVOT upper limits
+DATE:    07/10/25 19:00:39 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@googlemail.com>
+
+N.P.M. Kuin (MSSL/UCL) and C. Pagani (PSU) report on behalf of the
+Swift UVOT team:
+
+The Swift/UVOT observed the field of GRB 071025 (found with Swift
+BAT, as reported in GCN 6986 of Pagani et al.) beginning 2007-10-25
+04:11:11 UT, 137 seconds after the burst trigger time. After a 10 s
+settling image in V, a 98 s finding chart exposure in the white filter
+was taken, followed by observations in all filters.
+
+No new source was found in any of the UVOT observations inside
+the reported position of the Swift XRT error circle (Pagani et al,
+GCN 6990, 6998) or the position of the detection of a transient
+source in the red bands of which the most accurate was the PARITEL
+observation in the J band (J. Bloom, GCN 6989), consistent with
+the refined XRT position. We report upper limits at position
+RA=23:40:17.078, DEC=+31:46:42.87 (J2000).
+
+The 3-sigma upper limits for detecting a source at the reported position
+in the co-added frames as determined are:
+
+Filter   Tstart   Tstop    Exp     Magnitude
+            (s)     (s)     (s)    (3-sigma UL)
+White       155   16016    1377     22.82
+v           137   17760    1319     21.22
+b          3968   11968    1194     22.14
+u          3760   23536    2085     22.13
+uvw1       3552   22704    2164     22.05
+uvm2       4784   21808    1082     21.43
+uvw2       4368   16928    1279     21.89
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E_{B-V} = 0.074 mag in the
+direction of the burst (Schlegel et al. 1998).
+

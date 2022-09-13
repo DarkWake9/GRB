@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6094
+SUBJECT: GRB 070201: clarification on localization and Konus-Wind spectra
+DATE:    07/02/10 17:21:40 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The ecliptic latitudes band of GRB 070201
+was given incorrectly in GCN 6088. The correct band is +30 +90 deg.
+The coordinates of the portion of the Wind-INTEGRAL annulus
+reported in GCN 6088 and the map posted at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB070124_T31311/
+are correct
+(more accurate coordinates of the intersection the
+ecliptic latitude lower limit (+30) with the center of
+the annulus are RA, Dec = 13.471,   +38.601 deg).
+
+We apologize for the confusion and thank Derek Fox,
+Eran Ofek, and Daniel Perley for pointing out the error.
+
+As was noted by Perley and Bloom (GCN 5947)
+the burst location area includes the M31 galaxy's outer
+spiral arms.
+
+The position of NGC 5985 galaxy suggested by Ofek (GCN 6092)
+is definitely out of the burst location area.
+The confusion was caused by the error in the reported ecliptic
+latitude band.
+
+Preliminary analysis shows that the burst had a
+fluence of 1.57(-0.21, +0.06)x10^-5 erg/cm2,
+and the 2-ms peak flux measured from T0+0.016 s
+9.4(-2.9,+1.7)x10^-4  erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+
+Assuming this burst originated from a source in M31 (D ~770 kpc),
+the isotrpoic energy release would be ~1x10^45 erg,
+which is between the energy release in initial pulse
+of the 5th March 1979 giant flare from SGR 0526-66 (~2x10^44 erg)
+and the 27th December 2004 giant flare from SGR 1806-20 (~2x10^46 erg).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+0.256 s) is well fitted (in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 0.98(-0.11, +0.10)
+and Ep = 293 (-31, +38) keV (chi2 = 39/40 dof).
+
+The spectrum of the burst maximum
+(from T0 to T0+0.064 s) is well fitted (in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 0.52(-0.15, +0.14)
+and Ep = 357 (-38, +44) keV (chi2 = 39/40 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+Due to large uncertainties in the burst position
+and large dead times caused by very high count rates
+these values should be considered only as preliminary.
+
+

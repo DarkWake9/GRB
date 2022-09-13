@@ -1,0 +1,31 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4806
+SUBJECT: GRB 060218:  Further refined analysis of the Swift-BAT burst
+DATE:    06/02/21 19:17:31 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S. Barthelmy (GSFC), J. Cummings (GSFC/NRC), T. Sakamoto (GSFC/NRC),
+C. Markwardt (GSFC/UMD), N. Gehrels (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the data set from T-50 to T+2000 sec from telemetry downlinks,
+we report further analysis of BAT GRB 060218 (trigger #191157)
+(Cusumano, et al., GCN 4745; Barbier, et al., GCN 4780; Gehrels, GCN 4787).
+The BAT ground-calculated position is RA,Dec = 50.379,+16.904 deg
+{3h 21m 30.9s, 16d 54' 14.2"} (J2000) +- 2.6 arcmin, (radius, sys+stat,
+90% containment).  The partial coding was 88%.
+ 
+Extending the mask-weighted lightcurve beyond T+120 sec (GCN 4780),
+it continues the weak, flat, soft emission out to T+280 sec.  This flux
+is 0.06 +- 0.02 counts/cm2/sec in the 15-50 keV band.  At T+290 sec
+there is a 10-sec wide spike which is spectrally harder than the
+flat emission (all the emission is in the 25-100 keV band).
+Starting at ~T+200 the lightcurve starts an approximately
+linear increase to a peak flux of 0.1 counts/cm2/sec (15-100 keV),
+and then begins a roughly exponential decay out to at least
+T+2000 sec.
+
+We note that this is a very long event.  It is among the very longest
+of GRBs.  At this point, using BAT results alone, we can not rule out
+a non-GRB nature for this event.
+

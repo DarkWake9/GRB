@@ -1,0 +1,69 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1276
+SUBJECT: GRB 011121: Third HST Epoch
+DATE:    02/03/19 07:14:41 GMT
+FROM:    Shri Kulkarni at Caltech  <srk@astro.caltech.edu>
+
+S. R. Kulkarni, J. S. Bloom, P. A. Price, D. E. Reichart, Caltech
+and B. Schmidt, Mount Stromlo Observatory  report
+on behalf of a larger collaboration:
+
+Here we report on the third HST epoch (19 Dec 2001 UT) of WFPC2 images of
+GRB 011121 (see GCN 1274). The third epoch was requested for observations
+1 week after the second epoch but HST scheduling restrictions resulted
+in the data being taken earlier.
+
+We have performed PSF-fitting photometry on the transient and using
+the prescription of Dolphin and Holtzman (D-H) we measure the following
+magnitudes:
+
+Epoch  delta T      Filter   D-H Magnitude
+       (days)
+---------------------------------------------
+3       27.24       F555W    25.08 +/- 0.07
+3       27.30       F702W    23.65 +/- 0.04
+3       28.10       F814W    23.16 +/- 0.06
+3       28.16       F850LP   22.72 +/- 0.06
+---------------------------------------------
+Note:  (1) These magnitudes are measured magnitues and have not been
+corrected for extinction. (2) The magnitude system here is the same
+as that in GCN 1274.
+
+We have converted these magnitudes to fluxes and the light curve can be
+found at http://www.astro.caltech.edu/~der/1121lc_0.75mag.eps.  We
+assumed that the excess over the power law decay of the afterglow is
+due to an underlying SN. To this end, we assumed assumed  an SN 1998bw
+template (corrected for extinction of A_V=0.19), redshifted to that of
+the host galaxy of GRB 011121 (z=0.36, GCN 1152) and subject to the
+estimated Galactic extinction of A_V=1.64 towards GRB 011121 (see GCN
+1158). A simple fit ("chi-by-eye") requires the 1998bw contribution to
+be dimmed by 0.75 mag. Even so, the fit is only approximate  with clear
+deviations in some bands (e.g. F555W).
+
+A full-fledged proper fitting of the data must address two points.
+First (a minor concern) is the heavy extinction towards this direction.
+
+Second (a major issue) is that there is great evidence that cosmologically
+located GRBs are not spherical but jetted sources with opening angles of
+only a few degrees (e.g. Frail et al. 2001, ApJ 562, 55).  In contrast,
+the asymmetry in SN 1998bw is sufficiently mild that this issue has been
+debated for some time in the literature.
+
+The fact that we see GRB 011121 means that we are seeing the explosion
+along the symmetry axis (or close to it).  [The opening angle for GRB
+011121, as with other GRBs, can be estimated from broad-band data.
+Indeed, if the true gamma-ray energy release from GRB 011121 is similar
+to those estimated from other cosmologically located GRBs then
+we estimate an opening angle of over 8 degrees].
+ 
+Continuing, if cosmologically GRBs have an underlying SN then these SN
+are likely to be severely asymmetric. These strong asymmetries, more than
+any any other quantity (e.g., the amount of synthesized Nickel), will
+strongly affect the light curve (see Hoflich et al. 1999, ApJ 524, L107).
+Rapid rise in the SN light is easily explained by rapid expansion along
+the polar axis and the decline can be expected to be rapid as well. Thus
+we should be prepared to see a large diversity in the light curves of the
+underlying SN in cosmologically located GRBs. Within these expectations,
+it appears that the case for an underlying SN in GRB 011121 is 
+well established.
+

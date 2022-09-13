@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6408
+SUBJECT: GRB 070512: IPN localization and Konus spectrum of a bright burst
+DATE:    07/05/14 19:01:07 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team,
+
+K. Hurley and T. Cline, on behalf of the Mars Odyssey GRB team,
+
+I. Mitrofanov, A. Kozyrev, M. Litvak, A. Sanin, V. Tret'yakov and A.
+Parshukov, on behalf of the HEND-Odyssey GRB team,
+
+W. Boynton, C. Fellows, K. Harshman, C. Shinohara and R. Starr, on
+behalf of the GRS-Odyssey GRB team,
+
+J. Cummings, S. Barthelmy, N. Gehrels, and H. Krimm, on behalf of
+the Swift-BAT team,
+
+A bright GRB triggered Konus-Wind at 2007-05-12 T0=21972.572 s UT 
+(06:06:12.572). It was also observed by Mars Odyssey (HEND and GRS), and 
+Swift-BAT. The burst was outside of the field of view of Swift-BAT, so 
+it was not imaged.
+
+The burst light curve shows a single smooth pulse with a duration
+of ~2 sec, followed by a weak tail seen up to T-T0 ~10 sec.
+There is substantial time lag between light curve in different 
+Konus-Wind bands.
+
+It was triangulated to the MO-Wind annulus centered at
+RA=357.861 (23h 51m 27s) Dec=-2.565 (-2d 33' 55"),
+whose radius is 87.897 +/- 0.035  deg (3 sigma).
+The Wind-Swift annulus constrains the arrival direction
+to the long 3-sigma error box (portion of the annulus) with corners:
+
+  ---------------------------------------------------
+    RA, deg                 Dec, deg     (J2000)
+  ---------------------------------------------------
+   269.113 (17h 56m 27s)   -20.440 (-20d 26' 25")
+   269.181 (17h 56m 43s)   -20.642 (-20d 38' 31")
+   268.735 (17h 54m 56s)   -30.959 (-30d 57' 32")
+   268.823 (17h 55m 18s)   -30.761 (-30d 45' 41")
+  ---------------------------------------------------
+
+The area of the box is 0.361 sq. deg.
+
+We note that this error box is consistent with the direction of
+the Galactic bulge.  We are waiting for MESSENGER data to reduce
+the size of the error box.
+
+Preliminary analysis of the Konus-Wind data yields a burst fluence of
+2.86(-0.12, +0.10)x10^-5 erg/cm2 (in the 20 keV - 1 MeV range).
+The time-integrated spectrum of the burst (from T0 to T0+9.472 s)
+can be fitted (in the 20 keV - 1 MeV range)
+by GRBM (Band) model for which:
+the low-energy photon index is alpha = -0.68(-0.18, +0.19),
+the high energy photon index beta = -2.65 (-0.46, +0.20),
+the peak energy Ep = 191(-18, +23) keV (chi2 = 68/59 dof).
+
+So the burst cannot definitely be placed in either the short
+or long GRB class.
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB070512_T21972/
+

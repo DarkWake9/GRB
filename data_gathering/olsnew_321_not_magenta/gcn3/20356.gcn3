@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20356
+SUBJECT: GRS 1716-249/GRO J1719-24/V2293 Oph, Swift-BAT refined analysis
+DATE:    17/01/02 19:30:58 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+J. R. Cummings (CPI), S. D. Barthelmy (GSFC),
+N. Gehrels (GSFC), H. A. Krimm (NSF/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT detection of GRS 1716-249 (a.k.a. GRO J1719-24
+and V2293 Oph; trigger #729410; Barthelmy, et al., GCN Circ. 20352).
+This source is currently having an outburst that was also detected
+by MAXI/GSC (Negoro et al. ATEL #9876 and Masumitsu et al. ATEL #9895)
+and the Swift/BAT transient monitor (see light curves
+at http://swift.gsfc.nasa.gov/results/transients/weak/Granat1716-249/).
+
+The BAT ground-calculated position is
+RA, Dec = 259.915, -25.010 deg which is
+   RA(J2000)  =  17h 19m 39.7s
+   Dec(J2000) = -25d 00' 35.0"
+with an uncertainty of 2.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 35%.
+
+The mask-weighted light curve shows that the emission lasts throughout the
+duration when the source was in the BAT field of view from T-133 s to T+158 s.
+
+The time-averaged spectrum from T+0.0 to T+112.0 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.50 +- 0.24.  The fluence in the 15-150 keV band is 1.6 +- 0.2 x 10^-6 erg/cm2.
+All the quoted errors are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/729410/BA/

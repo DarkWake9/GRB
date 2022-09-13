@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31552
+SUBJECT: GRB 220203A: GECAM detection
+DATE:    22/02/05 14:58:40 GMT
+FROM:    Zhao Yi at POLAR  <yizhao@ihep.ac.cn>
+
+Z. W. Guo, Y. Zhao, S. L. Xiong, J. C. Liu, Y. Q. Zhang, C. Y. Li, S. L. Xie, 
+S. Xiao, C. Cai, P. Zhang, X. Y. Zhao, Y. Huang, X. Y. Song,
+C. Zheng,  Y. Zhao,  W. C. Xue, C. W. Wang, 
+Q. B. Yi, B. X. Zhang,  W. X. Peng, R. Qiao, D. Y. Guo, X. B. Li, 
+X. Ma, L. M. Song, P. Wang, J. Wang, Z. Zhang, S. J. Zheng, W. Chen, 
+J. J. He, G. Y. Zhao, Y. Q. Du, H. Wu, J. Liang, Q. Luo, X. L. Zhang, 
+H. M. Zhang, Z. H. An, M. Gao, K. Gong, B. Li, C. Li, J. H. Li, 
+X. Q. Li, Y. G. Li, X. H. Liang, X. J. Liu, Y. Q. Liu, X. L. Sun, 
+Y. L. Tuo, J. Z. Wang, X. Y. Wen, Y. B. Xu, Y. P. Xu, S. Yang, 
+C. Y. Zhang, D. L. Zhang, Fan Zhang, Fei Zhang,
+X. Zhou, F. J. Lu, S. N. Zhang (IHEP)
+report on behalf of GECAM team:
+
+During the commissioning phase, GECAM-B was triggered on ground by a short burst, 
+GRB 220203A, at 2022-02-03T21:15:39.750 UTC (denoted as T0), which has been 
+detected by Konus-Wind, INTEGRAL/SPI-ACS, and Swift/BAT.
+
+GECAM alert data was downlinked to the ground through the short message
+service of BeiDou Navigation Satellite System (BDS) within ~60 s after T0.
+
+According to the BDS alert data, this burst mainly consists of a multiple pulses
+with a duration of about 0.3 s.
+
+The GECAM light curve could be found here:
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/GRB220203A_lc.png
+
+Using the automatic on-ground localization pipeline with the BDS alert data, 
+GECAM-B localized this burst to the following position (J2000): 
+Ra:  316.4 deg 
+Dec:   11.9 deg
+Err:   13.3 deg (1-sigma, statistical only)
+The current systematic error of location is estimated to be several degrees 
+which could be minimized by the ongoing calibration.
+This position is consistent with the IPN localization (GCN 31549) within the error.
+
+The GECAM preliminary location could be found here:  
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/GRB220203A_loc.png
+
+Please note that all GECAM results here are preliminary. The final analysis
+will be published in journal papers or GECAM online catalog.
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor
+(GECAM) mission consists of two small satellites (GECAM-A and GECAM-B) in
+Low Earth Orbit (600 km, 29 deg), launched on Dec 10, 2020 (Beijing Time),
+which was funded by the Chinese Academy of Sciences (CAS).
+

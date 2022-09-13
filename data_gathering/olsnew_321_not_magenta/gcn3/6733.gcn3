@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6733
+SUBJECT: GRB 070810: Swift detection of a burst
+DATE:    07/08/10 02:53:00 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. R. Cummings (NASA/UMBC), S. D. Barthelmy (GSFC),
+M. M. Chester (PSU), N. Gehrels (NASA/GSFC),
+S. T. Holland (CRESST/GSFC/USRA), J. A. Kennea (PSU),
+C. B. Markwardt (CRESST/GSFC/UMD), D. M. Palmer (LANL) and
+M. Stamatikos (NASA/ORAU) report on behalf of the Swift Team:
+
+At 02:11:52 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070810 (trigger=287364).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 189.939, +10.744 which is 
+   RA(J2000)  =  12h 39m 45s
+   Dec(J2000) = +10d 44' 40"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single peak
+structure with a duration of about 20 sec.  The peak count rate
+was ~2500 counts/sec (15-350 keV), at T+0 sec after the trigger. 
+
+The XRT began taking data at 02:13:20 UT, 88 seconds after the BAT
+trigger.  The XRT on-board centroid algorithm did not find a source in the
+image. Using prompt downlinked data, we find a fading, X-ray source
+located at RA, Dec 189.9629, 10.7513  which is
+   RA(J2000)  =  12 39 51.10
+   Dec(J2000) = +10 45 04.7
+with an uncertainty of 3.9 arcsec (radius, 90% containment). This position
+is 89 arcminutes from the BAT position. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 92 seconds after the BAT trigger, and a
+finding chart exposure of a nominal 400 seconds starting 198 seconds. 
+A possible candidate has been identified visually in the initial data
+products, but processing is still underway so no position or
+significance is available at this time. The 2.7' x 2.7' sub-image
+does not cover the XRT error circle; the 8' x 8' list of sources
+covers 100% of the XRT error circle.  The typical 3-sigma upper limit
+has been about 18.5 mag. 
+
+No BAT_Position Notice was distributed, because none was received
+from the TDRSS system.  This burst occurred during a 24-sec gap
+in TDRSS coverage due to a hand-off from one TDRSS satellite to
+the next satellite, so none of the initial notices were available
+(BAT_Position, FOM, and SC_Slew). 
+
+Burst Advocate for this burst is J. R. Cummings (jayc AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22699
+SUBJECT: Swift Trigger 831888: a possible GRB or Galactic transient
+DATE:    18/05/11 08:51:18 GMT
+FROM:    Boris Sbarufatti at PSU  <bxs60@psu.edu>
+
+A. Tohuvavohu (PSU), P. A. Evans (U Leicester), J.D. Gropp (PSU),
+J. A. Kennea (PSU), A. Y. Lien (GSFC/UMBC), K. L. Page (U Leicester)
+and B. Sbarufatti (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 07:15:39 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible burst or a Galactic transient (trigger=831888).  
+Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 214.508, -62.457 which is 
+   RA(J2000) = 14h 18m 02s
+   Dec(J2000) = -62d 27' 24"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve does not show anything
+significant, as it typical for image triggers (duration is 10.4 min 
+in this case). 
+
+The XRT began observing the field at 07:33:44.3 UT, 1085.3 seconds
+after the BAT trigger. No source was detected in 764 s of promptly
+downlinked data. We are waiting for the full dataset to detect and
+localise the XRT counterpart. 
+We note that the BAT error circle was not covered by the promptly 
+downlinked data. 
+
+Because of a known bug in the onboard identification software that 
+affects image triggers longer than 7 minutes happening at the time of 
+a spacecraft slew we believe the identification with a known source  
+in the on-board catalog is incorrect. Since the BAT position is close
+to the galactic plane (l,b = 312.76,-1.25) at the moment we cannot
+confidently determine if this is a GRB or a galactic source. We are
+waiting for the full dataset  to properly identify the nature of this
+trigger. 
+
+Burst Advocate for this burst is A. Tohuvavohu (aaronb AT swift.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

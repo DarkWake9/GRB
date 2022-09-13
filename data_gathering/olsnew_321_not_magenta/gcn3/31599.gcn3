@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31599
+SUBJECT: Konus-Wind detection of GRB 220211A
+DATE:    22/02/16 18:38:57 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, D. Frederiks, A.Lysenko, A. Ridnaia,
+A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The short-duration GRB 220211A
+(Fermi-GBM detection: The Fermi GBM team, GCN Circ. 31570;
+Veres and Meegan GCN Circ. 31591;
+Swift/BAT-GUANO detection: Tohuvavohu et al., GCN Circ. 31582;
+IPN triangulation: Ridnaia et al., GCN Circ. 31584)
+triggered Konus-Wind (KW) at T0=4070.727 s UT (01:07:50.727).
+
+The burst light curve shows a single pulse with
+the total duration of ~54 ms (20-1500 keV).
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220211_T04070/
+
+As observed by Konus-Wind, the burst had
+a fluence of 3.86(-0.53,+0.82)x10^-7 erg/cm^2 and
+a 16-ms peak energy flux, measured from T0-0.040 s,
+of 9.6(-2.1,+2.6)x10^-6 erg/cm^2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Since the main fraction of the burst emission was detected
+before the trigger, the spectral analysis was performed using
+the KW 3-channel light curve data.
+
+Modelling the time-integrated spectrum of the burst
+(measured from T0-0.050 s to T0+0.004 s)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep),
+yields alpha = 0.77(-0.62,+1.32) and Ep = 413(-74,+88) keV.
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.
+

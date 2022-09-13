@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22389
+SUBJECT: Swift Trigger on AXP CXOU J164710.2-455216/PSR J1647-4552
+DATE:    18/02/05 19:51:18 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+S. D. Barthelmy (GSFC), A. Deich (PSU), J.D. Gropp (PSU),
+J. A. Kennea (PSU), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester),
+B. Sbarufatti (PSU) and A. Tohuvavohu (PSU) report on behalf of the
+Neil Gehrels Swift Observatory Team:
+
+At 19:27:11 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located on CXOU J164710.2-455216/PSR J1647-4552 (trigger=808755).  
+Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 251.749, -45.850 which is 
+   RA(J2000) = 16h 47m 00s
+   Dec(J2000) = -45d 51' 00"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single-peaked
+structure with a duration of about 0.4 sec.  The peak count rate
+was ~4000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 19:27:50.6 UT, 38.9 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 251.7918, -45.8713 which is
+equivalent to:
+   RA(J2000)  = 16h 47m 10.17s
+   Dec(J2000) = -45d 52' 16.2"
+with an uncertainty of 2.1 arcseconds (radius, 90% containment). This
+location is 132 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. This position is 1.6 arcseconds from a
+known X-ray source: CXOU J164710.2-455216/PSR J1647-4552, a known 
+magnetar (e.g. Woods et al., 2011, ApJ, 726, 37), which has triggered 
+BAT previously (GCNs 5581, 12359, 21095, 22024 and 22025). This source 
+is in the Swift XRT 1SXPS catalogue with a mean 0.3-10 keV count-rate 
+of 0.2290 +/-0.0028 ct/sec; 
+see http://www.swift.ac.uk/1SXPS/1SXPSJ164710.3-455217 for details 
+of these previous observations. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (2.03 x
+10^22 cm^-2, Willingale et al. 2013), with an excess column of 2.2
+(+2.52/-1.78) x 10^22 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter 
+starting 99  seconds after the BAT trigger. No credible counterpart
+has been found  in the initial data products. The 2.7'x2.7'  sub-image
+covers none of the XRT  error circle. The 8'x8' region for  the list
+of sources generated on-board  covers 100% of the XRT error  circle. 
+The typical upper limit has been about 18th mag. No correction  has
+been made for the large, but uncertain,  extinction expected. 
+

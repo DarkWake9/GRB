@@ -1,0 +1,99 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15254
+SUBJECT: GRB 130925A: Swift-XRT refined Analysis
+DATE:    13/09/25 15:27:05 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans, C. Pagani, K.L. Page, A.P. Beardmore, R.L.C. Starling (U.
+Leicester) and A. Y. Lien (NASA/GSFC/ORAU) report on behalf of the
+Swift-XRT team:
+
+We have analysed 4.7 ks of XRT data for GRB 130925A (Lien et al. GCN
+Circ. 15246), from 151 s to 12.0 ks after the BAT trigger. The data
+comprise 3.2 ks in Windowed Timing (WT) mode with the remainder in
+Photon Counting (PC) mode. The enhanced XRT position for this burst was
+given by Evans et al. (GCN. Circ 15251).
+
+The light curve behaviour is dominated by sharp, bright flares. The
+initial decay follows a power-law with an index of 2.70 (+/- 0.03) and
+then breaks at T0+464 (+9,-6) to a virtually flat segment, with a
+formal decay index of 0.16 (+0.11, -0.17). At this point the XRT count
+rate is 47 ct/sec (approx 2.1e-9 erg cm^-2 s^-1, 0.3-10 keV). Then at
+T0+750 a flare begins, which peaks at T0+1000 s at a count rate of ~100
+ct/sec. This flare fades steeply to ~8 ct/sec at T0+1240 s at which
+point a second, steep and bright flare begins. This peaks at T0+1380 s
+at a count rate of ~150 ct/sec. The Swift observations were interrupted
+at T0+1503 s as the GRB entered Earth-eclipse; the count-rate by this
+time had fallen to ~50 ct/sec.
+
+The MAXI detection (Suzuki et al., GCN Circ. 15248) took place while
+the GRB was thus unobservable by Swift and corresponds to an XRT count
+rate of ~80 ct/sec.
+
+Swift began observing the GRB again at T0+4.75 ks; the count rate was
+~8 ct/sec, but rapidly rising due to another flare which peaked 200 s
+later at ~130 ct/sec, and then faded to ~3 ct/sec by T0+6.1 ks. Another
+flare began shortly after, at T0+6.6 ks and peaked at T0+7.1 ks at 150
+ct/sec. Observations were interrupted soon after this as the GRB again
+went into eclipse. The next observation began at T0+10.5 ks at which
+time the count rate was ~5 ct/sec but again rising in a flare which
+peaked at T0+11.2 ks, at a count rate of ~20 ct/sec. This decayed to ~5
+ct/sec by T0+11.6ks and then began to rise again, but the Swift
+observations stopped just after this. Further observations are planned.
+
+
+The time-averaged WT mode spectrum can be modelled with an absorbed
+power-law with a photon index of 1.73 (+/-0.02) and an absorption
+column of 6.8e21 cm^-2 at z=0.347 (Vreeswijk et al., GCN Circ. 15249)
+in addition to the Galactic value of 0.17e21 cm^-2 (Kalberla et al,
+2005). However as is typical during flaring episodes, there is strong
+spectral evolution during the XRT observations. We therefore extracted
+a further 4 spectra, one before the flares and one during each of them.
+These spectra were fitted above 0.5 keV to avoid possible instrumental
+effects at low energies caused by the accumulation of charge traps due
+to radiation damage since the release of the current CALDB WT gain file
+(version 13).
+
+In the spectra for the first 2 flares there is evidence for additional
+soft emission above the simple power-law. There are known calibration
+issues which can cause bumps such as these to appear artificially (see
+http://www.swift.ac.uk/analysis/xrt/digest_cal.php#abs) so we extracted
+the spectra using only single-pixel events, however the soft component
+is still present. It can be well modelled by adding in a thermal
+component (reducing the cstat of the fits by ~120). In the first flare
+this has a temperature of 33 (+/-3) eV, and in the second flare 45 (+/-
+6) eV. 
+
+Details of the power-law fits are given below (for the first two flare
+spectra these are the fits which include the soft component); note that
+it is likely that some spectral evolution occurred during the flares,
+thus these are still aggregated values. As for the time-averaged fit,
+the Galactic column was fixed to 0.17e21 cm^-2 (Kalberla et al 2005)
+and the free absorber was set to have a redshift of z=0.347 (GCN Circ.
+15249) 
+
+Pre-flare (T0+ 150-500 s):
+NH = 1.66 (+/- 0.05) e22 cm^-2
+Gamma = 1.70 (+/- 0.04)
+
+Flare 1 (T0+ 1240-1500 s)
+NH = 2.2 (+/- 0.1) e22 cm^-2
+Gamma = 2.28 (+/- 0.06)
+
+Flare 2 (T0+ 4650-6100 s)
+NH = 1.59 (+/- 0.07) e22 cm^-2
+Gamma = 2.03 (+/- 0.04)
+
+Flare 3 (T0+ 6700-7300 s)
+NH = 1.66 (+/- 0.06) e22 cm^-2
+Gamma = 1.79 (+/- 0.03)
+
+Flare 4 (T0+11.5-12.9 ks)
+NH = 1.3 (+/- 0.2) e22 cm^-2
+Gamma = 2.39 (+/- 0.2)
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00571830.
+
+This circular is an official product of the Swift-XRT team. 
+

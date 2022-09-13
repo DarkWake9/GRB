@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21485
+SUBJECT: LIGO/Virgo G297595: Nearby Galaxies in the Localization Volume
+DATE:    17/08/14 22:51:54 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+David O. Cook (Caltech), Angela Van Sistine (UW Milwaukee), Leo Singer
+(NASA/GSFC), and M. M. Kasliwal (Caltech)
+
+report on behalf of the iPTF and GROWTH collaborations
+
+We spatially cross-matched the LIGO/Virgo G297595 trigger (90% containment
+volume; LVC GCN 21476) with our Census of the Local Universe (CLU; Cook et
+al. in prep) galaxy catalog and found 82 galaxies. This catalog is a
+compilation of galaxies with existing redshifts from many sources (e.g.,
+NED, SDSS, etc) and new galaxies from a 3PI four-filter narrow-band survey
+to look for redshifted Halpha emission out to 200 Mpc with the Palomar
+Oschin 48-inch telescope. Since our catalog extends out to only ~200 Mpc
+the resulting cross-matched galaxies cover only the nearest portion of the
+full 90% localization volume. The narrow-band survey is limited to a
+declination above -20 degrees, thus all galaxies within the 90% volume come
+from the compiled CLU catalog with no Halpha overlap.
+
+We list here the top 20 galaxies sorted by stellar mass (Mstar) for
+galaxies whose location on the sky and distance falls in the 90% volume
+reported by the bayestar probability sky map (Singer et al. 2016). The
+total stellar mass located in the top 20 galaxies is 1.2e12 Msun, or 62% of
+all mass in the 82 galaxies. We also list the dust-corrected star formation
+rates (SFRs) for galaxies with GALEX FUV detections and a 'nan' for those
+with no detection.
+
+        name_NED           ra     dec    distmpc logsfr_fuv logmstar dm_kin
+----------------------- ------- -------- ------- ---------- -------- ------
+         ESO 198- G 008 35.5645 -51.1082  203.28        nan    11.22  36.54
+2MASX J02235787-5058237 35.9912 -50.9733  203.55        nan    10.88  36.54
+            2MFGC 01839 35.6649 -51.1009  210.38        nan    10.88  36.62
+           FAIRALL 0726 36.8979 -51.2267  213.23        nan    10.87  36.64
+  LCRS B025452.9-421921 44.1862 -42.1218  192.15        nan    10.87  36.42
+           FAIRALL 0725 35.3950 -48.4925  271.12      0.138    10.84  37.17
+         ESO 198- G 006 34.8638 -50.8529  209.43        nan    10.80  36.61
+2MASX J02160149-5059094 34.0063 -50.9860  204.21        nan    10.78  36.55
+  LCRS B025721.0-412315 44.8065 -41.1892  204.46        nan    10.78  36.55
+2MASX J02270511-5117448 36.7714 -51.2958  202.12     -0.596    10.76  36.53
+2MASX J03045777-4015102 46.2408 -40.2528  208.70     -0.638    10.69  36.60
+2MASX J02411987-4534101 40.3329 -45.5695  180.75      0.144    10.65  36.29
+      AM 0250-405 NED01 42.9935 -40.7236  199.58        nan    10.65  36.50
+     APMBGC 247-025-101 43.1562 -43.0039  198.57        nan    10.64  36.49
+2MASX J02504210-4323076 42.6755 -43.3855  198.81        nan    10.63  36.49
+2MASX J02523735-4300107 43.1556 -43.0029  194.98        nan    10.62  36.45
+  LCRS B025513.6-421400 44.2721 -42.0336  189.87        nan    10.59  36.39
+2MASX J02251101-5039230 36.2958 -50.6564  208.82        nan    10.57  36.60
+2MASX J02274395-5119348 36.9333 -51.3263  201.72        nan    10.54  36.52
+2MASX J02143393-4953404 33.6416 -49.8946  200.55        nan    10.52  36.51
+
+
+The SFRs are derived from GALEX all sky kron FUV magnitudes via the
+prescription of Murphy et al. (2011) and have been corrected for internal
+dust extinction using a combination of GALEX FUV and 22um ALLWISE fluxes
+(Hao et al. 2011). The quoted stellar masses are derived from 3.4um ALLWISE
+fluxes and a mass-to-light ratio of 0.5 (McGaugh & Schombert et al. 2015).

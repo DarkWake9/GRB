@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9123
+SUBJECT: GRB 090410: Swift-BAT refined analysis
+DATE:    09/04/10 23:59:04 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S.D. Barthelmy (GSFC), W.H. Baumgartner (GSFC/UMBC), J.R. Cummings (GSFC/UMBC),
+E.E. Fenimore (LANL), N. Gehrels (GSFC), D. Grupe (PSU),
+H.A. Krimm (GSFC/USRA), C.B. Markwardt (GSFC/UMD), D.M. Palmer (LANL),
+T. Sakamoto (GSFC/UMBC), G. Sato (ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data sets from T-240 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 090410 (trigger #348929)
+(Grupe, et al., GCN Circ. 9122).  The BAT ground-calculated position is
+RA, Dec = 334.956, 15.419 deg, which is 
+   RA(J2000)  =  22h 19m 49.4s 
+   Dec(J2000) = +15d 25' 08.6" 
+with an uncertainty of 1.8 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+ 
+The mask-weighted light curve shows two main peaks with some precursor activity.
+The precursor activity starts at ~T-55 sec.  And because the target location
+only came into the BAT FOV at T-110 sec, there may have been even earlier activity.
+The first main peak started at ~T-10 sec, peaked at ~T+7 sec, and ended 
+around T+45 sec.  The second main peak started at ~T+80 sec, peaked at ~T+120 sec,
+and returned to baseline T+170 sec.  The burst location left the BAT FOV
+at ~T+390 sec.  T90 (15-350 keV) is 165 +- 8 sec (estimated error
+including systematics).
+ 
+The time-averaged spectrum from T-49.2 to T+139.4 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.19 +- 0.05.  The fluence in the 15-150 keV band is 5.6 +- 0.2 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+8.90 sec in the 15-150 keV band
+is 1.9 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/348929/BA/
+

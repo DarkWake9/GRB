@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23260
+SUBJECT: Swift Trigger 863053 is not an astrophysical event
+DATE:    18/09/24 00:30:54 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. D. Barthelmy (GSFC), C. Gronwall (PSU), A. Y. Lien (GSFC/UMBC),
+D. M. Palmer (LANL) and T. Sakamoto (AGU) report on behalf of the Neil
+Gehrels Swift Observatory Team:
+
+At 00:01:30 UT, the Swift Burst Alert Telescope (BAT) triggered on an image
+fluctuation which was misidentified as IGR 17511-3057 (trigger=863053) due to
+incorrect attitude information.  Swift slewed immediately to the target. 
+The BAT on-board calculated location of the image fluctuations is 
+RA, Dec 267.574, -31.767, which is 
+   RA(J2000)  =  17h 50m 18s
+   Dec(J2000) = -31d 46' 01"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for an image trigger, there is nothing
+significant in the real-time light curve. 
+
+The XRT began observing the field at 00:16:46.0 UT, 915.7 seconds after
+the BAT trigger. No source was detected in 305 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 925 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain, extinction expected. 
+
+This event was due to the misidentification of an image fluctuation 
+with a known source, as a result of a known race condition 
+in the on-board software.  It is not due to an astrophysical source. 
+

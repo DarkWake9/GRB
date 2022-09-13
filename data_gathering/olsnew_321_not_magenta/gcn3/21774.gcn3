@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21774
+SUBJECT: Konus-Wind observation of GRB 170826A
+DATE:    17/08/31 13:25:28 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks, P. Oleynik,
+M. Ulanov, A. Tsvetkova, A. Lysenko, A.Kozlova, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration GRB 170826A
+(Fermi GBM observation: Poolakkil et al., GCN Circ. 21715;
+IPN Triangulation: Svinkin et al., GCN Circ. 21734)
+triggered Konus-Wind at T0=31868.408 s UT (08:51:08.408).
+
+The burst light curve shows a single pulse which starts
+at ~T0-0.250 s and has a total duration of ~0.3 s.
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.1(-0.2,+1.1)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0-0.032 s,
+of 1.1(-0.4,+1.2)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Modeling the KW 3-channel time-integrated spectrum
+(from T0-0.248 s to T0+0.040 s)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.15(-0.26,+0.46) and Ep = 682(-261,+3960) keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB170826_T31868/
+
+All the quoted errors are at the 68% confidence level.
+All the quoted values are preliminary.
+

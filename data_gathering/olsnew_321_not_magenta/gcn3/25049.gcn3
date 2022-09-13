@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25049
+SUBJECT: LIGO/Virgo S190706ai: Updated sky localization
+DATE:    19/07/10 20:19:20 GMT
+FROM:    Siddharth Mohite at U of Wisconsin-Milwaukee  <srmohite@uwm.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have conducted further analysis of the LIGO and Virgo data around
+the time of the compact binary coalescence (CBC) candidate S190706ai
+(GCN 24998). Parameter estimation has been performed using
+LALInference [1] and a new sky map, LALInference.offline.fits.gz,
+distributed via GCN Notice, is available for retrieval from the
+GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S190706ai
+
+LALInference.offline.fits.gz is the preferred sky map at this time.
+The 90% credible region is 826 deg2. Marginalized over the whole sky,
+the a posteriori luminosity distance estimate is 5263 ± 1402 Mpc
+(a posteriori mean ± standard deviation).
+
+For further information about analysis methodology and the contents
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https/emfollow.docs.ligo.org/userguide/>.
+
+[1] Veitch et al. PRD 91, 042003 (2015)
+

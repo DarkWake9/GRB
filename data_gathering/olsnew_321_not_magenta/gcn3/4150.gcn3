@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4150
+SUBJECT: Konus-Wind observation of GRB 051022
+DATE:    05/10/23 15:19:17 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The long intense GRB 051022 (HETE trigger #3590; Graziani, GCN 4131)
+triggered Konus-Wind at T0=47305.298 s UT (13:08:25.298)
+
+The total burst duration is ~200 sec.
+
+The time-integrated spectrum of the GRB (from T0 to T0+197.12 sec)
+is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-E/E0)
+with alpha = 1.176 +/- 0.038
+and E0 = 619 (-61, +71) keV (chi^2 = 55/61 dof).
+The peak energy Ep = 510 (-33, +37) keV.
+
+This Ep value is significantly larger than 
+the Ep=306 (+31, -26) keV derived by HETE (Doty et al., GCN 4145),
+while the alpha values are in agreement.
+Probably, this discrepancy in Ep is due to the limited 
+energy range of the FREGATE.
+
+As observed by Konus-Wind the burst had a fluence 
+2.61(-0.11, +0.06)x10^-4 erg/cm2 and
+peak flux on 64-ms time scale (1.00 +/- 0.13)x10^-5 erg/cm2/sec
+(both in the 20 keV - 2 MeV energy range).
+
+All the quoted errors are at the 90% confidence level.
+

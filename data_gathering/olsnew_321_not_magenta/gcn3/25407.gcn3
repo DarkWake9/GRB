@@ -1,0 +1,84 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25407
+SUBJECT: Fermi GBM-190816: Location-dependent upper limits from INTEGRAL/SPI-ACS prompt observation
+DATE:    19/08/20 09:08:59 GMT
+FROM:    Volodymyr Savchenko at ISDC,U of Geneve  <savchenk@in2p3.fr>
+
+V. Savchenko, C. Ferrigno (ISDC/UniGE, Switzerland)
+S. Molkov (IKI, Russia),
+J. Rodi (IAPS-Roma, Italy)
+A. Coleiro (APC, France)
+S. Mereghetti (INAF IASF-Milano, Italy)
+
+on behalf of the INTEGRAL multi-messenger collaboration:
+https://www.astro.unige.ch/cdci/integral-multimessenger-collaboration
+
+Using INTEGRAL/SPI-ACS realtime data (following [1]) we have performed
+a search for a prompt gamma-ray counterpart of GBM-190816 (GCN 25406).
+At the time of the event (2019-08-16 21:22:14.6 UTC, hereafter T0),
+INTEGRAL was operating in nominal mode. The peak of the event
+localization probability was at an angle of 98 deg with respect to the
+spacecraft pointing axis. This orientation implies strongly suppressed
+(7.7% of optimal) response of ISGRI, strongly suppressed (22% of
+optimal) response of IBIS/Veto, and near-optimal (87% of optimal)
+response of SPI-ACS. The background within +/-300 seconds around the
+event was very stable(excess variance 1.1).
+
+We have performed a search for impulsive events in INTEGRAL SPI-
+ACS data, as described in [2].
+
+We do not detect any significant counterparts and estimate a 3-sigma
+upper limit on the 75-2000 keV fluence of 1.8e-07 erg/cm^2 (within the
+50% probability containment region of the source localization) for a
+burst lasting less than 1 s with a characteristic short GRB spectrum
+(an exponentially cut off power law with alpha=-0.5 and Ep=600 keV)
+occurring at any time in the interval within 300 s around T0. For a
+typical long GRB spectrum (Band function with alpha=-1, beta=-2.5, and
+Ep=300 keV), the derived peak flux upper limit is ~1.5e-07 (5.5e-08)
+erg/cm^2/s at 1 s (8 s) time scale in 75-2000 keV energy range.
+
+For the mean reported distance 362 Mpc this corresponds to the limit
+on the total isotropic equivalent energy in 1 s of 2.8e+48 erg for the
+short GRB spectrum and for a long GRB spectrum isotropic equivalent
+luminosity in 1 s (8 s) of 2.4e+48 erg/s (8.6e+47 erg/s)
+
+Since the GW localization region includes regions with particularly large
+range of SPI-ACS sensitivities, the upper limit from SPI-ACS is very
+location-dependent.
+
+We find 10 excesses in the search region, reported below in order
+of FAP. The excesses are likely due to background noise.
+
+scale   | T     | S/N | luminosity ( x 1e+48 erg/s)    | FAP
+0.45    | 1.73  | 3   |     13.6 +/- 6.57   +/- 13.8   | 0.0917
+0.1     | 0.901 | 3.1 |     29.1 +/- 14.1   +/- 29.5   | 0.171
+0.35    | 12.9  | 3.7 |     18.6 +/- 7.47   +/- 18.9   | 0.191
+0.45    | 15.9  | 3.5 |     15.5 +/- 6.58   +/- 15.7   | 0.25  
+1.6     | -126  | 3.8 |     9.12 +/- 3.48   +/- 9.25   | 0.344
+4.3     | 197   | 3.4 |     5.27 +/- 2.12   +/- 5.35   | 0.411
+0.15    | -5.32 | 3.3 |     25.4 +/- 11.5   +/- 25.7   | 0.421
+0.2     | -8.25 | 3.2 |     21.2 +/- 9.9    +/- 21.6   | 0.625
+0.35    | 40.7  | 3.5 |     17.7 +/- 7.47   +/- 18     | 0.789
+0.05    | 231   | 8.6 |     11.9 +/- 2.08   +/- 12.1   | 0.819
+
+Where uncertainties are statistical and systematic. Systematic
+uncertainty includesdependency on the unknown location and
+assumed 20% systematics in the response.
+
+For any given fluence measured by Fermi/GBM, INTEGRAL observation
+can constrainthe event location. In particular, the GW localization lobe
+near RA=12h corresponds to considerably less constraining upper limit,
+corresponding to the directions through the bottomof the spacecraft.
+Hence INTEGRAL non-detection suggests that a source in the GW localization
+lobe near RA=12h of is more likely compatible with the possible GBM
+detection:
+
+https://doi.org/10.5281/zenodo.3372187
+
+However we caution that this conclusion depends on unknown event spectrum
+and fluence.
+
+All results quoted are preliminary.
+
+This circular is an official product of the INTEGRAL Multi-Messenger team.
+

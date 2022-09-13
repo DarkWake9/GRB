@@ -1,0 +1,64 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2698
+SUBJECT: GRB040827: analysis of the XMM-Newton observation
+DATE:    04/09/08 18:09:54 GMT
+FROM:    Sergio Campana at INAF-OAB  <campana@merate.mi.astro.it>
+
+A. DeLuca & D. Gotz (IASF-Mi), S. Campana (OA Brera) on behalf of a larger
+collaboration report:
+
+"We have analysed the data XMM-Newton observation of GRB 040827 (Gotz et 
+al.
+GCN 2670). A preliminary account of these data has been given by
+Rodriguez-Pascual & Gonzalez-Riestra (GCN 2688).
+
+The observation started on 2004-08-27 at 18:07:56.UT, lasting 54.3 ks.
+Thanks to quick-look data it was soon realised that an afterglow was 
+present
+but it was more than 1arcmin off the camera boresight. Therefore, the 
+telescope
+was re-pointed during the observation (causing problems in the generation
+of the ancillary file for spectral analysis).
+
+The source intensity profile is consistent within errors with the
+instrumental PSF (possible earlier reports of an extended source might be
+due to the re-pointing of the satellite).
+Astrometry of the XMM-Newton/EPIC images was done by matching X-ray
+sources in the field to stars in the USNO-B1 catalogue. The refined
+position (J2000) for the X-ray afterglow (source XMMUJ151701.3-160828,
+GCN 2678) is: RA(2000) 15h 17m 01.39s, Dec(2000):-16d 08' 28.77''.
+The positional accuracy is at a level of 1.5'' (68% c.l.).
+This position is consistent with earlier reports (Rodriguez-Pascual &
+Gonzalez-Riestra GCN 2688, XMM-2) and with the position of the likely
+afterglow established based on optical-NIR data (Berger et al. GCN 2680;
+Gladders & Berger GCN 2681; Kaplan & Berger GCN 2683; Tanvir et al. GCN 
+2684;
+Malesani et al. GCN 2685).
+
+We extracted spectra from the three EPIC cameras. We took the arf file
+from the same region of extraction of a different observation.
+A single absorbed power law model provides a good description of the data
+(chi2_red=1.2 with 187 degrees of freedom), however the column density
+(N_H=3.7_{-1.2}^{+4.2}x10^21 cm-2, errors at 90% c.l.) is much larger
+than the column density in this direction of the Galaxy (N_H=8x10^20 cm-2,
+Dickey & Lockman 1990, or N_H=5x10^20 cm-2 based on Schlegel et al. 1998 
+maps).
+Fixing the column density to N_H=8x10^20 cm-2 results in a unacceptable fit
+with chi2_red=3.0.
+We then include an absorption component at the redshift of the afterglow,
+keeping fixed the Galactic column density to N_H=8x10^20 cm-2.
+The new fit is good (chi2_red=1.0) providing a heavily absorbed 
+afterglow with
+N_H=1.3_{-0.3}^{+0.6}x10^22 cm-2. The redshift is relatively well 
+constrained to
+z=0.9_{-0.2}^{+0.9}. The power law photon index is Gamma=2.3+/-0.1 and
+the unabsorbed 0.5-10 keV flux is 3.4x10^{-13} erg cm-2 s-1.
+
+The 0.2-10 keV pn light curve shows a clear decay in time. We excluded from
+this analysis the first 4 ks when the XMM-Newton pointing was not 
+definitive.
+A power law decay with t^{-1.6+/-0.2} can account for the main decay."
+
+This message can be cited.
+
+

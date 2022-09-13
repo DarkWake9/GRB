@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25974
+SUBJECT: Konus-Wind observation of GRB 191004B
+DATE:    19/10/07 18:00:56 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, A. Tsvetkova, A. Lysenko, A. Kozlova, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 191004B
+(Swift-BAT detection: Cenko et al., GCN circ. 25947;
+Stamatikos et al., GCN circ. 25955)
+triggered Konus-Wind at T0=77626.99 s UT (21:33:46.990).
+
+The burst light curve shows a multi-peaked structure
+which starts at ~T0-0.5 s and has a total duration of ~5.5 s.
+The emission is seen up to ~1 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB191004_T77626/
+
+As observed by Konus-Wind, the burst
+had a fluence of 4.13(-0.40,+0.45)x10^-6 erg/cm2,
+and a 64-ms peak flux, measured from T0+3.504 s,
+of 2.56(-0.73,+0.74)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.51(-0.30,+0.34)
+and Ep = 172(-21,+27) keV (chi2 = 59/57 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.0
+(chi2 = 59/56 dof).
+
+Assuming the redshift z=1.260 (D'Elia et al., GCN circ. 25956)
+and a standard cosmology model with H_0 = 67.3 km/s/Mpc,
+Omega_M = 0.315, and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the following rest-frame parameters:
+the isotropic energy release E_iso is 1.79(-0.17,+0.20)x10^52 erg,
+the peak luminosity L_iso is 2.51(-0.72,+0.73)x10^52 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum,
+Ep,i, is 389(-47,+61) keV.
+With these energetics, the burst lies within the 90% prediction bands
+for both 'Amati' and 'Yonetoku' relations built for the sample
+of 138 long KW GRBs with known redshifts
+(Tsvetkova et al., ApJ 850 161, 2017).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

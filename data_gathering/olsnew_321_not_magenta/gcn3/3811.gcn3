@@ -1,0 +1,36 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3811
+SUBJECT: GRB050815: Swift-BAT detection of a burst
+DATE:    05/08/15 18:13:31 GMT
+FROM:    Derek Fox at CIT  <derekfox@astro.caltech.edu>
+
+D. Fox (PSU), L. Barbier (GSFC), S. Barthelmy (GSFC), D. Burrows
+(PSU), J. Cummings (GSFC/NRC), N. Gehrels (GSFC), O. Godet
+(U. Leceister), S.T. Holland (GSFC/USRA), S. Hunsberger (PSU),
+J. Kennea (PSU), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+F. Marshall (GSFC), D. Morris (PSU), D. Palmer (LANL), K. Page
+(U. Leicester), A. Parsons (GSFC), P. Roming (PSU), T. Sakamoto
+(GSFC), P. Schady (PSU/UCL-MSSL), & E. Rol (Leceister) report on
+behalf of the Swift team:
+
+At 17:25:19 UT, Swift-BAT triggered and located GRB050815
+(trigger=150532).  The BAT on-board calculated location is RA,Dec
+293.575d,+9.166d {19h 34m 18s,+09d 09' 59"}, with an uncertainty of 2
+arcmin (radius, 90% containment, stat+sys).  The BAT light curve shows
+two peaks in 5 sec and possible low energy emission out to ~30 sec.
+The peak count rate was ~1000 counts/sec (15-350 keV), at ~2 seconds
+after the trigger.
+
+The S/C slewed immediately and the XRT began taking data at 17:26:28,
+70 s after the BAT trigger.  The XRT on-board centroid algorithm did
+not converge and no prompt position is available.  However, the XRT
+lightcurve shows evidence of a decaying source in the field of view.
+We are waiting for down-linked data to determine a position.
+
+The UVOT began observing the position of trigger #150532 at 17:26:25.5
+UT, 67 s after the BAT trigger.  In a 100 s V-band image, no new
+source is detected with respect to the DSS down to a 5 sigma upper
+limit of 18.1 mag.  The estimated extinction in this direction is A_V
+~ 1.6 magnitudes.  The UVOT image gives 55% coverage of the BAT error
+circle.  The BAT source is located in a crowded star field.
+

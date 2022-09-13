@@ -1,0 +1,15 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10096
+SUBJECT: A mistake in testing a new function in Swift
+DATE:    09/10/28 17:42:15 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC)  on behalf of the Swift team:
+
+At 17:28:08 UT (28 Oct 09) an XRT_Position Notice was distributed
+(TrigNum 20117).  This notice was a result of a test that the
+Swift team was conducting to test a new function within the spacecraft.
+I had the swift_blocked2world filter enabled in GCN, and as such
+the notice should have been blocked.  The other notices were blocked,
+but this one leaked through.  I apologise for the confusion.
+

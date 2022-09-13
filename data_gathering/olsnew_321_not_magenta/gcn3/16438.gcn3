@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16438
+SUBJECT: GRB 140622A: An unusual short event, Swift-BAT refined analysis
+DATE:    14/06/22 21:32:14 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (NASA/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+  Using the data set from T-61 to T+302 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 140622A (trigger #602278) (D'Elia, et al.,
+GCN Circ. 16433).  The BAT ground-calculated position is
+RA, Dec = 317.153, -14.412 deg which is
+
+    RA(J2000)  =  21h 08m 36.7s
+    Dec(J2000) = -14d 24' 44.6"
+
+with an uncertainty of 2.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 57%.
+
+The mask-weighted light curve shows a single FRED peak.  T90 (15-350 keV) is
+0.13 +- 0.04 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-0.02 to T+0.13 sec is best fit (chisqr = 0.63) by
+a black body spectrum with kT = 11.6 ± 1.8 keV.  A simple power-law model is a
+relatively poor fit (chisqr 1.13), with a photon index of 3.08 ± 0.29.  A power-law
+with an exponential cutoff at 44 ± 8 keV nominally fits the data almost as well
+(chisqr = 0.64) as the black body fit, but the power-law index below the cutoff
+energy and the normalization are poorly defined.  The fluence in the 15-150 keV
+band using the black body spectrum is (2.7 ± 0.5) x 10^-08 erg/cm2.  The 1-sec
+peak photon flux measured from T-0.45 sec in the 15-150 keV band is
+0.6 ± 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence level.
+
+ From the BAT spectrum, this event does not appear to be a short hard burst.  The
+quickly fading X-ray lightcurve, however (to be reported in a later circular), does
+appear consistent with a SHB, and does not appear to be similar to the lightcurves
+of SGRs or other Galactic sources.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/602278/BA/
+

@@ -1,0 +1,83 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17516
+SUBJECT: GRB 150301C : (Swift trigger 633105) Swift observations
+DATE:    15/03/01 20:31:02 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+M. Stamatikos (OSU), S. D. Barthelmy (GSFC),  W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (CPI), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), J. Tueller (GSFC), T. N. Ukwatta (LANL),
+F. Marshall (NASA/GSFC), D. Malesani (DARK/NBI), L. Hagen (PSU),
+M. de Pasquale (INAF-IASFPA), A. Maselli (INAF-IASFPA), D.N. Burrows (PSU),
+K. Page (U. Leicester), N. P. M. Kuin (UCL-MSSL)
+
+  
+Using the data set from T-60 to T+243 sec from the recent telemetry downlink,
+we report further analysis of possible GRB 150301C (trigger #633105)
+(Lien, et al., GCN Circ. 17512).  The BAT ground-calculated position is
+RA, Dec = 11.319, 41.861 deg which is
+    RA(J2000)  =  00h 45m 16.6s
+    Dec(J2000) = +41d 51' 40.0"
+with an uncertainty of 2.2 arcmin, (radius, sys+stat, 90% containment).
+The significance in the BAT image was 10.1, so we are sure that this was
+a real astrophysical source.  The partial coding was 69%.
+
+The location is well within the visible light of M31.  A more distant galaxy,
+[JSD2012] 170, which has a size of 0.11 arcmin, is within the BAT error
+circle.  In 1.9 ks of data, the Swift XRT found only a single very weak source
+(2.8 sigma), consistent with the position of a known source within the BAT
+error circle, [PFH2005] 622, with a count rate of (5.3+/-1.9) x 10^-03 c/s.  We
+cannot state whether there is any variability of this source at this time.  The
+XRT position of this source is:
+
+RA (J2000)  00h 45m 14.4s
+Dec (J2000) +41d 50' 37.7"
+
+The BAT mask-weighted light curve shows a single weak FRED peak.  T90 (15-350 keV)
+is 14 +- 3 sec (estimated error including systematics).
+  
+The time-averaged BAT spectrum from T-0.6 to T+15.0 sec is best fit by a power-
+law model with an exponential cutoff.  The power law index of the time-averaged
+spectrum is poorly defined but is nominally -0.8 +- 2.  The peak energy is
+38 +- 7 keV.  The fluence in the 15-150 keV band is 2.1 +- 0.4 x 10^-07 erg/cm2.
+The 1-sec peak photon flux measured from T+1.32 sec in the 15-150 keV band is
+0.6 +- 0.2 ph/cm2/sec.  A simple power-law fit has a photon index of 1.96 +- 0.25.
+All the quoted errors are at the 90% confidence level.
+
+If this source was in M31, its isotropic energy output was 1.5 x 10^43 ergs
+in 15.6 seconds in the range 15-150 keV.
+
+It is very possible, given the softness of the source, that this is a non-GRB
+in M31.  The color:duration is within the distribution of long GRBs.  No XRT
+source was seen in the initial observations, whereas we might expect most
+sources in M31 bright enough to be seen in BAT would be very bright in XRT.
+Therefore the source is likely to be highly absorbed.  The results of the
+batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/633105/BA/
+
+The Swift/UVOT began settled observations of the field 102 s after
+the BAT trigger (Lien et al., GCN Circ. 17512). No new source within
+the BAT error circle is detected in the initial UVOT exposures.
+Preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first
+exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white              102         4151          369        >20.39
+v                  592         4562          216        >18.55
+b                  518         5241           96        >19.08
+u                  261         5177          461        >19.69
+uvw1               641         4973          216        >19.27
+uvm2               617         4768          216        >19.20
+uvw2               568         4357          216        >19.41
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.06 in the direction of the burst
+(Schlegel et al. 1998).
+
+Further Swift observations are planned.
+
+[GCN OPS NOTE(01mar15): Per author's request, the affiliation was corrected for KP.]
+

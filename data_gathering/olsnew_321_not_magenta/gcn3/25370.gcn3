@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25370
+SUBJECT: S190814bv: MASTER analysis of DECam-GROWTH candidates
+DATE:    19/08/16 15:31:53 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, F.Balakin, E. Gorbovskoy, V. Kornilov, N.Tyurina, P.Balanutsa, A.Kuznetsov, F.Balakin, V. Vladimirov,
+D. Vlasenko, I.Gorbunov,D.Zimnukhov, V. Senik, A.Chasovnikov, A.Pozdnyakov,D.Kuvshinov(Lomonosov Moscow State University, SAI, Physics Department),
+R. Rebolo, M. Serra (The Instituto de Astrofisica de Canarias IAC),
+R. Podesta, C.Lopez, F. Podesta, C.Francile (Observatorio Astronomico Felix Aguilar OAFA),
+H. Levato (Instituto de Ciencias Astronomicas, de la Tierra y del Espacio ICATE),
+D. Buckley (South African Astronomical Observatory SAAO),
+O. Gress, N.M. Budnev, O.Ershova (Irkutsk State University, API),
+A. Tlatov, D. Dormidontov (Kislovodsk Solar Station of the Pulkovo Observatory),
+V. Yurkov, A. Gabovich, Yu. Sergienko (Blagoveschensk Educational State University)
+
+MASTER Global Robotic Net ( http://observ.pereplet.ru, Lipunov et al., 2010,Advances in Astronomy, vol. 2010, 30L)
+observed S190814bv (LVC GCN 25324) starting 2019-08-14 22:42:29 (Lipunov 
+et al. GCN 25322, GCN25339).
+
+We analyzed candidates identified in DECam images by the DECam-GROWTH team (Andreoni et al. GCN25362)
+in MASTER-Kislovodsk, MASTER-Tavrida, MASTER-SAAO,MASTER-IAC,MASTER-OAFA databases
+and in VIZIER.
+
+1) 11.736272 -25.376851
+There is PanSTARRs optical source in 0.14" with m=20.2(r) and sources in the halo of NGC253 (Bailin+, 2011)
+http://vizier.u-strasbg.fr/viz-bin/VizieR?-source=&-out.add=_r&-out.add=_RAJ%2C_DEJ&-sort=_r&-to=&-out.max=20&-meta.ucd=2&-meta.foot=1&-c=11.736272+-25.376851&-c.rs=5
+MASTER observed this area since 2015-09-15 23:55:17(mlim=20.2),
+there was no automatically detected sources brighter mlim in history,
+and now mlim~18 (full Moon in 38deg., 30 deg. obj_altitude).
+
+2) 10.388877 -23.742207
+There is OT with unfiltered m=18.2 on 2018-08-10 01:07:54.917UT in MASTER database
+
+3) 11.548253 -22.118828
+There is no OT up to 21.4 (2018-11-02 23:59:06UT) in MASTER database, 
+in VIZIER there is  WISE AGN candidate (catalogs Assef+, 2018) in 2.9"
+
+4)14.050077 -25.490123
+There is optical surce in MASTER images, for ex. (2015-09-15 23:55:17) with  unfiltered m~21 (mlim=21.5)
+
+there are 2 PanSTARRs sources in 1.4 and 2.1"
+http://vizier.u-strasbg.fr/viz-bin/VizieR?-source=&-out.add=_r&-out.add=_RAJ%2C_DEJ&-sort=_r&-to=&-out.max=20&-meta.ucd=2&-meta.foot=1&-c=14.050077+-25.490123&-c.rs=5
+
+5)13.968328 -25.783281
+There is marginally seen source with m<~mlim=20.0 on 2019-08-15 00:12:22
+and m_OT~20.5 on 2015-09-15 23:55:17UT (mlim=21.5)
+There is USNO-B1 source in 1.2" with R2=21.3, B2=21.0 and PanSTARRs source with r=21.2
+
+6)13.273165 -24.360753
+There is a source in our images.
+MASTER automatic photometry is the following
+Date_TimeUT           unfiltered_m
+2019-05-12 03:17:15   19.2
+2018-11-03 00:49:21   19.6
+2015-01-11 19:31:53   19.2
+
+7)22.265283 -32.705156
+There is marginally seen optical source at 2015-09-10 01:36:50Ut (the best summ with mlim=20.8)
+with m_OT~20.5 in MASTEr database.
+Also in 2" in VIZIEr database there is a source in USNO-B1, PanSTARR(2.38"), GALEX (3")
+
+The observation and reduction of LVC error-box will be continued.
+

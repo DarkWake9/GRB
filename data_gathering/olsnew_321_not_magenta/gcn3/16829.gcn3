@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16829
+SUBJECT: Swift detection of outburst from 4U 1700+24
+DATE:    14/09/17 14:11:04 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+D. N. Burrows (PSU), S. B. Cenko (GSFC), V. D'Elia (ASDC),
+N. Gehrels (NASA/GSFC), C. Gronwall (PSU), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), V. Mangano (PSU),
+F. E. Marshall (NASA/GSFC), P. T. O'Brien (U Leicester),
+C. Pagani (U Leicester), D. M. Palmer (LANL), T. Sakamoto (AGU),
+B. Sbarufatti (INAF-OAB/PSU), M. H. Siegel (PSU), C. A. Swenson (PSU)
+and E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift Team:
+
+At 13:30:35 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located the symbiotic star 4U 1700+24 (trigger=612974). 
+Swift slewed immediately to the source location. 
+The BAT on-board calculated location is 
+RA, Dec 256.633, +23.950 which is 
+   RA(J2000) = 17h 06m 32s
+   Dec(J2000) = +23d 57' 01"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Because this is a 15 minute image trigger,
+the BAT lightcurve is not immediately available. 
+
+The XRT began observing the field at 13:50:12.7 UT, 1177.2 seconds
+after the BAT trigger. XRT found a bright X-ray source located at RA,
+Dec 256.6459, 23.9711 which is equivalent to:
+   RA(J2000)  = +17h 06m 35.02s
+   Dec(J2000) = +23d 58' 16.0"
+with an uncertainty of 5.2 arcseconds (radius, 90% containment). This
+location is 87 arcseconds from the BAT onboard position, within the BAT
+error circle. This position is 6.4 arcseconds from a known X-ray
+source: 1SXPS J170634.5+235816, and 7.3 arc-seconds from the optical 
+position of V934 Her, thought to be the optical counterpart of 4U 1700+24. 
+This source is in the Swift XRT 1SXPS catalogue with a mean 0.3-10 keV 
+count-rate of 0.3810 +/- 0.0067 ct/sec; see
+http://www.swift.ac.uk/1SXPS/1SXPSJ170634.5%2B235816 for
+details of these previous observations. 
+
+The initial flux in the 2.5 s image was 1.79e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 64 seconds with the White filter
+starting 1185 seconds after the BAT trigger. The only source within
+the XRT error circle is the known bright (V=7.6) optical source V934
+Her. 
+
+The source 4U 1700+24 has been rising in brightness in the Swift/BAT
+hard X-ray transient monitor since 12 September 2014.  It is currently
+seen in the one-day average for 17 September at 0.011 +/- 0.004
+ct/s/cm^2 (~50 mCrab; 15-50 keV). 
+

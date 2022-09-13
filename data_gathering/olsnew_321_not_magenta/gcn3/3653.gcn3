@@ -1,0 +1,83 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3653
+SUBJECT: GRB 050709: Refined Spectral and Temporal Properties
+DATE:    05/07/21 02:47:04 GMT
+FROM:    Nat Butler at MIT/CSR  <nrbutler@space.mit.edu>
+
+M. Boer, G. Ricker, J-L. Atteia, N. Kawai, D. Lamb, and S. Woosley, on
+behalf of the HETE Science Team;
+
+M. Arimoto, T. Donaghy, E. Fenimore, M. Galassi, C. Graziani,
+J. Kotoku, M. Maetou, M. Matsuoka, Y. Nakagawa, T. Sakamoto, R. Sato,
+Y. Shirasaki, M. Suzuki, T. Tamagawa, K. Tanaka, Y. Yamamoto,
+and A. Yoshida, on behalf of the HETE WXM Team;
+
+N. Butler, G. Crew, J. Doty, G. Prigozhin, R. Vanderspek,
+J. Villasenor, J. G. Jernigan, A. Levine, G. Azzibrouck, J. Braga,
+R. Manchanda, and G. Pizzichini, on behalf of the HETE Operations and
+HETE Optical-SXC Teams;
+
+J-F Olive, J-P Dezalay, and K. Hurley, on behalf of the HETE FREGATE
+Team;
+
+report:
+
+We have performed a joint fit to the WXM and FREGATE spectral data
+for GRB 050709, in order to refine the numbers initially reported in
+GCN 3570 (Butler et al. 2005) for the short and long pulse components.
+
+The short pulse is well-fit (chi2/DOF= 35.37/48) by a power-law times
+exponential model with photon index alpha = -0.7 +/- 0.2 and nu-F_nu peak
+energy Epeak = 83 +18/-12 keV.  The energy fluences of the short pulse
+are
+
+S_E(2-30 keV)   = (9.3 +/- 0.9) x 10^(-8) erg cm^-2 and
+S_E(30-400 keV) = (2.9 +/- 0.4) x 10^(-7) erg cm^-2.
+
+The X-ray to gamma-ray fluence ratio is thus 0.32.  The t90 duration of
+the short pulse is 220 +/- 50 ms in the 2-25 keV energy band and 70 +/- 10
+ms in the 30-400 keV band.  The t90 duration and Epeak of the short
+pulse are consistent with those found for short/hard GRBs (see, e.g.,
+Ghirlanda, Ghisellini, & Celotti 2004, A&A, 422, L55 for plots of the
+short/hard GRB Epeak distribution).
+
+The long pulse is well fit (chi2/DOF = 108.86/138) by a power-law model
+with photon index beta = -2.2 +0.2/-0.4.  The energy fluences of the
+long pulse are
+
+S_E(2-30 keV)   = (7.1 +/- 1.5) x 10^(-7) erg cm^-2 and
+S_E(30-400 keV) = (3.9 +4.1/-2.7) x 10^(-7) erg cm^-2.
+
+These spectral results are preliminary because there is a linear trend
+in the background that affects the spectral analysis of the long pulse
+and has not yet been taken into account.  The t90 of the long pulse is
+130 +/- 7 s in the 2-25 keV energy band.
+
+Using the redshift of z = 0.16 measured by Price et al. (2005; GCN 3605),
+the isotropic-equivalent energy of the short pulse in the 1-10,000 keV
+energy band in the rest frame of the source is
+
+Eiso (short pulse) = (2.7 +1.1/-0.3) x 10^(49) erg,
+
+using Omega_M=0.3, Omega_Lambda=0.7, and h=0.65.  The Eiso and Epeak
+values for the short pulse place it well off of the Amati et al. (2002;
+A&A, 390, 81) relation for long duration GRBs.
+
+Taking a time interval 0.060 s in the rest frame of the source
+(corresponding to t90 = 0.07 s in the 30-400 keV energy band in the
+observer frame) and assuming the same cosmology and energy band as
+used above for the Eiso determination, the luminosity of the short
+pulse in the 1-10,000 keV energy band in the rest frame of the source
+is
+
+Liso (short pulse) = (5.2 +/- 1.4) x 10^(50) erg s^-1.
+
+Taking even this short time interval, the Liso and Epeak values for the
+short pulse place it off the Yonetoku et al. (2004; ApJ, 609, 935)
+correlation for long duration GRBs.
+
+A composite lightcurve showing the short and long pulses in both the
+2-25 keV and 30-400 keV bands can be found at
+
+http://space.mit.edu/HETE/Bursts/GRB050709 .
+

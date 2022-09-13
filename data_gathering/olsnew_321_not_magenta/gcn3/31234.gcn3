@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31234
+SUBJECT: GRB 211211A: SAO RAS optical observations
+DATE:    21/12/15 17:28:29 GMT
+FROM:    Moskvitin Alexander at SAO RAS  <mosk@sao.ru>
+
+A. Moskvitin (SAO), O. Spiridonova (SAO), S. Belkin (IKI),
+A. Pozanenko (IKI), N. Pankov (HSE, IKI)  report
+on behalf of GRB IKI FuN:
+
+We observed  the field of GRB 211211A (Fermi team GCN 31201,
+D'Ai et al. GCN 31202; Mangan et al. GCN 31210; Tamura et al.
+GCN 31226) with Zeiss-1000 telescope of SAO RAS in Rc-filter
+on 2021.12.14 (UT) 02:03:33.
+
+We marginally detected an afterglow (Zheng and Filippenko GCN 31203;
+Jiang  et al. GCN 31213; Strausbaugh et al. GCN 31214; Ito  et al.
+GCN 31217; de Ugarte Postigo et al. GCN 31218,31228,31229; Malesani et
+al. GCN 31221; Belles et al. GCN 31222; Kumar et al. GCN 31227; Pankov
+et al. GCN 31233).
+
+Preliminary photometry of the afterglow is following
+
+Date       UT start   t-T0    Filter Exp.   OT   Err.     UL(3sigma)
+                        (mid, days)    (s)
+2021-12-14 02:03:33   2.55803   Rc   6*600  23.2 S/N=2.5  23.1
+
+The photometry is based on the nearby SDSS stars:
+SDSS-DR12
+RA          DEC          R(Lupton transformations)
+14:09:08.84 +27:53:54.56 15.833
+14:09:04.53 +27:54:10.48 16.701
+14:08:57.03 +27:54:50.26 17.677
+14:08:57.88 +27:55:06.09 17.805
+14:09:03.81 +27:55:56.55 17.104
+14:09:07.89 +27:55:44.00 18.640
+
+The light curve based on published photometry can be found in
+http://grb.rssi.ru/GRB211211A/GRB211211A_LC.png
+
+Using R-photometry we found a single power law decay index of -1.5
+between 0.4 and 2.6 days after the burst trigger. However the power
+law index between 1.6 days (Pankov et al. GCN 31233) and 2.6 days
+(this circ.) we may assume power law index of -3.25 which confirm
+very fast decay in i-filter observed by CAFOS/2.2mCAHA
+(de Ugarte Postigo et al. GCN 31229). Based on a typical power law
+decay of afterglows we may suggest a bump in the LC at ~ 2.5 days
+followed by a power law decay index of 1.5.

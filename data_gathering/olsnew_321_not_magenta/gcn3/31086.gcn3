@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31086
+SUBJECT: Konus-Wind detection of GRB 211107B
+DATE:    21/11/16 14:29:21 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, D. Frederiks, M. Ulanov,
+A. Tsvetkova, A. Lysenko, A. Ridnaia, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 211107B
+(Swift-BAT detection: Tohuvavohu, GCN Circ. 31057)
+triggered Konus-Wind at T0=62836.647 s UT (17:27:16.647).
+
+The burst light curve shows the initial pulse,
+which starts at ~T0-3.7 s and has a total duration of ~24 s,
+followed by a weaker emission seen up to T0+205 s.
+The emission is seen up to ~1 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB211107_T62836/
+
+As observed by Konus-Wind, the burst
+had a fluence of 8.95(-1.76,+1.88)x10^-6 erg/cm2,
+and a 64-ms peak flux, measured from T0-0.108 s,
+of 1.42(-0.68,+0.69)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The spectrum of the initial pulse
+(measured from T0 to T0+16.640 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.88(-0.40,+0.47)
+and Ep = 152(-26,+41) keV (chi2 = 51/56 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.7
+(chi2 = 51/55 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

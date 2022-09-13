@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6052
+SUBJECT: GRB 070126:  Swift/UVOT refined analysis
+DATE:    07/01/29 17:37:37 GMT
+FROM:    Stefan Immler at NASA/GSFC  <immler@milkyway.gsfc.nasa.gov>
+
+S. Immler (NASA/USRA) and L. Vetere (PSU) report on the behalf
+of the Swift UVOT team:
+
+An extended source is found at the position reported by Malesani
+et al. (GCN 6046) in UVOT images of GRB 070126, consistent with
+the position of the XRT source (Vetere & Racusin, GCN 6045). The
+source is also present in DSS images and could be the host galaxy of
+the faint burst.
+ 
+The table below gives the measured UVOT magnitudes. The position
+of the burst is outside the UVOT field-of-view for all other filters.
+
+Filter  T_start    T_end    Exposure Mag    Error
+WHITE   123      6146    590         21.8   0.4
+UVW1    3900    40895    3592     21.0    0.3
+UVM2    5128    40337    3333     21.5    0.3
+UVW2    4719     6214    2588     >20.4  (3-sigma UL)
+
+T_start and T_end are the start and stop times of the summed
+exposures in seconds from the trigger. No correction has been
+made for the expected extinction corresponding to E(B-V) =
+0.05 mag (Schlegel et al. 1998).
+

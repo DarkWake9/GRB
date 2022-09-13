@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12157
+SUBJECT: GRB 110709B: Swift/UVOT Observations 
+DATE:    11/07/15 12:00:00 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <Stephen.T.Holland@nasa.gov>
+
+S. T. Holland (CRESST/USRA/GSFC) and
+J. R. Cummings (CRESST/UMBC/GSFC)
+report on behalf of the Swift/UVOT team:
+
+      The Swift/UVOT observed the field of GRB 110709B starting 70 s
+after the BAT trigger (Cummings et al., 2011, GCNC 12122).  Settled
+observations started at 91 s.  We do not detect a source at the
+UVOT-enhanced XRT position (Beardmore, et al., 2011, GCNC 12136) in
+any of the UVOT filters.  Preliminary 3-sigma upper limits for
+detecting a source in the finding charts and in the co-added images,
+are
+
+Filter       TSTART       TSTOP  EXPOSURE       Mag
+---------------------------------------------------
+white (FC) &     91 &       241 &     147 &   >21.1
+    u (FC) &    303 &       553 &     246 &   >20.5
+white (FC) &    858 &      1008 &     147 &   >21.3
+---------------------------------------------------
+    v     &     633 &    64,817 &    3519 &   >21.5
+    b     &     558 &    54,124 &    3664 &   >22.4
+    u     &     303 &    59,906 &    4680 &   >22.2
+ uvw1     &     682 &    59,264 &    4730 &   >22.2
+ uvm2     &    1235 &    58,357 &    3732 &   >22.3
+ uvw2     &     782 &    64,122 &    3530 &   >22.4
+white     &      91 &    30,997 &    3107 &   >23.0
+---------------------------------------------------
+
+     We find weak evidence for variability at the location of the
+USNO-B1.0 source 3.5 arcsec WNW of the XRT position at the time of the
+second BAT trigger (Barthelmy et al. 2011, GCNC 12124).  Preliminary
+photometry is
+
+Filter       TSTART       TSTOP  EXPOSURE       Mag   Err  Sigma
+----------------------------------------------------------------
+white &          91 &       241 &     147 &   >21.1   3-sigma UL
+white &         583 &       776 &      39 &    20.08 0.35    3.3
+white &         858 &      1008 &     147 &   >21.3   3-sigma UL
+white &        1161 &      2047 &     117 &    20.96 0.36    3.1
+white &        6245 &      6444 &     197 &   >21.4   3-sigma UL
+white &        7679 &    11,397 &     340 &    21.07 0.37    3.1
+white &       11401 &    12,005 &     590 &   >21.9   3-sigma UL
+white &       17893 &    18,800 &     885 &    20.98 0.16    7.8
+white &       30335 &    30,997 &     644 &    21.39 0.23    5.2
+----------------------------------------------------------------
+
+We note that both the USNO-B1.0 source and the XRT position are
+located in the coincidence loss halo of a bright star, which makes
+precision photometry difficult.  It is not clear if the apparent
+variability seen at the location of the USNO-B1.0 source is real or
+not.
+
+     The quoted magnitudes and upper limits have not been corrected
+for the large, but uncertain, Galactic extinction along the line of
+sight to this burst (E_{B-V} = 0.05 mag, Schlegel et al. 1998, ApJS,
+500, 525).
+

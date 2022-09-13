@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18762
+SUBJECT: LIGO/Virgo G211117: iPTF Optical Transient Candidates
+DATE:    15/12/30 01:32:02 GMT
+FROM:    Brad Cenko at NASA/GSFC  <brad.cenko@nasa.gov>
+
+S. B. Cenko (NASA/GSFC), Y. Cao (Caltech), R. Ferretti (Stockholm), L. Singer (NASA/GSFC), M. M. Kasliwal (Caltech), D. A. Perley (DARK), V. Bhalerao (IUCAA), R. Laher (IPAC), and T. Barlow (Caltech) report on behalf of the intermediate Palomar Transient Factory collaboration:
+
+We have performed tiled observations of LIGO/Virgo 211117 using the Palomar 48-inch Oschin telescope (P48). The northern probability island from the BAYESTAR localization was observable from Palomar for most of the night of 2015 December 28 UT. Starting at 1:57 UT (1.93 d after the LIGO trigger), we imaged 140 fields spanning 952 square degrees.  We estimate a 51% prior probability that these fields contain the true location of the source.
+
+A subset of these fields (731 square degrees, containing 37% of the probability localization) were processed through standard iPTF pipelines (those with previously obtained reference images).  Preliminary sifting through candidate variable sources using image subtraction by both our NERSC and IPAC pipelines, and applying standard iPTF vetting procedures, we flagged the following optical transient candidates for further follow-up:
+
+  name        RA        Dec     time   mag     z    
+--------- ---------- ---------- ----- ----- ------- 
+iPTF15fdv  38.690081 +18.343843 02:13 19.13 0.03419   
+iPTF15fhq  95.858071 +57.197553 09:47 18.92 0.04367  
+iPTF15fhl 187.056654 +17.617051 12:42 19.09 0.04372   
+iPTF15ffh  20.555150  -5.202027 03:46 18.93 0.06857
+iPTF15fev  33.993552 +12.237196 02:42 17.64   0.018  
+iPTF15fel  47.303172 +27.521374 02:27 18.96   0.049  
+iPTF15ffz  22.266660  -8.227863 03:44 19.65   0.075
+iPTF15ffi  35.437642  +7.617305 04:06 18.71   0.079
+iPTF15fgk  30.201092 +10.255481 04:01 20.23    0.11
+iPTF15ffk  35.650925  +6.877865 04:06 19.19    0.11
+iPTF15ffo  36.172201  +7.150811 04:06 20.06    0.12
+iPTF15fed  28.083908  +1.557477 02:00 19.93    0.22
+iPTF15fib  33.144517 +17.763099 05:33 19.54    0.28
+iPTF15feu  29.027105  +5.276469 02:03 20.44    0.70
+iPTF15fgy  50.732616 +34.989945 05:47 19.52 
+iPTF15fhd  88.700355 +57.911389 09:42 19.70
+iPTF15fhp 137.184825 +55.451767 10:07 19.43
+iPTF15fen  50.406434 +31.452250 02:28 19.53       H
+iPTF15ffm  23.105842  -4.033150 03:47 19.81       H
+iPTF15fhf 100.769436 +55.466998 09:11 19.22      G?
+
+Where available, redshifts for nearby galaxy associations are provided, either spectroscopic (4 significant figures) or photometric redshifts from SDSS (2 significant figures).  
+
+iPTF15fen and iPTF15ffm do not have obvious host galaxy associations in our reference imaging (H = hostless).  
+
+iPTF15fhf is in the halo of a bright star, and may therefore be an image artifact (G = ghost).
+
+We obtained optical spectra of iPTF15fdv and iPTF15fhl with the Gemini Multi-Object Spectrograph on the 8 m Gemini North telescope on 2015 December 29.  iPTF15fdv is a type II SN, with broad  P-Cygni features of H-alpha and Ca II.  It is very likely unrelated to the G211117 trigger.  Cross-correlation of the spectrum of iPTF15fhl with template spectra using the SuperNova IDentification code (Blondin and Tonry, ApJ, 2007, 666, 1024) reveals matches with a number of type Ic (and some Ib) supernovae.  Of particular interest is a similarity with the peculiar SN Ib 2005bf (Folatelli et al, ApJ, 2006, 641, 1039).  Further observations of this source are encouraged.
+
+We further note that the source reported by Itoh et al. (GCN 18742) is likely to be the minor planet 2606 Odessa, also visible in our P48 images near this time.
+
+Positions are stated in the ICRS. Times are in UTC. Magnitudes are based on image subtraction; they are in the Mould R filter and in the AB system, calibrated with respect to point sources in SDSS as described in Ofek et
+al. (2012, http://dx.doi.org/10.1086/664065).
+
+The diagram https://gracedb.ligo.org/apiweb/events/G211117/files/iptf.pdf shows the locations of our candidates and the P48 fields in relation to the LIGO/Virgo localization.
+

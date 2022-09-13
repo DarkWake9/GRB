@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10073
+SUBJECT: GRB091024: VRcIc Afterglow Observations
+DATE:    09/10/24 20:09:04 GMT
+FROM:    Arne A. Henden at AAVSO  <arne@aavso.org>
+
+A. Henden (AAVSO), J. Gross (SRO), B. Denny (DC-3), D. Terrell (SwRI), and
+W. Cooney (SRO) report:
+
+We obtained photometry of the GRB091024 afterglow reported by Mundell et
+al. (GCN 10063) using the Sonoita Research Observatory (SRO) 35cm telescope
+in southern Arizona, utilizing an automatic VOevent trigger.  The Rc-band
+exposures began about 9 minutes after the burst and continued for approximately
+one hour.  Ten Rc-band, nine V-band, and one Ic-band exposures were acquired.
+
+Photometry, assuming that USNO-B1.0 1468-0448363 (RA: 22:36:44.11 ,
+Dec: +56:52:42.6) has the following magnitudes: V=13.46, R=12.93, I=12.71
+
+UT(mid)   delT   exp   mag     err  filter
+09.1122    642   180  17.177  0.030   Rc
+09.1667    839   180  17.510  0.037   Rc
+09.2192   1028   180  17.827  0.049   Rc
+09.2722   1218   180  17.993  0.044   Rc
+09.3247   1407   180  18.136  0.056   Rc
+09.4123   1723   300  18.008  0.046   Rc
+09.5000   2038   300  17.764  0.045   Rc
+09.5859   2348   300  17.737  0.033   Rc
+09.6717   2657   300  17.665  0.037   Rc
+09.7575   2965   300  17.776  0.045   Rc
+09.8609   3338   300  19.029  0.111   V
+09.9486   3653   300  19.267  0.120   V
+10.0348   3964   300  19.290  0.132   V
+10.1206   4273   300  19.320  0.126   V
+10.2064   4581   300  19.237  0.091   V
+10.2923   4891   300  19.345  0.151   V
+10.4642   5510   300  19.163  0.107   V
+10.5500   5818   300  19.293  0.123   V
+10.6359   6128   300  19.350  0.163   V
+10.8439   6877   180  17.550  0.074   Ic
+
+
+Where delT is the time in seconds from the burst (Marshall et al., GCN
+10062), and the exposure is in seconds.
+
+Astrometry from the Rc frames, using UCAC3, yields a precise position of
+22:36:59.68 +56:53:23.3 J2000 (+/- 100mas).  A full BVRcIc calibration
+is in the Sonoita queue and will be released when photometric conditions
+permit.
+
+The AAVSO thanks the Curry Foundation for its support of the AAVSO
+International High Energy Network.
+

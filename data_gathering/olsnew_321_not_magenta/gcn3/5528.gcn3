@@ -1,0 +1,47 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5528
+SUBJECT: GRB 060906: Swift detection of a probable burst
+DATE:    06/09/06 09:12:48 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. L. Racusin (PSU), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+N. Gehrels (NASA/GSFC), C. Guidorzi (Univ Bicocca&INAF-OAB),
+S. D. Hunsberger (PSU), V. Mangano (INAF-IASFPA), D. C. Morris (PSU),
+K. L. Page (U Leicester), D. M. Palmer (LANL), E. Rol (U Leicester),
+P. Romano (INAF-OAB), G. Sato (GSFC/ISAS), M. Stamatikos (NASA/ORAU)
+and H. Z. Ziaeepour (UCL-MSSL) report on behalf of the Swift Team:
+
+At 08:32:46 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060906 (trigger=228316).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA,Dec 40.748, +30.349 {02h 42m 60s, +30d 20' 58"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve is complicated by the fact
+that the spacecraft was slewing just prior to the image trigger.  There
+appears to be an ~5 sec wide peak starting at T_zero.  There are possibly
+two smaller peaks at T-15 and T-21 sec, but these are during the slew
+and may be caused by the slew.  The peak count rate
+is ~1000 counts/sec (15-350 keV), at ~5 sec after the trigger. 
+
+The XRT began taking data at 08:35:15 UT, 148 seconds after the BAT
+trigger. The XRT on-board centroid algorithm did not find a source in
+the image but ground analysis of 5 seconds of flight data available 
+at this time reveals a possible faint source at the following coordinates:   
+RA(J2000): 2h 43m 00.9s
+Dec(J2000): +30 21 38.95   
+with an error of 8 arcseconds (90% confidence). Further analysis of 
+ground data is necessary to determine the properties of the possible
+source. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 152 seconds after the BAT trigger. No
+afterglow candidate has been found in the initial data products. The
+2.7'x2.7' sub-image covers 25% of the BAT error circle. The typical
+3-sigma upper limit has been about 18.5 mag. The 8'x8' region for the
+list of sources generated on-board covers 100% of the BAT error
+circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to
+E(B-V) of  0.20. 
+
+We will have the full data set downlinked and processed by ~11:00 UT. 
+

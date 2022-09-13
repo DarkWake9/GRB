@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17918
+SUBJECT: Konus-Wind observation of  GRB 150608A
+DATE:    15/06/10 11:53:59 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A.Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+A long-duration GRB triggered Konus-Wind on June 8, 2015
+at T0=42325.791 s UT (11:45:25.791), ~80 s before
+the MAXI trigger (GRB 150608A; Arimoto, et al., GCN Circ. 17912).
+
+The KW light curve shows a multi-peaked complex which
+started at ~T0-75 s and lasted until ~T0+5 s.
+This phase of the emission was followed, in ~75 s,
+by a weaker pulse, which triggered MAXI.
+Taking into account the proximity of this burst
+to the MAXI/GSC trigger and consistency of the
+KW ecliptic latitude response with the position
+of GRB 150608A we suggest that KW observed
+the main part of GRB 150608A.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB150608_T42325/
+
+As observed by Konus-Wind, the burst had a fluence of 
+2.4(-0.3,+0.3)x10^-5 erg/cm2, and a 2.944-s peak flux,
+measured from T0-0.302 s, of 8.8(-1.2,+1.2)x10^-7 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Since the bulk of the burst emission lies before the triggered
+mode record, the spectral analysis was performed using
+KW 3-channel waiting mode data.
+
+Modeling the 3-channel time-integrated spectrum
+(from T0-73.209 s to T0+5.586 s) by a power law
+with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.56 ± 0.14, and Ep = 209 ± 46 keV.
+
+Modelling the 3-channel spectrum near the peak count rate
+(from T0-3.246 s to T0+2.642 s) by the CPL model
+yields alpha = -0.94 ± 0.26, and Ep = 199 ± 37 keV.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+

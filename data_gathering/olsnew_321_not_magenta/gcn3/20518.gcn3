@@ -1,0 +1,187 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20518
+SUBJECT: LIGO/Virgo G270580:  Pan-STARRS coverage and 124 optical transients 
+DATE:    17/01/24 18:15:12 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+M. E. Huber (IfA), K. C. Chambers (IfA), K. W. Smith (QUB),
+D. R. Young, S. J. Smartt, (QUB),, M. Coughlin (Harvard), T.-W. Chen
+(MPE), L. Denneau, H. Flewelling, A. Heinze, E. A. Magnier (IfA),
+A. Rest (STScI), B. Stalder (IfA), A. S. B. Schultz, C. W. Stubbs
+(Harvard) J. Tonry, C. Waters, R. J. Wainscoat, H. Weiland (IfA),
+D. E. Wright (QUB)
+
+With Pan-STARRS1, we surveyed the primary northern area of the
+LALInference map (LIB_skymap.fits ; Veitch et al., PRD 91, 042003, GCN
+20486) following the release of the G270580 alert. Observations began
+57774.4 UT and lasted over two further nights.  The map of pointings is
+uploaded on GraceDB.
+
+Images were taken in the Pan-STARRS i-band in a series of overlapping
+45s exposures, with typically 4-8 images at each position.  These were
+combined into stacks and subtracted from the Pan-STARRS1 3Pi reference
+image (Chambers et al. arXiv:1612.05560, and available at
+http://panstarrs.stsci.edu). We reach approximately i~21-21.5 
+depending on the number of images combined. 
+
+Using techniques discussed in Smartt et al. (2016, MNRAS, 462, 4094),
+we have located and vetted transients with quality filters and a
+machine learning algorithm on the images. 
+
+In the following table, we give our 124 targets, sorted by magnitude.
+The lightcurve trend is given (LC trend), indicating the change in
+magnitude between earliest and latest MJD of detection. To select
+these targets we required a minimum of 2 detections over 2 separate
+nights.
+
+Variable sources which are likely AGN/QSOs or variable stars have, as
+far as possible, been removed from this transient list.  We remove
+likely AGN/QSOs either from catalogues, SDSS DR12 spectra, or nuclear
+transients which in galaxies with previous core variability seen in
+Pan-STARRS general survey mode. Similarly variable stars or stellar
+outbursts are removed through catalogue matching. The following list
+is composed of SN-like transients, to the best of our knowledge to
+date.
+
+We have removed previously known supernovae (in the preceding weeks
+before G270580) from this list. We recover PTSS-17dfn and PTSS-17dgm
+from Zhao et al. (GCN 20497,20506 ; the other is outside our field).
+The list is sorted by magnitude and we recommend prioritising objects
+for follow-up which are rising/falling in their lightcurve.
+
+sn = likely SN, offset from plausible host 
+nt = nuclear transient. Not obvious AGN, but transient coincident with galaxy core
+orphan = no obvious host 
+
+
+Name    RA (J2000)   Dec (J2000)  type    current trend         Disc. MJD  Disc Mag 
+PS17ua  09 44 11.39  +32 50 36.7  sn      fading 00.01 (i-i)    57774.46    17.79 
+PS17of  10 02 34.60  +44 47 11.2  sn      rising 00.07 (i-i)    57774.47    18.53 
+PS17tn  09 43 13.64  +41 19 02.2  sn      rising 00.43 (i-i)    57774.47    18.81 
+PS17yh  09 59 44.73  +27 38 54.6  sn      rising 00.01 (i-i)    57774.53    19.03 PTSS-17dfn 
+PS17so  09 39 11.89  +45 22 25.9  nt      fading 00.01 (i-i)    57774.47    19.24 
+PS17tp  09 43 15.22  +27 33 07.5  sn      fading 00.22 (i-i)    57774.54    19.25 
+PS17qr  09 30 36.59  +21 24 42.5  sn      fading 00.02 (i-i)    57774.51    19.33 PTSS-17dgm 
+PS17xv  09 58 15.93  +33 28 16.7  sn      fading 00.18 (i-i)    57774.47    19.55 
+PS17yt  10 03 57.96  +49 02 28.3  sn      rising 00.54 (i-i)    57774.47    19.71 
+PS17wt  09 53 23.49  +60 09 31.5  sn      rising 00.19 (i-i)    57774.46    19.86 
+PS17nj  09 50 24.19  +63 35 07.7  nt      fading 00.01 (i-i)    57774.46    19.87 
+PS17ta  09 40 49.20  +27 50 41.2  nt      rising 00.01 (i-i)    57774.54    19.88 
+PS17ve  09 48 07.40  +33 05 12.3  sn      fading 00.09 (i-i)    57774.46    19.98 
+PS17st  09 39 36.56  +46 17 25.1  sn      fading 00.10 (i-i)    57774.46    20.00 
+PS17mc  09 36 03.65  +51 23 16.0  sn      rising 00.12 (i-i)    57774.47    20.02 
+PS17pp  09 21 01.11  +49 27 47.0  sn      rising 00.21 (i-i)    57774.48    20.07 
+PS17mr  09 42 43.78  +42 28 58.9  nt      fading 00.06 (i-i)    57774.46    20.08 
+PS17pt  09 23 31.33  +52 49 13.3  sn      rising 00.02 (i-i)    57774.45    20.09 
+PS17pm  09 18 21.83  +64 43 50.0  nt      rising 00.12 (i-i)    57774.46    20.11 
+PS17va  09 47 39.20  +37 22 27.6  sn      rising 00.26 (i-i)    57774.46    20.12 
+PS17na  09 46 12.72  +60 21 47.8  sn      rising 00.05 (i-i)    57774.46    20.20 
+PS17ra  09 32 04.34  +12 33 51.6  nt      fading 00.30 (i-i)    57774.53    20.25 
+PS17lf  09 27 04.26  +54 23 46.9  sn      fading 00.20 (i-i)    57774.46    20.29 
+PS17xn  09 56 26.51  +37 15 13.8  sn      fading 00.31 (i-i)    57774.48    20.38 
+PS17pg  08 59 59.66  +57 50 26.4  sn      fading 00.19 (i-i)    57774.40    20.39 
+PS17ol  10 06 47.59  +28 01 20.8  sn      fading 00.02 (i-i)    57773.62    20.42 
+PS17ze  10 06 05.38  +53 04 45.1  sn      fading 00.11 (i-i)    57774.47    20.42 
+PS17zj  10 11 15.00  +38 35 57.3  sn      rising 00.09 (i-i)    57774.45    20.44 
+PS17xs  09 57 05.59  +21 58 29.3  sn      rising 00.10 (i-i)    57774.54    20.46 
+PS17sz  09 40 39.32  +23 47 12.2  sn      fading 00.06 (i-i)    57774.54    20.47 
+PS17ov  08 29 57.36  +66 14 08.8  nt      rising 00.00 (i-i)    57774.46    20.48 
+PS17ql  09 29 15.03  +56 00 24.1  sn      rising 00.20 (i-i)    57774.46    20.49 
+PS17vw  09 50 34.59  +25 47 26.9  sn      rising 00.12 (i-i)    57774.53    20.49 
+PS17zf  10 07 01.98  +45 53 40.5  sn      rising 00.04 (i-i)    57774.47    20.52 
+PS17rb  09 32 14.26  +65 26 46.1  sn      fading 00.11 (i-i)    57774.45    20.53 
+PS17us  09 46 33.39  +46 22 07.7  sn      rising 00.08 (i-i)    57774.47    20.54 
+PS17pr  09 21 46.06  +58 12 49.9  sn      rising 00.00 (i-i)    57774.45    20.57 
+PS17sd  09 38 12.65  +16 03 29.6  sn      rising 00.14 (i-i)    57774.54    20.58 
+PS17ss  09 39 30.92  +33 21 15.3  sn      fading 00.01 (i-i)    57774.43    20.58 
+PS17sf  09 38 28.84  +39 46 01.3  sn      fading 00.03 (i-i)    57774.46    20.58 
+PS17qo  09 29 51.26  +44 31 14.6  sn      fading 00.08 (i-i)    57774.44    20.60 
+PS17se  09 38 27.88  +30 03 56.8  sn      rising 00.01 (i-i)    57774.47    20.63 
+PS17xg  09 55 06.39  +27 07 19.6  sn      rising 00.13 (i-i)    57774.54    20.63 
+PS17me  09 37 35.07  +25 35 58.6  sn      fading 00.36 (i-i)    57774.54    20.63 
+PS17on  10 10 22.80  +48 01 28.1  sn      rising 00.05 (i-i)    57774.42    20.65 
+PS17my  09 45 44.55  +20 47 29.5  nt      fading 00.13 (i-i)    57774.54    20.67 
+PS17ui  09 45 33.30  +27 52 23.9  sn      rising 00.08 (i-i)    57774.54    20.68 
+PS17nv  09 57 41.01  +17 49 33.4  orphan  fading 00.12 (i-i)    57774.49    20.68 
+PS17rw  09 36 33.10  +26 22 07.1  sn      fading 00.26 (i-i)    57774.54    20.71 
+PS17rj  09 34 39.14  +51 22 40.6  sn      fading 00.07 (i-i)    57774.48    20.71 
+PS17xo  09 56 30.75  +31 25 47.2  sn      fading 00.02 (i-i)    57774.50    20.72 
+PS17pn  09 18 26.20  +60 41 41.5  sn      fading 00.05 (i-i)    57774.46    20.72 
+PS17vv  09 50 28.24  +29 41 50.3  nt      rising 00.05 (i-i)    57774.54    20.72 
+PS17yi  09 59 48.09  +38 58 58.9  nt      fading 00.07 (i-i)    57774.47    20.73 
+PS17qt  09 30 41.85  +46 20 36.4  sn      rising 00.20 (i-i)    57774.45    20.73 
+PS17xm  09 56 09.82  +26 15 01.1  nt      fading 00.12 (i-i)    57774.54    20.74 
+PS17wy  09 53 53.21  +50 31 08.8  sn      fading 00.07 (i-i)    57774.46    20.75 
+PS17pv  09 25 07.35  +50 12 28.9  orphan  fading 00.07 (i-i)    57774.47    20.75 
+PS17lh  09 29 15.24  +26 47 51.0  sn      rising 00.00 (i-i)    57774.52    20.77 
+PS17xy  09 58 37.81  +29 07 33.6  sn      rising 00.23 (i-i)    57774.55    20.77 
+PS17yq  10 02 49.53  +42 24 00.8  sn      rising 00.09 (i-i)    57774.48    20.80 
+PS17wc  09 51 05.54  +29 22 46.3  sn      fading 00.12 (i-i)    57774.54    20.80 
+PS17ti  09 42 19.84  +21 37 11.1  sn      rising 00.02 (i-i)    57774.54    20.80 
+PS17yg  09 59 44.47  +24 12 03.4  sn      fading 00.07 (i-i)    57774.53    20.80 
+PS17pa  08 38 05.32  +61 24 50.3  sn      rising 00.07 (i-i)    57774.42    20.81 
+PS17pd  08 43 47.07  +64 31 31.4  sn      rising 00.15 (i-i)    57774.46    20.81 
+PS17yj  10 00 16.53  +50 52 03.1  nt      rising 00.02 (i-i)    57774.47    20.82 
+PS17vp  09 49 33.45  +48 49 32.0  sn      fading 00.08 (i-i)    57774.47    20.82 
+PS17ry  09 36 46.35  +26 02 05.2  sn      rising 00.02 (i-i)    57774.54    20.82 
+PS17qk  09 29 12.15  +25 49 06.4  orphan  fading 00.20 (i-i)    57774.54    20.83 
+PS17ud  09 45 03.09  +22 50 09.9  sn      rising 00.11 (i-i)    57774.54    20.86 
+PS17xx  09 58 27.56  +42 53 08.0  sn      fading 00.10 (i-i)    57774.48    20.87 
+PS17qx  09 31 47.56  +12 59 46.8  nt      fading 00.12 (i-i)    57774.53    20.87 
+PS17zb  10 05 56.86  +40 54 27.6  nt      rising 00.11 (i-i)    57774.47    20.88 
+PS17vd  09 48 00.80  +30 06 42.5  sn      fading 00.22 (i-i)    57774.51    20.89 
+PS17wr  09 53 16.55  +51 53 02.8  nt      fading 00.09 (i-i)    57774.48    20.89 
+PS17vu  09 50 16.84  +34 56 19.0  sn      rising 00.03 (i-i)    57774.46    20.90 
+PS17re  09 32 55.07  +52 12 49.5  sn      rising 00.31 (i-i)    57774.46    20.92 
+PS17kv  09 24 01.40  +49 26 03.8  sn      fading 00.04 (i-i)    57774.48    20.92 
+PS17ts  09 43 24.74  +18 08 49.9  sn      fading 00.02 (i-i)    57774.54    20.93 
+PS17xh  09 55 13.67  +46 15 18.9  sn      rising 00.10 (i-i)    57774.47    20.96 
+PS17kr  09 19 46.15  +59 28 37.2  sn      fading 00.09 (i-i)    57774.43    20.97 
+PS17rd  09 32 27.06  +55 40 43.1  sn      fading 00.02 (i-i)    57774.46    20.99 
+PS17vy  09 50 36.23  +22 04 33.8  sn      rising 00.03 (i-i)    57774.54    21.01 
+PS17uo  09 46 11.91  +48 18 56.0  sn      rising 00.22 (i-i)    57774.46    21.01 
+PS17wv  09 53 25.01  +32 39 23.8  sn      rising 00.04 (i-i)    57774.47    21.01 
+PS17tm  09 43 10.54  +34 44 02.2  sn      fading 00.08 (i-i)    57774.46    21.02 
+PS17ue  09 45 06.95  +17 42 19.0  sn      rising 00.27 (i-i)    57774.54    21.03 
+PS17su  09 40 08.78  +23 00 53.1  sn      rising 00.07 (i-i)    57774.54    21.04 
+PS17ku  09 23 44.48  +48 55 06.4  sn      rising 00.10 (i-i)    57774.48    21.06 
+PS17vf  09 48 11.27  +18 20 40.8  nt      rising 00.13 (i-i)    57774.54    21.08 
+PS17vg  09 48 15.51  +29 45 48.7  sn      fading 00.03 (i-i)    57774.54    21.08 
+PS17vt  09 49 57.95  +19 38 47.0  sn      rising 00.00 (i-i)    57774.54    21.09 
+PS17qp  09 30 30.25  +49 52 30.0  sn      rising 00.03 (i-i)    57774.47    21.09 
+PS17rr  09 35 30.85  +16 59 18.1  sn      rising 00.04 (i-i)    57774.55    21.10 
+PS17rz  09 36 57.19  +29 40 06.0  sn      rising 00.22 (i-i)    57774.47    21.12 
+PS17pi  09 05 00.75  +61 01 10.6  sn      rising 00.08 (i-i)    57774.45    21.14 
+PS17xp  09 56 36.86  +49 56 14.1  sn      rising 00.12 (i-i)    57774.46    21.15 
+PS17ph  09 01 00.16  +57 53 49.4  sn      rising 00.16 (i-i)    57774.40    21.16 
+PS17xf  09 55 02.96  +21 14 12.5  sn      fading 00.08 (i-i)    57774.54    21.16 
+PS17vc  09 47 46.66  +41 17 18.0  nt      rising 00.13 (i-i)    57774.46    21.18 
+PS17mp  09 41 52.10  +36 00 40.2  sn      fading 00.14 (i-i)    57774.45    21.18 
+PS17ws  09 53 19.79  +42 26 50.8  sn      fading 00.01 (i-i)    57774.46    21.19 
+PS17uu  09 47 01.91  +17 52 27.1  sn      rising 00.03 (i-i)    57774.53    21.19 
+PS17uw  09 47 10.01  +16 13 51.5  nt      rising 00.24 (i-i)    57774.56    21.20 
+PS17mf  09 37 43.60  +15 23 11.6  nt      fading 00.19 (i-i)    57774.52    21.21 
+PS17lk  09 29 58.27  +15 11 58.5  orphan  fading 00.02 (i-i)    57774.53    21.24 
+PS17xq  09 56 59.17  +27 31 23.2  sn      rising 00.07 (i-i)    57774.54    21.24 
+PS17qq  09 30 35.36  +50 14 34.0  sn      rising 00.12 (i-i)    57774.46    21.25 
+PS17rc  09 32 19.16  +47 03 38.3  orphan  rising 00.06 (i-i)    57774.46    21.27 
+PS17yl  10 00 40.10  +40 39 21.9  sn      rising 00.00 (i-i)    57774.47    21.27 
+PS17ro  09 35 07.03  +23 23 35.9  sn      fading 00.00 (i-i)    57774.53    21.33 
+PS17tv  09 43 41.58  +27 07 59.2  sn      fading 00.05 (i-i)    57774.54    21.35 
+PS17lp  09 31 42.79  +55 37 32.1  sn      rising 00.25 (i-i)    57774.45    21.36 
+PS17mg  09 37 44.15  +17 46 23.5  sn      rising 00.01 (i-i)    57774.54    21.37 
+PS17xk  09 56 08.33  +24 15 22.3  sn      rising 00.01 (i-i)    57774.54    21.43 
+PS17sn  09 39 11.32  +15 24 28.7  nt      rising 00.16 (i-i)    57774.52    21.44 
+PS17qs  09 30 38.38  +16 20 35.0  sn      rising 00.12 (i-i)    57774.53    21.45 
+PS17um  09 46 02.11  +20 57 16.3  sn      fading 00.01 (i-i)    57774.54    21.49 
+PS17qf  09 28 06.94  +16 23 30.8  sn      rising 00.46 (i-i)    57774.53    21.50 
+PS17pk  09 13 47.60  +64 02 59.7  sn      rising 00.48 (i-i)    57774.45    21.50 
+PS17vn  09 49 11.97  +19 17 06.7  sn      rising 00.30 (i-i)    57774.54    21.59 
+PS17tq  09 43 15.46  +16 57 16.2  nt      rising 00.12 (i-i)    57774.54    21.69 
+PS17sr  09 39 26.00  +23 46 04.8  sn      rising 00.16 (i-i)    57774.54    21.84 
+
+
+
+
+
+

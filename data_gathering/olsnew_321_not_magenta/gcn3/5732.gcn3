@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5732
+SUBJECT: GRB 061019, Swift-BAT refined analysis
+DATE:    06/10/19 15:50:14 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/ORAU), L. Barbier (GSFC), S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+C. Guidorzi (Univ Bicocca&INAF-OAB), D. Hullinger (BYU-Idaho), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+ 
+Using the data set from T-240 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 061019 (trigger #234516)
+(Guidorzi, et al., GCN Circ. 5728).  The BAT ground-calculated position
+(using the second peak only) is RA,Dec = 91.631, 29.545 deg
+{6h 6m 31.5s, 29d 32' 43.3"} (J2000) +- 1.8 arcmin, (radius, sys+stat,
+90% containment).  The partial coding was 5%.
+ 
+The mask-weighted lightcurve shows two peaks.  The first (pre-trigger peak),
+started ~T-170 sec and lasted for ~20 sec.  The second peak (the triggering peak)
+rises a little faster than decaying.  It starts at ~T-4 sec, peaks at T+4 sec,
+and ends at ~T+30 sec.  The second peak is a little brighter than the first.
+There is a hint of on-going emission between the two peaks.  Because of a s/c slew
+terminating the data collection, we can not say if there is any further emission
+past T+60 sec.  T90 is 191 +- 3 sec (estimated error including systematics).
+
+For the second (triggering peak), the time-averaged spectrum from
+T-4.0 to T+27.7 is best fit by a simple power-law model.  The power law index
+of the time-averaged spectrum is 1.85 +- 0.26.  The fluence in the 15-150 keV
+band is 1.7 +- 0.2 x 10^-6 erg/cm2.  The 1-sec peak photon flux measured
+from T+3.57 sec in the 15-150 keV band is 2.2 +- 0.6 ph/cm2/sec.
+ 
+For the first (pre-trigger peak), the time-averaged spectrum from
+T-175 to T-150 sec is best fit by a simple power-law model.  The power law index
+of the time-averaged spectrum is 2.17 +- 0.40.  The fluence in the 15-150 keV
+band is 7.3 +- 1.9 x 10^-7 erg/cm2.
+
+The total fluence (both peaks) is 2.4 +- 0.3 x 10^-6 srg/cm2.
+All the quoted errors for both fits are at the 90% confidence level. 
+

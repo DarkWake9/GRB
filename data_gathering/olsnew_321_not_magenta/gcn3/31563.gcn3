@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31563
+SUBJECT: GRB 220209A: AGILE/MCAL detection
+DATE:    22/02/10 11:25:15 GMT
+FROM:    Alessandro Ursi at INAF/IAPS  <alessandro.ursi@gmail.com>
+
+A. Ursi (INAF/IAPS), A. Di Piano (INAF/OAS-Bologna), C. Pittori, F.
+Verrecchia (SSDC, and INAF/OAR), M. Tavani (INAF/IAPS, and Univ. Roma Tor
+Vergata), A. Argan, M. Cardillo, C. Casentini, Y. Evangelista, L. Foffano,
+E. Menegoni, G. Piano (INAF/IAPS), F. Lucarelli (SSDC, and INAF/OAR), A.
+Bulgarelli, V. Fioretti, F. Fuschino, N. Parmiggiani (INAF/OAS-Bologna), M.
+Marisaldi (INAF/OAS-Bologna, and Bergen University), M. Pilia, A. Trois
+(INAF/OA-Cagliari), I. Donnarumma (ASI), A. Giuliani (INAF/IASF-Mi), F.
+Longo (Univ. Trieste and INFN Trieste), and P. Tempesta (TeleSpazio),
+report on behalf of the AGILE Team:
+
+The AGILE satellite detected the long GRB 220209A at T0 = 2022-02-09
+23:00:58.72 +/- 0.01 s (UTC), reported by Fermi GBM (GCN #31561).
+
+The burst is clearly visible in the AGILE scientific ratemeters of the
+SuperAGILE (SA; 20-60 keV), MiniCALorimeter (MCAL; 0.4-100 MeV), and
+AntiCoincidence (AC; 50-200 keV) detectors. The event lasted T90 = 14.5 +/-
+0.5 s (in the 0.4-100 MeV energy range) and it released a total number of
+2230 counts in the SA detector (above a background rate of 80 Hz), 25480
+counts in the MCAL detector (above a background rate of 1110 Hz), and 48110
+counts in the AC detector (above a background rate of 3015 Hz). The AGILE
+ratemeters light curves can be found at
+http://www.agilescienceapp.it/notices/GRB220209A_AGILE_RM.png .
+
+The event also triggered a high time resolution MCAL data acquisition, and
+released 13500 counts in the detector, above a background rate of 525 Hz.
+The time-integrated spectrum of the burst, from T0-2 s to T0+13 s, can be
+fitted in the energy range 0.4-10 MeV with a Band model with alpha = -0.29
+(-0.15/+0.11), beta = -2.50 (-0.23,+0.25), and Ep = 2.06 (-1.94,+2.38) MeV,
+resulting in a reduced chi-squared of 1.42 (46 d.o.f.) and a fluence of
+4.45e-05 erg/cm^2 (90% confidence level), in the same energy range. The
+MCAL light curve can be found at
+http://www.agilescienceapp.it/notices/076934_GRB_571532458.721385.png and
+the best-fit spectrum can be found at
+http://www.agilescienceapp.it/notices/GRB220209A_MCALsp.png . At the T0,
+the event was 12 deg off-axis.
+
+
+At T0+192 s, we notice another bursting episode, possibly related to GRB
+220209A, and also visible in the Fermi GBM public light curves. This
+episode lasted about 30 s and released a total number of 3610 counts in the
+SA detector (above a background rate of 140 Hz), 38820 counts in the MCAL
+detector (above a background rate of 1135 Hz), and 108520 counts in the AC
+detector (above a background rate of 4160 Hz). This episode also triggered
+a second partial high time resolution MCAL data acquisition, and released
+6875 counts in the detector, above a background rate of 535 Hz. Assuming
+that this event belongs to GRB 220209A, the time-integrated spectrum from
+T0+187 s to T0+197 s can be fitted in the energy range 0.4-5 MeV with a
+power-law with ph.ind. = -2.62 (-0.17,+0.19), resulting in a reduced
+chi-squared of 1.33 (36 d.o.f.) and a fluence of 1.38e-05 erg/cm^2 (90%
+confidence level), in the same energy range. At T0+192 s, the event was 140
+deg off-axis.
+
+Additional analysis of AGILE data is in progress. Automatic MCAL GRB alert
+Notices can be found at: https://gcn.gsfc.nasa.gov/agile_mcal.html.

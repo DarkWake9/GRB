@@ -1,0 +1,171 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21535
+SUBJECT: LIGO/Virgo G298048: Nearby Galaxies in the Localization Volume using the updated sky map computed using LALInference
+DATE:    17/08/18 02:48:50 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+David O. Cook (Caltech), Angela Van Sistine (UW Milwaukee), Leo Singer
+(NASA/GSFC), and M. M. Kasliwal (Caltech)
+
+report on behalf of the GROWTH (Global Relay of Observatories Watching
+Transients Happen) collaboration
+
+We spatially cross-matched the LIGO/Virgo G298048 trigger with no
+assumption on orientation (90% containment volume using
+preliminary-LALInference.fits; LVC GCN 21527) with our Census of the Local
+Universe (CLU; Cook et al. in prep) galaxy catalog and found 60 galaxies.
+This catalog is a compilation of galaxies with existing redshifts from many
+sources (e.g., NED, SDSS, etc) and new galaxies from a 3PI four-filter
+narrow-band survey to look for redshifted Halpha emission out to 200 Mpc
+with the Palomar Oschin 48-inch telescope. The narrow-band survey is
+limited to a declination above -20 degrees, thus all galaxies within the
+90% volume come from the compiled CLU catalog with no Halpha overlap.
+
+We list here all 60 galaxies sorted by stellar mass (Mstar) for galaxies
+whose location on the sky and distance falls in the 90% volume reported by
+the BAYESTAR probability sky map (Singer et al. 2016). We also list the
+dust-corrected star formation rates (SFRs) for galaxies with GALEX FUV
+detections and a 'nan' for those with no detection.
+
+In addition, we have compared these galaxies to those reported in our
+original crossmatch (GCN #21519) and have found that 20 of these are new
+galaxies. The new galaxies are marked by '*'.
+
+We note that the host galaxy of the reported optical transient (GCNs
+#21529, #21530, #21531) is NGC 4993. This galaxy was #3 on our original
+list ranked by stellar mass (GCN #21519) and is #4 on the list below.
+
+
+                 name_NED                    ra      dec    distmpc
+logsfr_fuv logmstar dm_kin        P
+----------------------------------------- -------- -------- -------
+---------- -------- ------ ---------------
+                                 NGC 5078 199.9582 -27.4102   29.51
+nan    10.57  32.35  0.887513795025*
+                                 NGC 4970 196.8906 -24.0086   46.50
+nan    10.42  33.34  0.518705272027
+                                 NGC 4830 194.3663 -19.6913   47.90
+-1.419    10.41  33.40  0.858268936834
+                                 NGC 4993 197.4487 -23.3839   41.66
+nan    10.26  33.10   0.64123728367
+                                 NGC 4968 196.7749 -23.6770   42.24
+0.626    10.25  33.13  0.316464198585
+                                  IC 4197 197.0180 -23.7969   43.24
+nan    10.24  33.18  0.445236314135
+                                  IC 4180 196.7354 -23.9171   42.46
+-0.623    10.17  33.14  0.231620854391
+                           MCG -04-31-042 198.5739 -26.5827   54.70
+nan     9.98  33.69  0.895990447512*
+                           ESO 508- G 033 199.0969 -26.5614   45.59
+0.199     9.95  33.29  0.615247563764
+                                  IC 4219 199.6239 -31.6309   52.19
+-0.053     9.87  33.59  0.874563970341*
+                                  IC 0874 199.7522 -27.6286   30.90
+nan     9.85  32.45  0.789658618241*
+                           ESO 508- G 010 196.9080 -23.5790   43.04
+nan     9.51  33.17  0.481194307217
+                  2MASX J13161781-2926415 199.0742 -29.4450   52.93
+-1.230     9.40  33.62  0.784286018046*
+                           ESO 575- G 053 196.2705 -22.3839   36.37
+-0.856     9.33  32.80   0.36841088215
+                                  IC 0879 199.9190 -27.4290   34.11
+-0.673     9.27  32.66   0.81030188127*
+                                 UGCA 331 197.6914 -23.8657   40.82
+nan     9.17  33.05  0.643613070644
+                     ESO 575- G 044 NED01 195.0910 -22.6947   35.60
+nan     9.14  32.76  0.815693971686*
+                           ESO 575- G 055 196.6663 -22.4561   44.49
+-0.975     9.07  33.24  0.767149920359
+                           ESO 508- G 003 196.6000 -24.1641   40.52
+nan     9.06  33.04 0.0809646816159
+                           ESO 508- G 019 197.4663 -24.2391   41.79
+nan     8.98  33.11  0.390107508863
+                           ESO 575- G 029 193.9986 -19.2691   45.21
+nan     8.96  33.28  0.856267417303
+                  2MASX J13073768-2356181 196.9071 -23.9384   49.73
+nan     8.92  33.48  0.753012347515
+                              2MFGC 10461 197.1774 -23.7756   41.39
+nan     8.90  33.08  0.413936564291
+                  2MASX J13061939-2258491 196.5805 -22.9804   41.51
+-1.129     8.83  33.09  0.459238357582
+                                 UGCA 327 196.9370 -22.8579   37.29
+nan     8.81  32.86  0.610525424738
+                           ESO 508- G 004 196.7177 -22.8405   41.37
+-1.063     8.61  33.08  0.621228481694
+                           ESO 508- G 014 197.1342 -23.3469   46.61
+-1.525     8.60  33.34  0.753661507789
+             GALEXASC J125811.97-210246.3 194.5501 -21.0461   43.89
+-1.349     8.47  33.21  0.847953733375
+                           ESO 444- G 033 201.5178 -32.1291   31.45
+-1.169     8.46  32.49  0.873767002259*
+             GALEXASC J130525.30-233008.8 196.3546 -23.5025   45.90
+-1.011     8.43  33.31  0.440966168867
+             GALEXASC J131109.37-280035.5 197.7891 -28.0099   28.84
+nan     8.36  32.30  0.670375919006*
+             GALEXASC J130707.37-240634.4 196.7822 -24.1104   41.50
+nan     8.30  33.09  0.143978844705
+                      6dF J1305235-233121 196.3478 -23.5224   41.71
+nan     8.28  33.10   0.18957340774
+             GALEXASC J130415.26-225251.3 196.0633 -22.8814   41.23
+-1.577     8.20  33.08  0.246973097253
+                      6dF J1309177-242256 197.3241 -24.3821   40.36
+nan     8.12  33.03  0.267382395401
+                                 UGCA 328 197.3298 -24.3866   41.03
+nan     8.11  33.07  0.292373909456
+                           ESO 443- G 079 197.5947 -27.9770   31.71
+nan     8.10  32.51  0.740389521428*
+                           ESO 508- G 035 199.4497 -26.9025   37.77
+-1.526     8.02  32.89  0.600958568007
+             GALEXASC J130918.58-242304.8 197.3286 -24.3846   39.81
+nan     7.98  33.00  0.250629160585
+             ABELL 1664_11:[PSE2006] 2506 196.8922 -23.8153   42.80
+nan     7.93  33.16   0.37496420498
+                              AM 1316-263 199.8900 -26.8027   32.03
+-2.024     7.93  32.53  0.888395580501*
+             GALEXASC J132218.16-300914.6 200.5747 -30.1544   34.12
+-1.953     7.86  32.66  0.685502037779*
+             GALEXASC J131426.62-271242.6 198.6106 -27.2120   29.32
+-1.784     7.82  32.34  0.411085021807
+                           ESO 508- G 039 199.6006 -27.4343   28.44
+-1.682     7.72  32.27  0.841960065682
+             ABELL 1664_13:[PSE2006] 1313 195.7757 -23.8657   22.93
+nan     7.72  31.80   0.79106477475*
+                           ESO 508- G 021 197.5043 -26.7119   29.71
+-1.582     7.66  32.36  0.329579404218*
+                           ESO 444- G 002 199.1892 -27.8856   23.46
+-1.205     7.59  31.85  0.866962651084*
+             GALEXASC J132014.00-300208.9 200.0584 -30.0363   22.70
+-1.668     7.53  31.78  0.869946416036*
+             GALEXASC J130430.75-241313.3 196.1277 -24.2201   20.54
+-2.616     7.19  31.56  0.822744075967*
+                WINGS J125701.38-172325.2 194.2558 -17.3903   26.13
+nan     7.10  32.09    0.8626975064
+             GALEXASC J131007.01-263546.5 197.5292 -26.5963   28.58
+-1.915      nan  32.28  0.322783340928*
+                                USGC S204 196.9600 -23.5400   41.72
+nan      nan  33.10  0.471831679854
+                                 UGCA 325 196.7796 -24.1119   42.70
+nan      nan  33.15  0.198214466434
+                                HDCE 0763 196.9733 -23.7569   43.09
+nan      nan  33.17  0.429404174971
+                                  ESO 508 197.1336 -23.6224   45.66
+nan      nan  33.30  0.664939464108
+             GALEXMSC J132152.52-312233.6 200.4688 -31.3781   30.87
+nan      nan  32.45  0.724356348566*
+                           [TSK2008] 0052 199.0736 -27.6878   29.69
+nan      nan  32.36  0.593309320022
+                              2MFGC 10484 197.4617 -24.2419   42.31
+nan      nan  33.13  0.411745360516
+                           ESO 444- G 004 199.2656 -31.5891   32.65
+-1.507      nan  32.57  0.873219502269*
+                           [TSK2008] 0073 197.7951 -23.5882   40.44
+nan      nan  33.03  0.772082721414
+
+* Galaxies not reported in the original CLU-LIGO crossmatch (GCN
+#21519)
+
+The SFRs are derived from GALEX all sky kron FUV magnitudes via the
+prescription of Murphy et al. (2011) and have been corrected for internal
+dust extinction using a combination of GALEX FUV and 22um ALLWISE fluxes
+(Hao et al. 2011). The quoted stellar masses are derived from 3.4um ALLWISE
+fluxes and a mass-to-light ratio of 0.5 (McGaugh & Schombert et al. 2015).

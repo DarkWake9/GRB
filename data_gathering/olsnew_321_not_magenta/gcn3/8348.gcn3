@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8348
+SUBJECT: GRB081008: Swift/UVOT observations
+DATE:    08/10/09 10:30:54 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL-UCL) and J. L. Racusin (PSU) report on behalf of the 
+Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 081008 96 s 
+after the BAT trigger (Racusin et al., GCN Circ. 8344), using a newly 
+implemented observing sequence. The new sequence takes a 150s white-band 
+finding chart exposure, followed by a 250s u-band exposure, after which 
+the filter wheel rotates through all filters, taking short 20s exposures.
+
+A new fading source is detected at the ROTSE position (Rykoff et al., GCN 
+Circ 8343) in the white, v, b, u and uvw1 filters, consistent with a  
+redshift of z=1.967 reported by Cucchiara et al., (GCN Circ 8346). The 
+source is decaying at a constant rate of 0.90+/-0.03 for the duration of 
+intial UVOT observations, out to ~700s after the BAT trigger. The UVOT 
+refined position is
+RA(J2000) = 18:39:49.877 (279.95833 deg)
+Dec(J2000) = -57:25:52.87 (-57.431111 deg)
+with an estimated uncertainty of 0.6 arcsec (radius, 90% confidence).
+
+The detections and 3 sigma upper limits of the fading afterglow are 
+reported below, where T_start and T_stop represent the elapsed time since 
+the BAT trigger in seconds, and fc indicate finding chart exposures
+
+Filter      T_start(s) T_stop  Exp(s)   Mag or 3 Sigma Limit
+white (fc)   96         246     146      14.96 +/- 0.01
+white        534        554     19       15.87 +/- 0.03
+u (fc)       254        504     246      15.19 +/- 0.02
+u            658        678     19       15.81 +/- 0.08
+v            584        604     19       15.64 +/- 0.10
+b            510        530     19       15.79 +/- 0.05
+uvw1         633        653     19       17.03 +/- 0.22
+uvm2         608        1601    117      > 19.16
+uvw2         559        1717    128      > 19.53
+
+The above magnitudes are not corrected for the Galactic extinction 
+corresponding to a reddening of E(B-V) = 0.10 mag (Schlegel et al., 1998, 
+ApJS, 500, 525).  The photometry is on the UVOT photometric system 
+described in Poole et al. (2008, MNRAS, 383,627).

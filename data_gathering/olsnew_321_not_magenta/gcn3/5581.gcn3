@@ -1,0 +1,38 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5581
+SUBJECT: Swift detects a hard X-ray burst from AXP CXOU J164710.2-455216
+DATE:    06/09/21 21:22:11 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+H. Krimm (GSFC/USRA), S. Barthelmy (GSFC), S. Campana (INAF-OAB),
+J. Cummings (GSFC/UMBC), G. Israel (INAF-OAR), D. Palmer (LANL),
+A. Parsons (GSFC) on behalf of the Swift-BAT team:
+
+The Burst Alert Telescope (BAT) on Swift has detected a faint outburst from
+the anomalous X-ray pulsar (magnetar) CXOU J164710.2-455216 in the cluster
+Westerlund 1.  This pulse was 20 msec long starting at 01:34:52 UTC
+Sep. 21, 2006 and shows a FRED profile.    The best fit postion is
+RA, Dec 251.749, -45.918 (J2000), +/- 3 arcmin  (radius, sys+stat,
+90% containment).  The Chandra position of the AXP is just outside the
+error circle, at 3.3 arc minutes from the best position.
+
+The transient event is detectable in the 12-60 keV band at 0.084 cts/cm2.
+Fitting to a simple power law gives a fluence in the 15-150 keV band of
+1.1 +/- 0.6 X 10^-7 erg/cm2 and a power law index 3.5 +/- 0.5.  All the
+quoted errors are at the 90% confidence level.
+
+This location was observed with the XRT as a target of opportunity starting
+at approximately 14:29 UTC Sep. 21, 2006.  The spacecraft is currently in
+the data gap so the XRT data will not be avaiable for at least another
+two hours.
+
+Note that this trigger generated a GCN SWIFT_BAT_POSITION and a
+SWIFT_BAT_TRANSIENT_POSITION both of which were retracted based on
+examination of the TDRSS light curve.  It was identified in the flight
+code as coincident with GX 340+01, which is 22 arc minutes away.
+More careful analysis of the ground data and a close positional coincidence
+with CXOU J164710.2-455216 indicates that BAT detected a faint but real
+outburst, and it was probably from this transient source.
+
+We encouraged follow-up observations of the source.
+

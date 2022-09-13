@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30820
+SUBJECT: GRB 210912A: Swift detection of a burst
+DATE:    21/09/12 11:18:18 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+E. Troja (NASA/GSFC/UMCP), A. P. Beardmore (U Leicester),
+R. Caputo (NASA/GSFC), N. J. Klingler (GSFC/UMBC/CRESSTII),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester) and
+D. M. Palmer (LANL) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 11:01:11 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 210912A (trigger=1072990).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 129.769, +79.194 which is 
+   RA(J2000) = 08h 39m 04s
+   Dec(J2000) = +79d 11' 38"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 40 sec.  The peak count rate
+was ~2800 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 11:02:04.1 UT, 52.6 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+fading, uncatalogued X-ray source located at RA, Dec 129.88358,
+79.22292 which is equivalent to:
+   RA(J2000)  = 08h 39m 32.06s
+   Dec(J2000) = +79d 13' 22.5"
+with an uncertainty of 7.5 arcseconds (radius, 90% containment). This
+location is 129 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+https://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 2.40
+x 10^20 cm^-2 (Willingale et al. 2013). 
+
+The initial flux in the 2.5 s image was 6.40e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+There are no UVOT data available. 
+
+Burst Advocate for this burst is E. Troja (eleonora.troja AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

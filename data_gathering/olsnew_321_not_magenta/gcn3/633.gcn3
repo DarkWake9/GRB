@@ -1,0 +1,83 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  633
+SUBJECT: GRB 000408, optical observations
+DATE:    00/04/10 22:44:36 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO), C. Luginbuhl (USNO),
+B. Canzian (USNO) on behalf of the USNO GRB Team,
+Vijay Mohan, S. B. Pandey and Ram Sagar, UPSO (Nainital),
+David Alcalde and David Martinez-Delgado, IAC (Tenerife),
+Jose Maria Castro Ceron, ROA (San Fernando),
+Alberto Castro-Tirado,
+     LAEFF-INTA (Madrid) and IAA-CSIC (Granada),
+and Javier Gorosabel Urkia, DSRI report:
+
+We have observed the entire preliminary IPN
+error box for GRB 000408 (GCN#626) as well
+as the refined error box (GCN#632)
+from several sites and on both available nights.
+Because of the shape of the error box, mosaics were
+used at each site, limiting the depth of exposure
+for any particular field.  Only R-band observations
+were made.  A log of the observations is given below.
+
+TEL.       MARCH (UT)      TEXP   RA      DEC    
+--------------------------------------------------
+IAC80   8.9352 --  9.0103  3800 9:10:41 +66:34:15
+IAC80   9.0094 --  9.0140   200 9:09:39 +66:34:15
+IAC80   9.0141 --  9.0187   200 9:08:39 +66:34:47
+IAC80   9.0176 --  9.0223   200 9:07:42 +66:35:15
+IAC80   9.0210 --  9.0257   200 9:06:41 +66:35:47
+IAC80   9.0248 --  9.0294   200 9:11:41 +66:34:50
+IAC80   9.0292 --  9.0338   200 9:12:40 +66:34:21
+IAC80   9.0327 --  9.0373   200 9:13:42 +66:33:52
+IAC80   9.0360 --  9.0407   200 9:14:41 +66:33:20
+IAC80   9.0360 --  9.0407   200 9:14:41 +66:33:20
+IAC80   9.9319 --  9.9741  3600 9:08:26 +66:33:28
+UPSO    9.7667 --  9.7724   500 9:48:41 +66:35:15
+UPSO    9.7764 --  9.7821   500 9:10:27 +66:35:08
+USNO    9.136  --  9.225   1800 9:13:41 +66:33:51
+USNO    9.128  --  9.216   1800 9:12:02 +66:33:51
+USNO    9.121  --  9.209   1800 9:10:20 +66:33:51
+USNO    9.145  --  9.233   1800 9:08:41 +66:33:51
+USNO    9.153  --  9.241   1800 9:07:01 +66:33:51
+USNO   10.154  -- 10.176   1800 9:13:41 +66:33:51
+USNO   10.176  -- 10.198   1800 9:12:02 +66:33:51
+USNO   10.130  -- 10.152   1800 9:10:20 +66:33:51
+USNO   10.199  -- 10.229   1800 9:08:41 +66:33:51
+USNO   10.229  -- 10.251   1800 9:07:01 +66:33:51
+
+POSS-II/F for this field is not available through
+DSS.  However, it is available through the USNO
+PMM pixel database.  We have placed three files
+on the anon ftp server that cover the error box:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb000408-1.jpg
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb000408-2.jpg
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb000408-3.jpg
+in order of increasing RA.  A finder chart from POSS-I
+with the refined error box marked on it is at:
+http://www.dsri.dk/~jgu/grb000408/grb000408.dss.gif
+
+No candidate was found above the POSS-II plate limit.
+The two deep exposure sets from USNO were blinked
+to look for transients below the POSS-II plate
+limit.  While several candidates are present,
+none is entirely convincing at a limiting
+magnitude of approximately R=21.5.  However, for
+completeness, here are the two best candidates
+inside the error box, both R=20.5 or fainter:
+A  09:11:04.82  +66:33:31.3  J2000
+B  09:08:51.36  +66:33:36.5  J2000 
+
+Preliminary BVRI all-sky calibration of the central
+part of the error box can be found at
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb000408.dat
+The external zero-point errors for this file are estimated
+to be +/- 0.05mag.  Refinement of this photometry
+will be performed in late April if an OT is discovered.
+
+Further data analysis is in progress.
+
+[GCN OPS NOTE (11 Apr 00):  The co-authors S.B.Pandey & David Martinez-Delgado
+were added to the list.]

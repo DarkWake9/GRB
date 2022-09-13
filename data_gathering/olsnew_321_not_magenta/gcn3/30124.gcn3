@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30124
+SUBJECT: SGR J1555.2-5402: Swift-BAT refined analysis
+DATE:    21/06/04 15:58:06 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+T. N. Ukwatta (LANL), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), H. A. Krimm (NSF),
+S. Laha (GSFC/UMBC), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU),
+(i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+100 sec from the recent telemetry
+downlink,
+we report further analysis of SGR J1555.2-5402 (trigger #1053220)
+(Palmer et al., GCN Circ. 30120).  The BAT ground-calculated position is
+RA, Dec = 238.782, -54.065 deg which is
+   RA(J2000)  =  15h 55m 07.6s
+   Dec(J2000) = -54d 03' 55.6"
+with an uncertainty of 2.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 89%.
+
+The 1-ms binned mask-weighted light curve shows a multi-peaked structure
+that starts at ~T-0.003 s and ends at ~T+0.008 s. The two peaks occur at
+~T+0.003 s and ~T+0.006 s, respectively. T90 (15-350 keV) estimated from
+the 1-ms binned light curve is 0.011 +- 0.003 sec (estimated error
+including
+systematics).
+
+The time-averaged spectrum from T+0.00 to T+0.008 sec can be fitted by
+a simple power-law model.  The power law index of the time-averaged
+spectrum is 2.45 +- 0.31 (chi squared 25.37 for 57 d.o.f.).
+The fluence in the 15-150 keV band is 9.5 +- 2.0 x 10^-9 erg/cm2.
+
+A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 6.9 +- 1.2 keV (chi squared 23.26 for 57 d.o.f.).
+All the quoted errors are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/1053220/BA/

@@ -1,0 +1,43 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3494
+SUBJECT: GRB 050509b: refined XRT/Chandra afterglow position analysis
+DATE:    05/05/28 00:46:58 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+D. N. Burrows (PSU), S. Patel (MSFC), C. Sarazin (U. Virginia), E. Rol, M. 
+R. Goad, P. T. O'Brien, R. Willingale (U. Leicester), and N. Gehrels (GSFC) 
+report:
+
+Motivated by Bloom et al. (astro-ph 0505480), the Swift XRT team has 
+reviewed our analysis of the XRT position for GRB 050509b (Rol et al., GCN 
+3395).  We have taken into account the low counting statistics, cluster 
+emission in the field and astrometric corrections.  In order to evaluate 
+possible cluster contributions, we
+have tested a variety of aperture sizes and time intervals.  We find that
+the cluster emission contributes no more than 1 photon (on average) to the
+counts detected within any of our temporal and spatial regions, and is 
+therefore
+unlikely to bias the results.   We use the entire first orbit of data to
+maximize the signal to noise, and detect 11 photons in a 15 arcsecond (radius)
+source region.  The xrtcentroid tool in the XRTDAS software package 
+calculates the following position for these photons: RA(J2000) = 
+12:36:13.80, Dec(J2000) = 28:59:01.0
+in the Swift frame of reference (shifted by 0.1 second in RA from the position
+reported in Rol et al.).
+
+We have corrected the Swift position to the 2MASS system astrometry by 
+registering
+our 50 ks Chandra image to 2MASS coordinates using sources appearing in both,
+and then registering the 30 ks XRT observation to the Chandra image.  This
+astrometric correction gives a shift of -2.9 arcseconds in RA and +0.3
+arcseconds in declination, for a final XRT afterglow position of:
+
+  RA(J2000) = 12h 36m 13.58s, Dec(J2000) = 28d 59' 01.3".
+
+This position is 9.8 arcseconds from the center of the E1 galaxy. Combining
+pre-launch calibration data with the uncertainties in the astrometric
+correction, we estimate an error circle radius of about 9.3 arcseconds (90%
+containment).  This error circle is dominated by the Poisson statistics 
+associated with
+the low number of source counts.
+

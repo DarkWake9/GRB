@@ -1,0 +1,79 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2554
+SUBJECT: GRB 040319 (=H3128): An X-Ray-Rich GRB Localized by the HETE-2 WXM and SXC
+DATE:    04/03/25 18:25:00 GMT
+FROM:    Don Lamb at U.Chicago  <lamb@oddjob.uchicago.edu>
+
+R. Sato, G. Ricker, J-L. Atteia, N. Kawai, D. Lamb, and S. Woosley, on
+behalf of the HETE Science Team;
+
+T. Donaghy, E. Fenimore, M. Galassi, C. Graziani, M. Matsuoka,
+Y. Nakagawa, T. Sakamoto, Y. Shirasaki, M. Suzuki, T. Tamagawa,
+K. Torii, Y. Urata, T. Yamazaki, Y. Yamamoto, and A. Yoshida, on behalf
+of the HETE WXM Team;
+
+R. Vanderspek, N. Butler, G. Crew, J. Doty, A. Dullighan, G. Prigozhin,
+J. Villasenor, J. G. Jernigan, A. Levine, G. Azzibrouck, J. Braga,
+R. Manchanda, and G. Pizzichini, on behalf of the HETE Operations and
+HETE Optical-SXC Teams;
+
+M. Boer, J-F Olive, J-P Dezalay, C. Barraud, and K. Hurley, on behalf
+of the HETE FREGATE Team;
+
+report:
+
+At 07:46:00.57 UTC (27960.57s UT) on 19 March 2004, the HETE-2 FREGATE,
+WXM, and SXC instruments detected event H3128, a long GRB.
+
+The burst triggered FREGATE in the 6-80 keV energy band; the time
+history SNR was 23.3 and T90 is 7.4s.  A WXM flight localization was
+disseminated, but was incorrect due to the low SNR of the burst in the
+WXM YA-detector.  The WXM flight localization was retracted in a GCN
+Notice at 09:41:13 UT.  Ground analysis of the WXM data produced a
+preliminary localization that was reported in a GCN Notice at 09:54:44
+UT.  Further ground analysis of the WXM data produced a refined
+localization that was reported in a GCN Notice at 21:15:53 UT.  The
+refined WXM ground localization SNR was 4.2 in the X-detector and 2.3
+in the Y-detector.  The refined WXM localization can be expressed as a
+90% confidence rectangle whose center is at
+
+WXM-ground: RA = +10h 42m 15s, Dec = -23d 48' 34" (J2000),
+
+and whose corners lie at
+
+WXM-ground: RA =  +10h 41m 05.5s, Dec = -19d 36' 40"
+            RA =  +10h 41m 05.3s, Dec = -27d 55' 59"
+            RA =  +10h 43m 24.7s, Dec = -28d 01' 05"
+            RA =  +10h 43m 25.2s, Dec = -19d 40' 37" (J2000).
+
+
+Ground analysis of the SXC data produced a 1-dimensional SXC
+localization that was also reported in the GCN Notice at 21:15:53 UT.
+The SXC ground localization SNR was 3 in the X-camera.  The SXC
+1-dimensional X-camera localization, truncated by the WXM Y-detector
+localization, can be expressed as a 90% confidence rectangle, whose
+center is at
+
+SXC/WXM-ground: RA = +10h 41m 37s, Dec = -23d 47' 19" (J2000),
+
+and whose corners lie at
+
+SXC/WXM-ground: RA = +10h 41m 30.5s, Dec = -19d 37' 23"
+                RA = +10h 41m 31.7s, Dec = -27d 56' 56"
+                RA = +10h 41m 43.2s, Dec = -27d 57' 22"
+                RA = +10h 41m 41.8s, Dec = -19d 37' 41" (J2000).
+
+The width and the length of the rectangle are 2.6 arcminutes and 8.3
+degrees, respectively, and the area of the rectangle is 1290 square
+arcminutes.
+
+
+The fluence of the burst is 0.56 x 10-6 erg cm-2 in the 2-30 keV energy
+band and 1.1 x 10-6 erg cm-2 in the 30-400 keV energy band.  Thus
+S(2-30 keV)/S(30-400 keV) = 0.5, making this burst an X-ray-rich GRB.
+
+A light curve and skymaps for GRB 040319 are provided at the following
+URL:
+
+http://space.mit.edu/HETE/Bursts/GRB040319.
+

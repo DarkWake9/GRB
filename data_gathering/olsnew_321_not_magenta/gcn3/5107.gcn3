@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5107
+SUBJECT: GRB 060510B: Swift-BAT Refined Analysis
+DATE:    06/05/10 19:33:16 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+S. Barthelmy (GSFC),  L. Barbier (GSFC), J. Cummings (GSFC/ORAU),
+E. Fenimore (LANL), N. Gehrels (GSFC), D. Hullinger (BYU-Idaho),
+H. Krimm (GSFC/USRA), M. Koss (GSFC/UMD), C. Markwardt (GSFC/UMD),
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/ORAU),
+G. Sato (GSFC/JSPS/USRA), M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC),
+on behalf of the Swift-BAT team:
+
+Using the data set from T-239.0 to T+423 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 060510B
+(trigger #209352)  (Krimm, et al., GCN 5096).  The BAT
+ground-calculated position is (RA,Dec) = 239.215, 78.597 deg
+{15h 56m 51.6s, 78d 35' 48.7"} (J2000) +- 1.9 arcmin,
+(radius, sys+stat, 90% containment).  The partial coding was 96%.
+
+The mask-weighted light curve shows a very long period of emission extending
+from T+ ~25 sec to T+ ~330 sec.  There are numerous (6-10) overlapping peaks
+in the light curve, with the two brightest peaks at T+ ~140 sec
+and T+ ~290 sec. T90 (15-350 keV) is 276 +- 10 sec (estimated error
+including systematics). This stretched-out emission is consistent
+with this burst being at high redshift (z=4.9, Price, GCN 5104).
+We  have only fragmentary event data after T+423 sec, but the onboard
+mask-tagged light curves show no significant emission after this time.
+
+The time-averaged spectrum from T-16.3 sec to T+326.1 sec is best fit by
+a simple power-law model.   The power law index of the time-averaged spectrum
+is 1.76 +- 0.08. The fluence in the 15-150 keV band is
+4.2 +- 0.2 x 10^-06 erg/cm2. The 1-sec peak photon flux measured
+from T+136.24 sec in the 15-150 keV band is 0.6 +- 0.1 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level.
+
+Given a redshift of z=4.9, we compute Eiso to be 2.04 X 10^53 ergs
+(88.5 - 885 keV in the rest frame.)  This assumes a cosmology with
+Omega_M=0.3, Omega_lambda=0.7 and H0=65.
+

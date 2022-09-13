@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31757
+SUBJECT: GRB 220311A: MITSuME Akeno optical upper limits
+DATE:    22/03/15 02:22:55 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, Y. Imai, R. Yamaguchi, K. L. Murata, M. Niwano, N. Ito,
+Y. Takamatsu, R. Noto, S. Sato, M. Takaku, Y. Yatsu, and N. Kawai
+(Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 220311A (The Fermi GBM team GCN Circular
+#31740, V. Yurkov et al. GCN Circular #31741, V. Lipunov et al. GCN
+Circular #31742, V. Lipunov et al. GCN Circular #31743, S.Mereghetti
+et al. GCN Circular #31744, V. Lipunov et al. GCN Circular #31745)
+with the optical three color (g', Rc, and Ic) CCD cameras attached to
+the MITSuME 50 cm telescope Akeno. The observation with a series of 60
+sec exposures started at 2022-03-11 16:44:51 UT (11.7 minutes after
+IBAS trigger). We stacked the images with good conditions. We did not
+detect any uncatalogued sources within the IBAS error region
+(S.Mereghetti et al. GCN Circular #31744). We obtained the 5-sigma
+limits of the stacked images as follows.
+
+T0+[min] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+29.0 2022-03-11 17:02:10 1440 g'>19.8, Rc>19.8, Ic>19.0
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages
+4-24; https://github.com/MNiwano/Eclaire).
+

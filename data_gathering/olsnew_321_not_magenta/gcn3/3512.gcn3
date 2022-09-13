@@ -1,0 +1,44 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3512
+SUBJECT: GRB 050603: Swift-BAT refined analysis of a long three-spiked burst
+DATE:    05/06/03 11:38:08 GMT
+FROM:    David Palmer at LANL  <palmer@nis.lanl.gov>
+
+E. Fenimore (LANL), L. Angelini (GSFC-JHU)L. Barbier (GSFC),
+S. Barthelmy (GSFC), J. Cummings (GSFC/NRC), N. Gehrels (GSFC),
+J. Greiner (MPE), D. Hullinger (UMD), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+A. Retter (PSU) T. Sakamoto (GSFC/NRC), G. Sato (ISAS),
+M. Suzuki (Saitama), J. Tueller (GSFC)
+on behalf of the Swift/BAT team:
+
+At 06:29:05.2 UT, Swift-BAT detected GRB 050603 (trigger=131560)
+(GCN Circ 3509, Retter et al.). The refined BAT ground position
+is (RA,Dec) = 39.982,-25.195, [deg; J2000] {02:39:56;  -25:11:41}
+(~1 arcminute statistical and systematic error radius, 
+95% containment).   This is about  45 arcseconds from the
+on-board derived position.  This source was near the edge of
+the field of view, 41 degrees from the boresight in the
+short direction, directly illuminating only 9% of the
+detector array.
+
+The mask-weighted lightcurve of the burst shows three
+fast-rise-exponential-decay (FRED) spikes, peaking at 
+T-2.7, T-0.85 and T+0.15 with each spike having a width 
+of ~0.6 s (FWHM). The third spike is ~3x the height of each of 
+the first two spikes and produced the original image detection.
+Additional tail emission continues to decay after the third
+spike, extending to T+10.
+
+The photon index of the time-averaged spectrum is well-fit
+over the 15-350 keV energy band  by a power law of index
+1.22 +/- 0.06 with a normalization at 50 keV of 
+(2.96 +/- 0.10) x 10^-2 photons/s/cm^2/keV. The fluence
+in the 15-350 keV band is 1.30 x 10^-5 erg/cm^2. The peak
+flux is 31.8+/1.7 photons/cm^2/s for the 1 second interval
+starting at T-0.18 s.
+
+Due to the current engineering mode of the spacecraft, 
+XRT and UVOT observations will be delayed until a 
+Target Of Opportunity pointing is manually commanded.
+

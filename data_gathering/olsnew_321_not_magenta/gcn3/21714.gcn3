@@ -1,0 +1,23 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21714
+SUBJECT: LIGO/Virgo G298936: Astrosat CZTI upper limits 
+DATE:    17/08/26 14:37:43 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+Arvind Balasubramanian (IISER Pune), Varun Bhalerao (IUCAA), Dipankar Bhattacharya (IUCAA), Sukanta Bose (IUCAA), Gulab Chand Dewangan (IUCAA), Ranjeev Misra (IUCAA), Sanjit Mitra (IUCAA), A R Rao (TIFR), Tarun Souradeep (IUCAA), Santosh Vadawale (PRL), on behalf of the Astrosat CZTI team report:
+
+We carried out offline analysis of data from Astrosat CZTI in a 100 second window centred on the G298936 trigger time, 2017-08-23 13:13:58.518 UTC, to look for any coincident hard X-ray flash. CZTI is a coded aperture mask instrument that has considerable effective area for about 29% of the entire sky, but is also sensitive to brighter transients from the entire sky. Based on the pointing direction of Astrosat at the time of the GW event and the Bayestar skymap provided by LVC (bayestar-HLV.fits.gz,0), the sky visible to CZTI has 69.2% probability of containing the EM counterpart, of which only 0.6% is in the favourable region while the rest is obscured by satellite elements.
+
+CZTI data were de-trended to remove orbit-wise background variation. We then searched data from the four independent, identical quadrants to look for coincident spikes in the count rates. Searches were undertaken by binning the data in 0.1s, 1s and 10s respectively. Statistical fluctuations in count rates were estimated by using data from 10 neighbouring orbits. We selected confidence levels such that the probability of a false trigger in this 100s window is 10^-4. We do not find any evidence for any hard X-ray transient in this window. 
+
+We convert our count rates into fluence and flux limits by assuming that the source spectrum has band parameters alpha = -1.0, beta = -2.5, Epeak = 300. We use a detailed mass model of the satellite to calculate the instrument response in the direction having the maximum probability density in the HLV map. We then assume that the source is modeled by a band function with parameters alpha = -1.0, beta = -2.5, Epeak = 300 keV, and get the following upper limits for source fluence and flux in the 20-200 keV band:
+
+0.1 s: Effective fluence limit= 5e-6 ergs/cm^2; flux= 5e-5 ergs/cm^2/s
+1.0 s: Effective fluence limit= 1e-5 ergs/cm^2; flux= 1e-5 ergs/cm^2/s
+10.0s: Effective fluence limit= 1e-5 ergs/cm^2; flux= 1e-6 ergs/cm^2/s
+
+Flux limits over the rest of the northern localisation lobe are similar in magnitude.
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, ISAC, IUCAA, SAC and PRL. The Indian Space Research Organisation funded, managed and facilitated the project.
+
+

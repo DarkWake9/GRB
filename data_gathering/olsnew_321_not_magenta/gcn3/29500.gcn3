@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29500
+SUBJECT: Swift Trigger 1032350: Detection of SGR 1830-0645
+DATE:    21/02/13 00:39:23 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. A. Kennea (PSU), N. P. M. Kuin (UCL-MSSL), D. M. Palmer (LANL) and
+B. Sbarufatti (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 00:10:13 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a burst form the soft gamma repeater SGR 1830-0645 (trigger=1032350). 
+Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 277.660, -6.748 which is 
+   RA(J2000) = 18h 30m 38s
+   Dec(J2000) = -06d 44' 52"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single 
+short peak in one 0.128 s timebin.  The peak count rate
+was ~8000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 00:11:14.4 UT, 60.6 seconds after
+the BAT trigger. Using promptly downlinked data we find an
+X-ray source with an enhanced position: RA, Dec 277.6734, -6.7541 which
+is equivalent to:
+   RA(J2000)  = 18h 30m 41.61s
+   Dec(J2000) = -06d 45' 14.9"
+with an uncertainty of 2.2 arcseconds (radius, 90% containment). This
+location is 52 arcseconds from the BAT onboard position, within the BAT
+error circle, and consistent with the known location of SGR 1830-0645. 
+This position may be improved as more data are received; the latest 
+position is available at https://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (1.11 x
+10^22 cm^-2, Willingale et al. 2013), with an excess column of 8.1
+(+9.28/-7.67) x 10^21 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 63 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. Because of the density of catalogued stars, further
+analysis is required to report an upper limit for any afterglow in the
+sub-image. The 8'x8' region for the list of sources generated on-board covers
+100% of the BAT error circle. Because of the density of catalogued stars,
+further analysis is required to report an upper limit for any afterglow in the
+region. No correction has been made for the large, but uncertain, extinction
+expected. 
+
+BAT's most recent detection of this SGR was on 2020-11-22, following 
+its discovery by Swift on 2020-11-10 (Page et al., GCN Circ. 28594). 
+

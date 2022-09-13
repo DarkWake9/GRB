@@ -1,0 +1,54 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3531
+SUBJECT: GRB 050607: Optical decay and spectral slope
+DATE:    05/06/07 18:26:06 GMT
+FROM:    James Rhoads at STScI  <rhoads@stsci.edu>
+
+James Rhoads reports on behalf of a larger collaboration:
+
+We have measured the flux of the GRB 050607 optical
+afterglow (Rhoads 2005, GCNC 3527) in our five I band images
+from t=640 to t=6330 seconds post-burst.
+A power law decay with slope -0.5 gives a marginally acceptable
+fit to the I band light curve.  A better fit can be obtained by
+a two-part power law, with an initial steep decay (exponent near
+-1) up to t ~ 1700 seconds, followed by a flatter decay (exponent
+near -0.3) from 1700 to 6300 seconds.
+The overall optical decay slope is in good agreement
+with the X-ray slope reported by Pagani et al (GCNC 3528).
+
+We also obtained images of Landolt standard field SA 113.  
+We found a zero point error in our earlier photometry (GCNC 3527).
+Our new zero point based on our standard star observations
+gives a brighter afterglow magnitude at t=640 seconds:
+ I = 21.46 +- 0.1 (statistical) +- 0.3 (systematic)
+
+The remaining systematic error will go away with a more
+careful reduction.  As a consistency check we find magnitude
+I=16.2 for the star USNO 0975-17511046 (our astrometric
+reference at 20:00:42.703 +9:08:34.98), which has USNO
+tabulated magnitude Rmag=16.6 and B-R=0.7.
+
+In addition to our I band data, we also monitored the burst
+in B band and took smaller amounts of data in R, z, and g.
+All data discussed here were obtained with the Mosaic 1 camera on 
+the 4m Mayall Telescope of the Kitt Peak National Observatory.
+Observations started at 2005 June 7 UT 09:20:46, and continued
+until 11:18 UT.
+
+The transient is faint in the B filter.  Our first B band epoch,
+of 150 seconds centered at t=1384 seconds, does not show the afterglow
+clearly.  A formal aperture flux measurement at the transient location
+yields flux 0.7 +- 0.25 microJansky, or B ~ 24.4 +- 0.4.  This gives
+an estimated spectral power law slope of f_nu ~ nu^-1.5 or steeper,
+where we have accounted for the Galactic reddening based on the Schlegel
+et al prediction (A_V = 0.6 mag, E(B-I) = 0.44 mag).
+The faint B image is thus suggestive of a Lyman break in the spectrum,
+though we cannot rule out a red power law with our present analysis.
+We detect the transient at R band, placing a rough redshift bound z<5,
+We do not detect it in our less sensitive z band images (suggesting
+that the power law slope is not extremely red).
+
+An I band finding chart and light curve are now available at
+ http://www.stsci.edu/~rhoads/GRB050607/ .
+

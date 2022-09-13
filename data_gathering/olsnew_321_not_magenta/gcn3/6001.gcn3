@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6001
+SUBJECT: GRB 070107, Swift-BAT refined analysis
+DATE:    07/01/08 05:17:51 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), L. Barbier (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU)
+on behalf of the Swift-BAT team:
+ 
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 070107 (trigger #255029)
+(Stamatikos, et al., GCN Circ. 5900).  The BAT ground-calculated position
+is RA, Dec = 159.422, -53.202 deg which is 
+   RA(J2000)  =  10h 37m 41.4s 
+   Dec(J2000) = -53d 12' 08.4" 
+with an uncertainty of 1.1 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 53%.
+ 
+The analysis of this burst is complicated by the fact that the burst
+started before it was in the BAT FOV.  BAT was executing a preplanned
+slew to the next planned target when the burst came into the FOV.
+BAT triggered (a 96-sec imager trigger) on the tail end of the last
+of 2 (or potentially more) peaks in the burst.  The mask-weighted
+lightcurve starts at ~T-32 sec with a rising flux, peaking at ~T-7 sec,
+and then returning to almost background levels at ~T+80 sec.  Then there is
+a FRED-like peak starting at ~T+310 sec, peaking at ~T+320 sec, and returning
+to background levels at ~T+400 sec.  We are not quoting a T90 value
+because the burst data was truncated at the beginning of the burst. 
+ 
+For the partial amount of time covered, the time-averaged spectrum
+from T-19.7 to T+404.2 is best fit by a simple power-law model.  
+The power law index of the time-averaged spectrum is 1.34 +- 0.10.
+The lower limit to the fluence in the 15-150 keV band is
+5.2 +- 0.3 x 10^-6 erg/cm2.  The 1-sec peak photon flux measured
+(for the portion of the burst BAT observed) from T-7.24 sec
+in the 15-150 keV band is 1.9 +- 0.2 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level.
+

@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23424
+SUBJECT: Konus-Wind observation of GRB 181110A
+DATE:    18/11/12 14:38:18 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, R.Aptekar, A. Kozlova,
+A.Lysenko,  D. Svinkin, A. Tsvetkova,  M. Ulanov,
+and T. Cline, on behalf of the Konus-Wind team, report:
+
+The long GRB 181110A (Swift-BAT trigger #871316: (Evans et al.,
+GCN  23413; Lien et al., GCN 23420; T0(BAT)= 08:43:31.320 UT)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in
+the 22-380 keV band reveals a count rate increase in the interval
+from ~T0(BAT)-42 s to ~T0(BAT)+98 s.
+No statistically significant emission has been detected above
+380 keV.
+
+The KW light curve of this burst is available at
+http://www.ioffe.ru/LEA/GRBs/GRB181110A/
+
+Modeling the KW 3-channel spectrum (from T0(BAT)-36 s to T0(BAT)+32 s)
+by a power law with exponential cutoff (CPL) model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.63(-0.26,+0.34) and Ep = 48(-27,+14) keV.
+
+The total burst fluence in the 15-1500 keV band
+is (1.1 ± 0.2)x10^-5 erg/cm^2.
+
+Assuming z = 1.505 (Perley et al., GCN 23421) and a standard cosmology
+model with H_0 = 70 km/s/Mpc, Omega_M = 0.30, and Omega_Lambda = 0.70, 
+the burst isotropic energy release E_iso is ~1.1x10^53 erg (1-10000 keV,
+rest frame), and the rest-frame peak energy is ~120 keV.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+

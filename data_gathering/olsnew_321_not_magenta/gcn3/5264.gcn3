@@ -1,0 +1,50 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5264
+SUBJECT: Konus-Wind observation of GRB 060614
+DATE:    06/06/16 13:21:45 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 060614 (Swift-BAT trigger #214805;
+Parsons et al., GCN 5252; Barthelmy et al., GCN 5256)
+triggered Konus-Wind at T0=45831.590 s UT (12:43:51.590).
+
+The Konus-Wind light shows an intense multipeaked
+initial pulse with a duration of ~6 sec,
+followed by a weaker softer highly variable emission
+seen up to T-T0 ~110 sec.
+
+
+The spectrum of the initial intense pulse
+(accumulated from T-T0=0 to T-T0=8.448 sec)
+can be fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-(2-alpha)*E/Ep)
+with alpha = 1.57(-0.14, +0.12)
+and Ep = 302(-85, +214) keV (chi2 = 73/59 dof).
+The fluence of this part is 8.19(-2.52, +0.56)x10^-6 erg/cm2
+(in the 20 keV - 2 MeV range).
+
+The spectrum of the remaining part of the burst
+(accumulated from T-T0=8.448 to T-T0=106.752 sec)
+can be fitted (in the 20 keV - 1 MeV range)
+by a simple power law with photon index
+2.13 +/- 0.05 (chi2 = 63/49 dof).
+The fluence of this part is 3.27(-0.23,+0.17)x10^-5 erg/cm2
+(in the 20 keV - 2 MeV range).
+We note that because the derived photon index is ~2,
+this fluence value is very sensitive to the upper boundary
+of the energy range.
+
+The burst total fluence is 4.09(-0.34, +0.18)x10^-5 erg/cm2
+and peak flux on 64-ms time scale measured from T-T0=0.032 sec
+4.50(-1.53, +0.72)x10^-6 erg/cm2/sec
+(both in the 20 keV - 2 MeV energy range).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB060614_T45831/
+

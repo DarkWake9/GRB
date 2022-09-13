@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19870
+SUBJECT: GRB 160825A: not localized by Swift
+DATE:    16/08/26 18:52:44 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+D. M. Palmer (LANL) reports on behalf of the Swift team:
+
+On 2016-08-25 at 09:39:29, INTEGRAL SPI ACS reported a 
+trigger (#7539) via GCN.  Examination of the Swift/BAT count rates
+at that time showed a simultaneous detection of a short hard
+burst (duration ~0.1 s, with the detected flux predominantly 
+above 50 keV).
+
+On-board analysis of the data showed that the highest-significance
+peak in the corresponding image was at a location 
+ra,dec = 251.982, -7.833 (J2000) with a ~5 arcmin error radius.  
+This peak is of marginal significance (5.6 sigma) and did not trigger
+an automated follow-up observation.  
+
+A preliminary analysis of the Time-of-Arrival difference between 
+INTEGRAL and BAT lightcurves did not exclude this location.
+Therefore, this was considered a possible GRB localization
+and a ToO observation was requested.
+
+Swift-XRT performed follow-up observations of this location, collecting
+2.0 ks of Photon Counting (PC) mode data between T0+55.9 ks and 
+T0+62.2 ks.
+
+No X-ray sources have been detected within the 296 arcsec radius BAT 
+error circle. The 3-sigma upper limit in the field is 0.004 ct s^-1, 
+corresponding to a 0.3-10 keV observed flux of 1.5e-13 erg cm^-2 s^-1 
+(assuming a typical GRB spectrum).
+
+An uncatalogued source was detected, however this was too far from the GRB
+position to be the afterglow.
+
+The results of the XRT-team automatic analysis of the XRT observations,
+including a position-specific upper limit calculator, are available at
+http://www.swift.ac.uk/ToO_GRBs/00020686.
+
+A more detailed analysis of the light curve TOA difference also
+conclusively excludes the  BAT location as the true burst position.
+(Dmitry Svinkin, private communication).
+
+Based on these observations and analyses, we can exclude the
+marginal image peak location as being the GRB location.
+
+The simultaneous INTEGRAL and BAT detections proves that
+there was a short GRB at that time, but it was most likely outside
+of the BAT's imaging field of view.
+
+[GCN OPS NOTE(26aug16): Per author's request, the mispelling and missing
+word 'source' were fixed.]
+

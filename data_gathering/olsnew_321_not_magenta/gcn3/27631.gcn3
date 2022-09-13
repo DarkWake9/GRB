@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27631
+SUBJECT: Konus-Wind observation of a bright burst from SGR 1935+2154
+DATE:    20/04/23 13:21:05 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The bright burst from SGR 1935+2154
+(CALET-GRBM detection: Cherry et al., GCN Circ. 27623;
+IPN triangulation: Hurley et al., GCN Circ. 27625)
+triggered Konus-Wind at T0=31996.933 s UT (08:53:16.933)
+on 2020 April 22.
+
+The light curve shows a single pulse with a sharp rise
+and a total duration of ~0.6 s.
+The emission is seen up to ~250 keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/SGRs/200422_T31996/
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.15(-0.03,+0.03)x10^-5 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.072 s,
+of 2.75(-0.23,+0.23)x10^-5 erg/cm2/s
+(both in the 20 - 200 keV energy range).
+
+The burst spectrum (measured from T0 to T0+0.256 s)
+is well fit by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.06(-0.24,+0.25)
+and Ep = 52(-2,+2) keV (chi2 = 30/25 dof).
+
+A double blackbody function fits this spectrum less well
+(chi2 = 40/24 dof), with
+the cold BB temperature of 9.4 (-4.5,+1.9) keV and
+the hot BB temperature of 18.9 (-3.7,+5.3) keV.
+
+Among 17 bright bursts from SGR 1935+2154 detected by KW
+so far this event is the second most fluent (after
+the April 12, 2015 Intermediate Flare; Kozlova et al. 2016,
+MNRAS 460, 2008) and the second most luminous (after
+the November 5, 2019 burst; Ridnaia et al., GCN 26242).
+Also, the spectrum of the burst is characterized by the
+hardest peak energy so far; a typical Ep(CPL) for the
+KW sample is in the 30-40 keV range.
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

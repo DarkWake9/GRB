@@ -1,0 +1,97 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18786
+SUBJECT: LIGO/Virgo G211117: 44 transients from Pan-STARRS data during 2015-12-28/30
+DATE:    15/12/31 17:38:41 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+K. Smith, S. Smartt D. Wright, (Queen’s University Belfast), K. C. Chambers,
+M. E. Huber, A. S. B. Schultz (IfA, University of Hawaii), M. Coughlin (Harvard), L. Denneau,
+H. Flewelling, A. Heinze, R. Kotak (QUB), E. A. Magnier, N. Primak, A. Rest (STScI),  
+A. Sherstyuk (IfA), B. Stalder (IfA), C. W. Stubbs (Harvard), J. Tonry, C. Waters (IfA),  
+D. Young (QUB)
+
+
+Following our report of Pan-STARRS observations of the northern arc,
+(Chambers et al. GCN 18735), we report the following transients. All objects
+were identified in difference imaging with respect to the Pan-STARRS
+3Pi all sky i-band image (see Magnier et al. 2013, ApJS 205, 20 ;
+Huber et al. 2015,  ATel 7153) and standard filtering procedures combined with
+machine learning (Wright et al. 2015, MNRAS, 449, 451). We have removed obvious
+moving objects, variable star and AGN/QSO candidates as far as possible through
+cross-matching with known catalogues and the MPC. Further refined cross-matches are noted
+below. The rest are transients which are not obviously associated with a single
+star or a galaxy core. 
+
+All magnitudes are in the Pan-STARRS i-band (AB mags), and the discovery
+date is UTC. Targets are sorted by time of discovery.  Approximately 10-15
+of the brighter targets are queued for observing with Gemini, Magellan, PESSTO,
+and the Liverpool Telescope. Pan-STARRS has observed the field
+as noted in (Chambers et al. GCN 18735) on three nights from
+(20151228, 20151229, 20151230) and plans another 5 epochs between
+now and 2016 01 25.
+
+Some more specific notes 
+
+(1)  this was reported as iPTF15fgy Cenko et al. (GCN 18762)
+but we have a detection 24 days previously on 57360 by PSST (Huber et al. 2015).
+(2) discovered as PSNJ02344555+1820390 before the G211117 trigger
+(3) Lipunov et al.  (GCN 18768) report iPTF15fel as being visible in MASTER
+images more than 40 days before the G211117 trigger
+(4) Faint transient, or more likely variable, in NGC1156 which is a very nearby
+galaxy (7Mpc). At M_i = -9, this is most likely an LBV or S-Doradus type variability
+of a massive star and indeed the candidate is coincident with a bright, stellar
+knot.
+
+We welcome notification of other cross-matches that we may have omitted, or
+duplications that we may have missed.
+
+Name        RA (J2000)   Dec (J2000)  Disc. Date   Disc. MJD  Disc Mag
+PS15dcq     03 22 55.83  +34 59 23.6  20151228.29  57384.29    19.99 (1) iPTF15fgy
+PS15dov     03 43 57.36  +39 17 43.7  20151228.32  57384.32    19.73 4.2” from SN2003ih
+PS15dot     02 11 55.69  +13 28 17.8  20151228.34  57384.34    20.97
+PS15coh     02 15 58.45  +12 14 13.6  20151228.34  57384.34    17.72 ASASSN-15rw, iPTF15fev
+PS15dow     02 19 42.20  +14 09 54.7  20151228.34  57384.34    20.22
+PS15csf     02 26 02.24  +17 03 40.4  20151228.35  57384.35    18.68 MASTER OT J022037.36+170217.5
+PS15dom     02 34 45.62  +18 20 37.7  20151228.35  57384.35    19.01 (2) PSNJ02344555+1820390, iPTF15fdv
+PS15don     02 37 11.44  +19 03 20.2  20151228.35  57384.35    20.47
+PS15dox     02 40 15.05  +22 32 12.1  20151228.38  57384.38    19.23
+PS15doy     02 47 54.16  +21 46 24.0  20151228.38  57384.38    20.75
+PS15dpq     03 09 12.74  +27 31 16.9  20151228.39  57384.39    18.84 (3) iPTF15fel
+PS15dpa     02 57 56.02  +28 53 37.1  20151228.40  57384.40    19.51
+PS15dpp     03 00 39.86  +28 15 25.4  20151228.40  57384.40    20.63 likely stellar
+PS15dop     03 17 29.58  +29 34 09.2  20151228.40  57384.40    20.01 probable AGN
+PS15dpe     05 44 42.66  +52 24 57.9  20151228.43  57384.43    19.44
+PS15dpl     05 47 45.39  +53 36 32.4  20151228.43  57384.43    19.34
+PS15dpj     05 08 12.38  +51 37 10.2  20151228.44  57384.44    18.45
+PS15dpd     05 09 58.63  +50 47 09.4  20151228.44  57384.44    20.34
+PS15dpi     03 36 41.65  +35 57 56.4  20151228.52  57384.52    17.62 RR Lyrae; CSS J033641.5+355756
+PS15dpn     02 32 59.75  +18 38 07.0  20151229.23  57385.23    20.69
+PS15dpf     02 49 32.57  +21 47 09.4  20151229.24  57385.24    20.69
+PS15doz     02 53 41.68  +27 29 57.8  20151229.25  57385.25    20.69
+PS15dpo     02 59 49.56  +25 10 30.4  20151229.25  57385.25    20.55 probable AGN/QSO
+PS15dpc     03 55 46.16  +38 52 49.6  20151229.27  57385.27    20.95
+PS15dqc     05 51 13.43  +52 28 18.7  20151229.29  57385.29    21.16
+PS15dpz     02 40 33.01  +23 00 10.8  20151229.32  57385.32    21.15
+PS15dpb     03 42 23.40  +39 14 40.4  20151229.36  57385.36    20.20
+PS15dpk     05 09 35.10  +50 09 08.7  20151229.38  57385.38    19.66
+PS15dpg     03 17 18.88  +32 20 06.9  20151229.41  57385.41    20.86
+PS15dps     03 22 31.49  +34 36 36.6  20151229.43  57385.43    20.41
+PS15dpr     03 16 12.16  +31 04 01.3  20151229.46  57385.46    19.78
+PS15dph     03 24 15.04  +30 56 20.1  20151229.46  57385.46    20.17
+PS15dou     06 03 38.73  +54 41 12.1  20151229.56  57385.56    20.20
+PS15dpx     06 04 35.54  +53 35 25.8  20151229.56  57385.56    20.76
+PS15dpm     06 19 54.15  +54 18 10.3  20151229.56  57385.56    20.48
+PS15dpt     02 07 34.96  +11 03 25.2  20151230.22  57386.22    20.64
+PS15dpy     02 28 22.75  +13 59 19.3  20151230.22  57386.22    21.31
+PS15dpu     02 40 41.35  +16 49 52.0  20151230.22  57386.22    17.26 ASASSN-15un
+PS15dqa     02 59 41.20  +25 14 12.2  20151230.24  57386.24    20.93 (4) in NGC1156 (7Mpc)
+PS15dpw     04 10 16.52  +43 35 22.8  20151230.27  57386.27    19.29
+PS15dqd     05 56 14.60  +52 51 55.2  20151230.37  57386.37    19.92
+PS15dqe     06 05 26.88  +54 09 11.3  20151230.37  57386.37    21.51
+PS15dqb     03 28 34.85  +31 59 08.2  20151230.43  57386.43    19.93
+PS15dpv     03 40 02.91  +36 07 52.2  20151230.43  57386.43    20.93
+
+
+
+
+

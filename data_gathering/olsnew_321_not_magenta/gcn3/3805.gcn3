@@ -1,0 +1,53 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3805
+SUBJECT: GRB 050814: XRT refined analysis
+DATE:    05/08/15 00:57:40 GMT
+FROM:    David Morris at PSU/Swift-XRT  <morris@astro.psu.edu>
+
+D. C. Morris, D. N. Burrows, J. A. Kennea, J. L. Racusin (PSU), and N. 
+Gehrels (GSFC) report on behalf of the Swift XRT team:
+
+We have analysed the first five orbits of data for GRB050814 (GCN 3799, 
+Retter et al., 2005).  Using xrtcentoid, the refined position is:
+
+RA(J2000) = 17h 36m 45.7s
+Dec(J2000) = +46d 20' 20.5"
+
+with an uncertainty of 8 arcsec. This is 5.4 arcsec from the original 
+XRT position (GCN 3800, Morris et al., 2005). The initially distributed 
+XRT position was based on the first orbit of PC data and may have been 
+effected by a hot column at the position of the source. The refined 
+position is calculated by analyzing several orbits of PC data, each 
+taken at slightly different positions on the detector, so that the hot 
+column in the first orbit of data is no longer a problem for the 
+centroiding algorithm.
+
+The XRT began taking data at 11:41:15UT, 138 seconds after the BAT 
+trigger. Both the windowed timing and photon counting data from the 
+first orbit show a fading lightcurve consistent with a decay index of 
+~4. Photon counting data from subsequent orbits shows a flattening of 
+the lightcurve near T+1000s to a decay index of ~0.1.
+
+The windowed timing spectrum (data from +165s to +383 after the BAT 
+trigger) is well fit (reduced chi-sq of 1.22 for 72 dof) by a power law 
+with neutral hydrogen somewhat larger than the galactic column density 
+of 2.57e20:
+
+gamma=2.1 ± 0.1
+NH=6.94e20 ± 2e18
+
+The photon counting spectrum (from +383s through orbit 5) is well fit 
+(reduced chi-sq of 0.61 for 31 dof) by a power law also with excess 
+absorption:
+
+gamma=1.8 ±  0.2
+NH=7.82e20 ±  7e18
+
+The count rate at 20000s after the trigger is ~0.15 cts/s which converts 
+to an unabsorbed flux of 4.76e-12 ergs cm^-2 s^-1.
+
+It should be noted that the early versions of the SDC data contained 
+processing errors, likely due to earthlimb contamination, which may yet 
+be contributing to some peculiarities in the PC lightcurve.
+
+

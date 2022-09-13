@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9653
+SUBJECT: GRB 090709A: Suzaku WAM observation of the prompt emission
+DATE:    09/07/11 11:34:36 GMT
+FROM:    Masanori Ohno at ISAS/JAXA  <ohno@astro.isas.jaxa.jp>
+
+M. Ohno (ISAS/JAXA), W. Iwakiri (Saitama U.),
+M. Suzuki, M. Kokubun, T. Takahashi (ISAS/JAXA),
+M. Tashiro, Y. Terada, A. Endo, K. Onda, T. Sugasahara (Saitama U.),
+Y. E. Nakagawa, T. Tamagawa (RIKEN), N. Ohmori, A. Daikyuji, E. Sonoda,
+K. Kono, H. Hayashi, K. Noda, Y. Nishioka, M. Yamauchi (Univ. of Miyazaki),
+K. Yamaoka, S. Sugita (Aoyama Gakuin U.), S. Hong (Nihon U.),
+N. Vasquez (Tokyo Tech.), Y. Urata (NCU),
+Y. Hanabata, T. Uehara, T. Takahashi, Y. Fukazawa (Hiroshima U.),
+on behalf of the Suzaku WAM team, report:
+
+
+The bright, long GRB 090709A (Swift/BAT trigger #356890 ; Morris et
+al., GCN 9625) triggered the Suzaku Wide-band  All-sky Monitor (WAM)
+which covers an energy range of 50 keV - 5 MeV at 07:38:33 UT (=T0).
+
+The observed light curve shows a multi-peaked structure with a duration
+(T90) of about 81 seconds. The corresponding peaks in the FFT power
+spectrum of 1 s light curve are clearly seen around P=8.06(-0.20,+0.20) s,
+which is consistent with the previous reports (Markwardt et al., GCN 9645;
+Golenetskii et al., GCN 9647; Gotz et al., GCN 9649).
+The fluence in 100 - 1000 keV was 6.06(-0.36, +0.48) x10^-5 erg/cm^2.
+The 1-s peak flux measured from T0+70s was 4.83(-0.69, +0.27) photons/cm^2/s
+in the same energy range.
+
+Preliminary result shows that the time-averaged spectrum from
+T0-10s to T0+110s is well fitted by a power-law with exponential cutoff model:
+  dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak) with
+  alpha       0.97(-0.43, +0.52), and
+  Epeak       439(-58, -48) keV (chi^2/d.o.f. = 62.9/48).
+
+All the quoted errors are at statistical 90% confidence level,
+in which the systematic uncertainties are not included.
+
+The light curves for this burst are available at:
+ http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/trig/grb_table.html
+

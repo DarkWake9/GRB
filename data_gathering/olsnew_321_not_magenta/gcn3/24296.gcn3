@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24296
+SUBJECT: LIGO/Virgo S190425z: Transient found in Swift/UVOT counterpart search
+DATE:    19/04/27 18:38:54 GMT
+FROM:    Mike Siegel at PSU/Swift MOC  <mhs18@psu.edu>
+
+LIGO/Virgo S190425z: Transient found in Swift/UVOT counterpart search
+
+A. A. Breeveld (MSSL-UCL), N. P. M. Kuin (UCL-MSSL), F. E. Marshall (NASA/GSFC),  P. Brown (TAMU),
+S. R. Oates (Uni. of Warwick), M. H. Siegel (PSU), M. de Pasquale (Uni. of Istanbul),
+S. D. Barthelmy (NASA/GSFC), A. Y. Lien (GSFC/UMBC), 
+D. M. Palmer (LANL), T. Sakamoto (AGU), A. P. Beardmore (U. Leicester),
+D. N. Burrows (PSU), S. Campana (INAF-OAB), S. B. Cenko (NASA/GSFC),
+G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), 
+P. D'Avanzo (INAF-OAB), V. D'Elia(ASDC), S. Emery (UCL-MSSL), 
+P. A. Evans (U. Leicester), P. Giommi (ASI), C. Gronwall (PSU), 
+D. Hartmann (Clemson U.), J. A. Kennea (PSU), H. A. Krimm (NSF), 
+A. Melandri (INAF-OAB), B. Mingo (U. Leicester), J. A. Nousek (PSU), 
+P. T. O'Brien (U. Leicester), J. P. Osborne (U. Leicester), C. Pagani (U. Leicester), 
+K. L. Page (U.Leicester), M. Perri (ASDC), 
+J. L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU),
+G. Tagliaferri (INAF-OAB), A. Tohuvavohu (PSU),
+E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+We report a candidate transient found in the UVOT search results of the
+LVC event S190425z (LIGO/VIRGO Collaboration GCN Circ. 24168). 
+
+On 2019-04-26 at 18:49:22 UT Swift UVOT took a 66.8 s exposure in the u band with 
+exposure ID uu577997367I (target ID 07016575) which shows a new source when compared with
+archived DSS images. The new source is not listed in the Gaia DR1, 2MASS or GSC2.3 
+catalogs or Pan-STARRS and is not listed as a minor planet. 
+
+The position is: 
+RA = 255.5800 deg
+Dec = -12.48562 deg
+which is RA=17:02:19.2, Dec=-12:29:08.2 (J2000).
+
+The magnitude using the UVOT photometric system  (Breeveld et al. 2011, AIP 
+Conf. Proc. 1358, 373) is u=17.74 +/- 0.18 mag (Vega).
+
+No source is found at this position in the XRT, with a 3-sigma upper limit of  
+5.8 x 10^-2 ct s^-1, which corresponds to a 0.3-10 keV observed flux of 
+2.5 x 10^-11 erg cm^-2 s^-1.
+
+At this position, the distance estimate from the LALInference sky map has a mean 
+of 132 Mpc with a sigma of 35 Mpc. 
+
+There is a bright galaxy in the 2MPZ catalogue (Bilicki et al., 2014) 2MPZ
+J17021587-1228210 at 68 arcsec (z = 0.022, D = 99 Mpc, abs K magnitude = 12.4),
+which is 33 kpc away in projection. A second galaxy, 2MPZ J17020235-1229511 lies
+250 arcsec away from the UVOT position. This galaxy has a distance of 106 Mpc in
+the 2MPZ catalogue so the projected offset is 128 kpc. At the distance of these
+galaxies, the absolute U magnitude would be -17.3, which is brighter than AT 2017gfo at
+t ~ 2 days.
+
+This circular is an official product of the Swift team.
+

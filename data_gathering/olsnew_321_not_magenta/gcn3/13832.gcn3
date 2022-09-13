@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13832
+SUBJECT: Swift Trigger 535026: ROTSE-III Optical Limits
+DATE:    12/10/01 19:02:26 GMT
+FROM:    Weikang Zheng at U.of Michigan  <zwk@umich.edu>
+
+W. Zheng (U Mich), T. Guver (Sabanci U), report on behalf of the ROTSE
+collaboration:
+
+
+ROTSE-IIId, located at the Turkish National Observatory at Bakirlitepe,
+Turkey, responded to Swift trigger 535026 (D'Elia et al., GCN 13831),
+producing images beginning 8.0 s after the GCN notice time. An automated
+response took the first image at 18:24:26.0 UT, 83.7 s after the burst,
+under fair conditions. These observations were affected by proximity to
+the full moon. We took 10 5-sec, and 20 20-sec exposures. These
+unfiltered images are calibrated relative to USNO A2.0 (R). Imaging is
+on going.
+
+Comparison to the DSS (second epoch) reveals no new sources within the
+3-sigma Swift/BAT error circle or the XRT error circle. Individual
+images have limiting magnitudes ranging from 14.4-15.4; we set the
+following specific limits.
+
+start UT       end UT      t_exp(s)   mlim   t_start-tGRB(s)  Coadd?
+--------------------------------------------------------------------
+18:24:26.0   18:24:31.0         5     14.4           83.7       N
+18:24:39.5   18:24:44.5         5     14.4           97.2       N
+18:24:53.0   18:24:58.0         5     14.7          110.8       N
+18:24:26.0   18:26:32.4        50     15.6           83.7       Y
+18:26:41.1   18:27:01.1        20     15.2          218.8       N
+18:27:09.6   18:27:29.6        20     15.3          247.2       N
+18:27:38.1   18:27:58.1        20     15.3          275.8       N
+
+[GCN OPS NOTE(24dec12): Per author's request, the "12831" was changed
+to "13831".]
+

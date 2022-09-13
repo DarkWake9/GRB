@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6232
+SUBJECT: GRB 070330: Swift detection of a burst
+DATE:    07/03/30 23:22:06 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+D. Grupe (PSU), S. D. Barthelmy (GSFC), A. P. Beardmore (U Leicester),
+M. M. Chester (PSU), C. Guidorzi (Univ Bicocca&INAF-OAB),
+S. T. Holland (CRESST/GSFC/USRA), J. A. Kennea (PSU),
+C. B. Markwardt (GSFC/UMD), F. E. Marshall (NASA/GSFC),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-IASFPA),
+M. Stamatikos (NASA/ORAU) and M. C. Stroh (PSU) report on behalf of
+the Swift Team:
+
+At 22:51:31 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070330 (trigger=273180).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 269.519, -63.779 which is 
+   RA(J2000)  =  17h 58m 05s
+   Dec(J2000) = -63d 46' 44"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single peak
+with a duration of about 10 sec.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~1 sec after the trigger. 
+
+The XRT began taking data at 22:52:39 UT, 68 seconds after the BAT
+trigger.  The XRT on-board centroid algorithm did not find a source,
+however analysis of TDRSS data reveals a bright, fading uncatalogued point 
+source at RA, Dec  269.5407, -63.7933 which is:
+   RA(J2000)  =  17h 58m 09.8s
+   Dec(J2000) = -63d 47' 35.7"
+with an estimated uncertainty of 3.8 arcseconds radius (90% confidence). 
+This position lies 62 arcsec from the BAT position. 
+
+UVOT took a finding chart exposure of 400 seconds with the V filter
+starting 65 seconds after the BAT trigger. Automated source detection
+did not find an afterglow candidate, but visual inspection suggests a
+marginal detection at RA, DEC = 269.5418, -63.7930 with an estimated
+magnitude of 18.6. The 2.7'x2.7' sub-image covers 100% of the XRT
+error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is
+typically complete to about 18.0 mag. No correction has been made for
+the expected extinction of about 0.2 magnitudes. 
+

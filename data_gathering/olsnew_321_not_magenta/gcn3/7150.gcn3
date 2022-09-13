@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7150
+SUBJECT: GRB071227: Swift/UVOT refined analysis
+DATE:    07/12/28 04:00:24 GMT
+FROM:    Antonino Cucchiara at PSU  <cucchiara@astro.psu.edu>
+
+A. Cucchiara (PSU), T. Sakamoto (GSFC/UMBC)
+report on behalf of the Swift-UVOT team:
+
+The Swift/UVOT observed the field of GRB071227 (trigger #299787)
+starting 86 seconds after the BAT trigger (Sakamoto et al.2007,
+GCN Circ. 7147). We do not find any new source in any of the UVOT
+single observations inside the XRT error circle.
+Coadding all the images for each single filter an OT candidate
+has been detected at 3-sigma confidence level in the White filter
+coadded image at the position
+
+RA: 03:52:31.102
+DEC: -55:59:00.65
+
+with an uncertainty of 0.6 arcsec (90% confidence).
+This position is 4.5 arcsec from the XRT position.
+
+The 3-sigma upper limits and the detection(in the UVOT photometric
+system,Breeveld et al., GCN Circ. 6614)  are listed.
+
+Filter       Tstart   Tstop     Exp      Magnitude  
+              (s)      (s)      (s)   
+
+White         86      6129       609      21.73 +- 0.36
+v             68      6539       828      > 20.46
+b            673      5923       409      > 21.01
+u            648      5718       230      > 20.33
+uvw1         624      5512       239      > 20.17
+uvm2         599     10886      1191      > 21.00
+uvw2         703      6334       419      > 20.65
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E_{B-V} = 0.01 mag in the
+direction of the burst (Schlegel et al. 1998).
+

@@ -1,0 +1,59 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4681
+SUBJECT: GRB 060204C: XRT analysis of Swift J061223.0+701243.9
+DATE:    06/02/06 01:48:11 GMT
+FROM:    Dirk Grupe at PSU/Swift-XRT  <grupe@astro.psu.edu>
+
+authors: D. Grupe (PSU), D. Burrows (PSU)., D. Morris (PSU),
+T. Sakamoto (GSFC), N. Cucchiara (PSU), A. Retter (PSU),
+S. Barthelmy (GSFC)
+on behalf of the Swift team
+
+We report on the analysis of the X-ray source Swift J061223.0+701243.9
+which is inside the  Field of view of BAT trigger 180274
+(GRB 060204C).
+As discussed by Grupe et al (GCN 4672) this source
+is about 8' away from the BAT position reported by Grupe et al.
+(GCN 4663). The XRT position of this source is:
+RA-2000:   06 12 22.97
+Dec-2000: +70 12 43.9
+with an error radius of 3.6"
+Note that even though there was a star tracker loss-of-lock during
+the initial trigger, we consider this position as very reliable. The
+total exposure time of the field is 22.6 ks which were acquired
+within 58.2 ks.
+
+The light curve initially shows a brightening followed by a
+decreasing count rate starting about 10 ks after the trigger.
+Below we list the light curve with time after the trigger
+(in seconds), count rate and count rate error (in units of XRT
+counts/s):
+
+Time          cr     cr_err      
+------------  -------  ----------
+ 2.61399e+02   1.82e-02  7.03e-03
+ 5.25616e+03   5.94e-02  4.88e-03
+ 1.10075e+04   6.39e-02  5.06e-03
+ 1.68026e+04   3.43e-02  3.65e-03
+ 2.18468e+04   5.66e-02  6.91e-03
+ 2.75906e+04   5.16e-02  7.24e-03
+ 3.43580e+04   2.06e-02  2.92e-03
+ 4.03060e+04   4.35e-02  4.20e-03
+ 4.61773e+04   3.19e-02  3.61e-03
+ 5.20307e+04   2.07e-02  2.89e-03
+ 5.63931e+04   2.23e-02  3.34e-03
+ 
+ The spectral analysis shows excess absorption above the Galactic
+ value (9e20 cm-2) with 18.8+2.9-6.1 with a photon index
+ Gamma = 1.52+0.16-0.15. Because we do not know the nature of this
+ X-ray transient source (it was not present in the ROSAT All-Sky
+ Survey) we encourage optical observers to derive a spectrum
+ to identify the source.
+ 
+ Due to the distance of 8' away from the BAT position we do not
+ consider this X-ray source an afterglow of GRB 060204C.
+ As discussed by Sakamoto et al (GCN 4679) BAT trigger 180274 is
+ most likely not a real GRB and probably a hard X-ray transient.  
+ We have no further plan to re-observe the field of BAT trigger
+ 180274.
+

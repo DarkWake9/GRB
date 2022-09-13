@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16553
+SUBJECT: GRB 140709A, Swift-BAT refined analysis
+DATE:    14/07/09 16:29:31 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+C. B. Markwardt (GSFC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), L. M. Z. Hagen (PSU),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (NASA/UMBC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU), J. Tueller (GSFC),
+T. N. Ukwatta (MSU) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+626 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 140709A (trigger #603810)
+(Hagen, et al., GCN Circ. 16546).  The BAT ground-calculated position is
+RA, Dec = 304.666, 51.222 deg which is
+    RA(J2000)  =  20h 18m 39.9s
+    Dec(J2000) = +51d 13' 17.8"
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 61%.
+
+The mask-weighted light curve shows a complex structure.  Burst activity begins
+at T-50 sec, with a gradual rise to a peak at T+0 sec, punctuated by several
+subsidiary peaks.  Then there is a return to near background by T+8 sec,
+followed by a second main peak at T+15 sec.  There are additional smaller and
+softer peaks centered at T+55 and T+75 sec. T90 (15-350 keV) is 98.6 +- 7.7 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T-46.1 to T+93.4 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 1.23 +- 0.27,
+and Epeak of 78.0 +- 20.4 keV (chi squared 57.80 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 5.2 +- 0.2 x 10^-6 erg/cm2
+and the 1-sec peak flux measured from T+15.48 sec in the 15-150 keV band is
+3.1 +- 0.3 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.74 +- 0.06 (chi squared 69.09 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/603810/BA/
+

@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7564
+SUBJECT: GRB 080405: Mars Oddysey and Swift-BAT detection, possible host galaxy
+DATE:    08/04/06 04:59:33 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+J. R. Cummings (NASA/GSFC/UMBC) on behalf of the Swift-BAT team
+K. Hurley on behalf of the Mars Odyssey GRS team
+
+At 09:18:55.6 UTC on April 5, 2008, BAT triggered on GRB 080405
+(trigger #308549).  Automated attempts onboard to find a significant 
+source in an image were prematurely terminated by a Swift preplanned 
+slew manuver.
+
+Mars Oddyssey GRS detected a ~10 s long event at 33236 s Mars time
+(09:13:56 +/- 700 s Earth time), and the team informed the IPN.  The 
+BAT team searched the BAT data for a corresponding event and found 
+the failed onboard trigger and a large peak in the count rates.
+
+Ground analysis of BAT data found a strong source at
+RA, Dec 162.597,  -4.250, which is:
+
+10h 50m 23.3s, -4d 15' 00" (J2000),
+
+2.0 arcmin error radius (estimated 90% confidence). This is 0.4 arcmin
+from [BTW2002] J105021.50-041505.9, the host galaxy of 2002AL (see
+Becker et al. IAUC #7804).
+
+The BAT light curve shows a slow-rise and slow-decay Gaussian-like
+envelope with multiple peaks.  T90 is approximately 40 +- 5 seconds.
+The peak countrate was about 9000 counts/sec at T+25 sec (15-350 keV). 
+The source was 37% coded in the BAT field of view.  Because the burst 
+was not detected onboard, the full burst response was not collected. 
+Partial BAT data products will be available.
+
+Swift will execute a TOO on April 6 for the narrow-field
+instruments to observe this burst. 
+

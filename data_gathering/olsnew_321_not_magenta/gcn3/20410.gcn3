@@ -1,0 +1,149 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20410
+SUBJECT: LIGO/Virgo G268556:  Pan-STARRS1 observations and summary of transient sources
+DATE:    17/01/09 21:05:14 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+S. J. Smartt, (QUB), K. W. Smith (QUB), M. E. Huber (IfA),
+K. C. Chambers (IfA), D. R. Young, D. E. Wright (QUB), M. Coughlin
+(Harvard), L. Denneau, H. Flewelling, A. Heinze, E. A. Magnier (IfA),
+A. Rest (STScI), B. Stalder (IfA), A. S. B. Schultz, C. W. Stubbs
+(Harvard) J. Tonry, C. Waters, R. J. Wainscoat, H. Weiland (IfA)
+
+Further to Chambers et al. GCN 20383, we report that we covered 632
+square degrees on the first night (beginning 57758.3) . We estimate
+this corresponds to a probability of containing the source of 33%.  We
+have since reduced this area to the higher probability central region,
+recovering 357 sq degrees and a containment probability of 26% (based
+on the LALInference map, GCN 20385).
+
+Images were taken in the Pan-STARRS i-band in a series of overlapping
+45s exposures, with typically 4-8 images at each position.  These were
+combined into stacks and subtracted from the Pan-STARRS1 3Pi reference
+image (Chambers et al. arXiv:1612.05560, and available at
+http://panstarrs.stsci.edu).
+
+Using techniques discussed in Smartt et al. (2016, MNRAS, 462, 4094),
+we have located and vetted transients with quality filters and a
+machine learning algorithm on the images. We recover 6 iPTF objects
+and 15 old transients known before the GW alert (given at the end for
+completeness). ATLAS17aeu was recovered as discussed in Chambers et
+al.  (GCN 20407)
+
+In the following table, we give our 55 targets, sorted by magnitude.  The
+lightcurve trend is given (LC trend), indicating the change in
+magnitude between earliest and latest MJD of detection. To select
+these targets we required a minimum of 2 detections over 2 separate
+nights.
+
+Our area is completely within the SDSS DR12 footprint, and we give the
+redshifts (p for photometric and s for spectroscopic) of the host
+galaxies.  Objects with no obvious host are labelled "hostless".  Some
+targets are coincident with faint sources in SDSS for which
+star/galaxy separation and photo-z estimates are not reliable and we
+note these.  We have removed obvious AGN and candidate AGN (low level
+variability associated with galaxy cores), as well as stellar
+variables.
+
+In the comments we note iPTF coincidences (Singer et al. GCN 20401;
+Kasliwal et al. GCN 20364). A small number of candidates have a low
+real-bogus (RB) machine learning factor and should be treated with
+caution. All have been scanned by human reviewers. 
+
+The photometric redshifts from SDSS should not be used as a robust
+filtering for distance (see discussion in Smartt et al. 2016), but we
+provide them as a guide.
+
+We are targeting the objects with changing lightcurves with
+Gemini+GMOS.
+
+Name 	RA	                 DEC          LC trend	  Earliest mjd	mag	         Latest mjd  z       Comment
+PS17df	08:50:02.42	+46:39:48.8  fading 00.09 57758.43699	18.39	57759.4911  0.038 s iPTF17bo		
+PS17fg	08:48:46.25	+44:00:24.6  fading 00.15 57758.42737	18.89	57761.4882  0.060 s iPTF17bq		
+PS17fr	08:11:52.10	+25:25:21.4  rising 00.57 57758.43263	19.19	57761.4619  0.199 p iPTF17cf	
+PS17fe	09:00:21.22	+63:50:49.8  fading 00.09 57758.39189	19.60	57759.4726  0.245 p	
+PS17du	09:14:30.59	+54:28:34.4  fading 00.04 57758.42705	19.75	57759.4660  0.045 s 0.6" from core		
+PS17dp	09:00:51.09	+45:26:44.3  rising 00.06 57758.39978	19.97	57759.5043  0.051 s 		
+PS17gl	08:34:50.85	+61:13:02.2  rising 00.07 57758.39093	20.04	57759.4635  0.038 s 	
+PS17ft	08:16:52.72	+26:27:25.3  fading 00.05 57758.44356	20.05	57761.4790  0.042 s 	
+PS17fs	08:14:47.53	+27:50:12.2  fading 00.11 57758.45845	20.09	57761.4891  0.118 p iPTF17ch	
+PS17bz	08:04:49.22	+29:19:48.8  fading 00.08 57758.40250	20.23	57761.4809  0.047 s 	
+PS17fb	08:49:18.13	+44:38:31.1  rising 00.01 57758.41320	20.30	57759.4831  0.151 p	
+PS17fh	07:55:14.13	+26:25:11.5  fading 00.14 57758.39608	20.32	57761.4492  0.119 p	
+PS17fw	08:19:05.64	+23:20:42.8  fading 00.04 57758.40905	20.35	57761.4478  0.034 p	
+PS17gb	08:21:17.00	+51:10:17.1  rising 00.13 57758.38839	20.36	57759.4635  0.197 p 	
+PS17fa	08:47:22.51	+51:08:17.4  fading 00.02 57758.44371	20.41	57759.4865  0.497 p 	
+PS17en	08:40:22.10	+38:43:25.0  fading 00.07 57758.44053	20.41	57761.4923  0.673 p iPTF17fa
+PS17dy	08:13:00.78	+41:18:26.9  rising 00.00 57758.42812	20.43	57761.4760  0.282 p iPTF17fb	
+PS17er	08:41:57.26	+40:55:07.7  rising 00.36 57758.45114	20.44	57761.4854  0.296 p 	
+PS17fj	07:59:30.67	+28:27:03.8  fading 00.37 57758.41011	20.46	57761.4771  hostless 		
+PS17fl	08:02:09.73	+28:49:44.7  rising 00.32 57758.42406	20.47	57761.4876  0.080 p	
+PS17dw	07:49:25.36	+20:28:00.6  fading 00.05 57758.38695	20.48	57759.4846  0.171 p	
+PS17fv	08:18:15.52	+43:45:03.4  fading 00.06 57758.45210	20.56	57761.5017  0.188 s
+PS17gf	08:24:43.98	+35:29:45.8  rising 00.14 57758.46042	20.62	57761.4786  0.362 p 	
+PS17gr	08:20:14.14	+27:13:44.2  fading 00.20 57759.47191	20.64	57761.4792  hostless 	
+PS17gk	08:33:00.93	+38:51:04.7  fading 00.18 57758.43419	20.68	57761.4721  0.163 p	
+PS17fy	08:19:47.91	+42:39:45.9  fading 00.09 57758.41450	20.73	57761.4678  0.166 p 	
+PS17gv	08:54:41.22	+57:10:45.9  rising 00.08 57758.46079	20.82	57759.5027  0.076 p	
+PS17gm	08:35:15.00	+48:27:06.2  fading 00.04 57758.44909	20.83	57759.4940  0.159 p 	
+PS17fx	08:19:36.86	+48:06:38.9  fading 00.04 57758.42693	20.84	57759.4803  hostless		
+PS17dk	08:55:48.76	+46:55:04.8  rising 00.10 57758.42465	20.85	57759.4746  0.567 p 	
+PS17fp	08:06:52.00	+34:18:04.4  fading 00.22 57758.43602	20.85	57761.4726  0.193 p 	
+PS17fm	08:02:26.56	+26:20:07.5  fading 00.05 57758.42467	20.85	57761.4661  hostless low RB factor		
+PS17dj	08:54:13.87	+48:19:42.7  rising  00.05 57758.44299	20.86	57759.4844  0.382 p 		
+PS17ea	08:30:11.01	+32:57:35.8  rising  00.32 57758.43602	20.88	57761.5046  0.110 p 	
+PS17fn	08:05:51.40	+28:42:51.9  rising  00.59 57758.44882	20.88	57761.4973  0.072 p 	
+PS17ga	08:20:47.13	+30:24:47.9  fading 00.03 57758.45271	20.90	57761.4895  r=22.35, faint source	
+PS17fo	08:06:49.10	+28:16:05.9  rising  00.27 57758.44882	20.92	57761.4804  0.179 p 	
+PS17gg	08:30:06.42	+48:28:34.4  fading 00.17 57758.43638	20.93	57759.4841  0.144 p  low RB factor	
+PS17cj	08:10:23.04	+23:59:52.6  fading 00.10 57758.39319	20.94	57761.4614  r=22.9, faint source		
+PS17dh	08:50:43.44	+56:42:44.0  rising  00.06 57758.43403	20.95	57759.4998  hostless  		
+PS17fu	08:17:35.59	+47:05:06.3  rising  00.23 57758.41830	20.95	57761.4746  0.040 s		
+PS17ei	08:37:00.85	+38:42:47.2  fading 00.01 57758.44228	20.98	57761.4775  hostless 		
+PS17fz	08:19:57.24	+45:12:59.8  fading 00.17 57758.44267	21.14	57761.4625  0.175 p 	
+PS17gj	08:32:56.15	+41:12:22.3  rising  00.08 57758.44494	21.17	57761.4882  0.276 p 		
+PS17ec	08:35:47.59	+46:25:09.4  rising  00.11 57758.46003	21.24	57759.4855  0.403 p 	
+PS17dx	08:05:30.92	+36:26:24.8  fading 00.08 57758.40284	21.33	57761.4500  hostless		
+PS17dz	08:24:48.80	+30:53:37.3  fading 00.10 57759.48293	21.35	57761.4982  0.308 p 	
+PS17el	08:39:41.07	+39:24:30.2  fading 00.03 57758.45160	21.37	57761.4788  hostless	
+PS17gt	08:11:47.50	+37:44:39.4  rising  00.12 57759.47465	21.42	57761.4739  0.348 s		
+PS17cw	08:38:37.02	+42:57:05.4  fading 00.12 57758.44623	21.46	57761.4923  0.35  p		
+PS17gw	08:48:29.00	+43:24:48.4  rising  00.05 57759.47696	21.54	57761.4915  hostless 
+PS17gd	08:23:08.94	+43:55:57.1  rising  00.06 57758.44611	21.56	57761.4711  r=22.4, faint source		
+PS17b	08:23:44.47	+36:53:39.2  rising  00.15 57759.49179	21.62       57761.4837  0.224 p 
+PS17gs	08:11:41.68	+38:28:22.4  fading 00.06 57759.47749	21.63	57761.4760  r=22.45, faint source 		
+PS17gu	08:11:48.78	+37:18:50.3  fading 00.19 57759.46588	21.99	57761.4715  r=22,faint source		
+
+
+This object was only detected on one night (we have no coverage of the
+specific area afterwards), but has a high RB factor and is coincident
+with a starforming galaxy. Hence it appears real, but we caution that
+we do not have multiple night detections.
+
+PS17co	08:13:46.29	+18:59:02.4  rising 00.02 57758.40522	18.30	57758.4070  0.124 s 	
+
+The following transients were all recovered in our imaging, but were
+discovered and reported well before G268556 was discovered.
+
+AT2017M      08:23:09.79	+25:53:22.9 aka MLS150212-082310+255323	
+AT2017N      08:25:42.74	+39:19:00.6		
+PS1-14amh    07:55:40.63	+26:46:18.0	
+SN2016hrv    08:33:21.92	+52:31:50.4	
+ASASSN-16el  08:56:39.07	+52:06:08.0	
+AT2016iyx    08:43:24.73	+37:32:45.8
+AT2016jax    08:32:53.76	+42:08:01.6
+SN2016gil    08:10:13.72	+33:57:25.6 
+SN2016ins    08:07:27.35	+25:07:47.3
+AT2016jau    08:00:40.94	+28:19:31.8
+SN2016hqh    07:57:05.78	+23:08:55.2
+AT2016jci    07:56:05.83	+28:22:35.3	
+AT2016jay    09:21:43.35	+61:31:59.6	
+AT2016hys    08:14:42.11	+38:24:08.5	
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4949
+SUBJECT: SGR 1900+14: BAT observations
+DATE:    06/04/03 22:34:53 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+Please note: This is courtesy copy of Astronomer's Telegram #789 
+forwarded to the GCN mailing list due to its specific interest to the 
+Gamma-Ray community.  The URL for this Telegram is
+http://www.astronomerstelegram.org/?read=789
+Please cite the ATEL, rather than the GCN.
+
+Swift-BAT observations of SGR 1900+14
+
+D. Palmer (LANL), T. Sakamoto (GSFC/ORAU), S. Barthelmy (GSFC),
+J. Cummings (GSFC/ORAU), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), J. Tueller (GSFC)
+report on behalf of the Swift BAT team:
+
+
+The recent re-activation of the Soft Gamma-ray Repeater SGR 1900+14 
+(Vetere et al. GCN# 4922) has been intensively observed by the Swift 
+Burst Alert Telescope (BAT) as well as by the Swift UVOT and XRT 
+instruments.  Here we report on the BAT results.
+
+The first detection by BAT was at 2006-03-25 10:12:04 UTC, and marked 
+the first detection of a burst from this source since 2003 (C. 
+Kouveliotou, priv. comm.)  The most recent burst was 2006-03-29 
+12:19:51 (as of 2006-04-03 11:00).  A total of 22 bursts or burst 
+sequences have been identified by the onboard software (where a burst 
+sequence is defined as a set of bursts separated from other detected 
+bursts by at least 5 minutes, including gaps due to observational and 
+instrumental effects).
+
+In the 5 months before this latest round of activity, the upper limit 
+to steady-state emission on individual days with good observations of 
+this source is 30 mCrab (3 sigma).  In the 9-month interval 
+2004-12-15 to 2005-09-15, the long-term average steady-state emission 
+is less than 1.4 mCrab (5 sigma).
+
+The greatest intensity of activity was during an interval starting 
+before 2006-03-29 02:38:10 (when the SGR entered the BAT field of 
+view) to 02:59:43 (beyond which there is no detected activity through 
+the end of the pointing at 03:13:11).  Within this time period there 
+is a considerably more intense interval, 2:53:10 - 2:53:42, which we 
+will call the storm.  Event-by-event data is available for most of 
+this storm period.
+
+The storm contains both wide and narrow peaks.  The narrow peaks have 
+typical widths of 10-100 ms and peak rates up to 400 counts/ms.  The 
+wide peaks have peak rates falling in the narrow range of 400-850 
+counts/ms and durations of up to 1.5 seconds.  (All rates are ~12-100 
+keV measured on 1 ms timescales with approximately 2300 cm^2 
+effective area).
+
+The wide peaks typically show a rapid rise (<10 ms) to near the 
+maximum value, a somewhat steady decline (at rates of ~1 
+count/ms/ms), sometimes with instances of re-energization, to an 
+inflection point typically at a rate around 200-400 counts/ms, 
+followed by a precipitous drop over the next ~10 ms.
+
+For spectroscopy, data from the narrow peaks were accumulated into a 
+single spectrum for analysis, while the wide peaks were analyzed with 
+time-resolved spectra.
+
+The accumulated spectrum of short peaks is well fitted with an 
+optically thin thermal bremsstrahlung spectrum (OTTB), a power-law 
+times an exponential cutoff model (CPL), and a sum of two blackbodies 
+model (2BB). A single blackbody model shows a bad fit. kT of OTTB is 
+21 keV. In 2BB model, the temperatures are 4.6 keV and 11.2 keV.
+
+The time-resolved spectra of the bright peaks are well fitted in CPL 
+and 2BB. But they show a bad fit in OTTB model, especially at the 
+bright part.  However, if we ignore below spectral bins 30 keV, OTTB 
+model shows an acceptable fit with  temperatures consistent with the 
+Konus-Wind, RXTE and BATSE observations (Aptekar et al, ApJS, 137, 
+227; Ibrahim et al. ApJ, 558, 237). The temperatures and the 
+blackbody radii in 2BB model are consistent with the HETE-2 
+parameters (2001 activity; Olive et al., ApJ, 616, 1148). There 
+appears to be an excess above 70 keV during the brightest parts of 
+the peaks.  However, since these spectra reach an intensity of 200 
+Crab, they are dominated by systematics, and the apparent excess may 
+be an artifact of our calibration.
+
+This behavior is qualitatively consistent with confined fireball 
+models.  The narrow peaks are optically thin fireballs, and the wide 
+peaks are fireballs that are originally optically thick with 
+contracting photospheres that reach transparency at the inflection 
+point.  Quantitative comparison to this model awaits more detailed 
+calculation.
+
+Light curves and lists of burst times for this activity may be viewed 
+at http://gcn.gsfc.nasa.gov/gcn/other/SGR1900+14_swift_bat.html
+
+-- 
+David Palmer  palmer@lanl.gov   (505)665-6863 (voice)   (505)665-4414 (fax)
+

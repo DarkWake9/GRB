@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23549
+SUBJECT: Swift Trigger 878504 is not astrophysical
+DATE:    18/12/22 22:14:41 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), M. G. Bernardini (INAF-OAB),
+P. D'Avanzo (INAF-OAB), J.D. Gropp (PSU), J. A. Kennea (PSU),
+N. P. M. Kuin (UCL-MSSL), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+M. J. Moss (George Washington University), B. Sbarufatti (PSU) and
+T. N. Ukwatta (LANL) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 21:42:09 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible source (trigger=878504).  Swift slewed immediately
+to the location.  The BAT on-board calculated location is 
+RA, Dec 131.375, -5.488, which is 
+   RA(J2000)  =  08h 45m 30s
+   Dec(J2000) = -05d 29' 15"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for image triggers, the realtime
+light curve does not show anything significant. 
+
+The XRT began observing the field at 21:44:34.7 UT, 144.9 seconds after
+the BAT trigger. No source was detected in 997 s of promptly downlinked
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 147 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+Given the ground analysis of the scaled-map shows a
+significant decrease of the image significance to a value below 
+4 sigma, and the lack of a new source in the XRT data, 
+we believe that this event is a spurious statistical fluctuation 
+in the image. Further ground data analysis will be required to 
+confirm the nature of this event. 
+

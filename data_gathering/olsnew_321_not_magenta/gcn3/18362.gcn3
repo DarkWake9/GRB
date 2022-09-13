@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18362
+SUBJECT: LIGO/Virgo G184098: ongoing Pan-STARRS search for optical transients
+DATE:    15/09/24 13:29:47 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+S.J. Smartt, K. W. Smith,  (Queenâ<80><99>s University Belfast), K. Chambers,
+M. Huber, E. Magnier, H. Flewelling, C. Waters, J. Tonry, A. Schultz,
+N. Primak (IfA, University of Hawaii), D. Young, D. Wright
+(Queenâ<80><99>s University Belfast), C. Stubbs (Harvard)
+
+Following our reports of Pan-STARRS pointing coordinates for the field
+of LIGO/Virgo G184098 and the search for transients, an update is provided
+here. The coordinates of 4 nights of observations are given on the GraceDB
+webpages. Images in i, z and y-band were taken on 2015-09-17, 19, 22, 23.
+The difference images were processed as described in Huber et al.
+(Atel 7153) and on the Pan-STARRS Survey for Transients (PSST) pages
+(http://star.pst.qub.ac.uk/ps1threepi/psdb/).
+
+We initially reported first night detections of PS15cbm, PS15cbj, PS15cbn
+(2015-09-17). However subsequent data show that only PS15cbm is real.
+The other two were not recovered in later images and are almost certainly
+instrumental ghosts.
+
+Over these four nights, we now have 5 objects which are detected in multiple
+nights and multiple filters (and different camera orientations) and are likely to be
+extragalactic transients  (they are all associated with a galaxy in SDSS and PS1
+reference images).
+
+Obj      RA(J2000)    Dec(J2000)   mag      z
+PS15cbm  08:49:19.85  +03:48:17.8  18.54(i) 0.059
+PS15cci   09:13:22.76  +06:10:47.2  18.33(i) â<80>¦
+PS15ccx  08:18:03.90  +04:18:04.2  19.42(z) â<80>¦
+PS15ccv  08:55:23.07  +04:41:19.0  19.57(i) 0.071
+PS15ccw  08:57:30.60  +04:31:56.1  19.33(i) 0.072
+
+The mag is the discovery magnitude (AB system). The reported
+redshift is the spectroscopic redshift of the apparent host galaxy from SDSS DR12.
+The other two have no spectroscopic redshifts, but have detected host galaxies.
+>From the data in hand, all appear to be likely supernovae. 
+
+The object furthest north-east (PS15cci) is close to the 90% confidence contour
+of the G182098  'LIB_skymap' GW localisation map. The others are
+outside this region but within the 'skyprobcc_cWBâ<80><99> map. Twilight restricted us
+pointing at the centre of the 'LIB_skymap' GW localisation map. Our survey area is
+slightly further south than the iPTF survey area (Singer et al. GCN 18337) and the
+J-GEM area (Morokuma et al. GCN 18361). Observations are continuing this week
+when the weather cooperates.
+

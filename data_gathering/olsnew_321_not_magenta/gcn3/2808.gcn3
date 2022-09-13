@@ -1,0 +1,51 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2808
+SUBJECT: GRB041006: Fading X-ray Afterglow Observed with Chandra
+DATE:    04/10/15 18:16:51 GMT
+FROM:    Nat Butler at MIT/CSR  <nrbutler@space.mit.edu>
+
+GRB041006: Fading X-ray Afterglow Observed with Chandra
+
+N. Butler, R. Vanderspek, H. L. Marshall, P. G. Ford, G. R. Ricker 
+(MIT), D. Q. Lamb (U.Chicago), and G. P. Garmire (PSU)
+
+report:
+
+Beginning at October 7.213 (t[burst] + 16.80 hr) and continuing until 
+October 8.286 (t[burst] + 42.57 hr), Chandra Low Energy Transmission 
+Grating Spectrometer (LETGS) observations were conducted of a field 
+centered on the optical afterglow candidate (Da Costa et al, GCN2765) for 
+GRB041006, which was localized by the HETE WXM instrument (Galassi et al, 
+GCN2770).  We have detected a moderately bright, fading X-ray afterglow 
+consistent in position with the optical source.  Over the 86.3 ksec of data 
+accumulation (livetime) for the Chandra observations, the mean counting rate 
+was 0.010 counts/s in the dispersed 1st order LETGS spectrum and 0.007 
+counts/s in the 0ther order.  The source we detected faded in brightness 
+according to a power law, with a decay time slope of -1.0 +/- 0.1.  We fit 
+the 0th order and 1st order data jointly, requiring 20 or more counts per 
+spectral bin.  An absorbed power-law model provides an acceptable fit 
+(chi^2/nu = 66.2/63), with the following best-fit paramters over the
+0.5-6 keV range:
+
+dN/dE = A * exp[-nH*s(E)] * E^ (-gamma) ph cm^(-2) s^(-1) keV^(-1) ,
+with:
+
+A = (1.0+/-0.2) x 10^(-4) , 
+gamma = 1.9+/-0.2 , and
+nH = (1.1+/-0.5) x 10^21 cm^(-2). 
+
+The measured value of nH exceeds the anticipated Galactic column density 
+(nH = 2.9 x 10^20 cm^(-2)) in the source direction.  We measure a
+mean flux in the 0.5 to 6 keV band over the duration of the Chandra 
+observation of ~3.7 x 10^(-13) ergs cm^(-2) s^(-1).
+
+Our analyses are continuing, and more detailed results will be posted at:
+
+http://space.mit.edu/HETE/Bursts/GRB041006
+
+We thank Harvey Tananbaum and the Chandra X-ray Observatory Operations 
+personnel, particularly Jeremy Drake and Brad Wargelin, for the impressive 
+promptness with which this observation was planned and carried out.
+
+The preliminary results reported here may be cited.
+

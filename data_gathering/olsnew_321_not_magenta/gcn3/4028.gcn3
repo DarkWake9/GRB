@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4028
+SUBJECT: GRB050922B: Swift UVOT early upper limits.
+DATE:    05/09/23 15:09:06 GMT
+FROM:    Massimiliano de Pasquale at MSSL-UCL  <mdp@mssl.ucl.ac.uk>
+
+  M. De Pasquale (MSSL), J. Norris (GSFC),
+T. Kennedy (GSFC), K. Mason (PPARC), N. Gehrels
+(GSFC) on behalf of the Swift/UVOT team
+
+The Swift/UVOT began observing the field of
+GRB050922B at 15:07:42 UT, 342 seconds after the
+BAT trigger (Hullinger et al., GCN 4019).
+There is no detection of an optical counterpart
+in the first 100 sec exposure finding chart
+down to a 3 sigma upper limit of V=18.7.
+
+  There is also no optical/UV counterpart
+detected in the summed images from all filters,
+down to the following 3 sigma magnitude upper
+limits:
+
+  Filter  T_range(sec)  Exp(sec)  3sig UL
+
+    V      342-5997      1158     20.1
+    B      489-1720       258     20.2
+    U      474-11434      720     20.5
+    UVW1   580-7616       873     20.3
+    UVM2   446-6904      1068     20.6
+    UVW2   503-1826       258     20.1
+
+Where T_range is the time post-trigger over which
+the summed images were accumulated and Exp is the
+total exposure time. The magnitudes upper limits
+are not corrected for extinction.
+
+  These magnitudes are based on preliminary zero-
+points, measured in orbit, and will require
+refinements with further calibrations.
+

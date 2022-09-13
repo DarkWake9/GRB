@@ -1,0 +1,93 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18834
+SUBJECT: LIGO/Virgo G211117: Further Swift-XRT sources
+DATE:    16/01/06 09:33:46 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), S.D. Barthelmy
+(NASA/GSFC), D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko
+(NASA/GSFC), N. Gehrels (NASA/GSFC), P. Giommi (ASI), F.E. Marshall
+(NASA/GSFC), J.A. Nousek (PSU), P.T. O'Brien (U. Leicester), J.P.
+Osborne (U. Leicester), D.M. Palmer (LANL), M. Perri (ASDC), J.L.
+Racusin (NASA/GSFC), M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB)
+report on behalf of the Swift team:
+
+Swift has performed a series of 76 observations of galaxies (from the
+GWGC catalogue) within the aLIGO error region for the aLIGO trigger
+G211117, using the 'bayestar' GW localisation map. The observations
+currently span from 140 ks to 914 ks after the aLIGO trigger, and cover
+8.6 sq degrees on the sky (corrected for overlaps).
+
+Since the last Swift GCN, we have detected 2 X-ray sources, these are
+either new detections, or have been given a higher 'rank' than in the
+last circular. Each source is assigned a rank of 1-4 which describes
+how likely it is to be related to the GW trigger, with 1 being the most
+likely and 4 being the least likely. The ranks are described at
+http://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 1 source of rank 3
+  * 1 source of rank 4
+
+In addition, we observed the location of the source PS15dqa (from
+Smartt et al., GCN Circ. 18824), an optical transient in NGC 1156 at a
+distance of just 7 Mpc. No X-ray emission was detected at the location
+of PS15dqa to a 3-sigma upper limit of 4.1e-3 ct/sec, corresponding to
+a flux of 1.8e-13 erg/cm^2/s.
+
+We assumed a power-law spectrum with NH=3e20 cm^2, and photon index
+(Gamma)=1.7
+
+
+RANK 3 sources
+==============
+
+These are uncatalogued X-ray sources, however they are not brighter
+than previous upper limits, so do not stand out as likely counterparts
+to the GW trigger.
+  
+  Source 53:
+  =============
+    RA: 	 44.9257 ( = 02h 59m 42.17s) J2000
+    Dec:	 +25.2129 ( = +25d 12' 46.4") J2000
+    Error:	 +5.8 (arcsec, radius, 90% confidence).
+    Peak Rate:	 1.5e-03 +/- 7.9e-04 ct/sec (0.3-10 keV)
+    Peak Flux:	 6.3e-14 +/- 3.4e-14 erg cm^-2 s^-1 (0.3-10 keV)
+    RASS UL:	 3.0e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+       so the source is not above the RASS 3-sigma upper limit.
+    There is no evidence for fading.
+    There is 1 GWGC galaxy within 200 kpc of the source.
+
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+  
+  Source 54:
+  =============
+    RA: 	 202.5319 ( = 13h 30m 7.66s) J2000
+    Dec:	 -20.9364 ( = -20d 56' 11.0") J2000
+    Error:	 +6.0 (arcsec, radius, 90% confidence).
+    Peak Rate:	 2.0e-02 +/- 7.3e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 8.5e-13 +/- 3.1e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1SXPS J133007.7-205619 in the 1SXPS catalogue
+    Separation:  8.4" from the XRT source
+    Cat Rate:	 1.6e-02 +/- 1.6e-03 ct/sec (0.3-10 keV)
+    Cat Flux:	 6.8e-13 +/- 6.9e-14 erg cm^-2 s^-1 (0.3-10 keV)
+       so the source  is 0.5-sigma above the catalogued flux.
+    There is no evidence for fading.
+    There is 1 GWGC galaxy within 200 kpc of the source.
+    A SIMBAD object `[RKV2003] QSO J1330-2056 abs 0.84992' is 5.3"
+away.
+    There is 1 2MASS object within the source's 3-sigma error radius.
+
+This circular is an official product of the Swift team.
+
+

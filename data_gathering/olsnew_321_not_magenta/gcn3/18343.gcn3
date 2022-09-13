@@ -1,0 +1,65 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18343
+SUBJECT: LIGO/Virgo G184098: Pan-STARRS1 observations of the northern sky region
+DATE:    15/09/20 02:00:26 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+S.J. Smartt, K. W. Smith,  ((Queenâ<80><99>s University Belfast),K. Chambers,
+M. Huber, E. Magnier, H. Flewelling, C. Waters, J. Tonry, A. Schultz,
+N. Primak (IfA, University of Hawaii), D. Young, D. Wright
+(Queenâ<80><99>s University Belfast), C. Stubbs (Harvard)
+
+Following our report of Pan-STARRS pointing coordinates for the field
+of LIGO/Virgo G184098, we have carried out difference imaging of the
+i, z and y-band exposures with respect to the Pan-STARRS1 3Pi
+reference sky stacks. The nine Pan-STARRS fields were centred on the
+â<80><9c>LIBâ<80><9d> localisation map, although were observed during astronomical
+twilight and airmass between 2.8 and 2. The difference images were
+processed as described in Huber et al. (Atel 7153) and on the
+Pan-STARRS Survey for Transients (PSST) pages
+(http://star.pst.qub.ac.uk/ps1threepi/psdb/).
+An initial sift through the data, with machine learning algorithms
+and human eyeballing resulted in the following candidates within the
+northern LIGO/Virgo error region for G184098. All candidates were detected
+in two filters.
+
+Three fairly secure candidates were discovered and about a dozen other
+more marginal detections (variable stars and variable known AGNs are not considered).
+We prefer to wait for another epoch to confirm/discount the other dozen or so
+candidates. The three candidates which appear secure, and
+are most likely supernovae are as follows (a sky map will be uploaded to
+GraceDB). They lie within the central 20% probability map and
+all have z-i colours which are not particularly red.
+
+We emphasise that we did not dither and the GPC1 camera has an 80%
+fill factor, therefore we do not claim to be complete in this region.
+
+They all appear to be consistent with being normal population supernovae,
+but spectroscopic observations would be useful.
+
+PS15cbm
+08:49:19.85 +03:48:17.9
+i=18.6 +/- 0.1
+12â<80><9d> from the core of galaxy 2MASX J08492024+0348280, located
+within its visible optical disk.
+With a spectroscopic z=0.059 (250 Mpc) it has M_i = -18.6 (A_i=0.07)
+This is consistent with being a supernova
+
+PS15cbj
+08:38:49.71 +05:00:16.4
+i=18.2 +/- 0.1
+11â<80><9d> from the core of 2MASX J08385048+0500140
+with spectroscopic z=0.076 (330 Mpc). Hence,
+M_i = -19.5 (A_i=0.06)
+This is consistent with being a supernova, although it
+is quite bright and some 15kpc projected from the host.
+
+PS15cbn
+08:52:38.36 +06:49:50.4
+i=18.8 +/- 0.1
+3.7â<80><9d> from the galaxy SDSS J085238.20+064947.6
+which has no spectroscopic redshift. The object appears
+to be a supernova (A_i = 0.1)
+
+[GCN OPS NOTE(19sep15): This Circular was originally published on 19:58 18-Sep-2015 UT.]
+

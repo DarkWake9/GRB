@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14485
+SUBJECT: GRB 130427A: Swift-XRT refined Analysis
+DATE:    13/04/28 08:29:05 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+J.A. Kennea (PSU), M.C. Stroh (PSU), D.N. Burrows (PSU), J.P. Osborne
+(U. Leicester), K.L. Page (U. Leicester), C. Pagani (U. Leicester), A.
+Melandri (INAF-OAB), B. Sbarufatti (INAF-OAB/PSU), G. Stratta (ASDC)
+and A. Maselli report on behalf of the Swift-XRT team:
+
+We have analysed 2.4 ks of XRT data for GRB 130427A (Maselli  et al.
+GCN Circ. 14448),  from 130 s to 48.1 ks after the  BAT trigger. The
+data comprise 84 s in Windowed Timing (WT) mode (the first 9 s were
+taken while Swift was slewing) with the remainder in Photon Counting
+(PC) mode. The refined XRT position is RA, Dec = 173.13594, +27.69769
+which is equivalent to:
+
+RA (J2000): 11 32 32.63
+Dec(J2000): +27 41 51.7
+
+with an uncertainty of 3.5 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with an initial power-law decay with an
+index of alpha=7.9980 (+0.0021, -1.0800), followed by a break at T+252
+s to an alpha of 0.61 (+/-0.10).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 1.79 (+0.17, -0.16). The
+best-fitting absorption column is  9.9 (+6.4, -6.0) x 10^20 cm^-2, at a
+redshift of 0.34, in addition to the Galactic value of 1.8 x 10^20
+cm^-2 (Kalberla et al. 2005). The counts to observed (unabsorbed)
+0.3-10 keV flux conversion factor deduced from this spectrum  is 4.0 x
+10^-11 (4.7 x 10^-11) erg cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Galactic foreground: 1.8 x 10^20 cm^-2
+Intrinsic column:    9.9 (+6.4, -6.0) x 10^20 cm^-2 at z=0.34
+Photon index:	     1.79 (+0.17, -0.16)
+
+If the light curve continues to decay with a power-law decay index of
+0.61, the count rate at T+24 hours will be 2.3 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 9.4 x
+10^-11 (1.1 x 10^-10) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00554620.
+
+This circular is an official product of the Swift-XRT team.
+

@@ -1,0 +1,77 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32419
+SUBJECT: Introducing new GCN Kafka broker and web site for transient alerts, https://gcn.nasa.gov
+DATE:    22/07/20 21:07:26 GMT
+FROM:    Judith Racusin at GSFC  <judith.racusin@nasa.gov>
+
+Scott Barthelmy (GSFC), Eric Burns (LSU), Dakota Dutko (GSFC),
+Meredith Gibb (GSFC), Victor Gonzalez-Leon (GSFC), Tess Jaffe
+(GSFC), Ryan Lorek (GSFC/UMBC), Israel Martinez (GSFC/UMD), Tom
+McGlynn (GSFC), Judy Racusin (GSFC), David Simpson (GSFC), Leo
+Singer (GSFC), Teresa Sheets (GSFC), Alan Smale (GSFC), and
+Dongguen Tak (DESY) report on behalf of GCN, TACH, and HEASARC:
+
+We are pleased to introduce the new General Coordinates Network,
+the evolution of the Gamma-ray Coordinates Network (now referred
+to as GCN Classic) using modern, open-source, reliable, and secure
+alert distribution technologies that have been established by the
+broader astronomy community and promoted by the Vera C. Rubin
+Observatory.
+
+We invite you to join one of our three public Zoom webinars for an
+overview of the new GCN:
+
+August 1, 2022 12:00-13:00 UTC (best for Atlantic):
+https://bit.ly/3Pt2TH9
+
+August 1, 2022 20:00-21:00 UTC (best for Pacific):
+https://bit.ly/3IT7Qqc
+
+August 2, 2022 04:00-05:00 UTC (best for Asia and Oceania):
+https://bit.ly/3v2pNwV
+
+GCN has a redesigned website, https://gcn.nasa.gov and a new
+improved method of streaming GCN Notices called GCN Classic over
+Kafka. All three classic GCN Notice formats (text, VOEvent,
+160-byte binary packet) are now also available over Kafka. This
+new Kafka streaming service can be used as a drop-in replacement
+for GCN Classic socket and VOEvent subscribers, with an upcoming
+release serving email subscribers.
+
+GCN Classic over Kafka has the following advantages over the
+legacy delivery methods:
+
+- Self Service: Users can manage their own accounts and
+  subscription settings through the new GCN web site,
+  https://gcn.nasa.gov.
+- Open Standards: Notices are sent using one standard protocol,
+  Apache Kafka.
+- Open Source: Receive GCN Notices using open-source client
+  software.
+- Highly Available: Notices are served by a cluster of redundant
+  Kafka brokers in the cloud.
+- Secure: Notices are protected in transit with SSL/TLS.
+
+The old GCN Classic web site, https://gcn.gsfc.nasa.gov, and the
+legacy socket delivery methods will continue to be supported for
+the foreseeable future. However, starting later this year new
+features and notice types will only be available on the new web
+site and GCN Kafka, including:
+
+- Self-service configuration of GCN Notice notifications over email
+- Modernization and enhancement of GCN Circulars
+- Unified, searchable GCN Notice and Circular archive integrating
+  the features of the GCN Viewer
+  (https://heasarc.gsfc.nasa.gov/tachgcn, GCN Circular 31036)
+
+For questions, issues, or bug reports, please contact us via:
+
+HEASARC feedback form:
+https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback?selected=kafkagcn
+
+GitHub issue tracker:
+https://github.com/nasa-gcn/gcn.nasa.gov/issues
+
+
+[CORRECTION: de-mangled links that were processed through Microsoft
+Outlook's Safe Links]

@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19716
+SUBJECT: GRB 160716A: Swift detection of a burst
+DATE:    16/07/16 01:20:39 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+L. M. Z. Hagen (PSU), S. D. Barthelmy (GSFC), J. A. Kennea (PSU) and
+D. M. Palmer (LANL) report on behalf of the Swift Team:
+
+At 01:08:30 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 160716A (trigger=704572).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 190.544, -61.366 which is 
+   RA(J2000) = 12h 42m 10s
+   Dec(J2000) = -61d 21' 56"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a copmplex
+structure with a duration of about 10 sec.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 01:09:55.7 UT, 85.7 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source located at RA, Dec 190.43632, -61.35080 which is
+equivalent to:
+   RA(J2000)  = 12h 41m 44.72s
+   Dec(J2000) = -61d 21' 02.9"
+with an uncertainty of 4.0 arcseconds (radius, 90% containment). This
+location is 193 arcseconds from the BAT onboard position, outside the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper.  We cannot determine whether the source is
+fading at the present time. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 9.61
+x 10^21 cm^-2 (Willingale et al. 2013). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 88 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the large, but
+uncertain extinction expected. 
+
+Burst Advocate for this burst is L. M. Z. Hagen (lea.zernow.hagen AT gmail.com). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20755
+SUBJECT: LIGO/Virgo G275404: INTEGRAL search for a prompt gamma-ray counterpart
+DATE:    17/02/26 17:19:13 GMT
+FROM:    Volodymyr Savchenko at APC,Paris  <savchenk@apc.in2p3.fr>
+
+V. Savchenko (ISDC, University of Geneva, CH)
+on behalf of the INTEGRAL group:
+S. Mereghetti (IASF-Milano, Italy),
+C. Ferrigno ((ISDC, University of Geneva, CH),
+E. Kuulkers (ESTEC/ESA, The Netherlands),
+A. Bazzano (IAPS-Roma, Italy), E. Bozzo,
+T. J.-L. Courvoisier (ISDC, University of Geneva, CH)
+S. Brandt (DTU - Denmark) R. Diehl (MPE-Garching, Germany)
+L. Hanlon (UCD, Ireland) P. Laurent (APC, Saclay/CEA, France)
+A. Lutovinov (IKI, Russia) J.P. Roques (CESR, France)
+R. Sunyaev (IKI, Russia) P. Ubertini (IAPS-Roma, Italy)
+
+We investigated serendipitous INTEGRAL observations carried out at the
+time of the LIGO/Virgo burst candidate G275404.  The satellite was
+pointing at RA=17:44:43 Dec=-25:57:27 (in the direction of the
+Galactic Center region), close to the low-probability area of LIGO
+localization. About 2% of the probability was contained in the field
+of view of INTEGRAL IBIS and SPI. Depending on the location within the
+LIGO 90% localization region, as well as the assumed counterpart
+spectrum and duration, the best upper limit is set by the
+anti-coincidence shield of the spectrometer on board of INTEGRAL
+(SPI/ACS), the anti-coincidence shield of the IBIS instrument
+(IBIS/Veto), or by the imaging coded mask instruments (IBIS and SPI).
+The combination of these instruments covered the full LIGO 90%
+confidence region and provided stringent constraints on the flux of a
+possible electromagnetic counterpart in the energy range covered by
+the INTEGRAL instruments.
+
+The INTEGRAL Burst Alert System (IBAS) did not identify any unusual
+transients in coincidence with the LIGO/Virgo trigger. The IBAS
+inspects both ISGRI Field of View and all-sky SPI-ACS light curve.
+
+The IBAS trigger closest in time to the GW candidate ("Weak" ISGRI
+trigger 7706) happened at UTC 2017-02-25 11:32:15.56 and it's location
+(RA=270.48, Dec=-25.08, 3.73 arcmin radius 68% containment,
+statistical uncertainty only) was outside the 90% probability
+containment of the LIGO localization region.
+
+The nearest excess over the background rate identified by SPI-ACS
+offline pipeline happened 453 seconds after the LIGO/Virgo trigger. It
+has an SNR of 5.5, duration of 100 ms, and is compatible with cosmic
+ray origin.
+
+We investigated the SPI-ACS, IBIS/Veto, and IBIS/ISGRI light curves
+between -500 and +500 s from the trigger time (2017-02-25 18:30:21.3
+UTC) on temporal scales from 0.1 to 100 s, and found no evidence for
+any deviation from the background.  We estimate combined typical
+3-sigma upper limits of 4.3e-7 erg/cm2 (75-2000 keV) for 8s duration
+assuming Band model parameters alpha=-1, beta=-2.5, and E_ peak = 300
+keV.  To derive a limit for a typical short burst with 1 s duration,
+we use a harder cutoff power law spectrum with a slope of -0.5 and an
+Epeak = 500 keV: we find a limiting fluence of 1.5e-7 erg/cm2 (75-2000
+keV) at 3 sigma c.l. These limits assume a perpendicular direction of
+the burst to the INTEGRAL pointing direction, optimal for SPI-ACS
+sensitivity. However the extent of the region with optimal response
+depends on the possible source spectrum: we perform a detailed
+calculation only for a cutoff powerlaw spectrum with a slope of -0.5
+and an Epeak = 500 keV: we estimate that 30% of the LIGO localization
+probability region is covered with a range of sensitivity from optimal
+for SPI-ACS (mentioned above) to 50% worse. About 2% of the LIGO
+localization in the field of view of IBIS and SPI is covered with at
+least factor 2 better sensitivity.
+
+The SPI/ACS light curves, binned at 50 ms, are derived from 91
+independent detectors with different lower energy thresholds (mainly
+between 50 keV and 150 keV) and an upper threshold at about 100
+MeV. The ACS response varies substantially as a function of the source
+incident angle with an optimal effective area of about 6000 cm2 at 1
+MeV.
+

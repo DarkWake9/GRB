@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7753
+SUBJECT: GRB 080520: Swift detection of a burst with optical afterglow
+DATE:    08/05/20 22:49:07 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+D. Grupe (PSU), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+A. P. Beardmore (U Leicester), J. R. Cummings (NASA/UMBC),
+C. Gronwall (PSU), S. T. Holland (CRESST/USRA/GSFC),
+J. A. Kennea (PSU), V. Mangano (INAF-IASFPA),
+K. M. McLean (GSFC/UMD), J. P. Osborne (U Leicester),
+D. M. Palmer (LANL), D. Perez (U Leicester), T. Sakamoto (NASA/UMBC),
+M. Stamatikos (NASA/ORAU), M. C. Stroh (PSU) and
+T. N. Ukwatta (GSFC/GWU) report on behalf of the Swift Team:
+
+At 22:20:24 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080520 (trigger=312047).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 280.192, -55.004 which is 
+   RA(J2000)  =  18h 40m 46s
+   Dec(J2000) = -55d 00' 13"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows two peaks
+with a duration of about 15 sec.  The peak count rate
+was ~700 counts/sec (15-350 keV), at ~2 sec after the trigger. 
+
+The XRT began observing the field at 22:22:04.3 UT, 99.5 seconds after
+the BAT trigger.  Using promptly downlinked data we find a bright uncatalogued X-ray
+source. The position, astrometrically enhanced by aligning promptly available
+UVOT field source  positions to the USNO-B1 catalogue, is RA,Dec = 280.19337, -54.99181
+(degrees) which is equivalent to:
+
+RA  (J2000.0) = 18 40 46.41
+DEC (J2000.0) = -54 59 30.5
+
+with an uncertainty of 2.8 arcsec (radius, 90% containment). 
+This position is 44.0 arcsec from the BAT position, inside the BAT
+error circle. 
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 106 seconds after the BAT trigger. There is a candidate
+afterglow in the rapidly available 2.7'x2.7' sub-image at
+
+RA  (J2000.0) =  18:40:46.41
+Dec (J2000.0) = -54:59:31.1
+
+with an estimated uncertainty of 0.6 arcsec (90%, radius). 
+The estimated magnitude is white = 19.8 +/- 0.1 mag. No correction has been
+made for Galactic extinction. 
+
+Burst Advocate for this burst is D. Grupe (grupe AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

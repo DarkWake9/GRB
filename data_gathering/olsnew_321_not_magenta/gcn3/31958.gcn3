@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31958
+SUBJECT: IPN triangulation of GRB 220426A
+DATE:    22/04/27 19:30:24 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the HEND/Mars-Odyssey team,
+
+D. Svinkin, D. Frederiks, A. Ridnaia, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team,
+
+and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, R. Starr,
+and A.S. Gardner on on behalf of the GRS-Odyssey GRB team,
+report:
+
+The very bright, long-duration GRB 220426A
+(BALROG localization: Biltzinger et al., GCN Circ. 31950;
+Swift/BAT-GUANO detection: Tohuvavohu et al., GCN Circ. 31954;
+Fermi-GBM detection: Malacaria and Meegan, GCN Circ. 31955)
+has been detected by Fermi (GBM trigger 672648596), INTEGRAL (SPI-ACS),
+Swift (BAT), Konus-Wind, and Mars-Odyssey (HEND), so far,
+at about 24591 s UT (06:49:51).
+The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+  ---------------------------------------------
+   RA(2000), deg                 Dec(2000), deg
+  ---------------------------------------------
+  Center:
+   338.692 (22h 34m 46s) -22.994 (-22d 59' 38")
+  Corners:
+   337.871 (22h 31m 29s) -22.760 (-22d 45' 38")
+   337.994 (22h 31m 59s) -23.010 (-23d 00' 37")
+   339.494 (22h 37m 59s) -23.176 (-23d 10' 35")
+   339.374 (22h 37m 30s) -22.943 (-22d 56' 35")
+  ---------------------------------------------
+The error box area is 1131 sq. arcmin, and its maximum
+dimension is 1.6 deg (the minimum one is 13.6 arcmin).
+The Sun distance was 64 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi GBM Final Real-time position (GCN Circ. 31955) and BALROG
+(GCN 31950) localizations.
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220426_T24589/IPN/
+
+Swift ToO has been approved.
+
+The Konus-Wind time history and spectrum will be given in a forthcoming
+GCN Circular.
+

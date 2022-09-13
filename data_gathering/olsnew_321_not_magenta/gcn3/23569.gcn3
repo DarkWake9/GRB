@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23569
+SUBJECT: GRB 181227A: Fermi GBM detection
+DATE:    18/12/27 22:06:13 GMT
+FROM:    Peter Veres at UAH  <veresp@gmail.com>
+
+E. Bissaldi (Politecnico & INFN Bari) and P. Veres (UAH)
+report on behalf of the Fermi GBM Team:
+
+"At 06:17:00.50 UT on 27 December 2018, the Fermi Gamma-Ray Burst Monitor
+triggered and located GRB 181227A (trigger 567584225 / 181227262).
+
+The on-ground calculated location, using the GBM trigger
+data, is
+
+RA, Dec = 24.2, -56.1
+
+(J2000 degrees), with an uncertainty of 1 degree (radius, 1-sigma
+containment,
+statistical only; there is additionally a systematic
+error which we have characterized as a core-plus-tail model, with 90% of
+GRBs having a 3.7 deg error and a small tail suffering a larger than 10 deg
+systematic error. [Connaughton et al. 2015, ApJS, 216, 32]).
+
+The angle from the Fermi LAT boresight at the GBM trigger time is 110
+degrees.
+
+The GBM light curve consists of two peaks
+with a duration (T90) of about 13 s (50-300 keV).
+The time-averaged spectrum from T0-0.3 s to T0+19.8 s is
+best fit by a Band function with Epeak = 85 +/- 1 keV,
+alpha = -0.33 +/- 0.02, and beta = -3.08 +/- 0.05.
+
+The event fluence (10-1000 keV) in this time interval is
+(6.85 +/- 0.05)E-5 erg/cm^2. The 1-sec peak photon flux measured
+starting from T0+8.9 s in the 10-1000 keV band
+is 110.5 +/- 1.2 ph/s/cm^2.
+
+
+The spectral analysis results presented above are preliminary;
+final results will be published in the GBM GRB Catalog."
+
+[GCN OPS NOTE(27dec18):  Per author's request, the alpha value
+in the third paragraph was changed from "0.33" to "-0.33".]
+

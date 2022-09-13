@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31513
+SUBJECT: Konus-Wind detection of an intermediate flare from SGR 1935+2154 on January 20
+DATE:    22/01/21 16:42:21 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, D. Frederiks, M. Ulanov, D. Svinkin,
+A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The bright burst from SGR 1935+2154
+(IPN triangulation: Kozyrev et al., GCN Circ. 31512)
+triggered Konus-Wind at T0=35475.962 s UT (09:51:15.962)
+on 2021 January 20.
+
+The light curve shows a single pulse with a sharp(<10 ms) rise
+and a total duration of ~1.2 s.
+The emission is seen up to ~200 keV.
+
+The Konus-Wind light curve of this burst is available at
+http://www.ioffe.ru/LEA/SGRs/220120_T35475/
+
+As observed by Konus-Wind, the burst
+had a fluence of 7.54(-0.19,+0.19)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.012 s,
+of 1.08(-0.11,+0.11)x10^-5 erg/cm2/s
+(both in the 20 - 500 keV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+1.024 s)
+is best fit in the 20 - 200 keV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = 0.17(-0.26,+0.27)
+and Ep = 43(-1,+1) keV (chi2 = 44/25 dof).
+
+The rather long duration of the event along with the
+large measured energy fluence put the burst in the class
+of "intermediate" SGR flares.
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

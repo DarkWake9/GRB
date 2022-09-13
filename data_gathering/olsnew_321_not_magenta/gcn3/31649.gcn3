@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31649
+SUBJECT: IPN triangulation of GRB 220222A
+DATE:    22/02/25 12:51:38 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the HEND/Mars-Odyssey team,
+
+A. Ridnaia, D. Frederiks, D. Svinkin, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team, and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, R. Starr,
+and A.S. Gardner on on behalf of the GRS-Odyssey GRB team,
+report:
+
+The long-duration GRB 220222A
+(Fermi-GBM detection: The Fermi GBM team, GCN Circ. 31630;
+Swift/BAT-GUANO detection: Tohuvavohu et al., GCN Circ. 31633)
+has been detected by Fermi (GBM trigger 667189282), Konus-Wind,
+Swift (BAT), and Mars-Odyssey (HEND), so far,
+at about 8477 s UT (02:21:17).
+The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+ ---------------------------------------------
+  RA(2000), deg                 Dec(2000), deg
+ ---------------------------------------------
+ Center:
+   32.630 (02h 10m 31s) -14.008 (-14d 00' 31")
+ Corners:
+   38.241 (02h 32m 58s) -24.843 (-24d 50' 33")
+   38.323 (02h 33m 18s) -25.232 (-25d 13' 56")
+   24.966 (01h 39m 52s)  +3.526 ( +3d 31' 33")
+   24.595 (01h 38m 23s)  +4.715 ( +4d 42' 55")
+ ---------------------------------------------
+The error box area is 3.6 sq. deg, and its maximum
+dimension is 32.8 deg (the minimum one is 6.7 arcmin).
+The Sun distance was 51 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi GBM Final Real-time localization (GCN Circ. 31630).
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220222_T08477/IPN/
+
+The time history and spectrum will be given in forthcoming
+GCN Circulars.
+
+This GCN is the corrected version of GCN 31645.
+We apologize for any confusion this may have caused.

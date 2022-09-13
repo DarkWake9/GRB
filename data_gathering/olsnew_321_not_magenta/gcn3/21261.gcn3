@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21261
+SUBJECT: Swift trigger 758168 is probably not an astrophysical source
+DATE:    17/06/22 10:51:54 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+S. W. K Emery (UCL-MSSL), P. A. Evans (U Leicester),
+A. Y. Lien (GSFC/UMBC), K. L. Page (U Leicester) and
+B. Sbarufatti (INAF-OAB/PSU) report on behalf of the Swift Team:
+
+At 10:32:44 UT, the Swift Burst Alert Telescope (BAT) triggered on noise
+near NGC5949 (trigger=758168).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 232.221, +64.871 which is 
+   RA(J2000) = 15h 28m 53s
+   Dec(J2000) = +64d 52' 14"
+with an uncertainty of 4 arcmin (radius, 90% containment, including 
+systematic uncertainty). As is typical for image triggers, 
+there is nothing in the real-time light curve. 
+
+The XRT began observing the field at 10:39:26.2 UT, 401.6 seconds after
+the BAT trigger. No source was detected in 391 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 404 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.03. 
+
+Given that this is a low significance detection in BAT (5.9 sigma) and that there is
+no XRT source, we think this is a non-astrophysical fluctuation in the BAT image
+that happens to be close the NGC5949 source. 
+

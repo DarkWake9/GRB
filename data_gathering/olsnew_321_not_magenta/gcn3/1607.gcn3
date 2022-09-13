@@ -1,0 +1,64 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1607
+SUBJECT: GRB021004: optical observations and predicted break time
+DATE:    02/10/08 19:58:09 GMT
+FROM:    Daniele Malesani at Brera Astro. Obs.  <malesani@merate.mi.astro.it>
+
+Malesani D., Covino S., Ghisellini G., (INAF-OAB), D. Lazzati (IOA,
+Cambridge, UK), Cecconi M., Fugazza D., Guerra J.C. (INAF-TNG), Masetti
+N. (IASF-CNR), Pian E. (INAF-OATs), on behalf of a larger Italian
+collaboration, report:
+
+On Oct 6.05 UT, we observed the optical counterpart of GRB 021004
+(Shirasaki et al., GCN 1565; Fox, GCN 1564) using the 3.6m TNG telescope
+in the Canary Islands, with an R and an I filter. With respect to the
+comparison star used by Fox and calibrated by Henden (GCN 1583), the
+source has the following magnitudes:
+
+UT     Band  Mag    Error
+6.062  R     19.72  0.04
+6.058  I     19.22  0.04
+
+Our values are in good agreement with the nearly simultaneous
+measurements of Holland et al. (GCN 1585), Bersier et al. (GCN 1586),
+and Halpern et al. (GCN 1593).
+
+
+To estimate the break time t_break of the light curve, we can use the
+correlation discovered by Frail et al. (2001, ApJ, 562:L55), upon which
+the standard energy reservoir result is based; this can be expressed
+through
+
+t_break = t_0 * (1+z) / E_iso
+
+where t_0 = 22(+34)(-16) days and E_iso is the isotropic energy in units
+of 10^52 ergs. The large error for t_0 originates from the intrinsic
+dispersion (a factor of 2) in the distribution of beaming-corrected
+energies (Frail et al. 2001). This result, however, holds independently
+of the unknown jet opening angle, external density and radiative
+efficiency.
+
+Using the HETE-2 fluence (Lamb et al., GCN 1600), and assuming a
+bolometric correction k = 1.3+-0.2 (calculated following Bloom, Frail &
+Sari 2001, AJ, 121:2879), we can predict the break time for this
+afterglow; we quote the results for the two reported values of the
+redshift z:
+
+1) z = 1.60 (Fox et al., GCN 1569):
+   E_iso = 3.1*10^52 ergs;
+   7.5 days < t_break < 47 days;
+   t_break_best = 18.8 days.
+
+2) z = 2.32 (Chornock & Filippenko, GCN 1605):
+   E_iso = 5.6*10^52 ergs;
+   5.3 days < t_break < 34 days;
+   t_break_best = 13.4 days.
+
+Given the slow average decline shown by this burst, this event should
+remain bright longer than usual. Further observations are hence
+encouraged.
+
+
+This message is citeable.
+
+

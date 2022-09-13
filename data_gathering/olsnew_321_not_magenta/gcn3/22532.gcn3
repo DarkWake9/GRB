@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22532
+SUBJECT: GRB 180325A: Swift detection of a burst with an optical counterpart
+DATE:    18/03/25 02:04:12 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+E. Troja (NASA/GSFC/UMCP), A. D'Ai (INAF-IASFPA), V. D'Elia (ASDC),
+J. A. Kennea (PSU), S. J. LaPorte (PSU), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL), M. H. Siegel (PSU)
+and A. Tohuvavohu (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 01:53:02 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 180325A (trigger=817564).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 157.432, +24.439 which is 
+   RA(J2000) = 10h 29m 44s
+   Dec(J2000) = +24d 26' 21"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a ~10 second
+FRED peak (~3000 counts/s) which is followed by brighter peak
+which reaches a maximum of ~11000 counts/sec (15-350 keV), at ~81
+after the trigger, for a total duration of ~120 seconds. 
+
+The XRT began observing the field at 01:54:16.2 UT, 73.4 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 157.4281, 24.4627 which is equivalent to:
+   RA(J2000)  = +10h 29m 42.74s
+   Dec(J2000) = +24d 27' 45.7"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 86 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 82 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	10:29:42.59 = 157.42746
+  DEC(J2000) = +24:27:48.5  =  24.46347
+with a 90%-confidence error radius of about 0.76 arc sec. This position is 3.5
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+18.45 with a 1-sigma error of about  0.15. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.02. 
+
+We note that the second peak seen by BAT occurs during the 
+early UVOT and XRT images, so these sample the prompt GRB
+emission. 
+
+Burst Advocate for this burst is E. Troja (eleonora.troja AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14396
+SUBJECT: Trigger 553930: Swift detection of a possible flare from HR 5110
+DATE:    13/04/19 17:54:44 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+W. H. Baumgartner (GSFC/UMBC), M. M. Chester (PSU),
+S. T. Holland (STScI), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), C. B. Markwardt (NASA/GSFC),
+F. E. Marshall (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 17:24:37 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible trigger from the RS CVn flare star HR 5110 
+(trigger=553930).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 203.650, +37.239 which is 
+   RA(J2000) = 13h 34m 36s
+   Dec(J2000) = +37d 14' 20"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with an image trigger, the BAT 
+light curve does not show any significant features. 
+
+The XRT began observing the field at 17:26:43.4 UT, 125.9 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+located at RA, Dec 203.70026, 37.18112 which is equivalent to:
+   RA(J2000)  = 13h 34m 48.06s
+   Dec(J2000) = +37d 10' 52.0"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). This
+location is 253 arcseconds from the BAT onboard position, outside the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. This position is 5.5 arcseconds from that
+of HR 5110. We note that the XRT data are highly affected by optical loading
+from the star, and therefore we cannot determine at this time if there 
+is any enhanced X-ray emission detected from this source. 
+
+UVOT took a finding chart exposure of 250 seconds with the UVW2 filter starting
+123 seconds after the BAT trigger. No new source is detected in the initial
+data products. Analysis of the UVOT data is complicated by the presence of the
+5th magnitude star HR 5110. 
+
+Since this was a low-significance (6.0 sigma) image trigger, it is not
+possible to tell from the rapidly available BAT data whether or not
+this is a real event.  Further information will be available once the
+full BAT data is available. 
+

@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27398
+SUBJECT: Konus-Wind observation of GRB 200311A
+DATE:    20/03/17 11:51:37 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 200311A
+(Fermi-GBM detection: The Fermi GBM team, GCN Circ. 27363;
+AGILE-MCAL detection: Ursi et al., GCN Circ. 27365;
+AstroSat-CZTI detection: Gupta et al., GCN Circ. 27371;
+IPN triangulation: Svinkin et al., GCN Circ. 27381)
+triggered Konus-Wind at T0=54974.737 s UT (15:16:14.737).
+
+The burst light curve shows a multipeaked structure
+which starts at ~T0-0.8 s and has a total duration of ~65.2 s.
+The emission is seen up to ~8 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 8.84(-0.76,+0.89)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+1.792 s,
+of 1.56(-0.28,+0.28)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+64.512 s)
+is best fit in the 20 keV - 8 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.93(-0.07,+0.08)
+and Ep = 854(-112,+142) keV (chi2 = 113/81 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.1
+(chi2 = 112/80 dof).
+
+The spectrum near the maximum count rate
+(measured from T0+0.256 to T0+7.168 s)
+is best fit in the 20 keV - 8 MeV range
+by a power law with exponential cutoff model
+with  alpha = -0.57(-0.08,+0.09)
+and Ep = 957(-98,+114) keV (chi2 = 88/80 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.2
+(chi2 = 86/79 dof).
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB200311_T54974/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

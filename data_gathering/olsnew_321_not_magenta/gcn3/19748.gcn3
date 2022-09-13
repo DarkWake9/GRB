@@ -1,0 +1,121 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19748
+SUBJECT: Global MASTER net follow up of IceCube-160731A
+DATE:    16/08/01 16:44:51 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, E.S. Gorbovskoy,   N.Tyurina, V.Kornilov,
+P.Balanutsa,  A.Kuznetsov, D.Kuvshinov, I.Gorbunov
+Lomonosov Moscow State University, Sternberg Astronomical Institute
+
+A. Tlatov, V.Senik, A.V. Parhomenko, D. Dormidontov
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+D.Buckley, S. Potter, A.Kniazev, M.Kotze
+South African Astronomical Observatory
+
+R.Rebolo, M.Serra, N.Lodieu, G.Israelian
+The Instituto de Astrofisica de Canarias
+
+R.Podesta, C.Lopez and F.Podest
+Observatorio Astronomico Felix Aguilar (OAFA),
+San Juan National University
+
+H.Levato and C.Saffe
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+O.Gres, K.Ivanov, S.Yazev, N.M.Budnev, O.Chuvalaev, V.A.Poleshchuk
+Irkutsk State University
+
+V.Yurkov, Yu.Sergienko, A.Gabovich, E.Sinyakov
+Blagoveschensk Educational State University, Blagoveschensk
+
+
+MASTER Global robotic Net (MASTER-Net: http://observ.pereplet.ru) received 
+IceCube HESE event IceCube-160731A  (AMON ICECUBE HESE 128290 6888376) at 
+2016-07-31 01:55:34.5 UT (30s after the EHE_event_time).
+
+At the alert time there was a day at MASTER-Amur, -Tunka, 
+-Kislovodsk. It was under the horizont at At MASTER-SAAO ( -42.52deg ) and 
+MASTER-IAC ( -14.50). MASTER-OAFA (Argentina) did not received alert due 
+to problems with internet.
+
+So we started observations at the following night.
+
+MASTER-Kislovodsk  robotic telescope (Kislovodsk, Russia) was pointed to 
+the  IceCube neutrino 160731 event (Taboada et al GCN 19743)  61241  sec 
+after trigger time at 2016-07-31 19:23:17 UT. The 5-sigma upper limit has 
+been about 19.0 on single (180 sec) and 19.8 on coadd (1260 sec ) 
+unfiletered images.
+
+MASTER-IAC  robotic telescope (Teide observatory, Canary Islands/Spain) 
+was pointed to the  IceCube neutrino 160731 event  68442  sec after 
+trigger time at 2016-07-31 21:25:16 UT. The 5-sigma upper limit has been 
+about 20.0 on single (180 sec) and 20.7 on coadd (2160 sec ) 
+unfiletered images.
+
+MASTER-OAFA  robotic telescope (Felix Aguilar observatory, Argentina) was 
+pointed to the  IceCube neutrino 160731 event  75655  sec after trigger 
+time at 2016-07-31 22:55:29 UT. The 5-sigma upper limit has been about 
+19.8 on single (180 sec) and 20.5 on coadd (3600 sec ) unfiletered images.
+
+No astrophysical OT detected inseide 2 square degrees around center AMON 
+ICECUBE HESE  128290 6888376 error-box.
+
+However we detected and found:
+
+
+1. MASTER OT J142038.73-002500.1 -  the one point-like 
+partical CCD event from AMON  ICECUBE HESE 128290 6888376  event error 
+box.
+
+
+    Date      Time       Expt.        Ra                Dec           Mag
+|---------------------|-------|-----------------|-----------------|-------
+   2016-07-31 19:26:57     180   (14h 20m 38.73s  -00d 25m 00.1s)    17.9
+
+
+2. The very bright NGC5584 galaxy  (12.8 mag) presented at Ice Cube error 
+box.
+Totaly there is 19 Galaxy up to 17 mag at Ice Cube error box.
+
+The  brightest  galaxy at error box  highlighted at out most deep  image:
+IAC images (lim = 20.7) is available at 
+http://master.sai.msu.ru/static/IceCube160731.png
+
+OAFA image (lim= 20.4) is available at
+http://master.sai.msu.ru/static/IceCube160731a.png
+
+3. We checked Swift X-ray sources (Evans et al., GCN 19747) inside this 
+IceCube error-box.
+
+The Source1 (215.69403d, -0.63777d) is a bright known star HD 125981 
+(A3IV, Skiff, Catalogue of Stellar Spectral Classifications), MASTER 
+doesnt' see variability.
+
+The Source2 (214.90209d, -0.14592d) : there is no OT in MASTER-Net 
+database up to 20.7 unfiltered optical limit. There is infrared source 
+(AllWise, etc) in 2.2".
+
+The Source3 (215.72267, -0.03074): there is a source with m_OT=19.0 
+without changhing with respect to MASTER-Net database. There is a USNO-B1 
+star with  B2=19.49, R2=18.93.This star is a GALEX source (possible 
+accretion to the white dwarf companion).
+
+The Source4 (215.72267, -0.60004): there is no source in MASTER images 
+(20.7 unfiltered optical limit in 68442sec after trigger) and in VIZIER 
+database (22m optical limit from POSS images).
+
+The Source 5(214.95898, -0.11266) .  There is a Sloan QSO in 4.1" , no 
+change with respect to  MASTER database.
+
+The Source 6 (214.61169, 0.24144). Known bright star (USNO-B1 B2=15.30, 
+R2=13.77,I=12.36), also a  Galex source, i.e. possible accretting white 
+dwarf)  without variability on MASTER database.
+
+Results: Source 1, 3, 6 not coonected with IceCube event.
+
+Swift XRT sources 2,4,5 are interested.
+
+The message may be cited.
+

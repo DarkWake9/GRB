@@ -1,0 +1,48 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4394
+SUBJECT: Konus-Wind observation of GRB 051221A
+DATE:    05/12/24 15:51:40 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The GRB 051221A (Swift-BAT trigger #173780;
+Parsons et al., GCN 4363; Cummings et al., GCN 4365;
+Norris et al., GCN 4388)
+triggered Konus-Wind at T0=6672.976 s UT (01:51:12.976).
+
+The Konus-Wind light curve consists of a soft weak precursor
+and the main episode with five ~15-ms peaks.
+The first peak at T0-16 ms to T0+10 is
+substantially softer than the others
+(there is no emission in the 380-1160 keV energy range).
+After T0+0.250 sec a weak soft emission is marginally seen only
+in the G1 (18-70 keV) range up to ~1 sec .
+
+As observed by Konus-Wind the burst had
+a fluence of 3.2(-1.7, +0.1)x10^-6 erg/cm2 and
+peak flux on 4-ms time scale  4.6(-2.5, +0.2)x10^-5 erg/cm2/sec
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the GRB (from T0 to T0+0.256 sec)
+is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-E/E0)
+with alpha = 1.08(-0.14, +0.13)
+and E0 = 436(-116, +165) keV (chi2 = 65/69dof).
+The peak energy Ep = 402(-72, +93) keV.
+The fitting by a single power law gives an unacceptable
+result: chi2 = 152/70dof (null hypothesis probability = 5.423E-08).
+
+All the quoted errors are at the 90% confidence level.
+
+Assuming z = 0.5465 (Berger and Soderberg, GCN 4384)
+and a standard cosmology model with H_0 = 70 km/s/Mpc,
+Omega_M = 0.3, Omega_\Lambda = 0.7,
+the isotropic energy release is E_iso ~2.5x10^51 erg,
+the maximum luminosity is (L_iso)_max ~5.5x10^52 erg/sec.
+
+The Konus-Wind light curve of this GRB can be seen
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB051221_T06672/
+

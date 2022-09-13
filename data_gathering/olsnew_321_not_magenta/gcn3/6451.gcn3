@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6451
+SUBJECT: GRB 070521: Keck imaging
+DATE:    07/05/22 07:49:54 GMT
+FROM:    Daniel Perley at U.C. Berkeley  <dperley@astro.berkeley.edu>
+
+D. A. Perley, J. S. Bloom (UC Berkeley), J. X. Prochaska (UC Santa 
+Cruz), S. Stanford (LLNL), M. Brodwin (JPL), and N. R. Butler (UCB) report:
+
+Starting at 13:21:22 UT (2007-05-21), we imaged the field of GRB 070521 
+(GCN 6431) in V and R band with the Keck I telescope (+ LRIS), in a 
+series of five exposures of 300 seconds each.  The host galaxy candidate 
+of Hattori et al. (GCN 6444, "S1") is clearly detected, as is a second 
+source ("S2") at the edge of the XRT error circle (Guidorzi et al., GCN 
+6431).  We also detect a third, extended source ("S3") further to the 
+south, not consistent with the preliminary XRT position reported by 
+Guidorzi et al. but consistent with our preliminary re-analysis of the 
+XRT data.
+
+The positions of these sources (J2000) are:
+
+S1:  16:10:38.562 +30:15:27.50
+S2:  16:10:38.734 +30:15:31.38
+S3:  16:10:38.754 +30:15:21.57
+
+The astrometric uncertainty is about 0.3" in each coordinate.
+
+Preliminary aperture magnitudes of these sources, calibrated with 
+respect to the SDSS magnitudes from Cool et al. (GCN 6432) using the 
+Lupton transform [1], are:
+
+S1:  V = 25.46 +/- 0.12 , I = 23.88 +/- 0.12
+S2:  V = 25.98 +/- 0.20 , I = 24.26 +/- 0.16
+S3:  V = 26.63 +/- 0.39 , I = 24.39 +/- 0.17
+
+These magnitudes are not corrected for Galactic extinction, which the 
+NED extinction calculator [2] estimates to be E(B-V) = 0.027, or A_V = 
+0.09, A_I = 0.05, in this direction.
+
+An image of the field is located at:
+
+http://lyra.berkeley.edu/~dperley/070521/070521keckI.png
+http://lyra.berkeley.edu/~dperley/070521/070521keckI_clean.png
+
+
+
+---
+[1] http://www.sdss.org/dr5/algorithms/sdssUBVRITransform.html#Lupton2005
+[2] http://nedwww.ipac.caltech.edu/forms/calculator.html
+

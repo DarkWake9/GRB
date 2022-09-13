@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8691
+SUBJECT: GRB 081222: Swift detection of a burst with a bright optical afterglow
+DATE:    08/12/22 05:28:23 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+D. Grupe (PSU), M. M. Chester (PSU), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), C. B. Markwardt (CRESST/GSFC/UMD),
+D. M. Palmer (LANL), J. L. Racusin (PSU), M. Stamatikos (NASA/ORAU)
+and M. C. Stroh (PSU) report on behalf of the Swift Team:
+
+At 04:53:59 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 081222 (trigger=337914).  Swift slewed immediately to the 
+burst.  The BAT on-board calculated location is 
+RA, Dec 22.751, -34.128 which is 
+   RA(J2000) = 01h 31m 00s
+   Dec(J2000) = -34d 07' 41"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multipeaked
+structure with a duration of about 20 sec.  The peak count rate
+was ~10000 counts/sec (15-350 keV), at 3 sec after the trigger. 
+
+The XRT began observing the field at 04:54:51.7 UT, 51.8 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright, fading,
+uncatalogued X-ray source located at RA, Dec 22.74067, -34.09556 which
+is equivalent to:
+   RA(J2000)  = 01h 30m 57.76s
+   Dec(J2000) = -34d 05' 44.0"
+with an uncertainty of 3.6 arcseconds (radius, 90% containment). This
+location is 120 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of
+2.24e+20 cm^-2 (Kalberla et al. 2005). 
+
+The initial flux in the 2.5 s image was 3.91e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 60 seconds after the BAT trigger. There is a
+candidate afterglow in  the rapidly available 2.7'x2.7' sub-image
+consistent with the XRT candidate.  A precise location and magnitude
+estimate are not available at this time. 
+
+This burst is consistent with the Fermi GBM burst   Trigger 251614441. 
+
+Burst Advocate for this burst is D. Grupe (grupe AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

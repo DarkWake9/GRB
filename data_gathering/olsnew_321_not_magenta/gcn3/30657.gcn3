@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30657
+SUBJECT: Konus-Wind detection of GRB 210818A
+DATE:    21/08/18 18:23:06 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, A.Lysenko, A. Ridnaia,
+D. Svinkin, A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The long GRB 210818A (Swift detection: Beardmore et al., GCN 30652;
+AGILE detection: Ursi et al., GCN 30654)
+triggered Konus-Wind (KW) at T0=3729.710 s UT (01:02:09.710).
+
+The burst light curve started at ~T0 with a bright, short (<0.5s),
+hard-spectrum initial pulse, which was followed, after a ~0.5 s interval,
+by a similarly bright and hard, multi-peaked emission, which gradually decays until ~T0+90 s.
+We also note a QPO-like behavior of the light curve in the interval
+from ~T0+1.6 s to ~T0+3.2 s, with the quasi period of ~0.21 s.
+
+The emission is seen up to ~7 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB210818_T03729/
+
+As observed by Konus-Wind, the burst had
+a fluence of (2.67 ± 0.12)x10^-4 erg/cm^2 and
+a 64-ms peak energy flux, measured from T0 + 0.128 s,
+of (5.12 ± 0.54)x10^-5 erg/cm^2/s (both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst (measured from T0 to T0+80.640 s)
+is best fit in the 20 keV - 20 MeV range
+by a power law with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.99(-0.03,+0.03) and Ep = 1107(-71,+78) keV (chi2 = 117/98 dof).
+Fitting this spectrum by a Band function yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.2 (chi2 = 117/97 dof).
+
+The spectrum near the peak count rate (measured from T0 to T0+0.256 s,
+that corresponds to the short initial pulse)
+is best fit in the 20 keV - 20 MeV range by the CPL model
+with alpha = -0.28(-0.13,+0.14) and Ep = 1247(-133,+47) keV (chi2 = 38/58 dof).
+Fitting this spectrum by a Band function yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.4 (chi2 = 38/57 dof).
+
+All the quoted errors are estimated at the 90% confidence level.
+All the presented results are preliminary.
+

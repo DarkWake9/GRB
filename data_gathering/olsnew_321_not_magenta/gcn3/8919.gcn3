@@ -1,0 +1,22 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8919
+SUBJECT: Swift_BAT_Lightcurve Notice for Trigger Number 344565 is not valid
+DATE:    09/03/01 04:57:18 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+Scott Barthelmy (GSFC) for the Swift Team:
+
+At about 02:38 UT a lone Swift-BAT Lightcurve notice
+was distributed with a trigger number 344565.
+This notice is not correct.  It is not due to a real GRB,
+nor to anything astrophysical.  It was the result
+of a combination of a BAT Subthreshold trigger [1] and
+a particular high error-rate stretch of TDRSS telemetry [2].
+
+We apologize for any inconvenience.
+
+[1] The BAT Subthreshold operational mode is being tested.
+Currently, this notice type is not being publically distributed.
+
+[2] The CRC error rate was 20 times the normal rate.
+

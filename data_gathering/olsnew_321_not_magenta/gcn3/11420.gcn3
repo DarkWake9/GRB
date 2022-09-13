@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11420
+SUBJECT: GRB 101117B: Swift/UVOT Observations of the Optical Afterglow
+DATE:    10/11/22 15:25:34 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <Stephen.T.Holland@nasa.gov>
+
+S. T. Holland (CRESST/GSFC/USRA) and
+C. W. Wolf (PSU)
+report on the behalf of the Swift UVOT team:
+
+      The Swift/UVOT observed the field of GRB 101117B starting 63 s
+after the BAT trigger (Wolf, et al., 2010, GCN Circ. 11411).  Settled
+observations started at 82 s.  We detect the optical afterglow
+(Holland, 2010, GCN Circ. 11412) in the U, B, and white filters.  The
+refined UVOT position is
+
+
+     RA (J2000)  11:32:00.54  =  173.00225 (deg)
+    Dec (J2000) -72:39:45.9   =  -72.66275 (deg)
+
+with an estimated uncertainty of 0.43 arcsec (radius, 90% confidence,
+statistical + systematic).  This is 1.16 arcsec northwest of the
+UVOT-enhanced XRT position (Goad, et al., 2010, GCN Circ. 11413).
+
+     Preliminary magnitudes, and 3-sigma upper limits for detecting a
+source in the finding charts and in the co-added images, are
+
+Filter      T_start   T_stop    Exp(s)      Mag   Err
+-----------------------------------------------------------
+white (fc)       82      232       147     17.81 0.08 
+    u (fc)      295      545       246     18.68 0.15
+
+    v           626      646        20    >17.9
+    b           551      571        20     18.22 0.27
+    u           700     1325        59    >19.1
+ uvw1           675     1300        78    >19.3
+ uvm2           825     1275        58    >18.7   
+ uvw2           601     1051        58    >19.0
+white           575      595        20     19.20 0.34
+-----------------------------------------------------------
+
+     The quoted magnitudes and upper limits have not been corrected
+for the expected Galactic extinction along the line of sight
+corresponding to a reddening of E_{B-V} = 0.38 mag (Schlegel, et al.,
+1998, ApJS, 500, 525).  All photometry is on the UVOT photometry
+system described in Poole et al. (2008, MNRAS, 383, 627).
+
+     The non-detection in the UVOT uvw1 filter, and the observed UVOT
+spectral energy distribution at 600 s, is consistent with GRB 101117B
+having a redshift of approximately z <= 3, although we can not rule
+out the non-detection in the ultraviolet being due to extinction in
+the host galaxy.  The white light curve exhibits a power-law decay
+with an index of alpha = -0.8 +/- 0.1 between 82 and 6005 s after the
+BAT trigger.
+
+

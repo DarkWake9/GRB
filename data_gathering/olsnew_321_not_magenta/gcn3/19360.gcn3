@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19360
+SUBJECT: Fermi/LAT search for counterpart to the IceCube event 67093193 (run 127853)
+DATE:    16/04/28 22:38:47 GMT
+FROM:    Giacomo Vianello at SLAC  <giacomov@slac.stanford.edu>
+
+G.Vianello (Stanford), J. D. Magill (UMD/GSFC), N. Omodei (Stanford), D.
+Kocevski (NASA/Goddard), M. Ajello (Clemson), S. Buson (NASA/GSFC), F.
+Krauss (ECAP/FAU), J. Chiang (SLAC/Kipac)
+
+report on behalf of the Fermi-LAT team:
+
+We have searched the Fermi Large Area Telescope data for a high-energy
+gamma-ray counterpart for the IceCube High Energy Starting Event (HESE)
+67093193, detected in run 127853 on 2016-04-27 05:52:32.00 UT (AMON GCN
+notice rev. 2, http://gcn.gsfc.nasa.gov/notices_amon/67093193_127853.amon.
+See http://gcn.gsfc.nasa.gov/doc/Public_Doc_AMON_IceCube_GCN_Alerts_v2.pdf
+for a description of HESE events and related GCN notices).
+
+The localization region was outside the LAT field of view at the time of
+the detection by IceCube (T0). It entered the LAT FoV at ~T0 + 6140 s and
+exited again at ~T0 + 8420 s. We ran the standard GRB search (Vianello et
+al. 2015) plus an ad-hoc search for a counterpart in this time interval and
+in 10 h intervals before and after the event. We found no significant
+transient candidate associated with the neutrino event.
+
+The Automated Science Processing search, which looks for variation in flux
+from known sources and for new transients on different time scales (Chiang
+2012), did not detect any transient or flaring source consistent with the
+IceCube event position during the six-hour intervals before and after the
+neutrino detection time, nor during the day before and after the event.
+
+The Fermi All-Sky Variability Analysis (FAVA), a photometric analysis
+currently designed to detect variable sources on one-week timescales, did
+not find any excess emission consistent with the most current
+localization.  Likewise, an examination of previous weeks analyzed by
+this technique reveals no long timescale flaring sources compatible with
+the localization region.
+
+The 90% containment provided by IceCube, which is ~36 arcmin wide, contains
+no LAT source from the Fermi Point Source catalog (3FGL, Acero et al.
+2015). The 5 closest sources are all blazars:
+
+Source name       | Distance | Association           | Blazar Type |
+--------------------------------------------------------------------
+3FGL J1603.7+1106 | 108'     | MG1 J160340+1106      | BL Lac      |
+3FGL J1608.6+1029 | 117'     | 4C +10.45             | FSRQ        |
+3FGL J1555.7+1111 | 147'     | PG 1553+113           | BL Lac      |
+3FGL J1552.1+0852 | 153'     | TXS 1549+089          | BL Lac      |
+3FGL J1546.0+0818 | 249'     | 1RXS J154604.6+081912 | BL Lac      |
+
+We note in particular that PG 1553+113 has been detected in high state on
+2016-04-27 in the 0.3-10 keV band by the Swift X-ray Telescope (B.
+Kapanadze, ATel #8998, http://www.astronomerstelegram.org/?read=8998),
+although we do not detect any significant change in flux above 100 MeV.
+
+The Fermi-LAT points of contact for this event are Giacomo Vianello (Burst
+Advocate, giacomov@stanford.edu) and Jeffrey D Magill (Flare Advocate,
+jmagill@umd.edu).
+
+The Fermi-LAT is a pair conversion telescope designed to cover the energy
+band from 20 MeV to greater than 300 GeV. It is the product of an
+international collaboration between NASA and DOE in the U.S. and many
+scientific institutions across France, Italy, Japan and Sweden.

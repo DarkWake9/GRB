@@ -1,0 +1,64 @@
+GRB971214 Optical Observations and Calibrations                     #016
+
+A.A. Henden, C.B. Luginbuhl and F.J. Vrba, U.S. Naval Observatory
+Flagstaff Station, report a single measure of the OT reported by Halpern
+et al. (IAUC 6788), obtained from a composite R-Band image with 80min
+total exposure spread over Dec 15.4535-15.5593 UT (midpoint Dec 15.5064) as
+R=21.67 +/- 0.10.  This is in effect a differential magnitude with
+respect to stars 1,5-9 listed in the table below.  We caution that this
+measure is approximate since we as yet have no calibrated color
+information for the OT to permit accurate transformation to the
+standard system; the error of +/- 0.10 mag includes only the photon
+statistical contribution and does not include any error introduced by
+the lack of the color correction.  We would like to here acknowledge
+the assistance of Jan van Paradijs at UAH/University of Amsterdam and
+J. Heise at SRON Utrecht, whose prompt dissemination of the SAX-WFC
+position allowed us to make this early observation.
+
+Local Standards in the GRB971214 Field
+
+We have further obtained calibrated BVR photometry for several objects
+near the OT position, and offer them as local "standards" for
+calibrating measures of the OT.  The "standards" are listed here with
+RA and DEC positions based on the GSC; we omit the RA hours (all 11)
+and Declination degrees (all +65).
+
+ Obj     RA (2000) DEC      B     err     V     err     R     err    I     err
+  1   56 29.896 12 16.29  17.651 0.024  16.835 0.011  16.370 0.009
+  2   56 25.832 11 36.29                              20.1   0.1
+  3   56 20.239 12 34.64
+  4   56 13.434 11 16.00
+  5   56 15.102  9 47.35  19.378 0.079  18.039 0.022  17.175 0.009
+  6   56  6.309 10  5.77  15.412 0.018  14.816 0.090  14.445 0.008
+  7   56 22.332  8 26.01                18.261 0.027  17.249 0.009
+  8   56 33.250  9 17.90  16.449 0.019  15.861 0.009  15.471 0.021
+  9   55 52.290 10 15.61                19.964 0.120  18.919 0.019
+
+NOTES: The object referred to as Ref1 by Dierks et al. (GCN Message 17
+Dec 1997 and IAUC 6791) is our #2; our measure of R~20.1 is an
+independent measure from the APM measure and is approximate because of
+a poor measure at V and therefore uncertain color correction, but
+nonetheless verifies their measure. We caution that their object Ref2
+is slightly non-stellar in our images and should probably be avoided as
+a local calibration source.  Castander et al. (IAUC 6791) report
+R=20.14 +/- 0.02 for our #2.  The source located approximately 26" SSW
+as noted by Rhodes et al. (GCN Message 17 Dec 1997 and IAUC 6793) is
+also our #2; their object 26" NE of the OT is our #1 (they report
+I=15.93 and 18.46 for #1 and #2, respectively); their object 55" NW is
+our #3.
+
+We plan to obtain further calibrated VR and I measures in this field,
+weather permitting, in the coming months.  A finding chart showing
+these local "standards" is posted on our ftp site at
+
+        ftp.nofs.navy.mil  (192.68.148.67)
+
+as file /pub/outgoing/fjv/grb971214/locstds.ps.gz.  We will update the
+photometric measures as we obtain and reduce more data, and will keep
+the latest data in the file /pub/outgoing/fjv/grb971214/locstds.dat.  We
+encourage observers to consult this file to put their measures on a
+standard system.
+
+This message is quotable in publications.
+
+C.B. Luginbuhl; cbl@nofs.navy.mil

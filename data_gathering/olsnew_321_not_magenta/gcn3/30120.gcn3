@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30120
+SUBJECT: Swift Detection of probable new Swift SGR J1555.2-5402
+DATE:    21/06/03 10:25:32 GMT
+FROM:    David Palmer at LANL  <dmopalmer@gmail.com>
+
+D.M. Palmer (LANL), P.A. Evans (U. Leicester), 
+N.P.M. Kuin (MSSL/UCL), and K.L. Page (U. Leicester) report on behalf of the Swift Team:
+
+At 09:45:46 UT on 2021-06-03, the Swift Burst Alert Telescope (BAT) triggered and
+located an unknown burst source (trigger=1053220).  Swift slewed immediately to the
+source.  The BAT on-board calculated location is 
+RA, Dec 238.819, -54.046 which is 
+  RA(J2000) = 15h 55m 17s
+  Dec(J2000) = -54d 02' 46"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT lightcurve shows a single-bin (64 ms) 
+spike with a nominal peak of 2000 counts per second. However, the BAT 
+trigger timescale was very short (8 ms) and moderately intense 
+(29 sigma in count rate), indicating a very short spike emission.
+
+The XRT began observing the field at 09:47:23.3 UT, 96.8 seconds after
+the BAT trigger. No source was detected in the 2.5-s promptly available
+image. We are waiting for the full dataset to detect and localise the
+XRT counterpart.
+
+UVOT took a finding chart exposure of 61 seconds with the White filter starting
+100 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image covers none of the
+XRT error circle.  The list of sources is typically complete to about 18.0 mag. 
+No correction has been made for the large expected extinction.
+
+The fast lightcurve shape, combined with the source's location near the 
+Galactic plane (lon, lat = 327.90, -0.34) leads us to the conclusion that 
+this is a new SGR, which we name Swift SGR J1555.2-5402 based on the BAT position.
+
+More information on this source will be provided once the ground pass
+data has been analyzed.
+
+

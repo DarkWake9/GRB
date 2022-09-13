@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29237
+SUBJECT: GRB 210104A: MITSuME Akeno optical observation
+DATE:    21/01/04 12:44:41 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, R. Adachi, M. Niwano, K. L. Murata, F. Ogawa, N.
+Nakamura, N. Ito, S. Ogata, H. Takamatsu, H. Hara, Y. Yatsu, and N.
+Kawai (TokyoTech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 210104A (The Fermi GBM team
+, GCN 29232, E. Troja et al., GCN 29233, B. Biltzinger et al., GCN 29234) with
+the optical three color (g', Rc, and Ic) CCD cameras attached to the
+MITSuME 50 cm telescope of Akeno Observatory, Yamanashi, Japan.
+The observation started at 2021-01-04 11:27:54 UT (55s after Swift BAT
+trigger). We detected the point source at the position consistent with
+the afterglow detected previously(E. Troja et al., GCN 29233, L. P.
+Xin et al., GCN 29235, Y.-D. Hu et al., GCN 29236).
+We measured the magnitudes as follows.
+
+T0+[sec] MID-UT T-EXP[sec] measured magnitudes
+------------------------------------------------------------------------------------------------
+55 11:28:24 60 g'=14.6+/-0.1, Rc=14.2+/-0.1, Ic=13.8+/-0.1
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al.,
+https://doi.org/10.1093/pasj/psaa091,
+https://arxiv.org/abs/2008.11486; https://github.com/MNiwano/Eclaire).
+

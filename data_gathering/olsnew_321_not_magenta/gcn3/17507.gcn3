@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17507
+SUBJECT: Trigger 632888: Swift detection of the magnetar 4U 0142+61
+DATE:    15/02/28 05:11:06 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. D. Barthelmy (GSFC), N. Gehrels (NASA/GSFC), J. A. Kennea (PSU),
+A. Y. Lien (GSFC/UMBC), F. E. Marshall (NASA/GSFC),
+A. Maselli (INAF-IASFPA), D. M. Palmer (LANL) and M. H. Siegel (PSU)
+report on behalf of the Swift Team:
+
+At 04:53:25 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located 4U 0142+61 (trigger=632888).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 26.571, +61.768, which is 
+   RA(J2000)  =  01h 46m 17s
+   Dec(J2000) = +61d 46' 04"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows 4 short spikes
+(<~0.1 s) over a total duration of about 20 sec.  The peak count rate
+was ~8000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 04:54:43.2 UT, 78.3 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+26.5966, 61.7519 which is equivalent to:
+   RA(J2000)  = +01h 46m 23.18s
+   Dec(J2000) = +61d 45' 06.8"
+with an uncertainty of 5.2 arcseconds (radius, 90% containment). This
+location is 72 arcseconds from the BAT onboard position, within the BAT
+error circle. This position is 7.3 arcseconds from a known X-ray
+source: 1SXPS J014622.3+614502. This source is in the Swift XRT 1SXPS
+catalogue with a mean 0.3-10 keV count-rate of 4.610 +/- 0.021 ct/sec;
+see http://www.swift.ac.uk/1SXPS/1SXPSJ014622.3%2B614502 for details of
+these previous observations. No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 90 seconds after the BAT trigger. No credible counterpart has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+This source has been previously detected by BAT on timescales of both
+minutes and milliseconds, most recently on February 19 of this year. 
+

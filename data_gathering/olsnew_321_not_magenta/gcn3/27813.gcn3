@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27813
+SUBJECT: GRB 200524A: MITSuME Akeno optical observation
+DATE:    20/05/25 07:18:07 GMT
+FROM:    Ogawa Futa at Tokyo Institute of Technology  <ogawa@hp.phys.titech.ac.jp>
+
+F. Ogawa, R. Hosokawa, R. Adachi, K. L. Murata, M. Niwano, N.
+Nakamura, Y. Yatsu, and N. Kawai (TokyoTech) report on behalf of the
+MITSuME collaboration:
+
+We observed the field of GRB 200524A (Fermi-LAT detection: Dirirsa et
+al., GCN #27797, Fermi-GBM detection: Pookalil et al., GCN #27809,
+Swift-XRT afterglow detection: Capalbi et al. GCN #27811, and others)
+with the optical three color (g', Rc, and Ic) CCD cameras attached to
+the MITSuME 50 cm telescope of Akeno Observatory, Yamanashi, Japan.
+
+The observation started on 13:07:01.89 UT. We detected a point source
+clearly in g' and Rc band, and marginally in Ic band at the position
+consistent with the afterglow reported previously (Ho et al., GCN
+#27799, Kumar et al., GCN #27800, Rumyantsev et al., GCN #27802,
+Sanwal et al., GCN #27803, Perley et al., GCN #27805, Kumar et al.,
+GCN #27806, de Ugarte Postigo et al., GCN #27807, Blazek et al., GCN
+#27810). We measured the magnitudes as follows.
+
+T0+[hour] MID-UT T-EXP[sec] measured magnitudes
+------------------------------------------------------------------------------------------------
+8.03 13:10:54 420 g'=19.6+/-0.3, Rc=19.5+/-0.3, Ic=19.4+/-0.5
+------------------------------------------------------------------------------------------------
+T0+: Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used GSC2.3 catalog for flux calibration. The magnitudes are
+expressed in the Vega system. The images were processed in real-time
+through the MITSuME GPU reduction pipeline (Niwano et al. ,in prep;
+https://github.com/MNiwano/Eclair)
+

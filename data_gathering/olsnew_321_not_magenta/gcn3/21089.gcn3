@@ -1,0 +1,16 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21089
+SUBJECT: LIGO/Virgo G275404 and G275659: SkyMapper Follow-up Observations
+DATE:    17/05/11 08:26:06 GMT
+FROM:    Seo-Won Chang at ANU  <seowon.chang@anu.edu.au>
+
+S.-W. Chang, A. Möller, C. A. Onken, C. Wolf (ANU) report on behalf of the SkyMapper Transient follow-up collaboration:
+We had carried out follow-up observations of the LIGO/Virgo G275404 and (LVC, GCN 20738) and G275697 (LVC, GCN 20763) with the SkyMapper 1.35-m telescope on the night of 2017-02-27 UTC and 2017-03-01/2017-03-05 UTC, respectively. Our imaging fields were automatically selected to encompass 60% of the probability region of the southern sky provided by LIGO collaboration at the time of the alert.
+
+The coverages of the observed fields are similar but slightly larger than the REM follow-up observations (Chile). For the first alert, we obtained 20 fields (~120 sq. degrees) at least twice in r filter. Delayed observations are due to bad sky conditions. We used our transient survey pipeline to discover candidate variable sources in difference images by implementing a machine-learning classifier (Scalzo et al. 2017). Except for candidate variable sources previously registered in the SkyMapper Transient Database (https://www.mso.anu.edu.au/skymapper/smt/), we found a new Type Ia supernova (SN 2017bzt) that was spectroscopically classified by the PESSTO collaboration:
+TNSname, Name, RA, DEC, Type, Redshift, Note
+
+SN 2017bzt, SMTJ13030970-3925172, 195.790404899, -39.421452087, SN Ia, 0.11, offset 2.76" from GALEXASC J130309.82-392514.3 (https://wis-tns.weizmann.ac.il/object/2017bzt).
+ And for the G275697 alert, 40 fields (~228 sq. degrees) were observed once or twice in ri filters over two observations on 2017-03-01 and 2017-03-05 UTC. Except for candidate variable sources previously registered in the SkyMapper Transient Database, we did not see any significant transient sources from the observed fields. One known Type II Supernova detected by ATLAS on 2017-02-19 was recovered with SkyMapper (SMT17bgo):
+TNSname, Name, RA, DEC, Type, Redshift, Note
+SN 2017blh, SMTJ10521059-2747516, 163.044138303, -27.7976683704, SN II, 0.0334, discovered by ATLAS (https://wis-tns.weizmann.ac.il/object/2017blh).

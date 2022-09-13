@@ -1,0 +1,74 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20801
+SUBJECT: LIGO/Virgo G275404: Additional iPTF Optical Transient Candidates
+DATE:    17/03/03 04:21:33 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+R. Lunnan (Caltech), S. Papadogiannakis (OKC), N. Blagorodnova (Caltech),
+A. A. Miller (Northwestern/Adler), L. P. Singer (NASA/GSFC), S. M. Adams
+(Caltech), C. Cannella (Caltech), S. B. Cenko (NASA/GSFC), R. Walters
+(Caltech), T. Barlow (Caltech), J. Rana (IUCAA), V. Bhalerao (IIT-B),  Y.
+Cao (UW), R. Laher (IPAC), F. Masci (IPAC) and M.M. Kasliwal (Caltech)
+
+report on behalf of the iPTF (intermediate Palomar Transient Factory) and
+GROWTH (Global Relay of Observatories Watching Transients Happen)
+collaborations:
+
+We have continued tiled observations of LIGO/Virgo G275404 (LVC, GCN
+20738) and LIGO/Virgo G275697 (LVC, GCN 20763) using the Palomar 48-inch
+Oschin telescope (P48). Including our first night of observations on
+2017-03-01 UTC (GCN 20791) and a second night on 2017-03-02, we have
+observed a total of 256 fields spanning 1747 square degrees. We estimate a
+20% chance that these fields contain the true location of G275404 and a
+25% chance that they containing the true location of G275697.
+
+During preliminary sifting through candidate variable sources using image
+subtraction by our IPAC (Masci et al. 2016) and NERSC (Cao et al. 2016)
+pipelines, a total of 115 candidates were saved in the fields imaged.
+Applying standard iPTF vetting procedures and removing transients with a
+history of previous variability, we flagged 9 additional optical transient
+candidates in the 90% localization contour of G275404, listed below, for
+further follow-up.
+
+
+iPTF17buf   98.583906       76.596292       05:24  19.59
+pstar=0.962; nuclear/stellar?
+iPTF17bug   97.67324        77.159053       05:24  18.6    0.0166  specz;
+nuclear
+iPTF17bur   295.1181        58.707877       11:38  19.14
+pstar=0.016; nuclear/stellar?
+iPTF17buu   114.100254      74.505262       05:33  19.92           Hostless
+in iPTF reference but faint counterpart seen in PanSTARRS.
+iPTF17buw   127.499818      73.935927       06:08  20.23
+pstar=0.948; nuclear/stellar?
+iPTF17bvo   133.140294      86.061384       06:11  19.55           nuclear;
+pstar=0.042
+iPTF17bvt   115.702547      74.553167       05:33  19.57
+nuclear/stellar?; looks like three-star blend in PS1
+iPTF17bwl   150.611516      8.822758        08:23  18.77   0.114   specz;
+also detected 2017-03-01; nuclear; SDSS QSO
+iPTF17bxk   149.643558      6.963137        08:23  19.99   0.077   specz;
+offset 13.5" from the center of 2MASX J09583513+0657389
+
+Two known transients detected by Pan-STARRS on 2017-02-16 also fall in this
+localization region and were recovered with iPTF : PS17bjk (iPTF17bez) and
+PS17bjd (iPTF17bfa).
+
+Positions are stated in the ICRS. Discovery times are noted in UTC hh:mm on
+2017-03-02. Magnitudes are based on image subtraction and in the Mould R
+filter, calibrated with respect to point sources in SDSS as described in
+Ofek et al. 2012.
+
+We caution that many candidates are outside the SDSS footprint and lack a
+secure star/galaxy classification for the underlying source. We flag these
+as "nuclear/stellar?". Where available, we provide machine-learning
+probability scores on whether the underlying source is a galaxy/star (0/1)
+(Miller et al. 2016).
+
+We encourage spectroscopic classification of these candidates, and
+highlight iPTF17bug as a local candidate (d < 200 Mpc).
+
+We are grateful to the Palomar crew (John Henning, Jeff Zolkower, Carolyn
+Heffner, Jamey Eriksen, Nick Ganciu) for their hard work in reviving a
+faulty declination encoder essential to collecting this dataset during the
+last two days of iPTF survey operations.

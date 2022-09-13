@@ -1,0 +1,28 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4523
+SUBJECT: GRB 060116: ROTSE-III Optical Limits
+DATE:    06/01/16 15:12:28 GMT
+FROM:    Eli Rykoff at U of Michigan/ROTSE  <erykoff@umich.edu>
+
+E.S. Rykoff (U Mich), S.A. Yost (U Mich), H. Swan (U Mich), report on 
+behalf of the ROTSE collaboration:
+
+ROTSE-IIIb, located at McDonald Observatory, Texas, responded to GRB 
+060116 (Swift trigger 177533, Campana, et al, GCN 4519), producing 
+images beginning 9.0 s after the GCN notice time. An automated response 
+took the first image at 08:38:46.0 UT, 78.8 s after the burst, under 
+fair conditions. We took 10 5-sec, 10 20-sec and 70 60-sec eposures. 
+These unfiltered images are calibrated relative to USNO A2.0 (R).
+
+Comparison to the DSS (second epoch) reveals no new sources within the 
+3-sigma BAT error circle, or in the XRT error circle (Campana, et al, 
+GCN 4522) for both single images and coadding into sets of 10. 
+Individual images have limiting magnitudes ranging from 15.6-16.9; we 
+set the following specific limits.
+
+start UT       end UT      t_exp(s)   mlim   t_start-tGRB(s)  Coadd?
+--------------------------------------------------------------------
+08:38:46.0   08:38:51.0         5     16.1           78.8       N
+08:38:46.0   08:39:55.0        69     17.7           78.8       Y
+08:40:07.6   08:44:50.7       283     18.0          160.4       Y
+

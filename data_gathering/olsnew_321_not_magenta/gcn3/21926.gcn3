@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21926
+SUBJECT: Konus-Wind observation of GRB 170921B
+DATE:    17/09/25 16:20:31 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 170921B
+(Fermi GBM detection: Bissaldi, GCN Circ. 21902;
+IPN Triangulation: Hurley et al., GCN Circ. 21918)
+triggered Konus-Wind at T0=14528.886 s UT (04:02:08.886).
+
+The burst light curve shows a single pulse which
+starts at ~T0-0.2 s and has a total duration of ~25 s.
+This pulse passes into a weaker decaying tail,
+which can be traced out to ~T0+164 s.
+The emission is seen up to ~4 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 5.44(-0.22,+0.22)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+0.704 s,
+of 6.75(-1.20,+1.21)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+22.528 s)
+is best fit in the 20 keV - 4 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.42(-0.05,+0.05)
+and Ep = 138(-6,+7) keV (chi2 = 76/72 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.3
+(chi2 = 76/71 dof)
+
+The spectrum near the maximum count rate
+(measured from T0+0.256 to T0+2.048 s)
+is best fit in the 20 keV - 4 MeV range
+by a power law with exponential cutoff model
+with  alpha = -0.33(-0.13,+0.14)
+and Ep = 318(-22,+25) keV (chi2 = 52/67 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.7
+(chi2 = 52/66 dof)
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB170921_T14528/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

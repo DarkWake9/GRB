@@ -1,0 +1,117 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13854
+SUBJECT: GRB 121011A: MASTER-Net bell light curve
+DATE:    12/10/11 21:27:48 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+E. Gorbovskoy, D.Denisenko, V.Krushinski (Ural), V. Lipunov, V.Kornilov, 
+D.Kuvshinov, A.Belinski, N.Tyurina, N.Shatskiy, P.Balanutsa, D.Zimnukhov,
+A.Kuznetsov,  V.V.Chazov, A.Sankovich
+Moscow Lomonosov State University, Sternberg Astronomical Institute,
+
+V.Yurkov, Yu.Sergienko, D.Varda, E.Sinyakov
+Blagoveschensk Educational State University, Blagoveschensk
+
+K.Ivanov, S.Yazev, N.M.Budnev, O.Gres, O.Chuvalaev, V.A.Poleshchuk
+Irkutsk State University
+
+E. Gorbovskoy, V. Lipunov, V.Kornilov, D.Kuvshinov, A.Belinski, N.Tyurina, 
+N.Shatskiy, P.Balanutsa, D.Zimnukhov, A.Kuznetsov,  V.V.Chazov, A.Sankovich, 
+D.Denisenko
+Moscow Lomonosov State University, Sternberg Astronomical Institute,
+
+A. Tlatov, A.V. Parhomenko, D. Dormidontov, V.Sennik
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+I.Zalozhnich,  A. Popov, A. Bourdanov
+Ural Federal University
+
+Hugo Levato and Carlos Saffe
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+Claudio Mallamaci, Carlos Lopez and Federico Podest
+Observatorio Astronomico Felix Aguilar (OAFA)
+
+Two MASTER II  robotic telescope (MASTER-Net: http://observ.pereplet.ru)
+located in Blagoveschensk and Tunka (Baykal lake) was pointed to the GRB 
+121011A (Racusin et al., GCNC 13848) 51 sec after Trigger time at
+2012-10-11 11:16:21.301 UT and 106 sec after Trigger time at
+2012-10-11 11:17:14 UT in four polarizations (Yurkov et al., GCNC 13845).
+
+Unfortunately the weather conditions were not very good at Tunka site.
+
+We detected OT (Racusin et al., GCNC 13848; Kuroda et al. GCNC 13845;
+Xin et al., GCNC 13847).
+
+The preliminary results of the photometry calibrated to 0.8*R+0.2*B from 
+USNO-B1.0:
+
+     UTC	   Tmean-Tgrb Exp,s.    mag	s/n   magerr  filter  Site  Coadd
+
+  11:16:21.0	56	10	>16.9	N/A	N/A	P/	Amur	No
+  11:16:21.0	56	10	>16.9	N/A	N/A	P\	Amur	No
+  11:16:21.0	96	80	>18.2	N/A	N/A	P/	Amur   Yes
+  11:16:21.0	96	80	>18.2	N/A	N/A	P\	Amur   Yes
+  11;18;29.0	200	40	>18.2	N/A	N/A	P/	Amur	No
+  11;18;29.0	200	40	>18.2	N/A	N/A	P\	Amur	No
+  11:19:20.429	255	50	17,38	5.9	0.18	P/	Amur	No
+  11:19:20.461	255	50	17,17	5.8	0.19	P\	Amur	No
+  11:20:21.37	321	60	16,89	8.9	0.12	P/	Amur	No
+  11:20:21.396	321	60	16,9	8.1	0.13	P\	Amur	No
+  11:21:32.001	397	70	16,77	11.1	0.10	P/	Amur	No
+  11:21:32.02	397	70	16,81	11.5	0.09	P\	Amur	No
+  11:22:52.945	487	90	16,59	14.7	0.07	P/	Amur	No
+  11:22:52.998	487	90	16,49	15.8	0.07	P\	Amur	No
+  11:24:33.654	599	110	16,42	18.7	0.06	P/	Amur	No
+  11:24:33.678	599	110	16,57	16.6	0.07	P\	Amur	No
+  11:26:34.121	729	130	16,55	17.6	0.06	P/	Amur	No
+  11:26:34.144	729	130	16,5	18.4	0.06	P\	Amur	No
+  11:28:54.944	885	160	16,69	18.1	0.06	P/	Amur	No
+  11:28:54.947	885	160	16,7	15.5	0.07	P\	Amur	No
+  11:31:45.672	1065	180	16,73	15.3	0.07	P/	Amur	No
+  11:31:45.706	1065	180	16,72	14.2	0.08	P\	Amur	No
+  11:35:11.589	1271	180	17,05	13.5	0.08	P/	Amur	No
+  11:35:11.606	1271	180	17,03	11.1	0.10	P\	Amur	No
+  11:38:37.563	1477	180	17,23	10.4	0.10	P/	Amur	No
+  11:38:37.586	1477	180	17,25	10.3	0.11	P\	Amur	No
+  11:42:12.62	1693	180	17,36	9.2	0.12	P/	Amur	No
+  11:42:12.636	1693	180	17,48	7.7	0.14	P\	Amur	No
+  11:45:38.297	1898	180	17,44	8.2	0.13	P/	Amur	No
+  11:45:38.319	1898	180	17,44	7.2	0.15	P\	Amur	No
+  11:49:03.877	2104	180	17,67	5.7	0.19	P/	Amur	No
+  11:49:03.906	2104	180	17,73	5.0	0.22	P\	Amur	No
+  11:52:29.982	2309	180	17,91	4.7	0.23	P/	Amur	No
+  11:52:30.004	2309	180	17,82	5.4	0.20	P\	Amur	No
+  11:55:55.714	2515	180	18,08	4.7	0.23	P/	Amur	No
+  11:55:55.710	2515	180	18,04	3.4	0.32	P\	Amur	No
+
+
+
+The mean (F/ - F\)/(F/ + F\) 100 < 2% during detection time.
+
+
+The light curve between 200 sec and 6600 sec is very simmetrical in
+log(F) - log (t) coordinates (like to bell) with parabolic low :
+
+    m - m_max  = - A (log t/t_max)^2     (1)
+
+
+A = 4.2 +/- 0.1
+
+
+
+where t is time from GRB trigger in sec, t_max = 633+-11s, m_max = 
+16.60+/-0.02 . We 
+stress that this formulae does not depend on redshift.
+
+The phenomenological formula discribed by Kocevski, D., Ryde, F., & Liang, E. 
+(2003, ApJ, 596, 389) may be discussed in this situation but after z 
+determination.
+
+The preliminary light curve is available here:
+http://master.sai.msu.ru/static/GRB/GRB121011_lc.gif
+
+The preliminary approximation (formula(1)) is available here:
+http://master.sai.msu.ru/static/GRB/GRB121011_lc_aproximation.png
+This message can be cited.
+

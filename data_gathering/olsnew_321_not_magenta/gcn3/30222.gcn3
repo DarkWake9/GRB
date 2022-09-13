@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30222
+SUBJECT: Swift-BAT Trigger 1055000: Swift detection of an outburst from 4U 1543-47
+DATE:    21/06/12 13:58:23 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@star.le.ac.uk>
+
+P. A. Evans (U Leicester), J. A. Kennea (PSU), N. J. Klingler (PSU),
+A. Y. Lien (GSFC/UMBC), K. L. Page (U Leicester) and
+M. H. Siegel (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 13:01:32 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located 4U 1543-47 (trigger=1055000).  This was a 19.1 minute long image
+trigger, after which Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 236.772, -47.682 which is 
+   RA(J2000) = 15h 47m 05s
+   Dec(J2000) = -47d 40' 55"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  No light curve near the trigger time
+is available at this moment. We are waiting for ground data for more information. 
+
+The XRT began observing the field at 13:23:51.8 UT, 1339.0 seconds
+after the BAT trigger. XRT found a bright X-ray source located at RA,
+Dec 236.7907, -47.6693 which is equivalent to:
+   RA(J2000)  = 15h 47m 9.77s
+   Dec(J2000) = -47d 40' 09.5"
+with an uncertainty of 10 arcseconds (radius, 90% containment). This
+location is 64 arcseconds from the BAT onboard position, within the BAT
+error circle. This position is 11.8" from the position of 4U 1543-47 (ATel #98). 
+Assuming a typical GRB power-law spectrum (NH=3e21 cm^-2, gamma=2), the
+catalogue entry for this object  is equivalent to a 0.2-10 keV flux of
+1.4e-11 erg cm^-2 s^-1; the flux in the 0.1 s XRT image was 1.88e-07
+erg cm^-2 s^-1. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 1347 seconds after the BAT trigger. The 2.7'x2.7'
+sub-image shows the 4U 1543-47 source with a white magnitude of 13.86
+and strong coincidence loss.  No correction has been made for
+extinction. 
+
+The position of the BAT and XRT sources are consistent with that of
+the High-Mass X-ray Binary 4U 1543-47 (Atel #98), thus we believe this
+to be an outburst of that source. 
+

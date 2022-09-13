@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13775
+SUBJECT: Swift Transient Swift J174510.8-262411: Swift-BAT refined analysis
+DATE:    12/09/16 22:39:03 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. R. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+E. E. Fenimore (LANL), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (GSFC/UMBC),
+G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+ 
+Using the data sets from the recent telemetry downlinks,
+we report on the two BAT triggers on the new galactic source Swift J174510.8-262411
+(BAT triggers 533836 and 533850) (Cummings, et al., GCN Circ. 13774).
+
+Trigger 533836: 
+The partial coding was 48%.
+Using the data set from T-41 to T+557 sec (T=09:16:06.34),
+the mask-weighted light curve shows the source to be active when it came 
+into the BAT FoV during a regular pre-planned slew.  The flux was constant
+at 0.06 ph/cm2/sec.
+The time-averaged spectrum from T_0 to T+303 plus T+387 to T+557 sec
+(there is an 84-sec hole in the downlinked data at this time)
+is best fit by a simple power-law model.  The power law index of the
+time-averaged spectrum is 1.78 +- 0.29.  
+All the quoted errors are at the 90% confidence level. 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/533836/BA/
+
+Trigger 533850:  
+The partial coding was 100%.
+Using the data set from T-239 to T+963 sec (T=12:36:22.34),
+the BAT ground-calculated position is RA, Dec = 266.335, -26.419 deg,
+which is 
+   RA(J2000)  =  17h 45m 20.4s 
+   Dec(J2000) = -26d 25' 09.5" 
+with an uncertainty of 2.6 arcmin, (radius, sys+stat, 90% containment).
+The mask-weighted light curve shows the source to be active when it
+came into the FoV at T-220 sec, and at a constant flux of 0.066 ph/cm2/sec
+out to T+950 sec.  Plus the source has been continuously visible
+in the BAT onboard imaging data since the initial trigger
+in all observations (as of 14:50 UT).
+The time-averaged spectrum from T+0.0 to T+64.0 sec (the trigger
+integration interval) is best fit by a simple power-law model.
+The power law index of the time-averaged spectrum is 1.92 +- 0.41.
+All the quoted errors are at the 90% confidence level. 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/533850/BA/
+

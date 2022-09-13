@@ -1,0 +1,79 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26005
+SUBJECT: ANTARES 191011A: AMON + ANTARES Identification of a High-Energy Neutrino + Fermi LAT Coincidence
+DATE:    19/10/14 13:52:26 GMT
+FROM:    Derek B. Fox at Penn State  <dbf11@psu.edu>
+
+C. F. Turley and D. B. Fox (for AMON https://www.amon.psu.edu/),
+M. Ageron (CNRS/CPPM), A.Coleiro (Univ. de Paris/APC), D. Dornic
+(CNRS/CPPM), & A. Kouchner (Univ. de Paris/APC ) (for ANTARES) report:
+
+"During operations of the AMON ANTARES + Fermi LAT neutrino +
+gamma-ray multimessenger alerts, at 2019 October 11 at 15:54:32 UT, we
+identified a coincidence between a single ANTARES neutrino and a Fermi
+LAT photon (false alarm rate of 1.21 per year). An alert was
+automatically generated and, after human review, distributed to AMON
+partner facilities at 2019 October 14 at 13:23:22 UT. We are now
+reporting this alert publicly. Alert details are as follows:
+
+    Date:  11 October 2019
+    Time:  15:54:32 UT
+    R.A.:  03:19:51.8 (J2000)
+    Dec.:  18:48:27 (J2000)
+    r_90:  0.40 deg (90%-containment)
+    FAR:   1.212 yr-1
+
+ANTARES 191011A is a high-energy neutrino-induced muon event detected
+by ANTARES (Ageron et al. 2011) with coordinates R.A. 51.02,
+Dec. +19.12 (J2000) at 15:57:34 UT, and a p-value based on the number
+of hits used for the reconstruction of 0.542, which relates to the
+deposited energy.
+
+The minimum false alarm rate coincidence from our analysis associates
+this neutrino with one Fermi LAT photon. The photon is detected at
+15:51:30 UT with coordinates R.A. 49.9403, Dec. 18.7982 and energy 8.6
+GeV.  The best-fit localization and uncertainty for a point source
+yielding the ANTARES 191011A neutrino and the photon is as quoted
+above. The false alarm rate for ANTARES neutrino + Fermi LAT gamma-ray
+coincidences of this quality or better is 1 per 0.83 years.
+
+Details of the ANTARES + Fermi LAT coincidence search procedures are
+provided in Ayala Solares et al. (AMON + ANTARES) 2019 (ApJ accepted,
+ArXiv:1904.06420). False alarm rates are established from 73,000 years
+of simulated observation and take into account the point spread
+functions of the associated neutrino + photons, the known backgrounds
+at this sky position, the energy of the neutrino, and the energies of
+the Fermi LAT photons (within broad ranges).
+
+This transient is near the Fermi source 3FGL J0319.8+1847, a blazar
+also known as RBS0413.
+
+The AMON alert for this coincidence is provided in GCN Alert format
+below."
+
+//////////////////////////////////////////////////////////////////////
+TITLE: GCN/AMON NOTICE
+NOTICE_DATE: Fri 11 October 2019 15:54:32.38 UT
+NOTICE_TYPE: Fermi-LAT ANTARES coincidence
+AMON_NUM: 1436255238
+SRC_RA: 49.9659d {+03:19:51.8} (J2000),
+49.2533d {+03:17:00.8} (1950)
+SRC_DEC: +18.8074d {+18:48:27} (J2000),
++18.6271d {+18:37:38} (1950)
+
+SRC_ERROR90: 0.40 [deg, stat, 90% containment]
+DISCOVERY_DATE: 18753 TJD;  284 DOY; 19/10/11 (yy/mm/dd)
+DISCOVERY_TIME: 57272 SOD {15:54:32.38} UT
+REVISION: 0
+DELTA_T: 363.24 [sec]
+SIGMA_T: 181.62 [sec]
+FAR: 1.21 [yr^-1]
+SUN_POSTN: 197.5417d {+13h 10m 10s} -7.4458d {-07d 26’ 45"}
+SUN_DIST: 146.52 [deg] Sun_angle= 9.768 [hr]
+MOON_POSTN: 9.6792d {+00h 38m 43s} -1.2442d {-01d 14’ 39"}
+MOON_DIST: 44.36 [deg]
+GAL_COORDS: 165.0713, -31.6601 [deg] galactic lon,lat of the event
+COMMENTS: ALERT FROM FERMI-LAT ANTARES COINCIDENCE STREAM
+
+
+

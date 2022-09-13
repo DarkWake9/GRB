@@ -1,0 +1,19 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12186
+SUBJECT: Recent GCN/Swift-BAT Slew Burst Position notices are due to playback debugging
+DATE:    11/07/20 22:21:45 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S.D. Barthelmy (GSFC) writes:
+
+To GCN Notice Recipients (socket-based & email-based):
+The recent series of four copies of the BAT Slew Burst position Notice
+(ID_NUM 575 and RA,Dec=222.720,+41.310) are all due to my debuging
+a problem in a related part of GCN.
+They are all playback copies of a previously real notice.
+I forgot to turn on the block2world filter for this notice type
+while doing the playback debugging.
+Please totally disregard the 4 notices in the last hour.
+My sincere apologies for the confusion and lost effort
+in chasing these repeated notices.
+

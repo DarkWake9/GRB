@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14701
+SUBJECT: Swift Trigger 556533 is not an astrophysical event
+DATE:    13/05/24 14:04:50 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+S. D. Barthelmy (GSFC), A. P. Beardmore (U Leicester),
+H. A. Krimm (CRESST/GSFC/USRA), and M. H. Siegel (PSU)
+report on behalf of the Swift Team:
+
+We conclude that subthreshold trigger #556533 (Beardmore, et al.,
+GCN Circ. 14699) was caused by a cosmic ray shower and chance
+coincidence and is not due to a GRB or other astrophysical phenomenon.
+
+Using the data set from T-240 to T+963 sec from the recent telemetry
+downlink, we report that the full Swift/BAT event data shows no
+significant features in the light curve.
+
+The Swift/XRT began settled observations of the field of trigger #556533
+155 s after the BAT trigger. There is nothing visible in the XRT
+data at the position of the BAT onboard error circle, or in the entire image.
+The XRT upper limit is 0.01 c/s in 614 s of PC mode data.
+
+The Swift/UVOT began settled observations of the field of trigger #556533
+155 s after the BAT trigger. No optical afterglow consistent with the BAT
+position is detected in the initial UVOT exposures. Preliminary 3-sigma
+upper limits using the UVOT photometric system (Breeveld et al. 2011,
+AIP Conf. Proc. 1358, 373) for the first finding chart (FC) exposure and
+subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+u_FC               155          405          246         >19.7
+v                  460          629           39         >18.3
+b                  410          724           55         >19.1
+u                  155          703          285         >19.7
+w1                 510          678           39         >18.2
+w2                 584          604           19         >17.9
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.85 in the direction of the burst
+(Schlegel et al. 1998).
+

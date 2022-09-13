@@ -1,0 +1,80 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14973
+SUBJECT: Fermi GRB 130702A: Swift XRT and UVOT observations
+DATE:    13/07/03 19:01:40 GMT
+FROM:    Andrea Melandri at INAF-OAB  <andrea.melandri@brera.inaf.it>
+
+P. D'Avanzo (INAF-OAB), B. Porterfield, D. N. Burrows, M. Siegel  
+(PSU), A. Melandri (INAF-OAB), P. A. Evans (Univ. Leicester) report on  
+behalf of the Swift team:
+
+The Fermi GBM and LAT instruments detected GRB 130702A at 00:05:23 UT  
+on July 2, 2013 (Fermi trigger 394416326; Cheung et al. 2013, GCN Circ  
+14971). Followup by the Palomar Transient Factory (PTF) located a  
+possible optical counterpart, iPTF13bxl (Singer et al. 2013, GCN Circ.  
+14967).  A subsequent TOO observation by Swift located a coincident X- 
+ray counterpart, making this a likely counterpart of GRB 130702A  
+(Singer et al. 2013, GCN Circ 14971). Here we report the results of  
+the analysis of Swift XRT and UVOT data for this object.
+
+We have analysed 3.4 ks of XRT data for this object,  from 89.1 ks to  
+95.7 ks after the Fermi/GBM trigger.  The data are entirely in Photon  
+Counting (PC) mode.  Using 3411 s of PC mode data and 5 UVOT images,  
+we find an enhanced XRT position (using the XRT-UVOT alignment and  
+matching UVOT field sources to the USNO-B1 catalogue): RA, Dec =  
+217.31166, +15.77388 which is equivalent to:
+
+RA (J2000): 14h 29m 14.80s
+Dec(J2000): +15d 46' 26.0"
+
+with an uncertainty of 1.5 arcsec (radius, 90% confidence). This  
+position is consistent with the optical counterpart reported by Singer  
+et al. 2013 (GCN Circ. 14967; see also Guidorzi et al. 2013, GCN Circ.  
+14968).
+
+The light curve displays variability consistent with a fading  
+behaviour. More observations are scheduled to confirm whether the  
+source is fading.
+
+A spectrum formed from the PC mode data can be fitted with an absorbed  
+power-law with a photon spectral index of 1.99 (+/-0.16). The best- 
+fitting absorption column is  6.3 (+3.4, -3.1) x 10^20 cm^-2, in  
+excess of the Galactic value of 1.7 x 10^20 cm^-2 (Kalberla et al.  
+2005). The counts to observed (unabsorbed) 0.3-10 keV flux conversion  
+factor deduced from this spectrum  is 3.6 x 10^-11 (4.2 x 10^-11) erg  
+cm^-2 count^-1.
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     6.3 (+3.4, -3.1) x 10^20 cm^-2
+Galactic foreground: 1.7 x 10^20 cm^-2
+Excess significance: 2.4 sigma
+Photon index:	     1.99 (+/-0.16)
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00032876.
+
+
+The Swift/UVOT began settled observations of the field of GRB 130702A  
+89111 s after the GBM detection.  A source consistent with the P48  
+position (Singer et al. 2013, GCN Circ. 14967) is detected in the  
+initial UVOT exposures.
+
+The preliminary UVOT position is:
+    RA  (J2000) =  14:29:14.77 = 217.31155 (deg.)
+    Dec (J2000) = +15:46:26.5  =  15.77403 (deg.)
+with an estimated uncertainty of 0.50 arc sec. (radius, 90% confidence).
+
+Preliminary detections using the UVOT photometric system (Breeveld et  
+al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white            89232        95967          3414         18.26 +/- 0.04
+
+The magnitudes in the table are not corrected for the Galactic  
+extinction due to the reddening of E(B V) = 0.04 in the direction of  
+the burst (Schlegel et al. 1998).
+
+
+This circular is an official product of the Swift team.
+

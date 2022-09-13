@@ -1,0 +1,97 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25445
+SUBJECT: LIGO/Virgo S190814bv: No radio counterpart detected in ASKAP observations
+DATE:    19/08/22 07:57:20 GMT
+FROM:    Dougal Dobie at VAST  <ddobie94@gmail.com>
+
+Dougal Dobie (University of Sydney/CSIRO), Adam Stewart (University of Sydney),
+Ziteng Wang (University of Sydney), Tara Murphy (University of
+Sydney),Emil Lenc (CSIRO),
+David Kaplan (UWM), Aidan Hotan (CSIRO), Kunal Mooley (NRAO, Caltech),
+Gregg Hallinan (Caltech),
+David McConnell (CSIRO), Julie Banfield (CSIRO), Wasim Raja (CSIRO),
+Matthew Whiting (CSIRO),
+Vanessa Moss (CSIRO), Igor Andreoni (Caltech) and the OzGrav, JAGWAR
+and GROWTH collaborations.
+
+We report observations of the localisation region of S190814bv (LVC,
+GCN 25324) with the
+Australian Square Kilometre Array Pathfinder (ASKAP) on 2019-08-16 at
+a central frequency
+of 943 MHz with a bandwidth of 288 MHz.
+
+We have observed a single 30 sq. deg. field centered on
+    RA = 00:50:37.5
+    Dec = -25:16:57.4
+which covers approximately 85% of the sky localisation from the
+LALInference skymap (GCN 25333),
+with a median rms of 34 uJy.
+
+We have searched for radio emission within 5 arcseconds of the
+location of the 124 optical transients
+reported on the Transient Name Server by the DECam-GROWTH and DESGW
+teams between 2019-08-16 and 2019-08-22
+as at 2019-08-22 03:00 UTC. We report coincident compact radio
+emission at the location of 14 of them:
+
+|       Name |         RA |       Dec | Int. Flux (uJy) | err. (uJy) | Notes |
+| AT 2019nqa | 00:52:39.1 | -25:00:15 |             258 |         30 |       |
+| AT 2019nqy | 00:56:23.2 | -24:41:11 |             393 |         29 |       |
+| AT 2019nqz | 00:46:46.5 | -24:20:12 |             870 |         30 |   (a) |
+| AT 2019nsr | 00:57:27.6 | -26:16:44 |             290 |         36 |   (c) |
+| AT 2019nto | 00:42:03.5 | -24:48:19 |             342 |         28 |   (c) |
+| AT 2019nuk | 00:54:57.9 | -26:08:03 |             233 |         28 |   (b) |
+| AT 2019nul | 00:55:16.4 | -26:56:35 |             204 |         28 |   (b) |
+| AT 2019nun | 00:56:48.7 | -24:54:31 |             377 |         29 | (b,c) |
+| AT 2019nuo | 00:56:03.9 | -23:18:15 |             388 |         36 |   (c) |
+| AT 2019nup | 00:55:04.3 | -26:46:12 |             446 |         33 |   (c) |
+| AT 2019nzj | 00:52:05.3 | -26:11:03 |             759 |         29 |       |
+| AT 2019nzn | 00:55:19.9 | -24:09:29 |             233 |         32 |   (c) |
+| AT 2019oay | 00:45:25.2 | -25:53:43 |             348 |         31 |       |
+| AT 2019ocs | 01:00:11.4 | -25:53:22 |             352 |         29 |       |
+
+(a) reported in GCN25391
+(b) reported in GCN25393
+(c) source possibly extended
+
+
+We have also performed a preliminary search for transients using TraP
+(Swinbank et al. 2015) comparing this
+observation to the Rapid ASKAP Continuum Survey (RACS, [1]) at a
+detection threshold of 0.95 mJy, corresponding
+to 5 times the lowest rms of the RACS image. We find one candidate
+transient located at
+    RA = 00:54:34.6 +/- 0.02 arcsec
+    Dec = -28:02:35.3 +/- 0.01 arcsec
+which we note is outside the 95% confidence region of S190814bv. We
+measure a flux density of 3.4 mJy in this
+observation and a local rms noise of 0.25 mJy in the 888 MHz RACS
+image observed on 2019-04-26. We measured an
+integrated flux density of 0.74 mJy in the RACS image using TraP. We
+also note that there is a radio source
+coincident with this location in the image from the Very Large Array
+Sky Survey (VLASS) observed on 2019-06-29
+with a flux density of ~1.6 mJy at 3 GHz.
+
+We conducted follow-up of this source with the Australia Telescope
+Compact Array (ATCA) on 2019-08-21 with two
+2048 MHz bands centered on 5.5 and 9 GHz. We measure preliminary flux
+densities of 2.88 +/- 0.03 mJy and
+2.93 +/- 0.02 mJy at 5.5 and 9 GHz, with respective in-band spectral
+indices of +0.17 and -0.37.
+
+Combining the near-contemporaneous ATCA and ASKAP measurements we find
+a flat spectral index. Based on these
+observations this candidate is likely to be an unrelated AGN.
+
+The ASKAP observation is publicly available on the CSIRO ASKAP Science
+Data Archive [2] under Scheduling Block ID 9602.
+
+Further analysis of this ASKAP observation is ongoing and further
+epochs are planned.
+
+Thank you to CSIRO staff for supporting these observations.
+
+[1] https://www.atnf.csiro.au/content/racs
+[2] https://casda.csiro.au/
+

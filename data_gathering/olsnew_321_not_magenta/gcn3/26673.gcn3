@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26673
+SUBJECT: LIGO/Virgo S200105ae: Candidates from the Zwicky Transient Facility
+DATE:    20/01/08 19:46:30 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+R. Stein (DESY), S. Anand (Caltech), M. Coughlin (UMinn.), S. Reusch (DESY), E. Kool (OKC), I. Andreoni (Caltech), E. C. Bellm (U. Wash), M. M. Kasliwal (Caltech), A. Kong (NTHU), H. Kumar (IIT-B), K. Deshmukh (IIT-B), V. Bhalerao (IIT-B), S. B. Cenko (NASA GSFC), L. Singer (NASA GSFC), T. Ahumada (UMD), G.C. Anupama (IIT-B)
+
+on behalf of the ZTF and GROWTH collaborations:
+
+We continued observing the localization region of the gravitational wave trigger S200105ae (LVC, GCN #26640) with the Palomar 48-inch telescope equipped with the 47 square degree Zwicky Transient Facility camera (ZTF, Bellm et al. 2019, Graham et al. 2019).
+
+The tiling was optimally determined and triggered using the GROWTH Target of Opportunity marshal (Coughlin et al. 2019a, Kasliwal et al. 2019b). Last night, we triggered target-of-opportunity observations in the g-band and r-band beginning at 2020-01-08 05:00 UT. With our triggered 180s observations, we covered 17.7% of the enclosed probability with a median depth of 20.2 mag.
+Based on the total triggered and serendipituous coverage in the last three nights since merger time, we covered 51.7% of the enclosed probability with a median depth of 19.7 mag.
+
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). Alert filtering and follow-up coordination was undertaken by the GROWTH Marshal system (Kasliwal et al. 2019). The ZTF alert stream was also queried using the Kowalski infrastructure (Duev et al., 2019) and with AMPEL (Nordin et al. 2019).
+
+Here we report candidates falling within the 95% probability region and detections separated by 20 minutes.
+
+±-------------±---------±------------±--------------±-------±-----±----------+
+| Name | IAU Name | RA | Dec | filter | mag | MJD |
+±-------------±---------±------------±--------------±-------±-----±----------+
+| ZTF20aaervoa | AT2020pp | 15:02:38.38 | +16:28:21.5 | r | 20.08| 58856.565 |
+| ZTF20aaertpj | AT2020pv | 14:27:52.03 | +33:34:09.7 | r | 19.55| 58856.574 |
+| ZTF20aaervyn | AT2020pq | 15:01:27.45 | +20:37:23.5 | r | 20.49| 58856.565 |
+| ZTF20aaerqbx | AT2020ps | 15:49:26.29 | +40:49:55.0	| r | 19.70| 58856.568 |
+| ZTF20aaerxsd | AT2020py | 14:00:54.27 | +45:28:21.8 | r | 19.97| 58856.572 |
+±-------------±---------±------------±--------------±-------±-----±----------+
+
+ZTF20aaervoa/AT2020pp is interesting because it shows a very red color (g-r=0.66) and appears 2.9" offset from a host galaxy with a SDSS spectroscopic redshift of z=0.045, implying an absolute magnitude of -16.4 mag in r-band. It also has an upper limit of g>20.4, obtained three nights ago on MJD 58853.539. The host galaxy distance is within 1-sigma of the GW distance estimate.
+
+ZTF20aaertpj/AT2020pv is interesting because of its red color (g-r=0.35) and its location in a galaxy with SDSS spectroscopic redshift of z=0.02875, resulting in an absolute magnitude of -15.9. It has an upper limit of g>20.8 three nights ago on MJD 58853.527. The host galaxy distance is within 2-sigma of the GW distance estimate.
+
+ZTF20aaervyn/AT2020pq is located in a galaxy with an SDSS spectroscopic redshift of z=0.115. It is on the outer periphery of the BAYESTAR map but we include it as the final map is not yet available. The transient has a red color (g-r=0.3), and an upper limit of g>20.5 at MJD 58853.539.
+
+ZTF20aaerqbx/AT2020ps is likely in a galaxy with SDSS photo-z of z~0.126 +/- 0.068. The transient has a blue color (g-r=-0.2), and an upper limit of g>20.4 at MJD 58853.536.
+
+ZTF20aaerxsd/AT2020py is likely in a galaxy with SDSS photo-z of z~0.111 +/- 0.035. The transient has a red color (g-r=0.33), and an upper limit of r>20.6 at MJD 58853.554.
+
+ZTF and GROWTH are worldwide collaborations comprising of Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).

@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16064
+SUBJECT: GRB 140301A: Zadko observatory - Gingin optical observations
+DATE:    14/03/31 22:30:21 GMT
+FROM:    Alain Klotz at IRAP-CNRS-OMP  <Alain.Klotz@free.fr>
+
+A. Klotz, D. Turpin (IRAP-CNRS-OMP), D. Macpherson (UWA/ICRAR), D. 
+Coward (UWA),
+M. Boer, B. Gendre, K. Siellez, H. Dereli, O. Bardho (UNS-CNRS-OCA),
+A. Williams (PO-UWA), R. Martin (PO-UWA)
+report:
+
+We imaged the field of GRB 140301A detected by SWIFT
+(trigger 589590) with the Zadko robotic telescope (D=100cm)
+located at the observatory - Gingin, Australia.
+
+The observations started 70.7s after the GRB trigger
+(40.5s after the notice). The elevation of the field was at
+26 degrees above horizon and weather conditions
+were good. Images were retrieved 30 days after their
+acquisitions due to a storage software problem.
+
+The first image is trailed with a duration of 60.0s
+(see the description in Klotz et al., 2006, A&A 451, L39).
+We do not detect any OT with a limiting magnitude of:
+t0+70.7s to t0+130.7s : Rlim = 18.4
+
+The second image is 30.0s exposure in tracking mode:
+t0+159s to t0+189s : Rlim = 19.7
+
+We co-added series of unfiltered exposures.
+The OT discovered by Kruehler et al. (GCNC 15899)
+is marginally detected 841 s (+/-255 s) after
+the trigger. More precisely the photometry is:
+
+=start= =end=
+  159 s   275 s  CRlim = 21.8
+  289 s   465 s  CRlim = 21.8
+  586 s  1096 s  CR = 21.7 +/- 0.4
+1217 s  1727 s  CRlim = 21.9
+
+This suggests this faint afterglow had culminated in
+brightness R=21.7 at t0+841s. Then it had declined
+to R=23.1 at t0+4.97h (Kruehler et al. GCN 15899)
+and to r'=23.8 at t0+11h (Elliott et al. GCNC 15904).
+This is compatible with a temporal decay of ~0.5.
+
+A photometry follow-up was performed with the Zadko
+telescope :
+
+=start= =end=
+20.4 h  20.8 h  CRlim = 22.2
+
+All magnitudes were estimated with the nearby NOMAD1
+stars and are not corrected for galactic dust extinction.
+

@@ -1,0 +1,139 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21930
+SUBJECT: IceCube-170922A: Swift-XRT observations
+DATE:    17/09/26 14:34:30 GMT
+FROM:    Azadeh Keivani at PSU  <keivani@psu.edu>
+
+A. Keivani (PSU), P.A. Evans (U. Leicester), J.A. Kennea (PSU),  D.B. Fox
+(PSU), D.F. Cowen (PSU), J.P. Osborne (U. Leicester), and F.E.
+Marshall (GSFC) report on behalf of the Swift-IceCube collaboration:
+
+Swift has observed the field of the IceCube EHE event, IceCube-170922A
+(revision 0, https://gcn.gsfc.nasa.gov/notices_amon/50579430_130033.amon),
+utilizing the on-board 19-point tiling pattern to cover a region
+centred on RA,Dec (J2000) = (77.2866d, +5.7537d), with a radius of
+approximately 0.8 degrees. Swift-XRT collected ~800 s per field of PC
+mode data per tile. The observations were taken between 00:09:16 UT
+and 22:42:08 UT on 2017 September 23 (i.e. from 11.7 ks to 92.9 ks
+after the neutrino trigger), and covered 2.1 square degrees.
+
+Nine X-ray sources are detected in the observations. Eight of these
+correspond to known X-ray emitters. One object (Source 6) is not
+catalogued in X-rays, however it lies 5.7" from PMN J0511+0538 which
+is a radio source. The X-ray source position is RA,Dec (J2000) =
+(77.8658d, +5.6420d) which is equivalent to:
+
+RA = 05h 11m 27.80s
+Dec = +05d 38' 31.2"
+
+with an uncertainty of 7.1" [90% confidence radius]. The mean XRT
+count rate is 6.9 (+3.7, -2.8) e-3 ct s^-1. More XRT follow-up
+observations have been requested.
+
+The 3-sigma upper limit on the count rate in the rest of the field is
+0.0093 ct s^-1, which corresponds to a 0.3-10 keV flux of 3.8e-13 erg
+cm^-2 s^-1 for a typical AGN spectrum (NH=3e20 cm^-2, Gamma=1.7).
+Overlaps between the different tiles account for 0.5 square degrees:
+in these regions the 3-sigma upper limit is 0.0057 ct s^-1,
+corresponding to 2.3e-13 erg cm^-2 s^-1.
+
+  Source 1:
+  =============
+    RA:          76.7226 ( = 05h 06m 53.42s) J2000
+    Dec:         +6.1154 ( = +06d 06' 55.4") J2000
+    Error:       +4.3 (arcsec, radius, 90% confidence).
+    Peak Rate:   5.6e-02 +/- 1.4e-02 ct/sec (0.3-10 keV)
+    Peak Flux:   2.3e-12 +/- 5.7e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J050653.3+060648 in the ROSAT/RASSBSC catalogue
+    Separation:  7.6" from the XRT source
+    Cat Rate:    1.2e-01 +/- 2.0e-02 ct/sec
+    Cat Flux:    1.8e-12 +/- 3.0e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    A SIMBAD object `TYC  110-755-1' is 3.6" away.
+
+  Source 2:
+  =============
+    RA:          77.3571 ( = 05h 09m 25.70s) J2000
+    Dec:         +5.6924 ( = +05d 41' 32.6") J2000
+    Error:       +4.2 (arcsec, radius, 90% confidence).
+    Peak Rate:   9.3e-02 +/- 2.1e-02 ct/sec (0.3-10 keV)
+    Peak Flux:   3.8e-12 +/- 8.6e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1SXPS J050925.9+054134 in the 1SXPS catalogue
+    Separation:  4.7" from the XRT source
+    Cat Rate:    3.9e-02 +/- 2.6e-03 ct/sec
+    Cat Flux:    1.7e-12 +/- 1.1e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    A SIMBAD object `QSO J0509+0541' is 4.8" away.
+
+  Source 3:
+  =============
+    RA:          77.6614 ( = 05h 10m 38.74s) J2000
+    Dec:         +5.9082 ( = +05d 54' 29.5") J2000
+    Error:       +5.1 (arcsec, radius, 90% confidence).
+    Peak Rate:   1.5e-02 +/- 4.1e-03 ct/sec (0.3-10 keV)
+    Peak Flux:   6.2e-13 +/- 1.7e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J051038.6+055432 in the ROSAT/RASSBSC catalogue
+    Separation:  3.8" from the XRT source
+    Cat Rate:    5.9e-02 +/- 1.4e-02 ct/sec
+    Cat Flux:    1.7e-12 +/- 4.0e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    A SIMBAD object `2MASS J05103912+0554261' is 6.7" away.
+
+  Source 4:
+  =============
+    RA:          77.1391 ( = 05h 08m 33.38s) J2000
+    Dec:         +5.5188 ( = +05d 31' 07.7") J2000
+    Error:       +5.5 (arcsec, radius, 90% confidence).
+    Peak Rate:   1.7e-01 +/- 1.3e-01 ct/sec (0.3-10 keV)
+    Peak Flux:   7.0e-12 +/- 5.3e-12 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  XMMSL2 J050833.1+053121 in the XMM-NEWTON/XMMSLEWCLN catalogue
+    Separation:  13.5" from the XRT source
+    Cat Rate:    6.9e-01 +/- 2.9e-01 ct/sec
+    Cat Flux:    6.1e-12 +/- 2.6e-12 erg cm^-2 s^-1 (0.3-10 keV)
+
+  Source 5:
+  =============
+    RA:          77.4264 ( = 05h 09m 42.34s) J2000
+    Dec:         +5.7826 ( = +05d 46' 57.4") J2000
+    Error:       +5.3 (arcsec, radius, 90% confidence).
+    Peak Rate:   1.7e-02 +/- 6.4e-03 ct/sec (0.3-10 keV)
+    Peak Flux:   7.0e-13 +/- 2.6e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1SXPS J050942.4+054655 in the 1SXPS catalogue
+    Separation:  2.0" from the XRT source
+    Cat Rate:    7.2e-03 +/- 1.2e-03 ct/sec
+    Cat Flux:    3.1e-13 +/- 5.2e-14 erg cm^-2 s^-1 (0.3-10 keV)
+    A SIMBAD object `HD  33326' is 2.1" away.
+
+  Source 7:
+  =============
+    RA:          77.1531 ( = 05h 08m 36.74s) J2000
+    Dec:         +5.2053 ( = +05d 12' 19.1") J2000
+    Error:       +6.0 (arcsec, radius, 90% confidence).
+    Peak Rate:   2.5e-02 +/- 7.0e-03 ct/sec (0.3-10 keV)
+    Peak Flux:   1.0e-12 +/- 2.9e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  XMMSL2 J050836.8+051224 in the XMM-NEWTON/XMMSLEWCLN catalogue
+    Separation:  4.7" from the XRT source
+    Cat Rate:    9.5e-01 +/- 4.1e-01 ct/sec
+    Cat Flux:    9.5e-12 +/- 4.1e-12 erg cm^-2 s^-1 (0.3-10 keV)
+    A SIMBAD object `V* V1848 Ori' is 5.8" away.
+
+  Source 8:
+  =============
+    RA:          77.2410 ( = 05h 08m 57.84s) J2000
+    Dec:         +6.4408 ( = +06d 26' 26.9") J2000
+    Error:       +5.9 (arcsec, radius, 90% confidence).
+    Peak Rate:   3.0e-02 +/- 8.1e-03 ct/sec (0.3-10 keV)
+    Peak Flux:   1.2e-12 +/- 3.3e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J050857.4+062633 in the ROSAT/RASSBSC catalogue
+    Separation:  9.3" from the XRT source
+    Cat Rate:    1.2e-01 +/- 1.8e-02 ct/sec
+    Cat Flux:    2.5e-12 +/- 3.9e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    A SIMBAD object `1RXS J050857.4+062633' is 7.9" away.
+Source 9:
+  =============
+    RA:          77.4368 ( = 05h 09m 44.83s) J2000
+    Dec:         +5.3639 ( = +05d 21' 50.0") J2000
+    Error:       +5.7 (arcsec, radius, 90% confidence).
+    Peak Rate:   1.4e-02 +/- 5.0e-03 ct/sec (0.3-10 keV)
+    Peak Flux:   5.7e-13 +/- 2.0e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J050944.9+052219 in the ROSAT/RASSFSC catalogue
+    Separation:  28.9" from the XRT source
+    Cat Rate:    2.1e-02 +/- 9.5e-03 ct/sec
+    Cat Flux:    2.3e-13 +/- 1.1e-13 erg cm^-2 s^-1 (0.3-10 keV)

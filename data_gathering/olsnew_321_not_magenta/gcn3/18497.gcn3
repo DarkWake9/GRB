@@ -1,0 +1,123 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18497
+SUBJECT: LIGO/Virgo G194575: iPTF Optical Transient Candidates
+DATE:    15/10/27 20:45:32 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+L. P. Singer (NASA/GSFC), M. M. Kasliwal (Caltech), R. Ferretti
+(Stockholm), S. B. Cenko (NASA/GSFC), T. Barlow (Caltech), Y. Cao
+Caltech), R. Laher (IPAC), and J. Rana (IUCAA) report on behalf of the
+intermediate Palomar Transient Factory (iPTF) collaboration:
+
+We have performed tiled observations of LIGO/Virgo G194575 using the
+Palomar 48-inch Oschin telescope (P48). The anti-sun probability island
+from the BAYESTAR localization was observable from Palomar for most of the
+night and weather conditions were good. Starting at 2015-10-23 03:26 UTC,
+about 14 hours after the GW trigger, we imaged 160 fields spanning 1114
+deg2. We estimate a 17% prior probability that these fields contain the
+true location of the source.
+
+Sifting through candidate variable sources using image subtraction by both
+our NERSC and IPAC pipelines, and applying standard iPTF vetting
+procedures, we flagged the following optical transient candidates for
+further follow-up:
+
+   name       RA       Dec     time  mag 
+--------- --------- --------- ----- -----
+iPTF15dkm 354.32375  -3.53254 03:39 18.66
+iPTF15dlc  16.14909  -2.54011 08:15 16.17
+iPTF15dld  14.55532  -3.66397 08:15 18.50
+iPTF15dlj  19.76198 +10.00134 09:22 18.14
+iPTF15dln  14.58195  +7.23471 09:15 18.81
+iPTF15dmk  21.22653  +0.61874 10:58 19.60
+iPTF15dmn   7.23638 -11.40550 09:07 18.37
+iPTF15dmq 353.87809  +6.45032 04:36 18.64
+iPTF15dni  21.26675  -4.70845 10:23 17.72
+iPTF15dkv   7.77118  -2.65228 07:08 18.84
+iPTF15dkn 357.54623  +0.09660 05:34 19.17
+iPTF15dkk 357.57171  -3.16660 05:38 19.43
+iPTF15dnh  14.90946 -14.19912 10:01 19.45
+iPTF15dlb  16.18149  +2.06164 08:25 19.21 = (PS15byt)
+iPTF15dmv  21.02204 -10.50270 10:20 19.85
+iPTF15dkt   7.20239  -2.70993 07:08 18.05 = (PS15coc)
+iPTF15dmt  97.71723 +39.31086 13:01 19.17
+iPTF15dmu  22.59586  -4.41018 10:25 19.35
+iPTF15dms  98.41981 +37.30400 13:00 19.97
+iPTF15dmp  16.28538  -9.74387 09:59 20.05
+iPTF15dmf  15.40890  -3.94111 08:15 18.48
+iPTF15dmb  18.31767  -6.51451 10:09 19.45
+iPTF15dlz  22.25290  -4.36629 10:25 19.22
+iPTF15dlv  20.54769  -2.00612 10:26 19.18
+iPTF15dlu  22.85842  -8.89533 10:21 19.40
+iPTF15dlr  18.56416  +3.32916 10:03 19.14 (= PS1-14aen)
+iPTF15dlp  15.49983  +9.50920 09:14 19.11
+iPTF15dlg   3.68611 -11.70795 09:05 19.10
+iPTF15dla  14.73492  +1.74302 08:25 18.28
+iPTF15dkj 359.67964  -7.68101 05:41 19.47
+iPTF15dku   2.86523  -6.42730 07:11 17.74 (= LSQ15bjb, PS15cog)
+iPTF15dmr   6.96306 -11.47793 09:05 18.82 (= PS15bww)
+iPTF15dmj  21.09391  +3.58754 11:02 16.10 (= PS15cku)
+iPTF15dls  19.93774  +4.08302 10:03 19.34
+iPTF15dlo  18.11055  +5.07488 09:26 19.17
+iPTF15dlm  15.73540  +5.54822 09:17 18.90
+iPTF15dll  16.22272  +4.76531 09:17 17.63 (= PS15byu)
+iPTF15dli  18.13482 +10.49597 09:22 19.68 (= PS15buq)
+iPTF15dlk  17.44493 +13.30794 09:21 16.34
+iPTF15dko   3.41903  +8.90473 06:51 19.34
+iPTF15dma  22.39782 -15.50700 10:16 19.93
+iPTF15dlx  22.44977 -15.14902 10:16 19.39
+
+Where relevant, we have given equivalent designations by Pan-STARRS
+(Smartt et al., GCN 18451, GCN 18484) and La Silla-QUEST (Rabinowitz et
+al., GCN 18473).
+
+The following sources are coincident with galaxies with redshifts
+(spectroscopic or photometric) < 0.1: iPTF15dkm, iPTF15dlc, iPTF15dld,
+iPTF15dlj, iPTF15dln, iPTF15dmn, iPTF15dni, iPTF15dkv, iPTF15dkn,
+iPTF15dkk, iPTF15dnh.
+
+iPTF15dlc may be a variable star superimposed on a nearby galaxy.
+
+iPTF15dni appeared to fade by 0.5 mag in one day, but its position in the
+nucleus of its host galaxy makes the host-subtracted photometry
+questionable. We will obtain further follow-up to confirm the fading.
+
+iPTF15dmk and iPTF15dmq lacked any plausible host galaxy or quiescent
+counterpart in SDSS or archival iPTF images, but showed no significant
+intra-night photometric evolution.
+
+iPTF15dlb (our designation of PS15byt) is a known nova in the galaxy IC
+1613 (Williams & Darnley, ATel #8061).
+
+The following candidates coincided with galaxies with redshifts > 0.1:
+iPTF15dmv, iPTF15dkt.
+
+The following sources had no known redshift but showed unremarkable
+photometric evolution: iPTF15dmt, iPTF15dmu, iPTF15dms, iPTF15dmp,
+iPTF15dmf, iPTF15dmb, iPTF15dlz, iPTF15dlv, iPTF15dlu, iPTF15dlr,
+iPTF15dlp, iPTF15dlg, iPTF15dla, iPTF15dkj.
+
+The following sources were previously known SNe or AGNs: iPTF15dku,
+iPTF15dmr, iPTF15dmj, iPTF15dls, iPTF15dlo, iPTF15dlm, iPTF15dll,
+iPTF15dli, iPTF15dlk, iPTF15dko.
+
+iPTF15dku is our designation for LSQ15bjb. We report the following
+additional photometry:
+  -377.25 days: R < 20.21
+    +0.71 days: R = 18.62 +/- 0.13
+    +1.71 days: R = 18.15 +/- 0.15
+
+In summary, we encourage further follow-up of iPTF15dkm, iPTF15dld,
+iPTF15dlj, iPTF15dln, iPTF15dmn, iPTF15dni, iPTF15dkv, iPTF15dkn,
+iPTF15dkk, iPTF15dnh, iPTF15dmk, iPTF15dmq.
+
+Positions are stated in the ICRS. Times are in UTC. Magnitudes are based
+on image subtraction; they are in the Mould R filter and in the AB system,
+calibrated with respect to point sources in SDSS as described in Ofek et
+al. (2012, http://dx.doi.org/10.1086/664065).
+
+The diagram https://gracedb.ligo.org/apiweb/events/G194575/files/iptf.pdf
+shows the locations of our candidates and the P48 fields in relation to
+the LIGO/Virgo localization.
+
+

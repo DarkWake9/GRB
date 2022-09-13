@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5890
+SUBJECT: Konus-Wind observation of GRB 061201
+DATE:    06/12/02 17:42:07 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The short hard GRB 061201 (Swift-BAT trigger #241840;
+Marshall et al., GCN 5881; Markwardt et al., GCN 5882)
+triggered Konus-Wind at T0=57514.558 s UT (15:58:34.558).
+
+As observed by Konus-Wind it had a duration of ~0.6 s,
+fluence 5.33(-4.44, +0.70)x10^-6 erg/cm2,
+the 16-ms peak flux measured from T0+0.528
+3.19(-2.72, +0.72)x10^-5  erg/cm2/s
+(both in the 20 keV - 3 MeV energy range).
+
+The time-integrated spectrum of the GRB
+(from T0 to T0+8.448 s) is well fitted (in the 20 keV - 3 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-(2-alpha)*E/Ep)
+with alpha = 0.36(-0.65, +0.40)
+and Ep = 873(-284, +458) keV (chi2 = 79/67 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB061201_T57514/
+

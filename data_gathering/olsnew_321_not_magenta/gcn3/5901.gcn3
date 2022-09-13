@@ -1,0 +1,73 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5901
+SUBJECT: GRB 060926: MASTER: discovery of the optical flare
+DATE:    06/12/07 17:36:35 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+V. Lipunov, V.Kornilov, D.Kuvshinov, N.Tyurina, A.Belinski, E.Gorbovskoy,
+A.Krylov, G.Borisov, A.Sankovich, V.Vladimirov, P.Gritsyk
+
+Sternberg Astronomical Institute, Moscow Union 'Optic'
+
+MASTER  robotic system (http://observ.pereplet.ru)
+responded to GRB060926 (Holland  et al., GCN Circ 5612) under the good 
+conditions (V. Lipunov et al., GCN Circ 5632).
+
+The first image was started at 2006-09-26 16:49:57 UT, 76 s  after the GRB
+time (355 mm telescope, 6 square degrees FOV, 2.1'' per pix, CCD Alta U16).
+The unfiltered image is calibrated relative to USNO A2.0 (0.8 R + 0.2 B).
+We find (Lipunov et al., GCN5632) faint OT on the first and on  the 
+coadded images at position:
+
+aplha = 17 35 43.66
+dec   = 13 02 18.3
+err = +- 0.7''
+
+wich coincided with the Holland  et al.(GCN Circ 5612) OT position.
+
+  We have refind analysis of the images. We discovery optical
+flare around 500-700 s after the GRB time (see picture):
+
+Start    Mean   Exposure        Magnitude            Flux, 
+time     time     time                          erg/(sm2*sec*eV)
+
+  76 s     91 s     30 s         17.3+-0.3        (1,4+-0,3)E-13 
+150 s    165 s     30 s     	18.5+-0.3        (4,6+-1,1)E-14 
+165 s	 343 s    5x30 s        19.3+-0.3        (2,2+-0,5)E-14 
+255 s    432 s    5x30 s        18.9+-0.3	 (3,2+-0,8)E-14 
+343 s	 519 s    5x30 s        18.5+-0.3    	 (4,6+-1,1)E-14 
+432 s	 608 s    5x30 s        18.3+-0.3    	 (5,8+-1,3)E-14
+519 s	 707 s    5x30 s        18.4+-0.3        (5,1+-1,2)E-14 
+608 s	 804 s	  5x30 s        18.7+-0.3	 (3,9+-0,9)E-14 
+707 s	1001 s    5x30 s        20.0+-0.3    	 (1,2+-0,3)E-14 
+804 s	1200 s    5x30 s        20.1+-0.3    	 (1,1+-0,3)E-14 
+901 s	1298 s    5x30 s      > 20.1+-0.3    	<(1,1+-0,3)E-14
+
+The light curve is available at 
+http://observ.pereplet.ru/images/GRB060926/light_curve_new.jpg .
+
+Between 91s and 255s a power-law decline with a temporal index 
+of -1.40+/-0.24 is estimated. Between 707s and 1200s a power-law decline 
+with a temporal index of -3.30+/-0.70 is estimated. After 1000 s  a 
+power-law decline with a temporal index 0.73 +-0.1 was observed
+(A. Stefanescu et al., GCN 5623).
+
+We remember that X-ray flare in GRB 060926  was descovered
+by XRT team (M. Perri et al., GCN 5622).
+
+The X-ray spectrum covering the time period from T+67s to T+878s is well
+fit by an absorbed power-law with a photon index of 2.1(+/-0.3) and column
+density of (2.2+/-0.9)e21 cm**-2 (M. Perri et al., GCN 5622). They note 
+the Galactic column density in the direction of the source is 7.3e20 
+cm**-2 .
+This means that absorbtion  is about 1 magnitude in our band.
+The optical-xray data is well fit by power-low with a photon index of 
+1.7+-0.2 during all our time observation.
+
+
+We thanks to Dr.K.A.Postnov for usefull discussion and comments.
+
+This work is supported by RFFI  04-02-16411 grant.
+This message can be cited.
+Mailto: lipunov@sai.msu.ru
+

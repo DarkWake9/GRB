@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4586
+SUBJECT: GRB 060124: Extremely long burst, Swift-BAT refined analysis
+DATE:    06/01/25 01:02:04 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+E. Fenimore (LANL), L. Barbier (GSFC), S. Barthelmy (GSFC), 
+J. Cummings (GSFC/NRC), N. Gehrels (GSFC), D. Hullinger (GSFC/UMD),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), T. McMahon (Langston U.), 
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/NRC), 
+G. Sato (ISAS), J. Tueller (GSFC), N. White (GSFC) 
+on behalf of the Swift-BAT team:
+
+Using the data set from T-50.0 to T+1000.0 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 060124 (trigger #178750) 
+(Holland, et al., GCN 4570).  The BAT ground-calculated position is 
+(RA,Dec) = 77.128, 69.724  deg {5h 8m 30.6s, 69d 43' 27.9"} (J2000)
++- 1.6 arcmin, (radius, sys+stat, 90% containment).  The partial coding 
+was 62%.
+
+The BAT mask-weighted lightcurve has a precursor from T-3 to T+13 sec, 
+then three major peaks: T+520 to T+550 sec, T+560 to T+580 sec (with the 
+largest flux), and T+690 to T+710 sec. Thus the total duration is one of 
+the longest recorded by BATSE or Swift. 
+ 
+The spectrum of the main peaks appears slightly harder than the precursor, 
+but so far we have detailed data for the precursor only.  The spectrum of 
+the precursor from T-1.2 to T+13.2 is best fit by a simple power-law model 
+with a photon index of 1.89 +- 0.19.  The fluence of the precursor emission 
+in the 15-150 keV band is (4.6 +- 0.5) x 10^-07 erg/cm2. The peak flux in 
+the 15-150 keV band was about 4.5 +- 0.5 counts/cm2/sec at T+570.  
+
+We have made a preliminary estimate of the total fluence in the BAT
+energy range for this burst by scaling the fluence of the precursor 
+by the mask-weighted counts ratio between the entire burst and the 
+precursor.  This estimated total fluence is ~7 x 10^-6 erg/cm2 in the 
+15-150 keV band. 
+
+

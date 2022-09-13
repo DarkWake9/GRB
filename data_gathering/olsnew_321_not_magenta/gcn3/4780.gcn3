@@ -1,0 +1,36 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4780
+SUBJECT: Preliminary refined analysis of the Swift-BAT trigger 191157
+DATE:    06/02/18 21:12:56 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+L. Barbier (GSFC), S. Barthelmy (GSFC), J. Cummings (GSFC/NRC),
+G. Cusumano (IASF-Pa INAF), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (GSFC/UMD), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), 
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/NRC),
+G. Sato (ISAS), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using a partial data set from T-60 to T+116 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 060218 (trigger #191157)
+(Cusumano, et al., GCN 4775).  The BAT ground-calculated position is
+RA,Dec = 50.380,+16.904 deg {03h 21m 31.1s, 16d 54' 14.8"} (J2000)
++- 2.6 arcmin, (radius, sys+stat, 90% containment).  The partial coding was 88%.
+ 
+The mask-weighted lightcurve is weak and flat from T-60 to T+120 sec
+(all the data we have so far).  Nothing can be said about T90.
+Since there is obvious emission prior to T-60 and after T+116,
+we are not quoting the usual spectral fit values at this time.
+We note that Swift completed a Pre-Planned Slew 8 sec prior to the beginning
+of the image trigger integration which resulted in trigger 191157,
+and therefore BAT was unable to trigger prior to this slew on this source.
+We also note that all the emission is in the 15-50 keV band.
+
+There is also a detection at this location at the same flux level at T+900 sec.
+And there is a possible 5.6-sigma detection at the same location on Jan 17, 2006
+(a month earlier).  While we can rule out that this is a chance fluctuation,
+it does call into question the GRB nature of the event (trigger 191157).
+At this stage in the analysis, it is equally likely that this trigger
+is a GRB or hard x-ray transient.  We expect the full data set by Feb 20,
+and so will be able make a better assessment.
+

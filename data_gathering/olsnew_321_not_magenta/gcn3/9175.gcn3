@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9175
+SUBJECT: GRB 090418A: Swift/UVOT Observations
+DATE:    09/04/20 19:47:16 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <Stephen.T.Holland@nasa.gov>
+
+S. T. Holland (CRESST/GSFC/USRA) and V. Mangano (INAF-IASFPA) report
+on the behalf of the Swift UVOT team:
+
+        The Swift/UVOT observed the field of GRB 090418A starting 84 s
+after the BAT trigger (Mangano, et al. 2009, GCN Circ. 9149).
+Settled exposures started at T+160 s.  The refined UVOT position for the
+optical afterglow is
+
+       RA (J2000) =  17:57:15.17  =  269.31321 (deg)
+      Dec (J2000) = +33:24:21.1   =  +33.40585 (deg)
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence,
+statistical + systematic).  Preliminary 3-sigma magnitudes and upper
+limits are
+
+Filter   T_start   T_stop   Exp(s)      Mag  Err
+-------------------------------------------------------------
+u (fc)       160      410      246    17.31 0.09
+
+v            466      485       19    17.31 0.24
+b            415      435       19    18.22 0.25
+u            539      559       19    18.55 0.39
+uvw1         515      835       19   >18.1        3-sigma UL
+uvm2         490      510       19   >17.6        3-sigma UL
+uvw2         441      461       19   >18.1        3-sigma UL
+
+uvw1         515   11,831     1337    20.82 0.26
+          114,115  131,895     2064   >22.0        3-sigma UL
+uvm2         490   18,413     2109   >21.8        3-sigma UL
+uvw2         441   16,709     1357   >21.8        3-sigma UL
+-------------------------------------------------------------
+
+The quoted magnitudes have not been corrected for the expected
+Galactic extinction along the line of sight corresponding to a
+reddening of E_{B-V} = 0.04 mag (Schlegel, et al., 1998, ApJS, 500,
+525).  All photometry is on the UVOT flight system described in Poole
+et al. (2008, MNRAS, 383, 627).
+
+      The detection in the uvw1 filter, combined with the lack of a
+detection in the uvm2 filter, is consistent with this source having a
+redshift of z = 1.608 (Charnock, et al., 2009, GCN Circ. 9151).
+

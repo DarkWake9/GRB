@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27356
+SUBJECT: GRB 200307A: Updated localization from Fermi/GBM and Swift/BAT-GUANO
+DATE:    20/03/10 20:06:13 GMT
+FROM:    Adam Goldstein at Fermi-GBM, USRA  <adam.michael.goldstein@gmail.com>
+
+Adam Goldstein (USRA), Aaron Tohuvavohu (U Toronto), Jimmy DeLaunay (Penn
+State), and Jamie Kennea (Penn State) report on behalf of Fermi/GBM and
+Swift/BAT:
+
+
+
+The Fermi/GBM Flight-Position notice, distributed at T0+7 seconds, from the
+Fermi/GBM detected GRB 200307A (GCN. 27344) triggered the  Swift Mission
+Operations Center operated Gamma-ray Urgent Archiver for Novel
+Opportunities (GUANO; Tohuvavohu et al. 2020, in prep). Upon trigger by the
+Fermi notice, GUANO sent a command to the Swift Burst Alert Telescope (BAT)
+to save 200 seconds of BAT event-mode data from [-50,+150] seconds around
+the time of GRB 200307A. All the requested event mode data was delivered to
+the ground.
+
+
+
+In a ground analysis of the event data, we detect GRB 200307A, determine
+the signal in BAT is of astrophysical origin, and can confidently rule out
+an origin from inside the contemporaneous BAT field-of-view. At T0, the
+Earth's position and size relative to Swift were:
+
+
+
+Earth RA: 30.0439
+
+Earth Dec: 5.2549
+
+Earth Radius: 67.139 deg
+
+
+
+The Earth, with respect to Swift, occulted over 60% of the Fermi/GBM
+localization region and can be ruled out for the GRB localization.
+
+
+
+Fermi GBM provides an updated map by removing the Earth-occulted regions
+and can be found at the following links:
+
+
+
+Skymap image:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2020/bn200307894/quicklook/glg_skymap_all_bn200307894.png
+
+
+
+HEALPix:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2020/bn200307894/quicklook/glg_healpix_all_bn200307894.fit
+
+
+
+The 50% confidence region has decreased from 885 square degrees to 290
+square degrees and the 90% confidence region has decreased from 2784 square
+degrees to 978 square degrees.

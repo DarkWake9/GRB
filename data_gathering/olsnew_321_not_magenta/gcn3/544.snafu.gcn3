@@ -1,0 +1,21 @@
+The recent Circular from T.Cline was the result of hitting the "reply" key
+while reading a recent Circular.  Up until a month ago, there was a protection
+against "reply key" scenarios.  This proection was done through the mailer
+program by changing the reply-to field in the email header to an address
+other than the GCN Circulars address.  However, due to a Y2K non-compliance
+of that mailer program, the system administrators here replaced that mailer
+ with another that does not allow reply-to field changes.  I have not
+been able to impliment another patch to protect against this scenario,
+but I am still working on it.
+
+In the meantime, I have rolled back the Circular serial number counter.
+This effectively eliminates from the permanant record Cline's email.
+The next official Circular will have the 544 serial number.
+
+My apologies for this adddition to your email in-boxes.
+
+Scott Barthelmy
+GCN Operator
+NASA-GSFC
+301-286-3106
+

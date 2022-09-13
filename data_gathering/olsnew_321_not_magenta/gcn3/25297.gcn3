@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25297
+SUBJECT: LIGO/Virgo S190808ae: One Coincident Neutrino Candidate from IceCube Search
+DATE:    19/08/08 23:53:52 GMT
+FROM:    Raamis Hussain at IceCube  <raamis.hussain@icecube.wisc.edu>
+
+IceCube Collaboration (http://icecube.wisc.edu/) reports:
+
+Searches for track-like muon neutrino events detected by IceCube consistent
+with the sky localization of gravitational-wave candidate S190808ae in a
+time range of 1000 seconds [1] centered on the alert event time
+(2019-08-08 22:13:01.496 UTC to 2019-08-08 22:29:41.496 UTC) have been
+performed.
+During this time period IceCube was collecting good quality data. Two
+hypothesis tests were conducted. The first search is a maximum likelihood
+analysis which searches for a generic point-like neutrino source coincident
+with the given GW skymap [2]. The second uses a Bayesian approach to
+quantify the joint GW + neutrino event significance, which assumes a binary
+merger scenario and accounts for known astrophysical priors in the
+significance estimate, such as GW source distance [3].
+
+One track-like event is found in spatial and temporal coincidence with the
+gravitational-wave candidate S190808ae calculated from the map circulated in
+the 2-Initial notice. This represents an overall p-value of 0.0448 (1.70
+sigma) from the generic transient search and an overall p-value of 0.068
+(1.49 sigma) for the Bayesian search. These p-values measure the
+consistency of the observed track-like events with the known atmospheric
+backgrounds.
+
+The reported p-values can differ due to the estimated distance of the GW
+candidate. The distance is used as a prior in the Bayesian binary merger
+search, while it is not taken into account in the generic transient
+point-like source search.
+
+Properties of the coincident event are shown below.
+
+dt | ra (deg) | dec (deg) | Angular Uncertainty(deg) | p-value(generic
+transient) | p-value(bayesian)
+-----+--------+---------+------------------------+------------------+--------------------------
+ -37 | 216.29 |-15.35     | 0.43                     |0.045
+      |0.070
+
+where:
+dt = Time offset (sec) of track event with respect to GW trigger. Angular
+uncertainty = Angular uncertainty of track event: the radius of a circle
+representing 90% CL containment by area.
+p-value = the p-value for this specific track event from each search.
+RA & Dec = Right ascension and declination in degrees quoted in J2000 epoch
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector
+operating at the geographic South Pole, Antarctica. The IceCube realtime
+alert point of contact can be reached at roc@icecube.wisc.edu
+
+[1] Baret et al., Astroparticle Physics 35, 1 (2011)
+[2] Braun et al., Astroparticle Physics 29, 299 (2008)
+[3] Bartos et al. arXiv:1810.11467 (2018) and Countryman et
+al.arXiv:1901.05486 (2019)```

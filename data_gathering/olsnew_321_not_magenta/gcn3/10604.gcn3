@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10604
+SUBJECT: GRB 100413A: Suzaku WAM observation of the prompt emission
+DATE:    10/04/17 06:53:33 GMT
+FROM:    Satoshi Sugita at Aoyama Gakuin U.  <sugita@phys.aoyama.ac.jp>
+
+S. Sugita (Nagoya U.), K. Yamaoka (Aoyama  Gakuin U.), M. Ohno,
+M. Kokubun, T. Takahashi (ISAS/JAXA), Y. E. Nakagawa, M. Suzuki,
+T. Tamagawa (RIKEN), N. Vasquez (Tokyo Tech.), Y. Urata, H.M. Lin,
+P. Tsai (NCU), Y. Nishioka, N. Ohmori, A. Daikyuji, E. Sonoda, K. Kono,
+K. Noda, M. Yamauchi (Univ. of Miyazaki), T. Sugasahara, M. Tashiro,
+Y. Terada, W. Iwakiri (Saitama U.), Y. Hanabata, T. Uehara,
+T. Takahashi, Y. Fukazawa (Hiroshima U.), T. Enoto, K. Nakazawa,
+K. Makishima (Univ. of Tokyo), S. Hong (Nihon U.),
+on behalf of the Suzaku WAM team, report
+
+The very long GRB 100413A (Swift/BAT trigger #419404 ;
+Holland et al., GCN 10581)
+
+was detected by the the Suzaku Wide-band  All-sky Monitor (WAM)
+which covers an energy range of 50 keV - 5 MeV at 2010-04-13 17:33:28 UT
+(=T0).
+
+The observed light curve shows a multi-peaked structure
+ lasting to T0+220s with a duration T90 of about 160 seconds.
+The fluence in 100 - 1000 keV was 1.59 (-0.83, +0.21) x10^-5 erg/cm^2.
+ The 1-s peak flux measured from T0+118s was 0.38 (-0.27, +0.14)
+photons/cm^2/s in the same  energy range.
+
+Preliminary result shows that the time-averaged spectrum from
+T0-2s to T0+213s is well fitted by a power-law with exponential
+cutoff model:
+  dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak) with
+  alpha       -0.59 (-1.64, +1.27), and
+  Epeak       364 (-55, +98) keV (chi^2/d.o.f. = 37.9/30).
+
+All the quoted errors are at statistical 90% confidence level,
+in which the systematic uncertainties are not included.
+
+The light curves with 1-sec time resolution for this burst will be appeared
+at:
+
+
+http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/untrig/grb_table.html

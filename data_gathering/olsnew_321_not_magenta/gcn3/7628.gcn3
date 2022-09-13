@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7628
+SUBJECT: Swift XRT and UVOT observations of GRB080414
+DATE:    08/04/17 13:01:50 GMT
+FROM:    Massimiliano de Pasquale at MSSL-UCL  <mdp@mssl.ucl.ac.uk>
+
+   M. De Pasquale (MSSL/UCL), A.P. Beardmore (U. Leicester) and M.
+Stamatikos (GSFC) report on the behalf of the Swift team:
+
+  At 2008-04-15 14:15UT Swift performed a TOO observation of the INTEGRAL
+burst GRB 080414 (Mereghetti et al., GCN Circ. 7618), some 56.6ks after
+the trigger.
+
+   No X-ray source was found in or near the IBAS error circle in a 3.9ks
+exposure Swift/XRT Photon Counting mode image (taken from T+56.6ks to
+T+85.5ks after the trigger) down to a 3 sigma limiting 0.3-10keV count
+rate of 3e-3 count/s. Assuming a power-law spectrum of photon index 2
+absorbed by the Galactic column density of 1.16e22 cm^-2 in the direction
+of the burst, this corresponds to an observed 0.3-10keV flux limit of
+1.9e-13 erg cm^-2 s^-1.
+
+
+   The Swift/UVOT also observed the field. We do not detect an UV/Optical
+afterglow in the IBAS error circle in all UVOT filters down to the
+following 5 sigma upper limits:
+
+   Filter  T_start  T_stop  Exp.    Mag UL (5sig)
+           (ks)     (ks)    (s)
+
+   v       56.9     79.9    272     > 18.3
+   b       56.7     79.5    272     > 19.4
+   u       56.7     84.7    326     > 19.2
+   uvw1    56.6     84.7   1001     > 19.9
+   uvm2    57.0     80.1    564     > 19.4
+   uvw2    56.8     79.8   1085     > 19.9
+
+   These upper limits are not corrected for the very large Galactic
+extinction in the line of sight to GRB 080414, corresponding to a
+reddening of E(B-V)=6.95 mag (Schlegel et al., 1998, ApJS, 500, 525). We
+note that this value is rather uncertain in this direction.
+The photometry is based on the UVOT photometric system described in Poole
+et al. (2008, MNRAS, 383, 627).
+
+[GCN OPS NOTE(17apr08): Per author's request, the "T+56ks to T+85.5ks"
+was changed to "T+56.6ks to T+85.5ks".]
+

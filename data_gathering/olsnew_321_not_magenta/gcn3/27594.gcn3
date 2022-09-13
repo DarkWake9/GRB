@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27594
+SUBJECT: GRB 200416A: Swift-XRT refined Analysis
+DATE:    20/04/16 15:03:26 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P. A. Evans (U Leicester) reports on behalf of the Swift-XRT team:
+
+We have analysed 677 s of XRT data for GRB 200416A (Evans et al. GCN
+Circ. 27591), from 84 s to 773 s after the  BAT trigger. The data
+comprise 43 s in Windowed Timing (WT) mode (the first 9 s were taken
+while Swift was slewing) with the remainder in Photon Counting (PC)
+mode. The refined XRT position is RA, Dec = 335.6986, -7.5179 which is
+equivalent to:
+
+RA (J2000): 22 22 47.66
+Dec(J2000): -07 31 04.3
+
+with an uncertainty of 3.5 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with an initial power-law decay with an
+index of alpha=2.9 (+/-0.5), followed by a break at T+167 s to an alpha
+of 0.25 (+0.18, -0.25).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 1.86 (+0.22, -0.20). The
+best-fitting absorption column is  9.6 (+6.3, -3.1) x 10^20 cm^-2,
+consistent with the Galactic value of 6.5 x 10^20 cm^-2 (Willingale et
+al. 2013). The counts to observed (unabsorbed) 0.3-10 keV flux
+conversion factor deduced from this spectrum  is 3.6 x 10^-11 (4.3 x
+10^-11) erg cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     9.6 (+6.3, -3.1) x 10^20 cm^-2
+Galactic foreground: 6.5 x 10^20 cm^-2
+Excess significance: <1.6 sigma
+Photon index:	     1.86 (+0.22, -0.20)
+
+The GRB entered Swift's Moon-proximity observing constraint shortly
+after the trigger, and will not be observable until early on Monday
+April 20th; observations are planned for that time. The light curve
+appears to be in the plateau phase common to X-ray afterglows and is
+expected to break to a steeper decay at some point within the next ~24
+hours, so we do not attempt to predict the flux at T0+24 hours.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00966554.
+
+This circular is an official product of the Swift-XRT team.
+

@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25726
+SUBJECT: Update to the Fermi GBM Localizations
+DATE:    19/09/11 13:28:39 GMT
+FROM:    Adam Goldstein at Fermi-GBM, USRA  <adam.michael.goldstein@gmail.com>
+
+The Fermi GBM Team reports an improvement to its automated final
+localizations for onboard triggered GRBs.  These are the localizations
+reported in the "Fermi GBM Final Real-time Localization" GCN Circulars and
+the "GCN/FERMI_GBM_FINAL_POSITION" GCN Notices.
+
+The RoboBA, in operation since early 2016, has been improved to provide
+more accurate localizations, and the systematic uncertainty has been
+reduced.  Specifically, the overall estimated systematic uncertainty for
+localizations is a mixture of two Gaussians, one with a radius of 1.8
+degrees (52% contribution) and one with a radius of 4.1 degrees (47%
+contribution).
+
+The RoboBA provides an estimate on the classification of the GRB: long or
+short, with an accuracy of 92-95% relative to the T90 = 2 s split. Based on
+the RoboBA classification, a long GRB will have a systematic uncertainty of
+1.9 degrees (58% contribution) and 4.1 degrees (42% contribution).  A short
+GRB will have a systematic uncertainty of 2.6 degrees (39% contribution)
+and 4.4 degrees (61% contribution).  The HEALPix FITS files provided for
+each localization will already incorporate the systematic.
+
+The median 50% localization area has been reduced from 81 square degrees to
+46 square degrees, and the median 90% localization area has been reduced
+from 400 square degrees to 200 square degrees.  The 5%-95% range of the 90%
+localization area has been reduced from (~400-6000) square degrees to
+(~170-1100) square degrees.
+
+We anticipate an automated localization for ~95% of triggered GRBs within
+10 minutes of trigger time, and we will continue providing
+Human-in-the-Loop localizations for the rest of the triggered GRBs with a
+latency of up to a couple of hours.
+
+For more details on the RoboBA, systematics estimation, and localization
+improvement, please see https://arxiv.org/abs/1909.03006

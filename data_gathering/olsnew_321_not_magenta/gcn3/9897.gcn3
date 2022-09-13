@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9897
+SUBJECT: GRB 090902B: Suzaku WAM observation of the prompt emission
+DATE:    09/09/05 04:36:48 GMT
+FROM:    Kazutaka Yamaoka at Aoyama Gakuin U  <yamaoka@phys.aoyama.ac.jp>
+
+Y. Terada, M. Tashiro, A. Endo, K. Onda, T. Sugasahara,
+W. Iwakiri (Saitama U.), K. Yamaoka, S. Sugita (Aoyama Gakuin U.),
+M. Ohno, M. Suzuki, M. Kokubun, T. Takahashi (ISAS/JAXA),
+Y. E. Nakagawa, T. Tamagawa (RIKEN), N. Ohmori, A. Daikyuji,
+E. Sonoda, K. Kono, H. Hayashi, K. Noda, Y. Nishioka, M. Yamauchi
+(Univ. of Miyazaki), N. Vasquez (Tokyo Tech.), Y. Urata (NCU),
+Y. Hanabata, T. Uehara, T. Takahashi, Y. Fukazawa (Hiroshima U.),
+T. Enoto, K. Nakazawa, K. Makishima (Univ. of Tokyo), S. Hong
+(Nihon U.), on behalf of the Suzaku WAM team, report
+
+The Fermi detected long GRB 090902B (Bissaldi et al., GCN 9866, 
+ de Palma et al. GCN 9867) triggered the Suzaku Wide-band All-sky 
+Monitor (WAM) which covers an energy range of 50 keV - 5 MeV at 
+11:05:08.446 UT (=T0). The observed light curve shows a multi-peaked 
+structure lasting from T0-0.5 s to T0+24.5 s with a duration (T90) of about 
+19 seconds. The fluence in 100 - 1000 keV was 1.45 (-0.04, +0.03)x10^-4 erg/cm^2. 
+The 1-s peak flux measured from T0+14.5 s was 21.3 (-1.3, +0.9) photons/cm^2/s
+in the same energy range.
+
+Preliminary result shows that the time-averaged spectrum from
+T0-0.5 s to T0+24.5 s is well fitted by a power-law with exponential 
+cutoff model:
+  dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak) with
+  alpha:      0.91 +/- 0.10, and
+  Epeak:      885 (-38, +39) keV (chi^2/d.o.f. = 25.5/24).
+
+Due to this GRB brightness, a 3% systematcic error was 
+ added for low energy channels.  In addition, there might be 
+  some calibration uncertainties in fluence because the GRB 
+  photons came into the WAM through the base plate of the satellite. 
+All the quoted errors are at 90% confidence level. 
+
+The light curves for this burst are available at:
+ http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/trig/grb_table.html
+

@@ -1,0 +1,75 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25654
+SUBJECT: LIGO/Virgo S190901ap: GOTO optical coverage and detection of AT2019pjv
+DATE:    19/09/04 13:39:34 GMT
+FROM:    Danny Steeghs at U.of Warwick/GOTO  <dsteeghs@gmail.com>
+
+K.Ackley(2), D.Mata-Sanchez(8), Y-L.Mong(2), R.Cutter(1),
+K.Ulaczyk(1), J.Lyman(1), D.Steeghs(1), G.Ramsay(5),
+D.Galloway(2), L.Makrygianni(3), M.Kennedy(8), A.Obradovic(2),
+M.Dyer(3), V.Dhillon(3), P.O'Brien(4), D.Pollacco(1),
+E.Thrane(2), S.Poshyachinda(6), E.Palle(7), K.Wiersema(1),
+T. Marsh(1), R.West(1), B.Gompertz(1), E.Stanway(1),
+A.Casey(2), M.Brown(2), E.Rol(2), J.Mullaney(3), S.Littlefair(3),
+E.Daw(3), J.Maund(3), R.Starling(4), R.Eyles(4), S.Tooke(4),
+U.Sawangwit(6), D.Mkrtichian(6), S.Awiphan(6), S.Aukkaravittayapun(6),
+P.Irawati(6), R.Breton(8), T.Heikkila(9),
+R.Kotak(9), L.Nuttall (10)
+
+(1) Warwick University; (2) Monash University; (3) Univ. of Sheffield;
+(4) University of Leicester; (5) Armagh Observatory & Planetarium;
+(6) National Astronomical Research Institute of Thailand;
+(7) Instituto de Astrofisica de Canarias; (8) Univ. of Manchester;
+(9) University of Turku; (10) University of Portsmouth
+
+
+report on behalf of the GOTO collaboration:
+
+We report on observations with the Gravitational-wave Optical
+Transient Observer (GOTO) on La Palma, Canary Islands, in response to
+the LIGO/Virgo gravitational wave event  S190901ap, triggered
+2019-09-01 23:31:01.838 UTC (GCN #25606).   We performed a series of
+3x60s exposures using a wide (400-700nm passband) L-band filter with a
+typical 5-sigma photometric depth equivalent to g~20 based on a
+photometric calibration against PS1 sources.
+
+Observations commenced on 2019-09-01 23:37:46 UT (6.7 min
+post-trigger) and continued  through 2019-09-04 05:45:10 UT. In total
+we covered 2507 square degrees containing ~28.2% of the total source
+location probability (based on the skymap at
+https://gracedb.ligo.org/api/superevents/S190901ap/files/bayestar.fits
+.gz) across 162 tiles. The median number of visits per tile was 3,
+with some tiles visited up to 18 times.
+
+Images are processed immediately after acquisition using the GOTOphoto
+pipeline. Difference imaging was performed on the median of each
+triplet of exposures using recent survey observations of the same
+pointings, which were available for 88% of our tiles. Source
+candidates were initially filtered using a trained classifier and
+cross-matched against a variety of catalogs, including the MPC and
+PS1. Human candidate vetting was performed on those candidates
+identified by the classifier. No additional viable optical counterpart
+candidates beyond those already reported were identified.
+
+We detected AT2019pjv (Lipunov et al. GCN #25649) as a rising
+transient. The source rose above our detection limit on Sept 2nd, with
+internal designation GOTO2019hope, and no source was detected at this
+position during a series of observations preceding the GW event (most
+recent visit pre-trigger 2019-08-06). We provide the following
+preliminary magnitudes:
+
+DATE:   MAG:
+
+2019-08-06.9    >20
+2019-09-01.9    > 20
+2019-09-02.9    ~ 19.6
+2019-09-03.9    19.0
+
+=======
+GOTO is operated at the La Palma observing facilities of the
+University of Warwick on behalf of a consortium including the
+University of Warwick, Monash University, Armagh Observatory, the
+University of Leicester, the University of Sheffield, the National
+Astronomical Research Institute of Thailand (NARIT) and the Instituto
+de Astrofisica de Canarias (IAC) (https://goto-observatory.org)
+

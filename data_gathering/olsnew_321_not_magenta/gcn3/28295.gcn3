@@ -1,0 +1,74 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28295
+SUBJECT: GRB200826A: Zwicky Transient Facility Identifies Optical Afterglow Candidate of a Fermi Short GRB (Trigger 620108997)
+DATE:    20/08/27 16:42:00 GMT
+FROM:    Tomas Ahumada at U. of Maryland  <tahumada@astro.umd.edu>
+
+Tomas Ahumada (UMD), Shreya Anand (Caltech), Robert Stein (DESY), Harsh
+Kumar (IITB), Ana Sagues Carracedo (OKC), Igor Andreoni (Caltech), Michael
+Coughlin (UMN), Leo Singer (NASA/GSFC), Mansi Kasliwal (Caltech), Daniel
+Perley (LJMU), Brad Cenko (NASA/GSFC), Varun Bhalerao (IITB), David Kaplan
+(UWM) on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of
+Observatories Watching Transients Happen (GROWTH) collaborations
+
+We continued a second night of monitoring the localization region of the
+short GRB200826A (Fermi trigger 620108997; GCN 28284, 28287) with the
+Zwicky Transient Facility (first night summary in Sagues Carracedo et al.
+GCN 28293). Each exposure was 600s, reaching a g-band median depth of 22.3
+mag and r-band median depth of 22.3 mag. IPN also triangulated this GRB
+(Hurley et al. GCN 28291). Our total coverage was >99% of the joint
+Fermi-IPN localization.
+
+We followed standard candidate vetting procedures. We identify the
+following compelling candidate for the optical afterglow:
+
++-------------------------------------------------------------------------------------------------+
+| ZTF Name      | IAU Name  | RA (deg)  | DEC (deg)   | Filter | Mag   |
+MagErr |MJD              |
++---------------+-----------+-----------+-------------+--------+-------+--------+-----------------+
+| ZTF20abwysqy  | AT2020scz | 6.7855741 | +34.0273043 |   g    | 20.86 |
+0.04   | 2459087.9181366 |
++---------------+-----------+-----------+-------------+--------+-------+--------+-----------------+
+
+ZTF20abwysqy faded by >1.7 mag in 22.5 hours in the g-band. We ran forced
+photometry and we obtained the following light curve:
+
++----------+--------+-------+--------+--------+
+Time (Hrs) | Filter | Mag   | MagErr | Limmag |
++----------+--------+-------+--------+--------+
+|    5.07  | g      | 20.86 | 0.048  | 22.50  |
+|    5.53  | r      | 20.70 | 0.050  | 22.28  |
+|    6.67  | g      | 20.96 | 0.168  | 21.24  |
+|    27.5  | g      | -     | -      | 22.53  |
+|    29.1  | r      | -     | -      | 21.31  |
+|    30.9  | g      | -     | -      | 21.21  |
++----------+--------+-------+--------+--------+
+
+ZTF20abwysqy is spatially coincident with X-ray Source 3 reported by the
+Neil Gehrels Swift Observatory (GCN 28290,
+https://www.swift.ac.uk/xrt_products/TILED_GRB00093/) with a separation of
+2" from the XRT position that has an uncertainty of 2.7". It also has a
+faint underlying galaxy counterpart within 0.35" (Legacy Survey (LS) DR8
+photometric redshift z = 0.714 +- 0.137 and LS DR8 r-mag = 22.55). We
+strongly encourage multi-wavelength follow-up.
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC,
+USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan;
+IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No
+1440341.
+GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).
+Alert database searches are done by AMPEL (Nordin et al. 2019) and Kowalski
+(Duev et al. 2019).
+
+
+-- 
+Tomás Ahumada (he/his)
+Ph.D. Student
+Department of Astronomy
+University of Maryland, College Park
+NASA <tomas.f.ahumdamena@nasa.gov> Goddard Space Flight Center, Code 661
+B.Sc. Astronomy, Pontificia Universidad Católica de Chile

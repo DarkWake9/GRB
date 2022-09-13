@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25748
+SUBJECT: LIGO/Virgo S190814bv: No counterpart candidate after completion of GRAWITA VST-ESO PARANAL transient survey.
+DATE:    19/09/14 09:00:44 GMT
+FROM:    Sheng Yang at OAPD, INAF  <saberyoung@gmail.com>
+
+AUTHORS: S. Yang, E. Cappellaro (INAF-Padova), A. Grado (INAF-Napoli), E. Brocato (INAF-Abruzzo), S. Covino (INAF-Brera), F. Getman (INAF-Napoli), G. Greco (University Urbino), A. Rossi (INAF-OAS), E. Palazzi (INAF-OAS), A. Melandri, P. D'Avanzo (INAF-OAB), on behalf of GRAWITA.
+
+We have completed the transient search on the VST images obtained during the follow up observations of the GW trigger S190814bv. The survey coverage and observation epochs are reported in GCN 25324, 25333 and 25669.
+After calibration with the VSTtube pipeline, the images were processed via our image difference pipeline using as reference Panstarrs1/DeCam archive images.
+To select the candidates, we applied machine learning algorithms on subtracted images and then eyeballed the candidates with highest score. 
+We removed from the list transients/variable detected only at one epoch and/or associated to stellar sources in the template images.
+
+We separate our detection in three groups:
+
+1 - New transient candidates which we first reported in TNS.
+
+                     Name                 |  TNS Name |    RA (hms)    |   Dec (dms)  |                  EPOCH             |     MJD     |    Mag (err) 
+VST J0051091.73-2217406.9 | AT2019qbu | 00:51:09.173 | -22:17:40.69 | 2019-08-20T03:47:38.640 | 58715.16 | 21.191 +/- 0.092
+VST J0044143.34-2507443.2 | AT2019qby | 00:44:14.334 | -25:07:44.32 | 2019-08-16T06:35:46.235 | 58711.27 | 21.354 +/- 0.022
+VST J0056539.87-2759213.7 | AT2019qbz | 00:56:53.987 | -27:59:21.37 | 2019-08-16T07:10:09.945 | 58711.30 | 20.889 +/- 0.069
+VST J0045485.40-2649390.1 | AT2019qca | 00:45:48.540 | -26:49:39.01 | 2019-08-30T07:51:26.759 | 58725.33 | 21.513 +/- 0.052
+VST J0046190.62-2608431.9 | AT2019qcb | 00:46:19.062 | -26:08:43.19 | 2019-08-19T05:45:49.345 | 58714.24 | 21.554 +/- 0.043
+VST J0053498.20-2445495.8 | AT2019qcc | 00:53:49.820 | -24:45:49.58 | 2019-08-30T08:23:58.534 | 58725.35 | 22.137 +/- 0.088
+
+2 - Independent discoveries already reported in TNS by other groups (DES,PS1,ATLAS and ZTF).
+
+                    Name                  |  TNS Name |    RA (hms)    |   Dec (dms)  |                   EPOCH            |      MJD    |    Mag (err) 
+VST J0055423.01-2441499.3 | AT2019nvd | 00:55:42.301 | -24:41:49.93 | 2019-08-30T08:23:58.534 | 58725.35 | 21.099 +/- 0.047
+VST J0050028.20-2241187.8 | AT2019mwp | 00:50:02.820 | -22:41:18.78 | 2019-08-16T06:18:19.852 | 58711.26 | 20.569 +/- 0.128
+VST J0048043.98-2347509.4 | AT2019ntm | 00:48:04.398 | -23:47:50.94 | 2019-08-16T06:00:23.884 | 58711.25 | 21.072 +/- 0.108
+VST J0100018.43-2642513.2 | AT2019ntr | 01:00:01.843 | -26:42:51.32 | 2019-08-16T07:01:13.473 | 58711.29 | 21.208 +/- 0.147
+VST J0050120.72-2611525.6 | AT2019ntp | 00:50:12.072 | -26:11:52.56 | 2019-08-16T05:35:35.131 | 58711.23 | 21.043 +/- 0.027
+VST J0048044.16-2347510.0 | AT2019ntm | 00:48:04.416 | -23:47:51.00 | 2019-08-16T06:00:23.884 | 58711.25 | 21.074 +/- 0.109
+VST J0053055.60-2421387.1 | AT2019npz | 00:53:05.560 | -24:21:38.71 | 2019-08-19T06:06:44.348 | 58714.25 | 20.874 +/- 0.081
+VST J0046168.14-2422211.9 | AT2019nxe | 00:46:16.814 | -24:22:21.19 | 2019-08-19T06:01:31.293 | 58714.25 | 20.868 +/- 0.067
+VST J0100018.72-2642514.8 | AT2019ntr | 01:00:01.872 | -26:42:51.48 | 2019-08-16T07:01:13.473 | 58711.29 | 21.275 +/- 0.032
+VST J0043204.93-2553020.7 | SN2019mbq | 00:43:20.493 | -25:53:02.07 | 2019-08-20T04:08:30.349 | 58715.17 | 18.830 +/- 0.037
+VST J0049017.38-2314049.3 | AT2019nuj | 00:49:01.738 | -23:14:04.93 | 2019-08-20T03:47:38.640 | 58715.16 | 21.724 +/- 0.175
+VST J0041333.30-2344319.5 | AT2019npe | 00:41:33.330 | -23:44:31.95 | 2019-08-22T03:41:56.360 | 58717.15 | 21.507 +/- 0.072
+VST J0055523.99-2546598.1 | AT2019npw | 00:55:52.399 | -25:46:59.81 | 2019-08-16T05:40:03.236 | 58711.24 | 21.337 +/- 0.047
+VST J0043301.60-2243293.5 | AT2019nsm | 00:43:30.160 | -22:43:29.35 | 2019-08-22T03:36:43.215 | 58717.15 | 21.388 +/- 0.093
+VST J0055316.02-2258084.8 | AT2019num | 00:55:31.602 | -22:58:08.48 | 2019-08-22T03:23:49.543 | 58717.14 | 21.388 +/- 0.093
+VST J0052433.39-2337536.4 | AT2019nva | 00:52:43.339 | -23:37:53.64 | 2019-08-22T03:13:23.501 | 58717.13 | 21.361 +/- 0.065
+VST J0056466.93-2509332.9 | AT2019nqw | 00:56:46.693 | -25:09:33.29 | 2019-08-30T08:23:58.534 | 58725.35 | 20.772 +/- 0.030
+
+3 - Candidates that are detected on our images but are below threshold of our search criteria.
+
+                     Name                 |  TNS Name |     RA (hms)   |   Dec (dms)  |                  EPOCH             |     MJD     |    Mag (err) 
+VST J0058064.56-2450142.8 | AT2019nzd | 00:58:06.456 | -24:50:14.28 | 2019-08-19T05:37:22.124 | 58714.23 | 21.175 +/- 0.095
+VST J0057569.04-2434004.8 | AT2019nys | 00:57:56.904 | -24:34:00.48 | 2019-08-19T05:37:22.124 | 58714.23 | 21.305 +/- 0.099
+VST J0053323.16-2349585.0 | SN2019npv | 00:53:32.316 | -23:49:58.50 | 2019-08-22T03:18:36.458 | 58717.14 | 21.618 +/- 0.087
+
+In the tables above we reported the observing epochs and magnitudes (AB magnitude in r' band) at maximum for each candidates.
+
+All candidates show a slow evolution in the 2 weeks of the observed campaign (delta <1 mag), therefore we tentatively exclude that they are associated to the GW event.
+

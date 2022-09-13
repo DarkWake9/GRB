@@ -1,0 +1,37 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4034
+SUBJECT: GRB050925: Swift-BAT detection of a short burst
+DATE:    05/09/25 10:05:01 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S.T. Holland (GSFC/USRA), S. Barthelmy (GSFC), A. Beardmore (U. Leicester),
+N. Gehrels (GSFC), J. Kennea (PSU), K. Page (U. Leicester),
+D. Palmer (LANL), S. Rosen (MSSL)
+on behalf of the Swift team:
+
+At 09:04:33 UT, Swift-BAT triggered and located GRB050925 (trigger=156838).
+The BAT on-board calculated location is RA,Dec 303.445d,+34.334d
+{20h 13m 47s,+34d 20' 04"} (J2000), with an uncertainty of 3 arcmin
+(radius, 90% containment, stat+sys).  We note that the galactic latitude
+is -0.1.  The BAT light curve shows a single-peak structure with a total
+duration of less than 128 msec.  The peak count rate was ~8000 counts/sec
+(15-350 keV), for the 128-msec binning at 0.00 seconds after the trigger.
+
+The spacecraft slewed immediately and the XRT began observing the GRB at
+09:06:05 UT, 92 sec after the BAT trigger.  The on-board detection algorithm
+failed to centroid on a source, so no prompt X-ray position is available.
+The XRT prompt spectra and lightcurve show no signficant X-ray emission
+in the field, suggesting that any X-ray counterpart to this burst is faint.
+
+The UVOT began observing this field 91 sec after the BAT trigger.
+The small UVOT TDRSS image covers 25% of the BAT error circle.   However,
+the full-field UVOT source list contains only catalogued sources,
+and in particular no uncatalogued source is found inside the BAT error circle.
+At the present time it is not possible to determine a limiting magnitude
+for this field.  The V-band extinction in this direction is A_V = 7.05 mag.
+
+We note that this burst has soft emission in BAT which may not be consistent
+with it being in the short-hard class of GRB.  At low galactic latitude
+it is possible that it is a new SGR.  At this point we can not be sure
+of its classification.
+

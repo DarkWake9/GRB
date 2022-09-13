@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17640
+SUBJECT: Konus-Wind observation of GRB 150323A
+DATE:    15/03/25 14:47:56 GMT
+FROM:    Anastasia Tsvetkova at Ioffe Institute  <tsvetkova@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 150323A (Swift-BAT trigger #635887:
+Amaral-Rogers et al., GCN 17611; Markwardt et al., GCN 17628)
+triggered Konus-Wind at T0=10282.369 s UT (02:51:22.369).
+
+The burst light curve shows a weak precursor at ~T0-135 s,
+which triggered BAT, followed by the main episode which
+started at ~T0-3 s and has a duration of ~38 s.
+The emission is seen up to ~5 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.1(-0.1,+0.1)x10^-5 erg/cm2,
+and a 64-ms peak energy flux, measured from T0+0.152 s,
+of 1.2(-0.6,+0.6)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum of the burst
+(measured from T0 to T0+24.832 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.22(-0.28,+0.32),
+and Ep = 95(-13,+16) keV (chi2 = 70/98 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index:
+beta < -2.80 (chi2 = 70/97 dof).
+
+The spectrum near the peak count rate
+(measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 3 MeV range
+by the power law with exponential cutoff model
+with  alpha = -1.21(-0.26,+0.30),
+and Ep = 121(-18,+25) keV (chi2 = 71/68 dof).
+Fitting by a GRB (Band) model yields almost the same alpha and Ep,
+and an upper limit on the high energy photon index:
+beta < -2.43 (chi2 = 71/67 dof).
+
+Assuming the redshift z=0.593 (Perley and Cenko, GCN 17616)
+and a standard cosmology model with H_0 = 70 km/s/Mpc,
+Omega_M = 0.27, and Omega_Lambda = 0.73,
+we estimate the following rest-frame parameters:
+the isotropic energy release 1.0(-0.1,+0.1)x10^52 erg,
+the peak luminosity L_iso is 1.7(-0.8,+0.8)x10^51 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum,
+Ep,i, is 151(-21,+25) keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB150323_T10282/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

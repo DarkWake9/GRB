@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6137
+SUBJECT: GRB 070224: Swift detection of a burst
+DATE:    07/02/24 20:48:09 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. L. Racusin (PSU), L. M. Barbier (NASA/GSFC),
+S. D. Barthelmy (GSFC), M. M. Chester (PSU),
+G. Cusumano (INAF-IASFPA), D. Grupe (PSU), J. A. Kennea (PSU),
+D. M. Palmer (LANL), R. L. C. Starling (U Leicester) and
+L. Vetere (PSU) report on behalf of the Swift Team:
+
+At 20:27:58 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070224 (trigger=261880).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 178.990, -13.340 which is 
+   RA(J2000)  =  11h 55m 58s
+   Dec(J2000) = -13d 20' 23"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single peak
+with a duration of about 25 sec.  The peak count rate
+was ~500 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 20:30:21 UT, 143 seconds after the
+BAT trigger. XRT found a bright, fading, uncatalogued X-ray source
+located at RA, Dec 179.0257, -13.3294 which is
+   RA(J2000)  =  11h 56m 06.2s
+   Dec(J2000) = -13d 19' 46.0"
+with an uncertainty of 4.2 arcseconds (radius, 90% containment). 
+This location is 131 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 3.1e-10 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 153 seconds after the BAT trigger, and a
+finding chart of nominal 400 seconds with the V filter starting 259
+seconds after the BAT trigger. No afterglow candidate has been found
+in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The 3-sigma upper limit in White at the XRT
+position is 19.3 mag. The 8'x8' region for the list of sources
+generated on-board covers 100% of the XRT error circle. No correction
+has been made for the expected extinction corresponding to E(B-V) of
+0.06. 
+

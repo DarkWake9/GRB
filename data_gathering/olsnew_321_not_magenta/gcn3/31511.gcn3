@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31511
+SUBJECT: GRB 220117A: Konus-Wind detection and joint Konus-Wind + Swift-BAT spectral analysis
+DATE:    22/01/21 15:54:26 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, A.Lysenko, A. Ridnaya, D. Svinkin, A. Tsvetkova,  M. Ulanov,
+on behalf of the Konus-Wind team;
+and A. Melandri (INAF-OAB), A.Y. Lien (U Tampa), D.M. Palmer (LANL), S.D. Barthelmy (GSFC),
+on behalf of the Swift-BAT team, report:
+
+The long GRB 220117A (Swift-BAT trigger #1093592, T0 = T0(BAT)= 16:18:51.546 UT:
+Melandri et al. GCN 31466; Palmer et al., GCN 31485;
+Fermi GBM Sub-Threshold Detection: Veres, GCN 31487)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in the 20-400 keV band
+reveals a >10 sigma count rate increase over background in the interval
+from ~T0+10 s to ~T0+50 s. No statistically significant
+emission has been detected above 400 keV throughout the burst.
+The KW light curve of this burst is available
+at http://www.ioffe.ru/LEA/GRBs/GRB220117A/
+
+To derive broad-band spectral parameters of this burst, we performed
+a joint spectral analysis of the Swift/BAT data (15-150 keV) and
+the KW 3-channel spectral data (20-1500 keV).
+A fit to the time-averaged spectrum, measured from  T0+10.557 s to T0+48.829 s,
+by a power law with an exponential cutoff (CPL) model gives a photon index
+alpha = -1.14 (-0.32,+0.37), and Ep = 71 (-11,+17) keV, chi^2 = 65.0/ 58 dof.
+The Band GRB function fits this spectrum equally well, with alpha = -1.04 (-0.40,+0.58),
+Ep = 65 (-14,+20) keV, and beta = -2.59 (-7.41, +0.43), chi^2 = 64.7/57 dof.
+A fit to a simple power law gives a photon index of 1.89 (-0.08, +0.09), chi^2 = 72.4/ 59 dof.
+
+In the 15-1500 keV band, the total burst fluence, estimated from the Band model,
+is (2.8 ± 0.7)x10^-6 erg/cm^2, and the 2.944 s peak energy flux is (1.7 ± 0.4)x10^-7 erg/cm^2/s.
+
+Assuming the redshift z=4.961 (Palmero et al., GCN 31480)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the isotropic energy release E_iso to (1.26 ± 0.31)x10^53 erg,
+which is consistent with that estimated from the GBM detection (GCN 31487),
+the isotropic peak luminosity L_iso to (4.5 ± 1.2)x10^52 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum Ep,z to 387(-84,+120) keV.
+With the obtained estimates, GRB 220117A lies inside 68% prediction bands
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW GRBs
+with known redshifts (Tsvetkova et al., 2017; Tsvetkova et al., 2021),
+see http://www.ioffe.ru/LEA/GRBs/GRB220117A/GRB220117A_rest_frame.pdf
+

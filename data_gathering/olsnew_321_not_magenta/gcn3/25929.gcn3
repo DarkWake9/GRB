@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25929
+SUBJECT: IceCube-191001A: Candidate Counterparts with the Zwicky Transient Facility
+DATE:    19/10/02 21:47:19 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+Robert Stein (DESY), Anna Franckowiak (DESY), Jannis Necker (DESY), Suvi Gezari (UMd), Sjoert van Velzen (UMd/NYU) report,
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+
+We observed the localization region of the neutrino event IceCube-191001A (Stein et. al, GCN 25913) with the Palomar 48-inch telescope, equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). We started obtaining target-of-opportunity observations in the g-band and r-band beginning at 2019-10-02T03:32:47.200, approximately 7.4 hours after event time. Excluding chip gaps, we covered the entire reported localisation region of the neutrino. Each exposure was 300s with a typical depth of 21.0 mag.
+
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the alerts database for candidates. We reject stellar sources (Tachibana and Miller 2018) and moving objects, and apply machine learning algorithms to remove bogus subtractions (Mahabal et al. 2019). We are left with 10 high-significance transient candidates by our pipeline, and highlight four that are particularly interesting. 
+
++-------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name  | RA (deg)   | DEC (deg)   | Filter | Mag   | MagErr |
++-------------------------------------------------------------------------------+
+| ZTF19aapreis | AT2019dsg | 314.2623825| +14.2045431 | g      | 19.79 | 0.05   | 
+| ZTF19abzkexb | AT2019qhl | 320.5502682| +11.5600861 | g      | 19.13 | 0.03   | 
+| ZTF19acbpqfn | AT2019rsj | 316.0854222| +12.9171434 | g      | 21.00 | 0.14   | 
+| ZTF19acbxbjq | AT2019rsk | 318.6378536| +14.1469459 | g      | 20.32 | 0.08   | 
++-------------------------------------------------------------------------------+
+
+ZTF19aapreis is a Tidal Disruption Event approximately 150 days post peak, previously reported in ATEL #12752 and ATEL #12777. We note that this source is also one of a handful of radio-detected TDEs, as reported in ATEL #12798, making it a particularly interesting candidate for high-energy neutrino emission. 
+
+Additional Swift TOO observations as well as VLA observations have been submitted for ZTF19aapreis. We strongly encourage further multi-wavelength observations of this source.
+
+In addition, three unclassified transients were found within the localisation region. ZTF19abzkexb, already reported to the TNS as AT2019qhl, was first detected 14 days ago and is clearly offset from its host. It shows a rising light curve resembling a young supernova. ZTF19acbpqfn also shows a lightcurve consistent with a supernova that is a few days post peak. It is offset from its host. ZTF19acbxbjq, first detected four days ago, shows a rising light curve. It has a position consistent with the center of the host galaxy.
+
+We encourage spectroscopic and photometric observations to discern the nature of the three unclassified objects listed above.
+
+Additional target-of-opportunity observations of the localisation region of IceCube 191001A will continue, in addition to serendipitous observations as part of the regular survey operations.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert database searches are done by AMPEL (Nordin et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).

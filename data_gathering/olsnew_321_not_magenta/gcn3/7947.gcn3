@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7947
+SUBJECT: GRB 080707: Swift detection of a burst
+DATE:    08/07/07 08:47:33 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. Schady (MSSL-UCL), W. H. Baumgartner (GSFC/UMBC),
+A. P. Beardmore (U Leicester), A. A. Breeveld (MSSL),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+C. Guidorzi (INAF-OAB), H. A. Krimm (CRESST/GSFC/USRA),
+C. B. Markwardt (CRESST/GSFC/UMD), A. Moretti (INAF-OAB),
+P. T. O'Brien (U Leicester), C. Pagani (PSU),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+D. Perez (U Leicester), R. L. C. Starling (U Leicester) and
+H. Ziaeepour (UCL-MSSL) report on behalf of the Swift Team:
+
+At 08:27:53 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080707 (trigger=316204).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 32.632, +33.103 which is 
+   RA(J2000) = 02h 10m 32s
+   Dec(J2000) = +33d 06' 11"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a double-peaked
+structure with a duration of about 40 sec.  The peak count rate
+was ~3000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 08:29:02.0 UT, 68.3 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+fading, uncatalogued X-ray source with an enhanced position: RA, Dec
+32.61815, 33.10967 which is equivalent to:
+   RA(J2000)  = 02h 10m 28.36s
+   Dec(J2000) = +33d 06' 34.8"
+with an uncertainty of 3.1 arcseconds (radius, 90% containment). This
+location is 48 arcseconds from the BAT onboard position, within the BAT
+error circle. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of
+6.99e+20 cm^-2 (Kalberla et al. 2005). 
+
+The initial flux in the 2.5 s image was 3.59e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 79 seconds after the BAT trigger. No afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 18.5 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.10. 
+
+
+
+
+Burst Advocate for this burst is P. Schady (ps AT mssl.ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

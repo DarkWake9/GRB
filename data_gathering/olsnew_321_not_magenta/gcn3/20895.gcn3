@@ -1,0 +1,14 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20895
+SUBJECT: LIGO/Virgo G277583: AstroSat CZTI upper limits
+DATE:    17/03/17 19:27:02 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+Sujay Mate (IIT Bombay), Varun Bhalerao (IIT Bombay), Dipankar Bhattacharya (IUCAA), Sukanta Bose (IUCAA), Gulab Chand Dewangan (IUCAA), Ranjeev Misra (IUCAA), Sanjit Mitra (IUCAA), A R Rao (TIFR), Tarun Souradeep (IUCAA), Santosh Vadawale (PRL), on behalf of the Astrosat CZTI team report:
+
+We carried out offline analysis of data from AstroSat CZTI in a 100 second window centred on the G277583 trigger time, UT 2017-03-13 22:40:09.593, to look for any hard X-ray flash. CZTI is a coded aperture mask instrument that has considerable effective area for about 29% of the entire sky. Based on the pointing direction of AstroSat at the time of the GW event and the baystar skymap provided by LVC (skyprobcc_cWB.fits), the sky visible to CZTI has 28.2% probability of containing the EM counterpart.
+
+CZTI data were de-trended to remove orbit-wise background variation. We then searched data from the four independent, identical quadrants to look for coincident spikes in the count rates. Searches were undertaken by binning the data in 0.1s, 1s and 10s respectively. Statistical fluctuations in count rates were estimated by using data from 8 neighbouring orbits. We selected confidence levels such that the probability of a false trigger in this 100s window is 10^-4. We do not find any evidence for any hard X-ray transient in this window. We model the source with a band function using standard parameters, with alpha = -1, beta = -2.5 and E_peak = 300 keV. The sensitivity of CZTI varies with direction. We weight the sensitivity by the baystar probability density map to calculate upper limits on any coincident emission from the source. In the 30-200 keV, the upper limits for source fluence are 1.92e-07 ergs/cm^2, 4.39e-07 ergs/cm^2 and 1.09e-06 ergs/cm^2 for search timescales of 0.1, 1, and 10 seconds respectively. The corresponding flux upper limits for the three timescales are 1.92e-06, 4.39e-07, and 1.09e-07 ergs/cm^2/sec respectively. 
+
+Plots showing CZTI sensitivity as a function of direction for this event can be found at https://gracedb.ligo.org/apiweb/events/G277583/files/G277583_CZTI_limits.pdf,0
+

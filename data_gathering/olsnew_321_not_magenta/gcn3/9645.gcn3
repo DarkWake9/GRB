@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9645
+SUBJECT: GRB 090709A: Quasiperiodic variations in the BAT light curve
+DATE:    09/07/10 01:00:23 GMT
+FROM:    Craig Markwardt at NASA/GSFC/UMD  <craigm@milkyway.gsfc.nasa.gov>
+
+C. B. Markwardt (GSFC/UMD), F. P. Gavriil (GSFC/UMBC), D. M. Palmer
+(LANL), W. H. Baumgartner (GSFC/UMBC), S. D. Barthelmy (GSFC)
+
+We performed a timing analysis of GRB 090709A.  Visually, there
+appears to be a quasiperiodic signal at period near 8 seconds.
+More formally, a power spectrum of the full burst shows an
+apparent strong excess at 8.06 seconds.
+
+This analysis is based on a de-trended 64 msec BAT light
+curve (15-350 keV), T-50 s to T+150 s, where the trend was based
+on a smoothed version of the light curve (smoothing scale 10
+sec).  After normalizing the power spectrum by the local noise
+level (0.2 to 0.6 Hz), we find a peak power of ~52, which has a
+probability of occurring by random chance of ~1e-6 after
+adjusting for the number of trials.  The results are relatively
+insensitive to trend smoothing timescale, to within a factor of
+~2.
+
+The number of trials is based on the number of independent
+Fourier frequencies examined (~2000) and an estimated 100 BAT
+bursts long enough in duration to perform such an analysis.  We
+consider this to be a conservative estimate: we are likely to
+have overestimated the number bursts for which we could do this
+analysis; and the 0.2 to 0.6 Hz range used to compute the noise
+level has the most noise, which decreases the overall peak
+significance.
+
+The amplitude of the modulations is as high as ~70% of the
+smoothed light curve, and as small as 10%.
+
+The signal is not strictly coherent.  The "Q factor", the ratio
+of peak centroid frequency to FWHM, is ~11 (whereas a coherent
+signal with a duration of ~200 seconds could be as sharp as Q=24).
+
+We believe such a detection is the first time strong near-periodic
+oscillations have been seen at this significance for classical
+gamma-ray bursts.  Periodic variations at 8 seconds would be
+typical for galactic magnetars.  If this source is at a redshift
+of 8.5-10 (Aoki et al. GCN 9634, Morgan et al. GCN 9635), then
+the intrinsic period would be ~800 milliseconds, which falls
+outside of the magnetar range.  If on the other hand the source
+is at low redshift (Butler, GCN 9639), the observed period would
+be typical of magnetars.
+
+
+Figures
+
+GRB 090709A BAT light curve
+   http://gcn.gsfc.nasa.gov/gcn/other/grb090709a_bat_lc.gif
+
+GRB 090709A BAT light curve after removing trend
+   http://gcn.gsfc.nasa.gov/gcn/other/grb090709a_bat_detrended.gif
+
+GRB 090709A BAT light curve (black) and trend (red)
+   http://gcn.gsfc.nasa.gov/gcn/other/grb090709a_bat_trend.png
+
+GRB 090709A power spectrum of detrended BAT light curve, normalized by
+local noise level
+   http://gcn.gsfc.nasa.gov/gcn/other/grb090709a_powspec.png
+

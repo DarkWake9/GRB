@@ -1,0 +1,80 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20382
+SUBJECT: SUBJECT: LIGO/Virgo G268556:  ATLAS17aeu - an unusual transient within the skymap
+DATE:    17/01/06 19:09:41 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+J. Tonry, L. Denneau, A. Heinze, B. Stalder, H. Weiland (IfA),
+C. W. Stubbs (Harvard), K. W. Smith, S. J. Smartt, (QUB), D. R. Young
+(QUB), A. Rest (STScI), K. C. Chambers (IfA), M. Coughlin (Harvard),
+M. E. Huber (IfA), D. E. Wright (QUB), H. Flewelling, E. A. Magnier,
+A. S. B. Schultz, C. Waters, R. J. Wainscoat (IfA)
+
+Following on from GCN 20377, we have processed the ATLAS data
+beginning at 57758.296 (2016-01-05.296 UT) which started at a pointing
+centre of RA=80, DEC=-30, and moved north and east across the northern
+sky lobe to RA=170,80.
+
+We find one transient that appears to be new (and recovered old
+ones). This object has some unusual characteristics that warrant
+further attention
+
+ATLAS17aeu 09:13:13.89 +61:05:33.6 (138.30789 +61.09267) J2000
+
+The position is within the inner 16% probability contour.  This object
+is not spatially coincident with any star or host galaxy.
+
+The lightcurve faded by 0.85 mag over 1.176hrs  
+
+  MJD           c mag  err 
+ 57758.4129676  18.05 0.09   
+ 57758.4144595  18.18 0.1    
+ 57758.4267173  18.22 0.1    
+ 57758.4419066  18.58 0.13   
+ 57758.4469072  18.45 0.11   
+ 57758.4479226  18.34 0.11   
+ 57758.454986   18.39 0.11   
+ 57758.4619614  18.90 0.18   
+
+(the cyan mag is effectively an average of g and r). 
+
+The object has now fallen below the detection limit (orange filter; 
+o ~ 19) on the night of 57759. 
+
+Such a fast fade is unusual if the object is extragalactic. 
+
+The obvious immediate explanations for this object are 
+1) It is not a real astrophysical transient. We consider this unlikely. 
+2) The photometric errors are under-estimated and it is flat. We consider
+this unlikely, and the errors to be reliable. 
+3) It is a Galactic CV. But the fading is too fast for typical CVs.
+4) It is an M-dwarf flare. But the fading is slow for a typical
+M-dwarf (which are usually between 2 and >5 mags per hour)
+
+We note that there is no faint point source in the Pan-STARRS 3Pi
+stacked sky (Chambers et al. 2017, arXiv:1612.05560, and
+http://panstarrs.stsci.edu).  There is no counterpart in the MPC,
+Vizier, WISE, various CV and stellar catalogues.
+
+The object is 23 arcsec from the galaxy SDSS J091312.36+610554.2 which
+has a spectroscopic redshift of z = 0.199 +/- 0.00004.  This implies a
+luminosity distance of 990 Mpc (for Ho=69).  If ATLAS17aeu is related,
+it would be at a projected distance of 75kpc from the Galaxy.
+
+This luminosity distance is consistent with the BAYESTAR 3D volume
+rendering (Singer et al. 2016, ApJ 829, L1) of G268556 which suggests
+a 10-90 percentile probability of 520-1010 Mpc in this direction.
+
+If it were associated with the z = 0.199 +/- 0.00004 galaxy, then it 
+would be unusually luminous (M_g ~ -21.5). 
+
+While a Galactic origin is still the most probable, it remains to be
+confirmed. We encourage a search of any contemporaneous data taken at
+the same time we detected this object and deep imaging of the position
+to recover any host object (star or galaxy).
+
+
+
+
+
+

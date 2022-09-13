@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4145
+SUBJECT: GRB 051022:  Spectral Analysis Indicates That The Spectrum Is Absorbed
+DATE:    05/10/23 04:04:49 GMT
+FROM:    Don Lamb at U.Chicago  <lamb@oddjob.uchicago.edu>
+
+GRB 051022:  Spectral Analysis Indicates That The Spectrum Is Absorbed
+
+J. Doty, G. Ricker, J-L. Atteia, N. Kawai, D. Lamb, and S. Woosley, on 
+behalf of the HETE Science Team; 
+
+M. Arimoto, T. Donaghy, E. Fenimore, M. Galassi, C. Graziani, 
+N. Ishikawa, A. Kobayashi, J. Kotoku, M. Maetou, M. Matsuoka, 
+Y. Nakagawa, T. Sakamoto, R. Sato, T. Shimokawabe, Y. Shirasaki, 
+S. Sugita, M. Suzuki, T. Tamagawa, K. Tanaka, and A. Yoshida, on behalf 
+of the HETE WXM Team; 
+
+N. Butler, G. Crew, G. Prigozhin, R. Vanderspek, J. Villasenor, 
+J. G. Jernigan, A. Levine, G. Azzibrouck, J. Braga, R. Manchanda, 
+and G. Pizzichini, on behalf of the HETE Operations and HETE 
+Optical-SXC Teams; 
+
+M. Boer, J-F Olive, J-P Dezalay, and K. Hurley, on behalf of the HETE 
+FREGATE Team; 
+
+report:
+
+We have performed a spectral analysis of the WXM and FREGATE spectral
+data for GRB 051022.  Fitting a power-law times exponential (PLE) model
+jointly to the WXM and FREGATE spectral data yields a chi^2 of 185 for
+139 DOF, while fitting a PLE model with absorption yields a chi^2 of
+131 for 138 DOF.  Fitting a Band model jointly to the WXM and FREGATE
+spectral data also yields a chi^2 of 131 for 138 DOF.  These results
+show that the data strongly favor a PLE model with absorption over a
+PLE model alone, and that a PLE model with absorption gives a 
+satisfactory fit to the data.  They also show that the data do not 
+request a Band model with absorption.
+
+The best-fit spectral parameters for the PLE model with absorption are
+alpha = -1.22+/-0.02, E_peak = 306 + 31/-26 keV, and n_H = 1.7 ± 0.4
+x 10^22 atoms cm^-2.  The fluence is (2.2 ± 0.02) x 10^-5 erg cm^-2 
+in the 2-30 keV energy band and (1.4 ± 0.02) x 10^-4 erg cm^-2 in the
+30-400 keV energy band.  The ratio log(S_x/S_g) = -1.8, so GRB 051022 
+is a "classical" hard GRB.
+

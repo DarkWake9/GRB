@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22405
+SUBJECT: Trigger 809217: Swift trigger on RS CVn Star HD 8357
+DATE:    18/02/08 23:30:51 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+D. N. Burrows (PSU), A. D'Ai (INAF-IASFPA), V. D'Elia (ASDC),
+A. Deich (PSU), J.D. Gropp (PSU), J. A. Kennea (PSU),
+D. M. Palmer (LANL), B. Sbarufatti (PSU) and A. Tohuvavohu (PSU)
+report on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 22:58:59 UT, the Swift Burst Alert Telescope (BAT) detected
+the known RS CVn star HD 8357 (trigger=809217) in a 320s image. 
+Swift slewed immediately to the location.  The BAT on-board 
+calculated location is 
+RA, Dec 20.786, +7.444 which is 
+   RA(J2000) = 01h 23m 09s
+   Dec(J2000) = +07d 26' 38"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual for an image trigger,
+no obvious variation is detectable in the immediately available
+BAT rates lightcurve. 
+
+The XRT began observing the field at 23:05:26.8 UT, 387.4 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+20.7371, 7.4200 which is equivalent to:
+   RA(J2000)  = +01h 22m 56.90s
+   Dec(J2000) = +07d 25' 12.0"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 194 arcseconds from the BAT onboard position, outside the
+BAT error circle. This position is 1.9 arcseconds from that of a known
+X-ray source: 3XMM J012256.8+072510 in the XMM-NEWTON XMMSSC catalogue
+and is consistent with the position of HD 8357. 
+
+Assuming a typical GRB power-law spectrum (NH=3e21 cm^-2, gamma=2), the
+XMM catalogue entry for this object is equivalent to a 0.2-10 keV flux of
+6.2e-11 erg cm^-2 s^-1; the flux in the 2.5 s XRT image was 7.63e-09
+erg cm^-2 s^-1. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+Because HD 8357 is a known bright star (V=7.31) UVOT did not
+take data. 
+
+This appears to be the first time that this source has triggered
+BAT in the on-board imaging. 
+

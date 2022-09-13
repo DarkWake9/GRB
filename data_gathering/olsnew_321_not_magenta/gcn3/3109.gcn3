@@ -1,0 +1,64 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3109
+SUBJECT: GRB050223: analysis of the XMM-Newton observation
+DATE:    05/03/17 18:25:00 GMT
+FROM:    Andrea De Luca at IASF-CNR,Milano  <deluca@mi.iasf.cnr.it>
+
+A. De Luca (IASF-Mi), S. Campana (OAB) on behalf of a larger
+collaboration report:
+
+We have analyzed the data from the XMM-Newton observation of
+GRB050223, discovered by Swift on 2005, Feb 23, 03:09:06 UTC
+(Giommi et al., GCN3054).
+
+The XMM-Newton observation started on 2005, Feb. 23 at 13:04 UT
+and ended on 2005, Feb 24 at 06:14:20, with a gap between
+Feb. 23 16:54 UT and Feb. 23 18:56 UT  due to a ground station
+outage. A first account of results, based on the analysis of
+preliminary data, have been presented by the XMM-Newton SOC team
+(http://xmm.vilspa.esa.es/external/xmm_news/items/grb050223/index.shtml).
+
+Observation Data Files have been produced and released only for
+the part of the observation starting from Feb. 23 18:55:57 UT
+(after the gap) and lasting for 41 ks.
+
+The whole observation is badly affected by low-energy particle
+background, dramatically reducing the signal to noise, especially
+in the data from the back-illuminated pn detector, which is
+particularly sensitive to such background component.
+This hampers a detailed study of the spectral and temporal
+phenomenology of the faint source XMMU J180532.5-622821
+(Gonzalez-Riestra et al., GCN 3060), the likely afterglow
+of GRB050223.
+
+As a first step, we improved the astrometry of the XMM-Newton/EPIC
+images by matching X-ray sources in the field to bright stars in
+the USNO-B1 catalogue.
+The refined position (J2000) for the X-ray afterglow is
+
+RA: 18h 05m 32.49s  Dec: -62d 28' 21.07"
+
+The 1 sigma error radius is 1.5 arcsec (including the rms error on the
+cross-correlation as well as systematic uncertainties in the optical
+catalogue). The position is fully consistent with the XRT coordinates
+(Giommi et al., GCN 3054) as well as with the preliminary XMM-Newton
+position by Gonzalez-Riestra et al. (GCN 3060).
+
+The EPIC light curve in the 0.5-2 keV range (where the signal-to-noise
+is maximum) shows hints that the source is fading, following
+a power law decay with index in the range 0.5-3 (90% confidence level).
+
+We extracted time-averaged spectra from the three EPIC cameras and we
+generated ad-hoc response and effective area files. A slightly absorbed
+(NH<10^21 cm^-2, consistent with the Galactic column density in this
+direction, 7x10^20  cm^-2) power law model with photon index
+1.6(+0.6,-0.4) gives an acceptable description of the data in the 0.3-4
+keV range, with a reduced chi2 of 1.5 (32 d.o.f). The quoted errors are
+at 90% conf. level for a single interesting parameter.
+The not optimal quality of the fit is most likely due to the heavy
+background affecting the observation.
+The observed flux (0.2-10 keV) is of ~3.7x10^-14 ergs cm^-2 s^-1;
+the corresponding unabsorbed flux is ~4x10^-14 ergs cm^-2 s^-1.
+
+This message may be cited.
+

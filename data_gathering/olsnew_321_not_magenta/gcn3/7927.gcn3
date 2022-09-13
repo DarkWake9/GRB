@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7927
+SUBJECT: Swift Trigger 315630: Swift/UVOT Upper Limits
+DATE:    08/07/02 22:05:43 GMT
+FROM:    Frank Marshall at GSFC  <marshall@milkyway.gsfc.nasa.gov>
+
+F.E. Marshall (NASA/GSFC) and C. Pagani (PSU)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT observed the field of Swift trigger number 315630 
+starting 95 s after the BAT trigger (Pagani et al., GCN Circ. 7912).  
+No afterglow has been detected in either the X-ray
+(Barthelmy et al., GCN Circ. 7921) or optical
+(Gonsalves et al., GCN Circ. 7922) bands. 
+We do not find a source in any of the UVOT observations inside 
+the ground-calculated BAT error circle (Barthelmy et al., GCN Circ. 7921).
+The first UVOT finding chart exposure covers only about 90% of
+the BAT error region, but the other exposures cover the entire
+BAT error region. The 3-sigma upper limits for detecting
+a source in the first finding chart (FC) exposure and co-added frames are:
+
+Filter            T_start(s)   T_stop(s)     Exp(s)     Mag (3-sigma UL)
+
+white (FC)          95          194           98        >19.7
+white               95         4573          241        >20.4
+v                  201         5854          216        >18.6
+b                 4225         4424          197        >19.9
+u                 4019         4218          197        >19.8
+uvw1              3815         4014          197        >19.6
+uvm2              3609         5995          329        >20.2
+uvw2              5450         5649          197        >19.5
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E(B-V) = 0.051 mag in
+the direction of the burst (Schlegel et al. 1998).
+

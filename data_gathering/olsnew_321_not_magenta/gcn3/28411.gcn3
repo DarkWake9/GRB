@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28411
+SUBJECT: IceCube-200911A: IceCube observation of a high-energy neutrino candidate event
+DATE:    20/09/11 17:39:03 GMT
+FROM:    Cristina Lagunas Gualda at DESY  <cristina.lagunas@desy.de>
+
+The IceCube Collaboration (http://icecube.wisc.edu/) reports:
+
+On 20/09/11 at 14:19:46.23 UT IceCube detected a track-like event with a moderate probability of being of astrophysical origin. The event was selected by the ICECUBE_Astrotrack_Bronze alert stream.  The average astrophysical neutrino purity for Bronze alerts is 30%. This alert has an estimated false alarm rate of 0.968 events per year due to atmospheric backgrounds. The IceCube detector was in a normal operating state at the time of detection. 
+
+After the initial automated alert (https://gcn.gsfc.nasa.gov/notices_amon_g_b/134482_27754576.amon), more 
+sophisticated reconstruction algorithms have been applied offline, with the direction refined to:
+
+Date: 20/09/11
+Time: 14:19:46.23  UT
+RA: 51.11 (+ 4.42 - 11.01  deg 90% PSF containment) J2000
+Dec:  38.11 (+ 2.35  - 1.99  deg 90% PSF containment) J2000
+
+We note that this updated direction has shifted from the initial alert.  The track from this neutrino event was just outside the instrumented volume, parallel to our detector string layout, which can introduce ambiguities in reconstructed directions.  The shape of the error region for this event’s reconstructed direction (https://roc.icecube.wisc.edu/public/alerts/run00134482.evt000027754576/) reflects this ambiguity.  
+
+We encourage follow-up by ground and space-based instruments to help identify a possible astrophysical source for the candidate neutrino.
+
+There is one Fermi 4FGL source located within the 90% localization region, 4FGL J0334.3+3920, located at RA: 53.58 deg, Dec: 39.34 deg (J2000), at a distance of 2.29 deg from the best-fit event position.
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector operating at the geographic South Pole, Antarctica. The IceCube realtime alert point of contact can be reached at roc@icecube.wisc.edu
+

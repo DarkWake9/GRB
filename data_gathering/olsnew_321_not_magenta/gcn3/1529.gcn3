@@ -1,0 +1,205 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1529
+SUBJECT: INTEGRAL GRBs added to GCN
+DATE:    02/09/03 00:53:03 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+INTRODUCTION:
+The INTEGRAL mission will soon launch (Oct 02) and two of its instruments 
+have the ability to locate (or just detect) GRBs.  They expect 1-2 bursts/month
+with a location uncertainty of <3 arcmin (radius) and with a time delay
+of 1-2 minutes.
+
+INTEGRAL and GCN:
+There are 5 types of messages available from the INTEGRAL mission.  The GCN
+will distribute these INTEGRAL messages.  You can get these messages
+directly from the INTEGRAL ISDC or you can get them through GCN.  There are
+several advantages to using GCN:
+a) For socket sites, you only have to maintain a single socket connection.
+And there is no additional software involved.
+b) There is only one format.  For socket sites, the INTEGRAL-direct packet
+is 400 bytes (and the GCN packet is 160 bytes).  As part of the redistribution
+service, GCN reformats the INTEGRAL information into the standard GCN
+format -- this means the locations within the packet are in the standard
+locations and that the information has been integerized (no need to understand
+fl.pt. conversions).  The date & time have also been converted to the standard
+GCN format.
+c) And there is e-mail format.  Currently, the only format available directly
+from the INTEGRAL machine is the Internet socket packet.
+GCN will generate the standard format & style email, pager, and cellphone
+messages for the INTEGRAL messages.
+The down-side to using GCN instead of INTEGRAL-direct is an increase
+in the time delay.  But this is small: 0.5-1.0 sec added onto the nominal
+1-2 min delay already from the INTEGRAL data telemetry & processing system.
+
+TEST NOTICES:
+In addition to the 5 basic GCN/INTEGRAL types, Test Notice versions of each
+type are also available (via sockets, email, pagers, etc).  These Test Notices
+are available immediately (even prior to launch).  They are issued every hour.
+Socket sites may wish to subscribe to these Test packets to develope
+their operations wrt to INTEGRAL prior to the October launch.
+
+FORMATS:
+For the sockets sites, the table below shows the content & format
+of the 5 GCN/INTEGRAL packets.  For the complete details of these packets,
+please see the "Socket Packet Definition" document:
+http://gcn.gsfc.nasa.gov/gcn/sock_pkt_def_doc.html
+
+The 5 Notices in e-mail format are shown below; plus a couple of pager and
+short-pager formats are also shown.  The rest can be found at:
+http://gcn.gsfc.nasa.gov/gcn/integral.html
+
+ACTION ITEM:
+Sites wishing to have these GCN/INTEGRAL Notices added to their sites's
+configuration need to send an email to scott@lheamail.gsfc.nasa.gov.
+Please be sure to identify the site_name in your request (or at least 
+some piece of information that will help me identify you from the other 240+
+sites in the configuration file).  New sites are always welcome; and you
+can learn about GCN and answer the 13 questions needed to create a new entry
+at  http://gcn.gsfc.nasa.gov/gcn/invitation.html.
+
+Sincerely,
+Scott Barthelmy
+GCN Operations
+NASA-GSFC
+301-286-3106
+
+
+
+
+Type:  51            52           53           54             55
+       INTEGRAL_     INTEGRAL_    INTEGRAL_    INTEGRAL_      INTEGRAL_
+       POINTDIR      SPIACS       WAKEUP       REFINED        OFFLINE
+Loc:
+0      pkt_type      pkt_type     pkt_type     pkt_type       pkt_type
+1      pkt_sernum    pkt_sernum   pkt_sernum   pkt_sernum     pkt_sernum
+2      pkt_hopcnt    pkt_hopcnt   pkt_hopcnt   pkt_hopcnt     pkt_hopcnt
+3      pkt_sod       pkt_sod      pkt_sod      pkt_sod        pkt_sod
+4      trig_sub_num  trig_sub_num trig_sub_num trig_sub_num   trig_sub_num
+5      slew_tjd      burst_tjd    burst_tjd    burst_tjd      burst_tjd
+6      slew_sod      burst_sod    burst_sod    burst_sod      burst_sod
+7      -             -            burst_ra     burst_ra       burst_ra
+8      -             -            burst_dec    burst_dec      burst_dec
+9      -             det_flags    det_flags    det_flags      det_flags
+10     -             inten_sigma  inten_sigma  inten_sigma    inten_sigma
+11     -             -            burst_error  burst_error    burst_error
+12     test_mpos     test_mpos    test_mpos    test_mpos      test_mpos
+13     -             time_scale   time_scale   time_scale     time_scale
+14     next_sc_ra    -            sc_ra        sc_ra          sc_ra
+15     next_sc_dec   -            sc_dec       sc_dec         sc_dec
+16     -             time_error   time_error   time_error     time_error
+17     -             -            -            -              -
+18     -             -            -            -              -
+19     misc_att      misc_att     misc_att     misc_att       misc_att
+20-38  -             -            -            -              -
+39     pkt_term      pkt_term     pkt_term     pkt_term       pkt_term
+
+
+===========================================================================
+TITLE:          GCN/INTEGRAL NOTICE
+NOTICE_DATE:    Sun 01 Sep 02 18:08:03 UT
+NOTICE_TYPE:    INTEGRAL Wakeup
+TRIGGER_NUM:    0,   Sub_Num: 0 
+GRB_RA:           1.2037d {+00h 04m 49s} (J2000),
+                  1.2343d {+00h 04m 56s} (current),
+                  0.5630d {+00h 02m 15s} (1950)
+GRB_DEC:         +2.3323d {+02d 19' 56"} (J2000),
+                 +2.3456d {+02d 20' 44"} (current),
+                 +2.0539d {+02d 03' 14"} (1950)
+GRB_ERROR:      1.02 [armin, radius, statistical only]
+GRB_INTEN:      11.34 [sigma]
+GRB_TIME:       43403.68 SOD {12:03:23.68} UT
+GRB_DATE:       12417 TJD;   143 DOY;   02/05/23
+SC_RA:            1.46 [deg]
+SC_DEC:           2.48 [deg]
+SUN_POSTN:       60.11d {+04h 00m 27s}  +20.60d {+20d 35' 60"}
+SUN_DIST:        60.14 [deg]
+MOON_POSTN:     201.73d {+13h 26m 56s}   -4.51d {-04d 30' 47"}
+MOON_DIST:      159.43 [deg]
+GAL_COORDS:     100.23,-58.47 [deg] galactic lon,lat of the burst
+ECL_COORDS:       2.03,  1.66 [deg] ecliptic lon,lat of the burst
+COMMENTS:       INTEGRAL GRB Coordinates.
+===========================================================================
+GCN/INTEGRAL GRB
+Wakeup
+RA=1.234d  DEC=+2.346d
+TIME: 12:03:23.68 UT
+I=11.34 sigma
+===========================================================================
+INTEGRAL
+Wakeup
+RA=0.563 DEC=+2.054d
+===========================================================================
+TITLE:          GCN/INTEGRAL NOTICE
+NOTICE_DATE:    Sun 01 Sep 02 18:08:07 UT
+NOTICE_TYPE:    INTEGRAL Refined
+TRIGGER_NUM:    0,   Sub_Num: 0
+GRB_RA:           1.2037d {+00h 04m 49s} (J2000),
+                  1.2343d {+00h 04m 56s} (current),
+                  0.5630d {+00h 02m 15s} (1950)
+GRB_DEC:         +2.3323d {+02d 19' 56"} (J2000),
+                 +2.3456d {+02d 20' 44"} (current),
+                 +2.0539d {+02d 03' 14"} (1950)
+GRB_ERROR:      1.02 [armin, radius, statistical only]
+GRB_INTEN:      11.34 [sigma]
+GRB_TIME:       43403.68 SOD {12:03:23.68} UT
+GRB_DATE:       12417 TJD;   143 DOY;   02/05/23
+SC_RA:            1.46 [deg]
+SC_DEC:           2.48 [deg]
+SUN_POSTN:       60.11d {+04h 00m 27s}  +20.60d {+20d 35' 60"}
+SUN_DIST:        60.14 [deg]
+MOON_POSTN:     201.73d {+13h 26m 56s}   -4.51d {-04d 30' 47"}
+MOON_DIST:      159.43 [deg]
+GAL_COORDS:     100.23,-58.47 [deg] galactic lon,lat of the burst
+ECL_COORDS:       2.03,  1.66 [deg] ecliptic lon,lat of the burst
+COMMENTS:       INTEGRAL GRB Coordinates.
+===========================================================================
+TITLE:          GCN/INTEGRAL NOTICE
+NOTICE_DATE:    Sun 01 Sep 02 18:08:09 UT
+NOTICE_TYPE:    INTEGRAL Offline
+TRIGGER_NUM:    234,   Sub_Num: 0 
+GRB_RA:           1.2037d {+00h 04m 49s} (J2000),
+                  1.2343d {+00h 04m 56s} (current),
+                  0.5630d {+00h 02m 15s} (1950)
+GRB_DEC:         +2.3323d {+02d 19' 56"} (J2000),
+                 +2.3456d {+02d 20' 44"} (current),
+                 +2.0539d {+02d 03' 14"} (1950)
+GRB_ERROR:      1.02 [armin, radius, statistical only]
+GRB_INTEN:      11.34 [sigma]
+GRB_TIME:       43403.68 SOD {12:03:23.68} UT
+GRB_DATE:       12417 TJD;   143 DOY;   02/05/23
+SC_RA:            1.46 [deg]
+SC_DEC:           2.48 [deg]
+SUN_POSTN:       60.11d {+04h 00m 27s}  +20.60d {+20d 35' 60"}
+SUN_DIST:        60.14 [deg]
+MOON_POSTN:     201.73d {+13h 26m 56s}   -4.51d {-04d 30' 47"}
+MOON_DIST:      159.43 [deg]
+GAL_COORDS:     100.23,-58.47 [deg] galactic lon,lat of the burst
+ECL_COORDS:       2.03,  1.66 [deg] ecliptic lon,lat of the burst
+COMMENTS:       INTEGRAL GRB Coordinates.
+=========================================================================== 
+TITLE:          GCN/INTEGRAL NOTICE
+NOTICE_DATE:    Mon 02 Sep 02 18:08:01 UT
+NOTICE_TYPE:    INTEGRAL Pointing Direction
+NEXT_POINT_RA:    3.9584d {+00h 15m 50s} (J2000)
+NEXT_POINT_DEC:  -2.4058d {-02d 24' 20"} (J2000)
+SLEW_TIME:      43556.08 SOD {12:05:56.08} UT
+SLEW_DATE:      12417 TJD;   143 DOY;   02/05/23
+SUN_POSTN:       60.11d {+04h 00m 27s}  +20.60d {+20d 36' 01"}
+SUN_DIST:        59.56 [deg]
+MOON_POSTN:     201.76d {+13h 27m 02s}   -4.52d {-04d 31' 26"}
+MOON_DIST:      160.95 [deg]
+GAL_COORDS:     102.40,-63.85 [deg] galactic lon,lat of the pointing direction
+ECL_COORDS:       2.68, -3.78 [deg] ecliptic lon,lat of the pointing direction
+COMMENTS:       INTEGRAL TEST Slew Notice. 
+=========================================================================== 
+TITLE:          GCN/INTEGRAL NOTICE
+NOTICE_DATE:    Sun 01 Sep 02 18:08:05 UT
+NOTICE_TYPE:    INTEGRAL SPI ACS Trigger
+TRIGGER_NUM:    0,   Sub_Num: 0 
+GRB_INTEN:      11.34 [sigma]
+GRB_TIME:       43403.68 SOD {12:03:23.68} UT
+GRB_DATE:       12417 TJD;   143 DOY;   02/05/23
+COMMENTS:       INTEGRAL SPI_ACS GRB Trigger.
+===========================================================================
+

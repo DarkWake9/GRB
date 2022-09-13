@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18161
+SUBJECT: GRB 150818A: Swift/UVOT Detection
+DATE:    15/08/18 20:39:33 GMT
+FROM:    Marissa McCaule at PSU  <marissamc@swift.psu.edu>
+
+L. M. McCauley (PSU), L. M. Z. Hagen (PSU), and V. D'Elia (ASDC)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 150818A
+94 s after the BAT trigger (D'Elia et al., GCN Circ. 18152).
+A source consistent with the XRT position (Beardmore et al. GCN Circ. 18159)
+is detected in the initial UVOT exposures.
+
+The preliminary UVOT position is:
+    RA  (J2000) =  15:21:25.43 = 230.35594 (deg.)
+    Dec (J2000) = +68:20:33.0  =  68.34251 (deg.)
+with an estimated uncertainty of 0.66 arc sec. (radius, 90% confidence).
+
+Preliminary detections and 3-sigma upper limits using the UVOT photometric
+system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early
+exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white_fc            94          121           27         19.39+-0.25
+white             3414         4790          344         19.92+-0.17
+white            10222        10826          590         19.68+-0.07
+v                 3572         5201          393        >19.36
+b                 4385         4585          196        >20.16
+b                 5821        10217          927         20.56+-0.33
+u                 4180         4379          196        >19.66
+u                 5616         5816          196         19.63+-0.25
+uvw1              3976         4175          195         18.78+-0.20
+uvw1              5411         5611          196         18.95+-0.20
+uvm2              3776         3976          192         18.81+-0.23
+uvm2              5206         5406          196         18.89+-0.24
+uvw2              4796         4996          196         18.90+-0.19
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.02 in the direction of the burst
+(Schlegel et al. 1998).
+

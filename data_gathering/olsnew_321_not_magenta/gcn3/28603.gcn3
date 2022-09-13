@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28603
+SUBJECT: SGR 1830-0645: pre-discovery detection in Swift/BAT
+DATE:    20/10/11 22:39:41 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+SGR 1830-0645 was discovered by Swift/BAT trigger #999571 on
+2020-10-10T14:29:24 UTC (GCN 28594, ATEL 14083). The hypothesis of
+magnetar origin was strengthened by measurement of a spin-period in
+the Swift/XRT data (Gogus et al. ATEL 14085).
+
+We performed a sub-threshold search in the Swift/BAT data, and find
+that BAT detected a soft (<50 keV), short (~20 ms), flare from this
+source at 2020-10-05T18:20:35.566  UTC, 5 days before the discovery
+trigger.
+
+The origin of this flare is confirmed to come from SGR 1830-0645 from
+time-tagged event data recorded by Swift/BAT. This TTE data was saved
+by BAT triggering on this flare in the rates domain in real-time, with
+failed trigger #998860. This was not promoted to a successful trigger
+as BAT failed to find a source location in the associated image
+produced on-board. This was due to a suboptimal foreground interval
+selection by the real time analyses. The close proximity to the SAA,
+and elevated background, likely also contributed.
+
+We cleaned the TTE data of hot/noisy detectors. We detect the flare
+from SGR 1830-0645 with a rates significance of >10 sigma, and confirm
+the source location in the image domain at >7 sigma.
+

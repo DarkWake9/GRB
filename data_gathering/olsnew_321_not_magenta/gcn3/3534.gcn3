@@ -1,0 +1,33 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3534
+SUBJECT: GRB 050607: RAPTOR-S Early Optical Limits
+DATE:    05/06/08 00:11:19 GMT
+FROM:    James Wren at LANL  <jwren@nis.lanl.gov>
+
+J. Wren, W. T. Vestrand, P. Wozniak, R. White, S. Evans report on
+behalf of the RAPTOR team at Los Alamos National Laboratory:
+
+The RAPTOR-S telescope responded robotically to GRB 050607 (Swift
+trigger 132247, GCN #3525). The first exposure began at 09:11:49.97 UT,
+27.17 seconds after the trigger time and during the third peak
+in the 15-350 keV light curve of the GRB.  Observations continued
+through morning twilight which began approximately 90 minutes later.
+Vibrations due to high winds degraded the quality of several of the
+response images.  We do not detect the optical counterpart reported
+by Rhoads (GCN #3527).
+
+We are able to place the following limits on the early optical
+afterglow based on calibration to the USNO-A2.0 R-band (times are
+seconds since trigger):
+
+mag   | mid-exposure | start   | end     | exposure
+limit | time         | time    | time    | duration
+---------------------------------------------------------------------
+15.6  | 32.17        | 27.17   | 37.17   | 10
+17.8  | 42.79        | 47.79   | 57.79   | 10
+18.5  | 108.66       | 47.79   | 220.46  | 70   (sum of 7 10s images)
+18.0  | 248.94       | 233.94  | 263.94  | 30
+18.9  | 390.27       | 233.94  | 627.29  | 180  (sum of 6 30s images)
+18.2  | 741.18       | 711.18  | 771.18  | 60
+19.2  | 1303.89      | 711.18  | 1615.55 | 360  (sum of 6 60s images)
+

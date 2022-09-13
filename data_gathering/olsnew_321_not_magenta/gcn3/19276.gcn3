@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19276
+SUBJECT: GRB 160410A: Swift-BAT refined analysis of the short GRB
+DATE:    16/04/10 17:41:10 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), S. L. Gibson (U Leicester), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), J. P. Norris (BSU),
+D. M. Palmer (LANL), M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-60 to T+243 sec from the recent telemetry downlinks,
+we report further analysis of BAT short GRB 160410A (trigger #682269)
+(Gibson, et al., GCN Circ. 19271).  The BAT ground-calculated position is
+RA, Dec = 150.695, 3.461 deg, which is 
+   RA(J2000)  =  10h 02m 46.9s 
+   Dec(J2000) = +03d 27' 40.3" 
+with an uncertainty of 1.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 37%.
+ 
+The mask-weighted light curve shows an initial spike starting at ~T-0.2 s
+peaking at ~T+0.1 s with a decay out to ~T+2.5 s, then a greatly reduced
+flux level portion out to ~T+9 s.  T90 (15-350 keV) is 8.2 +- 1.6 s
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T+0.04 to T+9.60 s is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.93 +- 0.17.  The fluence in the 15-150 keV band is 7.8 +- 0.8 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.04 sec in the 15-150 keV band
+is 3.5 +- 0.3 ph/cm2/s.  All the quoted errors are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/682269/BA/
+
+Using a 4-ms binned light curve for this bright burst, the lag of the initial pulse
+(~T0 to ~T0+2 s) for the 100-350 keV to 25-50 keV bands is -3 (+/-7) ms
+(with 1-sigma error) and for the 50-100 kev to 15-25 keV bands the lag is 8 (+/-14) ms.
+These values are consistant with zero, thus confirming that this is a short GRB.
+There is extended emission out to ~T+10 sec at ~0.038 counts/det/sec then dropping
+to ~0.0055 counts/det/sec out to ~T+92 sec.
+

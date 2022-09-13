@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7097
+SUBJECT: Swift detection of MXB 0656-072
+DATE:    07/11/16 18:18:40 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+D. N. Burrows (PSU), J. R. Cummings (NASA/UMBC),
+G. Cusumano (INAF-IASFPA), C. Guidorzi (Univ Bicocca&INAF-OAB),
+S. T. Holland (CRESST/USRA/GSFC), J. A. Kennea (PSU),
+H. A. Krimm (GSFC/USRA), V. Mangano (INAF-IASFPA),
+F. E. Marshall (NASA/GSFC), A. Moretti (INAF-OAB),
+P. T. O'Brien (U Leicester), D. M. Palmer (LANL),
+P. Romano (Univ. Bicocca & INAF-OAB), B. Sbarufatti (INAF-IASFPA),
+M. Stamatikos (NASA/ORAU), R. L. C. Starling (U Leicester),
+E. Troja (INAF-IASFPA), T. N. Ukwatta (GSFC/GWU) and
+D. E. Vanden Berk (PSU) report on behalf of the Swift Team:
+
+At 17:40:37 UT, the Swift Burst Alert Telescope (BAT) found a source
+that was not in its onboard catalog (trigger=296739) in a 320 second
+exposure.  Swift slewed automatically to the location about 7 minutes
+after discovery. The BAT on-board calculated location is 
+RA, Dec 104.555, -7.202 which is 
+   RA(J2000) = 06h 58m 13s
+   Dec(J2000) = -07d 12' 07"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This is consistent with the known source
+MXB 0656-072, which has recently been showing increased activity
+(ATELs #1281, #1283).  The TDRSS light curve shows no
+obvious variability, as is typical for long image triggers. 
+
+The XRT began observing the field at 17:53:55 UT, 798 seconds after the
+BAT trigger. XRT found a bright X-ray source
+located at RA, Dec 104.5711, -7.2086 which is
+   RA(J2000)  =  06h 58m 17.0s
+   Dec(J2000) = -07d 12' 30.9"
+with an uncertainty of 5.4 arcseconds (radius, 90% containment). 
+We cannot tell from initial quick-look data whether the source is fading. 
+This location is 62 arcseconds from the BAT on-board position,
+within the BAT error circle and 4.1 arcminutes from the Simbad position 
+of MXB 0656-072. The initial flux in the 2.5s image was 1.2e-09 erg/cm2/s
+(0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 806 seconds after the BAT trigger. No afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 18.5 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the extinction of E(B-V) = 1.247. 
+
+The Swift Narrow Field Instruments will continue to observe this
+source for a couple of orbits before returning to the previous
+observing schedule. 
+

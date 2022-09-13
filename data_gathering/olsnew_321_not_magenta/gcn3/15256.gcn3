@@ -1,0 +1,16 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15256
+SUBJECT: GRB 130925A: Historical non-detection from Rosat-HRI
+DATE:    13/09/25 17:03:21 GMT
+FROM:    Jonathan Gelbord at PSU/Swift  <jgelbord@gmail.com>
+
+J. M. Gelbord (Eureka Scientific) reports:
+
+Historical X-ray data covering the position of GRB 130925A (Evans et al., GCN Circ 15246) is available from the ROSAT archive at HEASARC.  The deepest data set is a 5.5 ks observation with the ROSAT HRI taken 1997-07-01, in which the position of GRB 130925A is 9' off axis.  There is no trace of an X-ray source at this position.
+
+Using a source extraction region of 24" and a concentric annular background region from 80" to 240", formally I find 0.2 +/- 3.6 counts in the HRI band.  The three sigma upper limit is 14.8 counts (using the Bayesian approach of Kraft, Burrows & Nousek 1991, ApJ 374, 344).  Given the nominal exposure time of 5.5 ks, this translates to 2.7E-03 HRI counts per sec.
+
+We use WebPIMMS ( http://heasarc.gsfc.nasa.gov/Tools/w3pimms.html ) to convert the 3-sigma HRI count rate limit to a limit in the Swift-XRT band.  Assuming the auto-generated spectral model for GRB 130925A (available from http://www.swift.ac.uk/xrt_products/00571830 ) fitted to the XRT PC-mode data for GRB 130925A (through T0+29.8 ks; NH (intrinsic) = 9.4E+21, Gamma = 2.61), together with NH (Galactic) = 1.66E+20 and z=0.347 (Vreeswijk et al., GCN Circ 15249 and Sudilovsky et al., GCN Circ 15250), the 3-sigma HRI count rate limit translates to an XRT count rate of 5.7E-3 counts per second.  If we instead adopt the harder spectral model resulting from the fit to the WT-mode data (NH (Intrinsic) = 6.8E+21 and Gamma = 1.73), the equivalent XRT count rate would be 7.8E-3 counts per second.
+
+Thus, the Rosat HRI upper limit reveals that GRB 130925A at T0+200s was at least 10^6 times brighter and at T0+30ks was still at least 100 times brighter than any X-ray source at this position in July 1997.
+

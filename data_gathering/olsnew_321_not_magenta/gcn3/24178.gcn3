@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24178
+SUBJECT: LIGO/Virgo S190425z: further analysis of INTEGRAL data
+DATE:    19/04/25 13:06:11 GMT
+FROM:    Volodymyr Savchenko at ISDC,U of Geneve  <savchenk@in2p3.fr>
+
+V. Savchenko, C. Ferrigno (ISDC/UniGE, Switzerland)
+A. Martin-Carillo (UCD, Dublin)
+J. Rodi (IAPS-Roma, Italy)
+A. Coleiro (APC, France)
+S. Mereghetti (INAF IASF-Milano, Italy)
+
+on behalf of the INTEGRAL multi-messenger collaboration:
+https://www.astro.unige.ch/cdci/integral-multimessenger-collaboration
+
+We detect only one possible low-S/N excess after correcting
+for the local background variance at 2019-04-25T08:18:05
+(T0)+6s, as reported in Martin-Carillo 2019 (GCN 24169).
+Its fluence strongly depends on the true source location,
+since large 90% localization region provided by LIGO/Virgo
+includes sky directions in which INTEGRAL detectors able to
+detect impulsive signal from all-sky (SPI-ACS and IBIS)
+featured both low and high sensitivity.
+
+For the excess at T0+6s, we estimate a possible 75-2000 keV
+fluence range due to uncertainty of the location
+from 2.0e-10 to 2e-9 erg/cm2 (in addition to systematic
+uncertainty of response of 20% and statistical uncertainty of 30%),
+assuming the duration of 1s and a characteristic short GRB spectrum
+(an exponentially cut off power law with alpha=-0.5 and Ep=600 keV).
+
+The sensitivity map is provided:
+
+https://www.astro.unige.ch/cdci/content/int-combined-sensitivity-map-lvc-s190425z
+
+We stress that the FAP of association of this excess to S190425z
+is below 3 sigma. Further estimate of the FAP, taking into account detail
+noise estimates during the days around the event, will be
+provided in the future publications.
+
+INTEGRAL is unable to provide an accurate localization of
+the above mentioned low-S/N excess.
+The best localization constraint we are currently able to
+provide excludes the FoV of INTEGRAL/IBIS at the time of the event
+(18:24:43.61, +29:45:25.9, 15 deg radius).
+An event comparable to the excess at T0+6s occurring in the FoV
+would have been detected by INTEGRAL/IBAS in realtime.
+Furthermore, a location close to the FoV (within ~30 deg
+from the center of the pointing) is discouraged by the lack
+of INTEGRAL IBIS/PICsIT detection.
+
+The south-west arc of the LIGO/Virgo localization of S190425z
+is slightly unfavorable for the origin of the low-S/N excess,
+if it is associated with the GW signal due to the absence
+of any signal in IBIS/Veto shield.
+
+Further analysis will be reported in the following circulars.
+
+INTEGRAL has initiated a target of opportunity observation
+of S190425z centered near peak of the LIGO/Virgo localization.
+The results of these observations will be reported in
+upcoming publications.
+

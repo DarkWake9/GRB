@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19341
+SUBJECT: LIGO/Virgo G197392 / LVT151012: Identification of a GW CBC Candidate 
+DATE:    16/04/25 15:42:45 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and Virgo report:
+
+The offline gstlal and pycbc CBC analyses identified candidate G197392,
+also known as LVT (LIGO/Virgo Trigger) 151012, during offline processing
+of data from LIGO Hanford Observatory (H1) and LIGO Livingston Observatory
+(L1) at 2015-10-12 09:54:43.444 UTC (GPS time: 1128678900.444).
+
+The candidate's false alarm rate was reported as 1 per 2.3 years and a
+corresponding false alarm probability of 0.02 (2.1 sigma) in LSC+Virgo
+2016a (http://adsabs.harvard.edu/abs/2016PhRvL.116f1102A) and LSC+Virgo
+2016b (http://adsabs.harvard.edu/abs/2016arXiv160203839T). There is an
+80--90% chance that the signal has an astrophysical origin. If it does,
+then the source is a binary black hole merger.
+
+LVT151012 was not recovered in real time because the template banks for
+the low-latency CBC searches were not configured at the time to include
+BBHs, and the signal was too weak to be detected by the un-modeled burst
+searches. The offline significance estimate makes it an event of interest
+because it passes our stated alert threshold of ~1/month.
+
+The event's properties can be found at this URL:
+
+https://gracedb.ligo.org/events/G197392
+
+The available sky map, LALInference_skymap.fits.gz, was generated using
+Bayesian Markov-chain Monte Carlo and nested sampling to perform forward
+modeling of the full GW signal including the inspiral and merger as well
+as the effects of calibration uncertainty. The localization is mainly
+determined by the 0.6-ms time delay on arrival of the signal between H1 and
+L1. It favors two long islands on opposite sides of a roughly 2 deg wide
+annulus. The 90% credible region spans an area of about 1700 deg2. We
+regard this sky map as the most accurate to date for this event.
+
+The BAYESTAR localization derived from triangulation of times, amplitudes,
+and phases on arrival is qualitatively and quantitatively consistent with
+the LALInference sky map. The localizations produced by the cWB and LIB
+un-modeled burst analyses are significantly coarser due to the low
+signal-to-noise ratio, but they are qualitatively consistent with
+the CBC localizations.
+
+

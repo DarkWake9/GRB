@@ -1,0 +1,73 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7511
+SUBJECT: GRB 080319B : Apparent spectral evolution in very early Swift/XRT WT mode data: intrinsic or pile-up effect?
+DATE:    08/03/24 22:35:33 GMT
+FROM:    Binbin Zhang at UNLV  <zbb@physics.unlv.edu>
+
+Bin-Bin Zhang (University of Nevada Las Vegas), Enwei Liang (Guangxi 
+University, China) and Bing Zhang (University of Nevada Las Vegas) report:
+
+We have processed the Swift XRT data of GRB 080319B, paying special 
+attention to the possible spectral evolution in the WT mode data 
+(Racusin et al. GCN 7459; cf. Butler GCN 7499). We perform a 
+time-dependent spectral analysis using the method described in (Zhang, 
+Liang & Zhang 2007, ApJ, 666, 1002). Since the early data are strongly 
+affected by photon pile-up, we use a box annulus region for the WT mode 
+data (outer radius 40*20, inner radius 8*20; see also Racusin et al. GCN 
+7459) and time-dependent circle annulus regions for the PC mode data to 
+extract spectra and lightcurves. We fit the time-dependent spectra using 
+a simple power-law model with the absorption from the MilkyWay Galaxy 
+(NH_G=1.12e20 cm^{-2} ) and from the host galaxy (NH_host=7.3e20 
+cm^{-2}, obtained from fitting to the integrated 1st orbit WT mode 
+spectrum). We confirm Butler (GCN 7499) that the apparent spectral 
+evolution after 200 seconds is due to instrumental "pile up" effect. 
+However, in the very early time t ~ (68-100) seconds, an apparent weak 
+but significant hard-to-soft spectral evolution sustains even if we take 
+into account the pile-up corrections. The photon index evolves from 1.67 
+± 0.02 to 1.77 ± 0.02 during this period. Our results can be found at 
+http://grb.physics.unlv.edu/~xrt/xrtweb/080319B/080319B.html.
+
+To make sure that this early-time spectral evolution is not due to the 
+pile-up effect, we extract the time-dependent spectra with box annuli 
+having different sizes. By excluding the central regions, we enlarge the 
+outer radius up to 80 pixel * 20 pixel to make sure that there are 
+enough photons for the spectral analysis. Our tests show that even if 
+the inner box size is as large as 30 pixel * 20 pixel (spectra in annuli 
+with such a large inner radius is not possible to be affected by the 
+pile-up effect), the early time (before 200 seconds) XRT WT data still 
+show significant spectral evolution. We therefore cautiously conclude 
+that this early spectral evolution is likely intrinsic.
+
+Strong hard-to-soft spectral evolution has been seen in the early steep 
+decay phase of many GRB X-ray afterglows (e.g. Zhang et al. 2007, 666, 
+1002), which points towards a non-forward-shock origin of the emission. 
+We notice that the lightcurve before 200 seconds show several weak 
+flaring/flicking features, which is more easily seen in linear scale 
+(see http://grb.physics.unlv.edu/~xrt/xrtweb/080319B/earlylc.png). In 
+view that some steep decay segments with overlapping flares typically 
+show hard-to-soft spectral evolution (Group C in Zhang et al. 2007), we 
+suspect that the weak spectral evolution in this burst is also related 
+to the weak flaring/flicking features. It is however puzzling why this 
+segment naturally transforms to a smooth decay after 200 seconds which 
+show no further spectral evolution.
+
+Throughout our fit we have fixed the NH_host values. Another possibitly 
+is that the apparent spectral evolution is caused by a varying NH_host 
+value (Racusin et al. GCN 7459). We test such a scenario by fixing the 
+photon index to \Gamma=1.76 (average value after 200s) and fit the 
+time-dependent spectra before 200s using the same model 
+(wabs*zbwas*zwabs) but allowing NH_host to be a free parameter.  We 
+obtain acceptable fits, and found that the NH_host in the early time 
+evolves dramatically to one half of its initiall valve (from ~ 1.1e21 
+cm^{-2} to ~ 6.6e20 cm^{-2}). The time evolution of the NH_host value 
+can be found at http://grb.physics.unlv.edu/~xrt/xrtweb/080319B/nh.png. 
+This is another plausible physical scenario, although a model for the 
+rapid depletion of NH_host is called for.
+
+The reduced chi2 in our fitting to the wabs*zwabs*powerlaw model is 
+typically ~1. Although a possible thermal component has been suggested 
+(cf. Racusin et al. GCN 7459), in our fitting no thermal component is 
+required by the data.
+
+This message can be cited.
+

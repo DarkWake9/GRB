@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28808
+SUBJECT: GRB 201029A: Swift-XRT refined Analysis
+DATE:    20/10/30 10:11:05 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+M. Perri (ASDC), V. D'Elia (ASDC), A. D'Ai (INAF-IASFPA), B. Sbarufatti
+(PSU), D.N. Burrows (PSU), J. D. Gropp (PSU), K.L. Page (U. Leicester),
+A.P. Beardmore (U. Leicester) and S. Dichiara (NASA/GSFC/UMCP) reporton
+behalf of the Swift-XRT team:
+
+We have analysed 6.2 ks of XRT data for GRB 201029A (Dichiara et al.
+GCN Circ. 28803), from 128 s to 34.7 ks after the  BAT trigger. The
+data comprise 764 s in Windowed Timing (WT) mode with the remainder in
+Photon Counting (PC) mode. The enhanced XRT position for this burst was
+given by Beardmore et al. (GCN Circ. 28806).
+
+The light curve is dominated by flares. The first flare covers
+~T0+200-650 s. The second flare started at T0+1100s and was still
+ongoing when the GRB entered Earth eclipse at T0+1850 s. The third
+flare began at T0+11.5 ks, was still ongoing at T0+23 ks and finished
+at some point before T0+30.5 ks, although large observing gaps in this
+window prevent acccurate measurements of the flare and it is possible
+that there are multiple flares at this time rather than a single
+long-lived flare. This behaviour, of multiple flares dominating the XRT
+light curve for tens of kiloseconds, is reminiscent of GRBs 050904,
+121027A and 130925A (see
+https://www.swift.ac.uk/xrt_curves/allcurves.php for a mugshot gallery
+of all XRT GRB afterglows).
+
+This flaring activity makes it difficult to model the underlying
+behaviour. Excluding all of the above times, the light curve can be
+modelled with a power-law decay with a decay index of alpha=0.79
+(+0.05, -0.06). These formal errors are likely underestimates, since
+they depend on how accurate the estimates of flare times are, which are
+themselves subject to proper modelling of the underlying emission.
+
+A spectrum formed from the WT mode data can be fitted with an absorbed
+power-law with a photon spectral index	 of 1.65 (+/-0.05). The
+best-fitting absorption column is  4.9 (+/-0.3) x 10^21 cm^-2, in
+excess of the Galactic value of 2.1 x 10^20 cm^-2 (Willingale et al.
+2013). The PC mode spectrum has a photon index of 1.97 (+/-0.12) and a
+best-fitting absorption column of 2.9 (+/-0.5) x 10^21 cm^-2. The
+counts to observed (unabsorbed) 0.3-10 keV flux conversion factor
+deduced from this spectrum  is 3.7 x 10^-11 (5.4 x 10^-11) erg cm^-2
+count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     2.9 (+/-0.5) x 10^21 cm^-2
+Galactic foreground: 2.1 x 10^20 cm^-2
+Excess significance: 9.6 sigma
+Photon index:	     1.97 (+/-0.12)
+
+If the light curve continues to decay with a power-law decay index of
+0.79, the count rate at T+24 hours will be 0.024 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 9.2 x
+10^-13 (1.3 x 10^-12) erg cm^-2 s^-1. The results of the XRT-team
+automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/01003002.
+
+This circular is an official product of the Swift-XRT team.
+

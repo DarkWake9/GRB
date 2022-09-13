@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6238
+SUBJECT: UVOT observations of GRB070330
+DATE:    07/03/31 21:18:15 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+N.P.M. Kuin (MSSL-UCL), D. Grupe (PSU), P. Brown (PSU) report
+on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began taking data in the field of GRB070330 54s after the BAT 
+trigger (Grupe et al., GCN 6232). The afterglow is only detected in the first 
+UVOT V exposure, with a magnitude of V=18.69+/-0.24, after which the afterglow 
+had decayed below the UVOT detection threshold, suggesting a decay rate of 
+alpha_V > 0.8. The refined UVOT afterglow position is
+RA (J2000)  = 17:58:09.98 (269.5426)
+Dec (J2000) = -63:47:34.80 (-63.7930)
+We note that the refined position is 0.5" away from the preliminary UVOT 
+position reported in GCN 6232. The photometry results are given below for the 5 
+UVOT filters in which observations were made. Due to the presence of a bright 
+star no observations could be obtained in the UVW2 and white filters.
+
+Filter  Mid_T(s)   Exp(s)  Mag
+V       266        393     18.69+/-0.24
+V       33978      1632    > 21.45 (3-sigma upper limit)
+M2      25521      2814    > 18.35 (3-sigma upper limit)    `
+W1      20282      1998    > 18.36 (3-sigma upper limit)
+U       25521      2814    > 21.60 (3-sigma upper limit)
+B       30318      3305    > 18.15 (3-sigma upper limit)
+
+Mid_T is the weighted mid time of the exposure since the BAT trigger. These 
+magnitudes are not corrected for the expected reddening of E(B-V)=0.063.
+
+For the time being it is not possible to provide a redshift given the low 
+signal-to-noise ratio of the data. Further analysis is ongoing. A high (~4) 
+redshift is possible and we encourage further ground follow-up.
+
+[GCN OPS NOte(25aug07): Per UVOT Team request, the Mid_T value
+for the first V exposure ws changed from 462 to 266. Acknowledgements
+to F. Marshall.]
+

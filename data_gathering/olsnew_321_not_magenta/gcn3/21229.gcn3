@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21229
+SUBJECT: LIGO/Virgo G288732:SVOM/Mini-GWAC observations of the initial skymap
+DATE:    17/06/09 03:10:34 GMT
+FROM:    Chao Wu at NAOC  <wuchao.lamost@gmail.com>
+
+N. Leroy (LAL), X.H. Han (NAOC), S. Antier (LAL), J.Y. Wei (NAOC),
+C. Wu (NAOC), L.P. Xin (NAOC), X.M. Meng (NAOC), L. Huang (NAOC),
+Y. Xu (NAOC), H.B. Cai (NAOC), J. Wang (NAOC), X.M. Lu (NAOC),
+Y.L. Qiu (NAOC), J.S. Deng (NAOC), L. Cao (NAOC), S. Wang (NAOC),
+L. Jia (NAOC), S.C. Zou (NAOC), S.F. Liu (NAOC), Q.C. Feng (NAOC),
+H.L. Li (NAOC), D.W. Xu (NAOC), Y.J. Xiao (NAOC), W.L. Dong (NAOC),
+Y.T. Zheng (NAOC), E.W.Liang (GXU), X.G.Wang (GXU), Y.G. Yang (HBNU),
+B. Cordier (CEA), S.N. Zhang (NAOC), D. Dornic (CPPM), B.B. Wu (IHEP),
+D. Turpin (IRAP), A. Klotz (IRAP), C.Lachaud (APC),
+on behalf of the SVOM Gravitational Astronomy group report:
+
+We observed about 1200 square degree (3 sky regions) of the skymap
+of the advanced LIGO trigger G288732, with SVOM/Mini-GWAC, at Xinglong
+Observatory of NAOC equipped with U9000 camera (FOV~400 square
+degree/camera).
+SVOM/Mini-GWAC comprises 12 wide field angle cameras (aperture=7cm),
+working with unfiltered band. The observations are operated in time-series
+mode, taking one exposure in 15 seconds (10s exposure + 5s readout).
+The limit magnitude is ~12 mag in R band. We estimate a 20.1% prior
+probability that these 3 regions contain the true location of the
+source.
+
+The coordinates of the 3 regions and observation time are list following:
+
+start-obs(UTC)  end-obs(UTC)    Ra      Dec     Camera_ID
+2017-06-08 16:58:35 2017-06-08 19:36:46 01:15:34.8 +70:03:21   C3
+2017-06-08 17:10:44 2017-06-08 19:31:01 01:22:21.1 +49:56:18   C4
+2017-06-08 19:10:51 2017-06-08 19:32:59 03:56:21.7 +69:30:35   C5
+
+The covering map is available at:
+http://svom.bao.ac.cn/svomgwpub/skymap/G288732_skymap_miniGWAC.png
+(svom:gw2017@svom)
+
+The first image (which is covered in our routine survey) was taken
+14 hours 57 minutes after the event trigger.
+No any significant transient is found in our online pipeline. The
+image analysis is ongoing in detailed processing with our offline
+pipeline.

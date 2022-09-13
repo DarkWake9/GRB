@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7453
+SUBJECT: GRB 080319D: Swift detection of a burst with a possible optical afterglow
+DATE:    08/03/19 17:42:09 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+P. J. Brown (PSU), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+M. M. Chester (PSU), N. Gehrels (NASA/GSFC), O. Godet (U Leicester),
+S. T. Holland (CRESST/USRA/GSFC), S. Immler (CRESST/GSFC/UMD),
+J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+P. T. O'Brien (U Leicester), J. P. Osborne (U Leicester),
+C. Pagani (PSU), K. L. Page (U Leicester), D. M. Palmer (LANL),
+M. Perri (ASDC), J. L. Racusin (PSU), M. Stamatikos (NASA/ORAU),
+R. L. C. Starling (U Leicester), E. Troja (U Leicester/INAF-IASFPA)
+and T. N. Ukwatta (GSFC/GWU) report on behalf of the Swift Team:
+
+At 17:05:09 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080319D (trigger=306793).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 99.480, +23.933 which is 
+   RA(J2000) = 06h 37m 55s
+   Dec(J2000) = +23d 56' 01"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with an image trigger, the prompt light 
+curve does not not show any clear structure.  We will be able to tell more with 
+the full data set. 
+
+The XRT began observing the field at 17:07:36.9 UT, 147.5 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued, 
+variable X-ray source with an enhanced position: RA, Dec 99.47270, 23.94306
+which is equivalent to:
+   RA(J2000)  = 06h 37m 53.45s
+   Dec(J2000) = +23d 56' 35.5"
+with an uncertainty of 3.0 arcseconds (radius, 90% containment). This
+location is 44 arcseconds from the BAT onboard position, within the BAT
+error circle. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of
+2.17e+21 cm^-2 (Kalberla et al. 2005), so we cannot constrain the
+redshift at this time using the relation from Grupe et al. (2007). A
+summary of the promptly downlinked data is given at
+http://www.swift.ac.uk/sper/306793/. 
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 152 seconds after the BAT trigger. A possible afterglow 
+candidate has been found in the initial data products, at a magnitude of 
+~19 mag. No correction has been made for the expected extinction corresponding
+to E(B-V) of 0.19. The position of the tentative UVOT source is:
+   RA(J2000)  = 06h 37m 53.6s
+   Dec(J2000) = +23d 56' 34.1"
+
+Burst Advocate for this burst is P. J. Brown (pbrown AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17751
+SUBJECT: GRB 150424A: Swift/UVOT Observations
+DATE:    15/04/24 15:03:18 GMT
+FROM:    Frank Marshall at GSFC  <femarsha@khamseen.gsfc.nasa.gov>
+
+F. E. Marshall (NASA/GSFC) and A. P. Beardmore (U. Leicester)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 150424A
+99 s after the BAT trigger (Beardmore et al., GCN Circ. 17743).
+A source consistent with the position
+of the suggested optical afterglow
+(Perley and McConnell, GCN Circ. 17745)
+is detected in the initial UVOT exposures.
+The source remains nearly constant in 6 exposures with the 
+white filter starting 99 s after the trigger and ending
+6786 s after the trigger. The magnitude is approximately that
+reported by Perley and McConnell. This may be a detection
+of the host galaxy.
+
+The preliminary UVOT position is:
+   RA  (J2000) =  10:09:13.38 = 152.30577 (deg.)
+   Dec (J2000) = -26:37:51.1  = -26.63086 (deg.)
+with an estimated uncertainty of 0.6 arcsec. (radius, 90% confidence).
+
+Preliminary detections and 3-sigma upper limit using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white               99         6786          609         20.38 +/- 0.07
+v                  641         5881          432        >19.8
+b                  567         6701          432         20.71 +/- 0.21
+u                  311         5061          462         20.13 +/- 0.20
+w1                 690         6291          413         20.00 +/- 0.24
+m2                4452         6086          393         19.91 +/- 0.29
+w2                 616         5677          216         20.03 +/- 0.31
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.06 in the direction of the burst
+(Schlegel et al. 1998).
+
+[GCN OPS NOTE(24apr15): Per author's request the missing minus sign
+on the hh:mm:ss format of the value was added; the decimal-deg value was correct.]
+

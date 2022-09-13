@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5785
+SUBJECT: GRB 061028: Swift/XRT Astrometry Correction
+DATE:    06/11/02 16:30:42 GMT
+FROM:    Judith Racusin at PSU  <racusin@astro.psu.edu>
+
+J. L. Racusin (PSU), D. N. Burrows (PSU), T. Mineo (INAF-IASFPA), T. 
+Sakamoto (NASA/ORAU), and N. Gehrels (NASA/GSFC) report on behalf of the 
+Swift XRT team:
+
+We have re-analyzed the full XRT data set of GRB 061028.  XRT observed the 
+field of GRB 061028 for a total exposure time of 49 ks between October 28 
+and October 29, 2006 in Photon Counting mode.
+
+To further improve the accuracy of the previously reported position 
+(Cusumano et al., GCN 5767), we performed an astrometry correction using 
+46 ks of the total exposure time (when the satellite position was stable). 
+In this data set we find 18 serendipitous X-ray sources detected with the 
+XIMAGE detect algorithm with S/N > 3, 7 of which have near-by optical 
+counterparts in the USNO-B1 catalog.  We match these sources to obtain a 
+best fit mean frame shift, carefully accounting for several instrumental 
+factors including exposure map correction, and additional hot pixel 
+removal.
+
+We calculate the statistical position errors using the empirical fits as 
+described in Moretti et al. (2006, A&A, 448, L9), assuming that the 
+astrometric correction removes the 3.5" systematic error normally applied 
+to XRT positions to account for errors in the star tracker attitude 
+solution.
+
+The result of this analysis leads to a mean frame shift from the 
+previously reported position (Cusumano et al., GCN 5767), of:
+
+RA offset: +0.15s +/- 0.04s   Dec offset: +1.3" +/- 0.7"
+
+and a new XRT astrometry corrected position of:
+
+RA(J2000):   06h 28m 54.66s
+Dec(J2000): +46d 17' 57.0"
+
+with an estimated uncertainty of 2.2 arcseconds (radius, 90% containment).
+
+This position is 2.2 arcseconds from the refined XRT position given in 
+Cusumano et al. (GCN 5767), 0.7 arcseconds from the position measured by 
+Butler et al. (astro-ph/0611031), 1.5 arcseconds from the optical object 
+described in Cenko et al. (GCN 5770), and 4.0 arcseconds from the optical 
+object described in Bloom et al. (GCN 5768).
+
+A figure comparing all of these positions is available at: 
+http://www.swift.psu.edu/images/grb061028_astrometry.gif
+
+This Circular is an official product of the Swift XRT team.
+

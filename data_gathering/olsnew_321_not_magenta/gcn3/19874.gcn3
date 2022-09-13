@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19874
+SUBJECT: Swift Trigger 710022 is very likely noise
+DATE:    16/08/27 08:28:59 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), D. Malesani (DARK/NBI and DTU Space) and
+K. L. Page (U Leicester) report on behalf of the Swift Team:
+
+At 07:36:39 UT, the Swift Burst Alert Telescope (BAT) triggered on noise in
+the image domain near the known source IGR18027-2016 (trigger=710022). 
+Swift executed a delayed slewed to the location.  The BAT on-board calculated
+location is RA, Dec 183.074, -67.689, which is 
+   RA(J2000)  =  12h 12m 18s
+   Dec(J2000) = -67d 41' 19"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This is an image trigger and as such, there is nothing
+significant in the real-time light curve. Given the weak significance (5.9 sigma)
+near a known source, it is very unlikely that this is a valid trigger. Final
+determination will be made when the full data set is downlinked. 
+
+The XRT began observing the field at 08:05:33.4 UT, 1734.3 seconds
+after the BAT trigger. No source was detected in 451 s of promptly
+downlinked data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1736 seconds after the BAT trigger. There is no candidate afterglow 
+in the rapidly available 2.7'x2.7' sub-image. 
+

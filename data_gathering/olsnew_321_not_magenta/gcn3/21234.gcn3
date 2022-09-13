@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21234
+SUBJECT: LIGO/Virgo G288732: Swift/BAT data search
+DATE:    17/06/09 15:31:47 GMT
+FROM:    Amy Lien at GSFC/Swift  <amy.y.lien@nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), S.D. Barthelmy (NASA/GSFC), D.M. Palmer (LANL),
+T. Sakamoto (AGU), A. A. Breeveld (MSSL-UCL), A.P. Beardmore (U. Leicester),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC),
+G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V.D'Elia(ASDC), S. Emery (UCL-MSSL), P.A. Evans (U. Leicester),
+P. Giommi (ASI), C. Gronwall (PSU), J. A. Kennea (PSU), 
+H.A. Krimm (CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL),
+D. Malesani (DARK/NBI), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+B. Mingo (U. Leicester), J.A. Nousek (PSU), S.R. Oates (Uni. of Warwick),
+P.T. O'Brien (U. Leicester), J.P. Osborne (U. Leicester),
+C. Pagani (U. Leicester), K.L. Page (U.Leicester), M. Perri (ASDC),
+J.L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU),
+M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP)
+report on behalf of the Swift team:
+
+We report the search results in the BAT data within T0 ± 100 s of the
+LIGO event G288732 (LIGO/VIRGO Collaboration GCN Circ. 21221),
+where T0 is the LIGO trigger time (2017-06-08T02:01:16.492 UTC).
+
+The spacecraft was slewing from T0-95.58 s to T0+39.82 s.
+The BAT pointing position at T0 is
+RA = 189.362 deg,
+DEC = -9.266 deg,
+ROLL = 270.978 deg.
+The BAT field of view (>10% partial coding) covers 0.0% of the integrated
+LIGO localization probability.  That is, there is no overlap between the BAT 
+field of view and the LIGO probability region at T0.
+
+No significant detections (signal-to-noise ratio >~ 5 sigma) are found
+in the BAT raw light curves with time bins of 64 ms, 1 s, and 1.6 s, respectively.
+Assuming an on-axis (100% coded) short GRB with a typical spectrum in the BAT
+energy range (i.e., a simple power-law model with a power-law index of -1.32;
+Lien & Sakamoto et al. 2016), the 5-sigma upper limit in the 1-s binned light
+curve corresponds to a flux upper limit (15-350 keV) of ~ 1.6 x 10^-7 erg/s/cm^2.
+Please note that because the spacecraft was slewing during this time, the
+background changes more significantly and thus this flux limit estimation is
+more uncertain.
+
+Event data exist from T0-94.683 s to T0+57.420 s. Source detections using
+mosaic images (15-350 keV) with 1 s, 2 s, and 10 s intervals centered at T0
+do not find any significant sources above 6 sigma.
+
+BAT retains decreased, but significant, sensitivity to rate increases for
+gamma-ray events outside of its FOV. About 93.06% of the integrated LIGO
+localization probability was outside of the BAT FOV but above the Earth's limb
+from Swift's location, and the corresponding flux upper limits for this region
+are within roughly an order of magnitude of those within the FOV.
+

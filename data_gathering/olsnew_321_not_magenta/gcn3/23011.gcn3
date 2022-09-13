@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23011
+SUBJECT: Konus-Wind observation of GRB 180720B
+DATE:    18/07/22 13:43:39 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, R.Aptekar, A. Kozlova,
+A.Lysenko,  D. Svinkin, A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The long, extremely bright GRB 180720B
+(Swift-BAT detection: Siegel et al., GCN 22973, GCN 22975;
+Fermi-LAT detection: Bissaldi and Racusin, GCN 22980;
+Fermi-GBM detection: Roberts et al., GCN 22981)
+triggered Konus-Wind at T0=51705.261 s UT (14:21:45.261).
+
+The burst light curve shows a multi-peaked structure
+with a total duration (T100) of ~125 s.
+The emission is seen up to ~15 MeV.
+
+As observed by Konus-Wind, the burst had a fluence of
+(5.43 ± 0.26)x10^-4 erg/cm2 and a 64-ms peak energy flux,
+measured from T0+15.168, of (9.70 ± 0.52)x10^-5 erg/cm2
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum (measured from T0 to T0+119.808 s)
+is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -1.01 (-0.06,+0.06),
+the high energy photon index beta = -2.07 (-0.08,+0.07),
+the peak energy Ep = 451 (-45,+52) keV,
+chi2 = 102/97 dof.
+
+The spectrum near the peak count rate (measured from T0+14.592 s
+to T0+15.360 s) is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -0.82 (-0.09,+0.10),
+the high energy photon index beta = -2.27 (-0.22,+0.13),
+the peak energy Ep = 779 (-127,+169) keV,
+chi2 = 92/76 dof.
+
+Assuming the redshift z=0.654 (Vreeswijk et al., GCN 22996)
+and a standard cosmology model with H_0 = 70 km/s/Mpc,
+Omega_M = 0.30, and Omega_Lambda = 0.70,
+we estimate the following rest-frame parameters:
+the isotropic energy release E_iso is ~6.0x10^53 erg,
+the peak luminosity L_iso is ~1.8x10^53 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum,
+Ep,z, is ~746 keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB180720_T51705/
+
+All the quoted errors are estimated at the 90% confidence level.
+All the presented results are preliminary.
+

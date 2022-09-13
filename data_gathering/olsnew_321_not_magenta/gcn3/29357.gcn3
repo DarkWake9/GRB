@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29357
+SUBJECT: Konus-Wind detection of GRB 210124B
+DATE:    21/01/26 15:05:57 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, D. Frederiks, M. Ulanov,
+A. Tsvetkova, A. Lysenko, A. Ridnaia, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration, bright GRB 210124B
+(Insight-HXMT/HE detection: Liu et al., GCN Circ. 29353;
+IPN triangulatuion: Hurley et al., GCN Circ. 29355;)
+triggered Konus-Wind at T0=48224.368 s UT (13:23:44.368).
+
+The burst light curve shows a multipeaked structure
+which starts at ~T0-20 ms and ends at ~T0+40 ms,
+followed by a weaker emission seen up to ~T0+170 ms.
+The total burst duration is ~0.2 s.
+The emission is seen up to ~6 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB210124_T48224
+
+As observed by Konus-Wind, the burst
+had a fluence of 3.03(-0.71,+0.86)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0-0.006 s,
+of 6.16(-2.15,+2.54)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+0.064 s)
+is best fit in the 20 keV - 6 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.93(-0.20,+0.25)
+and Ep = 1544(-642,+1186) keV (chi2 = 33/20 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -1.5
+(chi2 = 33/19 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

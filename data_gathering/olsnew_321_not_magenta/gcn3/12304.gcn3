@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12304
+SUBJECT: Swift-BAT refined analysis of SFXT IGR J08408-4503 (trigger 501368)
+DATE:    11/08/25 12:58:07 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (GSFC/UMBC), M. Stamatikos (OSU),
+J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+2700 sec from recent telemetry downlinks,
+we report further analysis of BAT trigger #501368 on SFXT IGR J08408-4503.
+The BAT ground-calculated position is RA, Dec = 130.189, -45.120 deg, which is 
+   RA(J2000)  =  08h 40m 45.5s 
+   Dec(J2000) = -45d 07' 13.2" 
+with an uncertainty of 2.8 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 61%.
+ 
+The mask-weighted light curve shows emission from this source when the position
+came in to the BAT FoV during a planned slew at T-120 sec.  The flux showed
+a mostly linear decay to half the initial observed value out to ~T+900 sec
+when it started to increase, peaking at ~T+1500 sec, and returning to zero
+around T+2500 sec.  Any activity beyond this time is not known at this time.
+ 
+The time-averaged spectrum from T+0.0 to T+64.0 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.56 +- 0.50.  The fluence in the 15-150 keV band is 2.9 +- 0.9 x 10^-07 erg/cm2.
+The 1-sec peak photon flux measured from T+0.00 sec in the 15-150 keV band
+is 0.1 +- 0.0 ph/cm2/sec.  The emission was soft throughout the 2700 sec
+of BAT observations.  All the quoted errors are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/501368/BA/
+ 
+

@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19707
+SUBJECT: Swift-BAT trigger 704327 was due to noise
+DATE:    16/07/14 16:20:15 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC), A, Breeveld (UCL-MSSL),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU), M. Stamatikos (OSU), B. Sbarufatti ((INAF-OAB/PSU)),
+T. N. Ukwatta (LANL)  (i.e. the Swift-BAT team):
+
+Using the full BAT data set from T-240 to T+962 sec from recent telemetry downlinks,
+we report that trigger #704327 was due to a noise fluctuation in the image domain.
+The BAT ground analysis shows the image significance has dropped to 3.2 sigma.
+No obvious emission is seen in the mask-weighted light curve.
+
+We have analyzed 607 s of XRT data, from T+116 s to T+723 s.  No source is detected
+inside the BAT error circle, down to a 3-sigma upper limit of 2.7E-2 counts/s. 
+
+The Swift/UVOT began settled observations of the field 113 s after the BAT
+trigger. No optical afterglow consistent with the BAT position
+is detected in the initial UVOT exposures.
+
+Therefore, we believe this trigger is due to a noise fluctuation.
+

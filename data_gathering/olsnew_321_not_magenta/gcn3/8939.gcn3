@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8939
+SUBJECT: GRB 090306: Swift detection of a possible burst
+DATE:    09/03/06 15:21:00 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+O. Godet (U Leicester), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), A. P. Beardmore (U Leicester),
+S. Campana (INAF-OAB), P. A. Evans (U Leicester), J. A. Kennea (PSU),
+R. Margutti (Univ Bicocca&OAB), J. P. Osborne (U Leicester),
+C. Pagani (PSU), K. L. Page (U Leicester), D. M. Palmer (LANL),
+M. Perri (ASDC), P. Romano (INAF-IASFPA),
+B. A. Rowlinson (U Leicester), G. Stratta (ASDC), M. C. Stroh (PSU),
+G. Tagliaferri (INAF-OAB) and L. Vetere (PSU) report on behalf of the
+Swift Team:
+
+At 13:54:24 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 090306 (trigger=345396).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 16.740, -50.065 which is 
+   RA(J2000) = 01h 06m 58s
+   Dec(J2000) = -50d 03' 54"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a short, 
+hard structure with a duration less than a single 64 msec timebin. 
+The peak count rate was ~2000 counts/sec (15-350 keV), at ~0 sec
+after the trigger. 
+
+The XRT began observing the field at 13:55:57.4 UT, 95.5 seconds
+after the BAT trigger. Using promptly downlinked data we find an
+uncatalogued X-ray source located at RA, Dec 16.74294, -50.00206 which
+is equivalent to:
+   RA(J2000)  = 01h 06m 58.31s
+   Dec(J2000) = -50d 00' 07.4"
+with an uncertainty of 4.9 arcseconds (radius, 90% containment). This
+position may be improved as more data are received; the latest position
+is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of
+1.37e+20 cm^-2 (Kalberla et al. 2005). 
+
+At this time we do not have UVOT data. 
+
+This trigger was the first of a new triggering function
+within BAT (the so called Subthreshold trigger).  While there
+is a real source in the XRT initial image, this would say
+the trigger is a real GRB.  However because we did not receive
+the usual BAT Position message (for reasons yet unknown),
+we caution that we can not say with confidence that this is a
+real burst.  We will not have the full data downlinked
+until ~17:00 UT. 
+
+Burst Advocate for this burst is O. Godet (og19 AT star.le.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,65 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15278
+SUBJECT: IPN Observations of GRB 130925A
+DATE:    13/09/30 22:05:33 GMT
+FROM:    Kevin Hurley at UCBerkeley/SSL  <khurley@ssl.berkeley.edu>
+
+K. Hurley, on behalf of the IPN team, 
+
+S. Golenetskii, R. Aptekar, V. Pal'shin, D. Frederiks, 
+D. Svinkin, and T. Cline, on behalf of the Konus-Wind team,
+
+I. G. Mitrofanov, D. Golovin, M. L. Litvak, and A. B. Sanin,
+on behalf of the HEND-Odyssey GRB team,
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, and R. Starr, on
+behalf of the GRS-Odyssey GRB team,
+
+D. M. Smith, J. McTiernan, R. Schwartz, W.
+Hajdas, and A. Zehnder, on behalf of the RHESSI GRB team, 
+
+A. von Kienlin, X. Zhang, A. Rau, V. Savchenko, E. Bozzo, and C.
+Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+K. Yamaoka, M. Ohno, Y. Hanabata, Y. Fukazawa, T. Takahashi, M. Tashiro,
+Y. Terada, T. Murakami, and K. Makishima on behalf of the Suzaku WAM team,
+
+S. Barthelmy, J. Cummings, N. Gehrels, H. Krimm, and D. Palmer, on behalf of
+the Swift-BAT team,
+
+J. Goldsten, on behalf of the MESSENGER NS GRB team, and 
+
+V. Connaughton, M. S. Briggs, C. Meegan, and V. Pelassa, on behalf of the Fermi
+GBM team, report:
+
+Eight IPN spacecraft observed GRB 130925A (Lien et al. GCN 15246,
+Markwardt et al. 15247).  When the responses of all the spacecraft are
+considered, the IPN had an uninterrupted view of this event from
+roughly 900 s before the Swift BAT trigger, to ~7100 s after it.
+Constraints on the arrival directions of the four main emission
+episodes strengthen the case for their common origin, as suggested by
+Savchenko et al. (GCN 15259).  The following table details the
+observations.  The times are relative to the BAT trigger at 15084 s UT
+(04:11:24).  N/O means the episode was not observable.
+
+ ----------------------------------------------------------------------------
+ Instrument/ |    Precursor |   1st         |   2nd          |    3rd
+ spacecraft  |      -900 s  | episode       | episode        |  episode*
+             |              | -130 -> +170 s|+1750 -> +2950 s|+3730 -> +4360 s
+ ----------------------------------------------------------------------------
+ Swift BAT          No           Trig            N/O              No
+ Fermi GBM          Trig         Trig            N/O              No
+ INTEGRAL SPI-ACS   No           Yes             Yes              Yes
+ Konus Wind         Yes          Yes             Yes              Yes
+ MESSENGER          No           Yes             Yes              No
+ Mars Odyssey       No           N/O             Yes              No
+ Suzaku WAM         No           No              Yes              No
+ RHESSI             Yes          Yes             N/O              No
+------------------------------------------------------------------------------
+*also observed and localized by MAXI (Suzuki et al. GCN 15248)
+
+We conclude from these observations that the total duration of this
+event in >25 keV gamma-rays above the IPN flux/fluence threshold was 
+at least 5260 s, and ~7150 s long when the later episodes, observed only
+by BAT (GCN 15257), are included.
+

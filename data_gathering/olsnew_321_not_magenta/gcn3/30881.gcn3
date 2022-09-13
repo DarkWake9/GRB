@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30881
+SUBJECT: GRB 210925A: GECAM detection
+DATE:    21/09/26 09:27:52 GMT
+FROM:    Chao Zheng at IHEP  <zhengchao97@ihep.ac.cn>
+
+C. Zheng, S. L. Xiong, S. Xiao, Y. Q. Zhang, W. C. Xue, X. Y. Song,   
+X. Y. Zhao, Y. Huang, S. L. Xie, C. Cai, Y. Zhao, Z. W. Guo, 
+X. L. Zhang,  C. Y. Li, C. W. Wang, Q. B. Yi, B. X. Zhang, P. Zhang,
+W. X. Peng, R. Qiao, D. Y. Guo, X. B. Li, X. Ma, P. Wang, J. Wang, 
+Z. Zhang, S. J. Zheng, W. Chen, J. J. He, G. Y. Zhao, Y. Q. Du,
+H. Wu, J. Liang, Q. Luo, J. C. Liu,  L. M. Song, F. J. Lu, 
+S. N. Zhang (IHEP), report on behalf of GECAM team:
+
+During the commissioning phase, GECAM-B was triggered in-flight by a long
+bright burst, GRB 210925A, at 2021-09-25T19:12:34.600 UTC (denoted as T0),
+which was also detected by Fermi/GBM (GCN #30880).
+
+Its alert data was promptly downlinked to the ground through the short
+message service of BeiDou Navigation Satellite System (BDS). The time
+latency of the first BeiDou message relative to the trigger time is about
+1 minute.
+
+According to the BDS alert data, this burst mainly consists of multiple
+pulses with duration of about 10 s. 
+
+The GECAM light curve could be found here:
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/utn210925_191234_GECAMb.png
+
+An automatic in-flight localization was calculated using the light curves 
+and spectrum. Although the in-flight calibration of energy response and l
+ocalization has not been finalized yet, GECAM-B localized this burst to 
+the following position (J2000): 
+Ra: 357.83 deg 
+Dec: -24.58 deg
+Err: 3.50 deg (1-sigma, statistical only)
+The current systematic error of location is estimated to be several degrees 
+which could be minimized by the ongoing calibration.
+
+Please note that all GECAM results here are preliminary. The final analysis
+will be published in journal papers or GECAM online catalog.
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor
+(GECAM) mission consists of two small satellites (GECAM-A and GECAM-B) in
+Low Earth Orbit (600 km, 29 deg), launched on Dec 10, 2020 (Beijing Time),
+which was funded by the Chinese Academy of Sciences (CAS).

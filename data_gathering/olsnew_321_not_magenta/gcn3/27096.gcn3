@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27096
+SUBJECT: LIGO/Virgo S200213t: Updated Sky Localization
+DATE:    20/02/16 05:17:13 GMT
+FROM:    Leo Singer at GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have conducted further analysis of the LIGO Hanford Observatory
+(H1), LIGO Livingston Observatory (L1), and Virgo Observatory (V1) data
+around the time of the compact binary merger (CBC) candidate S200213t
+(GCN Circular 27042, 27092). Parameter estimation has been performed
+using LALInference [1] and a new sky map, LALInference.fits.gz,0,
+distributed via GCN Notice, is available for retrieval from the GraceDB
+event page:
+
+https://gracedb.ligo.org/superevents/S200213t
+
+The preferred sky map at this time is LALInference.fits.gz,0. For the
+LALInference.fits.gz,0 sky map, the 90% credible region is 2326 deg2.
+Marginalized over the whole sky, the a posteriori luminosity distance
+estimate is 201 +/- 80 Mpc (a posteriori mean +/- standard deviation).
+
+This supersedes the previous Bilby analysis (GCN Circular 27092), which
+was done with an outdated estimate of detector calibration uncertainty.
+
+For further information about analysis methodology and the contents of
+this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+ [1] Veitch et al. PRD 91, 042003 (2015)
+

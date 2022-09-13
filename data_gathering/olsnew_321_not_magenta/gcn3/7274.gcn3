@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7274
+SUBJECT: Swift detection of AX J1749.1-2639
+DATE:    08/02/08 21:01:18 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+P. J. Brown (PSU), M. M. Chester (PSU), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), E. A. Hoversten (PSU), J. A. Kennea (PSU),
+D. M. Palmer (LANL), A. M. Parsons (GSFC), J. L. Racusin (PSU),
+G. Sato (GSFC/ISAS), M. C. Stroh (PSU) and D. E. Vanden Berk (PSU)
+report on behalf of the Swift Team:
+
+At 20:32:05 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located the known source AX J1749.1-2639 (trigger=302788).  We note
+that GCN ground software associated this to the GX 3+1 source,
+but further analysis on the ground has determined this is really
+the AX J1749.1-2639 source.  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 267.297, -26.643 which is 
+   RA(J2000)  = 17h 49m 11s
+   Dec(J2000) = -26d 38' 34"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This was an image-trigger, so the TDRSS
+lightcurve is of little value.  This source has been seen with increasing
+activity for the last ~10 days and is currently at the 250 mCrab level. 
+
+The XRT began observing the field at 20:34:02 UT, 117 seconds after the
+BAT trigger. XRT found an X-ray source
+located at RA, Dec 267.3046, -26.6437 which is
+   RA(J2000)  =  17h 49m 13.1s
+   Dec(J2000) = -26d 38' 37.3"
+with an uncertainty of 5.0 arcseconds (radius, 90% containment)
+which is consistant with the known source AX J1749.1-2639. 
+This location is 25 arcseconds from the BAT on-board position,
+within the BAT error circle.  The initial flux in the 2.5s image
+was 1.9e-09 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 123 seconds after the BAT trigger, and a
+finding chart exposure of 248 seconds with the v filter starting 230
+seconds after the trigger. No object is found at the XRT position. 
+The 3-sigma upper limits at the XRT position are 18.7 mag (White) and
+17.67 mag (v). Large, uncertain extinction is expected at this
+position which is at low Galactic lattitude. 
+

@@ -1,0 +1,106 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26810
+SUBJECT: LIGO/Virgo S200105ae: More candidates from the Zwicky Transient Facility
+DATE:    20/01/18 03:33:23 GMT
+FROM:    Tomas Ahumada at U. of Maryland  <tahumada@astro.umd.edu>
+
+Tomas Ahumada (UMD), Igor Andreoni (Caltech), Viraj Karambelkar (Caltech),
+Gaurav Waratkar (IITB), Harsh Kumar (IITB), Shreya Anand (Caltech), Michael
+W. Coughlin (Caltech), Leo Singer (NASA GSFC), Mansi M. Kasliwal (Caltech),
+Simeon Reusch (DESY), Robert Stein (DESY), Matthew Graham (Caltech), Jesper
+Sollerman (OKC)
+on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of
+Observatories Watching Transients Happen (GROWTH) collaborations
+
+We serendipitously observed the localization region of the gravitational
+wave trigger S200105ae (LVC, GCN #26640) with the Palomar 48-inch telescope
+equipped with the 47 square degree Zwicky Transient Facility camera (ZTF,
+Bellm et al. 2019, Graham et al. 2019) during the regular ZTF survey (i.e.,
+without triggering further ToO observations in addition to those described
+in Anand et al, GCN #26662). The images were processed in real-time through
+the ZTF reduction and image subtraction pipelines at IPAC (Masci et al.
+2019).
+
+We queried the ZTF alert stream using Kowalski (Duev et al., 2019) and
+AMPEL (Nordin et al., 2019), requiring at least 2 detections separated by
+at least 15 minutes to select against moving objects. Furthermore, we
+cross-matched our candidates with the Minor Planet Center to flag known
+asteroids. We require that no spatially coincident ZTF alert has been
+issued before the detection time of S200105ae. New candidates were found
+within the 95% probability contour of S200105ae, in addition to those
+reported by Stein et al. (GCN #26673). The new transient candidates are
+presented in the table below.
+
++--------------+-----------+-------------+--------------+--------+------+----------+-----------+
+|     Name     |  IAU Name |      RA     |     Dec      | filter | mag  |
+MJD    | Notes     |
++--------------+-----------+-------------+--------------+--------+------+----------+-----------+
+| ZTF20aaexpwt | AT2020adi | 06:26:01.30 | +11:33:38.85 |   r    | 19.8 |
+58864.31 | (a)(d)    |
+| ZTF20aaertil | AT2020pu  | 14:52:25.86 | +31:01:18.50 |   g    | 19.7 |
+58863.45 | (b)(c)(1) |
+| ZTF20aaevbzl | AT2020adf | 13:26:41.27 | +30:52:30.68 |   g    | 20.3 |
+58864.44 | (d)       |
+| ZTF20aagiipi | AT2020adl | 15:33:24.61 | +42:02:36.70 |   r    | 20.1 |
+58864.52 | (e)(2)    |
+| ZTF20aagijez | AT2020adm | 15:04:13.18 | +27:29:04.19 |   r    | 19.9 |
+58864.52 | (e)(3)    |
+| ZTF20aagiiik | AT2020abl | 16:19:09.94 | +53:45:38.26 |   r    | 20.3 |
+58864.52 | (e)(b)    |
+| ZTF20aafexle | AT2020adn | 04:20:31.22 | -09:30:28.20 |   r    | 19.9 |
+58862.19 | (e)       |
+| ZTF20aaflndh | AT2020xz  | 01:22:38.14 | -06:49:34.31 |   g    | 19.2 |
+58863.12 | (c)       |
+| ZTF20aafduvt | AT2020ado | 03:36:28.54 | -07:49:34.52 |   g    | 20.1 |
+58862.14 | (e)       |
+| ZTF20aafefxe | AT2020adt | 07:47:24.18 | +14:42:23.82 |   r    | 20.9 |
+58863.41 | (d)       |
+| ZTF20aafkkoy | AT2020adp | 13:40:59.99 | +40:48:49.03 |   r    | 19.3 |
+58862.4  | (d)       |
+| ZTF20aafaoki | AT2020adq | 05:13:13.80 | +05:09:56.55 |   r    | 19.6 |
+58861.19 | (d)       |
+| ZTF20aafujqk | AT2020adg | 17:57:00.41 | +10:32:20.31 |   r    | 18.6 |
+58863.57 | (e)       |
+| ZTF20aafksha | AT2020adr | 13:43:54.45 | +38:25:13.82 |   g    | 20.0 |
+58862.5  | (e)(4)    |
+| ZTF20aagjemb | AT2020adh | 14:51:25.85 | +45:20:41.18 |   r    | 20.3 |
+58864.48 | (c)(5)    |
+| ZTF20aafdxkf | AT2020ads | 03:42:07.08 | -03:11:39.05 |   r    | 20.2 |
+58862.2  | (d)       |
+| ZTF20aafukgx | AT2020adj | 18:23:21.44 | +17:49:31.65 |   r    | 19.2 |
+58863.58 | (a)(e)    |
+| ZTF20aafanxk | AT2020adk | 05:35:36.04 | +11:46:15.31 |   r    | 19.4 |
+58861.2  | (a)(e)    |
++--------------+-----------+-------------+--------------+--------+------+----------+-----------+
+(a) Galactic latitude (|b_gal| < 15)
+(b) first reported by ALeRCE
+(c) close to the center of an apparently small galaxy
+(d) hostless
+(e) offset from the center of the possible host
+
+(1) photoz = 0.0745 (SDSS)
+(2) photoz = 0.127 (SDSS)
+(3) specz = 0.061 (SDSS) - on a star-forming galaxy
+(4) specz = 0.167 (SDSS)
+(5) photoz = 0.299 (SDSS)
+
+
+Additional comments:
+ZTF20aafexle has red color g-r~0.5 mag
+ZTF20aaevbzl is fading in g-band about ~0.15 mag per day.
+ZTF20aafkkoy is a hostless transient rising in r-band.
+
+Future observations are planned and we encourage follow-up.
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC,
+USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan;
+IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No
+1440341. GROWTH acknowledges the generous support of the NSF under PIRE
+Grant No 1545949. Alert distribution service provided by DIRAC@UW
+(Patterson et al. 2019). Alert filtering and follow-up coordination is
+being undertaken by the GROWTH marshal system (Kasliwal et al. 2019). Alert
+database searches are done using the Kowalski infrastructure (Duev et al.,
+2019) and with AMPEL (Nordin et al. 2019).

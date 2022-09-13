@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17536
+SUBJECT: GRB 150301C: XRT detection of a potential counterpart of BAT trigger 633105
+DATE:    15/03/02 23:19:36 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+Phil Evans (U. Leicester) , Alessandro Maselli (INAF-IASFPA), David Burrows (PSU), 
+Sergio Campana (INAF-OAB), Neil Gehrels (GSFC), Jamie Kennea (PSU), 
+Amy Lien (GSFC/UMBC), Lea Hagen (PSU), Daniele Malesani (DARK/NBI), 
+Frank Marshall (GSFC), Julian Osborne (U. Leicester), Kim L. Page (U Leicester), 
+Massimiliano De Pasquale (INAF-IASFPA) report on behalf of the Swift team:
+
+We report further XRT observations of the highly unusual transient or GRB detected 
+by BAT on March 1 ( trigger 633105 or GRB150301C; Lien et al., GCN Circ 17512; 
+Stamatikos et al., GCN Circ 17516).  It lasted about 20 seconds in BAT and has a 
+location in M31, but had very weak X-ray emission. The XRT found a single source 
+within the BAT error circle, which is coincident with the known X-ray source [PFH2005] 622. 
+This source was previously reported in an XMM-Newton survey of M31 (Pietsch et al., 
+A&A, 434, 483, 2005), and was classified as a "hard" source based on the hardness ratio (see 
+definition in Pietsch et al. 2005). The paper suggests that these "hard" sources  may be
+X-ray binaries, Crab-like SNRs, or AGNs.
+
+Using the faint-source-optimised detection system from the 1SXPS catalogue (Evans et al., 
+ApJS 210, 8, 2014), the XRT source is detected with a likelihood of 18.3 in the first observation 
+of the BAT error region. This corresponds to a "Good"-flagged object, i.e. a >3-sigma detection.
+
+The refined XRT position is RA,Dec = 11.3107, +41.8431 degrees which corresponds to
+
+RA (J2000):   00h 45m 14.57s
+Dec (J2000): +41d 50' 35.1"
+
+with an uncertainty of 5.7 arcsec (radius, 90% confidence). This is 4 arcsec from the catalogued 
+position of [PFH2005] 622, which is at RA=00h 45m 14.87,Dec=+41d 50' 33'' with an uncertainty 
+of 1.5 arcsec. Hence, the XRT position is consistent with the position of [PFH2005] 622.
+
+During the first XRT observation, starting at T0+105s and lasting 1.9 ks, the source is detected with 
+a count-rate of 6.0 (+2.3, -1.8) x10^-3 ct/sec. In the subsequent observations, from T0+44.9 ks and 
+totalling 6ks exposure, the source is undetected, with an upper limit of 1.2 x10^-3 ct/sec, consistent 
+with fading.
+
+Swift-XRT has previously observed this location for a total of ~4ks, corresponding to "Stacked image 
+7598" in the 1SXPS catalogue. The source was not detected in this dataset, with an upper limit of 
+2.2x10^-3 ct/sec, significantly below the level at which we have detected it in this observation. 
+Additionally, XMM-Newton observations (Pietsch et al., 2005) detected this X-ray source in 2005 
+with a flux of 6.9x10^-15 erg/cm^2/s. The peak rate in our observations corresponds to 
+~2x10^-13 erg/cm^2/s, i.e. ~35 times brighter than the XMM detection. At the distance of M31, 
+these fluxes correspond to a luminosity of ~5x10^35 erg/s (0.2-4.5 keV) in the XMM-Newton observations, 
+and ~1.4x10^37 erg/s (0.3-10 keV) in the XRT observations. For comparison, the average luminosity 
+in BAT at this distance was 1.25x10^42 erg/s in 15-150 keV (Stamatikos et al., GCN Circ 17516).
+
+We therefore conclude that XRT has detected a bursting source that is likely the counterpart to 
+BAT trigger 633105.
+
+

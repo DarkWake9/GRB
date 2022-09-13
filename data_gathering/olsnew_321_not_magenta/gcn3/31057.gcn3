@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31057
+SUBJECT: GRB 211107B: Swift/BAT detection
+DATE:    21/11/08 22:11:57 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+Swift/BAT did not successfully trigger on GRB 211107B (T0: 2021-11-07
+17:27:10 UTC).
+
+Swift/BAT triggered in real-time onboard in the rates domain (trigger
+#1082818), but no strong source was found to be associated in the
+onboard imaging. This 'failed trigger' resulted in 10s of BAT TTE data
+being saved and sent to the ground.
+
+The duration of the burst, as seen by BAT, is ~15 seconds.
+
+In ground analysis of the available TTE data, we find the position of
+the burst with SNR 12.6 in the image domain.
+The BAT position is
+RA, Dec = 65.7949 -27.5524, which is:
+    RA (J2000)     04h 23m 10.78s
+    Dec (J2000)  -27d 33' 8.6"
+with an estimated uncertainty of 2 arcminutes.
+
+XRT and UVOT follow-up has been requested. Results of follow-up
+observations will be reported in future circulars.
+

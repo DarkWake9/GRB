@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24784
+SUBJECT: Konus-Wind observation of GRB 190606A
+DATE:    19/06/11 17:29:11 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration, very bright GRB 190606A
+(AGILE-MCAL detection: Ursi et al., GCN Circ. 24759;
+Fermi-LAT detection: Bissaldi et al., GCN Circ. 24761;
+Fermi-GBM detection: Roberts et al., GCN Circ. 24764;
+IPN triangulation: Kozlova et al., GCN 24765)
+triggered Konus-Wind at T0=6903.8 s UT (01:55:03.800).
+
+The burst light curve shows a single pulse
+which starts at ~T0 and has a total duration of ~0.2 s.
+The emission is seen up to ~10 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.16(-0.18,+0.18)x10^-5 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.034 s,
+of 1.45(-0.39,+0.35)x10^-4 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+0.192 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.13(-0.08,+0.09)
+and Ep = 2373(-665,+939) keV (chi2 = 56/54 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -1.8
+(chi2 = 55/53 dof).
+
+The spectrum near the maximum count rate
+(measured from T0 to T0+0.064 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+with  alpha = -1.19(-0.10,+0.12)
+and Ep = 3194(-1324,+2736) keV (chi2 = 32/34 dof).
+Fitting by a GRB (Band) model yields:
+the low-energy photon index alpha = -0.88(-0.26,+0.45),
+the high energy photon index beta = -1.67(-0.27,+0.15),
+the peak energy Ep = 664(-388,+1038) keV
+(chi2 = 26/33 dof).
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB190606_T06903/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

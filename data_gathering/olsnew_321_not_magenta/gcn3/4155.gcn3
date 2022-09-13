@@ -1,0 +1,33 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4155
+SUBJECT: GRB 051022: Swift/UVOT Upper Limits
+DATE:    05/10/24 07:06:22 GMT
+FROM:    Stefan Immler at NASA/GSFC  <immler@milkyway.gsfc.nasa.gov>
+
+S. Immler (GSFC), A. Retter (PSU), J. Racusin (PSU),
+L. Cominsky (Sonoma State U), J. Norris (GSFC)
+on behalf of the Swift/UVOT team report:
+
+The Swift-UVOT began observing the field of GRB 051022
+(HETE Trigger H3950; Olive et al. GCN 4131) at 2005-10-22
+16:34:11, about 3.5 hours after the burst.
+
+Based on comparisons with the DSS catalog, we detect
+no source inside the XRT error circle at RA, Dec
+23:56:4.1, +19:36:25.1 (J2000) with an uncertainty of
+4 arcsec (Racusin et al. GCN 4141) in any of the 5 filters
+or in summed V-band exposures down to the following 5-sigma
+magnitude upper limits:
+
+Filter  T_range(hours)  Exp(sec) 5sigUL
+
+V       3.47-3.72        900      19.5
+B       5.63-5.65         63      18.9
+U       5.38-5.63        900      20.1
+W1      3.98-4.36        900      19.3
+M2      3.73-3.98        900      20.4
+V	6.78-13.48	7914	  20.7
+
+where T_range is the time post HETE trigger.
+The magnitudes have not been corrected for extinction.
+

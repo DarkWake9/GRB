@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32058
+SUBJECT: GRB 220514A: GRANDMA Optical Afterglow Observations
+DATE:    22/05/17 21:18:06 GMT
+FROM:    Cristina Andrade at UMN  <andra104@umn.edu>
+
+S. Yan (THU), C. Andrade (UMN), S. Beradze (AbAO), P.A. Duverne (IJCLAB),
+K. Kruiswijk (UCLouvain), G. Raaijmakers (GRAPPA), M. Vardosanidze (AbAO),
+D. Turpin (CEA/Irfu, Saclay), M. Pilloix, S. Antier,
+A. de Ugarte Postigo (CNRS-OCA-ARTEMIS), D. A. Kann (IAA-CSIC), A. Simon,
+A. Baransky (Kyiv Univ), V. Godunova (IC ICAMER), R. Inasaridze,
+R. Natsvlishvili, N. Kochiashvili, V. Aivazyan, G. Kapanadze,
+D. Datashvili (AbAO),  C. Rinner, Z. Benkhaldoun (OUCA), M. Freeberg (KNC),
+A. Kaouech (OUCA/KNC), F. Guo,  X. Wang,  S. X. Wang (THU), Y. Wang (NAOC),
+S. Karpov, M. Masek, M. Prouza (FZU)
+report on behalf of the GRANDMA collaboration:
+
+The GRANDMA telescope network responded to the alert of GRB 220514A
+(Fermi GBM team GCN 32038, Biltzinger et al. GCN 32039, S.
+Mereghetti et al. GCN 32041).
+
+The first observations were obtained with TNT, starting
+1.57 h after the Fermi/GBM and INTEGRAL/IBAS trigger time, in which we
+detect the afterglow.
+
+We furthermore detect the optical afterglow with MOSS 7.95h after trigger
+at a magnitude of 20.18 +/- 0.15 mag in a Clear image. The afterglow is
+also detected in a stack by the 2.2m CAHA equipped with the CAFOS
+instrument 9.58h after trigger in the i' band at 19.86 +/- 0.16 mag.
+Upper limits are given at 3 sigma.
+
+The following table displays part of our photometry with magnitudes
+given in the AB system and calibrated with respect to field stars from
+the Pan-STARRS and APASS catalogs, using the MUPHOTEN pipeline (Duverne et
+al. 2021). The FRAM image has been calibrated versus GAIA DR2 G magnitudes.
+
+
+T-T0 (hr)| MJD      | Observatory| Exposure  | Filter | Mag +/- err (AB)
+________________________________________________________________
+1.57    |59713.58235| TNT        | 3 x 300 s | r'     | 18.84 +/- 0.07
+7.66    |59713.83624| AbAO-T70   | 9 x  60 s | R      | > 16.9
+7.95    |59713.84841| MOSS       |45 x  60 s | Clear  | 20.18 +/- 0.15
+8.23    |59713.86003| KNC-HAO    |15 x 120 s | R      | > 19.4
+8.50    |59713.86140| FRAM       |15 x 120 s | Clear  | > 18.5
+9.58    |59713.91610| CAHA/CAFOS |10 x 150 s | i'     | 19.86 +/- 0.16
+15.06   |59714.14438| KNC-T21    |17 x 180 s | Rc     | > 19.3
+
+T-T0 is the delay between the start of the observation and the IBAS
+trigger time.
+
+The detections and upper limits are consistent with previous reports of
+detections by MeerLICHT (de Wet et al. GCN 32044) and KAIT (Zheng et al.
+GCN 32051) and upper limits by MASTER (Lipunov et al. GCN 32042 & GCN
+32043).
+
+GRANDMA is a worldwide telescope network (grandma.ijclab.in2p3.fr)
+devoted to the observation of transients in the context of multi-messenger
+astrophysics (Antier et al. 2020 MNRAS 497, 5518). Kilonova-Catcher (KNC) is
+the citizen science program of GRANDMA (http://kilonovacatcher.in2p3.fr/).
+

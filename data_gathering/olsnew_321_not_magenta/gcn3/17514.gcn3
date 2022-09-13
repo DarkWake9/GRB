@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17514
+SUBJECT: Swift Trigger 633173 is probably not an astrophysical source
+DATE:    15/03/01 18:25:04 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), M. M. Chester (PSU),
+M. De Pasquale (INAF-IASFPA), N. Gehrels (NASA/GSFC),
+A. Y. Lien (GSFC/UMBC), F. E. Marshall (NASA/GSFC),
+A. Maselli (INAF-IASFPA), D. M. Palmer (LANL) and M. H. Siegel (PSU)
+report on behalf of the Swift Team:
+
+At 17:58:50 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a likely noise event (trigger=633173).  Swift slewed immediately
+to the location. The BAT on-board calculated location is 
+RA, Dec 139.480, -22.437, which is 
+   RA(J2000)  =  09h 17m 55s
+   Dec(J2000) = -22d 26' 13"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for image triggers, nothing shows up
+in the real-time TDRSS light curve. 
+
+No XRT counterpart was detected in 980 s of promptly downlinked data. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+341 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image covers 21% of the
+BAT error circle. The typical 3-sigma upper limit has been about 19.2 mag. The
+8'x8' region for the list of sources generated on-board covers 100% of the BAT
+error circle. The list of sources is typically complete to about 18.0 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.10. 
+
+This event alerted as part of a program to follow up low-significance
+possible detections in the direction of nearby galaxies. 
+Due to the marginal significance of the detection (6.16 sigma)
+the distance of the event from the putative host galaxy (5 arcminutes,
+about twice the galaxy's nominal radius) and the lack of a detection
+by the XRT and UVOT, we believe that this is not an astrophysical
+detection. 
+

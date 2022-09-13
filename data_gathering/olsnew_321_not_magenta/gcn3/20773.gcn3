@@ -1,0 +1,91 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20773
+SUBJECT: LIGO/Virgo G275697: Swift-XRT sources
+DATE:    17/02/28 08:59:52 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), S.D. Barthelmy
+(NASA/GSFC), A.P. Beardmore (U. Leicester), A.A. Breeveld (UCL-MSSL),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G.
+Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V.D'Elia(ASDC), P. Giommi (ASI), C. Gronwall (PSU), H.A. Krimm
+(CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL), A.Y. Lien (GSFC/UMBC), D.
+Malesani (DARK/NBI), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+B. Mingo (U. Leicester),  J.A. Nousek (PSU), S.R. Oates (U. Warwick),
+P.T. O'Brien (U. Leicester), J.P. Osborne (U. Leicester), C. Pagani (U.
+Leicester), K.L. Page (U.Leicester), D.M. Palmer (LANL), M. Perri
+(ASDC), J.L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H.
+Siegel (PSU), G. Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP)
+report on behalf of the Swift team:
+
+Swift has performed a series of 62 observations of galaxies (from the
+2MPZ catalogue) within the LVC error region for the GW trigger G275697,
+using the 'bayestar' GW localisation map. As this is a 3D skymap,
+galaxy distances were taken into account in selecting which ones to
+observe. The observations currently span from 15 ks to 24 ks after the
+LVC trigger, and cover 7.6 sq degrees on the sky (corrected for
+overlaps). This covers 0.011 of the probability in the LVC skymap, and
+0.022 of the probability in the LVC map after convolving with the 2MPZ
+galaxy catalogue, as described by Evans et al., (2016, MNRAS,  462,
+1591).
+
+We have detected a 1 X-ray source. Each source is assigned a rank of
+1-4 which describes how likely it is to be related to the GW trigger,
+with 1 being the most likely and 4 being the least likely. The ranks
+are described at http://www.swift.ac.uk/ranks.php.
+
+The detected source is currently given "rank 3" since it is only
+1.6-sigma above the historical upper limit at this location from the
+Rosat All Sky Survey, and therefore cannot be identified as a new
+source with a significant degree of confidence. We only have a single
+data point so cannot comment on variability. We note, however, that
+this uncatalogued source is consistent with a galaxy in 2MPZ with a
+distance (based on a photometric redshift) of at 291 ± 61 Mpc. The
+LIGO distance probability on the line of sight to this has mean 160 and
+sigma 57 Mpc. 96% of the integral of the LIGO distance function (Singer
+et al., 2016, ApJL, 829, 15) along this line of sight lies within the
+3-sigma confidence interval on this galaxy's position. Follow up
+observations of this source are encouraged. 
+
+We have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 1 source of rank 3
+  * 0 sources of rank 4
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3e20 cm^2, and photon index (Gamma)=1.7
+
+
+RANK 3 sources
+==============
+
+These are uncatalogued X-ray sources, however they are not brighter
+than previous upper limits, so do not stand out as likely counterparts
+to the GW trigger.
+  
+  Source 1:
+  =============
+    RA: 	 324.9781 ( = 21h 39m 54.74s) J2000
+    Dec:	 +44.7641 ( = +44d 45' 50.8") J2000
+    Error:	 +5.9 (arcsec, radius, 90% confidence).
+    Peak Rate:	 1.1e-01 +/- 5.0e-02 ct/sec (0.3-10 keV)
+    Peak Flux:	 4.7e-12 +/- 2.1e-12 erg cm^-2 s^-1 (0.3-10 keV)
+    1XMM UL:	 7.4e-12 ct/sec, (0.3-10 keV)
+		 So the source is 1.3-sigma above the 
+		 XMM 3-sigma upper limit.
+    RASS UL:	 3.0e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+		 So the source is not above the RASS 3-sigma upper 
+		 limit.
+    There is no evidence for fading.
+    There is 1 GWGC or 2MPZ galaxy within 200 kpc of the source,
+    and consistent (within 3-sigma) with the distance to the GW object.
+
+    There is 1 2MASS object within the source's 3-sigma error radius.
+
+This circular is an official product of the Swift team.
+
+

@@ -1,0 +1,23 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5899
+SUBJECT: Corrections for Swift/UVOT Exposure Times for GRBs 061110B and 061121
+DATE:    06/12/05 20:02:54 GMT
+FROM:    Frank Marshall at GSFC  <marshall@milkyway.gsfc.nasa.gov>
+
+F.E. Marshall (NASA/GSFC) reports on behalf of the Swift/UVOT team:
+
+The exposure times for UVOT were reported incorrectly for GRB 061110B
+in GCN Circ. 5803 and for GRB 061121 in GCN Circ. 5823 because of a
+configuration problem in the instrument. The actual exposure times are close
+to the nominal values of 100 s and 400 s (Page et al., GCN Report
+15.1) respectively.
+
+We caution users of UVOT data that data in the archives for exposures
+taken between November 10 and November 22, 2006, have an incorrect value
+for the frame time. As a consequence, the standard UVOT analysis tools
+do not calculate dead time and anti-coincidence losses properly.
+Additional details, including the proper technique for analyzing
+these data, are available on the following web page:
+
+  http://heasarc.gsfc.nasa.gov/docs/swift/uvot_frame.html.
+

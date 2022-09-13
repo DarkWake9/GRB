@@ -1,0 +1,117 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24517
+SUBJECT: LIGO/Virgo S190510g: Pan-STARRS and ATLAS observations and candidates  
+DATE:    19/05/13 11:31:11 GMT
+FROM:    Stephen Smartt at Queen's U/Belfast  <s.smartt@qub.ac.uk>
+
+S. Srivastav, K. W. Smith, S. J. Smartt (QUB), K. Chambers, M. Huber,
+T. de Boer, J. Bulger, J. Fairlamb, C.-C. Lin, T. Lowe, E. Magnier
+A. Schultz, R. J. Wainscoat, M. Willman (IfA, Univ. Hawaii),
+D. R. Young, O. McBrien, J. Gillanders.  D. O'Neil, P. Clark, S. Sim
+(QUB), L. Denneau, H. Flewelling, A. Heinze, J. Tonry, H. Weiland
+(IfA, Univ. Hawaii), A. Rest (STScI), B. Stalder (LSST), C. Stubbs
+(Harvard)
+
+We report observations of the BAYESTAR skymap of the BNS event S190510g
+(The LIGO Scientific Collaboration and the Virgo Collaboration, GCN
+24442) with the Pan-STARRS1 telescope (Chambers et al. 2016,
+arXiv:1612.05560C) and the ATLAS telescopes (Tonry et al. 2018, PASP
+PASP, 13, 164505). 
+
+We acknowledge that is now a marginal candidate (LSC & VC, GCN 24489)
+and note that we completed our scanning of the BAYESTAR skymap, before
+the LALInference map was available (resulting in a final 4%
+probability coverage).
+
+For Pan-STARRS1 : images were taken in the PS1 w and i-bands (Tonry
+et al. 2012, ApJ 750, 99) in the standard NEO search sequence. At each
+pointing position a sequence of quads (4 x 45 sec) was taken. This
+observing sequence ensures exactly the same pointing position for each
+of the quads.
+
+The PS1 images were processed with the IPP (Magnier et al. 2016,
+arXiv:1612.05240) and difference images were produced using the
+Pan-STARRS1 Science Consortium 3Pi images as reference
+frames. Transient candidates were run through our standard filtering
+procedures, combined with a machine learning algorithm (Wright et
+al. 2015, MNRAS, 449, 451) and all candidates were
+spatially cross-matched with known minor planets, and major star,
+galaxy, AGN and multi-wavelength catalogues (as described in Smartt et
+al. 2016, MNRAS, 462 4094).
+
+For ATLAS, we observed with sequences of 4 x 30s, typically reaching
+o ~ 19.5 in each pointing (e.g. Weiland et al. GCN 24107).
+
+We covered the small probability region of the LalInference map (total
+summed probability of 4%) at 13-14hrs (the 6hr region was not visible
+from Hawaii).  We began taking Pan-STARRS data at 2019-05-10 07:09
+(UTC), ~4.2 hrs after the GW trigger. ATLAS started at a similar time.
+
+No new extragalactic transient candidates were discovered with ATLAS
+within the 90% contour (brighter than about o ~ 19.5) 
+
+In the PS1 data, the following 23 transients were found lying within
+the 90% contour of the LALInference map. We give them 3 ranks : 
+
+Rank 1 candidates are plausibly within the distance range reported by
+the LIGO-Virgo analysis (~130 Mpc < d < ~220 Mpc). This comes from
+host galaxy association and their spectroscopic or photometric
+redshifts. 
+
+Rank 2 candidates are not obviously associated with a catalogued
+host galaxy. 
+
+Rank 3 candidates are probably associated with a galaxy outside the
+distance range.
+
+Name      | PS Name | RA (J2000)  | Dec (J2000) | Disc. MJD  | Disc Mag | Notes
+-------------------------------------------------------------------------------
+Rank 1 
+AT2019ezb | PS19xv  | 13 43 59.78 | +01 50 32.7 |  58613.30  |  20.50 i |  (1)
+AT2019far | PS19aaf | 14 17 22.53 | +05 01 08.7 |  58613.48  |  20.29 i |  (2)
+
+Rank 2 
+AT2019ezc | PS19yn  | 13 24 04.80 | -09 02 05.8 |  58613.34  |  20.16 i | 
+AT2019eya | PS19yi  | 13 27 23.56 | -07 01 41.2 |  58613.39  |  20.78 i | 
+AT2019fam | PS19yp  | 13 39 00.66 | -04 28 30.7 |  58613.39  |  20.25 i | 
+AT2019eyg | PS19yz  | 13 42 05.60 | -09 43 24.7 |  58613.35  |  20.60 i |  
+AT2019fal | PS19zf  | 13 46 08.91 | -03 22 40.1 |  58613.39  |  20.92 i |   
+AT2019eyp | PS19zh  | 14 05 46.51 | +03 25 21.4 |  58613.50  |  21.36 w |
+AT2019eyu | PS19aaj | 14 06 15.69 | +03 45 58.4 |  58613.48  |  20.57 i |  
+
+Rank 3 
+AT2019exz | PS19yh  | 13 17 59.93 | -04 36 33.5 |  58613.39  |  19.93 i |  (3)
+AT2019faa | PS19xz  | 13 21 30.14 | +01 59 03.5 |  58613.30  |  21.02 i |  (4)
+AT2019ezy | PS19xx  | 13 27 22.91 | +01 28 19.0 |  58613.30  |  20.11 i |  (5)
+AT2019fan | PS19yo  | 13 28 01.32 | -03 47 08.3 |  58613.39  |  20.76 i |  (6)
+AT2019eyi | PS19xs  | 13 31 45.46 | -00 04 26.5 |  58613.30  |  20.23 i |  (7)
+AT2019eza | PS19xr  | 13 51 04.52 | +03 54 53.4 |  58613.30  |  20.42 i |  
+AT2019fae | PS19yd  | 13 51 53.52 | +00 45 54.8 |  58613.30  |  20.68 i |  (8)
+AT2019fac | PS19yb  | 13 53 05.69 | +08 16 45.3 |  58613.30  |  20.84 i |  (9)
+AT2019eyf | PS19yg  | 13 58 13.27 | +05 13 28.2 |  58613.30  |  19.87 i |   
+AT2019eyv | PS19aah | 14 03 35.78 | +08 11 25.3 |  58613.48  |  21.14 i |  
+AT2019fbj | PS19abe | 14 05 22.17 | +06 35 48.7 |  58613.48  |  21.14 i |  
+AT2019eyn | PS19zk  | 14 07 17.08 | +08 23 33.3 |  58613.48  |  20.49 i |  (10)
+AT2019ezl | PS19zx  | 14 13 00.93 | +07 50 02.5 |  58613.48  |  20.09 i |   
+AT2019ezv | PS19aau | 14 17 39.18 | +02 08 39.1 |  58613.50  |  19.80 w |  (11)
+
+
+(1) Probable host is SDSS J134359.83+015034.4 at a spectroscopic z = 0.072 or D ~ 323 Mpc (NED), yielding an absolute i-band magnitude of ~-17.0 mag 
+(2) Probable host is SDSS J141300.92+075002.6 at a spectroscopic z = 0.058 or D ~ 259 Mpc (NED), yielding an absolute i-band magnitude of ~ -16.8 
+(3) Probable host is GALEXASC J131800.06-043633.9 at a spectroscopic z = 0.132 or D ~ 603 Mpc (NED) 
+(4) Probable host is SDSS J132130.22+015903.0 at a photometric z = 0.291 +/- 0.141 or D ~ 1431 Mpc (SDSS) 
+(5) Probable host is SDSS J132722.06+012818.6 at a photometric z = 0.068 +/- 0.012 or D ~ 308 Mpc (NED) 
+(6) Probable host is LCRS B132526.4-033142 at a spectroscopic z = 0.087 or D ~ 388 Mpc (NED) 
+(7) Probable host is SDSS J133145.14-000431.3 at a photometric z = 0.185 +/- 0.018 or D ~ 899 Mpc (SDSS) 
+(8) Probable host is 2MASX J13515347+0045515 at a spectroscopic z = 0.088 or D ~ 389 Mpc (NED) 
+(9) Probable host is SDSS J135153.50+004551.2 at a photometric z = 0.230 +/-0.151 or D ~ 1148 Mpc (SDSS) 
+(10) Probable host is 2MASX J14071678+0823347 at a spectroscopic z = 0.115 or D ~ 532 Mpc (NED) 
+(11) Probable host is SDSS J141738.94+020831.9 at a spectroscopic redshift of z = 0.129 or D ~ 584 Mpc (NED)
+
+
+
+
+
+
+
+

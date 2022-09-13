@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17028
+SUBJECT: GRB 141017A: Skynet PROMPT-CTIO/SSO Observations
+DATE:    14/11/05 15:40:00 GMT
+FROM:    Adam S. Trotter at UNC-Chapel Hill/PROMPT/Skynet  <atrotter@physics.unc.edu>
+
+A. Trotter, J. Haislip, D. Reichart, A. Aji, R. Beauchemin, T. Berger, 
+A. Dow, A. Foster, N. Frank, M. Hinckle, K. Ivarsen, A. LaCluyze, M. 
+Maples, J. Moore, M. Nysewander, C. Salemi, L. Zbinden, and J. A. Crain 
+report:
+
+Skynet observed the Swift XRT localization of GRB 141017A (Marshall et 
+al., GCN 16919, Swift trigger=615672) with one 24" telescope (P-CTIO 8; 
+I band) and three 16" telescopes (P-CTIO 1,4,5; V,R,I bands) of the 
+PROMPT array at CTIO, Chile, and with one 16" telescope (P-SSO 3; R 
+band) of the PROMPT array at Siding Spring Observatory, Australia.
+Starting at 2014-10-18 01:10 UT and continuing until 2014-10-20 02:26 UT 
+(t=6.7h-2.3d post-trigger), Skynet took a total of 2316 exposures 
+ranging from 80s-160s each. We stacked subsets of these images to 
+maximize the S/N ratio, and detected no optical source in any band at 
+the OT position reported by Swift UVOT (Oates & Marshall, GCN 16924) and 
+confirmed by GROND (Kann, Guelbenzu & Greiner, GCN 16926).  Our 3-sigma 
+limiting magnitudes are:
+
+==================================
+tmid  scope   expos   fil  limit
+==================================
+7.4h  P-CTIO4 26x160s  R   >21.1
+11.2h P-CTIO8 260x80s  I   >22.2
+11.2h P-CTIO1 147x160s V   >22.6
+11.3h P-CTIO5 143x160s I   >22.0
+20.8h P-SSO3  134x160s R   >22.3
+36.5h P-CTIO1 40x160s  V   >22.0
+37.2h P-CTIO8 60x80s   I   >21.3
+37.3h P-CTIO5 33x160s  I   >21.4
+37.9h P-CTIO4 28x160s  R   >21.7
+44.8h P-SSO3  133x160s R   >22.4
+2.3d  P-CTIO1 30x160s  V   >21.4
+2.3d  P-CTIO5 30x160s  I   >20.7
+2.3d  P-CTIO8 53x80s   I   >20.5
+2.3d  P-CTIO4 22x160s  R   >21.1
+==================================
+
+Magnitudes are in the Vega System, calibrated to 5 APASS stars in the 
+field.  Magnitudes have not been corrected for line-of-sight Milky Way 
+dust extinction, with expected E(B-V)=0.035 (Schlafly & Finkbeiner 2011).
+
+No further Skynet observations are scheduled.
+

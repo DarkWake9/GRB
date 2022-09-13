@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3385
+SUBJECT: GRB 050509b: Swift-BAT refined analysis of the short hard burst
+DATE:    05/05/09 07:06:49 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S. Barthelmy (GSFC),  L. Barbier (GSFC), J. Cummings (GSFC/NRC),
+E. Fenimore (LANL), N. Gehrels (GSFC), D. Hullinger (UMD),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/NRC), G. Sato (ISAS),
+M. Suzuki (Saitama), J. Tueller (GSFC), T. Mitani (ISAS),
+F. Marshall (GSFC), T. Takahashi (ISAS)
+on behalf of the Swift/BAT team:
+
+At 04:00:19.23 UT Swift-BAT detected GRB 050509b (trigger=118749)
+(GCN Circ 3381, C. Hurkett et al.).  The refined BAT ground position
+is (RA,Dec) = 189.073,+28.991 {12:36:18,28:59:28} +- 2.8 arcmin [deg; J2000],
+(95% containment).  This is 59 arcsec from the XRT position (Kennea et al.,
+GNC 3383).  The burst was in the fully-coded FOV.  Using the event-by-event
+data, the lightcurve shows a single spike with a duration of ~30msec.
+Further, the hardness ratio S(50-100)/S(25-50) of ~1.5 puts this burst cleanly
+in the short-hard cluster on the hardness_ratio vs duration scatter-plot.
+ 
+Using a simple power-law model, the photon index of the time-averaged
+spectrum is 1.5 +- 0.4.  The fluence in the 15-350 keV band is
+(2.3 +- 0.9) x 10^-8 erg/cm2.  The 1-s peak photon flux 
+in the 15-350 band is (1.57 +- 0.36) ph/cm2/s.
+All the quoted errors are at the 90% confidence level. 
+
+We note that location is consistant with the galaxy cluster NSC J123610+285901
+which has a redshift of z=0.22, which roughly translates to a distance 
+of ~1 Gpc.  We also note that at this distance and the observed flux,
+this is is an order of magnitude farther than the 27-Dec-04 SuperFlare
+event from SGR1806-20 could be seen.
+

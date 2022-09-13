@@ -1,0 +1,44 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3739
+SUBJECT: GRB 050802: Swift/UVOT observations
+DATE:    05/08/02 17:34:24 GMT
+FROM:    Katie McGowan at MSSL-UCL  <km2@mssl.ucl.ac.uk>
+
+K. McGowan (MSSL), D. Band (GSFC-UMBC), P. Brown,
+C. Gronwall (PSU), H. Huckle, B. Hancock (MSSL)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began observing the afterglow of
+GRB 050802 at 2005-08-02T10:15:14, 286 s after the
+BAT trigger (Band et al., GCN 3734).  We detect the
+afterglow in the V-band data at a position (J2000,
+corrected to the DSS coordinates) of:
+
+RA   14:37:5.69 (+/- 1 arcsec)
+Dec +27:47:12.2 (+/- 1 arcsec)
+
+The data are extracted using a 6 arcsec radius aperture
+centered on the source position.  If the significance of
+the source detection was less than 2 sigma we determined a
+3-sigma limiting magnitude.
+
+Filter   Exposure (s)  T_mid (s)   Magnitude      Notes
+
+V        100           336         17.07+/-0.09   detection
+V        10            466         17.32+/-0.20   detection
+V        10            550         17.10          3-sig limit
+V        10            634         17.17          3-sig limit
+V        10            718.5       16.77+/-0.20   detection
+V        10            803         17.34          3-sig limit
+V        10            887.5       17.04+/-0.20   detection
+V        10            972         17.46          3-sig limit
+V        100           1463        18.35+/-0.09   detection
+V        100           2088        18.81+/-0.09   detection
+
+where T_mid is the midpoint of the exposure post-trigger in seconds.
+
+Analysis of the data from the other filters is ongoing.
+
+The magnitudes are based on preliminary zero points, measured in
+orbit, and will require refinement with further calibration.
+

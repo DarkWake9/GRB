@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16967
+SUBJECT: GRB 141026A: Skynet PROMPT-CTIO/Yerkes-41 Observations
+DATE:    14/10/27 20:26:34 GMT
+FROM:    Adam S. Trotter at UNC-Chapel Hill/PROMPT/Skynet  <atrotter@physics.unc.edu>
+
+A. Trotter, J. Haislip, D. Reichart, V. Hoette, K. Cudworth, D. Harper, 
+R. Kron, T. Linder, R. Russell, E. Struble, A. Aji, R. Beauchemin, T. 
+Berger, A. Dow, A. Foster, N. Frank, M. Hinckle, K. Ivarsen, A. 
+LaCluyze, M. Maples, J. Moore, M. Nysewander, C. Salemi, L. Zbinden, and 
+J. A. Crain report:
+
+Skynet observed the Swift BAT/XRT localization of GRB 141026A (Hagen et 
+al., GCN 16950, Swift trigger=616502) with one 24" telescope (PROMPT 8; 
+I band) and four 16" telescopes (PROMPT 3,1,4,5; BVRI bands) of the 
+PROMPT array at CTIO, Chile, and with the 41" telescope of Yerkes 
+Observatory in Wisconsin, USA (g'r'i' bands).
+Starting at 2014-10-26 02:38:30 UT and continuing until 03:03 UT 
+(t=1.5-26m post-trigger), Skynet took a total of 89 exposures ranging 
+from 10s-160s each. We stacked subsets of these images to maximize the 
+S/N ratio, and detected no optical source in any band at the OT position 
+first reported by RATIR (Littlejohns et al., GCN 16952), and confirmed 
+in later notices.  Our 3-sigma limiting magnitudes are:
+
+==================================
+tmid  scope   expos  fil  limit
+==================================
+10m  PROMPT3  4x80s   B   >19.9
+20m  PROMPT1  4x160s  V   >20.4
+19m  PROMPT4  3x160s  R   >19.8
+17m  PROMPT5  4x80s   I   >19.9
+               4X160s
+17m  PROMPT8 12x80s   I   >20.0
+63m  Yerkes   1x80s   g'  >21.2
+               2x160s
+60m  Yerkes   2x80s   r'  >20.9
+               1x160s
+66m  Yerkes   1x80s   i'  >20.5
+               1x160s
+==================================
+
+BVRI magnitudes are in the Vega System, and g'r'i' magnitudes are in the 
+AB system, calibrated to 4 APASS stars in the field.  Magnitudes have 
+not been corrected for line-of-sight Milky Way dust extinction, with 
+expected E(B-V)=0.16 (Schlafly & Finkbeiner 2011).
+
+No further Skynet observations are scheduled.
+

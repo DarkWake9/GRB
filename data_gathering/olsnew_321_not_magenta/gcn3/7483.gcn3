@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7483
+SUBJECT: GRB 080319C, Swift-BAT refined analysis
+DATE:    08/03/20 13:57:13 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+M. Stamatikos (GSFC/ORAU), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), K. McLean (GSFC/UMD), C. Pagani (PSU),
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/UMBC),
+G. Sato (GSFC/ISAS), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-120 to T+88 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 080319C (trigger #306778)
+(Pagani, et al., GCN Circ. 7442).  The BAT ground-calculated position is
+RA, Dec = 259.006, 55.393 deg which is 
+   RA(J2000)  =  17h 16m 01.4s 
+   Dec(J2000) = +55d 23' 33.0" 
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 30%.
+ 
+For the limited event-by-event data we have received on this burst,
+the mask-weighted light curve shows 2 (possibly 3) overlapping
+FRED-like peaks starting at T-0.5 sec, peaking at T+0.2 sec, and
+ending at ~T+50 sec.  The event-by-event data for this m-w lightcurve
+ends at T+88 sec.  The on-board raw countrate lightcurve shows
+no activity after the T+88 sec limit of the event data, but the sensitivity
+is significantly less for this data product.  T90 (15-350 keV) is 34 +- 9 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.3 to T+51.2 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.37 +- 0.07.  The fluence in the 15-150 keV band is 3.6 +- 0.1 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+0.13 sec in the 15-150 keV band
+is 5.2 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/306778/BA/
+
+If we receive any more data on this burst and it shows any on-going
+activity beyond the current data limit of T+88 sec, then we will
+issue a revised circular.
+

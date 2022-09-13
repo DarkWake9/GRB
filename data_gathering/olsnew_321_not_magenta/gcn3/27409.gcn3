@@ -1,0 +1,189 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27409
+SUBJECT: LIGO/Virgo S200316bj : No significant candidates in TAROT - FRAM - GRANDMA observations.
+DATE:    20/03/18 16:36:03 GMT
+FROM:    Martin Blazek at HETH/IAA-CSIC  <alf@iaa.es>
+
+M. Blazek (HETH/IAA-CSIC), B. Gendre (OzGrav-UWA), M. Masek (FZU), N.
+B. Orange (OWIS), Z. Vidadi (SHAO), M. Boer (Artemis), N. Christensen
+(Artemis), L. Eymar (Artemis), S. Karpov (FZU), A. Klotz (IRAP), K.
+Noysena (Artemis, IRAP), M. Prouza (FZU), S. Antier (APC), A. Coleiro
+(APC), D. Corre (IJCLab), M. Coughlin (UMN), D. Coward (OzGrav-UWA),
+J.-G. Ducoin (IJCLab), P. Hello (IJCLab), D. A. Kann (HETH/IAA-CSIC),
+N. Kochiashvili (Iliauni), C. Lachaud (APC), N. Leroy (IJCLab), C.
+Thoene (HETH/IAA-CSIC), D. Turpin (AIM-CEA), A. de Ugarte Postigo
+(IAA/CSIC, DARK/NBI), X. Wang (THU)
+
+report on behalf of the FRAM, TAROT and GRANDMA collaborations.
+
+We performed tiled observations of LIGO/Virgo S200316bj event with the
+FRAM-Auger, FRAM-CTA-N and TAROT-Calern (TCA) telescopes.
+
+FRAM-Auger is located at Pierre Auger Observatory. FRAM-CTA-N is
+located at Observatorio del Roque de los Muchachos. TCA is located at
+Calern site at the Cote d'Azur observatory.
+
+The following table shows for each telescope: the delay in minutes
+from the trigger, which filter is used, the field of view of the
+telescope in degrees and the typical limiting magnitude (AB mag) for a
+given exposure in seconds (s).
+
++-------------+---------+----------+-------------+------------+
+| Telescope   | Delay   | Filter   | f.o.v.      | Limiting   |
+|             | [min]   |          | [deg]       | Mag.       |
+|-------------+---------+----------+-------------+------------|
+| FRAM-Auger  | 109     | R        | 1.0 x 1.0   | 18.0 (60s) |
+| FRAM-CTA-N  | 23      | R        | 0.45 x 0.45 | 17.0 (90s) |
+| TCA         | 16      | Clear    | 1.9 x 1.9   | 18.0 (60s) |
++-------------+---------+----------+-------------+------------+
+
+We performed the following joint tiled observations [1] :
+
++-------------+------------+------------+---------+---------+---------+
+| Telescope   | TStart     | TEnd       | RA      | DEC     | Proba   |
+|             | [UTC]      | [UTC]      | [deg]   | [deg]   | [%]     |
+|-------------+------------+------------+---------+---------+---------|
+| FRAM-Auger  | 2020-03-16 | 2020-03-16 | 278.710 | -75.405 | 0.2     |
+|             | 23:46:15   | 23:50:41   |         |         |         |
+| FRAM-Auger  | 2020-03-16 | 2020-03-16 | 274.839 | -75.405 | 0.2     |
+|             | 23:51:17   | 23:55:44   |         |         |         |
+| FRAM-Auger  | 2020-03-16 | 2020-03-17 | 277.241 | -76.378 | 0.2     |
+|             | 23:56:18   | 00:00:45   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 276.364 | -74.432 | 0.2     |
+|             | 00:01:19   | 00:05:46   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 270.968 | -75.405 | 0.2     |
+|             | 00:06:21   | 00:10:48   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 280.000 | -74.432 | 0.2     |
+|             | 00:11:25   | 00:15:52   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 273.103 | -76.378 | 0.2     |
+|             | 00:16:29   | 00:20:55   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 281.379 | -76.378 | 0.2     |
+|             | 00:21:32   | 00:25:59   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 272.727 | -74.432 | 0.2     |
+|             | 00:26:36   | 00:31:03   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 282.581 | -75.405 | 0.1     |
+|             | 00:31:40   | 00:36:07   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 269.091 | -74.432 | 0.1     |
+|             | 00:36:44   | 00:41:11   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 267.097 | -75.405 | 0.1     |
+|             | 00:41:45   | 00:46:12   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 268.966 | -76.378 | 0.1     |
+|             | 00:46:48   | 00:51:15   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 265.455 | -74.432 | 0.1     |
+|             | 00:51:50   | 00:56:17   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 261.818 | -74.432 | 0.1     |
+|             | 00:56:51   | 01:01:18   |         |         |         |
+| FRAM-Auger  | 2020-03-17 | 2020-03-17 | 275.556 | -77.351 | 0.1     |
+|             | 01:17:06   | 01:21:33   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 87.144  | 47.846  | 0.3     |
+|             | 22:20:16   | 22:24:22   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 87.011  | 47.410  | 0.3     |
+|             | 22:24:37   | 22:28:43   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 87.517  | 46.973  | 0.3     |
+|             | 22:29:00   | 22:33:06   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 86.368  | 47.410  | 0.3     |
+|             | 22:33:22   | 22:37:28   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 87.654  | 47.410  | 0.3     |
+|             | 22:37:44   | 22:41:50   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 87.122  | 48.283  | 0.3     |
+|             | 22:42:04   | 22:46:10   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 86.880  | 46.973  | 0.3     |
+|             | 22:46:25   | 22:50:31   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 86.243  | 46.973  | 0.3     |
+|             | 22:50:44   | 22:54:50   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 86.495  | 47.846  | 0.3     |
+|             | 22:55:05   | 22:59:11   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 87.536  | 46.536  | 0.3     |
+|             | 22:59:26   | 23:03:32   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 85.847  | 47.846  | 0.3     |
+|             | 23:03:48   | 23:07:54   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 86.271  | 46.536  | 0.3     |
+|             | 23:08:09   | 23:12:15   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 85.815  | 48.283  | 0.3     |
+|             | 23:12:31   | 23:16:37   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 87.793  | 47.846  | 0.3     |
+|             | 23:16:54   | 23:21:00   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 86.903  | 46.536  | 0.3     |
+|             | 23:21:15   | 23:25:21   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 86.468  | 48.283  | 0.3     |
+|             | 23:25:37   | 23:29:43   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 86.599  | 48.720  | 0.3     |
+|             | 23:29:58   | 23:34:04   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 85.725  | 47.410  | 0.3     |
+|             | 23:34:19   | 23:38:25   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 88.154  | 46.973  | 0.3     |
+|             | 23:38:43   | 23:42:49   |         |         |         |
+| FRAM-CTA-N  | 2020-03-16 | 2020-03-16 | 88.441  | 47.846  | 0.2     |
+|             | 23:43:04   | 23:47:10   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| TCA         | 2020-03-16 | 2020-03-17 | 88.223  | 48.270  | 4.1     |
+|             | 22:13:21   | 20:41:36   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 88.303  | 46.414  | 3.9     |
+|             | 22:20:04   | 20:48:21   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 85.656  | 46.414  | 3.9     |
+|             | 22:45:09   | 20:55:06   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 87.758  | 44.558  | 2.0     |
+|             | 22:57:18   | 21:07:16   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 88.824  | 50.125  | 1.7     |
+|             | 23:04:05   | 21:14:19   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 90.950  | 48.270  | 1.5     |
+|             | 23:10:49   | 21:21:01   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 85.205  | 44.558  | 1.3     |
+|             | 23:17:33   | 01:30:54   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 82.768  | 48.270  | 1.2     |
+|             | 23:29:42   | 19:09:57   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 83.009  | 46.414  | 1.1     |
+|             | 23:36:30   | 19:16:41   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-17 | 83.155  | 50.125  | 1.0     |
+|             | 23:43:14   | 19:23:26   |         |         |         |
+| TCA         | 2020-03-16 | 2020-03-16 | 69.886  | 44.558  | 0.8     |
+|             | 23:49:59   | 23:56:18   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 67.333  | 44.558  | 0.7     |
+|             | 00:02:08   | 19:42:22   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 86.524  | 51.981  | 0.7     |
+|             | 00:08:55   | 19:49:09   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 91.659  | 50.125  | 0.6     |
+|             | 00:15:40   | 00:22:00   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 67.126  | 46.414  | 0.6     |
+|             | 00:28:03   | 20:08:17   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 85.495  | 48.270  | 4.2     |
+|             | 00:34:51   | 20:34:51   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 85.989  | 50.125  | 2.5     |
+|             | 01:00:50   | 01:07:10   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 90.950  | 46.414  | 1.3     |
+|             | 18:56:52   | 21:31:02   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 90.312  | 44.558  | 0.8     |
+|             | 19:29:17   | 19:35:37   |         |         |         |
+| TCA         | 2020-03-17 | 2020-03-17 | 69.773  | 46.414  | 0.6     |
+|             | 19:55:11   | 20:01:31   |         |         |         |
++-------------+------------+------------+---------+---------+---------+
+
+TStart and TEnd refers respectively to the time of the first and last
+exposure for a given tile. Observations are not necessarily continuous
+  in this interval.
+The Probability refers to the 2D spatial probability of the GW skymap
+enclosed in a given tile.
+
+These observations cover about 34.8% of the cumulative probability of
+the BAYESTAR skymap created on 2020-03-16 21:58:46 (UTC).
+
+The coverage map is available at:
+https://grandma-owncloud.lal.in2p3.fr/index.php/s/XgtMhPRxcyL09gR/
+download?path=%2F&files=GRANDMA_S200316bj_1584480817.svg
+
+No significant transient candidates were found during our low latency
+analysis [2,3].
+
+GRANDMA (Global Rapid Advanced Network Devoted to the Multi-messenger
+Addicts) is a network of robotic telescopes connected all over the
+world with both photometry and spectrometry capabilities for Time-
+domain Astronomy [2](https://grandma.lal.in2p3.fr/).
+
+Details on the different telescopes are available on the GRANDMA web
+pages.
+
+[1] M. W Coughlin et al., MNRAS 2019, https://doi.org/10.1093/mnras/stz2485
+[2] S. Antier et al., MNRAS 2019, https://doi.org/10.1093/mnras/stz3142
+[3] K. Noysena et al., ApJ 2019, arXiv:1910.02770
+

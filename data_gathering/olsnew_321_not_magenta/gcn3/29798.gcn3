@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29798
+SUBJECT: GRB 210410A: AGILE/MCAL analysis
+DATE:    21/04/11 19:51:25 GMT
+FROM:    Alessandro Ursi at INAF/IAPS  <alessandro.ursi@gmail.com>
+
+A. Ursi (INAF/IAPS), M. Tavani (INAF/IAPS, and Univ. Roma Tor Vergata), F.
+Verrecchia, C. Pittori (SSDC, and INAF/OAR), A. Argan, M. Cardillo, C.
+Casentini, Y. Evangelista, G. Piano (INAF/IAPS), F. Lucarelli (SSDC, and
+INAF/OAR), A. Bulgarelli, A. Di Piano, V. Fioretti, F. Fuschino, N.
+Parmiggiani (INAF/OAS-Bologna), M. Marisaldi (INAF/OAS-Bologna, and Bergen
+University), M. Pilia, A. Trois (INAF/OA-Cagliari), I. Donnarumma (ASI), F.
+Longo (Univ. Trieste and INFN Trieste), A. Giuliani (INAF/IASF-Mi), report
+on behalf of the AGILE Team:
+
+We carried out further analysis of the AGILE/MCAL data of GRB 210410A (GCNs
+#29777, #29778, #29779, #29780, #29781, #29782, #29786, #29787, #29788,
+#29790, #29793, #29797).
+
+The first 4 s of the burst released 5700 counts in the detector, above a
+background rate of 560 Hz.
+The spectral analysis shows a clear component up to 100 MeV.
+
+The time-integrated spectrum of the first ~4 s of the burst can be fitted
+in the energy range 0.4-100 MeV with a CPL model with alpha = -0.6
+-0.25/+0.14 and cutoff energy Ec = 500 keV, plus an extra PL component with
+ph.ind. -1.31 -0.04/+0.04. The fit results in a reduced chi-squared of 1.48
+(81 d.o.f.) and a fluence of 1.3e-04 ergs/cm^2 (90% confidence level), in
+the same energy range.
+
+We divided the data acquisition into three time intervals: interval a
+[T0-0.16s - T0+0.70s], interval b [T0+0.70s - T0+2.85s], and interval c
+[T0+2.85s - T0+4.00s]. The spectral analysis in the energy range 0.4-100
+MeV shows an evolution of the PL high-energy spectral component, evolving
+from alpha = -1.91 to alpha = -0.92. Details are reported below:
+
+  |  model |         CPL alpha |      Ec |        PL ph.ind. | redX^2 (dof)
+a | CPL+PL | -0.57 -1.46/+3.84 | 438 keV | -1.91 -0.96/+0.78 |    0.97 (81)
+b | CPL+PL | -0.57 -1.68/+0.67 | 365 keV | -0.98 -0.61/+0.39 |    1.38 (81)
+c |   PL   |       -----       |   ---   | -0.92 -0.98/+0.40 |    1.05 (84)
+
+MCAL light curve and spectra in the different time intervals can be found
+at:
+http://www.agilescienceapp.it/notices/GRB210410A_AGILE-MCAL_intervals.png .
+
+Additional analysis of AGILE data is in progress. Automatic MCAL GRB alert
+Notices can be found at: https://gcn.gsfc.nasa.gov/agile_mcal.html.

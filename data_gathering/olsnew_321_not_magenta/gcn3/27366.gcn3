@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27366
+SUBJECT: LIGO/Virgo S200224ca: DESGW Summary of DECam Observations
+DATE:    20/03/11 20:39:09 GMT
+FROM:    Robert Morgan at U. of Wisconsin-Madison  <robert.morgan@wisc.edu>
+
+Robert Morgan (Univ. Wisconsin-Madison), Antonella Palmese (Fermilab),  Alyssa Garcia (Brandeis Univ.), Marcelle Soares-Santos (Brandeis Univ.), Ken Herner (Fermilab), Clecio R. Bom (CBPF), Constantina Nicolaou (University College London), Kathy Vivas (NSF’s OIR Lab), Alfredo Zenteno (NSF’s OIR Lab), and Juan Garcia-Bellido (IFT-UAM) on behalf of the DESGW Collaboration*.
+
+
+We triggered the Dark Energy Camera (DECam) at Cerro Tololo Inter-American Observatory in Chile on the localization area of the binary-black-hole merger event detected by LIGO Livingston, LIGO Hanford, and Virgo (S200224ca, GCN 27184). Observations took place on 2020-02-24, 2020-02-25, 2020-02-27, and 2020-03-05 in the i-band and reached 10-sigma limiting magnitudes of 23.17, 23.19, 23.49, and 23.03 respectively. Each night, the area was covered twice and images on the same night were coadded to increase our depth.
+
+
+We determined interesting candidates from our observations by selecting sources not present in archival DECam images, requiring a detection in both exposures on 2020-02-24, requiring that if redshift information exists for the host galaxy that it be consistent with the LVC distance posterior assuming a standard cosmological model, that the candidate have at least one autoscan (Goldstein 2015) score > 0.7 for image artifact rejection, and that the object not be detected on 2020-03-05. We also removed objects listed as variable stars in the GAIA DR2 catalog, and visually inspected the images. All DECam candidates in GCN 27227 were rejected by the required non-detection on 2020-03-05 (i.e., they are consistent with supernovae).
+
+
+After completing our follow-up, we find 8 interesting transient objects and document them below. Each object was detected on 2020-02-24, too faint to detect in our observations on 2020-03-05, and it was visually matched to a host galaxy.
+
+
+TNS ID  |   DESGW NAME    |     RA      |     DEC    | BRIGHTEST MAG_i
+
+2020eho | desgw-200224-aa | 173.542273  | -11.413514 | 23.35 +/- 0.12
+
+2020ehp | desgw-200224-ab | 177.589350  | -9.9630310 | 22.63 +/- 0.09
+
+2020ehq | desgw-200224-ac | 174.445462  | -10.039503 | 23.01 +/- 0.18
+
+2020ehr | desgw-200224-ad | 172.931711  | -4.1346680 | 22.76 +/- 0.10
+
+2020eht | desgw-200224-ae | 177.718160  | -10.190816 | 23.18 +/- 0.11
+
+2020ehv | desgw-200224-af | 175.921426  | -6.8633130 | 22.78 +/- 0.11
+
+2020ehw | desgw-200224-ag | 175.770071  | -6.2421670 | 22.88 +/- 0.11
+
+2020ehy | desgw-200224-ah | 176.700106  | -11.848473 | 23.08 +/- 0.12
+
+
+Candidates with a host galaxy in DESI imaging (Dey et al. 2019), SDSS or 2MASS have host galaxy properties tabulated below:
+
+
+TNS ID  | DESGW NAME    |         HOST ID     |   HOST RA  | HOST DEC  | HOST SEP (") | HOST MAG_i |   Host Redshift | SOURCE
+
+2020eht | desgw-200224-ad | 1237671129660261003 | 172.928529 | -4.135549  |     11.86    |    19.67   | 0.31 +/- 0.13  | SDSS
+
+2020ehv | desgw-200224-af |           --        | 175.920943 | -6.864041  |     3.14     |      --    | 0.2754 +/- 0.045 | DESI imaging
+
+
+The DESI imaging redshifts are the photometric redshifts from Zhou et al. (2020).
+
+
+*The DESGW Collaboration:
+
+
+Sahar Allam (Fermilab), James Annis (Fermilab), Iair Arcavi (Tel Aviv U), Tristan Bachmann (U Chicago), Paulo Barchi (INPE & Brandeis U), Thomas Beatty (U of Arizona) Keith Bechtol (U of Wisconsin-Madison), Federico Berlfein (Brandeis U), Antonio Bernardo (U of Sao Paulo), Dillon Brout (U Penn), Robert Butler (Indiana U), Melissa Butner, (Fermilab), Annalisa Calamida (STScI), Hsin-Yu Chen (Harvard U), Chris Conselice (U of Nottingham), Carlos Contreras (STScI), Jeff Cooke (Swinburne U), Chris D’Andrea (U Penn), Tamara Davis (U Queensland), Reinaldo de Carvalho (UNICSUL), H. Thomas Diehl (Fermilab), Zoheyr Doctor (U Chicago), Alex Drlica-Wagner (Fermilab), Maria Drout (U Toronto), Maya Fishbach (U Chicago), Francisco Forster (U de Chile), Ryan Foley (UCSC), Joshua Frieman (Fermilab & U Chicago), Chris Frohmaier (U of Portsmouth), Ori Fox (STScI), Alyssa Garcia (Brandeis U), Juan Garcia-Bellido (U Autonoma de Madrid), Mandeep Gill (SLAC & Stanford U), Robert Gruendl (NCSA), Will Hartley (U College London), Kenneth Herner (Fermilab), Daniel Holz (U Chicago), Jorge Horvath (U of Sao Paulo), D. Andrew Howell (Las Cumbres Observatory), Richard Kessler (U Chicago), Charles Kilpatrick (UCSC), Nikolay Kuropatkin (Fermilab), Ofer Lahav (U College London), Huan Lin (Fermilab), Andrew Lundgren (U of Portsmouth), Martin Makler (CBPF), Clara Martinez-Vazquez (CTIO/NOAO), Curtis McCully (Las Cumbres Observatory), Mitch McNanna (U of Wisconsin-Madison), Robert Morgan (U of Wisconsin-Madison), Gautham Narayan (STScI), Eric Neilsen (Fermilab), Robert Nichol (U of Portsmouth), Antonella Palmese (Fermilab), Francisco Paz-Chinchon (NCSA & UIUC), Matthew Penny (OSU), Maria Pereira (Brandeis U), Sandro Rembold (UFSM), Armin Rest (STScI & JHU), Livia Rocha (U Sao Paulo), Russell Ryan (STScI), Masao Sako (U Penn), Samir Salim (Indiana U), David Sand (U of Arizona), Luidhy Santana-Silva (Valongo Observatory), Daniel Scolnic (Duke U), Nora Sherman (Fermilab), J. Allyn Smith (Austin Peay State U), Mathew Smith (U of Southampton), Marcelle Soares-Santos (Brandeis U), Lou Strolger (STScI), Riccardo Sturani (UFRN), Mark Sullivan (U of Southampton), Masaomi Tanaka (NAOJ), Nozomu Tominaga (Konan U), Douglas Tucker (Fermilab), Yousuke Utsumi (Stanford U), Stefano Valenti (UC Davis), Kathy Vivas (NOAO/CTIO), Alistair Walker (NOAO/CTIO), Sara Webb (Swinburne U), Matt Wiesner (Benedictine U), Brian Yanny (Fermilab), Michitoshi Yoshida (NAOJ), Alfredo Zenteno (NOAO/CTIO)
+
+

@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19794
+SUBJECT: GRB 160815A: Swift detection of a burst
+DATE:    16/08/15 12:16:28 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+C. B. Markwardt (NASA/GSFC), P.A. Evans (U Leicester),
+N. Gehrels (NASA/GSFC), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC), B. Mingo (U Leicester),
+K. L. Page (U Leicester), T. Sakamoto (AGU) and
+B. Sbarufatti (INAF-OAB/PSU) report on behalf of the Swift Team:
+
+At 11:45:11 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 160815A (trigger=708598).  Swift slewed immediately to the burst. 
+The BAT location calculated from the downlinked detector histogram is 
+RA, Dec 288.733, 84.282 which is 
+   RA(J2000) = 19h 14m 56s
+   Dec(J2000) = +84d 16m 55.2s
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  No BAT lightcurve is immediately available
+due to a gap in TDRSS coverage. 
+
+Using promptly downlinked data we find a fading, uncatalogued X-ray
+source with an enhanced position: RA, Dec 288.5364, 84.3138 which is
+equivalent to:
+   RA(J2000)  = 19h 14m 08.73s
+   Dec(J2000) = +84d 18' 49.8"
+with an uncertainty of 2.0 arcseconds (radius, 90% containment). This
+location is 134 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received; 
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (7.52 x
+10^20 cm^-2, Willingale et al. 2013), with an excess column of 4.6
+(+1.72/-1.57) x 10^21 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+309 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. Data from the 2.7'x2.7' sub-image are not
+available at this time. The 8'x8' region for the list of sources generated
+on-board covers none of the BAT error circle. No correction has been made for
+extinction. 
+
+Burst Advocate for this burst is C. B. Markwardt (Craig.Markwardt AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

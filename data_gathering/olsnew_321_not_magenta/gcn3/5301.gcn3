@@ -1,0 +1,32 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5301
+SUBJECT: GRB 060712: Swift detection of a burst
+DATE:    06/07/12 21:29:42 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. R. Cummings (NASA/ORAU), S. D. Barthelmy (GSFC), C. Gronwall (PSU),
+S. T. Holland (GSFC/USRA), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL), M. Perri (ASDC),
+M. Stamatikos (NASA/ORAU) and L. Vetere (ASDC) report on behalf of
+the Swift Team:
+
+At 21:07:43 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060712 (trigger=218582).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA,Dec 184.061, +35.560 {12h 16m 15s, +35d 33' 35"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows very little structure
+above background.  This is a 6.7-sigma detection in BAT spread over ~26 sec
+so little is expected to be seen in the BAT lightcurve.  The peak count rate
+was ~500 counts/sec (15-350 keV). 
+
+The XRT began taking data at 21:10:47 UT, 184 seconds after the BAT
+trigger. The XRT on-board centroid algorithm did not find a source in
+the image and no prompt position is available. However analysis of the
+downlinked Photon Counting mode data reveals a point source at the
+following coordinates:  RA(J2000) = 12:16:16.3, Dec(J2000) = +35:32:17.7 
+with an error radius of  4.2 arcseconds (90% confidence). This position 
+is 81 arcseconds from the BAT position. 
+
+UVOT was in an engineering mode, so no UVOT data are currently available. 
+

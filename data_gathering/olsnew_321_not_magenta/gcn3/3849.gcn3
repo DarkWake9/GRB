@@ -1,0 +1,31 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3849
+SUBJECT: GRB 050822: Swift detection of a long burst
+DATE:    05/08/22 04:29:32 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+A. Blustin (UCL-MSSL), S. Barthelmy (GSFC), D. Burrows (PSU), M. Chester (PSU),
+J. Cummings (GSFC/NRC), N. Gehrels (GSFC), J. Kennea (PSU), F. Marshall (GSFC),
+D. Palmer (LANL), T. Sakamoto (GSFC)
+on behalf of the Swift team:
+
+At 03:49:29 UT, Swift-BAT triggered and located GRB050822 (trigger=151486).
+The BAT on-board calculated location is RA,Dec 51.080d,-46.023d
+{03h 24m 19s,-46d 01' 22"} (J2000), with an uncertainty of 2 arcmin
+(radius, 90% containment, stat+sys).  The BAT light curve shows two peaks
+(at T+5 sec and T+50 sec) with a total duration of 70 sec.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~5 sec after the trigger.
+
+The spacecraft slewed promptly and the XRT began observing the GRB
+at 03:51:05 UT (96 sec after the BAT trigger).  A bright source was found
+by the on-board centroiding algorithm at RA=03h 24m 26.7s, Dec=-46d 01' 58"
+(J2000), with an estimated uncertainty of 8 arcsec (90% containment radius).
+This is 86 arcsec from the BAT position.  The count rate decreases during
+the first 100 sec, although the fact that Swift was exiting from the SAA
+could contribute to this.
+
+The UVOT began observing the field of GRB050822 at 03:51:47, 138 sec 
+after the BAT trigger.  No new source with respect to the DSS image is 
+detected at the XRT position in a 100 s V-band exposure down to a 3-sigma 
+upper limit of 18.4 mag.
+

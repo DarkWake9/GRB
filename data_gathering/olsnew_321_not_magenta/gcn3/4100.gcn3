@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4100
+SUBJECT: GRB051016: Swift XRT refined analysis.
+DATE:    05/10/16 15:13:00 GMT
+FROM:    Andy Beardmore at U Leicester  <apb@star.le.ac.uk>
+
+A. Beardmore (U. Leicester), D. Burrows, J. Kennea (PSU),
+N. Gehrels (GSFC) report on behalf of the Swift XRT team:
+
+We have analysed the first two orbits of data from the Swift XRT
+observation of GRB051016 (Boyd et al., GCN4096). The refined ground
+processed coordinates are :
+
+ RA(J2000)  =  08h 11m 16.3s
+ Dec(J2000) = -18d 17m 56.3s
+
+with an estimated uncertainty of 8 arcsecs radius (90% containment).
+This is 7.1 arcsecs awsy from the XRT position reported in Boyd et al.
+
+The XRT light curve from this interval shows a steep initial decline,
+followed by a break to a shallower decay slope. A broken power-law fit
+to the light curve gives parameters :
+
+alpha_1 = 4.8 +0.5-0.4
+t_break = 247 +/- 15s
+alpha_2 = 0.7 +/- 0.1.
+
+The Windowed Timing (WT) and Photon Counting mode spectra from the first
+two orbits can be fit with an absorbed power-law with a photon index of
+3.14+/-0.45 and a column density of 4.5+/-1.5 E21 cm-2, which is slightly
+in excess of the Galactic column density of 1.19E+21 cm-2 in this
+direction. The observed 0.2-10 keV flux for the WT data (exposure time
+22.2s, centered at T+130s) was 1.31E-10 ergs cm**-2 s**-1, corresponding
+to an unabsorbed flux of 9.98E-10 ergs cm**-2 s**-1.
+
+Assuming the X-ray emission from the GRB continues to decline at the
+same rate, the predicted XRT count rate at T+24hrs is 0.0036 counts/s,
+which  corresponds to  an observed  0.2-10 keV  flux  of 1.1e-13
+ergs cm**-2 s**-1.
+

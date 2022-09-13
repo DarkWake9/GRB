@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8051
+SUBJECT: GRB 080802: Swift detection of a probable burst
+DATE:    08/08/02 15:46:43 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+W. H. Baumgartner (GSFC/UMBC), A. P. Beardmore (U Leicester),
+M. M. Chester (PSU), C. B. Markwardt (CRESST/GSFC/UMD),
+D. M. Palmer (LANL) and E. Troja (INAF-IASFPA) report on behalf of
+the Swift Team:
+
+At 15:12:21 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080802 (trigger=318832).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 270.748, -32.333 which is 
+   RA(J2000) = 18h 02m 60s
+   Dec(J2000) = -32d 19' 59"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 50 sec.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~2 sec after the trigger. 
+
+The XRT began observing the field at 15:13:39.7 UT, 78 seconds
+after the BAT trigger. Using promptly downlinked data we find a bright,
+variable, uncatalogued X-ray source located at RA, Dec 270.72692,
+-32.33395 which is equivalent to:
+   RA(J2000)  = 18h 02m 54.46s
+   Dec(J2000) = -32d 20' 02.2"
+with an uncertainty of 3.1 arcseconds (radius, 90% containment). This is
+1.1 arcminutes from the BAT position and within its error radius. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (2.75e+21
+cm^-2, Kalberla et al. 2005), with an excess column of 2.3
+(+2.63/-2.21) x 10^21 cm^-2 (90% confidence). 
+
+The initial flux in the 2.5 s image was 1.47e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White 
+(160-650 nm) filter starting 86 seconds after the BAT trigger. No 
+afterglow candidate is apparent in the initial data products. The 
+2.7'x2.7' sub-image covers 25% of  the BAT error circle and 100% of 
+the XRT error circle. The typical 3-sigma upper limit has been about 
+ 18.5 mag. The list of sources is typically complete to about 18 mag. 
+ No  correction has been made for the expected extinction, which at
+this location is large and uncertain. 
+
+Because this source is near the Galactic center, this event may
+be a local transient rather than a cosmological GRB.  However,
+no known sources are found at the XRT position in either 
+SIMBAD or NED. 
+
+No BAT_POSITION notice was available due to a TDRSS hand-over
+at the time of the burst. 
+

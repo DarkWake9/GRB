@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24089
+SUBJECT: GRB 190404C: MITSuME Akeno and Okayama optical upper limits
+DATE:    19/04/10 11:53:08 GMT
+FROM:    Adachi Ryo at Tokyo Institute of Tech  <adachi@hp.phys.titech.ac.jp>
+
+R. Adachi, M. Niwano, K. L. Murata, K. Iida, M. Oeda,
+K. Shiraishi, Y. Yatsu, and N. Kawai (Tokyo Tech)
+report on behalf of the MITSuME collaboration:
+
+We performed tiling observation for the error region of GRB 190404C
+(S. Yamada et al., GCN Circular #24049)
+with an optical tri-color (g', Rc, and Ic) camera attached to
+the MITSuME 50cm telescopes at Akeno Observatory
+and Okayama Astrophysical Observatory, in Japan.
+
+The follow up observation started at 2019-04-04 13:36:27 UT, 1,339 sec
+after the trigger.
+Our tiling observation covered almost 95% of the MAXI/GSC error box
+(S. Yamada et al., GCN Circular #24049).
+
+We did not find any new point source within the Swift XRT error circle
+(P. D'Avanzo et al. GCN #24054, #24062) in all three bands.
+Since the brightness source near the XRT error circle(~9 arcsec), the
+obtained upper limit is very shallow.
+The obtained 5 sigma upper limits of the optical counterpart are
+summarize below:
+
+T0+[sec]    MID-UT      T-EXP[sec]        g'       Rc        Ic
+-------------------------------------------------------------------------------------------------------
+1339      13:42:06          480              >13.1  >12.4    >11.9
+-------------------------------------------------------------------------------------------------------
+
+
+Furthermore, compared our co-added images with GSC2.3 catalog and
+UCAC4 catalog, we found no bright optical transient in the observed
+region.
+Because the sky condition was unstable, the obtained upper limits are
+different for each field.
+The 5-sigma upper limits of the co-added images are listed below.
+
+Field num.   center position(R.A., Dec.)   size of field(R.A.(arcmin)
+x Dec.(arcmin))   5-sigma upper limit   start observation time(UT)
+--------------------------------------------------------------------------------------------
+Field 1    14:42:36, -22:46:14   25.7 x 25.9   g' > 17.0, Rc > 17.2,
+Ic > 17.1   13:36:27
+Field 2    14:43:08, -22:37:04   25.7 x 25.9   g' > 17.4, Rc > 17.6,
+Ic > 17.4   13:47:51
+Field 3    14:43:03, -22:14:27   26.0 x 25.0   g' > 17.8, Rc > 18.0,
+Ic > 17.5   14:47:19
+Field 4    14:44:50, -22:41:11   23.3 x 23.7   g' > 15.6, Rc > 15.6,
+Ic > 15.7   14:47:06
+Field 5    14:41:24, -22:15:23   23.3 x 24.3   g' > 18.0, Rc > 18.0,
+Ic > 17.5   16:24:11
+Field 6    14:42:17, -22:30:00   24.0 x 23.6   g' > 18.1, Rc > 18.1,
+Ic > 17.5   17:57:11
+Field 7    14:43:12, -22:17:05   25.4 x 25.7   g' > 17.2, Rc > 17.3,
+Ic > 17.1   15:46:23
+Field 8    14:44:14, -22:27:57   25.8 x 25.9   g' > 17.7, Rc > 17.3,
+Ic > 16.9   18:25:06
+Field 9    14:41:18, -22:20:50   25.4 x 25.7   g' > 17.6, Rc > 17.7,
+Ic > 17.1   19:28:34
+Field 10  14:43:18, -22:41:18   23.3 x 23.7   g' > 18.4, Rc > 18.4,
+Ic > 17.7   15:25:47
+--------------------------------------------------------------------------------------------
+
+We used UCAC4 catalog for flux calibration.
+

@@ -1,0 +1,96 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8858
+SUBJECT: Konus-Wind observation of AXP/SGR 1E1547.0-5408 bursting activity
+DATE:    09/01/28 13:50:34 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, P.
+Oleynik, M. Ulanov and T. Cline, on behalf of the Konus-Wind team,
+report:
+
+Since the renewal of bursting activity of the AXP/SGR 1E1547.0-5408
+on January 22 (Gronwall et al., GCN 8833; Connaughton & Briggs, GCN 
+8835; von Kienlin & V. Connaughton, GCN 8838; Savchenko et al. GCN 8837;
+Terada et al., GCN 8845; Bellm et al., GCN 8857) Konus-Wind have seen 11 
+triggers from this source.
+
+The first trigger at 2009-01-22 T0=3554.882 s UT (00:59:14.882) contains 
+many bursts and represent the cluster of bursts which started at 
+~T0-210s. The second trigger also contains several bursts. Remaining 
+triggers contain single bright bursts.
+
+There is a data gap from 02:13 to 15:43 UT on Jan 22, 2009 which cannot 
+be recovered.
+
+The following is a list of the Konus-Wind triggers with preliminary 
+estimations of the bursts fluences and peak fluxes. The KW trigger times 
+and corresponding Earth-crossing times are given.
+-------------------------------------------------------------------
+
+#   Date     T0(KW)       T0Earth   Localized   Fl**  PF**
+               UT           UT          by
+-------------------------------------------------------------------
+1* 20090122 00:59:14.882 00:59:18.550 GBM      8.0 8.0
+2* 20090122 02:09:22.183 02:09:25.849 BAT      5.7 1.3
+3  20090122 17:02:52.833 17:02:56.474 BAT      2.7 2.5
+4  20090122 21:07:56.190 21:07:59.824  -       1.0 3.4
+5  20090122 23:14:50.460 23:14:54.090 GBM      4.7 7.8
+6  20090123 01:19:37.838 01:19:41.465 BAT,GBM  2.7 7.5
+7  20090123 02:42:05.150 02:42:08.774 GBM      3.2 9.7
+8  20090123 16:54:33.488 16:54:37.087 GBM      1.3 5.6
+9  20090125 08:43:37.781 08:43:41.303 IBIS    250  300
+10 20090125 23:00:32.802 23:00:36.294 IPN,GBM  7.6 19
+11 20090126 04:48:01.917 04:48:05.397 GBM      1.6 5.7
+------------------------------------------------------------------
+* - these triggers contain several bursts, in Table we give total
+     fluence of all bursts and peak flux of the brightest burst
+
+** - Fluence (20-200 keV) in units of 1e-6 erg/cm2
+
+*** - Peak Flux (20-200 keV) on 4ms time scale
+       in units of 1e-5 erg/cm2/s
+
+Some Abbreviations:
+BAT: Swift BAT
+GBM: Fermi GBM
+IBIS: Imager on Board the INTEGRAL Satellite
+IPN: Interplanetary Network
+
+
+The spectra of the most bursts are well fitted (in the 20-500 keV energy 
+range) by power low with exponential cutoff model with Epeak values in 
+the 25-35 keV range. Some bursts demonstrate strong spectral evolution.
+Some spectra can be well fitted by simple power law model.
+
+The burst #3 while having moderate fluence has a peculiar spectrum. It 
+is well fitted by grbm model with alpha ~-1, Ep ~40, and beta ~-3.2 
+(cutoffpl model provides much worse chi2), the emission is seen up to 
+500 keV.
+
+The burst #9 (Golenetskii et al., GCN 8851) is the brightest burst 
+detected by Konus-Wind from this AXP/SGR. It has the hardest spectrum 
+with Epeak ~70 keV. Its duration (~400ms), energy output ~2.4x10^42 erg 
+(for d=9 kpc), and peak luminosity ~2.9x10^43 erg/s are close to the 
+characteristics of the famous event 980618a from SGR 1627-41 (dT~0.5 s, 
+Q = 3x10^42 erg, L = 8x10^43 erg/s for d=5.8 kpc: see Mazets et al., 
+ApJ, 519, L151 (1999)). There is no any sign of pulsating tail in both 
+cases.
+
+The second burst in brightness (#10) has the second in hardness spectrum 
+with Ep ~45 keV.
+
+Numerous short soft bursts most likely originated from this source were 
+detected by Konus-Wind in the waiting mode.
+
+We thank Sandro Mereghetti for poiting our attention to the IBIS/ISGRI 
+localization of the very bright SGR burst 090125 (T0=31417.781 s UT 
+08:43:37.781).
+
+We thank David Palmer for providing us with the information about BAT 
+observations of the KW bursts.
+
+We also thank all IPN teams which provided us with the information about 
+observations of the KW bursts by their instruments.
+
+[GCN OPS NOTE(28jan09): Per author's request, the "152" was replaced with "L151".]
+

@@ -1,0 +1,100 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17838
+SUBJECT: GRB 150518A: MASTER-net before, early and after  optical stereoscopic observations with possible MP discovery inside MAXI error box 
+DATE:    15/05/21 13:09:21 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+E. Gorbovskoy, V. Lipunov,  N.Tyurina, V.Kornilov, P.Balanutsa, 
+A.Kuznetsov,D.Kuvshinov,
+Lomonosov Moscow State University, Sternberg Astronomical Institute
+
+D.Buckley, S. Potter, A.Kniazev, M.Kotze
+South African Astronomical Observatory
+
+A. Tlatov, A.V. Parhomenko, D. Dormidontov, V.Sennik
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+K.Ivanov, O.Gres, N.M.Budnev, S.Yazev, O.Chuvalaev, 
+V.A.Poleshchuk
+Irkutsk State University
+
+V.Yurkov, Yu.Sergienko, D.Varda, E.Sinyakov, A.Gabovich
+Blagoveschensk Educational State University, Blagoveschensk
+
+V.Krushinski, I.Zalozhnih,  A. Popov
+Ural Federal University, Kourovka
+
+Hugo Levato and Carlos Saffe
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+Claudio Mallamaci, Carlos Lopez and Federico Podest
+Observatorio Astronomico Felix Aguilar (OAFA)
+
+MASTER-Kislovodsk  robotic telescope (MASTER-Net: http://observ.pereplet.ru, 
+FOV = 2x2 square degrees in paralel mode ( Lipunov et al., 2010, MASTER 
+Robotic Net, Advances in Astronomy, vol. 2010, pp. 1-7)) located in 
+Kislovodsk was pointed to the  MAXI/GSC GRB150518A 
+(Kawamuro et al., GCN 17825) 21 sec after notice time and 3189 sec after 
+trigger time at 2015-05-18 22:35:43 UT. On our first (180s exposure) 
+image we do not  found OTs within Swift/XRT  erro-box  (Sbarufatti et al., 
+GCN 17827)  brighter then 18.5 .
+
+But we see bright object at positon:  15h 36m 53.67s , +16d 19m  36s.5
+with 17.5  unfiltered mag  outside XRT and inside MAXI.
+
+
+MASTER-SAAO  robotic telescope (MASTER-Net: http://observ.pereplet.ru,
+FOV = 2x2 square degrees in paralel mode ( Lipunov et al., 2010, MASTER
+Robotic Net, Advances in Astronomy, vol. 2010, pp. 1-7)) located in
+Souht Africa Astronomical Observatory was pointed to the  MAXI/GSC 
+GRB150518A
+(Kawamuro et al., GCN 17825) 13 sec after notice time and 3189 sec after
+trigger time at 2015-05-18 22:35:35 UT. On our first (180s exposure)
+image we not  found OTs within Swift/XRT error-box (Sbarufatti et al., 
+GCN 17827)  brighter then
+17.1 .
+
+But we see bright object at positon:  15h 36m 51.70s , +16d 19m  13s.6
+with ~ 17.0  unfiltered mag  outside Swift/XRT and inside MAXI.
+
+  There is one asteroid MPC 2010 KL61 with poorly
+astrometrical efemerids (Leave for survey recovery) at MPC Data Base.
+The offset both Russian and South Africa OT positiion 36 arc sec. This 
+corresponds to parallax effect for Solar System Body.
+
+We do not see any OT at the aftergow canditate position (Xu et al.,
+GCNC 17829, 17832; Mao et al., GCNC 17830; Littlejohns et al., GCNC 17831;
+Moskvitin GCN 17834) with same limit (3 sigma).
+
+We have only one alert image in each telescope because MASTER telescope 
+recieved new MAXI correction of the error box and X-ray Transient leave 
+the MASTER FOV during alert observations.
+
+But we have observation this X-ray aftergrow position before last 
+trigger activated by previouse Fermi (trigger number 451674501, 25 apr 
+2015) and during regular synoptic survey (MASTER-Tunka,  ~ 2 days after 
+trigger).
+
+Preliminary results:
+
+Id     Pro.type	   Date        time    Exp.time	Limit	Filt.	Site
+                               Starting         (3sigma)
+
+759597  SumSurvey 2015-05-20  17:02:11	480	20.1	W	Tunka
+1458076 MaxiAlert 2015-05-18  22:35:35 	180 	17.1 	P/ 	SAAO
+1458345	MaxiAlert 2015-05-18  22:35:43	180	18.5	P|   Kislovodsk
+823020  FermiInsp 2015-04-25  20:11:41 	180 	19.9 	W    Kislovodsk
+
+Where W - unfiltered, P - polarization unfiltered. All magnitude 
+calculated with respect to hundrends USNO B stars  with calibration:
+  m = 0.2B + 0.8R .
+
+
+At the Tunka Survey we see marginaly faint (~2 sigma) object on the X-ray 
+position (Sbarufatti et al., GCN 17827). But this is may be noice. We have 
+a lot of images in MASTER NET Data Base imaging last 
+several years with   Swift XRT error box. No object we see on this place 
+with 20.5 mag limit on first overview (since 2010).
+
+The message may be cited.
+

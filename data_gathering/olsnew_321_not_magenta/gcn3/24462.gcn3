@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24462
+SUBJECT: LIGO/Virgo S190510g: Updated classification and data quality report
+DATE:    19/05/10 20:56:46 GMT
+FROM:    Shasvath J. Kapadia at U. of Wisconsin, Milwaukee  <kapadia@uwm.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+
+We continue analyzing the LIGO and Virgo data around the time of
+
+the Compact Binary Coalescence (CBC) candidate S190510g
+
+(GCN 24442 and GCN 24448):
+
+
+https://gracedb.ligo.org/superevents/S190510g/
+
+
+A new version of the classification estimation code, which better accounts
+
+for the significance of the event using detection-pipeline-specific foreground
+
+and background models, was applied to the data. This yields the following
+
+updated classification of the GW signal, in order of descending probability:
+
+BNS (85%), Terrestrial (15%), NSBH (<1%), BBH (<1%), or MassGap (<1%).
+
+This new version of the classification estimation code will be deployed in
+
+the front-end of the low latency pipelines on the next detector maintenance
+
+intervention on Tuesday, May 14th 2019 15:00UTC.
+
+
+Continued examination of this event also revealed there are data
+
+quality issues and non-stationary noise behavior around the time of the
+
+event. Its significance may decrease as our estimate of the background
+
+improves. If the event is astrophysical, the currently preferred
+
+skymap still represents our best estimate of source location. However,
+
+the noise characteristics around the time of the event could bias such
+
+localizations.
+
+
+Further analysis of the event is ongoing.
+
+
+For further information about analysis methodology and the contents
+
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+
+<https://emfollow.docs.ligo.org/userguide/>.
+
+
+

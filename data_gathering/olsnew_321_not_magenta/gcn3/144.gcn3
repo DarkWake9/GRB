@@ -1,0 +1,99 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  144
+SUBJECT: GRB980703 optical photometry
+DATE:    98/07/12 06:03:58 GMT
+FROM:    James Rhoads at KPNO  <rhoads@noao.edu>
+
+James Rhoads, Ron Downes, and Jennifer Christensen report on behalf
+of the Kitt Peak Gamma Ray Burst followup team:
+
+Using images we obtained on July 4.433 (see GCN Circ. 123), we have
+measured the R band magnitude of the proposed optical counterpart to
+GRB 980703 (GCN Circ. 128, 130).  
+
+We have also measured R band magnitudes of local comparison stars to
+facilitate photometric calibration of other data.  We converted
+instrumental to standard magnitudes using observations of Landolt
+standard stars in the fields SA 109 and Mark A.  We fitted for the
+zero point and color term of the photometric transformation. Our
+standard star fields and the first GRB frame were all taken at
+essentially the same airmass, so we did not fit for an airmass
+correction term.  All magnitudes for standard stars were measured in
+14 arcsecond diameter apertures, to match the procedure of Landolt
+(1992 AJ 104, 340).  Magnitudes for objects in the GRB frame were
+measured in several apertures and corrected to the equivalent 14
+arcsecond aperture magnitude using a curve of growth derived from
+stars near the GRB.  The GRB measurements themselves were based on 
+2.7 to 4.1 arcsecond diameter apertures.
+
+Our results, based on our combined final image (60 minutes integration
+with the KPNO 0.9m telescope), are summarized below:
+
+ID        x       y       d(RA)   d(Dec)        R         dR
+                                            (1998 July 04.433 UT)
+OT     896.4  1051.6       0.0    0.0         21.287     0.083
+V     1004.6  1119.4     -46.1  -73.6         21.185     0.079
+1      891.5  1248.5    -133.9    3.4         18.815     0.015
+2      837.5  1195.1     -97.6   40.1         20.132     0.035
+3      939.3  1157.7     -72.2  -29.2         19.807     0.026
+4      889.9  1077.4     -17.6    4.4         20.392     0.040
+5      909.6  1068.6     -11.6   -9.0         16.642     0.015
+6      927.0  1064.1      -8.5  -20.8         20.717     0.049
+7      887.4  1043.7       5.3    6.1         22.662     0.219
+8      919.9   977.6      50.3  -16.0         19.109     0.017
+9      857.0   974.5      52.4   26.8         16.492     0.010
+10     248.5  1246.8    -132.8  440.5         15.842     0.016
+11     748.8  1718.7    -453.7  100.3         16.045     0.004
+12     395.5  1731.0    -462.0  340.6         18.174     0.021
+13     375.8  1728.4    -460.3  354.0         17.824     0.024
+14    1633.4  1604.2    -375.8 -501.1         17.069     0.006
+15    1683.8   941.1      75.1 -535.5         17.175     0.005
+16    1691.3  1273.4    -150.9 -540.5         16.843     0.012
+17    1565.7  1440.8    -264.7 -455.1         15.617     0.005
+18    1500.5  1245.5    -131.9 -410.8         17.774     0.015
+19    1495.4   448.3     410.2 -407.3         15.787     0.009
+20     504.0   529.4     355.0  266.8         15.579     0.010
+
+(x,y) are coordinates in our image.  d(RA) and d(Dec) are approximate
+offsets in arcseconds from the location of the transient, uncorrected
+for field rotation.  R and dR are the measured R band magnitude and
+the statistical uncertainty in that magnitude (determined using the
+IRAF tasks "phot" and "mkapfile").  The uncertainty in the photometric
+zero point is an additional 0.010 magnitudes.  The color term was
+(-0.001 +- 0.018)(V-R) and so will add a small additional uncertainty
+( < 0.02 mag for objects of normal color) to the R band magnitudes since
+we have no color information for most objects in the field.
+
+The ID entries are mostly arbitrary numbers.  "OT" refers to the
+optical transient.  "V" refers to the variable star reported by
+Pedersen et al (GCN Circ. 142).
+
+None of the objects tabulated above shows photometric variations
+substantially above 1 sigma random errors in a comparison of our three
+exposures (each 20 minutes long, beginning on 980704 UT 09:51:16,
+10:13:40, and 10:35:40).  Individual magnitude measurements for the
+optical transient and for Pedersen et al's variable are as follows:
+
+UT                  R(OT)     dR(OT)        R(V)     dR(V)
+1998 July 04.418    21.168    0.118         21.010   0.098
+1998 July 04.433    21.353    0.114         21.114   0.093
+1998 July 04.448    21.218    0.101         21.170   0.099
+(Here "UT" is the UT of mid-exposure.)
+
+Our star number 5 is the USNO catalog entry used by Frail et al (GCN
+Circ 128) to calibrate their optical photometry.  Applying a
+correction of +0.142 magnitudes to their photometry based on our
+calibration implies magnitudes for the transient of 21.34 on July 4.48
+and 22.04 on July 6.60.  This agrees with the zero point of Bloom et
+al (GCN Circ 135) to much better than their reported accuracy of 0.2
+mag.  Comparing our measurement to the July 4.458 H band magnitude
+from Henden et al, we find R-H = 3.75 +- 0.22 .  Comparing to the July
+4.37 I band measurement of Vreeswijk et al (GCN Circ 132) yields R-I =
+0.64 +- 0.22 .  In both cases we have corrected the colors for
+differences between the observation epochs by assuming an achromatic
+t^(-0.75) decay of the flux.
+
+James Rhoads                    rhoads@noao.edu
+Ron Downes                      downes@stsci.edu
+Jennifer Christensen            christen@stsci.edu
+

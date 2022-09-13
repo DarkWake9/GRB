@@ -1,0 +1,47 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4655
+SUBJECT: GRB 060204B: Swift detection of a burst
+DATE:    06/02/04 15:26:50 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+A. Falcone (PSU), L. Barbier (GSFC), S. Barthelmy (GSFC),
+D. Burrows (PSU), J. Cummings (GSFC/NRC), N. Gehrels (GSFC),
+S. Hunsberger (PSU), J. Kennea (PSU), H. Krimm (GSFC/USRA),
+F. Marshall (GSFC), D. Morris (PSU), D. Palmer (LANL),
+E. Rol (U Leicester), T. Sakamoto (GSFC)
+on behalf of the Swift team:
+
+At 14:34:24 UT, Swift-BAT triggered and located GRB 060204B (trigger=180241).
+The spacecraft slewed immediately.  The BAT on-board calculated location is
+RA,Dec 211.795d,+27.683d {14h 07m 11s,+27d 40' 60"} (J2000), with an uncertainty
+of 3 arcmin (radius, 90% containment, stat+sys).  There is missing data
+in the BAT TDRSS lightcurve message, so we can not say anything about the
+lightcurve at this initial quicklook.  However, it appears to be a long burst.
+We will have to wait for the full Malindi data download.
+
+The spacecraft slewed promptly and the XRT began observing the GRB at
+14:35:59 UT, 94.5 sec after the BAT trigger.  A bright, uncatalogued,
+flaring source was found by the on-board centroiding algorithm at
+RA(J2000)=+14h 07m 14.6s
+DEC(J2000)=+27d 40' 34"
+with an uncertainty of 6 arcseconds radius (90% containment).
+This position lies 57 arcseconds from the center of the BAT error circle. 
+
+UVOT took a finding chart exposure of 200 seconds with the V filter
+starting 101 seconds after the BAT trigger.  No afterglow candidate has
+been found in the initial data products.  The 2.7'x2.7' sub-image covers
+100% of the XRT error circle.  The typical 3-sigma upper limit has been
+about 18th mag.  The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle.  The list of sources is
+typically complete to about 18.0 mag.  No correction has been made for
+the expected extinction of about 0.1 magnitudes.
+
+We note there is a cluster of galaxies at z=0.156 in this field.
+
+Even though the initial Notices went out with the Star Tracker Loss-of-Lock
+flag set, ground analysis has shown that the s/c was tracking accurately
+and that the position is good.
+
+We are currently in the Malindi telemetry downlink gap.  We will not have
+further data for another 8 hours.
+

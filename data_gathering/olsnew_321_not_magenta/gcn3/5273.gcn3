@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5273
+SUBJECT: Trigger 215279: Swift detection of a possible burst (GRB 060619)
+DATE:    06/06/19 12:10:42 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. T. Holland (GSFC/USRA), S. D. Barthelmy (GSFC),
+M. M. Chester (PSU), N. Gehrels (NASA/GSFC), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC), K. M. McLean (LANL/UTD), C. Pagani (PSU),
+K. L. Page (U Leicester), D. M. Palmer (LANL), P. Romano (INAF-OAB)
+and M. Stamatikos (NASA/ORAU) report on behalf of the Swift Team:
+
+At 11:41:03 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible GRB (trigger=215279).  Swift slewed immediately
+to the location.  The BAT on-board calculated location is RA,Dec
+33.362, +30.077 {02h 13m 27s, +30d 04' 36"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Since the trigger occurred on the rising edge
+of the SAA, the background is very high and it is difficult to determine
+if there is any emission. 
+
+The XRT began observing the field at 11:43:39 UT, 156 seconds after
+the BAT trigger. The XRT downlinked image reveals a large number of
+cosmic ray events in the field due to the SAA. The XRT centroided on
+one of these cosmic ray events, and therefore the position message
+sent through GCN is incorrect and should be ignored. There is no
+evidence for any X-ray source in the field. 
+
+The UVOT has not begun observations of this field, due to entry into SAA
+just prior to the BAT trigger. 
+
+We will be issuing another circular after we get the full data set
+downlinked.  Due to the onset of the Malindi gap in downlink passes,
+this may take up to 10 hours to get the full data on this trigger. 
+

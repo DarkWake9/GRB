@@ -1,0 +1,32 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4183
+SUBJECT: Konus-Wind observation of GRB 051028
+DATE:    05/10/31 11:17:25 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The GRB 051028 (HETE trigger #3951; Hurley et al., GCN 4172) 
+triggered Konus-Wind at T0=48967.159 s UT (13:36:07.159)
+
+The time-integrated spectrum of the GRB (from T0 to T0+8.448 sec)
+is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-E/E0)
+with alpha = 0.73 (-0.26, +0.22)
+and E0 = 236 (-68, +110) keV (chi^2 = 61/62 dof).
+The peak energy Ep = 298 (-50, +73) keV.
+It can also be fitted by GRBM (Band) model for which:
+the low-energy photon index is alpha = -0.47 (-0.37, +0.57),
+the high energy photon index beta < -1.97,
+the break energy E0 = 150 (-69, +118) keV.
+
+
+As observed by Konus-Wind the burst had a duration ~12 sec,
+fluence 6.78(-1.08, +0.61)x10^-6 erg/cm2 and
+peak flux on 256-ms time scale 1.29(-0.24, +0.15)x10^-6 erg/cm2/sec
+(both in the 20 keV - 2 MeV energy range).
+
+All the quoted errors are at the 90% confidence level.
+

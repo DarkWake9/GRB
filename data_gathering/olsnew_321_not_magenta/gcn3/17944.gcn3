@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17944
+SUBJECT: Swift Trigger 644520 is V404 Cyg
+DATE:    15/06/18 01:00:29 GMT
+FROM:    Jamie A. Kennea at PSU/Swift-XRT  <kennea@swift.psu.edu>
+
+J. A. Kennea (PSU), A. Y. Lien (GSFC/UMBC), D. Malesani (DARK/NBI) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 00:44:05 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located V404 Cyg.  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 306.012, +33.867 which is 
+   RA(J2000) = 20h 24m 03s
+   Dec(J2000) = +33d 52' 01"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multi-peaked
+structure with a duration of about 50 sec.  The peak count rate
+was ~1300 counts/sec (15-350 keV), at ~20 sec after the trigger. 
+
+The XRT began observing the field at 00:45:12.7 UT, 67.7 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+306.0163, 33.8645 which is equivalent to:
+   RA(J2000)  = +20h 24m 3.91s
+   Dec(J2000) = +33d 51' 52.2"
+with an uncertainty of 5.0 arcseconds (radius, 90% containment). This
+position is 4.8 arcseconds from a known X-ray source: 1SXPS
+J202404.2+335155. This source is in the Swift XRT 1SXPS catalogue with
+a mean 0.3-10 keV count-rate of 0.0183 +/- 0.0015 ct/sec; see
+http://www.swift.ac.uk/1SXPS/1SXPSJ202404.2%2B335155 for details of
+these previous observations. No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 3.15e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 76 seconds after the BAT trigger. We detect V404 Cyg with a white
+magnitude of 15.54 +- 0.14.  No correction has been made
+for the large, but uncertain extinction expected. 
+

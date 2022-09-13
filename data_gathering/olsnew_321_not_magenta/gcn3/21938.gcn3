@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21938
+SUBJECT: LIGO/Virgo G299232/GW170825: serendipitous XMM-Newton slew observations
+DATE:    17/09/27 20:43:48 GMT
+FROM:    Eleonora Troja at GSFC/Swift  <nora.gsfc@gmail.com>
+
+A. M. Read (U. Leicester), A. Tiengo (IUSS Pavia), R. Salvaterra
+(INAF-IASF Milano), E. Troja (NASA/GSFC), and R. D. Saxton (ESAC)
+report:
+
+We analyzed the XMM-Newton slews made after the LIGO/Virgo G299232/
+GW170825 event. The first two slews intercepting the GW localization
+map cover it for about 41.2 square degrees:
+
+Obs ID     |    date    |   T-T_GW   |coverage of localization map
+9325000003 | 2017-09-07 |   12.7 d   |  8.0 deg2
+9325100002 | 2017-09-09 |   14.7 d   |  33.2 deg2
+
+For each dataset (EPIC pn data with the Medium filter) we performed the
+source detection following the method described in Troja et al. 2016
+(ApJ, 822, L8).
+Typical sensitivity limits of slew observations are ~6e-13 ergs cm-2 s-1
+in the 0.2-2 keV band and ~4e-12 ergs cm-2 s-1 in the 2-12 keV band. The
+list of the most significant 0.2-12 keV band detections (DET_ML>12) in
+each slew intersecting the GW170825 localization map, with no counterpart
+within 30 arcsec in the ROSAT All Sky Survey (Boller et al. 2016, A&A
+588, A103) and with no X-ray sources with compatible position and flux
+detected in archival XMM-Newton observations, is reported below.
+The flux and counts are computed in the 0.2-12 keV energy band.
+Rank (1-4, 1 most likely, 4 least likely) indicates how likely the object
+is to be the GW counterpart.
+
+----------
+Revolution 3250, Observation ID 9325000003
+RA (deg) DEC (deg) CTS  DET_ML EXPOSURE(s) FLUX(ergs cm-2 s-1) Rank
+269.3143 -25.1624  24.1 12.1   4.9         4.9e-11             4,extended
+----------
+Revolution 3251, Observation ID 9325100002
+RA (deg)  DEC (deg) CTS  DET_ML EXPOSURE(s) FLUX(ergs cm-2 s-1) Rank
+243.0149  20.2417   4.2  17.3   7.1         6.0e-12             4

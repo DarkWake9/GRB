@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21506
+SUBJECT: LIGO/Virgo G298048: Fermi GBM trigger 170817.529 and LIGO single IFO trigger
+DATE:    17/08/17 13:47:37 GMT
+FROM:    Valerie Connaughton at USRA  <valerie@nasa.gov>
+
+V. Connaughton (USRA) reports on behalf of the GBM-LIGO Group:
+
+L. Blackburn (CfA), M. S. Briggs (UAH), J. Broida (Carleton College), E.
+Burns (NASA/GSFC), J. Camp (NASA/GSFC), T. Dal Canton (NASA/GSFC), N.
+Christensen (Carleton College), A. Goldstein (USRA), R. Hamburg (UAH), C.
+M. Hui (NASA/MSFC), P. Jenke (UAH), D. Kocevski (NASA/MSFC), N. Leroy
+(LAL), T. Littenberg (NASA/MSFC), J. McEnery (NASA/GSFC), R. Preece (UAH),
+J. Racusin (NASA/GSFC), P. Shawhan (UMD), K. Siellez (GA Tech), L. Singer
+(NASA/GSFC), J. Veitch (Birmingham), P. Veres (UAH), and C. Wilson-Hodge 
+(NASA/MSFC)
+
+The on-board trigger time of Fermi GBM trigger 170817.529 524666471 
+at 12:41:06.47 UT is approximately 2 seconds after the single interferometer
+LIGO trigger reported in GCN 21505.
+
+Inspection of the real-time data suggests the trigger is consistent with a
+weak short GRB, location RA, Dec = 176.8, -39.8 deg (J2000).  The
+statistical uncertainty on this location is 11.6 deg 
+(radius, 1-sigma containment,
+statistical only; there is additionally a systematic
+error which we have characterized as a core-plus-tail model, with 90% of
+GRBs having a 3.7 deg error and a small tail suffering a larger than 10 deg
+systematic error. [Connaughton et al. 2015, ApJS, 216, 32] )
+
+The GBM localization sky map for this event is available at the Fermi Science Support Center 
+and shows the uncertainty region including the systematic component:
+
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2017/bn170817529/quicklook/glg_locplot_all_bn170817529.png <https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2017/bn170817529/quicklook/glg_locplot_all_bn170817529.png>
+
+and as a FITS file:
+
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2017/bn170817529/quicklook/glg_locprob_all_bn170817529.fit <https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2017/bn170817529/quicklook/glg_locprob_all_bn170817529.fit> 
+
+We are producing a HEALPIX map for dissemination to the lv-em observers which should be available very shortly
+and will report further analysis of this event when the science data are downlinked from the spacecraft, on a time-scale
+of hours.
+
+[GCN OPS NOTE(17aug17): Per author's request, the LIGO/VIRGO ID
+was added to the beginning of the Subject-line.]

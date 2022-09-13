@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30780
+SUBJECT: Konus-Wind detection of GRB 210905A
+DATE:    21/09/06 15:08:33 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, A.Lysenko, D. Svinkin,
+A. Ridnaya, A. Tsvetkova,  M. Ulanov, and T. Cline, report:
+
+The long GRB GRB 210905A (Swift-BAT detection: Sonbas et al., GCN 30765;
+Fermi GBM Sub-Threshold Detection: Veres & Roberts, GCN 30779),
+T0 (BAT) = 00:12:41, was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in reveals
+two major emission episodes, separated by ~750 s.
+The first episode, from ~T0-25.5s to ~t0+13 s, corresponds to the BAT and GBM detections;
+and the second episode, from ~T0-750 s to ~t0+870 s, corresponds to a bright flare visible
+in the XRT light curve (https://www.swift.ac.uk/xrt_curves/01071993/ ).
+
+The KW light curve of this burst is available
+at http://www.ioffe.ru/LEA/GRBs/GRB210905A/
+
+Modeling the KW 3-channel spectrum of the first episode
+by a power law with exponential cutoff (CPL) model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.45 (-0.24, + 0.38) and Ep = 203 (-58,+111) keV.
+The spectrum of the second episode can be described by a CPL
+with alpha = -0.88 (-0.30, + 0.76) and Ep = 167 (-61,+88) keV.
+
+In the 10 keV -10 MeV band, standard for the KW analysis,
+the total burst fluence is (1.7 ± 0.7)x10^-5 erg/cm^2,
+and the 2.944 s peak energy flux is (3.6 ± 0.7)x10^-7 erg/cm^2.
+
+Assuming the redshift z=6.318 (Tanvir et al., GCN 30771)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the isotropic energy release E_iso to ~1.1x10^54 erg,
+the isotropic luminosity L_iso to ~1.7x10^53 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum Ep,z to ~1300 keV.
+With these values, GRB 210905A lies within 68% prediction bands for
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW GRBs
+with known redshifts (Tsvetkova et al., 2021, ApJ, 908, 83),
+see http://www.ioffe.ru/LEA/GRBs/GRB210905A/GRB210905A_rest_frame.pdf
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.
+

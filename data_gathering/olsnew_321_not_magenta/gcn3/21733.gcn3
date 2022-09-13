@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21733
+SUBJECT: LIGO/Virgo G299232: Optical Transient Discovery by Swift/UVOT
+DATE:    17/08/28 18:13:59 GMT
+FROM:    Samuel Emery at UCL-MSSL/Swift  <samuel.emery.15@ucl.ac.uk>
+
+S.W.K. Emery (UCL-MSSL), A.A. Breeveld (UCL-MSSL), F.E. Marshall (NASA/GSFC),
+S.R. Oates (Uni. of Warwick), N.P.M. Kuin (UCL-MSSL), S.D. Barthelmy (NASA/GSFC),
+A.P. Beardmore (U. Leicester), D.N. Burrows (PSU), S. Campana (INAF-OAB),
+S.B. Cenko (NASA/GSFC), G. Cusumano(INAF-IASF PA), A. D'Ai (INAF-IASFPA),
+P. D'Avanzo (INAF-OAB), V.D'Elia(ASDC), P.A. Evans (U. Leicester), 
+P. Giommi (ASI), C. Gronwall (PSU), J.A. Kennea (PSU), H.A. Krimm (CRESST/GSFC/USRA),
+A.Y. Lien (GSFC/UMBC), A. Melandri (INAF-OAB), J.A. Nousek (PSU), P.T. O'Brien (U. Leicester),
+J.P. Osborne (U. Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester),
+D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin (NASA/GSFC), T. Sakamoto (AGU),
+B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB),
+A. Tohuvavohu (PSU), E. Troja (NASA/GSFC/UMCP)
+report on behalf of the Swift team:
+
+Swift has performed a series of 525 observations, covering 497 separate
+locations within the LVC error region for the GW trigger G299232
+convolved with the 2MPZ catalogue (Bilicki et al. 2014, ApJS, 210, 9),
+using the 'bayestar-HLV' GW localisation map. The observations currently
+span from 11 ks to 256 ks after the LVC trigger.
+
+We have detected an uncatalogued source with the Swift/UVOT, at the position:
+
+RA(J2000) = 01h 40m 08.55s
+Dec(J2000)= +34d 34' 03.6" 
+
+We obtain the following magnitude using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373):
+
+Filter          Exp(s)         Mag
+
+u               57             18.00 +/- 0.16
+
+The 57-s exposure started at 2017-08-27 T12:02:34
+(about 1.95 days after the LVC trigger).
+
+The magnitude is not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.04 in the direction of the source
+(Schlegel et al. 1998).
+
+No X-ray source was detected at this position, with a 0.3-10 keV upper limit
+of 0.13 ct/sec, which corresponds to 5.2e-12 erg/cm^2/s (assuming a typical AGN spectrum).
+
+There is no source in the DSS or SDSS at this position and there is no minor planet at this position.
+
+Further Swift observations are planned.
+

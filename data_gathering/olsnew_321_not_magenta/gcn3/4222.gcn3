@@ -1,0 +1,31 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4222
+SUBJECT: GRB 051109B: Swift detection of a burst
+DATE:    05/11/09 09:35:58 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+G. Tagliaferri (INAF-OAB), S. Barthelmy (GSFC), D. Burrows (PSU),
+S. Campana (INAF-OAB), M. Chester (PSU), N. Gehrels (GSFC),
+T. Mineo (INAF-IASF PA), K. Page (U Leicester), D. Palmer (LANL),
+T. Sakamoto (GSFC)
+on behalf of the Swift team:
+
+At 08:39:39 UT, Swift-BAT triggered and located GRB 051109B (trigger=163170).
+The BAT on-board calculated location is RA,Dec 345.440d,+38.672d
+{23h 01m 46s,+38d 40' 20"} (J2000), with an uncertainty of 3 arcmin
+(radius, 90% containment, stat+sys).  The BAT light curve shows
+a multi-peak structure with a total duration of ~20 sec.  The peak count rate
+was ~2000 counts/sec (15-350 keV), at ~1 sec after the trigger.
+
+The S/C slewed immediately and the XRT began observations at 08:41:06 UT
+(86 seconds after the BAT trigger) in auto state.  The on-board detection
+algorithm failed to find a centroid, although the lightcurve suggests
+a faint source.  More information will be available after the next Malindi pass.
+
+UVOT began observing at 08:41:03 UT, 84 sec after the BAT trigger.
+The on-board source detection algorithm reports an uncataloged source
+at RA=345.46 {23h 01m 50.40s}, DEC=+38.66 {38d 39' 36.0"}, 76 arcsec
+from the BAT position, with V magnitude 18.4 +/-0.1, in a 200 sec observation
+covering the BAT error circle.  V-band extinction in the direction
+of the BAT position is A_V = 0.55.
+

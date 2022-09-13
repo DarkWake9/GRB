@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6459
+SUBJECT: Konus-Wind observation of GRB 070521
+DATE:    07/05/23 16:45:59 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 070521 (Swift-BAT trigger #279935:
+Guidorzi et al., GCN 6431; Palmer et al., GCN 6440) triggered
+Konus-Wind at T0=24691.587 s UT (06:51:31.587).
+
+The burst started at T-T0 ~-33 s and had a duration of ~55 s.
+As observed by Konus-Wind the burst
+had a fluence of 1.81(-0.31, +0.06)x10^-5 erg/cm2,
+and a 64-ms peak flux measured from T0+5.312 s
+4.12(-1.07, +0.78)x10^-6 erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+The burst shows strong spectral evolution.
+
+The time-integrated spectrum of the burst
+(from T0 to T0+23.808 s: this interval comprises ~80%
+of the burst total counts) can be fitted
+(in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 0.93 +/- 0.12
+and Ep = 222(-21, +27) keV (chi2 = 43/56 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB070521_T24691/
+

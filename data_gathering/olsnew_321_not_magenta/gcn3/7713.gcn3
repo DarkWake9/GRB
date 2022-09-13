@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7713
+SUBJECT: Swift detection of a possible galactic transient
+DATE:    08/05/14 11:07:20 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+H. A. Krimm (CRESST/GSFC/USRA), W. H. Baumgartner (GSFC/UMBC),
+A. P. Beardmore (U Leicester), D. N. Burrows (PSU),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+O. Godet (U Leicester), C. Guidorzi (INAF-OAB),
+S. T. Holland (CRESST/USRA/GSFC), E. A. Hoversten (PSU),
+J. A. Kennea (PSU), V. La Parola (INAF-IASFPA),
+P. T. O'Brien (U Leicester), J. P. Osborne (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+D. Perez (U Leicester), P. Romano (INAF-IASFPA),
+B. Sbarufatti (INAF-IASFPA), R. L. C. Starling (U Leicester),
+E. Troja (U Leicester/INAF-IASFPA), L. Vetere (PSU) and
+H. Ziaeepour (UCL-MSSL) report on behalf of the Swift Team:
+
+At 10:32:37 UT, the Swift Burst Alert Telescope (BAT) triggered (trigger=311603)
+and located an X-ray source.  Swift slewed immediately to this location. 
+It is also possible that it was a false (noise) event in the BAT.  
+The BAT on-board calculated location is RA, Dec 263.833, -35.623 which is 
+   RA(J2000) = 17h 35m 20s
+   Dec(J2000) = -35d 37' 23"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with image triggers, there is 
+not much information in the  BAT light curve.  The peak count rate
+was ~300 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 10:35:01.4 UT, 144.2 seconds after
+the BAT trigger. Just inside the BAT error circle (172 arcseconds from the 
+BAT onboard position), the XRT detected a possible source, coincident with 
+a ROSAT source 1RXH J173523.7-354013
+
+UVOT took a finding chart exposure of  78 seconds with the White
+(160-650 nm)  filter starting 154 seconds after the BAT trigger. No
+afterglow candidate has  been found in the initial data products. The
+2.7'x2.7' sub-image covers 100% of  the XRT error circle. Because of
+the density of catalogued stars, further  analysis is required to
+report an upper limit for any afterglow in the  sub-image. The 8'x8'
+region for the list of sources generated on-board covers  100% of the
+XRT error circle.  No correction has been made for the large, but
+uncertain extinction  expected. 
+
+Given the information available, it is possible that this event is due
+to noise.  The BAT triggered on the rising edge of the SAA passage and
+there is a possibility that the XRT events are due to cosmic rays.  In
+any case, the spectrum and light curve tell us that this trigger is
+NOT a GRB. 
+
+Burst Advocate for this burst is H. A. Krimm (krimm AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

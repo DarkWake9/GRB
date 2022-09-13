@@ -1,0 +1,23 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26476
+SUBJECT: LIGO/Virgo S191216ap: galaxies consistent with GW + Neutrino + HAWC position
+DATE:    19/12/17 16:19:32 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+H. Kumar (IITB), A. Sagués Carracedo (OKC, Stockholm University), T. Ahumada (UMD), I. Andreoni (Caltech), V. Bhalerao (IITB) report on behalf of the GROWTH collaboration:
+
+We cross-matched the HAWC trigger position (HAWC Collaboration, GCN 26472) with the GLADE catalog (Dalya et al., 2018), to identify sources within 0.9 degrees (approximately 3-sigma) of the HAWC position RA, Dec = 323.53, 5.23. We further applied a distance constraint based on the 3D Bayestar localisation provided by the LVC (bayestar.fits.gz,1), using mean distance = 95.6 Mpc and distance sigma = 37.4 Mpc, appropriate for this direction. We find four objects in GLADE 1 (http://vizier.u-strasbg.fr/viz-bin/VizieR-3?-source=VII/275/glade1) that are consistent with the position and distance at 3-sigma:
+
+ra         dec        sep   dist     sigma
+323.124298 5.346313    0.42 85.3405  1.43
+323.741486 5.792747   0.601 150.166  2.48
+323.621368 6.034144   0.809 85.5611  2.71
+323.298126 4.682521   0.594 173.891  2.88
+
+(sep = separation in degrees).
+
+If we use the newer Glade 2.3 catalog (https://vizier.u-strasbg.fr/viz-bin/VizieR?-source=VII/281), we find only the first two objects as consistent within 3-sigma.
+
+Further observations of these galaxies are under way.
+
+

@@ -1,0 +1,50 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1249
+SUBJECT: GRB020127:  Comparison of Chandra Epochs and Identification of Possible Counterparts
+DATE:    02/02/15 04:09:29 GMT
+FROM:    Derek Fox at CIT  <derekfox@astro.caltech.edu>
+
+Derek W. Fox (Caltech) reports on behalf of the Caltech-NRAO-CARA GRB
+collaboration:
+
+"We have made a comprehensive analysis of the data from two 10-ks
+Chandra ACIS-I observations of the HETE-IPN localization region for
+GRB020127 (HETE 1902; GCNs 1229, 1232, 1241).  The full source
+catalogs for these observations contain 48 and 50 sources,
+respectively; approximately four sources in each epoch are anticipated
+to be spurious detections.  We identify three possible counterparts
+based on their fading behavior between the Chandra observations (which
+began at Jan 31.95 UT and Feb 11.46 UT, respectively) and the absence
+of a bright stellar or galactic counterpart in archival images:
+
+ Source        RA               Dec           Nsig     F1     F2
+===================================================================
+  A14=B16   08 15 01.42(1)   +36 46 33.9(1)   13.6   84(16)  19(6)
+  A45       08 15 42.78(7)   +36 47 00.2(10)   5.7   28(7)  <14
+   A7       08 14 47.82(3)   +36 49 35.4(3)    4.1   13(4)  <14
+===================================================================
+
+Numbers in parentheses indicate the uncertainty in the preceding
+digits, and positional uncertainties do not account for the overall
+Chandra aspect uncertainty of roughly one arcsec.  Nsig is the nominal
+(single-trial) significance of the source detection as reported by
+wavdetect.  F1 and F2 are source count rates for the first and second
+epochs, respectively, in units of photons cm^(-2) ks^(-1) (0.3-7 keV);
+upper limits are roughly two-sigma.  Source A14 is detected in the
+second epoch as source B16, while neither source A45 nor source A7 are
+detected in the second epoch.
+
+We note explicitly that the sources above are not the only sources
+within the HETE-IPN localization to show variability between the two
+epochs; however, they are the only sources, not associated with bright
+stellar or galactic counterparts, that show convincing evidence of a
+decline in flux.  The full source catalog for the two observations is
+available at the following URL:
+
+  http://www.astro.caltech.edu/~derekfox/grb020127/chandra.html
+
+Given the strength of source A14 (=B16) in the first observation, and
+its observed fading behavior -- which is consistent with a t^(-1.2)
+power-law referred to the epoch of GRB020127 -- we consider source A14
+to be the most likely candidate for the afterglow of GRB020127."
+

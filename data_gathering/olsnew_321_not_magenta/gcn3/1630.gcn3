@@ -1,0 +1,63 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1630
+SUBJECT: GRB021004, UBVRcIc field photometry update
+DATE:    02/10/12 16:26:34 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on the behalf of the USNO GRB team:
+
+Two additional photometric nights of UBVRcIc all-sky photometry
+for the 11x11 arcmin field centered at the afterglow coordinates
+for GRB021004 (Shirasaki et al. GCN 1565; Fox et al. GCN 1564)
+have been aquired with the USNOFS 1.0-m telescope.  Stars brighter
+than V=14.0 are saturated and should be used with care.
+The photometric data on the NOFS anonymous ftp site has
+been updated:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb021004.dat
+The astrometry in this file is based on linear plate solutions
+with respect to UCAC2.  The external errors are less than 100mas.
+
+The comparison star given by Fox et al. has the following
+updated coordinates, magnitudes and colors:
+
+6.744892  18.948922 00:26:58.77  +18:56:56.1  J2000
+
+    V     B-V    U-B    V-R   R-I     errors
+  16.258  1.172  1.115  0.720 0.642   0.006 0.028 0.034 0.015 0.023
+
+These colors suggest an approximate K5 spectral classification.
+
+One possibility for the various bumps in the afterglow lightcurve
+(suggested privately by B. Schaefer, D. Reichart and P. Price),
+is that the Fox et al. comparison star is variable.
+This has been investigated by performing differential
+photometry with respect to an ensemble of other comparison
+stars on the three photometric nights.  The BV results are
+given below.
+
+     HJD       V     B-V    verr   bverr
+  52552.9804 16.256  1.172  0.003  0.006
+  52556.7223 16.256  1.174  0.003  0.005
+  52556.7751 16.258  1.176  0.002  0.004
+  52556.8276 16.255  1.172  0.002  0.004
+  52556.8802 16.259  1.166  0.002  0.004
+  52556.9312 16.262  1.122  0.002  0.005
+  52557.7823 16.258  1.168  0.002  0.004
+  52557.8196 16.252  1.168  0.003  0.005
+  52557.8569 16.248  1.181  0.003  0.005
+  52557.8942 16.248  1.180  0.002  0.004
+  52557.9315 16.255  1.173  0.002  0.004
+
+The datapoint at HJD 2452556.9312 was contaminated by
+a cosmic ray hit and so should be given lower weight.
+All other measures indicate that the comparison star
+is constant over the three nights of observation.  Unless
+this star was doing something different between UTD 021005
+and UTD 021009, there is no evidence that the afterglow
+lightcurve changes are due to comparison star variation.
+Using more than one comparison star (or at least including
+a check star) when performing differential photometry, and also
+selecting comp stars that are close to the program object in
+magnitude and color space, is always recommended
+to guard against possible variability of any comparison star.
+

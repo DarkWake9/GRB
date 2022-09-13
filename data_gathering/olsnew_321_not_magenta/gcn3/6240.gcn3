@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6240
+SUBJECT: GRB 070328: Suzaku WAM observation of the prompt emission
+DATE:    07/04/03 12:56:49 GMT
+FROM:    Kazutaka Yamaoka at Aoyama Gakuin U  <yamaoka@phys.aoyama.ac.jp>
+
+S. Hong (Nihon U.), K. Yamaoka, Y.E. Nakagawa, S. Sugita (Aoyama Gakuin U.), 
+M. Ohno, T. Takahashi, T. Asano, T. Uehara, Y. Fukazawa (Hiroshima U.), 
+Y. Urata, M. Tashiro, K. Abe, K. Onda, Y. Sato, M. Suzuki (Saitama U.), 
+T. Enoto, R. Miyawaki, K. Makishima (Univ. of Tokyo), 
+M. Suzuki, T. Tamagawa, Y. Terada (RIKEN), 
+K. Nakazawa, M. Kokubun, T. Takahashi (ISAS/JAXA), 
+E. Sonoda, M. Yamauchi (Univ. of Miyazaki), 
+on behalf of the Suzaku WAM team report:
+
+The bright, long GRB 070328 (Markwardt et al., GCN 6224;
+Stamatikos et al., GCN 6225) triggered the Suzaku Wide-band All-sky
+Monitor (WAM), which covers the energy range of 50 keV - 5 MeV, at
+03:53:46 UT(=T0).  The light curve shows multiple separate pulses with
+the T90 duration of about 38 seconds. The fluence in 100 keV - 3 MeV
+was 4.42 (-1.65, +0.54) x 10^-5 erg/cm^2, while the 1-s peak flux
+measured from T0+8 was 4.28 (-2.95, +0.18) photons/cm^2/s in the same
+energy range.
+
+Preliminary result shows that the time-averaged spectrum from T0+1 to 
+ T0+39 is described with a Band model as follows:
+
+ the low-energy photon index alpha : -1.00 (-0.18, 0.21),
+ the high-energy photon index beta : -1.89 (-0.43, 0.20),
+ the Break energy E0 :       959 (-343, 664) keV,
+ and the peak energy Epeak : 959 (-453, 1005) keV (chi^2/dof = 33.2/22).
+
+Fitting by a power law with exponential cutoff model:
+
+  dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak)
+  alpha       1.17 (-0.15 +0.14), and
+  Epeak       1126 (-426, +868) keV (chi^2/dof = 37.6/23).
+
+All the quoted errors are at statistical 90% confidence level, while
+systematic errors are not included. 
+
+The WAM light curve of this event is available at
+http://www.astro.isas.ac.jp/suzaku/HXD-WAM/WAM-GRB/grb/trig/grb_table.html
+
+
+

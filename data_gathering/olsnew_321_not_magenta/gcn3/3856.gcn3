@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3856
+SUBJECT: GRB 050822: Swift-BAT refined analysis
+DATE:    05/08/22 17:47:01 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+D. Hullinger (UMD), L. Angelini (GSFC-JHU), L. Barbier (GSFC),
+S. Barthelmy (GSFC), M. Chester (PSU), J. Cummings (GSFC/NRC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/NRC), G. Sato (ISAS), J. Tueller (GSFC),
+on behalf of the Swift-BAT team:
+
+Using the full data set from the recent telemetry downlink, we report
+further analysis of Swift-BAT GRB 050822 (trigger #151486)
+(Blustin, et al., GCN 3849).  The refined BAT ground position
+is (RA,Dec) = 51.098, -46.031 {03:24:19.2, -46:01:22.8} [deg; J2000]
++-2 arcmin, (90% containment).  This is 27 arc-seconds from the
+XRT position reported in GCN 3849.  The partial coding was 44%.
+
+The light curve has two main peaks.  The first peak starts from
+T0-4 sec, peaking at T0, and then ending at T0+20 sec with a gradual
+decay.  The second peak contains multiple sub-peaks.  It starts
+from T0+20 sec and ends at T0+75 sec.  There is a smaller, somewhat
+softer peak from T+100 to T+104 seconds while Swift was pointing at
+the source and the  XRT was taking data.  T90 (15-350 keV) is (102 +- 2)
+seconds (estimated error including systematics).
+
+The power law index of the time-averaged spectrum is 2.5 +- 0.1.
+Thus, the time-averaged spectrum turns out to be soft.
+The fluence in the 15-350 keV band is (3.4 +- 0.3) x 10^-6 erg/cm2.
+The 1-s peak photon flux measured from T0+47.6 second in the 15-350 keV
+band is (2.9 +- 0.3) ph/cm2/s.  All the quoted errors are at the 90%
+confidence level.
+

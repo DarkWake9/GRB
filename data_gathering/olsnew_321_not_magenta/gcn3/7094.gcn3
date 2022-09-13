@@ -1,0 +1,83 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7094
+SUBJECT: GRB 071112C: Optical and NIR data observed with KANATA
+DATE:    07/11/15 15:13:07 GMT
+FROM:    Makoto Uemura at Hiroshima U  <uemuram@hiroshima-u.ac.jp>
+
+M. Uemura, M. Sasada, A. Arai, and T. Uehara (Hiroshima Univ.), 
+report on behalf of the KANATA GRB team:
+
+  We finished a full reduction of our optical-NIR images
+of the field of GRB061112C taken with TRISPEC/KANATA.  
+A part of preliminary results was reported in GCN Circ. 7062.  
+Obtained magnitudes are below: 
+
+# Time after burst V-mag  err.
+#     (sec)
+# mid start   end 
+  324   309   339  17.69  0.14
+  377   362   392  17.89  0.19
+  430   415   445  17.93  0.20
+  483   468   498  18.02  0.22
+  538   523   553  18.15  0.27
+  590   575   605  18.64  0.53
+  643   628   658  18.41  0.39
+  699   684   714  18.30  0.33
+  752   737   767  18.37  0.36
+  970   835  1105  18.72  0.36
+ 1271  1136  1406  19.53  0.11
+ 1571  1436  1706  19.59  0.39
+ 1873  1738  2008  19.62  0.53
+ 2173  2038  2308  19.61  0.13
+ 3079  2340  3818  20.66  0.53
+ 4583  3844  5322  19.80  0.34
+#
+# Time after burst J-mag  err.
+#     (sec)
+# mid start   end 
+  367   309   425  15.93  0.27
+  527   469   585  16.37  0.52
+  688   630   746  16.67  0.28
+  969   835  1103  17.07  0.42
+ 1269  1136  1402  17.34  0.46
+ 1570  1436  1704  17.19  0.18
+ 1871  1738  2004  17.47  0.41
+ 2172  2038  2306  17.50  0.45
+ 3078  2340  3816  17.97  0.35
+ 4581  3844  5318 >17.67
+#
+# Time after burst Ks-mag err.
+#     (sec)
+# mid start   end 
+  541   309   773  15.00  0.37
+ 1201   835  1567  15.91  0.50
+ 1959  1593  2325  16.58  0.45
+ 2728  2353  3103  16.70  1.01
+ 4222  3130  5314 >16.77
+
+Comparison star: 
+V-band: GSC2.3 02:36:41.48 +28:20:53.5 V=14.43
+J-band: 2MASS  02:36:41.46 +28:20:53.4 J=13.238
+K-band: 2MASS  02:36:41.46 +28:20:53.4 K=12.792
+
+  Using our data, we calculated decay indices, alpha :
+    alpha_V  = 0.96 +/- 0.09
+    alpha_J  = 0.82 +/- 0.06
+    alpha_Ks = 1.01 +/- 0.09
+No prominent color change was seen during our observations. 
+
+  After correcting the interstellar extinction in our galaxy 
+(Schlegel, et al. 1998), we calculated the spectral energy index, 
+beta = 0.65 +/- 0.03 between V and Ks-band region.  
+This beta is in agreement with the beta in X-rays 
+(GAMMA_X=1.7, beta_X=0.7, in Stratta et al. GCN Report 104.1), 
+while the optical emission is possibly affected by the 
+reddening effect in the host galaxy of the GRB.  
+
+  As reported in Stratta et al. GCN Report 104.1, 
+there is an X-ray flare around 600-700 sec after the burst, 
+whose amplitude is about factor 4 on the decay trend.  
+We found that no correlated flux variation was found in our 
+V-, J-, and Ks-band data.  The upper limit of the amplitude 
+is 0.4 mag in V-band.  
+

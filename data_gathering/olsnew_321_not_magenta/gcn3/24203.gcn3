@@ -1,0 +1,22 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24203
+SUBJECT: Problem with GCN Circular and status of the fix
+DATE:    19/04/26 01:23:51 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+Scott Barthelmy (NASA-GSFC):
+
+A problem was discovered in the GCN Circulars processing.
+If a submitted circular has control-M's in the text
+then they are no longer removed due to a change to faster mail agent
+about 10 days ago.  The old mail agent fixed those embedded characters.
+But the new mail agent is 2.3 times faster -- the speed increase
+was the desirable goal because of the ever increasing number
+of recipients in the Circulars distribution list (now 1700+).
+
+The fix has been found (with off-line testing),  but I am hesitant
+to switch over to it so late in the day (late for east coast US time).
+So I am reverting back to the previous (and slower) mail agent.
+Then switchover to the fixed version (that handles the control-M's
+and is faster) will happen tomorrow (26-Apr-2019).
+

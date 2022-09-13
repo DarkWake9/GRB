@@ -1,0 +1,93 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25224
+SUBJECT: LIGO/Virgo S190728q:  Optical transients from Pan-STARRS coverage during first 2 nights  
+DATE:    19/07/30 16:32:14 GMT
+FROM:    Ken Smith at Queen's University Belfast  <k.w.smith@qub.ac.uk>
+
+M. Huber (IfA, Univ. of Hawaii), K. W. Smith (QUB), K. Chambers,
+A. Schulz (IfA), S. J. Smartt, D. R. Young, O. McBrien, J. Gillanders,
+S. Srivastav, D. O'Neil, P. Clark, S. Sim (QUB), T. de Boer, J. Bulger,
+J. Fairlamb, M. Huber, C.-C. Lin, T. Lowe, E. Magnier, R. J. Wainscoat,
+M. Willman (IfA, Univ.  of Hawaii), T.-W, Chen (MPE), A. Rest (STScI),
+C. Stubbs (Harvard)
+
+We report observations of the LALInf skymap of the BBH event s190728q
+(The LIGO Scientific Collaboration and the Virgo Collaboration, GCN 25208,
+25187) with the Pan-STARRS1 telescope (Chambers et al. 2016,
+arXiv:1612.05560C). Images were taken in the PS1 w and i-bands (Tonry et
+al. 2012, ApJ 750, 99).
+
+Beginning at 2019-07-28 10:08:31 UT (58692.4226) or 3.4hrs after the
+detection of S190728q, observations started in the w-band in the standard
+NEO search sequence. At each pointing position a sequence of quads (4 x
+45 sec) was taken. This observing sequence ensures exactly the same
+pointing position for each of the quads. Observations of the map finished
+on 2019-07-28 14:44:53 UT. On the following night, beginning at 2019-07-29
+08:51:02 a series of 45sec i-band dithered images were taken to cover the
+map. We finished observing at 2019-07-29 10:06:41. 
+
+In total PS1 covered 105 squ. degrees of the LALInference.offline.fits,gz
+map of the 90% credible region and we estimate we covered a sky region
+totalling 92% of the event's localisation likelihood.
+
+The images were processed with the IPP (Magnier et al. 2016,
+arXiv:1612.05240) and difference images were produced using the
+Pan-STARRS1 Science Consortium 3Pi images as reference frames. Transient
+candidates were run through our standard filtering procedures, combined
+with a machine learning algorithm (Wright et al. 2015, MNRAS, 449, 451)
+were applied and all candidates were spatially cross-matched with known
+minor planets, and major star, galaxy, AGN and multi-wavelength catalogues
+(as described in Smartt et al. 2016, MNRAS, 462 4094).
+
+We report the following transients which are all within the 90% contour of
+the LALInference.offline.fits map. They are all supernova like candidates,
+either offset from a clear galaxy or no obvious host. The majority of
+these are detected over the 2 nights and do not show any fast fading or
+rising. The redshifts below are all photometric from SDSS DR15 or GLADE.
+For reference the redshift range corresponding to the luminosity distance
+of S190728q (GCN 25208) is approximately 0.14 < z < 0.22. 
+
+Name     TNS Name   RA (J2000)   Dec (J2000)  Disc MJD  Disc Mag  photoz 
+PS19dxk  AT2019lzs  20 42 38.23  +06 05 53.6  58692.43   21.92 w 
+PS19dxc  AT2019lzb  20 45 55.34  +02 05 53.5  58692.43   20.62 w  0.464
+PS19dxl  AT2019lzr  20 47 08.30  +07 16 16.2  58692.43   21.37 w 
+PS19dxb  AT2019lzc  20 52 54.72  +02 31 43.6  58692.43   21.69 w  0.228
+PS19dwv  AT2019lyv  21 00 06.51  +12 16 54.5  58692.53   21.99 w  0.046 
+PS19dxo  AT2019lzv  21 01 02.31  +14 23 48.5  58692.52   20.96 w 
+PS19dxn  AT2019lzt  21 01 13.26  +13 29 39.0  58692.53   21.05 w 
+PS19dxf  AT2019lzg  21 03 16.16  +14 22 50.9  58692.54   20.91 w 
+PS19dxg  AT2019lzf  21 11 56.20  +17 14 27.2  58692.58   21.80 w  0.713
+PS19dwz  AT2019lyz  21 14 09.78  +13 37 04.8  58692.53   21.58 w 
+PS19dxm  AT2019lzu  21 26 42.01  +17 17 25.8  58692.58   21.18 w 
+PS19dxe  AT2019lzd  21 29 51.15  +19 10 33.6  58692.58   22.10 w  0.090
+PS19dxd  AT2019lze  21 33 04.06  +21 25 19.2  58692.58   21.77 w 
+
+The one exception is PS19dxf, which appears to show a fast rise and decline
+of 1 mag in 33 minutes in the w-band images of the first night. This is
+probably an M-dwarf flare, as it is coincident with an uncatalogued, red
+and faint source in both Pan-STARRS and DECaLs imaging surveys. In
+Pan-STARRS it is only detected in z. Star-galaxy distinction is not
+possible, but a galactic M-dwarf flare is the most likely explanation for
+this transient.
+
+Confirmation of DECam-GROWTH objects from Goldstein et al. (GCN 25215) or
+TNS registered:
+
+Name     DG Name    RA (J2000)   Dec (J2000)  Det. MJD  Mag      TNS Name 
+PS19dwt  DG19qukmb  20 44 56.55  +07 23 58.6  58692.43  20.57 w  AT2019lyc 
+PS19dwy  DG19bfhpb  21 05 58.67  +09 58 43.7  58692.53  21.05 w  AT2019lvy 
+PS19dxp  DG19tneob  21 15 01.04  +14 59 22.7  58692.58  20.37 w  AT2019lxc 
+
+Other known objects we recovered but were previously discovered by
+Pan-STARRS or ZTF:
+
+Name          RA (J2000)   Dec (J2000)  Det. MJD  Mag      TNS Name 
+PS19dwm       21 34 22.65  +21 20 30.6  58692.58  20.66 w  AT2019lxm 
+ZTF19aavndxo  20 47 51.02  +10 17 35.5  58693.38  19.48 i  AT2019fyt 
+PS19dxj       21 31 22.91  +20 34 04.4  58692.58  20.95 w  AT2019lzo 
+
+We also note that DG19rxclb as reported in Goldstein et al. (GCN 25215)
+is an old object (AT2019jvb) discovered by PS1 and registered on TNS on
+2019-06-01.
+
+

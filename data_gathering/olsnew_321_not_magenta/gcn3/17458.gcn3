@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17458
+SUBJECT: GRB 150212A: Skynet DSO14/GORT observations
+DATE:    15/02/12 20:27:47 GMT
+FROM:    Adam S. Trotter at UNC-Chapel Hill/PROMPT/Skynet  <atrotter@physics.unc.edu>
+
+A. Trotter, D. Reichart, A. LaCluyze, J. Haislip, A. Smith, D. Caton, L. Hawkins, K. McLin, L. Cominsky, A. Aji, T. Berger, A. Dow, A. Foster, N. Frank, K. Ivarsen, M. Maples, J. Moore, M. Nysewander, C. Salemi, and J. A. Crain report:
+
+Skynet observed the Swift BAT/XRT localization of GRB 150212A (Page et al., GCN 17449, Swift trigger=630876) with the 14" telescope at the Appalachian State University Dark Sky Observatory (DSO14) in NC, USA, and with the 14" GLAST Optical Robotic Telescope (GORT) at the Hume Observatory in CA, USA. DSO14 obtained exposures of the field starting at 2015-02-12 10:58:05 (t=46s post-trigger); GORT was delayed until 48m post-trigger due to clouds. Skynet took a total of 29 exposures ranging from 5s to 160s in the R and I bands. We do not detect any optical source at the XRT afterglow position reported by Evans (GCN 17452).
+
+Our early-time DSO14 limiting magnitudes are:
+==============================================
+tmid    scope   band    exposures   lim mag
+----------------------------------------------
+48s     DSO14    I      1 x 5s      >15.2
+102s    DSO14    I      2 x 10s     >16.4
+108s    DSO14    R      1 x 5s      >16.0
+==============================================
+
+Stacked subsets of those images that maximize the S/N ratio give limiting magnitudes:
+==============================================
+tmid    scope   band    exposures   lim mag
+----------------------------------------------
+15.4m   DSO14    R      1 x 80s      >18.4
+                        1 x 160s
+16.1m   DSO14    I      1 x 80s      >18.4
+                        1 x 160s                       
+74m     GORT     R      4 x 160s     >17.2
+84m     GORT     I      3 x 160s     >16.8
+==============================================
+
+Magnitudes are in the Vega System, calibrated to 10 APASS stars in the field.  Magnitudes have not been corrected for line-of-sight Milky Way dust extinction, with expected E(B-V)=0.051 (Schlafly & Finkbeiner 2011).
+
+No further Skynet observations are scheduled.
+

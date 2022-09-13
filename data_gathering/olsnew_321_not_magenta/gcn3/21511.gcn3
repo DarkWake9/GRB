@@ -1,0 +1,21 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21511
+SUBJECT: LIGO/Virgo G298048: COINCIDENT IceCube neutrino candidate with Fermi GBM trigger 524666471/170817529
+DATE:    17/08/17 14:54:58 GMT
+FROM:    Imre Bartos at Columbia/LIGO  <imrebartos@gmail.com>
+
+I. Bartos, S. Countryman (Columbia), C. Finley (U Stockholm), E. Blaufuss (U Maryland), R. Corley, Z. Marka, S. Marka (Columbia) on behalf of the IceCube Collaboration
+
+In GCN 21508 we recently reported that the identification of IceCube neutrino candidates that are temporally and directionally coincident with LIGO/Virgo G298048.
+
+A comparison of these neutrino candidates with Fermi GBM trigger 524666471/170817529 shows that one IceCube neutrino candidate is also *directionally* coincident with 90% CL of the Fermi GRB event. The coordinates of this reconstructed neutrino source are below:
+
+#            dt[s]     RA[deg]    Dec[deg]      E[TeV]  Sigma[deg]
+------------------------------------------------------------------
+4.         -153.47       182.0        -3.2        0.88         0.9
+
+(dt--time from GW in [seconds]; RA/Dec--sky location in [degrees]; E--reconstructed secondary muon energy in [TeV]; Sigma--uncertainty of direction reconstruction in [degrees])
+
+A coincident neutrino-GW skymap has been posted to GraceDB (<https://gracedb.ligo.org/apiweb/events/G298048/files/coinc_skymap_initial_icecube.png,0>). A JSON-formatted list of the above neutrinos can be downloaded from GraceDB at:<https://gracedb.ligo.org/apiweb/events/G298048/files/IceCubeNeutrinoList.json,0>
+
+

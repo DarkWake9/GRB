@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20789
+SUBJECT: LIGO/Virgo G275404: Fermi GBM Upper Limits
+DATE:    17/03/01 23:01:48 GMT
+FROM:    Adam Goldstein at Fermi/GBM  <adam.michael.goldstein@gmail.com>
+
+Adam Goldstein (USRA) and Colleen Wilson-Hodge (NASA/MSFC) report on behalf
+of the GBM-LIGO Group:
+Lindy Blackburn (CfA), Michael S. Briggs (UAH), Jacob Broida (Carleton
+College), Eric Burns (UAH), Jordan Camp (NASA/GSFC), Tito Dal Canton
+(NASA/GSFC), Nelson Christensen (Carleton College), Valerie Connaughton
+(USRA), Rachel Hamburg (UAH), C. Michelle Hui (NASA/MSFC), Pete Jenke
+(UAH), Dan Kocevski (NASA/MSFC), Nicolas Leroy (LAL), Tyson Littenberg
+(NASA/MSFC), Julie McEnery (NASA/GSFC), Rob Preece (UAH), Judith Racusin
+(NASA/GSFC), Peter Shawhan (UMD), Karelle Siellez (GA Tech), Leo Singer
+(NASA/GSFC), John Veitch (Birmingham), Peter Veres (UAH)
+
+Fermi GBM observed 77% of the LALInference sky map at the time of the LIGO
+trigger, and we set the following flux upper limits for the entire visible
+sky map (excluded region is a circle with radius of 68 degrees centered on
+RA, Dec = 134.5, +25.6).
+
+Using a hard Band function with (Epeak, alpha, beta) = (500 keV, -0.5,
+-2.5), we set a 3 sigma, 1-second-averaged flux upper limit for any
+transient within 30 s of the LIGO trigger time in the 10-1000 keV band
+ranging from 5.0e-7 to 1.4e-6 erg/s-cm^2.  Using an exponentially cutoff
+power law parametrized with (Epeak, index) = (566 keV, -0.42), which
+represents the average GBM-triggered short GRB, the upper limit ranges from
+5.4e-7 to 1.4e-6 erg/s-cm^2.  The upper limit in the region of the
+AGILE-GRID candidate, AGL J1914+1043 (Tavani et al., GCN 20754), is 5.0e-7
+erg/s-cm^2 using the hard Band function and 5.4e-7 erg/s-cm^2 using the
+cutoff power law.
+
+Using the Earth Occultation technique (Wilson-Hodge et al. 2012, ApJS, 201,
+33) to estimate the amount of persistent emission during a 48-hour period
+centered on the LIGO trigger time, we place the following range of 3-sigma
+day-averaged flux upper limits based on observed sources over the entire
+LIGO sky map:
+
+Energy       min  max  median
+--------------------------------
+ 12- 27 keV: 0.08 0.62 0.12 Crab
+ 27- 50 keV: 0.14 0.87 0.21 Crab
+ 50-100 keV: 0.20 1.27 0.29 Crab
+100-300 keV: 0.39 2.72 0.57 Crab
+300-500 keV: 3.75 28.1 5.58 Crab
+
+These limits are based on the minimum requirement that each source in the
+Earth Occultation catalog was Earth-occulted at least 6 times in each of
+the 24 hour periods preceding and following the LIGO trigger and that the
+occultations were well separated from nearby bright sources.

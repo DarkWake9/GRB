@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5778
+SUBJECT: GRB 061102B: Swift detection of a possible burst
+DATE:    06/11/02 06:41:41 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. T. Holland (GSFC/USRA), A. M. Parsons (GSFC),
+L. M. Barbier (NASA/GSFC), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), D. N. Burrows (PSU),
+P. A. Evans (U Leicester), C. Gronwall (PSU),
+C. B. Markwardt (GSFC/UMD), K. L. Page (U Leicester),
+D. M. Palmer (LANL) and M. Stamatikos (NASA/ORAU) report on behalf of
+the Swift Team:
+
+At 06:13:16 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located possible GRB 061102B (trigger=236481).  Swift slewed immediately
+to the burst.  The BAT on-board calculated location is 
+RA,Dec 309.881, +15.179 {20h 39m 31s, +15d 10' 44"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This is a 32 msec trigger and the TDRSS lightcurve
+shows nothing significant.  Therefore, it is possible that this trigger is
+due to a cosmic ray shower event in the spacecraft.  We will not be able
+to separate the burst and shower possibilities until we receive the
+full data set in 2 hours. 
+
+The XRT began taking data at 06:14:38 UT, 83 seconds after the BAT
+trigger. The XRT on-board centroid algorithm did not find a source in
+the image and no prompt position is available. There is no source in
+the quicklook downlinked data products, which have an exposure time
+of about 250 s, giving us a rough upper limit of 2E-12 ergs/cm2/s for
+any point source in the field of view. We are waiting for full
+down-linked data to make a more sensitive search for a possible point
+source. 
+
+The UVOT began observing at 06:14:44, 89 s after the BAT trigger with
+the White (160-650 nm) filter. No source is detected inside the BAT
+error circle. The 3-sigma upper limit is approximately V = 18 mag. No
+correction has been made for the expected Galactic extinction of
+E_{B-V} = 0.09 mag. 
+

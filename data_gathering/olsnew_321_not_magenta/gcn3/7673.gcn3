@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7673
+SUBJECT: GRB 080503, Swift-BAT refined analysis
+DATE:    08/05/03 20:02:48 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Ukwatta (GWU), S. D. Barthelmy (GSFC), W. Baumgartner (GSFC/UMBC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), K. McLean (GSFC/UMD),
+J. Mao (INAF-OAB), D. Palmer (LANL), T. Sakamoto (GSFC/UMBC),
+G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 080503 (trigger #310785)
+(Mao, et al., GCN Circ. 7665).  The BAT ground-calculated position is
+RA, Dec = 286.686, 68.803 deg, which is 
+   RA(J2000)  =  19h 06m 44.7s 
+   Dec(J2000) = +68d 48' 09.2" 
+with an uncertainty of 3.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 75%.
+ 
+The mask-weighted light curve shows an initial spike starting at ~T+0.1 sec
+with a fast rise to a peak at ~T+0.2 sec, with a roughly exponential decay
+down to background at ~T+0.7 sec.  The softer emission starts at about T+10 sec,
+rising with two peaks at about T+26 and +37 sec, and then falling to background
+levels at T+220+/-20 sec.  T90 (15-350 keV) is 170 +- 40 sec (estimated error
+including systematics).
+ 
+The time-averaged spectrum from T+0.2 to T+220.6 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.00 +- 0.13.  The fluence in the 15-150 keV band is 2.0 +- 0.1 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+26.58 sec in the 15-150 keV band
+is 0.9 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence level.
+
+As to whether this burst is a SHB with extended emission or a Long burst
+with a particularly short pulse at the beginning, we can not say yet.  Looking
+at the 4-band lightcurves, the initial spike is harder than the later emission.
+We are waiting for (a) separate spectral analysis on the two portions
+of the lightcurve, and (b) for the lag analysis.  We are currently in an 8-hour
+gap in the downlink sessions, so it will be a while before we can say
+with better confidence if this is truely a SHB or not.  We will issue
+another circular.
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/310785/BA/
+

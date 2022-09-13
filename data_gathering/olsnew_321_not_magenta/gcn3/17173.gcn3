@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17173
+SUBJECT: Swift detection of 4U 1700+24 (= V934 Her)
+DATE:    14/12/13 02:18:26 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester),
+D. M. Palmer (LANL), T. Sakamoto (AGU) and M. H. Siegel (PSU) report
+on behalf of the Swift Team:
+
+At 01:56:11 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located the source 4U 1700+24 (trigger #621278).  Swift slewed 
+immediately to the location.  The BAT on-board calculated location is 
+RA, Dec 256.660, +24.020 which is 
+   RA(J2000) = 17h 06m 38s
+   Dec(J2000) = +24d 01' 12"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual for image triggers, there
+is no obvious variation in the immediately available BAT lightcurve. 
+
+The XRT began observing the field at 01:58:04.5 UT, 113.5 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+256.6412, 23.9734 which is equivalent to:
+   RA(J2000)  = +17h 06m 33.89s
+   Dec(J2000) = +23d 58' 24.2"
+with an uncertainty of 5.3 arcseconds (radius, 90% containment). This
+location is 178 arcseconds from the BAT onboard position, within the
+BAT error circle. This position is 9.3 arcseconds from that of a known
+X-ray source: 4U 1700+24 (also known as V934 Her). 
+No event data are yet available to determine the column density using
+X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.48e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 122 seconds after the BAT trigger. The 2.7'x2.7'
+sub-image only shows the bright (V=7.6) known source V934 Her. 
+
+This symbiotic X-ray binary system was previously observed
+in outburst by Swift and has been active for roughly the past year
+(Krimm et al., ATel #6482).  A BAT lightcurve of its activity
+is available at:
+http://swift.gsfc.nasa.gov/results/transients/weak/4U1700p24/
+

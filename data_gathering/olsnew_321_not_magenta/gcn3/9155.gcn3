@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9155
+SUBJECT: GRB 090417B: Swift-XRT refined analysis
+DATE:    09/04/18 16:55:25 GMT
+FROM:    Boris Sbarufatti at INAF-IASF-Pa  <sbarufatti@ifc.inaf.it>
+
+Sbarufatti B., Mangano V. (INAF-IASFPA) report on behalf of the
+Swift Team:
+
+We have analysed the first six orbits of Swift-XRT data obtained from
+GRB 090417B (trigger 349450; Sbarufatti, et al., GCN Circ. 9135),
+comprising 1456 s taken in Windowed Timing (WT) mode, from T+393 s to
+T+2.0 ks,  and a total exposure of 9.2 ks in Photon Counting (PC)
+mode divided in 192 s from T+1.1 ks to T+1.3 ks and 9.0 ks from
+T+5.4 ks to the end of the observation at T+30 ks.
+
+Using 6972 s of XRT Photon Counting mode data and 9 UVOT images, we
+find an astrometrically corrected X-ray position (using the XRT-UVOT
+alignment and matching to the USNO-B1 catalogue):
+RA, Dec = 209.6942, 47.0182 which is equivalent to:
+
+RA (J2000): 13 58 46.62
+Dec (J2000): +47 01 05.4
+
+with an uncertainty of 1.4 arcsec (90% confidence). This position
+lies 4.8 arcmin from the BAT refined position, outside the quoted
+error circle (Cummings, et al., GCN circ. 9139).
+
+The 0.3-10 keV X-ray light curve of the first orbit is dominated by
+flaring activity, with 3 major peaks at ~T+530, ~T+1410 s and
+~T+1560 s respectively. From the second orbit on the light-curve is
+decaying according to a power-law with slope -1.21+/-0.05. If
+decaying at this rate, the afterglow will reach a count-rate of
+1.98E-2 counts/s at T+48h.
+
+The average WT spectrum of the first orbit is best fitted by an
+absorbed power-law model with a high energy cutoff. The best fit
+parameters are photon index 0.40+/-0.17, cutoff energy 3.1+/-0.4 keV
+and NH (9.2+/-0.6)E21 cm^-2, in large excess with respect to the
+galactic value 1.6E20 cm^-2 (Kalberla et al. 2005). The average
+observed(unabsorbed) flux in the 0.3-10 keV band is 1.6(2.1)E-9 ergs
+cm^-2 s^-1. The average spectrum of the large double peaked flare
+between T+1.3 ks and T+2.0 ks is also fitted by an absorbed power-law
+model with a high energy cutoff with best fit parameters photon
+index 0.46+/-0.2, cutoff energy 3.2+/-0.5 and NH (9.5+/-0.7)E21 cm^-2.
+The average PC spectrum in the T+5.4 ks - T+30 ks interval is well
+fitted by an absorbed power-law with photon index 2.0+/-0.1 and NH
+(9.6+/-0.10E21 cm^-2. The average  observed(unabsorbed) flux in the
+0.3-10 keV band is 2.8(5.6)E-11 ergs cm^-2 s^-1.
+The count-rate to flux conversion factor is 1.0E-10.
+All quoted errors are at 90% confidence level.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00349450.
+
+This circular is an official product of the Swift-XRT team.
+

@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23865
+SUBJECT: GRB190203A: UVOT analysis
+DATE:    19/02/04 17:01:34 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+Paul Kuin (UCL/MSSL) and A. Y. Lien (GSFC/UMBC)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 190203A
+121 s after the BAT trigger (Lien et al., GCN Circ. 23845).
+A source consistent with the XRT position
+(Goad et al. GCN Circ. 23848)
+is detected in the initial UVOT exposures.
+
+The preliminary UVOT position is:
+    RA  (J2000) =  01:30:23.21 =  22.59672 (deg.)
+    Dec (J2000) = +55:43:20.6  =  55.72240 (deg.)
+with an estimated uncertainty of 0.46 arc sec. (radius, 90% confidence).
+
+Preliminary detections and 3-sigma upper limits using the UVOT photometric
+system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures
+are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white              121          271          147         18.66 +/- 0.06
+v                  609         5462          225        >19.2
+b                  535         4846          236        >20.5
+u                  279         5967          551        >21.0
+w1                 658         5872          413        >20.2
+m2                 634         5666          413        >21.0
+w2                 585         5257          236        >20.2
+
+
+The short v image during settling, i.e., prior to the settled
+images reported here, shows a 16.3 +/- 0.3 mag source as well.
+Usually we have a detection in the other bands besides in the
+early white filter. Either the GRB decayed so fast as to be
+below u > 19.8 mag between To+278 and 529s or this burst is
+of a high redshift. A rapid decay is consistent with Watson
+et al. (GCN Circ. 23864).
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.64 in the direction of the burst
+(Schlegel et al. 1998).

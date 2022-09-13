@@ -1,0 +1,71 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8943
+SUBJECT: Swift Trigger 345551 is probably not a GRB
+DATE:    09/03/07 04:53:54 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+P. A. Evans (U Leicester), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), N. Gehrels (NASA/GSFC),
+E. A. Hoversten (PSU), F. E. Marshall (NASA/GSFC), C. Pagani (PSU),
+K. L. Page (U Leicester), D. M. Palmer (LANL), A. M. Parsons (GSFC),
+M. H. Siegel (PSU), T. N. Ukwatta (GSFC/GWU) and L. Vetere (PSU)
+report on behalf of the Swift Team:
+
+At 03:46:37 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a marginal peak (trigger=345551).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 244.979, -28.644, which is 
+   RA(J2000)  = 16h 19m 55s
+   Dec(J2000) = -28d 38' 38"
+with an uncertainty of 4 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a slight increase
+above background at T_0, but it is very weak. 
+
+The XRT began observing the field at 03:48:52.38 UT, 135.5 seconds
+after the BAT trigger. Using promptly downlinked data we find an
+uncatalogued X-ray source located at RA, Dec 244.99412, -28.63366 which
+is equivalent to:
+   RA(J2000)  = 16h 19m 58.59s
+   Dec(J2000) = -28d 38' 01.2"
+with an uncertainty of 3.8 arcseconds (radius, 90% containment). The source
+does not appear to be fading at this time, with a limit of alpha ~0.5. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of
+1.14e+21 cm^-2 (Kalberla et al. 2005). 
+
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 128 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.53. 
+
+
+
+
+We are currently commissioning a new sub-threshold capability
+for Swift, allowing the spacecraft to quickly slew to events
+with marginal statistics (in the 5.5 - 6.5 sigma range) in 
+the BAT image, and using XRT to test whether a source is 
+detected at a consistent position.  If automatic ground
+processing finds a consistent XRT source, the event is
+automatically promoted to GRB status, and the original 
+BAT position and other TDRSS messages are released
+as delayed GCN Notices. 
+
+We believe that this event was most likely to be a low-significance
+statistical fluctuation in the BAT image, in coincidence with a 
+serendipitous detection of a non-GRB astrophysical source by the 
+XRT. After the XRT source was found, GCN Notices were transmitted,
+7 minutes after the original trigger. 
+
+The association of the initial BAT detection with a real GRB
+will be determined using Malindi data, including analysis of the XRT
+data to see if the XRT source exhibits GRB-like temporal and
+spectral behavior.  The currently available XRT data does not
+indicate fading. 
+

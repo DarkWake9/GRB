@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15979
+SUBJECT: GRB 140311B: Swift-BAT refined analysis
+DATE:    14/03/13 03:07:06 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+A. Y. Lien (NASA/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (looking), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-0 to T+3 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 140311B (trigger #591392)
+(Racusin, et al., GCN Circ. 15945).  The BAT ground-calculated position is
+RA, Dec = 252.333, +52.733 deg which is
+    RA(J2000)  =  16h 49m 20.0s
+    Dec(J2000) = +52d 44' 00"
+with an uncertainty of 1.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 89%.
+
+This trigger followed that of GRB 140311A by only about 9 minutes, which led
+to a complication in recording the photon-event data.  Only 3 seconds of
+photon-event data was recorded, so no mask-weighted lightcurve is available.
+T90 (15-350 keV) is estimated to be 70 +- 10 sec.  The burst had multiple
+peaks.  Peak emission occurred about 15 seconds after the trigger time.
+
+The time-averaged spectrum for the limited range of data available (about
+5% of T90) from T+0 to T+3 sec is best fit by a simple power-law model.  The
+power law index of the time-averaged spectrum is 1.12 +- 0.15 (90% confidence).
+Because of the lack of event data, the fluence is not available.  Based on an
+eye-ball estimate comparing the non-maskweighted lightcurve to those of other
+bursts with a similar partial coding, the fluence in the 15-150 keV band was on
+the order of several times 10^-6 ergs/cm^2
+

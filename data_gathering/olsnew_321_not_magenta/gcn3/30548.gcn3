@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30548
+SUBJECT: GRB 210730A: Swift detection of a burst near M82
+DATE:    21/07/30 05:23:03 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+E. Sonbas (Adiyaman Univ.), S. D. Barthelmy (GSFC),
+A. D'Ai (INAF-IASFPA), D. M. Palmer (LANL), T. Sakamoto (AGU),
+B. Sbarufatti (PSU) and M. H. Siegel (PSU) report on behalf of the
+Neil Gehrels Swift Observatory Team:
+
+At 04:57:29 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 210730A (trigger=1062150).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 149.592, +69.705 which is 
+   RA(J2000) = 09h 58m 22s
+   Dec(J2000) = +69d 42' 19"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Although the BAT lightcurve is not immediately
+available due to telemetry limitations, the trigger information indicates
+a very bright peak (68 sigma in rates) of at least 1 second duration. 
+
+The XRT began observing the field at 04:58:50.8 UT, 81.6 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+uncatalogued X-ray source located at RA, Dec 149.59149, 69.69227 which
+is equivalent to:
+   RA(J2000)  = 09h 58m 21.96s
+   Dec(J2000) = +69d 41' 32.2"
+with an uncertainty of 8.2 arcseconds (radius, 90% containment). This
+location is 45 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at https://www.swift.ac.uk/sper.  We
+cannot determine whether the source is fading at the present time. No
+spectrum from the promptly downlinked event data is yet available to
+determine the column density. 
+
+The initial flux in the 2.5 s image was 6.73e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 113 seconds with the White filter
+starting 90 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image processing
+FAILED because of no aspect solution. Data from the list of sources generated
+on-board are not available at this time. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.096. 
+
+We note that this location is close to the nearby galaxy M82, although
+well outside the main disk.  For this reason, the initial GCN Notice
+misreported it as a Galactic transient. 
+
+Burst Advocate for this burst is E. Sonbas (edasonbas AT yahoo.com). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

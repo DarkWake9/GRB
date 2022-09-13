@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9265
+SUBJECT: GRB090426 Swift/UVOT observations
+DATE:    09/04/26 22:13:22 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (MSSL/UCL) and J. R. Cummings (NASA/UMBC) report on behalf of 
+the
+Swift/UVOT team:
+
+The Swift/UVOT started settled observations of the burst GRB090426
+(Cummings et al. GCN Circ. 9254) with the finding chart (fc) exposure in
+white, 89s after the BAT trigger. The afterglow is detected in the white,
+b, u and filters and marginally in the v filter at the refined UVOT 
+position:
+
+     RA (J2000)  12:36:18.07
+    Dec (J2000)  32:59:09.6
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence).
+The lack of detection in the UV filters is consistent with a redshift
+of 2.609, which was reported by Chornock et al. (GCN Circ. 9264).
+
+The UVOT magnitudes and upper limits our reported below:
+
+Filter    Tstart(s) Tstop(s)  Exp(s)       Magnitude/3sig UL
+###################################################
+white (fc)   89      239      147          17.52 +/- 0.03
+u (fc)       301     551      246          18.11 +/- 0.08
+
+white        581     600      19           19.10 +/- 0.22
+v            630     650      19           19.04 +/- 0.86 (1.3-sigma)
+u            556     576      19           18.59 +/- 0.38
+b            706     726      19           18.92 +/- 0.36
+uvw1         680     2164     175          > 19.92
+uvm2         655     2139     175          > 19.63
+uvw2         606     2090     136          > 19.82
+
+The values quoted above are in the UVOT photometric system (Poole et al.
+2008, MNRAS, 383, 627) and are not corrected for the expected Galactic
+extinction corresponding to a reddening of E(B-V)=0.02 mag in the
+direction of the burst (Schlegel et al. 1998).
+
+

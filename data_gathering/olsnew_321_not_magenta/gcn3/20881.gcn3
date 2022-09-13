@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20881
+SUBJECT: SUBJECT: LIGO/Virgo G277583: ATLAS coverage and transients over the first 2 days 
+DATE:    17/03/16 17:15:00 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+S. J. Smartt, K. W. Smith, J. Tonry, L. Denneau, A. Heinze,
+B. Stalder, H. Weiland (IfA), C. W. Stubbs (Harvard), A. Rest (STScI),
+K. C. Chambers (IfA), T.-W. Chen (MPE), M. Coughlin (Harvard),
+M. E. Huber (IfA), D. E. Wright, D. R. Young, E. Kankare (QUB),
+H. Flewelling, T. Lowe, E. A. Magnier, A. S. B. Schultz, C. Waters,
+R. J. Wainscoat, M. Willman (IfA),
+
+
+Further to GCN20877, we report ATLAS observations of the skymap
+(cWB_plus_LIB.fits) of G277583 (GCN 20860), with event time
+2017-03-13 22:40:09.593 == 57825.94498372
+
+We started observing at MJD=57826.54, 14hrs after the LIGO alert and
+covered approximately 3600 sq degrees during the first 2 days. This
+corresponds to a probability coverage of approximately 60% of the
+cWB_plus_LIB.fits skymap (final number currently being refined, map
+plot will be available on GraceDB). The limiting magnitude in the 30 sec
+exposures in the orange filters is o ~ 18.7
+
+We find the following four transients which are within the 90% contour
+for which we have no previous detections. We also list, for reference 
+old objects which are within the skymap but discovered before G277583
+
+We apologise for the earlier release of ATLAS17cck in GCN 20877, which
+is indeed minor planet Azalea (GCN 20879, Littlefield &
+Garnavich). The object passed through our automated positional scatter
+and ephemeris filters for removing known and unknown moving objects
+and therefore did not trigger automatic rejection. This was due to an
+artificial magnitude split introduced into our local version (at QUB)
+of the minor planet database, with objects brighter than a threshold
+maximum magnitude not being checked. The magnitude calculation was an 
+oversimplification, and has been removed. Additional checks have also 
+been introduced to prevent leakage of minor planets into the stationary list.
+
+
+Name        RA            DEC          MJD Discovery Mag   f    PC    Host/Comment                      
+ATLAS17cdb  05:14:50.41  -32:09:46.9  57827.25431835 18.55 o    90   orphan                            
+ATLAS17byq  17:07:47.34  +09:49:20.8  57826.61285455 17.61 o    90   2MASX J17074707+0949172           
+ATLAS17byo  16:33:19.87  +23:43:52.4  57826.58056845 17.43 o    80   z=0.033, SDSS J163319.94+234356.4 
+ATLAS17cgg  08:03:55.23  +26:31:12.3  57826.42460955 18.02 o    50   z=0.0217, IC 0491                
+
+f = filter
+PC = probability contour within which the object lies 
+
+
+Old objects from before G277583
+Name        RA            DEC          MJD Discovery Mag   f    PC    Host/Comment                      
+ATLAS17bza  17:19:36.88  -25:01:04.2  57826.57606615 16.49 o    70     AT2017aby (Gaia17agz), b=7, likely Galactic                         
+ATLAS17bkc  15:27:56.20  +11:42:17.0  57816.61101455 18.40 c    80                                                 
+ATLAS17bhd  06:26:20.16  -01:22:47.5  57808.37305585 16.55 c    90     b=-6.2, probable CV, faint source in PS1                                            
+ATLAS17bib  09:44:23.18  +34:16:03.1  57805.44415665 18.87 c    90     AT 2017blg                        
+ATLAS17bkt  15:19:18.86  +28:13:44.4  57817.57088835 16.54 c    90     AT2017cak, ATel 10152                   
+ATLAS17cgp  16:32:23.53  -02:36:07.2  57816.65313705 18.30 c    40     AT2017ly                                
+ATLAS17bkb  15:20:07.83  +11:52:37.5  57816.61101455 18.25 c    90     AT2017byj, ATel 10148                   
+ATLAS17btj  12:14:16.03  -38:05:48.1  57807.56503375 18.66 c    80     AT2017bzg  ATel 10152                   
+ATLAS17bhq  08:38:57.62  +28:24:40.0  57805.40020845 19.07 c    60     AT2017bhe
+
+

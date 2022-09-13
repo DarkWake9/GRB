@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6267
+SUBJECT: GRB 070411: Swift detection of a burst with optical afterglow
+DATE:    07/04/11 20:43:42 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+A. Moretti (INAF-OAB), S. D. Barthelmy (GSFC), P. J. Brown (PSU),
+D. N. Burrows (PSU), M. M. Chester (PSU), J. R. Cummings (NASA/UMBC),
+G. Cusumano (INAF-IASFPA), N. Gehrels (NASA/GSFC),
+S. T. Holland (CRESST/GSFC/USRA), J. A. Kennea (PSU),
+H. A. Krimm (GSFC/USRA), V. Mangano (INAF-IASFPA),
+F. E. Marshall (NASA/GSFC), P. T. O'Brien (U Leicester),
+C. Pagani (PSU), D. M. Palmer (LANL),
+P. Romano (Univ. Bicocca & INAF-OAB), T. Sakamoto (NASA/ORAU),
+B. Sbarufatti (INAF-IASFPA), M. Stamatikos (NASA/ORAU),
+R. L. C. Starling (U Leicester), G. Tagliaferri (INAF-OAB),
+D. E. Vanden Berk (PSU), S. D. Vergani (DIAS-DCU) and
+H. Ziaeepour (UCL-MSSL) report on behalf of the Swift Team:
+
+At 20:12:33 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070411 (trigger=275087).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 107.338, +1.083 which is 
+   RA(J2000)  =  07h 09m 21s
+   Dec(J2000) = +01d 04' 57"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows an initial weak peak
+starting at T-1 sec and fading by T+5 sec and then a stronger second peak
+from T+50 to T+90 sec with an amplitude of ~1000 cnts/sec
+in the 15-350 keV band. 
+
+The XRT began observing the field at 20:14:09 UT, 96 seconds after the
+BAT trigger. XRT found an uncatalogued X-ray source
+located at RA, Dec 107.3327, +1.0632 which is
+   RA(J2000)  =  07h 09m 19.8s
+   Dec(J2000) =  01d 03' 47.5"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). 
+This location is 74 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 5.1e-09 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of nominal 100 seconds with the
+White (160-650 nm) filter starting 244 seconds after the BAT trigger. 
+An afterglow candidate has been found in the initial data products. 
+The 2.7'x2.7' region for the list of sources generated on-board
+covers 100% of the XRT error circle. A source is detected at
+
+ RA =  07:09:19.93
+Dec = +01:03:52.6 
+
+with an estimated uncertainty of +/-0.5 arcsec. The
+estimated magnitude in the White filter is 18.7. No correction has
+been made for the large, but uncertain extinction corresponding
+to a reddening of 0.3 mag. 
+

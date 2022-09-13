@@ -1,0 +1,134 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24416
+SUBJECT: IceCube-190504A: MASTER optical monitoring analysis
+DATE:    19/05/07 10:57:24 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, O. Gress, E. Gorbovskoy, N.Tyurina, V.Kornilov, P.Balanutsa, D.Vlasenko, F.Balakin, V.Vladimirov, 
+D.Zimnukhov, A.Kuznetsov, A. Chasovnikov, V.Topolev(Lomonosov Moscow State University, SAI, Physics Department),
+
+R. Podesta, C. Lopez, C.Francile, F. Podesta (Observatorio Astronomico Felix Aguilar OAFA, San Juan National University),
+
+H.Levato (Instituto de Ciencias Astronomicas, de la Tierra y del Espacio ICATE, SJNU)
+
+R. Rebolo, M. Serra, N. Lodieu, G. Israelian, L. Suarez-Andres (The Instituto de Astrofisica de Canarias),
+
+D. Buckley (South African Astronomical Observatory),
+
+N.M. Budnev, O.Ershova (Applied Physics Institute, Irkutsk State University),
+
+V. Yurkov, A. Gabovich, Yu. Sergienko, D. Kobcev (Blagoveschensk Educational State University),
+
+A. Tlatov, V.Senik, D. Dormidontov (Kislovodsk Solar  Station of the Pulkovo Observatory),
+
+MASTER-SAAO robotic telescope (Global MASTER-Net: http://observ.pereplet.ru, Lipunov et al., 2010, Advances in Astronomy, vol. 2010, 30L)
+located in South African Astronomical Observatory was pointed to the 
+IceCube-190504A (Kopper et al. GCN 24392) alert
+39 sec after notice time (133 sec after trigger time) at 2019-05-04 18:27:31 UT (Lipunov et al. GCN 24395).
+
+MASTER-OAFA robotic telescope started IceCube-190504A inspection at 2019-05-04 23:10:52.949 UT.
+MASTER auto-detection system didn't find new or variable sources, that can be connected with this alert. But.
+
+MASTER observed this error-box during the following GRB/LVC alerts observations:
+
+    event_name |        grbtime      |     GRBcenter_coord2000       |Er.B.deg|Exper.| MASTERobs_starttime | mlim.
+--------------+---------------------+-------------------------------+-------+---------+-------------------------+-------
+  GRB190504.77 | 2019-05-04 18:25:18 | (  4h 23m 09s , -37d 26m 35s) |   1.2 | ICECUBE | 2019-05-04 18:27:31 |  18.6
+  GRB190313.15 | 2019-03-13 03:36:00 | (  4h 27m 52s , -37d 12m 00s) |  14.3 | FERMI   | 2019-03-13 20:40:04 |  18.8
+  GW190425     | 2019-04-29 00:21:41 |  LVC S190425z                 |       | LVC     | 2019-04-29 00:06:38 |  18.3
+  GRB180826.06 | 2018-08-26 01:19:15 | (  4h 09m 50s , -22d 26m 59s  |   6.9 | FERMI   | 2018-08-29 02:38:42 |  19.6
+  GRB180508.64 | 2018-05-08 15:23:50 | (  3h 50m 48s , -39d 12m 00s) |   9.1 | FERMI   | 2018-05-09 16:55:07 |  19.0
+  GRB180423.34 | 2018-04-23 08:16:05 | (  7h 13m 24s , -30d 30m 00s) |  37.9 | FERMI   | 2018-04-24 18:17:15 |  18.5
+  GRB180311.07 | 2018-03-11 01:45:53 | (  4h 28m 24s , -43d 18m 00s) |  11.1 | FERMI   | 2018-03-11 20:37:31 |  19.4
+  GRB180309.14 | 2018-03-09 03:28:35 | (  3h 55m 52s , -39d 25m 00s) |  12.7 | FERMI   | 2018-03-10 02:37:03 |  18.6
+  GRB180114.45 | 2018-01-14 10:42:23 | (  3h 40m 40s , -44d  9m 00s) |  10.4 | FERMI   | 2018-01-14 21:11:40 |  18.1
+  GRB171121.83 | 2017-11-21 20:01:59 | (  5h  7m 40s , -36d 58m 00s) |   8.7 | FERMI   | 2017-11-22 01:37:28 |  19.3
+  GRB171004.78 | 2017-10-04 18:46:40 | (  2h 56m 40s , -37d 10m 59s) |  26.6 | FERMI   | 2017-10-06 21:05:18 |  18.7
+  GRB171004.67 | 2017-10-04 16:07:16 | (  5h 22m 52s , -26d 15m 00s) |  17.0 | FERMI   | 2017-10-06 21:05:18 |  18.7
+  GRB170422.37 | 2017-04-22 08:58:23 | (  4h 17m 52s , -45d 52m 60s) |  18.4 | FERMI   | 2017-04-24 23:04:59 |  18.3
+  GRB170307.22 | 2017-03-07 05:15:05 | (  4h 18m 48s , -30d 58m 60s) |   6.4 | FERMI   | 2017-03-07 19:49:33 |  18.9
+  GRB160430.35 | 2016-04-30 08:22:08 | (  2h 58m 56s , -16d 34m 00s) |  36.6 | FERMI   | 2016-04-30 16:54:00 |  18.9
+  GRB160319.34 | 2016-03-19 08:08:10 | (  2h 57m 52s , -14d 24m 00s) |  35.5 | FERMI   | 2016-03-19 19:29:48 |  18.5
+  GRB150824.55 | 2015-08-24 13:14:25 | (  4h  2m 56s , -46d 43m 60s) |  13.4 | FERMI   | 2015-08-26 02:14:38 |  20.3
+  GRB150806.63 | 2015-08-06 15:07:37 | (  3h 55m 12s , -54d 54m 00s) |  34.8 | FERMI   | 2015-08-09 03:34:30 |  19.7
+  GRB150801.09 | 2015-08-01 02:16:43 | (  4h 19m 08s , -36d  6m 00s) |  10.9 | FERMI   | 2015-08-01 02:17:04 |  15.3
+  GRB141222.41 | 2014-12-22 09:53:57 | (  6h 26m 56s , -54d 27m 00s) |  34.7 | FERMI   | 2014-12-24 22:12:28 |  19.8
+
+and during own survey Dec2014-May2019.
+
+We checked Swift sources (Keivani et al. GCN 24405 )in MASTER database.
+
+The 7th source is in maximum in optic now
+
+1) 66.17568d, -37.93938d
+m_OT=19.6 at 2014-12-24 22:12:28.681, m_OT=19.6 at 2018-11-15 00:47:43.986, m_OT<mlim=18.6 now
+
+2)66.39382d, -37.70566d
+no OT in MASTER database (see mlims in Table)
+
+3)65.19589d, -37.26399d
+no OT in MASTER database (see mlims in Table)
+
+4) in 4.3" there is optical source at RA,Dec2000=04h 24m 50.04s , -36d 55m 44.39s with m_OT=19.1 (candidate to QSO (Guo+, 
+2018) in VIZIER database in 2.2"), marginally seen at current image with m_OT<mlim(18.6)~19m.
+It was 18.4(unfiltered) at 2016-12-25 05:25:09.6 UT (not in maximum now)
+
+5) 65.70905d, -37.94807d
+in 4.2" there is optical source at  	4h 22m 49.86s , -37d 56m 53.10s 
+and in 2.2" there is a source - AGN candidates (Assef+, 2018) , see VIZIEr database)
+usual brightness in MASTER database 19.1, marginally seen in current images, it means the source didn't become brighter in optic.
+
+
+6)66.39458d, -37.70534d
+no OT in MASTER database (see mlims in Table)
+
+7) 65.29548d, -38.09169d
+This source is in maximum now, see MASTER photometry  at 
+http://observ.pereplet.ru/images/MASTEROAFAphotomSwift7.png
+
+
+
+In the error-box there are also the following objects:
+1) AGNs MS 04206-3839 ,
+RA,Dec2000=04 22 20.7 -38 32 17 (http://www.obs-hp.fr/catalogues/veron2_12/veron_v12_table3.dat)
+m <~ mlim18.6 (marginally seen) now. In MASTER archive database:
+unfiltered m=19.3 at 2018-11-14 23:50:31UT
+m=18.9 at 2018-03-13 02:44:31UT
+m=20.2 at 2016-08-05 09:30:55UT
+
+2) MS 04200-3838
+RA,Dec2000=04 21 49.7 -38 31 26 (http://ftp.bao.ac.cn/ftp/cats/J_other/PASA/30.4/move.dat)
+only mlim=18.6 now (in VIZIER m=21.1 in B (Souchay+, 2019) )
+
+3) 3FGL_J0420.6-3742 (=3FHL J0420.4-3744 BL Lac
+RA,Dec2000=04 20 25.05 -37 44 45.05
+m=19.1 in MASTER database   at 2017-11-22 01:29:59.158 and
+  marginally seen now  m_BLA <~ mlim=18.6
+
+4) PKS_0426-380
+(RA,Dec2000=04 28 40.42 -37 56 19.58)
+Photometry is available at
+http://observ.pereplet.ru/images/MASTERphotom042840.42-375619.58.jpg
+
+5)PKS 0422-380 (=3FHL J0428.6-3756 from Garrappa et al. GCN24401)
+RA,Dec2000=04 24 42.2 -37 56 20 (http://hpiers.obspm.fr/webiers/icrf/catalogues/icrf.dico)
+only mlim=18.6 now (at 2019-05-05 23:09:38UT), in MASTER archive:
+m_OT=19.6 at 2018-11-15 00:47:43UT
+m_OT=18.9 at 2016-08-05 09:30:55UT
+
+6) Q 0420-3838 
+RA,Dec2000=04 21 50.08 -38 31 14.61 (https://iopscience.iop.org/1538-3881/121/5/2843/fulltext/datafile2.txt)
+m_QSO=20.34 at 2018-11-15 00:46:05.261UT and is less then current mlim, see Table
+
+7) 1 UG -- Gaia16aai (RA,Dec2000=04:20:42.200 -38:19:33.90)
+not in bright state with current mlim=18.6 (17.6 in history https://www.aavso.org/vsx/index.php?view=detail.top&oid=469696)
+
+9) there was supernova SN2017jcv (ASASSN-17rg) in nearest years history
+10) 296 galaxies from GLADE catalogue (Dalya et al. MNRAS 479(2), 2374 (2018)
+
+Analysis will be continued.
+
+This error-box was observed also by ANTARES (Coleiro et al. GCN 24400) and Insight-HXMTYi (Yi et al. GCN 24407)
+
+The message may be cited.
+

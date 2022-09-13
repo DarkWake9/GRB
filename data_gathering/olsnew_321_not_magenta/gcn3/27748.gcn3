@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27748
+SUBJECT: GRB 200514B: BALROG localization (Fermi Trigger 611140062 / GRB 200514380)
+DATE:    20/05/16 20:33:50 GMT
+FROM:    Jochen Greiner at MPI  <jcg@mpe.mpg.de>
+
+J.M. Burgess, J. Greiner, F. Berlato, B. Biltzinger, F. Kunzweiler (all MPE
+Garching) report:
+
+Given the interest in this GRB and the optical follow-up work, we
+performed a more thorough analysis of the GRB 200514B with the BALROG
+localization/spectral fitting method (Burgess et al. 2018, MNRAS 476, 1427;
+Berlato et al. 2019, ApJ 873, 60), finding a localization of
+
+  RA (2000.0) = 260 +/- 12
+  Decl. (2000.0) = 58.8 +/- 6.8
+  (1 sigma error). 
+  
+The Healpix map can be found at:
+http://mpe.mpg.de/~jcg/grb200514B/GRB200514380_balrog_healpix.fits
+
+Spectral analysis of the time interval T0 = -0.38 ... 0.58s with
+the empirical Band function yields the following best-fit spectral
+parameters:
+
+ alpha = -0.63 +/- 0.30
+ beta = -2.13 +/- 0.29
+ Ep = 170 +/- 70 keV
+
+with an energy flux of (3.5 +/-2) x 10^-7 erg/cm2/s in the 10-1000 keV band.
+

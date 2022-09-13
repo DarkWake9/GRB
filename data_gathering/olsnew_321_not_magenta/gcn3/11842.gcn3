@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11842
+SUBJECT: GRB 110328A / Swift J164449.3+573451: BAT refined analysis
+DATE:    11/03/30 17:06:00 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), A. Melandri (INAF-OAB),
+D. M. Palmer (LANL), M. Stamatikos (OSU), J. Tueller (GSFC),
+T. N. Ukwatta (MSU)
+
+The source originally identified as GRB 110328A (Cummings et al.
+GCN Circ. #11823 and Barthelmy et al. GCN Circ. #11824) has triggered BAT
+several times.  It is a highly unusual object.  It is coincident with an
+optical source at redshift z = 0.35 (Levan et al., GCN Circ #11833), as
+well as a radio source (Zauderer et al., GCN Circ #11836).  The source
+continues to be detectable and variable in BAT more than 40 hours after
+the initial trigger, with peak brightness on the order of 200 mCrab.  The
+source is at high galactic latitude, 39.4 degrees.
+
+The summary of BAT triggers so far is:
+TrigNum   Date Time         TrigDur  Intensity
+                 UT             [sec]    [c/sec]
+450158    28 Mar 12:57:45   1208       6.1
+450161    28 Mar 13:40:41     64      19.4
+450257    29 Mar 18:26:25    320      15.6
+450258    29 Mar 19:57:45     64      38.2
+
+This table does not represent all the possible triggers, because the on-
+board triggering algorithm requires the intensity of the any following
+event to be slightly more than twice the previous intensity.  Also note
+that the on-board threshold was commanded to zero between the 2nd and 3rd
+triggers in order to enhance future triggers, and that it was later
+commanded to be 4 times the 4th trigger's intensity after the 4th trigger
+to suppress further triggers.
+
+The observation of the source including the discovery image was T-4 sec
+to T+1211 sec.  A fit to a power law spectrum from BAT survey data on this
+interval has a photon index of 1.72 ± 0.18.  The fluence from 15 to
+150 keV using this model was (3.0 ± 0.3) x 10^-6 ergs/cm^2.  The first
+followup observation, during which the second trigger occurred, was
+T+1465 sec to T+2348 sec.  The photon index from that observation was
+1.37 ± 0.11.  The fluence was (2.7 ± 0.2) x 10^-6 ergs/cm^2.
+
+The light curve from the BAT transient monitor (15-50 keV):
+http://swift.gsfc.nasa.gov/docs/swift/results/transients/weak/SwiftJ164449.3p573451/
+shows variability, but that the source was first detectable on 25-March-2011
+and has, on average, continued to brighten since the trigger.
+
+Please see also Kennea et al., ATel#3242 for more information:
+http://www.astronomerstelegram.org/?read=3242
+

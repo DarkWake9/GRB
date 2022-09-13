@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19518
+SUBJECT: SWIFT J174540.2-290037, Swift-BAT refined analysis (trigger 689956)
+DATE:    16/06/10 03:55:32 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+C. B. Markwardt (GSFC), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of SWIFT J174540.2-290037 (trigger# 689956;
+Barthelmy, et al., GCN Circ. 19514).  The BAT ground-calculated position is
+RA, Dec = 266.408, -29.063 deg which is
+  RA(J2000)  =  17h 45m 37.9s
+  Dec(J2000) = -29d 03' 45.9"
+with an uncertainty of 2.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 99%.
+
+The mask-weighted light curve shows some weak emissions that starts
+before the source came into the BAT field of view, and extends beyond the end
+of the event data range. The Bayesian-block analysis failed to find the duration
+due to the lack of obvious light curve structure.
+
+The time-averaged spectrum from T+0.0 to T+944.0 sec is better-fitted by a
+simple power-law model, in comparison to the cutoff power-law model. However,
+with the null hypothesis probability of only ~ 0.05 for both of these models, neither
+of them seem to well describe the spectrum. Using the simple power-law model,
+the power law index of the time-averaged spectrum is 1.82 +- 0.16.  The fluence
+in the 15-150 keV band is 3.3 +- 0.3 x 10^-6 erg/cm2. All the quoted errors are
+at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/689956/BA/

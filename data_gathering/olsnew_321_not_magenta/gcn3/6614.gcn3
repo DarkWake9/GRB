@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6614
+SUBJECT: Updated Swift/UVOT calibration
+DATE:    07/07/09 12:34:36 GMT
+FROM:    Alice Breeveld at MSSL-UCL  <aad@mssl.ucl.ac.uk>
+
+A. Breeveld (MSSL/UCL) reports on behalf of the Swift/UVOT team:
+
+A new, improved calibration for all the UVOT broadband filters (u, b, v, 
+uvw1, uvm2, uvw2 and white) has been released by the HEASARC. The new 
+calibration includes updated zero points, coincidence loss formula, 
+filter effective areas, colour transformations and count rate to flux 
+transformations. The latest CALDB files and documentation can be 
+downloaded from:
+http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/swift/
+
+For filters u, b and v the zero points are consistent with the previous 
+zero points within the previous quoted error, but the uv and white zero 
+points have changed more significantly, by up to 0.5 mag (white). Please 
+be aware that from now on the UVOT magnitudes given in GCNs sent out by 
+the Swift UVOT team will be calculated using these zero points. The 
+quoted magnitudes are in the UVOT instrumental system (lower case u, b, 
+v) and can be converted to Johnson U, B, V magnitudes using the colour 
+transformations. The differences between UVOT magnitudes and Johnson are 
+most significant in the u filter but are generally small.
+

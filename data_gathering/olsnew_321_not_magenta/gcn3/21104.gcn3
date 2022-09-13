@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21104
+SUBJECT: LIGO/Virgo G277583: UH88/SNIFS classification of ATLAS and PS1 transients
+DATE:    17/05/18 16:34:12 GMT
+FROM:    Ken Smith at Queen's U,Belfast  <k.w.smith@qub.ac.uk>
+
+M. E. Huber, K. W. Smith, P. Clark, D. O'Neill (QUB), T. Lowe (IfA), K. C. Chambers (IfA), E. Kankare (QUB), J. Tonry, L. Denneau, A. Heinze, B. Stalder, H. Weiland (IfA), S. J. Smartt, D. E. Wright, D. R. Young (QUB), H. Flewelling, E. A. Magnier, A. S. B. Schultz, C. Waters, R. J. Wainscoat, M. Willman (IfA), C. W. Stubbs (Harvard), A. Rest (STScI), T.-W. Chen (MPE), M. Coughlin (Harvard), R. Kotak (QUB), K. Maguire (QUB)
+
+Further to GCN 20881, the following transients were discovered by ATLAS and Pan-STARRS1 during normal operations imaging through the skymap (Cho et al.  GCN 20860) of G277583, the possible coherent wave burst of 20170313 (MJD=57825.94).  Spectra were taken with the UH88/SNIFS on the dates noted below.  Four objects have discovery dates before the G277583 detection time, but are reported here for completeness. 
+
+name       TNS name  ra          dec         disc mjd disc mag PC type    z    specdate Notes  
+PS17bra    SN2017byn 10:38:15.58 +15:13:59.7 57816.41 19.15 c  90 Ia     0.1   20170418   1.
+PS17buq    SN2017cgt 09:01:46.98 +33:12:03.5 57817.30 18.78 c  70 Ia     0.060 20170404   2.
+ATLAS17czq SN2017cij 10:01:26.16 +18:01:47.0 57817.40 19.12 c  80 Ia     0.067 20170328   3.
+ATLAS17czg SN2017cil 15:38:49.11 +24:35:39.8 57817.59 19.08 c  70 Ib     0.039 20170328   4.
+PS17bvw    SN2017cms 11:57:51.71 -23:57:22.0 57828.42 18.65 i  90 Ia     0.054 20170420   5.
+ATLAS17czi SN2017cik 07:54:13.07 +21:47:36.0 57829.34 18.64 o  60 IIn    0.015 20170408   6.
+ATLAS17czf SN2017ciu 15:50:11.30 +32:22:53.6 57829.63 18.78 o  80 Ia     0.070 20170410   7.
+ATLAS17cqi SN2017cgg 08:28:40.38 +38:57:24.3 57830.34 17.59 o  90 Ia     0.038 20170328   8.
+PS17bxh    SN2017cls 16:08:45.04 +57:50:55.9 57830.59 18.39 o  90 Ia     0.080 20170328   9.
+PS17byj    SN2017cnb 10:56:23.77 +09:45:18.6 57831.43 20.73 i  90 Ia     0.061 20170420  10.
+ATLAS17czr SN2017cio 07:38:34.92 +37:38:25.0 57834.34 18.12 c  70 II     0.013 20170328  11.
+ATLAS17dzk SN2017daj 16:11:48.11 +60:35:09.4 57834.60 18.80 c  90 II     0.014 20170421  12.
+ATLAS17dhv SN2017col 10:53:35.97 +06:43:11.3 57836.45 18.98 c  90 Ia     0.055 20170419  13.
+ATLAS17dks SN2017ctt 15:30:01.97 +14:57:22.1 57841.54 18.44 c  80 Ia     0.090 20170410  14.
+ATLAS17dkf SN2017csc 15:24:12.30 +03:58:38.2 57844.57 18.17 c  90 Ic     0.023 20170421  15.
+PS17ciu    SN2017ddl 16:23:20.79 -13:44:24.1 57847.56 17.19 w  70              20170421  16.
+ATLAS17doh SN2017cwz 16:00:04.56 +35:43:06.8 57850.50 17.31 o  90 Ia-91T 0.050 20170410  17.
+ATLAS17dul AT2017cyd 06:40:14.00 +04:08:08.7 57852.24 17.60 o  80              20170418  18.
+   -       SN2017dgj 11:57:51.53 -23:57:24.2 57863.27 ~19.5 V  90 II     0.054 20170420  19.
+
+PC = probability contour within which the object lies 
+
+Notes
+
+ 1. Registered on TNS as PS17bra, but actually discovered a day earlier by ATLAS as ATLAS17dip, so ATLAS photometry is listed. +11 to +20 days.
+ 2. SNIa or SNIa-91T, +2 weeks.  Registered on TNS as PS17buq, but actually discovered 8 days earlier by ATLAS as ATLAS17cxv, so ATLAS photometry is listed.
+ 3. Around +2 weeks.
+ 4. SNIb-pec? +1 week.
+ 5. Redshift from SDSS. SNIFS spectrum inconclusive, but observed again on 20170422 at NTT.  NTT spectrum reported above. See ATel #10315.
+ 6. Narrow Halpha and He I. Nice 20 day rise, discovery 3.5 days after GW170313. No clear epoch based on SNID, based on light curve rising or near peak. At z=0.015 the most recent magnitude o = 17.2 corresponds to roughly -17 mag, therefore more likely a Type IIn than a SN impostor. See also classification by at NTT on 20170423 in ATel #10318.
+ 7. +11 to +20 days.
+ 8. Around peak.
+ 9. Around peak.  Registered on TNS as PS17bxh, but discovered 14 minutes earlier by ATLAS as ATLAS17deq, so ATLAS photometry is listed.
+10. Redshift from SDSS. +8 to +10 days.
+11. Redshift from SDSS.  Around peak.  Confirmed as SNII on 20170510 by LOSS.  See TNS report.
+12. > +20 days.
+13. Redshift from SDSS. +11 to +20 days.
+14. +11 to +20 days.  Also observed by NTT on 20170423 with NTT.  See ATel #10318.
+15. > +20 days. Also observed by FLOYDS on 20170504. See TNS report.
+16. Noisy spectrum, no clear features, blue continuum. Confirmed as stellar by NTT observation on 20170429.  See ATel #10334.
+17. –7 to –4 days. Forced photometry shows activity on MJD 57829.
+18. Flat, featureless continuum. Classification unclear.
+19. Redshift from SDSS. Discovered serendipitously when observing 2017cms. SNIFS spectrum inconclusive, but observed again on 20170422 at NTT. NTT spectrum reported above. See ATel #10315.
+
+

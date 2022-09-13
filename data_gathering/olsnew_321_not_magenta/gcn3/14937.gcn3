@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14937
+SUBJECT: GRB 130626A: Swift-XRT possible detection and UVOT upper limits
+DATE:    13/06/27 13:31:45 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+K.L. Page (U. Leicester), S.R. Oates (UCL-MSSL) and M. De Pasquale
+(UCL-MSSL) report on behalf of the Swift-XRT and UVOT teams:
+
+We have analysed 9.5 ks of Swift-XRT Photon Counting mode data collected
+for GRB 130626A, starting 111 s after the trigger (De Pasquale et al., GCN
+Circ. 14931). Of these data, only 10s were collected promptly following
+the trigger before Swift had to slew away because of a pointing
+constraint.
+
+Within the onboard BAT error circle, there is a possible source detected,
+with a count rate (averaged between 111 s and 34.7 ks after the trigger)
+of (2.0 +0.5/-0.4) x 10^-3 count s^-1. The position of this source is RA,
+Dec = 273.14043, -9.50093, which is equivalent to:
+
+RA (J2000):   18h 12m 33.70s
+Dec (J2000): -09d 30' 03.3"
+
+with an uncertainty of 5.5 arcsec (radius, 90% confidence). It is not
+possible to determine whether this candidate source is fading at present;
+a follow-up observation will be performed at a later date.
+
+We do note, however, that there are other possible sources detected at a
+similar level in the XRT field of view, although outside the BAT error
+circle.
+
+The Swift-UVOT began settled observations of the field of GRB 130626A
+67 s after the BAT trigger (De Pasquale et al., GCN Circ. 14931).
+In the initial UVOT exposures, no optical afterglow is found within
+the BAT error circle or consistent with the candidate XRT position.
+Preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the initial
+exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white (FC)          67          124          57          >20.5
+white               67         5608          597         >22.0
+v                 4384         5892          269         >19.8
+b                 3768         5403          393         >21.1
+u                 3563         5198          393         >20.7
+w1                4794         4993          197         >20.1
+
+The magnitudes in the table are not corrected for the heavy, but
+uncertain, Galactic extinction due to the reddening of E(B-V) = 1.45 in
+the direction of the burst (Schlegel et al. 1998).
+
+This circular is an official product of the Swift-XRT and UVOT teams.
+

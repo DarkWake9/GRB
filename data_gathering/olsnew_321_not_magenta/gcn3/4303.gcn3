@@ -1,0 +1,37 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4303
+SUBJECT: GRB051117b: No Swift/UVOT Detection
+DATE:    05/11/24 15:11:02 GMT
+FROM:    Tracey Poole at MSSL  <tsp@mssl.ucl.ac.uk>
+
+T. S. Poole (UCL-MSSL), S. T. Holland (GSFC), D. Band (GSFC),
+P. Boyd (GSFC-UMBC) & J. Nousek (PSU) on behalf of the Swift/UVOT team
+report:
+
+The Swift-Ultra-Violet/Optical Telescope (UVOT) began observing the
+field of GRB 051117b (BAT Trigger=164279; Band et. al. GCN 4281) at
+2005-11-17 13:22:54 UT, 133 seconds after the burst.
+
+No new source is detected within the 4 arcsec radius XRT error circle at
+position RA=5h 40m 43s, Dec=-19d 16' 26.2" (Beardmore et. al. GCN 4282)
+in any of the UVOT filters down to the following co-added 5 sigma
+magnitude upper limits:
+
+Filter   T_range (sec)   Exp (sec)   5-sigma
+V        133-24975       5236        20.53
+B        499-1608        199         19.59
+U        445-7019        311         19.66
+UVW1     391-366901      1099        21.00
+UVM2     277-5993        1110        21.08
+UVW2     608-1713        2340        23.24
+WHITE    553-982         100         19.49
+
+Where T_range is time post-trigger, and T_exp is the exposure time of
+the observation. A 6 arcsec aperture was used for all filters.
+
+These values are not corrected for Galactic extinction.
+
+This message may be cited.
+
+
+

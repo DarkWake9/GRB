@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25465
+SUBJECT: Fermi GBM-190816: Updated localization of subthreshold GRB-GW candidate
+DATE:    19/08/24 16:42:36 GMT
+FROM:    Peter Shawhan at U of Maryland/LSC  <pshawhan@umd.edu>
+
+The LIGO Scientific Collaboration, the Virgo Collaboration, and the
+Fermi GBM team report:
+
+LSC and Virgo members have conducted further analysis of the LIGO and
+Virgo data around the time of the possible compact binary coalescence
+(CBC) candidate described in GCN Circular 25406. Parameter estimation
+has been performed using LALInference [1] to produce a new sky map.
+
+Fermi GBM data has also been re-analyzed utilizing the GBM targeted
+search [2,3] on finer timescales to optimize the source window for a
+refined localization. The current preferred GBM localization is
+broadly consistent with the original localization, but the highest
+probability region has shifted.
+
+A new joint sky map has been produced. The joint localization is
+concentrated in similar areas of the sky but the high-probability
+regions have shifted significantly. The 90% error region area is 3219
+sq. deg. while the 50% error region area is 744 sq. deg. This sky map
+is available with the file name GBM-190816-with-LV-v2.fits on the
+OpenLVEM wiki page at
+
+https://wiki.gw-astronomy.org/OpenLVEM/FermiGBM-LVC
+
+There is no change at this time in our assessment of the significance
+of either the potential short GRB or the GW trigger. Both remain
+sub-threshold individually; the estimated joint false alarm rate is on
+the order of the usual LIGO-Virgo public alert threshold of 1 per 2
+months.
+
+[1] Veitch, et al. PRD 91, 042003 (2015)
+[2] Blackburn et al. 2015, ApJS 217, 8
+[3] Goldstein et al. arXiv:1903.12597

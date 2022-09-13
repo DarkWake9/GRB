@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9417
+SUBJECT: GRB 090520 Swift-BAT detection of a burst in ground analysis
+DATE:    09/05/21 21:04:47 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+J. R. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), E. E. Fenimore (LANL),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC/UMD), D. M. Palmer (LANL),
+A. M. Parsons (GSFC), T. Sakamoto (GSFC/UMBC),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+
+On May 20, 2009 at 01:37:16 UT, BAT triggered on GRB 090520
+(trigger #352671).  The burst was weak, and the instrument 
+failed to find a source in onboard analysis.  A significant 
+source was found in ground analysis.  The source is located at 
+RA, Dec 11.613, -8.000 deg, which is
+
+   RA(J2000)  =  00h 46m 27.1s
+   Dec(J2000) = -08d 00' 00"
+with an uncertainty of 3 arcmin (radius, sys+stat, 90% 
+containment). The partial coding was 48%.
+
+The burst consisted of a single FRED pulse, starting about
+T-2 seconds, with a T90 of 20 ± 5 seconds (estimated error 
+including systematics).
+
+The BAT event data for failed triggers is limited to 10 seconds.  
+Using 10 seconds of event data from T-2 to T+8 seconds, the
+best fit to the spectrum is a simple powerlaw with a photon
+index of 0.8 +- 0.2.  The fluence for this interval in the
+15-150 keV band was 3.4 ± 0.5 x 10-7 ergs/cm2 
+(68% confidence).
+
+The BAT source position was about 3 arcmin from a low-redshift
+galaxy, 6dFGS gJ004613.4-080000.  This is an emission-line 
+galaxy at z = 0.0850.
+
+A Swift TOO was requested, but initially the source was in the
+Swift Moon constraint.  In any case was 52 degrees (~2.5 hours 
+in RA) from the Sun, not in constraint, but still an unfavorable 
+angle, so no Swift followup observation is planned.
+
+
+

@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15695
+SUBJECT: Swift-BAT triggered on KS 1947+300
+DATE:    14/01/07 00:06:19 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), M. M. Chester (PSU), V. D'Elia (ASDC),
+D. Malesani (DARK/NBI), B. Sbarufatti (INAF-OAB/PSU) and
+B.-B. Zhang (UAH) report on behalf of the Swift Team:
+
+At 23:21:08 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located KS_1947+300 (trigger=583105).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 297.350, +30.231 which is 
+   RA(J2000)  =  19h 49m 24s
+   Dec(J2000) = +30d 13' 52"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This is a very low significance image trigger. 
+
+The XRT began observing the field at 23:36:42.6 UT, 934.1 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright X-ray
+source located at RA, Dec 297.39826, 30.20855 which is equivalent to:
+   RA(J2000)  = 19h 49m 35.58s
+   Dec(J2000) = +30d 12' 30.8"
+with an uncertainty of 3.7 arcseconds (radius, 90% containment). This
+location is 170 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. This position is 1.5 arcseconds from that
+of known X-ray source KS 1947+300. No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 8.90
+x 10^21 cm^-2 (Kalberla et al. 2005). 
+
+The initial flux in the 2.5 s image was 5.46e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of nominal 150 seconds with the 
+White  filter starting 942 seconds after the BAT trigger. The initial
+images are consistent with the identification of the source as KS
+1947+300.  Because of the  density of catalogued stars and the large
+but uncertain extinction in the direction of the source, further
+analysis is required to report photometric measurements. 
+
+The GCN notices were the result of a known race condition in the BAT
+on-board software causing a misidentification of the source. 
+The ground processing correctly identified the source as 
+KS 1947+300, which is currently in outburst (Kawagoe et al.,
+ATEL #5438) and is continually seen by BAT (see
+http://swift.gsfc.nasa.gov/results/transients/weak/KS1947p300/
+for the current light curve). 
+

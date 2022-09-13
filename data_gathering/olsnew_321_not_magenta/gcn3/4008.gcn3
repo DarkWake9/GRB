@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4008
+SUBJECT: GRB050922B: Swift-BAT detection of a weak long burst
+DATE:    05/09/22 16:13:40 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+J. Norris (GSFC), L. Barbier (GSFC), S. Barthelmy (GSFC), P. Boyd (GSFC),
+D. Burrows (PSU), J. Cummings (GSFC/NRC), N. Gehrels (GSFC),
+S.T. Holland (GSFC/USRA), J. Kennea (PSU), H. Krimm (GSFC/USRA),
+F. Marshall (GSFC), O. Godet (U. Leicester), D. Palmer (LANL),
+T. Sakamoto (GSFC)
+on behalf of the Swift team:
+
+At 15:02:00 UT, Swift-BAT triggered and located GRB050922B (trigger=156434).
+This was an image trigger with a 168-sec duration.  The spacecraft slewed
+immediately after the end of the image trigger.  The BAT on-board
+calculated location is RA,Dec 5.800d,-5.599d {00h 23m 12s,-05d 35' 55"} (J2000),
+with an uncertainty of 3 arcmin (radius, 90% containment, stat+sys).
+The TDRSS lightcurve does not show any significant emission, but these
+lightcurves are problematic for long image triggers.  We will have to wait
+for the full Malindi data set (~8 hrs) to make a mask-tagged lightcurve.
+We note that this source is at a high galactic latitude of -67 degrees.
+We also note that the recent long-duration image trigger GRB 050904
+was at high redshift.
+
+XRT began observing the field at 15:07:42, 342 seconds after the BAT trigger.
+Onboard centroiding found a bright fading uncatalogued X-ray source
+in the field of view at the following coordinates:
+RA(J2000):   0:23:13.3,
+Dec(J2000): -5:36:12.9.
+We estimate the uncertainty of this position to be 8 arcseconds (radius, 90% 
+containment).  This position is 26 arcseconds from the BAT position above. 
+
+UVOT began observing at 343 sec after the trigger.  The small UVOT TDRSS image
+does not overlap the BAT error circle.   However, the full-field UVOT source
+list contains only catalogued sources, in particular no source is found inside
+the XRT error circle.  At the present time it is not possible to determine
+a limiting magnitude for this field.  The V-band extinction in this direction
+is A_V = 0.12 mag.
+

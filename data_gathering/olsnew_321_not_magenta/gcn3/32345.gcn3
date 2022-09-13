@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32345
+SUBJECT: GRB 220708B: Swift/BAT-GUANO arcminute localization
+DATE:    22/07/08 10:11:30 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+Aaron Tohuvavohu (U Toronto), James DeLaunay (UAlabama), Gayathri
+Raman (PSU), Jamie A. Kennea (PSU), report:
+
+Swift/BAT did not localize GRB 220708B onboard (T0:
+2022-07-08T02:06:67 UTC, CALET trig #1341281218).
+
+The CALET notice, distributed in near real-time, triggered the Swift
+Mission Operations Center operated Gamma-ray Urgent Archiver for Novel
+Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1).
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst
+Alert Telescope (BAT) to save 90 seconds of BAT event-mode data from
+[-45,+45] seconds around the time of the burst. All the requested
+event mode data was delivered to the ground.
+
+The BAT likelihood search, NITRATES (DeLaunay + Tohuvavohu,
+arXiv:2111.01769), detects the burst in a 4.096 s analysis time bin
+with a sqrt(TS) of 41.4.
+The duration of the burst as seen by BAT is ~7 seconds.
+
+A confident arcminute localization is found with DeltaLLHOut of 150
+and a DeltaLLHPeak of 68.
+
+See Section 9.1 and Figure 20 in the NITRATES paper for brief
+descriptions and interpretations of sqrt(TS), DeltaLLHPeak, and
+DeltaLLHOut.
+
+The BAT position is
+RA, Dec = 248.652, 36.338 deg which is
+   RA(J2000)  = 16h 34m 36.48s
+   Dec(J2000) = +36d 20′ 16.8″
+with an estimated uncertainty of 5 arcmin.
+
+XRT and UVOT follow-up has been requested
+Results of follow-up observations will be reported in future circulars.
+
+GUANO is a fully autonomous, extremely low latency, spacecraft
+commanding pipeline designed for targeted recovery of BAT event mode
+data around the times of compelling astrophysical events to enable
+more sensitive GRB searches.
+
+A live reporting of Swift/BAT event data recovered by GUANO can be
+found at: https://www.swift.psu.edu/guano/
+

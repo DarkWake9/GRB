@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25628
+SUBJECT: LIGO/Virgo S190828j: no counterpart candidate in the SVOM/GWAC observations
+DATE:    19/09/03 12:39:53 GMT
+FROM:    Nicolas Dagoneau at CEA/IRFU/DAp/SVOM  <nicolas.dagoneau@cea.fr>
+
+J. Y. Wei (NAOC), X. H. Han (NAOC), N. Dagoneau (CEA/AIM), J. Wang (GXU),
+N. Leroy (CNRS/LAL)
+
+on behalf of the SVOM Multi Messenger Astronomy and GWAC teams:
+http://www.svom.fr/en/svom-mma-and-gwac-team
+
+We observed 9 sky regions (total: 1350 square degrees with overlaps)
+to cover the skymap of the advanced LIGO/Virgo trigger S190828j,
+with SVOM/GWAC, at Xinglong Observatory equipped with a set of two
+types of wide angle cameras: FFOV cameras (FOV~900 square degrees/camera,
+aperture = 3.5 cm) and JFOV cameras (FOV~150 square degrees/camera,
+aperture = 18 cm). SVOM/GWAC currently comprises 4 FFOV cameras and
+16 JFOV cameras, working with unfiltered band. The observations are
+operated in time-series mode, taking one exposure every 25 seconds
+(20s exposure + 5s readout). We estimate a 19.6% prior probability
+that the 9 observed and processed regions contain the true location of
+the source. The images were taken between ~5.5 hours and ~13 hours after
+the event trigger time.
+
+The coordinates of the 9 sky regions and observation times are listed
+below:
+
+No. Ra  Dec start-obs(UTC)  end-obs(UTC)    Camera_TYPE
+
+1 01:43:32.26 64:07:03.00 2019-08-28 13:53:25 2019-08-28 16:51:08 JFOV
+2 00:07:40.03 51:45:14.40 2019-08-28 16:41:24 2019-08-28 16:44:15 JFOV
+3 00:13:04.03 64:02:39.84 2019-08-28 17:05:25 2019-08-28 17:22:48 JFOV
+4 21:27:48.00 47:17:53.52 2019-08-28 13:03:27 2019-08-28 13:05:53 JFOV
+5 20:43:28.32 -1:13:58.98 2019-08-28 13:20:46 2019-08-28 13:35:19 JFOV
+6 21:18:27.60 13:20:15.00 2019-08-28 16:08:33 2019-08-28 16:19:54 JFOV
+7 20:50:18.72 63:41:09.96 2019-08-28 13:30:52 2019-08-28 13:35:43 JFOV
+8 21:59:13.44 48:02:44.52 2019-08-28 13:40:52 2019-08-28 14:06:20 JFOV
+9 22:05:10.08 34:10:09.48 2019-08-28 12:08:19 2019-08-28 19:00:58 JFOV
+
+The sky coverage map is available at: 
+http://cmm.svom.cn/gwpub/O3/S190828j/S190828j.png 
+(user:svomo3 pwd:gwo3)
+
+The weather conditions were hazy during the observations. A 3 sigma 
+limiting magnitude of about 16.3 mag in R band was obtained in the single 
+frames. No credible new source is detected by our online pipeline during 
+follow-up observations. A more detailed image analysis including
+co-addition is ongoing with our offline pipeline to search for transient
+candidates.
+

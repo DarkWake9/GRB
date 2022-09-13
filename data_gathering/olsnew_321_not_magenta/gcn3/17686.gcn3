@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17686
+SUBJECT: Swift detection of SAX J1808.4-3658
+DATE:    15/04/11 19:57:28 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+D. Malesani (DARK/NBI), D. M. Palmer (LANL) and T. N. Ukwatta (LANL)
+report on behalf of the Swift Team:
+
+At 19:36:25 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a burst from SAX J1808.4-3658 (trigger=637765).  Swift slewed
+immediately to the burst.  The BAT on-board calculated location is 
+RA, Dec 272.073, -36.974 which is 
+   RA(J2000) = 18h 08m 18s
+   Dec(J2000) = -36d 58' 27"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a double-peaked
+structure with a duration of about 20 sec.  The peak count rate
+was ~2400 counts/sec (15-350 keV), at ~6 sec after the trigger. 
+
+The XRT began observing the field at 19:37:11.2 UT, 46.1 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+272.1135, -36.9774 which is equivalent to:
+   RA(J2000)  = +18h 08m 27.24s
+   Dec(J2000) = -36d 58' 38.6"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 117 arcseconds from the BAT onboard position, within the
+BAT error circle. This position is 6.7 arcseconds from a known X-ray
+source: SAX J1808.4-3658. This source is in the Swift XRT 1SXPS
+catalogue with a mean 0.3-10 keV count-rate of 0.3550 +/- 0.0038
+ct/sec; see http://www.swift.ac.uk/1SXPS/1SXPSJ180827.6-365843 for
+details of these previous observations. No event data are yet available
+to determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 6.62e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 54 seconds after the BAT trigger. The source is clearly visible
+in the UVOT image, but the crowded field prevents automatic estimation
+of its brightness at this time. 
+
+This source is currently in outburst (Sanna et al., ATel 7364). 
+Its BAT lightcurve is given at
+http://swift.gsfc.nasa.gov/results/transients/weak/SAXJ1808.4-3658/
+

@@ -1,0 +1,82 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7145
+SUBJECT: GRB 070429B: Possible UVOT Detection of an Optical Afterglow
+DATE:    07/12/10 15:32:47 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+Holland, S. T. (CRESST/USRA/GSFC), de Pasquale, M. (UCL/MSSL), and
+Markwardt, C.~B. (CRESST/GSFC/UMD) report on behalf of the Swift/UVOT
+team:
+
+      The Swift/UVOT observed the field of the short-hard GRB 070429B
+starting 230 s after the BAT trigger (Markwardt, et al., GCN
+Circ. 6358).  We have re-examined this data in light of the redshift
+for the Antonelli, et al. (GCN Circ. 6372) source "A" reported by
+Perley, et al. (GCN Circ. 7140).  We find weak evidence in the UVOT
+data for a fading source located inside the refined XRT error circle
+(Beardmore, et al., GCN Circ. 6360) at
+
+       RA =  21:52:03.68 (J2000)
+      Dec = -38:49:43.6  (J2000)
+
+with an uncertainty of 0.6 arcsec (90% confidence).  This is 0.6
+arcsec from the ground-based position of source "A".  For a redshift
+of z = 0.904, and (H_0,Omega_M,Omega_Lambda) = (70,0.3,0.7) this
+corresponds to 4.7 proper kpc.  This possible source is detected with
+a 3.9-sigma significance in a summed image (summed over all seven
+filters) between 591 and 2661 s after the BAT trigger.  It is not
+detected in subsequent all-filter summed images.  This possible UVOT
+source has the following magnitudes and upper limits.  All magnitudes
+are on the UVOT system described in Poole, et al. (2007, MNRAS, in
+press).
+
+Filter    T_start   T_stop   Exposure    Mag   Err  Significance
+    v         2002     2661      94       19.3  0.4      2.5
+              6805     7004     393      >20.1  3-sigma upper limit
+    b         1460     2598     156       20.5  0.5      2.2
+            34,978   35,884     885      >22.0  3-sigma upper limit
+    u          403   42,285    2260      >21.8  3-sigma upper limit
+   uvw1        379   41,789    3075      >22.4  3-sigma upper limit
+   uvm2        354   20,226    2192      >22.0  3-sigma upper limit
+   uvw2        456   30,222    2378      >22.4  3-sigma upper limit
+  white        591      977     117       21.6  0.5      2.2
+              6395     8027     393      >22.1  3-sigma upper limit
+
+      The observations where the suspected source is weakly detected
+are all at less than one hour after the BAT trigger.  The earliest
+reported ground-based detection of source "A" is Cucchiara, et
+al. (GCN Circ. 6368) who find r = 23.18 +/- 0.15 at approximately 4
+hours.  Perley, et al. (GCN Circ. 7140) find R = 23.24 +/- 0.05 at
+approximately 7 months, which implies that the source did not fade,
+and conclude that the "A" source is the host galaxy.  They also find g
+= 24.29 +/- 0.14 at this time.  If we assume that the SDSS g band is
+approximately similar to the UVOT v band then the expected v magnitude
+of the host at 2332 s (assuming a constant magnitude) is v ~= 24.3,
+which is 5 mag fainter than the UVOT detection at that time.  This
+corresponds to a mean decay index of alpha ~= -2.5.
+
+      The observed decay power-law indices from the UVOT data are
+alpha_v <= -0.6 +/- 0.3, alpha_b <= -0.5 +/- 0.2, and alpha_white <=
+-0.2 +/- 0.2.  The shallow decay slope in the white filter, and the
+faintness of the White detection at early time (t_mid = 784 s)
+relative to the b and v detections at later times (t_mid = 2332 (v),
+2029 (b)) suggest that the afterglow candidate may have increased in
+luminosity at some point between approximately 784 and 2029 s.
+
+      We do not detect any source at the position of source "B"
+(Antonelli, et al., GCN Circ. 6372) down to the following limiting
+magnitudes.
+
+Filter    T_start   T_stop   Exposure    3-Sigma Upper Limit
+    v         230    31,793     2011        >21.5
+    b         427    35,115     1463        >22.3
+    u         403    42,285     2260        >21.9
+  uvw1        379    41,789     3075        >22.4
+  uvm2        354    20,226     2192        >22.0
+  uvw2        456    30,222     2378        >22.4
+  white       247    36,269     1088        >22.7
+
+      The values quoted above are not corrected for the expected
+Galactic extinction corresponding to a reddening of E_{B-V} = 0.03 mag
+(Schlegel, et al. 1998).
+

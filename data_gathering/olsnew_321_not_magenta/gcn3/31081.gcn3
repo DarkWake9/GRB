@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31081
+SUBJECT: GRB 211023A: classification and SPI-ACS/INTEGRAL registration
+DATE:    21/11/13 19:43:24 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+P. Minaev (IKI), A. Pozanenko (IKI), S. Grebenev (IKI), I. Chelovekov 
+(IKI) report on behalf of GRB IKI FuN
+
+We analyzed GRB 211023A (Di Lalla et al. GCN 30961; Lesage et al. GCN 
+30965; Ursi et al. GCN 30969; Ridnaia et al. GCN 31022) using publicly 
+available data of GBM/Fermi and SPI-ACS/INTEGRAL.
+
+Using GBM/Fermi we clearly detect early emission, starting about 80 s 
+before the GBM trigger. The extended emission (possibly associated with 
+the activity detected by LAT, Di Lalla et al. GCN 30961, and/or its 
+extremely bright afterglow, Zhirkov et al. GCN 30977; Kann et al. GCN 
+30982) was also found, becoming dominant since approximately 150 s the 
+trigger. Thus, a time profile consists of three episodes with a total 
+burst duration of more than 300 s in GBM/Fermi (7 - 850 keV), while T90 
+= 117 +/- 0.5 s. GRB 211023A was also registered by SPI-ACS/INTEGRAL 
+with marginal detection of the early and the extended emission (T90 = 
+120 +/- 9 s). Time profiles of GBM and SPI-ACS are presented at 
+http://grb.rssi.ru/GRB211023A/GRB211023A_GBM_ACS_light_curve.png
+
+We performed spectral analysis of the burst using GBM/Fermi data in the 
+time interval of (-20, 160) s after the GBM trigger, covering the main 
+part of GRB activity. The best parameters of Band model are following: 
+Ep = 96 +/- 5 keV, alpha = -1.67 +/- 0.03, beta = -2.21 +/- 0.05 and 
+fluence F = (1.341 +/- 0.004)*10^-4 erg/cm^2 in 10 - 1000 keV range. 
+Assuming a redshift z = 0.390 (Pozanenko et al., GCN 31053) we estimated 
+Eiso = (7.45 +/- 0.05)*10^52 erg in the 1 keV - 10 MeV energy band.
+
+The position of the burst at Ep,i - Eiso and T90,i - EH diagram [1,2] is 
+shown by black annuli at
+http://grb.rssi.ru/GRB211023A/GRB211023A_Ep-Eiso_two_episodes_SN.png
+and
+http://grb.rssi.ru/GRB211023A/GRB211023A_EHD_two_episoses_SN.png
+
+The position is typical for type II (long) GRBs, although it is in the 
+lower bound of their 2 sigma correlation region. This is because of its 
+relatively low value of the Ep,i parameter. Note that low values of Ep,i 
+are typical for the nearby bursts (z < 0.5), associated with supernovae 
+(shown by red annuli at
+http://grb.rssi.ru/GRB211023A/GRB211023A_Ep-Eiso_two_episodes_SN.png
+and
+http://grb.rssi.ru/GRB211023A/GRB211023A_EHD_two_episoses_SN.png )
+
+[1] - Minaev et al., MNRAS, 492, 1919, 2020
+[2] - Minaev et al., Astronomy Letters, 46, 9, 573, 2020
+

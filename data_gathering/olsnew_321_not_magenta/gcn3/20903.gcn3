@@ -1,0 +1,97 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20903
+SUBJECT: IceCube-170312A: MASTER follow-up observations 
+DATE:    17/03/18 10:12:27 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+  N.V.Tyurina, V.M. Lipunov,  E.S. Gorbovskoy, A.S.Kuznetsov,
+P.Balanutsa, V.V.Vladimirov, V.V.Chazov, D.Kuvshinov
+Lomonosov Moscow State University, Sternberg Astronomical Institute
+
+D.Buckley, S. Potter, A.Kniazev, M.Kotze,
+South African Astronomical Observatory
+
+R. Rebolo, M. Serra-Ricart, N. Lodieu, G. Israelian, L. Suarez-Andres
+The Instituto de Astrofisica de Canarias
+
+K.Ivanov, O.Gress, N.M.Budnev, S.Yazev, O.Chuvalaev, V.A.Poleshchuk,
+Irkutsk State University
+
+A. Tlatov,  V.Senik, D. Dormidontov,
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+H. Levato, C. Saffe,
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+R. Podesta, C. Lopez,  F.Podest
+Observatorio Astronomico Felix Aguilar (OAFA)
+
+A.Gabovich, V.Yurkov, Yu.Sergienko
+Blagoveschensk Educational State University, Blagoveschensk
+
+MASTER Global Robotic Net was starting inspection of IceCube HESE neutrino 
+alert  IceCube-170312A  (Blaufuss et al. GCN #20857: RA(2000)= 305.15 
+-26.61, Triggertime= 2017-03-12 13:49:39.83 UT)
+on 2017-03-13 02:06:34UT at MASTER-SAAO (Object: Altitude: 20.35, Sun: 
+Altitude: -30.72,Dist. to Moon: 123.282677, Moon disk: 0.997328)
+and on 2017-03-14 08:38:51UT at MASTER-OAFA (Object: Altitude: 27.61, Sun: 
+Altitude: -25.02,Dist. to Moon: 107.465652, Moon disk: 0.968195).
+MASTER-II is 2x4sq.degrees (Lipunov et al., 2010, Advances in Astronomy, 
+2010, 30L)
+
+At alert time the state at MASTER observatories are:
+MASTER-Amur            Object: Altitude: -61.72 Sun: Altitude: -37.55
+MASTER-Tunka           Object: Altitude: -64.60 Sun: Altitude: -25.23
+MASTER-Kislovodsk      Object: Altitude: -35.78 Sun: Altitude:  13.57
+MASTER-SAAO            Object: Altitude:  11.19 Sun: Altitude:  37.97, 
+inspect on13 Mar, mlim=19.2, 20 images
+MASTEC-IAC(Tenerife)   Object: Altitude:  13.06 Sun: Altitude:  57.41
+MASTER-OAFA(Argentina) Object: Altitude:  84.05 Sun: Altitude:  39.69, 
+inspect on 13,19 Mar, mlim=18.5-19.1, 16 images
+
+MASTER auto-detection software doesn't detect optical transient, that can 
+be connected with IC alert.
+
+We analized SWIFT Xray sources (Keivani et al., GCN#20890)
+
+1) 20 21 21.41 -26 01 32.3
+There is no optical sources up to unfiltered mlim=19.2 during MASTER-SAAO 
+inspection of this IC170312 alert on 2017-03-13 02:37:14UT, and mlim=18.5 
+(2017-03-14 08:38:51UT), mlim=18.7(2017-03-18 07:38:23UT) in MASTER-OAFA .
+There is a faint MASTER optical detection with m<< (unfiltered mlim=19.9) 
+in MASTER-IAC database on 2016-07-28 00:13:46UT.
+The nearest optical source in VIZIER database is in 5.5", also GALEX 
+source(offset is 6.7").
+
+2)20 21 54.52 -26 04 12.0
+There is a variable optical source in MASTER database (17.5-18.7 
+MASTER-IAC, MASTER-SAAO) with m_OT=18.3 on 2017-03-13 02:59:57.059UT 
+(MASTER-SAAO)
+
+There is a GALEX source in 2.6", also optical (USNO,etc) and possible AGN 
+(Secrest+, 2015).
+http://vizier.u-strasbg.fr/viz-bin/VizieR?-source=&-out.add=_r&-out.add=_RAJ%2C_DEJ&-sort=_r&-to=&-out.max=20&-meta.ucd=2&-meta.foot=1&-c=305.47716666667+-26.07&-c.rs=5
+
+3) 20 18 26.4s -26 50 24.6
+Variable optical source in MASTER database :
+m_OT=18.7 on 2017-03-13 02:59:57.059UT (MASTER-SAAO)
+17.8(2016-10-21 00:34:28.062UT) - 18.8 (2017-03-18 07:34:39.474) 
+MASTER-OAFA
+
+4) 20 16 34.69 -26 38 56.6
+There is no optical sources brighter then unfiltered mlim=19.2 during 
+MASTER-SAAO inspection on 2017-03-13 02:24:33UT,
+and in archive images in MASTER-IAC on 2016-07-11 01:42:30UT with 
+mlim=20.2
+There is no sources in VIZIER
+
+5) 20 19 25.94 -26 06 09.9
+There is an optical source in MASTER-SAAO with m_OT~19.3 (mlim=19.5)
+
+There is USNO-B1 star with R1=19.20, B2=20.44 in 1.6", also candidate to 
+AGN (Secrest+, 2015).
+http://vizier.u-strasbg.fr/viz-bin/VizieR?-source=&-out.add=_r&-out.add=_RAJ%2C_DEJ&-sort=_r&-to=&-out.max=20&-meta.ucd=2&-meta.foot=1&-c=304.85808333333+-26.10275&-c.rs=5
+
+
+The message may be cited.
+

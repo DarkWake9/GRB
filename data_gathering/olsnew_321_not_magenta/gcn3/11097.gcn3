@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11097
+SUBJECT: Swift/UVOT Observations of GRB100814A - a clearer table.
+DATE:    10/08/15 09:33:27 GMT
+FROM:    Massimiliano de Pasquale at MSSL-UCL  <mdp@mssl.ucl.ac.uk>
+
+   M. De Pasquale (MSSL-UCL) and C.J. Saxton (MSSL-UCL)
+report on the behalf of the Swift UVOT team:
+
+In the GCN circ 11095 (Swift/UVOT observations of
+GRB100814A) the table containing the information
+on epochs and magnitudes could not be read well because
+of a formatting problem. In the following, we rewrite
+the table with a clearer look.
+
+  We apologize for any inconvenience it might have caused.
+
+
+Filter      T_start   T_stop    Exp(s)      Mag   Err
+----------------------------------------------------------
+    u (fc)    153      403        246      16.80  0.06
+    v         458      627        39       17.91  0.32
+    b         408      721        53       21.22  0.20
+    u         153      701       285       16.84  0.06
+  uvw1        507      676        39       17.33  0.20
+  uvm2        483      651        39       17.86  0.31
+  uvw2        434      602        39      >18.52  3-sigma UL
+  white      3858     4211       344       18.63  0.07
+----------------------------------------------------------
+
+
+[GCN OPS NOTE(15aug10):  Per author's request, the "B" 
+in the Subject line was changed to "A".]
+

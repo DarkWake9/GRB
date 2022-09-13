@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8458
+SUBJECT: SGR 0623-0006 or GRB 081101: Swift-BAT/-XRT refined analysis
+DATE:    08/11/01 16:35:16 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC),
+C. B. Markwardt (GSFC/UMD), D. M. Palmer (LANL), M. Stamatikos (GSFC/ORAU),
+J. Kennea (PSU), V. Mangano (INAF-IASFPa), V. LaParola (INAF-IASFPA),
+P. Romano (INAF-IASFPA), N. P. M. Kuin (MSSL)
+(on behalf of the Swift-BAT/-XRT teams):
+ 
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 081101 (trigger #333320)
+(Stamatikos, et al., GCN Circ. 8457).  The BAT ground-calculated position is
+RA, Dec = 95.836, -0.112 deg, which is 
+   RA(J2000)  =  06h 23m 20.7s 
+   Dec(J2000) = -00d 06' 41.5" 
+with an uncertainty of 1.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 50%.
+ 
+The mask-weighted light curve shows a single spike starting at ~T-0.05 sec,
+peaking at ~T+0.1 sec, and ending by ~T+0.3 sec.
+T90 (15-350 keV) is 0.20 +- 0.02 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T+0.0 to T+0.2 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index -0.24 +- 1.12, 
+and Epeak of 78 +- 34 keV (chi squared 62.8 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 6.2 +- 1.0 x 10^-8 erg/cm2
+and the 1-sec peak flux measured from T-0.38 sec in the 15-150 keV band is
+3.6 +- 0.5 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.25 +- 0.20 (chi squared 69.9 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The BAT results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/333320/BA/
+
+Swift/XRT began observing the field at 13:37:56 UT, 111 minutes after  
+the BAT trigger, and observed the field in photon counting mode for 200 sec.
+No point sources were detected in the field of view.  
+Observations of this field are ongoing.
+
+Given the short single spike form of the BAT lightcurve and the  
+somewhat soft spectral values, this suggests that this is an SGR.
+We can not rule out a GRB explanation of this event.
+

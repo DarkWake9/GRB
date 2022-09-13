@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19148
+SUBJECT: GRB 160303A, Swift-BAT refined analysis
+DATE:    16/03/04 22:56:56 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+T. N. Ukwatta (LANL), S. D. Barthelmy (GSFC), A. P. Beardmore (U Leicester),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), J. P. Norris (BSU),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-61 to T+200 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 160303A (trigger #677495)
+(Beardmore, et al. GCN Circ. 19126).  The BAT ground-calculated position is
+RA, Dec = 168.710, 22.710 deg which is
+  RA(J2000)  =  11h 14m 50.3s
+  Dec(J2000) = +22d 42' 35.1"
+with an uncertainty of 2.1 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 96%.
+
+The mask-weighted light curve shows a short spike that start and peaks at ~T0,
+and ends at ~T+0.4 s. There is a hint of a weak tail that lasts till ~T+5 s
+T90 (15-350 keV) is 5.0 +- 0.8 sec (estimated error including systematics).
+
+Note that for this burst, the auto process generates fairly inconsistent results of the
+burst durations (ranging from T90 of ~ 0.4 s to T90 of ~ 18 s) when using light curves
+with different time bins and/or different length of data range. This is likely due to the
+ambiguous weak-tail feature in the light curve after the short spike.
+
+Thus, we did further checks of the reality of the weak tail by an alternative Bayesian
+Block method based on Scargle et al. (2013), and by searching for detections in
+images created using different time intervals. We conclude that there is likely no burst
+emission after ~T+5 s, because no burst structure is picked out by the alternative
+Bayesian Block method afterwards, and also the signal-to-noise ratio is only about
+one in images created after ~T+5. The image created using T+1 s to T+5 s gives
+a signal-to-noise ratio of ~ 4.
+
+The lag analysis using the 8-ms binned light curve shows a lag of 24 ms +- 24 ms
+for the 100-350 keV to 25-50 keV band, which is inconclusive for the burst nature
+due to the weakness of the burst.
+
+We therefore decided to report T90 based on results using data till ~T0+200 s,
+which gives a T90 of ~ 5 s and is consistent with our checks. However, due to
+the relatively low significance of the tail. We report the spectral analyses for
+both the total range and the the short spike.
+
+The time-averaged spectrum from T-0.1 to T+5.3 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.01 +- 0.33.  The fluence in the 15-150 keV band is 1.5 +- 0.3 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.09 sec in the 15-150 keV band
+is 1.0 +- 0.1 ph/cm2/sec.
+
+The spectrum of the short spike from T-0.09 to T+0.40 sec is best fit by a simple
+power-law model.  The power law index of the short-spike spectrum is
+0.84 +- 0.20.  The fluence in the 15-150 keV band is 8.78 +- 1.1 x 10^-8 erg/cm2.
+All the quoted errors are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/677495/BA/

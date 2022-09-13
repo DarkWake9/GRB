@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3183
+SUBJECT: GRB 050406 BAT refined analysis
+DATE:    05/04/06 19:57:04 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+H. Krimm (GSFC/USRA), L. Barbier, S. Barthelmy (GSFC),
+J. Cummings (GSFC/NRC), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (UMD), D.Q. Lamb (U. Chicago), C. Markwardt (GSFC/UMD),
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/NRC),
+G. Sato (ISAS), M. Suzuki (Saitama), M. Tashiro (Saitama U.),
+J. Tueller (GSFC),  on behalf of the Swift/BAT team:
+
+At 15:58:48.40 UT Swift-BAT detected GRB 050406 (trigger=113872)
+(GCN Circ 3180, Parsons et al.). The refined BAT ground position is
+(RA,Dec) = 34.471 -50.181, [deg; J2000] +- 3 arcmin, (95%
+containment).  This is 28 arc seconds from the position determined
+on-board and originally reported.
+
+Examination of the mask weighted light curve confirms that only the initial
+peak is associated with the burst.  The other possible emission reported
+in GCN Circ 3180 is attributed to background fluctuations.
+The shape of the peak is fast-rise, exponential decay in the 15-25 keV
+band.  In the 25-50 keV band, the peak starts ~2 secs earlier and the
+shape is more symmetric. We derive T90 (15-25 keV) =  3 seconds
++/- 1 s, and T90 (15-350 keV) = 5 seconds +/- 1 s. Errors on T90
+include systematics.
+
+Analysis of the event data shows that this is a very soft burst with
+no significant flux above 50 keV.   Plotting GRB 050406 on a color-color
+diagram indicates that this burst may have the characteristics of an
+X-ray Flash.  The fluence derived from the event data is
+9.0 X 10^-8 erg/cm^2 in the 15-350 keV band, and
+4.8 X 10^-8 erg/cm^2 in the 15-50 keV band.  The 1-s peak flux
+(T+0.6 s) is 3.2 ph/cm^2/s  (15-25 keV).  The photon index of the
+1-s peak spectrum (T+0 s) is 2.32 +/- 0.53 (90% confidence).
+The time-averaged spectrum yields a photon index of 2.38 +/- 0.34
+(90% confidence). Both the 1-s and time-averaged spectra are well
+fit by a simple power-law.
+

@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7759
+SUBJECT: GRB 080514B: UVOT Observations
+DATE:    08/05/21 14:07:20 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/USRA/GSFC) reports on behalf of the Swift/UVOT
+team:
+
+     The Swift/UVOT observed the field of GRB 080514B starting 37,005 s
+after the SuperAGILE/IPN detection (Rapisarda et al., GCN Circ. 7715).
+We detect the optical afterglow in the b, u, uvw1, and uvm2 filters at
+the location of the IAC80 optical afterglow (de Ugarte Postigo, et al.,
+2008, GCNC 7719).  The UVOT source position is
+
+  RA(J2000.0) =  21:31:22.71
+Dec(J2000.0) = +00:42:28.4
+
+with an estimated uncertainty of +/-0.60 arcsec (radius, 90%
+confidence).
+
+     Magnitudes and upper limits are reported below.
+
+Filter    T_start (s) T_stop  Exposure   Mag    Err  Comment
+   v       38,184     43,906      352    >20.1        3-sigma UL
+   b       37,449     48,630      559     20.92 0.27
+   u       37,229     48,415      559     19.97 0.17
+  uvw1     37,005     48,198     1118     20.74 0.24
+  uvm2     38,333     44,537     1030     20.83 0.32
+  uvw2     37,601     49,441     2199    >22.1        3-sigma UL
+white    209,879    228,394     5360    >23.3        3-sigma UL
+
+The above magnitudes and upper limits are not corrected for the
+Galactic extinction along the line of sight corresponding to a
+reddening of E_{B-V} = 0 .06 mag (Schlegel et al., 1998, ApJS,
+500, 525).  The photometry is on the UVOT flight system described
+in Poole et al. (2008, MNRAS, 383,627).  The non-detections in
+the uvw2 filters may indicate that the redshift is z >~ 1.9.
+

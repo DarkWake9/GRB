@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8294
+SUBJECT: GRB 080928, Swift-BAT initial refined analysis
+DATE:    08/09/28 23:18:56 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC), W. Baumgartner (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), C. Guidorzi (INAF-OAB),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), K. McLean (GSFC/UMD),
+K. L. Page (U Leicester), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/UMBC), G. Sato (ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+323 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 080928 (trigger #326115)
+(Sakamoto, et al., GCN Circ. 8292).  The BAT ground-calculated position is
+RA, Dec = 95.063, -55.175 deg, which is 
+   RA(J2000)  =  06h 20m 15.1s 
+   Dec(J2000) = -55d 10' 29.5" 
+with an uncertainty of 2.3 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 84%.
+ 
+The mask-weighted light curve shows that BAT triggered on a weak blip 
+that occurred long before the main emission of this burst.  The initial
+peak started at ~T-10 sec, peaked at ~T_zero, and returned to baseline
+around T+30 sec.  Then a second, slightly larger peak, started at ~T+50
+and ended at ~T+130 sec.  Then the main emission started at ~T+170, with
+a pair of peaks at ~T+205 and ~T+215 sec.  We currently only have data
+downlinked out to T+325 sec and the mask-weighted lightcurve shows
+continued emission out to this time.  The flight-generated mask-weighted
+lightcurve (lower resolution) shows no further peaks beyond T+325 sec.
+The main peak at ~T+210 sec coincides with the peak emission in the
+prompt XRT TDRSS lightcurve.
+ 
+The time-averaged spectrum from T+51.1 to T+255.3 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.80 +- 0.12.  The fluence in the 15-150 keV band is 2.1 +- 0.1 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+202.83 sec in the 15-150 keV band
+is 2.1 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+When we get the remainder of the event-by-event data downlinked,
+we will issue revised spectral fit results and a T90.
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/326115/BA/
+

@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18339
+SUBJECT: LIGO/Virgo G184098: Fermi-GBM ground-based follow-up
+DATE:    15/09/20 01:46:08 GMT
+FROM:    Lindy Blackburn at CfA  <lindy.blackburn@ligo.org>
+
+Lindy Blackburn (CfA), Michael S. Briggs (UAH), Eric Burns (UAH), Jordan Camp
+(NASA/GSFC), Nelson Christensen (Carleton College), Valerie Connaughton
+(USRA), Adam Goldstein (NASA/MSFC), Tyson Littenberg (UAH), John Veitch
+(Birmingham), Judith Racusin (NASA/GSFC), Peter Shawhan (UMD), Leo Singer
+(NASA/GSFC), Binbin Zhang (UAH)
+
+We report on a sub-threshold targeted followup of LIGO candidate event G184098
+in Fermi-GBM survey data for bursts between 0.256s and 8s in duration, and
+covering a range of GRB spectral models. Although there was no on-board GBM
+trigger at the time of the event, Fermi-GBM was exposed to a large fraction of
+the LIGO sky position and thus we searched offline data for untriggered
+events. The GBM FOV is blocked by the Earth which occults 67 degrees from (RA,
+DEC) = (355.14, -21.23). Thus GBM observation is able to cover about 87.8% of
+the cWB sky posterior, and 91.5% of the LIB posterior. We scanned several
+minutes of GBM live-time centered on the GW event time using a pipeline
+developed specifically for following-up LIGO-Virgo events in GBM archival data
+during the LIGO-Virgo S6/VSR3 run [1].
+
+The search identified a possible transient beginning at 150914 09:50:45.8,
+about 0.4s after the reported LIGO burst trigger time of 09:50:45.39, and it
+lasted for about 1 second. The intrinsic time resolution for this search was
+0.256s. Of the three GRB model spectra tested in the search, the event was
+best matched to the one corresponding to the hardest spectrum. Using GBM
+transient background from the S6 analysis (2010), the rate of hard events with
+equal or greater statistical significance is 1e-4 Hz. However, preliminary
+analysis of local data in the minutes surrounding the event indicate a
+background rate that could be higher by a factor of a few. Analysis of more
+local live-time is required to get an accurate estimate of the local rate.
+There is an additional trials factor from the three model spectra used in the
+search. Therefore we believe a conservative rate for events of this quality
+could be around 1e-3 Hz.
+
+Due to the low SNR of the event, we are not able to confidently localize it on
+the sky. A substantial fraction of the SNR is from a high-energy BGO detector
+which is largely omni-directional. The event is seen primarily in the BGO-0
+and NaI detectors on the X-side of the instrument, at energies above 100 keV.
+
+The search also revealed a soft transient at 09:50:56.8 and lasting for about
+2 seconds. Although the soft transient has higher SNR than the hard event, it
+is associated with a somewhat higher background rate (1.4e-4 Hz according to
+the 2010 distribution) due to an astrophysical background of short X-ray
+bursts. This event is able to be localized, and is broadly inconsistent with
+the LIGO sky annulus defined by the H1-L1 travel time. Because of the known
+background population, distance from the LIGO trigger time, and inconsistency
+with the LIGO sky location, we do not consider this transient to be related to
+the GW candidate.
+
+[1] L. Blackburn et al. 2015, ApjS 217, 8
+
+[GCN OPS NOTE(19sep15): This Circular was originally published on 04:35 18-Sep-2015 UT.]
+

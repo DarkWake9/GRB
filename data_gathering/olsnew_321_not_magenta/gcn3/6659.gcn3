@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6659
+SUBJECT: GRB 070724: Swift-XRT Team refined analysis
+DATE:    07/07/24 17:29:58 GMT
+FROM:    Kim Page at U.of Leicester  <kpa@star.le.ac.uk>
+
+K.L Page (U. Leicester) and H. Ziaeepour (UCL-MSSL) report on behalf of 
+the Swift-XRT team:
+
+We have analysed the first three orbits of Swift-XRT data obtained for GRB 
+070724 (Ziaeepour et al., GCN Circ. 6654), which includes ~60 s of 
+Windowed Timing (WT) mode data and ~5.2 ks of Photon Counting (PC) data.
+
+Using 399 s of overlapping XRT PC mode and UVOT V-band data, we find an 
+astrometrically corrected X-ray position (using the XRT-UVOT alignment and 
+matching UVOT field sources to the USNO-B1 catalogue) of RA, Dec (J2000) = 
+27.80815, -18.59448 which is equivalent to:
+
+RA (J2000):   01 51 13.96
+Dec (J2000): -18 35 40.1
+
+with an uncertainty of 2.2 arcsec (radius, 90% confidence). This is 2.7 
+arcsec from the initial XRT position (GCN Circ. 6654) and 77.8 arcsec from 
+the ground-calculated BAT position (Parsons et al., GCN Circ. 6656).
+
+The first orbit of XRT data shows flaring activity, with the underlying 
+power-law decay asserting itself from about 500 seconds after the trigger. 
+This decay slope is poorly constrained with the data currently available: 
+alpha ~ 0.4 +0.3/-0.2
+
+Fitting the PC data from the second and third orbits (~4-12 ks after the 
+trigger) in order to avoid any spectral evolution during the flares, the 
+spectrum can be modelled by a power-law of Gamma = 1.3 +0.8/-0.6, absorbed 
+by the Galactic column in this direction of 1.43e20 cm^-2. The 0.3-10 keV 
+observed (unabsorbed) flux during this time is 5.18e-13 (5.27e-13) erg 
+cm^-2 s^-1.
+
+If the decay continues with a slope of alpha ~ 0.4, the count rate at 24 
+hours is predicted to be 4e-3 count s^-1; this ranges between 2e-3 and 
+8e-3 count s^-1, taking into account the uncertainties on the slope. Using 
+the spectral fit detailed above, this corresponds to an observed flux of 
+(2 +7/-1)e-13 erg cm^-2 s^-1 (over 0.3-10 keV).
+
+This circular is an official product of the XRT team.
+

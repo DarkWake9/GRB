@@ -1,0 +1,62 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4599
+SUBJECT: Konus-Wind observation of GRB 060124
+DATE:    06/01/25 18:41:43 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The most intense part of the very long GRB 060124 (Swift-BAT trigger 
+#178750; Holland et al., GCN 4570; Fenimore et al., GCN 4586)
+triggered Konus-Wind at T0=57853.894 s UT (16:04:13.894).
+The propagation delay from Swift to Wind is 3.0 s for this GRB, i.e., 
+correcting for this factor, one sees that the K-W trigger time
+corresponds to the Swift-BAT trigger time T0(S-B) + 558.9 s.
+
+The Konus-Wind light curve, recorded prior T0 in the waiting mode, shows 
+a weak precursor corresponding to the Swift-BAT trigger time,
+no statistically significant emission in any K-W energy band from 
+~T0(S-B)+20 s to ~T0(S-B)+340 s, resuming emission at ~T0(S-B)+340 s, a 
+pulse at ~T0(S-B)+500 sec, the main double-peaked pulse from 
+~T0(S-B)+550 s to ~T0(S-B)+590 s, weaker pulses up to T0(S-B)+800 s.
+The burst light curve resembles the light curves of two previously 
+detected very long bursts: GRB 041219a (Vestrand et al., Nature, 435, 
+178 (2005)), and GRB 050820a (Golenetskii et al., GCN 3852).
+
+The spectrum integrated over the most intense part of the burst
+(from T0 to T0+24.832 s) is well fitted (in the 20 keV - 2 MeV range)
+by GRBM (Band) model for which:
+the low-energy photon index is alpha = -1.29(-0.11,+0.14),
+the high energy photon index beta = -2.25(-0.88,+0.27),
+the break energy E0 = 335(-120,+177) keV (chi2 = 66/61 dof).
+The fitting by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+in the same energy range gives
+alpha = 1.355(-0.075,+0.085)
+and Ep = 285(-56,+63) keV (chi2 = 70/62 dof).
+
+As observed by Konus-Wind the burst had
+a peak flux measured from T0+11.440 sec on 64 msec time scale
+2.66(-0.69,+0.74)x10^-6 erg/cm2/sec,
+and a fluence of the most intense part of the burst
+1.43(-0.24,+0.28)x10^-5 erg/cm2
+(both in the 20 keV - 2 MeV energy range).
+
+All the quoted errors are at the 90% confidence level.
+
+A preliminary estimation of the total burst fluence is ~2.80x10^-5 
+erg/cm2/sec (20 keV - 2 MeV). This value was derived by scaling the 
+fluence of the most intense part by the ratio between G2+G3 counts of 
+entire burst and the most intense part. Such scaling is justified 
+because G2/G3 hardness ratio is the same for the entire burst and the 
+most intense part (G2: 30-300 keV, G3: 300-1160 keV).
+
+Assuming z = 2.297 (Cenko, Berger, and Cohen, GCN 4592 ) and a standard 
+cosmology model with H_0 = 70 km/s/Mpc, Omega_M = 0.3, Omega_\Lambda = 
+0.7, the isotropic energy release is E_iso ~3.4x10^53 erg,
+the maximum luminosity is (L_iso)_max ~1.1x10^54 erg/s.
+
+The Konus-Wind light curve of this GRB will be available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB060124_T57853/
+

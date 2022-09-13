@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28674
+SUBJECT: GRB 201015A NUTTelA-TAO / BSTI Early Measurements (Preliminary)
+DATE:    20/10/18 00:01:47 GMT
+FROM:    Bruce Grossan at LBNL/UCB SSL  <Bruce_Grossan@lbl.gov>
+
+B. Grossan (UCB, NU) , Z. Maksut (NU), A. Kim (NU), M. Krugov (FAI), G. F. Smoot (HKUST, UCB, NU), E. Linder (UCB, NU), report on behalf of the Energetic Cosmos Laboratory:
+
+The Nazarbayev University Transient Telescope at Assy-Turgen Astrophysical Observatory (NUTTelA-TAO) pointed at GRB201015A on receipt of an automated GCN / BAT position alert. We report measurements made with the Burst Simultaneous Three-Channel Imager (BSTI; Grossan, Kumar & Smoot 2019, JHEA, 32,14) instrument  ***during commissioning phase*** and we note cautions with these measurements below.
+
+Calibration with bright Pan-STARRS catalog I stars on our images, for our standard SDSS filters yields, without color corrections, the following photometric values for the OT:
+
+tc-t0(s) g'(mag)    r'(mag)    i'(mag)
+-------- -------    --------   ------------
+73.2  	 UL17.8     17.79      17.67
+103.2 	 UL17.8     18.16      17.86
+157.6 	 17.91      16.81      16.96
+202.6 	 17.76      16.63      16.75
+247.6 	 17.94      16.86      16.85
+292.6 	 17.89      17.29      16.87
+337.6 	 17.76      17.02      17.01
+382.6 	 18.21      17.31      17.05
+427.6 	 18.07      17.49      17.16
+472.6 	 18.08      17.56      17.29
+517.6 	 18.31      17.60      17.48
+562.6	 18.14      17.90      17.66
+607.6 	 18.61      18.00      17.49
+652.6 	 UL18.2     18.13      17.85
+697.6 	 UL18.2     18.37      18.00
+742.6 	 UL18.2     18.53      18.02
+787.6 	 UL18.2     18.45      18.06
+832.6 	 UL18.2     18.41      18.34
+877.6 	 UL18.2     18.71      UL17.9
+922.6 	 UL18.2     18.85      18.21
+967.6 	 UL18.2     UL18.2     18.26
+1012.6	 UL18.2     UL18.2     UL17.8
+1057.6	 UL18.2     UL18.2     UL17.8
+1102.6	 UL18.2     UL18.2     UL17.8
+1147.6	 UL18.2     UL18.2     UL17.8
+1192.6	 UL18.2     UL18.3     UL17.8
+
+UL = 5 sigma upper limit
+Uncertainties are estimated at ~ 0.1 mag for r',i'; unfortunately at this time we have indications of errors ~ 0.15 mag for g'. 
+tc-t0 = trigger time minus image center time. We have not yet established the accurracy of our times. 
+The first two co-adds are 30 s in duration; the rest are 45 s. 
+
+The peak in r' at ~200 s is roughly consistent with that of other observers (e.g. see Dong Xu, 2020, GCN 28653), but for precise comparisons see cautionary notes below.  
+
+These measurements are likely among the earliest multi-channel simultaneous optical measurements of GRBs. We encourage additional measurements at all wavelengths to add to these data. 
+
+We caution the reader that the BSTI instrument is in commissioning phase, with known imperfections, and we have not extensively tested our results, e.g. against other simultaneous measurements, or near our detection limits. Please also note that the times are approximate. We anticipate additional refinement and improvement in analysis in 15-30 days posted at http://ecl.nu.edu.kz/gamma-ray-burst/grb201015A. 
+
+----------------------------------
+UCB = University of California, Berkeley, USA
+NU = Nazarbayev University, Nur-Sultan, Kazakhstan
+HKUST = Hong Kong University of Science and Technology
+FAI = Fesenkov Astrophysical Institute, Kazakhstan 
+
+The NUTTelA-TAO Team acknowledges the support of the staff of the Assy-Turgen Astrophysical Observatory, Almaty, Kazakhstan, and the Fesenkov Astrophysical Institute, Almaty, Kazkhstan.
+
+
+

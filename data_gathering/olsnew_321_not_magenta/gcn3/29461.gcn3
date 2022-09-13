@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29461
+SUBJECT: IceCube-210210A: Two Candidate Counterparts from the Zwicky Transient Facility
+DATE:    21/02/10 16:59:54 GMT
+FROM:    Simeon Reusch at DESY  <simeon.reusch@desy.de>
+
+Simeon Reusch (DESY), Sven Weimann (Ruhr University Bochum), Robert Stein (DESY), Micheal Coughlin (UMN) and Anna Franckowiak (DESY/Ruhr University Bochum) report,
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+
+We observed the localization region of the neutrino event IceCube-210210A (Lagunas et. al, GCN 29454) with the Palomar 48-inch telescope, equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). We started observations in the g- and r-band beginning at 2021-02-10 12:07 UTC, approximately 0.2 hours after event time. We covered 2.1 sq deg, corresponding to 78.6% of the reported localization region. This estimate accounts for chip gaps. Each exposure was 300s with a typical depth of 21.0 mag.
+ 
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019, Stein et al. 2020) was used to search the alerts database for candidates. We reject stellar sources (Tachibana and Miller 2018) and moving objects, and apply machine learning algorithms (Mahabal et al. 2019). We are left with two high-significance transient candidates from our pipeline, both lying within the 90.0% localization of the skymap.
+
++---------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name   | RA (deg)    | DEC (deg)   | Filter | Mag   | MagErr |
++---------------------------------------------------------------------------------+
+| ZTF21aajxjrv | AT2021clu  | 206.9855020 | +05.3138660 | r      | 21.03 | 0.13   |  
+| ZTF21aajxjry | AT2021clv  | 207.3743696 | +04.9786236 | r      | 21.47 | 0.19   |  
++---------------------------------------------------------------------------------+
+ 
+Both candidates are possible transients, with no prior detections, that have not yet been spectroscopically classified. Additional target-of-opportunity observations with ZTF are planned for 2021-02-11 as part of our neutrino follow-up program (Stein et al. 2020).
+
+Based on observations obtained with the Samuel Oschin Telescope 48-inch and the 60-inch Telescope at the Palomar Observatory as part of the Zwicky Transient Facility project. ZTF is supported by the National Science Foundation under Grant No. AST-2034437 and a collaboration including Caltech, IPAC, the Weizmann Institute for Science, the Oskar Klein Center at Stockholm University, the University of Maryland, Deutsches Elektronen-Synchrotron and Humboldt University, the TANGO Consortium of Taiwan, the University of Wisconsin at Milwaukee, Trinity College Dublin, Lawrence Livermore National Laboratories, and IN2P3, France. Operations are conducted by COO, IPAC, and UW.
+GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).
+Alert database searches are done by AMPEL (Nordin et al. 2019).
+Alert filtering is performed with the AMPEL Follow-up Pipeline (Stein et al. 2020).
+

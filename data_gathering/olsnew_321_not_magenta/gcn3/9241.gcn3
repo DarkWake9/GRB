@@ -1,0 +1,77 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9241
+SUBJECT: GRB 090423: Swift/BAT spectral lag results
+DATE:    09/04/25 01:47:05 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+H. A. Krimm (CRESST/GSFC/USRA), J. P. Norris (U. Denver), T. N. Ukwatta (GSFC/GWU), 
+S. D. Barthelmy (GSFC), P. A. Evans (U. Leicester), N. Gehrels (GSFC), 
+M. Stamatikos (GSFC/ORAU)
+
+Using the Swift/BAT data we have completed spectral lag analysis for 
+the high redshift burst, GRB 090423 (Krimm et al., GCN 9198).  Using 
+16-ms binning on the event data, for the "whole" burst (15 seconds), 
+we obtain:
+
+chans 3->1:  0.046 +0.085 -0.058 seconds
+chans 3->2:  0.044 +0.070 -0.052 seconds
+
+For the peak 3 seconds of the burst we obtain:
+
+chans 3->1:  0.021 +0.054 -0.032 seconds
+chans 3->2:  0.006 +0.046 -0.071 seconds
+
+where the channels are 15-25 keV, 25-50 keV, and 50-100 keV.  The lag 
+in each case is consistent with zero, but the 1-sigma error bars are 
+roughly as large as the median lag values for long bursts. Thus this 
+burst is too dim for us to utilize lags as a discriminant for long vs. 
+short.
+
+Given the relatively short duration of this burst, it is informative to 
+look at other possible indicators of whether the burst is in fact a 
+short burst seen at a large distance.
+
+The calculations below use z=8, which is roughly the average of the 
+photometric and spectroscopic redshifts determined for this burst 
+(Cucchiara et al., GCN 9213; Olivares et al., GCN 9215; Thoene et al., 
+GCN 9216; Perley et al., GCN 9217; Tanvir et al., GCN 9219; 
+Fernandez-Soto et al., GRB 9222).
+
+When converted to the rest frame, the T90 values (10.3 ± 1.1 sec, 
+Swift/BAT 15-350 keV, Palmer et al., GCN 9204) and (12 sec, Fermi/GBM 
+8-1000 keV, Kienlin, GCN Circ. 9229) transform to 1.1 ± 0.1 sec and 
+1.3 sec, respectively. However, one must be careful in comparing these 
+numbers to the BATSE short-hard burst divide (Kouveliotou et al., 
+ApJ 413, L101, 1993).  The  BATSE duration distribution is in the observer frame.  With a typical  redshift of z = 1-2 for BATSE bursts, the dividing 
+line between long  and short in the rest frame is 0.7 to 1.0 seconds. 
+Thus this burst is on the boundary and toward the long side.
+
+While the duration and lag are consistent with short bursts (with large 
+errors), there are other observations which are more consistent with 
+GRB 090423 being a long burst in the source frame.
+
+The spectral fits to the BAT data (Palmer et al., GCN 9204) are 
+inconclusive as to whether this is a long or short burst. Both the photon 
+index, alpha = 0.8 +/- 0.5, and Epeak = 440 keV in the source frame, from 
+a cut-off power-law model fit, are consistent with the results for other 
+short bursts detected by Swift/BAT.   However, these numbers also fall 
+within the distributions for long bursts (Krimm et al., in preparation).
+
+The main argument against this being a short burst is the isotopic energy.
+The analysis performed by Amati et al. (GCN 9227) gives the burst 
+Eiso=1053 erg and shows that the burst is consistent with the Epeak-Eiso relation for long bursts.  All previously known short bursts are outliers 
+to this relation.   The calculated value of Eiso is a factor of > 50 greater than that for most other short bursts.
+
+Furthermore it is questionable whether there would be sufficient time for 
+a binary neutron star system to form and inspiral to a merger given the 
+very early time interval since the Big Bang implied by z=8 (lookback time 
+of ~13 Gyr, corresponding to an age of the universe of 0.6 Gyr).
+
+In conclusion, we can not say if GRB 090423 is short or long.  Its  
+duration in the source frame is at the boundary between the two  
+classes, the lag analysis is inconclusive, the BAT spectral shape is  
+inconclusive, the Amati relationship favors long burst and the merger  
+time at such high redshift could be problematic for a short burst  
+interpretation.
+
+

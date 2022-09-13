@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14392
+SUBJECT: GRB 130418A, Swift-BAT refined analysis
+DATE:    13/04/19 13:49:19 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+J. R. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), M. De Pasquale (UCL-MSSL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (NASA/GSFC/ORAU),C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (MSU) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 130418A (trigger #553847)
+(De Pasquale, et al., GCN Circ. 14377). The BAT ground-calculated position is
+RA, Dec = 149.045, 13.674 deg which is
+    RA(J2000)  =  09h 56m 10.8s
+    Dec(J2000) = +13d 40' 28.2"
+with an uncertainty of 1.9 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 89%.
+
+It appears that BAT triggered on the decay phase of a burst already in progress
+when the source position came into the BAT field of view during a pre-planned 
+slew. Therefore we do not know the true time of the start of the burst, but it 
+was at least 50 seconds before T0, here defined as the trigger time. From T-50 
+sec, when the burst became visible, there is a steady decline punctuated by two 
+peaks at approximately T-20 and T+50, the first being harder than the second. 
+The decay continued to roughly T+300 sec.  The burst location was no longer 
+visible after T+450, when another slew took it out of the BAT field. T90 cannot
+be determined since BAT did not see the start of the burst, but T90 is at least
+300 seconds.
+
+The time-averaged spectrum from T-40.16 to T+285.59 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.07 +- 0.17.  The fluence in the 15-150 keV band is 1.8 +- 0.2 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T-37.68 sec in the 15-150 keV band
+is 0.6 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.  Note that these values are calculated only for the part of the burst
+detected by the BAT, so the fluence should be considered a lower limit.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/553847/BA/
+

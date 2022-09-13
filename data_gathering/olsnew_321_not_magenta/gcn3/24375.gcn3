@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24375
+SUBJECT: LIGO/Virgo S190421ar: Updated localization and classification from LIGO and Virgo data
+DATE:    19/05/03 16:14:06 GMT
+FROM:    Erik Katsavounidis at MIT  <kats@ligo.mit.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+
+We have re-analyzed LIGO and Virgo data around the time of the
+
+compact binary coalescence (CBC) candidate S190421ar
+
+(GCN 24141). Parameter estimation has been performed using
+
+LALInference [1] and a new sky map, LALInference.fits.gz,
+
+distributed via GCN Notice about 11 days after the candidate,
+
+is available for retrieval from the GraceDB event page:
+
+
+https://gracedb.ligo.org/superevents/S190421ar
+
+
+The updated classification of the GW signal, in order of descending
+
+probability, is BBH (97%), Terrestrial (3%), BNS (<1%), NSBH (<1%),
+
+or MassGap (<1%).
+
+
+For the LALInference.fits.gz skymap, the 90% credible region is
+
+1444 deg2. Marginalized over the whole sky, the a posteriori
+
+luminosity distance estimate is 1628 +/- 535 Mpc (a posteriori
+
+mean +/- standard deviation). This is the preferred sky map at
+
+this time.
+
+
+For further information about analysis methodology and the contents
+
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+
+<https://emfollow.docs.ligo.org/userguide/>.
+
+
+[1] Veitch et al. PRD 91, 042003 (2015)
+

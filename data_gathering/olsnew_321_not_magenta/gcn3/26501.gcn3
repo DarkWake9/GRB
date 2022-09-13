@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26501
+SUBJECT: LIGO/Virgo S191213g: Swift UVOT/XRT observations of Pan-STARRS1 candidate: PS19hgw
+DATE:    19/12/19 11:13:16 GMT
+FROM:    Alice Breeveld at MSSL-UCL  <a.breeveld@ucl.ac.uk>
+
+S. R. Oates (U. of Birmingham), P. A. Evans (U. Leicester), A. A. Breeveld (MSSL-UCL), N. P. M. Kuin 
+(UCL-MSSL), F. E. Marshall (NASA/GSFC), P. Brown (TAMU), M. De Pasquale (Istanbul U.), C. Gronwall 
+(PSU), M. J. Page (UCL-MSSL),  M. H. Siegel (PSU), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB), S. 
+D. Barthelmy (NASA/GSFC), A. P. Beardmore (U. Leicester), D. N. Burrows (PSU), S. Campana 
+(INAF-OAB), S. B. Cenko (NASA/GSFC), G. Cusumano (INAF-IASF PA), V. D’Elia (ASDC), P. Giommi (ASI), 
+D. Hartmann (Clemson U.), K. L. Page (U.Leicester), J. A. Kennea (PSU), N. J. Klingler (PSU), H. A. 
+Krimm (NSF), A. Y. Lien (GSFC/UMBC), D. B. Malesani (DTU Space), A. Melandri (INAF-OAB), J. A. 
+Nousek (PSU), P. T. O'Brien (U. Leicester), J. P. Osborne (U. Leicester), C. Pagani (U. Leicester), 
+D.M. Palmer (LANL), M. Perri (ASDC), J. L. Racusin (NASA/GSFC),  T. Sakamoto (AGU), B. Sbarufatti 
+(INAF-OAB/PSU), G. Tagliaferri (INAF-OAB), A. Tohuvavohu (U Toronto), and E. Troja (NASA/GSFC/UMCP) 
+report on behalf of the Swift team:
+
+We report Swift/UVOT and XRT follow-up observations of PS19hgw (AT2019wxt; McBrien et al., GCN Circ. 
+26485) found during the search for the EM counterpart of the LVC event S191213g (LIGO/VIRGO 
+Collaboration GCN Circ. 26402).
+
+This object has also been observed by MASTER (Lipunov et al., GCN Circ. 26497), TNG (D'Avanzo et 
+al., GCN Circ. 26499) and SEDM (Fremling et al., GCN Circ. 26500) and spectroscopically by ePESSTO 
+(Müller Bravo et al., GCN Circ. 26494), HCT (Dutta et al., GCN Circ. 26490), NOT (Izzo et al., GCN 
+Circ. 26491) and LT (Srivastav et al., GCN Circ. 26493), indicating this transient is at z = 0.037.
+
+Swift/UVOT and XRT observations began 5.7 days after the LIGO/VIRGO trigger (LIGO/VIRGO 
+Collaboration GCN Circ. 26402). Photometry is complicated by the host galaxy, however, in the Swift 
+archive a pre-explosion image is available for the u filter. Comparing the u band images we measure 
+a ~0.8 mag enhancement in flux. For all filters, we have attempted to subtract the host by measuring 
+the host flux at a position offset from PS19hgw, but of a similar brightness as  the location of 
+PS19hgw in the pre-explosion image.
+
+In the following we give preliminary magnitudes using the UVOT photometric system (Breeveld et al. 
+2011, AIP Conf. Proc. 1358, 373):
+
+Filter   T_start(s)   T_stop(s) Exp(s)     Mag
+
+v          489252       494253   157     18.53 +\- 0.34
+b          488842	493844   157	 19.30 +\- 0.32
+u          488758	493759   157	 18.45 +\- 0.24
+w1         488594	493675   315	 18.37 +\- 0.23
+m2         489336	494468   1163	 19.31 +\- 0.32
+w2         488928	494169   629	 18.82 +\- 0.27
+
+We have checked the reliability of our host subtraction by determining the host subtracted u band 
+magnitude using the host flux measured at the location of PS19hgw in the pre-explosion image. This 
+method results in a u filter magnitude for PS19hgw of 18.49 +\- 0.21, consistent with the u 
+magnitude in the table above.
+
+The magnitudes in the table are not corrected for the Galactic extinction due to the reddening of 
+E(B-V) = 0.06 in the direction of the burst (Schlegel et al. 1998).
+
+In XRT, no source was found at the location of AT2019wxt in 2.6 ks of exposure, starting 5.65 d 
+after the GW trigger. The 3-sigma upper limit is 4.74e-3 ct s^-1. This corresponds to a 0.3-10 keV 
+flux upper limit of 2.04e-13 erg cm^2 s^-1, assuming a power-law spectrum with NH=3e20 cm^-2 and 
+Gamma=1.7.
+
+This circular is an official product of the Swift team.
+

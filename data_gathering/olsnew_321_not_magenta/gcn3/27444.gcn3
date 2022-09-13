@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27444
+SUBJECT: GRB 200325A: Swift/BAT detection and probable arcminute localization of a short GRB from GUANO
+DATE:    20/03/26 00:52:23 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+James DeLaunay (PSU), Aaron Tohuvavohu (U Toronto), and Jamie Kennea
+(PSU) report:
+
+Swift/BAT did not trigger on GRB 200325A.
+
+The Fermi/GBM Flight-Position notice, distributed at T0+8 seconds,
+from the Fermi/GBM detected GRB 200325A (GCN. 27434), as well as the
+INTEGRAL SPI-ACS notice (Trig #8558) distributed at T0+44 seconds,
+both triggered the Swift Mission Operations Center operated Gamma-ray
+Urgent Archiver for Novel Opportunities (GUANO; Tohuvavohu et al.
+2020, in prep). GRB 200325A was also detected by AGILE/MCAL (GCN.
+27437) and AstroSat CZTI (GCN. 27438).
+
+The GUANO is a fully autonomous, extremely low latency, spacecraft
+commanding pipeline designed for targeted recovery of BAT event mode
+data around the times of compelling astrophysical events to enable
+more sensitive GRB searches.
+
+Upon trigger by these notices, GUANO sent a command to the Swift Burst
+Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from
+[-50,+150] seconds around the time of GRB 200228A.
+
+All the requested event mode data was delivered to the ground.
+
+In a ground analysis of the data, using the normal BAT imaging
+technique, we detect GRB 200228A with a SNR of 7.5.
+
+With a more sophisticated maximum likelihood analysis (DeLaunay et
+al.,  2020 in prep.) on the event-mode data we detect GRB 200325A more
+confidently, with a square root of the test statistic, sqrt(TS), of
+21.7. The sqrt(TS) behaves similarly to SNR.
+The detected duration is ~1.1s.
+
+The BAT ground-calculated position is
+RA, Dec = 31.7203, -31.816 deg which is
+   RA(J2000)  = 2h 6m 52.8s
+   Dec(J2000) =  -31d 48’ 57.60”
+with an uncertainty of 4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 8.2%.
+
+This arcminute location is consistent with the localization region
+distributed by the Fermi/GBM team (GCN. 27434), lying on the 75%
+containment contour.
+Due to the very low partial coding, we stress that this localization,
+while significant, has some additional unquantified uncertainties
+associated with it.
+
+No XRT or UVOT follow-up will take place due to the source’s proximity
+to the sun (1.5 hours).
+We encourage follow-up from instruments capable of observing near the sun.
+
+A live reporting of Swift/BAT event data recovered by GUANO can be found
+ at: https://www.swift.psu.edu/guano/
+

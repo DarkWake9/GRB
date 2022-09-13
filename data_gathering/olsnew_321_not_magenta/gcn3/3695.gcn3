@@ -1,0 +1,75 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3695
+SUBJECT: GRB050713: analysis of the XMM-Newton observation 
+DATE:    05/07/28 19:27:12 GMT
+FROM:    Andrea De Luca at IASF-CNR,Milano  <deluca@mi.iasf.cnr.it>
+
+Andrea De Luca (IASF Mi) on behalf of a larger collaboraton 
+report:
+
+We have analyzed the data from the XMM-Newton observation 
+of GRB050713A, discovered by Swift on 2005, July 13 at 
+04:29:02.39 UT (Falcone et al., GCN3581).
+
+The XMM-Newton observation started on 2005, July 13 at 
+10:18 UT and lasted for 30.7 ks. We report here on the 
+analysis of data collected with the EPIC/pn detector, 
+which started observing the field at 10:54 UT (~6h 20min 
+after the GRB).
+
+As reported by Loiseau et al. (GCN3594), the afterglow of 
+GRB050713A is clearly detected in the pn image, at a 
+position fully consistent with the refined Swift/XRT one 
+(Morris et al., GCN3606). 
+Extracting source events from a circle of 25 arcsec radius 
+(containing ~80% of the total counts), the time-averaged, 
+background-subtracted count rate in the 0.2-8 keV range 
+is 0.547+/-0.005 cts/s.
+
+The afterglow is clearly seen to fade along the XMM-Newton 
+observation, spanning the time range 23.5-51.5 ks after 
+the GRB. The background-subtracted light curve (0.5-5 keV) 
+is well fitted (reduced chi2=0.9, 26 d.o.f.) by a power law 
+decay with index delta=1.45+/-0.07 (90% c.l.). 
+The afterglow decay has significantly steepened with 
+respect to the epoch of the earlier Swift observation: 
+Morris et al. (GCN 3606) observed an index delta=0.82+/-0.11
+in the time range 5-10 ks after the burst using Swift/XRT data. 
+This implies the presence of a break in the afterglow X-ray
+light curve between 10 ks and 23.5 ks from the GRB.
+
+We extracted the time-averaged spectrum and generated ad-hoc 
+response and effective area files. We quote here errors at 
+90% level for a single interesting parameter, unless otherwise 
+specified.
+
+A fit in the energy range 0.2-8 keV with an absorbed power 
+law model yields a reduced chi2 of 1.25 for 172 d.o.f. 
+The resulting NH=(3.25+/-0.15)x10^21 cm^-2 is higher than 
+the expected Galactic value in the burst direction (NH=1.1x10^21 
+cm^-2, Dickey & Lockman, 1990); the best fitting power law photon 
+index is Gamma=2.16+/-0.05.
+Such results are consistent with the XRT ones (Morris et al., 
+GCN 3606), which implies no significant spectral evolution with
+respect to the earlier phase of the afterglow.
+
+A better fit to the pn spectrum (reduced chi2=0.97, 171 dof) 
+may be obtained fixing the NH to the expected Galactic value 
+(NH=1.1x10^21 cm^-2) and adding a neutral, redshifted absorber 
+component to the spectral model. With a simple F-test we evaluate 
+the chance occurrence probability of the improvement to be 
+of 5x10^-11. The best fit value for the intrinsic NH is 4.0x10^21 
+cm^-2, while the best fit value for the redshift z is 0.55.
+At 90% c.l. for 2 parameters, we obtain the following ranges:
+intrinsic NH=(0.4-3.2)x10^22 cm^-2; redshift z=(0.4-2.6).
+Using such model, the resulting power law photon index is 
+Gamma=2.04+/-0.05.
+The observed flux is of 2.2x10^-12 erg cm^-2 s^-1 in 0.2-10 keV;
+the corresponding unabsorbed flux is of 3.8x10^-12 erg cm^-2 s^-1.
+
+As a last step, we divided the pn dataset into two time intervals 
+of ~9500 s and ~14600 s (each containing about half of the counts 
+from the afterglow) and we repeated the spectral analysis. 
+We found no significant spectral changes in the two considered 
+intervals.
+

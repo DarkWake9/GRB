@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30196
+SUBJECT: Konus-Wind detection of GRB 210610B
+DATE:    21/06/11 10:33:02 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, A.Lysenko, A. Ridnaia,
+D. Svinkin, A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The long GRB 210610B (Swift detection: Page et al., GCN 30170;
+AGILE detection: Ursi et al., GCN 30195)
+triggered Konus-Wind (KW) at T0=71488.184 s UT (19:51:28.184).
+
+The burst light curve shows a bright, multi-peaked emission pulse
+which starts at ~T0-27 s, and has a total duration of ~100 s.
+The emission is seen up to ~10 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB210610_T71488/
+
+As observed by Konus-Wind, the burst had
+a fluence of (1.3 ± 0.1)x10^-4 erg/cm^2 and
+a 64-ms peak energy flux, measured from T0 + 10.175 s,
+of (1.0 ± 0.1)x10^-5 erg/cm^2/s (both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum (measured from T0 to T0+80.384 s)
+is best fit in the 20 keV - 20 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -0.61 (-0.04,+0.04),
+the high energy photon index beta = -2.77 (-0.37,+0.21),
+the peak energy Ep = 257 (-14,+15) keV,
+chi2 = 97/97 dof.
+
+The spectrum near the peak count rate (measured from T0+8.192
+to T0+11.775 s) is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -0.20 (-0.10,+0.12),
+the high energy photon index beta = -3.04 (-0.64,+0.34),
+the peak energy Ep = 333 (-24,+23) keV,
+chi2 = 60/76 dof.
+
+Assuming the redshift z=1.1345 (de Ugarte Postigo et al., GCN 30194)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the isotropic energy release E_iso to ~4.6x10^53 erg,
+the isotropic luminosity L_iso to ~7.6x10^52 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum Ep,z to ~550 keV.
+With these values, GRB 210204A is within 68% prediction bands
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW GRBs
+with known redshifts (Tsvetkova et al., 2021, ApJ, 908, 83),
+see http://www.ioffe.ru/LEA/GRBs/GRB210610_T71488/GRB210610B_rest_frame.pdf
+
+All the quoted errors are estimated at the 90% confidence level.
+All the presented results are preliminary.
+

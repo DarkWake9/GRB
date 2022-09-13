@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17541
+SUBJECT: Trigger 633105 (aka GRB150301C): Swift/UVOT Observations of XRT Counterpart
+DATE:    15/03/04 03:16:06 GMT
+FROM:    Lea Hagen at PSU  <lea.zernow.hagen@gmail.com>
+
+L. M. Z. Hagen (PSU) and A. Y. Lien (GSFC/UMBC)
+report on behalf of the Swift/UVOT team:
+
+
+A point source is detected by UVOT that is consistent with the XRT
+counterpart and 2.5 arcsec from the XMM-Newton source discussed in
+Evans et al. (GCN Circ. 17536).  This source is also seen in archival
+DSS imaging.  It is unclear if this is the same object detected by XRT
+or a serendipitous source.  Given how crowded the field is, it is also
+likely that the UVOT source is comprised of multiple individual sources.
+The coordinates of the UVOT source are
+   RA(J2000) = 00:45:14.76 = 11.31150
+   DEC(J2000) = +41:50:35.2 = 41.84311
+
+Preliminary detections and 3-sigma upper limits using the UVOT
+photometric system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373)
+for the available exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white              102         4151          369         19.22+-0.13
+v                  592         4562          216        >18.53
+b                  518         5241           96        >19.08
+u                  261         5177          461         18.60+-0.15
+uvw1               641        79666         5117         18.64+-0.05
+uvm2               617        45953         1237         18.94+-0.13
+uvw2               568         4357          216         18.99+-0.27
+
+The magnitudes in the table are not corrected for the Galactic
+extinction due to the reddening of E(B-V) = 0.06 in the direction
+of the source (Schlegel et al. 1998).
+
+This field has also been observed previously by UVOT as part of a
+different observing campaign, primarily in 2013 and 2014. The
+stacked images have the following detections:
+
+Filter      Exp(s)        Mag
+
+v            1406     19.04+-0.19
+b            1445     19.77+-0.15
+u           27521     18.65+-0.03
+uvw1        52236     18.57+-0.02
+uvm2        58908     18.65+-0.03
+uvw2        65719     18.61+-0.02
+
+These indicate possible variability of the source, but further
+analysis will be required to confirm this.
+

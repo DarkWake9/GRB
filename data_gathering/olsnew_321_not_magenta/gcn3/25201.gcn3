@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25201
+SUBJECT: LIGO/Virgo S190728q: Photometric Redshift and Stellar Mass Estimates for the Potential Host Galaxy of Optical Counterpart Candidate ZTF19abjethn
+DATE:    19/07/28 16:04:04 GMT
+FROM:    Daniel Goldstein at Caltech  <danny@caltech.edu>
+
+Rongpu Zhou (U. Pittsburgh), Jeff Newman (U. Pittsburgh), Danny Goldstein (Caltech), Mansi M. Kasliwal (Caltech)
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations
+
+Using photometry from the Dark Energy Camera Legacy Survey (DECaLS; Dey et al. 2019) Data Release 7 (DR7), we have estimated the photometric redshift of SDSS J214534.52+204130.6, a possible host galaxy of ZTF19abjethn (GROWTH Collaboration 2019; GCN 25199), an optical counterpart candidate to the gravitational wave trigger S190728q (The LIGO Scientific Collaboration and the Virgo Collaboration 2019; GCN 25187).
+
+This photometric redshift has been determined by applying a random forest algorithm to the DR7 photometry (including both magnitude and size information) combined with spectroscopic redshifts from a variety of sources. Zhou et al. 2019 (in prep.) will provide a full description of the algorithm used.  The object was only observed once in the g band for DR7, but photometry nevertheless appears reasonable.
+
+The stellar mass of the host has been estimated via a random forest algorithm applied to the DECaLS DR7 photometry, trained using masses from the S82-MGC stellar mass catalog from Bundy et al. (2015).  The reconstructed masses in general agree with S82-MGC masses to better than 0.15 dex, even though independent photometry is being used for each; we take 0.20 dex as an upper limit on systematics (apart from assumed initial mass function, which can have effects of up to 0.5 dex).  Statistical errors on the mass have been propagated from the photometric redshift uncertainty (which dominates over photometric errors).
+
+-----------------------------------------------------------------------------------------------
+Name                      | RA (deg)       | DEC (deg)    | z_phot | z_phot_err |log10( M_* )  [Msun] | M_* err [log10 Msun]
+--------------------------+----------------+--------------+--------+------------+--------------------+----------------------
+SDSS J214534.52+204130.6  |  326.393869200 | 20.691841120 | 0.236  | 0.023      | 11.09 | 0.11 (stat), <0.20 (sys)
+-----------------------------------------------------------------------------------------------
+
+The host appears to be a modestly massive early-type galaxy in Legacy Survey imaging.  There is a cluster of galaxies of similar color centered nearby, at (RA, dec) of 326.47, 20.71.
+
+Assuming a Planck Collaboration et al. (2015) cosmology, the values imply a luminosity distance to the event of 1.18 Gpc, which is within 2 standard deviations of the value inferred from the gravitational wave signal (The LIGO Scientific Collaboration and the Virgo Collaboration 2019; GCN 25187). Adopting the value of H0 from Riess et al. (2019) would imply a luminosity distance of 1.03 Gpc, which is consistent with the LIGO distance to within roughly 1 standard deviation. The photometric redshift estimate presented here is highly consistent with the value from SDSS (0.228 +/- 0.029, as reported in GCN 25199).
+
+
+Development of the photometric redshifts and stellar mass estimates used here was funded by the U.S. Department of Energy Office of Science to facilitate target selection for the DESI survey. ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).
+
+
+This message may be cited.
+
+--
+Danny Goldstein
+http://astro.caltech.edu/~danny

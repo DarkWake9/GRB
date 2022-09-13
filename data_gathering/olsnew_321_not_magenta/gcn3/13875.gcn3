@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13875
+SUBJECT: GRB 121017A: Swift detection of a burst
+DATE:    12/10/17 19:55:10 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+D. Grupe (PSU), B. N. Barlow (PSU), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), D. N. Burrows (PSU),
+J. R. Cummings (NASA/UMBC), N. Gehrels (NASA/GSFC),
+E. A. Helder (PSU), S. T. Holland (STScI), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), C. B. Markwardt (NASA/GSFC),
+F. E. Marshall (NASA/GSFC), C. J. Mountford (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL), M. H. Siegel (PSU) and
+C. A. Swenson (PSU) report on behalf of the Swift Team:
+
+At 19:23:28 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 121017A (trigger=536172).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 288.816, -1.595 which is 
+   RA(J2000)  =  19h 15m 16s
+   Dec(J2000) = -01d 35' 43"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows at least two peaks 
+with a duration of about 10 sec (possibly longer).  The peak count rate 
+was ~2500 counts/sec (15-350 keV), at ~1 sec after the trigger. 
+
+The XRT began observing the field at 19:25:03.3 UT, 95.2 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source with an enhanced position: RA, Dec 288.8302, -1.6042 which
+is equivalent to:
+   RA(J2000)  = 19h 15m 19.25s
+   Dec(J2000) = -01d 36' 15.1"
+with an uncertainty of 2.2 arcseconds (radius, 90% containment). This
+location is 60 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (2.22 x
+10^21 cm^-2, Kalberla et al. 2005), with an excess column of 3
+(+2.89/-2.40) x 10^21 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1141 seconds after the BAT trigger. No credible afterglow candidate
+has been found in the initial data products. The 2.7'x2.7' sub-image covers
+100% of the XRT error circle. There is no new source down to a limit of
+about 19th mag. The 8'x8' region for the list of sources generated on-board covers
+100% of the XRT error circle. Because of the density of catalogued stars,
+further analysis is required to report an upper limit for any afterglow in the
+region. No correction has been made for the expected extinction corresponding
+to E(B-V) of 0.44. 
+
+XRT and UVOT detections were delayed due to entry into the SAA shortly
+after the initial trigger. 
+
+Burst Advocate for this burst is D. Grupe (grupe AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

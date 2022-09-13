@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29772
+SUBJECT: Konus-Wind detection of GRB 210406A
+DATE:    21/04/07 17:58:39 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, D. Frederiks, S. Golenetskii, A. Lysenko, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline, report:
+
+The long GRB 210406A (INTEGRAL detection,
+T0 = T0(IBIS/ISGRI)= 17:11:28 UT: Mereghetti, et al., GCN 29767;
+Fermi/GBM detection: Malacaria & Meegan, GCN 29771)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in the 20-400 keV band
+reveals a >10 sigma count rate increase over background in the interval
+from ~T0-0.470 s to ~T0+73.130 s.
+
+As observed by Konus-Wind, the burst had a fluence of
+9.13(-1.16,+1.40)x10^-6 erg/cm2 and a 2.944-s peak flux,
+measured in the interval starting from ~T0+5.418 s,
+of 5.74(-0.84,+0.97)x10^-7 erg/cm2/s
+(both in the 10 keV - 10 MeV energy range).
+
+Modeling the K-W 3-channel time-integrated spectrum
+(from ~T0-0.470 s to ~T0+73.130 s)
+by a power law with exponential cutoff (CPL) model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.04(-0.20,+0.35) and Ep = 176(-36,+54) keV.
+
+The KW light curve of this burst is available at
+http://www.ioffe.ru/LEA/GRBs/GRB210406A/
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.

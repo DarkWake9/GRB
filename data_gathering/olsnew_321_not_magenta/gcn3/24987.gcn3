@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24987
+SUBJECT: LIGO/Virgo S190701ah: Updated sky localization
+DATE:    19/07/05 17:26:16 GMT
+FROM:    Brandon Piotrzkowski at U of Wisconsin-Milwaukee  <piotrzk3@uwm.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have conducted further analysis of the LIGO and Virgo data around
+the time of the compact binary coalescence (CBC) candidate S190701ah
+(GCN 24950). Parameter estimation has been performed using
+LALInference [1] and a new sky map, LALInference.offline.fits.gz,
+distributed via GCN Notice, is available for retrieval from the
+GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S190701ah
+
+LALInference.offline.fits.gz is the preferred sky map at this time.
+The 90% credible region is 49 deg2. Marginalized over the whole sky,
+the a posteriori luminosity distance estimate is 1849 +/- 446 Mpc
+(a posteriori mean +/- standard deviation).
+
+Preliminary investigations indicate that the sky localization should
+not be biased on account of the scattered light in Livingston
+reported in GCN 24950; analyses including and excluding the affected
+low-frequency data give consistent results.
+
+For further information about analysis methodology and the contents
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https/emfollow.docs.ligo.org/userguide/>.
+
+[1] Veitch et al. PRD 91, 042003 (2015)
+
+
+

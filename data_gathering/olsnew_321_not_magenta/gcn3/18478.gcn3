@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18478
+SUBJECT: GRB 151027A: Swift detection of a burst with a bright optical afterglow
+DATE:    15/10/27 04:16:31 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. Maselli (INAF-IASFPA), A. D'Ai (INAF-IASFPA),
+A. Y. Lien (GSFC/UMBC), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU), M. H. Siegel (PSU),
+M. Stamatikos (OSU/NASA/GSFC) and T. N. Ukwatta (LANL) report on
+behalf of the Swift Team:
+
+At 03:58:24 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 151027A (trigger=661775).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 272.491, +61.381 which is 
+   RA(J2000) = 18h 09m 58s
+   Dec(J2000) = +61d 22' 51"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+peaked structure lasting at least 150 seconds.  The peak count rate
+was ~6000 counts/sec (15-350 keV), at ~110 sec after the trigger. 
+
+The XRT began observing the field at 03:59:51.1 UT, 87.0 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 272.4886, 61.3515 which is equivalent to:
+   RA(J2000)  = +18h 09m 57.26s
+   Dec(J2000) = +61d 21' 05.4"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 106 arcseconds from the BAT onboard position, within the
+BAT error circle. No event data are yet available to determine the
+column density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 95 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+RA(J2000) =	18:09:56.68 = 272.48615
+DEC(J2000) = +61:21:13.4 = 61.35373
+with a 90%-confidence error radius of about 0.61 arc sec. This position is 9.06
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+14.46 with a 1-sigma error of about 0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.05. 
+
+Burst Advocate for this burst is A. Maselli (maselli AT ifc.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

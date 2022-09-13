@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7996
+SUBJECT: GRB 080721: UVOT Follow-Up Observations
+DATE:    08/07/21 20:55:10 GMT
+FROM:    Paul Ward at MSSL  <paw@mssl.ucl.ac.uk>
+
+P. Ward (MSSL-UCL),  S. T. Holland (CRESST/USRA/GSFC) and F. E. Marshall 
+(NASA/GSFC) report on behalf of the Swift/UVOT team:
+
+The Swift Ultra-Violet/Optical Telescope (UVOT) started observing
+GRB 080721 (Marshall et al., GCN 7988) ~118 seconds after the trigger.
+
+A fading afterglow is found in the UVOT White, V, B and U filters. The 
+refined Swift/UVOT position of the optical afterglow candidate is:
+
+  RA(J2000)  = 14:57:55.855 =  224.48273
+  DEC(J2000) = -11:43:24.54 = -11.723483
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence).
+The following table gives the measured magnitudes:
+
+Filter  T_start T_stop Exp     Mag
+
+white  118    217   99.8   14.58 +/- 0.00
+white  858    957   99.8   16.94 +/- 0.03
+white 5173   5372  199.8   19.12 +/- 0.08
+white 6609   6808  199.8   19.43 +/- 0.11
+v      225    624  399.7   14.98 +/- 0.01
+v      964   1363  399.8   16.47 +/- 0.03
+v     5583   5782  199.8   18.27 +/- 0.17
+v     7020   7157  137.7   18.40 +/- 0.23
+b      704   6603  409.4   16.56 +/- 0.12
+u      680   6398  439.3   16.58 +/- 0.12
+uvw1   655   6192  439.2   > 18.01
+uvm2   631   5987  245.3   > 17.58
+uvw2   734   7014  419.4   > 18.03
+
+Using the measured magnitudes we find a power law decay index of -1.2 and 
+-1.01 in the white and V filters respectively. The strong detection in the 
+U band, but not in the UVW1, UVM2, or UVW2 bands gives an estimated 
+photometric redshift in the range of 2.3 < z < 2.8.
+
+The values quoted above are in the UVOT photometric system
+(Poole et al. 2008, MNRAS, 383, 627). No correction has been
+made for the expected extinction corresponding to E(B-V) of
+0.100 mag in the direction of the burst (Schlegel et al. 1998).
+
+[GCN OPS NOTE(12aug08): Per author's request, the "080703" was changed to
+"080721" in the first sentence.]
+

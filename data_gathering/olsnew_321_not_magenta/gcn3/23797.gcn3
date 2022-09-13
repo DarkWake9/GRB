@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23797
+SUBJECT: Swift Trigger 885960: A third Swift trigger on MAXI J1348-630
+DATE:    19/01/27 01:16:05 GMT
+FROM:    Aaron Tohuvavohu at PSU/Swift  <aaronb@swift.psu.edu>
+
+S. D. Barthelmy (GSFC), J. A. Kennea (PSU), N. J. Klingler (PSU),
+A. Y. Lien (GSFC/UMBC), K. L. Page (U Leicester), B. Sbarufatti (PSU)
+and A. Tohuvavohu (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 00:56:09 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located MAXI J1348-630 (trigger=885960).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 207.035, -63.268 which is 
+   RA(J2000) = 13h 48m 08s
+   Dec(J2000) = -63d 16' 02"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is normal for an image trigger, the 
+light-curve showed no significant structure. 
+
+The XRT began observing the field at 00:59:18.9 UT, 189.3 seconds after
+the BAT trigger. XRT found a bright X-ray source located
+at RA, Dec 207.0558, -63.2733 which is equivalent to:
+   RA(J2000)  = 13h 48m 13.39s
+   Dec(J2000) = -63d 16' 23.9"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). No
+event data are yet available to determine the column density using
+X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.09e-08 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 197 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	13:48:12.84 = 207.05348
+  DEC(J2000) = -63:16:28.5  = -63.27458
+with a 90%-confidence error radius of about 0.61 arc sec. This position is 5.9
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+16.99 with a 1-sigma error of about  0.14. No correction has been made for the
+large, but uncertain, extinction expected. This source is consistent with the
+location of the previously reported optical transient associated with MAXI J1348-630
+(ATEL #12430). 
+

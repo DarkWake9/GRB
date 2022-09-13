@@ -1,0 +1,41 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4238
+SUBJECT: Konus-Wind observation of GRB 051109A
+DATE:    05/11/09 23:00:13 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The long soft GRB 051109A (Swift-BAT trigger #163136;
+Tagliaferri et al., GCN 4213, E. Fenimore et al., GCN 4217)
+triggered Konus-Wind at T0= 4342.541 s UT (01:12:22.541).
+
+As observed by Konus-Wind it had a single pulse with a duration
+about ~11 sec and a long decaying tail.
+This tail was seen up to ~130 sec after T0.
+
+The preliminary analysis of the Konus-Wind
+data gave the burst fluence 4.0(-3.4, +0.3)10^-6 erg/cm2,and
+peak flux on 256-ms time scale 5.8(-4.9, +0.3)10^-7 erg/cm2/sec
+(both in the 20 - 500 keV energy range).
+These values are very uncertain due to weakness and softness
+of the burst.
+
+The K-W spectrum integrated over the most intense part of the GRB
+(from T0 to T0+8.448 s) is well fitted (in the 20 - 500 keV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-E/E0)
+with alpha = 1.25 (-0.59, +0.44)
+and E0 = 213 (-126, +246) keV (chi^2 = 56/56 dof).
+The peak energy Ep = 161 (-58, +224) keV.
+
+All the quoted errors are at the 90% confidence level.
+
+Assuming z = 2.346 (Quimby et al., GCN 4221) and a standard cosmology
+model with H_0 = 70 km/s/Mpc, Omega_M = 0.3, Omega_\Lambda = 0.7,
+the isotropic energy release is E_iso ~5x10^52 erg,
+the maximum luminosity is (L_iso)_max ~2.4x10^52 erg/s.
+
+Further analysis and refinement is in progress.
+

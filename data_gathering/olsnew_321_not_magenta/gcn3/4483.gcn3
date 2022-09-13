@@ -1,0 +1,48 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4483
+SUBJECT: GRB 060111: TAROT optical observation
+DATE:    06/01/11 15:44:08 GMT
+FROM:    Alain Klotz at CESR-CNRS  <Alain.Klotz@free.fr>
+
+Klotz, A. (CESR-OMP), Boer M. (OHP), Atteia J.L. (LATT-OMP) report:
+
+We imaged the field of GRB 060511 detected by SWIFT
+(trigger 176818) with the TAROT robotic telescope (D=25cm)
+located at the Calern observatory, France.
+
+First image was acquired 20s after the GCN trigger
+(7s after the notice). The field elevation increased
+from 23 degrees above horizon and weather conditions
+were good. Moon was just rising (23 deg from the field)
+at the begining of observations. Due to a technical
+problem, there was no image between 261 and 510s
+after the trigger.
+
+We detected no new source comparing our individual
+unfiltered images with the USNO-B1 catalog within
+the error circle at the XRT position (Goad et al.
+GCNC 4481).
+
+ From individual frames we give early limits:
+
+Day : 2006-01-11
+UT-start      UT-end      (sec since GRB)  Exp(s)  R-mag
+04:23:25.7  - 04:24.25.7    20 -   80        60   >16.2 (one frame trailed)
+04:24:32.4  - 04:25.02.4    86 -  116        30   >17.0 (one frame)
+04:25:08.7  - 04:25.38.7   122 -  152        30   >17.0 (one frame)
+04:31:36.2  - 04:33:06.2   510 -  600        90   >17.7 (one frame)
+
+To increase the signal to noise, we co-added series frames.
+The source at the XRT position (Goad et al. GCNC 4481) is
+marginaly detected on the first co-addition:
+
+Day : 2006-01-11
+UT-start      UT-end      (sec since GRB)  R-mag
+04:24:32   - 04:27.27      86 -   261      ~18.3 (sum of 5 frames of 30s)
+04:31:36   - 04:40.13     510 -  1027      >18.7 (sum of 6 frames of 90s)
+
+Magnitudes were estimated with the nearby USNO-B1 stars.
+
+This message may be cited.
+
+

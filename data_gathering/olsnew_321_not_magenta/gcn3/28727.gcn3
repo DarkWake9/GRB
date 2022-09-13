@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28727
+SUBJECT: GRB200826A: GMOS-N detection of a supernova bump
+DATE:    20/10/21 18:40:54 GMT
+FROM:    Tomas Ahumada at U. of Maryland  <tahumada@astro.umd.edu>
+
+Tomas Ahumada (UMD), Leo Singer (NASA GSFC), Harsh Kumar (IITB), and Simeon
+Reusch (DESY) report on behalf of the ZTF and GROWTH collaborations:
+
+We imaged position of ZTF20abwysqy/AT2020scz (Ahumada et al. GCN 28295),
+the afterglow of GRB 200826A (GCN 28284) with the Gemini Multi-Object
+Spectrograph (GMOS-N) mounted on the Gemini-North 8-meter telescope on
+Mauna Kea, on 2020-09-23 and 2020-10-10.
+
+Each epoch consisted of 14 r- and i- band 200s exposures. We reduced and
+co-added the images from each epoch using DRAGONS, a Python-based data
+reduction platform provided by the Gemini Observatory. We subtracted the
+coadded images of the two epochs using HOTPANTS. A source is detected on
+2020-09-23 at the position of the afterglow with i = 23.9 AB mag and r >
+23.5 AB mag.
+
+At host galaxy's redshift of z = 0.7481 (GCN 28319) and assuming Planck
+2015 cosmological parameters, the absolute magnitude of the GMOS-N
+detection is M_i = -19.5 AB mag. At this time, a kilonova would have an
+absolute magnitude of M_i >~ -14.5 AB mag whereas a SN1998bw-like supernova
+would have an absolute magnitude of M_i ~ -19 AB mag. Since the GMOS-N
+detection is consistent with a supernova but not a kilonova, we conclude
+that GRB 200826A was powered by a collapsar rather than a neutron star
+merger.
+
+We thank the Gemini Observatory Director for awarding this observing time
+and the Gemini staff for help with planning and for executing the
+observations.
+-- 
+Tomas Ahumada (he/him)
+Ph.D. Student
+Department of Astronomy
+University of Maryland, College Park
+NASA Goddard Space Flight Center, Code 661
+B.Sc. Astronomy, Pontificia Universidad Católica de Chile

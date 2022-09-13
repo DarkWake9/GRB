@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16414
+SUBJECT: Swift trigger 601928 is V490 Cep: BAT+XRT refined analysis.
+DATE:    14/06/17 15:58:58 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P. A. Evans (U. Leicester), A.P. Beardmore (U. Leicester), H. A. Krimm
+(CRESST/GSFC/USRA) and A. Y. Lien (GSFC/CRESST/UMBC) report on behalf of 
+the Swift team:
+
+At 06:37:31 UT on 2014 June 17 Swift-BAT triggered on a source 
+consistent with the location of V490 Cep (= Cep X-4 = Ginga 2138+56)
+which the MAXI team reported to be in outburst in ATEL #6212.
+This trigger was reported in GCN Circ. 16413. The refined BAT position 
+is RA, Dec = 324.784, 56.949 deg which is equivalent to:
+    RA(J2000)  =  21h 39m 08.2s
+    Dec(J2000) = +56d 56' 56.9"
+with an uncertainty of 4.1 arcmin, (radius, 90% confidence).
+The partial coding was 89%.
+
+XRT finds a single X-ray source in the BAT error circle, with an 
+enhanced XRT position of RA,Dec= 324.87743, 56.98608 which is equivalent to:
+
+   RA (J2000)  = 21h 39m 30.58s
+   Dec (J2000) = +56d 59' 09.9"
+
+with an uncertainty of 1.7 arcsec (radius, 90% confidence). This is 1 
+arcsec away from the catalogued position of V490 Cep in SIMBAD.
+
+This source has been regularly monitored by the BAT Transient Monitor
+(Krimm et al., 2013, ApJSS 209,14) and has been seen to be steadily 
+rising, with an average flux at present of 80 mCrab. The observation
+which triggered BAT was that with the highest significance detection of
+this source by the BAT during the current outburst.
+
+The time-averaged BAT spectrum from T+0.00 to T+303.04 sec is best fit 
+by a simple power-law model.  The power law index of the time-averaged 
+spectrum is 3.52 +/- 0.63.  The fluence in the 15-150 keV band is
+3.9 (+/- 1.1) e-7 erg cm^-2
+
+The Windowed Timing mode XRT spectrum can be modelled with an absorbed
+power-law, with a photon index of 1.01 (+/- 0.05) and an absorption 
+column of 1.32 (+0.10, -0.09) e22 cm^-2. The mean 0.3-10 keV count-rate 
+is ~15 ct/sec, which is consistent with the MAXI-GSC count-rate of 0.11
+ct/sec reported in ATEL #6212, assuming the WT mode spectrum.
+
+The X-ray data show clear signs of modulation, with a period of 66.58 
++/- 0.22 s (90% confidence). Compared to the measurements reported in 
+Wilson, Finger & Scott (1999, ApJ, 511, 367), this implies a spin-down 
+rate of 1.3e-13 Hz/s; a factor of 3 higher than measured in that paper 
+between 1993 and 1997.
+
+This circular is an official product of the Swift team.
+

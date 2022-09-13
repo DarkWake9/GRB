@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28663
+SUBJECT: Fermi GBM Sub-Threshold Detection of GRB 201015A
+DATE:    20/10/16 21:25:33 GMT
+FROM:    Cori Fletcher at USRA  <cfletcher@usra.edu>
+
+C. Fletcher (USRA) and P. Veres (UAH) report on behalf of the Fermi-GBM Team:
+
+Swift-BAT detected GRB 201015A at 22:50:13 UT (GCN 28632). There was no
+Fermi-GBM onboard trigger around the event.
+
+An automated, blind search for short gamma-ray bursts below the onboard
+triggering threshold in Fermi-GBM identified no counterparts.
+
+The GBM targeted search [1], the most sensitive, coherent search for
+GRB-like signals was run from +/-30 s around the BAT trigger time. A transient source was
+identified whose most significant timescale according to the automated search is 1.024 s,
+with a log likelihood ratio of 76 and a location consistent with the Swift-BAT event.
+
+The time-averaged spectrum from T0-0.256 s to T0+0.896 s is adequately fit by a
+Band function with Epeak = 14 +/- 6 keV, alpha = -1.0 (fixed), and beta = -2.40
++/- 0.21. Because the peak energy is close to the low energy threshold of GBM,
+the low energy photon index is unconstrained. We fix it to the median value of
+the GBM GRB sample, however it has no significant effect on the values for Epeak and beta.
+The event fluence (10-1000 keV) in this time interval is(2.25 +/- 0.38)E-07 erg/cm^2.
+T0 here is 2020-10-15T22:50:13.22 UT = 624495018.22 (MET)
+
+
+[1] Goldstein et al. 2019 arXiv:1903.12597

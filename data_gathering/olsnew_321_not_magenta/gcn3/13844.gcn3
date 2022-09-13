@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13844
+SUBJECT: Trigger 535747: Swift detection of an outburst from SGR1806-20
+DATE:    12/10/11 03:13:02 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), S. T. Holland (STScI) and J. A. Kennea (PSU)
+report on behalf of the Swift Team:
+
+At 02:54:21 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located an outburst from SGR 1806-20 (trigger=535747).  Swift slewed
+immediately to the source.  The BAT on-board calculated location is 
+RA, Dec 272.130, -20.410 which is 
+   RA(J2000)  =  18h 08m 31s
+   Dec(J2000) = -20d 24' 35"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single spike
+with a duration of about 0.064 sec.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~0.0 sec after the trigger. 
+
+The XRT began observing the field at 02:55:19.9 UT, 58.6 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 272.1635, -20.4112 which is
+equivalent to:
+   RA(J2000)  = 18h 08m 39.24s
+   Dec(J2000) = -20d 24' 40.3"
+with an uncertainty of 4.1 arcseconds (radius, 90% containment). This
+location is 113 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. This position is 1.4 arcseconds from that
+of SGR 1806-20. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 63 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the large, but
+uncertain extinction expected. 
+

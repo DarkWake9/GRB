@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8854
+SUBJECT: GRB 090126A: Swift-XRT Refined Analysis
+DATE:    09/01/27 01:23:41 GMT
+FROM:    Michael Stroh at PSU/Swift  <stroh@astroh.org>
+
+M. C. Stroh (PSU) reports on behalf of the Swift-XRT team:
+
+We have analyzed the first 3.1 ks of XRT data for GRB 090126A  
+(Evangelista et al., GCN Circ. 8852), from T+48 ks to T+60 ks after  
+the trigger. The data is all taken in Photon Counting (PC) mode.
+
+Using 1435 s of XRT Photon Counting mode data and 2 UVOT images, we  
+find an astrometrically corrected X-ray position (using the XRT-UVOT  
+alignment and matching to the USNO-B1 catalogue): RA, Dec = 3.6577,  
+81.3733 which is equivalent to:
+
+RA (J2000): 00 14 37.85
+Dec (J2000): +81 22 24.0
+
+with an uncertainty of 2.2 arcsec (90% confidence).
+
+This position may be improved as more data are received. The latest  
+position can be viewed at http://www.swift.ac.uk/xrt_positions.  
+Position enhancement is described by Goad et al. (2007, A&A, 476, 1401 http://www.swift.ac.uk/xrt_positions/Goad.pdf) 
+, the current algorithm is an extension of this method.
+
+A spectrum formed from the PC mode data can be fitted with an absorbed  
+power-law with a photon spectral index of 1.8 (+0.6, -0.4). The best- 
+fitting absorption column is 1.8 (+/- 1.8) x 10^21 cm^-2, which is  
+consistent with the Galactic value of 1.4 x 10^21 cm^-2 (Kalberla et  
+al. 2005). The observed (unabsorbed) flux in the 0.3-10.0 keV band is  
+1.49 (1.9) x 10^-12 erg cm^-2 s^-1.
+
+The light curve shows a potentially decaying source which can be fit  
+using a single power-law decay with a slope, alpha = 1.2 (+/- 1.1).  
+Assuming the light curve decays at the current rate, we predict count  
+rates at T+24 and T+48 hours to be 1.6 x 10^-2 and 7.0 x 10^-3  
+respectively.
+
+This is an official product of the Swift-XRT team.

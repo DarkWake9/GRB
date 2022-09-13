@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20377
+SUBJECT: LIGO/Virgo G268556:  ATLAS imaging of the skymap
+DATE:    17/01/05 23:24:44 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+J. Tonry, L. Denneau, A. Heinze, B. Stalder,  H. Weiland (IfA), C. W. Stubbs (Harvard), 
+K. W. Smith, S. J. Smartt, (QUB), D. R. Young (QUB),  A. Rest (STScI),   
+K. C. Chambers (IfA), M. Coughlin (Harvard), M. E. Huber (IfA), D. E. Wright (QUB), 
+H. Flewelling,  E. A. Magnier,  A. S. B. Schultz,   C. Waters, R. J. Wainscoat (IfA) 
+
+We report the following observations of the skymap for LIGO/Virgo
+G268556 with the ATLAS telescope system ATLAS is a twin 0.5m telescope
+system on Haleakala and Mauna Loa (see Tonry et al. ATel 8680 and
+Tonry 2011, PASP, 123, 58). The first unit is operational on Haleakala
+and is robotically surveying the sky in two filters cyan and orange
+(denoted c and o, all mags are in AB system). More information is on
+http://www.fallingstar.com
+
+The alert for G268556 was received 6.5 hours after the event, too
+close to sunrise for targeted observations on 57757 in Hawaii. The
+next night we started observing the LIGO/VIRGO localisation region at
+57758.296 (2016-01-05.296 UT) starting at a pointing centre of RA=80,
+DEC=-30, moving north and east across the lobe to RA=170,80. A total
+of 1250 square degrees were covered.  Sets of dithered 8x30sec
+exposures in the cyan filter were taken, at a 5-sigma sensitivity of c
+= 19.0 for each exposure.  Difference images are automatically created
+with a reference image built during early 2016. These data are currently 
+being processed and results will be reported soon. Maps will be 
+uploaded to GraceDB.
+
+During the previous night (2016-01-04 UT) ATLAS did its routine survey
+of a 20 degree wide declination strip between RA = 334 to 213 deg
+(wrapped through 0), and DEC = +15 to +35 deg. This intersected a
+small part of the LIGO/VIRGO map (containing 9% of the probability)
+between 30mins to 3hrs after the detection time of G268556.  ATLAS
+also surveyed this strip four days prior on 57753, but the sky was
+partly cloudy. No obvious transient is visible in this 9% region.
+
+Furthermore, ATLAS has been scanning the northern region containing
+the highest probability contours during the last three weeks. We
+report here bright transients found before the detection of G268556.
+They will mostly be still visible on the sky map region, but are 
+mostly field supernovae (or CVs) and unrelated to the GW source. 
+
+IAU Name  | ATLAS Name | RA (J2000)  | Dec (J2000) | Disc. MJD | Disc. Date  | Disc Mag |  Notes
+AT2016iyx | ATLAS16dzp | 08:43:24.74 | +37:32:45.8 | 57742.47  | 20161220.47 |  17.28 o |        
+SN2016izg | ATLAS16eak | 07:53:12.77 | +12:53:56.4 | 57736.47  | 20161214.47 |  17.10 o |  ASASSN-16pb (Ia)
+AT2016izk | ATLAS16eaw | 08:49:04.77 | +14:24:49.8 | 57744.57  | 20161222.57 |  16.62 c |   ASASSN-16pc (CV)
+AT2016jae | ATLAS16eay | 09:42:34.50 | +10:59:35.3 | 57744.61  | 20161222.61 |  17.42 c |     
+AT2016jax | ATLAS16ecb | 08:32:53.76 | +42:08:01.6 | 57746.49  | 20161224.49 |  17.60 c |     
+AT2016jaw | ATLAS16ecc | 08:48:21.88 | +24:31:51.9 | 57745.52  | 20161223.52 |  17.98 c |    
+          | ATLAS16ecj | 08:50:02.45 | +46:39:49.0 | 57742.48  | 20161220.48 |  18.50 o |        |  
+          | ATLAS17aay | 09:34:07.69 | +31:46:25.4 | 57745.55  | 20161223.55 |  18.44 c |        |  
+
+
+
+
+

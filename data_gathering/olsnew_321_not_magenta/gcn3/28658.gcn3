@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28658
+SUBJECT: GRB 201015A: Swift-BAT refined analysis (a soft short pulse with a tail emission)
+DATE:    20/10/16 16:04:58 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+C. B. Markwardt (GSFC), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), V. D'Elia (SSDC),
+H. A. Krimm (NSF), S. Laha (GSFC/UMBC),
+A. Y. Lien (GSFC/UMBC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry
+downlink,
+we report further analysis of BAT GRB 201015A (trigger #1000452)
+(D'Elia et al., GCN Circ. 28632).  The BAT ground-calculated position is
+RA, Dec = 354.310, 53.446 deg which is
+   RA(J2000)  =  23h 37m 14.4s
+   Dec(J2000) = +53d 26' 45.0"
+with an uncertainty of 2.9 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 30%.
+
+The mask-weighted light curve shows a short-soft structure with several
+overlapping pulses that start at ~T0 and end at ~T+1 s, followed by
+a weak-soft tail that lasts till ~T+10 s. T90 (15-350 keV)
+is 9.78 +- 3.47 sec (estimated error including systematics).
+
+The time-averaged spectrum from T+0.02 to T+10.35 sec is best fit by
+a simple power-law model.  The power law index of the time-averaged
+spectrum is 3.03 +- 0.68.  The fluence in the 15-150 keV band
+is 2.0 +- 0.6 x 10^-7 erg/cm2. The 1-sec peak photon flux measured
+from T+0.08 sec in the 15-150 keV band is 1.8 +- 0.4 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level.
+
+The BAT spectrum of this event does not appear to be a short hard burst.
+However, the quickly fading X-ray and optical afterglows are
+consistent with those from a short GRB.
+
+If this is a short GRB, this is one of the softest short bursts
+detected by BAT (based on a sample with constrained spectral fits
+from the 3rd BAT GRB catalog; Lien & Sakamoto et al. 2016).
+Other BAT-detected short GRBs with similar softness include
+GRB190326A and GRB140622A. GRB190326A has an ambiguous
+origin due to an observing constraint, but late time XRT/UVOT
+followup observations suggest that the source is more consistent
+with a GRB (Sbarufatti et al., GCN Circ. 24129). GRB140622A was
+classified to be a short GRB because the XRT light curve is
+consistent with the normal behavior of a short burst
+(Sakamoto et al. GCN Circ. 16438; Burrows et al. GCN Circ. 16439).
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/1000452/BA/

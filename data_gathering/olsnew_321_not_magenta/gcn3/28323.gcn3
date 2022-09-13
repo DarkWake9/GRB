@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28323
+SUBJECT: Konus-Wind detection of GRB 200829A (a clone of GRB 200826B?)
+DATE:    20/08/30 14:52:11 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration, very bright GRB 200829A
+(Swift detection: Siegel et al., GCN 28307;
+Goad et al., GCN 28313; Gropp et al., GCN 28317;
+AGILE/MCAL detection: Ursi et al., GCN 28314)
+triggered Konus-Wind at T0=50309.99 s UT (13:58:29.990).
+
+The burst light curve shows a bright, multi-peaked pulse
+which started at ~T0-24 s and had a total duration of ~39 s.
+A weak post-burst emission is visible in the 18-70 keV band
+up to the end of the KW trigger record at ~T0+250 s.
+The emission is seen up to ~10 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB200829_T50309/
+
+As observed by Konus-Wind, the burst
+had a fluence of 3.02(-0.07,+0.07)x10^-4 erg/cm2,
+and a 64-ms peak flux, measured from T0+3.456 s,
+of 1.08(-0.07,+0.07)x10^-4 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+16.384 s)
+can be described, in the 20 keV - 15 MeV range,
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.49(-0.03,+0.03),
+the high energy photon index beta = -2.34(-0.05,+0.04),
+the peak energy Ep = 336(-11,+11) keV
+(chi2 = 163/98 dof).
+
+The spectrum near the maximum count rate
+(measured from T0+3.072 to T0+3.840 s)
+is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.23(-0.07,+0.08),
+the high energy photon index beta = -2.17(-0.06,+0.06),
+the peak energy Ep = 372(-26,+27) keV
+(chi2 = 78/71 dof).
+
+We note, that this burst is very similar to GRB 200826B,
+which, as detected by KW (Ridnaia et al., GCN 28304),
+had the time-integrated spectrum with alpha = -0.54, beta = -2.38,
+Ep = 337 keV; a factor of ~1.5 smaller energy fluence (~2.0x10^-4 erg/cm^2),
+and a factor of ~2 smaller peak energy flux ~5x10^-5 erg/cm^2/s.
+Interestingly, light curves of both bursts are also very similar
+if we scale the time axis by a factor of ~1.5
+(http://www.ioffe.ru/LEA/GRBs/GRB200829_T50309/gWind64_29A_26B.pdf).
+Given the angular distance between the directions
+to GRB 200829A (Swift-XRT GCN 28307) and GRB 200826B (IPN GCN 28303)
+of ~38.6 arcdeg, and the ~3 day difference in the burst arrival times,
+an idea of a lensed GRB cannot be excluded.
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

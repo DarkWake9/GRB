@@ -1,0 +1,43 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4357
+SUBJECT: Swift detection of an RS CVn flare star
+DATE:    05/12/16 12:27:05 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S.T. Holland (GSFC/USRA), S. Barthelmy (GSFC), A. Beardmore (U Leicester),
+D. Burrows (PSU), M. Capalbi (ASDC), G. Chincarini (OAB),
+S. Covino (OAB), N. Gehrels (GSFC), O. Godet (U. Leicester),
+C. Gronwall (PSU), S. Hunsberger (PSU), J. Kennea (PSU),
+H. Krimm (GSFC/USRA), A. Moretti (OAB), K. Page (U Leicester),
+D. Palmer (LANL), M. Perri (ASDC), G. Tagliaferri (OAB)
+on behalf of the Swift team:
+
+At 11:21:52 UT, Swift-BAT triggered on hard x-ray emission from probably
+a non-GRB source (trigger=172969).  The spacecraft slewed immediately.
+The BAT on-board calculated location is RA,Dec 358.776d,+28.607d
+{23h 55m 06s,+28d 36' 26"} (J2000), with an uncertainty of 3 arcmin
+(radius, 90% containment, stat+sys).  This is an image trigger (64-sec duration)
+and the TDRSS lightcurve shows no obvious variation as is typical for
+image triggers.  We also note that the RS CVn star II Peg is close,  and
+is probably the cause of the BAT and XRT detections.
+
+XRT began observing the field at 11:24:08 UT, 136 seconds after the BAT
+trigger.  On-board centroiding found a bright X-ray
+source in the field of view at the following coordinates:
+RA(J2000) = 23 55 04.6
+Dec(J2000)= 28 38 02
+We estimate the uncertainty of this position to be 6 arcseconds (radius,
+90% containment).  This position lies 99 arcseconds from the BAT position
+above.  The approximate initial flux is 6.4e-09 erg/cm2/sec (0.2-10 keV).
+We note that the XRT count rate is not decreasing and that this position is 
+7 arcseconds from the RS CVn star II Peg.  It is likely that the XRT 
+centroided on this star.  There is no other X-ray source in the 2 x 2 arcmin
+postage stamp image.  A check for other sources in the BAT error circle
+will require ground analysis following the next Malindi contact.
+
+UVOT began observing the field at UT 11:24:12, 140 seconds after the BAT
+trigger.  II Peg is seen as a bright source.  No new source with respect 
+to the DSS is seen in the 200 sec finding chart image to a limiting 
+magnitude of V=18.6.  The finding chart covers 12% of the BAT error circle.
+There is also no new source seen in the parameterized source list.
+

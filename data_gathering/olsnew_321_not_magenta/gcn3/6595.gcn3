@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6595
+SUBJECT: GRB 070704: Correction to GCN Circ 6594
+DATE:    07/07/04 22:47:59 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+T. Sakamoto (NASA/ORAU) on behalf of the Swift Team:
+
+The XRT paragraph in the GCN 6594 contains a error.  We stated 
+that the XRT position was "outside" the BAT error circle -- it is, 
+in fact, inside.  The corrected XRT paragraph is:
+
+The XRT began observing the field at 20:08:30 UT, 153 seconds after the
+BAT trigger. The on-board XRT position was not correct, because the 
+algorithm centroided on a hot pixel.  From the ground data analysis,  
+a moderately bright and uncatalogued X-ray source was found 
+at RA, Dec 354.69922, + 66.25226 which is
+   RA(J2000)  =  23h 38m 47.8s
+   Dec(J2000) =  66d 15' 08.1"
+with an uncertainty of 5.5 arcseconds (radius, 90% containment). 
+This location is 40.8 arcseconds from the BAT on-board position 
+and within the BAT error circle.  The initial flux in the 2.5s 
+image was 3.7e-10 erg/cm2/s (0.2-10 keV). 
+
+We apologize for the mistake.  We would like to thank Alex Kann 
+for pointing the error.  
+

@@ -1,0 +1,78 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2081
+SUBJECT: GRB 030329, light curve and SN prediction
+DATE:    03/04/03 14:10:56 GMT
+FROM:    Sylvio Klose at TLS Tautenburg  <klose@tls-tautenburg.de>
+
+A. Zeh, S. Klose (Thueringer Landessternwarte Tautenburg),
+J. Greiner (MPE Garching),
+
+report:
+
+
+Using the light curves of SN 1998bw (Galama et al. 1998, Nature 395,
+670) as a template we have analyzed what color changes are expected to
+be seen in the optical transient following GRB 030329 if a supernova
+component would appear.
+
+
+Ingredients:
+------------
+
+1) SN 1998bw:
+
+- A_V = 0.20 mag (Woosley, Eastman, & Schmidt 1999, ApJ 516, 792)
+- no time delay between the onset of the SN and the onset of the GRB
+- A_V(host) = 0.0 mag
+
+
+2) The host galaxy:
+
+- z = 0.1685 (Greiner et al. 2003, GCN 2020)
+- a negligible host flux in BVRI (based on R>22.5; Blake & Bloom 2003,
+  GCN 2011)
+- A_V(Galaxy) at (l, b) = 217.07, b = 60.68:
+  E(B-V) = 0.025 (Schlegel, Finkbeiner, & Davis 1998, ApJ 500, 525),
+- R_V = 3.1
+
+
+3) The GRB afterglow:
+
+- Considering published GCN R-band data, analyzed according to
+  Beuermann et al. (1999, A&A 352, L26), we find:
+
+  alpha_1 = 0.85 +/- 0.04
+  alpha_2 = 1.55 +/- 0.02
+  t_break = 0.42 +/- 0.03 days,
+
+  after ignoring the several re-brightenings during the last days
+
+- colors (best fit):
+  B-V = 0.39 mag
+  V-R = 0.34 mag
+  R-I = 0.47 mag
+
+- we have taken into account the latest re-brightening episode and assumed that
+  a) alpha_2 remains constant and b) the color of the afterglow does not change
+
+
+Output cocktail:
+----------------
+
+ - Fig. 1: the light curve
+ - Fig. 2: the expected color evolution
+
+We note that differences in the reported value for alpha_2 (cf. Li
+et al. 2003, GCN 2078) can be explained by slightly different
+selection criteria for the data chosen to perform the numerical fit.
+
+http://www.tls-tautenburg.de/research/klose/grb.html
+
+
+Warning:
+--------
+
+These results are based on a simple toy model. They provide only a
+hint about what the strength of the SN signal could be since most
+SN bumps found so far had a brightness of only 30-80% of SN 1998bw.
+

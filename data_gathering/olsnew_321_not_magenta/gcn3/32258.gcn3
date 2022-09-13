@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32258
+SUBJECT: Konus-Wind detection of GRB 220623A
+DATE:    22/06/24 12:32:17 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, A.Lysenko, A. Ridnaia, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The long GRB 220623A (Swift detection: Sbarufatti et al., GCN Circ. 32243;
+AstroSat-CZTI detection: Gopalakrishnan et al., GCN Circ 32246;
+AGILE detection: Ursi et al., GCN Circ 32247)
+triggered Konus-Wind (KW) at T0=25447.564 s UT (07:04:07.564).
+
+The burst light curve shows a bright, double-peaked structure
+which starts at ~T0-0.2 s and has a total duration of ~15 s.
+A weaker emission in visible in the KW lc until ~T0+50 s.
+The emission at the bright phase of the event is seen up to ~2.5 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220623_T25447/
+
+As observed by Konus-Wind, the burst had
+a fluence of (2.5 ± 0.3)x10^-5 erg/cm^2 and
+a 64-ms peak energy flux, measured from T0 + 0.064 s,
+of (8.8 ± 0.8)x10^-6 erg/cm^2/s (both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum (measured from T0 to T0+49.408 s)
+is best fit in the 20 keV - 15 MeV range
+by a power law with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.13(-0.11,+0.12) and Ep = 869(-224,+363) keV (chi2 = 93/98 dof).
+Fitting this spectrum by a Band function yields the same values of alpha and Ep,
+and an upper limit on the high energy photon index beta of -2.6 (chi2 = 93/97 dof).
+
+The spectrum near the peak count rate (measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 15 MeV range by a CPL function
+with  alpha = -0.82(-0.09,+0.10) and Ep = 910(-136,+177) keV (chi2 = 86/98 dof).
+Fitting this spectrum by a Band function yields the same values of alpha and Ep,
+and an upper limit on the high energy photon index beta of -2.9 (chi2 = 86/97 dof).
+
+All the quoted errors are estimated at the 90% confidence level.
+All the presented results are preliminary.
+

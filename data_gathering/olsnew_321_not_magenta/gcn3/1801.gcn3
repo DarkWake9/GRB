@@ -1,0 +1,38 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1801
+SUBJECT: Information about where HETE will be pointing
+DATE:    03/01/11 16:17:24 GMT
+FROM:    Roland Vanderspek at MIT  <roland@space.mit.edu>
+
+R. Vanderspek, on behalf of the HETE Science Team, writes:
+
+Generally, the HETE instruments' FOV is centered on the anti-solar
+position.  However, at certain times (e.g., near full moon, when
+Sco X-1 is near the anti-solar point, during astrometric calibrations),
+the pointing direction of the HETE instruments may be offset from
+the anti-solar point by as much as 50 degrees.
+
+In order to facilitate pre-burst, concurrent, and immediate post-burst
+observations of GRBs localized by HETE, information about where HETE 
+will be pointing is now continuously updated and available on the HETE 
+website at this URL:
+
+  http://space.mit.edu/HETE/Latest_RADec.txt
+
+The file includes estimates of the RA and dec of the center of the 
+instruments' FOV for upcoming orbits and a few recent orbits.  The file 
+also includes the time of instrument operations for the next 8 orbits.
+
+This file can be retrieved with either of the following commands:
+
+  lynx -dump -reload http://space.mit.edu/HETE/Latest_RADec.txt
+  wget --cache=off -q -O - http://space.mit.edu/HETE/Latest_RADec.txt
+
+A mapping of the science instruments' FOV onto the celestial sphere
+based on the estimated current attitude of the HETE satellite can
+be found at
+
+  http://space.mit.edu/HETE/mission_status.html#hetepointing
+
+Send questions or comments about this file to roland@space.mit.edu.
+

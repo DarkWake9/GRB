@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8192
+SUBJECT: GRB 080905B: Refined UVOT Analysis
+DATE:    08/09/07 00:43:31 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/USRA/GSFC) & M. C. Stroh (PSU) report on behalf
+of the Swift/UVOT team:
+
+       The Swift/UVOT observed the field of GRB 080905B starting 94 s
+after the BAT trigger (Stroh et al., 2008, GCNC. 8182).  Settled
+observations started at T + 113 s.  We detect the optical afterglow
+(Stroh et al., GCNC 8182) in the v and white filters at the
+UVOT-enhanced location of the XRT afterglow (Osborne, et al., 2008,
+GCNC 8089).  There is an uncertain detection in the b filter.  The
+refined UVOT source position is
+
+  RA (J2000.0) =  20:06:57.89
+Dec (J2000.0) = -62:33:47.0
+
+with an estimated uncertainty of 0.7 arcsec (radius, 90%
+confidence).  We note that the afterglow is slightly blended with the
+USNO-B1.0 star 274-094527, which makes it dificult to confirm the
+detection in the b band.
+
+     Magnitudes and upper limits are reported below.
+
+Filter   TSTART   TSTOP     Exposure     Mag   Err  Comment
+  white      113     213           98   18.70  0.09
+    v        219     619          394   16.60  0.07
+    b        699    6033          206   19.49  0.15  uncertain detection
+    u        674    5828          216  >20.7         3-sigma upper limit
+   uvw1      650    5623          197  >20.3         3-sigma upper limit
+   uvm2     5218    5418          197  >19.9         3-sigma upper limit
+   uvw2      729    6445          197  >20.5         3-sigma upper limit
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E_{B-V} = 0.05 mag (Schlegel et al.,
+1998, ApJS, 500, 525).  The photometry is on the UVOT photometric
+system described in Poole et al. (2008, MNRAS, 383,627).  The possible
+detection in the b filter, coupled with the non-detections in the u,
+uvw1, uvm2, and uvw2 filters, are consistent with a redshift of
+approximately z < 3.3.  The power-law decay index in the v band
+between 763 and 6505 s is -0.88.
+

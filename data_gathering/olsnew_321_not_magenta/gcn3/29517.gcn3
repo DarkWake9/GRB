@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29517
+SUBJECT: GRB 210210A: Konus-Wind detection and joint Konus-Wind + Swift-BAT spectral analysis
+DATE:    21/02/17 14:49:35 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, A.Lysenko, D. Svinkin, A. Ridnaya,
+A. Tsvetkova,  M. Ulanov, T. Cline, on behalf of the Konus-Wind team,
+and A. Lien (GSFC/UMBC), report:
+
+The long GRB 210210A (Swift-BAT trigger #1031728, T0 = T0(BAT)= 02:00:27.920 UT:
+Laha et al., GCN 29444; Lien et al., GCN 29467)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in the 20-400 keV band
+reveals a ~11 sigma count rate increase over background in the interval
+from ~T0(BAT)-1.7 s to ~T0(BAT)+7.1 s.
+The KW light curve of this burst is available
+at http://www.ioffe.ru/LEA/GRBs/GRB210210A/
+
+To derive the broad-band spectral parameters of this burst, we performed
+a joint spectral analysis of the Swift/BAT data (15-150 keV) and the Konus-Wind
+3-channel spectral data, which cover the energy range from ~20 keV to ~1.5 MeV.
+
+The time-averaged spectrum, measured from T0(BAT)-1.685 s to T0(BAT)+7.147 s,
+is best fit in the 15 keV - 1.5 MeV range by a power law with an exponential cutoff.
+This fit gives a photon index alpha -1.68 (-0.23,+0.25), and Ep of 16.6 (-10.7,+7.2) keV
+(chi^2 = 47.5/ 58 dof).
+A fit to a simple power law gives a photon index of (2.52 ± 0.07), chi^2 = 58.4/ 59 dof.
+The joint fit results are consistent with the Swift-BAT refined analysis (GCN 29467).
+
+In the 15-1500 keV band, the total burst fluence, estimated from the CPL model,
+is (1.2 ± 0.1)x10^-6 erg/cm^2, and the 2.944 s peak energy flux is (2.4 ± 0.2)x10^-7 erg/cm^2.
+
+Assuming the redshift z=0.715 (de Ugarte Postigo et al., GCN 29450)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the isotropic energy release E_iso to ~1.7x10^51 erg,
+the isotropic luminosity L_iso to ~5.9x10^50 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum Ep,z to ~29 keV.
+With these values, GRB 210210A is within 90% prediction bands
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW GRBs
+with known redshifts (part II: Tsvetkova et al., ApJ, in press),
+see http://www.ioffe.ru/LEA/GRBs/GRB210210A/GRB210210A_rest_frame.pdf
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.
+

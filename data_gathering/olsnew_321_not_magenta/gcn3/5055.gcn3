@@ -1,0 +1,44 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5055
+SUBJECT: GRB 060502B: Swift detection of a short burst
+DATE:    06/05/02 18:08:11 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+E. Troja (INAF-IASFPA), S. D. Barthelmy (GSFC),
+P. T. Boyd (NASA/GSFC), D. N. Burrows (PSU),
+J. R. Cummings (NASA/ORAU), N. Gehrels (NASA/GSFC),
+S. T. Holland (GSFC/USRA), S. D. Hunsberger (PSU),
+J. A. Kennea (PSU), H. A. Krimm (GSFC/USRA),
+V. La Parola (INAF-IASFPA), V. Mangano (INAF-IASFPA),
+F. E. Marshall (NASA/GSFC), P. T. O'Brien (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+T. Sakamoto (NASA/ORAU), G. Tagliaferri (INAF-OAB) and
+D. E. Vanden Berk (PSU) report on behalf of the Swift Team:
+
+At 17:24:41 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located the short GRB 060502B (trigger=208275).  Swift slewed immediately
+to the burst.  The BAT on-board calculated location is 
+RA,Dec 278.936, +52.632 {18h 35m 45s, +52d 37' 56"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The TDRSS BAT light curve shows a single spike
+with a FWHM of less than 128 msec.  The peak count rate
+was ~10000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began taking data at 17:25:51 UT, 70 seconds after the BAT
+trigger. The XRT on-board centroid algorithm did not find a source in
+the image, however analysis of downlinked data reveals a faint point
+source at the following coordinates: RA(J2000) = 18h 35m 45.9s,
+Dec(J2000) = 52d 37m 38.1s, with an estimated uncertainty of 10
+arcseconds radius (90% containment). This position is 20 arcseconds
+from BAT localization. We note that the XRT position lies 2.5
+arcseconds from an possible galaxy with R=18.5 in the APM-North
+catalogue (McMahon et al., 2000). 
+
+UVOT took a finding chart exposure of 100 seconds with the White 
+(160-650 nm) filter starting 74.2 seconds after the BAT trigger. 
+There is no detected new source in the rapidly available 2.7'x2.7' 
+sub-image, to a limiting White magnitude of about 19.1. 
+
+We are currently in the beginning of the Malindi downlink gap, so we
+will not have the full data set until at least 01:00 03/May/06 UT. 
+

@@ -1,0 +1,29 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3877
+SUBJECT: GRB050824: decay of the XRT light curve and updated X-ray spectrum
+DATE:    05/08/25 17:27:22 GMT
+FROM:    Sergio Campana at INAF-OAB  <campana@merate.mi.astro.it>
+
+S. Campana (INAF-OAB), A. Moretti (INAF-OAB), V. Mangano (INAF-IASF
+Palermo), D.N. Burrows (PSU), report:
+
+We have analyzed 13 ks of Swift XRT data of GRB 050824
+(Campana et al., GCN3866).
+
+The 0.2-10 keV light curve XRT (started 6089 seconds after the BAT
+trigger) now shows an indication of a temporal decay with a power
+law index of -0.4+/-0.2 (90% confidence level).
+The power law fit is better than a constant fit at a 3.3 sigma
+level (F-test). This indicates that the source suggested in the
+previous XRT circular (Campana et al., GCN3872) is the X-ray
+afterglow of GRB050824.
+
+The 307 photons in the 0.3-10 keV evergy band were also used for
+spectral analysis. We fixed the column density to the Galactic value
+(3.6x10^20 cm-2) and added a free local absorption at z=0.83 (Fynbo
+et al., GCN3874) plus a power law. We found an accepetable model
+(chi2_red=1.01) with a NH_loc=(1.7+/-1.3)x10^21 cm-2 and a power
+law photon index of 2.0+/-0.2 (90% confidence level).
+
+[GCN OPS NOTE(25aug05): Per author's request, "...afterglow of GRB050724"
+was changed to "...afterglow of GRB050824".]

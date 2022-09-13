@@ -1,0 +1,75 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1245
+SUBJECT: GRB020127 Optical Observations
+DATE:    02/02/06 02:00:48 GMT
+FROM:    Brian Lee at Fermilab  <bclee@fnal.gov>
+
+B. C. Lee, D. Q. Lamb, R. J. McMillan, D. G. York and D. E. Vanden Berk,
+on behalf of the SDSS GRB team, report:
+
+The field of GRB020127 (= H1902) (Ricker et al., GCN 1229) was
+observed by the SDSS in two interlaced runs on 2001 December 18.34 and
+19.30 UTC in the normal course of SDSS operations.  We have examined
+the SDSS u* g* r* i* z* images in the vicinity of the eleven probable
+X-ray sources seen in the first Chandra follow-up observation (Fox,
+GCN 1241) that lie near or within the joint HETE-IPN localization
+(Hurley et al., GCN 1232).  The tables below list the properties of
+the objects we find that lie closest to the locations of the probable
+X-ray sources.  The distance to the X-ray source position (col 3) is
+listed in arcseconds.  SDSS RMS astrometric errors are 0.1 arcsec or
+less.
+
+------------------------------------------------------------------------------
+       Nearest
+X-ray  Optical    RA       Dec   Distance Photo     r* mag       Comment
+Source Source    (deg)    (deg)  (arcsec) Class
+------------------------------------------------------------------------------
+cxo01  sdss01  123.67710 36.81988  0.86   star    20.22+/-0.02  Probable QSO
+cxo02  sdss02  123.70650 36.72886 29.68   galaxy  22.84+/-0.28  Too faint
+cxo03  sdss03  123.82472 36.65235  3.67   galaxy  21.39+/-0.06  QSO colors
+cxo04  sdss04  123.85118 36.68411  1.94   galaxy  19.77+/-0.02
+cxo05  sdss05  123.86302 36.68097  2.71   galaxy  22.76+/-0.18  Too faint
+cxo06  sdss06  123.86641 36.82857  2.36   galaxy  21.44+/-0.06
+cxo07  sdss07  123.88969 36.77076  0.65   star    20.33+/-0.03  Probable QSO
+cxo08  sdss08  123.91376 36.79532  6.16   ------  15.06+/-0.01  Saturated star
+cxo09  sdss09  123.92058 36.72213  3.35   galaxy  22.71+/-0.18  Too faint
+cxo10  sdss10  123.92700 36.75947  2.01   ------  14.90+/-0.01  Saturated star
+cxo11  sdss11  123.93778 36.68775  4.56   galaxy  22.20+/-0.11  Too faint
+------------------------------------------------------------------------------
+Table notes:
+
+Photo class: the SDSS photometric pipeline's morphological classification.
+             Star = PSF like, galaxy = extended.
+Probable QSO/QSO colors: This object's colors are similar to that of a
+                         QSO.
+Too faint: This object is faint enough that classification,
+           magnitudes, and colors are likely to be unreliable.
+Saturated: This object is saturated in one or more filters.  Position,
+           magnitudes, and photo class are unreliable.
+
+------------------------------------------------------------------------------
+     Photo
+sdss Class      r*           u*-g*        g*-r*        r*-i*        i*-z*
+------------------------------------------------------------------------------
+01   star     20.22+/-0.02  0.37+/-0.05  0.05+/-0.03  0.02+/-0.04  0.20+/-0.09
+02** galaxy   22.84+/-0.28 -0.37+/-0.54  1.26+/-0.40  0.25+/-0.33 -0.01+/-0.47
+03   galaxy   21.39+/-0.06 -0.19+/-0.15  0.42+/-0.09  0.14+/-0.09  0.38+/-0.18
+04   galaxy   19.77+/-0.02  1.38+/-0.15  0.58+/-0.03  0.47+/-0.03  0.13+/-0.05
+05** galaxy   22.76+/-0.18 -0.05+/-0.71  0.45+/-0.27  0.26+/-0.26  0.93+/-0.34
+06   galaxy   21.44+/-0.06  0.23+/-0.28  0.80+/-0.11  0.14+/-0.09  0.34+/-0.19
+07   star     20.33+/-0.03  0.19+/-0.07  0.10+/-0.04  0.27+/-0.04 -0.01+/-0.09
+08** ------   15.06+/-0.01 -2.08+/-0.03  0.01+/-0.02  0.14+/-0.02  1.87+/-0.02
+09** galaxy   22.71+/-0.18 -0.72+/-0.38  0.64+/-0.29  0.71+/-0.22 -0.05+/-0.42
+10** ------   14.90+/-0.01 -0.15+/-0.03 -0.09+/-0.02  0.32+/-0.02  2.46+/-0.02
+11** galaxy   22.20+/-0.11  0.95+/-0.69  0.53+/-0.18  0.91+/-0.13  0.62+/-0.16
+------------------------------------------------------------------------------
+Table note:
+
+** Saturated or faint star: magnitudes, colors, classification and
+                            (for saturated stars) position are unreliable.
+
+-- 
+Brian C. Lee         - bclee@fnal.gov -          630-840-6646
+Fermilab MS 127 WH7W -   PO Box 500   - Batavia IL 60510-0500
+---------------- http://home.fnal.gov/~bclee/ ---------------
+

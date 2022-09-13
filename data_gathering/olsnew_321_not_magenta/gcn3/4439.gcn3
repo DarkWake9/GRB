@@ -1,0 +1,42 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4439
+SUBJECT: Konus-Wind observation of GRB 060105
+DATE:    06/01/06 13:10:21 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The GRB 060105 (Swift-BAT trigger #175942;
+Ziaeepour et al., GCN 4429; Markwardt et al., GCN 4435)
+triggered Konus-Wind at T0=24544.371 s UT (06:49:04.371).
+
+The Konus-Wind light curve consists of three main
+multipeaked pulses with a total duration of ~60 sec.
+
+As observed by Konus-Wind the burst had
+a fluence of 7.86(-0.37,+0.19)x10^-5 erg/cm2 and
+peak flux on 256 msec time scale 6.55(-0.45,+0.19)x10^-6 erg/cm2/sec
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the GRB (from T0 to T0+58.880 sec)
+is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-E*(2-alpha)/Ep)
+with alpha = 0.827(-0.044,+0.042)
+and Ep = 424(-22, +25) keV (chi2 = 63/62dof).
+It can also be fitted by GRBM (Band) model for which:
+the low-energy photon index is alpha = -0.790 (-0.052,+0.067),
+the high energy photon index beta = -2.70(-0.73, +0.35),
+the break energy E0 = 327 (-46, +40) keV (chi2 = 58/61dof).
+
+The spectrum integrated over the most intense part of the GRB
+(from T0+16.64 to T0+29.184 sec) is well fitted
+(in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-E*(2-alpha)/Ep)
+with alpha = 0.571(-0.060,+0.057)
+and Ep = 549(-31, +34) keV (chi2 = 73/62dof).
+
+All the quoted errors are at the 90% confidence level.
+

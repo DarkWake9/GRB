@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10297
+SUBJECT: Swift Trigger 381434 is not a GRB
+DATE:    09/12/29 19:21:53 GMT
+FROM:    Vanessa Mangano at INAF-IASFPA  <vanessa@ifc.inaf.it>
+
+S. D. Barthelmy (GSFC), C. B. Markwardt (GSFC/UMD), 
+V. Mangano, B. Sbarufatti (INAF-IASF PA), A. Breeveld (MSSL/UCL)
+report on behalf the Swift team:
+
+Using the full data set from telemetry downlinks, we report
+that Swift Trigger 381434 is due to a cosmic ray shower event
+in the BAT instrument.  It is not due to a GRB nor any other
+astrophysical source.  There were two showers ~8 msec apart
+which caused the 64msec trigger to fire.
+
+The XRT observed the field of the target starting 68 s after
+the trigger. In the initial 7 ks in PC mode no source is
+detected within the 3 arcmin BAT error circle down to a limiting
+flux of 8 x 10^-14 erg cm^-2 s^-1. Three X-ray sources are
+detected with more than 3 sigma significance in the whole XRT 
+field of view, the brightest one likely associated to 
+1RXS J050001.1-550121, and the other two unidentified. 
+All of these sources are further than 4 arcmin from the target position.
+
+The UVOT began settled observations of the field of the target 
+65 s after the BAT trigger. No new source is detected. 
+Preliminary 3-sigma upper limits using the UVOT photometric system 
+(Poole et al. 2008, MNRAS, 383, 627) for the first finding chart 
+(FC) exposure and subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white_FC            65          215          147         >21.1
+u_FC               277          526          246         >20.4
+white               65         1699          411         >21.6
+v                  606         1748          136         >19.4
+b                  532         1834          123         >20.3
+u                  277         1822          363         >20.6
+w1                 656         1798          136         >19.9
+m2                 631         1773          136         >19.8
+w2                 582         1551          117         >20.1
+
+The values quoted above are not corrected for the Galactic extinction 
+due to the reddening of E(B-V) = 0.02 in the direction of the burst 
+(Schlegel et al. 1998).
+
+The lack of a bright X-ray/optical counterpart of Trigger 381434 in 
+prompt observations strengthens the spurious trigger interpretation.
+
+

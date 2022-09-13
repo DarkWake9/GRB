@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9435
+SUBJECT: GRB090529: UVOT/Swift detection of a brightening optical afterglow
+DATE:    09/05/29 22:12:44 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL-UCL), T. Sakamoto (NASA/UMBC), S. T. Holland 
+(CRESST/GSFC/USRA) and F. E. Marshall (NASA/GSFC) report on behalf of the 
+Swift UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 090529 206s 
+after the BAT trigger (Sakamoto et al., GCN Circ. 9430) and no new source 
+was detected within the XRT position in the first white finding chart (fc) 
+(Sakamoto et al., GCN Circ. 9430; Holland et al., GCN Circ. 9432). 
+However, a new source is detected within the refined XRT error circle 
+(Osborne et al., GCN Circ. 9433) in a second white finding chart, taken at 
+883s after the BAT trigger, as well as in a co-added b-band exposure at
+
+RA (J2000)  14:09:52.56   =  212.46892 (deg)
+Dec (J2000) +24:27:32.2   =  +24.45892 (deg)
+
+with an estimated uncertainty of 0.7 arcsec (radius, 90% confidence, 
+statistical + systematic). This source detection is consistent with the 
+white band detection reported by Xin et al. (GCN Circ. 9431). We note that 
+there is weak evidence that the source could be extended.
+
+The magnitudes and 3-sigma upper limits for the observations currently 
+available are as follows:
+
+Filter      T_start(s)  T_stop(s)  Exp(s)   Mag/3-sigma UL
+
+white_fc1     206        355        147        > 21.09
+white_fc2     883        1032       147        20.81 +/- 0.22
+white         1185       2587       175        21.55 +/- 0.31
+v             363        2637       253        > 20.24
+b             461        2564       233        20.97 +/- 0.36
+b             2716	 2824       107        > 20.70
+u             436        2691       253        > 20.87
+uvw1          412        2667       156        > 20.60
+uvm2          387        2661       253        > 20.20
+uvw2          510        2594       253        > 20.65
+
+The values quoted above are not corrected for the Galactic extinction due 
+to the reddening of E(B-V) = 0.02 in the direction of the burst (Schlegel 
+et al. 1998). The photometry is on the UVOT photometric system described 
+in Poole et al. (2008, MNRAS, 383, 627).
+
+
+

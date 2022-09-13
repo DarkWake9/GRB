@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18453a
+SUBJECT: LIGO/Virgo G194575: INTEGRAL search of temporally coincident prompt hard X-ray emission 
+DATE:    15/10/23 18:25:44 GMT
+FROM:    Carlo Ferrigno at ISDC/INTEGRAL  <carlo.ferrigno@unige.ch>
+
+V. Savchenko (APC, Paris, France), S. Mereghetti (IASF-Mi, Italy), C.
+Ferrigno, E. Bozzo, T. J.-L. Courvoisier (ISDC, University of Geneva,
+CH),  E. Kuulkers (ESAC/ESA, Madrid, Spain), A. Bazzano (IAPS-Roma,
+Italy)
+
+The anti-coincidence shield of the spectrometer on board of INTEGRAL
+(SPI/ACS) is sensitive to photons above ~50 keV, but without directional
+information.
+
+We investigated the SPI/ACS light curve at -1000 +1000 s from the trigger time
+(2015-10-22 13:33:19 UTC) on temporal scales from 0.1 to 100 s. The
+nearest excess on the constant background is at 2015-10-22 13:36:54, i.e.
+215 seconds after the LIGO/Virgo trigger. The excess has a duration of
+less than 0.05 seconds and a post-trial significance of 5.1 sigma. This
+event is compatible with particle effects in SPI-ACS. We estimate the
+chance of a particle effect to happen in the 200 seconds following the
+trigger to be 20%. However, with SPI-ACS data alone we can not exclude
+a cosmic origin of this excess.
+
+The SPI/ACS light curves, binned at 50 ms, are derived from 91
+independent detectors with different lower energy thresholds (mainly
+between 50 keV and 150 keV) and an upper threshold at about 100 MeV. The
+ACS response varies as a function of the incident angle. The highest
+probability sky location of the LIGO trigger is in the direction of the
+satellite Z-axis (the direction pointing to the Sun, where the SPI/ACS
+has reduced sensitivity). For this direction we estimate a  3-sigma
+upper limits corresponding to fluences in the 75-1000 keV band of 4e-6 erg/cm2
+for a 100 s duration, 1.8e-6 erg/cm2 for 10 s, 5.8e-7 erg/cm2 for 1 s,
+and 2.1e-7 erg/cm2 for 0.1 s. The upper limits assume a typical GRB
+spectrum with Band model parameters alpha=1, beta=2.5 and E0 ~ 500 keV.
+For the other probability region, the estimated upper limits are roughly
+a factor three tighter. Given the same assumptions, if the excess at
+2015-10-22 13:36:54 were of cosmic origin, it would have a fluence of 3.2e-7
+erg/cm2 in the 75-1000 keV energy range.
+
+We also searched for transient events in time coincidence with the LIGO
+trigger in the data of the coded-mask imager IBIS, which at the time of
+the trigger was pointed at R.A.=297.1 deg, Dec.=+29.3 deg (i.e., more
+than 90 degrees from both LIGO highest probability regions). No
+significant events were found on timescales from 2 ms to 100 s.
+Typically, the minimum peak flux on 1 s time scale of gamma-ray
+bursts detected with IBIS is 0.1 ph/s/cm2 in the 20-200 keV energy band,
+in the central 9x9 deg of the field of view, which has zero response at 29x29 degrees.
+However, due to the presence of the bright and variable source Cyg X-1  in the
+field of view, we estimate that the sensitivity in the current
+observation might be at least a factor 3 worse.
+
+[GCN OPS NOTE(26oct15):  Because of a processing error, two circulars
+received the same ID Number.  The second was given an "a' suffix.]
+

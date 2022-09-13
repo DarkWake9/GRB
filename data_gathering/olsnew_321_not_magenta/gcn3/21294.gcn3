@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21294
+SUBJECT: GRB 170705A: Swift/UVOT Detection
+DATE:    17/07/05 15:08:53 GMT
+FROM:    Sam Emery at MSSL-UCL  <samuel.emery.15@ucl.ac.uk>
+
+S.W.K. Emery (UCL-MSSL) and R. L. C. Starling (U. Leicester)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 170705A
+82 s after the BAT trigger (Starling et al., GCN Circ. 21289).
+We detect a fading source consistent with the XRT position
+(Goad et al., GCN Circ. 21290) and the MASTER (Lipunov et al., GCN Circ. 21291)
+and RATIR (Butler et al., GCN Circ. 21293) detections in the initial UVOT exposures.
+
+The preliminary UVOT position is:
+    RA  (J2000) =  12:46:48.97 = 191.70404 (deg.)
+    Dec (J2000) = +18:18:26.4  =  18.30733 (deg.)
+with an estimated uncertainty of 0.45 arc sec. (radius, 90% confidence).
+
+Preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first
+finding chart (FC) exposure and subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+white_FC            82          231          147         18.55 +/- 0.06
+white              573         1020          186         19.23 +/- 0.11
+u                  294          543          246         19.43 +/- 0.19
+v                  623         1070           58        >18.3
+b                  549          741           39         18.92 +/- 0.26
+uvw1               672          692           19        >18.1
+uvm2              4617        12950          996        >20.7
+uvw2              5644        11420         1137        >21.0
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.02 in the direction of the burst
+(Schlegel et al. 1998).
+

@@ -1,0 +1,75 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24197
+SUBJECT: LIGO/Virgo S190425z: ATLAS observations of the S190425z skymap  
+DATE:    19/04/25 21:45:52 GMT
+FROM:    Stephen Smartt at Queen's U/Belfast  <s.smartt@qub.ac.uk>
+
+O. McBrien, S. Smartt, K. W. Smith, D. R. Young, (Queen's University
+Belfast), L. Denneau, H. Flewelling, A. Heinze, J. Tonry, H. Weiland,
+(IfA, Univ. of Hawaii), J. Gillanders, S. Srivastav, D. O'Neil, P.
+Clark, S. Sim (QUB), A. Rest (STScI), B. Stalder (LSST), C. Stubbs
+(Harvard), E. Magnier, A. Schultz, , M. Huber, K. C. Chambers (IfA)
+
+We report observations of the BAYESTAR skymap of the BNS event
+S190425z (The LIGO Scientific Collaboration and the Virgo
+Collaboration, GCN 24168) with the ATLAS telescope system (Tonry et
+al. 2018, PASP, 13, 164505). ATLAS is a twin 0.5m telescope system on
+Haleakala and Mauna Loa employing two filters cyan and orange. While
+carrying out the primary mission for Near Earth Objects, we can adjust
+the schedule rapidly to point at LVC gravitational wave skymaps.
+
+Sequences of 30 sec images were taken in the ATLAS o bands, and at
+each pointing position a sequence of quads (4 x 30 sec) was taken. The
+images were processed with the ATLAS pipeline and reference images
+subtracted from each one. Transient candidates were run through our
+standard filtering procedures, combined with machine learning
+algorithms (e.g. Wright et al. 2015, MNRAS, 449, 451). Candidates were
+spatially cross-matched with known minor planets, and star, galaxy,
+AGN and multi-wavelength catalogues (as described in Smartt et al.
+2016, MNRAS, 462 4094, Stalder et al. 2017, ApJ, 850, 149).
+
+We began observing the northern part of the skymap within the first
+hour of the preliminary notice. ATLAS covered 2652 squ. degrees of the
+bayestar map 90% credible region and covered a sky region totalling of
+37.2% of the event's localisation likelihood. A single image reaches 
+approximately o = 19.5 (5 sigma), 
+
+We flagged 25 transients but all were either known, or we detected
+previous flux in our own forced photometry in images before the explosion. 
+These new objects were registered on the TNS. Users are referred there as
+a reference point. 
+
+No further convincing counterpart candidates were found above o =
+19.5, which were plausibly associated with a galaxy within 100-200 Mpc
+(i.e. less than 50 kpc separation). Our area did not cover the sky position of the two
+ZTF candidates (see Kasliwal et al. GCN 24191).
+
+In addition we report 5 marginal candidates. These are all orphans (not
+matched with any known source), but require independent confirmation.
+They are within the skymap (at least 30% contour). 
+
+Name              | IAU Name | RA (J2000)  | Dec (J2000) | Disc. MJD | Disc Mag 
+ATLAS19hxm |  AT2019dzv |14:01:45.02 | +46:12:56.1 | 58598.42  |  19.23 o 
+ATLAS19hyx  |  AT2019ebl |14:32:31.53 | +55:45:00.1 | 58598.44  |  19.28 o 
+ATLAS19hyo  |  AT2019eao |13:01:18.63 | +52:09:02.1 | 58542.59  |  19.36 o 
+ATLAS19hwn |  AT2019ebm |12:59:58.58 | +29:14:30.7 | 58598.40  |  19.42 o 
+ATLAS19hwh |  AT2019ebn |13:54:47.42 | +44:46:27.3 | 58318.29  |  19.07 o 
+
+
+This work has made use of data from the Asteroid Terrestrial-impact 
+Last Alert System (ATLAS) project. ATLAS is primarily funded to search 
+for near earth asteroids through NASA grants NN12AR55G, 80NSSC18K0284, 
+and 80NSSC18K1575; byproducts of the NEO search include images and 
+catalogs from the survey area. The ATLAS science products have been 
+made possible through the contributions of the University of Hawaii 
+Institute for Astronomy, the Queen's University Belfast, and the 
+Space Telescope Science Institute.
+
+
+
+
+
+
+
+
+

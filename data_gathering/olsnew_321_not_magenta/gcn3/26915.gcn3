@@ -1,0 +1,94 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26915
+SUBJECT: Fermi-LAT-ANTARES coincidence
+DATE:    20/01/28 13:01:29 GMT
+FROM:    Colin F Turley at AMON, Penn State U  <cft114@psu.edu>
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ANTARES 200127A: AMON + ANTARES Identification of a Low False-Alarm
+Rate High-Energy Neutrino + Fermi LAT Coincidence
+
+
+C. F. Turley and D. B. Fox (for AMON https://www.amon.psu.edu/) +
+M. Ageron (CNRS/CPPM) A.Coleiro (Univ. de Paris/APC), D. Dornic
+(CNRS/CPPM), A. Kouchner (Univ. de Paris/APC ) (for ANTARES) report:
+
+"During operations of the AMON ANTARES neutrino + Fermi LAT gamma-ray
+multimessenger alerts, at 2020 January 27 at 18:52:02.9 UT, we identified
+a low false alarm-rate (1 per 4.04 years) coincidence between a single
+ANTARES neutrino and two Fermi LAT photons. An alert was automatically
+generated and, after human review, distributed to AMON partner
+facilities at 2020 January 28, 02:09 UT. We are now reporting this
+alert publicly. Alert details are as follows:
+
+    Date:  27 January 2020
+    Time:  18:52:02.95 UT
+    R.A.:  16:01:47.1 (J2000)
+    Dec.: -52:57:28.6 (J2000)
+    r_90:  0.233 deg (90%-containment)
+    FAR:   0.25 yr-1
+
+ANTARES 200127A is a high-energy neutrino-induced muon event detected
+by ANTARES (Ageron et al. 2011) with coordinates R.A. 16:16:33,
+Dec. -53:36:46.8 (J2000) at 18:55:05 UT, and a p-value based on the
+number of hits used for the reconstruction of 0.433, which relates
+to the deposited energy.
+
+The minimum false alarm rate coincidence from our analysis associates
+this neutrino with two Fermi LAT photons. The first photon was detected at
+18:49:25.9 UT with coordinates R.A. 16:01:47.52, Dec. -52:57:19.44 (J2000)
+and energy 33.28 GeV. The second photon was detected at 18:51:37.9 UT with
+coordinates R.A. 16:00:34.08, Dec -52:37:48.00 (J2000) and energy 2.18 GeV.
+The best-fit localization and uncertainty for a point source yielding the
+ANTARES 200127 neutrino and the photon is as quoted above. The false alarm
+rate for ANTARES neutrino + Fermi LAT gamma-ray coincidences of this quality
+or better is 1 per 4.036 years. We notice that this Fermi-LAT-ANTARES
+coincidence is spatially matching the 50% credible region of the GW
+event S200128d but preceded it by approximately 7.5 hours.
+
+Details of the ANTARES + Fermi LAT coincidence search procedures are
+provided in Ayala Solares et al. (AMON + ANTARES) 2019 (ApJ 886 (2019)
+98, ArXiv:1904.06420). False alarm rates are established from 73,000
+years of simulated observation and take into account the point spread
+functions of the associated neutrino + photons, the known backgrounds
+at this sky position, the energy of the neutrino, and the energies of
+the Fermi LAT photons (within broad ranges).
+
+The AMON alert for this coincidence is provided in GCN Alert format
+below."
+
+//////////////////////////////////////////////////////////////////////
+TITLE: GCN/AMON NOTICE
+NOTICE_DATE: Mon 27 Jan 2020 18:52:02.95 UT
+NOTICE_TYPE: Fermi-LAT ANTARES coincidence
+AMON_NUM: 1441204786
+SRC_RA: 240.4463d {+16h 01m 47.1s} (J2000),
+240.8313d {+16h 03m 19.5s} (current),
+239.4871d {15:57:56.9} (1950)
+SRC_DEC: -52.9579d {-52d 57’ 29"} (J2000),
+-53.0125d {-53d 00’ 45"} (current),
+-52.8186d {-52d 49' 07"} (1950)
+
+SRC_ERROR90: 0.233 [deg, stat, 90% containment]
+DISCOVERY_DATE: 18875 TJD;  27 DOY; 20/01/27 (yy/mm/dd)
+DISCOVERY_TIME: 67922 SOD {18:52:02.95} UT
+REVISION: 0
+DELTA_T: 339.09 [sec]
+SIGMA_T: 139.56 [sec]
+FAR: 0.2478 [yr^-1]
+SUN_POSTN: 309.754d {+20h 39m 01s} -18.431d {-18d 25’ 52"}
+SUN_DIST: 62.98 [deg] Sun_angle= 4.20 [hr] (West of Sun)
+MOON_POSTN: 346.433d {+23h 05m 44s} -10.925d {-10d 55’ 31"}
+MOON_DIST: 90.67 [deg]
+GAL_COORDS: 329.416, +0.233  [deg] galactic lon,lat of the event
+COMMENTS: ALERT FROM FERMI-LAT ANTARES COINCIDENCE STREAM
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Colin F. Turley
+860-685-1260 Cell
+cft114@psu.edu email
+
+Department of Physics, Penn State University
+104 Davey Lab, Box 52
+University Park, PA 16802-6300

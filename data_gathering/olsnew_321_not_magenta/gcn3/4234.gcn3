@@ -1,0 +1,58 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4234
+SUBJECT: IPN triangulation and Konus spectrum of the short/soft GRB051107 (large 
+DATE:    05/11/09 18:49:19 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team,
+
+S. Barthelmy, J. Cummings, H. Krimm, N. Gehrels
+on behalf of the Swift team,
+
+A. Rau, A. von Kienlin, G. Lichti on behalf of the INTEGRAL SPI-ACS
+GRB team,
+
+K. Hurley on behalf of the Ulysses, HETE, Mars Odyssey teams
+report:
+
+A short soft GRB triggered the Konus-Wind instrument
+at T0=9044.551 s UT (02:30:44.551) on November 7. 
+It was also observed by Swift-BAT, and INTEGRAL SPI-ACS.
+
+We have triangulated this burst to the 3sigma
+confidence error box:
+
+                   RA(2000) Dec(2000)
+----------------------------------------
+ERROR BOX CENTER:   94.016 -18.977
+
+ERROR BOX CORNER 1: 102.953 -14.291 
+ERROR BOX CORNER 2:  85.388 -24.124
+ERROR BOX CORNER 2:  83.432 -22.350
+ERROR BOX CORNER 4: 101.222 -12.721
+---------------------------------------
+
+The area of the error box is ~40 sq. deg.
+
+The total burst duration is 1.75 sec.
+
+The K-W spectrum integrated over the most intense
+part of the GRB (from T0 to T0+0.256 sec) is 
+well fitted (in the 20 - 500 keV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-E/E0)
+with alpha = -0.51  (-1.07, +0.71)
+and E0 = 60 (-24, +38) keV (chi^2 = 15/27 dof).
+The peak energy Ep = 151 (-26, +34) keV.
+
+As observed by Konus-Wind the burst had a fluence 
+1.42(-0.79, +0.16)x10^-6 erg/cm2 and
+peak flux on 64-ms time scale 2.0(-1.2, +0.3)x10^-6 erg/cm2/sec
+(both in the 20 - 500 keV).
+
+All the quoted errors are at the 90% confidence level.
+
+The K-W light curve of this GRB and IPN triangulation map will be
+available at http://www.ioffe.rssi.ru/LEA/GRBs/GRB051107_T09044/
+

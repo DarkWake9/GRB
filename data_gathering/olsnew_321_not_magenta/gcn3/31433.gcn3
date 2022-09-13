@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31433
+SUBJECT: Konus-Wind detection of GRB 220101A
+DATE:    22/01/11 18:45:24 GMT
+FROM:    Anastasia Tsvetkova at Ioffe Institute  <tsvetkova@mail.ioffe.ru>
+
+A. Tsvetkova, D. Frederiks, A. Lysenko, A. Ridnaia,
+D. Svinkin, M. Ulanov, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration, bright GRB 220101A (Swift-BAT trigger #1091101:
+Tohuvavohu  et al., GCN 31347; Markwardt et al., GCN 31369;
+Fermi-LAT detection: Arimoto et al., GCN 31350;
+AGILE detection: Ursi et al., GCN 31354;
+Fermi-GBM detection: Lesage & Meegan, GCN 31360)
+triggered Konus-Wind at T0=18695.828 s UT (05:11:35.828).
+
+The burst light curve shows a bright, multi-peaked pulse
+which starts at ~T0-147 s and has a total duration of~237 s.
+The emission is seen up to ~15 MeV.
+
+The total energy fluence of the burst is 9.05(-0.55,+0.60) erg/cm^2
+and the 64-ms peak energy flux, measured from T0 + 18.624 s,
+is 4.0(-0.7, +0.7)x10^-6 erg/cm^2/s
+(both in the 10 keV - 10 MeV energy range).
+
+The time-averaged spectrum (measured from T0 to T0+90.112 s)
+is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -0.58 (-0.13,+0.15),
+the high energy photon index beta = -2.62 (-0.53,+0.25),
+the peak energy Ep = 257 (-27,+28) keV,
+chi2 = 126/119 dof.
+
+The spectrum near the peak count rate (measured from T0+16.640
+to T0+24.576 s) is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -0.51 (-0.16,+0.18),
+the high energy photon index beta = -2.55 (-0.64,+0.31),
+the peak energy Ep = 314 (-39,+43) keV,
+chi2 = 105/96 dof.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220101_T18695/
+
+Assuming the redshift z = 4.618 (Fynbo et al., GCN 31359)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the following burst rest-frame parameters:
+the isotropic energy release Eiso = 3.64(-0.22,+0.25)x10^54 erg,
+which is in agreement with Atteia, GCN 31365;
+the isotropic luminosity Liso = 9.05(-1.58,+1.58)x10^53 erg/s;
+the rest-frame peak energy of the time-integrated spectrum Epi,z = 
+1416(-157,+152) keV;
+and the rest-frame peak energy of the 'peak' spectrum Epp,z = 
+1764(-219,+242) keV.
+
+With these values, GRB 220101A is within 68% prediction bands for
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW 
+GRBs
+with known redshifts (Tsvetkova et al., 2021, ApJ, 908, 83),
+see http://www.ioffe.ru/LEA/GRBs/GRB220101_T18695/GRB220101A_rest_frame.pdf.
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

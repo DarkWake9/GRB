@@ -1,0 +1,64 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3478
+SUBJECT: GRB050525: Optical observations
+DATE:    05/05/25 14:07:59 GMT
+FROM:    Aaron Price at AAVSO  <aaronp@aavso.org>
+
+D. T. Durig (Cordell-Lorenz Observatory, University of the South), A. Oksanen
+(Nyrola Observatory), C. Pullen (AAVSO) and A. Price (AAVSO) report on behalf of
+the AAVSO International High Energy Network on optical observations of GRB050525
+(GCN #3466; Band et al.):
+
+ An afterglow candidate is found at the location reported by Rykoff et al. (GCN
+#3468) and Band et al. (GCN #3465). At 08:13 UT it is detected at an unfiltered
+magnitude of 18-19 (fading over 100 mins centered on 08:13UT). The USNO star near
+18 32 34.5 +26 20 24 can not completely be resolved from the afterglow candidate.
+Full details and FITS image URL is below.
+
+ Name: Dr. Douglas T. Durig
+ email: ddurig@sewanee.edu
+ Observer: Dr. D. T. Durig ( CLW01)
+ Site: Cordell-Lorenz Observatory
+ Location: Sewanee, Tenn., USA
+ LatitudeLongitude: 35 12 N 85 55 W
+ Elevation: 600 m
+ Scope: SCT 0.30 m
+ ScopeFocalRatio: f/5.8  1765 mm
+ CCDVendor: SBIG STL-1001E
+ CCDDetector: KAF 1001E
+ CCDSize: 1024x1024
+ CCDPixelScale: 2.8
+ CCDFOV: 48x48 full, 12x12 quarter frame cropped
+ Object: GRB050525
+ ObsDate: 2005 05 25
+ ObsMidPointTime: 08 13 25
+ TimePerFrame: 120 sec
+ NumberOfFrames: 75
+ Filters: CR
+ Processing: dark, flat, register, co-add, 1/4 frame crop
+ Seeing: 5-6 arc sec
+ LimitingMag: 19.5-20 ???
+ Sky: very clear but breezy with Bright Moonlight
+ afterglowmag: 18-19
+ afterglowerr: 1
+ compstars: 1300 UCAC ref stars in full frame
+ Report: The USNO star near 18 32 34.5 +26 20 24 can not completely be resolved 
+from the afterglow candidate, but I do see it fade by around 1 mag over a little 
+over 100 min by summing a series of 30 consecutive 120 sec exposures. I get a 
+measured position of 18 32 33.9 +26 20 23 and 18 mag at 7:23 UT falling to 19 mag 
+at 9:03 UT, but this includes some contribution from the USNO star.
+ comments: UT         dec.day      CR mag
+7:23:28    25.30796    18.0
+7:40:09    25.31955    18.2
+7:56:43    25.33105    18.3
+8:13:25    25.34265    18.3
+8:30:10    25.35428    18.3
+8:46:49    25.36584    18.6
+9:03:28    25.37741    19.0
+
+A FITS image has been uploaded to 
+ftp://ftp.aavso.org/grb/Dr.DouglasT.Durig_GRB050525_2453516.00275_.fits
+
+The AAVSO thanks the Curry Foundation for their continued support of the 
+AAVSO International High Energy Network.
+

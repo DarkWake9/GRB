@@ -1,0 +1,26 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4272
+SUBJECT: GRB 051114: Swift-BAT detection of a short burst
+DATE:    05/11/15 03:26:12 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+J. Cummings (GSFC/NRC), S. Barthelmy (GSFC), N. Gehrels (GSFC),
+D. Palmer (LANL)
+on behalf of the Swift-BAT team:
+
+At 04:11:30 UT, Swift-BAT triggered and located GRB 051114 (trigger=163844).
+The on-board software did not locate this burst with sufficient significance,
+however ground processing was able to extract a location.  The BAT ground
+calculated location is RA,Dec 226.274d,+60.150d {15h 05m 06s,+60d 09' 00"}
+(J2000), with an uncertainty of 3 arcmin (radius, 90% containment, stat+sys).
+The BAT light curve shows two short peaks separated by ~1 sec with a total
+duration of 2 sec.  The peak count rate was ~1500 counts/sec (15-350 keV),
+at ~0.5 seconds after the trigger.
+
+We note that due a handling mistake on the ground, the GCN BAT_POSITION Notice
+was generated with incorrect values in the following fields:  TRIGGER_NUM,
+GRB_INTEN, BKG_INTEN, BKG_TIME, BKG_DUR, GRB_TIME, MERIT_PARAMS.  All the 
+other numbers in the Notice are correct (including the Sun & Moon locations 
+and the Galactic and Ecliptic coordinates).
+
+

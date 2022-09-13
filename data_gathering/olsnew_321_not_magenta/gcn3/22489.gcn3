@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22489
+SUBJECT: Swift Trigger on MAXI J1820+070
+DATE:    18/03/14 19:38:55 GMT
+FROM:    Jamie A. Kennea at PSU/Swift-XRT  <kennea@swift.psu.edu>
+
+S. D. Barthelmy (GSFC), J.D. Gropp (PSU), J. A. Kennea (PSU),
+A. Y. Lien (GSFC/UMBC), A. Melandri (INAF-OAB),
+K. L. Page (U Leicester), B. Sbarufatti (PSU), M. H. Siegel (PSU) and
+A. Tohuvavohu (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 19:11:31 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located MAXI J1820+070 (trigger=814259).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 275.089, +7.181 which is 
+   RA(J2000) = 18h 20m 21s
+   Dec(J2000) = +07d 10' 51"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multi-peaked
+structure that lasts beyond currently available data (T0+400 s).  
+The peak count rate was ~800 counts/sec (15-350 keV), at ~-2 sec 
+after the trigger. 
+
+The XRT began observing the field at 19:13:54.3 UT, 143.0 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+275.0898, 7.1831 which is equivalent to:
+   RA(J2000)  = +18h 20m 21.55s
+   Dec(J2000) = +07d 10' 59.2"
+with an uncertainty of 4.9 arcseconds (radius, 90% containment). This
+position is 10 arcseconds from MAXI J1820+070, although we believe this
+is the same source. Assuming a typical GRB power-law spectrum 
+(NH=3e21 cm^-2, gamma=2), the catalogue entry for this object 
+is equivalent to a 0.2-10 keV flux of 9.3e-13 erg cm^-2 s^-1; 
+the flux in the 2.5 s XRT image was 3.32e-09 erg cm^-2 s^-1. No
+event data are yet available to determine the column density using
+X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter 
+starting  308 seconds after the BAT trigger. The source is  detected
+at a magnitude of 12.28 +/- 0.04.  No correction has been  made for
+the expected extinction corresponding to E(B-V) of  0.23. 
+

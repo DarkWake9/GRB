@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31827
+SUBJECT: GRB 220403B: Swift-XRT refined Analysis
+DATE:    22/04/04 07:08:18 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+A.P. Beardmore (U. Leicester), P.A. Evans (U. Leicester), E. Ambrosi 
+(INAF-IASFPA) , M. Capalbi (INAF-IASFPA), M. Perri (SSDC & INAF-OAR),
+A. Tohuvavohu (U. Toronto), B. Sbarufatti (PSU), D.N. Burrows (PSU),
+J.P. Osborne (U. Leicester) and N.J. Klingler report on behalf of the
+Swift-XRT team:
+
+We have analysed 6.3 ks of XRT data for GRB 220403B (Klingler et al.
+GCN Circ. 31820), from 86 s to 28.9 ks after the  BAT trigger. The data
+comprise 50 s in Windowed Timing (WT) mode (the first 9 s were taken
+while Swift was slewing) with the remainder in Photon Counting (PC)
+mode. The refined XRT position is RA, Dec = 191.4734, +89.1846 which is
+equivalent to:
+
+RA (J2000): 12 45 53.62
+Dec(J2000): +89 11 04.6
+
+with an uncertainty of 3.5 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with an initial power-law decay with an
+index of alpha=4.4 (+/-0.4), followed by a break at T+229 s to an alpha
+of 0.35 (+0.04, -0.05).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 1.86 (+0.16, -0.14). The
+best-fitting absorption column is  1.47 (+0.51, -0.27) x 10^21 cm^-2,
+consistent with the Galactic value of 1.2 x 10^21 cm^-2 (Willingale et
+al. 2013). The counts to observed (unabsorbed) 0.3-10 keV flux
+conversion factor deduced from this spectrum  is 3.7 x 10^-11 (4.6 x
+10^-11) erg cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     1.47 (+0.51, -0.27) x 10^21 cm^-2
+Galactic foreground: 1.2 x 10^21 cm^-2
+Excess significance: <1.6 sigma
+Photon index:	     1.86 (+0.16, -0.14)
+
+If the light curve continues to decay with a power-law decay index of
+0.35, the count rate at T+24 hours will be 0.057 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 2.1 x
+10^-12 (2.6 x 10^-12) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/01101053.
+
+This circular is an official product of the Swift-XRT team.
+

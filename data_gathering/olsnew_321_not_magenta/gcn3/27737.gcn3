@@ -1,0 +1,83 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27737
+SUBJECT: GRB200514B: Zwicky Transient Facility Follow-Up of a Fermi Short GRB (Trigger 611140062)
+DATE:    20/05/14 18:20:05 GMT
+FROM:    Tomas Ahumada at U. of Maryland  <tahumada@astro.umd.edu>
+
+Tomas Ahumada (UMD), Shreya Anand (Caltech), Igor Andreoni (Caltech),
+Michael Coughlin (UMN), Erik Kool (OKC), Simeon Reusch (DESY), Ana Sagués
+Carracedo (OKC), Robert Stein (DESY)
+
+on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of
+Observatories Watching Transients Happen (GROWTH) collaborations
+
+We observed the localization region of the short GRB200514B (trigger
+611140062) detected by the Gamma-Ray Burst Monitor (GBM) on the Fermi
+satellite with the Palomar 48 inch telescope equipped with the 47 square
+degree Zwicky Transient Facility (ZTF) camera. We obtained a series of g-
+and r-band images covering 519.3 square degrees beginning at 10:01 UT on
+2020 May 14 (0.9 hours after the burst trigger time). This corresponds to
+~49% of the probability enclosed in the GRB localization map (GCN 27736).
+Each exposure was 300s, reaching a g-band median depth of 21.8 mag and
+r-band median depth of 22.0 mag. The images were processed in real-time
+through the ZTF reduction and image subtraction pipelines at IPAC (Masci et
+al. 2019).
+
+We queried the ZTF alert stream using Kowalski (Duev et al. 2019) and AMPEL
+(Nordin et al. 2019). We required at least 2 detections separated by at
+least 15 minutes to select against moving objects. Furthermore, we
+cross-matched our candidates with the Minor Planet Center to flag known
+asteroids, reject stellar sources (Tachibana and Miller 2018), and apply
+machine learning algorithms (Mahabal et al. 2019). We require no spatially
+coincident ZTF alert to be issued before the detection time of the GBM
+trigger. The candidates within the 90% probability contour of the GRB
+localization map that passed the automatic selection criteria and human
+vetting are presented in the table below.
+
+
++----------------------------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name   | RA (deg)    | DEC (deg)   | Filter | Mag   |
+MagErr | MJD      | Notes |
++----------------------------------------------------------------------------------------------------+
+| ZTF20aazpphd | AT 2020jww | 242.7149675 | +27.1616870 | r      | 19.6  |
+0.05   | 58983.49 |       |
+| ZTF20aazppnv | AT 2020jxa | 238.1438691 | +25.5764946 | r      | 21.1  |
+0.17   | 58983.49 | (b,c) |
+| ZTF20aazprjq | AT 2020jxb | 233.5213585 | +43.3298714 | r      | 21.3  |
+0.13   | 58983.47 | (a,d) |
+| ZTF20aazptlp | AT 2020jxd | 229.007524  | +48.774925  | r      | 21.5  |
+0.19   | 58983.48 | (a,e) |
+| ZTF20aazptnn | AT 2020jxc | 237.2967278 | +47.271954  | r      | 21.6  |
+0.17   | 58983.48 | (a,f) |
+| ZTF20aazpnst | AT 2020jxn | 254.0989833 | +34.4655542 | r      | 22.0  |
+0.20   | 58983.47 | (a,g) |
+| ZTF20aazpofi | AT 2020jxm | 236.929525  | +46.9809542 | r      | 21.5  |
+0.13   | 58983.48 | (a,h) |
++----------------------------------------------------------------------------------------------------+
+
+We highlight ZTF20aazpphd, as it is offset 12 arcseconds from the center of
+a galaxy at 160 Mpc and was not detected 2.15 days earlier with a limiting
+magnitude of g > 20.53. The host spectroscopic redshift is z = 0.04573,
+which would imply a g-band absolute magnitude of -17.23.
+
+Notes:
+(a) Offset from faint host
+(b) Nuclear
+(c) SDSS photoz = 0.170 +- 0.03
+(d) SDSS photoz = 0.226 +- 0.04
+(e) SDSS photoz = 0.402 +- 0.11
+(f) SDSS photoz = 0.261 +- 0.06
+(g) SDSS photoz = 0.188 +- 0.05
+(h) SDSS photoz = 0.464 +- 0.08
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC,
+USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan;
+IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No
+1440341.
+GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).
+Alert database searches are done by AMPEL (Nordin et al. 2019) and Kowalski
+(Duev et al. 2019).

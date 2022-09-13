@@ -1,0 +1,51 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5627
+SUBJECT: GRB 060927: Swift detection of a burst
+DATE:    06/09/27 14:35:47 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+L. M. Barbier (NASA/GSFC), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), P. J. Brown (PSU),
+D. N. Burrows (PSU), S. Campana (INAF-OAB), M.L. Conciatore (ASDC),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+O. Godet (U Leicester), C. Guidorzi (Univ Bicocca&INAF-OAB),
+S. T. Holland (GSFC/USRA), S. D. Hunsberger (PSU),
+J. A. Kennea (PSU), H. A. Krimm (GSFC/USRA),
+V. Mangano (INAF-IASFPA), F. E. Marshall (NASA/GSFC),
+K. M. McLean (LANL/UTD), C. Pagani (PSU), K. L. Page (U Leicester),
+D. M. Palmer (LANL), P. Romano (INAF-OAB), M. Stamatikos (NASA/ORAU),
+R. L. C. Starling (U Leicester), E. Troja (INAF-IASFPA) and
+D. E. Vanden Berk (PSU) report on behalf of the Swift Team:
+
+At 14:07:35 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060927 (trigger=231362).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA,Dec 329.553, +5.353 {21h 58m 13s, +5d 21' 10"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including
+systematic uncertainty).  There was a data dropout and we did not get
+the TDRSS lightcurve.  However, we are confident that this is a real GRB
+because of the very high detection significance and the 0.25-sec trigger
+criteria. 
+
+The XRT began taking data at 14:08:40 UT, 65 seconds after the BAT
+trigger.  The XRT on-board centroid algorithm did not find a source in the
+image, however analysis of prompt downlinked data from this burst reveals a
+fading point source at the following location:
+  RA(J2000) =  21h 58m 12.3s
+ Dec(J2000) = +05d 21m 53.5s
+with an estimated uncertainty of 6 arcseconds radius (90% containment). This
+position lies 43 arcseconds from the BAT position. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 71 seconds after the BAT trigger. No
+afterglow candidate has been found in the initial data products. The
+overlap of the 2.7' x 2.7' region for the finding chart and the XRT error
+circle is 100%. The limiting magnitude of the finding chart image is
+approximately 19.0. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.06. 
+
+We are currently in the Malindi gap and will not have event data
+analyzed for 6 hours. We note that there is a galaxy in the APM-North
+catalog that is 6.7 arcsec from the XRT position. It is B=22, R=20
+and has a 5 arcsec major axis diameter. 
+

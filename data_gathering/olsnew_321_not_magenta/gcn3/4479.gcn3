@@ -1,0 +1,42 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4479
+SUBJECT: GRB 060111: Swift detection of a burst
+DATE:    06/01/11 05:05:37 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S. Zane (MSSL-UCL), S. Barthelmy (GSFC), A. Beardmore (U Leicester),
+A. J. Blustin (UCL-MSSL), D. Burrows (PSU), J. Cummings (GSFC/NRC),
+N. Gehrels (GSFC), M. Goad (U Leicester), J. Kennea (PSU),
+C. Markwardt (GSFC/UMD), F. Marshall (GSFC), D. Palmer (LANL)
+on behalf of the Swift team:
+
+At 04:23:06 UT, Swift-BAT triggered and located GRB 060111 (trigger=176818).
+The spacecraft slewed immediately.  The BAT on-board calculated location is
+RA,Dec 276.212d,+37.602d {18h 24m 51s,+37d 36' 08"} (J2000), with an
+uncertainty of 3 arcmin (radius, 90% containment, stat+sys).  The BAT light
+curve shows a  single peak structure with a total duration of ~20 sec.
+The peak count rate was ~3000 counts/sec (15-350 keV), at ~5 sec
+after the trigger.
+
+The XRT began observing the field at 04:24:12 UT (66 sec after the burst).
+The instrument found a bright, variable, uncataloged X-ray source located at:
+RA(J2000) = 18h 24m 48.9s
+Dec(J2000) = +37d 36' 21"
+This location is 27.4 arcseconds from the BAT position.  The estimated
+uncertainty is 8 arcseconds (90% confidence radius), including about 5
+arcseconds systematic error due to an XRT boresight offset not currently
+corrected on-board.  The initial flux was 8E-10 ergs/cm2/s (0.2-10 keV).
+
+UVOT took a finding chart exposure of 200 seconds with the V filter
+starting 72 seconds after the BAT trigger.  No afterglow candidate has
+been found in the initial data products.  The 2.7'x2.7' sub-image covers
+100% of the XRT error circle.  The typical 3-sigma upper limit has been
+about 18th mag.  The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle.  The list of sources is
+typically complete to about 18.0 mag.  No correction has been made for
+the expected visual extinction of about 0.1 magnitudes.
+
+We are currently in the portion of the orbits where the spacecraft does not 
+pass over the Malindi downlink station.  Therefore, it will be at least
+7 hours before we have access to the full data set for the refined analyses.
+

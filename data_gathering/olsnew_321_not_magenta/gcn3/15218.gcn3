@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15218
+SUBJECT: GRB 130912A: Skynet DSO-14/Yerkes-41/PROMPT-CTIO observations
+DATE:    13/09/12 17:07:49 GMT
+FROM:    Adam S. Trotter at UNC-Chapel Hill/PROMPT/Skynet  <atrotter@physics.unc.edu>
+
+A. Trotter, D. Reichart, J. Haislip, A. LaCluyze, A. B. Smith, D. Caton, 
+L. Hawkins, V. Hoette, K. Cudworth, D. Harper, R. Kron, T. Linder, R. 
+Russell, E. Struble, T. Berger, H. T. Cromartie, R. Egger, A. Foster, N. 
+Frank, K. Ivarsen, M. Maples, J. Moore, M. Nysewander, and J. A. Crain 
+report:
+
+Skynet observed the Swift/XRT localization of GRB 130912A (D'Elia et 
+al., GCN 15212, Swift trigger 570465) with the 14" telescope at the 
+Appalachian State University Dark Sky Observatory (DSO-14) in NC, USA (R 
+and I bands), the 41" telescope of Yerkes Observatory in WI, USA (r' and 
+i' bands), and with four 16" telescopes of the PROMPT array at CTIO, 
+Chile (B, V, R, and I bands).
+
+Starting at 2013-09-12, 08:47 UT and continuing until 10:26 UT 
+(t=12m-111m post-trigger), Skynet took a total of 72 160s exposures. In 
+stacked images, we do not detect an optical source in any band in or 
+near the XRT error circle.  Our 3-sigma limiting magnitudes are 
+tabulated below:
+
+==================================
+tmid  scope   expos  fil  limit
+==================================
+21m  DSO-14   2x160s  I  >18.7
+24m  DSO-14   2x160s  R  >19.6
+61m  Prompt5 10x160s  I  >20.6
+61m  Prompt4 10x160s  R  >21.0
+61m  Prompt1 10x160s  V  >21.3
+61m  Prompt3 10x160s  B  >21.1
+63m  Y-41    11x160s  i' >21.6
+60m  Y-41     9x160s  r' >21.9
+66m  Y-41     8x160s  g' >21.8
+==================================
+
+BVRI magnitudes are in the Vega System, and g'r'i' magnitudes are in the 
+AB system, calibrated to 4 APASS stars in the field.  Magnitudes have 
+not been corrected for line-of-sight Milky Way dust extinction, with 
+expected E(B-V)=0.28 (Schlegel et al. 1998).
+
+No further Skynet observations are scheduled.
+

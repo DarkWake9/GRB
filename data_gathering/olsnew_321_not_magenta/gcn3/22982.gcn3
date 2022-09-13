@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22982
+SUBJECT: GRB 180720C: Swift detection of a burst or possible Galactic Transient
+DATE:    18/07/20 22:54:24 GMT
+FROM:    Boris Sbarufatti at PSU  <bxs60@psu.edu>
+
+S. J. LaPorte (PSU), P. A. Evans (U Leicester), J.D. Gropp (PSU),
+J. A. Kennea (PSU), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), M. J. Moss (George Washington University),
+B. Sbarufatti (PSU) and A. Tohuvavohu (PSU) report on behalf of the
+Neil Gehrels Swift Observatory Team:
+
+At 22:23:57 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible GRB 180720C or Galactic transient (trigger=848932). 
+Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 265.623, -26.584 which is 
+   RA(J2000) = 17h 42m 30s
+   Dec(J2000) = -26d 35' 01"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single-peaked
+structure with a duration of about 30 sec.  The peak count rate
+was ~2000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 22:25:34.8 UT, 97.2 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source located at RA, Dec 265.63486, -26.63041 which is
+equivalent to:
+   RA(J2000)  = 17h 42m 32.37s
+   Dec(J2000) = -26d 37' 49.5"
+with an uncertainty of 5.7 arcseconds (radius, 90% containment). This
+location is 171 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper.  We cannot determine whether the source is
+fading at the present time. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (6.76 x
+10^21 cm^-2, Willingale et al. 2013), with an excess column of 2.7
+(+3.01/-2.29) x 10^22 cm^-2 (90% confidence). 
+
+We note that the detected source is at the edge of the reduced field of view available with the promptly down linked data. Because of that the accuracy of the position could be lower than stated. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 100 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. Because of the density of
+catalogued stars, further analysis is required to report an upper limit for any
+afterglow in the region. No correction has been made for the large, but
+uncertain, extinction expected. 
+
+While the BAT and XRT data are consistent with a GRB, because of the
+proximity to the Galactic Center, at present we cannot rule out a
+Galactic transient nature for the source. 
+
+Burst Advocate for this burst is S. J. LaPorte (extragsam AT gmail.com). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

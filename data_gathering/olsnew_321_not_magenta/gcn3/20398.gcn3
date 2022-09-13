@@ -1,0 +1,80 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20398
+SUBJECT: LIGO/Virgo G268556: iPTF Optical Transient Candidates
+DATE:    17/01/08 02:57:57 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+M. M. Kasliwal (Caltech), L. P. Singer (NASA/GSFC), E. Karamehmetoglu
+(OKC),  S. B. Cenko (NASA/GSFC), R. Quimby (SDSU), D. Cook (Caltech), T.
+Barlow (Caltech), V. Bhalerao (IUCAA), J. Rana (IUCAA), A. Goobar (OKC), J.
+Sollerman (OKC), R. Amanullah (OKC), Y. Cao (UW Seattle), A. A. Miller
+(Northwestern/Adler)
+
+report on behalf of the iPTF and GROWTH collaborations:
+
+We have performed tiled observations of LIGO/Virgo G268556 (LVC, GCN 20364)
+using the Palomar 48-inch Oschin telescope (P48). Due to weather, our
+observations only began on 2017-01-07 UTC. The northern probability island
+from the updated LALInference localization (LVC, GCN 20385) was observable
+from Palomar for most of the night. Starting at 13:03 UT (2.88 d after the
+LIGO trigger), we imaged 85 of the fields two or more times, spanning 622
+square degrees. We estimate a 32% prior probability that these fields
+contain the true location of the source.
+
+During preliminary sifting through candidate variable sources using image
+subtraction by both our IPAC pipeline (Masci et al. 2016) and NERSC
+pipeline (Cao et al. 2016), and applying standard iPTF vetting procedures,
+we flagged the following optical transient candidates for further follow-up:
+
+  name       RA        Dec      time  mag    z     notes
+-------- ---------- ---------- ----- ----- ------ ---------
+iPTF17bo 132.510142 +46.663565 06:13 18.57 0.038   =ATLAS16ecj (GCN 20377)
+iPTF17bq 132.192751 +44.006807 06:11 19.11 0.054   spec-z
+iPTF17bs 128.827313 +44.022911 06:11 20.35 0.049   photo-z
+iPTF17bt 130.174781 +39.306960 06:08 20.05 0.1166  spec-z
+iPTF17bu 124.471393 +40.726652 06:06 20.69 0.0608  spec-z
+iPTF17bv 124.186115 +41.266753 06:06 19.23 0.039   spec-z
+iPTF17cc 125.336819 +35.420771 06:00 20.06 0.064   spec-z
+iPTF17ce 122.265555 +24.773640 05:55 20.19 0.350   photo-z
+iPTF17cf 122.967123 +25.422642 05:55 19.06 0.199   photo-z
+iPTF17ch 123.698029 +27.836746 05:53 20.22 0.118   photo-z
+iPTF17ck 115.465769 +29.353904 07:08 19.18 0.169   photo-z
+iPTF17cp 115.146554 +17.018280 07:05 19.90 0.072   spec-z
+iPTF17cs 115.613615 +13.805968 07:03 19.48 0.066   photo-z
+iPTF17cv 114.643374 +23.994179 07:01 20.60 0.081   photo-z
+iPTF17dk 120.728531 +16.489364 07:21 20.00 0.069   photo-z
+iPTF17dn 115.013574 +13.340217 09:11 19.08 0.037   photo-z
+iPTF17du 114.886641 +10.661666 07:15 20.05 0.412   photo-z
+iPTF17dz 126.106981 +24.997750 09:40 19.33 0.235   photo-z
+iPTF17eb 118.169444 +10.174427 09:20 19.78 0.573   photo-z
+iPTF17ec 111.440505 +17.716475 09:13 19.50         no redshift available
+iPTF17ee 146.552954 +60.363235 10:07 19.15 0.102   possibly variable
+iPTF17ef  117.10532 +20.863792 07:06 20.32 0.162   photo-z
+iPTF17eh 116.453873  +9.318206 07:15 19.75 0.077   photo-z
+iPTF17ei 114.113854 +25.736748 09:29 19.56 0.101   photo-z
+iPTF17ej 116.903063 +25.599466 09:29 20.40 0.543   photo-z
+iPTF17ep 137.758943 +62.963989 09:38 19.97 0.115   photo-z
+iPTF17et  126.46248 +32.611008 07:30 19.46 0.124   spec-z
+iPTF17ez 118.434093 +19.300562 07:14 20.19 0.538   photo-z
+iPTF17fa 130.091957 +38.723745 06:08 19.94 0.673   photo-z
+iPTF17fb 123.253486 +41.307429 06:06 20.38 0.282   photo-z
+iPTF17fc 123.845936 +40.118490 06:04 19.78 0.067   photo-z
+
+Some additional transients not listed above fell just outside the 90%
+contour localization contour, e.g. iPTF17cw 135.909904 +43.097300.
+
+Positions are stated in the ICRS. Times are in UTC. Magnitudes are based on
+image subtraction; they are in the Mould R filter and in the AB system,
+calibrated with respect to point sources in SDSS as described in Ofek et
+al. 2012.
+
+None of the above transients show prior history of detection in iPTF
+archival images. All of the above transients coincide with a galaxy that is
+visible in iPTF and/or SDSS images. Archival spectroscopic or photometric
+redshifts of the transients' likely host galaxies are given above. Of the
+transients, those that are most consistent with the directional distance
+estimate from LIGO (e.g., |[galaxy distance] - [GW mean distance]| < 1.5 *
+[GW distance std.
+dev.]) are iPTF17ce, iPTF17ck, iPTF17dz, iPTF17ef, and iPTF17ei.
+
+We encourage spectroscopic classification of these candidates.

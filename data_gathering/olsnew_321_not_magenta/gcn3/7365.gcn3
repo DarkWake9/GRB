@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7365
+SUBJECT: GRB 080307, Preliminary Swift-BAT refined analysis
+DATE:    08/03/07 13:52:56 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+D. Palmer (LANL), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), S. T. Holland (CRESST/USRA/GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), K. McLean (GSFC/UMD),
+T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using only a small amount of data set from the first telemetry downlink
+(from T-119 to T+183 sec), we report preliminary analysis of BAT GRB 080307
+(trigger #305011) (Holland, et al., GCN Circ. 7362).
+The BAT ground-calculated position is RA, Dec = 136.626, 35.156 deg, which is 
+   RA(J2000)  = 09h 6m 30.2s 
+   Dec(J2000) = 35d 9' 20" 
+with an uncertainty of 1.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 81%.
+ 
+The mask-weighted light curve shows an initial FRED-like peak
+starting at T+0 sec, and ending around T+80 sec.  There is evidence
+for emission out to T+135 sec (and the end of the downlinked data ends
+at T+183 sec).  T90 (15-350 keV) is 64 +- 22 sec (estimated error
+including systematics).
+ 
+Using this partial data set, the time-averaged spectrum from T-7.4 to T+56.6 sec
+is best fit by a simple power-law model.  The power law index of the time-averaged
+spectrum is 1.41 +- 0.19.  The fluence in the 15-150 keV band is
+7.3 +- 0.9 x 10^-7 erg/cm2.  The 1-sec peak photon flux measured from T+16.06 sec
+in the 15-150 keV band is 0.2 +- 0.0 ph/cm2/sec.  All the quoted errors
+are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/305011/BA/
+ 
+This burst satisfies Sakamoto/Ukwatta Swift-BAT possible high-z criteria
+(Ukwatta et al. arXiv:0802.3815):
+1) The power law photon index (= 1.41) is less than 2,
+2) The 1-s peak photon flux (= 0.19) is less than 1.0 ph/cm2/s,
+3) The light curve variance (= 2.11e-05 is less than 0.0001,
+4) The T90/Peak_photon_flux (= 336) is greater than 100.
+Based on a limited sample of bursts, these criteria yield
+an 85% chance it has a redshift greater than 3.5. 
+We must stress however, that we have downlinked data out to only T+180 sec
+and there is evidence of continued emissin out to T+135 sec.  So if there
+is further activity in this burst past T+180 sec, then the spectral and
+temporal values used in this hi-z indicator test may change
+and no longer fit the hi-z criteria.  We are publishing this preliminary
+refined circular on that chance the hi-z indicator is correct
+and follow-up observsers can choose to make observations sooner.
+
+We will issue the regular 'refined' circular when the full data set
+becomes available.
+

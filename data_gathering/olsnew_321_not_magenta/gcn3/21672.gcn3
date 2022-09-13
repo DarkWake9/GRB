@@ -1,0 +1,115 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21672
+SUBJECT: LIGO/Virgo G298048: INTEGRAL pointed follow-up observations
+DATE:    17/08/24 09:03:02 GMT
+FROM:    Volodymyr Savchenko at APC,Paris  <savchenk@apc.in2p3.fr>
+
+V. Savchenko (ISDC, University of Geneva, CH)
+C. Ferrigno, E. Bozzo ((ISDC, University of Geneva, CH),
+E. Kuulkers (ESTEC/ESA, The Netherlands),
+S. Mereghetti (IASF-Milano, Italy),
+T. J.-L. Courvoisier (ISDC, University of Geneva, CH)
+J. Chenevez, S. Brandt (DTU, Denmark)
+R. Diehl (MPE-Garching, Germany)
+L. Hanlon (UCD, Ireland)
+P. Laurent, D. Gotz (APC, Saclay/CEA, France)
+J.P. Roques, E. Jourdain (IRAP, France)
+P. Ubertini, A. Bazzano, J. Rodi (IAPS-Roma, Italy)
+A. Lutovinov, R. Sunyaev (IKI, Russia)
+
+INTEGRAL is an observatory with multiple instruments: a gamma-ray
+spectrometer (20 keV - 8 MeV, SPI), an imager (15 keV - 2 MeV, IBIS),
+an X-ray monitor (3 - 25 keV, JEM-X), and an optical monitor (V band,
+OMC). Our group requested and obtained follow-up observations of the
+LIGO/Virgo candidate NS merger G298048 (GCN 21505, 21506).
+
+The initial observation was centered on the best Fermi/GBM
+localization, RA=176.8, Dec=-39.8 (GCN 21509), and was carried out
+from 2017-08-18 08:17:51 to 2017-08-18 12:36:11 for a total observing
+time of 14.8 ks. It covered 72% of the Fermi/GBM localization
+probability but only a negligible fraction of the current LIGO/Virgo
+localization. We do not detect any new sources in the complete
+IBIS/ISGRI (20-80 keV and 80 - 300 keV) and JEM-X (3-10 keV, 10 - 25
+keV) mosaicked images, with a best sensitivity of 7.9 mCrab (1.2e-7
+erg/cm2/s) in the 20 - 80 keV energy range.
+
+The main part of the INTEGRAL follow-up observation was centered on
+the candidate optical counterpart SSS17a (RA=13:09:48.089
+Dec=-23:22:53.35; GCN 21529).  This observation spanned from
+2017-08-18 12:45:10 to 2017-08-23 04:07:47 (starting about 24 hours
+after the LIGO/Virgo event), with a maximum on-source time of about
+330 ks (depending on the instrument).
+
+SSS17a was in IBIS and SPI FoV in each of the dithered single pointing
+that make up an INTEGRAL observations; whilst it was in the JEM-X FoV
+only a fraction of the time.
+
+We investigated the complete observation mosaics of ISGRI, SPI, and
+JEM-X data. INTEGRAL provides the most stringent constraint on any
+possible emission associated with SSS17a above 80 keV. We do not
+detect the source in any energy ranges of any of the INTEGRAL
+instruments, and set the following 3-sigma upper bounds for an average
+flux of a source at the position of SSS17a:
+
+JEM-X:
+
+3-10 keV:       1.2 mCrab (1.9e-11 erg/cm2/s )
+10-25 keV:      0.64 mCrab (7e-12 erg/cm2/s )
+
+ISGRI:
+
+20-80 keV:      2.6 mCrab (3.8e-11 erg/cm2/s)
+80-300 keV:     6.2 mCrab (7.1e-11 erg/cm2/s)
+300-500 keV:    291.6 mCrab (1e-9 erg/cm2/s)
+
+SPI:
+
+20 - 80 keV:    7.2 mCrab (1.1e-10 erg/cm2/s)
+80 - 300 keV:   24 mCrab (2.8e-10 erg/cm2/s)
+300 - 500 keV:  175 mCrab (6.1e-10 erg/cm2/s)
+500 - 1000 keV: 770 mCrab (3.1e-9 erg/cm2/s)
+1 MeV - 2 MeV:  1.0 Crab (3.3e-9 erg/cm2/s)
+
+We have also searched for isolated line-like features in ISGRI and SPI
+data, and preliminary analysis did not identify any such
+features. Further analysis is ongoing.
+
+IBIS, SPI, and JEM-X observed more than 97% of the of LIGO
+localization in the combined observation mosaic.  We searched
+IBIS/ISGRI and JEM-X data for any new point source in the whole 90%
+LIGO/Virgo localization region, and did not find any. The sensitivity
+depends on the location, with the best value close to that computed
+for SSS17a.
+
+Continuous observation provided by INTEGRAL allows us to perform an
+exhaustive search for any short (magnetar-like) or long bursts from
+SSS17a. We build IBIS/ISGRI light-curves in 2 energy ranges: 20-80 keV,
+80-300 keV, on 100 ms, 1 s, 10 s, and 100 s time scales. The
+lightcurves span from 2017-08-18T12:45:10 to 2017-08-23T04:07:47 with
+a coverage fraction of 80%. We did not find any deviations from the
+background, and set a 3-sigma upper limit on any possible 1-s long
+burst flux of 1.0 Crab (1.4e-8 erg/cm2/s) in 20-80 keV, and 6.8 Crab
+(7.8e-8 erg/cm2/s) in 80-300 keV.
+
+We also inspected the JEM-X (3-25 keV) light curves at 10 s time
+scale, and did not find any significant fluctuations apart from
+sporadic particle contaminations). The corresponding upper limit in
+3-25 keV is 0.4 Crab (1.3e-8 erg/cm2/s).
+
+Analysis of the PICsIT spectral-timing data with 100 s time resolution
+in four energy bands spanning 208-2600 keV did not reveal any
+significant variability associated with SSS17a during revolutions 1852
+and 1853.
+
+During these observation INTEGRAL/IBAS system identified two weak
+triggers (at 2017-08-22 21:05:59 and 2017-08-22 05:48:21). The
+localization of these events is not compatible with SSS17a. We
+consider these events to be noise associated with moderate solar
+activity.
+
+Unfortunately, the optical camera on-board INTEGRAL, OMC, was unable to
+disentangle SSS17a from the host galaxy NGC4993.
+
+We acknowledge the exceptionally efficient support by the teams at
+ESAC and ESOC for the scheduling of this follow-up observation.
+

@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19355
+SUBJECT: GRB 160425A: Swift-BAT refined analysis
+DATE:    16/04/26 21:41:42 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC),
+J. P. Norris (BSU), D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+E. Troja (NASA/GSFC/UMCP), T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 160425A (trigger #684098)
+(Krimm, et al. GCN Circ. 19343).  The BAT ground-calculated position is
+RA, Dec = 280.339, -54.343 deg which is
+  RA(J2000)  =  18h 41m 21.5s
+  Dec(J2000) = -54d 20' 34.6"
+with an uncertainty of 3.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 71%.
+
+The mask-weighted light curve shows several separate pulses. The first short pulse
+starts at ~ T-0.5 s, peaks at ~T+0.2 s, and ends at ~T+1.5 s. The second pulse
+occurs at ~T+60 s and is quite weak. Another strong pulse starts at ~T+250 s, peaks
+at ~T+270 s, and ends at ~ T+300 s. T90 (15-350 keV) is 304.58 +- 15.04 sec
+(estimated error including systematics). The potential precursor peak seen in the
+raw light curve at ~T-380 s (Krimm, et al., GCN Circ. 19343) is due to a noisy
+detector.
+
+The time-averaged spectrum from T-0.53 to T+319.80 sec is best fit by a simple
+power-law model. The power law index of the time-averaged spectrum is
+2.20 +- 0.18. The fluence in the 15-150 keV band is 2.1 +- 0.2 x 10^-6 erg/cm2.
+The total fluence is dominated by the pulse at ~T+270 s, which has a fluence of
+1.1 +/- 0.1 x 10^-6 erg/cm2, while the fluence of the short pulse is
+2.8 +/- 0.2 x 10^-7 erg/cm2. The 1-sec peak photon flux measured from
+T-0.27 sec in the 15-150 keV band is 2.8 +- 0.2 ph/cm2/sec. All the quoted errors
+are at the 90% confidence level.
+
+The spectrum of the initial short pulse is best-fitted by a simple power-law model
+with a power-law index of 1.71 +/- 0.14. This value is a typical number for a long
+GRB, but is also consistent with the majority of the short GRB population
+(Sakamoto et al. 2011).
+
+Using a 32-ms binned light curve, the lag analysis of the initial short pulse
+is 57 (-27, +34) ms for the 100-350 keV to 25-50 keV, and 19 (-38, +32) ms for
+the 50-100 keV to 15-25 keV band. These numbers are consistent with
+those of a long GRB. However, we note that the low redshift (z=0.555, Tanvir et al,
+GCN Circ. 19350) indicates that this GRB might have a lower luminosity
+(the luminosity of the short pulse in the BAT observed energy band, 15-150 keV,
+is ~ 1.7 x 10^50 erg/s), and thus the this GRB might lie outside the usual
+lag-luminosity relation (Norris et al. 2000).
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/684098/BA/

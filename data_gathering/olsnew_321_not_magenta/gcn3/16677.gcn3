@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16677
+SUBJECT: Swift trigger 609139 is probably 4U 1850-03
+DATE:    14/08/10 14:50:34 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), S. B. Cenko (GSFC),
+H. A. Krimm (CRESST/GSFC/USRA), N. P. M. Kuin (UCL-MSSL),
+D. Malesani (DARK/NBI), C. B. Markwardt (NASA/GSFC),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 13:42:11 UT, the Swift Burst Alert Telescope (BAT) triggered and
+probably located 4U 1850-03 (trigger=609139).  Swift slewed immediately
+to the location.  The BAT on-board calculated location is 
+RA, Dec 282.080, -2.444, which is 
+   RA(J2000)  =  18h 48m 19s
+   Dec(J2000) = -02d 26' 37"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Given that this is a 21-min image trigger (8.11 sigma),
+the information in the BAT ring buffer has been wrapped, so there is no
+real-time TDRSS light curve available. 
+
+The XRT began observing the field at 14:08:41.9 UT, 1590.3 seconds
+after the BAT trigger. Using promptly downlinked data we find an X-ray
+source located at RA, Dec 282.07027, -2.42364 which is equivalent to:
+   RA(J2000)  = 18h 48m 16.86s
+   Dec(J2000) = -02d 25' 25.1"
+with an uncertainty of 3.6 arcseconds (radius, 90% containment). This
+location is 81 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. This
+position is 5.5 arcseconds from a known X-ray source: 1SXPS
+J184816.5-022522. This source is in the Swift XRT 1SXPS catalogue with
+a mean 0.3-10 keV count-rate of 2.97 x 10^-3 ct/sec; see
+http://www.swift.ac.uk/1SXPS/1SXPSJ184816.5-022522 for details of these
+previous observations. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1593 seconds after the BAT trigger. No credible afterglow candidate
+has been found in the initial data products. The 2.7'x2.7' sub-image covers
+100% of the XRT error circle. The typical 3-sigma upper limit has been about
+19.6 mag. The 8'x8' region for the list of sources generated on-board covers
+100% of the XRT error circle. The list of sources is typically complete to
+about 18 mag. No correction has been made for the large, but uncertain
+extinction expected. 
+
+The above positions appear to be consistent with the known high mass X-ray binary
+4U 1850-03, and we believe the BAT trigger indicates activity from this known
+source.   The identifier 1SXPSJ184816.5-022522, derived from the Swift XRT point
+source survey, is most consistent with the current Swift XRT localization,
+but it is possible this source is the same as the 4U 1850-03.  However, as this
+is a location 0.4 deg from the Galactic Plane, we cannot rule out the possibility
+of a distinct Galactic source, nearby to 4U 1850-03. 
+

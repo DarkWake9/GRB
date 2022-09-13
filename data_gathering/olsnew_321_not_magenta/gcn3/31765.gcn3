@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31765
+SUBJECT: GRB 220310A: MITSuME Akeno optical observation
+DATE:    22/03/18 00:15:23 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, Y. Imai, K. L. Murata, M. Niwano, N. Ito, Y. Takamatsu,
+R. Noto, S. Sato, M. Takaku, R. Yamaguchi, Y. Yatsu, and N. Kawai
+(Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 220310A (H. Negoro et al. GCN Circular
+#31725, A. Yoshida et al. GCN Circular #31730, P. A. Evans et al. GCN
+Circular #31731, V. Lipunov et al. GCN Circular #31732, H. Kumar et
+al. GCN Circular #31738, D. Svinkin et al. GCN Circular #31748, Ahmed
+M. Fouad et al. GCN Circular #31750, S. Belkin et al. GCN Circular
+#31751, A.S. Kozyrev et al. GCN Circular #31756) with the optical
+three color (g', Rc, and Ic) CCD cameras attached to the MITSuME 50 cm
+telescope Akeno. The observation with a series of 60 sec exposures
+started at 2022-03-10 15:13:33 UT (14.7 hours after MAXI trigger). We
+stacked the images with good conditions. We marginally detected the
+optical counterpart candidate at the position reported previously (V.
+Lipunov et al. GCN Circular #31732, H. Kumar et al. GCN Circular
+#31738, Ahmed M. Fouad et al. GCN Circular #31750).
+The magnitudes of the source are as follows.
+
+T0+[hour] | Band | MID-UT | T-EXP[sec] | candidate magnitude
+------------------------------------------------------------
+16.1 | g' |2022-03-10 16:32:13 | 6720.0 | 19.62+/-0.18
+16.1 | Rc |2022-03-10 16:32:13 | 6780.0 | 19.67+/-0.18
+16.1 | Ic |2022-03-10 16:32:13 | 6780.0 | 19.05+/-0.23
+------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages
+4-24; https://github.com/MNiwano/Eclaire).
+

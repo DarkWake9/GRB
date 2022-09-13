@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31493
+SUBJECT: GRB 220118A: MITSuME Akeno optical observation
+DATE:    22/01/18 23:03:56 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, N. Ito, K. L. Murata, M. Niwano, Y. Imai, Y. Takamatsu,
+R. Yamaguchi, R. Noto, S. Sato, M. Takaku, Y. Yatsu, and N. Kawai
+(Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 220118A(The Fermi GBM team GCN Circular
+#31489, N. J. Klingler et al. GCN Circular #31490) with the optical
+three color (g', Rc, and Ic) CCD cameras attached to the MITSuME 50 cm
+telescope Akeno. The observation started at 2022-01-18 18:21:29 UT (51
+sec after Swift BAT trigger). We stacked the images with good
+conditions. We detected the optical afterglow candidate reported by
+the Swift UVOT observation (N. J. Klingler et al. GCN Circular
+#31490).
+The magnitudes and the 5-sigma limits of the stacked images are as follows.
+
+T0+[sec] MID-UT T-EXP[sec] magnitude(or 5-sigma limits) 5-sigma limits
+-----------------------------------------------------------------------------------------------------------------
+56   | 2022-01-18 18:21:34 | 10   |g'>15.9,         Rc>16.8,
+Ic>16.8        | g'>15.9, Rc>16.8, Ic>16.8 |
+84   | 2022-01-18 18:22:02 | 40   |g'=18.36+/-0.70, Rc=18.57+/-0.78,
+Ic>17.5        | g'>17.3, Rc>17.9, Ic>17.5 |
+171  | 2022-01-18 18:23:29 | 50   |g'=17.45+/-0.20, Rc=16.90+/-0.15,
+Ic=17.12+/-0.41| g'>17.5, Rc>18.1, Ic>17.5 |
+256  | 2022-01-18 18:24:54 | 60   |g'=17.31+/-0.18, Rc=16.87+/-0.09,
+Ic=16.64+/-0.11| g'>17.7, Rc>18.5, Ic>18.1 |
+325  | 2022-01-18 18:26:03 | 60   |g'=17.31+/-0.22, Rc=17.31+/-0.13,
+Ic=17.08+/-0.15| g'>17.7, Rc>18.4, Ic>18.1 |
+535  | 2022-01-18 18:29:33 | 300  |g'=18.21+/-0.17, Rc=17.80+/-0.10,
+Ic=17.47+/-0.10| g'>18.7, Rc>19.5, Ic>19.1 |
+1471 | 2022-01-18 18:45:09 | 1020 |g'=19.82+/-0.33, Rc=19.26+/-0.14,
+Ic=18.81+/-0.15| g'>19.5, Rc>20.3, Ic>19.9 |
+-----------------------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages
+4-24; https://github.com/MNiwano/Eclaire).
+

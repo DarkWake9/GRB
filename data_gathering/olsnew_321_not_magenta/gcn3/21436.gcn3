@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21436
+SUBJECT: LIGO/Virgo G296853: Swift/BAT data search
+DATE:    17/08/09 16:34:28 GMT
+FROM:    Amy Lien at GSFC/Swift  <amy.y.lien@nasa.gov>
+
+D.M. Palmer (LANL), S.D. Barthelmy (NASA/GSFC), A. Y. Lien (GSFC/UMBC),
+T. Sakamoto (AGU), A. A. Breeveld (MSSL-UCL), A.P. Beardmore (U. Leicester),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC),
+G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V.D'Elia(ASDC), S. Emery (UCL-MSSL), P.A. Evans (U. Leicester), 
+P. Giommi (ASI), C. Gronwall (PSU), J. A. Kennea (PSU), 
+H.A. Krimm (CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL), 
+F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB), 
+B. Mingo (U. Leicester), J.A. Nousek (PSU), S.R. Oates (Uni. of Warwick), 
+P.T. O'Brien (U. Leicester), J.P. Osborne (U. Leicester), 
+C. Pagani (U. Leicester), K.L. Page (U.Leicester), M. Perri (ASDC), 
+J.L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU),
+M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP)
+report on behalf of the Swift team:
+
+We report the search results in the BAT data within T0 +/- 100 s of the
+LIGO event G296853 (LIGO/VIRGO Collaboration GCN Circ. 21431), 
+where T0 is the LIGO trigger time (2017-08-09T08:28:21.747 UTC).
+
+The center of the BAT FOV at T0 is
+RA = 305.082 deg,
+DEC = 43.799 deg,
+ROLL = 340.755 deg.
+At T0, the BAT Field of View (>10% partial coding) covers 0.01% of the integrated
+LIGO localization probability. That is, there is no overlap between the BAT 
+field of view and the LIGO probability region at T0.
+
+Within T0 +/- 100 s, no significant detections (signal-to-noise ratio >~ 5 sigma) are 
+found in the BAT raw light curves with time bins of 64 ms, 1 s, and 1.6 s, respectively. 
+Assuming an on-axis (100% coded) short GRB with a typical spectrum in the BAT 
+energy range (i.e., a simple power-law model with a power-law index of -1.32, 
+Lien & Sakamoto et al. 2016), the 5-sigma upper limit in the 1-s binned light 
+curve corresponds to a flux upper limit (15-350 keV) of ~ 1.38 x 10^-7 erg/s/cm^2.
+
+BAT retains decreased, but significant, sensitivity to rate increases for
+gamma-ray events outside of its FOV. About 99.88% of the integrated LIGO 
+localization probability was outside of the BAT FOV but above the Earth's limb 
+from Swift's location, and the corresponding flux upper limits for this region 
+are within roughly an order of magnitude of those within the FOV.
+

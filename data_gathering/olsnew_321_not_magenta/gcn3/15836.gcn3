@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15836
+SUBJECT: GRB 140213A: Swift-BAT refined analysis
+DATE:    14/02/14 21:59:51 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+M. Stamatikos (OSU), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), S. T. Holland (STScI),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (NASA/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), J. Tueller (GSFC),
+T. N. Ukwatta (MSU) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 140213A (trigger #586569)
+(Holland, et al., GCN Circ. 15825).  The BAT ground-calculated position is
+RA, Dec = 105.166, -73.136 deg which is
+    RA(J2000)  =  07h 00m 39.8s
+    Dec(J2000) = -73d 08' 10.8"
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 50%.
+
+The mask-weighted light curve begins at T-120 sec, when the source position
+came into the BAT field-of-view during a pre-planned slew.  The emission
+begins faintly at ~T-25 sec, and rises sharply beginning at ~T-5.5 sec,
+peaks at T-4 sec and a stronger peak at ~T+1 sec, returning almost to baseline
+around T+10 sec. Then there is a second, much weaker and softer pulse
+at around T+15 sec, followed by an even weaker pulse at ~T+70 sec,
+with extended emission out to ~T+160 sec.  The burst position left
+the FoV after another pre-planned slew at T+780 sec. T90 (15-350 keV) is 60.0 +- 
+2.6 sec (estimated error including systematics).
+
+The time-averaged spectrum from -5.7 to +82.0 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.80 +- 0.04.  The fluence in the 15-150 keV band is 1.2 +- 0.0 x 10^-5 erg/cm2.
+The 1-sec peak photon flux measured from T+0.56 sec in the 15-150 keV band
+is 23.5 +- 0.8 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/586569/BA/
+

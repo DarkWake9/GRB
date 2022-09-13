@@ -1,0 +1,25 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25802
+SUBJECT: IceCube-190922A - IceCube observation of a high-energy neutrino candidate event
+DATE:    19/09/22 15:42:15 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+The IceCube Collaboration (http://icecube.wisc.edu/) reports:
+
+On 19/09/22 at 09:42:45.62 UT IceCube detected a track-like event with a moderate probability of being of astrophysical origin. The event was selected by the ICECUBE_Astrotrack_Gold alert stream. Though the average astrophysical neutrino purity for Gold alerts is 50%, this particular event had a signalness of just 20%. This alert has an estimated false alarm rate of 0.23 events per year due to atmospheric backgrounds. The IceCube detector was in a normal operating state at the time of detection.
+
+After the initial automated alert (https://gcn.gsfc.nasa.gov/notices_amon_g_b/133091_81419.amon <https://gcn.gsfc.nasa.gov/notices_amon_g_b/133091_81419.amon>), more  
+sophisticated reconstruction algorithms have been applied offline, with the direction refined to:
+
+Date: 19/09/22
+Time:  09:42:45.62 UT
+RA: 167.43 (+ 3.40 - 2.63  deg  90% PSF containment) J2000
+Dec: -22.39 (+ 2.88 - 2.89 deg 90% PSF containment) J2000
+
+Though the initial reported event energy was in excess of 3PeV, the event had a topology with a short distance traversed through the detector. We caution that, in such cases, the energy of the event is highly uncertain. In this case, the true energy is likely significantly less than initially reported.
+
+Due to the low signalness of the event and its large angular uncertainty, we do not believe this to be a strong candidate for dedicated follow up by ground and space-based instruments.
+
+Two gamma-ray sources listed in the 4FGL Fermi-LAT catalog are located within the 90% uncertainty region of the event. The sources are 4FGL J1120.0-2204 and 4FGL J1103.6-2329, located respectively 2.6 deg and 1.9 deg away from the best-fit position. 
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector operating at the geographic South Pole, Antarctica. The IceCube realtime alert point of contact can be reached at roc@icecube.wisc.edu

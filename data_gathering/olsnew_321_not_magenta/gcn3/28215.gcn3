@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28215
+SUBJECT: GRB 200806A: MITSuME Akeno optical upper limits
+DATE:    20/08/07 05:56:59 GMT
+FROM:    Katsuhiro L. Murata at Nagoya U  <murata@u.phys.nagoya-u.ac.jp>
+
+K. L. Murata, R. Adachi, R. Hosokawa, M. Niwano, F. Ogawa, N. Nakamura, N.
+Ito, S. Ogata, H. Takamatsu, H. Hara, Y. Yatsu, and N. Kawai (TokyoTech)
+report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 200806A (Ambrosi et al., GCN 28211; Beardmore
+et al., GCN 28214) with the optical three color (g', Rc, and Ic) CCD
+cameras attached to the MITSuME 50 cm telescope of Akeno Observatory,
+Yamanashi, Japan.
+
+The observation with a series of 60 sec exposures started on 2020-08−06
+15:30:34 UT. The first 15 images were heavily affected by the presence of
+the moon. We stacked the images excluding the 15 images and did not find
+any new point sources within the enhanced Swift/XRT error circle (Beardmore
+et al., GCN 28214) of the stacked images. We obtained the 5-sigma limits as
+follows.
+
+T0+[min] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+19 2020-08-06T15:57:10 960 g'>16.7, Rc>16.7, Ic>16.9
+------------------------------------------------------------------------------------------------
+T0+: Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used the PS1 catalog for flux calibration. The magnitudes are expressed
+in the AB system. The images were processed in real-time through the
+MITSuME GPU reduction pipeline (Niwano et al., submitted;
+https://github.com/MNiwano/Eclaire)

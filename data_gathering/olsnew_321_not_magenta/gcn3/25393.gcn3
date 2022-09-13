@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25393
+SUBJECT: LIGO/Virgo S190814bv: Additional candidates identified in DECam images by the DECam-GROWTH team
+DATE:    19/08/18 19:19:30 GMT
+FROM:    Daniel Goldstein at Caltech  <danny@caltech.edu>
+
+Danny Goldstein (Caltech), Igor Andreoni (Caltech), Matt Hankins (Caltech), Jesper Sollerman (OKC), Shreya Anand (Caltech), Tomas Ahumada (UMD), Jeffrey A. Newman (U. Pittsburgh), Dougal Dobie (U. Syd), Pradip Gatkine (UMD), Albert Kong (NTHU), David Kaplan (UWM), Ariel Goobar (OKC),  Rongpu Zhou (LBL), Peter Nugent (LBL), Mansi Kasliwal (Caltech)
+
+on behalf of the GROWTH collaboration
+
+We continued the processing of the public data obtained by the DESGW team (GCN #25336, GCN #25360, GCN #25373) during the follow-up of the gravitational wave event S190814bv (GCN #25324) under the NOAO target of opportunity program 2019B-0372 (PI Soares-Santos). The data were processed using the image subtraction pipelines described in Goldstein, Andreoni et al. (2019) and Andreoni, Goldstein et al. (2019).
+
+We estimated the photometric redshifts of the nearest static objects by applying a random forest algorithm to Legacy Survey DR8 photometry (including both magnitude and size information) on DES imaging, combined with spectroscopic redshifts from a variety of sources. Zhou et al. 2019 (in prep.) will provide a full description of the algorithm used.
+
+In addition to the candidates already reported by our team (GCN #25362, GCN #25391), here we present a new set of candidates found within the 95% integrated probability area of the LIGO/Virgo LALInference skymap (GCN #25333) that were not previously reported on TNS or via GCN. The candidates are located far from known asteroids present in the Minor Planet Center and were detected at the same location on repeat visits separated by at least 30 minutes.
+
++---------------------------------------------------------------------------------+
+| name      | IAU name  | RA        | Dec        |filter| mag  | MJD      | notes |           |
++---------------------------------------------------------------------------------+
+| DG19wxnjc | AT2019npv | 13.384651 | -23.832918 |  z   | 20.6 | 58713.34 | (a)(c)|
+| DG19gcwjc | AT2019ntp | 12.550301 | -26.197933 |  i   | 21.0 | 58713.25 | (a)   |
+| DG19wlpmc | AT2019nsm | 10.875667 | -22.724820 |  z   | 21.3 | 58713.28 | (a)   |
+| DG19sbzkc | AT2019ntr | 15.007850 | -26.714331 |  z   | 21.2 | 58713.27 | (a)   |
+| DG19vodmc | AT2019nts | 12.131005 | -23.111334 |  i   | 20.3 | 58713.28 | (b)   |
+| DG19rtekc | AT2019ntn | 23.722289 | -31.380485 |  i   | 20.8 | 58713.31 | (a)   |
+| DG19hqhjc | AT2019nuj | 12.257240 | -23.234702 |  i   | 20.9 | 58713.28 | (c)   |
+| DG19dnjlc | AT2019nuk | 13.740946 | -26.134614 |  i   | 21.6 | 58713.34 | (a)(c)|
+| DG19kpykc | AT2019nul | 13.818511 | -26.942936 |  z   | 20.2 | 58713.27 | (c)   |
+| DG19rzhoc | AT2019num | 13.881677 | -22.969021 |  i   | 21.3 | 58713.36 | (a)(c)|
+| DG19tvtnc | AT2019nun | 14.202496 | -24.908467 |  i   | 22.3 | 58713.37 | (c)   |
+| DG19kxdnc | AT2019nuq | 11.143987 | -22.029061 |  z   | 21.6 | 58713.29 | (c)   |
++---------------------------------------------------------------------------------+
+
+(a) Offset from the possible host
+(b) Hostless
+(c) 95% confidence region from photo-z is consistent with 95% confidence region of LIGO distance.
+
+GROWTH is a worldwide collaboration comprising of Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; USyd, Australia; and SDSU, USA. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+
+We gratefully acknowledge Amazon, Inc. for a generous grant that funded our use of the Amazon Web Services cloud computing infrastructure to process the DECam data.
+
+--
+Danny Goldstein
+http://astro.caltech.edu/~danny

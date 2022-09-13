@@ -1,0 +1,70 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7552
+SUBJECT: GRB 080330 Swift-UVOT refined analysis
+DATE:    08/03/30 23:28:41 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@googlemail.com>
+
+N.P.M. Kuin (MSSL/UCL) and J.Mao (INAF) report on behalf of the
+Swift-UVOT team:
+
+The Swift/UVOT started observations of  GRB 080330 (Mao et al,
+GCN Circ. 7537) with a settling exposure in the UVOT v-filter
+starting 2008-03-30 at 03:42:19 U, 63 seconds after the BAT
+trigger, and a finding chart exposure in the white filter starting
+83 seconds after the trigger. During the subsequent exposure in the
+V filter, starting at 189 seconds after the trigger, the spacecraft
+lost lock and drifted. In the V image, a clear trail is visible
+that all the stars in the field follow. In other filters, there is
+no clear evidence of lost counts, except in one image in b. Those
+exposures are short, or have much background (white), which suggest
+that only a fraction of the counts is lost.
+
+The extraction of the magnitudes below relies on a 5¨ aperture
+around the source. No counts are visible due to the source outside
+the aperture in the images. However, these magnitudes should be
+regarded as upper limits until a more detailed reduction can be
+done. Based on some tests, the magnitude may be underestimated as
+much as 0.7 magnitudes. The v-filter data were extracted using
+an aperture closely matching the shape of the trail and were
+measured from the event data. There is an uncertainty in this
+approach as well, since it is not clear what part of the PSF is
+sampled. Therefore the V magnitudes can be over-or underestimated
+by 0.25 magnitudes.
+
+The observations start before a peak is reached. In the white filter,
+a peak is apparent at T+128 +/- 5 seconds. In the v filter data, two
+peaks may be present at T+ 438 and 1038 +/- 25s. It is unlikely that
+the satellite drift caused these variations because the aperture
+included the whole trail. The uvw1 magnitude has upper limits until quite
+late in the burst, and must rise between T+791 and T+1416s. This
+is an indication of achromatic evolution in this burst.
+
+Only an upper limit is found in the uvw2 and uvm2 filters,
+which is consistent with the reported redshift of 1.51 (Malesani,
+et al. GCN 7544, and Cucchiara et al. GCN 7547).
+
+Filter Tstart(s) Tstop(s) Exp(s) Mag     Mag-error [systematic error]
+
+wh         83     183      98    18.2       0.06 [+0.7]
+v         189     588     399.8  18.5-17.2  0.3  [+/-0.25] (*)
+uvm2      594    1390      58.4 >18.55           (3 sigma UL)
+uvw1      619     638      19.5 >18.02           (3 sigma UL)
+u         644     664      19.4  17.14      0.16 [+0.7]
+b         669     678       9.6  18.9       0.6  [+0.7]
+wh        683     693       9.8  17.76      0.14 [+0.7]
+uvw2      698     870      38.9 >18.77           (3 sigma UL)
+uvw1      772     791      19.8 >18.04           (3 sigma UL)
+u         796     815      19.4  16.66      0.17 [+0.7]
+b         822     832       9.6  17.66      0.22 [+0.7]
+white     836     979     107.8  17.55      0.03 [+0.7]
+v         985    1384     400    18.0-17.2  0.3  [+/-0.25] (*)
+uvw1     1416    1436      19.4  17.7       0.3  [+0.7]
+b        1464    1483      19.8  18.14      0.22 [+0.7]
+white    1490    1499       9.6  17.91      0.15 [+0.7]
+
+(*) For the V magnitudes the range is given as seen in the event data.
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E_{B-V} = 0.02 mag in the
+direction of the burst (Schlegel et al. 1998).
+

@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15202
+SUBJECT: GRB 130907A, Swift-BAT refined analysis
+DATE:    13/09/09 01:35:56 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+J. R. Cummings (GSFC/UMBC),S. D. Barthelmy (GSFC), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (NASA/GSFC/ORAU), C. B. Markwardt (GSFC),
+M. J. Page (UCL-MSSL),D. M. Palmer (LANL),T. Sakamoto (AGU),
+M. Stamatikos (OSU),J. Tueller (GSFC),T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-60 to T+243 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 130907A (trigger #569992)
+(Page, et al., GCN Circ. 15183).  The BAT ground-calculated position is
+RA, Dec = 215.898, 45.602 deg which is
+    RA(J2000)  =  14h 23m 35.5s
+    Dec(J2000) = +45d 36' 08.0"
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+
+The mask-weighted light curve shows a very complicated structure with six main
+peaks from T-55 sec to T+95 sec.  Each of these peaks shows several sub-peaks.
+The strongest peak is at ~T+57 sec.  After T+95 sec, the count rate drops
+significantly, but doesn't return all the way to the background level.  Then
+there is another weak, soft peak from T+210 sec to T+240 sec. This late peak
+is coincident with the start of a long flare seen in the XRT. There may be
+further BAT emission beyond the end of the currently available event data.
+T90 (15-350 keV) is 115.14 +- 0.67 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-50.7 to T+234.6 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.11 +- 0.02.  The fluence in the 15-150 keV band is 1.2 +- 0.0 x 10^-4 erg/cm2.
+The 1-sec peak photon flux measured from T+57.66 sec in the 15-150 keV band
+is 25.6 +- 0.5 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/569992/BA/
+
+

@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26756
+SUBJECT: LIGO/Virgo trigger S200115j: Possible host galaxies
+DATE:    20/01/15 05:08:14 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester) reports,
+
+The bayestar.fits.gz,0 GW skymap has been convolved with the 2MPZ galaxy catalogue (Bilicki et al., ApJS, 210, 9),
+using the method described in Evans et al (2016, MNRAS, 462, 1591*), to identify
+a ranked list of potential host galaxies of the LVC trigger S200115j. This galaxy ranking
+method accounts for the (line-of-sight dependent) completeness of 2MPZ, GW probability, 
+and the overlap between P(D) functions for the GW event and the individual galaxies.
+
+In total 9105 galaxies with P>10^-5 have been identified. The most probable 20 are listed below,
+a full list and more details are available at: https://www.swift.ac.uk/LVC/S200115j/galaxies
+
+|               Galaxy name |   P_host |             RA |            Dec | K_abs |      GalDist |
+--------------------------------------------------------------------------------------------------
+|    2MPZ J02594896+0334138 | 3.14e-03 | 02h 59m 48.96s | +03d 34' 13.8" | 10.7 | 299.5 +/- 7.4 |
+|    2MPZ J03024884+0351494 | 1.84e-03 | 03h 02m 48.84s | +03d 51' 49.5" | 11.1 | 317.7 +/- 7.4 |
+|    2MPZ J02595945+0322468 | 1.70e-03 | 02h 59m 59.45s | +03d 22' 46.8" | 11.3 | 300.5 +/- 7.4 |
+|    2MPZ J19502998-5030374 | 1.52e-03 | 19h 50m 30.00s | -50d 30' 37.4" | 11.7 | 416.8 +/- 7.4 |
+|    2MPZ J02543798+0056218 | 1.50e-03 | 02h 54m 37.99s | +00d 56' 21.8" | 11.6 | 300.4 +/- 7.4 |
+|    2MPZ J02541454+0101446 | 1.34e-03 | 02h 54m 14.54s | +01d 01' 44.6" | 11.8 | 303.9 +/- 7.4 |
+|    2MPZ J19492167-5045558 | 1.17e-03 | 19h 49m 21.60s | -50d 45' 55.8" | 12.0 | 418.5 +/- 7.4 |
+|    2MPZ J02414023-0254238 | 1.05e-03 | 02h 41m 40.25s | -02d 54' 23.9" | 11.7 | 303.7 +/- 7.4 |
+|    2MPZ J02511474-0019452 | 9.91e-04 | 02h 51m 14.76s | -00d 19' 45.3" | 12.1 | 301.4 +/- 7.4 |
+|    2MPZ J02411531-0547234 | 9.89e-04 | 02h 41m 15.31s | -05d 47' 23.5" | 11.4 | 320.3 +/- 7.4 |
+|    2MPZ J02523222-0002526 | 9.79e-04 | 02h 52m 32.23s | -00d 02' 52.6" | 12.0 | 324.3 +/- 7.4 |
+|    2MPZ J19512421-5024363 | 8.64e-04 | 19h 51m 24.24s | -50d 24' 36.4" | 11.5 | 297.1 +/- 7.4 |
+|    2MPZ J19551231-5110295 | 8.62e-04 | 19h 55m 12.24s | -51d 10' 29.6" | 12.4 | 426.3 +/- 7.4 |
+|    2MPZ J19530336-5202132 | 8.55e-04 |  19h 53m 3.36s | -52d 02' 13.2" | 11.7 | 309.7 +/- 63.2 |
+|    2MPZ J02555367+0051381 | 8.38e-04 | 02h 55m 53.69s | +00d 51' 38.1" | 12.1 | 300.6 +/- 7.4 |
+|    2MPZ J02530482+0555431 | 8.17e-04 |  02h 53m 4.82s | +05d 55' 43.1" | 11.5 | 322.7 +/- 7.4 |
+|    2MPZ J19521735-5159465 | 7.85e-04 | 19h 52m 17.28s | -51d 59' 46.7" | 11.6 | 497.2 +/- 7.4 |
+|    2MPZ J02592648+0358163 | 7.79e-04 | 02h 59m 26.47s | +03d 58' 16.3" | 12.1 | 319.7 +/- 64.0 |
+|    2MPZ J19484858-5148290 | 7.64e-04 | 19h 48m 48.48s | -51d 48' 29.2" | 12.2 | 473.9 +/- 73.8 |
+|    2MPZ J19490816-5002317 | 7.45e-04 |  19h 49m 8.16s | -50d 02' 31.9" | 12.2 | 417.0 +/- 7.4 |
+--------------------------------------------------------------------------------------------------
+
+(* See also the erratum: MNRAS, 484, 2362; or arXiv 1606.05001 for the full manuscript with erratum applied).
+

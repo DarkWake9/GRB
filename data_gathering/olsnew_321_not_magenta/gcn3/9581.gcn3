@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9581
+SUBJECT: GRB 090625B: Swift/UVOT Upper Limits
+DATE:    09/06/26 16:56:21 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/GSFC/USRA) and J. Mao (INAF-OAB)
+report on the behalf of the Swift UVOT team:
+
+       The Swift/UVOT observed the field of GRB 090625B starting 3679 s
+after the INTEGRAL/IBAS detection (Gotz, et al., 2009, GCN
+Circ. 9572).  We do not find any new source, relative to the DSS,
+USNO-B1.0, or 2MASS at the position of the XRT afterglow (Mao, et
+al. 2009, GCN Circ. 9573).  Preliminary 3-sigma upper limits for
+detecting a source in the co-added images are
+
+Filter   T_start    T_stop   Exp(s)      Mag
+--------------------------------------------
+v           3679      5007       318   >20.0
+b           4192    11,398       413   >20.8
+u           3987    67,218      6439   >21.7
+uvw1        5218    17,045      1781   >21.5
+uvm2        5012    16,139      1082   >21.0
+uvw2        4602      4802       197   >20.1
+white       3828      4596       344   >21.8
+--------------------------------------------
+
+The quoted upper limits have not been corrected for the expected
+Galactic extinction along the line of sight corresponding to a
+reddening of E_{B-V} = 0.02 mag (Schlegel, et al., 1998, ApJS, 500,
+525).  All photometry is on the UVOT photometry system described in
+Poole et al. (2008, MNRAS, 383, 627).
+

@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28594
+SUBJECT: Swift detection of a new SGR 1830-0645 or a short GRB 201010A
+DATE:    20/10/10 15:16:16 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+K. L. Page (U Leicester), S. D. Barthelmy (GSFC),
+N. J. Klingler (PSU), N. P. M. Kuin (UCL-MSSL) and
+A. Y. Lien (GSFC/UMBC) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 14:49:24 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located SGR 1830-0645 or GRB 201010A (trigger=999571).  
+Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 277.675, -6.758, which is 
+   RA(J2000)  =  18h 30m 42s
+   Dec(J2000) = -06d 45' 30"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single peak
+structure with a duration of no more than 0.128 sec.  The peak count rate
+was ~1600 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 14:50:30.9 UT, 67.0 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source with an enhanced position: RA, Dec 277.6702, -6.7550 which
+is equivalent to:
+   RA(J2000)  = 18h 30m 40.85s
+   Dec(J2000) = -06d 45' 18.0"
+with an uncertainty of 2.2 arcseconds (radius, 90% containment). This
+location is 20 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at https://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.11
+x 10^22 cm^-2 (Willingale et al. 2013). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 71 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. Because of the density of catalogued stars, further
+analysis is required to report an upper limit for any afterglow in the
+sub-image. The 8'x8' region for the list of sources generated on-board covers
+100% of the XRT error circle. Because of the density of catalogued stars,
+further analysis is required to report an upper limit for any afterglow in the
+region. No correction has been made for the large, but uncertain, extinction
+expected. 
+
+Due to its short duration (BAT trigger duration of 8 ms, although 
+the immediately available lightcurve is only available at 128 ms 
+resolution), the soft spectrum (not visible above 50 keV) and its
+location in the Galactic bulge near the plane (lon,lat) = (24.5, 1.5)
+we suspect that this event may be a new Soft Gamma Repeater, which
+we would name SGR 1830-0645. 
+
+Burst Advocate for this burst is K. L. Page (klp5 AT leicester.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

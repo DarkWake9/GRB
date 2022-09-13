@@ -1,0 +1,29 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4411
+SUBJECT: GRB 051227: Swift/UVOT Upper Limits (Possible U-band
+DATE:    05/12/28 19:40:53 GMT
+FROM:    Pete Roming at PSU  <roming@astro.psu.edu>
+
+P. Roming (PSU), L. Barbier (GSFC), M. Trippico (GSFC-SSAI), J. Nousek 
+(PSU) on behalf of the Swift/UVOT team
+
+We have created summed images from Swift UVOT exposures of GRB051227 
+(Barbier et al., GCN 4397) taken through each of the broadband filters. No 
+source was detected at the XRT position (Beardmore et al. GCN 4402) or the 
+R-band VLT position (Malesani, GCN 4404) down to the
+following 5-sigma upper limits (no correction has been made for the 
+expected visual extinction of about 0.14 magnitudes):
+
+   Filter    T_range(s)      Tot Exp(s)   5sigUL(mag)
+   V           96-4092           496              19.0
+   B           462-10250      617              20.2
+   U           408-6370        502              19.6
+   UVW1   354-5904        950              19.6
+   UVM2    300-4996        950              19.7
+   UVW2   571-3988        113              18.5
+   White    516-565          100              19.2
+
+We note that from the U-band summed image a source is detected by the Swift 
+analysis tool, uvotsource, at the 4.0-sigma confidence coincident with the 
+position reported by Malesani. The magnitude is 19.8+/-0.3.
+

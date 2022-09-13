@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28311
+SUBJECT: GRB 200829A: Swift/UVOT Detection
+DATE:    20/08/29 19:10:29 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N.P.M. Kuin (MSSL-UCL) and M. H. Siegel (PSU) report on behalf of
+the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 200829A
+138 s after the BAT trigger (Siegel et al., GCN Circ. 28307).
+The UV-optical source position is RA=251.204709, Dec=72.329356 deg
+(J2000) which is in sexagesimal:
+RA(J2000) = 16h 44m 49.14s
+Dec(J2000) = 72d 19' 45.63"
+with a positional uncertainty of 0.35" radius (90% confidence).
+
+Preliminary detections and 3-sigma upper limits using the UVOT photometric
+system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures
+are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white              138          288          147         14.29 +/- 0.02
+white              576          596           19         15.43 +/- 0.04
+white             1527         1547           19         16.38 +/- 0.06
+v                  626          646           19         15.50 +/- 0.10
+b                  552          572           19         15.68 +/- 0.07
+u                  296          546          246         14.54 +/- 0.03
+u                  700          720           19         15.12 +/- 0.07
+w1                 675          696           19         15.19 +/- 0.12
+m2                1080         1100           19         16.25 +/- 0.25
+w2                1032         1398           39         17.64 +/- 0.30
+
+Note that the times are since the BAT trigger time. The main burst took
+place around 60s earlier during a Swift Slew.
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.04 in the direction of the burst
+(Schlegel et al. 1998).

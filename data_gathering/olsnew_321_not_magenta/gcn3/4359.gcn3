@@ -1,0 +1,72 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4359
+SUBJECT: GRB051211A (=H3979): Refined Analysis
+DATE:    05/12/16 18:58:27 GMT
+FROM:    Carlo Graziani at U.Chicago  <carlo@oddjob.uchicago.edu>
+
+N. Kawai, G. Ricker, J-L. Atteia, D. Lamb, and S. Woosley, on behalf of
+the HETE Science Team;
+
+M. Arimoto, T. Donaghy, E. Fenimore, M. Galassi, C. Graziani,
+N. Ishikawa, A. Kobayashi, J. Kotoku, M. Maetou, M. Matsuoka,
+Y. Nakagawa, T. Sakamoto, R. Sato, T. Shimokawabe, Y. Shirasaki,
+S. Sugita, M. Suzuki, T. Tamagawa, K. Tanaka, and A. Yoshida, on behalf
+of the HETE WXM Team;
+
+N. Butler, G. Crew, J. Doty, G. Prigozhin, R. Vanderspek,
+J. Villasenor, J. G. Jernigan, A. Levine, G. Azzibrouck, J. Braga,
+R. Manchanda, G. Pizzichini, and S. Gunasekera, on behalf of the HETE
+Operations and HETE Optical-SXC Teams;
+
+M. Boer, J-F Olive, J-P Dezalay, and K. Hurley, on behalf of the HETE
+FREGATE Team;
+
+report:
+
+We have analyzed the full FREGATE+WXM+SXC data for HETE trigger H3979
+(GRB051211A).
+
+Further ground analysis shows that the HETE SXC location for GRB051211A
+reported in GCN 4324 is reliable. The SXC detected a soft transient source
+in both the its X and Y cameras about 35 s after the trigger without the
+assistance of the WXM. The location of this source is:
+
+R.A. = 06h 56m 13s ; Dec. = 32d 40' 44" (J2000),
+
+with a 90% confidence error radius of 80".
+
+The WXM did not detect this soft transient, but it detected hard x-ray
+emission coincident with the Fregate event. From this hard emission, WXM
+obtained a solid X location matching the SXC transient. There are several
+possible WXM Y locations, but one of them matches the SXC transient: the
+random probability of this is only a few percent. This triple coincidence
+in time and position gives us high confidence that the SXC transient is
+associated with the Fregate trigger.
+
+The 30-400 keV light curve has a fast rise (<0.1 s) and a slower
+decay. The burst had a T90 duration of 4.8s in the 6-40 keV band, and of
+4.2s in the 30-400 keV band.
+
+The integrated spectrum is well-fit by a cutoff power-law function.  The
+best-fit parameters are:
+
+alpha = -0.67 --- 90% confidence interval is [-0.90 -0.38]
+Epeak = 137 keV  --- 90% confidence interval is [106 , 200]
+
+The 2-30 keV fluence is 1.6e-7 erg/cm2, while the 30-400 keV fluence is
+9.6e-7 erg/cm2.
+
+This burst had a hardness ratio (100-300 keV fluence)/(25-100 keV
+fluence) of 1.18.  This, along with its 4.2 s T90, places it 
+between the long duration bursts and the short duration bursts
+in the hardness ratio-duration diagram.  We note, however, that if
+lognormal functions are used to describe the long and short burst duration
+distributions, this burst appears more likely to belong to the short
+class. Thus, a search for a possible associated low redshift host galaxy
+would be of interest.
+
+A light curve, hardness ratio-duration diagram, and spectral information
+for this event are provided at the following URL:
+
+http://space.mit.edu/HETE/Bursts/GRB051211/
+

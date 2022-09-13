@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21188
+SUBJECT: GRB 170531B: Swift/UVOT Detection
+DATE:    17/06/02 04:27:30 GMT
+FROM:    Mike Siegel at PSU/Swift MOC  <siegel@swift.psu.edu>
+
+M. H. Siegel (PSU) and P. A. Evans (U. Leicester)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 170531B
+152 s after the BAT trigger (Evans et al., GCN Circ. 21171).
+We detect a possible afterglow consistent with the position given by GTC
+(de Ugarte Postigo et al., GCN Circ. 21177) and MASTER (Tyurin et al., 
+GCN CIrc. 21179).
+
+The preliminary UVOT position is:
+    RA  (J2000) =  19:07:32.10 = 286.88373 (deg.)
+    Dec (J2000) = -16:25:05.8  = -16.41829 (deg.)
+with an estimated uncertainty of 0.1 arc sec. (radius, 90% confidence).
+
+This position is 3.0 arc sec away from the enhanced XRT position
+(Osborne et al. GCN Circ. 21175). Given the fading, detection
+by other observatories and lack of matching source in the DSS, we find it
+likely to be the GRB afterglow.
+
+Preliminary 3-sigma magnitudes upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first
+finding chart (FC) exposure and subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white (fc)         152          302          147         20.50+-0.29
+white              590         1532          244         >21.03
+v                  640         1581          116         >18.88
+b                  566         1508           97         >19.77
+u (fc)             310          560          245         >20.07
+u                  713         1643           85         >19.17
+uvw1               689         1630           97         >18.91
+uvm2               664         1606          116         >18.88
+uvw2               615         1557          116         >19.14
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.19 in the direction of the burst
+(Schlegel et al. 1998).
+

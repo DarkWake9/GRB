@@ -1,0 +1,106 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  241
+SUBJECT: GRB990123, Probability of gravitational lensing
+DATE:    99/01/31 02:31:33 GMT
+FROM:    Brad Schaefer at Yale U  <brad@grb2.physics.yale.edu>
+
+Bradley E. Schaefer (Yale):
+
+In the last few days, the GCN has had several discussions about the
+possibility that GRB990123 might be lensed with a high amplification.
+This note is to provide balance and point out several problems with this
+possibility.  In particular, the arguments suggest that there will be no
+repeat lens events on short (or long) time scales.
+
+(1) The idea of GRB990123 lensing has weak motivation.
+	The motivation that GRB990123 is lensed is (A) to reduce the
+deduced isotropic-equivalent energy (2.3x10^54 erg) to a level that can be
+readily explained by models, (B) to account for the lack of previous
+optical flash detection by LOTIS and ROTSE [GCN #216], (C) to account for
+GRB970627 as a lensed image [GCN #234], and (D) to explain the large radio
+variability [GCN #239].
+	(A) To claim that GRB990123 is too energetic requires a knowledge
+of the burst energy budget, whereas no such answer is known.
+Nevertheless, within current reasonable models (e.g., collapsars, merging
+compact objects) the typical gamma ray energies range up to ~10^52 ergs.
+[This forces the lens amplification, A, to be >200 or so.]  Any such
+argument would already require that GRB971214 [3x10^53 erg; Kulkarni et
+al. 1998, Nature, 393, 35] and GRB980703 [2x10^53 erg; GCN #139, GCN #143]
+must also be lensed with large amplitude.  The likelihood of three high
+amplitude lenses among the 17 SAX bursts is close to zero.
+	(B) The optical flash luminosity is indeed large [it would appear
+brighter than our Sun at a distance of 1 kpc], but we have no idea of what
+is expected, so with A=200 the source still has M~-30.7 and this is still
+astounding.  More to the point, no previous search would have detected an
+optical flash with the E_gamma/E_opt ratio for GRB990123 (i.e., V~9 [GCN
+#205] for a gamma ray fluence of 5.1x10^-4 erg cm^-2 [GCN #224]).  For
+example, the highest fluence event seen by GROCSE is 1.9x10^-5 erg cm^-2
+with an optical limit of 8.1 mag [H. S. Park et al. 1997, ApJ, 490, 99].
+For LOTIS, the strictest limit comes from GRB970223 with a fluence of
+4.8x10^-5 erg cm^-2 and an optical limit of 11.0 mag [H. S. Park et al.
+1997, ApJLett, 490, L21].  So there are no missing-optical-flashes to
+motivate a lens suggestion.
+	(C) For GRB970627 to be a lensed image, it must have the same
+light curve, spectrum, and position as GRB990123.  [Microlensing could
+conceivably make mild changes in the light curve or spectrum by imaging
+different portions of the fireball, but then the time delay between images
+cannot be 1.5 years without simultaneously invoking high amplitude
+microlensing on top of high amplitude macrolensing.]  The two bursts have
+peak-to-peak times of 12s and 17s, have greatly different peak intensity
+ratios, have greatly different peak shapes, and GRB970627 lacks the late
+time flux prominent in GRB990123.  The two bursts have greatly different
+hardness ratio in BATSE channels 1, 2, and 3, with H21 equal 1.37 versus
+0.56 and H32 equal 5.83 versus 1.14
+[http://www.batse.msfc.nasa.gov/data/grb/catalog/flux.html].  The
+GRB990123 OT position is 4.23 degrees away from the IPN annulus for
+GRB970627 which has a 3-sigma width of 0.065 degrees [GCN #235].  Thus,
+GRB970627 is certainly not a lensed image of GRB990123.
+	(D) The radio observations of GRB990123 to date show >10X
+variations in flux [GCN #239], but this is not qualitatively different
+from the 4X variations already known from GRB scintillation [e.g., Frail
+et al. 1997, Nature, 389, 261].  Nevertheless, GCN #239 suggests that
+normal variation of a GRB cannot account for this variation, and instead
+propose that the radio detection is of an earlier lensed image of the same
+GRB.  However, this alternative suggestion has exactly the same problem as
+what it was trying to replace, since then the earlier lensed image is
+required to vary by >10X.  That is, lensing does not solve the posed
+problem.  So logically, there is no motivation to invoke lensing.
+
+(2) A GRB990123 lensing event is now extremely improbable.
+	Within the lensing hypothesis, for simple lenses, the time delay
+between images will scale as the mass of the lens, with typical delays of
+250 seconds for a 10^9 solar mass lens or 7 hours for a 10^11 solar mass
+lens [see E. Turner et al. 1984, ApJ, 284, 1].  So for the simple case,
+there can be no lensed event in the future.  For more complex lenses, GCN
+#236 points out that the time delay between the two brightest and roughly
+equal images will be from tens of seconds to a fraction of a day.  In
+either case, the lack of a comparable sized lens argues strongly that
+there will be no more images arriving in the future and that there has
+been no lensing at all.
+	The fraction of quasars that are lensed with moderate
+amplification is ~10^-3.  The fraction of GRBs with multiple images is
+<10^-3 (G. Marani 1998, Thesis, George Mason).  For a GRB distance 
+of z=1.6, the expected lensing fraction is ~2x10^-3
+(D. Holz et al. 1999, ApJ, 510, 54).  [A correction for amplification bias
+is needed for this theoretical estimate, but this will not be large due to
+the turn over in the LogN-LogP curve.]  So, for GRBs with A>~2 we expect
+the lensing fraction to be ~10^-3.  The lensing probability scales as
+A^-2.  For the 17 SAX bursts, we then expect a final probability of
+<2x10^-6 that any burst will be amplified as much as required.  This
+probability calculation suggests strongly that GRB990123 is not lensed and
+thus will not have future lensing events on short or long time scales.
+
+(3) Beaming is a better model.
+	Observationally, we know that the burst emission is collimated (to
+allow the escape of GeV photons) and that most of burst emission is coming
+from very small angular beams (e.g., B. Schaefer & K. C. Walker 1998,
+ApJLett, 511, in press; ASTRO-PH/9810271; ASTRO-PH/9802200).
+Theoretically, recent models produce small cones of emission, for example
+S. Woosley suggests a beaming factor of 0.015 while M. Rees suggests it
+can be as low as 10^-4 [Rome GRB Conf.].  So we have every reason to
+expect significant beaming factors.  This expectation will immediately
+lower the burst energy requirements and eliminate the motivation for a
+GRB990123 lens.  Why invoke an extremely improbable solution with no
+positive evidence when everyone already knows that beaming solves the
+problem and must be present.
+

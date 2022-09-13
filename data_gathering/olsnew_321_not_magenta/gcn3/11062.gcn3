@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11062
+SUBJECT: GRB 100805A: Swift/UVOT Observations of the Optical Afterglow
+DATE:    10/08/05 19:02:30 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <Stephen.T.Holland@nasa.gov>
+
+S. T. Holland (CRESST/GSFC/USRA) and E. A. Hoversten (PSU)
+report on the behalf of the Swift UVOT team:
+
+      The Swift/UVOT observed the field of GRB 100805A starting 112 s
+after the BAT trigger (Hoversten, et al., 2010, GCN Circ. 11047).
+Settled observations started at 130 s.  We detect the optical
+afterglow (Hoversten, et al., 2010, GCN Circ, 11047) in all filters
+except uvw2.  The refined UVOT position is
+
+     RA (J2000) =  19:59:30.51  =  299.87713 (deg)
+    Dec (J2000) = +52:37:40.1   =  +52.62783 (deg)
+
+with an estimated uncertainty of 0.43 arcsec (radius, 90% confidence,
+statistical + systematic).  This is 1.31 arcsec west of the
+UVOT-enhanced XRT position (Goad, et al., 2010, GCN Circ. 11053).
+
+     Preliminary magnitudes, and 3-sigma upper limits for detecting a
+source in the finding charts and in the co-added images, are
+
+Filter      T_start   T_stop    Exp(s)      Mag   Err
+-----------------------------------------------------------
+white (fc)      130      280       147     18.10 0.08
+    u (fc)      288      538       246     18.32 0.11
+
+    v           619     5984       432     19.80 0.23
+    b           544   10,831      1213     21.22 0.20
+    u           288     6600       659     18.55 0.09
+ uvw1           668     6395       432     20.78 0.39
+ uvm2           643     6189       432     20.68 0.45
+ uvw2           594   12,479      1149    >21.6  3-sigma UL
+white           130   11,744      1319     19.42 0.07
+-----------------------------------------------------------
+
+     The quoted magnitudes and upper limits have not been corrected
+for the expected Galactic extinction along the line of sight
+corresponding to a reddening of E_{B-V} = 0.19 mag (Schlegel, et al.,
+1998, ApJS, 500, 525).  All photometry is on the UVOT photometry
+system described in Poole et al. (2008, MNRAS, 383, 627).
+
+     The non-detection in the UVOT uvw2 filter, and the observed UVOT
+spectral energy distribution at 4895 s, is consistent with GRB 100805A
+having a redshift of approximately z = 1.3, although we can not rule
+out the non-detection in uvw2 being due to extinction in the host
+galaxy.  The white light curve exhibits a power-law decay with an
+index of alpha = -0.71 +/- 0.03, consistent with what was observed by
+Cenko, et al. (2010, GCN Circ. 11051).
+

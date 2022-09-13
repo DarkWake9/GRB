@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17510
+SUBJECT: GRB 150301A: Swift detection of a short burst or new SGR
+DATE:    15/03/01 01:26:16 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+J. R. Cummings (NASA/UMBC), M. De Pasquale (INAF-IASFPA),
+L. M. Z. Hagen (PSU), J. A. Kennea (PSU), C. B. Markwardt (NASA/GSFC),
+A. Maselli (INAF-IASFPA), D. M. Palmer (LANL) and M. H. Siegel (PSU)
+report on behalf of the Swift Team:
+
+At 01:04:28 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a source which could be a short GRB or a new SGR (trigger=632995). 
+Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 244.286, -48.697, which is 
+   RA(J2000)  =  16h 17m 09s
+   Dec(J2000) = -48d 41' 48"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single peak
+structure with a duration of about 0.1 sec.  The peak count rate
+was ~8500 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 01:05:26.6 UT, 58.3 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 244.3047, -48.7131 which is equivalent to:
+   RA(J2000)  = +16h 17m 13.13s
+   Dec(J2000) = -48d 42' 47.2"
+with an uncertainty of 5.0 arcseconds (radius, 90% containment). This
+location is 73 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 113 seconds with the White filter
+starting 65 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The coverage of the XRT error circle by the 8'x8' region
+for the list of sources generated on-board is uncertain because the large
+number of sources filled the available telemetry. The list of sources is
+typically complete to about 18 mag. No correction has been made for the large,
+but uncertain extinction expected. 
+
+We note that this source is near the Galactic Plane and Bulge 
+(lat = 1.36, lon = 334) and so this might be a previously-unknown
+Soft Gamma Repeater. The burst has significant emission above 100 keV,
+which is unusual, but not unprecedented, for an SGR.  Further analysis
+of the full data set and continued observation is required to
+determine the nature of this source. 
+
+Burst Advocate for this burst is A. Y. Lien (amy.y.lien AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

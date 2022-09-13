@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9696
+SUBJECT: GRB 090709A: Swift XRT Timing Analysis
+DATE:    09/07/21 12:18:24 GMT
+FROM:    Nestor Mirabal at U.Complutense de Madrid  <mirabal@gae.ucm.es>
+
+N. Mirabal (U. Complutense de Madrid) and E. V. Gotthelf (Columbia U.)
+report:
+
+In light of recent reports of quasi-periodic variations in the
+gamma-ray light curve of GRB 090709A (Markwardt et al., GCN 9645;
+Golenetskii et al., GCN 9647, Gotz et al., GCN 9649; Ohno et al.,
+GCN 9653), we have analyzed Swift XRT observations of GRB 090709A
+obtained between 2009 July 9.319 UT and 2009 July 11.862 UT
+(79s - 61 hr after the trigger assuming T at 2009 July 9, 07:38:34 UT).
+This period overlaps the BAT light curve from T+79 s to T+150 s
+(Markward et al., GCN 9645). The first set of observations (390 s) was
+taken in WT mode (1.77 ms timing resolution),  followed by three
+pointings in PC mode (2.5 s timing resolution). Fast Fourier
+Transform (FFT) analysis applied to the light curves
+in each interval shows no significant power down to the Nyquist
+limit of f < 283 Hz and f < 2 Hz, for the WT and PC mode data,
+respectively. Furthermore, the power spectrum of the first 120 s
+of WT mode data (79-469 s after the trigger) does not reveal
+any significant signal. The FFTs show typical characteristics of both
+white and red noise during the interval. The absence of oscillations in
+the X-ray band appears to rule out coherent quasi-periodic variations
+extending beyond T+150 s. We note that the 8-second cycle derived from
+the gamma-ray light curve seems at odds with the spin period P ~ 1 ms
+required to produce an energy release Egamma ~ 10^50 erg from a magnetar
+engine (Thompson et al. 2004, ApJ, 611, 380), unless the neutron star 
+was born
+a millisecond pulsar and spun down to a 1-8 s period (depending on the
+actual GRB redshift) on a ~10 s timescale.
+
+The power spectrum of the GRB 090709A light curve (WT mode, 79-469 s
+after the trigger) can be found at:
+
+http://www.gae.ucm.es/~mirabal/grbs/grb090709a/grb090709a_fft.gif
+
+
+

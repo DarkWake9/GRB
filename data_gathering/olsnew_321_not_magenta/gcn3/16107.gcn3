@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16107
+SUBJECT: Konus-Wind observation of GRB 140413A
+DATE:    14/04/14 12:09:24 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin,
+P. Oleynik, M. Ulanov, D. Svinkin, A. Tsvetkova, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long GRB 140413A (Swift-BAT trigger #595616:
+D'Elia et al., GCN 16098; T0(BAT)=00:09:40 UT)
+was detected by Konus-Wind in the waiting mode.
+
+The light curve shows a broad emission pulse which started
+~65 s before the BAT trigger, peaked at ~T0(BAT)+80 s,
+and lasted till ~T0(BAT)+120 s.
+
+A possible soft precursor is seen at ~T0(BAT)-950 s
+in the softest KW energy band, however its association with
+GRB 140413A is not confirmed yet.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB140413A/
+
+As observed by Konus-Wind, the burst had a fluence of
+(2.9 ± 0.3)x10^-5 erg/cm2 and a 2.944-s peak energy flux,
+measured from ~T0(BAT)+80 s, of (5.2 ± 0.5)x10^-7 erg/cm2
+(both in the 20 - 10000 keV energy range).
+
+Modeling the KW 3-channel time-integrated spectrum
+(from T0(BAT)-60 s to T0(BAT)+121 s) by a power law
+with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.37 ± 0.11, and Ep = 228 ± 42 keV.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+
+

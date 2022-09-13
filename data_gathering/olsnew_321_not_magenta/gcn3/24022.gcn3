@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24022
+SUBJECT: Swift Trigger 895503 is not a GRB
+DATE:    19/03/27 23:43:56 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), A. P. Beardmore (U Leicester),
+N. J. Klingler (PSU), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), M. J. Moss (George Washington University),
+K. L. Page (U Leicester), D. M. Palmer (LANL) and A. Tohuvavohu (PSU)
+report on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 23:16:13 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a noise peak (trigger=895503).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 297.816, +39.070, which is 
+   RA(J2000)  =  19h 51m 16s
+   Dec(J2000) = +39d 04' 12"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows no obviously
+significant structure, which is unusual for a rate trigger.  The 
+peak count rate was ~700 counts/sec (15-350 keV), at ~0 sec 
+after the trigger. 
+
+The XRT began observing the field at 23:17:20.2 UT, 66.4 seconds after
+the BAT trigger. No source was detected in 749 s of promptly downlinked
+data, which covered 95% of the BAT error circle. 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 69 seconds after the BAT trigger. No credible
+afterglow candidate has  been found in the initial data products. The
+2.7'x2.7' sub-image covers 25% of  the BAT error circle. The typical
+3-sigma upper limit has been about 19.6 mag. We note that this is a
+crowded field. No correction has been made for the  expected
+extinction corresponding to E(B-V) of 0.25. 
+
+Due to the marginal significance of both the rate trigger (6.2 sigma)
+and the image peak (6.6 sigma, declining to 5.7 sigma in ground analysis),
+and the lack of a clear XRT or UVOT counterpart, we believe that this 
+trigger is probably a statistical fluctuation and not an astrophysical 
+event.  A final determination of the reality of this event will use
+the full ground-linked dataset. 
+

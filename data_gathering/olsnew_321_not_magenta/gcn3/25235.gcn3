@@ -1,0 +1,77 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25235
+SUBJECT: LIGO/Virgo S190728q: ZTF Forced Photometry for PS1 and DECam-GROWTH optical candidates, and a note on DECam Photometry from GCN 25215
+DATE:    19/07/31 18:43:12 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Erik Kool (OKC), Danny Goldstein (Caltech), Frank Masci (IPAC), Mansi Kasliwal (Caltech), Matthew Graham (Caltech)
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations
+
+We performed forced photometry on images acquired with the Zwicky Transient Facility (ZTF; Bellm et al. 2019, Graham et al. 2019) for the the optical transients reported so far by the Pan-STARRS (PS1; Huber et al., GCN #25224) and DECam-GROWTH (Goldstein et al., GCN #25215) teams. Forced photometry was performed on images processed through the ZTF reduction and image subtraction pipelines at IPAC (Masci et al. 2019).
+
+The following table includes candidates with no detections before the trigger time of S190728q (2019-07-28 06:45:10.529 UT, GCN #25187). For these sources, we report the latest relevant upper limits or confirmation detections. An association between these candidates and S190728q cannot be excluded with our ZTF observations. 
+
++----------------------------------------------------+
+| Name     | TNS name  | Date (UT)        | ZTF phot |
++----------------------------------------------------+
+|PS19dxc   | AT2019lzb | 2019-07-06 09:03 | r > 21.8 |
+|          |           | 2019-07-28 10:51 | r > 21.8 |
++----------------------------------------------------+
+|PS19dxb   | AT2019lzc | 2019-07-21 07:03 | i > 20.3 |
++----------------------------------------------------+
+|PS19dxn   | AT2019lzt | 2019-07-26 09:20 | r > 21.5 |
+|          |           | 2019-07-28 10:31 | r = 21.0 |
+|          |           | 2019-07-30 08:41 | r > 21.7 |
++----------------------------------------------------+
+|PS19dxf   | AT2019lzg | 2019-07-26 09:20 | r > 21.5 |
+|          |           | 2019-07-30 08:42 | r > 21.6 |
++----------------------------------------------------+
+|PS19dxg   | AT2019lzf | 2019-01-10 02:24 | r > 18.8 |
+|          |           | 2019-07-28 10:46 | r = 22.1 |
+|          |           | 2019-07-29 04:08 | r > 20.5 |
++----------------------------------------------------+
+|PS19dwz   | AT2019lyz | 2019-07-05 11:26 | g > 21.3 |
++----------------------------------------------------+
+|PS19dxm   | AT2019lzu | 2019-07-14 11:05 | r = 21.5 |
++----------------------------------------------------+
+|PS19dxd   | AT2019lze | 2019-07-24 09:33 | r > 21.3 |
+|          |           | 2019-07-28 08:04 | r = 21.6 |
+|          |           | 2019-07-31 08:07 | r = 21.5 |
++----------------------------------------------------+
+|DG19arsob | AT2019lvw | 2019-01-07 02:20 | r > 18.6 |
+|          |           | 2019-07-28 10:42 | r = 22.1 |
+|          |           | 2019-07-29 04:34 | r > 20.0 |
++----------------------------------------------------+
+|DG19tfmlb | AT2019lvv | 2019-07-26 09:20 | r > 21.5 |
+|          |           | 2019-07-30 08:42 | r > 21.6 |
++----------------------------------------------------+
+|DG19zrjmb | AT2019lvx | 2019-07-06 07:31 | r = 21.5 |
++----------------------------------------------------+
+
+We note that PS19dxn / AT2019lzt may be evolving rapidly. The candidate is detected by both PS1 and ZTF hours after S190728q (ZTF detection on 2019-07-28 10:31 UT, PS1 detection on 2019-07-28 12:43 UT) and it is not detected by ZTF on the following days.  
+
+The following table includes candidates with ZTF pre-detections.  For these candidates, an association with S190728q can be ruled out:
+
++----------------------------------------------------+
+| Name     | TNS name  | Date (UT)        | ZTF phot |
++----------------------------------------------------+
+|PS19dxk   | AT2019lzs | 2019-07-06 07:31 | r = 20.9 |
+|PS19dxl   | AT2019lzr | 2019-07-06 07:32 | r = 21.2 |
+|PS19dwv   | AT2019lyv | 2019-07-08 08:51 | r = 21.7 |
+|PS19dxo   | AT2019lzv | 2019-07-08 08:32 | r = 20.9 |
+|PS19dxe   | AT2019lzd | 2019-07-13 07:06 | r = 20.4 |
+|DG19jufnb | AT2019lvu | 2019-07-06 09:38 | i = 20.7 |
++----------------------------------------------------+
+
+Other candidates were reported during the follow-up of S190827q, but their association with the gravitational wave event has already been ruled out by photometric pre-detection or by spectroscopic classification. In particular, those include DG19rxclb (GCN #25215, GCN #25224), DG19blknb (GCN #25215 GCN #25221), and DG19bfhpb (GCN #25215).
+
+We caution that we plan to shortly revise the DECam photometry in GCN #25215 as it was impacted by the poor quality of some of the available reference imaging from the DECam Legacy Survey DR7. 
+
+We thank Stephen Smartt for useful discussions. The ZTF forced-photometry service was funded under the Heising-Simons Foundation grant #12540303 (PI: Graham). ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+
+
+
+
+
+

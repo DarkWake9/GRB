@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18329
+SUBJECT: GRB 150915A: Swift-XRT refined Analysis
+DATE:    15/09/17 13:20:26 GMT
+FROM:    Valerio D'Elia at ASDC  <delia@asdc.asi.it>
+
+A. D'ai (INAF-IASFPA), A. Maselli  (INAF-IASFPA), A. Melandri
+(INAF-OAB), J.A. Kennea (PSU), B. Sbarufatti (INAF-OAB/PSU), D.N.
+Burrows (PSU), J.P. Osborne (U. Leicester), K.L. Page (U. Leicester), 
+L. Izzo (URoma/ICRA) and V. D'Elia (ASDC) report on behalf of the
+Swift-XRT team:
+
+We have analysed 12 ks of XRT data for the Swift/BAT-detected burst GRB
+150915A (D'Elia et al. GCN Circ. 18315), from 118 s to 126.0 ks after
+the  Swift/BAT trigger. The data comprise 256 s in Windowed Timing (WT)
+mode (the first 8 s were taken while Swift was slewing) with the
+remainder in Photon Counting (PC) mode. The refined XRT position is RA,
+Dec = 319.6584, -34.9136 which is equivalent to:
+
+RA (J2000): 21 18 38.01
+Dec(J2000): -34 54 49.1
+
+with an uncertainty of 3.7 arcsec (radius, 90% confidence). This
+position is 5.1 arcmin from the Swift/BAT position. 
+
+The light curve can be modelled with an initial power-law decay with an
+index of alpha=0.5 (+/-0.3), followed by a break at T+170 s to an alpha
+of 3.94 (+0.15, -0.13).
+
+A spectrum formed from the WT mode data can be fitted with an absorbed
+power-law with a photon spectral index	of 1.79 (+/-0.04). The
+best-fitting absorption column is  7.8 (+1.7, -1.6) x 10^21 cm^-2, at a
+redshift of 1.968, in addition to the Galactic value of 8.6 x 10^20
+cm^-2 (Willingale et al. 2013). The counts to observed (unabsorbed)
+0.3-10 keV flux conversion factor deduced from this spectrum  is 3.7 x
+10^-11 (4.5 x 10^-11) erg cm^-2 count^-1. 
+
+A summary of the WT-mode spectrum is thus:
+Galactic foreground: 8.6 x 10^20 cm^-2
+Intrinsic column:    7.8 (+1.7, -1.6) x 10^21 cm^-2 at z=1.968
+Photon index:	     1.79 (+/-0.04)
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00655721.
+
+This circular is an official product of the Swift-XRT team.
+

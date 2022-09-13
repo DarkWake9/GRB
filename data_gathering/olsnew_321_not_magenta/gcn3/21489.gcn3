@@ -1,0 +1,20 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21489
+SUBJECT: LIGO/Virgo G297595: Correction to luminosity distance stated in GCN 21474
+DATE:    17/08/15 17:00:33 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+In GCN 21474, we reported the identification of the GW binary merger
+candidate G297595. The originally stated luminosity distance estimate of
+550 +/- 130 Mpc (a posteriori mean +/- standard deviation) was incorrect
+due to copying the value from a different GraceDB entry.
+
+The correct luminosity distance estimate is 488 +/- 111 Mpc. The original
+sky map that we sent in GCN 21474, bayestar.fits.gz, contains the correct
+value in the DISTMEAN and DISTSTD entries of its FITS header. Only the
+circular was in error.
+
+No further updates are available at this time.
+

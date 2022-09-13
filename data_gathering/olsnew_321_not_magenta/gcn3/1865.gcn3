@@ -1,0 +1,32 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1865
+SUBJECT: GCN/INTEGRAL Mistake Fixed
+DATE:    03/02/13 14:50:38 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+As some of you already know, GCN is now actually distributing INTEGRAL Notices.
+Last night I found and fixed a mistake I made in the GCN program
+which was blocking the actual distribution of the INTEGRAL Notices.
+
+I am extremely sorry for this mistake and apologize for costing you
+opportunitites in follow-ups on the two INTEGRAL Alerts.
+
+The mistake happened because I omitted a commandline argument
+to the GCN program.  This argument was used during the testing phase
+of the INTEGRAL Notices back in Aug-Sept.  Now during actual INTEGRAL
+operations, its omission was preventing the actual distribution.  I have been
+checking the logfiles and have seen the many INTEGRAL messages (nearly all
+test messages) arrive from the INTERGAL Operations computer, get unpacked,
+and reformated into GCN standard format, so I assumed that all was
+working well.  But I neglected to check for the very last step in that
+sequence -- the distribution action.  I have fixed the GCN program
+so this mistake (the missing commandline argument) can NOT happen again.
+There is no final "debugging" filtering of INTEGRAL Notices any more.
+Now the filtering of INTEGRAL Notices will be based ONLY on the filter options
+you have requested in your individual site configurations.
+
+My sincere apologies for this mistake.  I will redouble my efforts
+to restore your confidence in the GCN system.
+
+Sincerely,
+Scott Barthelmy

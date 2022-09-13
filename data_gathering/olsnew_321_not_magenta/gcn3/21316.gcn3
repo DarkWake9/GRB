@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21316
+SUBJECT: GRB 170710B: Swift detection of a burst
+DATE:    17/07/11 00:48:37 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+D. M. Palmer (LANL) and A. Y. Lien (GSFC/UMBC)
+report on behalf of the Swift Team:
+
+At 08:10:06.251 UT on 2017-07-10, the Swift Burst Alert Telescope (BAT)
+detected a GRB during a pre-planned slew to a scheduled target.
+Ground analysis using data from T-25 to T+79 s finds the source at a
+location of
+RA, Dec = 43.122, 42.679 deg which is
+  RA(J2000)  =  02h 52m 29.3s
+  Dec(J2000) = +42d 40' 43.6"
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+
+The mask-weighted light curve shows a single FRED-like pulse that starts
+and peaks at ~T0, and ends at ~T+60 s. T90 (15-350 keV) is 54.4 +- 1.6 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T+0.0 to T+59.2 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.38 +- 0.08.  The fluence in the 15-150 keV band is 2.4 +- 0.1 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+5.10 sec in the 15-150 keV band
+is 1.2 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+This GRB also triggered Fermi/GBM (GBM trigger# 521367012).
+
+A Swift Target of Opportunity observation has been requested.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/00086619001/BA/

@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28471
+SUBJECT: GRB 200922A: Swift detection of a burst with possible optical counterpart
+DATE:    20/09/22 12:26:24 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+M. J. Moss (GWU), E. Ambrosi (INAF-IASFPA), V. D'Elia (SSDC),
+J.D. Gropp (PSU), J. A. Kennea (PSU), N. P. M. Kuin (UCL-MSSL),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester),
+D. M. Palmer (LANL), B. Sbarufatti (PSU) and M. H. Siegel (PSU) report
+on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 12:06:46 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 200922A (trigger=997024).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 296.915, -55.204 which is 
+   RA(J2000) = 19h 47m 40s
+   Dec(J2000) = -55d 12' 12"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single peak
+structure with a duration of about 10 sec.  The peak count rate
+was ~10000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 12:08:02.2 UT, 75.6 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+uncatalogued X-ray source located at RA, Dec 296.95425, -55.20245 which
+is equivalent to:
+   RA(J2000)  = 19h 47m 49.02s
+   Dec(J2000) = -55d 12' 08.8"
+with an uncertainty of 4.2 arcseconds (radius, 90% containment). This
+location is 80 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at https://www.swift.ac.uk/sper.  We
+cannot determine whether the source is fading at the present time. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 4.71
+x 10^20 cm^-2 (Willingale et al. 2013). 
+
+The initial flux in the 2.5 s image was 8.21e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 85 seconds after the BAT trigger. The 2.7'x2.7'
+sub-image covers 100% of  the XRT error circle. There is a 14.4 mag
+source at (296.95361,-55.20447)  8.3 arc seconds from the center of
+the XRT error region. There is a  much weaker source at the same
+position in the DSS. No  correction has been made for the expected
+extinction corresponding to E(B-V) of  0.05. 
+
+Burst Advocate for this burst is M. J. Moss (mikejmoss3 AT gmail.com). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

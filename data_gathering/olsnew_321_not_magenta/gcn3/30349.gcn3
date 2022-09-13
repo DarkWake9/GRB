@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30349
+SUBJECT: IceCube-210629A: One Candidate Counterpart from the Zwicky Transient Facility
+DATE:    21/07/01 10:07:24 GMT
+FROM:    Simeon Reusch at DESY  <simeon.reusch@desy.de>
+
+Jannis Necker (DESY), Robert Stein (DESY), Sven Weimann (Ruhr University Bochum), Simeon Reusch (DESY) and Anna Franckowiak (DESY/Ruhr University Bochum) report,
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+
+We observed the localization region of the neutrino event IceCube-210629A (Santander et. al, GCN 30342) with the Palomar 48-inch telescope, equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). We started observations in the g-band and r-band beginning at 2021-06-30 at 09:35 UT, approximately 15.4 hours after event time. We covered 4.6 sq deg, corresponding to 79.6% of the reported localization region. This estimate accounts for chip gaps. Each exposure was 300s with a typical depth of 21.0 mag.
+ 
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019, Stein et al. 2021) was used to search the alerts database for candidates. We reject stellar sources (Tachibana and Miller 2018) and moving objects, and apply machine learning algorithms (Mahabal et al. 2019). We are left with the following high-significance transient candidate, lying within the 90.0% localization of the skymap:
+
++--------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name  | RA (deg)    | DEC (deg)   | Filter | Mag   | MagErr |
++--------------------------------------------------------------------------------+
+| ZTF21abecljv | AT2021osi | 341.4907741 | +12.1537928 | g      | 20.42 | 0.14   |
++--------------------------------------------------------------------------------+
+
+AT2021osi (ZTF21abecljv) is an unclassified transient first reported on 2021-06-04 by ALeRCE (Förster et al. 2020). The position of this transient appears to be consistent with the nucleus of its host galaxy. Forced photometry shows no optical detections prior to 2021-05-06.
+
+We encourage spectroscopic observations of this object to establish its nature.
+ 
+Based on observations obtained with the Samuel Oschin Telescope 48-inch and the 60-inch Telescope at the Palomar Observatory as part of the Zwicky Transient Facility project. ZTF is supported by the National Science Foundation under Grant No. AST-2034437 and a collaboration including Caltech, IPAC, the Weizmann Institute for Science, the Oskar Klein Center at Stockholm University, the University of Maryland, Deutsches Elektronen-Synchrotron and Humboldt University, the TANGO Consortium of Taiwan, the University of Wisconsin at Milwaukee, Trinity College Dublin, Lawrence Livermore National Laboratories, and IN2P3, France. Operations are conducted by COO, IPAC, and UW.
+GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).
+Alert database searches are done by AMPEL (Nordin et al. 2019).
+Alert filtering is performed with the AMPEL Follow-up Pipeline (Stein et al. 2021).
+

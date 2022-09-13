@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27066
+SUBJECT: LIGO/Virgo S200213t: No candidates found in J-GEM follow-up observations
+DATE:    20/02/14 09:50:57 GMT
+FROM:    Hiroki Onozato at University of Hyogo  <onozato@nhao.jp>
+
+A. Kaneko (Konan U.); M. Sasada, K. Takagi, T. Nakaoka (Hiroshima U.); K. Yanagisawa (NAOJ); H. Onozato, J. Takahashi (U. Hyogo); R. Adachi, K. L. Murata (Tokyo Tech); Y. Utsumi (Stanford/SLAC) on behalf of J-GEM collaboration
+
+We report imaging observations for the gravitational wave event S200213t (LVC, GCNC 27042). We started our observations from 2020-02-13 09:39 UT (MJD=58892.40) about 5 hours after the event and ended at 2020-02-13 15:57 UT (MJD=58892.66).
+
+We performed galaxy-targeted observations for 23 galaxies (see the Table 1 below) selected from the GLADE catalog (Dalya et al. 2018) in the probability skymap of S200213t using the following telescopes and instruments. In addition, we also observed 7 candidates from the Zwicky Transient Facility (Kasliwal et al. GCNC 27051; Table 2) and, 14 galaxies selected from a combination of the IceCube localization (Hussain
+, GCNC 27043; Table 3) and the GW probability map. In this GW+IceCube region a cumulative probability to have a GW source reaches 95% by assuming that the source resides in GLADE galaxies.
+
+We found no apparent transients except for variable stars around these galaxies to 5 sigma limiting magnitudes in the AB system listed below.
+
+1) GW+GLADE
+     galid          ra       dec      dist    J    Ks   H    R            obsid         
+--------------- --------- --------- -------- ---- ---- ---- ---- -----------------------
+GL005854+523636 14.7256   52.6099   138.8231 --   --   18.7 --   Kanata-HONIR           
+GL010146+555656 15.4418   55.9488   179.8459 17.6 --   18.7 --   OAOWFC,Kanata-HONIR    
+GL011543+555948 18.9286   55.9965   174.9892 19.4 --   --   --   Nayuta-NIC             
+GL010310+553446 15.793    55.5794   177.5464 --   --   16.5 --   Kanata-HONIR           
+GL010503+555058 16.2611   55.8494   178.6891 18.9 19.5 --   --   Nayuta-NIC             
+GL004920+531429 12.334    53.2413   147.7597 --   16.4 --   --   Nayuta-NIC             
+GL012430+561056 21.1237   56.1821   83.7757  19.1 19.0 19.2 --   Nayuta-NIC             
+GL010851+545331 17.2145   54.8919   196.9834 --   20.3 20.4 --   Nayuta-NIC             
+GL005717+514522 14.3211   51.7562   121.0417 --   --   18.8 19.8 Kanata-HONIR           
+GL000719+323633 1.8312    32.609    78.7447  --   --   18.0 18.9 Kanata-HONIR           
+GL012156+560137 20.4824   56.027    182.1745 17.2 16.2 --   --   Nayuta-NIC             
+GL011037+553612 17.6544   55.6034   195.0742 --   --   19.3 20.1 Nayuta-NIC,Kanata-HONIR
+GL011830+515644 19.6266   51.9456   130.2309 --   17.8 19.0 --   Nayuta-NIC             
+GL010327+522854 15.862    52.4816   206.8819 18.1 --   --   --   OAOWFC                 
+GL010201+555827 15.5055   55.9741   176.4314 17.6 --   18.7 --   OAOWFC,Kanata-HONIR    
+GL005900+523856 14.7461   52.6488   133.1371 --   --   18.7 19.4 Kanata-HONIR           
+GL010337+555008 15.9045   55.8357   128.2277 17.6 --   --   --   OAOWFC                 
+GL005854+523635 14.7255   52.6097   141.3821 --   --   18.7 19.4 Kanata-HONIR           
+GL010335+522542 15.8939   52.4282   147.7146 18.1 --   --   --   OAOWFC                 
+GL000720+323633 1.8313    32.6093   79.2514  --   --   18.0 18.9 Kanata-HONIR           
+GL011834+564202 19.642    56.7007   244.2131 --   --   17.3 17.8 Kanata-HONIR           
+GL011004+553941 17.5162   55.6615   252.3077 --   --   19.3 20.1 Kanata-HONIR           
+GL004534+551329 11.3898   55.2248   179.5863 --   --   18.3 19.1 Kanata-HONIR          
+
+2) ZTF candidates
+     galid          ra       dec     J    Ks   H    R            obsid         
+--------------- --------- --------- ---- ---- ---- ---- -----------------------
+ZTF20aamvmzj    27.189208 51.430481 --   18.0 18.7 Kanata-HONIR           
+ZTF20aamvnat    27.239542 56.354581 --   16.7 17.6 Kanata-HONIR           
+ZTF20aamvodd    37.482375 50.319428 19.2 19.7 --   Nayuta-NIC             
+ZTF20aamvoeh    33.502    38.936317 18.5 18.9 --   Nayuta-NIC             
+ZTF20aamvoxx    39.399083 26.920617 17.0 17.4 --   Nayuta-NIC             
+ZTF20aamvqxl    29.237917 53.668881 --   18.3 18.8 Kanata-HONIR           
+ZTF20aamvtip    38.082542 27.810094 --   17.9 18.9 Nayuta-NIC,Kanata-HONIR
+
+3) GW+IceCube+GLADE
+    galid         ra     dec     dist    G    R    I    J          obsid        
+--------------- ------- ------- -------- ---- ---- ---- ---- --------------------
+GL030126+313509 45.3577 31.5859 254.0222 18.8 18.9 18.2 --   MITSuME-Akeno       
+GL025927+312309 44.8633 31.3859 169.073  19.0 19.2 18.7 18.8 MITSuME-Akeno,OAOWFC
+GL030137+314909 45.4031 31.8192 91.7745  18.8 18.9 18.2 --   MITSuME-Akeno       
+GL025810+313717 44.5423 31.6215 172.3614 19.1 19.3 18.8 --   MITSuME-Akeno       
+GL030141+315341 45.4207 31.8948 97.1384  18.8 18.9 18.2 --   MITSuME-Akeno       
+GL030043+311155 45.1789 31.1987 248.807  --   --   --   18.8 OAOWFC              
+GL025754+313801 44.4768 31.6337 232.8442 19.1 19.3 18.8 --   MITSuME-Akeno       
+GL030039+311813 45.163  31.3037 324.3176 --   --   18.7 18.8 MITSuME-Akeno,OAOWFC
+GL030403+314213 46.0139 31.7036 257.8736 19.1 19.1 18.3 --   MITSuME-Akeno       
+GL030342+314522 45.927  31.756  382.0309 19.1 19.1 18.3 --   MITSuME-Akeno       
+GL030402+312322 46.0084 31.3895 226.1783 19.1 19.1 18.3 --   MITSuME-Akeno       
+GL030206+321824 45.5263 32.3068 167.3166 18.8 19.2 18.6 --   MITSuME-Akeno       
+GL030204+322400 45.5168 32.4001 250.7152 18.8 19.2 18.6 --   MITSuME-Akeno       
+GL030402+313951 46.0087 31.6642 361.1585 19.1 19.1 18.3 --   MITSuME-Akeno      
+
+Kanata-HONIR: 150 cm Kanata telescope at Higashi-Hiroshima Observatory and HONIR -- a 2 channel imager (Rc and H or J) (Akitaya et al. 2014, Proc. SPIE 9147, 91474O)
+Nayuta-NIC: 200 cm Nayuta telescope at Nishi-Harima Astronomical Observatory and Nishiharima Infrared Camera, NIC (J, H, Ks)
+OAOWFC: 91 cm Okayama Astrophysical Observatory NIR Wide Field Camera, OAOWFC (J) (Yanagisawa et al., 2019, PASJ, 71, 118
+MITSuME-Akeno: 50 cm MITSuME telescope at Akeno Observatory and a 3 color imager (g, Rc, Ic)
+

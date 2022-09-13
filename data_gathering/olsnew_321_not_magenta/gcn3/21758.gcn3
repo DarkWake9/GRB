@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21758
+SUBJECT: LIGO/Virgo G299232: Further Swift/UVOT Observations of Optical Transient SwiftJ014008.5+343403.6
+DATE:    17/08/29 22:55:12 GMT
+FROM:    Samuel Emery at UCL-MSSL/Swift  <samuel.emery.15@ucl.ac.uk>
+
+S.W.K. Emery (UCL-MSSL), A.A. Breeveld (UCL-MSSL), F.E. Marshall (NASA/GSFC),
+S.R. Oates (Uni. of Warwick), N.P.M. Kuin (UCL-MSSL), S.D. Barthelmy (NASA/GSFC),
+A.P. Beardmore (U. Leicester), D.N. Burrows (PSU), S. Campana (INAF-OAB),
+S.B. Cenko (NASA/GSFC), G. Cusumano(INAF-IASF PA), A. D'Ai (INAF-IASFPA),
+P. D'Avanzo (INAF-OAB), V.D'Elia(ASDC), P.A. Evans (U. Leicester),
+P. Giommi (ASI), C. Gronwall (PSU), J.A. Kennea (PSU), H.A. Krimm (CRESST/GSFC/USRA),
+A.Y. Lien (GSFC/UMBC), A. Melandri (INAF-OAB), J.A. Nousek (PSU), P.T. O'Brien (U. Leicester),
+J.P. Osborne (U. Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester),
+D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin (NASA/GSFC), T. Sakamoto (AGU),
+B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB),
+A. Tohuvavohu (PSU), E. Troja (NASA/GSFC/UMCP)
+report on behalf of the Swift team:
+
+Swift has performed follow-up ToO observations of the optical transient SwiftJ014008.5+343403.6,
+reported in Emery et al. (GCN 21733). We obtained 4 ks of data from 278 ks to 341 ks after the
+LVC trigger. This source has faded and is no longer detected in any filter. Earlier MASTER observations
+did not detect this source, see Lipunov et al. (GCN 21749). Other observatories have also not detected
+the source (Tomasella et al. (GCN 21745); Pozanenko et al. (GCN 21754); Copperwheat et al. (GCN 21755);
+Jonker et al. (GCN 21756); Butler et al. (GCN 21757)).
+
+We obtain preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373):
+
+Filter  Start time     Stop time   Exposure(s)   Magnitude(Vega)
+   v     T0+278 ks     T0+341 ks      372            >20.1     
+   b     T0+277 ks     T0+340 ks      372            >21.1     
+   u     T0+277 ks     T0+340 ks      372            >20.7     
+uvw1     T0+276 ks     T0+340 ks      745            >21.0     
+uvm2     T0+278 ks     T0+341 ks      514            >20.5     
+uvw2     T0+277 ks     T0+340 ks     1491            >21.6     
+
+The magnitudes are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.04 in the direction of the source
+(Schlegel et al. 1998).
+
+Further Swift observations are planned.
+

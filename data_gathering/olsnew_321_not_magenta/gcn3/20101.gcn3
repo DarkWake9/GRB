@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20101
+SUBJECT: Swift Trigger 718919 is not an astrophysical event. 
+DATE:    16/10/23 17:26:14 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), D. N. Burrows (PSU), N. Gehrels (NASA/GSFC),
+D. Malesani (DARK/NBI and DTU Space), K. L. Page (U Leicester),
+D. M. Palmer (LANL) and T. N. Ukwatta (LANL) report on behalf of the
+Swift Team:
+
+At 17:11:02 UT, the Swift Burst Alert Telescope (BAT) triggered on noise near to
+NGC 5023 (trigger=718919).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 197.822, +43.936, which is 
+   RA(J2000)  =  13h 11m 17s
+   Dec(J2000) = +43d 56' 09"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for image triggers, there is nothing
+visible in the real-time telemetry light curve.  We do not believe this trigger
+is astrophysical -- it is very likely to be a noise trigger. 
+
+The XRT began observing the field at 17:13:14.8 UT, 131.9 seconds after
+the BAT trigger. No source was detected in 270 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 135 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+BAT selected this trigger based on its proximity to the
+direction to a known nearby galaxy, despite its low significance (5.8 sigma). 
+
+Based on the lack of a corresponding rate increase in BAT and the
+non-detection by XRT of any counterpart, we believe that this event
+is a statistical fluctuation in the image. 
+

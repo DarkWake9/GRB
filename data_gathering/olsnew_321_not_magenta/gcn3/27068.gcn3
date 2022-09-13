@@ -1,0 +1,74 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27068
+SUBJECT: LIGO/Virgo S200213t: One additional candidate from the Zwicky Transient Facility
+DATE:    20/02/14 14:00:24 GMT
+FROM:    Simeon Reusch at DESY  <simeon.reusch@desy.de>
+
+*
+
+Simeon Reusch (DESY), Robert Stein (DESY), Daniel Perley (LJMU),
+Shreya Anand (Caltech)
+
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of
+Observatories Watching Transients Happen (GROWTH) collaborations: 
+
+
+We observed the localization region of LIGO/Virgo S200213t with the
+Palomar 48-inch telescope, equipped with the 47 square degree ZTF camera
+(Bellm et al. 2019, Graham et al. 2019). We started observations in the
+g- and r-band beginning at 2020-02-13T04:34:34.500 UTC, approximately
+0.4 hours after event time. We covered 78.5% of the enclosed probability
+based on the map in 1999.2 sq deg. This estimate accounts for chip gaps.
+Each exposure was 30s with a typical depth of 20.5 mag. 
+
+ 
+
+The images were processed in real-time through the ZTF reduction and
+image subtraction pipelines at IPAC to search for potential counterparts
+(Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the
+alerts database for candidates. We reject stellar sources (Tachibana and
+Miller 2018) and moving objects, apply machine learning algorithms
+(Mahabal et al. 2019), and remove candidates with history of variability
+prior to the merger time. We are left with the following additional
+high-significance transient candidate by our pipeline, lying within the
+95.0% localization of the skymap. 
+
+
++---------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name   | RA (deg)    | DEC (deg)   | Filter | Mag   | MagErr |
++---------------------------------------------------------------------------------+  
+| ZTF20aanakcd | AT 2020cmr | 008.1570525 | +41.3157344 | r      | 20.59 | 0.13   |
++---------------------------------------------------------------------------------+
+
+
+ZTF20aanakcd (AT 2020cmr) has a host with an estimated photometric
+redshift of 0.05 +/- 0.03, derived using ANNz2 (Sadeh et. al., 2015)
+based on photometry from the Pan-STARRS survey (Chambers et. al., 2019).
+This redshift is compatible with the reported GW distance. We caution
+that this value is only a preliminary estimate.
+
+
+We encourage photometric and spectroscopic follow-up to classify this
+additional candidate.
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA;
+IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA;
+DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech,
+Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd,
+Australia.
+
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No
+1440341. 
+
+GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).
+
+Alert database searches are done by AMPEL (Nordin et al. 2019).
+
+*
+
+[GCN OPS NOTE(04feb20): Per author's request, in the author list,
+Perley's affiliation was corrected from "Caltech" to "LJMU".]

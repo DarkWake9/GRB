@@ -1,0 +1,56 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5005
+SUBJECT: GRB 060425: IPN localization and KW spectrum of a short, hard burst
+DATE:    06/04/26 23:50:41 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+J. Cummings, S. Barthelmy, N. Gehrels, and H. Krimm, on behalf of
+the Swift-BAT team,
+S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team,
+A. von Kienlin, G. Lichti, A. Rau, D. Gotz, and S. Mereghetti,
+on behalf of the INTEGRAL GRB team,
+K. Hurley, D. M. Smith, R. P. Lin, J. McTiernan, R. Schwartz, C. Wigger, 
+W. Hajdas, and A. Zehnder, on behalf of the RHESSI GRB team,
+and K.Yamaoka, M.Ohno, Y.Fukazawa, T.Takahashi, M.Tashiro, Y. Terada,
+T.Murakami, and K.Makishima on behalf of the Suzaku WAM team
+report:
+ 
+A short, hard GRB was observed at 2006-04-25 16:57:40 by Swift-BAT,
+Konus-Wind, Suzaku-WAM, RHESSI, and INTEGRAL-SPI-ACS.  The T90 was 
+0.13 +- 0.01 sec.  This burst was Mars-occulted to Odyssey.  The burst 
+had 2 main peaks of roughly similar intensity and hardness, the second 
+slightly shorter than the first.
+
+The IPN triangulated error box is as follows:
+ 
+ ----------------------
+ RA, deg     Dec, deg          (J2000)
+ ----------------------
+ Center:
+ 212.3007   -5.0667
+ 
+ Corners:
+   214.5693  -1.7277
+   210.9652  -7.0326
+   210.7765  -8.4092
+   213.8848  -3.1685
+ -----------------------
+ 
+The area of the box is 2.53 sq. deg
+ 
+Preliminary analysis of the Konus-Wind data yields a burst fluence of 
+2.57 (-1.85, +0.47) x 10^-6 erg/cm2.  The peak flux measured from 
+T0(K-W)-0.036 s on a 16-ms time scale was 
+3.64 (-2.74, +1.06) x 10^-5 erg/cm2/sec. Both are quoted in the 
+20 keV - 10 MeV energy range.  The K-W spectrum accumulated from 
+T0(K-W) to T0(K-W)+0.128 s is well fitted (in the 20 keV - 10 MeV range) 
+by a power law with exponential cutoff model:
+     dN/dE ~ E^(-alpha) * exp(-(2-alpha)*E/Ep)
+with alpha = 0.92 (-0.37, + 0.28) and Ep = 1403 (-594, 1273) keV 
+(chi^2 = 16.7/18 dof). T0(K-W) = 61063.000 s UT (16:57:43.000).
+ 
+We note that the X-ray source 1RXS J140902.5-050430, and nearby galaxies 
+LEDA 1048719 and LEDA 1047950 are within this error box close to the 
+center.
+

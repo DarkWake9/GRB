@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26133
+SUBJECT: GRB 191031D: Swift-BAT refined analysis
+DATE:    19/11/01 19:07:47 GMT
+FROM:    Hans Krimm at NSF/NASA-GSFC  <hkrimm@nsf.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC), V. D'Elia (SSDC),
+H. A. Krimm (NSF), S. Laha (GSFC/UMBC), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), J. P. Norris (BSU), D. M. Palmer (LANL), 
+M. Stamatikos (OSU), T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-61 to T+242 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 191031D (trigger #932608)
+(D'Elia, et al., GCN Circ. 26112).  The BAT ground-calculated position is
+RA, Dec = 283.269, 47.645 deg which is 
+ RA(J2000)  =  18h 53m 04.5s 
+ Dec(J2000) = +47d 38' 40.9" 
+with an uncertainty of 1.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 37%.
+
+The mask-weighted light curve shows a multi-peak structure from T-0.05 sec to T+0.3 sec
+with a harder first pulse and softer second pulse.  There is no sign of extended emission.
+T90 (15-350 keV) is 0.29 +- 0.05 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-0.03 to T+0.31 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.80 +- 0.15.  The fluence in the 15-150 keV band is 4.1 +- 0.4 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.36 sec in the 15-150 keV band
+is 4.3 +- 0.4 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+The duration and hardness of GRB 191031D place it squarely within the distribution of
+short, hard bursts detected by BAT.   Using the 4-ms binned light curve, the spectral lag 
+of the burst is 0.2 ms +- 2 ms for the 50-100 keV to 15-25 keV bands, and 0.4 ms +- 3 ms
+for the 100-350 keV to 25-50 keV bands. These values are consistent with a short GRB.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/932608/BA/
+
+

@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32472
+SUBJECT: Konus-Wind detection of GRB 220813A
+DATE:    22/08/15 12:02:50 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, A.Lysenko, A. Ridnaya, D. Svinkin, A. Tsvetkova,
+M. Ulanov, and T. Cline, on behalf of the Konus-Wind team, report:
+
+The long GRB 220813A (Swift detection: Bernardini et al., GCN 32465)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in the 20-400 keV band
+reveals a >6 sigma count rate increase in the interval
+from T0-8.841 s to T0+5.879 s where T0 = T0(BAT) = 19:23:03.577 UT.
+
+The KW light curve of this burst is available
+at http://www.ioffe.ru/LEA/GRBs/GRB220813A/
+
+Modeling a time-integrated spectrum of the burst (from T0-8.841 s to T0+8.823 s)
+by a power law with exponential cutoff (CPL) model dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -0.81 (-0.12, + 0.12) and Ep = 242(-17,+23) keV.
+In the 10 keV -10 MeV band, standard for the KW analysis,
+the burst fluence is (1.41 ± 0.14)x10^-6 erg/cm^2
+and the 2.944 s peak energy flux is (1.30 ± 0.13)x10^-7 erg/cm^2/s.
+
+Assuming the likely host galaxy redshift z=0.82 (Fausey et al., GCN 32471)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the burst isotropic energy release E_iso to ~2.7x10^51 erg,
+the isotropic peak luminosity L_iso to ~8.0x10^50 erg/s,
+and the rest-frame peak energy of the spectrum Ep,z to ~440 keV.
+With the obtained estimates, GRB 220813A is a hard-spectrum / low-luminosity outlier
+in both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW GRBs
+with known redshifts (Tsvetkova et al., 2017; Tsvetkova et al., 2021),
+see http://www.ioffe.ru/LEA/GRBs/GRB220813A/GRB220813A_rest_frame.pdf
+
+All the quoted errors are estimated at the 90% confidence level.
+All the presented results are preliminary.
+

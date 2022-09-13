@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13516
+SUBJECT: GRB 120724A: Swift/UVOT Detection of the Optical Afterglow
+DATE:    12/07/25 13:11:42 GMT
+FROM:    Stephen Holland at STScI  <sholland@stsci.edu>
+
+S. T. Holland (STScI) and P. D'Avanzo (INAF-OAB)
+report on behalf of the Swift/UVOT team:
+
+    The Swift/UVOT observed the field of GRB 120724A starting 99 s
+after the BAT trigger (D'Avanzo et al., 2012, GCNC 13510).  Settled
+observations started at 120 s.  We detect a faint source with preliminary
+coordinates
+
+    RA (J2000)  16:20:43.35  =  245.18062 (deg)
+   Dec (J2000) +03:30:27.8   =   +3.50772 (deg)
+
+and an estimated uncertainty of 0.77 arcsec (radius, 90% confidence,
+statistical + systematic).  This position is consistent with the
+optical source discovered by Guidorzi et al. (2012, GCNC 13511) and is
+slightly outside the UVOT-enhanced XRT position (D'Avanzo et al.,
+2012, GCNC 13514).  Preliminary magnitiudes for this source, and
+3-sigma upper limits for the finding charts (FC) and the co-added
+images, are
+
+Filter       TSTART       TSTOP  EXPOSURE       Mag   Err  Sigma
+----------------------------------------------------------------
+white (FC)      117         267       147     >21.3
+   u (FC)      330         580       246     >20.5
+white (FC)      609         629        20     >19.8
+----------------------------------------------------------------
+  v            832        1404        72     >19.2
+  b            585        1331        58      20.01 0.41    2.7
+  u            330        1461       288      20.50 0.37    3.0
+uvw1           1088        1453        59     >19.2
+uvm2           1237        1429        39     >18.4
+uvw2            635        1380        78     >19.5
+white           117        1355       199      21.54 0.45    2.5
+----------------------------------------------------------------
+
+   The quoted magnitudes and upper limits have not been corrected for
+the Galactic extinction along the line of sight to this burst of
+E_{B-V} = 0.05 mag (Schlafly et al. 2011, ApJS, 737, 103).
+

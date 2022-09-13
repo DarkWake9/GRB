@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29373
+SUBJECT: Konus-Wind detection of two bright bursts from SGR 1935+2154
+DATE:    21/01/29 16:39:15 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+Two bright, short bursts from SGR 1935+2154
+(GECAM detection: Huang et al., GCN Circ. 29363
+IPN triangulation: Ridnaia et al., GCN Circ. 29365)
+triggered Konus-Wind on 2021 January 27 at
+24616.685 s UT (06:50:16.685), hereafter burst #1; and
+on 2021 January 29 at 25196.932 s UT (06:59:56.932), burst #2.
+
+The burst light curves feature a sharp rise,
+followed by a gradual decay, and, finally,
+a quick return of a count rate to the background level.
+Additionally, the main pulse of burst #1 is preceded by
+a weaker, partially overlapped sub-pulse.
+The burst total durations are  ~100 ms (#1) and ~200 ms (#2).
+The emission in both bursts is seen up to ~200 keV.
+
+As measured by KW, the burst fluences and peak fluxes are as follows:
+------------------------------------------------------------------
+#  Date       T0(KW) s UT                   Fl*           PF**
+------------------------------------------------------------------
+1 20210127 24616.685 s UT(06:50:16.685)  0.91 +/-0.07  16.0 +/-3.2
+2 20210129 25196.932 s UT(06:59:56.932)  3.14 +/-0.11  27.5 +/-4.4
+------------------------------------------------------------------
+*  -  Fluence (20-500 keV) in units of 1e-6 erg/cm2
+
+** - Peak Flux (20-500 keV) on 2-ms time scale
+        in units of 1e-6 erg/cm2/s
+
+Time-averaged spectra of the bursts are well fit
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with the following parameters:
+-------------------------------------------------------------
+#   Tbeg-Tend         alpha            Ep(keV)    chi2/dof
+-------------------------------------------------------------
+1   0 - 0.064    -0.21(-1.00,+1.20)    31(-10,+5)   13/11
+2   0 - 0.192    -0.33(-0.37,+0.40)    34(-3,+3)     14/20
+-------------------------------------------------------------
+
+These spectral parameters are typical of a few dosen SGR 1935+2154
+short bursts detected by KW previously (with the notable exception
+of the April 28 SGR/FRB event).
+
+The Konus-Wind light curves of the bursts are available at
+http://www.ioffe.ru/LEA/SGRs/210127_T24616/
+http://www.ioffe.ru/LEA/SGRs/210129_T25196/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

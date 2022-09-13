@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28509
+SUBJECT: IceCube-200926B: IceCube observation of a high-energy neutrino candidate event
+DATE:    20/09/26 23:56:11 GMT
+FROM:    Erik Blaufuss at U. Maryland/IceCube  <blaufuss@umd.edu>
+
+The IceCube Collaboration (http://icecube.wisc.edu/) reports:
+
+On 2020-09-26 22:35:29.22 UT IceCube detected a track-like event with a moderate probability of being of astrophysical origin. The event was selected by the ICECUBE_Astrotrack_Bronze alert stream. The average astrophysical neutrino purity for Bronze alerts is 30%. This alert has an estimated false alarm rate of 1.29 events per year due to atmospheric backgrounds. The IceCube detector was in a normal operating state at the time of detection. 
+
+After the initial automated alert (https://gcn.gsfc.nasa.gov/notices_amon_g_b/134535_41069485.amon), more 
+sophisticated reconstruction algorithms have been applied offline, with the direction refined to:
+
+Date: 20/09/26
+Time: 22:35:29.22  UT
+RA: 184.75 (+3.64 -1.55  deg 90% PSF containment) J2000
+Dec: 32.93 (+1.15   -0.91  deg 90% PSF containment) J2000 
+
+We do note a significant shift and increased error estimate in the refined RA position with respect to the automated alert.  This event had a relatively short track within the instrumented region of our detector, leading to some ambiguity in the final direction.  We encourage follow-up by ground and space-based instruments to help identify a possible astrophysical source for the candidate neutrino.
+
+There are no Fermi-LAT 4FGL or 3FHL sources inside the 90% localization region. The closest source is 4FGL J1220.1+3432 located at RA 185.05 deg and Dec 34.54 deg (J2000), at a distance of 1.63 degrees from the best-fit location.
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector operating at the geographic South Pole, Antarctica. The IceCube realtime alert point of contact can be reached at roc@icecube.wisc.edu
+

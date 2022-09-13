@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15673
+SUBJECT: GRB 131231A: Swift/UVOT Observations of the Optical Afterglow 
+DATE:    14/01/03 19:47:04 GMT
+FROM:    Stephen Holland at STScI  <sholland@stsci.edu>
+
+S. T. Holland (STScI) and
+V. Mangano (PSU)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began observations of the field of GRB 131231A 136.5 ks
+after the Fermi/LAT trigger (Sonbas et al., 2013, GCNC 15640).  The
+preliminary UVOT position is
+
+     RA (J2000)  00:42:21.66  =  10.59025 (deg)
+    Dec (J2000) -01:39:10.6   =  -1.65294 (deg)
+
+with an estimated uncertainty of 0.43 arcsec (radius, 90% confidence,
+statistical + systematic).  We detect the optical afterglow at the
+position reported by Xu et al. (2013, GCNC 15641).  Preliminary UVOT
+photometry is presented below.
+
+------------------------------------------------------
+Filter      TSTART     TSTOP    Exposure     Mag   Err
+------------------------------------------------------
+u          246,875   248,554        1652   19.57  0.10
+white      136,762   138,942        1650   19.37  0.05
+white      228,985   231,172        1639   20.07  0.07
+------------------------------------------------------
+
+The quoted magnitudes and upper limits have not been corrected for the
+Galactic extinction along the line of sight to this burst of E_{B-V} =
+0.02 mag (Schlafly et al. 2011, ApJS, 737, 103).  The photometry is in
+the UVOT photometric system (Breeveld et al. 2011, AIP
+Conf. Proc. 1358, 373).
+
+The white observations yield a power-law decay index of alpha ~ 1.25
+between 1.6 and 2.7 days.  This is consistent with that found by
+Perley et al. (2014, GCNC 15650) between 1.0 and 1.9 days.  The
+power-law decay index in the X-ray band at this time is alpha ~ 1.6
+(Mangano et al. 2014, 15648), suggesting that there may be a cooling
+break between the optical and X-ray regimes.
+

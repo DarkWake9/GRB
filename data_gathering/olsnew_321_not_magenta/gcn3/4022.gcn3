@@ -1,0 +1,43 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4022
+SUBJECT: GRB 050922C: Swift XRT refined analysis
+DATE:    05/09/23 02:57:43 GMT
+FROM:    Jamie A. Kennea at PSU/Swift-XRT  <kennea@astro.psu.edu>
+
+J. A. Kennea, D. N. Burrows (PSU), M. Goad (U. Leicester), J. Norris and
+N. Gehrels (GSFC) report on behalf of the Swift/XRT Team:
+
+We report on detailed ground analysis of the first 2 orbits of data from
+X-ray afterglow of GRB050922C (GCN 4013) utilizing downlinked Swift/XRT
+data.  We find a refined position for the XRT afterglow of:
+
+RA(J2000):  21:09:33.3,
+Dec(J2000): -8:45:27.5,
+
+with an estimated uncertainty of 6 arcseconds radius (90% containment). We note 
+that this position is 4.6 arcseconds from the NOT optical afterglow position 
+reported in GCN 4015.
+
+We have extracted a lightcurve of combined Window Timing and Photon 
+Counting mode data from the first two orbits of XRT observations, covering 
+6500ks of time.  The lightcurve of the afterglow is well described by a 
+single powerlaw model with a slope of -1.14 +/- 0.02.
+
+The spectrum of the afterglow is well fit (reduced Chi^2 = 0.94 with 44 dof) by 
+an absorbed power-law model with the following parameters:
+
+N_H = (6.5 +/- 2.7) x 10^20 cm^-2
+Photon Index = 1.89 +/- 0.16
+
+The absorption seen here is consistant with the expected Galactic absorption of 
+5.75 x 10^20 cm^-2. Utilizing this spectral model, we estimate the flux of this 
+burst (corrected for absorption) to be:
+
+BAT Trigger +1 hour: 1.5 x 10^-11 erg/s/cm^2 (0.5 - 10 keV)
+BAT Trigger +1 day:  3.9 x 10^-13 erg/s/cm^2 (0.5 - 10 keV)
+
+Note that the latter flux estimate assumes that the lightcurve does not
+break.
+
+Observations of this burst by Swift are on-going.
+

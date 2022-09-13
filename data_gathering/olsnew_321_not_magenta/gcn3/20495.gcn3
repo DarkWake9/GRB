@@ -1,0 +1,96 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20495
+SUBJECT: LIGO/Virgo G270580: Swift-XRT sources
+DATE:    17/01/21 13:47:07 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), S.D. Barthelmy
+(NASA/GSFC), A.P. Beardmore (U. Leicester), A.A. Breeveld (UCL-MSSL),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G.
+Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V.D'Elia(ASDC), N. Gehrels (NASA/GSFC), P. Giommi (ASI), C. Gronwall
+(PSU), H.A. Krimm (CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL), A.Y. Lien
+(GSFC/UMBC), D. Malesani (DARK/NBI), F.E. Marshall (NASA/GSFC), A.
+Melandri (INAF-OAB), B. Mingo (U. Leicester),  J.A. Nousek (PSU), S.R.
+Oates (U. Warwick), P.T. O'Brien (U. Leicester), J.P. Osborne (U.
+Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester), D.M.
+Palmer (LANL), M. Perri (ASDC), J.L. Racusin (NASA/GSFC), B. Sbarufatti
+(INAF-OAB/PSU), M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB), E. Troja
+(NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+Swift has performed a series of 134 observations of galaxies (from the
+GWGC catalogue) within the LVC error region for the GW trigger G270580,
+using the 'LIB_skymap' GW localisation map. The observations currently
+span from 19 ks to 40 ks after the LVC trigger, and cover 15.8 sq
+degrees on the sky (corrected for overlaps). This covers 0.011 of the
+probability in the LVC skymap, and 0.14 of the probability in the LVC
+map after weighting by galaxies in the GWGC catalogue.
+
+Unfortunately these observations result in significant heating of the
+XRT detector, which produced an artificially elevated, inhomogeneous
+background, which produced a number of spurious source detections which
+were circulated as 'counterpart' notices, however only 2 of these
+sources are deemed to be real upon manual inspection (we remind readers
+that the counterpart notices are the result of a purely automated
+process, human vetting is performed before these circulars are
+produced).
+
+We have detected 2 X-ray sources. Each source is assigned a rank of 1-4
+which describes how likely it is to be related to the GW trigger, with
+1 being the most likely and 4 being the least likely. The ranks are
+described at http://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 0 sources of rank 3
+  * 2 sources of rank 4
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3e20 cm^2, and photon index (Gamma)=1.7
+
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+  
+  Source 1:
+  =============
+    RA: 	 280.1625 ( = 18h 40m 39.00s) J2000
+    Dec:	 -77.1591 ( = -77d 09' 32.8") J2000
+    Error:	 +5.1 (arcsec, radius, 90% confidence).
+    Peak Rate:	 2.1e-01 +/- 6.0e-02 ct/sec (0.3-10 keV)
+    Peak Flux:	 8.9e-12 +/- 2.6e-12 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1SXPS J184038.0-770928 in the 1SXPS catalogue
+    Separation:  5.3" from the XRT source
+    Cat Rate:	 2.5e-01 +/- 5.6e-03 ct/sec 
+    Cat Flux:	 1.1e-11 +/- 2.4e-13 erg cm^-2 s^-1 (0.3-10 keV)
+       so the source is not above the catalogued flux.
+    There is no evidence for fading.
+    There are 10 GWGC or 2MPZ galaxies within 200 kpc of the source.
+    A SIMBAD object `ATPMN J184038.5-770929' is 3.9" away.
+    There is 1 2MASS object within the source's 3-sigma error radius.
+  
+  Source 4:
+  =============
+    RA: 	 110.1196 ( = 07h 20m 28.70s) J2000
+    Dec:	 +71.5431 ( = +71d 32' 35.2") J2000
+    Error:	 +5.7 (arcsec, radius, 90% confidence).
+    Peak Rate:	 1.8e-01 +/- 7.3e-02 ct/sec (0.3-10 keV)
+    Peak Flux:	 7.9e-12 +/- 3.1e-12 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1AXG J072025+7132 in the ASCA/ASCAGIS catalogue
+    Separation:  17.4" from the XRT source
+    Cat Rate:	 2.4e-03 +/- 0.0e+00 ct/sec 
+    Cat Flux:	 0.0e+00 +/- 0.0e+00 erg cm^-2 s^-1 (0.3-10 keV)
+       so the source is not above the catalogued flux.
+    There is no evidence for fading.
+    There are 2 GWGC or 2MPZ galaxies within 200 kpc of the source.
+
+This circular is an official product of the Swift team.
+
+

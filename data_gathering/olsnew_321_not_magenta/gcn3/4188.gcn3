@@ -1,0 +1,31 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4188
+SUBJECT: GRB 051105: Swift detection of a short burst
+DATE:    05/11/05 07:17:42 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+T. Mineo (IASF-Pa/INAF), L. Barbier (GSFC), S. Barthelmy (GSFC),
+D. Burrows (PSU), M. Chester (PSU), N. Gehrels (GSFC), J. Kennea (PSU),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), D. Palmer (LANL),
+G. Tagliaferri (OAB/INAF)
+on behalf of the Swift team:
+
+At 06:26:41 UT, Swift-BAT triggered and located GRB 051105 (trigger=162580).
+The spacecraft slewed immediately.  The BAT on-board calculated location
+is RA,Dec 265.289d,+34.921d {17h 41m 09s,+34d 55' 15"} (J2000),
+with an uncertainty of 3 arcmin (radius, 90% containment, stat+sys).
+The BAT light curve shows a single spike with a total duration
+of less than 128 msec.  The peak count rate was ~3000 counts/sec (15-350 keV),
+at 0.0 seconds after the trigger.
+
+XRT began observing at 06:27:49.09 UT, 67.6 sec after BAT Trigger time.
+The on-board detection algorithm failed to find a centroid due to low source
+counts.  The XRT light curve shows no X-ray emission in the field.  Further
+analysis will require processing of the XRT full telemetry data following
+the next ground station contact.
+
+The UVOT began observing at 06:27:48 UT, 66.5 sec after the BAT trigger.  
+Due to a delay in receipt of the initial data files, no results are
+currently available.  The V-band extinction in the direction of the
+BAT GRB position is A_V = 0.11.
+

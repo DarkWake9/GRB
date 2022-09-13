@@ -1,0 +1,38 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3987
+SUBJECT: GRB050915B: Swift-BAT detection of a long bright burst
+DATE:    05/09/15 22:06:17 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+A. Falcone (PSU), A. Beardmore (U. Leicester), D. Burrows (PSU),
+J. Cummings (GSFC/NRC), D. Fox (PSU), N. Gehrels (GSFC), 
+S. T. Holland (GSFC/UMBC), J. Kennea (PSU), H. Krimm (GSFC/USRA),
+C. Pagani (PSU), D. Palmer (LANL), A. Parsons (GSFC), E. Rol (U. Leicester),
+P. Roming (PSU), P. Shady (MSSL),
+on behalf of the Swift team:
+
+At 21:23:04 UT, Swift-BAT triggered and located GRB050915B (trigger=155284).
+The spacecraft slewed immediately.  The BAT on-board calculated location
+is RA,Dec 219.096d,-67.405d  {14h 36m 23s, -67d 24' 16"} (J2000), with an 
+uncertainty of 3 arcmin (radius, 90% containment, stat+sys).  The BAT light 
+curve showed two broad bright peaks from T-10 to T+40 sec.  The peak count 
+rate was ~2800 counts/sec (15-350 keV), at T-2 sec.
+
+XRT began observing at 21:25:20 UT, 136 seconds after the BAT trigger.
+XRT was not able to centroid on any point source, but the downlinked
+lightcurve shows that a bright, fading X-ray source was present in the
+XRT field of view.
+
+The UVOT began observing at 21:25:18 UT, 134 seconds after the BAT trigger.
+No new source, with respect to the DSS, is detected in the initial 100 sec 
+V-band image.  The 5-sigma limiting magnitude, in a circular aperture of
+radius 6.0 arcseconds is V_lim = 17.7 mag.  This magnitude is based on the 
+preliminary V-band zero-point, measured in orbit and will require refinement 
+with further calibration.  It has not been corrected for extinction.  The 
+estimated Galactic extinction in this direction is A_V = 1.29.  The UVOT 
+image covers 25% of the 3 arcminute BAT error circle. The field is crowded.
+
+We are currently in the portion of the orbits where the spacecraft does
+not pass over the Malindi downlink station. Therefore, it will be ~3
+hours before we have access to the full data set for the refined analyses.
+

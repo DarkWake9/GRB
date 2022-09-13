@@ -1,0 +1,32 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5113
+SUBJECT: Konus-Wind observation of GRB 060510A
+DATE:    06/05/11 13:39:12 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 060510A (Swift-BAT trigger #209351;
+Krimm et al., GCN 5095; Barbier et al., GCN 5108)
+triggered Konus-Wind at 27796.301 s UT (07:43:16.301).
+
+As observed by Konus-Wind it had a duration of ~25 s,
+fluence 2.55(-0.22,+0.07)x10^-5 erg/cm2,
+and the 64-ms peak flux measured from T0+7.488 s
+4.29(-0.72, +0.63)x10^-6  erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+The burst shows a strong hard-to-soft spectral evolution.
+
+Fitting the time-integrated spectrum of the burst
+(from T0 to T0+24.064 s; in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+yields alpha = 1.661(-0.076, +0.072)
+and Ep = 184 (-24, +36) keV (chi2 = 63/48 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The K-W light curve is available at
+  http://www.ioffe.rssi.ru/LEA/GRBs/GRB060510_T27796/
+

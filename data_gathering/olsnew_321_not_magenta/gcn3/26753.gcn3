@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26753
+SUBJECT: LIGO/Virgo S200114f: Candidates from SAGUARO observations
+DATE:    20/01/14 23:38:22 GMT
+FROM:    Michael J. Lundquist at University of Arizona  <mlundquist@email.arizona.edu>
+
+Michael J. Lundquist, David J. Sand (UA), Jillian Rastinejad, Kerry
+Paterson (Northwestern), Jennifer Andrews (UA), Wen-fai Fong,
+(Northwestern), Sam Wyatt, Eric Christensen, Alex Gibbs, Frank Shelly (UA),
+report on behalf of the SAGUARO collaboration:
+
+We initiated observations of 36 fields (each 5 deg^2, totalling 180 deg^2)
+within the LVC localization region for the GW trigger S200114f (LVC Circ
+26734) starting on 2020-01-14 at 4:15 UT (2.12 hours after the GW trigger)
+with the 1.5m Catalina Sky Survey (CSS) telescope on Mt. Lemmon, AZ.  The
+typical limiting magnitudes of single pointings are G~21 mag (calibrated to
+Gaia DR2).
+
+We have posted our pointings to the Treasure Map, and encourage others to
+do the same:
+
+http://treasuremap.space/alerts?graceids=S200114f
+
+We perform real-time processing and image subtraction (described in
+Lundquist et al. 2019, ApJL, 881, 2). After discarding known moving
+objects, stellar sources and known transients (cross-correlating with the
+Transient Name Server and the ZTF alert stream), we find no strong
+candidates that we believe to be associated with the GW event with S/N>5.
+Due to the uncertain nature of the GW event however, we report 5
+additional, less likely candidates below for completeness. These are
+possibly variable stars or AGN. All magnitudes are based on our difference
+imaging and have been calibrated to Gaia G band.
+
+Name        | RA        | Dec        | AB Mag   | Mag Error | Notes
+
+SAGUARO20a     07:13:08.744        14:00:07.313 20.19         0.11 (a),
+(b), (c)
+
+SAGUARO20b 06:59:34.961        22:36:29.456 19.94         0.10 (a)
+
+SAGUARO20c 07:05:34.026        22:44:44.495 20.67         0.20 (a), (b)
+
+SAGUARO20d     07:20:21.244        07:35:19.555 19.85         0.10 (a)
+
+SAGUARO20e     07:04:10.181        16:27:38.455 19.29         0.07 (d)
+
+(a) Possible Variable Star
+
+(b) Coincident with faint PS1 source
+
+(c) Faded by 0.78 mag over 30 min
+
+(d) Nuclear; possible AGN
+
+SAGUARO is supported by the National Science Foundation under Award Nos.
+AST-1909358 and AST-1908972.

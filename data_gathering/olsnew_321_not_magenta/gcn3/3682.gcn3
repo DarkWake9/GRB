@@ -1,0 +1,44 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3682
+SUBJECT: GRB050726: Swift-BAT detection of a weak burst
+DATE:    05/07/26 13:08:21 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S. Barthelmy (GSFC), D. Palmer (LANL), T. Sakamoto (GSFC), S.T. Holland (GSFC),
+D. Burrows (PSU), M. Chester (PSU), S. Hunsberger (PSU), A. Moretti (OAB),
+S. Covino (OAB), P. Romano (OAB), A. Antonelli (INAF-OAR), T. Poole (MSSL),
+N. Gehrels (GSFC)
+on behalf of the Swift team:
+
+At 05:00:17 UT, Swift-BAT triggered and located GRB050726 (trigger=147788).
+The spacecraft slewed immediately.  But since there was a gap in the TDRSS
+coverage at the moment of the burst, the TDRSS messages were lost, and
+therefore there were no real-time GCN notifications.  The following comes
+from the analysis of the full data set after the regularly scheduled
+data downlink pass.  The BAT ground-calculated location is RA,Dec
+200.052,-32.072 {13h 20m 12s,-32d 04' 19"} (J2000), with an uncertainty
+of 3 arcmin (radius, 90% containment, stat+sys).  The BAT light curve
+shows a broad weak peak with a hint of structure with a total duration
+of ~30 sec (starting before the trigger at ~T-15 extending to ~T+15 sec).
+The power law photon index of the time-averaged spectrum is 1.04 +- 0.16.
+The fluence in the 15-350 keV band are (4.3 +- 0.7) x 10^-6 erg/cm2.   
+The 1-s peak photon flux measured from T0+1.0 second in the 15-350 keV  
+band is (2.0 +- 0.4) ph/cm2/s.  All the quoted errors are at the 90%  
+confidence level. 
+
+An uncatalogued, fading X-ray source was detected by XRT at the following
+position: RA,Dec 13h 20m 12.30s -32d 03m 50.8s} (J2000) with an uncertainty
+of 6 arcsec (90% containment).  This is 28.4 arcsec from the BAT position
+reported above.
+
+The Swift Ultra-Violet/Optical Telescope (UVOT) observations began
+at 05:02:07 UT, 110 seconds after the BAT trigger.  The first data
+taken in the V band after the spacecraft settled was a 100 sec exposure 
+with the midpoint of the observation at 223 sec after the BAT trigger. 
+A comparison against the DSS catalogue reveals a possible new source
+inside the BAT and XRT error circles 13h 20m 11.9s,-32d 03' 51.9" (J2000),
+although this could also be a known source with a high proper motion.
+The V band magnitude was 17.6 +- 0.2.
+
+[GCN OPS NOTE(31jul05):  Per author's request, the Dec in the 3rd pragraph
+was changed from "-3d" to "-32d".]

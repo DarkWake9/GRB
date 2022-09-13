@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9682
+SUBJECT: Konus-Wind observations of short/hard GRB 090715A
+DATE:    09/07/16 17:34:07 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, E. Mazets, V. Pal'shin,
+P. Oleynik, M. Ulanov, D. Svinkin, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short hard GRB 090715A (Swift trigger=357498:
+Racusin et al., GCN 9666; Baumgartner et al., 9680)
+triggered Konus-Wind at T0=62736.657 s UT (17:25:36.657).
+
+The burst had a duration of ~0.32 s.
+The Konus-Wind light curves of this GRB are available at
+http://www.ioffe.ru/LEA/GRBs/GRB090715_T62736/
+
+As observed by Konus-Wind the burst had
+a fluence of 3.5(-1.5,+2.1)x10-6 erg/cm2, and
+a 16-ms peak flux measured from T0+0.016 s
+of 2.0(-0.8,+1.2)x10-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+0.128 s) is well fitted (in the 20 keV - 10 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -1.13(-0.25,+0.42),
+and Ep = 1658(-1010,+3957)keV (chi2 = 8.9/13 dof).
+
+Fitting by GRB (Band) model yields:
+the low-energy photon index alpha = -0.90(-0.45,+1.2),
+the high energy photon index beta < -1.5,
+the peak energy Ep = 738(-614,+3775) keV (chi2 = 8.2/12 dof).
+
+The emission is clearly seen up to 7 MeV.
+
+All the quoted values are preliminary.
+All the quoted errors are at the 90% confidence level.
+

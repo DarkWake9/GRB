@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6375
+SUBJECT: GRB 070506: Swift detection of a burst with optical afterglow
+DATE:    07/05/06 06:05:32 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+C. Pagani (PSU), M. M. Chester (PSU),
+C. Guidorzi (Univ Bicocca&INAF-OAB), S. Immler (GSFC/USRA),
+C. B. Markwardt (GSFC/UMD), D. M. Palmer (LANL), J. L. Racusin (PSU),
+T. Sakamoto (NASA/ORAU), M. Stamatikos (NASA/ORAU) and L. Vetere (PSU)
+report on behalf of the Swift Team:
+
+At 05:35:58 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070506 (trigger=278693).  Swift slewed to the burst
+immediately after the end of the 64 second image trigger. 
+The BAT on-board calculated location is RA, Dec 347.217, +10.728 which is 
+   RA(J2000) = 23h 08m 52s
+   Dec(J2000) = +10d 43' 42"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a double-peaked
+structure with a duration of about 6 sec.  The peak count rate
+was ~1700 counts/sec (15-350 keV), at ~6 sec after the trigger. 
+
+The XRT began observing the field at 05:38:05 UT, 127 seconds after
+the BAT trigger. Using ground-processed quick-look data, XRT found an
+uncatalogued X-ray source located at RA, Dec 347.2192, +10.7224 which
+is
+   RA(J2000) = 23h 08m 52.6s
+   Dec(J2000) = 10d 43' 20.7" 
+with an uncertainty of 9.0 arcseconds (radius, 90% containment). This
+location is 22 arcseconds from the BAT on-board position, within the
+BAT error circle. The initial flux in the 2.5s image was 2.5e-10
+erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 459 seconds after the BAT trigger. There
+is a candidate afterglow in the rapidly available 2.7'x2.7' sub-image
+at     
+   RA(J2000) =	23h 08m 52.39s (= 347.2183d)   
+   DEC(J2000) = +10d 43' 20.3" (= 10.7223d) 
+with a 1-sigma error radius of about 0.5 arc sec. This position is 
+3.0 arcseconds from the center of the XRT error circle. The estimated 
+magnitude is 19.4 with a 1-sigma error of about 0.5 mag. 
+No correction has been made for galactic reddening of E(B-V) = 0.040. 
+

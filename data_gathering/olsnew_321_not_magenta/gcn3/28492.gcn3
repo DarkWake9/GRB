@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28492
+SUBJECT: GRB 200922A: chance superposition between optical afterglow and archival star
+DATE:    20/09/24 21:15:28 GMT
+FROM:    Daniele B Malesani at DTU Space  <malesani@space.dtu.dk>
+
+D. B. Malesani (DTU Space), L. Izzo (DARK/NBI), D. A. Kann (HETH, 
+IAA/CSIC), A. de Ugarte Postigo (HETH, IAA/CSIC), A. J. Levan (Radboud 
+Univ.), D. Xu (NAOC), P. D'Avanzo (INAF/OABr), and A. Rossi (INAF/OAS) 
+report on behalf of the Stargate collaboration:
+
+For the recent GRB 200922A, several authors have noted the presence of a 
+bright optical afterglow, initially detected by UVOT onboard the Neil 
+Gehrels Swift observatory (Moss et al., GCN 28471; Izzo et al., GCN 
+28478; Siegel & Moss, GCN 28482), superimposed on a point-like object, 
+seen e.g. in the DSS, DECam, and SkyMapper surveys.
+
+We retrieved the white-band UVOT images (Siegel & Moss, GCN 28482). We 
+focused on the initial image (344 s exposure starting at 12:08:32 UT on 
+Sep 22) and on the image taken roughly one day after (274 s exposure 
+starting at 10:05:38 UT on Sep 23). We also retrieved for comparison the 
+archival DECam i-band images of the same region (from 2017 August).
+
+We remark that the position of the UVOT object is entirely consistent 
+with the latest XRT position of the afterglow (Evans et al., GCN 28483; 
+see also https://www.swift.ac.uk/xrt_positions/), strengthening the 
+association between the optical transient and GRB 200922A.
+
+We then cross-matched the astrometry between the UVOT and the archival 
+DECam images. The scatter in the astrometric solution, computed on stars 
+of brightness similar to the UVOT afterglow, is 0.06 and 0.10 arcsec for 
+the initial and late exposure, respectively.
+
+In the initial UVOT image, we measure an offset of 0.62" compared to the 
+object seen in the archival data. While small, this offset is 
+significant. The same comparison carried out in the late time image, 
+however, returns no measurable offset to within the errors. 
+Independently, we also checked that the proper motion of the star 
+(catalogued in the Gaia DR2; Brown et al. 2018, A&A, 616, A1) is too 
+small to play any effect in producing the offset.
+
+We thus conclude that this is a rare case of near-perfect chance 
+superposition between a background afterglow and a bright foreground 
+star. In the initial UVOT image, the light was dominated by the 
+afterglow (thus yielding the offset in the position), which subsequently 
+faded to a level fainter than the foreground star. The light curve of 
+the X-ray afterglow (D'Ai et al., GCN 28476) is also consistent with 
+this interpretation, as it shows the typical behaviour of a cosmological 
+GRB.
+
+
+A spectrum of the optical transient was taken using the ESO VLT1 UT1 
+(Antu) equipped with the FORS2 instrument. Observations were carried out 
+using the grisms 300V and 300I (900 s exposure each), covering the 
+wavelength range 3500-9200 AA, and started on 2020 Sep 22.997 UT (11.8 
+hr after the trigger). In the acquisition image, using (old) archival 
+zeropoints, we measure V = 18.0 (Vega). This value is roughly consistent 
+with the archival values of the star (for example the Gaia catalog gives 
+G = 17.85), and indicates only little contribution from the afterglow at 
+the epoch of our spectrum (at least in the V band).
+
+The spectrum we observe is consistent with the one of a G-type star. 
+Absorption features are observed at z = 0 from Ca H and K, Mg I, Na I D, 
+Hdelta, Hgamma, Hbeta, and Halpha. The ordinary type of the star 
+supports the lack of a connection with the GRB. A search was conducted 
+for potential emission lines from the background GRB host galaxy, but 
+the intense and spatially-variable glare from the star does not allow us 
+to place quantitative limits. We are thus unfortunately unable to 
+provide constraints on the GRB redshift.
+
+
+We welcome the reopening of the ESO observatory at Paranal, even if at 
+reduced capacity. We thank the ESO staff for carrying out our 
+observations, in particular Steffen Mieske, Claudia Cid, and Romain 
+Thomas, as well as and the entire support team on- and off-site.
+

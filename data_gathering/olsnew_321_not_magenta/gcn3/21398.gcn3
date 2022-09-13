@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21398
+SUBJECT: Konus-Wind observation of GRB 170728B
+DATE:    17/07/31 15:51:16 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 170728B (Swift-BAT trigger 765130:
+Cenko et al., GCN 21371; Ukwatta et al., GCN 21384;
+Fermi-LAT detection: Yassine et al., GCN 21380;
+Fermi-GBM observation: Stanbro et al., GCN 21383)
+triggered Konus-Wind at T0=82998.412 s UT (23:03:18.412).
+
+The burst light curve shows an initial short multi-peaked structure
+with a duration of ~0.5 s, followed by a weaker emission
+seen up to ~48 s. The emission is seen up to ~2 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 3.96(-0.75,+0.93)x10^-6 erg/cm2,
+and a 64-ms peak flux, measured from T0-0.016 s,
+of 4.38(-0.91,+0.93)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.13(-0.37,+0.45)
+and Ep = 160(-43,+103) keV (chi2 = 66/62 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.1
+(chi2 = 66/61 dof)
+
+The spectrum near the maximum count rate
+(measured from T0+0.000 to T0+0.256 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model
+with  alpha = -0.22(-0.33,+0.39)
+and Ep = 166(-22,+26) keV (chi2 = 22/36 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.0
+(chi2 = 22/35 dof)
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB170728_T82998/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

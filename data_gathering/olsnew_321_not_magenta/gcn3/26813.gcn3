@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26813
+SUBJECT: IceCube-200117A: Candidate Counterpart from the Zwicky Transient Facility
+DATE:    20/01/18 17:31:45 GMT
+FROM:    Simeon Reusch at DESY  <simeon.reusch@desy.de>
+
+Simeon Reusch and Robert Stein (DESY) report,
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+
+We observed the localization region of  he neutrino event IC200117A (GCN 26802) with the Palomar 48-inch telescope, equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). We started observations in the g-band and r-band beginning at 2020-01-18T09:06:01.700 UTC, approximately 22.0 hours after event time. We covered 2.1 sq deg, corresponding to 77.9% of the reported localization region. This estimate accounts for chip gaps. Each exposure was 300s with a typical depth of 21.0 mag.
+
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the alerts database for candidates. We reject stellar sources (Tachibana and Miller 2018) and moving objects, and apply machine learning algorithms (Mahabal et al. 2019). We are left with one high-significance transientcandidate by our pipeline, lying within the 90.0% localization of the neutrino. 
+
++---------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name   | RA (deg)    | DEC (deg)   | Filter | Mag   | MagErr |
++---------------------------------------------------------------------------------+
+| ZTF19acxopgh | AT 2019zyu | 115.0271293 | +29.2021507 | r      | 20.94 | 0.20   |
++---------------------------------------------------------------------------------+
+
+ZTF19acxopgh (AT 2019zyu) was first detected by ZTF on 2019-12-16, and has since faded roughly 1 mag. The position of ZTF19acxopgh is consistent with the nucleus of its host galaxy. The lightcurve evolution is consistent with a supernova, which would be expected for a supernova CSM-interaction model for neutrino production. Given its nuclear position, it could also be a tidal disruption event.
+
+We encourage spectroscopic follow-up to discern the nature of this event.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341.
+GROWTH acknowledges the generous support of the NSF under PIRE Grant No 1545949.
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert database searches are done by AMPEL (Nordin et al. 2019).
+

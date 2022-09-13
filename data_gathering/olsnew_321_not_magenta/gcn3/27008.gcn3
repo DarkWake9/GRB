@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27008
+SUBJECT: Swift Trigger 954840 is not a GRB
+DATE:    20/02/07 03:42:44 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J.D. Gropp (PSU), J. A. Kennea (PSU), N. J. Klingler (PSU),
+S. Laha (GSFC/UMBC/CRESST), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester),
+B. Sbarufatti (PSU) and M. H. Siegel (PSU) report on behalf of the
+Neil Gehrels Swift Observatory Team:
+
+At 03:02:18 UT, the Swift Burst Alert Telescope (BAT) triggered on a rate
+increase and found a marginal significance peak in the image plane
+(trigger=954840).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 163.623, -49.581 which is 
+   RA(J2000) = 10h 54m 30s
+   Dec(J2000) = -49d 34' 52"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a steady rate
+increase due to Swift's approach and entry into the SAA. 
+
+The XRT began observing the field at 03:03:44.9 UT, 86.8 seconds after
+the BAT trigger. No source was detected in 594 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1628 seconds after the BAT trigger. No credible afterglow candidate
+has been found in the initial data products. The 2.7'x2.7' sub-image covers 8%
+of the BAT error circle. The typical 3-sigma upper limit has been about 19.6
+mag. The 8'x8' region for the list of sources generated on-board covers 100% of
+the BAT error circle. The list of sources is typically complete to about 18
+mag. No correction has been made for the expected extinction corresponding to
+E(B-V) of 0.38. 
+
+Because the BAT rate increase was due to the SAA, the image
+significance was marginal (6.5 sigma) and much below that implied by
+the rate increase, and XRT did not detect any afterglow, we
+believe that this trigger was a statistical fluctuation in
+the image plane and not an astrophysical event.  The full downlinked
+dataset will be used to verify the nature of this trigger. 
+

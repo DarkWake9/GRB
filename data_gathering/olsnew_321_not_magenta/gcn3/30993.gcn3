@@ -1,0 +1,75 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30993
+SUBJECT: IPN Triangulation of GRB 211019A
+DATE:    21/10/25 15:02:56 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the MGNS/BepiColombo and HEND/Mars Odyssey teams,
+
+J. Benkhoff on behalf of the BepiColombo team,
+
+K. Hurley on behalf of the IPN,
+
+D. Svinkin, S. Golenetskii, D. Frederiks, A. Ridnaia,
+A. Lysenko, and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+A. von Kienlin, X. Zhang, A. Rau, V. Savchenko, E. Bozzo,
+and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, and R. Starr,
+on behalf of the GRS-Odyssey GRB team, report:
+
+The bright, long-duration GRB 211019A
+(Fermi-GBM detection: The Fermi GBM team, GCN Circ. 30941;
+BALROG localization: F. Kunzweiler et al., GCN Circ. 30942;
+GRBAlpha detection: J. Ripa et al., GCN Circ. 30946)
+was detected by BepiColombo (MGNS; see introductory GCN Circ. 30949),
+Mars-Odyssey (HEND), GRBAlpha, Fermi (GBM trigger 656315976),
+Konus-Wind, and INTEGRAL (SPI-ACS), at about 21571 s UT (05:59:31).
+
+The burst light curves in the energy range 30 keV-1.5 MeV (HEND) and
+250-450 keV (MGNS) exhibit a bright peak with a total duration of ~17 s.
+
+We have triangulated GRB 211019A to the following 3 sigma annuli:
+---------------------------------------------------------
+           R.A.(J2000)  Dec.(J2000)    R      +dR     -dR
+               deg         deg        deg     deg     deg
+---------------------------------------------------------
+MGNS-HEND    27.190     10.927     89.034  +0.021  -0.022
+Konus-HEND  200.705     -8.093     87.815  +0.017  -0.017
+Konus-GBM   190.965     -7.594     80.456  +0.431  -0.431
+---------------------------------------------------------
+The MGNS-HEND and Konus-HEND annuli intersect to form two error
+boxes one of which is inconsistent with the Konus-GBM annulus,
+the KW ecliptic latitude response,
+and the Fermi (GBM) RoboBA and BALROG localizations.
+
+The correct preliminary, 3 sigma error box is:
+  ---------------------------------------------
+   RA(2000), deg                 Dec(2000), deg
+  ---------------------------------------------
+  Center:
+   106.988 (07h 07m 57s) -38.779 (-38d 46' 43")
+  Corners:
+   106.975 (07h 07m 54s) -38.728 (-38d 43' 41")
+   106.898 (07h 07m 36s) -39.122 (-39d 07' 19")
+   107.002 (07h 08m 01s) -38.819 (-38d 49' 07")
+   107.079 (07h 08m 19s) -38.424 (-38d 25' 25")
+  ---------------------------------------------
+The error box area is 49 sq. arcmin, and its maximum
+dimension is 43 arcmin (the minimum one is 2.0 arcmin).
+The Sun distance was 89 deg.
+
+This box may be improved.
+
+A triangulation maps are posted at:
+http://www.ioffe.ru/LEA/GRBs/GRB211019_T21573/IPN/
+and
+http://l503.iki.rssi.ru/owncloud/index.php/s/bRzLdux7RLz1tVf
+

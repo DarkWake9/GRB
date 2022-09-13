@@ -1,0 +1,96 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7179
+SUBJECT: Swift observations of the X-ray transient in NGC 2770 (aka SN2008D)
+DATE:    08/01/13 20:56:48 GMT
+FROM:    David Burrows at PSU/Swift  <dnburrows@gmail.com>
+
+D. N. Burrows (PSU), J. Cummings (GSFC), H. Krimm (GSFC), N. Gehrels 
+(GSFC), K. L. Page (U. Leicester), S. Barthelmy (GSFC), E. Berger 
+(Princeton), A. Cucchiara (PSU), D. Fox (PSU), S. Immler (GSFC), P. 
+T. O'Brien (U. Leicester), and A. M. Soderberg (Princeton) report on 
+behalf of the Swift team:
+
+We report on additional analysis of the initial Swift BAT data and 
+continuing XRT observations of the X-ray transient in NGC 2770 
+(Berger & Soderberg, GCN Circ. 7159), for which the optical 
+counterpart (Deng & Zhu, GCN 7160)  has been spectroscopically 
+identified as a Type Ibc supernova (SN2008D;  Malesani et al., GGN 
+Circ. 7169).
+
+Quite fortunately, this object was in the BAT field of view in the 
+two previous Swift observations (of BZQ J0618+4620 beginning at 
+13:04:12.33 and of SN2007ax beginning at 13:12:24.5 UT on 9 Jan 
+2008).  The Swift timeline was:
+
+Obs 1:
+13:02:02.3: begin slewing to BZQ J0618+4620 (RA, Dec = 94.530, +46.359)
+13:04:12.3: end slew, settled on target.  NGC 2770 in BAT field of 
+view with 54% coding.
+Obs 2:
+13:12:02.3: begin slewing to SN2007ax (RA, Dec = 125.679, +22.556)
+13:13:24.5: end slew, settled on target.  NGC 2770 in BAT field of 
+view with ~90% coding
+Obs 3:
+13:32:02.3: begin slewing to SN2007uy in NGC 2770 (RA, Dec = 137.407, +33.126)
+13:32:48.9: end slew, settled on target.  NGC 2770 in BAT field of 
+view with 100% coding.
+
+13:50:02.1: begin slewing to RX J0923.5+5745 (RA, Dec = 140.887, +57.794)
+
+BAT did not trigger on a GRB during the observations of either BZQ 
+J0618 or SN2007ax.  An examination of the data from the direction of 
+NGC 2770 during those observations shows no sign of any emission from 
+this source in the BAT energy range, with upper limits of 1.0e-7 
+erg/cm2 during the BZQ observation (Obs 1) and 1.1e-7 erg/cm2 during 
+the SN2007ax observation (Obs 2).  During the observation of SN2007uy 
+in NGC 2770 (Obs 3), when the X-ray transient occurred in the XRT 
+data, the BAT upper limit is 8.9e-8 erg/cm2.  These upper limits are 
+for the band 15-150 keV, assuming a power law photon index of 
+1.  Extrapolating the X-ray transient spectrum from Obs 3 (Page et 
+al., GCN Circ. 7170) into the 15-150 keV band, the extrapolated 
+fluence is 5.2e-8, below the BAT fluence limit for this time interval.
+
+During the slews, XRT collected no data and BAT collected only count 
+rates.   There is no sign of a GRB in the BAT field of view during 
+the slews, based on count rates during those time intervals.
+
+To summarize, there is no indication of a GRB in the BAT energy range 
+(15-350 keV) during the 30 minutes before the X-ray transient is seen 
+in the XRT data, or during the observation of SN2007uy, which lasted 
+over 1000 s (i.e., coincident with the X-ray transient).  The BAT 
+upper limits are consistent with the extrapolation of the spectrum of 
+the X-ray transient into the 15-150 keV band.
+
+The nature and onset time of the X-ray transient are not entirely 
+clear.  The source was already quite bright (~2 count/s) in the XRT 
+band (0.3-10 keV) when the first exposure was taken beginning at 
+13:32:48.9 UT, after which it rose rapidly to a peak count rate of 
+about 5 count/s for ~90 s before decaying rapidly (Page et al., GCN 
+Circ. 7170).  We note that the estimate for T0 given by Modjaz et al. 
+(GCN Circ. 7175) is therefore only a limit; an earlier T0 cannot be 
+excluded due to the lack of prior X-ray data.  The X-ray transient 
+lightcurve and hard-to-soft spectral evolution are consistent with 
+either a prompt, broad XRF or an X-ray flare (this event is similar 
+to the giant X-ray flare in GRB 050502B); if interpreted as a flare, 
+T0 could be hundreds of seconds earlier.
+
+XRT observations are continuing.  Analysis of the late XRT data 
+(after the first orbit) is complicated by the presence of a nearby 
+weak source that contaminates the late-time data from the 
+transient.  Our analysis, using a very small source extraction region 
+to reduce the contamination from this nearby source, suggests that 
+the late-time light curve has a shallow decay reminiscent of the 
+plateau phase often seen in GRB X-ray afterglows, but lasting much 
+longer than is typical for GRB afterglows (up to at least 200 ks 
+after the first XRT detection).  The late-time decay index is -0.67 
++0.29/-0.33.
+
+The X-ray transient peak could be the onset of an XRF, or it could be 
+an X-ray flare in an XRF that began somewhat earlier.  The lack of an 
+associated GRB in the BAT data suggests that there may be no GRB 
+associated with this event (either due to a lack of ultrarelativistic 
+ejecta or because it is not beamed towards us), in which case the 
+X-ray transient could be related to shock breakout.  Alternatively 
+this could indeed be a weak XRF with an unusually soft spectrum 
+(Berger & Soderberg, GCN Circ. 7159).
+

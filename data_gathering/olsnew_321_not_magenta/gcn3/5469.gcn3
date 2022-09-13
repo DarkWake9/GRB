@@ -1,0 +1,50 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5469
+SUBJECT: GRB060729: analysis of XMM-Newton observation
+DATE:    06/08/21 17:48:27 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+Sergio Campana (OAB) & Andrea De Luca (IASF Mi)
+on behalf of a larger collaboration report:
+
+We have analyzed the data from the XMM-Newton observation of
+GRB060729, discovered by Swift on 2006, Jul 29, 19:12:29 UT
+(Grupe et al., GCN5365).
+
+The XMM-Newton observation started on 2006, July 30 07:59 UT
+and lasted for ~61 ks. A high particle background level affects
+only mildly the whole observation and only the highest flares
+have been cut out, in consideration also of the source strength.
+
+The background subtracted pn light curve (0.3-10 keV) shows a
+clear decay from about 5 c/s at the beginning of the observation
+down to 2 c/s. The light curve can be fit with a power law decay
+with index delta=1.04+/-0.02 but with a large chi2=1.8 (58 dof).
+This is due to a large bump in the middle of the exposure. Adding
+a Gaussian we obtain a better chi2=0.7 (55 dof). The central time
+is 69+/-1 ks (90% confidence) from the burst start and the
+(Gaussian) width over the time is about 7+/-2%. We note also that
+the time of the XMM-Newton observation is close to the break time
+observed by Swift XRT in the GRB060729 light curve (Grupe, GCN5432).
+Fitting a broken power law to we obtain a first decay index
+delta1=0.85+/-0.05, which is inconsistent with the early slope of
+0.34 reported by Grupe.
+
+We extracted time-averaged spectra from the EPIC pn camera (since
+in the initial part of the MOS observation the GRB spectrum should
+be mildly piled-up) and the two RGS spectrometers (first and second
+order) and we generated ad-hoc response files.
+A simultaneous fit with an absorbed power law model with Galactic
+and intrinsic (at a redshift of z=0.54, Thoene et al. GCN5373)
+yields a reduced chi2 of 1.05 (1824 dof, without any systematic
+error). The resulting NH=(3.9+/-0.9)x1020 cm-2 (consistent with
+the Galactic value of NH=4.8x1020 cm-2, Dickey & Lockman 1990)
+and a relatively low NH_host=(9.2+/-0.4)x1020 cm-2. The best
+fitting power law photon index is Gamma=2.09+/-0.01.
+The RGS spectrometers do now show any clear evidence of absorption
+or emission lines in the 0.3-2 keV energy range.
+The observed flux is of 9.5x10-12 erg cm-2 s-1 in 0.3-10 keV;
+the corresponding unabsorbed flux is of 1.2x10-11 erg cm-2 s-1.
+
+This message may be cited.
+

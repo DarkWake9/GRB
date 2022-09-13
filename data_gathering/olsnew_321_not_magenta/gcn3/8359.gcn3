@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8359
+SUBJECT: GRB081011: UVOT detection of an optical afterglow
+DATE:    08/10/11 17:57:02 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL-UCL) and D.Grupe (PSU) report on behalf of the Swift/UVOT 
+team:
+
+The Swift/UVOT observed the field of GRB 081011 (Grupe et al., GCN Circ. 
+8355) with settled exposures starting 99s after the trigger. A new fading 
+source is detected in the white and u-band finding chart (fc) exposures 
+and marginally in a co-added b-band exposure at
+RA(J2000) = 14:41:22.627 (220.34428)
+Dec(J2000) = +33:32:37.12 (+33.54364)
+consistent with the XRT position (Kennea et al., GCN Circ. 8358). These 
+detections imply an upper limit on the redshift of z < ~3.8. The source is 
+decaying with an approximate optical decay rate of alpha~1.1 (where the 
+afterglow flux is proportional to t^-alpha).
+
+The detections and 3 sigma upper limits in the UVOT photometric system 
+(Poole et al. 2008, MNRAS, 383, 627) are:
+
+Filter      T_start T_stop  Exp     Mag or 3-sigma UL
+            (s)     (s)     (s)
+========================================================
+white (FC)  99      249     145.8   19.25 +/- 0.08
+white       537     1878    283.5   20.33 +/- 0.13
+u (FC)      257     507     245.8   18.62 +/- 0.10
+u           660     2003    155.6   19.91 +/- 0.30
+v           586     7371    548.8   > 20.29
+b           512     6756    351.4   21.13 +/- 0.39
+uvw1        636     7781    548.8   > 20.96
+uvm2        611     7576    548.9   > 20.74
+uvw2        562     7167    548.8   > 21.06
+
+The values quoted above are not corrected for the expected Galactic 
+extinction corresponding to a reddening of E(B-V) = 0.01 mag in the 
+direction of the burst (Schlegel et al. 1998).

@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10016
+SUBJECT: GRB 090531A: Skynet/PROMPT Observations
+DATE:    09/10/11 21:32:42 GMT
+FROM:    Aaron LaCluyze at U.North Carolina  <lacluyze@physics.unc.edu>
+
+A. LaCluyze, D. Reichart, J. Haislip, K. Ivarsen, A. Foster, J. Moore, A. 
+Oza, M. Schubel, J. Styblova, A. Trotter, J. A. Crain, and M. Nysewander 
+report:
+
+Skynet observed the Swift/BAT localization of GRB 090531A (Stamatikos et 
+al., GCN 9454) with three of the 16" PROMPT telescopes at CTIO beginning 
+6.1 minutes after the trigger in UVRI.
+
+We do not detect the afterglow (Sbarufatti & Mangano, GCN 9525).  Stacking 
+only images that increase the limiting magnitude yields:
+
+mean                                                1-sig.  1-sig.
+time                             3-sig.             sys.    stat.
+since                            lim.    cal.       cal.    cal.
+trig.  tel.      exp.      fil.  mag.    stars*     unc.    unc.
+(m)              (# x s)                            (mag)   (mag)
+
+6.5    PROMPT-5  1 x 40    I     17.6    32 SDSS 7  0.055   0.002
+15.3   PROMPT-5  11 x 80   I     19.4    32 SDSS 7  0.055   0.000
+84.0   PROMPT-3  75 x 80   U     19.3    7 SDSS 7   0.037   0.001
+92.6   PROMPT-5  85 x 80   I     20.5    32 SDSS 7  0.055   0.000
+                  + 1 x 40
+94.1   PROMPT-4  43 x 80   V     21.1    37 SDSS 7  0.007   0.000
+104.8  PROMPT-4  54 x 80   R     21.3    40 SDSS 7  0.018   0.000
+
+* Transformed using Jester et al., 2005, ApJ, 130, 873.
+

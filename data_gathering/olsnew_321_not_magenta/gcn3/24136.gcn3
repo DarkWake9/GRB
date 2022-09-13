@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24136
+SUBJECT: LIGO/Virgo S190412m: SVOM/GWAC observations of the initial skymap
+DATE:    19/04/20 00:46:03 GMT
+FROM:    Chao Wu at NAOC  <wuchao.lamost@gmail.com>
+
+X.H. Han (NAOC), J.Y. Wei (NAOC), C. Wu (NAOC), L.P. Xin (NAOC),
+D. Turpin (NAOC), N. LEROY (CNRS/LAL), S. ANTIER (CNRS/APC/CNES),
+L. Huang (NAOC), Y. Xu (NAOC), H.B. Cai (NAOC), J. Wang (NAOC),
+X.M. Lu (NAOC), Y.L. Qiu (NAOC), J.S. Deng (NAOC), L. Jia (NAOC),
+S.C. Zou (NAOC), S.F. Liu (NAOC), Q.C. Feng (NAOC), H.L. Li (NAOC),
+D.W. Xu (NAOC), Y.J. Xiao (NAOC), W.L. Dong (NAOC), Y.T. Zheng (NAOC),
+P. P. Zhang (NAOC), R.S. Zhang (NAOC), E.W. Liang (GXU), X.G. Wang (GXU),
+Z.G. Dai (NJU), X.Y. Wang (NJU), Y.G. Yang (HBNU), J.R. Mao (YNAO),
+B. Cordier (CEA/AIM), S. Basa (CNRS/LAM), J.L. Atteia (UPS/IRAP),
+D. Gotz (CEA/AIM), A. Claret (CEA/AIM), C. Lachaud (CNRS/APC),
+R. Duque (CNRS/IAP), N. Dagoneau (CEA/AIM) S.N. Zhang (IHEP),
+B.B. Wu (IHEP),
+report on behalf of the SVOM Ground Follow-up Group:
+
+
+We observed 7 sky regions (total: 1100 square degrees) to cover the
+skymap of the advanced LIGO/Virgo trigger S190412M, with SVOM/GWAC,
+at Xinglong Observatory equipped with a set of two types of wide angle
+cameras: FFOV cameras (FOV~900 square degrees/camera, aperture = 3.5
+cm) and JFOV cameras (FOV~150 square degrees/camera, aperture = 18
+cm). SVOM/GWAC currently comprises 4 FFOV cameras and 16 JFOV cameras,
+working with unfiltered band. The observations are operated in time-series
+mode, taking one exposure every 15 seconds (10s exposure + 5s readout).
+We estimate a 95% prior probability that these 7 regions contain the
+true location of the source.
+The coordinates of the 7 regions and observation time are list following:
+
+No. Ra Dec start-obs(UTC) end-obs(UTC) Telescope_ID
+1 12:16:08.501 +13:42:34.43 2019-04-12 14:21:03 2019-04-12 14:53:31 2
+2 13:04:12.375 +13:07:23.42 2019-04-12 14:21:03 2019-04-12 14:53:31 2
+3 13:01:14.699 +01:23:57.03 2019-04-12 14:21:03 2019-04-12 14:53:31 2
+4 14:15:50.897 +35:59:33.54 2019-04-12 14:05:51 2019-04-12 14:20:11 2
+5 15:42:30.509 +35:59:41.27 2019-04-12 14:05:51 2019-04-12 14:20:11 2
+6 12:16:49.785 +01:39:44.92 2019-04-12 14:21:03 2019-04-12 14:53:31 2
+7 14:47:20.959 +36:20:07.37 2019-04-12 14:05:51 2019-04-12 14:20:11 2
+
+The covering map is available at:
+http://cmm.svom.cn/gwpub/O3/S190412m/S190412m_GWAC.png
+(user:svomo3 pwd:gwo3)
+
+The first image was taken ~8 hours after the event trigger time. The
+weather conditions were bad (cloudy) during the observations. A 3
+sigma limiting magnitude of about 14 mag in R band is obtained in
+our single frames. No credible new source is detected by our online
+pipeline.
+A more detailed image analysis including co-addition is ongoing with
+our offline pipeline to search for transient candidates.
+
+This circular is citable.

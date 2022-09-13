@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6465
+SUBJECT: GRB 070412:  Deep Keck imaging
+DATE:    07/05/28 00:31:03 GMT
+FROM:    Daniel Perley at U.C. Berkeley  <dperley@astro.berkeley.edu>
+
+D. A. Perley, J. S. Bloom, R. J. Foley, and D. Kocevski (UC Berkeley) 
+report:
+
+On the night of 2007-04-16 (UT) we performed imaging on the field of 
+GRB070412 (GCN 6273), the long burst located approximately 45" in 
+projection from a nearby early-type galaxy (GCN 6275), using Keck I 
+(/LRIS) under poor seeing conditions.  We acquired a total of 113 
+minutes of usable exposure time in I-band and 132 minutes in V-band, 
+with a mid-exposure time of approximately 11:27 UT, 106 hours after the 
+BAT trigger.
+
+Using the astrometrically-corrected XRT position [1] (RA=12:06:10.18, 
+dec=+40:08:35.3, uncertainty=2.2"), we observe a faint source at the 
+edge of the uncertainty region in I-band.  This source is not detected 
+in V-band.  Calibrating with respect to nearby stars from SDSS, we 
+calculate a magnitude of:
+
+I = 24.6 +/- 0.3
+
+The V-band limiting magnitude is V > 26.5.
+
+We note that the same source is also apparent in LBT r' imaging from 
+Prieto et al. (GCN 6374) in both their epochs of observation (2.8 hours
+and 8.2 days after the burst), suggesting the source is not transient, 
+in which case we place an I-band limiting magnitude of I > 25.0 on any 
+transient source in the XRT error circle.  The red color is suggestive 
+of a high-redshift potential host galaxy.  The LBT r' detection would 
+place a firm upper limit on the redshift to be z < 5.9.
+
+Images of the field are located at:
+
+http://lyra.berkeley.edu/~dperley/070412/070412keck.png
+http://lyra.berkeley.edu/~dperley/070412/070412keckzoom.png
+
+The low-redshift galaxy has been subtracted using a Sersic model fit in 
+the first image and a median filter in the second (zoom) image.
+
+
+[1] http://astro.berkeley.edu/~nat/swift/xrt_pos.html
+

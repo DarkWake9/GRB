@@ -1,0 +1,32 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3667
+SUBJECT: GRB050724:  Refined analysis of the Swift-BAT possible short burst
+DATE:    05/07/24 16:27:35 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+H. Krimm (GSFC/USRA), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/NRC), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hinshaw (GSFC-SPSYS), D. Hullinger (GSFC/UMD), C. Markwardt (GSFC/UMD), 
+K. McLean (LANL) D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/NRC),
+J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the full data set from the recent telemetry downlink, we report
+further analysis of Swift-BAT Trigger #147478 (Covino, et al., GCN 3665).
+The ground-analysis position is RA,Dec 246.177,-27.525 (J2000) with an
+uncertainty of 3 arcmin (radius, 90%, stat+sys).  T90 is 3 +- 1 sec.
+The lightcurve has an initial hard FRED peak at T+0.00 sec (FWHM of 0.256 sec)
+and there is a smaller much softer peak at T+1.00 sec.  Fitting a simple
+power law over the full interval from T-1.0 to T+3.0 seconds, the photon index
+is 1.71 +/- 0.16 with a fluence of 6.3 +/- 1.0 X 10^-7 erg/cm^2.
+The peak flux in a 1-sec wide window starting at T+0.04 seconds
+is 3.9 +/- 0.3 ph/cm^2/sec.  All values are in the 15-350 keV band
+at the 90% confidence level.
+
+Given the second emission peak at T+1, the T90 of 3 sec, and
+the power law index value of 1.71, we can not confirm, nor rule out,
+that this burst falls into the short-burst category.  However, in the
+energy range above 25 keV, the second, softer peak  and subsequent emission
+is much less prominent, and so it is likely  that BATSE would have
+classified this as a short GRB.
+

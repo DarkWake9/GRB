@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7060
+SUBJECT: GRB 071112B: ROTSE-III Rapid Optical Limits
+DATE:    07/11/12 19:18:52 GMT
+FROM:    Eli Rykoff at UCSB  <erykoff@physics.ucsb.edu>
+
+E.S. Rykoff (UCSB), F. Yuan (U Mich), W. Rujopakarn (Steward), report on 
+behalf of the ROTSE collaboration:
+
+ROTSE-IIIc, located at the H.E.S.S. site at Mt. Gamsberg, Namibia, 
+responded to the short/hard GRB 071112B (Swift trigger 296503; Perri et 
+al., GCN 7058), producing images beginning 6.8 s after the GCN notice 
+time. An automated response took the first image at 18:23:55.8 UT, 24.3 
+s after the burst, under fair conditions. We took 10 5-sec, and 10 
+20-sec exposures before ROTSE-IIIc repointed at Swift trigger 296504 
+(GRB071111C). These unfiltered images are calibrated relative to USNO 
+A2.0 (R).
+
+Comparison to the DSS (second epoch) reveals no new sources within the 
+3-sigma Swift/BAT error circle, for both single images and coadding into 
+sets of 10. Individual images have limiting magnitudes ranging from 
+15.3-16.3; we set the following specific limits.
+
+start UT       end UT      t_exp(s)   mlim   t_start-tGRB(s)  Coadd?
+--------------------------------------------------------------------
+18:23:55.8   18:24:00.8         5     15.5           24.3       N
+18:23:55.8   18:25:45.1       109     16.6           24.3       Y
+18:25:53.0   18:31:02.2       309     17.3          141.5       Y
+

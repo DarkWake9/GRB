@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  781
+SUBJECT: "Snapshot" afterglow IDs and GRB 000830
+DATE:    00/08/31 21:56:56 GMT
+FROM:    James Rhoads at STScI  <rhoads@stsci.edu>
+
+I recently proposed that GRB afterglows can be found in single epoch
+observations using optical color-color diagrams (Rhoads 2000,
+astro-ph/0008461).  This is possible because afterglows generally have
+power law spectra, which can be distinguished from curved stellar
+spectra in color-color plots.
+
+GRB 000830 may be a good test case to try this method,
+given its medium-sized error box and the nearly moonless sky.
+
+The required observations would include I band, either U or B band,
+and either V or R band.  The approximate colors expected for an
+afterglow are U-B=-0.75, B-V=+0.35, V-R=+0.4, R-I=+0.5 (for standard
+Johnson-Cousins magnitudes and an f_nu ~ nu^-1 power law spectrum).
+The relative depth required in different filters can be estimated from
+these colors.  Absolute photometric calibration is not strictly needed
+so long as enough area is covered to get a clearly defined stellar
+locus in the color-color plane.
+
+The required photometric accuracy depends on the spectral coverage.
+With U, V and I filters, the afterglows are expected to lie about 0.7
+magnitudes from the stellar locus.  Using instead B, V, R, I filters
+gives a smaller offset of about 0.2 magnitudes.  The large color-plane
+offset with the U filter approximately balances the extra difficulties
+of obtaining U band data.
+
+The middle filter (i.e., V or R) should be observed last, so that
+fading behavior will serve to increase the apparent offset of the
+afterglow from the stellar locus rather than reducing it.
+
+Given the 38 square arcminute error box of GRB 000830, one might expect
+about one quasar of magnitude R ~ 22 in the error box; any brighter point
+source with the expected colors of an afterglow is unlikely to be a quasar,
+while at fainter magnitudes multiple candidates (most of them quasars) would
+be expected.
+
+More details of the method are available
+from http://xxx.lanl.gov/abs/astro-ph/0008461 .
+
+						James Rhoads.

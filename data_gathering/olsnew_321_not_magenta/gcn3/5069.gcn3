@@ -1,0 +1,31 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5069
+SUBJECT: GRB 060502B: Swift/UVOT upper limits
+DATE:    06/05/03 10:37:39 GMT
+FROM:    Tracey Poole at MSSL  <tsp@mssl.ucl.ac.uk>
+
+T. S. Poole (UCL-MSSL), and E. Troja (INAF-IASFPA) on behalf of the
+Swift/UVOT team.
+
+The Swift/UVOT began observing the field of GRB060502b (BAT 
+Trigger=208275, E. Troja, et. al, GCN 5055) at 17:25:38 UT, 57s after 
+the BAT trigger (which includes the 10s V filter settling  exposure). No 
+new source is detected at the XRT position (E. Troja, GCN 5063) in 
+coadded images with any of the filters. The following 5-sigma magnitude 
+upper limits are not corrected for Galactic extinction; E(B-V) = 0.044.
+
+Filter   T_range(s)  T_exp(s)  5sigma(mag)
+
+V         57-35329   3002      20.29
+B        658-24560   1204      20.62
+U	 634-41112   3819      21.04	
+UVW1     610-40198   4038      21.29	
+UVM2     586-36126   3633      21.31	
+UVW2     686-34417   2259      21.29	
+WHITE	  74-6845    619       20.49	
+
+Where T_range is time post-trigger, and T_exp is the exposure time of
+the observation. A 6 arcsec radius was used for all filters.
+
+This message may be cited.
+

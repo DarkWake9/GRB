@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11572
+SUBJECT: Swift Trigger 442539 is probably not a GRB
+DATE:    11/01/16 12:26:02 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+C. B. Markwardt (NASA/GSFC), A. P. Beardmore (U Leicester),
+D. N. Burrows (PSU), J. M. Gelbord (PSU),
+S. T. Holland (CRESST/USRA/GSFC), H. A. Krimm (CRESST/GSFC/USRA),
+N. P. M. Kuin (UCL-MSSL), O. M. Littlejohns (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+P. Romano (INAF-IASFPA), A. Rowlinson (U Leicester),
+B. Sbarufatti (INAF-OAB/IASFPA), M. H. Siegel (PSU) and
+R. L. C. Starling (U Leicester) report on behalf of the Swift Team:
+
+At 12:04:25 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located trigger 442539.  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 204.936, +55.160 which is 
+   RA(J2000) = 13h 39m 45s
+   Dec(J2000) = +55d 09' 37"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with an image trigger, we do not
+see obvious structure in the BAT light curve with the currently 
+available data.  With ground processing, the image significance is only 
+6.7 sigma, which is below our normal image significance threshold. 
+
+The XRT began observing the field at 12:06:53.9 UT, 148.5 seconds after
+the BAT trigger. No source was detected in the promptly available XRT
+data. We are waiting for the full dataset to search for an X-ray counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 154 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.01. 
+
+Due to the marginal BAT detection of the event (7.4 sigma in the
+on-board image, 6.7 sigma in ground-based analysis) and the lack
+of detection by XRT and UVOT, we believe that this is probably not
+a true astrophysical event.  Further determination of its reality
+will require the full downlinked data, available in a few hours. 
+
+Burst Advocate for this burst is C. B. Markwardt (Craig.Markwardt AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

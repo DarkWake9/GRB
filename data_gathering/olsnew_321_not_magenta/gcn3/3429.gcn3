@@ -1,0 +1,29 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3429
+SUBJECT: No Swift-BAT Lightcurves in real-time for next 3 weeks
+DATE:    05/05/19 18:11:11 GMT
+FROM:    David Palmer at LANL  <palmer@nis.lanl.gov>
+
+D. Palmer (LANL), S. Barthelmy, L. Barbier (GSFC), J. Cummings (GSFC/NRC),
+E. Fenimore (LANL), N. Gehrels (GSFC), D. Hullinger (UMD),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), A. Parsons (GSFC),
+T. Sakamoto (GSFC/NRC), G. Sato (ISAS), M. Suzuki (Saitama), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+On 17 May 2005, a problem was discovered in the Swift-BAT flight software.
+This problem causes the lightcurves generated on or after 10 May 2005
+that are sent down the real-time TDRSS telemetry link to contain incorrect data.
+This problem affects only the BAT Lightcurve -- the BAT burst RA,Dec positions
+are unaffected, as are all the other BAT data products.
+
+TDRSS light curves generated before 10 May 2005 were unaffected.
+The only corrupted light curve that has been distributed via GCN
+was for the 'Interesting Source' trigger 122203 on 17 May 2005.
+A localized problem in the handling of on-board time causes the
+flight software to produce totally incorrect light curve rates.
+
+The fix is being included in the flight software upload that will happen
+around the week of 30 May 2005.  Until then, the distribution of BAT Lightcurve
+Notices will be blocked.  All the other GCN/Swift Notice types will continue
+to be distributed.  We regret any inconvenience that this may cause.
+

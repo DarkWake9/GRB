@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32265
+SUBJECT: IPN triangulation of GRB 220624A
+DATE:    22/06/24 22:08:37 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the MGNS/BepiColombo and HEND/Mars Odyssey teams,
+
+J. Benkhoff on behalf of the BepiColombo team,
+
+A. Ridnaia, D. Frederiks, D. Svinkin, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team,
+
+and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, R. Starr,
+and A.S. Gardner on on behalf of the GRS-Odyssey GRB team,
+report:
+
+The long-duration GRB 220624A
+(Fermi/GBM detection: Fermi GBM Team, GCN 32256;
+AGILE detection: Ursi et al., GCN 32259;
+AGILE/GRID detection: Verrecchia et al., GCN 32261;
+Swift/BAT-GUANO detection: Tohuvavohu et al., GCN 32263)
+has been detected by Fermi (GBM trigger 677732320),
+Konus-Wind, Mars-Odyssey (HEND), BepiColombo (MGNS),
+CALET (CGBM), AGILE (SA, MCAL, AC), and Swift (BAT),
+so far, at about 10715 s UT (02:58:35).
+The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+ ---------------------------------------------
+  RA(2000), deg                 Dec(2000), deg
+ ---------------------------------------------
+ Center:
+  179.348 (11h 57m 24s) +16.691 (+16d 41' 27")
+ Corners:
+  179.501 (11h 58m 00s) +16.922 (+16d 55' 18")
+  179.357 (11h 57m 26s) +16.791 (+16d 47' 29")
+  179.194 (11h 56m 47s) +16.456 (+16d 27' 20")
+  179.339 (11h 57m 21s) +16.590 (+16d 35' 25")
+ ---------------------------------------------
+The error box area is 91 sq. arcmin, and its maximum
+dimension is 33 arcmin (the minimum one is 4 arcmin).
+The Sun distance was 80 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi-GBM final localization (GCN 32256).
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220624_T10712/IPN
+
+The Konus-Wind time history and spectrum will be given in a forthcoming
+GCN Circular.

@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8564
+SUBJECT: GRB 081126: Confirmation of the Optical Afterglow 
+DATE:    08/11/27 15:56:19 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <Stephen.T.Holland@nasa.gov>
+
+S. T. Holland (CRESST/GSFC/USRA), P. A. Evans (U Leicester),
+F. E. Marshall (NASA/GSFC), P. Schady (MSSL), and R. Margutti (U
+Bicocca & OAB) report on the behalf of the Swift UVOT team:
+
+      We confirm the optical afterglow of GRB 081126 reported by
+Sergeev & Pozanenko (2008, GCN Circ. 8558). A re-examination of the
+UVOT data shows that there is a fading source at
+
+      RA (J2000)  21:34:03.59  =  323.51496 (deg)
+     Dec (J2000) +48:42:38.3   =  +48.71064 (deg)
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence,
+statistical + systematic).  This is consistent with the XRT error
+circle.  Preliminary photometry and 3-sigma upper limits for this
+source are
+
+Filter   T_start   T_stop   Exp(s)     Mag   Err
+------------------------------------------------
+  white        75      225     147     18.82 0.09
+     u        289      420     127     18.17 0.13
+
+     v       5161     5361     197     19.29 0.32
+     b       4546     4746     197     20.20 0.28
+     u       5778     5976     197    >20.4
+   uvw1      5572     5771     197    >20.0
+   uvm2      5366     5566     197    >19.6
+   uvw2      4957     5156     197    >20.0
+  white      4751     4951     197     20.33 0.21
+------------------------------------------------
+
+The quoted upper limits have not been corrected for the expected
+Galactic extinction along the line of sight corresponding to a
+reddening of E_{B-V} = 0.78 mag (Schlegel, et al., 1998, ApJS, 500,
+525).  All photometry is on the UVOT photometric system described in
+Poole et al. (2008, MNRAS, 383, 627).  The detection in the u filter,
+combined with the lack of detections in the UV filters, is consistent
+with the afterglow having a redshift of approximately 2.4 < z < 3.8.
+However, this result is uncertain due to the large Galactic reddening
+along the line of sight to this source.
+
+      The source identified in Holland & Margutti 2008, (GCN
+Circ. 8559) as being possibly extended is consistent with the
+catalogued position of the 2MASS point source 21340333+4842361.  The
+separation between this 2MASS source and the afterglow is 3.2 arcsec.
+Since the photometry of the 2MASS source and the afterglow are
+consistent with both sources having at the same redshift it is
+possible that the 2MASS source is the host galaxy.  Further
+observations are encouraged to confirm or reject this hypothesis.
+
+      Holland & Margutti 2008, (GCN Circ. 8559) misidentified the
+optical afterglow as as the 2MASS point source 21340333+4842361.  We
+apologize for any confusion caused by the misidentification in the
+previous UVOT Circular on GRB 081126.
+

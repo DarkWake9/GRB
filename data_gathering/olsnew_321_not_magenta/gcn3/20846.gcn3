@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20846
+SUBJECT: GRB 170311A: Swift detection of a burst
+DATE:    17/03/11 08:25:14 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. R. Cummings (NASA/UMBC), K. L. Page (U Leicester),
+D. M. Palmer (LANL) and B. Sbarufatti (INAF-OAB/PSU) report on behalf
+of the Swift Team:
+
+At 08:08:42 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 170311A (trigger=741965).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 280.563, -30.063 which is 
+   RA(J2000) = 18h 42m 15s
+   Dec(J2000) = -30d 03' 45"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 15 sec.  The peak count rate
+was ~1200 counts/sec (15-350 keV), at ~2 sec after the trigger. 
+
+The XRT began observing the field at 08:10:28.0 UT, 105.1 seconds after
+the BAT trigger. Using promptly downlinked data we find a fading,
+uncatalogued X-ray source with an enhanced position: RA, Dec 280.5893,
+-30.0458 which is equivalent to:
+   RA(J2000)  = 18h 42m 21.43s
+   Dec(J2000) = -30d 02' 44.8"
+with an uncertainty of 2.1 arcseconds (radius, 90% containment). This
+location is 102 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.30
+x 10^21 cm^-2 (Willingale et al. 2013). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 109 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. Because of the density of
+catalogued stars, further analysis is required to report an upper limit for any
+afterglow in the region. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.16. 
+
+Burst Advocate for this burst is J. R. Cummings (jayc AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

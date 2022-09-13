@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14502
+SUBJECT: GRB 130427A: Improved Swift-XRT analysis
+DATE:    13/04/29 14:32:17 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans, K.L. Page (U. Leicester), A. Maselli, V. Mangano, M. Capalbi 
+(INAF-IASFPA), D.N. Burrows (PSU) report on behalf of the Swift-XRT team:
+
+We have reanalysed the XRT data for GRB 130427A (Maselli  et al. GCN 
+Circ. 14448) from 144 s to 141 ks  after the BAT trigger. The data 
+comprise 1.9 ks of  Windowed Timing (WT) mode data, with the rest taken 
+in Photon Counting (PC) mode.
+
+The star trackers on Swift failed to find a correct aspect solution 
+during the first 1.9 ks of exposure (when the WT mode data were 
+collected; see GCN Circ. 14448), and the GRB is seen to be drifting on 
+the XRT detector. We have fitted this drift as a linear function, which 
+is a good representation to the data. We have then rebuilt the GRB light 
+curve and spectrum using this information. However, the time-tag of 
+individual photon events may be incorrect by up to 1 second, and the 
+method that we have used to correct the attitude may introduce low-level 
+fluctuations. It is therefore inappropriate to perform any detailed 
+timing or periodicity analysis with the current XRT data. We are working 
+to rectify this situation.
+
+The light curve can be modelled as a broken power-law with an initial 
+decay index of 2.81 (+/- 0.04) with a break at T+421 s to a slope of 
+alpha=1.17 (+/-0.01). This then breaks again at T+53.4ks to a final 
+slope of 1.79 (+0.5, -0.05).
+
+A spectrum formed from the WT mode data can be fitted with an absorbed 
+power-law with a photon spectral index of 1.91 (+/-0.11). The best 
+fitting absorption column is 2.8 (+/-0.05) x 10^21 cm^-2 at a redshift 
+of 0.34, in addition to the Galactic value of 1.8 x 10^20 cm^-2 
+(Kalberla et al. 2005). The counts to observed (unabsorbed) 0.3-10 keV 
+flux conversion factor deduced from this spectrum  is 3.8 x 10^-11 (5.2 
+x 10^-11) erg cm^-2 count^-1.
+
+If the light curve continues to decay with a power-law decay index of 
+1.79, the count rate at T+3 days will be 0.14 count/sec, corresponding 
+to an observed (unabsorbed) 0.3-10 keV flux of 5.3 x 10^-12 (7.3 x 
+10^-12) erg cm^-2 s^-1.
+
+The automated light curve of this GRB is online at 
+http://www.swift.ac.uk/xrt_curves/00554620/
+
+
+This circular is an official product of the Swift-XRT team.
+

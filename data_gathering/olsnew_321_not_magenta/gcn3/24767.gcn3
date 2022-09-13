@@ -1,0 +1,75 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24767
+SUBJECT: LIGO/Virgo S190425z: Swift UVOT - no new sources identified, and a summary of the Swift UVOT processing of GW triggers.
+DATE:    19/06/06 22:47:28 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N. P. M. Kuin (UCL-MSSL), A. A. Breeveld (MSSL-UCL),  C. Gronwall (PSU),
+F. E. Marshall (NASA/GSFC), S. R. Oates (Uni. of Warwick), M.J. Page
+(UCL-MSSL),
+M. de Pasquale (U Istambul), M. H. Siegel (PSU), A. D'Ai (INAF-IASFPA),
+P. D'Avanzo (INAF-OAB), S. D. Barthelmy (NASA/GSFC), A. P. Beardmore (U.
+Leicester),
+D. N. Burrows (PSU), S. Campana (INAF-OAB), S. B. Cenko (NASA/GSFC),
+G. Cusumano (INAF-IASF PA), V. D'Elia(ASDC), P. A. Evans (U. Leicester),
+P. Giommi (ASI), D. Hartmann (Clemson U.), J. A. Kennea (PSU),
+H. A. Krimm (NSF), A. Y. Lien (GSFC/UMBC), D. B. Malesani (DARK/NBI),
+A. Melandri (INAF-OAB), J. A.  Nousek (PSU), P. T. O'Brien (U. Leicester),
+J. P. Osborne (U. Leicester), C. Pagani (U. Leicester), K. L. Page
+(U.Leicester),
+D.M. Palmer (LANL), M. Perri (ASDC), J. L. Racusin (NASA/GSFC), T. Sakamoto
+(AGU),
+B. Sbarufatti (INAF-OAB/PSU), G. Tagliaferri (INAF-OAB), A. Tohuvavohu
+(PSU),
+and E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+The Neil Gehrels Swift Observatory UVOT and XRT instruments began pointed
+galaxy-targeted followup of the LIGO/Virgo detected S190425z (LVC GCN.
+24168)
+at 2019-04-25 12:53 UT (T0+274 min), delayed due to a commanding gap.
+The observations continued until 2019-04-26 20:15 UT, when they were aborted
+to begin followup of S190426c (LVC GCN. 24237).
+
+The UVOT points at the same sky area as the Swift XRT but with a slightly
+smaller FOV (17'x17'). As announced in Tohuvavohu et al.
+(GCN Circ. 24353 ), the Swift GW follow up can be seen at
+http://www.swift.ac.uk/LVC/.
+
+The Swift UVOT exposures of around 70s are usually in the u-band (central
+wavelength 350nm) or a UV band when there are bright stars in the FOV. The
+nominal exposure time varies depending on several factors like the slew
+time.
+The limiting magnitude can vary but typically is 18.6th magnitude.
+
+Each field is automatically processed by detecting sources in the image,
+matching them to several catalogs and screening the remaining sources to
+remove artifacts.  A check is made for any remaining candidates against the
+Minor Planet Center list of solar system objects. Candidates are ranked for
+further examination. In addition, for each galaxy detected in the UVOT image
+which is in the GLADE catalog, a "postage stamp" image of a small region
+around
+the galaxy is produced as well as a comparison "postage stamp" from the
+DSS to be used for manual inspection.
+
+After the automated processing, potential candidates are all examined
+manually.
+This allows for the removal of image artifacts from our candidate lists
+that
+sometimes get flagged as potential sources. For S190425z the automated
+processing
+identified 21 source candidates which all, except for one, were either
+image
+artifacts or fast moving objects that passed the screening.
+
+A further examination of the "postage stamps" with galaxies is then made as
+effort allows. This is done mainly because the source-finding algorithm
+has difficulty finding point sources in extended sources such as galaxies.
+
+For the fields observed for S190425z, 2298 galaxy postage stamp images were
+generated. No credible sources were found.
+
+The candidate source reported in Breeveld et al. (GCN Circ. 24296) was
+identified
+initially by the automated processing, and is likely a very red flaring
+object
+(see also Lipunov et al. GCN Circ. 24326).

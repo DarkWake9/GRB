@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25043
+SUBJECT: Konus-Wind observation of GRB 190708B
+DATE:    19/07/09 15:08:44 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R.Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A.Lysenko,
+and T. Cline on behalf of the Konus-Wind team, report:
+
+A long GRB was detected by Konus-Wind (KW) in the
+waiting mode on July 8, 2019 at ~71160 s UT (19:46:00),
+~240 s before the MAXI trigger (GRB 190708B;
+Kawakubo et al., GCN 25037).
+
+The burst light curve shows a single pulse
+with a duration of ~ 20 s. Taking into account the
+proximity of this burst to the MAXI/GSC trigger and
+the consistency of the KW ecliptic latitude response with
+the position of GRB 190708B we suggest that KW observed
+the main part of GRB 190708B.
+
+As observed by KW, the burst had a fluence of
+3.44(-0.33,+1.35)x10^-6 erg/cm2 and a 2.944-s peak flux,
+measured from ~T0(MAXI)-236.3 s, of 2.54(-0.73,+1.21)x10^-7 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Modeling the KW 3-channel time-integrated spectrum
+(from ~T0(MAXI)-242.2 s to ~T0(MAXI)-221.6 s)
+by a simple power-law model yields the power law
+index of -2.01(-0.08,+0.16), chi2 = 3.3/1 dof.
+
+Modeling this spectrum by a power law with exponential cutoff model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with the photon index alpha fixed to -1, yields
+Ep = 91.6 (-15.7,+28.7) keV, chi2 = 0.12/1 dof.
+
+The KW light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB190708B
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+

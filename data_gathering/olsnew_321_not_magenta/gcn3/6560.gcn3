@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6560
+SUBJECT: GRB 070621: Swift detection of a burst
+DATE:    07/06/21 23:36:31 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+B. Sbarufatti (INAF-IASFPA), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), P. J. Brown (PSU),
+M. M. Chester (PSU), C. Guidorzi (Univ Bicocca&INAF-OAB),
+S. T. Holland (CRESST/GSFC/USRA), J. A. Kennea (PSU),
+C. B. Markwardt (CRESST/GSFC/UMD), F. E. Marshall (NASA/GSFC),
+C. Pagani (PSU), D. M. Palmer (LANL),
+P. Romano (Univ. Bicocca & INAF-OAB), M. Stamatikos (NASA/ORAU) and
+T. N. Ukwatta (GSFC/GWU) report on behalf of the Swift Team:
+
+At 23:17:39 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070621 (trigger=282808).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 323.804, -24.806 which is 
+   RA(J2000)  =  21h 35m 13s
+   Dec(J2000) = -24d 48' 20"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows multiple peaks
+with a total duration of at least 40 sec.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~8 sec after the trigger. 
+
+The XRT began observing the field at 23:19:30 UT, 111 seconds after
+the BAT trigger. XRT found a bright and fading X-ray source located
+at RA, Dec 323.7909, -24.8181 which is
+   RA(J2000)  =  21h 35m 09.8s  
+   Dec(J2000) = -24d 49' 05.1"
+with an uncertainty of 4.7 arcseconds
+(radius, 90% containment). This location is 61 arcseconds from the
+BAT on-board position, within the BAT error circle. The initial flux
+in the 2.5s image was 3.7e-09 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 120 seconds after the BAT trigger. No
+afterglow candidate has been found in the initial data products. The
+2.7'x2.7' sub-image covers 100% of the XRT error circle. The 3-sigma
+upper limit is about 19.2 mag. The upper limit has not been corrected
+for the expected Galactic extinction along the line of sight
+corresponding to a reddening of E_{B-V} = 0.05 mag. 
+

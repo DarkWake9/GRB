@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9113
+SUBJECT: Swift-BAT trigger 348781: almost certainly not a burst
+DATE:    09/04/09 04:13:59 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+D. Grupe (PSU), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+M. M. Chester (PSU), N. Gehrels (NASA/GSFC), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC), C. Pagani (PSU), D. M. Palmer (LANL) and
+J. L. Racusin (PSU) report on behalf of the Swift Team:
+
+At 03:16:14 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a probable noise event.  Swift executed a delayed slew to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 268.829, +20.664, which is 
+   RA(J2000)  =  17h 55m 19s
+   Dec(J2000) = +20d 39' 49"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT TDRSS light curve shows noise
+on a rising background while going into the SAA. 
+
+The XRT began observing the field at 03:23:59.1 UT, 464.8 seconds after
+the BAT trigger, while still in the SAA. 
+No source was detected in the promptly available XRT data or in the 
+single pixels event data with an exposure time of 47 seconds. 
+We are waiting for the full dataset to detect and localize the possible
+XRT counterpart. 
+
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1620 seconds after the BAT trigger. No credible afterglow candidate
+has been found in the initial data products. The 2.7'x2.7' sub-image covers 25%
+of the BAT error circle. The typical 3-sigma upper limit has been about 19.6
+mag. The coverage of the BAT error circle by the 8'x8' region for the list of
+sources generated on-board is uncertain because the large number of sources
+filled the available telemetry. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.08. 
+
+
+
+
+Due to the marginal significance of the BAT detection (6.6 sigma 
+in the image),  the fact that it occurred during entry to the SAA, 
+and the lack of an XRT or UVOT counterpart, we believe that this 
+event is most likely not an astrophysical source.  A final 
+determination of the reality of the GRB will require the full 
+downlink of the Malindi data. 
+

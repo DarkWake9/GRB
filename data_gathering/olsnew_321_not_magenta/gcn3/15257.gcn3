@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15257
+SUBJECT: GRB 130925A Swift-BAT refined analysis
+DATE:    13/09/26 00:03:46 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+C. B. Markwardt (GSFC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (NASA/GSFC/ORAU), D. M. Palmer (LANL),
+T. Sakamoto (AGU), G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC),
+T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+7152 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 130925A (trigger #571830)
+(Lien, et al., GCN Circ. 15246).  The BAT ground-calculated position is
+RA, Dec = 41.186, -26.146 deg which is
+    RA(J2000)  =  02h 44m 44.5s
+    Dec(J2000) = -26d 08' 47.4"
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 9%.
+
+The mask-weighted light curve covers only a small part of this exceptionally
+long GRB (if indeed it is a GRB at all).  As reported by the Fermi-GBM team
+(Fitzpatrick, GCN Circ. # 15255) the event may have begun 17 minutes prior to
+the BAT trigger, and the source was still detected in BAT at T+2 hours.  Thus
+we cannot estimate a T90 at this time.  There were multiple peaks and several
+late-time flares.
+
+In the current analysis, the burst was first detected by BAT at T-59 sec, when
+the target entered the BAT field of view already emitting, and last detected by
+BAT in a survey interval ending at T+7152 sec.
+
+BAT also detected a flux increase during the first flare detected by XRT (Evans
+et al. GCN Circ. # 15254) that peaked at about T+1000 seconds.  BAT did not see
+a significant increase at the time of the next flare (brightest in XRT), peaking
+at about T+1380 seconds, though the source was still detected.  BAT did strongly
+detect increases during the XRT-observed flares that peaked at approximately
+T+4950 and T+7100 seconds.  BAT did not detect emission during another, smaller,
+flare observed by XRT that peaked at about T+11000 seconds.
+
+BAT has not detected significant flux from this location in the 15-50 keV band
+prior to the current event.
+
+The time-averaged spectrum from T-59 to T+903 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 1.85 +- 0.14,
+and Epeak of 33.4 +- 20.0 keV (chi squared 38.18 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 4.1 +- 0.1 x 10^-05 erg/cm2
+and the 1-sec peak flux measured from T-35.64 sec in the 15-150 keV band is
+7.3 +- 0.6 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 2.09 +- 0.04 (chi squared 45.62 for 57 d.o.f.).  The flares at T+4950 and
+T+7100 seconds have photon indices in simple power-law fits of 2.19 +- 0.36
+and 2.34 +- 0.28 respectively.  All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/571830/BA/
+

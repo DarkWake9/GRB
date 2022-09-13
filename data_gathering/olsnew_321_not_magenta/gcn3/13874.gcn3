@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13874
+SUBJECT: GRB 121011B: Suzaku WAM observation of the prompt emission
+DATE:    12/10/16 09:02:56 GMT
+FROM:    Masanori Ohno at Hiroshima U  <ohno@hep01.hepl.hiroshima-u.ac.jp>
+
+K. Takaki, Y. Hanabata,  T. Kawano, Y.Tanaka, R. Nakamura, M. Ohno,
+Y. Fukazawa (Hiroshima U.),
+A. Sakamoto, M. Tashiro, Y. Terada, W. Iwakiri, T. Yasuda, K. Takahara,
+M. Asahina, S. Kobayashi, H. Ueno (Saitama U.),
+M. Akiyama, N. Ohmori, E. Mochinaga, M. Yamauchi (Univ. of Miyazaki),
+Y. E. Nakagawa (Waseda U.), S. Sugita (Nagoya U.), K. Yamaoka,
+M. Kokubun, T. Takahashi (ISAS/JAXA), Y. Urata, P. Tsai (NCU), K. Nakazawa,
+K. Makishima (Univ. of Tokyo), on behalf of the Suzaku WAM team, report:
+
+The short, IPN localized GRB 121011B (Golenetskii et al., GCN 13863)
+
+triggered the Suzaku Wide-band  All-sky Monitor (WAM) which covers an
+energy range of 50 keV - 5 MeV at 22:32:22.753 UT (=T0).
+The observed light curve shows  a single peak structure starting at
+T0 s, ending at T0+0.5 s,  with a duration (T90) of about 0.28 seconds.
+The fluence in 100 - 1000 keV was 1.21 (-0.07, +0.15) x 10^-6 erg/cm^2
+The 1-s peak flux measured from T0-0.5s  was 2.10 (-0.26, +0.15)
+photons/cm^2/s in the same  energy range.
+
+Preliminary result shows that the time-averaged spectrum from T0 to
+T0+0.5s is well fitted by a power-law with exponential cutoff model:
+   dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak) with
+   alpha       0.45 (-0.59, +0.50), and
+   Epeak       810 (-139, 229) keV (chi^2/d.o.f. = 31.1/24).
+
+We also shows the results with the same spectrum fitted by a GRB Band
+model,
+the low-energy photon index alpha: -0.39 (-0.53, +0.68),
+the high-energy photon index beta: <-2.33
+and the peak energy Epeak: 778 (-163, +237) keV
+(chi^2/d.o.f = 30.3/23).
+
+All the quoted errors are at statistical 90% confidence level,
+in which the systematic uncertainties are not included.
+The light curves for this burst are available at:
+
+http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/trig/grb_table.html

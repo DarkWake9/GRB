@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21493
+SUBJECT: LIGO/Virgo G297595: Updated localization from LIGO and Virgo data
+DATE:    17/08/16 07:02:19 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and Virgo Collaboration report:
+
+We have re-analyzed LIGO and Virgo data around the time of the compact binary
+coalescence (CBC) event candidate G297595 (GCN 21474) taking into account
+our current understanding of calibration uncertainties.
+
+Parameter estimation has been performed using LALInference (Veitch et al.,
+PRD 91, 042003) and a new sky map, LALInference.fits.gz, is available for
+retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/events/G297595
+
+This is the preferred sky map at this time. The probability is
+concentrated near R.A.=03h06m, Dec.=-44d36m. The 50% and 90% credible
+regions span about 36 and 190 square degrees, respectively, somewhat
+larger than the initial BAYESTAR sky map due to marginalizing over
+calibration uncertainties. The 90% credible regions of the initial and
+this updated localization have significant overlap, but the 50% credible
+region is shifted east by its entire width.
+
+[GCN OPS NOTE(17aug17): Per author's request, "We have re-analyzed LIGO data..."
+was changed to "We have re-analyzed LIGO and Virgo data..."]
+

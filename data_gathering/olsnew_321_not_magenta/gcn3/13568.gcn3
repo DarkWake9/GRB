@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13568
+SUBJECT: GRB 120803A: Swift-BAT refined analysis
+DATE:    12/08/03 13:59:39 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. N. Ukwatta (MSU), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+J. L. Racusin (NASA/GSFC), T. Sakamoto (GSFC/UMBC), G. Sato (ISAS),
+M. Stamatikos (OSU), J. Tueller (GSFC)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-61 to T+242 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 120803A (trigger #529582)
+(Racusin, et al., GCN Circ. 13565).  The BAT ground-calculated position is
+RA, Dec = 269.531, -6.733 deg, which is 
+   RA(J2000)  =  17h 58m 07.4s 
+   Dec(J2000) = -06d 43' 58.0" 
+with an uncertainty of 2.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 54%.
+ 
+The mask-weighted light curve shows a single peak starting at ~T+0,
+peaking ~T+3 sec, and returning to baseline at ~T+20 sec.
+T90 (15-350 keV) is 10.0 +- 3.6 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T+0.40 to T+11.40 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.86 +- 0.35.  The fluence in the 15-150 keV band is 3.0 +- 0.5 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+3.40 sec in the 15-150 keV band
+is 0.4 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/529582/BA/
+
+We note that in our original circular (13565) that this event was labeled
+as a "possible" GRB.  Given that the BAT detection significance
+in ground proccessing has risen to 8.0 sigma, that the lightcurve shape
+is consistant with a GRB, and that it is off the Galactic Plane,
+we are confident that this trigger is due to a real GRB. 
+

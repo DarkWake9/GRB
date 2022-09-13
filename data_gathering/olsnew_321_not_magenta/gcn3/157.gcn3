@@ -1,0 +1,90 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  157
+SUBJECT: GRB980329 R,I flux calibration and R,I,K upper limits
+DATE:    98/11/19 06:44:24 GMT
+FROM:    James Rhoads at KPNO  <rhoads@noao.edu>
+
+James Rhoads, Arjun Dey, Buell Jannuzi, and Megan Sosey (on behalf of
+the KPNO GRB followup team); Sylvio Klose; Daniel Reichart; Andrew
+Fruchter; and Francisco Castander report:
+ 
+We have used data obtained by Rhoads on the night of 980403 UT to
+calibrate Klose's I band measurement of the optical transient
+associated with GRB 980329 (GCNC #43).  We find an optical transient
+magnitude I=20.8 +- 0.3 on March 29.8-30.0 (cf. Reichart et al, in
+preparation).  The corresponding flux density is 11 +- 3 microJansky.
+The data consisted of 1200 seconds integration per filter on the GRB
+980329 field in R band (April 3.147) and I band (April 3.167) at
+airmass 1.1, plus brief R and I band observations of the SA107 field
+at airmass 1.4.  The data were taken with the 4 meter Mayall telescope
+and Mosaic CCD Imager at Kitt Peak National Observatory.  Weather was
+photometric with poor image quality (from 1.25 to 1.75 arcsec).
+Details of the photometric calibration and a table of reference star
+magnitudes in the GRB 980329 field are at the end of this circular.
+
+We used the same data to measure the flux at the location of the
+transient.  No obvious source is present at the location of the
+transient (7:02:38.0 +38:50:44 J2000.0) in either filter.  R band
+photometry using a 0.75 and 1.25 arcsecond radius apertures, corrected
+for aperture losses using the curve of growth, yield flux estimates
+of 0.40 +- 0.25 and 0.80 +- 0.25 microJansky, where the error bar
+includes contributions from photon counting noise and from sky
+subtraction uncertainties only.  Conservatively, this gives a 3 sigma
+upper limit of 1.50 microJansky (for a one-sided confidence interval
+with probability 99.73%) and R > 23.3 magnitudes.
+
+For the I band, the aperture-corrected point source fluxes measured in 
+0.75 and 1.25 arcsecond radius apertures are 0.06 +- 0.51 and -0.12 +- 0.44
+microJansky.  The first implies a 3 sigma upper limit of 1.48 microJansky
+and to I > 23.0, while the second gives an upper limit of 1.10 microJansky
+and I > 23.3 magnitudes.
+
+In addition, we report a K band upper limit using data obtained by
+Dey, Jannuzi, and Sosey (on behalf of the NOAO Deep Widefield Survey
+team) on 1998 April 3.205 using the Kitt Peak National Observatory 2.1
+meter telescope and ONIS camera.  No point source is apparent at the
+location of the transient.  The RMS counts in the image imply a 3
+sigma upper limit of 13.4 microJansky for a point source (in a 1
+arcsec radius aperture and corrected using the curve of growth),
+which corresponds to K > 19.2 at the 3 sigma level.
+
+ - Details of the photometric calibrations - 
+Reliable optical fluxes were measured for the Landolt standard stars
+SA107-212, 213, 357, 359, 351, 457, 456, 600, 599, 612, 626, and 627.
+Standard star and GRB field photometry was done in a similar fashion,
+with growth curves derived from multiaperture photometry used to
+correct all magnitudes to an effective 7" radius.  The photometric
+errors in the GRB frame were taken from the IRAF "mkapfile" task,
+which applies the aperture corrections.  Additional errors were added
+in quadrature to account for uncertainties in the photometric zero
+point (+- 0.004 mag in both R and I), color correction terms (+-
+0.07*[R-I - 0.42]), and airmass correction term (+- 0.01 mag for I
+band and +- 0.024 mag for R band).
+ 
+The table of measured magnitudes for objects near GRB 980329:
+# RA (J2000) Dec        R     err(R)      I    err(I)
+#
+7:02:39.0 38:50:32.7  15.7     1.0      15.300  0.2 
+7:02:37.5 38:50:33.5  15.85    1.0      15.450  0.12
+7:02:35.1 38:50:23.2  16.30    0.3      15.988  0.036 
+7:02:40.1 38:50:11.8  16.9664  0.0314   16.647  0.0155
+7:02:39.4 38:50:03.1  18.4428  0.0275   18.093  0.0175
+7:02:38.7 38:50:26.9  20.655   0.0646   19.473  0.0623
+7:02:36.6 38:50:36.3  20.3862  0.0536   19.331  0.0478
+7:02:36.3 38:50:19.8  20.5135  0.0464   19.625  0.0459 
+7:02:38.4 38:50:50.7  21.2876  0.0688   20.026  0.0711 
+7:02:51.0 38:49:31.0  17.6592  0.0456   16.668  0.0399 
+7:02:50.4 38:49:57.1  17.9663  0.0258   17.539  0.0161
+#
+Users of this table should be aware that the magnitude uncertainties
+for the different stars include some sources of systematic error
+(airmass and color terms) that are not independent from star to star.
+Also, the first two entries are substantially saturated in R and I;
+the third is substantially saturated in R and perhaps marginally in I;
+and the fourth may be marginally saturated in R.  Photometric errors
+quoted for saturated stars are approximate guesses.
+ 
+More detail, and sections of the processed R and I band images, are
+available from  http://www.noao.edu/noao/grb/980329.html .
+This report is citable.
+

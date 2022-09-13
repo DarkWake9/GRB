@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4820
+SUBJECT: GRB 060223: Swift-BAT refined analysis
+DATE:    06/02/23 19:34:30 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+J. Cummings (GSFC/NRC), S. Barthelmy (GSFC), L. Barbier (GSFC),
+E. Fenimore (LANL), N. Gehrels (GSFC), D. Hullinger (GSFC/UMD),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/NRC), G. Sato (ISAS),
+J. Tueller (GSFC) on behalf of the Swift-BAT team:
+
+Using the partial data set from T-300 to T+302 sec from telemetry
+downlinks, we report further analysis of BAT GRB 060223 (trigger #192059)
+(Cummings, et al., GCN 4813; Marshall et al, GCN 4814).
+The BAT ground-calculated position is RA,Dec = 55.188,-17.130 deg
+{3h 40m 45.1s, -17d 7' 46.6"} (J2000) +- 1.2 arcmin, (radius, sys+stat,
+90% containment).  The BAT error circle contains the afterglow detected
+by UVOT (GCN 4813).  The partial coding was 69%.
+
+The mask-weighted light curve shows a single episode of emission
+from T-4 to T+10 sec.   There is a possible broad, faint precursor
+at ~T-25 sec, but no significant emission after T+10 sec.
+T90 (15-350 keV) is 11 +- 2 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-2.9 to T+10.0 is best fit by a
+simple power-law model. The power-law index of the time-averaged
+spectrum is 1.74 +- 0.12.  The fluence in the 15-150 keV band is
+6.8 +- 0.5 x 10^-07 erg/cm2.  The 1-sec peak photon flux measured
+from T+0.08 sec in the 15-150 keV band is 1.4 +- 0.2 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level.  Given the redshift
+reported for this burst (Berger et al, GCN 4815), z = 4.41, we calculate
+Eiso = 2.82 10^52 ergs in the 81-812 keV band in the rest frame of the
+source.
+

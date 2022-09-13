@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16306
+SUBJECT: GRB 140518A, Swift-BAT refined analysis
+DATE:    14/05/19 00:27:52 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+T. N. Ukwatta (MSU), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (NASA/UMBC), C. B. Markwardt (GSFC), A. Melandri (INAF-OAB),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+J. Tueller (GSFC) (i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+962 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 140518A (trigger #599287)
+(Melandri, et al., GCN Circ. 16298).  The BAT ground-calculated position is
+RA, Dec = 227.231, 42.396 deg which is
+  RA(J2000)  =  15h 08m 55.3s
+  Dec(J2000) = +42d 23' 44.2"
+with an uncertainty of 1.8 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 89%.
+
+The mask-weighted light curve shows multiple peaks with roughly three main pulse
+structures. The first main pulse starts at ~T-4 s and ends at ~T+8 s. The second main
+pulse starts at ~T+38 s, followed immediately by the third main pulse structure that
+starts at ~T+48 s and ends at ~T+61 s. Additionally, each of these main pulse structure
+contains several  sub-pulses. T90 (15-350 keV) is 60.5 +- 2.4 sec (estimated error
+including systematics).
+
+The time-averaged spectrum from T-4.1 to T+60.0 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 0.92 +- 0.61,
+and Epeak of 43.9 +- 7.6 keV (chi squared 54.15 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 1.0 +- 0.1 x 10^-6 erg/cm2
+and the 1-sec peak flux measured from T+41.94 sec in the 15-150 keV band is
+1.0 +- 0.1 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.97 +- 0.13 (chi squared 65.02 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/599287/BA/
+
+

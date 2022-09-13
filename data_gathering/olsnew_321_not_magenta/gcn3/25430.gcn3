@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25430
+SUBJECT: Fermi GBM-190816: Four additional candidates from the Zwicky Transient Facility
+DATE:    19/08/21 18:04:13 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+Robert Stein (DESY),  Anna Franckowiak (DESY), Mansi M. Kasliwal (Caltech), Igor Andreoni (Caltech), Michael W. Coughlin (Caltech), Shreya Anand (Caltech), report on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+ 
+We have continued serendipitous observations of the localization region of the subthreshold joint Fermi GBM-LVC gravitational wave trigger Fermi GBM-190816 (GCN 25406) using the Palomar 48-inch telescope equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). Additional observations were conducted as part of the public survey, with exposures of 30s and a typical depth of ~20.5 mag. In total, 39% of the localisation region has now been observed at least twice by ZTF. This coverage estimate does not account for chip gaps. The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to vet candidates based on their light curves. After rejecting stellar sources (Tachibana and Miller 2018) and moving objects and applying machine learning algorithms (Mahabal et al. 2019), and after removing candidates with history of variability prior to the merger time, four new transient candidates were identified by our pipeline in the 90% localization. The detections from the most recent night of observations, August 21st, are summarised below.
+ 
+--------------------------------------------------------------------
+  ZTF Name     | RA (deg) | DEC (deg)  | Filter | Mag | Mag Err
+--------------------------------------------------------------------
+ ZTF19abqykei  | 69.0926074 | 10.3722396 |   r | 18.77 | 0.11
+       --      | --      | -- |   g | 19.52 | 0.21
+ ZTF19abqrrto  | 55.8037407 | 40.165587  | r | 19.16 | 0.13
+ ZTF19abqrqgm  | 53.6462259 | 50.2638424 |   r | 19.68 | 0.17
+ ZTF19abqgyxp  | 104.4287931 | 56.0874661 |   r | 19.14 | 0.13
+--------------------------------------------------------------------
+ 
+ZTF19abqykei, additionally reported as AT2019obh, was detected last night in both g and r. It has risen by 0.5 mag in r in the last three days, and is very red. ZTF19abqrrto has been detected twice in r, is rising, and is offset from its host galaxy. ZTF19abqrqgm has been detected three times in r, and is fading. ZTF19abqgyxp has been detected once in both g and r, and is offset from its host.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).
+

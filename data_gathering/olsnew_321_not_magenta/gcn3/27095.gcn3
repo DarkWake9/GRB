@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27095
+SUBJECT: LIGO/Virgo S200213t: Updated coverage and candidate list for the Zwicky Transient Facility
+DATE:    20/02/16 04:38:13 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Michael Coughlin (U Minn), Igor Andreoni (Caltech), Varun Bhalerao (IITB), S. Brad Cenko (NASA GSFC), Danny Goldstein (Caltech), Viraj Karambelkar (Caltech), Mansi M. Kasliwal (Caltech), Harsh Kumar (IITB), Simeon Reusch (DESY), Robert Stein (DESY)
+
+on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+
+An updated skymap from the bilby pipeline (Ashton et al., 2019) was released for the gravitational-wave trigger S200213t (LVC, GCN #27042). We previously reported observations performed with the Palomar 48-inch telescope equipped with the Zwicky Transient Facility camera (ZTF, Bellm et al. 2019, Graham et al. 2019) in Kasliwal et al., GCN #27051. The updated ZTF coverage based on the bilby skymap is 81%.
+
+Several candidates discovered with ZTF were previously reported (Kasliwal et al., GCN #27051; Andreoni et al., GCN #27065; Reusch et al., GCN #27068), most of which were spectroscopically classified as transients unrelated to S200213t (Valeev et al., GCN #27060; Castro-Tirado et al., GCN #27063; Ho et al., GCN #27074; Andreoni et al., GCN #27075).
+
+Candidates that require spectroscopic follow-up and are included in the 95% probability area of the bilby skymap are listed in the table below.
+
++--------------+-----------+-------------+--------------+--------+------+----------+-------+
+|     Name     |  IAU Name |      RA     |     Dec      | filter | mag  |   MJD    | Notes |
++--------------+-----------+-------------+--------------+--------+------+----------+-------+
+| ZTF20aanakwb | AT2020cls | 00:26:05.17 | +42:46:25.40 |   g    | 21.0 | 58893.11 |       |
+| ZTF20aanaltd | AT2020clt | 00:38:57.76 | +43:26:27.85 |   g    | 20.8 | 58893.11 |       |
+| ZTF20aamvpvx | AT2020clx | 02:07:45.67 | +20:01:50.21 |   g    | 20.3 | 58892.21 |  (1)  |
+| ZTF20aanamcs | AT2020crc | 00:54:58.40 | +43:29:52.89 |   r    | 20.9 | 58893.14 |  (2)  |
+| ZTF20aanakge | AT2020crd | 00:50:31.35 | +41:29:03.04 |   r    | 20.7 | 58893.14 |       |
+| ZTF20aanaqhe | AT2020cre | 01:08:10.22 | +45:31:32.37 |   g    | 20.9 | 58892.22 |  (3)  |
+| ZTF20aanakes | AT2020cly | 00:08:23.65 | +38:02:38.86 |   g    | 21.1 | 58893.11 |  (a)  |
++--------------+-----------+-------------+--------------+--------+------+----------+-------+
+
+(a) orphan, g-r~0.8, 22 minutes of time separation between detections
+(1) photoz = 0.07 (SDSS)
+(2) photoz = 0.13 (SDSS)
+(3) photoz = 0.16 (SDSS)
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert filtering and follow-up coordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019). Alert database searches are done with using the Kowalski infrastructure (Duev et al., 2019) and with AMPEL (Nordin et al. 2019).
+
+

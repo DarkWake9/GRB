@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8046
+SUBJECT: GRB 080727B: KAIT photometry and an early lightcurve break
+DATE:    08/07/28 23:49:10 GMT
+FROM:    Weidong Li at UC Berkeley KAIT/LOSS  <weidong@astron.berkeley.edu>
+
+W. Li, R. Chornock, D. A. Perley, J. S. Bloom, and A. V. Filippenko,
+University of California at Berkeley, on behalf of the KAIT GRB team;
+D. A. Kann, TLS Tautenburg, report:
+
+We have analyzed the KAIT observations of the OA of GRB 080727B
+as reported in Li et al. (GCN 8024). The imaging sequence started
+with 10 x 2 s unfiltered exposures, with the OA detected on each
+frame. A series of 20 s V, I, and unfiltered images were then 
+obtained, and the OA was detected in the first couple of I and
+unfiltered images. Additional photometry (calibrated to USNO B1):
+
+UT start  exptime  filter     mag     err
+
+08:14:46  2  s      clear   18.98    0.28
+08:16:03  20 s      clear   19.64    0.07
+08:17:35  20 s      clear   20.68    0.23 
+
+Our GRB pipeline used more than 100 USNO B1 stars in calculating the
+photometric zero point. However, we suspect that the USNO B1 calibration
+for the GRB field may be significantly off.  Based on our experience in
+the limiting magnitude of the KAIT 2 s and 20 s unfiltered images, we
+estimate that the above photometry and those reported in GCN 8024 should
+be made brighter by 1.0 - 2.0 mag.  The corrected KAIT photometry, together
+with the REM NIR detection (D'Avanzo et al. GCN 8037), suggests an
+optical - NIR color of R-H (Vega)  = 1.2 to 2.2 mag, which is consistent
+with the SED fit from the GROND observations (predicted R-H (AB) = 1.0 mag;
+Kruehler et al. GCN 8045).  
+
+The KAIT unfiltered light curve of GRB 080727B can be well fit by
+a broken power-law with an index of 1.08 +/- 0.07 between t = 49 s
+to 169 s, and 1.88 +/- 0.21 between t= 169 s and 524 s. Such an
+early break in the light curve is quite extraordinary. 
+
+We plan to obtain photometric calibrations of the GRB field in the
+upcoming photometric nights at Lick Observatory.
+

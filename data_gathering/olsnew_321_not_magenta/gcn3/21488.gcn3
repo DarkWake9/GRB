@@ -1,0 +1,98 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21488
+SUBJECT: LIGO/Virgo G297595: Pan-STARRS coverage and transients over the first 5hrs  
+DATE:    17/08/15 16:11:56 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+K. C. Chambers (IfA), K. W. Smith (QUB), M. E. Huber (IfA),
+S. J. Smartt, D. R. Young (QUB), M. Coughlin (Harvard), T.-W. Chen
+(MPE), L. Denneau, H. Flewelling, A. Heinze, E. Kankare (QUB),
+T. Lowe, E. A. Magnier (IfA), A. Rest (STScI), B. Stalder (IfA),
+A. S. B. Schultz, C. W. Stubbs (Harvard) J. Tonry, C. Waters,
+R. J. Wainscoat, H. Weiland, M. Willman (IfA), D. E. Wright (QUB)
+
+Following Katsavounidis et al. (GCN 21474), we report Pan-STARRS
+imaging observations of the skymap (bayestar.fits) of G297595, a GW
+source with event time 2017/08/14 10:30:43.526780 == MJD
+57979.43800378
+
+We covered around 60 square degrees on the first night following the
+release of the G297595 alert. We began taking data at 2017-08-14.564
+UT (57979.564; 3hrs after the event detection, and 2.5hrs after the
+alert).  We estimate that this first night of data coverage
+corresponds to a probability of containing the source of around 60%,
+(based on the bayestar.fits map; Singer et al. 2016, ApJL 829,
+15). Our coverage map will be posted on GraceDB.  Note that we could
+not go below dec=-48, and did not cover the most southern part of the
+skymap.
+
+Images were taken in the Pan-STARRS i-band filter in a series of
+overlapping 45s exposures, with typically 4-6 images at each position.
+Difference images were produced by subtracting the Pan-STARRS1 3Pi
+reference image from these separate 45s exposures (Chambers et
+al. arXiv:1612.05560, and available at http://panstarrs.stsci.edu).
+At airmass of 2.8 to 2.3, we reach i ~ 21 in the individual exposures.
+
+Using techniques discussed in Smartt et al. (2016, MNRAS, 462, 4094),
+we have located and vetted transients with quality filters and a
+machine learning algorithm on the difference images.
+
+Obvious variable sources which are likely AGN/QSOs or variable stars
+have, as far as possible, been removed from this transient list
+through catalogue matching.
+
+We found 6 objects that are likely astrophysical transients, but all 6
+are close to or coincident with the cores of resolved galaxies.  The
+difference images are good quality and these are likely real, but
+may be AGN activity. Given the recent interest in nuclear transients
+and their nature we report them here for follow-up.
+
+The “prob countour” gives the bayestar.fits map probability which
+contains the transient.
+
+We found no SN-like, or GRB-afterglow like candidates which are
+associated with a galaxy and offset from the core, and 
+similarly no orphan hostless transients to a limit of i ~ 21. 
+Some of the following transients could be nuclear supernovae but
+have no measurable offsets. 
+
+
+name    ra           dec           mjd      disc mag   prob contour Notes  
+PS17edg 02:51:44.91 -39:39:29.0    57979.568  20.29 i    70           1
+PS17edm 02:54:18.07 -41:31:25.8    57979.576  20.62 i    40           2
+PS17edh 02:54:07.09 -41:37:31.8    57979.576  18.36 i    40           3
+PS17edn 02:55:45.77 -40:40:17.4    57979.576  20.78 i    50           4
+PS17edl 02:52:48.23 -41:25:51.3    57979.578  20.51 i    40           5
+PS17edj 02:30:45.31 -45:07:02.1    57979.587  18.39 i    90           6
+
+
+1. The transient is associated with APMUKS(BJ) B024948.84-395146.3; a
+20.03 mag galaxy found in the NED catalogue. It's located 0.34" S,
+0.30" W from the galaxy centre.
+
+2. The transient is associated with LCRS B025225.0-414335; a 18.86 mag
+galaxy found in the NED catalogue. It's located 0.3" from the galaxy
+core.
+
+3.  The transient is associated with LCRS B025214.1-414941; a 17.26
+mag galaxy found in the NED catalogue. It's located 0.3" (0.7 Kpc)
+from the galaxy core. A host z=0.146 implies a transient M = -20.85.
+
+4. The transient is associated with 02554579-4040171 ; a J=16.85 mag
+stellar source found in the 2MASS PSC catalogue. It's located 0.4"
+from the source core. The object appears slightly extended in the PS1
+images and is likely a galaxy.
+
+5. The transient is associated with 02524824-4125517 ; a J=16.72 mag
+stellar source found in the 2MASS PSC catalogue. It's located 0.4"
+from the source core. The object appears slightly extended in the PS1
+images and is likely a galaxy.
+
+6. The transient is synonymous with LCRS B022852.4-452018; a 18.45 mag
+galaxy found in the NED catalogue. It's located 0.2" (0.5 Kpc) from
+the galaxy core. A host z=0.143 implies a transient M = -20.56.
+
+
+
+
+

@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6849
+SUBJECT: Konus-Wind observation of GRB 071003
+DATE:    07/10/04 11:50:07 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 071003 (Swift-BAT trigger #292934:
+Schady et al., GCN 6837; Ukwatta et al., GCN 6842) triggered
+Konus-Wind at T0=27655.120 s UT (07:40:55.120).
+
+The burst light curve shows a multipeaked structure
+with a duration of ~30 s. There is a hint of
+the weak extended emission reported by BAT
+(Ukwatta et al., GCN 6842) in the Konus-Wind data.
+As observed by Konus-Wind the burst
+had a fluence of 5.32(-0.67, +0.30)x10^-5 erg/cm2,
+and a 64-ms peak flux measured from T0+2.464 s
+of 1.22(-0.22, +0.19)x10^-5 erg/cm2/s
+(both in the 20 keV - 4 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+30.720 s) is well fitted
+(in the 20 keV - 4 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 0.97 +/- 0.07
+and Ep = 799(-100, +124) keV (chi2 = 74.2/74 dof).
+The spectrum of the most intense part
+(from T0 to T0+14.336 s) is well fitted
+(in the same range)
+by a power law with exponential cutoff model
+with alpha = 0.76 (-0.07, +0.06)
+and Ep = 780(-70, +81) keV (chi2 = 75.6/74 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB071003_T27655/
+

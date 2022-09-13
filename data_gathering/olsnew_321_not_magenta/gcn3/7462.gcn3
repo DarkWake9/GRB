@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7462
+SUBJECT: GRB 080319B, Swift-BAT refined analysis
+DATE:    08/03/19 20:21:44 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC), E. Fenimore (LANL),
+N. Gehrels (GSFC), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+K. McLean (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+J. L. Racusin (PSU), T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-120 to T+182 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 080319B (trigger #306757)
+(Racusin, et al., GCN Circ. 7427).  The BAT ground-calculated position is
+RA, Dec = 217.919, 36.300 deg which is 
+   RA(J2000)  =  14h 31m 40.7s 
+   Dec(J2000) = +36d 17' 58.4" 
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+ 
+The mask-weighted light curve shows a large long bump of a peak
+starting at ~T-10 sec, ramping up until ~T+10 sec, then mostly a flat top
+with some small structure superposed, then starting to decay at ~T+50 sec.
+It returns nearly to background by ~T+64 sec at which point there is
+a loss of data due to an on-board data product buffer overflow.
+The data resumes at T+120 sec.  There is still detectable emission
+in the BAT 15-350 keV band out to T+180 sec (the limit of the data
+downlinked so far).  From other count rate data products, we can say
+that there is no other peaks during the 60-sec missing event data window
+and that the low-level emission is about 10-15% of the peak emission.
+Given the missing data, T90 (15-350 keV) has to be >50 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-3.8 to T+62.2 and T+120 to T+151 sec
+is fit by a simple power-law model.  The power law index
+of the time-averaged spectrum is 1.04 +- 0.02.  The fluence
+in the 15-150 keV band is 8.1 +- 0.1 x 10^-05 erg/cm2.
+The 1-sec peak photon flux measured from T+16.87 sec in the 15-150 keV band
+is 24.8 +- 0.5 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/306757/BA/
+
+Due to a large backlog in downlinking the full data on this burst,
+we currently do not have the usual data set out to long times yet.
+Should the remaining data show that there is ongoing activity 
+for this burst past the data cutoff at T+182sec, then we will
+issue an updated 'refined analysis' circular.
+

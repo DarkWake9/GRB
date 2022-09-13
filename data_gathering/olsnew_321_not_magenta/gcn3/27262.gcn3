@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27262
+SUBJECT: LIGO/Virgo S200224ca: Updated Sky Localization and EM Bright Classification
+DATE:    20/02/28 18:24:40 GMT
+FROM:    Vinaya Valsan at U. of Wisconsin Milwaukee  <vvalsan@uwm.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have conducted further analysis of the LIGO Hanford Observatory
+(H1), LIGO Livingston Observatory (L1), and Virgo Observatory (V1)
+data around the time of the compact binary merger (CBC) candidate
+S200224ca (GCN Circular 27184). Parameter estimation has been
+performed using LALInference [1] and a new sky map,
+LALInference.fits.gz,1, distributed via GCN Notice, is available for
+retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S200224ca
+
+The preferred sky map at this time is LALInference.fits.gz,1. For the
+LALInference.fits.gz,1 sky map, the 90% credible region is 72 deg2.
+Marginalized over the whole sky, the a posteriori luminosity distance
+estimate is 1575 +/- 322 Mpc (a posteriori mean +/- standard
+deviation).
+
+Based on posterior support from parameter estimation [1], under the
+assumption that the candidate S200224ca is astrophysical in origin,
+the probability that the lighter compact object has a mass < 3 solar
+masses (HasNS) is <1%. Using the masses and spins inferred from the
+signal, the probability of matter outside the final compact object
+(HasRemnant) is <1%.
+
+For further information about analysis methodology and the contents
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+[1] Veitch et al. PRD 91, 042003 (2015)

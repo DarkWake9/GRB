@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5750
+SUBJECT: Swift XRT boresight update
+DATE:    06/10/25 16:22:39 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+D. N. Burrows (PSU), A. Moretti (INAF-OAB), M. Perri (ASDC), M. 
+Capalbi (ASDC), L. Angelini (NASA/GSFC) and J. E. Hill (USRA) report 
+on behalf of the XRT instrument team:
+
+Approximately one month ago the XRT team reported a change in the XRT 
+boresight since about 1 May 2006 that resulted in decreased 
+positional accuracy (Burrows et al., GCN Circ. 5628).  We have now 
+completed preliminary analysis of the XRT pointing accuracy over the 
+mission life and have derived a new boresight appropriate to current 
+conditions.  The XRT team will immediately begin reporting refined 
+positions based on ground-processed data using the new boresight, as 
+part of our beta-testing process.  This will return XRT refined 
+position accuracy to its previous level (typically 3.5 - 4 
+arcseconds, 90% radius.)  Note that on-board positions have not yet 
+been corrected to the new boresight.  We will notify the community 
+when this is done, but for the time being, on-board positions are 
+several arcseconds away from the actual location, and the error 
+circle included in automated XRT Position Notices should be increased 
+by about 50% to account for this systematic error.  The new boresight 
+information will be included in an updated set of TELDEF files 
+covering different time periods (part of the Swift CALDB), which will 
+be made available to the rest of the community as part of the next 
+software release, currently scheduled for no earlier than 27 November, 2006.
+

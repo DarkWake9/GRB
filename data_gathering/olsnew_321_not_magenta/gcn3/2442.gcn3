@@ -1,0 +1,72 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2442
+SUBJECT: XRF031109 (=H2919):  A very long XRF localized by HETE
+DATE:    03/11/11 02:57:33 GMT
+FROM:    Roland Vanderspek at MIT  <roland@space.mit.edu>
+
+XRF031109 (=H2919):  A very long XRF localized by HETE
+
+T. Tamagawa, G. Ricker, J-L. Atteia, N. Kawai, D. Lamb, and S. Woosley
+on behalf of the HETE Science Team;
+
+T. Donaghy, C. Graziani, E. Fenimore, M. Galassi, M. Matsuoka, T.
+Sakamoto, Y. Shirasaki, M. Suzuki, K. Torii, A. Yoshida, Y. Nakagawa,
+R. Satoh, Y. Urata, T. Yamazaki and Y. Yamamoto, on behalf of the
+HETE WXM Team;
+
+A. Dullighan, R. Vanderspek, G. Crew, J. Doty, G. Prigozhin, J.
+Villasenor, J. G. Jernigan, N. Butler, G. Azzibrouck, J. Braga,
+R. Manchanda, and G. Pizzichini, on behalf of the HETE Operations
+and HETE Optical-SXC Teams;
+
+M. Boer, J-F Olive, J-P Dezalay, C. Barraud, and K. Hurley on behalf
+of the HETE FREGATE Team;
+
+report:
+
+At 19:28:59 UTC (70138 s UT) on 9 November 2003, the HETE FREGATE 
+and WXM instruments detected event H2919, a very long X-ray Flash (XRF).
+
+The burst triggered the WXM in the 2-25 keV energy band.  No prompt
+notification was distributed due to the low image S/N of the burst
+in the flight analysis.  Initial ground analyses showed the burst to 
+be soft, with a duration of ~20s.  Because this burst was detected 
+seven minutes before the star cameras had come on line, although the 
+WXM data localized the burst to a 15' radius, the original error 
+estimate for the celestial coordinates was four degrees.  
+
+Further analysis of the burst data set has revealed that the burst
+continued at a low level for at least seven and perhaps 10 minutes:
+we estimate t50 to be 310 seconds, t90 to be 480s.  Localization of
+the photons detected near the end of the burst, and therefore just
+before the beginning of star tracker operations, allows the burst to
+be localized to an error circle of 20' radius centered at
+
+   R.A. = 00h 17m 03s.49,  (J2000)
+   Dec. =  -7o 08' 41"
+
+An automated fit of a cutoff power-law spectrum has been performed
+for H2919.  The fit of the model to the data is posted at
+
+   http://space.mit.edu/HETE/Bursts/GRB031109
+
+The automated fit for the first 52 seconds of the burst gives the 
+following values of Epeak and the burst fluence (25-100 keV):
+
+-- Epeak      = 29 keV
+-- Fluence    = 1.1e-06 erg/cm^2
+
+NB:  The S/N of the fit decreases significantly for longer 
+     integration times.
+
+Also posted at the above website are the following data, in the
+formats described by Vanderspek (GCN 2421):
+
+-- Fregate light curve and ascii data tables (energy bands A [7-30 keV],
+    B [7-80 keV], and C [30-400 keV])
+-- Color-color plot location of H2919 relative to other HETE-localized bursts
+-- Signal-to-noise histogram location of H2919 in Fregate Band C
+    relative to other HETE-localized bursts
+
+This message may be cited.
+

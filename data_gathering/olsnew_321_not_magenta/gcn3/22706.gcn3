@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22706
+SUBJECT: Swift trigger 831888: misidentification of 4U 1416-62
+DATE:    18/05/11 18:59:18 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), F. E. Marshall (NASA/GSFC), 
+B. Sbarufatti (PSU), and A. Tohuvavohu (PSU) 
+report on behalf of the Swift Team:
+
+Further ground analysis shows that the BAT trigger #831888 
+(Tohuvavohu et al. GCN Circ. 22699) was due to misidentification
+of 4U 1416-62 (a.k.a. 2S 1417-624 and H 1417-624). 
+The misidentification was caused by a known race condition in the 
+Swift/BAT software, which leads to incorrect spacecraft attitude 
+information to be applied to a known source.
+
+4U 1416-62 is currently undergoing a giant outburst, which is detected 
+by MAXI (Nakajima et al. ATel #11479) and the BAT transient monitor
+(Krimm et al. ATel #11569).
+
+The known X-ray source 1RXS J141805.9-621902, detected in the 
+XRT field of view at a flux level of 1.41+/-0.2 E-12 erg/cm^2/s, is 
+unrelated to BAT the trigger.
+
+We apologize for any inconvenience.
+

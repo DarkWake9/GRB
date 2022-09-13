@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3816
+SUBJECT: GRB050815: XRT refined analysis
+DATE:    05/08/16 02:29:08 GMT
+FROM:    David Morris at PSU/Swift-XRT  <morris@astro.psu.edu>
+
+D. C. Morris, D. N. Burrows, J. A. Kennea, J. L. Racusin (PSU), and N. 
+Gehrels (GSFC) report on behalf of the Swift XRT team:
+
+We have analysed the first three orbits of data for GRB050815 (GCN 3811, 
+Fox et al., 2005).  Using xrtcentoid, the refined position is:
+
+RA(J2000) = 19h 34m 23.2s
+Dec(J2000) = +09d 08' 49.6"
+
+with an uncertainty of 8 arcsec. This is 5.6 arcsec from the original 
+XRT position (GCN 3812, Morris et al., 2005).
+
+The XRT began taking data at 17:26:28UT, 69 seconds after the BAT 
+trigger. The XRT collected data for only 123s during the first orbit 
+before the source was occulted. The data show a faint source in the 
+first orbit and suggest an initially shallow decay index of ~-0.2 
+followed by a break occuring somewhere between 192s and 3000s to a 
+steeper decay index of ~-2.1.
+
+The spectrum is well fit (reduced chi-sq of 1.03 for 9 dof) by a power 
+law with neutral hydrogen consistent with the galactic column density of 
+2.7e21:
+
+gamma=1.4 + / - 0.2
+NH=2.1e21 + / - 7e20
+
+Fixing the NH to the galactic column density also returns a good fit 
+(reduced chi-sq of 1.00 for 10 dof):
+
+gamma=1.5 + / - 0.1
+
+The count rate at 10000s after the trigger is ~0.015 cts/s which 
+converts to an unabsorbed flux of 9e-13 ergs cm^-2 s^-1 from 0.2-10keV.
+

@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22671
+SUBJECT: GRB 180418A: TAROT La Silla observatory early optical observations
+DATE:    18/04/25 00:27:40 GMT
+FROM:    Alain Klotz at IRAP-CNRS-OMP  <Alain.Klotz@free.fr>
+
+Klotz A., Noysena.K., Atteia J.L. (CNRS-OMP-IRAP),
+Boer, M., Eymar, L. (CNRS-ARTEMIS),
+Gendre B. (UVI - Etelman Obs.) report:
+
+We imaged the field of GRB 180418A detected by SWIFT
+(trigger 826428) with the TAROT robotic telescope (D=25cm)
+located at the European Southern Observatory,
+La Silla observatory, Chile.
+
+The observations started 28s after the GRB trigger
+(15s after the notice). The elevation of the field decreased from
+6 degrees above horizon and weather conditions were good.
+
+The first image is trailed with a duration of 60.0s
+(see the description in Klotz et al., 2006, A&A 451, L39).
+Despite the very elevation we can measure the very
+early optical light variation of the OT reported by
+Zheng & Filippenko (GCNC 22647). We used NOMAD-1 1149-0186465
+as reference star r(AB)=15.23 (according SDSS DR9).
+Preliminary analysis gives:
+
+start end  r(AB) 1sig
+(sec) (sec)
+   28   36  14.30 0.04
+   36   43  14.24 0.03
+   43   51  14.40 0.03
+   51   58  14.61 0.04
+   58   66  14.98 0.05
+   66   73  15.42 0.06
+   73   81  15.52 0.09
+   81   88  15.83 0.15
+
+The following images are taken in tracking mode.
+We used the same reference star for PSF fitting:
+
+start end  r(AB) 1sig
+(sec) (sec)
+  100  130  15.96 0.06
+  141  171  16.50 0.11
+  181  211  16.58 0.13
+  221  251  17.10 0.31
+  262  292  16.90 0.25
+  302  392  17.00 0.29
+
+Magnitudes are not corrected for galactic dust extinction.
+
+We note that the maximum brightness of the OT
+seems to occured at 40s r(AB)=14.24 followed by
+a decay of about alpha=2.7 until 70s. Then the decay
+is compatible with alpha=1.1 until 6 min (end of TAROT
+observations because the elevation was too low).
+

@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7780
+SUBJECT: Swift analysis of BAT Slew Survey event (Trigger=009)
+DATE:    08/06/01 22:47:46 GMT
+FROM:    Eleonora Troja at INAF-IASFPA  <nora@ifc.inaf.it>
+
+E. Troja (U.  Leicester/INAF-IASFPA), S. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), A. Copete (Harvard),
+J. Grindlay (Harvard), P. Evans (U. Leicester)
+report:
+
+At 01:17:20 UT on 2008-05-31, BAT detected a source during a spacecraft
+slewing interval (when normal BAT triggering is disabled). This event
+(ID_Num=009) was detected using the BAT Slew Survey (BATSS) method and
+classified it as 'Silver plated' -- highly likely to be a GRB. The
+location is
+   RA(J2000) = 22h 53m 24s
+  Dec(J2000) = +54d 57' 00"
+with an uncertainty of 7.7 arcmin.
+This was initially distributed as a GCN/BAT_SLEW_POS Notice at 13:53 UT,
+12.6 hrs after the slew.
+The Swift BAT team performed a further analysis of the event data during
+this slew. No sign of a source was found at the BATSS position with a
+3 sigma upper limit of 0.10 cts/s.
+
+A  2 ks ToO observation of the location started at 15:42 UT, 14.4 hrs
+after the slew. The XRT observation (Photon Counting mode) detected
+an X-ray source with a count rate of 0.04 cts/s. Its position is
+
+   RA(J2000) = 22h 53m 08.54s
+  Dec(J2000) = +55d 04m 34.0s
+
+with an uncertainty of 4.6 arcsec (90% confidence). This is at the edge
+of the BATSS error circle. This source shows no indication of fading over
+the 2 ks interval.
+
+We therefore conclude that this event is not a GRB and that the source
+found by XRT is an unassociated field object.
+

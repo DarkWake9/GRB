@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22588
+SUBJECT: Konus-Wind observation of GRB 180402A
+DATE:    18/04/03 16:59:32 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks, M. Ulanov,
+A. Tsvetkova, A. Lysenko, A. Kozlova, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration, hard-spectrum GRB 180402A
+(Swift-BAT detection: Lien et al., GCN Circ. 22580;
+Fermi-GBM detection: Malacaria, GCN Circ. 22585)
+triggered Konus-Wind at T0=35100.353 s UT (09:45:00.353).
+
+The burst light curve shows bright, multi-peaked emission episode,
+which starts at T0-64 ms and has a total duration of ~180 ms,
+preceded by a weaker pulse at ~T0-340 ms.
+
+As observed by Konus-Wind, the burst
+had a fluence of 2.14(-0.33,+0.53)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.086 s,
+of 2.03(-0.45,+0.60)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Since the most intense part of the burst was detected before
+the trigger, the spectral analysis was performed using
+the KW 3-channel light curve data.
+
+Modeling the KW 3-channel spectrum of the main episode
+(from T0-0.064 s to T0+0.116 s)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -0.01(-0.43,+0.64), and Ep = 703(-161,+276) keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB180402_T35100
+
+All the quoted errors are at the 68% confidence level.
+All the quoted values are preliminary.
+

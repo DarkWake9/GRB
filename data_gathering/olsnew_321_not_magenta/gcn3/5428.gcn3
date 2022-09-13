@@ -1,0 +1,59 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5428
+SUBJECT: GRB 060805B: XRT Team Analysis
+DATE:    06/08/09 13:50:00 GMT
+FROM:    Olivier Godet at U.of Leicester  <og19@star.le.ac.uk>
+
+O. Godet, K. L. Page, M. R. Goad, E. Rol, P.T. O'Brien (U Leicester),
+P. Schady (UCL-MSSL), and K. Hurley (UCB) report on behalf of the
+Swift-XRT team:
+
+GRB 060805B was detected by IPN (GNC Circ 5407). XRT started to observe
+35.1 hours after the IPN trigger for a present 25ks of data. The full
+IPN error box was within the XRT field of view. Using the ftool
+xrtcentroid, the first 25ks of the XRT data revealed an X-ray source in
+the IPN error box at (J2000):
+
+RA =  18 10 05.56
+Dec = +58 09 16.3
+
+with an uncertainty of 3.9 arcseconds (90% containment). This position
+consistent with that given by Butler 2006 (GCN Circ. 5414) does not
+correspond to any catalogued X-ray sources. We note that the X-ray
+position is consistent with the position of two optical sources S1 and
+S2 in the USNO-B1.0 (Monet et al. 2003) and APM-North (McMahon et al.
+2000) catalogues, repectively.  The source S1 (RA(J2000) = 18 10 05.56
+and Dec = +58 09 19.3) is 2.9 arcseconds away from the XRT position. The
+source S2 (RA(J2000) = 18 10 05.60 and Dec = +58 09 19.1) is 2.8
+arcseconds away from the XRT position. The positions of the optical
+sources are consistent with those reported by Butler 2006 (GCN Circ.
+5414).
+
+The spectrum from the first 19ks of the PC data can be well fitted by an
+absorbed power-law with Gamma = 1.78 +0.36/-0.33. No clear evidence of
+absorption in excess over the Galactic absorption (nH(Gal) = 3.7e20
+cm^-2 from Dickey & Lockman 1990) is seen in the data. The unabsorbed
+flux in the 0.5-10 keV energy band is 3.9 +1.8/-1.1e-13 erg cm^-2 s^-1.
+These results are consistent with those given by Butler (2006; GCN Circ
+5414).
+
+Using the initial 19ks of data did not allow us to determine if the
+X-source was really fading. Indeed, fitting the light-curve with a
+constant (C) gives a value of chi^2/dof=6.5/7 with C = 0.0087+/-0.0012,
+while using a power-law gives a value of chi^2/dof=4.0/6 with alpha =
+1.62 +1.70/-1.56 (http://www.swift.ac.uk/grb060805b.shtml). Using a
+power-law allows an improvement of delta chi^2 = 2.5 for 1 dof i.e. less
+than 90% confidence. 
+
+Adding 6 ks of data obtained at later time allows us to confirm that the
+X-ray source is actually fading with a decay slope of alpha = 1.20
++0.72/-0.53 (http://www.swift.ac.uk/grb060805b.shtml) and is likely to
+be the afterglow of GRB 060805B.
+
+We would like to encourage ground observations in order to determine the
+redshift of this burst.
+
+This circular is an official product of the Swift-XRT team.
+
+
+

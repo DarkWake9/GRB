@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22078
+SUBJECT: GRB 171030A: Swift non-localization with BAT, XRT and UVOT
+DATE:    17/11/01 17:13:59 GMT
+FROM:    Valerio D'Elia at ASDC  <valerio.delia@ssdc.asi.it>
+
+V. D'Elia (SSDC), A. Y. Lien (GSFC/UMBC), D. M. Palmer (LANL), F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester), D. Malesani (DARK/NBI), J.A. Kennea (PSU), S.L. Gibson (U. Leicester), J.P. Osborne (U. Leicester), A. D'Ai (INAF-IASFPA), A. Melandri (INAF-OAB), P. D'Avanzo (INAF-OAB), B. Sbarufatti (INAF-OAB/PSU), D.N. Burrows (PSU) and P.A. Evans (U. Leicester) report on behalf of the Swift team:
+
+At 17:29:45.12 UT on 2017-10-30, Swift BAT detected the rate increase associated with a short Fermi/GBM burst (Fermi trigger 531077390, BAT trigger #784509), also detected by INTEGRAL, and later broadly localized with the Interplanetary Network (IPN) using data from all three spacecraft (GCN # 22076).
+
+On-board imaging found no sources above a 6.5 sigma image threshold, but ground analysis showed that a sub-threshold peak (5.8 sigma) in the image domain was consistent with the IPN error box and the Fermi/GBM 2 sigma localization. This image peak was about half the intensity that would be normally expected based on the count rate excess, but this is within the range of plausible variation allowed by statistics and systematics.  We also note that the IPN and Fermi localizations have a large fraction of their area outside of the BAT FOV, where BAT has rate-increase sensitivity but no localization ability.  Therefore, the data are consistent with locations both at the sub-threshold image peak, and outside of the FOV.
+
+A Swift XRT ToO observation was requested for the purpose of determining whether there was an afterglow at the image peak location. The BAT on-board calculated location is  RA, Dec 68.671, -15.422 which is
+RA(J2000) = 04h 34m 41.0s
+Dec(J2000) = -15d 25’ 19.2"
+with an uncertainty of 3 arcmin (radius, 90% containment).
+
+Swift-XRT has performed follow-up observations of the Swift/BAT-detected burst GRB 171030A, collecting 4.0 ks of Photon Counting (PC) mode data between T0+108.9 ks and T0+127.0 ks.
+
+No X-ray sources have been detected consistent with being within 296 arcsec of the Swift/BAT position. The 3-sigma upper limit in the field is 0.003 ct  s^-1, corresponding to a 0.3-10 keV observed flux of 1.2e-13 erg cm^-2 s^-1 (assuming a typical GRB spectrum).
+
+Two uncatalogued sources were detected too far from the GRB position to be likely afterglow candidates.
+
+The results of the XRT-team automatic analysis of the XRT observations,
+including a position-specific upper limit calculator, are available at
+http://www.swift.ac.uk/ToO_GRBs/00020783.
+
+The Swift/UVOT observed the field of GRB 171030A three times between 109 ks and 116 ks after the trigger for a total exposure of 1751 s.  All the exposures used the UVW2 filter. No new source was found with an upper limit of 21.0 mag. No correction has been made  for the Galactic extinction due to the reddening of E(B-V) = 0.22 in the direction of the burst (Schlegel et al. 1998).
+
+Based on the non-detection of an afterglow by XRT, we conclude that GRB 171030A was either outside of the BAT FOV, and thus not associated with the location of the sub-threshold image peak, or too faint to be detected at the time of the Swift ToO.
+
+This is an official product of the Swift team.
+

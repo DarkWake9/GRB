@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14045
+SUBJECT: GRB 121209A: Swift detection of a burst
+DATE:    12/12/09 22:09:02 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+A. Maselli (INAF-IASFPA), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), D. N. Burrows (PSU),
+J. A. Kennea (PSU), N. P. M. Kuin (UCL-MSSL),
+C. B. Markwardt (NASA/GSFC), F. E. Marshall (NASA/GSFC),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/PSU), M. H. Siegel (PSU)
+and E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift Team:
+
+At 21:59:11 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 121209A (trigger=540964).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 326.801, -8.244 which is 
+   RA(J2000)  =  21h 47m 12s
+   Dec(J2000) = -08d 14' 39"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows multiple peaks
+with a total duration of about 60 sec.  The peak count rate
+was ~3300 counts/sec (15-350 keV), at ~20 sec after the trigger. 
+
+The XRT began observing the field at 22:00:43.3 UT, 92.0 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source located at RA, Dec 326.78917, -8.23262 which is equivalent
+to:
+   RA(J2000)  = 21h 47m 09.40s
+   Dec(J2000) = -08d 13' 57.4"
+with an uncertainty of 3.9 arcseconds (radius, 90% containment). This
+location is 58 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper.  We
+cannot determine whether the source is fading at the present time. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (3.81 x
+10^20 cm^-2, Kalberla et al. 2005), with an excess column of 2.8
+(+2.58/-2.19) x 10^21 cm^-2 (90% confidence). 
+
+UVOT data is not yet available. 
+
+Burst Advocate for this burst is A. Maselli (maselli AT ifc.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

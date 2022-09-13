@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16158
+SUBJECT: Swift Trigger 596958 is probably the flare star: DG CVn
+DATE:    14/04/23 21:41:04 GMT
+FROM:    Kim Page at U.of Leicester  <kpa@star.le.ac.uk>
+
+V. D'Elia (ASDC), N. Gehrels (NASA/GSFC), S. T. Holland (STScI),
+H. A. Krimm (CRESST/GSFC/USRA), C. B. Markwardt (NASA/GSFC),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester),
+T. Sakamoto (AGU), B. Sbarufatti (INAF-OAB/PSU) and
+T. N. Ukwatta (MSU) report on behalf of the Swift Team:
+
+At 21:07:08 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located an X-ray source (trigger=596958).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 202.928, +29.258 which is 
+   RA(J2000) = 13h 31m 43s
+   Dec(J2000) = +29d 15' 30"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with an image trigger, 
+the BAT light curve shows no significant structure.  This is a 
+15-50 keV trigger with a duration of 64 seconds. 
+
+The XRT began observing the field at 21:09:05.1 UT, 117.0 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+202.9436, 29.2763 which is equivalent to:
+   RA(J2000)  = +13h 31m 46.46s
+   Dec(J2000) = +29d 16' 34.7"
+with an uncertainty of 4.9 arcseconds (radius, 90% containment). This
+location is 82 arcseconds from the BAT onboard position, within the BAT
+error circle. This position is 2.9 arcsec from that of the known flare 
+star DG CVn, and 1.1 arcseconds from that of a known X-ray source, 
+3XMM J133146.5+291635 in the XMM-NEWTON XMMSSC catalogue. 
+No event data are yet available to determine the column density using
+X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 4.10e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 125 seconds after the BAT trigger. UVOT sees a very bright saturated
+source near the XRT position. Because of coincidence loss, it is difficult to
+accurately determine the position or count rate. 
+

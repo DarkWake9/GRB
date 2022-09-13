@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14323
+SUBJECT: GRB 130315A: Swift/UVOT Upper Limits 
+DATE:    13/03/16 20:19:38 GMT
+FROM:    Stephen Holland at STScI  <sholland@stsci.edu>
+
+S. T. Holland (STScI) and P. A. Evans (U Leicester)
+report on behalf of the Swift/UVOT team:
+
+     Swift/UVOT began settled observations of the field of GRB 130315A
+starting 171 s after the BAT trigger (Evans et al., 2013, GCNC 14311).
+We do not detect any new source within the XRT error circle (Page et al.,
+2013, GCNC 14317).  Preliminary UVOT 3-sigma upper limits at this
+position are presented below.
+
+------------------------------------------------
+Filter      TSTART     TSTOP    Exposure     Mag
+------------------------------------------------
+white (FC)     171       321         147   >21.1 
+    u (FC)     330       580         246   >20.3 
+------------------------------------------------
+    v         4476    23,657        1136   >20.7 
+    b         3860    28,925        1685   >21.7 
+    u          330    17,889        1443   >21.4 
+ uvw1         4887    17,764        1995   >21.3 
+ uvm2         4681    16,857        1277   >21.0 
+ uvw2         4271    22,898        1279   >21.2 
+white          171    29.424        1022   >22.2 
+------------------------------------------------
+
+    The quoted upper limits have not been corrected for the Galactic
+extinction along the line of sight to this burst of E_{B-V} = 0.32 mag
+(Schlafly et al. 2011, ApJS, 737, 103).  The photometry is in the UVOT
+photometric system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373).
+The photometry is affected by the presence of a J = 15.4 mag 2MASS
+source 10301128-5147395 located 2.3 arcsec south of the XRT position.
+
+

@@ -1,0 +1,110 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20790
+SUBJECT: LIGO/Virgo G275404: iPTF Optical Transient Candidates
+DATE:    17/03/02 07:29:15 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+M. M. Kasliwal (Caltech), S. M. Adams (Caltech), C. Cannella (Caltech), R.
+Lunnan (Caltech), R. Ferretti (OKC), T. Kupfer (Caltech), L. P. Singer
+(NASA/GSFC), S. B. Cenko (NASA/GSFC), R. Walters (Caltech), T. Barlow
+(Caltech), J. Rana (IUCAA), V. Bhalerao (IIT-B), A. A. Miller
+(Northwestern/Adler), Y. Cao (UW), R. Laher (IPAC), F. Masci (IPAC)
+
+report on behalf of the iPTF (intermediate Palomar Transient Factory) and
+GROWTH (Global Relay of Observatories Watching Transients Happen)
+collaborations:
+
+We performed tiled observations of LIGO/Virgo G275404 (LVC, GCN 20738) and
+LIGO/Virgo G275697 (LVC, GCN 20763) using the Palomar 48-inch Oschin
+telescope (P48) on the night of 2017-03-01 UTC (delay due to inclement
+weather). We imaged 84 fields spanning 633 square degrees, with a 17%
+chance of containing the true location of G275404. Of these, 47 fields (361
+square degrees) were imaged twice, containing 11% of the probability of
+containing G275404, and searched for transient candidates.
+
+During preliminary sifting through candidate variable sources using image
+subtraction by our IPAC (Masci et al. 2016) and NERSC (Cao et al. 2016)
+pipelines, a total of 140 candidates were saved in the fields imaged.
+Applying standard iPTF vetting procedures and removing transients with a
+history of previous variability, we flagged 27 optical transient candidates
+in the 90% localization contour of G275404, listed below, for further
+follow-up.
+
+Name         RA              Dec            UTC          R-mag      z
+Notes
+iPTF17bpa   150.966591      1.095135        09:07        18.72   0.0456
+specz; off center from host
+iPTF17bpb   154.902074      -2.992951       09:25        19.56   0.0511
+photz; pstar=0.016; nuclear?
+iPTF17bpc   155.671912      -3.647882       09:25        19.31
+pstar=0.001; nuclear?
+iPTF17bpd   155.181672      -4.163867       09:25        19.28
+pstar=0.804; nuclear/stellar?
+iPTF17bpk   157.626592      -11.121047      10:20        19.63
+nuclear/stellar?
+iPTF17bpm   161.324311      -14.376753      10:04        19.26
+pstar=0.229; nuclear/stellar?
+iPTF17bpn   161.238427      -14.017486      10:04        19.56
+pstar=0.46; nuclear/stellar?
+iPTF17bpo   158.494163      -12.65084       10:02        19.03
+pstar=0.96; nuclear/stellar?
+iPTF17bps   161.952768      -15.243493      10:04        19.76
+hostless (very slow mover?)
+iPTF17bpt   157.657157      -7.372908       09:29        19.49
+fading (0.5 mag intra-night); pstar=0.89; nuclear/stellar?
+iPTF17bpu   157.559861      -6.799173       09:29        19.81
+pstar=0.612; nuclear/stellar?
+iPTF17bpy   156.687516      -7.684226       09:29        19.98
+pstar=0.933; nuclear/stellar?
+iPTF17bqc   158.470076      -11.493302      10:02        19.62
+pstar=0.717; nuclear/stellar?
+iPTF17bqh   156.749276      -10.358467      10:00        19.49
+rising (0.4 mag intra-night); nuclear/stellar?
+iPTF17bqi   156.87908       -7.04181        09:29        19.41
+pstar=0.962; nuclear/stellar?
+iPTF17bqk   162.188261      -15.49746       10:04        19.76
+nuclear/stellar?
+iPTF17bqz   157.651689      -7.696641       09:29        19.83
+pstar=0.885; nuclear/stellar?
+iPTF17bro   288.344596      58.81211        10:59        19.82
+rising (0.5 mag intra-night), nuclear?
+iPTF17brp   291.671757      79.220007       11:47        19.42   0.076
+photz; pstar=0.056; off center from host galaxy
+iPTF17brr   289.432632      79.995864       11:47        19.88
+pstar=0.898; nuclear/stellar?
+iPTF17bru   294.594305      63.706556       11:36        19.95          off
+center from host galaxy
+iPTF17bsd   156.642225      -10.970993      10:00        19.68
+rising (0.3 mag intra-night); nuclear
+iPTF17bsi   297.077103      78.352918       12:01        19.08   0.014
+photz; off center from host galaxy
+iPTF17bst   156.998904      -7.216924       09:29        19.87
+pstar=0.973; nuclear/stellar?
+iPTF17btb   302.938179      72.930472       12:03        18.56
+nuclear/stellar?
+iPTF17btc   309.740925      72.580678       12:03        18.97
+nuclear/stellar?
+iPTF17bth   307.33055       68.241724       12:05        19.31
+nuclear/stellar?
+
+Positions are stated in the ICRS. Discovery times are noted in UTC hh:mm on
+2017-03-01. Magnitudes are based on image subtraction and in the Mould R
+filter, calibrated with respect to point sources in SDSS as described in
+Ofek et al. 2012.
+
+We caution that many candidates are outside the SDSS footprint and lack a
+secure star/galaxy classification for the underlying source. We flag these
+as "nuclear/stellar?". Where available, we provide machine-learning
+probability scores on whether the underlying source is a galaxy/star (0/1)
+(Miller et al. 2016).
+
+We encourage spectroscopic classification of these candidates. In
+particular, we highlight iPTF17bpt, iPTF17bqh, iPTF17bsd as fast-evolving
+by more than 0.3 mag in the same night; iPTF17bpa and iPTF17bsi as local
+transients (d < 200 Mpc), and iPTF17bpa and iPTF17btb as bright transients
+(m < 19 mag).
+
+We are grateful to the Palomar crew (especially John Henning, Jeff
+Zolkower, Carolyn Heffner, Jamey Eriksen, Nick Ganciu) for their hard work
+in reviving a faulty declination encoder essential to collecting this
+dataset during the last two days of iPTF survey operations.

@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4281
+SUBJECT: GRB 051117B: Swift detection of a burst
+DATE:    05/11/17 13:59:44 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+D. Band (PSU), S. Barthelmy (GSFC), A. Beardmore (U Leicester),
+D. Burrows (PSU), J. Cummings (GSFC/NRC), S.T. Holland (GSFC/USRA),
+M. Goad (U. Leicester), O. Godet (U. Leicester), N. Gehrels (GSFC),
+C. Gronwall (PSU), J. Kennea (PSU), H. Krimm (GSFC/USRA),
+J. Osborne (U Leicester), K. Page (U Leicester)
+on behalf of the Swift team:
+
+At 13:22:54 UT, Swift-BAT triggered and located GRB 051117B (trigger=164279).
+The BAT on-board calculated location is RA,Dec 85.225d,-19.245d
+{05h 40m 54s,-19d 14' 41"} (J2000), with an uncertainty of 3 arcmin
+(radius, 90% containment, stat+sys).  The BAT light curve shows
+a multi-peak structure with a total duration of ~25 sec.  The peak count
+rate was ~800 counts/sec (15-350 keV), at ~2 seconds after the trigger.
+
+The spacecraft slewed immediately and the XRT began observing the GRB at
+13:25:09 UT, 135 sec after the BAT trigger.  The on-board detection algorithm
+did not centroid on a source due to insufficient counts, so no prompt X-ray
+position is available.  However, the XRT prompt light curve and raw spectrum
+look like a faint GRB.  More information will be available around 16:30 UT,
+after the next Malindi ground-station pass.
+
+UVOT took a finding chart exposure of 200 sec with the V filter
+starting 133 sec after the BAT trigger.  No afterglow candidate
+has been found in the initial data products.  The sub-image covers 19%
+of the BAT error circle.  No afterglow candidate is found in the list
+of sources generated on-board, which covers 89% of the BAT error circle.
+The list of sources is typically complete to about 17th mag.  No correction
+has been made for the expected visual extinction of about 0.19 magnitudes.
+

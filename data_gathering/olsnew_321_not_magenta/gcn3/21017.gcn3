@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21017
+SUBJECT: Swift trigger 748858: Swift BAT, XRT, and UVOT refined analysis
+DATE:    17/04/19 22:30:06 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), D. N. Burrows (PSU),
+N. Gehrels (GSFC), H. A. Krimm (NSF/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/PSU),
+M. H. Siegel (PSU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) on behalf of the Swift team:
+
+Using the data set from the recent telemetry downlink, we report further analysis
+of the Swift/BAT trigger #748858 (Siegel et al., GCN Circ. 21011).
+
+The BAT data analysis is performed using data from T-239 to T+963 sec.
+The BAT ground-calculated position is
+RA, Dec = 199.804, 15.442 deg which is
+  RA(J2000)  =  13h 19m 13.0s
+  Dec(J2000) = +15d 26' 31.1"
+with an uncertainty of 2.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+
+The BAT mask-weighted light curve shows a very weak pulse that starts at ~T0
+and ends at ~T+65 s. T90 (15-350 keV) is 61 +- 15 sec (estimated error
+including systematics).
+
+The time-averaged spectrum from T-2.00 to T+65.00 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.19 +- 0.58.  The fluence in the 15-150 keV band is 1.8 +- 0.7 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+7 sec in the 15-150 keV band
+is 0.2 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+Results from the BAT data analysis are consistent with those of a long GRB.
+Also, the image significance of 7.4 sigma suggests that the detection is likely
+to be real. However, because there is no confirmed XRT and UVOT detections
+of a fading counterpart, we cannot rule out the possibility that the BAT signal is
+from some other origin.
+
+In 3.8 ks of XRT Photon Couning data covering T+158 s to T+16.8 ks we detect
+a single source inside the BAT error circle:
+
+RA (J2000): 13h 19m 24.41s = 199.8517d
+Dec (J2000): +15d 30’ 00.4” = 15.5001d
+Pos. error: 7.9" (radius, 90% confidence)
+Peak rate: 4.45e-3 (+1.43e-3, -1.20e-3) ct/sec
+
+The source is much fainter than expected for early time XRT observations of
+a long GRB and shows no evidence of fading, so we cannot rule out the possibility
+that it is an unrelated object or a non-GRB source.
+
+The Swift/UVOT began settled observations of the field 150s after the BAT trigger.
+No optical afterglow consistent with the BAT or XRT positions was detected in the
+initial UVOT exposures down to a limit of 21.0 in the white filter and 20.0 in the u filter.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/748858/BA/

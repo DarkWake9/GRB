@@ -1,0 +1,44 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3420
+SUBJECT: GRB050509b, Bok telescope B-band imaging
+DATE:    05/05/13 00:34:33 GMT
+FROM:    Daniel Eisenstein at U of Arizona  <deisenstein@as.arizona.edu>
+
+Charles W. Engelbracht and Daniel J. Eisenstein (Arizona) report:
+
+We acquired B-band imaging of the field of GRB050509b using the 90-prime
+1-degree camera on the 2.3-m Bok telescope.  The time of the observation
+was 0500 UT May 10 (25 hours after the burst).  The exposure time was 20
+minutes, and the seeing was 1.7" due to wind shake.  We clearly detect
+the source S1 (GCN 3388, 3401) at a B-band magnitude of 23.9.  We do
+not find any sources in our B-band image that are not in the Hjorth et
+al. JPG image (GCN 3410).
+
+We are making the calibrated data for a 30' square region centered on
+the burst available at 
+    http://cmb.as.arizona.edu/~eisenste/grb050509b/grb050509b_B.fits.gz
+
+The header contains WCS astrometric information, good to 0.5".
+We estimate the photometric calibration at 5%.  If you are using the B
+band image, please send an email to deisenstein@as.arizona.edu so that
+we can inform you of any revisions.
+
+While this image is surely not as deep as the nearly contemporaneous
+Keck LRIS imaging (GCN 3409), it may be useful for photometric redshifts.
+The B band lies blueward of but close to the 4000A break for the cluster
+at z=0.225 (Gal et al., AJ, 125, 2064, 2003; Prochaska et al., GCN 3399).
+Combined with slightly redder filters (V or g), one should be able to
+efficiently distinguish cluster members from higher redshift galaxies.
+
+We remark that if the GRB is at a much higher redshift than the cluster,
+then mapping of the cluster may be important for assessing the impact of
+gravitational lensing on the interpretation the burst.  The velocity
+dispersion of 340 km/s (Prochaska et al., GCN 3399) for the large
+galaxy near the XRT position (Rol et al., GCN 3395) would predict an
+Einstein radius of 3.3" with a singular isothermal sphere model and an
+infinitely distant source.  The embedding of the galaxy in the cluster
+may increase this value.  Although multiple imaging remains unlikely,
+there should be non-negligible magnification.
+
+This note can be cited.  
+

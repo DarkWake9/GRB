@@ -1,0 +1,97 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24191
+SUBJECT: LIGO/Virgo S190425z: Candidates from the Zwicky Transient Facility
+DATE:    19/04/25 17:46:37 GMT
+FROM:    Mansi M. Kasliwal at Caltech/Carnegie  <mansikasliwal@gmail.com>
+
+Mansi M. Kasliwal (Caltech), Michael W. Coughlin (Caltech),  Eric C. Bellm
+(UW), Leo P. Singer (NASA GSFC), K. De (Caltech),  Igor Andreoni (Caltech),
+Dmitry Duev (Caltech), Shreya Anand (Caltech), Tomas Ahumada (UMD), S.
+Bradley Cenko (NASA GSFC), D. Goldstein (Caltech), A. Ho (Caltech), D. A.
+Perley (LJMU), V. Bhalerao (IITB),  H. Kumar (IITB), Y. Sharma (IITB), C.
+Copperwheat (LJMU), Virginia Cunningham (UMD), Shaon Ghosh (UWM), Ariel
+Goobar (OKC), David Kaplan (UWM), Jesper Sollerman (OKC), Joshua S. Bloom
+(UCB), M. Bulla (OKC), Nobuyuki Kawai (Tokyo Tech), Yoichi Yatsu (Tokyo
+Tech), Katsuhiro Murata (Tokyo Tech), Hidekazu Hanayama (IAO), Takashi
+Horiuchi (IAO), G. C. Anupama (IIA),  M. Rigault (CNRS/IN2P3), C.
+Barbarino(OKC), R. Biswas (OKC), D. Cook (Caltech), G. Helou (IPAC)
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of
+Observatories Watching Transients Happen (GROWTH) collaborations
+
+We observed the localization region of the gravitational wave trigger
+S190425z (GCN 24168) with the Palomar 48-inch telescope equipped with the
+47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). We
+were already observing the GW localization region as part of routine survey
+operations. A new tiling was automatically optimally determined and
+triggered using the GROWTH Target of Opportunity marshal (Coughlin et al.
+2019a, Kasliwal et al. 2019b). We started obtaining target-of-opportunity
+observations in the g-band and r-band filters beginning at UT 2019-04-25
+09:19:07.161. A total of 4327 square degrees covering 41% of the enclosed
+probability were observed before 12-deg twilight and analyzed in real-time.
+Each exposure was 30s with a typical depth of 20.4 mag.
+
+The images were processed through the ZTF reduction and image subtraction
+pipelines at IPAC to search for potential counterparts (Masci et al. 2019).
+After rejecting stellar sources (Tachibana and Miller 2018) and moving
+objects and applying machine learning algorithms (Mahabal et al. 2019),
+several high-significance transient candidates were identified by our
+pipeline in the area observed.
+
+Our most promising candidates thus far are:
+------------------------------------------------------------------------
+ ZTF Name     | RA (deg)    | DEC (deg)  | Filter | Mag   | Magerr
+--------------+-------------+------------+--------+-------+-------------
+ ZTF19aarykkb |  258.341454 | -9.964466  | r      | 18.63 |    0.10
+ ZTF19aarzaod |  262.791487 | -8.450722  | r      | 20.11 |    0.18
+--------------+-------------+------------+--------+-------+-------------
+ZTF19aarykkb is near 2MASX J17132113-0957536 at z=0.024. ZTF19aarzaod is
+near 2MASX J17311017-0827103 at z=0.028. Both have no ZTF detections prior
+to the reported binary neutron star merger time (although our most recent
+upper limits are only from 2019 April 19). Both host galaxies are in the
+Census of the Local Universe (CLU) galaxy catalog (Cook et al. 2017). Thus,
+with the data in-hand, the position, redshift of putative host galaxy ,
+age, color and luminosity of both events are consistent with the GW
+trigger. The positions are also consistent with being in the region that
+Fermi-GBM could not constrain (GCN 24185). Both candidates have not yet
+been reported to the Transient Name Server.  We caution that we cannot rule
+out these are young supernovae and spectroscopic follow-up is urgently
+needed. Additional analysis and follow-up is ongoing.
+
+Also, just as a reference, we also provide a list of relatively young
+candidates whose first ZTF detection was within the past three days below,
+including a magnitude measurement from tonight. We emphasize that all the
+events listed below have recent previous detections with ZTF prior to the
+gravitational wave event trigger time and are unlikely to be related to
+S190425z (e.g., background supernovae, active galactic nuclei, foreground
+CV).
+
+------------------------------------------------------------------------
+ ZTF Name     | RA (deg)    | DEC (deg)  | Filter | Mag   | Magerr
+--------------+-------------+------------+--------+-------+-------------
+ ZTF19aarzfoz |  235.600249 | 19.5876421 | g      | 19.90 |    0.21
+ ZTF19aarpptk | 254.2036677 |  9.6049366 | g      | 18.10 |    0.05
+ ZTF19aarywve | 250.9039956 | 17.5801296 | r      | 20.45 |    0.19
+ ZTF19aarpfjs | 252.0464742 |  1.0668639 | r      | 18.93 |    0.10
+ ZTF19aarkmsl |  242.401716 | 25.7497917 | r      | 19.40 |    0.18
+ ZTF19aarppnl | 258.9096792 | 15.7457655 | g      | 19.80 |    0.11
+ ZTF19aarpplo | 262.9779752 | 18.7380718 | g      | 19.74 |    0.17
+ ZTF19aarypbv | 248.5874816 | 30.5050049 | g      | 20.48 |    0.29
+ ZTF19aartzok | 238.9634555 | 36.3591878 | g      | 20.27 |    0.20
+ ZTF19aarxvub | 265.2782205 |   8.470448 | r      | 19.53 |    0.13
+ ZTF19aaryvld |  250.075357 |  9.1071601 | r      | 20.01 |    0.18
+ ZTF19aarpzuh | 252.1452493 | 15.7402238 | r      | 20.19 |    0.16
+ ZTF19aarprog | 248.5427404 | 19.6347848 | r      | 19.00 |    0.11
+ ZTF19aarycpi | 245.0910206 |  18.348845 | r      | 19.20 |    0.10
+ ZTF19aailtzw | 256.934132  |   2.948056 | r      | 18.50 |    0.08
+------------------------------------------------------------------------
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC,
+USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan;
+IIT-B, India; IIA, India; LJMU, UK and USyd, Australia. ZTF acknowledges
+the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH
+acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert
+distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert
+filtering and follow-up co-ordination is being undertaken by the GROWTH
+marshal system (Kasliwal et al. 2019).

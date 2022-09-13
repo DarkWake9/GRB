@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30043
+SUBJECT: GRB 210517A: Swift-BAT refined analysis
+DATE:    21/05/17 20:06:05 GMT
+FROM:    Hans Krimm at NSF/NASA-GSFC  <hkrimm@nsf.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC),  V. D'Elia (SSDC & INAF-OAR), 
+H. A. Krimm (NSF), S. Laha (GSFC/UMBC), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+659 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 210517A (trigger #1048783)
+(D'Elia, et al., GCN Circ. 30032).  The BAT ground-calculated position is
+RA, Dec = 358.190, -39.104 deg which is 
+   RA(J2000)  =  23h 52m 45.5s 
+   Dec(J2000) = -39d 06' 15.0" 
+with an uncertainty of 2.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 78%.
+
+The mask-weighted light curve shows a single peak of three-second duration
+near the trigger time.  T90 (15-350 keV) is 3.06 +- 1.4 sec (estimated error including 
+systematics).
+
+The time-averaged spectrum from T-0.17 to T+3.13 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.85 +- 0.25.  The fluence in the 15-150 keV band is 1.5 +- 0.3 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.18 sec in the 15-150 keV band
+is 1.5 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The position of this burst on the BAT T90-Hardness diagram suggests that it is a 
+long GRB.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/1048783/BA/
+
+

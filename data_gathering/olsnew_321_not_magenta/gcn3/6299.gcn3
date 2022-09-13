@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6299
+SUBJECT: Trigger 276045: Swift detection of a possible burst
+DATE:    07/04/18 11:50:45 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+C. Guidorzi (Univ Bicocca&INAF-OAB), A. P. Beardmore (U Leicester),
+D. N. Burrows (PSU), N. Gehrels (NASA/GSFC),
+S. T. Holland (CRESST/GSFC/USRA), J. A. Kennea (PSU),
+H. A. Krimm (GSFC/USRA), W. B. Landsman (NASA/GSFC),
+V. Mangano (INAF-IASFPA), C. B. Markwardt (GSFC/UMD),
+F. E. Marshall (NASA/GSFC), P. T. O'Brien (U Leicester),
+J. P. Osborne (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), A. M. Parsons (GSFC), M. Perri (ASDC),
+P. Romano (Univ. Bicocca & INAF-OAB), B. Sbarufatti (INAF-IASFPA),
+P. Schady (MSSL-UCL), M. Stamatikos (NASA/ORAU),
+G. Tagliaferri (INAF-OAB), E. Troja (INAF-IASFPA),
+D. E. Vanden Berk (PSU) and H. Ziaeepour (UCL-MSSL) report on behalf
+of the Swift Team:
+
+At 11:21:01 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a marginal-significance image peak that may be GRB 070418
+(trigger=276045).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 228.504, +51.226 which is 
+   RA(J2000) = 15h 14m 01s
+   Dec(J2000) = +51d 13' 34"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single
+0.064 second timebin with an excess of ~100 counts above background,
+primarily in the 100-350 keV energy bin.  The very short duration 
+and confinement to the highest energy channel indicate that this
+is very likely to be a cosmic ray shower, although a short, weak,
+very hard GRB cannot be eliminated at this time.  A final 
+determination of the cause of this event will 
+require data from the next Malindi pass, which will be available
+around 1300 UT. 
+
+The XRT began taking data at 11:22:22 UT, 81 seconds after the BAT
+trigger.  The XRT on-board centroid algorithm did not find a source in the
+image and no prompt position is available.  Down-linked
+data (for a total exposure of 1140s) show no sources in the XRT field. 
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 85 seconds after the BAT trigger. No afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 18.5 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for extinction of E(B-V)=0.02. 
+

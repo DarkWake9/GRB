@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3549
+SUBJECT: CORRECTION: GRB050603 Swift UVOT Afterglow Observations
+DATE:    05/06/15 01:37:36 GMT
+FROM:    Peter Brown at PSU  <pbrown@astro.psu.edu>
+
+P. Brown (PSU), A. Retter (PSU), P. Schady (MSSL), P. Boyd (GSFC),
+S. T. Holland (GSFC/USRA), P. Roming (PSU), C. Gronwall (PSU),
+N. Cucchiara (PSU), K. Mason (MSSL), N. Gehrels (GSFC),
+on behalf of the Swift UVOT team:
+
+The second V-filter magnitude (V=21.8 at T_start=32997) reported in
+GCN 3516 for the fading afterglow of GRB050603 is incorrect.  An error
+in the on-board shift-and-add code resulted in an unusually large
+amount of missing data for this exposure that was not correctly
+recorded in the exposure information.  The real exposure time for the
+second exposure was adjusted to 101 s to match the actual data
+contained in the image.  The corrected magnitude is 18.7, meaning the
+afterglow only faded by 0.5 magnitudes between the two observations
+reported in GCN 3516.
+
+In addition, we report the afterglow magnitude in later exposures.
+An error-weighted powerlaw fit gives a decay index of 1.97 +/- 0.22.
+The corrected and new afterglow magnitudes from UVOT are as follows:
+
+Time (h)      Mag        Filter  Duration (s)
+9.5       18.2 +/- 0.1     V       1298
+10.9      18.7 +/- 0.4     V       101
+12.7      19.5 +/- 0.2     V       1772
+14.4      19.3 +/- 0.2     V       2104
+15.9      19.0 +/- 0.2     V       1200
+17.8      19.7 +/- 0.3     V       1205
+20.8      20.1 +/- 0.4     V       1948
+36.1      21.1 +/- 0.4     V       10,458 (9 exposures coadded)
+
+Time (h) is the midpoint of the exposure given in hours after the
+burst trigger.  The reported errors do not include a +/- 0.09 error in
+the preliminary inflight zero point calibration.
+

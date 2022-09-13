@@ -1,0 +1,86 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27073
+SUBJECT: LIGO/Virgo S200114f: Gemini Spectra of AT 2020vu, AT 2020vw, AT 2020vy, and AT 2020vz
+DATE:    20/02/15 02:15:40 GMT
+FROM:    Curtis McCully at Las Cumbres Observatory  <cmccully@lco.global>
+
+Curtis McCully (LCO), Daichi Hiramatsu (LCO/UCSB), Jamison Burke
+(LCO/UCSB), Jennifer Andrews (UA), Craig Peligrino (LCO/UCSB), D. Andrew
+Howell (LCO/UCSB), Iair Arcavi (Tel Aviv University), Reinaldo de Carvalho:
+(Unicid/Unicsul), Francisco Förster (Universidad de Chile), Ryan Foley
+(UCSC), David Coulter (UCSC), Charles Kilpatrick (UCSC), David Sand (UA),
+Stefano Valenti (UC Davis), Marcelle Soares-Santos (Brandeis), Sandro
+Rembold (UFSM), Armin Rest (STSci), Daniel Kasen (UC Berkeley), Brian
+Metzger (Columbia), Anthony Piro (Carnegie Obs.), Eliot Quataert (UC
+Berkeley), Enrico Ramirez-Ruiz (UCSC), J. Craig Wheeler (UT Austin), Franz
+Bauer (Pontificia Universidad Catolica de Chile), Joshua Bloom (UC
+Berkeley), Thomas Brink (UC Berkeley), Jeff Cooke (Swinburne University of
+Technology), Alejandro Clocchiatti (Pontificia Universidad Catolica de
+Chile), Alexei V. Filippenko (UC Berkeley), Wendy Freedman (University of
+Chicago), Peter Garnavich (Notre Dame), Jorge Ernesto Horvath (Universidade
+de Sao Paulo), Saurabh Jha (Rutgers), Robert Kirshner (Gordon and Betty
+Moore Foundation), Kevin Krisciunas (Texas A&M), Huan Lin (FNAL), Barry
+Madore (Carnegie Obs.),  Martin Makler (Centro Brasileiro de Pesquisas
+Físicas), Gautham Narayan (UIUC), Xavier Prochaska (UCSC), Adam Riess
+(STSci), Riccardo Sturani (UFRN), Nicholas Suntzeff (Texas A&M), Masaomi
+Tanaka (Tohoku University), Douglas Tucker (FNAL), Jozsef Vinko (Konkoly
+Observatory), Lifan Wang (Texas A&M), Carlos Contreras (STSci), Chris
+D'Andrea (UPenn), Georgios Dimitriadis (UCSC), David Jones (UCSC), Michael
+Lundquist (UA), Felipe Olivares (INCT/UDA), Antonella Palmese (FNAL),
+Yen-Chen Pan: (NAOJ), Daniel Scolnic (University of Chicago), WeiKang Zheng
+(UC Berkeley), Antonio Bernardo (Universidade de Sao Paulo), K. Azalee
+Bostroem (UC Davis), Ariadna Murguia Berthier (UCSC), Ósmar Rodríguez
+(Universidad Nacional Andres Bello), César Rojas-Bravo (UCSC), Matthew
+Siebert (UCSC), and Iruatã Souza (Centro Brasileiro de Pesquisas)
+
+Following the detection of S200114f (LIGO/Virgo Collaboration, GCN 26734),
+the Zwicky Transient Facility reported a list of possible optical
+counterparts (Andreoni et al., GCN 26741). We triggered our follow-up
+program on the Gemini Telescopes (GS-2019B-Q-115; PI McCully) to classify
+the candidates. We obtained optical spectra of AT 2020vu, 2020vw, 2020vy,
+and 2020vz using the GMOS instrument on Gemini South. These targets were
+chosen because they were visible from Chile as Gemini North was closed due
+to bad weather. They were observed consecutively starting at 2020-01-16
+01:55 UTC, less than 48 hours after merger detection.
+
+These targets were triggered using the TOM Toolkit (Street et al., 2018,
+arXiv 1806.09557) through Gemini's programmatic interface.
+
+The spectra were reduced using a combination of Gemini IRAF tasks and
+custom Python routines (https://github.com/cmccully/lcogtgemini). We used
+both SNID (Blondin & Tonry 2007, ApJ, 666, 1024) and Superfit (Howell et
+al. 2005, ApJ, 634, 1190) to classify these transients. Throughout, we
+adopt a Hubble constant of H_0 =  71 km/s/Mpc and a flat cosmological model
+with a dark energy density of 0.7. The classifications and spectra have
+been uploaded to the Transient Name Server (TNS).
+
+
+
+For AT 2020vz, we find a best fit using Superfit of SN 2005cl, a Type IIn
+SN, at +15 days with redshift z = 0.25. This corresponds to an absolute
+magnitude of -19.4, consistent with this type of supernova.
+https://wis-tns.weizmann.ac.il/object/2020vz
+
+AT 2020vy was best fit by SN 1999aa before peak brightness at z = 0.24. At
+this redshift, the source has an absolute magnitude of -19.2, consistent
+with a SN Ia. https://wis-tns.weizmann.ac.il/object/2020vy
+
+
+
+AT 2020vu is consistent with a quasar. The spectrum exhibits a strong,
+broad feature near 5360 A. Assuming this is Mg II, the quasar is at  z =
+0.91. At this redshift, there are also spectral features consistent with
+the hydrogen Balmer series and [O III].
+https://wis-tns.weizmann.ac.il/object/2020vu
+
+For AT 2020vw, the best fit is with a normal SN Ia near peak brightness at
+z = 0.23, consistent with the absolute magnitude estimate of -19.0 at that
+distance. https://wis-tns.weizmann.ac.il/object/2020vw
+
+Therefore, we conclude that all of these transients (AT 2020vy, 2020vz,
+2020vu, and 2020vw) are not associated with the GW alert S200114f.
+
+
+
+We thank the Gemini team for their rapid response and assistance in
+obtaining these observations.

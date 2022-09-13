@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5654
+SUBJECT: GRB 060929: Swift detection of a burst
+DATE:    06/09/29 20:36:10 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. B. Markwardt (GSFC/UMD), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), D. N. Burrows (PSU),
+J. R. Cummings (NASA/UMBC), N. Gehrels (NASA/GSFC),
+S. D. Hunsberger (PSU), J. A. Kennea (PSU), K. L. Page (U Leicester),
+D. M. Palmer (LANL), P. Romano (INAF-OAB), T. Sakamoto (NASA/ORAU),
+G. Sato (GSFC/ISAS), P. Schady (MSSL-UCL) and
+M. Stamatikos (NASA/ORAU) report on behalf of the Swift Team:
+
+At 19:55:01UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060929 (trigger=231702).  Swift slewed immediately to the burst. 
+The on-board location (obtained from a Lightcurve SERS message) is RA,Dec (J2000)
+263.164,+29.815 {17h32m39s, 29d48m54s}.  Because of a telemetry gap covering the 
+first ~50 sec of the TDRSS messages, we can say nothing about the lightcurve until 
+the full data set is downlinked. 
+
+The XRT began taking data at 19:56:33 UT, 92 seconds after the BAT trigger.  
+The XRT on-board centroid algorithm did not find a source in the image, 
+however analysis of prompt downlinked data reveals a faint, uncatalogued 
+point source at the following location:
+  RA(J2000) =  17h 32m 29.0s
+ Dec(J2000) = +29d 50m 08.5s
+with an estimated uncertainty of 7.3 arcseconds radius (90% containment). 
+This source lies 154 arcseconds from the BAT position. 
+
+At this time due to the telemetry gap, only a raw UVOT finding chart image (no sky 
+coordinates) obtained with the white light filter is available. We have attempted 
+to perform pattern matching with the DSS and no obvious afterglow candidate is 
+seen. 
+

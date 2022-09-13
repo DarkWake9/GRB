@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7112
+SUBJECT: Swift/UVOT upper limits for GRB 071117
+DATE:    07/11/19 13:08:48 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (MSSL-UCL) and T. N. Ukwatta (GSFC/GWU) report on behalf of 
+the Swift/UVOT team:
+
+The Swift/UVOT observed the field of GRB 071117 (Ukwatta et al., GCN 7098)
+48 minutes after the BAT trigger, once the Earth had come out of observing
+constraint. No new source is found in any of the UVOT observations in
+either single or co-added exposures at the position of s2 reported by
+Bloom et al. (GCN 7110) or within the XRT error circle (Guidorzi et al., 
+GCN 7103).
+
+The following 3-sigma upper limits were determined at the position
+of the Gemini detection (RA=22:20:10.42, DEC=-63:26:35.5, J2000 ):
+
+Filter  Tstart   Tend    Exp       Magnitude
+          (s)     (s)     (s)      (3-sigma UL)
+-------------------------------------------------
+v      2960     44497   1608        >21.2
+white  2852     62512   1812        >22.9
+b      3779     61600   3125        >22.5
+u      3574     56599   3075        >22.2
+uvw1   3369     55834   4154        >22.4
+uvm2   3164     32613   2368        >21.8
+uvw2   4190     62783   2227        >22.1
+-------------------------------------------------
+The values quoted above are not corrected for the expected Galactic 
+extinction corresponding to a reddening of E(B-V) =
+0.024 mag in the direction of the GRB (Schlegel et al. 1998).
+

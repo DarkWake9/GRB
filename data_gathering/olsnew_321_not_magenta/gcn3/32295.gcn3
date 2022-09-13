@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32295
+SUBJECT: Konus-Wind detection of GRB 220627A
+DATE:    22/06/29 17:44:21 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, A.Lysenko, A. Ridnaya, D. Svinkin, A. Tsvetkova,
+M. Ulanov, and T. Cline, on behalf of the Konus-Wind team, report:
+
+The ultra-long (or possible lensed) GRB 220627A
+(Fermi-GBM detection: Roberts et al., GCN 32288;
+Fermi-LAT detection: Di Lalla et al., GCN 32283;
+Swift/BAT-GUANO detection: Raman et al., GCN 32287)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian analysis of the burst light curve (lc) reveals
+two separated, multi-peaked emission episodes.
+The first episode starts at ~T0-140 s and ends at ~T0+290 s;
+the second, weaker episode starts at ~T0+915 s and ends at ~T0+1150 s;
+where T0 = T0(GBM) = 21:21:00 UT.
+
+Although the described structure of the burst lc is consistent with that reported by GBM (GCN 32288),
+a weak emission tail that can be traced in the KW soft energy band (~20-100 keV) till ~T0+3700 s.
+We note that this extended emission is visible in the same KW detector,
+i.e., it came from the same (southern) ecliptic hemisphere,
+however its attribution to GRB 220627A cannot be unambiguously confirmed from the KW data alone.
+
+The KW light curve of this burst is available
+at http://www.ioffe.ru/LEA/GRBs/GRB220627A/
+
+Modeling a time-integrated spectrum of the burst (measured from T0-140 s to T0+1150 s)
+by a power law with exponential cutoff (CPL) model dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.23 (-0.14, + 0.19) and Ep = 250 (-49,+60) keV.
+In the 10 keV -10 MeV band, standard for the KW analysis,
+the total burst fluence is (1.07 ± 0.12)x10^-4 erg/cm^2
+and the 2.944 s peak energy flux is (9.7 ± 0.7)x10^-7 erg/cm^2/s.
+
+The spectrum of the first episode alone can be described by a CPL
+with alpha = -0.85 (-0.09, + 0.09) and Ep = 324 (-19,+21) keV;
+and the spectrum of the second, weaker episode -  by a CPL
+with alpha = -1.61 (-0.11, + 0.14) and Ep = 301 (-87,+233) keV.
+ From these fits, fluences in two individual episodes
+are estimated to (7.2 ± 0.7)x10^-5 erg/cm^2 and (3.2 ± 1.2)x10^-5 erg/cm^2, respectively.
+
+Assuming the redshift z=3.084 (Izzo et al., GCN 32291)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the burst isotropic energy release E_iso to (2.3 ± 0.3)x10^54 erg,
+the isotropic peak luminosity L_iso on the (1+z)*64ms scale to (1.3 ± 0.1)x10^53 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum Ep,z to 1020(-200,+250) keV.
+With the obtained estimates, GRB 220627A is inside 68% prediction bands
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW GRBs
+with known redshifts (Tsvetkova et al., 2017; Tsvetkova et al., 2021),
+see http://www.ioffe.ru/LEA/GRBs/GRB220627A/GRB220627A_rest_frame.pdf
+

@@ -1,0 +1,114 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3916
+SUBJECT: GRB050904: Optical Observations
+DATE:    05/09/04 16:19:06 GMT
+FROM:    Aaron Price at AAVSO  <aaronp@aavso.org>
+
+Dr. D.T. Durig (Cordell-Lorenz Observatory, University of the South),
+Dennis Hohman (Stone Edge Observatory) and Aaron Price report on behalf of
+the AAVSO International High Energy Network on observations of the field
+of GRB050409 (GCN 3910; Cummings et al.).
+
+ Durig does not detect any afterglow with SNR>3 on unfiltered images
+centered at 08:30:59 UT. However, sources do exist with an SNR=3 at 
+locations near that reported in GCN #3913 (Haislip et al.). Locations and 
+magnitude:
+   00 54 51.38 14 04 48.9 20.0 mag
+   00 54 50.42 14 05 30.6 20.1 mag
+   00 54 51.55 14 05 28.8 20.2 mag
+ Full details, including a link to the FITS image is available at the 
+bottom of this notice.
+ Also, Hohman observed the field with an Rc filter centered on 06:18 UT 
+and does not report any afterglow to Rc=18.6. Details on his observation 
+are also below.
+ 
+The AAVSO thanks the Curry Foundataion for their continued
+support of the AVSO International High Energy Network.
+
+
+ Report filed on Sun Sep  4 07:54:36 2005:
+
+ Name: Dr. D. T. Durig
+ email: ddurig@sewanee.edu
+ Observer: D. T. Durig, A. P. Long, A. L. Yacko, J. L. Rouquette, J. C. 
+Heiss
+ Site: Cotrdell-Lorenz Observatory
+ Location: Sewanee, Tenn, USA
+ LatitudeLongitude: 35 12 N 85 55 W
+ Elevation: 600m
+ Scope: SCT 0.30 m
+ ScopeFocalRatio: f/5.9 1760 mm
+ CCDVendor: SBIG STL-1001E
+ CCDDetector: KAF-1001E
+ CCDSize: 1024x1024
+ CCDPixelScale: 2.8
+ CCDFOV: 48x48 full, 12x12 quater shown
+ Object: GRB050904
+ ObsDate: 2005 Sept 4
+ ObsMidPointTime: 08 30 59 UT
+ TimePerFrame: 300 sec
+ NumberOfFrames: 37
+ Filters: CR
+ Processing: dark, flat, register, add, 1/4 frame crop
+ Seeing: ~6
+ LimitingMag:  approx. 20.5
+ Sky: clear but windy
+ afterglowmag: NA
+ afterglowerr: NA
+ compstars: 850 USNO B1.0 in Full Frame
+ Report: Total exposure 185 minutes (37x300 sec= 11,100 sec ). I see no 
+afterglow at the reported position(s) above my detection limit but there 
+appears to be three very dim diffuse sources nearby at
+
+00 54 51.38 14 04 48.9 20.0 mag
+00 54 50.42 14 05 30.6 20.1 mag
+00 54 51.55 14 05 28.8 20.2 mag
+
+All three are near my limiting mag with sigma equal to 3.
+
+In the noise I measure
+
+00 54 49.69 14 05 08.5 21.9 mag
+
+but with sigma equal to 1.5 and below my detection limit of 20.5 mag.
+
+A FITS image has been uploaded to 
+ftp://ftp.aavso.org/grb/Dr.D.T.Durig_GRB050904_2453617.99625_.fits
+--------------------
+Report filed on Sun Sep  4 03:36:21 2005:
+
+ Name: Dennis Hohman
+ email: dennishohman@adelphia.net
+ Observer: Dennis Hohman HDF
+ Site: Stone Edge Observatory
+ Location: Orchard Park, NY  USA
+ LatitudeLongitude: -78 45, 42 46
+ Elevation: 290M
+ Scope: C8  200mm
+ ScopeFocalRatio: 1200
+ CCDVendor: ST7XME
+ CCDDetector: KAF402E
+ CCDSize:
+ CCDPixelScale: 1.55
+ CCDFOV: 19x13
+ Object: GRB050904
+ ObsDate: 09/04/05
+ ObsMidPointTime: 06:18
+ TimePerFrame: 240 sec
+ NumberOfFrames: 8
+ Filters: R
+ Processing: Darks,Flats, bias, coadd
+ Seeing: 4
+ LimitingMag: 18.6
+ Sky: mostly clear with occasional patchy clouds
+ afterglowmag:
+ afterglowerr:
+ compstars:
+ Report: Full error circle covered. No new object observed to a limiting 
+magnitude of 18.6 based USNO A2.0 catalog
+ comments:
+
+A FITS image has been uploaded to 
+ftp://ftp.aavso.org/grb/DennisHohman_GRB050904_2453617.81691_.fits
+
+

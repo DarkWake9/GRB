@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30986
+SUBJECT: GRB 211025A: Swift detection of a burst
+DATE:    21/10/25 05:29:36 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+J.D. Gropp (PSU), D. M. Palmer (LANL), B. Sbarufatti (PSU) and
+A. Tohuvavohu (U Toronto) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 05:10:20 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 211025A (trigger=1081113).  Swift slewed immediately to the burst.
+The BAT on-board calculated location is
+RA, Dec 162.377, +31.557 which is
+   RA(J2000) = 10h 49m 30s
+   Dec(J2000) = +31d 33' 26"
+with an uncertainty of 3 arcmin (radius, 90% containment, including
+systematic uncertainty).  As is usual for an image trigger, the
+immediately available BAT lightcurve is unclear, but there does
+appear to be a peak between T+30 and T+64, with a peak count rate
+of ~300 counts/s (15-350 kev) at ~38 s after the nominal trigger time.
+
+The XRT began observing the field at 05:12:23.2 UT, 123.3 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+uncatalogued X-ray source located at RA, Dec 162.38427, 31.51343 which
+is equivalent to:
+   RA(J2000)  = 10h 49m 32.22s
+   Dec(J2000) = +31d 30' 48.3"
+with an uncertainty of 4.1 arcseconds (radius, 90% containment). This
+location is 158 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+https://www.swift.ac.uk/sper.  We cannot determine whether the source
+is fading at the present time. No spectrum from the promptly downlinked
+event data is yet available to determine the column density.
+
+The initial flux in the 2.5 s image was 5.36e-09 erg cm^-2 s^-1 (0.2-10
+keV).
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 131 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image processing
+FAILED because of no aspect solution. Results from the list of sources
+generated on-board are not available at this time. No correction has been made
+for the expected extinction corresponding to E(B-V) of 0.027.
+
+Burst Advocate for this burst is J.D. Gropp (jdg44 AT psu.edu).
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8095
+SUBJECT: GRB 080810: Swift/UVOT Refined Analysis
+DATE:    08/08/11 17:31:57 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/USRA/GSFC) & K. L. Page (U Leicester) report on
+behalf of the Swift/UVOT team:
+
+      The Swift/UVOT observed the field of GRB 080810 starting 65 s
+after the BAT trigger (Page et al., GCNC. 8080).  Settled observations
+started at T + 85 s.  We detect the optical afterglow (Page et al.,
+GCNC 8080) in the v, b, and white filters at the UVOT-enhanced
+location of the XRT afterglow (Evans et al., 2008, GCNC 8086).  The
+refined UVOT source position is
+
+ RA (J2000.0) =  23:47:10.48
+Dec (J2000.0) = +00:19:11.3
+
+with an estimated uncertainty of +/-0.6 arcsec (radius, 90%
+confidence).  This is consistent with the positions of the optical
+afterglow reported by Rykoff (GCNC 8084) and de Ugarte Postigo (GCNC
+8089)
+
+    Magnitudes and upper limits are reported below.
+
+Filter     T_start (s) T_stop  Exposure      Mag  Err  Comment
+white           85        185        98     14.63 0.07
+   v            191        459       264     14.06 0.06
+   b           4432       4632       197     17.85 0.08
+   u           4227     68,686       727    >21.4       3-sigma UL
+  uvw1         4022     68,283      3099    >22.3       3-sigma UL
+  uvm2         3817     62,540      3229    >22.2       3-sigma UL
+  uvw2         4843     50,866      1510    >22.0       3-sigma UL
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E_{B-V} = 0.03 mag (Schlegel et al.,
+1998, ApJS, 500, 525).  The photometry is on the UVOT photometric
+system described in Poole et al. (2008, MNRAS, 383,627).  The
+non-detections in the u, uvw1, uvm2, and uvw2 filters are consistent
+with a redshift of z = 3.35 (Prochaska, GCNC 8083).  The power-law
+decay index in the b band between 4532 and 27,387 s is -1.29 +/- 0.22.
+
+[GCN OPS NOTE(10sep08): Per author's request, the RA value
+was changed from 23:47:10.26" to "23:47:10.48".]
+

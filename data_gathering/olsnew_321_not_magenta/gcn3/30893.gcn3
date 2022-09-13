@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30893
+SUBJECT: GRB 210927A: Zwicky Transient Facility Follow-Up of a Fermi Short GRB (Trigger 654396242) 
+DATE:    21/09/28 20:28:28 GMT
+FROM:    Shreya Anand at GROWTH Caltech  <sanand@caltech.edu>
+
+Shreya Anand (Caltech), Tomas Ahumada (UMD), Harsh Kumar (IITB), Michael Coughlin (UMN), Ana Sagues-Carracedo (OKC), Mansi M. Kasliwal (Caltech), Erik Kool (OKC),  Simeon Reusch (DESY), Robert Stein (DESY), Igor Andreoni (UMD), Varun Bhalerao (IITB), Albert Kong (NTHU), Leo Singer(NASA/GSFC), Jannis Necker (DESY), and Sven Weimann (DESY)
+on behalf of the Zwicky Transient Facility (ZTF) collaboration
+
+We observed the localization region of the short GRB 210927A (trigger 654396242) detected by the Gamma-Ray Burst Monitor (GBM) on the Fermi satellite with the Palomar 48 inch telescope equipped with the 47 square degree Zwicky Transient Facility (ZTF) camera. We obtained a series of g- and r-band images covering 470 square degrees beginning at 02:32 UT on 2021 Sept. 27 (1:38 hours after the burst trigger time) and repeating the same observing plan the next night. This corresponds to ~44% of the probability enclosed in the Earth-occultation corrected GRB localization map (GCN 30885). Each exposure was 240 seconds, reaching g-band and r-band median depths of 22.1 mag and 21.9 mag respectively for the first night and 21.4 mag and 21.3 mag for the second night. The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC (Masci et al. 2019).
+
+We queried the ZTF alert stream using Kowalski (Duev et al. 2019). We required at least 2 detections separated by at least 15 minutes to select against moving objects. Furthermore, we cross-match our candidates with the Minor Planet Center to flag known asteroids, reject stellar sources (Tachibana and Miller 2018), and apply machine learning algorithms (Mahabal et al. 2019). We require that no spatially coincident ZTF alerts were issued before the detection time of the GBM trigger. We also require sources to fade faster than 0.3 mag/day to be of interest. The candidates within the 90% probability contour of the GRB localization map that pass these selection criteria as well as human vetting are presented in the table below. The filter, magnitude and MJD columns correspond to the ZTF first alert, while the Decline Rate (D.R) is in [mag/day]. The first four of these candidates also passed the ZTF Realtime Search and Triggering pipeline (Andreoni et al. 2021), which identifies rapidly-evolving candidates in the ZTF alert stream. 
+
++----------------------------------------------------------------------------------------------------------------------+
+| ZTF Name | IAU Name | RA (deg) | DEC (deg)  |  r-band Mag | magErr  | D.R. [mag/day] | Notes    |
++----------------------------------------------------------------------------------------------------------------------+
+ZTF21acdvumo | AT2021zwo | 244.806185 | 10.4431253 | 21.40 | 0.12 | D.R. g-band = 0.38 | (a)(1)
+ZTF21acdvuvw | AT2021zwp | 234.359624 | 21.0864387 | 21.10 | 0.14 | D.R. r-band = 0.43 | (a)(2)
+ZTF21acdvwoe | AT2021zwq | 249.160939 | 11.5012227 | 21.15 | 0.13 | D.R. r-band = 0.35 | (b)
+ZTF21acdwbpx | AT2021zwr | 258.470967 | 7.9687908  | 20.85 | 0.13 | D.R. r-band = 0.73 | (b)
+ZTF21acdwctm | AT2021zws | 267.270437 | -3.3173181 | 20.95 | 0.10 | D.R. r-band = 0.37 | (c)
++----------------------------------------------------------------------------------------------------------------------+
+
+
+Notes:
+(a) offset from a galaxy
+(b) PSF-like based on Legacy Survey (LS) DR9 classification
+(c) hostless; low galactic latitude b=12.26; D.R. obtained with GROWTH-India telescope photometry
+
+(1) LS phot-z = 0.253 +/- 0.099
+(2) LS phot-z = 0.116 +/- 0.217
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341.
+GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).
+Alert database searches are done by AMPEL (Nordin et al. 2019) and Kowalski (Duev et al. 2019). GROWTH India telescope is located at the Indian Astronomical Observatory (Hanle), operated by the Indian Institute of Astrophysics (IIA). GROWTH-India project is supported by SERB and administered by IUSSTF, under grant number IUSSTF/PIRE Program/GROWTH/2015-16 and IUCAA.
+

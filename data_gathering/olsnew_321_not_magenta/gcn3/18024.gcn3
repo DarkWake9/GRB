@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18024
+SUBJECT: Trigger 649113: Swift detection of SGR 1E 1841-045
+DATE:    15/07/15 18:30:12 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC), A. Maselli (INAF-IASFPA) and
+B. Sbarufatti (INAF-OAB/PSU) report on behalf of the Swift Team:
+
+At 18:12:38 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located SGR 1E 1841-045 (trigger=649113).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 280.330, -4.930, which is 
+   RA(J2000)  =  18h 41m 19s
+   Dec(J2000) = -04d 55' 47"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single spike
+with a duration of less than 0.128 sec.  The peak count rate
+was ~8600 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 18:14:13.2 UT, 95.4 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+located at RA, Dec 280.33029, -4.93495 which is equivalent to:
+   RA(J2000)  = 18h 41m 19.27s
+   Dec(J2000) = -04d 56' 05.8"
+with an uncertainty of 3.8 arcseconds (radius, 90% containment). . This
+position may be improved as more data are received; the latest position
+is available at http://www.swift.ac.uk/sper. This position is 6.3
+arcseconds from that of a known X-ray source: 3XMM J184119.3-045612 in
+the XMM-NEWTON XMMSSC catalogue. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.71
+x 10^22 cm^-2 (Willingale et al. 2013). 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 101 seconds after the BAT trigger. No credible
+afterglow candidate has  been found in the initial data products. The
+2.7'x2.7' sub-image covers 100% of  the XRT error circle. The typical
+upper limit has been about 19.6 mag,  but this is an unusually crowded
+field. The 8'x8' region for the list of sources generated on-board
+covers  100% of the BAT error circle. The list of sources is typically
+complete to  about 18 mag. No correction has been made for extinction. 
+

@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15639
+SUBJECT: Konus-Wind observation of GRB 131229A
+DATE:    13/12/31 14:32:55 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik, M. 
+Ulanov, D. Svinkin, A. Tsvetkova, and T. Cline on behalf of the 
+Konus-Wind team, report:
+
+The long-duration GRB 131229A (Swift-BAT trigger 582374: Page et al., 
+GCN 15627) triggered Konus-Wind at T0=23970.560 s UT (06:39:30.560).
+
+The burst light curve shows a multi-peaked structure with a total 
+duration of ~17 s. The emission is seen up to ~1.5 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB131229_T23970/
+
+As observed by Konus-Wind, the burst had a
+fluence of 2.45(-0.17,+0.18)x10-5 erg/cm2, and a 64-ms peak flux, 
+measured from T0+10.976 s, of 1.07(-0.15,+0.15)x10-5 erg/cm2/s (both in 
+the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum (measured from T0 to T0+13.056 s) is best fit 
+in the 20 keV - 1.5 MeV range by a power law with exponential cutoff 
+model: dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep),
+alpha = -0.65(-0.10,+0.11), and
+Ep = 352(-28,+34) keV (chi2 = 51.9/60 dof).
+
+The spectrum near the maximum count rate (measured from T0+8.448 to 
+T0+13.056 s) is best fit in the 20 keV - 1.5 MeV range by a power law 
+with exponential cutoff model: dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep), 
+alpha = -0.43(-0.10,+0.11), and
+Ep = 366(-24,+28) keV (chi2 = 58.6/60 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

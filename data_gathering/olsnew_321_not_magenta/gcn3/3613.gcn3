@@ -1,0 +1,42 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3613
+SUBJECT: Swift detection of a long transient (GRB 050714B?)
+DATE:    05/07/15 00:25:37 GMT
+FROM:    Andrew Levan at U.of Leicester  <anl@star.le.ac.uk>
+
+A. Levan, A. Beardmore, K. Page, J. Osborne, E. Rol (U. Leicester)
+S. Barthelmy, J. Cannizzo (GSFC-UMBC), L. Cominsky (Sonoma State U.),
+H. Krimm (GSFC), C. Markwardt (GSFC/UMD), D. Palmer (LANL), T. Sakamoto
+(GSFC), C. Gronwall, D. Burrows, P. Roming, J. Kennea (PSU) and N. Gehrels
+(GSFC) report for the Swift team.
+
+At 22:40:32 UT, Swift-BAT triggered (trigger=145994) and located on-board
+a source.  The flight-determined location is RA,Dec 169.694, -15.528 {+11h
+18m 47s, -15d 31' 39"} (J2000) with an uncertainty of 3 arcmin (radius,
+90% containment, stat+sys). The spacecraft was on target at approximately
+150 seconds.  This was a very weak 64-sec image-trigger detection right at
+the image-trigger threshold (10.1 sigma). There are no "peaks" in the BAT
+lightcurve, which is consistent with a long low-amplitude event, and that
+it was an image trigger and not a rate trigger. At this early stage in the
+analysis, we can not distinguish between a long GRB and a hard X-ray
+transient.  However, we do think that it is from a real astrophysical
+source.
+
+The spacecraft slewed immediately and the XRT began observing the burst
+at 22:43:00.6 UT (151 s after the BAT trigger).  XRT found a
+bright, uncatalogued, fading X-ray source. The position, calculated with
+xrtcentroid on the TDRSS postage stamp image, is:
+
+RA:     11h 18m 47.9s (J2000),
+Dec:   -15d 32' 55.5" (J2000).
+
+This position is 76.5 arcseconds from the BAT position.  The estimated
+uncertainty is 6 arcseconds radius (90% containment).
+
+The Swift Ultra Violet/Optical Telescope (UVOT) observations began at
+22:43:03 UT, 151 seconds after the BAT trigger. The first data taken after
+the spacecraft settled was a 100 seconds exposure using the V filter with
+the midpoint of the observation at 201 seconds after the BAT trigger.
+There is no new source at the XRT position.
+
+

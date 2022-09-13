@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7406
+SUBJECT: GRB 080310: PAIRITEL detection and PAIRITEL+KAIT+UVOT SED
+DATE:    08/03/11 09:20:24 GMT
+FROM:    Daniel Perley at U.C. Berkeley  <dperley@astro.berkeley.edu>
+
+D. A. Perley, J. S. Bloom, and W. Li (UC Berkeley) report:
+
+PAIRITEL responded to GRB 080310 and began taking data at UT 2008-03-10 
+  09:04:58 in J, H, and K filters simultaneously.  The afterglow 
+(Chornock et al., GCN 7381) is well-detected in all three filters.  We 
+report the following magnitudes:
+
+t_mid(s)  exp(s)  magnitude
+1833      259     J = 15.63 +/- 0.03
+1833      259     H = 14.94 +/- 0.03
+1833      259     K = 14.29 +/- 0.03
+
+Combining PAIRITEL data with 347 KAIT observations (calibrated to SDSS 
+DR6) and the UVOT magnitudes reported by Hoversten et al. (GCN 7398), we 
+generate a UV-through-IR spectral energy distribution interpolated to 
+the midpoint of the PAIRITEL observations.  The SED is well-fit by an 
+intrinsic power-law spectral index of beta ~ 0.6 with a small amount 
+(A_V = 0.10 +/- 0.05) of SMC-like host-galaxy extinction:
+
+http://lyra.berkeley.edu/~dperley/080310/080310sed.png
+
+Additional, late-time follow-up is planned.
+

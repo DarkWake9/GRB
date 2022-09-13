@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24584
+SUBJECT: LIGO/Virgo S190512at: Updated sky localization
+DATE:    19/05/17 17:42:03 GMT
+FROM:    Deep Chatterjee at University of Wisconsin, Milwaukee  <deep@uwm.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have re-analyzed LIGO and Virgo data around the time of the compact
+binary coalescence (CBC) candidate S190512at (GCN 24503). Parameter
+estimation has been performed using LALInference [1] and a new sky map,
+LALInference.fits.gz, distributed via GCN Notice, is available for
+retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S190512at
+
+The preferred skymap at this time is LALInference.fits.gz. For the
+LALInference.fits.gz skymap, the 90% credible region is 252 deg2.
+Marginalized over the whole sky, the a posteriori luminosity distance
+estimate is 1388 +/- 322 Mpc (a posteriori mean +/- standard
+deviation).
+
+For further information about analysis methodology and the contents of
+this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+[1] Veitch et al. PRD 91, 042003 (2015)
+

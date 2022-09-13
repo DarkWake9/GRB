@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31966
+SUBJECT: GRB 220426A: Swift-XRT and UVOT observations
+DATE:    22/04/28 17:31:31 GMT
+FROM:    Valerio D'Elia at ASDC  <valerio.delia@ssdc.asi.it>
+
+V. D’Elia (ASI-SSDC & INAF-OAR) and M. H. Siegel (PSU)
+report on behalf of the Swift team:
+
+Swift has performed follow-up observations of the Fermi/GBM-detected burst GRB 220426A (GCN Circ. 31950, 31955), which was also detected by Swift/BAT-GUANO (GCN Circ. 31954), Konus-Wind (GCN Circ. 31959), INTEGRAL/SPI-ACS, and HEND/Mars-Odyssey (GCN Circ. 31958).
+
+The XRT observations consist of three tiles of 1 ks each, to cover the GRB error region. The data were acquired between 45 and 47 hours after the burst and are entirely in PC mode.
+
+One bright, uncatalogued X-ray source has been detected:
+
+Source 1:
+  RA (J2000.0): 22h 32m 34.33s
+  Dec (J2000.0): -22° 57′ 01.0″
+  Error: 3.7 arcsec (radius, 90% conf.)
+  Count-rate: (1.4 +/- 0.5)e-2 ct s^-1
+  Distance: 3.2 arcmin from the IPN position
+  Flux: (4.1 +/- 1.4)e-13 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+
+Nevertheless, we note that at the XRT position the RASS PSPC 3 sigma upper limit is 0.05 cts/s (XRT equivalent count-rate).
+
+The UVOT took images of 616s each on the three XRT tiles with the white filter 160-170 ks after the trigger. We identify one source at 1.9” from the XRT coordinates of Source 1,  with a white magnitude of 18.01.
+
+The UVOT position is:
+   RA  (J2000) =  22:32:34.39 = 338.14330 (deg.)
+   Dec (J2000) = -22:57:02.7  =  22.95074 (deg.)
+
+with an estimated uncertainty of 0.5 arc sec. (radius, 90% confidence).
+
+However, we note that this is a known source in the DSS and is therefore unlikely to be the afterglow. No other sources are detected to a limiting magnitude in the white filter of 20.8.
+
+More Swift observations are planned in the next days to assess for variability
+
+The results of the XRT-team automatic analysis of the XRT observations, including a position-specific upper limit calculator, are available at https://www.swift.ac.uk/xrt_products/TILED_GRB00104/<https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.swift.ac.uk%2Fxrt_products%2FTILED_GRB00104%2F&data=05%7C01%7Cvalerio.delia%40ssdc.asi.it%7Cbbf1b046abbf47f102b008da29348927%7Ccbfc58d4e60f468d8fe490676de085f7%7C0%7C0%7C637867602862749464%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=rivAVi0hBq7OV9vDQ4K1Xb1mbfcuxK9etLjffE3p1UI%3D&reserved=0>.
+
+This circular is an official product of the Swift team.
+

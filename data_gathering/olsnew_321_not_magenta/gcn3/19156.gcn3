@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19156
+SUBJECT: LIGO/Virgo G211117: HAWC follow-up of northern sky
+DATE:    16/03/07 15:58:01 GMT
+FROM:    Joshua Wood at UMD  <joshwood@umd.edu>
+
+J. Wood (UMD) 
+reports on behalf of the HAWC Collaboration: 
+The northern portion of the reported LIGO error region was within the HAWC field-of-view at the time of gravitational-wave trigger G211117. HAWC was operating and our real-time all-sky GRB monitoring analysis was running at this time. This analysis searches for excess counts over the steady-state cosmic-ray background using 4 sliding time windows (0.1, 1, 10, and 100 seconds) shifted forward in time by 10% their width over the course of the entire day. Within each time window, we search the HAWC sky within 50 degrees of zenith using 2.3 deg x 2.3 deg square bins shifted by ~0.1 deg along the directions of Right Ascension and Declination. This analysis is tuned for detecting ~100 GeV photons and is sensitive to the most fluent GRBs [http://arxiv.org/abs/1508.04120 <http://arxiv.org/abs/1508.04120>]. It did not report any significant post-trials events near the time of gravitational-wave trigger G211117.
+On 2016/02/27 we went back and re-analyzed the data within +/- 10 seconds of gravitational-wave trigger G211117 on 3 timescales (1, 10, 100 sec) to look for excesses consistent with the latest LALInference map. To do this, we limited the spatial search of our all-sky GRB analysis to a ~15 degree wide region centered on the LIGO contour between (RA = 15 deg, Dec = -15 deg) and (RA = 90 deg, Dec = 55 deg). This yielded a single candidate from the 10 second sliding window passing a >5 sigma pre-trials threshold:
+
+ Candidate 1:
+ ===========
+   RA:    28.628 (+01h 54m 30.63s) J2000
+   Dec:   +1.200 (+01d 11' 59.1")  J2000
+   Error: +1.15 (square region, half side)
+   Start Time: 2015/12/26 03:39:03.61 UTC
+   Duration:   10 seconds
+   Pre-trials  p-value: 2.55e-07
+   Post-trials p-value: 0.08
+
+It occurred 9.96 seconds after gravitational-wave trigger G211117. However, accounting for the ~3.3e5 effective trials taken when searching the correlated spatial and time bins used in this analysis yields a post-trials p-value of 0.08, which is entirely consistent with a background only hypothesis. Even if we reduce the number of spatial trials by a factor of ~4 to account for the empty space within our search region the p-value only drops to ~0.02 and remains consistent with a background only hypothesis.
+The HAWC observatory is a TeV gamma-ray observatory operating in Central Mexico. It consists of 300 Water Cherenkov Detectors at an altitude of 4100 meters a.s.l. A detailed description of the sensitivity of HAWC to gamma-rays can be found in A. U. Abeysekara et al., Astropart. Phys. 50-52 (2013).
+

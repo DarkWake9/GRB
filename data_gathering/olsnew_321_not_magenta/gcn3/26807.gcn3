@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26807
+SUBJECT: LIGO/Virgo S200115j: Updated Sky Localization and source properties
+DATE:    20/01/17 18:50:16 GMT
+FROM:    Deep Chatterjee at University of Wisconsin, Milwaukee  <deep@uwm.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have conducted further analysis of the LIGO Hanford Observatory
+(H1), LIGO Livingston Observatory (L1), and Virgo Observatory (V1)
+data around the time of the compact binary merger (CBC) candidate
+S200115j (GCN Circular 26759). Parameter estimation has been performed
+using LALInference [1] and a new sky map, LALInference.fits.gz,0,
+distributed via GCN Notice, is available for retrieval from the
+GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S200115j/files/
+
+The preferred sky map at this time is LALInference.fits.gz,0. For the
+LALInference.fits.gz,0 sky map, the 90% credible region is 765 deg2.
+Marginalized over the whole sky, the a posteriori luminosity distance
+estimate is 340 +/- 79 Mpc (a posteriori mean +/- standard deviation).
+
+Based on posterior support from parameter estimation [1], under the
+assumption that the candidate is astrophysical in origin, the
+probability that the lighter compact object has a mass < 3 solar
+masses (HasNS) is >99%. Using the masses and spins inferred from the
+signal, the probability of matter outside the final compact object
+(HasRemnant) is >99%.
+
+Note: the sequence of three Preliminary Notices on January 15, 2020
+for this candidate was due to a manual change in the
+"preferred event". The MBTAOnline pipeline found the largest
+signal-to-noise ratio (SNR) and thus provided the first preferred
+event, as indicated in the first two Preliminary Notices. However, the
+preferred event was manually changed to a GstLAL trigger (with nearly
+the same SNR) because of a possible discrepancy noted in the
+low-latency Bayestar sky maps calculated for the two triggers. The
+third Preliminary Notice reflected that change.
+
+For further information about analysis methodology including
+“preferred events”, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+ [1] Veitch et al. PRD 91, 042003 (2015)
+

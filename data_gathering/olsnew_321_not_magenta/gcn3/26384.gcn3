@@ -1,0 +1,203 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26384
+SUBJECT: LIGO/Virgo S191205ah : No significant candidates in FRAM - TAROT – GRANDMA observations
+DATE:    19/12/09 13:24:47 GMT
+FROM:    Jean-Gregoire Ducoin at LAL  <ducoin@lal.in2p3.fr>
+
+J.-G. Ducoin (LAL), Y. Tillayev (UBAI), P. Hello (LAL),
+I. Nariman (ShAO), S. Karpov (FZU), M. Masek (FZU), M. Prouza (FZU),
+M. Boer (Artemis), N. Christensen (Artemis), L. Eymar (Artemis),
+A. Klotz (IRAP), K. Noysena (Artemis, IRAP), S. Antier (APC), 
+A. Coleiro (APC), D. Corre (LAL), M. Coughlin (Caltech),    
+D. Coward (OzGrav-UWA), B. Gendre(OzGrav-UWA), P. Hello (LAL),
+D. A. Kann (HETH/IAA-CSIC), N. Kochiashvili (Iliauni), C. Lachaud (APC),
+N. Leroy (LAL), T. Sadibekova (AIM-CEA), C. Thoene (HETH/IAA-CSIC),
+D. Turpin (AIM-CEA), X. Wang (THU)
+
+ 
+Report on behalf of the FRAM network, TAROT network and GRANDMA
+collaboration.
+
+We performed tiled observations of the LIGO/Virgo S191205ah event with the
+FRAM-Auger, TAROT-Calern (TCA) and TAROT-Chili (TCH) telescopes, operating
+in the R-band for FRAM and Clear for TAROT, located respectively at Pierre
+Auger Observatory (Malargue, Argentina), the Cote d'Azur Observatory and
+LaSilla ESO (LaS/ESO).
+ 
+The following table shows for each telescope: the delay in minutes from
+the trigger, which filter is used, the field of view of the telescope in
+degrees and the typical limiting magnitude (AB mag) for a given exposure
+in seconds (s).
++-------------+---------+----------+-----------+------------+
+| Telescope   | Delay   | Filter   | f.o.v.    | Limiting   |
+|             | [min]   |          | [deg]     | Mag.       |
+|-------------+---------+----------+-----------+------------|
+| FRAM-Auger  | 490     | R        | 1.0 x 1.0 | 18.0 (60s) |
+| TCA         | 1135    | Clear    | 1.9 x 1.9 | 18.0 (60s) |
+| TCH         | 177     | Clear    | 1.9 x 1.9 | 18.0 (60s) |
++-------------+---------+----------+-----------+------------+
+
+We performed the following joint tiled observations [1] :
+
++-------------+------------+------------+---------+---------+---------+
+| Telescope   | TStart     | TEnd       | RA      | DEC     | Proba   |
+|             | [UTC]      | [UTC]      | [deg]   | [deg]   | [%]     |
+|-------------+------------+------------+---------+---------+---------|
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 168.324 | 4.378   | <0.1    |
+|             | 06:01:49   | 06:06:16   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 168.324 | 3.405   | <0.1    |
+|             | 06:06:51   | 06:11:18   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 166.900 | -1.460  | <0.1    |
+|             | 06:11:55   | 06:16:22   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 168.841 | 0.486   | <0.1    |
+|             | 06:16:59   | 06:21:26   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 167.871 | 1.460   | <0.1    |
+|             | 06:22:03   | 06:26:30   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 167.871 | -0.486  | <0.1    |
+|             | 06:27:04   | 06:31:31   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 168.324 | 2.432   | <0.1    |
+|             | 06:32:10   | 06:36:37   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 166.900 | 0.486   | <0.1    |
+|             | 06:37:12   | 06:41:39   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 168.841 | -0.486  | <0.1    |
+|             | 06:42:15   | 06:46:42   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 168.841 | 1.460   | <0.1    |
+|             | 06:47:18   | 06:51:45   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 166.900 | -0.486  | <0.1    |
+|             | 06:52:20   | 06:56:47   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 165.930 | 1.460   | <0.1    |
+|             | 06:57:22   | 07:01:49   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 167.351 | 3.405   | <0.1    |
+|             | 07:02:24   | 07:06:51   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 166.378 | 2.432   | <0.1    |
+|             | 07:07:25   | 07:11:52   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 166.378 | 3.405   | <0.1    |
+|             | 07:12:28   | 07:16:55   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 166.900 | 1.460   | <0.1    |
+|             | 07:17:31   | 07:21:58   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 166.378 | -2.432  | <0.1    |
+|             | 07:22:33   | 07:27:00   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 168.780 | 5.351   | <0.1    |
+|             | 07:27:40   | 07:32:07   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 167.805 | 5.351   | <0.1    |
+|             | 07:32:42   | 07:37:09   |         |         |         |
+| FRAM-Auger  | 2019-12-06 | 2019-12-06 | 168.324 | -2.432  | <0.1    |
+|             | 07:37:47   | 07:42:14   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| TCA         | 2019-12-06 | 2019-12-08 | 347.825 | -9.256  | 0.1     |
+|             | 16:47:03   | 21:23:40   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 346.028 | -8.351  | <0.1    |
+|             | 16:53:47   | 21:28:13   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-07 | 343.624 | 15.298  | <0.1    |
+|             | 17:00:32   | 20:36:21   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 349.521 | 14.867  | 0.4     |
+|             | 17:52:46   | 19:59:06   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 347.617 | 14.867  | 0.3     |
+|             | 17:59:32   | 22:35:47   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 349.399 | 16.723  | 0.3     |
+|             | 18:06:16   | 20:12:32   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-06 | 344.162 | 9.300   | 0.2     |
+|             | 18:38:06   | 18:44:26   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 346.181 | -1.833  | 0.2     |
+|             | 18:44:53   | 18:20:58   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 345.712 | 14.867  | 0.1     |
+|             | 18:51:37   | 20:57:44   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 345.549 | 16.723  | 0.1     |
+|             | 19:10:48   | 18:46:54   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-07 | 323.837 | -3.689  | <0.1    |
+|             | 19:42:55   | 18:19:34   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 343.531 | 17.154  | <0.1    |
+|             | 19:49:42   | 21:55:46   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-08 | 346.028 | 9.300   | 0.2     |
+|             | 21:19:17   | 20:25:00   |         |         |         |
+| TCA         | 2019-12-06 | 2019-12-06 | 342.488 | 0.022   | 0.1     |
+|             | 21:34:25   | 21:40:44   |         |         |         |
+| TCA         | 2019-12-07 | 2019-12-09 | 166.960 | 9.300   | <0.1    |
+|             | 05:55:54   | 05:32:16   |         |         |         |
+| TCA         | 2019-12-07 | 2019-12-08 | 347.474 | 16.723  | 0.2     |
+|             | 16:55:28   | 22:57:28   |         |         |         |
+| TCA         | 2019-12-07 | 2019-12-08 | 344.249 | 7.445   | 0.2     |
+|             | 17:02:13   | 20:38:32   |         |         |         |
+| TCA         | 2019-12-07 | 2019-12-08 | 342.393 | 7.445   | 0.1     |
+|             | 17:28:07   | 21:04:28   |         |         |         |
+| TCA         | 2019-12-07 | 2019-12-07 | 323.254 | -11.587 | <0.1    |
+|             | 18:06:28   | 18:12:48   |         |         |         |
+| TCA         | 2019-12-08 | 2019-12-08 | 346.105 | 7.445   | 0.2     |
+|             | 19:12:45   | 19:19:05   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| TCH         | 2019-12-06 | 2019-12-09 | 328.740 | -16.323 | <0.1    |
+|             | 00:48:36   | 01:24:59   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-09 | 334.424 | -16.323 | <0.1    |
+|             | 00:55:23   | 01:31:44   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-08 | 338.213 | -16.323 | <0.1    |
+|             | 03:57:35   | 03:33:51   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-09 | 163.764 | 5.495   | <0.1    |
+|             | 06:40:31   | 07:17:08   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-08 | 169.072 | 9.132   | <0.1    |
+|             | 06:47:15   | 06:23:38   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-09 | 171.000 | 1.859   | <0.1    |
+|             | 07:12:55   | 07:49:16   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-09 | 171.000 | 3.677   | <0.1    |
+|             | 07:19:42   | 07:56:02   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-09 | 163.764 | 1.859   | <0.1    |
+|             | 07:26:12   | 05:32:13   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-09 | 168.223 | 7.314   | <0.1    |
+|             | 07:59:11   | 08:35:32   |         |         |         |
+| TCH         | 2019-12-06 | 2019-12-09 | 166.405 | 7.314   | <0.1    |
+|             | 08:05:57   | 08:42:18   |         |         |         |
+| TCH         | 2019-12-07 | 2019-12-09 | 163.764 | 0.041   | <0.1    |
+|             | 07:01:38   | 06:37:58   |         |         |         |
+| TCH         | 2019-12-07 | 2019-12-09 | 191.001 | -7.232  | <0.1    |
+|             | 07:34:09   | 07:10:23   |         |         |         |
+| TCH         | 2019-12-07 | 2019-12-09 | 163.764 | 3.677   | <0.1    |
+|             | 07:53:31   | 07:29:46   |         |         |         |
+| TCH         | 2019-12-07 | 2019-12-09 | 171.000 | 0.041   | <0.1    |
+|             | 08:00:12   | 07:36:32   |         |         |         |
+| TCH         | 2019-12-08 | 2019-12-09 | 330.634 | -16.323 | <0.1    |
+|             | 00:38:08   | 01:44:22   |         |         |         |
+| TCH         | 2019-12-08 | 2019-12-09 | 332.529 | -16.323 | <0.1    |
+|             | 00:44:54   | 01:51:09   |         |         |         |
+| TCH         | 2019-12-08 | 2019-12-09 | 321.981 | -12.686 | <0.1    |
+|             | 00:51:38   | 01:57:52   |         |         |         |
+| TCH         | 2019-12-08 | 2019-12-09 | 324.111 | -5.414  | <0.1    |
+|             | 02:22:47   | 00:59:03   |         |         |         |
+| TCH         | 2019-12-08 | 2019-12-08 | 171.000 | 5.495   | <0.1    |
+|             | 06:36:43   | 06:43:02   |         |         |         |
++-------------+------------+------------+---------+---------+---------+
+ 
+TStart and TEnd refer respectively to the time of the first and last
+exposure for a given tile. Observations are not necessarily continuous in
+this interval.
+The Probability refers to the 2D spatial probability of the GW skymap
+enclosed in a given tile.
+ 
+These observations cover about 4.8% of the cumulative probability of the
+BAYESTAR skymap created on 2019-12-05 21:53:08 (UTC).
+The coverage map is available at:
+
+https://grandma-owncloud.lal.in2p3.fr/index.php/s/XgtMhPRxcyL09gR/
+download?path=%2F&files=GRANDMA_S191205ah_1575887414.png
+
+Tiles have been distributed to TAROT-Reunion(TRE) but due to communication
+issues, TRE did not observe producing a gap in the global coverage. The
+most probable region of the skymap was not observable due to moon
+constraints.
+ 
+No significant transient candidates were found during our low latency
+analysis [2,3].
+ 
+GRANDMA (Global Rapid Advanced Network Devoted to the Multi-messenger
+Addicts) is a network of robotic telescopes connected all over the world
+with both photometry and spectrometry capabilities for Time-domain
+Astronomy [2](https://grandma.lal.in2p3.fr/).
+ 
+Details on the different telescopes are available on the GRANDMA web
+pages.
+ 
+[1] M. W Coughlin et al., MNRAS 2019, doi.org/10.1093/mnras/stz2485
+[2] S. Antier et al., MNRAS 2019, arXiv:1910.11261
+[3] K. Noysena et al., ApJ 2019, arXiv:1910.02770
+
+[GCN OPS NOTE(09dec19): Per author's request, the missing part
+of the SUBJECT-line was added: "ates in FRAM - TAROT – GRANDMA observations".]
+

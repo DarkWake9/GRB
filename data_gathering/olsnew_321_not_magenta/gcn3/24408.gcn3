@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24408
+SUBJECT: Update to the Fermi GBM GCN Reporting
+DATE:    19/05/06 14:30:12 GMT
+FROM:    Colleen A. Wilson at NASA/MSFC/NSSTC  <colleen.wilson@nasa.gov>
+
+The Fermi GBM team reports a new official product. We will be issuing automated circulars reporting the final real-time localization and HEALPix map based on our automatic processing (RoboBA, operational since early 2016). These circulars will be issued for all GRBs that RoboBA localizes and will include initial information about the burst duration (likely SHORT/LONG).
+
+Below is a list of official Fermi GBM GCN products for GRBs. Later (since trigger) products have more accurate localizations.
+
+Official Fermi GBM notices:
+Notices are automated, standard format text messages designed to be easily parsed by a computer. They are typically low latency within tens of seconds to 10 minutes of the GRB trigger and can be found here https://gcn.gsfc.nasa.gov/fermi_grbs.html or subscribed to through GCN. See V. Connaughton et al. 2015, ApJS, 216, 32 for a detailed description of trigger data and localization types.
+
+-GBM Alert: Initial alert includes trigger time, trigger significance
+
+-GBM Flight position: Fermi GBM on-board calculated localization, generated on-board Fermi, tens of seconds after trigger. (May be multiple notices)
+
+-GBM Ground position: Intermediate ground localization based on latest on-board generated GRB detector rate information (May be multiple notices)
+
+-GBM Final Position: reports the ground generated RoboBA final localization and whether the GRB was likely long or short; 10 minutes after trigger using the full trigger dataset,
+
+-Fermi-GBM SubThreshold: reports the time, duration, localization, and reliability for candidate short GRBs found in ground searches of Continuous Time-Tagged Event (CTTE) data. See https://gcn.gsfc.nasa.gov/fermi_gbm_subthreshold.html
+
+Official Fermi GBM circulars:
+-GRB YYMMDDX: Fermi GBM Final Real-time Localization (new product)
+
+-GRB YYMMDDX: Fermi GBM Detection (RoboBA or Human in the Loop generated Final localization, spectral analysis, and burst duration)
+
+-GRB YYMMDDX: Fermi GBM Observation (spectral analysis, and burst duration for GRBs better localized by another instrument)
+
+Please note that the BALROG localization circulars are NOT a product of the Fermi GBM team.

@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6425
+SUBJECT: GRB 070520B: Swift detection of a burst
+DATE:    07/05/20 18:14:26 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+A. Moretti (INAF-OAB), S. D. Barthelmy (GSFC), M. M. Chester (PSU),
+N. Gehrels (NASA/GSFC), C. Gronwall (PSU), J. A. Kennea (PSU),
+V. Mangano (INAF-IASFPA), P. T. O'Brien (U Leicester),
+D. M. Palmer (LANL), P. Romano (Univ. Bicocca & INAF-OAB),
+M. Stamatikos (NASA/ORAU), E. Troja (INAF-IASFPA) and
+S. D. Vergani (DIAS-DCU) report on behalf of the Swift Team:
+
+At 17:44:53 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070520B (trigger=279898).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 121.951, +57.617 which is 
+   RA(J2000)  =  08h 07m 48s
+   Dec(J2000) = +57d 37' 00"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single peak
+with a duration of about 5 sec.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+This burst occurred during a Malindi data downlink session
+which buffered the initial notices for up to 12 minutes. 
+
+The XRT began observing the field at 17:46:31 UT, 98 seconds after the
+BAT trigger. Using prompt downlinked data 
+XRT found a bright and flaring uncatalogued X-ray source
+located at RA, Dec 121.8798, 57.6092 which is
+   RA(J2000)  = 08h 07m 31.1's
+   Dec(J2000) = +57d 36' 33.1''
+with an uncertainty of 4.3 arcsec (radius, 90% containment). 
+This location is 138 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 1.5e-09 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 107 seconds after the BAT trigger. No
+afterglow candidate has been found in the initial data products. The
+2.7'x2.7' sub-image covers 100% of the XRT error circle. The 3-sigma
+upper limit at the XRT position is 19.5 mag. The 8'x8' region for the
+list of sources generated on-board covers 100% of the XRT error
+circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for Galactic reddening of E(B-V)=0.04. 
+

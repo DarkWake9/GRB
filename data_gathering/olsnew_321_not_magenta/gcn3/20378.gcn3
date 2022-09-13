@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20378
+SUBJECT: Swift Trigger 730513 is not an astrophysical event
+DATE:    17/01/06 08:56:53 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. D'Avanzo (INAF-OAB), A. Melandri (INAF-OAB),
+K. L. Page (U Leicester), D. M. Palmer (LANL) and
+B. Sbarufatti (INAF-OAB/PSU) report on behalf of the Swift Team:
+
+At 08:31:01 UT, the Swift Burst Alert Telescope (BAT) detected a
+peak in a waiting mode image at a location near to the known 
+source SS Cyg (trigger=730513).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 325.783, +43.422 which is 
+   RA(J2000) = 21h 43m 08s
+   Dec(J2000) = +43d 25' 17"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows no obvious activity. 
+
+The XRT began observing the field at 08:33:34.4 UT, 152.9 seconds after
+the BAT trigger. No source was detected in 461 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+153 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image covers 25% of the
+BAT error circle. The typical 3-sigma upper limit has been about 19.2 mag. The
+8'x8' region for the list of sources generated on-board covers 100% of the BAT
+error circle. The list of sources is typically complete to about 18.0 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.46. 
+
+Swift followed up on this image peak despite its low significance 
+(5.9 sigma) due to its rough proximity to a known source.  
+However, the 10 arcmin offset is well outside the error radius
+for this point source.  This, combined with the lack of an BAT
+rate trigger or an X-ray detection, leads us to conclude that this
+was a statistical fluctuation in the image plane and not
+an astrophysical event. 
+

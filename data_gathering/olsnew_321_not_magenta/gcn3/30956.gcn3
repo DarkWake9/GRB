@@ -1,0 +1,74 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30956
+SUBJECT: IPN Triangulation of GRB 210927B
+DATE:    21/10/22 20:49:00 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the MGNS/BepiColombo and HEND/Mars Odyssey teams,
+
+J. Benkhoff on behalf of the BepiColombo team,
+
+K. Hurley, on behalf of the IPN,
+
+D. Svinkin, S. Golenetskii, D. Frederiks, A. Ridnaia,
+A. Lysenko, and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+A. von Kienlin, X. Zhang, A. Rau, V. Savchenko, E. Bozzo,
+and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team, and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, and R. Starr,
+on behalf of the GRS-Odyssey GRB team, report:
+
+The long-duration GRB 210927B (GECAM-B detection: GCN circ. 30910)
+was detected by BepiColombo (MGNS), in the vicinity of Mercury
+(see introductory GCN Circ. 30949); Mars-Odyssey (HEND);
+GECAM-B; Fermi (GBM trigger 654479691); Konus-Wind; INTEGRAL (SPI-ACS);
+and Swift (BAT) at about 86086 s UT (23:54:46).
+The burst was outside the coded field of view of the BAT.
+
+The burst light curves in the energy range 30 keV-1.5 MeV (HEND)
+and 250-450 keV (MGNS) exhibit a multi-peaked pulse structure
+with a total duration of ~25 s.
+
+We have triangulated GRB 210927B to the following 3 sigma annuli:
+---------------------------------------------------------
+          R.A.(J2000)  Dec.(J2000)    R      +dR     -dR
+                deg      deg         deg     deg     deg
+---------------------------------------------------------
+MGNS-HEND     2.101    -1.674      94.136  +0.034 -0.079
+Konus-HEND  187.856    -2.595      88.396  +0.017 -0.017
+Konus-GBM   161.442     7.403      85.952  +0.562 -0.562
+---------------------------------------------------------
+
+The MGNS-HEND and Konus-HEND annuli intersect to form two error
+boxes one of which is inconsistent with the Konus-GBM annulus,
+the KW ecliptic latitude response, and the Fermi (GBM) final position.
+
+The correct preliminary, 3 sigma error box is:
+  ---------------------------------------------
+   RA(2000), deg                 Dec(2000), deg
+  ---------------------------------------------
+  Center:
+   263.021 (17h 32m 05s) +73.775 (+73d 46' 32")
+  Corners:
+   263.554 (17h 34m 13s) +73.267 (+73d 15' 59")
+   262.667 (17h 30m 40s) +74.201 (+74d 12' 03")
+   262.825 (17h 31m 18s) +73.913 (+73d 54' 45")
+   263.687 (17h 34m 45s) +72.979 (+72d 58' 46")
+  ---------------------------------------------
+The error box area is 49 sq. arcmin, and its maximum
+dimension is 1.26 deg (the minimum one is 2.0 arcmin).
+The Sun distance was 89 deg.
+
+This box may be improved.
+
+A triangulation map is posted at:
+http://l503.iki.rssi.ru/owncloud/index.php/s/nFbsu69DWdxQvd2
+

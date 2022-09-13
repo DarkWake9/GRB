@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18396
+SUBJECT: Trigger 657564 / GRB 151004A: Swift BAT and XRT refined analysis
+DATE:    15/10/05 16:20:49 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. D. Barthelmy (GSFC),  S. B. Cenko (GSFC), J. R. Cummings (GSFC/UMBC),
+P.A. Evans (U. Leicester), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (GSFC/UMBC), D. Malesani (DARK/NBI), C. B. Markwardt (GSFC),
+C. Pagani (U. Leicester), K. L. Page (U. Leicester), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU), and T. N. Ukwatta (LANL)
+report on behalf of the Swift team:
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT trigger 657564 (the probable GRB 151004A;
+Cenko et al., GCN Circ. 18389).  The BAT ground-calculated position is
+RA, Dec = 213.613, -64.956 deg which is
+  RA(J2000)  =  14h 14m 27.1s
+  Dec(J2000) = -64d 57' 23.3"
+with an uncertainty of 2.3 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+
+The BAT mask-weighted light curve shows a weak complex structure that starts
+at ~T-10 s and ends at ~T+130 s. T90 (15-350 keV) is 128.40 +- 17.77 sec
+(estimated error including systematics).
+
+The BAT time-averaged spectrum from T-13.63 to T+134.42 sec is best fit by
+a simple power-law model.  The power law index of the time-averaged spectrum
+is 1.95 +- 0.23.  The fluence in the 15-150 keV band is 1.0 +- 0.1 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+50.86 sec in the 15-150 keV band
+is 0.4 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+In the BAT energy band, the spectral properties and T90 are consistent with
+those of a GRB. However, due to the low Galactic latitude (b = -3.47 deg),
+we cannot rule out a Galactic origin.
+
+The XRT began observing at 19:09:14.0 UT, 3610 seconds after the BAT trigger.
+In 5.7 ks of Photon Counting (PC) data one faint X-ray source is detected inside
+the BAT error circle. The astrometrically corrected X-ray position of the source
+(using the XRT-UVOT alignment and matching UVOT field sources to the
+USNO-B1 catalogue) is: RA, Dec = 213.63218, -64.93914 which is equivalent to:
+
+RA (J2000): 14h 14m 31.72s
+Dec (J2000): -64d 56' 20.9"
+
+with an uncertainty of 7.0 arcsec (radius, 90% confidence). Position enhancement is
+described by Goad et al. (2007, A&A, 476, 1401) and Evans et al. (2009, MNRAS, 397, 1177).
+
+The X-ray source is faint, at an average count rate of ~0.005 cnts/sec, below
+the RASS 3-sigma limit at this position in the sky. If the source is indeed the
+X-ray afterglow of GRB 151004A, it would be one of the faintest ever observed
+by the XRT at that time after the GRB trigger. At this time, there is only marginal
+evidence (1.5 sigma) of fading in the X-ray lightcurve and additional observations
+are required to establish the nature of the source.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/657564/BA/
+

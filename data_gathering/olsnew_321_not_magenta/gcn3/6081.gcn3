@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6081
+SUBJECT: GRB 070208, Swift-BAT refined analysis
+DATE:    07/02/08 17:03:48 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. Markwardt (GSFC/UMD), L. Barbier (GSFC), S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+ 
+Using the data set from T-239 to T+552 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 070208 (trigger #259714)
+(Sato, et al., GCN Circ. 6074).  The BAT ground-calculated position is
+RA, Dec = 197.896, 61.946 deg which is 
+   RA(J2000)  = 13h 11m 35.0s 
+   Dec(J2000) = 61d 56' 44.3" 
+with an uncertainty of 3.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 50%.
+ 
+The mask-weighted lightcurve shows two peaks. The first (at T_zero) is 
+FRED-like with a duration of ~7 sec.  The second starts at ~T+35 sec
+and ends at ~T+50 sec.  T90 (15-350 keV) is 48 +- 2 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-1.0 to T+47.8 is best fit by a
+simple power-law model.  The power law index of the time-averaged
+spectrum is 1.96 +- 0.37.  The fluence in the 15-150 keV band
+is 4.3 +- 1.0 x 10^-07 erg/cm2.  The 1-sec peak photon flux measured
+from T-0.26 sec in the 15-150 keV band is 0.9 +- 0.2 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level. 
+
+Fitting the two peaks separately with a simple power law model,
+-2 to  5 s:   photon index = 2.17 -0.44 +0.53
+25 to 50 s:   photon index = 1.69 -0.34 +0.36
+Given the widths of the two peaks and that the second peak is 
+spectrally harder than the first, we conclude that this burst
+is a long GRB and is not a short hard burst with extended emission.
+

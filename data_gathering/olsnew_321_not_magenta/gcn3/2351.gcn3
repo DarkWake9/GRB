@@ -1,0 +1,154 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2351
+SUBJECT: SGR 1808-20 (=H2802): A Possible new SGR
+DATE:    03/08/15 21:39:10 GMT
+FROM:    Don Lamb at U.Chicago  <lamb@oddjob.uchicago.edu>
+
+D. Lamb, C. Graziani, Y. Shirasaki, J-L. Atteia, C. Barraud, K. Hurley,
+G. Crew, N. Kawai, G. Ricker, and S. Woosley on behalf of the HETE
+Science Team;
+
+M. Boer, J-F Olive, and J-P Dezalay on behalf of the HETE FREGATE Team;
+
+N. Butler, J. Doty, A. Dullighan, G. Prigozhin, R. Vanderspek, J.
+Villasenor, T. Cline, J. G. Jernigan, A. Levine, F.  Martel, E. Morgan,
+G. Monnelly, G. Azzibrouck, J. Braga, R.  Manchanda, and G. Pizzichini,
+on behalf of the HETE Operations and  HETE Optical-SXC Teams;
+
+T. Tamagawa, M. Suzuki, T. Donaghy, M. Matsuoka, K. Torii, T. Sakamoto,
+A. Yoshida, E. Fenimore, M. Galassi, Y. Nakagawa, R. Satoh, Y. Urata,
+T. Yamazaki and Y. Yamamoto, on  behalf of the HETE WXM Team;
+
+write:
+
+At 09:52:03.04 UTC (35523.04 s UT) on 13 Aug 2003, the HETE-2 FREGATE
+and WXM instruments detected event H2802, an SGR burst.  The WXM
+flight localization was correct and was reported in a GCN Notice
+at 10:00:17 UT, 8 minutes after the beginning of the burst.  The WXM
+flight localization of the burst was a circle centered at
+
+WXM Flight:  RA = +18h 08m 07s,  Dec = -20d 38' 20" (J2000) ,
+
+with a 14 arcminute error radius, which was marginally inconsistent
+with a burst from SGR 1806-20 and hence the Notice contained no flag
+stating that the source matches a known X-ray source.
+
+Ground analysis of the WXM data produced a localization that was
+reported in a GCN Notice at 11:55:09 UT.  The WXM ground localization
+SNR was 6 in the X-detector and 4.5 in the Y-detector.  The
+localization can be expressed as a 90% confidence circle that is 7.15
+arcminutes in radius and is centered at:
+
+WXM Ground:  RA = +18h 08m 11s,   Dec = -20d 39' 21" (J2000),
+
+which was reported in a GCN Notice and flagged as a known X-ray source.
+Further analysis of the WXM data has produced a refined localization
+that can be expressed as a 90% confidence circle that is 6.9 arcminutes
+in radius and is centered at
+
+WXM Refined Ground:  RA = +18h 08m 11.2s, Dec = -20d 38' 49" (J2000).
+
+Both WXM ground localizations are inconsistent with the burst coming
+from SGR 1806-20, suggesting that the burst came from a new source.
+
+The spectrum of the burst can be well-described by a sum of two
+blackbody spectra with the following parameters:
+
+n_H  = 6 x 10^22 cm^-2,
+
+kT_1 = 4.20 +/- 0.3 keV, and
+
+kT_2 = 10.82 +/- 0.8 keV.
+
+The spectrum of the burst is thus typical of SGR bursts; it is too
+hard to be an XRB and too soft to be a GRB.
+
+The burst duration t_90 of the event is 0.16 s in the 7-30 keV energy
+band, and 0.14 s in the 30-400 keV band.  The fluences of the burst are
+7.1 x 10^-7 erg cm^-2, 5.7 x 10^-7 erg cm^-2, and 4.7 x 10^-7 erg cm^-2
+in the 7-30, 25-100, and 30-400 keV energy bands, respectively.
+
+We initially waited to report the refined ground location of the burst
+in the expectation that confirmation of the location of this possible
+new SGR would come from the IPN.  However, the Ulysses data for this
+event has unfortunately been lost, due to a malfunction of the DSN
+antennas.
+
+We have subjected the WXM localization of the burst to the following
+tests:
+
+(1) We have localized the burst, using only the WXM wires that were
+illuminated by the burst and selecting a background interval that does
+not include any peak from the quasi-periodic brightness oscillations of
+GRS 1915+105, which was in the FOV of the WXM at the time of the
+burst.  We find that the center of the localization error circle
+changes by < 1 arcminute.
+
+(2) We have localized the burst, using the one WXM X-detector wire that
+was not illuminated by GRS 1915+105, the Y-detector wire for which the
+relative contamination by GRS 1915+105 was the least, and a 3 s
+background interval ending 0.6 s before the beginning of the burst.  We
+find exactly the same localization for the burst as before, except that
+the statistical error is 9 arcminutes instead of 7 arcminutes.
+
+We conclude from these results that the localization of the burst is
+not significantly affected by the presence of GRS 1915+105 in the FOV
+of the WXM at the time of the burst.
+
+(3) We have localized the burst, assuming that it has a very soft (XRB)
+spectrum.  We find that the center of the localization error circle
+changes by 2.9 arcminutes in the direction directly away from SGR
+1806-20.  We conclude from this result that assuming a spectrum that
+is softer than the spectrum of a GRB increases by a small amount the
+angular offset of the burst from the known location of SGR 1806-20.
+
+(4) There is no evidence for saturation of the WXM.  However, we have
+localized the burst, using only photons in the first 80 ms after the
+trigger, when the photon count rate of the burst in the WXM was low.
+We find that the radius of the localization error circle increases to
+13.6 arcminutes but that the center of the error circle changes by <
+2.5 arcminutes.  We conclude from this result that the localization of
+the burst is not significantly affected by saturation effects.
+
+(5) We have  carefully inspected the aspect solution from the optical
+cameras, and have concluded that the solution is accurate to better
+than 1 arcminute.
+
+(6) We have also localized GRS 1915+105, which was in the field of view
+of the WXM at the time of the burst, using two successive peaks in its
+quasi-periodic brightness oscillations -- one 25 s before and one 25 s
+after the burst.  The resulting localization has an error radius of
+10.4 arcminutes and is centered 2 arcminutes from the known location of
+GRS 1915+105.
+
+We conclude from these two results that the aspect of the spacecraft is
+well known at the time of the burst, and that other X-ray sources in
+the the FOV of the WXM do not significantly affect the localization of
+GRS 1915+105, and therefore presumably do not significantly affect the
+localization of the burst.
+
+We have therefore been unable to find any reason to doubt the accuracy
+of the WXM localization of the burst.
+
+If the probability distribution of the localization were a circularly
+symmetric Gaussian, the 15.5 arcminute angular offset of SGR 1806-20
+from the center of the WXM localization circle of the burst would
+correspond to a chi^2 of 23.2 for 2 DOF.  The known location of SGR
+1806-20 would then be inconsistent with the localization of the burst
+at a formal significance level of 9 x 10^-6.  However, although the
+real probability distribution of the localization of the burst is
+relatively circularly symmetric, it is very non-Gaussian, especially
+far out in the tail. The true significance therefore cannot be stated
+with any confidence, but it is clearly very small.  This strongly
+suggests that the burst came from a new source.
+
+We have examined existing ASCA, ROSAT, and Chandra observations of this
+field.  There are no ASCA sources in the WXM error circle for the
+burst.  There are several weak ROSAT sources in the error circle for
+the burst, but it is not clear that any of them are associated with the
+burst source.  The FOV of the most recent Chandra observation of SGR
+1806-20 did not include the WXM error circle for the burst.
+
+HETE-2 observations of the field are continuing.  Other observations
+of this possible new SGR are encouraged.
+

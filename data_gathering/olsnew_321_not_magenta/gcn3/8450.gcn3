@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8450
+SUBJECT: GRB 081029: UVOT Detection of the Optical Afterglow
+DATE:    08/10/29 16:41:01 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/USRA/GSFC) & T. Sakamoto (NASA/UMBC) report on
+behalf of the Swift/UVOT team:
+
+        The Swift/UVOT observed the field of GRB 081029 starting 2708 s
+after the BAT trigger (Sakamoto et al., 2008, GCNC 8435).  The late
+start to the follow-up observations is due to an Earth limb constraint
+at the time of the BAT trigger.  We detect the optical afterglow
+(Rykoff et al., GCNC 8436) in the v, b, and white filters.  This is
+consistent with a redshift of z = 3.8479 (D'Elia, et al., 2008, GCNC
+8438).  The refined UVOT source position is
+
+   RA (J2000.0) =  23:07:05.35 = 346.77229 (deg)
+  Dec (J2000.0) = -68:09:19.8  = -68.15549 (deg)
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence,
+statistical + systematic).
+
+      Magnitudes and 3-sigma upper limits are reported below.  TSTART
+and TSTOP are the start and stop times of the exposure, in seconds
+since the BAT trigger.  Exposure is the total exposure time, in
+seconds, during that interval.
+
+Filter   TSTART    TSTOP   Exposure       Mag  Err  Comments
+     v      2687     2887        197     19.02 0.20
+            8557     8757        197     18.66 0.21
+     b      3072     3272        197    >20.5        3-sigma upper limit
+            4507     4707        197     20.05 0.20
+     u      2867   21,932       1601    >21.9        3-sigma upper limit
+   uvw1     4097   21,019       1968    >21.8        3-sigma upper limit
+   uvm2     3892   16,685       1590    >21.7        3-sigma upper limit
+   uvw2     3482   15,250       1279    >21.7        3-sigma upper limit
+  white     2708     7856        147     20.50 0.30
+            4712     4912        197     19.41 0.10
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E_{B-V} = 0.03 mag (Schlegel et al.,
+1998, ApJS, 500, 525).  The photometry is on the UVOT photometric
+system described in Poole et al. (2008, MNRAS, 383,627).  The
+power-law decay index in the v band between 8557 and 15,864 s is
+consistent with no decay.
+

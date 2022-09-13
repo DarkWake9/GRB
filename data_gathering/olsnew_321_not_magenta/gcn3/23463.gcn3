@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23463
+SUBJECT: GRB 181126A: Swift-BAT refined analysis
+DATE:    18/11/27 03:41:42 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+M. Stamatikos (OSU), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), H. A. Krimm (NSF/USRA),
+A. Y. Lien (GSFC/UMBC), J. P. Norris (BSU),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), E. Sonbas (Adiyaman Univ.),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 181126A (trigger #873539)
+(Sonbas et al., GCN Circ. 23453).  The BAT ground-calculated position is
+RA, Dec = 152.350, -29.698 deg which is
+  RA(J2000)  =  10h 09m 24.0s
+  Dec(J2000) = -29d 41' 52.9"
+with an uncertainty of 1.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 68%.
+
+The mask-weighted light curve shows two short pulses. The first pulse starts
+at ~ T-0.1 s, peaks at ~T0, and ends at ~T+0.2 s. The second pulse starts
+at ~T+1.6 s, peaks at ~T+1.8 s, and ends at ~T+2.2 s. T90 (15-350 keV) is
+2.09 +- 0.12 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-0.07 to T+2.16 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index -0.13 +- 0.75,
+and Epeak of 83.8 +- 24.2 keV (chi squared 66.64 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 3.1 +- 0.4 x 10^-7 erg/cm2
+and the 1-sec peak flux measured from T+1.22 sec in the 15-150 keV band is
+2.7 +- 0.3 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.22 +- 0.15 (chi squared 79.71 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+Using the 8-ms binned light curve, the spectral lag for the 100-350 keV to
+25-50 keV bands is 26 (+19, -15) ms for the first pulse, and 10 (+21, -13) ms
+for the second pulse. These lag values are intermediate between short and
+long GRBs, but also are consistent with short GRBs when considering the
+large error bars. In addition, no extended emission is found.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/873539/BA/

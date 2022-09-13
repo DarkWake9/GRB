@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13774
+SUBJECT: Swift Trigger 533836 is a new Galactic transient
+DATE:    12/09/16 10:05:16 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. R. Cummings (NASA/UMBC), C. Gronwall (PSU), D. Grupe (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), C. B. Markwardt (NASA/GSFC),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/PSU) and
+M. Stamatikos (OSU/NASA/GSFC) report on behalf of the Swift Team:
+
+At 09:16:06 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located an unidentified source near the Galactic center (trigger=533836). 
+Swift slewed immediately to the source location. 
+The BAT on-board calculated location is 
+RA, Dec 266.322, -26.400 which is 
+   RA(J2000) = 17h 45m 17s
+   Dec(J2000) = -26d 23' 58"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This is a 16 minute long image trigger,
+so there is no immediately available lightcurve data.  The on-board detection
+significance is 8.5 sigma. 
+
+The XRT began observing the field at 09:36:59.0 UT, 1252.7 seconds
+after the BAT trigger. XRT found a possible X-ray source
+located at RA, Dec 266.2960, -26.4025 which is equivalent to:
+   RA(J2000)  = +17h 45m 11.04s
+   Dec(J2000) = -26d 24' 09.0"
+with an uncertainty of 5.8 arcseconds (radius, 90% containment). This
+location is 84 arcseconds from the BAT onboard position, within the BAT
+error circle. We are waiting for the full dataset to download in order 
+to confirm the existence of the source. 
+
+The initial flux in the 2.5 s image was 8.01e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1259 seconds after the BAT trigger. No credible afterglow candidate
+has been found in the initial data products. The 2.7'x2.7' sub-image covers
+100% of the XRT error circle. Because of the density of catalogued stars,
+further analysis is required to report an upper limit for any afterglow in the
+sub-image. The 8'x8' region for the list of sources generated on-board covers
+100% of the XRT error circle. Because of the density of catalogued stars,
+further analysis is required to report an upper limit for any afterglow in the
+region. No correction has been made for the large, but uncertain extinction
+expected. 
+
+Due to its position 152 arcminutes from the Galactic center,
+and its duration (discovered in a 16-minute long imag trigger),
+we believe that this is a previously-uncatalogued Galactic
+transient.  A final determination of the status of this source
+will require the downlinked data from the ground station. 
+
+A 'Swift J' source name will be assigned based on the final 
+X-ray position. 
+

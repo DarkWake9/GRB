@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18889
+SUBJECT: LIGO/Virgo G211117: Refined localization from CBC parameter estimation
+DATE:    16/01/18 15:55:50 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and Virgo report:
+
+We have completed a Bayesian parameter estimation analysis of the GW
+candidate G211117 (GCN 18728) under the assumption that the signal arises
+from a compact binary coalescence (CBC) and using the initial online
+calibration of the GW strain data. The data is most consistent with a
+binary black hole merger.
+
+One refined sky map is now available and can be retrieved from
+GraceDB (https://gracedb.ligo.org/events/G211117):
+
+ * LALInference_skymap.fits.gz, using Bayesian Markov-chain Monte Carlo
+   and nested sampling to perform forward modeling of the full GW signal
+   including spin precession and regression of systematic calibration
+   errors. We expect that additional parameter estimation runs based on
+   the offline re-calibration of the GW data and additional waveform
+   approximants will yield consistent results. We regard this sky map as
+   the most accurate to date for this event.
+
+This sky map agrees with the initial BAYESTAR and cWB localizations on
+favoring two broad, disjoint segments of an annulus.
+
+The table below presents a quantitative comparison of the available
+localizations along the lines of Sec. 4.5 of Essick et al. (2015,
+http://adsabs.harvard.edu/abs/2015ApJ...800...81E). The first column gives
+the area in deg2 of the 90% credible region, and the second column gives
+the area in deg2 of the overlap with the LALInference 90% credible region.
+
+ Area  Overlap   Algorithm (filename)         
+-------------------------------------------------------------
+ 1340   1090     BAYESTAR (bayestar.fits.gz)
+ 2230   1180     cWB (skyprobcc_cWB.fits)
+ 1240   ----     LALInference (LALInference_skymap.fits.gz)
+
+

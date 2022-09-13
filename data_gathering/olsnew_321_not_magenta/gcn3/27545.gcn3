@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27545
+SUBJECT: GRB 200411A: Swift-BAT refined analysis
+DATE:    20/04/12 03:24:25 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+H. A. Krimm (NSF), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), S. Laha (GSFC/UMBC),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+J. P. Norris (BSU), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU),
+A. Tohuvavohu (U Toronto), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+880 sec from the recent telemetry
+downlink,
+we report further analysis of BAT GRB 200411A (trigger #965784)
+(Tohuvavohu et al., GCN Circ. 27536).  The BAT ground-calculated position is
+RA, Dec = 47.686, -52.320 deg which is
+   RA(J2000)  =  03h 10m 44.7s
+   Dec(J2000) = -52d 19' 12.6"
+with an uncertainty of 1.6 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+
+The mask-weighted light curve shows a couple overlapping pulses
+that starts at ~T-0.02 s and ends at ~T+0.25 s. The highest peak
+occurs at ~ T+0.05 s. T90 (15-350 keV) is 0.22 +- 0.04 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T-0.02 to T+0.25 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.95 +- 0.19.  The fluence in the 15-150 keV band is 8.6 +- 1.1 x 10^-8
+erg/cm2.
+The 1-sec peak photon flux measured from T-0.38 sec in the 15-150 keV band
+is 1.1 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+Using the 4-ms binned light curve, the spectral lag of the short pulse
+is 1 (+7, -4) ms for the 100-350 keV to 25-50 keV bands, and 8 (+6, -6) ms
+for the 50-100 keV to 15-25 keV bands. These values are more consistent
+with those of short GRBs.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/965784/BA/

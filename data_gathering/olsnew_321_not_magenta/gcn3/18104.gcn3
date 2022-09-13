@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18104
+SUBJECT: GRB 150801B: Swift detection of a burst
+DATE:    15/08/01 22:58:56 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+B. Sbarufatti (INAF-OAB/PSU), S. D. Barthelmy (GSFC),
+J. R. Cummings (NASA/UMBC), L. M. Z. Hagen (PSU),
+N. P. M. Kuin (UCL-MSSL), F. E. Marshall (NASA/GSFC),
+D. M. Palmer (LANL) and M. H. Siegel (PSU) report on behalf of the
+Swift Team:
+
+At 22:41:48 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 150801B (trigger=650977).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 82.959, -5.387 which is 
+   RA(J2000) = 05h 31m 50s
+   Dec(J2000) = -05d 23' 14"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows several overlapping peaks
+with a total duration of about 20 sec.  The peak count rate
+was ~2600 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 22:43:07.3 UT, 78.8 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source with an enhanced position: RA, Dec 82.9666, -5.3883 which
+is equivalent to:
+   RA(J2000)  = 05h 31m 51.99s
+   Dec(J2000) = -05d 23' 18.0"
+with an uncertainty of 2.3 arcseconds (radius, 90% containment). This
+location is 27 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 83 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.24. 
+
+We note that this event is in the vicinity of the Orion Nebula. 
+However, it appears in all other respects to be a typical GRB. 
+
+Burst Advocate for this burst is B. Sbarufatti (boris.sbarufatti AT brera.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

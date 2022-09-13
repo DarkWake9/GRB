@@ -1,0 +1,72 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23737
+SUBJECT: Konus-Wind observation of GRB 190114C
+DATE:    19/01/16 13:01:40 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, R.Aptekar, A. Kozlova,
+A.Lysenko,  D. Svinkin, A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The long, very bright GRB 190114C
+(Swift-BAT detection: Gropp et al., GCN 23688;
+MAGIC detection: Mirzoyan et al., GCN 23701;
+Fermi-GBM detection: Hamburg et al., GCN 23707;
+Fermi-LAT detection: Kocevski et al., GCN 23709;
+AGILE/MCAL detection: Ursi et al., GCN 23712;
+Insight-HXMT/HE detection: Xiao et al., GCN 23712)
+triggered Konus-Wind (KW) at T0=75422.341 s UT (20:57:02.341).
+
+The main part of the burst light curve shows a hard-spectrum,
+multi-peaked pulse, which started at ~T0 and lasting for ~6 s, followed 
+by a weaker and softer pulse at ~T0+16 s.
+The decaying emission tail is seen in the KW data until the end of the
+trigger record at ~T0+320 s.
+The emission in the main pulse is seen up to ~20 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB190114_T75422/
+
+As observed by Konus-Wind, the main part of the burst had
+a fluence of (4.83 ± 0.10)x10^-4 erg/cm2 and
+a 64-ms peak energy flux, measured from T0+3.872,
+of (2.40 ± 0.08)x10^-4 erg/cm2 (both in the 20 keV - 10 MeV
+energy range).
+
+The time-integrated spectrum (measured from T0 to T0+21.248 s)
+is best fit in the 30 keV - 20 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -0.73 (-0.02,+0.02),
+the high energy photon index beta = -3.17 (-0.20,+0.16),
+the peak energy Ep = 646 (-16,+16) keV,
+chi2 = 122/95 dof.
+
+The spectrum near the peak count rate (measured from T0+3.584 s
+to T0+4.096 s) is best fit in the 30 keV - 20 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -0.01 (-0.07,+0.07),
+the high energy photon index beta = -2.98 (-0.22,+0.17),
+the peak energy Ep = 695 (-36,+38) keV,
+chi2 = 61/62 dof.
+
+The spectrum of the extended emission (measured from T0+21 s
+to T0+220 s) is best fit in the 30 keV - 20 MeV range
+by a simple power law with the photon index of 2.13 (-0.11,+0.12),
+chi2 = 67/99 dof.
+
+Assuming the redshift z=0.4245 (Selsing et al., GCN 23965;
+Castro-Tirado et al., GCN 23708)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the following rest-frame parameters:
+the isotropic energy release E_iso is (2.4 ± 0.05)x10^53 erg,
+the peak luminosity L_iso is (1.67 ± 0.05)x10^53 erg/s
+(both in the 1-10000 keV rest-frame band).
+With these values, GRB 190114C is within 68% prediction bands
+for both 'Amati' and 'Yonetoku' relations built for the sample
+of 138 long KW GRBs with known redshifts (Tsvetkova et al., ApJ 850 161, 
+2017), see http://www.ioffe.ru/LEA/GRBs/GRB190114_T75422/GRB190114C.pdf
+
+All the quoted errors are estimated at the 90% confidence level.
+All the presented results are preliminary.
+

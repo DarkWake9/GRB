@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25491
+SUBJECT: Fermi GBM-190816: Eight additional candidates from the Zwicky Transient Facility
+DATE:    19/08/27 14:00:40 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+Robert Stein (DESY),  Anna Franckowiak (DESY), and Mansi M. Kasliwal (Caltech) report on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+ 
+We have continued serendipitous observations of the localization region of the subthreshold joint Fermi GBM-LVC gravitational wave trigger Fermi GBM-190816 (GCN 25406, GCN 25465) using the Palomar 48-inch telescope equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). Additional observations were conducted as part of the public survey, with exposures of 30s and a typical depth of ~20.5 mag. Based on the updated localisation, 4% of the localisation region has now been observed at least twice by ZTF. This coverage estimate does not account for chip gaps. The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to vet candidates based on their light curves. After rejecting stellar sources (Tachibana and Miller 2018) and moving objects and applying machine learning algorithms (Mahabal et al. 2019), and after removing candidates with history of variability prior to the merger time, eight new transient candidates were identified by our pipeline in the 90% localization. In addition, of the four previous candidates found by us in GCN 25430, ZTF19abqgyxp (AT2019ock) remains coincident with the contour. The most recent detection for each of the nine candidates are summarised below.
+ 
+--------------------------------------------------------------------------------------------
+  ZTF Name     | RA (deg)    | DEC (deg)  | Latest Detection (JD) | Filter |  Mag  | Mag Err
+--------------------------------------------------------------------------------------------
+  ZTF19abqgyxp | 104.4287931 |+56.0874661 |     2458722.9684      |   g    | 19.68 |  0.19
+  ZTF19abqsfxk | 192.9615617 |+46.6205382 |     2458720.6582      |   g    | 19.20 |  0.17
+  ZTF19abqyoom | 106.7709781 |+56.53072805|     2458719.9713      |   r    | 19.48 |  0.18
+  ZTF19abqyopw | 99.092118433|+51.42299573|     2458722.9684      |   g    | 20.09 |  0.19
+  ZTF19abqseqe | 193.82630665|+30.41451305|     2458720.6564      |   g    | 19.10 |  0.14
+  ZTF19abrojbd | 104.9923562 |+48.2035375 |     2458719.9718      |   r    | 19.42 |  0.19
+  ZTF19abrojbe | 105.0531765 |+48.0606988 |     2458719.9718      |   r    | 19.45 |  0.21 
+  ZTF19abrozxz | 196.8572123 |+49.18832945|     2458720.6582      |   g    | 19.43 |  0.16 
+  ZTF19abrpabq | 198.8837901 |+52.5539301 |     2458720.6596      |   g    | 19.69 |  0.15
+--------------------------------------------------------------------------------------------
+ 
+ZTF19abqgyxp (AT2019ock), first detected two days after merger, is now reddening and fading. ZTF19abqsfxk (AT2019obp) and ZTF19abqyoom (AT2019ome) were both first detected five days after merger, and have not significantly evolved. ZTF19abqyopw (AT2019omf), first detected two days after merger, is now reddening and fading. ZTF19abqseqe (AT2019nyu), ZTF19abrojbd (AT2019otp), ZTF19abrojbe (AT2019otq), and ZTF19abrozxz (AT2019onn) were all first detected five days after merger and are all rising. ZTF19abrpabq (AT2019otr) was first detected two days after merger and is rising.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).

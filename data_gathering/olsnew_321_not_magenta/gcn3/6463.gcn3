@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6463
+SUBJECT: Swift trigger 280447 is probably a Galactic transient
+DATE:    07/05/26 09:37:03 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+F. E. Marshall (NASA/GSFC), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), S. Campana (INAF-OAB),
+G. Cusumano (INAF-IASFPA), V. Mangano (INAF-IASFPA),
+P. T. O'Brien (U Leicester), J. P. Osborne (U Leicester),
+C. Pagani (PSU), D. M. Palmer (LANL),
+P. Romano (Univ. Bicocca & INAF-OAB), B. Sbarufatti (INAF-IASFPA),
+D. E. Vanden Berk (PSU) and H. Ziaeepour (UCL-MSSL) report on behalf
+of the Swift Team:
+
+At 08:49:18 UT, the Swift Burst Alert Telescope (BAT) triggered (trigger=280447)
+and located a probable Galactic transient.  Due to the Earth limb constraint,
+the Swift slew to the target was delayed by 9 minutes. 
+The BAT on-board calculated location is 
+RA, Dec 301.271, +31.484 which is 
+   RA(J2000)  =  20h 05m 05s
+   Dec(J2000) = +31d 29' 02"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual for 64 second image triggers,
+the raw BAT lightcurve available via TDRSS does not show any
+obvious variation. 
+
+The XRT began observing the field at 09:00:38 UT, 680 seconds after the
+BAT trigger. XRT found a bright uncatalogued X-ray source
+located at RA, Dec 301.3168, +31.3876 which is
+   RA(J2000)  =  20h 05m 16.0s
+   Dec(J2000) =  31d 23' 15.3"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). 
+This location is 374 arcseconds from the BAT on-board position,
+outside the BAT error circle. The initial flux in the 2.5s image
+was 8.8e-09 erg/cm2/s (0.2-10 keV). 
+
+There is no UVOT information for this burst.  This trigger is
+distinct and separate from the trigger 280450.  We will have a separate
+circular on that second trigger shortly. 
+
+This location is on the Galactic plane (lat=-0.2deg), the XRT intensity
+is much brighter than would be expected for a GRB at T+10
+minutes and is highly-absorbed non-power-law spectrum. 
+Therefore this source is probably a Galactic transient. 
+

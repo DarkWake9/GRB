@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9836
+SUBJECT: Konus-Wind observations of GRB 090823
+DATE:    09/08/25 10:11:26 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, E. Mazets, V. Pal'shin,
+P. Oleynik, M. Ulanov, D. Svinkin, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long GRB 090823 (Cummings et al., GCN 9835)
+triggered Konus-Wind at T0=58270.606 s UT (16:11:10.606)
+This burst was also observed by the Suzaku WAM, Agile-MCAL, and
+(during a slew maneuver) Swift-BAT.
+
+The burst had a smooth structure with a duration of ~10 s.
+The Konus-Wind light curves of this GRB are available at
+http://www.ioffe.ru/LEA/GRBs/GRB090823_T58270/
+
+As observed by Konus-Wind the burst had
+a fluence of 8.9(-0.3,+0.5)x10-6 erg/cm2, and
+a 256-ms peak flux, measured from T0+3.072,
+of 2.8(-0.25,+0.25)x10-6 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the burst (from T0 to T0+14.848 s)
+is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with Alpha = -0.49(-0.15,+0.17),
+and  Ep = 188(-15,+18)keV (chi2 = 56/61 dof).
+Fitting by the GRB (Band) model yields to the same Alpha and Ep
+values with the high energy photon index Beta of -7 (< -2.7)
+
+The spectrum at the maximum count rate, measured from
+T0 + 0.256s to T0 + 6.656s, is well fitted (in the 20 keV - 2 MeV range)
+by the GRB (Band) model with:
+Alpha = -0.45(-0.14,+0.16),
+Beta  = -3.0(-2.2,+0.4), and
+Ep    = 182(-18,+18)keV (chi2 = 63/60 dof).
+
+All the quoted values are preliminary.
+All the quoted errors are at the 90% confidence level.
+

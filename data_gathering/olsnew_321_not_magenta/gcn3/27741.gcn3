@@ -1,0 +1,18 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27741
+SUBJECT: GRB200514B: YSE detection of ZTF20aazpphd
+DATE:    20/05/14 23:00:35 GMT
+FROM:    David Jones at UC,Santa Cruz  <david.jones@ucsc.edu>
+
+D. O. Jones (UC Santa Cruz), K. D. French (Carnegie, Illinois), A. Agnello, C. R. Angus, Z. Ansari, N. Arendse, C. Gall, C. Grillo, S. H. Bruun, C. Hede, J. Hjorth, L. Izzo, H. Korhonen, S. Raimundo, D. Kodi Ramanah, A. Sarangi, R. Wojtak (DARK, U Copenhagen), K. Auchettl (DARK, UC Santa Cruz, U Melbourne), K. C. Chambers, M. E. Huber, E. A. Magnier, T. J. L. de Boer, J. R. Fairlamb, C. C. Lin, R. J. Wainscoat, T. Lowe, M. Willman, J. Bulger, A. S. B. Schultz (IfA, Hawaii), A. Engel, A. Gagliano, G. Narayan, M. Soraisam (Illinois), Q. Wang (JHU), A. Rest (JHU, STScI), S. J. Smartt, K. W. Smith (Queen's University Belfast), K. D. Alexander, A. Baldeschi, P. Blanchard, D. Coppejans, L. DeMarchi, A. Hajela, W. Jacobson-Galan, R. Margutti, D. Matthews, C. Stauffer, M. Stroh, G. Terreran (Northwestern), M. Drout (U Toronto), D. A. Coulter, G. Dimitriadis, R. J. Foley, T. Hung, C. D. Kilpatrick, C. Rojas-Bravo, M. R. Siebert (UC Santa Cruz), E. Ramirez-Ruiz (UC Santa Cruz, DARK)
+
+The ZTF and ATLAS collaborations (Ahumada et al., GCN 27737; Smartt et al., GCN 27738) have both reported observations of ZTF20aazpphd (AT2020jww), a transient within the localization region of  short GRB200514B (trigger 611140062).  GRB200514B was detected at MJD = 58983.38029 by the Gamma-Ray Burst Monitor on the Fermi satellite (GCN 27736).
+
+The Young Supernova Experiment (YSE; ATel 13330) also observed this region of the sky with Pan-STARRS1 on Haleakala (Chambers et al., 2016).  We detected ZTF20aazpphd in gi bands with an g-i color of -0.57 +/- 0.12 mag:
+
+MJD           dt    band   mag     mag_err
+58983.52303  +3.43  g_P1   19.197  0.079
+58983.52573  +3.49  i_P1   19.766  0.094
+
+The dt column is the time since GRB200514B was discovered in hours.  These measurements were taken 0.8 hours after the ZTF r-band observation, 1.75 hours after the ZTF g observation and 2.4 hours after ATLAS observations (Smartt et al., GCN 27738).  They are consistent with magnitudes from ZTF (g = 19.249 +/- 0.047) and ATLAS.  Our data do not show evidence for the rapid decline characteristic of a sGRB over the time baseline of ~2.4 hours.
+

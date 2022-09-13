@@ -1,0 +1,87 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15776
+SUBJECT: GRB 140129B:  MASTER OT early light curve
+DATE:    14/01/30 08:54:54 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+V.A.Poleshchuk, O.Gres, K.Ivanov, S.Yazev, N.M.Budnev, O.Chuvalaev, 
+Irkutsk State University
+
+D.Denisenko, E. Gorbovskoy, V. Lipunov, 
+D.Kuvshinov,  N.Tyurina, N.Shatskiy, P.Balanutsa, 
+A.Kuznetsov, V.Kornilov, V.V.Chazov
+Lomonosov Moscow State University, Sternberg Astronomical Institute
+
+V.Yurkov, Yu.Sergienko, D.Varda, E.Sinyakov
+Blagoveschensk Educational State University, Blagoveschensk
+
+V.Krushinski, I.Zalozhnih,  A. Popov
+Ural Federal University, Kourovka
+
+A. Tlatov, A.V. Parhomenko, D. Dormidontov, V.Sennik
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+Hugo Levato and Carlos Saffe
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+Claudio Mallamaci, Carlos Lopez and Federico Podest
+Observatorio Astronomico Felix Aguilar (OAFA)
+
+
+
+   MASTER II robotic telescope (MASTER-Net: http://observ.pereplet.ru) 
+located
+in Tunka was pointed to the  GRB140129B  78 sec after notice time and 105 
+sec after trigger time at 2014-01-29 12:52:54 UT (Bernardini et al., GCN 
+15765).
+Such a long pointing time is due to internal mount pointing error under 
+strong Siberian frost, which was automatically solved. A set of images 
+with increasing exposures was obtained with the field at zenith distance 
+75 deg and setting. On our first (20s exposure) image we found optical 
+transient at the SWIFT optical transient position. 
+The unfiltered magnitude is about ~14m (Ivanov et al., GCN 15766).
+
+    Our coordinates measured from the combination of 7 images are 
+coincident with Swift UVOT position taking into account the error box 
+reported by Bernardini et al., GCN 15765 and Swift-XRT position (Goad et 
+al., GCN 15770):
+
+
+     R.A.        Dec.            Err
+21 47 01.71 +26 12 22.8     +/-0.5 arcsec
+
+    The object is visible on 6 images, gradually fading below the detection
+limit on the 7th image. The results of our photometry are given in table 
+below:
+
+T_start   T-T_trig Tm-T_trig   Exp,s Elevation  Mag
+----------------------------------------------------
+12:52:54   105        115       20     15.5     14.4
+12:54:03   174        189       30     15.3     15.4
+12:55:28   259        284       50     15.1     15.9
+12:57:15   366        401       70     14.9     16.2
+12:59:19   490        540      100     14.6     17.0
+13:02:11   662        727      130     14.2     17.3
+13:05:28   859        944      170     13.7     17.7
+13:09:21  1091       1181      180     12.7     18.0
+13:13:20  1330       1540      360     11.6    <18.4    # coadd 2 image
+
+In the table above 'T' is time of exposure beginning, 'Tm' is mid-exposure 
+time.
+The power law slope is alpha = 1.42.
+
+The GRB140129B duration is small (T_90 < 2 sec, Palmer et al., GCN 15774), 
+but spectrum is soft and this burst must be  faint long GRB (Pal'shin, 
+privet communication; Palmer et al., GCN 15774).
+
+Animation of seven frames by MASTER-Tunka is uploaded to
+http://master.sai.msu.ru/static/GRB/GRB140129B-MASTER-Tunka-anim.gif
+
+The light curve is available here:
+http://master.sai.msu.ru/static/GRB/GRB140129B_last.png
+
+Take the opportunity we would like to congratulate our first author from 
+Siberia Vladimir  Poleshchuk  with the birth of the grandchild.
+
+The message  may be cited.
+

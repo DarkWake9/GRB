@@ -1,0 +1,38 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4867
+SUBJECT: GRB 060313: Swift-BAT detection of a bright short hard burst
+DATE:    06/03/13 00:47:42 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+C. Pagani (PSU), S. Barthelmy (GSFC), J. Cummings (GSFC/ORAU), N. Gehrels (GSFC),
+D. Grupe (PSU), S.T. Holland (GSFC/USRA), S. Hunsberger (PSU),
+C. Markwardt (GSFC/UMD), F. Marshall (GSFC), D. Palmer (LANL)
+on behalf of the Swift team:
+
+At 00:12:06 UT, Swift-BAT triggered and located GRB 060313 (trigger=201487).
+The spacecraft slewed immediately.  The BAT on-board calculated location is
+RA,Dec 66.609d,-10.872d {04h 26m 26s,-10d 52' 19"} (J2000), with an uncertainty
+of 3 arcmin (radius, 90% containment, stat+sys).  The BAT light curve shows
+two slightly overlapping peaks with a total duration of ~1.6 sec.
+The first peak start at ~T-0.7 sec and the second peak ends by T+0.9 sec.
+The peak count rate was ~40,000 counts/sec (15-350 keV), at ~0.0 seconds
+after the trigger.  This is definitely a short hard burst.
+
+The XRT began taking data at 00:13:24 UT, 79 seconds after the BAT trigger.
+The XRT on-board centroid algorithm did not find a source in the image and
+no prompt position is available.  We are waiting for down-linked data
+to detect and determine a position for the source.
+
+UVOT took a finding chart exposure of 200 seconds with the V filter starting
+78 seconds after the BAT trigger.  No afterglow candidate has been found
+in the initial data products.  The 2.7'x2.7' sub-image covers 25% of the
+BAT error circle.  The typical 3-sigma upper limit has been about 18th mag.
+The 8'x8' region for the list of sources generated on-board covers 100%
+of the BAT error circle.  The list of sources is typically complete to
+about 18.0 mag.  No correction has been made for the expected extinction
+of about 0.2 magnitudes.
+
+We note that the magnitude B=16.3 galaxy LEDA 3093309 (aka  NPM1G -10.0175)
+is within 5 arcminutes of the BAT position, however there is currently
+no evidence for a physical association between these two objects.
+

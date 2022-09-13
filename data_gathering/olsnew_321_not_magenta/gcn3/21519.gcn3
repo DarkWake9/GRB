@@ -1,0 +1,162 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21519
+SUBJECT: LIGO/Virgo G298048: Nearby Galaxies in the Localization Volume
+DATE:    17/08/17 20:00:07 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+David O. Cook (Caltech), Angela Van Sistine (UW Milwaukee), Leo Singer
+(NASA/GSFC), and M. M. Kasliwal (Caltech)
+
+report on behalf of the GROWTH (Global Relay of Observatories Watching
+Transients Happen) collaborations
+
+We spatially cross-matched the LIGO/Virgo G298048 trigger (90% containment
+volume using bayestar-HLV.fits; LVC GCN 21513) with our Census of the Local
+Universe (CLU; Cook et al. in prep) galaxy catalog and found 54 galaxies.
+This catalog is a compilation of galaxies with existing redshifts from many
+sources (e.g., NED, SDSS, etc) and new galaxies from a 3PI four-filter
+narrow-band survey to look for redshifted Halpha emission out to 200 Mpc
+with the Palomar Oschin 48-inch telescope. The narrow-band survey is
+limited to a declination above -20 degrees, thus all galaxies within the
+90% volume come from the compiled CLU catalog with no Halpha overlap.
+
+We list here all 54 galaxies sorted by stellar mass (Mstar) for galaxies
+whose location on the sky and distance falls in the 90% volume reported by
+the BAYESTAR probability sky map (Singer et al. 2016). We also list the
+dust-corrected star formation rates (SFRs) for galaxies with GALEX FUV
+detections and a 'nan' for those with no detection.
+
+In addition, we have cross-matched the CLU catalog with the IceCube source
+closest to the LIGO localization (GCN #21511) and found 1 galaxy in the
+quoted error circle (ra=182.0 deg; dec=-3.2 deg; radius=0.9 deg) and a
+distance less than 50 Mpc. This galaxy in presented at the bottom of the
+table below and is marked by '**'.
+
+Finally, we have compared CLU to the GLADE results posted in the GCN #21516
+and found that all 15 galaxies reported by GLADE are a subset of our 54
+galaxies in the 90% LIGO volume. The matched galaxies are marked by '*'
+
+                 name_NED                    ra      dec    distmpc
+logsfr_fuv logmstar dm_kin       P
+----------------------------------------- -------- -------- -------
+---------- -------- ------ --------------
+                                 NGC 4970 196.8906 -24.0086   46.50
+nan    10.42  33.34  0.67982512378*
+                                 NGC 4830 194.3663 -19.6913   47.90
+-1.419    10.41  33.40 0.751692025898*
+                                 NGC 4993 197.4487 -23.3839   41.66
+nan    10.26  33.10 0.406381229308
+                                 NGC 4968 196.7749 -23.6770   42.24
+0.626    10.25  33.13 0.505916529441*
+                                  IC 4197 197.0180 -23.7969   43.24
+nan    10.24  33.18 0.484445523125*
+                                  IC 4180 196.7354 -23.9171   42.46
+-0.623    10.17  33.14 0.601966463045*
+                           ESO 508- G 033 199.0969 -26.5614   45.59
+0.199     9.95  33.29 0.825983269095
+                           MCG -02-33-036 193.1066 -15.5172   53.87
+-1.130     9.86  33.66 0.877644438005
+                           ESO 508- G 010 196.9080 -23.5790   43.04
+nan     9.51  33.17 0.437793300499*
+                           MCG -03-33-023 194.2521 -17.3202   56.79
+nan     9.33  33.77 0.896518620494
+                           ESO 575- G 053 196.2705 -22.3839   36.37
+-0.856     9.33  32.80  0.22864531721
+                  2MASX J12525109-1529300 193.2130 -15.4916   52.26
+nan     9.31  33.59 0.840364529116
+                  2MASX J12505229-1454238 192.7180 -14.9066   52.96
+-0.855     9.29  33.62 0.887842401044
+                  2MASX J12573271-1942006 194.3863 -19.7002   52.39
+-1.788     9.25  33.60 0.869507751703
+                           ESO 576- G 003 197.6488 -21.7482   42.04
+nan     9.18  33.12 0.892767805914
+                                 UGCA 331 197.6914 -23.8657   40.82
+nan     9.17  33.05  0.46533406188
+                                  IC 3825 192.6544 -14.4828   51.04
+-0.985     9.17  33.54 0.869690712974
+                           ESO 575- G 055 196.6663 -22.4561   44.49
+-0.975     9.07  33.24 0.318944282323
+                           ESO 508- G 003 196.6000 -24.1641   40.52
+nan     9.06  33.04 0.725785234193*
+                           ESO 508- G 019 197.4663 -24.2391   41.79
+nan     8.98  33.11 0.468015512935
+                           ESO 575- G 029 193.9986 -19.2691   45.21
+nan     8.96  33.28 0.776285954276*
+                  2MASX J13073768-2356181 196.9071 -23.9384   49.73
+nan     8.92  33.48  0.75425858513*
+                              2MFGC 10461 197.1774 -23.7756   41.39
+nan     8.90  33.08 0.402195426608
+                  2MASX J13061939-2258491 196.5805 -22.9804   41.51
+-1.129     8.83  33.09 0.348727829094*
+                                 UGCA 327 196.9370 -22.8579   37.29
+nan     8.81  32.86  0.24221860665
+             GALEXASC J125520.46-170546.9 193.8364 -17.0966   56.69
+-1.151     8.67  33.77 0.893717974236
+                WINGS J125412.84-153523.6 193.5534 -15.5899   50.96
+nan     8.64  33.54 0.819574163679
+                           ESO 508- G 004 196.7177 -22.8405   41.37
+-1.063     8.61  33.08 0.261954420028
+                           ESO 508- G 014 197.1342 -23.3469   46.61
+-1.525     8.60  33.34 0.502436701005
+                      6dF J1254495-160308 193.7063 -16.0523   48.02
+nan     8.52  33.41  0.63989406271
+             GALEXASC J125811.97-210246.3 194.5501 -21.0461   43.89
+-1.349     8.47  33.21 0.896108050802*
+             GALEXASC J130525.30-233008.8 196.3546 -23.5025   45.90
+-1.011     8.43  33.31 0.758188818845
+             GALEXASC J125259.36-152150.9 193.2474 -15.3639   49.87
+-1.321     8.41  33.49 0.780610774955
+             GALEXASC J125301.39-151007.7 193.2552 -15.1693   53.40
+-1.700     8.35  33.64 0.897732213223
+             GALEXASC J130707.37-240634.4 196.7822 -24.1104   41.50
+nan     8.30  33.09 0.649957568967
+                      6dF J1305235-233121 196.3478 -23.5224   41.71
+nan     8.28  33.10 0.683125977193*
+             GALEXASC J130415.26-225251.3 196.0633 -22.8814   41.23
+-1.577     8.20  33.08 0.569226109088*
+                      6dF J1309177-242256 197.3241 -24.3821   40.36
+nan     8.12  33.03 0.493271503844
+                                 UGCA 328 197.3298 -24.3866   41.03
+nan     8.11  33.07 0.501078476114
+             GALEXASC J125157.02-160617.8 192.9872 -16.1047   50.30
+nan     8.06  33.51 0.758957103398
+                           ESO 508- G 035 199.4497 -26.9025   37.77
+-1.526     8.02  32.89 0.845327686458
+             GALEXASC J130918.58-242304.8 197.3286 -24.3846   39.81
+nan     7.98  33.00  0.48826441659
+             ABELL 1664_11:[PSE2006] 2506 196.8922 -23.8153   42.80
+nan     7.93  33.16 0.503854909981*
+             GALEXASC J131426.62-271242.6 198.6106 -27.2120   29.32
+-1.784     7.82  32.34 0.889086337352
+            ABELL 1631:[CZ2003]B0295[024] 192.8695 -15.8723   53.56
+nan     7.77  33.64 0.872555532297
+                WINGS J125701.38-172325.2 194.2558 -17.3903   26.13
+nan     7.10  32.09 0.266736706214
+                                HDCE 0763 196.9733 -23.7569   43.09
+nan      nan  33.17  0.48258630738
+                                  ESO 508 197.1336 -23.6224   45.66
+nan      nan  33.30 0.492829108028
+                           [TSK2008] 0073 197.7951 -23.5882   40.44
+nan      nan  33.03 0.532282847671
+                                USGC S204 196.9600 -23.5400   41.72
+nan      nan  33.10 0.382686501893
+                           [TSK2008] 0052 199.0736 -27.6878   29.69
+nan      nan  32.36 0.894365407375
+                          HIPASS J1255-15 193.8983 -15.0175   27.32
+nan      nan  32.18 0.834811408702
+                              2MFGC 10484 197.4617 -24.2419   42.31
+nan      nan  33.13  0.47821726929
+                                 UGCA 325 196.7796 -24.1119   42.70
+nan      nan  33.15 0.668934329707
+             GALEXASC J120652.88-040236.6 181.7196 -04.0437   27.17
+nan     7.34  32.17 N/A***
+
+**Galaxy found within the IceCube localization closest to the LIGO
+localization in the GCN #21511.
+* Galaxies matched to the GLADE catalog reported in  GCN #21516
+
+The SFRs are derived from GALEX all sky kron FUV magnitudes via the
+prescription of Murphy et al. (2011) and have been corrected for internal
+dust extinction using a combination of GALEX FUV and 22um ALLWISE fluxes
+(Hao et al. 2011). The quoted stellar masses are derived from 3.4um ALLWISE
+fluxes and a mass-to-light ratio of 0.5 (McGaugh & Schombert et al. 2015).

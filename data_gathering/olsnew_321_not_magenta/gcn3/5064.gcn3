@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5064
+SUBJECT: GRB 060502B:  Refined analysis of the Swift-BAT short burst
+DATE:    06/05/03 04:31:23 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+G. Sato (ISAS), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/ORAU), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (BYU-Idaho), H. Krimm (GSFC/USRA), M. Koss (UMD),
+C. Markwardt (GSFC/UMD), J. Norris (GSFC), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/ORAU), M. Stamatikos (GSFC/ORAU),
+E. Troja (INAF-IASFPA), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the data set from T-119 to T+183 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 060502B (trigger #208275)
+(Troja, et al., GCN 5055).  The BAT ground-calculated position is RA,Dec =
+278.949, 52.642 deg {18h 35m 47.7s, 52d 38' 32.5"} (J2000) +- 1.8 arcmin,
+(radius, sys+stat, 90% containment).  The partial coding was 92%.
+ 
+The lightcurve consists of two spikes.  The main peak starts at ~T-0.060
+and has a FWHM of ~40 msec.  Its rise is faster than the decay.
+There is also a possible second peak (a precurrsor) starting at
+T-0.3 sec with a FWHM of ~100 msec and a significance of only ~4 sigma.
+T90 (15-350 keV) is 90 +- 20 msec (estimated error including systematics).
+
+The lag analysis shows this burst to be cleanly in the short hard burst class
+(Norris and Bonnell, 2006, ApJ, accepted; see, Figure 3).
+Specifically, the measured lags for the main peak are:
+   -4.0 ms +- 3.0 ms  (15-25 keV vs.  50-100 keV)
+   -0.2 ms +- 2.8 ms  (25-50 keV vs. 100-350 keV)
+ 
+The time-averaged spectrum from T-0.05 to T+0.04 is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.92 +- 0.23.  The fluence in the 15-150 keV band is
+4 +- 0.5 x 10^-8 erg/cm2.  The 1-sec peak photon flux measured
+from T-0.43 sec in the 15-150 keV band is 4.4 +- 0.6 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level. 
+

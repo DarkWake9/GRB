@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7016
+SUBJECT: Swift UVOT upper limits to GRB071028
+DATE:    07/10/29 17:12:39 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL/UCL) and J.L. Racusin (PSU) report on behalf of the Swift 
+UVOT team:
+
+The Swift/UVOT observed the field of GRB 071028 (GCN 7012; Racusin et al.) 
+beginning 128 seconds after the BAT trigger. No afterglow is detected in 
+any of the UVOT filters within the XRT error circle (Racusin et al., GCN 
+7014). As already noted by Xin et al. (GCN 7015), the refined XRT position 
+(Racusin et al., GCN 7014) lies next to a very bright star (V<10 mag), 
+severely limiting the detection of an optical afterglow.
+
+In the case of the white band and optical filters (v,b,u), contamination 
+from the nearby, bright star is causing the exposures to be affected by 
+coincidence loss to a degree that is outside the photometrically 
+calibrated range of UVOT. This limits the depth of our observations at the 
+XRT position in these filters to white > 13.86, v > 11.46, b > 12.68 and u 
+> 11.91.
+
+The 3-sigma upper limits at the XRT position in co-added UV exposures are as 
+follows:
+
+Filter   Tmid  Exp   Magnitude
+          (s)   (s)   (3-sigma UL)
+uvw1     5044  412    > 19.89
+uvm2     4847  413    > 20.32
+uvw2     5014  213    > 19.67
+
+where Tmid is the mid time of the observations. The values quoted above are not 
+corrected for the expected Galactic extinction corresponding to a reddening of 
+E_{B-V} = 0.06 mag in the direction of the burst (Schlegel et al. 1998).
+

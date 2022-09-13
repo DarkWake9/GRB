@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16068
+SUBJECT: Swift trigger 594286: Is likely a noise trigger
+DATE:    14/04/01 18:52:38 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+V. D'Elia (ASDC), S. T. Holland (STScI), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/PSU), C. A. Swenson (PSU)
+and T. N. Ukwatta (MSU) report on behalf of the Swift Team:
+
+At 18:21:56 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible source coincident with NGC1495 (trigger=594286). 
+Swift slewed immediately to the source.  The BAT on-board calculated location is 
+RA, Dec 59.640, -44.453, which is 
+   RA(J2000)  =  03h 58m 34s
+   Dec(J2000) = -44d 27' 10"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for an image trigger, the real-time
+TDRSS lightcurve does not show anything. 
+
+The XRT began observing the field at 18:28:34.6 UT, 398.5 seconds after
+the BAT trigger. No source was detected in 1.0 ks of promptly
+downlinked data, which covered 98% of the BAT error circle. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 401 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.01. 
+
+Due to the low significance of this detection (5.92 sigma) the
+lack of an XRT or UVOT detection, and the lack of previous activity
+from this galaxy, there is a low likelihood that this is a real
+astrophysical source.  Further analysis using the full ground-linked data
+will be required. 
+

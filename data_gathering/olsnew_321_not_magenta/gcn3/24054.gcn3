@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24054
+SUBJECT: GRB 190404C: Swift-XRT observations
+DATE:    19/04/05 15:16:19 GMT
+FROM:    Valerio D'Elia at ASDC  <valerio.delia@ssdc.asi.it>
+
+P. D'Avanzo (INAF-OAB), J.A. Kennea (PSU), B. Sbarufatti
+(INAF-OAB/PSU), D.N. Burrows (PSU), J.P. Osborne (U. Leicester), K.L.
+Page (U. Leicester), A.P. Beardmore (U. Leicester), V. D'Elia (ASDC),
+A. D'Ai (INAF-IASFPA) and P.A. Evans (U. Leicester) report on behalf of
+the Swift-XRT team:
+
+Swift-XRT has performed follow-up observations of the MAXI-detected
+burst GRB 190404C (Yamada et al. 2019, GCN circ. 24049)in a series of
+observations tiled on the sky. The total exposure time is 4.9 ks,
+distributed over 4 tiles; the maximum exposure at a single sky location
+was 3.4 ks. The data were collected between T0+7.4 ks and T0+19.1 ks,
+and are entirely in Photon Counting (PC) mode. 
+
+Three uncatalogued X-ray sources have been detected, however none of
+them is above the RASS limit. No source shows definitive signs of
+fading, despite Source 3, which is the brightest, marginally weakened
+(at the 2.7 sigma level) during the observation. Therefore, at the
+present time we cannot safely identify the afterglow. Details of these
+sources are given below:
+
+Source 1:
+  RA (J2000.0):  221.0760  =  14:44:18.23
+  Dec (J2000.0): -22.6488  =  -22:38:55.5
+  Error: 6.1 arcsec (radius, 90% conf.)
+  Count-rate: (6.3 [+3.2, -2.4])e-3 ct s^-1   
+  Distance: 1015 arcsec from MAXI position.
+  Flux: (3.0 [+1.5, -1.1])e-13 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+
+Source 2:
+  RA (J2000.0):  221.0110  =  14:44:2.63
+  Dec (J2000.0): -22.5140  =  -22:30:50.3
+  Error: 13.5 arcsec (radius, 90% conf.)
+  Count-rate: (6.8 [+3.8, -2.8])e-3 ct s^-1   
+  Distance: 1006 arcsec from MAXI position.
+  Flux: (5.4 [+3.0, -2.2])e-13 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+
+Source 3:
+  RA (J2000.0):  220.84256  =  14:43:22.21
+  Dec (J2000.0): -22.66386  =  -22:39:49.9
+  Error: 2.8 arcsec (radius, 90% conf. [Enhanced position])
+  Count-rate: 0.0236 [+0.0041, -0.0038] ct s^-1   
+  Distance: 245 arcsec from MAXI position.
+  Flux: (5.99 [+1.03, -0.98])e-13 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+
+
+We do not find any X-ray object at the position of the optical
+candidate reported by Waratkar et al. 2019 (GCN circ. 24051), the
+closest source being Source 1 at a distance of 4.3 arcmin. The XRT
+upper limit at the position of the GROWTH candidate is ~7e-3 ct s^-1.
+The UVOT upper limit at the same position is ~ 21 mag in the U band.
+
+The results of the XRT-team automatic analysis of the tiled XRT
+observations, including a position-specific upper limit calculator, are
+available at http://www.swift.ac.uk/xrt_products/TILED_GRB00079.
+
+This circular is an official product of the Swift-XRT team.
+

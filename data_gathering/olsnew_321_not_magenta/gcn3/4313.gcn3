@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4313
+SUBJECT: Swift XRT positions
+DATE:    05/12/08 22:41:03 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+L. Angelini (GSFC), J. E. Hill (USRA/GSFC), A. Moretti, G. Chincarini 
+(OAB), D. N. Burrows, J. A. Kennea, J. Racusin (PSU), and J. Osborne (U. 
+Leicester) report on behalf of the Swift XRT team:
+
+A new TELDEF file has been implemented in the Swift Science Data Center 
+(SDC) pipeline processing for the XRT data.  This new file implements a 
+correction for the XRT boresight (see Moretti et al. 2005, astroph/0511604; 
+also see J. Hill 
+2005, 
+http://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/swift/docs/xrt/SWIFT-XRT-CALDB-06_v2.pdf), 
+shifting it by about 4 arcseconds from the previous boresight.  The result 
+is a more accurate assignment of sky positions to all XRT photons, which 
+improves the average XRT 90% confidence error circle radius for source 
+detections by a factor of two, from about 6.5 arcseconds to between 3 and 4 
+arcseconds (note that the error circle radius for a particular target 
+depends on the photon statistics for that target).  All data processed at 
+the SDC after 15:00 Eastern Standard Time on 2 December 2005 use the new 
+boresight definition.
+
+CALDB has been updated and the new TELDEF is included in the latest tar 
+file available at
+
+  ftp://legacy.gsfc.nasa.gov/caldb/data/swift/xrt/goodfiles_swift_xrt.tar.Z
+
+  This CALDB release is tagged 20051201.
+
+A similar change will be made on-board to the parameters used to determine 
+on-board source centroids in the near future.  We will send out a GCN 
+Circular announcing that change once it has been implemented.

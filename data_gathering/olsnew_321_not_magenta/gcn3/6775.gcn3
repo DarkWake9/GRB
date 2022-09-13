@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6775
+SUBJECT: Intense burst from SGR 1806-20 detected on September 7
+DATE:    07/09/10 16:59:15 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team,
+
+J. Cummings, S. Barthelmy, N. Gehrels, H. Krimm, and D. Palmer
+on behalf of the Swift-BAT team,
+
+K. Hurley, A. von Kienlin, G. Lichti, A. Rau, D. Gotz, and
+S. Mereghetti, on behalf of the INTEGRAL GRB team,
+report:
+
+An intense, short SGR-like event triggered Konus-Wind
+at 2007-09-07 T0=60387.314 s UT (16:46:27.314).
+It was also detected by Swift-BAT (out FoV) and INTEGRAL-SPI-ACS.
+It was not detected by any other IPN spacecraft.
+
+We have triangulated this burst to the Konus-BAT annulus
+centered at RA(2000)=330.018 (22h 00m 04s)  Dec(2000)=-7.254 (-7d 15' 
+14"), whose radius is 57.445 +/- 0.407 deg (3 sigma)
+and to the Konus-SPI-ACS annulus
+centered at RA(2000)=328.332 (21h 53m 20s)  Dec(2000)=-1.259 (-1d 15' 
+31"), whose radius is 58.080 +/- 0.653 deg (3 sigma).
+The center lines of these annuli pass 0.041 deg from the position of SGR 
+1806-20 (correspondingly 0.3 and 0.2 sigma). They are inconsistent with 
+the positions of all other known SGRs. The Konus ecliptic latitude 
+response indicates that the source of the burst is near the ecliptic 
+plane. Thus we conclude that this burst originated from SGR 1806-20.
+
+The burst light curve shows a ~30-ms long spike at T-T0 ~-0.240 s 
+followed by the main pulse with a duration of ~2 s, and
+a small hump at T-T0 ~5.9 s with a duration of ~100 ms.
+The Earth-crossing time of the first spike was 60384.6 s UT (16:46:24.6).
+
+As observed by Konus-Wind the burst had a fluence of
+1.47(-0.05, +0.04)x10^-5 erg/cm2, and a 16-ms peak flux
+measured from T0+0.016 s of (1.67 +/- 0.21)x10^-5 erg/cm2
+(both in the 20-200 keV range).
+
+The spectrum of the burst (from T0 to T0+8.448) can be fitted
+(in the 20-200 keV range) by the OTTB spectral model:
+dN/dE ~ E^{-1} exp(-E/kT)
+with kT = 20.9 +/- 0.9 keV (chi2 = 36/27 dof).
+
+All the quoted errors are at 90% c.l.
+
+The Konus-Wind light curve of this burst is available
+at http://www.ioffe.rssi.ru/LEA/SGRs/070907_T60387/
+
+The last burst from SGR 1806-20 to trigger Konus-Wind
+was on July 27, 2007 (Golenetskii et al., GCN 6684).
+
+Additional smaller bursts have been detected by BAT at
+2007-09-09 22:45:36 and 2007-09-10 05:31:06 UT.
+

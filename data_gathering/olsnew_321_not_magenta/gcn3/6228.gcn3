@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6228
+SUBJECT: long burst from SGR 1806-20 detected on March 26
+DATE:    07/03/28 13:02:07 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team,
+
+K. Yamaoka, T. Uehara, M. Ohno, Y. Fukazawa, T. Takahashi, M. Tashiro, 
+Y. Terada, T. Murakami, and K. Makishima
+on behalf of the Suzaku WAM team, report:
+
+A bright long SGR-like event triggered the Konus-Wind
+at T0=1447.725 (00:24:07.725) on March 26.
+It was also detected by the Suzaku-WAM in the TRN mode.
+We have triangulated it to an annulus centered at
+RA(J2000) = 186.083 (12h 24m 20s)  Dec(J2000)=+3.334 (+3d 20' 04"),
+whose radius is 87.186 +/- 1.090 deg (3 sigma).
+As the center line of this annulus passes 0.311 degrees (0.9 sigma)
+from the position of SGR 1806-20
+and the Konus ecliptic latitude response indicates
+that the source of the burst is near the ecliptic plane,
+we believe that this burst originated from SGR 1806-20.
+
+The shape of the burst light curve is typical for SGR bursts,
+but with an unusually long duration. It demonstrates a fast rise
+and a ~8-s decay with a bump at T-T0 ~5 s.
+
+As observed by Konus-Wind the burst had a fluence
+2.78(-0.08, +0.07)x10^-5 erg/cm2, and a peak flux on 16-ms time scale
+2.01(-0.26, +0.25)x10^-5 erg/cm2 (both in the 20-200 keV range).
+
+The time-integrated spectrum of the burst can be fit by the OTTB
+spectral model:
+dN/dE ~ E^{-1} exp(-E/kT)
+with kT = 20.7 +/- 0.7 keV, which is typical for SGR 1806-20.
+
+All the quoted errors are at 90% c.l.
+
+The Konus-Wind light curve of this GRB can be seen
+at http://www.ioffe.rssi.ru/LEA/SGRs/070326_T01447/
+
+A previous SGR burst triggered Konus-Wind
+on March 17 at T0=84623.793 s UT (23:30:23.793).
+It had a duration of ~4 sec.
+The burst was not localized, but since the Konus ecliptic
+latitude response indicates that the burst source is near the ecliptic 
+plane, we believe that it also originated from SGR 1806-20.
+
+The longest burst from SGR 1806-20 (except the giant burst)
+had a duration of ~22 sec (Golenetskii et al., GCN 4312).
+

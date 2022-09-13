@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4079
+SUBJECT: GRB051008 - Swift UVOT upper limits
+DATE:    05/10/09 19:19:43 GMT
+FROM:    Alice Breeveld at MSSL-UCL  <aad@mssl.ucl.ac.uk>
+
+A. Breeveld (MSSL-UCL), F. Marshall (GSFC), A. Blustin (MSSL-UCL), M.  
+Chester (PSU), L. Angelini (GSFC-JHU)
+
+The UVOT began observing GRB051008 3028 seconds after the BAT trigger  
+(GCN 4069, Marshall et al.) at 17:23:49. No afterglow is detected at  
+the position of the XRT source (GCN 4073, Perri et al.). The star  
+suggested in GCN 4070 (Roming et al.) as a candidate afterglow for GRB  
+051008 is now shown not to be associated with the GRB. It is located  
+far outside the XRT error box and is not variable in the UVOT  
+exposures.
+Upper limits for a UVOT detection at the XRT position are given below:
+
+Filter   5sig UL (mags)     T_range(s)         Exp(s)
+----------------------------------------------------------------------
+  v       18.2            3028     3227         200
+  v       18.1            3652     3751         100
+  v       20.0            4970    39669        3984
+  u       19.1            3442     4056         200
+  u       20.4           15631    34555        2461
+ w1       19.2            3338     3953         197
+ w1       20.6           10753    33885        2865
+ m2       19.6            3233     3852         196
+ m2       21.3            9847    40339        3361
+ w2       19.2            3548     3647         100
+ w2       21.4            4064    38762        3277
+
+where T_range is the time range post-trigger over which the summed  
+images were accumulated and Exp is the total exposure time of the  
+summed image. The magnitude upper limits are not corrected for  
+extinction.
+
+This message may be cited.
+

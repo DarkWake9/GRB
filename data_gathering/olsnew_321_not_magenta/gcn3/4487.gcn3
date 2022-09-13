@@ -1,0 +1,43 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4487
+SUBJECT: GRB 060111B: Swift detection of a burst
+DATE:    06/01/11 20:53:53 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+M. Perri (ASDC), S. Barthelmy (GSFC), P. Boyd (GSFC), D. Burrows (PSU),
+J. Cummings (GSFC/NRC), N. Gehrels (GSFC), C. Gronwall (PSU),
+J. Kennea (PSU), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+F. Marshall (GSFC), D. Palmer (LANL), T. Sakamoto (GSFC)
+on behalf of the Swift team:
+
+At 20:15:43 UT, Swift-BAT triggered and located GRB 060111B (trigger=176918).
+The spacecraft slewed immediately.  The BAT on-board calculated location is
+RA,Dec 286.337d,+70.360d {19h 05m 21s,+70d 21' 35"} (J2000), with an
+uncertainty of 3 arcmin (radius, 90% containment, stat+sys).
+The BAT light curve shows a main peak with a total duration of at least 25 sec.
+There is a possible second peak at T+55 sec.  The peak count rate was
+~2000 counts/sec (15-350 keV), at ~2 seconds after the trigger.
+
+XRT began observing the field at 20:17:02 UT, 79 seconds after the BAT trigger.
+On-board centroiding found a previously uncatalogued fading X-ray source
+in the field of view at the following coordinates:
+RA(J2000) = 19 05 42.3
+Dec(J2000)= 70 22 37
+This location is 124 arcseconds from the BAT position.  The estimated
+uncertainty is 8 arcseconds (90% confidence radius), including
+a systematic error of about 5 arcseconds due to an XRT boresight offset not
+currently corrected on-board. The initial flux was 1.7e-09 ergs/cm2/s (0.2-10 keV).
+
+UVOT took a finding chart exposure of 200 seconds with the B filter
+starting 84 seconds after the BAT trigger.  There is a candidate
+afterglow in the list of sources generated on-board at (RA,DEC) (J2000)
+of (286.4270,70.3760) or (19h 05m 42.48s,+70d 22' 33.6") with a 1-sigma
+error radius of about 0.5 arc sec.  This position is 3.6 arc sec. from
+the center of the XRT error circle.  The estimated V magnitude is 17.2
+with a 1-sigma error of about 0.5 mag.  No correction has been made for
+the expected visual extinction of about 0.4 magnitudes.  This source
+was detected in a 200 sec B finding chart image taken beginning at
+20:20:34 UT with a B magnitude of 19.55.  We did not receive the V finding
+chart through TDRSS, so are unable to confirm the V magnitude from the
+V parameterized source list.
+

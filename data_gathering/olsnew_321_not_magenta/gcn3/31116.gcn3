@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31116
+SUBJECT: IPN triangulation of GRB 211124A (short)
+DATE:    21/11/24 20:09:59 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, D. Frederiks, A. Ridnaia,
+A. Lysenko, and T. Cline on behalf of the Konus-Wind team,
+
+K. Hurley, on behalf of the IPN,
+
+A. von Kienlin, X. Zhang, A. Rau, V. Savchenko, E. Bozzo,
+and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+and
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team,  report:
+
+The short-duration GRB 211124A
+(Swift/BAT-GUANO detection: DeLaunay et al., GCN Circ. 31113)
+has been detected by Fermi (GBM trigger 659413798),
+Swift (BAT), INTEGRAL (SPI-ACS), and Konus-Wind in the waiting mode,
+so far, at about 8994 s UT (02:29:54).
+The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+  ----------------------------------
+   RA(2000), deg    Dec(2000), deg
+  ----------------------------------
+  Center:
+   85.2              -59.2
+  Corners:
+   22.5              -32.8
+   18.6              -46.6
+   85.9              -76.2
+  129.3              -71.6
+  ----------------------------------
+The error box area is about 736 sq. deg, and its maximum
+dimension is 64 deg (the minimum one is 12.5 deg).
+The Sun distance was about 96 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi final position and BALROG 
+(https://grb.mpe.mpg.de/grb/GRB211124104/) localizations.
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB211124_T08993/IPN
+

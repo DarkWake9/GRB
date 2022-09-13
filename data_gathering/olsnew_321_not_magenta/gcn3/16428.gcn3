@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16428
+SUBJECT: GRB 140620A: Swift-XRT observations
+DATE:    14/06/21 14:14:24 GMT
+FROM:    Alessandro Maselli at INAF/IASF Palermo  <maselli@ifc.inaf.it>
+
+M. De Pasquale (IASF-Palermo) reports on behalf of the Swift-XRT team:
+
+We have analysed 3.0 ks of XRT data for the Fermi/GBM-detected
+burst GRB 140620A (Fitzpatrick et al., GCN circ 16426), from 37.6
+ks to 43.9 ks after the Fermi/GBM trigger. The data are entirely
+in Photon Counting (PC) mode.
+An X-ray source is detected within the Fermi/GBM error circle
+at the position of the iPTF transient (Kasliwal et al., GCN circ.
+16425). Using 2966 s of PC mode data and 2 UVOT images, we find an
+enhanced XRT position (using the XRT-UVOT alignment and matching
+UVOT field sources to the USNO-B1 catalogue): RA, Dec = 281.87089,
++49.73093 which is equivalent to:
+
+RA (J2000): 18h 47m 29.01s
+Dec(J2000): +49d 43' 51.4"
+
+with an uncertainty of 2.2 arcsec (radius, 90% confidence). This
+is 0.4 arcsec from the iPTF position.
+
+The late-time light curve (from T0+37.6 ks) is consistent with a
+constant source of mean count rate 1.2e-01 ct/sec. A power-law fit
+formally gives an index of -0.1 (+2.4, -1.3). Further observations
+might be needed to confirm that this source is the X-ray afterglow
+of 140620A.
+
+A spectrum formed from the PC mode data can be fitted with an
+absorbed power-law with a photon spectral index of 2.04 (+0.26,
+-0.24). The best-fitting absorption column is 1.4 (+0.7, -0.6) x
+10^21 cm^-2, in excess of the Galactic value of 5.2 x 10^20 cm^-2
+(Willingale et al. 2013). The counts to observed (unabsorbed) 0.3-10
+keV flux conversion factor deduced from this spectrum is 3.3 x 10^-11
+(4.3 x 10^-11) erg cm^-2 count^-1.
+
+A summary of the PC-mode spectrum is thus:
+
+Total column:         1.4 (+0.7, -0.6) x 10^21 cm^-2
+Galactic foreground: 5.2 x 10^20 cm^-2
+Excess significance: 2.3 sigma
+Photon index:         2.04 (+0.26, -0.24)
+
+If the light curve continues to evolve with a power-law index
+of -0.1, the count rate at T+24 hours will be 0.13 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 4.3 x
+10^-12 (5.6 x 10^-12) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00020387.
+
+This circular is an official product of the Swift-XRT team.
+

@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5761
+SUBJECT: GRB 061027, Swift refined analysis of a possible burst
+DATE:    06/10/27 20:02:53 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+A. Parsons (GSFC), L. Barbier (GSFC), S.D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (BYU-Idaho), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+D. Palmer (LANL), T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC),  D.N. Burrows (PSU),
+V. Mangano, T. Mineo, G. Cusumano, B. Sbarufatti (INAF-IASFPA),
+S.B. Pandey (UCL-MSSL)
+on behalf of the Swift team:
+ 
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT possible GRB 061027 (trigger #235645)
+(Stamatikos, et al., GCN Circ. 5760).  The BAT ground-calculated position
+is RA,Dec = 270.992, -82.239 deg {18h 3m 58.1s, -82d 14' 19.9"} (J2000)
++- 3.7 arcmin, (radius, sys+stat, 90% containment).  The partial coding was 68%.
+ 
+The event starts ~100 sec before the trigger and extends to ~T+70 sec.
+All of the emission is in the 15-50 keV band -- there is nothing above 50 keV.
+Because this event is very weak, we had to use 10-sec binning for the lightcurve.
+There appears to be no statistically significant structure in the lightcurve.
+T90 (15-350 keV) is 150 +- 20 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-100 to T+70 is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.91 +- 0.48.  The fluence in the 15-150 keV band is 4.7 +- 1.5 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.00 sec in the 15-150 keV
+band is 0.08 +- 0.02 ph/cm2/sec.  All the quoted errors are at the 90%
+confidence level. 
+
+Given the very low flux, the somewhat low detection significance, and
+the soft spectrum for this event, we can not determine if this is a
+long soft GRB or some hard x-ray transient from an unknown source.
+The position in galactic coordinates is l, b = 311, -25, so the source
+is off the plane but still possibly a galactic transient.  We can not rule out
+the possibility that this event is due to a chance statistical fluctuation
+in the image and rate domains.
+
+XRT observed the field of GRB061027 for 1.5 ks in PC mode starting
+at 10:17:37 UT (152 seconds after the BAT trigger).  No source has been
+detected within the BAT error circle down to a limiting flux
+of 3.6e-13 erg cm^-2 s^-1.  This is unusually low for a GRB afterglow
+at this point after a trigger, and suggests that this event may be
+either an unusual GRB or due to some other source, either transient or noise.
+
+UVOT began observing the field around 133 sec after the BAT trigger.
+No afterglow candidate is found within the BAT error circle.
+The 3-sigma upper limit of the UVOT filters are given below.
+
+Filter    T_start   T_stop   Exposure(s)   Mag (3-sig Upper limit)
+V         133       6777     805           20.41
+B         735       6163     206           20.40
+U         711       5958     216           20.04
+W1        687       5753     235           19.96
+M2        663       6839     292           19.95
+W2        763       6573     216           20.29
+White     152       6367     501           21.10
+

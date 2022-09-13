@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24262
+SUBJECT: LIGO/Virgo S190425z: Additional Pan-STARRS transients in the skymap
+DATE:    19/04/27 05:22:15 GMT
+FROM:    Ken Smith at Queen's University Belfast  <k.w.smith@qub.ac.uk>
+
+K. W. Smith, D. R. Young, O. McBrien, J. Gillanders. S. Srivastav,
+S. J. Smartt, D. O'Neil, P. Clark, S. Sim (QUB), K. C. Chambers,
+M. Huber, E. Magnier, A. Schultz, (IfA, Univ. Hawaii), L. Denneau,
+H. Flewelling, A. Heinze, J. Tonry, H. Weiland, A. Rest (STScI),
+B. Stalder (LSST), C. Stubbs (Harvard)
+
+Due to delayed ingest of a small amount of data from the Pan-STARRS1 telescope
+(Chambers et al. 2016, arXiv:1612.05560C), we report 5 candidates in addition
+to those already announced in GCN 24210. bPC denotes the probability
+contour within which the transient is found according to the S190425z LAL
+Interference map (Singer, GCN 24228).
+
+Name   | TNS Name  | RA (J2000)  | Dec (J2000) |   z   | Disc mag | bPC | Notes
+PS19qx | AT2019edd | 15:17:03.75 | +29:57:33.7 |       | 20.92 i  |  40 |
+PS19qt | AT2019edc | 15:24:13.95 | +28:54:47.8 | 0.075 | 21.23 i  |  50 | (1)
+PS19qu | AT2019edf | 16:01:49.91 | +22:00:17.4 |       | 20.90 i  |  60 |
+PS19qv | AT2019ecy | 16:14:20.12 | +31:21:20.3 | 0.179 | 21.08 i  |  90 | (2)
+PS19rg | AT2019eda | 16:25:34.93 | +34:08:40.8 |       | 20.98 i  |  90 |
+
+NOTES
+(1) Probable host is 2MASX J15241346+2854453 (NED)
+(2) Probable host is SDSS J161420.36+312121.5 (NED)
+
+Finders can be found at:
+https://star.pst.qub.ac.uk/~kws/finders/S190425z/ps1_finders.tgz
+

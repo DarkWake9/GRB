@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16029
+SUBJECT: GRB 140323A: Swift-BAT refined analysis
+DATE:    14/03/23 19:27:36 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (NASA/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+M. Stamatikos (OSU), E. Troja (NASA/GSFC/UMCP), J. Tueller (GSFC),
+T. N. Ukwatta (MSU) (i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+693 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 140323A (trigger #592916)
+(Troja, et al., GCN Circ. 16027).  The BAT ground-calculated position is
+RA, Dec = 356.975, -79.916 deg which is
+    RA(J2000)  =  23h 47m 54.1s
+    Dec(J2000) = -79d 54' 57.3"
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 12%.
+
+The mask-weighted light curve shows a complex structure.  Low-level emission
+starts around T-60 sec, then the first episode runs from T-20 to T+55 sec, and
+is a slow rise and fall with multiple sub-peaks superimposed.  The second
+episode has a similar shape and runs from T+60 to T+110 sec, followed by
+more low-level emission out to T+140 sec.  The second episode is spectrally
+softer than the first. T90 (15-350 keV) is 104.9 +- 2.6 sec (estimated error
+including systematics).
+
+The time-averaged spectrum from T-7.09 to T+117.37 sec is best fit by a
+power law with an exponential cutoff.  This fit gives a photon index 1.35 +- 0.17,
+and Epeak of 127.1 +- 59.2 keV (chi squared 50.15 for 56 d.o.f.). For this
+model the total fluence in the 15-150 keV band is 1.6 +- 0.0 x 10^-05 erg/cm2
+and the 1-sec peak flux measured from T+6.42 sec in the 15-150 keV band is
+6.2 +- 0.7 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.64 +- 0.04 (chi squared 59.02 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/592916/BA/
+

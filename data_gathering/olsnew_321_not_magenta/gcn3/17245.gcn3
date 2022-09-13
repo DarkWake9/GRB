@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17245
+SUBJECT: GRB 141225A: MASTER-SAAO OT light curve 
+DATE:    14/12/28 12:16:57 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+D.Buckley, S. Potter, A. Kniazev, M. Kotze
+South African Astronomical Observatory
+
+E. Gorbovskoy,V. Lipunov, N.Tyurina, P.Balanutsa, D.Denisenko, 
+M.Pruzhinskaya, A.Kuznetsov, V.Kornilov, D.Kuvshinov,
+Lomonosov Moscow State University, Sternberg Astronomical Institute
+
+O.Gres, K.Ivanov,  S.Yazev, N.M.Budnev,  V.A.Poleshchuk
+Irkutsk State University
+
+V.Yurkov, Yu.Sergienko, D.Varda, E.Sinyakov
+Blagoveschensk Educational State University
+
+A. Tlatov, A.V. Parhomenko, D. Dormidontov, V.Sennik
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+V.Krushinsky, I.Zalozhnih,  A. Popov
+Ural Federal University, Kourovka
+
+H. Levato and C. Saffe
+Instituto de Ciencias Astronomicas de la Tierra y del Espacio (ICATE),
+San Juan, Argentina
+
+C. Mallamacci, C. Lopez and F. Podest
+Observatorio Astronomico Felix Aguilar (OAFA), San Juan National University, 
+Argentina
+
+MASTER-SAAO  robotic telescope (MASTER-Net: http://observ.pereplet.ru)
+installed several days ago  in South African Astronomical
+Observatory (Sutherland) was automatically  pointed
+to the  Swift and Fermi GRB 141225A (Avanzo  et. al. GCN 17229).
+Firstly MASTER-SAAO pointed by FERMI coordinates and made first exposure 28 
+sec after FERMI trigger at  2014-12-25 23:02:28 UT (Buckley et al., 
+17233).
+Then MASTER-SAAO pointed to the  Swift coordinates 20 sec after  Swift notice 
+time and 113 sec after trigger time at 2014-12-25 23:03:00 UT.
+
+The results of our photometery are:
+
+   Start   T-T_mid  Exp.  Mag   Coadd
+
+   UT         s      s    unf    ?
+
+23:03:00    123    20    17.1   no
+23:03:34    161    30    17.3   no
+23:04:15    207    40    17.5   no
+23:05:05    263    50    17.7   no
+23:06:06    329    60    18.9   no
+23:07:17    405    70    18.7   no
+23:08:38    556   200    19.0    2
+23:12:19    823   290    19.8    2
+23:17:31   3161  3600    21.3   20
+
+
+
+Our  band  is well described by a parity 0.8R+0.2B (USNO B1).
+The light curve from 113 to 300 power low index is about
+  alpha ~= 0.76+-0.10  (F ~ t_-alpha)
+
+and alpha =~ 1.51 from 400 to 1500 .
+We see ~1 magnitude depression  at 329 sec.
+
+The magnitudes in the table are not corrected for the Galactic extinction
+because its less than the our errors (Schlegel et al. 1998).
+
+The light curve is available at 
+http://master.sai.msu.ru/static/GRB/GRB141225A.png
+
+This message may be cited.
+

@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9491
+SUBJECT: GRB 090607: Swift detection of a burst
+DATE:    09/06/07 06:11:45 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+F. E. Marshall (NASA/GSFC), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), M. M. Chester (PSU),
+C. Guidorzi (U Ferrara), H. A. Krimm (CRESST/GSFC/USRA),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+T. N. Ukwatta (GSFC/GWU) and H. Ziaeepour (UCL-MSSL) report on behalf
+of the Swift Team:
+
+At 05:30:17 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 090607 (trigger=354299).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 191.209, +44.130 which is 
+   RA(J2000)  = 12h 44m 50s
+   Dec(J2000) = +44d 07' 47"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows several spikes
+with a duration of about 5 sec.  The peak count rate
+was ~4000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 05:31:27 UT, 70 seconds
+after the BAT trigger. Using promptly downlinked data we find a fading,
+uncatalogued X-ray source located at RA, Dec 191.16903, 44.10541 which
+is equivalent to:
+   RA(J2000)  = 12h 44m 40.57s
+   Dec(J2000) = +44d 06' 19.5"
+with an uncertainty of 3.9 arcseconds (radius, 90% containment). This
+location is 136 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (1.84e+20
+cm^-2, Kalberla et al. 2005), with an excess column of 4.1
+(+2.44/-2.19) x 10^21 cm^-2 (90% confidence). 
+
+Because of the presence of a magnitude 6.3 star in the UVOT
+Field of View, 2.3 arcmin from the XRT location, 
+UVOT will not be able to observe this burst. 
+
+There was some extra delay in processing this burst.  It was originally
+a subthreshold trigger (Image_signif=6.49 sigma).  The automated processing
+for the XRT position had a problem.  This circular is based on manual processing. 
+
+Burst Advocate for this burst is F. E. Marshall (marshall AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28947
+SUBJECT: IceCube-201114A: DECam observations and candidate optical counterpart
+DATE:    20/11/23 22:45:57 GMT
+FROM:    Robert Morgan at U. of Wisconsin-Madison  <robert.morgan@wisc.edu>
+
+Robert Morgan (U of Wisconsin-Madison), Ken Herner (Fermilab), Alyssa Garcia (U of Michigan), Robert Gruendl (NCSA), Keith Bechtol (U of Wisconsin-Madison), Kathy Vivas (NOIRLab), Clara E. Martínez-Vázquez (NOIRLab), Claudio Aguilera (NOIRLab), Alex Drlica-Wagner (Fermilab), Julio Carballo-Bello (U de Tarapacá), Peter Ferguson (Texas A&M U), Alex Goater (U of Surrey), Jeff Cooke (Swinburne U), Timothy M. C. Abbott (NOIRLab)
+
+
+We triggered the Dark Energy Camera (DECam) at Cerro Tololo Inter-American Observatory in Chile on the localization area of the GOLD neutrino event detected by IceCube (IceCube-201114A, GCN 28887). Observations took place on 2020-11-14, 2020-11-15, and 2020-11-18 in the gri bands, using 150 second exposures, and reaching 10-sigma limiting magnitudes of approximately 23 mag*. Each night, the ~95% of the 90% localization area was covered by DECam. We reduced the DECam images using the DESGW difference imaging pipeline (Herner et al. 2020), using the 2020-11-14 images as reference images, to find candidate counterparts.
+
+
+We required that candidate counterparts are (1) not found in GAIA DR2, (2) detected on 2 nights by Source Extractor with 1 of the detections also passing a machine learning artifact detection program (autoscan, Goldstein et. al 2015), (3) detected in multiple bands on at least one night, (4) not found in a spatial-temporal look-up in the Minor Planet Center or Near Earth Object Catalog, (5) not ruled out as an artifact by visual inspection.
+
+
+We find one optical counterpart candidate:
+
+| NAME           | TNS        | RA         | DEC      | HOST                  |
+
+| DESNU-c-882497 | AT2020aava | 105.939736 | 5.514658 | PSO J105.9396+05.5147 |
+
+
+With photometry:
+
+| MJD      | MAG_g | MAG_r | MAG_i |
+
+| 59169.33 | 25.15 | 23.99 | 22.83 |
+
+| 59172.33 | 24.08 | 23.18 | 21.87 |
+
+
+We will continue to monitor this candidate with DECam over the next 2 weeks, as well as the 90% localization area of IceCube-201114A. Spectroscopic characterization of this object, and / or a spectroscopic redshift of the host is encouraged. The TNS report (https://wis-tns.weizmann.ac.il/object/2020aava/) contains DECam images of DESNU-c-882497 in the “Comments” section.
+
+
+We also report non-detection in these data of the following candidates submitted via GCN thus far:
+- SWIFT Source 1: GCN 28891
+- SWIFT Source 2: GCN 28891
+- 4FGL J0658.6+0636: GCN 28895
+
+- Fermi J0703.5+0505: GCN 28918 (outside area covered by DECam)
+
+
+* DECam 10-sigma limiting magnitudes for these observations:
+| MJD      | MAGLIM_g | MAGLIM_r | MAGLIM_i |
+
+| 59168.33 | 23.35    | 22.87    | 22.92    |
+
+| 59169.33 | 23.43    | 23.18    | 22.74    |
+
+| 59172.33 | 23.24    | 23.21    | 22.49    |
+

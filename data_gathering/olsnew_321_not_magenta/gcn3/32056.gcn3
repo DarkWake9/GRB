@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32056
+SUBJECT: Konus-Wind detection of GRB 220514B
+DATE:    22/05/17 12:09:52 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A.Ridnaia, D. Frederiks, A.Lysenko, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The long GRB 220514B
+(MAXI/GSC detection: Kawakubo et al., GCN Circ. 32046)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in
+the 20-1500 keV band reveals a ~10 sigma count rate increase
+over background in the interval from ~T0-26 s to ~T0+74 s,
+where T0 = T0(MAXI) = 84261 s UT (23:24:21).
+
+The K-W light curve of this burst is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220514B/
+
+As observed by Konus-Wind, the burst had a fluence of
+6.59(-1.19,+1.61)x10^-6 erg/cm2 and a 2.944-s peak flux,
+measured from ~T0-14.4 s, of 1.54(-0.43,+0.50)x10^-7 erg/cm2/s
+(both in the 20 - 1500 keV energy range).
+
+Modeling the K-W 3-channel time-integrated spectrum
+(from ~T0-26.2 s to ~T0+73.9 s)
+by a power law with exponential cutoff (CPL) model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -0.82(-0.21,+0.33) and Ep = 263(-65,+112) keV.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.

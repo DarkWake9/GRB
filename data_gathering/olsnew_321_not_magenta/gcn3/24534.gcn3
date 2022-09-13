@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24534
+SUBJECT: Konus-Wind observation of GRB 190511A
+DATE:    19/05/14 10:00:01 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 190511A
+(Swift-BAT detection: Bernardini et al., GCN Circ. 24472,
+Barthelmy et al., GCN Circ. 24502;
+Fermi-GBM observation: Kienlin et al., GCN Circ. 24482;
+Fermi-LAT detection: Axelsson et al., GCN Circ. 24483)
+triggered Konus-Wind at T0=26067.524 s UT (07:14:27.524).
+
+The burst light curve shows a multipeaked structure
+which started at ~T0-2.6 s and had a total duration of ~31.8 s.
+The emission is seen up to ~2 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.93(-0.11,+0.12)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+21.936 s,
+of 3.81(-0.90,+0.91)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+33.024 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.69(-0.16,+0.17)
+and Ep = 185(-15,+18) keV (chi2 = 49/58 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.4
+(chi2 = 48/57 dof)
+
+The spectrum near the maximum count rate
+(measured from T0+16.640 to T0+24.832 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model
+with  alpha = -0.52(-0.23,+0.26)
+and Ep = 193(-20,+26) keV (chi2 = 53/58 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -3.0
+(chi2 = 53/57 dof)
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB190511_T26067/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

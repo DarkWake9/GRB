@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22067
+SUBJECT: Swift Trigger 783893 is probably not a GRB
+DATE:    17/10/29 06:52:04 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. D'Avanzo (INAF-OAB), K. L. Page (U Leicester), D. M. Palmer (LANL)
+and B. Sbarufatti (PSU) report on behalf of the Swift Team:
+
+At 06:28:24 UT, the Swift Burst Alert Telescope (BAT) triggered on
+a low-significance image peak (trigger=783893).  Swift slewed 
+immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 335.758, +67.859 which is 
+   RA(J2000) = 22h 23m 02s
+   Dec(J2000) = +67d 51' 34"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows the strong ~10 
+second periodicity due to Swift J0243.6+6124, but no variation
+that would be indicative of a GRB. 
+
+The XRT began observing the field at 06:29:44.1 UT, 79.5 seconds after
+the BAT trigger. No source was detected in 684 s of promptly downlinked
+data, which covered 97% of the BAT error circle. We are waiting for the
+full dataset to detect and localise the XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 81 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.84. 
+
+Swift J0243.6+6124 continues to rise in intensity, now reaching ~4 Crabs
+in average flux, in the form of a ~10 second periodic lightcurve. 
+(See https://swift.gsfc.nasa.gov/results/transients/weak/SwiftJ0243.6p6124/ 
+for a BAT flux history.)  As a result, BAT is continually producing
+rate triggers when it is in the FOV, allowing many opportunities
+for false triggers in the image plane.  
+
+This low-significance (~6.62 sigma) detection is probably a 
+statistical fluctuation in the image plane, given the lack of
+an XRT counterpart. 
+

@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30688
+SUBJECT: GRB 210820A: NUTTelA-TAO / BSTI Early Optical Limits (Preliminary)
+DATE:    21/08/23 00:07:17 GMT
+FROM:    Bruce Grossan at LBNL/UCB SSL  <Bruce_Grossan@lbl.gov>
+
+T. Komesh (NU), B. Grossan (UCB, NU), Z. Maksut (NU), A. Kim (NU), M. Krugov (FAI), G. F. Smoot (HKUST, UCB, NU), E. Linder (UCB, NU), E. Abdikamalov (NU) report on behalf of the Energetic Cosmos Laboratory:
+
+The Nazarbayev University Transient Telescope at Assy-Turgen Astrophysical Observatory (NUTTelA-TAO) observed the field of GRB 210820A on receipt of an automated GCN / BAT position alert, observing in Sloan g', r' and i' bands, with the Burst Simultaneous Three-Channel Imager (BSTI; Grossan, Kumar & Smoot 2019, JHEA, 32, 14).
+
+We received the alert at 17:39:26 UT (85 seconds between GRB time and notification time) and started observations at 17:39:32 UT on 2021-08-20, 6.5 s after receipt, 91 s after the BAT trigger. Observations were made under 95+% moon illumination and cloudy conditions starting at only about 20 deg. target altitude. No source consistent with the XRT or UVOT position was detected. The observations fully cover the UVOT U detection observation time (Palmer 2021, GCN 30664) and some additional UVOT observations (LaPorte 2021, GCN 30686). Note that these observations provide essentially full-time coverage, simultaneous in all three bands. We report the following results:
+
+start time        end time        UL g'    UL r'        ULi'       exposure_time (s)
+------------        -----------        ------    ------        	------      --------------------
+17:39:32        17:40:32        17.0    15.1         	16.4		60 
+17:40:57        17:56:42        17.9    15.9  	16.8         135 
+
+UL g', r', i', gives the 5 sigma upper limit sensitivity in magnitudes in the respective filter, for images co-added to the given exposure time. The first row in the table corresponds to co-adds of an initial short exposure image sequence of 7.5 s each, the second row corresponds to co-adds from a continuing series of 15 s exposures, uninterrupted for the entire interval. No uncatalogued sources near the XRT location were found up to the co-add times indicated. Calibration was done with the few bright Pan-STARRS catalog stars on our images.
+
+We caution the reader that these are preliminary results, without color or other corrections, and will likely change in small measure. Please also note that times are approximate. We anticipate improved analysis in 15-30 days posted at http://ecl.nu.edu.kz/gamma-ray-burst/grb210820a.
+
+----------------------------------
+NU = Nazarbayev University, Nur-Sultan, Kazakhstan
+UCB = University of California, Berkeley, USA
+HKUST = Hong Kong University of Science and Technology
+FAI = Fesenkov Astrophysical Institute, Kazakhstan
+
+The NUTTelA-TAO Team acknowledges the support of the staff of the Assy-Turgen Astrophysical Observatory, Almaty, Kazakhstan, and the Fesenkov Astrophysical Institute, Almaty, Kazkhstan.
+

@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5095
+SUBJECT: GRB 060510: Swift detection of a burst with optical transient
+DATE:    06/05/10 08:33:55 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+H. A. Krimm (GSFC/USRA), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), D. N. Burrows (PSU),
+M. Capalbi (ASDC), M.L. Conciatore (ASDC), N. Gehrels (NASA/GSFC),
+C. Gronwall (PSU), S. T. Holland (GSFC/USRA),
+K. L. Page (U Leicester), D. M. Palmer (LANL), M. Perri (ASDC),
+E. Troja (INAF-IASFPA) and L. Vetere (ASDC) report on behalf of the
+Swift Team:
+
+At 07:43:27 UT, Swift-BAT triggered and located GRB 060510 (trigger=209351). 
+The spacecraft slewed immediately.  The BAT on-board calculated location
+is RA,Dec 95.870d,-1.162d {06h 23m 29s,-1d 09' 43"} (J2000), with an
+uncertainty of 3 arcmin (radius, 90% containment, stat+sys). 
+The BAT light curve shows a multi-peak structure with a total duration
+of ~30 sec.  The peak count rate was ~8000 counts/sec (15-350 keV),
+at ~1 seconds after the trigger. 
+
+The XRT began observing the field at 07:44:57 UT, 90 seconds after the
+BAT trigger. The on-board centroiding algorithm was confused by a cosmic ray 
+close to the X-ray afterglow and the position sent out in the automated GCN 
+Notice was incorrect.  Using ground-processed data, we find a bright X-ray source
+located at RA(J2000) = 06h 23m 28.1s, Dec(J2000) = -01d 09' 44.9", with an
+estimated uncertainty of 8 arcseconds (90% confidence radius). 
+This location is 11 arcseconds from the BAT on-board position, within
+the BAT error circle. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 100 seconds after the BAT trigger. 
+A fading source was found at RA,Dec = 06h 23m 28.0s -1d 09' 46" (J2000)
+with a mag of 18.2.  There is nothing in DSS.  No correction has been made
+for the expected extinction corresponding to E(B-V) of 0.41. 
+
+This burst (trigger 209351) should not be confused with the second
+Swift-BAT trigger (209352) 38 minutes later. 
+

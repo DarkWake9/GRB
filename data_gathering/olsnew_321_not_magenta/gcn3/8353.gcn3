@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8353
+SUBJECT: Konus-Wind observation of GRB 081001
+DATE:    08/10/10 14:05:56 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin,
+D. Frederiks, P. Oleynik, D. Svinkin, M. Ulanov
+and T. Cline, on behalf of the Konus-Wind team report:
+
+The GRB 081001 localized by SuperAGILE
+(Lazzarotto et al., GCN 8305) triggered Konus-Wind
+at T0=76663.649 s UT (21:17:43.649).
+
+The burst light curve shows a main pulse with a duration of ~6 s 
+followed by a much weaker pulse at T0+~30 s with a duration of ~10 s.
+
+As observed by Konus-Wind the burst
+had a fluence of 9.70(-0.86, +1.00)x10^-6 erg/cm2,
+and a 64-ms peak flux measured from T0+0.688 s
+of 5.63(-1.12, +1.16)x10^-6 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The spectrum of the main pulse
+(from T0 to T0+8.448 s) is well fitted (in the 20 keV-2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -0.99(-0.18, +0.21),
+and Ep = 239(-32, +45) keV (chi2 = 54.9/61 dof).
+Fitting by GRBM (Band) model yields:
+the low-energy photon index is alpha = -0.95(-0.21, +0.48),
+the high energy photon index beta < -2.14,
+the peak energy Ep = 227(-70, +52) keV (chi2 = 54.1/60 dof).
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB081001_T76663/
+

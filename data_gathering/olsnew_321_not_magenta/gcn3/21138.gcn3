@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21138
+SUBJECT: IPN Triangulation of GRB 170522A
+DATE:    17/05/25 10:46:13 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+K. Hurley, on behalf of the IPN,
+
+I. G. Mitrofanov, D. Golovin, M. L. Litvak, and A. B. Sanin,
+on behalf of the HEND-Odyssey GRB team,
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks, A. Kozlova,
+and T. Cline on behalf of the Konus-Wind team,
+
+V. Connaughton, M. S. Briggs, C. Meegan, V. Pelassa,
+and A. Goldstein, on behalf of the Fermi GBM team,
+
+A. von Kienlin, X. Zhang, A. Rau, V. Savchenko, E. Bozzo,
+and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+S. Barthelmy, J. Cummings, H. Krimm, and D. Palmer,
+on behalf of the Swift-BAT team,
+
+and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, and R. Starr,
+on behalf of the GRS-Odyssey GRB team, report:
+
+The long duration GRB 170522A
+(Fermi-GBM detection: Stanbro and Meegan, GCN Circ. 21126;
+Fermi-LAT detection: Arimoto and Racusin, GCN Circ. 21127;
+Konus-Wind observation: Frederiks et al., GCN Circ. 21129)
+was detected by Fermi (GBM trigger 517160740), Konus-Wind,
+INTEGRAL (SPI-ACS), Mars-Odyssey (HEND), and Swift (BAT),
+at about 56735 s UT (15:45:35).
+The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a GBM-HEND annulus centered at 
+RA(2000)=80.195 deg (05h 20m 47s) Dec(2000)=+23.945 deg (+23d 56' 40"), 
+whose radius is 53.106 +/- 0.070 deg (3 sigma).
+
+The LAT position reported by Arimoto and Racusin (GCN Circ. 21127)
+is consistent with the annulus. The annulus combined with
+the LAT (90 % containment, statistical-only) error circle
+gives the following error box:
+---------------------------------------------
+  RA(2000), deg  Dec(2000), deg
+---------------------------------------------
+Center:
+     139.1949    +25.6971
+Corners:
+     139.1335    +25.7084
+     139.2170    +25.5157
+     139.2562    +25.6856
+     139.2950    +25.8556
+---------------------------------------------
+The error box area is 101.5 sq. arcmin
+(a factor of 4 smaller that that of LAT error circle).
+
+This box may be improved.
+
+None of the Swift-XRT sources reported by Mingo et al. (GCN Circ. 21133)
+are consistent with the box, and only Source 1 is consistent
+with the annulus.
+
+A triangulation map is posted at
+http://www.ioffe.ru/LEA/GRBs/GRB170522_T56735/IPN
+

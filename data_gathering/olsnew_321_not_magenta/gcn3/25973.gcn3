@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25973
+SUBJECT: Konus-Wind observation of GRB 191004A
+DATE:    19/10/07 17:53:55 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, A. Tsvetkova, A. Lysenko, A. Kozlova, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 191004A
+(Swift-BAT detection: Cenko et al., GCN circ. 25945;
+Sakamoto et al., GCN circ. 25953)
+triggered Konus-Wind at T0=65226.378 s UT (18:07:06.378).
+
+The burst light curve shows a multi-peaked structure
+which starts at ~T0-0.2 s and has a total duration of ~5 s.
+The emission is seen up to ~1 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB191004_T65226/
+
+As observed by Konus-Wind, the burst
+had a fluence of 2.00(-0.41,+0.62)x10^-6 erg/cm2,
+and a 64-ms peak flux, measured from T0+1.872 s,
+of 2.38(-0.83,+1.02)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.69(-0.61,+0.83)
+and Ep = 157(-37,+95) keV (chi2 = 49/57 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.0
+(chi2 = 48/56 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

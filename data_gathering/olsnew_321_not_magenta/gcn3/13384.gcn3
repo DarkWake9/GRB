@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13384
+SUBJECT: GRB 120624B, Swift-BAT refined analysis
+DATE:    12/06/25 20:53:53 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+A. M. Parsons (GSFC), G. Sato (ISAS), M. Stamatikos (OSU),
+J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-60 to T+243 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 120624B (trigger #525068)
+(Vianello, et al., GCN Circ. 13379; Barthelmy, et al., GCN Circ. 13381).  
+The BAT ground-calculated position is RA, Dec = 170.886, 8.933 deg which is 
+
+   RA(J2000)  =  11h 23m 32.6s 
+   Dec(J2000) = +08d 56' 00.4" 
+
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 86%.
+ 
+The mask-weighted light curve shows multiple overlapping episodes starting 
+from T-25 sec.  There are two main episodes going from T-10 to T+70 sec with a
+peak around T+35 sec, and the second episode starts T+120 sec and appears to 
+end around T+200 sec, with peaks at T+140 sec and T+170 sec.  But the data ends 
+due to observing constraint and slewing to a pre-planned target.  T90 (15-350 keV) 
+is greater than 192 sec due to the end of the mask-weighted light curve when 
+the source location left the field of view.  
+
+The time-averaged spectrum from T-15.1 to T+192.8 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.17 +- 0.03.  The fluence in the 15-150 keV band is 2.83 +- 0.04 x 10^-5 erg/cm2.
+The 1-sec peak photon flux measured from T+138.06 sec in the 15-150 keV band
+is 5.5 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/525068/BA/
+

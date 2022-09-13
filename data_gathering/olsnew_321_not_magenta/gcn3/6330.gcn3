@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6330
+SUBJECT: GRB 070420: Swift detection of a burst with optical afterglow
+DATE:    07/04/20 06:56:57 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+M. Stamatikos (NASA/ORAU), D. N. Burrows (PSU),
+G. Cusumano (INAF-IASFPA), P. A. Evans (U Leicester),
+C. Gronwall (PSU), V. Mangano (INAF-IASFPA),
+C. B. Markwardt (GSFC/UMD), P. T. O'Brien (U Leicester),
+D. M. Palmer (LANL), A. M. Parsons (GSFC), M. Perri (ASDC) and
+G. Stratta (ASDC) report on behalf of the Swift Team:
+
+At 06:18:13 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070420 (trigger=276321).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 121.253, -45.561 which is 
+   RA(J2000) = 08h 05m 01s
+   Dec(J2000) = -45d 33' 38"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multiply-peaked
+structure with a duration of at least 70 sec starting at T-50s. 
+The peak count rate was ~4000 counts/sec (15-350 keV), at ~7 sec 
+after the trigger. 
+
+XRT began observing the field at 06:19:52 UT, 99 seconds after the BAT 
+trigger. XRT found a bright, fading, previously uncatalogued  X-ray source 
+in the field of view at the following coordinates:
+  RA(J2000) =  08h 04m 55.3s
+  Dec(J2000)= -45d 33' 23.2"
+with an uncertainty of 4 arcseconds radius (90% containment). This is a 
+ground calculated position based on prompt downlinked data. This position 
+lies 62 arcseconds from the center of the BAT error circle. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 108 seconds after the BAT trigger.  An
+afterglow candidate has been found in the initial data products.  The
+2.7'x2.7' region for the list of sources generated on-board covers
+100% of the XRT error circle. A source is detected at   
+ RA(J2000) = 08h 04m 55.25s 
+ Dec(J2000)= -45d 33' 21.0"   
+with an estimated uncertainty of +/-0.5 arcsec.  This position is 
+2.0 arcsec from the XRT position.  The estimated magnitude in the 
+White filter is 17.3. No correction has been made for the expected 
+extinction correspondingto E(B-V) of 0.52. 
+

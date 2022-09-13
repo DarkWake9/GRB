@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14096
+SUBJECT: GRB 121217A: Swift-BAT refined analysis
+DATE:    12/12/19 22:23:48 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. R. Cummings (GSFC/UMBC), T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+A. M. Parsons (GSFC), G. Sato (ISAS), M. H. Siegel (PSU),
+M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-240 to T+962 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 121217A (trigger #542441)
+(Siegel, et al., GCN Circ. 14089).  The BAT ground-calculated position is
+RA, Dec = 153.708, -62.354 deg, which is 
+   RA(J2000)  =  10h 14m 50.0s 
+   Dec(J2000) = -62d 21' 15.5" 
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 99%.
+ 
+The mask-weighted light curve shows two well-separated periods of emission.
+The first starts at ~T-110 sec with weak emission, then peaks at ~T+1 sec,
+and returns to baseline at ~T+80 sec.  The second period of emission starts
+at ~T+500 sec, with weak peaks at ~T+500 and ~T+610 sec and the main peak
+at ~T+730 sec and returns to baseline out past T+960 sec (where the data ends).
+There are enough differences in the profiles of these two periods of emission
+to conclude they are not gravitationally lensed.
+T90 (15-350 keV) is 778 +- 16 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-17.7 to T+783.8 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.53 +- 0.08.  The fluence in the 15-150 keV band is 6.2 +- 0.3 x 10^-06 erg/cm2.
+The 1-sec peak photon flux measured from T+735.96 sec in the 15-150 keV band
+is 1.8 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/542441/BA/
+

@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17225
+SUBJECT: Konus-Wind observation of GRB 141222A
+DATE:    14/12/23 16:53:34 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration, hard-spectrum, very intense GRB 141222A
+(Fermi-LAT detection: McEnery et al., GCN Circ. 17218;
+IPN triangulation: Golenetskii et al., GCN Circ. 17223)
+triggered Konus-Wind at T0=25735.342 s UT (07:08:55.342).
+
+The burst light curve starts with a short bright pulse with negligible 
+spectral lag followed by two broader, less intense, pulses. The total 
+burst duration is about 3.2 s. The emission is seen up to 5 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB141222_T25735/
+The background variations in the soft KW band are due to solar activity.
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.1(-0.2,+0.4)x10^-5 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.038 s,
+of 1.2(-0.3,+0.3)x10^-4 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 5 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.50 (-0.10,+0.12)
+and Ep = 858 (-375,+1067) keV (chi2 = 89/79 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -1.9
+(chi2 = 89/78 dof).
+
+The spectrum near the maximum count rate
+(measured from T0 to T0+0.064 s)
+is best fit in the 20 keV - 5 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.78 (-0.15,+0.17)
+and Ep = 1532 (-359,+493) keV (chi2 = 25/29 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.2
+(chi2 = 25/28 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

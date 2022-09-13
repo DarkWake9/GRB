@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18677
+SUBJECT: GRB 151205C: Optical follow-up observations at Kiso
+DATE:    15/12/10 03:00:06 GMT
+FROM:    Masaomi Tanaka at NAOJ  <masaomi.tanaka@nao.ac.jp>
+
+Yuki Kikuchi (U. of Tokyo), Masaomi Tanaka (NAOJ), Ryou Ohsawa,
+Makoto Ichiki, Shigeyuki Sako, Tomoki Morokuma, Mamoru Doi (U. of Tokyo),
+Nozomu Tominaga (Konan U.), Motoko Serino (RIKEN), Akihiro Suzuki,
+Keiichi Maeda (Kyoto U.), and Takanori Sakamoto (AGU) report:
+
+We performed optical non-filter imaging observations for
+the MAXI-detected burst GRB 151205C (Nakajima et al. GCN Circ. 18666)
+with a prototype model camera of Tomo-e Gozen (Tomo-e PM).
+Tomo-e Gozen is a wide-field optical imaging camera
+with 84 1kx2k CMOS sensors on the focal plane of
+the 1.05-m Kiso Schmidt telescope (Sako et al. in preparation,
+http://www.ioa.s.u-tokyo.ac.jp/tomoe/).
+The prototype model camera has 8 CMOS sensors along the RA direction
+with spatial gaps of 25 arcmin between the adjacent chips.
+The field-of-view of each chip is 39.7 arcmin (RA) x 22.4 arcmin (Dec).
+Thanks to the low dark current of the sensors in room
+temperature, we operate the CMOS sensors without coolers
+which enables us to make a light-weight camera system.
+By using 1 of 8 chips of Tomo-e PM,
+multiple regions which cover in total 95% of the localization area 
+(with the following central coordinates) have been observed.
+
+ RA       | Dec       | Obs. time        | t-t0*  | Exptime |
+ (J2000)  | (J2000)   | (UT)             | (days) | (sec)   |
+ 22:00:34 | +77:39:51 | 2015 Dec 6 14:08 | 0.59   | 150     |
+ 21:58:01 | +77:41:46 | 2015 Dec 6 14:25 | 0.60   | 150     |
+ 22:05:23 | +78:26:45 | 2015 Dec 7 09:12 | 1.39   | 180     |
+ 22:02:51 | +78:06:14 | 2015 Dec 7 09:15 | 1.39   | 180     |
+ 21:55:36 | +77:28:11 | 2015 Dec 7 09:22 | 1.39   | 180     |
+ 21:58:37 | +77:45:37 | 2015 Dec 7 09:26 | 1.40   | 180     |
+ 22:08:11 | +78:19:44 | 2015 Dec 8 14:22 | 2.60   | 150     |
+ 22:04:56 | +78:03:18 | 2015 Dec 8 14:25 | 2.61   | 144     |
+ 22:02:25 | +77:42:13 | 2015 Dec 8 14:29 | 2.61   | 144     |
+ 21:58:14 | +77:22:13 | 2015 Dec 8 14:31 | 2.61   | 180     |
+ 21:55:13 | +77:04:13 | 2015 Dec 8 14:34 | 2.61   | 180     |
+* time after the burst
+
+We performed image subtraction using
+PTF R-band data taken on 2011 Jul 17 as references
+(obtained through IPAC, Law et al. 2009, PASP, 121, 1395;
+Laher et al. 2014, PASP, 126, 674).
+No new transient objects have been found within these fields.
+The limiting magnitudes of our data are about 20 mag
+(calibrated with USNO UCAC3 catalog, Zacharias et al. 2010, AJ, 139, 2184).
+

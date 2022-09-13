@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20400
+SUBJECT: LIGO/Virgo G268556: Swift/UVOT observations of ATLAS17aeu
+DATE:    17/01/08 18:31:44 GMT
+FROM:    Samantha Oates at U of Warwick  <S.Oates@warwick.ac.uk>
+
+S.R. Oates (Uni. of Warwick), A. A. Breeveld (MSSL-UCL), S.D. Barthelmy
+(NASA/GSFC), A.P. Beardmore (U. Leicester), D.N. Burrows (PSU), 
+S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G. Cusumano (INAF-IASF PA), 
+A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB), V.D'Elia(ASDC), P. Evans (U Leicester),
+N. Gehrels (NASA/GSFC), P. Giommi (ASI), C. Gronwall (PSU), J. Kennea (PSU),
+H.A. Krimm (CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL), A.Y. Lien (GSFC/UMBC),
+D. Malesani (DARK/NBI), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+B. Mingo (U. Leicester),  J.A. Nousek (PSU), P.T. O'Brien (U. Leicester),
+J.P. Osborne (U. Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester),
+D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU),
+M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP)
+report on behalf of the Swift team:
+
+The Swift/UVOT performed targetted observations of the field of ATLAS
+transient ATLAS17aeu (Tonry et al., LVC Circ. 20382) from 00:00 UT to
+01:35 UT on 2017 Jan 7 and again between 16:01 UT on 2017 Jan 7 to
+01:30 on 2017 Jan 08. No optical afterglow consistent with the ATLAS
+position or 'source5' of the XRT follow up of G268556 (Evans et al.,
+GCN Circ. 20390) is detected in the UVOT exposures at more than 3 sigma.
+We do note however a source at 2.9 sigma in the w2 filter, which in comparison
+to the second observation appears to have faded.
+
+Preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the
+exposures are:
+
+Filter    T_start(UT)  T_stop(UT)  Exp(s)    Mag/3sigUL
+v          7.007           7.009          144       > 19.1
+v          7.667           7.936          1009      > 20.3
+
+u          7.018           7.019          106      > 18.6
+u          7.881           8.016          311       > 19.2
+
+w1         7.014           7.018          290       > 19.5
+w1         7.876           7.947          801       > 20.2
+
+m2         7.009           7.014          435       > 20.0
+m2         7.670           7.943          2413      > 21.2
+
+w2         7.000           7.067          690       > 20.7   (20.76 +/- 0.37 detection at 2.9 sigma)
+w2         7.658          8.069          5177      > 22.0   (22.41 +/- 0.53 detection at 2.1 sigma)
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.03 in the direction of the transient
+(Schlegel et al. 1998).
+
+[GCN OPS NOTE(08jan17): Per author's request, PE and JK were added
+to the author list.]
+

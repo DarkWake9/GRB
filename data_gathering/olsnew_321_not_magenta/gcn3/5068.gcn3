@@ -1,0 +1,58 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5068
+SUBJECT: GRB 060502A: Swift/UVOT source detection
+DATE:    06/05/03 10:35:52 GMT
+FROM:    Tracey Poole at MSSL  <tsp@mssl.ucl.ac.uk>
+
+T. S. Poole (UCL-MSSL), and V. La Parola (INAF-IASFPA) on behalf of the
+Swift/UVOT team.
+
+The Swift/UVOT began observing the field of GRB060502 (BAT 
+Trigger=208169, V. La Parola, et. al, GCN 5047) at 03:04:56 UT, 84s 
+after the BAT trigger.
+
+We detect a fading source with a calculated position of RA = 16:03:42.48 
+and Dec = +66:36:02.5 (J2000) in the V, B and White filters, and the 
+summed UVW1 filter. The error in the coordinates of the UVOT source is 
++/- 0.56 arcsec (90% confidence). The position is 4.4 arcseconds from 
+the centre of the XRT error circle reported by V. La Parola, et. al, 
+(GCN 5054). Checks against the Digitized Sky Survey images yield no 
+known source at this position on the sky.
+
+The calculated magnitudes of the first afterglow observations in the 
+UVOT filters are given below. The limiting magnitudes are given to a 3 
+sigma limit. These values are not corrected for Galactic extinction; 
+E(B-V) = 0.033.
+
+Filter   T_range(s)  T_exp(s)  Magnitude	Comments
+
+V	 190-536     346       18.70 +/- 0.14	- source detection
+V	 5092-5292   200       20.19		- 3 sigma upper limit
+B	 4478-4678   200       20.04 +/- 0.16	- source detection
+B	 5910-6110   200       20.91 +/- 0.34	- source detection
+U	 4273-4473   200       20.84		- 3 sigma upper limit
+U	 5706-5905   200       20.78		- 3 sigma upper limit
+UVW1	 4069-4269   200       20.63		- 3 sigma upper limit
+UVW1	 5501-5701   200       20.61		- 3 sigma upper limit
+UVW1	 4069-5701   400       20.89 +/- 0.40	- source detection
+UVM2	 3864-4064   200       20.85		- 3 sigma upper limit
+UVM2	 5296-5496   200       21.03		- 3 sigma upper limit
+UVW2	 4888-5087   200       21.60		- 3 sigma upper limit
+WHITE	 84-184	     100       18.50 +/- 0.07	- source detection
+WHITE	 4682-4882   200       20.53 +/- 0.20	- source detection
+WHITE	 6115-6314   200       21.22		- 3 sigma upper limit
+
+Where T_range is time post-trigger, and T_exp is the exposure time of
+the observation. A 6 arcsec radius was used for all filters.
+
+When summing the two UVW1 200s exposures we see a source detection above 
+3 sigma. This give a z upper limit of 1.9.
+
+This message may be cited.
+
+
+
+
+
+
+

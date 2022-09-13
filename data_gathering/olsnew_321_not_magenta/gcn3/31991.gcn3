@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31991
+SUBJECT: GRB 220427A: GRANDMA Early Optical Afterglow Detection
+DATE:    22/05/02 19:34:07 GMT
+FROM:    Alexander Kann at IAA-CSIC  <kann@iaa.es>
+
+A. Klotz (CNRS-OMP-IRAP), M. Blazek (FZU), N. Christensen (OCA/Artemis), 
+D. Datashvili (AbAO), P. A. Duverne (IJCLAB), F. Z. Guo (THU), N. 
+Kochiashvili (AbAO), M. Lamoureux (UCLouvain), N. Leroy (IJCLAB), T. 
+Sadibekova (AIM/CEA-UPS), P. Thierry (AGORA), A. Simon (Kyiv Univ), L. 
+Eymar, S. Antier, M. Boer, A. de Ugarte Postigo (all CNRS-OCA-ARTEMIS), 
+D. A. Kann (IAA-CSIC), A. Iskandar (XAO), A. Baransky (Kyiv Univ),
+N. Sasaki (NEPA/UEA), W. Corradi (LNA), I. Tosta e Melo (INFN-LNS), J. 
+P. Vignes (KNC), V. Godunova (IC ICAMER) report on behalf of GRANDMA 
+collaboration:
+
+The GRANDMA telescope network responded promptly to the alert of GRB 
+220427A (A. D'Ai et al. GCN 31960, M. R. Goad et al. GCN 31962, A. P. 
+Beardmore et al. GCN 31963, M. Stamatikos et al. GCN 31968).
+
+The first observations with TAROT La Reunion started 2.35 min after the 
+Swift/BAT trigger time, and were followed by observations with the Les 
+Makes T60. Later observations were obtained by the CDK40 0.4m telescope 
+that is part of the Kilonova-Cather citizen science programme. The light 
+curve peaked around 4.5 min after the burst and then decayed steadily 
+with a decay slope of alpha ~ 1.3, where F ~ t^-alpha.
+
+The following table displays part of our photometry with magnitudes 
+given in the AB system and calibrated with respect to field stars from 
+the SkyMapper catalogue, using the MUPHOTEN pipeline (Duverne et al. 
+2021).
+
+
+T-T0 (hr)| MJD   | Obser.     |Exposure| Filter| Mag +/- err (AB)
+_________________________________________________________________
+0.04 |59696.878276| TRE       |     60s| Clear | 15.7 +/- 0.2
+1.38 |59696.932836| Makes-T60 | 15x120s| Clear | 20.1 +/- 0.1
+1.65 |59696.944294| Makes-T60 | 15x120s| Clear | 20.4 +/- 0.2
+11.37|59697.3491  | KNC-CDK400| 10x300s| R     | > 21.0
+
+T-T0 is the mid-time of observations related to the BAT trigger time.
+
+These detections are consistent with the previous report of detections 
+by the VLT (A. de Ugarte Postigo et al. GCN 31967).
+
+GRANDMA is a worldwide telescope network (grandma.ijclab.in2p3.fr) 
+devoted to the observation of transients in the context of 
+multi-messenger astrophysics (Antier et al. 2020 MNRAS 497, 5518). 
+Kilonova-Catcher (KNC) is the citizen science program of GRANDMA 
+(http://kilonovacatcher.in2p3.fr/).
+

@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32373
+SUBJECT: IPN triangulation of GRB 220711C (short)
+DATE:    22/07/12 15:50:56 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, D. Frederiks, A. Ridnaia, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+and
+
+S. Barthelmy, J. Cummings, H. Krimm, D. Palmer, and A. Tohuvavohu
+on behalf of the Swift-BAT team, report:
+
+The short-duration GRB 220711C
+was detected by Fermi (GBM trigger 679248723),
+INTEGRAL (SPI-ACS), Konus-Wind, and Swift (BAT)
+at about 58318 s UT (16:11:58).
+The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+  ------------------------------
+    RA(2000), deg  Dec(2000), deg
+   ------------------------------
+   Center:
+    79.625         -47.309
+   Corners:
+    64.292         -35.777
+    64.270         -36.123
+    94.188         -53.124
+    93.862         -52.805
+   ------------------------------
+The error box area is 5.5 sq. deg, and its maximum
+dimension is 27 deg (the minimum one is 12 arcmin).
+The Sun distance was 72 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi-GBM final localization (glg_healpix_all_bn220711675_v00).
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220711_T58317/IPN
+
+The time history and spectrum will be given in forthcoming
+GCN Circulars.
+

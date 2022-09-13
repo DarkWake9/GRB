@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25722
+SUBJECT: LIGO/Virgo S190910h: Candidates from the Zwicky Transient Facility
+DATE:    19/09/10 23:58:06 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+Robert Stein (DESY),  Michael Coughlin (Caltech), Harsh Kumar (IITB), Varun Bhalerao (IITB), Shreya Anand (Caltech), Igor Andreoni (Caltech), Maitreya Khandagale (IITB), Kunal Deshmukh (IITB), Pradip Gatkine (UMD), Viraj Karambelkar (Caltech), Yashvi Sharma (Caltech), Mansi Kasliwal (Caltech), Tomas Ahumada (UMD), Leo P. Singer (NASA GSFC), Eric Bellm (UW):
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+We serendipitously observed the localization region of the gravitational wave trigger S190910h (LVC et al. GCN 25707) with the Palomar 48-inch telescope equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). These observations began in the g-band and r-band beginning at UT 2019-09-04 10:18 UT. Each exposure was 30s, with a typical median depth of 20.6 mag. Since merger, we have covered 28.2% of the enclosed probability at least twice. This estimate does not account for chip gaps.
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the alerts database for candidates. We rejected stellar sources (Tachibana and Miller 2018) and moving objects, applied machine learning algorithms (Mahabal et al. 2019), and removed candidates with history of variability prior to the merger time. Seven candidates were found by our pipeline, lying within the 95% probability region.
+ 
+------------------------------------------------------------------------
+ZTF Name     | RA (deg)   | DEC (deg)  | Filter | Mag   | Magerr
+------------------------------------------------------------------------
+ZTF19abyheza | 332.91339  | +60.39576  | g      | 19.92 | 0.18
+ZTF19abyhhml | 339.69149  | +55.93658  | g      | 19.92 | 0.21
+ZTF19abyirjl | 30.471176  | +30.733550 | r      | 20.10 | 0.15
+ZTF19abyjcom | 32.936353  | +12.033344 | g      | 20.47 | 0.21
+ZTF19abyjcon | 33.252469  | +12.472604 | g      | 20.37 | 0.21
+ZTF19abyjcoo | 33.089712  | +12.297698 | g      | 20.43 | 0.21
+ZTF19abyjfiw | 39.186807  | +34.647299 | r      | 20.34 | 0.19
+------------------------------------------------------------------------
+Based on machine learning using PanStarrs photometry to flag sources with stellar counterparts, we find that ZTF19abyheza is likely non-stellar, while ZTF19abyhhml is ambiguous. We note that both of these objects are additionally spatially and temporally coincident with gravitational wave trigger S190910d (LVC et al. GCN 25695), and are thus potential counterparts to that event too.
+ZTF19abyirjl, reported to the TNS as AT2019pxe, is a transient with estimated host redshift of 0.1 +/- 0.017, consistent with the reported merger event. ZTF19abyjcom, ZTF19abyjcon, ZTF19abyjcoo and ZTF19abyjfiw are all hostless. We caution that ZTF19abyjcom, ZTF19abyjcon, and ZTF19abyjcoo are all from the same exposure, though see no other reason to rule them out as candidates.
+We encourage spectroscopic and photometric observations to discern the nature of these candidates.
+ 
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd,Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert database searches are done by AMPEL (Nordin et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).

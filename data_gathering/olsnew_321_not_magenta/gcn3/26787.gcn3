@@ -1,0 +1,111 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26787
+SUBJECT: LIGO/Virgo S200114f: Swift-XRT sources and observations
+DATE:    20/01/16 14:39:16 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), A. Tohuvavohu (U.
+Toronto), S.D. Barthelmy (NASA/GSFC), A.P. Beardmore (U. Leicester),
+M.G. Bernardini (INAF-OAB), A.A. Breeveld (UCL-MSSL), P. Brown (TAMU),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G.
+Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V. D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P. Giommi (ASI), C. Gronwall
+(PSU), D. Hartmann (U. Clemson), H.A. Krimm (CRESST/GSFC/USRA), N.J.
+Klingler (PSU), N.P.M. Kuin (UCL-MSSL), A.Y. Lien (GSFC/UMBC), F.E.
+Marshall (NASA/GSFC), A. Melandri (INAF-OAB), J.A. Nousek (PSU), S.R.
+Oates (U. Birmingham), P.T. O'Brien (U. Leicester), J.P. Osborne (U.
+Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester), M.J.Page
+(UCL-MSSL), D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin
+(NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G.
+Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP) report on behalf of
+the Swift team:
+
+Swift has carried out 206 observations of the LVC error region for the
+GW trigger S200114f following the 'cWB' (version 3) GW localisation
+map. The observations currently span from 6.6 ks to 99 ks after the LVC
+trigger, and the XRT has covered 22.3 deg^2 on the sky (corrected for
+overlaps). This covers 30% of the probability in the 'cWB' (version 3)
+skymap. These pointings and associated metadata have been reported to
+the Treasure Map (Wyatt et al., arXiv 2001.00588;
+http://treasuremap.space/alerts?graceids=S200114f).
+
+A 'rank 2' source has been found, so classified because it shows
+indications of fading, however it is spatially consistent with a source
+in the WISE AGN candidates catalogs (Assef et al., 2018) and therefore
+may simply be a variable AGN. The details of this source are:
+  
+  Source 2:
+  =============
+    RA: 	 110.3641 ( = 07h 21m 27.38s) J2000
+    Dec:	 +17.0360 ( = +17d 02' 09.6") J2000
+    Error:	 7.0 (arcsec, radius, 90% confidence).
+    Peak Rate:	 9.6e-02 +/- 1.7e-02 ct/sec (0.3-10 keV)
+    Peak Flux:	 4.1e-12 +/- 7.5e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Catalogued:  No
+    RASS UL:	 3.5e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+
+Further observations of this source are scheduled.
+
+In total, we have detected 8 X-ray sources. Each source is assigned a
+rank of 1-4 which describes how likely it is to be related to the GW
+trigger, with 1 being the most likely and 4 being the least likely. The
+ranks are described at https://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+  * 0 sources of rank 1
+  * 1 source of rank 2
+  * 6 sources of rank 3
+  * 1 source of rank 4
+
+
+RANK 3 sources
+==============
+
+These are uncatalogued X-ray sources, however they are not brighter
+than previous upper limits, so do not stand out as likely counterparts
+to the GW trigger.
+
+| Source ID	 | RA		  | Dec 	   | Err90   |
+|  S200114f_X1	 | 07h 13m 48.09s | +23d 04' 50.5" |	7.5" |
+|  S200114f_X10  | 03h 41m 58.28s | -25d 24' 17.6" |	6.1" |
+|  S200114f_X46  | 03h 41m 1.50s  | -25d 26' 54.4" |	6.4" |
+|  S200114f_X56  | 07h 22m 51.63s | +16d 15' 51.0" |	6.3" |
+|  S200114f_X57  | 07h 23m 54.09s | +16d 22' 00.1" |	7.7" |
+|  S200114f_X58  | 07h 23m 50.42s | +16d 21' 17.1" |	6.7" |
+
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+
+| Source ID	 | RA		  | Dec 	   | Err90   |
+|  S200114f_X59  |  07h 15m 9.23s | +15d 55' 36.9" |	8.3" |
+
+The Swift-XRT observations also covered the locations of 6 sources
+reported by other observers, thus:
+
+* AT2020vr (GCN26741)		F < 3.3x10^-12 erg cm^-2 s^-1.
+* AT2020vs (GCN26741)		F < 2.0x10^-12 erg cm^-2 s^-1.
+* AT2020vt (GCN26741)		F < 4.2x10^-12 erg cm^-2 s^-1.
+* AT2020vu (GCN26741)		F < 8.6x10^-12 erg cm^-2 s^-1.
+* AT2020vw (GCN26741)		F < 4.7x10^-12 erg cm^-2 s^-1.
+* AT2020wc (GCN26741)		F < 1.7x10^-11 erg cm^-2 s^-1.
+
+Flux limits are 3-sigma upper limits on the 0.3-10 keV observed flux.
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3x10^20 cm^-2, and photon index (Gamma)=1.7
+
+The results of the XRT automated analysis, including details of the
+sources listed above, are online at
+https://www.swift.ac.uk/LVC/S200114f
+
+This circular is an official product of the Swift XRT team.
+
+

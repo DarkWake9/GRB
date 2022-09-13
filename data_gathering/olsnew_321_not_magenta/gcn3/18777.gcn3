@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18777
+SUBJECT: Trigger 668877: Swift detection of V 404 Cyg
+DATE:    15/12/30 22:37:54 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), V. D'Elia (ASDC), C. Gronwall (PSU),
+L. Izzo (URoma/ICRA), H. A. Krimm (CRESST/GSFC/USRA),
+A. Y. Lien (GSFC/UMBC) and T. Sakamoto (AGU) report on behalf of the
+Swift Team:
+
+At 22:26:00 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located V 404 Cyg (trigger=668877).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 305.945, +33.850, which is 
+   RA(J2000)  =  20h 23m 47s
+   Dec(J2000) = +33d 50' 59"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical with image triggers, there is nothing
+obvious in the real-time light curve. 
+
+The XRT began observing the field at 22:28:09.1 UT, 128.7 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+located at RA, Dec 306.01806, 33.86606 which is equivalent to:
+   RA(J2000)  = 20h 24m 04.33s
+   Dec(J2000) = +33d 51' 57.8"
+with an uncertainty of 3.8 arcseconds (radius, 90% containment). . This
+position may be improved as more data are received; the latest position
+is available at http://www.swift.ac.uk/sper. This position is 3.1
+arcseconds from a known X-ray source: 1SXPS J202404.2+335155. This
+source is in the Swift XRT 1SXPS catalogue with a mean 0.3-10 keV
+count-rate of 0.0183 +/- 0.0015 ct/sec; see
+http://www.swift.ac.uk/1SXPS/1SXPSJ202404.2%2B335155 for details of
+these previous observations. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 132 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the large, but
+uncertain extinction expected. 
+

@@ -1,0 +1,78 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16760
+SUBJECT: GRB 140831A: iPTF observations of a possible short burst detected by Fermi GBM
+DATE:    14/09/01 02:05:16 GMT
+FROM:    Leo Singer at CIT/PTF  <lsinger@caltech.edu>
+
+L. P. Singer (Caltech), M. M. Kasliwal (Carnegie Observatories/Princeton),
+D. A. Perley (Caltech), S. B. Cenko (NASA/GSFC), and Paolo D’Avanzo
+(INAF-OAB) report on behalf of a larger collaboration:
+
+Fermi GBM triggered on the possibly short GRB 140831A (Fermi trigger
+431168350 / bn140831374) at 2014-08-31 08:59:07.220. At 09:16:58, 18
+minutes after the burst, we began searching for optical counterparts using
+the Palomar 48-inch Oschin telescope (P48). We imaged 10 fields covering
+an area of 74 deg^2.
+
+The final GBM localization, which was available 4.1 hours after the
+trigger, shifted by 12 deg relative to the prompt on-ground localization.
+As a result, the P48 fields lie mostly between the 1- and 2-sigma
+statistical+systematic contours of the final Fermi GBM localization. We
+estimate a 6% prior probability that these fields contain the true
+location of the source.
+
+Because this burst coincidentally occurred within the routine iPTF survey
+footprint, we have Sloan g observations preceding the burst. The target
+of opportunity observations were undertaken in the Mould R filter.
+
+Sifting through candidate variable sources using image subtraction and
+standard iPTF vetting procedures, we found three rapidly evolving
+candidates and followed up two with Low Resolution Imaging Spectrometer
+(LRIS) on the Keck I telescope (PI: Perley). None of the candidates appear
+to be related to the trigger.
+
+The first candidate, iPTF14emq, is at the coordinates:
+  RA(J2000)  =   0h 00m 59.16s (  0.246512 deg)
+  Dec(J2000) = +32d 48' 45.7"  (+32.812683 deg)
+Relative to the time of the burst, we measure:
+  -1.31 hours:  g > 21.08
+  -0.83 hours:  g > 20.21
+  +0.37 hours:  R = 21.04 +/- 0.12
+  +0.61 hours:  R = 20.88 +/- 0.11
+The Keck spectrum was that of a spiral galaxy at z=0.17 (i.e., host light
+only). Subsequent Keck/LRIS gR imaging and Gemini/GMOS griz imaging showed
+no source to deep limits, R >~ 26. This suggests the source faded too
+quickly and even faster than could be expected from an afterglow. We
+submitted a Swift TOO. In 4.8 ks of exposure starting 17.5 ks after the
+burst, no X-ray emission was detected to a 3-sigma limit of 2.1e-3
+counts/s. There is some excess in the UVOT image, probably due to the
+nearby galaxy and background from the bright stars in the field. Since
+none of our observations were able to confirm the source and given the
+proximity to bright stars, we suspect that iPTF14emq is a ghost-like
+optical artifact in the P48 images, unrelated to the GRB.
+
+The second candidate, iPTF14ems, is at the coordinates:
+  RA(J2000)  =  23h 26m 56.36s (351.734833 deg)
+  Dec(J2000) = +35d 35' 21.7"  (+35.589374 deg)
+Relative to the time of the burst, the P48 photometry is:
+  -21.5 hours:  g > 20.09
+  +0.13 hours:  R = 17.26 +/- 0.01
+  +3.23 hours:  R = 20.28 +/- 0.08
+The Keck spectrum exhibits broad Balmer emission lines at z=0, showing
+iPTF14ems to be a stellar flare.
+
+The third candidate, iPTF14emo, is at the coordinates:
+  RA(J2000)  =  23h 28m 40.90s (352.170424 deg)
+  Dec(J2000) = +31d 14' 06.5"  (+31.235126 deg)
+The P48 photometry is:
+  -1.31 hours:  g = 21.02 +/- 0.13
+  -0.83 hours:  g = 21.35 +/- 0.19
+  +0.37 hours:  R > 20.91
+We infer that this source is unrelated to the GRB because the g-band
+detection preceded the GBM trigger.
+
+The diagram http://www.its.caltech.edu/~lsinger/iptf/Fermi431168350.pdf
+shows the locations of our optical transients and the P48 fields in
+relation to the Fermi GBM 1- and 2-sigma statistical+systematic contours.
+
+

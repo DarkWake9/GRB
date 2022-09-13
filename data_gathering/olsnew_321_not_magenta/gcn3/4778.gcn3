@@ -1,0 +1,31 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4778
+SUBJECT: GRB 060211B: Swift/UVOT Upper Limits
+DATE:    06/02/18 12:25:30 GMT
+FROM:    Padi Boyd at GSFC  <padi@milkyway.gsfc.nasa.gov>
+
+P. Boyd (GSFC), S. Mateos (U Leicester) and F. Marshall (GSFC)
+on behalf of the Swift/UVOT team report:
+
+The Swift/UVOT began observing the field of GRB 060211B at
+15:56:39 UT on 2006-02-11, approximately 83 s after the BAT
+trigger (Mateos et al., GCN 4739). No source is detected in the
+refined XRT error circle (Page et al., GCN 4745) in the initial
+V finding chart, nor the summed images down to the following
+3-sigma magnitude upper limits:
+
+Filter  T_range(s)      Exp(s)  3sigUL(mag)
+
+V       83-283          200     19.4
+V       83-7768         869     20.5
+B       290-7213        718     21.4
+U       615-6955        301     20.4
+UVW1    591-8168        550     20.8
+UVM2    567-7972        490     20.8
+UVW2    519-7604        278     21.2
+White   494-7359        236     20.7
+
+Reported times are in seconds since the BAT trigger.
+These magnitudes are uncorrected for the expected
+Galactic extinction corresponding to E(B-V) = 0.407.
+

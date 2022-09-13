@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20238
+SUBJECT: Konus-Wind observation of GRB 161202A
+DATE:    16/12/06 16:44:29 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A.Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 161202A
+(Swift-BAT detection and observation: Sbarufatti et al.,
+GCN Circ. 20227, Cummings et al., GCN Circ. 20233;
+Fermi-LAT detection: Vianello & Longo, GCN Circ. 20229)
+triggered Konus-Wind at T0=83508.822 s UT (23:11:48.822).
+
+The burst light curve shows a multipeaked structure
+started at ~T0-57.1 s with a total duration of ~181.0 s.
+The emission is seen up to ~2 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB161202_T83508/
+
+As observed by Konus-Wind, the burst
+had a fluence of 2.90(-0.40,+0.73)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+3.920 s,
+of 3.03(-0.80,+0.80)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+139.520 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.43(-0.25,+0.30)
+and Ep = 222(-63,+201) keV (chi2 = 65/62 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high-energy photon index: beta < -1.9
+(chi2 = 65/61 dof)
+
+The spectrum near the maximum count rate
+(measured from T0+0.256 to T0+8.448 s)
+is best fit in the 20 keV - 2 MeV range
+by the power law with exponential cutoff model:
+with  alpha = -0.67(-0.21,+0.24)
+and Ep = 203(-20,+26) keV (chi2 = 76/62 dof).
+Fitting by the GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high-energy photon index: beta < -2.5
+(chi2 = 76/61 dof)
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+
+

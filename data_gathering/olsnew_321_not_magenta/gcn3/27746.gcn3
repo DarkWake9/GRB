@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27746
+SUBJECT: Swift Detection of a burst from SGR Swift J1818.0-1607
+DATE:    20/05/16 15:21:15 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+C. Gronwall (PSU), J.D. Gropp (PSU), J. A. Kennea (PSU),
+S. Laha (GSFC/UMBC/CRESST), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester) and
+D. M. Palmer (LANL) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 15:03:28 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a burst from Soft Gamma Repeater SGR Swift J1818.0-1607 
+(trigger=972614).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 274.550, -16.193 which is 
+   RA(J2000) = 18h 18m 12s
+   Dec(J2000) = -16d 11' 32"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single peak
+structure with a duration of about 100 ms.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 15:04:27.5 UT, 59.0 seconds after
+the BAT trigger. Using promptly downlinked data we find an 
+X-ray source with an enhanced position: RA, Dec 274.5010, -16.1314
+which is equivalent to:
+   RA(J2000)  = 18h 18m 00.23s
+   Dec(J2000) = -16d 07' 53.0"
+with an uncertainty of 3.0 arcseconds (radius, 90% containment). This
+location is 279 arcseconds from the BAT onboard position, consistent 
+with the known position of Swift J1818.0-1607. This position
+may be improved as more data are received; the latest position is
+available at https://www.swift.ac.uk/sper.  We cannot determine whether
+the source is fading at the present time. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.35
+x 10^22 cm^-2 (Willingale et al. 2013). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 62 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers none of the XRT error circle. No correction has been made for
+the large, but uncertain, extinction expected. 
+
+Swift is currently monitoring this source every 3 days under a ToO program. 
+

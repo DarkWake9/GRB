@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13892
+SUBJECT: GRB 121024A: Swift-XRT refined Analysis
+DATE:    12/10/24 19:24:10 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+K.L. Page (U. Leicester), A. Maselli  (INAF-IASFPA), V. Mangano
+(INAF-IASFPA), A. Melandri (INAF-OAB), M.C. Stroh (PSU), D.N. Burrows
+(PSU), J.A. Kennea (PSU), A.P. Beardmore (U. Leicester) and C. Pagani
+report on behalf of the Swift-XRT team:
+
+We have analysed 7.0 ks of XRT data for GRB 121024A (Pagani  et al. GCN
+Circ. 13886), from 82 s to 23.5 ks after the  BAT trigger. The data
+comprise 242 s in Windowed Timing (WT) mode (the first 9 s were taken
+while Swift was slewing) with the remainder in Photon Counting (PC)
+mode. The refined XRT position is RA, Dec = 70.47078, -12.29099 which
+is equivalent to:
+
+RA (J2000): 04 41 52.99
+Dec(J2000): -12 17 27.6
+
+with an uncertainty of 3.5 arcsec (radius, 90% confidence).
+
+The late-time light curve (from T0+3.9 ks) can be modelled with  a
+power-law decay with a decay index of alpha=0.89 (+/-0.13).
+
+A spectrum formed from the WT mode data can be fitted with an absorbed
+power-law with a photon spectral index	of 2.15 (+/-0.08). The
+best-fitting absorption column is  8.0 (+2.1, -2.0) x 10^21 cm^-2, at a
+redshift of 2.298, in addition to the Galactic value of 5.4 x 10^20
+cm^-2 (Kalberla et al. 2005). The PC mode spectrum has a photon index
+of 1.96 (+/-0.13) and a best-fitting absorption column of 7.1 (+4.0,
+-3.6) x 10^21 cm^-2. The counts to observed (unabsorbed) 0.3-10 keV
+flux conversion factor deduced from this spectrum  is 3.7 x 10^-11 (4.7
+x 10^-11) erg cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Galactic foreground: 5.4 x 10^20 cm^-2
+Intrinsic column:    7.1 (+4.0, -3.6) x 10^21 cm^-2 at z=2.298
+Photon index:	     1.96 (+/-0.13)
+
+If the light curve continues to decay with a power-law decay index of
+0.89, the count rate at T+24 hours will be 0.016 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 5.8 x
+10^-13 (7.3 x 10^-13) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00536580.
+
+This circular is an official product of the Swift-XRT team.
+

@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25398
+SUBJECT: LIGO/Virgo S190814bv: DESGW candidate update
+DATE:    19/08/19 06:35:16 GMT
+FROM:    Ken Herner at Fermi Nat Accelerator Lab  <kherner@fnal.gov>
+
+LIGO/Virgo S190814bv: DESGW candidate update 
+
+Kenneth Herner, Antonella Palmese, Marcelle Soares-Santos, Douglas Tucker, Sahar Allam, James Annis, Alyssa Garcia, Robert Morgan, Tristan Bachmann, Dillon Brout, Luidhy Santana-Silva, Nora Sherman
+
+On behalf of the DESGW Team*
+
+As part of our ongoing CTIO Blanco/DECam search program, we observed the region of interest of the LIGO/Virgo black hole/neutron star merger S190814bv (initially reported by the LIGO/VIRGO Collaboration in GCN Circular No. 25324, and updated GCN Circular No. 25333)  on the night of August 17 2019. Here we report an additional candidate counterpart (others were previously reported in GCN No. 25336, GCN No. 25373) and as well as detections of candidates previously reported by DECam-GROWTH (Andreoni et al. 25362, 25393).
+
+Images were processed by our difference imaging pipeline (Herner et al. 2017; see also Soares-Santos et al. 2015, 2017; Doctor et al. 2018; Morgan et al. 2019 for recent applications) using DES images as templates. We employ a machine learning code (autoscan, Goldstein et al. 2015) to reject subtraction artifacts. Candidates were initially selected by requiring at least two high signal to noise detections, rejecting asteroids. We then applied catalog-based vetting to reject variable stars, variable AGNs, using various catalogs including GAIA DR2, and candidates with hosts at redshifts inconsistent (>2sigma, H0=70) with the distance reported by the LVC for S190814bv (276 +/- 56 Mpc) using a variety of photometric and spectroscopic catalogs including DES. The final vetting was done via visual inspection. We matched our remaining candidates using the Transient Name Server to avoid reporting those previously reported by other groups, and the Minor Planet Center to further filter against slow moving asteroids. The following candidates pass our selection criteria:
+
+NAME          	    TNS_NAME    RA       		DEC 	MJD  	    MAG 
+desgw-190814f    AT2019nte    23.557358   -31.7217    58711.297    20.95(i)
+
+The following candidates previously reported to the Transient Name Server also pass our selection criteria:
+
+NAME (GCN)                   TNS_NAME	RA   		     DEC       
+desgw-190814c (25373)  AT2019nqq	20.955072	-33.034722
+DG19wgmjc (25362)        AT2019npw	13.968327	-25.783283	
+DG19etlkc	                       AT2019nqe	21.456741	-34.119553	
+DG19rzhoc (25393)         AT2019num	13.881526	-22.969016
+DG19rtekc  (25393)	        AT2019ntn 	23.722184	-31.380451
+DG19wxnjc (25393)	        AT2019npv	13.384642	-23.832904	
+
+Further analysis is ongoing.
+
+*The DESGW Collaboration:
+
+Sahar Allam (Fermilab), James Annis (Fermilab), Iair Arcavi (Tel Aviv U), Tristan Bachmann (U Chicago), Paulo Barchi (INPE & Brandeis U), Thomas Beatty (U of Arizona) Keith Bechtol (U of Wisconsin-Madison), Federico Berlfein (Brandeis U), Antonio Bernardo (U of Sao Paulo), Dillon Brout (U Penn), Robert Butler (Indiana U), Melissa Butner, (Fermilab), Annalisa Calamida (STScI), Hsin-Yu Chen (Harvard U), Chris Conselice (U of Nottingham), Carlos Contreras (STScI), Jeff Cooke (Swinburne U), Chris D’Andrea (U Penn), Tamara Davis (U Queensland), Reinaldo de Carvalho (UNICSUL), H. Thomas Diehl (Fermilab), Zoheyr Doctor (U Chicago), Alex Drlica-Wagner (Fermilab), Maria Drout (U Toronto), Maya Fishbach (U Chicago), Francisco Forster (U de Chile), Ryan Foley (UCSC), Joshua Frieman (Fermilab & U Chicago), Chris Frohmaier (U of Portsmouth), Ori Fox (STScI), Alyssa Garcia (Brandeis U), Juan Garcia-Bellido (U Autonoma de Madrid), Mandeep Gill (SLAC & Stanford U), Robert Gruendl (NCSA), Will Hartley (U College London), Kenneth Herner (Fermilab), Daniel Holz (U Chicago), Jorge Horvath (U of Sao Paulo), D. Andrew Howell (Las Cumbres Observatory), Richard Kessler (U Chicago), Charles Kilpatrick (UCSC), Nikolay Kuropatkin (Fermilab), Ofer Lahav (U College London), Huan Lin (Fermilab), Andrew Lundgren (U of Portsmouth), Martin Makler (CBPF), Clara Martinez-Vazquez (CTIO/NOAO), Curtis McCully (Las Cumbres Observatory), Mitch McNanna (U of Wisconsin-Madison), Robert Morgan (U of Wisconsin-Madison), Gautham Narayan (STScI), Eric Neilsen (Fermilab), Robert Nichol (U of Portsmouth), Antonella Palmese (Fermilab), Francisco Paz-Chinchon (NCSA & UIUC), Matthew Penny (OSU), Maria Pereira (Brandeis U), Sandro Rembold (UFSM), Armin Rest (STScI & JHU), Livia Rocha (U Sao Paulo), Russell Ryan (STScI), Masao Sako (U Penn), Samir Salim (Indiana U), David Sand (U of Arizona), Luidhy Santana-Silva (Valongo Observatory), Daniel Scolnic (Duke U), Nora Sherman (Fermilab), J. Allyn Smith (Austin Peay State U), Mathew Smith (U of Southampton), Marcelle
+ Soares-Santos (Brandeis U), Lou Strolger (STScI), Riccardo Sturani (UFRN), Mark Sullivan (U of Southampton), Masaomi Tanaka (NAOJ), Nozomu Tominaga (Konan U), Douglas Tucker (Fermilab), Yousuke Utsumi (Stanford U), Stefano Valenti (UC Davis), Kathy Vivas (NOAO/CTIO), Alistair Walker (NOAO/CTIO), Sara Webb (Swinburne U), Matt Wiesner (Benedictine U), Brian Yanny (Fermilab), Michitoshi Yoshida (NAOJ), Alfredo Zenteno (NOAO/CTIO)
+
+

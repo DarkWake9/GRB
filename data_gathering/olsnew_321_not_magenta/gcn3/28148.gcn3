@@ -1,0 +1,71 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28148
+SUBJECT: Konus-Wind observation of GRB 200716C: correction to GCN 28147
+DATE:    20/07/20 12:49:52 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, D. Svinkin, S. Golenetskii, R.Aptekar, A.Lysenko,
+A. Ridnaia, A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The GRB 200716C (Swift-BAT detection: Ukwatta et al., GCN 28124;
+Fermi-LAT detection: Ohno et al., GCN 28130;
+AGILE-MCAL detection: Ursi et al., GCN 28133;
+Fermi-GBM detection: Veres & Meegan, GCN 28135;
+CALET-GBM detection: Torii et al., GCN 28139;
+Insight-HXMT/HE detection: Xue et al., GCN 28145)
+triggered Konus-Wind (KW) at T0=82658.337 s UT (22:57:38.337).
+
+The burst light curve shows two bright, short, hard-spectrum pulses
+in the interval from ~T0-0.5 s to ~T0+2.5 s.
+Both pulses are ~0.5 s wide and they are peaked
+at ~T0+0.128 s and ~T0+2.096 s, respectively.
+A much weaker extended post-burst emission is visible
+in the KW 20-80 keV band up to ~T0+75 s.
+The emission in the main pulses is seen up to ~7 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB200716_T82658/
+
+As observed by Konus-Wind, the burst had
+a fluence of (1.2 +/- 0.2)x10^-5 erg/cm^2 and
+a 64-ms peak energy flux, measured from T0+0.128 s,
+of (3.7 +/- 0.6)x10^-5 erg/cm^2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum (measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 15 MeV range
+by a power law with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.07(-0.12,+0.14)
+and Ep = 652(-154,+241) keV (chi2 = 91/97 dof).
+Fitting by a GRB (Band) model yields similar alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.0
+(chi2 =91/96 dof).
+
+The spectrum near the peak count rate (measured from T0
+to T0+0.256 s) is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -0.51 (-0.19,+0.31),
+the high energy photon index beta = -2.23 (-0.58,+0.29),
+the peak energy Ep = 616 (-200,+226) keV,
+(chi2 = 48/42 dof).
+
+Assuming the photo z=0.348 of a possible host galaxy (D'Avanzo, GCN 28132)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc,
+Omega_M = 0.315, and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the following rest-frame parameters:
+the isotropic energy release E_iso ~ 3.9x10^51 erg,
+the peak luminosity L_iso ~ 1.6x10^52 erg/s,
+and the rest-frame peak energy of the time-integrated (peak)
+spectrum Ep,z ~ 880 keV (~830 keV).
+
+With these values, GRB 200716C is a clear outlier in the 'Amati' relation
+built for 138 long KW GRBs with known z (Tsvetkova et al., ApJ 850 161, 2017).
+Meanwile, in both Eiso-Ep,z and Liso-Ep,z planes, the GRB 200716C position
+is consistent with short-hard (Type I) GRB population,
+see http://www.ioffe.ru/LEA/GRBs/GRB200716_T82658/GRB200716C.pdf
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.
+

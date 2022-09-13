@@ -1,0 +1,67 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17490
+SUBJECT: SGR 1935+2154: Swift-BAT refined analysis
+DATE:    15/02/23 01:10:13 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Swift/BAT triggered twice within 15 minutes on successive outbursts from the 
+soft gamma repeater SGR 1935+2154 (Burrows, et al., GCN Circ. 17485).   These 
+were triggers #632158 (trigger 1) and #632159 (trigger 2).
+
+Using the data set from T-61 to T+242 sec for trigger 1 and the data set from 
+T-120 to T+183 set
+for trigger 2 from the recent telemetry downlinks, we report further analysis of 
+the BAT detection of two outbursts from SGR 1935+2154. The BAT ground-calculated 
+position from trigger 2 is
+RA, Dec = 293.722, 21.889 deg which is
+    RA(J2000)  =  19h 34m 53.2s
+    Dec(J2000) = +21d 53' 19.1"
+with an uncertainty of 1.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 15% for trigger 1 and 100% for trigger 2.
+
+For  trigger 1, the mask-weighted light curve shows a single peak of total 
+duration ~100 msec.
+T90 (15-350 keV) is 0.08 +- 0.02 sec (estimated error including systematics).  
+For  trigger 2,
+the mask-weighted light curve shows a single peak of total duration ~20 msec.
+T90 (15-350 keV) is 0.02 +- 0.008 sec (estimated error including systematics).
+
+For trigger 1, the time-averaged spectrum from T+0.00 to T+0.09 sec fit by a simple
+power-law model shows the power law index of 2.92 +- 0.44 (chi squared 48.50 for 
+57 d.o.f.).
+The fluence in the 15-150 keV band is 4.6 +- 1.1 x 10^-8 erg/cm2. The 1-sec peak 
+photon flux
+measured from T-0.45 sec in the 15-150 keV band is 1.3 +- 0.4 ph/cm2/sec.
+  A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 5.45 +- 1.30 keV (chi squared 50.26 for 57 d.o.f.).
+A thermal bremsstrahlung model fit shows the temperature of 22.17 +- 9.67 keV
+(chi squared 46.62 for 57 d.o.f.).  A double blackbody fit shows the lower 
+temperature
+of 4.13 +1.28 keV and the higher temperature of 12.69 (error not unconstrained) keV
+(chi squared 44.57 for 55 d.o.f.).  All the quoted errors are at the 90% 
+confidence level.
+
+For trigger 2, the time-averaged spectrum from T-0.00 to T+0.02 sec fit by a simple
+power-law model shows the power law index of 2.83 +- 0.13 (chi squared 74.87 for 
+57 d.o.f.).
+The fluence in the 15-150 keV band is 4.4 +- 0.4 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.49 sec in the 15-150 keV band
+is 0.9 +- 0.1 ph/cm2/sec.  A single blackbody fit to the time-averaged spectrum 
+shows the blackbody
+temperature of 7.92 +- 0.62 keV (chi squared 63.19 for 57 d.o.f.).
+A thermal bremsstrahlung model fit shows the temperature of 28.34 +- 3.59 keV
+(chi squared 45.19 for 57 d.o.f.).  A double blackbody fit shows the lower 
+temperature
+of 4.13 +1.22 keV and the higher temperature of 10.46 (error not unconstrained) keV
+(chi squared 42.09 for 55 d.o.f.).  All the quoted errors are at the 90% 
+confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/632158/BA/
+http://gcn.gsfc.nasa.gov/notices_s/632159/BA/
+

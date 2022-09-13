@@ -1,0 +1,54 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5035
+SUBJECT: GRB060428B: possible detection of an optical counterpart by Swift/UVOT.
+DATE:    06/04/29 16:13:07 GMT
+FROM:    Massimiliano de Pasquale at MSSL-UCL  <mdp@mssl.ucl.ac.uk>
+
+  M. De Pasquale (UCL-MSSL), S. Campana (INAF-OAB) report on
+  behalf of the Swift/UVOT team:
+
+  The Swift/UVOT began taking data on the field of GRB060428B
+at 08:57:52 UT on 2006-04-28, 194  s after the BAT trigger
+(Campana et al., GCN 5017).
+At the position of the optical afterglow claimed by Price et
+al. (GCN 5019) and Li et al. (GCN 5027), inside the XRT error
+circle (Troja et al., GCN 5031), we find a source near the
+detection limits in the V band and in the White filter, not
+present in the USNO B1.0 catalogue. The source is present in
+the first ~1000 seconds of observations, with a significance
+of ~3 sigma. It is not detected later.
+
+    Filter   T_range(s)   Exp(s)        Mag
+
+     V        194-1233     356     19.5 +0.5 -0.3
+     V       5630-16900   1081          >20.4
+
+    White     211-960      227     19.7 +/- 0.3
+    White    5247-18579   1135          >20.7
+
+  The upper limits quoted above are at the 3 sigma level.
+The source is not detected in any of the other filters. The
+fading behaviour may indicate that it is the GRB060428B optical
+afterglow, however we do caution that detections are marginal
+and the results suffer from a contamination by an extended
+source, the galaxy quoted by Helpern et al. in GCN 5034. An
+association with the GRB cannot be excluded.
+
+  No other afterglow candidate was detected at the refined XRT
+position in summed images from any of the filters down to the
+following three-sigma upper limits:
+
+    Filter   T_range(s)   Exp(s)   3sigma U.L.
+
+     V        194-16900   1441       20.5
+     B        413-17812   1308       21.4
+     U        390-16900   1357       21.1
+     UW1      367-19996   1227       20.6
+     UM2      443-12022   1358       20.6
+     UW2      323-6894     383       20.2
+    White     212-18579   1363       20.8
+
+
+    These upper limits are uncorrected for the estimated
+  Galactic reddening of E_{B-V} = 0.01 mag (Schlegel et al. 1998).
+

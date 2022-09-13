@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27094
+SUBJECT: LIGO/Virgo S200213t: CLU/NED Galaxies in the 4-Update Localization Volume 
+DATE:    20/02/16 03:10:36 GMT
+FROM:    David Cook at IPAC/Caltech  <dcook@ipac.caltech.edu>
+
+David O. Cook (Caltech/IPAC), Angela Van Sistine (UW Milwaukee), Leo Singer (NASA/GSFC), Igor Andreoni (Caltech), Michael Coughlin (Caltech), Bob Aloisi (UW Milwaukee), Patrick R. Brady (UW Milwaukee), Rick Ebert (Caltech/IPAC), George Helou (Caltech/IPAC), David Kaplan (UW Milwaukee), Mansi M. Kasliwal (Caltech), Joseph M. Mazzarella (Caltech/IPAC), and Marion Schmitz (Caltech/IPAC)
+
+On behalf of the Global Relay of Observatories Watching Transients Happen (GROWTH) collaboration and the NASA/IPAC Extragalactic Database (NED) Team.
+
+We spatially cross-matched the LIGO/Virgo S200213t trigger sky localization with the Census of the Local Universe (CLU; Cook et al. 2019) catalog and found !###! galaxies within the 90% containment volume. The CLU catalog is a compilation of galaxies with existing redshifts from many sources (e.g., NED, SDSS, etc) and new galaxies from a 3PI narrow-band survey to look for redshifted Halpha emission out to 200 Mpc with the Palomar Oschin 48-inch telescope (Cook et al. 2019).
+
+We list here the top 20 galaxies located in the 90% volume sorted by stellar mass (Mstar). The list also contains the dust-corrected star formation rates (SFRs) for galaxies with GALEX FUV detections and a 'nan' for those with no detection.
+
+For an extended list of galaxies in the 90% volume go to the NED Gravitational Wave Followup service at https://ned.ipac.caltech.edu/uri/NED::GWF/. This service provides downloadable galaxy lists and visualizations for candidate host galaxies. For each GW alert, these products are automatically generated and made available within minutes to expedite efficient electromagnetic followup observations. The NED top 20 list is sorted by 2MASS absolute K-band magnitude, but users can sort the entire list on a variety of other criteria (probability density, UV magnitudes, etc) after download.
+
+
+          name              ra      dec   distmpc logsfr_fuv logmstar  dP_dV
+------------------------ -------- ------- ------- ---------- -------- --------
+           CGCG 535-012   9.0874 45.6650  198.38       1.16    11.36 3.24e-07
+             AGC 333426 357.3938 32.1342   68.65        nan    11.18 1.17e-06
+              UGC 00006   0.7901 21.9602  101.30       1.40    11.12 6.32e-07
+         MCG +08-03-003  14.9866 47.7862  199.48        nan    11.08 1.88e-06
+              UGC 00361   9.1041 49.0132  167.77        nan    11.02 6.26e-07
+               NGC 0794  30.6222 18.3730  117.50      -0.78    11.01 3.11e-07
+2MASX J00523155+4620186  13.1314 46.3384  199.35        nan    11.00 7.63e-07
+                IC 5370   0.0383 32.7384  144.06        nan    10.99 6.69e-07
+                IC 5373   0.1200 32.7824  136.15        nan    10.98 1.21e-06
+                ARK 008   5.3923 38.0930  151.56       1.10    10.98 1.46e-06
+2MASX J01183038+5156442  19.6267 51.9457  118.31        nan    10.97 9.53e-06
+              UGC 00087   2.4433 28.3407  115.49        nan    10.95 9.10e-06
+2MASX J01224216+5201127  20.6756 52.0202  198.88        nan    10.95 3.26e-06
+2MASX J00484648+5609272  12.1937 56.1576  164.48        nan    10.93 3.13e-07
+2MASX J01161702+5352580  19.0710 53.8828  185.89        nan    10.91 9.85e-06
+              UGC 01514  30.4996 21.0965  126.17       0.08    10.90 3.45e-07
+2MASX J00385452+4828030   9.7272 48.4675  169.75        nan    10.90 1.31e-06
+2MASX J01155540+5103031  18.9809 51.0509  199.70        nan    10.90 2.75e-06
+               V Zw 075  22.8972 55.5680  162.97        nan    10.90 5.93e-06
+           CGCG 535-007   6.8912 45.5811  168.14        nan    10.89 5.50e-07
+
+
+Table: Top 20 galaxies in CLU that fall in the 90% probability volume for S200213t sorted by stellar mass. Column descriptions are as follows. name: galaxy name. ra: RA (J2000, decimal degrees). dec: Dec (J2000, decimal degrees). distmpc: galaxy distance (Mpc). logsfr_fuv: log10 of the star formation rate (SFR, Msun per year), derived from GALEX All Sky Kron FUV magnitudes via the prescription of Murphy et al. (2011), corrected for internal dust extinction using a combination of GALEX FUV and 22um ALLWISE fluxes (Hao et al. 2011). logmstar: log10 of the galaxy stellar mass (Msun), estimated from 3.4um ALLWISE fluxes and a mass-to-light ratio of 0.5 (McGaugh & Schombert et al. 2015). dP_dV: the 3D probability density per cubic megaparsec at the position of each galaxy.
+
+

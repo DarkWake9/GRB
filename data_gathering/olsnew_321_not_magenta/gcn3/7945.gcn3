@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7945
+SUBJECT: Trigger 316063: Swift detection of a transient
+DATE:    08/07/05 21:56:09 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+P. A. Ward (MSSL-UCL), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), P. J. Brown (PSU),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+N. P. M. Kuin (MSSL), C. B. Markwardt (CRESST/GSFC/UMD),
+K. M. McLean (GSFC/UMD), C. Pagani (PSU), K. L. Page (U Leicester),
+D. M. Palmer (LANL), D. Perez (U Leicester), P. Romano (INAF-IASFPA),
+T. Sakamoto (NASA/UMBC), R. L. C. Starling (U Leicester) and
+G. Tagliaferri (INAF-OAB) report on behalf of the Swift Team:
+
+At 21:14:13 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located trigger 316063.  Swift slewed immediately to the location. 
+The BAT on-board calculated location is RA, Dec 130.246, -45.098 which is 
+   RA(J2000) = 08h 40m 59s
+   Dec(J2000) = -45d 05' 53"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As this was an image trigger, the BAT light
+curve is unremarkable. 
+
+The XRT began observing the field at 21:16:23.4 UT, 130.3 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+fading, X-ray source located at RA, Dec 130.20005, -45.06074 which is
+equivalent to:
+   RA(J2000)  = 08h 40m 48.01s
+   Dec(J2000) = -45d 03' 38.7"
+with an estimated uncertainty of 6 arcseconds (radius, 90% containment). 
+This location is 177 arcseconds from the BAT onboard position, within the
+BAT error circle. Since this is 8 arcseconds from the catalogued position
+of IGR J08408-4503, further than our nominal 6" error radius, we cannot
+rule out a) that this is the IGR source, or b) that it is a GRB. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of
+9.32e+21 cm^-2 (Kalberla et al. 2005). 
+
+The initial flux in the 2.5 s image was 1.61e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of nominal 400 seconds with the V  
+filter  starting 134 seconds after the BAT trigger. Due to the  
+brightness of LM Vel, a bright optical source also seen in Digitized
+Sky Survey, we  cannot determine any variability or  the presence of
+any nearby  unknown sources near the XRT position. 
+
+Burst Advocate for this burst is P. A. Ward (paw AT mssl.ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

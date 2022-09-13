@@ -1,0 +1,73 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25256
+SUBJECT: GRB 190731A: no OT detected by MASTER 
+DATE:    19/08/02 13:04:26 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, E. Gorbovskoy (MASTER,Lomonosov MSU), D.Svinkin (Konus-Wind,Ioffe institute)
+V. Kornilov, N.Tyurina, P.Balanutsa, A.Kuznetsov, F.Balakin, V. Vladimirov,D. Vlasenko, I.Gorbunov,D.Zimnukhov,
+V. Senik, A.Chasovnikov,  A.Pozdnyakov, D.Kuvshinov(Lomonosov Moscow State University, SAI, Physics Department),
+R. Rebolo, M. Serra (The Instituto de Astrofisica de Canarias IAC),
+R. Podesta, C.Lopez, F. Podesta, C.Francile (Observatorio Astronomico Felix Aguilar OAFA),
+H. Levato (Instituto de Ciencias Astronomicas, de la Tierra y del Espacio ICATE),
+D. Buckley (South African Astronomical Observatory SAAO),
+O. Gress, N.M. Budnev, O.Ershova (Irkutsk State University, API),
+A. Tlatov, D. Dormidontov (Kislovodsk Solar Station of the Pulkovo Observatory),
+V. Yurkov, A. Gabovich, Yu. Sergienko (Blagoveschensk Educational State University)
+
+MASTER Global Robotic Net ( http://observ.pereplet.ru, Lipunov et al., 2010,Advances in Astronomy, vol. 2010, 30L)
+observed GRB 190731A (Fermi team GCN 25240) in alert (Lipunov et al. GCN 25243) and inspect modes.
+
+MASTER-VWF (very wide field) cameras (D=82 mm, F/1.2, FOV=2x384 sq. degree)  located in MASTER-SAAO robotic telescope
+was pointed to the GRB 190731A by Fermi GBM (trigger 586305505) localization.
+The first images obtain 21 seconds after notice and 45 second after trigger time at 2019-07-31 22:39:05.
+
+Due to the MASTER-VWFC  field of view both  Fermi/LAT(Ohno et al., GCN 25244) and Swift/XRT (Evans et al. 25245,
+Osborne et al., GCN 25251,and also detected by CALET Asaoka et al. GCN25246 and triangulated by IPN Hurley et al. GCN25250)
+position are covered by these images.
+
+We do not see any optical transients at Swift XRT position with upper limit 12.5m (MASTER-VWFC).
+
+MASTER-SAAO robotic telescope was pointed to the GRB 190731A LAT localization (Fermi LAT team GCN 25244) 
+errorbox  65745 sec after trigger time at 2019-08-01 16:54:08 UT, with upper limit up to  21.4 mag (MASTER-II).
+Observations started at twilight.
+The observations began at zenit distance = 65 deg, the sun  altitude  is -11.3 deg.
+During this observations we also not find any optical transient connected with GRB.
+
+Real time updated cover map and OT discovered available here:
+https://master.sai.msu.ru/site/master2/observ.php?id=1093251
+
+We obtain a following upper limits.
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000)          |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|____________________________________|_____|_______|_______|________
+    65835 | 2019-08-01 16:54:08 |         MASTER-SAAO | ( 22h 42m 57.83s , -76d 43m 34.01s) |   C |   180 | 18.3 |
+    66194 | 2019-08-01 17:00:06 |         MASTER-SAAO | ( 22h 38m 17.07s , -76d 43m 24.10s) |   C |   180 | 19.4 |
+    66344 | 2019-08-01 17:00:06 |         MASTER-SAAO | ( 22h 38m 17.12s , -76d 43m 24.11s) |   C |   480 | 19.1 |  Coadd
+    68464 | 2019-08-01 17:38:56 |         MASTER-SAAO | ( 22h 17m 50.68s , -76d  4m 50.21s) |   C |    60 | 19.3 |
+    68844 | 2019-08-01 17:45:16 |         MASTER-SAAO | ( 22h 17m 51.60s , -76d  4m 41.03s) |   C |    60 | 19.3 |
+    69225 | 2019-08-01 17:51:37 |         MASTER-SAAO | ( 22h 51m 04.79s , -76d  5m 15.39s) |   C |    60 | 19.1 |
+    69789 | 2019-08-01 18:01:01 |         MASTER-SAAO | ( 22h 51m 07.30s , -76d  5m 25.37s) |   C |    60 | 19.4 |
+    73540 | 2019-08-01 19:03:32 |         MASTER-SAAO | ( 22h 44m 49.14s , -78d  4m 44.09s) |   C |    60 | 19.4 |
+    73976 | 2019-08-01 19:10:48 |         MASTER-SAAO | ( 22h 44m 50.07s , -78d  4m 35.94s) |   C |    60 | 19.4 |
+    83563 | 2019-08-01 21:49:36 |         MASTER-SAAO | ( 22h 39m 03.78s , -76d 38m 29.08s) |   C |   180 | 19.8 |
+    83743 | 2019-08-01 21:49:36 |         MASTER-SAAO | ( 22h 39m 03.83s , -76d 38m 29.08s) |   C |   540 | 21.0 |  Coadd
+    83775 | 2019-08-01 21:53:07 |         MASTER-SAAO | ( 22h 39m 07.18s , -76d 38m 13.34s) |   C |   180 | 20.3 |
+    83986 | 2019-08-01 21:56:39 |         MASTER-SAAO | ( 22h 39m 07.84s , -76d 38m 16.00s) |   C |   180 | 20.3 |
+    84616 | 2019-08-01 21:56:39 |         MASTER-SAAO | ( 22h 39m 07.85s , -76d 38m 16.00s) |   C |  1440 | 21.0 |  Coadd
+    84197 | 2019-08-01 22:00:10 |         MASTER-SAAO | ( 22h 39m 09.53s , -76d 38m 36.09s) |   C |   180 | 20.3 |
+    84377 | 2019-08-01 22:00:10 |         MASTER-SAAO | ( 22h 39m 09.55s , -76d 38m 36.11s) |   C |   540 | 21.4 |  Coadd
+    84469 | 2019-08-01 22:04:42 |         MASTER-SAAO | ( 22h 39m 13.22s , -76d 38m 16.65s) |   C |   180 | 20.3 |
+    84680 | 2019-08-01 22:08:13 |         MASTER-SAAO | ( 22h 39m 13.30s , -76d 38m 16.35s) |   C |   180 | 20.5 |
+    84892 | 2019-08-01 22:11:45 |         MASTER-SAAO | ( 22h 39m 14.79s , -76d 38m 35.89s) |   C |   180 | 20.4 |
+    85072 | 2019-08-01 22:11:45 |         MASTER-SAAO | ( 22h 39m 14.79s , -76d 38m 35.91s) |   C |   540 | 21.0 |  Coadd
+    85106 | 2019-08-01 22:15:19 |         MASTER-SAAO | ( 22h 39m 17.57s , -76d 38m 35.58s) |   C |   180 | 20.5 |
+    85317 | 2019-08-01 22:18:49 |         MASTER-SAAO | ( 22h 39m 18.81s , -76d 38m 15.77s) |   C |   180 | 20.4 |
+    85528 | 2019-08-01 22:22:20 |         MASTER-SAAO | ( 22h 39m 18.99s , -76d 38m 15.51s) |   C |   180 | 20.4 |
+Filter C is a clear (unfiltred) band.
+
+This GRB was also detected by CALET (Asaoka et al. GCN25246), triangulated by IPN (Hurley et al. GCN25250)
+
+The observation and reduction will continue.
+
+

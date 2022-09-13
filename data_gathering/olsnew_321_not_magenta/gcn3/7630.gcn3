@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7630
+SUBJECT: GRB 080413A: Suzaku/WAM and Swift/BAT joint spectral analysis
+DATE:    08/04/18 21:50:05 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori.sakamoto-1@nasa.gov>
+
+M. Ohno, M. Kokubun, M. Suzuki, T. Takahashi (ISAS/JAXA)
+K. Yamaoka, S. Sugita (Aoyama Gakuin U.),
+T. Enoto (Univ. of Tokyo), Y.E. Nakagawa, T. Tamagawa (RIKEN),
+T. Uehara, T. Takahashi, Y. Fukazawa, C. Kira, Y. Hanabata
+(Hiroshima U.), M. Tashiro,
+Y. Terada, Y. Urata, A. Endo, K. Onda, N. Kodaka, K. Morigami (Saitama U.),
+K. Nakazawa, K. Makishima (Univ. of Tokyo), E. Sonoda, M. Yamauchi,
+H. Tanaka, R. Hara (Univ. of Miyazaki), , S. Hong (Nihon U.),
+on behalf of the Suzaku WAM team, report:
+
+J. Tueller (GSFC), S. D. Barthelmy (GSFC), W. Baumgartner (GSFC/UMBC),
+A. P. Beardmore (U Leicester), J. Cummings (GSFC/UMBC), E. Fenimore (LANL),
+N. Gehrels (GSFC), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+K. McLean (GSFC/UMD), D. Palmer (LANL), T. Sakamoto (GSFC/UMBC),
+G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+
+report:
+
+We performed the Suzaku/WAM and Swift/BAT joint fit spectral
+analysis of GRB 080413A (Swift/BAT trigger #309096; Beardmore et al., 
+GCN 7594).  The time interval of the spectral data for each 
+instrument is chosen from T0(WAM)-1 to T0(WAM)+22 sec where
+T0(WAM) is the trigger time of WAM at  02:54:18.648 UTC.  
+This time interval includes the initial two peaks, but not 
+the relatively soft third peak around T0(WAM)+45 sec which 
+is clearly visible in the BAT data (Tueller et al., GCN 7604).  
+The energy ranges which we used in the joint spectral analysis
+are 13-150 keV and 150-1000 keV for Swift/BAT and Suzaku/WAM
+respectively.  The spectral data of two instruments are fit
+with the spectral model multiplied by the constant factor to
+take into account the systematic uncertainties in the response
+matrices of each instrument.
+
+The spectrum is well fit with a power-law with exponential cutoff
+model (dN/dE ~ E^{alpha} * exp(-(2+alpha)*E/Epeak)).  The constant
+factors of each instrument agree within 20%.  No systematic residual
+from the best fit model is seen in the spectral data of each instrument.
+The best fit spectral parameters are: alpha = -1.2 +- 0.1 and
+Epeak = 170 (-40/+80) keV (chi2/dof = 75/73).  The energy fluence
+in the 15-1000 keV band calculated by a power-law with exponential
+cutoff model for this 23 sec interval is 4.8 (-1.2/+0.4) x 10^-6 erg/cm2
+(assuming the constant factor of the BAT is fixed to 1).
+
+Assuming z = 2.433 (Thoene et al., GCN 7602) and a standard 
+cosmology model with H_0 = 71 km/s/Mpc, Omega_M = 0.27, 
+Omega_\Lambda = 0.73, the isotropic energy release is 
+E_iso ~8x10^52 erg in 1 keV to 10 MeV at the GRB rest frame.   
+
+All the quoted errors are at the 90% confidence level.
+

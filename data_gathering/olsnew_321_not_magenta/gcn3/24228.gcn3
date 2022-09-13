@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24228
+SUBJECT: LIGO/Virgo S190425z: Updated localization from LIGO and Virgo data
+DATE:    19/04/26 15:32:37 GMT
+FROM:    Leo Singer at GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have re-analyzed LIGO data around the time of the compact binary
+coalescence (CBC) candidate S190425z (GCN 24168). Parameter
+estimation has been performed using LALInference [1] and a new sky
+map, LALInference.fits.gz, is available for retrieval from the
+GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S190425z
+
+For the LALInference.fits.gz skymap, the 90% credible region is 7461
+deg2. Marginalized over the whole sky, the a posteriori luminosity
+distance estimate is 156 +/- 41 Mpc (a posteriori mean +/- standard
+deviation). This is the preferred sky map at this time.
+
+For further information about analysis methodology and the contents
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+ [1] Veitch et al. PRD 91, 042003 (2015)
+
+

@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27236
+SUBJECT: GRB 200227A: MITSuME Akeno optical upper limit
+DATE:    20/02/27 11:59:48 GMT
+FROM:    Motoki Oeda at Tokyo Inst. of Tech.  <oeda@hp.phys.titech.ac.jp>
+
+M. Oeda, R. Adachi, K. L. Murata, K. Shiraishi, K. Iida, M. Niwano, F.
+Ogawa, S. Toma, R. Hosokawa, N. Nakamura, Y. Yatsu, and N.
+Kawai(TokyoTech) report on behalf of the MITSuME collaboration:
+
+We searched for the optical counterpart of GRB 200227A (Fermi GBM Team
+et al.,GCN Circular #27233, S. Laha et al., GCN Circular #27234) with
+the optical three color (g’, Rc, and Ic) CCD cameras attached to the
+MITSuME 50 cm telescope of Akeno Observatory, Yamanashi, Japan.
+The observation started on 09:05:08 UT. We did not find any new point
+sources within the Swift/XRT circle (S. Laha et al., GCN Circular
+#27234) in all three bands.
+We obtained the 5-sigma limits as follows.
+
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+2.2   09:41:13  900  g’>18.4,Rc>18.2,Ic>17.5
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used UCAC4 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al. ,in prep;
+https://github.com/MNiwano/Eclair)
+

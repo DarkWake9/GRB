@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20791
+SUBJECT: LIGO/Virgo G275697: iPTF Optical Transient Candidates
+DATE:    17/03/02 07:30:39 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+M. M. Kasliwal (Caltech), S. M. Adams (Caltech), C. Cannella (Caltech), R.
+Lunnan (Caltech), R. Ferretti (OKC), T. Kupfer (Caltech), L. P. Singer
+(NASA/GSFC), S. B. Cenko (NASA/GSFC), R. Walters (Caltech), T. Barlow
+(Caltech), J. Rana (IUCAA), V. Bhalerao (IIT-B), A. A. Miller
+(Northwestern/Adler), Y. Cao (UW), R. Laher (IPAC), F. Masci (IPAC)
+
+report on behalf of the iPTF (intermediate Palomar Transient Factory) and
+GROWTH (Global Relay of Observatories Watching Transients Happen)
+collaborations:
+
+We performed tiled observations of LIGO/Virgo G275404 (LVC, GCN 20738) and
+LIGO/Virgo G275697 (LVC, GCN 20763) using the Palomar 48-inch Oschin
+telescope (P48) on the night of 2017-03-01 UTC (delay due to inclement
+weather). We imaged 84 fields spanning 633 square degrees, with a 13%
+chance of containing the true location of G275404. Of these, 47 fields (361
+square degrees) were imaged twice, containing 6% probability of containing
+G275404, and searched for transient candidates.
+
+During preliminary sifting through candidate variable sources using image
+subtraction by our IPAC (Masci et al. 2016) and NERSC (Cao et al. 2016)
+pipelines, a total of 140 candidates were saved in the fields imaged.
+Applying standard iPTF vetting procedures and removing transients with a
+history of previous variability, we flagged 2 optical transient candidates
+in the 90% contour of G275697, listed below, for further follow-up.
+
+Name        RA (J2000)      Dec (J2000)     UTC          R-mag
+Notes
+iPTF17bou   148.739102      -7.943791       09:07        18.72
+fading (0.3 mag intranight); nuclear/stellar?
+iPTF17bpw   147.851104      -9.136385       09:03        19.16
+pstar=0.013; nuclear
+
+Positions are stated in the ICRS. Discovery times are noted in UTC hh:mm on
+2017-03-01. Magnitudes are based on image subtraction and are in the Mould
+R filter, calibrated with respect to point sources in SDSS as described in
+Ofek et al. 2012.
+
+We caution that many candidates are outside the SDSS footprint and lack a
+secure star/galaxy classification for the underlying source. We flag these
+as "nuclear/stellar?". Where available, we provide machine-learning
+probability scores on whether the underlying source is a galaxy/star (0/1)
+(Miller et al. 2016).
+
+We are grateful to the Palomar crew (especially John Henning, Jeff
+Zolkower, Carolyn Heffner, Jamey Eriksen, Nick Ganciu) for their hard work
+in reviving a faulty declination encoder essential to collecting this
+dataset during the last two days of iPTF survey operations.

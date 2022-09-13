@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7591
+SUBJECT: GRB 080411, Swift-BAT refined analysis
+DATE:    08/04/12 14:32:04 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+G. Sato (GSFC/ISAS), S. D. Barthelmy (GSFC), W. Baumgartner (GSFC/UMBC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), F. E. Marshall (GSFC),
+K. McLean (GSFC/UMD), D. Palmer (LANL), T. Sakamoto (GSFC/UMBC),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-187 to T+723 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 080411 (trigger #309010)
+(Marshall, et al., GCN Circ. 7584).  The BAT ground-calculated position is
+RA, Dec = 37.961, -71.297 deg, which is 
+   RA(J2000)  =  02h 31m 50.6s 
+   Dec(J2000) = -71d 17' 49.6" 
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 86%.
+ 
+The mask-weighted light curve shows two clusters of overlapping peaks.
+The first starts at T+0.0 sec and rises to a peak in 1 sec.  The second peak
+is at T+7 sec; the third at T+10 sec, and the 4th at T+19 sec at 25 cnt/cm2/sec
+(15-150 keV).  The lightcurve returns to background before the beginning
+of the second cluster of peaks.  The 5th peak starts at ~T+39 sec,
+rises linearly, peaking at ~T+41 src at 43 cnts/cm2/sec.  There are two more
+much smaller peaks at T+55 and T+64 sec.  The lightcurve returns to background
+by ~T+95 sec.  There is a gap in the downlinked data from T+300 to T+420 sec.
+It appears that the burst has returned to background well before this gap,
+but should later downlinks show on-going activity, we will issue an updated
+circular.  T90 (15-350 keV) is 56 +- 1 sec (estimated error including
+systematics).
+ 
+The time-averaged spectrum from T-0.0 to T+84.3 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.75 +- 0.03.  The fluence in the 15-150 keV band is 2.64 +- 0.01 x 10^-5 erg/cm2.
+The 1-sec peak photon flux measured from T+40.45 sec in the 15-150 keV band
+is 43.2 +- 0.9 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/309010/BA/
+

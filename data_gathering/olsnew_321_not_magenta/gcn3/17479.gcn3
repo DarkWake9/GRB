@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17479
+SUBJECT: Trigger 631747: Swift detection of 4U 0614+09
+DATE:    15/02/19 17:02:25 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. A. Breeveld (UCL-MSSL), D. N. Burrows (PSU),
+J. R. Cummings (NASA/UMBC), V. D'Elia (ASDC), N. Gehrels (NASA/GSFC),
+N. P. M. Kuin (UCL-MSSL), F. E. Marshall (NASA/GSFC) and
+D. M. Palmer (LANL) report on behalf of the Swift Team:
+
+At 16:42:23 UT, the Swift Burst Alert Telescope (BAT) triggered on a burst
+from the source 4U 0614+09 (trigger=631747).  Swift slewed immediately to
+the location.  The BAT on-board calculated location is 
+RA, Dec 94.300, +9.116 which is 
+   RA(J2000) = 06h 17m 12s
+   Dec(J2000) = +09d 06' 57"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single peak
+burst with a duration of about 2 sec.  The peak count rate
+was ~3000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 16:44:26.2 UT, 122.6 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+94.2808, 9.1369 which is equivalent to:
+   RA(J2000)  = +06h 17m 7.39s
+   Dec(J2000) = +09d 08' 12.8"
+with an uncertainty of 5.1 arcseconds (radius, 90% containment). This
+location is 101 arcseconds from the BAT onboard position, within the
+BAT error circle. This position is 1.4 arcseconds from a known X-ray
+source: 4U 0614+09. This source is in the Swift XRT 1SXPS
+catalogue with a mean 0.3-10 keV count-rate of 30.40 +/- 0.30 ct/sec;
+see http://www.swift.ac.uk/1SXPS/1SXPSJ061707.4%2B090811 for details of
+these previous observations. No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 2.10e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 130 seconds after the BAT trigger. UVOT detects an
+18th mag source  whose position is consistent with a catalogued
+optical source. The 2.7'x2.7' sub-image covers 100% of  the XRT error
+circle. The typical 3-sigma upper limit has been about 19.6 mag.  The
+8'x8' region for the list of sources generated on-board covers 100% of
+the  XRT error circle. The list of sources is typically complete to
+about 18 mag. No  correction has been made for the large, but
+uncertain extinction expected. 
+
+This LMXRB has been seen many times by Swift.  This is the brightest
+burst seen since September 2012. 
+

@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15754
+SUBJECT: Konus-Wind observation of GRB 131215A
+DATE:    14/01/20 13:29:34 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, V. Pal'shin, D. Frederiks, P. Oleynik, M. 
+Ulanov, D. Svinkin, A. Tsvetkova and T. Cline on behalf of the 
+Konus-Wind team report:
+
+The long GRB 131215A (MAXI/GSC detection and localization:
+K. Fukushima et al., GCN 15597) was detected by Konus-Wind
+in the waiting mode at about T0(MAXI)= 32900 s UT (09:08:20).
+
+The burst began with a pulse with a duration of about 60 s, followed by 
+a less intense emission lasting ~240 s. The total burst duration was 
+about 300 s.
+
+As observed by Konus-Wind, the burst had a fluence
+of (1.4 +/- 0.3)x10^-5 erg/cm2 (in the 20 - 1200 keV energy range).
+
+Modelling the K-W 3-channel time-integrated spectrum
+(from T0(KW) to T0(KW)+300 s)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep) yields
+alpha = -1.28 (-0.27, +0.31), and
+Ep = 263 (-87, +234) keV
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB131215A/
+

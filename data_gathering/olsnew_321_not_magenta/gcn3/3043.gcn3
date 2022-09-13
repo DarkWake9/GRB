@@ -1,0 +1,47 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3043
+SUBJECT: GRB 050219b: CORRECTION: Swift XRT Position
+DATE:    05/02/20 00:46:10 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+D. N. Burrows, J. E. Hill, J. A. Kennea, J. L. Racusin (PSU), C. 
+Pagani,  A. Moretti (INAF-OAB), O. Godet, A. F. Abbey (U. Leicester), V. La 
+Parola (INAF-IASF/Palermo), F. Tamburelli (ASDC), K. Hurley (UC-Berkeley), 
+B. Zhang (U. Nevada), D. Hinshaw, L. Angelini, N. White, N. Gehrels (GSFC), 
+report on behalf of the Swift XRT team:
+
+CORRECTION: shortly after submitting this information to the GCN, we 
+discovered an error in the XRT position.  The original rectangular error 
+box based on WT mode data was correct, but the error circle based on image 
+mode data was incorrect.  That position is corrected below.
+
+The Swift BAT instrument detected GRB 050219b at 21:05:51 UT on 19 February 
+2005.  The burst was too close to the Earth limb to allow immediate 
+observation by the XRT and UVOT.  The observatory executed an automated 
+slew to the BAT position at 21:56:25 UT and the XRT began taking data at 
+about 21:58 UT.  The XRT was in Auto state and attempted to obtain a GRB 
+position, but the source was too faint to obtain a reliable on-board 
+centroid.  The ground-processed centroid of this image gives an approximate 
+source position of:
+
+CORRECTION:
+
+RA(J2000) = 05:25:15.2
+Dec(J2000) = -57:45:25.2
+
+We estimate an uncertainty of 15 arcseconds in this position.
+
+XRT then began observations in Windowed Timing mode, which provides 1-D 
+position information.  There appears to be a fairly bright X-ray source at 
+a position bounded by the following error box:
+
+RA, Dec (J2000):
+Corner #1: 05:25:44.9, -57:55:55.3
+Corner #2: 05:25:44.2, -57:55:57.4
+Corner #3: 05:24:41.7, -57:33:54.5
+Corner #4: 05:24:41.0, -57:33:56.6
+
+Photon-counting mode frames taken in the following orbit are expected to 
+produce a more accurate position, and will be reported when they become 
+available on the ground.  
+

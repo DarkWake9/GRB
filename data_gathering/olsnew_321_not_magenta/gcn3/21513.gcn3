@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21513
+SUBJECT: LIGO/Virgo G298048: Further analysis of a binary neutron star candidate with updated sky localization 
+DATE:    17/08/17 17:54:51 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We performed a preliminary offline analysis using the PyCBC search (Nitz
+et al. arxiv:1705.01513, 2017) of the binary neutron star candidate
+G298048 (LSC and Virgo, GCN 21505, 21509, 21510) identified in low-latency
+by the gstlal online search (Messick et al. Phys. Rev. D 95, 042001, 2017).
+
+A trigger consistent with a binary neutron star merger is observed at GPS
+time 1187008882.443 (2017-08-17 12:41:04 UTC) in both the LIGO Livingston
+(L1) and LIGO Hanford (H1) detectors. The trigger is below threshold in
+Virgo because of the antenna pattern for Virgo (V1) at the time and
+location of this event, but the Virgo instrument contributes to the
+localization. The duration of the gravitational-wave signal is
+approximately 74 seconds from the search’s low-frequency cutoff of 27 Hz
+to the binary merger.
+
+Investigation of L1 data identified a noise transient from a known class
+of instrumental glitches during the inspiral signal. The duration of this
+glitch is a small fraction of a second and does not appear to affect the
+signal at times away from the glitch. To make an improved preliminary
+estimate of the sky position, we re-analyzed the data, removing the L1
+noise transient at GPS time 1187008881.389 by multiplying the strain data
+with a Tukey window, such that the total duration of the zeroed data is
+0.2 s and the total duration of the Tukey window is 1.2 s.
+
+An updated BAYESTAR sky map (Singer et al. 2016, ApJL 829, 15) that uses
+data from all three gravitational-wave observatories (H1, L1, and V1) is
+available for retrieval from the GraceDB page
+(https://gracedb.ligo.org/events/view/G298048): bayestar-HLV.fits.gz. The
+centroid (maximum a posteriori) sky location is R.A.=12h57m, Dec.=-17d51m.
+The 50% credible region spans about 9 deg2 and the 90% region about 31
+deg2. The luminosity distance is 40 +/- 8 Mpc (all-sky a posteriori mean
++/- standard deviation). This is the preferred sky map at this time.
+
+If we assume that the binary is either face on or face off in the plane of
+the sky, then we obtain a revised estimate of luminosity distance of 50
++/- 3 Mpc. This assumption does not significantly affect the overall 2D
+localization projected onto the sky, but reduces the 3D volume of the
+localization (e.g. Pankow et al. 2017, ApJ 834, 154).
+
+We caution that the parameters and significance of this candidate may be
+subject to change as data-quality, calibration, and full parameter
+estimation studies are ongoing.
+
+

@@ -1,0 +1,88 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7627
+SUBJECT: GRB 080319B: Jet Break, Energetics, Supernova
+DATE:    08/04/16 18:58:13 GMT
+FROM:    Alexander Kann at TLS Tautenburg  <kann@tls-tautenburg.de>
+
+D. A. Kann, S. Schulze (TLS Tautenburg) & A. C. Updike (Clemson 
+University) report:
+
+In light of recent reports on the further evolution of GRB 080319B, we did 
+a preliminary analysis of the multiwavelength data set.
+
+Jet Break:
+Racusin et al. (GCN 7567) reported the existence of a potential jet break 
+at 1.04 +/- 0.43 Ms in the X-ray band, with a hint of a steeper decay seen 
+in the optical as well. Using the most up-to-date data from  the Swift XRT 
+light curve repository (Evans et al. 2007), we confirm the  findings of 
+the Swift team and derive (using data starting at 0.5 days after the GRB):
+
+chi^2/d.o.f. = 39/58
+alpha_1 = 1.01 +/- 0.05
+alpha_2 = 2.40 +/- 0.39
+t_b = 9.43 +/- 1.73 days (0.815 +/- 0.149 Ms)
+n = 5 fixed, no "host galaxy"
+
+These values are in agreement with those of the Swift team, with 
+significantly reduced errors. We note that there seems to be a steep decay 
+in the X-ray light curve from 0.35 to 0.5 days, and a similar evolution 
+has been reported in the optical (Krugly et al., GCN 7519) at about the 
+same time. This is reminiscent of the X-ray light curve of GRB 070110 
+(Troja et al. 2007).
+
+In the optical, we add data from Perley et al. (GCN 7535) and Tanvir et 
+al. (GCN 7621) to the data set from Bloom et al. 2008 (arXiv:0803.3215). 
+Tanvir et al. report a significant reddening, which we confirm. 
+
+At the moment, it is unclear how much the host galaxy and a potential 
+supernova contribute in the g band, but a roughly achromatic steepening is 
+seen in this band (Tanvir et al.) in comparison to the X-ray light curve.
+
+Energetics:
+Using the prompt emission data derived from Konus-Wind (Golenetskii et 
+al., GCN 7482), we find in the bolometric band (1 - 10000 keV, host 
+frame):
+
+E_iso = 1.32 +/- 0.03 x 10^54 erg (log E_iso = 54.12)
+
+In the sample of Kann et al. 2007 (arXiv:0712.2186), only two GRBs (000131 
+and 990123) exceed this value.
+
+Using the jet break time derived above, as well as the redshift z=0.937 
+(Vreeswijk et al., GCN 7444), and assuming standard parameters 
+(constant-density medium, circumburst density n = 10 cm^-3, efficiency eta 
+= 0.2), we find:
+
+theta_jet = 10.24 +/- 0.71 degrees
+E_jet = 2.11 +/- 0.30 x 10^52 erg (log E_jet = 52.3)
+
+This value is comparable to or higher than for GRB 050904 (Tagliaferri et 
+al. 2005, Frail et al. 2006), GRB 050820A (Cenko et al. 2006) and GRB 
+070125 (Updike et al. 2008, Chandra et al. 2008), implying that this is 
+the fourth hyper-energetic GRB (cf. Chandra et al. 2008). We note that 
+broadband modeling may refine the circumburst density; if it is 
+significantly higher than 10 cm^-3, the colimation-corrected energy 
+will also be significantly higher.
+
+Supernova:
+In the i' band, the afterglow does not show a late steep decay, indicating 
+the possibility of a supernova that is by now contributing to the optical 
+transient (Tanvir et al.). Using the composite light curve (Bloom et al.) 
+shifted to the i' band (using the early Rc - i' color), and assuming an 
+achromatic break (t_b, alpha_2 fixed from the X-ray fit) and no host 
+galaxy, we find, using data after 0.7 days (after the steep decay + 
+plateau phase, Krugly et al.):
+
+chi^2/d.o.f. = 44/10 (scatter)
+alpha_1 = 1.33 +/- 0.02
+k = 2.40 +/- 0.15
+s = 1 fixed (stretch factor)
+
+k is the peak luminosity in units of the SN 1998bw peak luminosity. This 
+is a high value (Ferrero et al. 2006) and represents an upper limit on the 
+SN flux. Assuming m_host(i') = 25, we find k = 1.24 +/- 0.14, a more 
+reasonable result, indicating the contribution of a host galaxy to 
+the late afterglow.
+
+This message may be cited.
+

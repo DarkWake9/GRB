@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17544
+SUBJECT: Further X-ray observations of  Swift J0045.2+4151 (aka Sw J0045 aka GRB 150301C aka [PFH2005] 622)
+DATE:    15/03/04 23:07:43 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+Alessandro Maselli (INAF-IASFPA), Phil Evans (U. Leicester),
+David Burrows (PSU), Sergio Campana (INAF-OAB),
+Neil Gehrels (GSFC), Jamie Kennea (PSU), Amy Lien (GSFC/UMBC),
+Daniele Malesani (DARK/NBI), Craig. B. Markwardt (GSFC),
+Frank Marshall (GSFC), Julian Osborne (U. Leicester),
+David. M. Palmer (LANL), Kim L. Page (U Leicester),
+Rhaana L. C. Starling (U Leicester)
+report on behalf of the Swift team:
+
+Swift continues to observe the field of BAT trigger 633105
+(aka GRB 150301C) with sky location in M31. To avoid further
+naming confusion, this object will be referred as Swift J0045.2+4151
+hereafter. The XRT continues to detect only a single source within
+the BAT error circle at a position coincident with the previously
+known XMM-Newton source, [PFH2005] 622 (Pietsch et al. 2005).
+For the rest of this circular we assume that the X-rays detected by
+XRT are from [PFH2005] 622.
+
+The XRT has acquired four observations so far. The source
+(which we presume is [PFH2005] 622) was detected in the first snapshot,
+(T0+107s to T0+720s), in which we detect 8 events in 614 seconds,
+with a mean background expectation of 0.34 counts.  This results in a rate
+of 1.48 (+0.6, -0.5) e-2 counts/s (1 sigma errors).
+
+In the 2nd epoch (T0+4 ks to T0+80 ks), we detect 3 events in 7.2 ks, with
+an expected background of 1.25 events, giving a 3 sigma upper limit of
+< 0.002 counts/s.
+
+In the 3rd epoch (T0+171 ks to T0+206 ks), we find 5 events in 4.8 ks with a
+mean background expectation of 0.64 events, giving a 3 sigma detection
+of 1.2 (+0.8, -0.6) e-3 counts/s (1 sigma errors).
+
+All measurements use a source radius of 9 pixels (21 arcseconds),
+a background measurement from an annulus around the source region, and
+the Bayesian method of Kraft, Burrows, and Nousek (1991, ApJ, 374, 344) to obtain
+the 1-sigma confidence intervals (for detections) or 3-sigma upper limits (for non-detections).
+
+Therefore, after a detection in the initial XRT observation, the source
+faded below the XRT detection limit and may have brightened again
+in the 3rd epoch.
+
+We cannot conclude firmly at this point whether the source
+[PFH2005] 622 is associated with the BAT trigger or not.
+More observations at all wavelengths are encouraged.
+
+A table and a light curve that summarize current XRT observations
+of [PFH2005] 622 are available at:
+http://swift.gsfc.nasa.gov/results/BATbursts/633105/xrt/atel_20150304.html
+
+[GCN OPS NOTE(05mar15), Per author's request, the last line in the 5th paragraph
+was changed from "the 3 sigma confidence regions and upper limits."
+to "the 1-sigma confidence intervals (for detections) or 3-sigma upper limits (for non-detections).".
+And the places in the 2nd & 4th paragraphs that said "(1 sigma errors)"
+were changed to "(1 sigma errors)".]
+

@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22017
+SUBJECT: Swift trigger 779171 is probably a noise fluctuation
+DATE:    17/10/15 20:04:44 GMT
+FROM:    Boris Sbarufatti at PSU  <bxs60@psu.edu>
+
+S. D. Barthelmy (GSFC), J.D. Gropp (PSU), N. P. M. Kuin (UCL-MSSL),
+A. Y. Lien (GSFC/UMBC), B. Sbarufatti (PSU), A. Tohuvavohu (PSU) and
+T. N. Ukwatta (LANL) report on behalf of the Swift Team:
+
+At 19:14:22 UT, the Swift Burst Alert Telescope (BAT) detected an image
+peak in the vicinity of a nearby galaxy (trigger=779171).  Swift slewed
+immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 78.485, +62.383 which is 
+   RA(J2000) = 05h 13m 56s
+   Dec(J2000) = +62d 22' 58"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty). The BAT raw (non mask-weighted) light curve 
+shows some periodic behavior with a ~ 10 s period. However, because 
+Swift J0243.6+6124, which has a periodicity of ~ 10 s, was also in the BAT FOV 
+and currently shows significant increase in its brightness, we believe 
+that the oscillation in the BAT light curve is caused by Swift J0243.6+6124. 
+
+The XRT began observing the field at 19:15:58.6 UT, 96.0 seconds after
+the BAT trigger. No source was detected in 829 s of promptly downlinked
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 100 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.31. 
+
+Due to the low significance of the image peak (5.90 sigma) and the
+possible contamination by Swift J0243.6+6124 and the non-detection by
+XRT, we believe that this is merely a noise fluctuation in the image
+plane and not an astrophysical source. 
+

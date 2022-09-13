@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17416
+SUBJECT: Trigger 630047: Swift detection of 1RXS J180408.9-342058
+DATE:    15/02/06 21:26:24 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), D. N. Burrows (PSU), C. Gronwall (PSU),
+M.E. Gropp (PSU), J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+D. Malesani (DARK/NBI), F. E. Marshall (NASA/GSFC),
+B. Sbarufatti (INAF-OAB/PSU) and M. H. Siegel (PSU) report on behalf
+of the Swift Team:
+
+At 20:45:14 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located 1RXS J180408.9-342058 (trigger=630047).  Swift slewed to the source. 
+The BAT on-board calculated location is 
+RA, Dec 271.019, -34.318, which is 
+   RA(J2000)  =  18h 04m 05s
+   Dec(J2000) = -34d 19' 03"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for image triggers (15 min integration),
+there is nothing discernible from the real-time data. 
+
+The XRT began observing the field at 21:04:28.5 UT, 1153.7 seconds
+after the BAT trigger. XRT found a bright X-ray source located at RA,
+Dec 271.0338, -34.3481 which is equivalent to:
+   RA(J2000)  = +18h 04m 8.11s
+   Dec(J2000) = -34d 20' 53.2"
+with an uncertainty of 5.3 arcseconds (radius, 90% containment). This
+location is 116 arcseconds from the BAT onboard position, within the
+BAT error circle. This position is 4.8 arcseconds from a known X-ray
+source: 1SXPS J180408.1-342048. This source is in the Swift XRT 1SXPS
+catalogue with a mean 0.3-10 keV count-rate of 0.0256 +/- 0.0020
+ct/sec; see http://www.swift.ac.uk/1SXPS/1SXPSJ180408.1-342048 for
+details of these previous observations. No event data are yet available
+to determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.37e-09 erg cm^-2 s^-1 (0.2-10
+keV), corresponding to ~30 counts per second. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 1163 seconds after the BAT trigger. There is an optical counterpart in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	18:04:08.40 = 271.03499
+  DEC(J2000) = -34:20:51.2  = -34.34755
+with a 90%-confidence error radius of about 0.62 arc sec. This position is 4.0
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+17.29 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.48. 
+
+This is the second BAT trigger on 1RXS J180408.9-342058. The first
+was on January 31st, 2015 at 21:14UT (GCN #17367). The recent rise in
+brightness of this object has been reported by the BAT Transient 
+Monitor (ATEL #6997) and MAXI (ATEL #7008). 
+

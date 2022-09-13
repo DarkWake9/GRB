@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31162
+SUBJECT: Konus-Wind detection of GRB 211130A
+DATE:    21/12/03 17:19:17 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, D. Frederiks, A. Lysenko, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 211130A
+(Fermi GBM Final Real-time localization: The Fermi GBM team, GCN 31151;
+BALROG localization: Kunzweiler et al., GCN 31152;
+IPN triangulation: Kozyrev et al., GCN 31161)
+triggered Konus-Wind at T0=54992.505 s UT (15:16:32.505).
+
+The burst light curve starts with a smooth pulse, which was followed,
+after a period of low-level emission, by a more intense, multi-peaked
+emission complex. The total burst duration is ~21.4 s.
+The emission is seen up to ~6 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB211130_T54992/
+
+As observed by Konus-Wind, the burst
+had a fluence of 9.57(-0.68,+0.75)x10^-6 erg/cm2,
+and a 64-ms peak flux, measured from T0+13.456 s,
+of 8.39(-2.23,+2.99)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+16.640 s)
+is best fit in the 20 keV - 6 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.54(-0.24,+0.27)
+and Ep = 164(-15,+19) keV (chi2 = 82/75 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.5
+(chi2 = 82/74).
+
+The spectrum near the maximum count rate
+(measured from T0+8.448 to T0+16.640 s)
+is best fit in the 20 keV - 6 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.40(-0.34,+0.47),
+the high energy photon index beta = -2.69(-1.55,+0.43),
+the peak energy Ep = 177(-31,+34) keV
+(chi2 = 56/73 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

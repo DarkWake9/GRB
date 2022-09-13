@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29744
+SUBJECT: Konus-Wind detection of GRB 210401A
+DATE:    21/04/02 23:19:00 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, D. Frederiks, S. Golenetskii, A.Lysenko,
+A. Ridnaya, A. Tsvetkova,  M. Ulanov, and T. Cline, report:
+
+The long-duration GRB 210401A (Fermi-GBM detection: The Fermi GBM team,
+GCN Circ. 29739) was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in
+the 20-1500 keV band reveals a count rate increase over background
+in the interval from ~T0-500 s to ~T0+340 s,
+where T0 = T0(GBM) = 83824 (23:17:04) UT.
+The total duration of ~840 s makes this burst an ultra-long GRB candidate.
+On the other hand, the proximity of the burst localization (GCN 29739)
+to the Galactic center may suggest that the burst is a galactic transient.
+The KW light curve of this burst is available at
+http://www.ioffe.ru/LEA/GRBs/GRB210401A/
+
+Modeling the KW 3-channel time-integrated spectrum
+(measured from T0-499.335 s to T0+339.705 s)
+by a power law with exponential cutoff (CPL) model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.40(-0.10,+0.12) and Ep = 240(-35,+45) keV.
+
+A CPL fit to the spectrum near the peak count rate,
+measured from T0+248.441 s to T0+254.329 s, gives
+alpha -1.25(-0.12,+0.13), and Ep = 413(-78,+122) keV.
+
+In the 10 keV -10 MeV band, the total burst fluence
+is (1.46 +/- 0.18)x10^-4 erg/cm^2, and the 2.944 s peak energy flux,
+measured in the interval starting from T0+248.441 s,
+is (1.73 +/- 0.22)x10^-6 erg/cm^2.
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.
+
+[GCN OPS NOTE(03apr21),  Per author's request, the typo in the SUBJECT:-line
+was changed from 210104A to 210401A.]
+

@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29424
+SUBJECT: Konus-Wind detection of GRB 210204A (correction to GCN 29415)
+DATE:    21/02/08 11:35:19 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, on behalf of the Konus-Wind team:
+
+The KW spectral data and energetics of GRB 210204A
+reported in Frederiks et al., GCN 29415 contain errors due to an
+incorrect detector response matrix used in the calculations.
+The correct spectra and energetics are provided below,
+we are sorry for the inconvenience.
+
+The burst time-integrated spectrum (measured from T0 to T0+49.408 s)
+is best fit in the 20 keV - 20 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -1.45 (-0.08,+0.09),
+the high energy photon index beta = -2.63 (-0.41,+0.20),
+the peak energy Ep = 136 (-16,+21) keV,
+chi2 = 76/97 dof.
+
+The spectrum near the peak count rate (measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 20 MeV range
+by the GRB (Band) function with the following model parameters:
+the low-energy photon index alpha = -1.12 (-0.18,+0.34),
+the high energy photon index beta = -2.45 (-0.46,+0.26),
+the peak energy Ep = 175 (-42,+34) keV,
+chi2 = 104/96 dof.
+
+As observed by Konus-Wind, the burst had
+a fluence of (7.0 ± 0.9)x10^-5 erg/cm^2 and
+a 64-ms peak energy flux, measured from T0+2.304,
+of (5.2 ± 0.9)x10^-6 erg/cm^2/s (both in the 20 keV - 10 MeV energy range).
+
+Assuming the redshift z=1.466 (Izzo et al., GCN 29411)
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the isotropic energy release E_iso to ~3.9x10^53 erg,
+the isotropic luminosity L_iso to ~7.1x10^52 erg/s,
+and the rest-frame peak energy of the time-integrated spectrum Ep,z to ~333 keV.
+With these values, GRB 210204A is within 68% prediction bands
+for both 'Amati' and 'Yonetoku' relations for the sample of >300 long KW GRBs
+with known redshifts (Tsvetkova et al., ApJ, in press),
+see http://www.ioffe.ru/LEA/GRBs/GRB210204_T23570/GRB210204A_rest_frame.pdf
+
+
+All the quoted errors are estimated at the 90% confidence level.
+All the presented results are preliminary.
+

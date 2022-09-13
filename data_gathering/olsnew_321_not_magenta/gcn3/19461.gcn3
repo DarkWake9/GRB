@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19461
+SUBJECT: GRB 160525A: Swift-BAT refined analysis
+DATE:    16/05/25 12:09:38 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. N. Ukwatta (LANL), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+903 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 160525A (trigger #687492)
+(Stamatikos, et al., GCN Circ. 19458).  The BAT ground-calculated position is
+RA, Dec = 103.575, -0.199 deg, which is 
+   RA(J2000)  =  06h 54m 17.9s 
+   Dec(J2000) = -00d 11' 55.6" 
+with an uncertainty of 3.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 98%.
+ 
+The mask-weighted light curve shows a weak peak starting at ~T+5 sec and
+ending at ~T+65 sec.
+ 
+The time-averaged spectrum from T+0.00 to T+64.00 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.58 +- 0.54.  The fluence in the 15-150 keV band is 1.9 +- 0.7 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.00 sec in the 15-150 keV band
+is 0.06 +- 0.02 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+Given the low significance of the peak in the image domain (5.2 sigma)
+in the ground analysis and the lack of XRT data (Sun constrained),
+it is not possible to know with certainty if this is a GRB, but it seems likely.
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/687492/BA/
+

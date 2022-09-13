@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7420
+SUBJECT: Swift trigger 306323: Swift-BAT/XRT refined analysis
+DATE:    08/03/15 21:12:22 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+S. D. Barthelmy (GSFC), D. N. Burrows (PSU), J. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC/UMD),
+K. L. Page (U Leicester), D. Palmer (LANL)
+
+After analysis of the data from the Swift BAT and XRT instruments, the 
+Swift team is unable to conclude whether or not trigger is a real but 
+faint burst or a statistical fluctuation.  The source is detected at 7.1 
+sigma in the BAT 15-50 keV energy band.  However, no bright source was 
+found in the XRT data.
+
+Using the data set from T-239 to T+303 sec from recent telemetry 
+downlinks, we report further analysis of trigger 306323 (reported as GRB 
+080315, Page, et al., GCN Circ. 7416).
+
+The BAT ground-calculated position is
+RA, Dec = 155.124 +41.701 deg which is
+    RA(J2000)  =  10h 20m 29.8s
+    Dec(J2000) = +41d 42' 3.6"
+with an uncertainty of 3.3 arcmin, (radius, sys+stat, 90% containment).
+The image significance at this location is 7.1 sigma. The partial coding 
+was 98%.
+
+The mask-weighted light curve shows a a single smooth bump starting at 
+~T-5 sec and and ending at ~T+65 sec.  It appears only in the 15-50 keV 
+band. T90 (15-350 keV) is 65 +- 5 sec (estimated error including 
+systematics).
+
+The time-averaged spectrum from T+0.0 to T+64.0 sec is best fit by a 
+simple power-law model.  The power law index of the time-averaged 
+spectrum is 2.51 +- 0.59.  The fluence in the 15-150 keV band is 1.4 +- 
+0.5 x 10-7 erg/cm2. The 1-sec peak photon flux measured from T+0.00 sec 
+in the 15-150 keV band is 0.04 +- 0.01 ph/cm2/sec.  All the quoted 
+errors are at the 90% confidence level.
+
+In 20 ks of XRT Photon Counting mode data, a weak source is detected 
+within the BAT error circle at a count rate of (9.5 ± 3.0) X 10-4 
+count/s. The coordinates of this source are RA, Dec (J2000) = 155.0856, 
++41.6847, which is equivalent to
+    RA  =  10 20 20.55
+    Dec = +41 41 04.8
+with an estimated uncertainty of 5 arcsec (90% containment). It is not
+possible to determine whether this source is fading because of the 
+limited statistics. With the exception of this source, the 3-sigma upper 
+limit within the BAT error circle is 5.9 X 10-4 count/s.
+
+It is unusual, but not unprecedented for there to be no XRT detection of 
+a Swift source.  Among the BAT triggers of long GRBs with prompt slews, 
+XRT sees a source approximately 97% of the time.  Given the XRT 
+non-detection and the faintness of the BAT source, we cannot tell 
+whether this trigger is a statistical fluctuation or a real burst.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/306323/BA/
+

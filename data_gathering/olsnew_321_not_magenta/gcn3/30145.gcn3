@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30145
+SUBJECT: Konus-Wind detection of GRB 210602A
+DATE:    21/06/07 15:08:45 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, A.Lysenko, D. Svinkin,
+A. Ridnaya, A. Tsvetkova,  M. Ulanov, and T. Cline, report:
+
+The bright GRB 210602A (MAXI/GSC detection: Serino et al., GCN 30113;
+CALET Gamma-Ray Burst Monitor detection: Pal'shin et al., GCN 30117)
+triggered Konus-Wind (KW) at T0=43439.748 s UT (12:03:59.748).
+
+The burst light curve shows a single pulse which starts at ~T0-0.5 s,
+peaks at ~T0+0.512 s, and has the total duration of ~3.1 s (T100, 20-1500 keV).
+The emission is seen up to ~2 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB210602_T43439/
+
+As observed by Konus-Wind, the burst had
+a fluence of (6.3 ± 0.6)x10^-6 erg/cm^2 and
+a 64-ms peak energy flux, measured from T0+0.384,
+of (9.5 ± 1.0)x10^-6 erg/cm^2/s (both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst (measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 15 MeV range
+by a power law with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.25(-0.23,+0.26) and Ep = 188(-33,+58) keV (chi2 = 75/97 dof).
+Fitting this spectrum by a Band function yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.2 (chi2 = 75/96 dof).
+
+All the quoted errors are estimated at the 90% confidence level.
+All the presented results are preliminary.
+

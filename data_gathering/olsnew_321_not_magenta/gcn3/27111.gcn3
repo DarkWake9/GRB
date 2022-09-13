@@ -1,0 +1,20 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27111
+SUBJECT: LIGO/Virgo S200213t: AstroSat CZTI upper limits
+DATE:    20/02/17 04:42:43 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+V. Shenoy (IITB), Aarthy E. (PRL), V. Bhalerao (IITB), D. Bhattacharya (IUCAA), A. R. Rao (TIFR), S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+We have carried a search for X-ray candidates in Astrosat CZTI data in a 100 sec window around the trigger time of the BNS Merger event S200213t (UTC 2020-02-13 04:10:40, GraceDB event). We use the LALInference.fits.gz,0 map (GCN 27096, https://gracedb.ligo.org/api/superevents/S200213t/files/LALInference.fits.gz,0) for our analysis. CZTI is a coded aperture mask instrument that has considerable effective area for about 29% of the entire sky, but is also sensitive to brighter transients from the entire sky. At the time of the merger, Astrosat's nominal pointing is RA,DEC = 04:39:16.2, -68:07:29.9 (69.8175,-68.1250), which is ~130 deg away from the maximum probability location. At the time of the merger event, the Earth-satellite-transient angle corresponding to maximum probability location is ~88 deg and hence is not occulted by Earth in satellite's frame. In a time interval of 100 sec around the event, the region of the localisation map which is not occulted by Earth in the satellite's frame has a cumulative probability of 0.97 (97%).
+
+CZTI data were de-trended to remove orbit-wise background variation. We then searched data from the four independent, identical quadrants to look for coincident spikes in the count rates. Searches were undertaken by binning the data in 0.1s, 1s, and 10s respectively. Statistical fluctuations in background count rates were estimated by using data from 10 (+-5) neighbouring orbits. We selected confidence levels such that the probability of a false trigger in a 1000 sec window is 10^-4. We do not find any evidence for any hard X-ray transient in this window, in the CZTI energy range of 20-200 keV.
+
+We use a detailed mass model of the satellite to calculate the direction-dependent instrument response for points in the visible sky. We then assume the source is modelled as a power law with photon index alpha = -1, and convert our count rate upper limits to direction-dependent flux limits. We obtain the following upper limits for source flux in the 20-200 keV band by taking a probability weighted mean over the visible sky:
+
+0.1 s: flux limit= 9.77e-06 ergs/cm^2/s; fluence limit = 9.77e-07 ergs/cm^2
+1.0 s: flux limit= 3.22e-06 ergs/cm^2/s; fluence limit = 3.22e-06 ergs/cm^2
+10.0 s: flux limit= 4.15e-07 ergs/cm^2/s; fluence limit = 4.15e-06 ergs/cm^2
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, ISAC, IUCAA, SAC and PRL. The Indian Space Research Organisation funded, managed and facilitated the project.
+

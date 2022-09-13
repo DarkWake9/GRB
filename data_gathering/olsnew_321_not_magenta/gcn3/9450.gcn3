@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9450
+SUBJECT: GRB090530: Swift/UVOT afterglow detection
+DATE:    09/05/30 17:08:39 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL-UCL) and J. K. Cannizzo (NASA/UMBC) report on behalf of 
+the Swift UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 090530 158s 
+after the BAT trigger (Cannizzo et al., GCN Circ. 9438) and a decaying 
+source is detected in all UVOT filters within the XRT error circle 
+(Beardmore et al., GCN Circ. 9445), putting an upper limit on the redshift 
+of z < 1.7. The source initially rises, and at around 100s after the BAT 
+trigger decays at a constant rate of 0.73+/-0.03 for the duration of 
+intial UVOT observations, out to ~20ks after the BAT trigger.  The best 
+UVOT position determined from a co-added white band exposure is
+
+RA (J2000)  11:57:40.50   =  179.41873 (deg)
+Dec (J2000) +26:35:38.4   =  +26.59400 (deg)
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence, 
+statistical + systematic), consistent with the ROTSE-IIIb afterglow 
+position (Flewelling et al., GCN Circ. 9439).
+
+The magnitudes for the observations currently available are as follows:
+
+Filter   T_start(s)  T_stop(s)  Exp(s)       Mag
+white       83         233       147    17.43 +/- 0.03
+v           624        644       19     17.69 +/- 0.29
+b           550        570       19     18.60 +/- 0.27
+u           295        545       246    17.46 +/- 0.05
+uvw1        5735       5935      197    20.15 +/- 0.37
+uvm2        5530       11687     1082   20.31 +/- 0.22
+uvw2        5121       17468     1279   21.31 +/- 0.32
+
+The values quoted above are not corrected for the Galactic extinction due 
+to the reddening of E(B-V) = 0.02 in the direction of the burst (Schlegel 
+et al. 1998). The photometry is on the UVOT photometric system described 
+in Poole et al. (2008, MNRAS, 383, 627).
+
+
+

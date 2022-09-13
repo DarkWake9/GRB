@@ -1,0 +1,196 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27238
+SUBJECT: LIGO/Virgo S200224ca : No significant candidates in TAROT - FRAM - GRANDMA observations
+DATE:    20/02/27 13:17:57 GMT
+FROM:    Tatyana Sadibekova at AIM-CEA Saclay  <tatyana.sadibekova@cea.fr>
+
+T. Sadibekova (AIM-CEA), H. Crisp (OzGrav-UWA), P. Hello (IJCLab),
+Z. Vidadi (SHAO),  (FZU), M. Boer (Artemis), N. Christensen (Artemis),
+L. Eymar (Artemis), S. Karpov (FZU), A. Klotz (IRAP), M. Masek (FZU),
+K. Noysena (Artemis, IRAP), S. Antier (APC), A. Coleiro (APC), D. Corre 
+(IJCLab), M. Coughlin (UMN), D. Coward (OzGrav-UWA), J.G. Ducoin 
+(IJCLab), B. Gendre (OzGrav-UWA), D. A. Kann (HETH/IAA-CSIC), 
+N. Kochiashvili (Iliauni), C. Lachaud (APC), N. Leroy (IJCLab),
+C. Thoene (HETH/IAA-CSIC), D. Turpin (AIM-CEA), X. Wang (THU)
+
+report on behalf of the FRAM, TAROT and GRANDMA collaborations.
+
+We performed tiled observations of LIGO/Virgo S200224ca event with the
+FRAM-Auger, FRAM-CTA-N, TAROT-Calern (TCA), TAROT-Chili (TCH), TAROT-
+Reunion (TRE) telescopes.
+
+FRAM-Auger is located at Pierre Auger Observatory. FRAM-CTA-N is 
+located at Observatorio del Roque de los Muchachos. TCA is located at 
+Calern site at the Cote d'Azur observatory. TCH is located at La Silla
+ESO observatory (LaS/ESO). TRE is located at Les Makes astronomical 
+observatory. 
+
+The following table shows for each telescope: the delay in minutes 
+from the trigger, which filter is used, the field of view of the 
+telescope in degrees and the typical limiting magnitude (AB mag) for a
+given exposure in seconds (s).
+
++-------------+---------+----------+-------------+------------+
+| Telescope   | Delay   | Filter   | f.o.v.      | Limiting   |
+|             | [min]   |          | [deg]       | Mag.       |
+|-------------+---------+----------+-------------+------------|
+| FRAM-Auger  | 415     | R        | 1.0 x 1.0   | 18.0 (60s) |
+| FRAM-CTA-N  | 20      | R        | 0.45 x 0.45 | 17.0 (90s) |
+| TCA         | 15      | Clear    | 1.9 x 1.9   | 18.0 (60s) |
+| TCH         | 301     | Clear    | 1.9 x 1.9   | 18.0 (60s) |
+| TRE         | 47      | Clear    | 4.2 x 4.2   | 17.0 (60s) |
++-------------+---------+----------+-------------+------------+
+
+We performed the following joint tiled observations [1] :
+
++-------------+------------+------------+---------+---------+---------+
+| Telescope   | TStart     | TEnd       | RA      | DEC     | Proba   |
+|             | [UTC]      | [UTC]      | [deg]   | [deg]   | [%]     |
+|-------------+------------+------------+---------+---------+---------|
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 175.082 | -9.243  | 3.7     |
+|             | 05:16:43   | 05:21:10   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 175.562 | -10.216 | 3.7     |
+|             | 05:21:47   | 05:26:13   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 175.055 | -11.189 | 4.0     |
+|             | 05:26:48   | 05:31:15   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 174.575 | -10.216 | 3.9     |
+|             | 05:31:51   | 05:36:18   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 174.605 | -8.270  | 3.4     |
+|             | 05:36:54   | 05:41:21   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 176.044 | -11.189 | 3.4     |
+|             | 05:42:12   | 05:46:39   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 174.098 | -9.243  | 3.5     |
+|             | 05:47:13   | 05:51:40   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 176.022 | -12.162 | 3.2     |
+|             | 05:52:18   | 05:56:45   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 174.130 | -7.297  | 2.8     |
+|             | 05:57:20   | 06:01:47   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 173.624 | -8.270  | 3.0     |
+|             | 06:02:25   | 06:06:51   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 175.028 | -12.162 | 2.7     |
+|             | 06:20:49   | 06:30:32   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 176.066 | -9.243  | 2.1     |
+|             | 06:31:07   | 06:35:34   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 175.586 | -8.270  | 2.0     |
+|             | 06:36:08   | 06:40:35   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 173.152 | -7.297  | 2.2     |
+|             | 06:41:12   | 06:45:39   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 176.510 | -13.135 | 2.3     |
+|             | 06:46:17   | 06:50:44   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 174.130 | -6.324  | 1.9     |
+|             | 06:51:22   | 06:55:49   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 176.548 | -10.216 | 1.9     |
+|             | 06:56:25   | 07:00:52   |         |         |         |
+| FRAM-Auger  | 2020-02-25 | 2020-02-25 | 174.066 | -11.189 | 2.2     |
+|             | 07:01:27   | 07:05:54   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.905 | -9.823  | 0.9     |
+|             | 22:41:52   | 22:45:58   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 175.336 | -10.260 | 0.9     |
+|             | 22:46:12   | 22:50:18   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.690 | -9.387  | 0.9     |
+|             | 22:50:32   | 22:54:38   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 175.348 | -9.823  | 0.9     |
+|             | 22:54:52   | 22:58:58   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.779 | -10.260 | 0.9     |
+|             | 22:59:11   | 23:03:17   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 175.553 | -10.697 | 0.9     |
+|             | 23:03:32   | 23:07:38   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.995 | -10.697 | 0.9     |
+|             | 23:07:51   | 23:11:57   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 175.212 | -11.134 | 0.9     |
+|             | 23:12:16   | 23:16:22   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 175.657 | -11.134 | 0.9     |
+|             | 23:16:42   | 23:20:48   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.461 | -9.823  | 0.9     |
+|             | 23:21:03   | 23:25:09   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.591 | -8.513  | 0.8     |
+|             | 23:25:28   | 23:29:35   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.247 | -9.387  | 0.8     |
+|             | 23:34:14   | 23:38:20   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 175.133 | -9.387  | 0.8     |
+|             | 23:38:34   | 23:42:40   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.693 | -8.950  | 0.7     |
+|             | 23:43:00   | 23:47:06   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 175.429 | -11.571 | 0.8     |
+|             | 23:47:27   | 23:51:33   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-24 | 174.149 | -8.513  | 0.8     |
+|             | 23:51:53   | 23:55:59   |         |         |         |
+| FRAM-CTA-N  | 2020-02-24 | 2020-02-25 | 175.875 | -11.571 | 0.8     |
+|             | 23:56:15   | 00:00:21   |         |         |         |
+| FRAM-CTA-N  | 2020-02-25 | 2020-02-25 | 174.377 | -8.076  | 0.7     |
+|             | 00:00:51   | 00:04:57   |         |         |         |
+| FRAM-CTA-N  | 2020-02-25 | 2020-02-25 | 175.135 | -8.950  | 0.7     |
+|             | 00:05:11   | 00:09:17   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| TCA         | 2020-02-24 | 2020-02-27 | 170.656 | -8.825  | 0.3     |
+|             | 22:37:11   | 00:35:59   |         |         |         |
+| TCA         | 2020-02-24 | 2020-02-27 | 172.453 | -13.012 | 0.2     |
+|             | 22:49:55   | 00:42:44   |         |         |         |
+| TCA         | 2020-02-24 | 2020-02-26 | 179.075 | -11.156 | 0.2     |
+|             | 22:56:39   | 22:19:30   |         |         |         |
+| TCA         | 2020-02-25 | 2020-02-25 | 172.642 | 0.022   | 0.2     |
+|             | 00:53:10   | 20:59:30   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| TCH         | 2020-02-25 | 2020-02-25 | 174.965 | -10.000 | 13.6    |
+|             | 03:23:32   | 08:29:47   |         |         |         |
+| TCH         | 2020-02-25 | 2020-02-26 | 173.064 | -11.343 | 2.5     |
+|             | 03:34:04   | 09:42:58   |         |         |         |
+| TCH         | 2020-02-25 | 2020-02-26 | 171.384 | -0.909  | 0.8     |
+|             | 03:49:52   | 07:25:08   |         |         |         |
+| TCH         | 2020-02-25 | 2020-02-27 | 178.600 | -14.505 | 1.0     |
+|             | 08:38:18   | 00:42:33   |         |         |         |
+| TCH         | 2020-02-25 | 2020-02-26 | 178.619 | -12.686 | 0.9     |
+|             | 08:44:37   | 09:45:10   |         |         |         |
+| TCH         | 2020-02-25 | 2020-02-26 | 170.827 | -7.232  | 0.7     |
+|             | 08:58:03   | 09:21:08   |         |         |         |
+| TCH         | 2020-02-26 | 2020-02-26 | 174.143 | -1.777  | 0.2     |
+|             | 00:53:49   | 08:47:05   |         |         |         |
+| TCH         | 2020-02-26 | 2020-02-26 | 174.618 | -3.595  | 0.7     |
+|             | 02:41:32   | 09:19:02   |         |         |         |
+| TCH         | 2020-02-26 | 2020-02-26 | 175.020 | -5.414  | 2.1     |
+|             | 04:16:46   | 07:04:56   |         |         |         |
+| -----       | -----      | -----      | -----   | -----   | -----   |
+| TRE         | 2020-02-24 | 2020-02-26 | 175.909 | -4.091  | 3.0     |
+|             | 23:08:49   | 00:02:00   |         |         |         |
+| TRE         | 2020-02-25 | 2020-02-25 | 175.814 | -12.273 | 33.5    |
+|             | 18:30:11   | 18:36:33   |         |         |         |
+| TRE         | 2020-02-25 | 2020-02-26 | 173.793 | -8.182  | 36.5    |
+|             | 23:23:32   | 01:06:18   |         |         |         |
+| TRE         | 2020-02-25 | 2020-02-26 | 171.818 | -4.091  | 9.7     |
+|             | 23:36:44   | 19:42:42   |         |         |         |
+| TRE         | 2020-02-26 | 2020-02-26 | 177.931 | -8.182  | 5.3     |
+|             | 01:18:59   | 01:25:16   |         |         |         |
+| TRE         | 2020-02-26 | 2020-02-26 | 175.714 | -16.364 | 4.1     |
+|             | 19:49:32   | 19:55:54   |         |         |         |
++-------------+------------+------------+---------+---------+---------+
+
+TStart and TEnd refers respectively to the time of the first and last 
+exposure for a given tile. Observations are not necessarily continuous
+in this interval.
+The Probability refers to the 2D spatial probability of the GW skymap 
+enclosed in a given tile.
+
+These observations cover about 93.3% of the cumulative probability of 
+the BAYESTAR skymap created on 2020-02-24 22:23:22 (UTC).
+
+
+The coverage map is available at: 
+https://grandma-
+owncloud.lal.in2p3.fr/index.php/s/XgtMhPRxcyL09gR/download?path=%2F&files=GRANDMA_S200224ca_1582797966.svg
+
+No significant transient candidates were found during our low latency 
+analysis [2,3].
+
+GRANDMA (Global Rapid Advanced Network Devoted to the Multi-messenger 
+Addicts) is a network of robotic telescopes connected all over the 
+world with both photometry and spectrometry capabilities for Time-
+domain Astronomy [2](https://grandma.lal.in2p3.fr/).
+
+Details on the different telescopes are available on the GRANDMA web 
+pages.
+
+[1] M. W Coughlin et al., MNRAS 2019, https://doi.org/10.1093/mnras/stz2485
+[2] S. Antier et al., MNRAS 2019, https://doi.org/10.1093/mnras/stz3142
+[3] K. Noysena et al., ApJ 2019, arXiv:1910.02770
+

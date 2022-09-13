@@ -1,0 +1,68 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2936
+SUBJECT: SGR 1806-20, RHESSI observations of the 041227 giant flare
+DATE:    05/01/05 18:54:11 GMT
+FROM:    Steven E. Boggs at UCB/SSL  <boggs@ssl.berkeley.edu>
+
+S. Boggs (UCB), K. Hurley (UCB), D.M. Smith (UCSC), R.P. Lin (UCB),
+G. Hurford (UCB), W. Hajdas (PSI), C. Wigger (PSI)
+
+RHESSI observed both the precursor and the giant flare from SGR 1806-20
+in their entirety, staring at 21:28:03.44 UT and 21:30:26.65 UT 
+2004-12-27 respectively. The SGR was 5 degrees from RHESSI's pointing 
+axis which was directed toward the Sun. This placed the SGR outside the 
+normal imaging FOV of the instrument. During the main peak of the flare 
+the RHESSI spectroscopy detectors were saturated for ~0.5s after the 
+rise, but observed the decay of the main peak and the 400-s long 
+oscillatory component.
+
+While the main RHESSI spectroscopy detectors (9 segmented germanium
+detectors operating from 3 keV to 15 MeV) were saturated during the
+peak, the RHESSI particle detector (used for detecting SAA passages)
+was able to measure the incident flux with 0.125-s time resolution
+in two energy channels determined by thresholds in the electronics:
+>65 keV, and >650 keV. These data indicate significant emission above
+650 keV for ~0.25 s, during the giant flare, and softening of the giant
+peak during its evolution. In addition, even though the RHESSI 
+spectroscopy detectors are saturated during the giant peak, we can use
+the reset rates of the preamplifiers to constrain the rise and fall 
+times of the giant peak to <1 ms and ~65 ms respectively.
+
+The particle detector data and the spectroscopy detector reset rates
+allow us to set conservative lower limits to the total fluence of the
+primary giant peak: >0.1 erg/cm^2 and >0.3 erg/cm^2 respectively. This
+fluence is >1-2 orders of magnitude higher than the 1998 flare of
+SGR 1900+14, which had a fluence of 7e-3 erg/cm^2 (Hurley et al.,
+Nature 397, 41, 1999). Assuming a distance of ~15 kpc for SGR 1806-20
+(Corbel & Eikenberry, A&A 419, 191,2004) and isotropic emission, we
+derive a lower limit on the total hard X-ray/gamma-ray energy released
+in the giant peak to be >8e45 erg. We note that given BATSE's 
+sensitivity of <1e-8 erg/cm^2, this type of giant flare would have been 
+detectable by BATSE (as a short, hard GRB) out to >80 Mpc.
+
+When they came out of saturation during the giant peak, the RHESSI
+spectroscopy detectors were measuring a peak count rate of
+~280,000 cnt/s. After the giant peak, RHESSI recorded a series of 51 
+pulsations with a period of 7.56 s, similar to the INTEGRAL, KONUS, and 
+Swift-BAT observations (Borkowski et al., GCN 2920; Mazets et al., GCN 
+2922; Palmer et al., GCN #2925). The pulse profile shows evidence for 
+both spectral variations throughout the pulse, and evolution of the 
+pulse shapes throughout the decay. The average 20-100 keV pulse profile 
+shows 3-4 peaks in its structure. During this decay phase, the average 
+20-100 keV flux is well modeled by the trapped fireball model of 
+Thompson & Duncan (ApJ 561, 980, 2001), with an evaporation time 
+t_evap=382 s, and index a=0.606, where flux ~ (1-t/t_evap)^(a/1-a). 
+Preliminary lightcurves show indications of significant spectral 
+softening during the 400-s oscillatory decay.
+
+RHESSI observed the precursor during 21:28:03.44-21:28:04.49 UT, with a 
+peak count rate in the spectroscopy detectors of ~30,000 cnt/s, and 
+~25,000 counts total. The profile is square, as reported by Swift-BAT 
+(Palmer et al., GCN #2925), with emission extending up to 150 keV. We 
+see a rise time for the precursor <50 ms, and a fall time <100 ms.
+
+Results of this analysis will be posted as they come available at:
+http://www.ssl.berkeley.edu/ipn3/041227
+
+
+

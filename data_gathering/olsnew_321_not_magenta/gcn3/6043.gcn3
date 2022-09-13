@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6043
+SUBJECT: GRB 070124: Suzaku WAM observation of the prompt emissions
+DATE:    07/01/27 13:38:03 GMT
+FROM:    Kazutaka Yamaoka at Aoyama Gakuin U  <yamaoka@phys.aoyama.ac.jp>
+
+K. Yamaoka, S. Sugita (Aoyama Gakuin U.), M. Ohno, T. Takahashi, 
+T. Asano, T. Uehara, Y. Fukazawa (Hiroshima U.), Y. Urata, M. Tashiro, 
+K. Abe, K. Onda, Y. Sato, M. Suzuki (Saitama U.), T. Enoto, R. Miyawaki, 
+K. Makishima (Univ. of Tokyo), M. Suzuki, T. Tamagawa, Y. Terada (RIKEN), 
+K. Nakazawa, M. Kokubun, T. Takahashi (ISAS/JAXA), S. Hong (Nihon U.), 
+E. Sonoda, M. Yamauchi (Miyazaki U.), 
+on behalf of the Suzaku WAM team report:
+
+The IPN-localized short GRB 070124 (Hurley et al., GCN 6022) triggered 
+the Suzaku Wide-band All-sky Monitor (WAM), which covers the energy range 
+of 50 keV - 5 MeV, at 08:41:51.035 UT(=T0). 
+The light curve shows two separate pulses with a total duration of 
+about 0.8 seconds. The fluence in 100 - 2000 keV was 
+3.1(-1.3, +0.4) x 10^-6 erg/cm2, while the 1-s peak flux measured from 
+T0 was 3.4(-0.8, +0.3) photons/cm2/s in the same energy range.
+
+The time-averaged spectrum from T0 sec to T0+2 sec is well fitted
+by a cutoff power law model. 
+
+  dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak)
+  alpha       -0.19 (-0.81 +0.64), and
+  Epeak         686 (-117, +197) keV.
+
+All the quoted errors are at statistical 90% confidence level, while
+systematic errors are not included. 
+
+The WAM light curve of this event is available at
+http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/grb_table.html.
+

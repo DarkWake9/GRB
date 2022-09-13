@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9821
+SUBJECT: GRB 090812: Konus-Wind and Swift/BAT joint spectral analysis
+DATE:    09/08/17 15:28:46 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+V. Pal'shin, S. Golenetskii, R.Aptekar, E. Mazets, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team,
+
+T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC),
+W. Baumgartner (GSFC/UMBC), A. P. Beardmore (U Leicester),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+D. Palmer (LANL), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), and T. Ukwatta (GWU)
+
+report:
+
+The most intense pulse of the long GRB 090812 (Swift/BAT trigger
+#359711: Stamatikos et al., GCN Circ. 9768, Baumgartner et al. GCN Circ. 
+9775) triggered Konus-Wind at T0(KW)=21758.942 s UT (06:02:38.942).
+Since the Konus-Wind trigger record misses the early weaker part of this 
+GRB, we have only Konus-Wind 3-channel spectral data for the whole burst 
+which cover the energy range from 23 keV to 1.4 MeV.
+We performed the Konus-Wind and Swift/BAT joint spectral analysis of
+this GRB to derive the broad-band spectral and energetic parameters of
+this burst.
+
+The time interval of the spectral data is chosen from
+T0(BAT)-6.7 to T0(BAT)+58.1 sec where T0(BAT) is the trigger time
+of BAT at 06:02:08.897 UTC.  The energy ranges which we used in the
+joint spectral analysis are 23-1400 keV and 15-150 keV for the
+Konus-Wind and the Swift/BAT respectively.  The spectral data of two
+instruments are fitted with the spectral model multiplied by the
+constant factor to take into account the systematic effective area
+uncertainties in the response matrices of each instrument.
+
+The spectrum is well fitted with a power-law with exponential cutoff
+model: dN/dE ~ E^{alpha}*exp(-(2+alpha)*E/Epeak). The constant factors
+of each instrument agree within 15%.  No systematic residual from the
+best fit model is seen in the spectral data of each instrument.  The
+best fit spectral parameters are: alpha = -1.03(-0.06, +0.07) and Epeak
+= 586(-152, +243) keV (chi2/dof = 59.3/57).  The best fit spectral
+parameters for the GRB (Band) model fixing beta = -2.5 are:
+alpha = -1.03 +/- 0.07, and Epeak = 572(-159, +251) keV (chi2/dof = 
+59.6/57). The energy fluence in the 15-1400 keV band calculated by a 
+power-law with exponential cutoff model for this 64.8 sec interval is 
+(2.61 +/- 0.34)x10^-5 erg/cm2 (assuming the constant factor of the 
+Konus-Wind is fixed to 1).
+
+Assuming z = 2.452 (de Ugarte Postigo et al. GCN Circ. 9771) and a
+standard cosmology model with H_0 = 71 km/s/Mpc, Omega_M = 0.27,
+Omega_Lambda = 0.73, the isotropic energy release is E_iso = 4.4 (-0.6,
++0.7)x10^53 erg in 1 keV to 10 MeV at the GRB rest frame extrapolating
+the best Band function fit fixing beta = -2.5, and the rest frame peak 
+energy is Epeak_rest = 2.0(-0.5, +0.9) MeV.
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB090812_T21758/
+

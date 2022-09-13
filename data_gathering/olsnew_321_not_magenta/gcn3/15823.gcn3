@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15823
+SUBJECT: Trigger 586482: Swift detection of GROJ1744-28
+DATE:    14/02/12 17:49:22 GMT
+FROM:    Jamie A. Kennea at PSU/Swift-XRT  <kennea@swift.psu.edu>
+
+S. D. Barthelmy (GSFC), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), S. T. Holland (STScI) and J. A. Kennea (PSU)
+report on behalf of the Swift Team:
+
+At 17:36:08 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GROJ1744-28 (trigger=586482).  Swift was already on this source from
+the previous trigger.  The BAT on-board calculated location is 
+RA, Dec 266.107, -28.743, which is 
+   RA(J2000)  =  17h 44m 26s
+   Dec(J2000) = -28d 44' 33"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single FRED-shaped pulse
+with a duration of about 15 sec.  The peak count rate
+was ~1800 counts/sec (15-350 keV), at ~2 sec after the trigger. 
+
+The XRT began observing the field at 17:36:35.0 UT, 27.0 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+266.1382, -28.7407 which is equivalent to:
+   RA(J2000)  = +17h 44m 33.17s
+   Dec(J2000) = -28d 44' 26.5"
+with an uncertainty of 5.2 arcseconds (radius, 90% containment). This
+location is 98 arcseconds from the BAT onboard position, within the BAT
+error circle. This position is 1.0 arcseconds from GRO J1744-28. 
+No event data are yet available to determine the column density using
+X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.92e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+This is the 3rd BAT trigger on GRO J1744-28 in the past 24 hours, the 
+first was reported by Linares et al. (ATEL #5883). The 2nd trigger  
+occurred 17:15:32UT (trigger=586480), which was an image trigger and 
+it is not clear if that trigger was caused by a burst or simply the 
+brightness of the persistent flux. The current trigger is a rate
+trigger and was caused by a flare. The source is showing rapid
+bursting activity currently. BAT has triggered on GRO J1744 two
+previous times since the latest outburst began, on 2014 January 19 
+20:11UT and 2014 January 23 09:00UT. 
+

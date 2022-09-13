@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19499
+SUBJECT: Trigger 689353: Swift detection of a transient near Sgr A*
+DATE:    16/06/06 13:25:59 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), P.A. Evans (U Leicester), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), A. Y. Lien (GSFC/UMBC),
+B. Mingo (U Leicester), K. L. Page (U Leicester), D. M. Palmer (LANL)
+and T. N. Ukwatta (LANL) report on behalf of the Swift Team:
+
+At 12:37:43 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a source near Sgr A* (trigger=689353).  Swift slewed immediately
+to the source.  The BAT on-board calculated location is 
+RA, Dec 266.411, -29.007, which is 
+   RA(J2000)  =  17h 45m 39s
+   Dec(J2000) = -29d 00' 25"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for image triggers, the real-time
+TDRSS light curve does not show anything significant. 
+
+The XRT began observing the field at 12:44:50.6 UT, 427.1 seconds after
+the BAT trigger. Using promptly downlinked data we find two X-rays sources
+very close to each other. The approximate positions of the sources are:
+
+Source 1:
+   RA(J2000)  = 17h 45m 40.29s  = 266.41787
+   Dec(J2000) = -29d 00' 41.18" = -29.01144
+
+Source 2:
+   RA(J2000)  = 17h 45m 40.65s  = 266.41938
+   Dec(J2000) = -29d 00' 13.58" = -29.00377
+
+Typical uncertainties are around 5 arcsec (radius, 90% containment
+however as these sources are partially blended the uncertainties
+may be slightly higher. These source both correspond to known
+transients. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 429 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+This BAT Transient is consistent with the location of several   
+transient sources in the Galactic Center, as well as the location of  
+Sgr A*. Most recently a new transient has been reported in the   
+Galactic Center, Swift J174540.2-290037 (ATEL #9109), which lies 24   
+arcseconds from the BAT position. The sources found in the XRT SPER
+correspond to this source, and also AX J1745.6-2901 (ATEL #5222, #5226). 
+As the Galactic Center is a dense region, we cannot rule out that
+the BAT trigger is from another transient, however, Swift J174540.2-290037
+is the brightest source seen in prompt XRT data taken after the BAT trigger,
+and has been rising in brightness since its initial detection by
+Swift. 
+

@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21411
+SUBJECT: GRB 170803A: Swift/UVOT Detection
+DATE:    17/08/04 13:04:24 GMT
+FROM:    Sam Emery at MSSL-UCL  <samuel.emery.15@ucl.ac.uk>
+
+S.W.K. Emery (UCL-MSSL) and S. J. LaPorte (PSU)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 170803A
+88 s after the BAT trigger (LaPorte et al., GCN Circ. 21405).
+GRB 170803A was also triggered by Fermi GBM
+(Veres and Meegan GCN Circ. 21406)
+A fading source consistent with the XRT position
+(Beardmore et al., GCN Circ. 21407)
+is detected in the initial UVOT exposures.
+
+The preliminary UVOT position is:
+    RA  (J2000) =  11:39:44.11 = 174.93380 (deg.)
+    Dec (J2000) = -16:18:38.0  = -16.31055 (deg.)
+with an estimated uncertainty of 0.44 arc sec. (radius, 90% confidence).
+
+Preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first
+finding chart (FC) exposure and subsequent exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white_FC            88          238          147         18.10 +/- 0.06
+white              580         2241          322         19.69 +/- 0.12
+u_FC               300          550          246         18.58 +/- 0.16
+u                  775         2366          175         >19.34
+b                  556         2386          191         20.02 +/- 0.35
+uvw1              6216        23821          982         >20.74
+uvm2             17025        17715          679         >20.57
+uvw2              5602        30135          990         >21.05
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.04 in the direction of the burst
+(Schlegel et al. 1998).
+

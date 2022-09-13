@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8863
+SUBJECT: Konus-Wind observation of bright burst from AXP/SGR 1E1547.0-5408 on January 29
+DATE:    09/01/30 15:08:43 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, P.
+Oleynik, M. Ulanov and T. Cline, on behalf of the Konus-Wind team,
+report:
+
+A very bright burst from the AXP/SGR 1E1547.0-5408 triggered Konus-Wind 
+at 2009-01-29 T0=33427.224 s UT (09:17:07.224). This burst was localized 
+by Fermi/GBM (trigger 254913432).
+
+Preliminary estimations yields a burst fluence of ~5.1x10^-5 erg/cm2,
+a peak flux on 2ms time scale of ~7.8x10^-4 erg/cm2/s (both in the 
+20-300 keV), and Ep ~95 keV for the time-integrated spectrum.
+
+So, it is the second burst in brightness detected by Konus-Wind from 
+this AXP/SGR after the very bright burst 090125 (Golenetskii et al., GCN 
+8851, 8858).
+
+First two spectra of the burst (accumulated from T0 to T0+0.064s and 
+from T0+0.064s to T0+0.128s) suffers from saturation and pileup effects 
+and can not be accurately analyzed by the standard tools. The spectrum 
+of the less intense part of the burst (accumulated from T0+0.128s to 
+T0+0.256s) is well fitted (in the 20-1000 keV range)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -0.99(-0.39, +0.45),
+and Ep = 43.7 (-7.7, +5.2) keV (chi2 = 25.4/19 dof).
+Since the alpha is ~-1, this spectrum can be also well fitted by OTTB 
+model with kT = 43.7(-3.7, +4.0) keV (chi2 = 25.4/20).
+There is a sign of high energy tail in the spectrum, so fitting by GRB 
+model yields slightly better chi2 and:
+the low-energy photon index is alpha = -0.39(-0.73, +0.34),
+the high energy photon index beta = -3.65(-0.74, +0.34),
+the peak energy Ep = 45.6(-4.6, 3.6) keV (chi2 = 21.1/18 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this burst (affected by pileup in the most 
+intense part) is available at http://www.ioffe.ru/LEA/SGRs/090129_T33427/
+
+Another burst from the AXP/SGR 1E1547.0-5408 triggered Konus-Wind at 
+2009-01-29 T0=50794.800 s UT (14:06:34.800). This burst was imaged by 
+IBIS/ISGRI and also observed by Fermi/GBM (trigger 254930799).
+As observed by Konus-Wind it had a fluence of ~8.4x10^-7 erg/cm2 and a 
+peak flux on 4ms time scale of ~2.8x10^-5 erg/cm2/s (both in the 20-200 
+keV range).
+
+
+

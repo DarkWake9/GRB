@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32220
+SUBJECT: IPN triangulation of GRB 220617A (short)
+DATE:    22/06/18 18:02:34 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the HEND/Mars-Odyssey team,
+
+A. Ridnaia, D. Frederiks, D. Svinkin, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team,
+
+E. Bozzo and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+
+and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, R. Starr,
+and A.S. Gardner on on behalf of the GRS-Odyssey GRB team,
+report:
+
+The short-duration GRB 220617A
+(Fermi-GBM detection: Fermi GBM Team, GCN Circ 32209;
+Fermi-LAT detection: Di Lalla et al., GCN Circ 32212)
+has been detected by Fermi (GBM trigger 677183477),
+INTEGRAL (SPI-ACS), Konus-Wind, and Mars-Odyssey (HEND),
+so far, at about 66669 s UT (18:31:09).
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+---------------------------------------------
+  RA(2000), deg                 Dec(2000), deg
+ ---------------------------------------------
+ Center:
+  156.882 (10h 27m 32s) +15.600 (+15d 36' 01")
+ Corners:
+  157.351 (10h 29m 24s) +16.445 (+16d 26' 41")
+  157.423 (10h 29m 41s) +16.807 (+16d 48' 25")
+  156.369 (10h 25m 29s) +14.606 (+14d 36' 21")
+  156.247 (10h 24m 59s) +14.082 (+14d 04' 54")
+ ---------------------------------------------
+The error box area is 867 sq. arcmin, and its maximum
+dimension is 2.9 deg (the minimum one is 5.8 arcmin).
+The Sun distance was 66 deg.
+
+This box may be improved.
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220617_T66669/IPN
+
+The Fermi-LAT localization was covered by Swift ToO (GCN Circ 32215)
+but none of the X-ray sources detected are inside the box.
+
+The Konus-Wind time history and spectrum will be given in a forthcoming
+GCN Circular.

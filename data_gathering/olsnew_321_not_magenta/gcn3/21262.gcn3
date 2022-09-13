@@ -1,0 +1,75 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21262
+SUBJECT: LIGO/Virgo G288732: Pan-STARRS coverage of the Fermi/LAT candidate position 
+DATE:    17/06/22 16:11:05 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+K. W. Smith, K. C. Chambers (IfA), M. E. Huber (IfA), S. J. Smartt,
+T.-W. Chen (MPE), M. Coughlin (Harvard), D. E. Wright, D. R. Young,
+E. Kankare (QUB), H. Flewelling, T. Lowe, E. A. Magnier,
+A. S. B. Schultz, C. Waters, R. J. Wainscoat, M. Willman
+(IfA),J. Tonry, L. Denneau, A. Heinze, B. Stalder, H. Weiland (IfA),
+C. W. Stubbs (Harvard), A. Rest (STScI),
+
+
+GCN 21227 (Omedi et al.) reported detection of a weak gamma-ray
+candidate with Fermi/lAT at position R.A.,Dec.=128.11, 43.39, (J2000)
+with a localization error of 0.24 degree, which is within the skymap
+of the LIGO GW Binary Merger Candidate G288732 (GCN 21221, Becsy et
+al.), discovered at 2017-06-08 02:01:16.492 UTC (57912.08421866)
+
+We report that we observed the Fermi/LAT postion with the Pan-STARRS1
+telescope (Chambers et al. arXiv:1612.05560). We began taking data at
+2017-06-09T 06:03:40 UT, centered on the Fermi position with a set of
+8 dithered exposures in i and z band filters. The PS1 camera 
+encloses a circle of 2.9 degree diamater, and therefore enclosed the 
+whole of the Fermi/LAT error box. 
+
+Difference images were produced by subtracting the Pan-STARRS1 3Pi
+reference image from these separate exposures and a nightly combined
+stack of the dithers (3Pi data described in Chambers et
+al. arXiv:1612.05560, and available at http://panstarrs.stsci.edu).
+Using techniques discussed in Smartt et al. (2016, MNRAS, 462, 4094),
+we located and vetted transients with quality filters and a machine
+learning algorithm on the difference images.
+
+No fast evolving transients (with variable lightcurves) were found
+during the first night of data (MJD ~ 57913.25 to 57913.30) in the
+individual 240s exposures, with limits of z > 18.5 +/- 0.5 (given the
+airmass range of 1.9 - 2.8 and poor image quality).
+
+Three transients were found in the stacked data covering several 
+nights between 57913 and 57924. However all three are outside the
+error radius of 0.24 degrees from Fermi/LAT. In summary, no possible
+optical counterpart to the Fermi/LAT source is detected to 
+i,z ~ 18.5 (within 24hrs) and i,z ~ 20.5 (daily stacked limits up to 
+5 days after). 
+
+The detected sources are below (where AngSep = angular separation
+from the Fermi/LAT position in degrees)  
+
+Name      RA (J2000)   Dec (J2000)  Disc. MJD  Disc Mag    AngSep 
+PS17diu   08 35 24.13  +44 00 29.5  57913.26    18.82 (z)  0.82
+PS17dit   08 27 39.44  +42 36 36.2  57916.28    20.56 (i)  0.78
+PS17djl   08 30 31.25  +43 55 04.2  57916.29    20.45 (i)  0.63
+
+PS17diu is associated with SDSS J083524.25+440029.3, an r=19.36 mag
+galaxy with a host photoZ=0.083 (+/- 0.038) implying a transient M_i =
+-19.36. The lightcurve is relatively flat over 10 days. This is likely
+an old SN, and this is likely an old SN around peak.
+
+PS17dit is likely associated with 2MASX J08273960+4236311; a 18.50 mag
+galaxy with z=0.151, implying a transient at M = -18.8. The lightcurve
+is flat for 4 days, and this is likely an old SN around peak.
+
+PS17djl is likely associated with SDSS J083031.05+435504.3; an r=19.81
+mag galaxy with A host photoZ=0.217 (+/- 0.051) implying a transient
+at M = -19.7. Again, the lightcurve is flat for 4 days, also
+suggesting this is likely an old SN around peak.
+
+
+
+
+
+
+

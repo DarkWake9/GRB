@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27878
+SUBJECT: GRB 200529A: MITSuME Akeno optical upper limits
+DATE:    20/06/01 06:45:39 GMT
+FROM:    Ogawa Futa at Tokyo Institute of Technology  <ogawa@hp.phys.titech.ac.jp>
+
+F. Ogawa, R. Adachi, R. Hosokawa, M. Niwano, K. L. Murata, N.
+Nakamura, Y. Yatsu, and N. Kawai(TokyoTech) report on behalf of the
+MITSuME collaboration:
+
+We observed the field of GRB 200529A (Fermi GBM team, GCN #27844;
+D'Elia et al. GCN #27845) with the optical three color (g', Rc, and
+Ic) CCD cameras attached to the MITSuME 50 cm telescope of Akeno
+Observatory, Yamanashi, Japan.
+
+The observation started on 10:25:35 UT. The first 47 images were
+heavily affected by the bad weather at Akeno Observatory. We did not
+detect the optical afterglow (Daniele et al., GCN #27846; WeiKang et
+al., GCN #27847; Strausbaugh et al., GCN #27858) in the stacked image.
+We obtained the 5-sigma limits as follows.
+
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+10.3 11:35:06 1140 g'>17.3, Rc>17.1, Ic>16.5
+------------------------------------------------------------------------------------------------
+T0+: Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used UCAC4 catalog for flux calibration. The magnitudes are
+expressed in the AB system. The images were processed in real-time
+through the MITSuME GPU reduction pipeline (Niwano et al., submitted;
+https://github.com/MNiwano/Eclair)
+

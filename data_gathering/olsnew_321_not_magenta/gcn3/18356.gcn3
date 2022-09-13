@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18356
+SUBJECT: Konus-Wind observation of GRB 150919A
+DATE:    15/09/22 20:58:31 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, A. Kozlova,
+and T. Cline on behalf of the Konus-Wind team, report:
+
+The short-duration GRB 150919A
+(IPN triangulation: Hurley et al., GCN Circ. 18355)
+triggered Konus-Wind at T0=74595.399 s UT (20:43:15.399).
+
+The burst light curve shows a single pulse with a duration of ~0.2 s
+followed by a weak emission up to ~1.2 s.
+The emission is seen up to ~2 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB150919_T74595/
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.46(-0.27,+0.33)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0 s,
+of 1.43(-0.44,+0.50)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+0.128 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.61(-0.34,+0.43)
+and Ep = 405(-114,+199) keV (chi2 = 22/25 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta <-1.8
+(chi2 = 21/24 dof)
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

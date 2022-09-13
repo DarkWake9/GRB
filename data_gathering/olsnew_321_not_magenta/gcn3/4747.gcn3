@@ -1,0 +1,36 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4747
+SUBJECT: GRB 060211B:  Swift/BAT refined analysis
+DATE:    06/02/11 23:52:58 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+J. Tueller (GSFC), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/ORAU), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (GSFC/UMD), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/ORAU),
+G. Sato (ISAS), on behalf of the Swift-BAT team:
+
+Using the data set from T-61 to T+122 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 060211
+(trigger #181156)  (Mateos, et al., GCN 4739).  The BAT
+ground-calculated position is (RA,Dec) = 75.076, 14.954  deg
+{5h 0m 18.2s, 14d 57' 14.5"} (J2000) +- 2.0 arcmin, (radius, sys+stat,
+90% containment).  The partial coding was 82%.
+
+The mask-tagged light curve shows a multi-peak structure with possible
+extended emission.  The burst started at T-12 sec with a small peak, then a
+4-sec long peak at T+0 that decays out to ~T+10 sec and low-level
+emission out to T+20 sec.  Additionally, there is a possible 10-sec wide weak
+peak centered on T+100 sec and a possible faint precursor at T-22 sec.
+T90 (15-350 keV) is (29 +- 5) sec (estimated error including systematics).
+Since we do not have data past T+122 sec, we cannot say at this time anything
+about the extended lightcurve.  We expect that it will take at least
+a day to get that data downlinked.
+
+The time-averaged spectrum from T-11.0 to T+21.7 is best fit by
+a simple power-law model. The power law index of the time-averaged spectrum
+is 1.55 +- 0.21. The fluence in the 15-150 keV band is
+(4.7 +- 0.6) x 10^-07 erg/cm2. The 1-sec peak photon flux measured from
+T+1.84 sec in the 15-150 keV band is (0.7 +- 0.1) ph/cm2/sec.
+All the quoted errors are at the 90% confidence level.
+

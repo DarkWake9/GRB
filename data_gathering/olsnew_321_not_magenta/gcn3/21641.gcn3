@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21641
+SUBJECT: LIGO/Virgo G298048: CALET Observations
+DATE:    17/08/22 09:36:51 GMT
+FROM:    Takanori Sakamoto at Aoyama Gakuin U  <tsakamoto@phys.aoyama.ac.jp>
+
+S. Nakahira (RIKEN), A. Yoshida, T. Sakamoto, Y. Kawakubo, M. Moriyama,
+Y. Yamada, A. Tezuka, S. Matsukawa (AGU), K. Yamaoka (Nagoya U),
+I. Takahashi (IPMU), Y. Asaoka, S. Ozawa, S. Torii (Waseda U),
+Y. Shimizu, T. Tamura (Kanagawa U), W. Ishizaki (ICRR), M. L. Cherry (LSU),
+S. Ricciarini (U of Florence), A. V. Penacchioni, P. S. Marrocchesi (U of Siena)
+and the CALET collaboration:
+
+The CALET Gamma-ray Burst Monitor (CGBM) was operating at the trigger time
+of G298048 (The LIGO Scientific Collaboration and the Virgo Collaboration,
+GCN Circ. 21509).  No CGBM on-board trigger occurred at the time
+of the event.  Based on the updated LVC localization sky map
+(preliminary-LALInference.fits.gz), none of the probability area was in the
+field-of-view of the CGBM/HXM.  However, 99% of the summed probability was
+inside the field-of-view of the CGBM/SGM.  The CGBM/SGM boresight position
+(R.A., Dec. = 223.8 deg, 43.4 deg) was 73 deg off-axis from the maximum LVC
+probability location (The LIGO Scientific Collaboration and the Virgo Collaboration,
+GCN Circ. 21527).
+
+Based on the analysis of the light curve data with 0.125 sec time resolution
+from -60 sec to 60 sec from the trigger time, we found no significant excess
+around the trigger time in either the HXM (7-3000 keV) or the SGM (40 keV -28 MeV)
+data.  The incident angle of SGM to the position of SSS17a (Coulter et al.,
+GCN Circ. 21529) was 71 deg.  Assuming the association of GRB 170817A
+(Connaughton et al., GCN Circ. 21506) and SSS17a, we estimated the upper
+limit of the SGM.  The 7-sigma upper limit of SGM using alpha=-0.9 and Epeak=130 keV
+(Goldstein et al., GCN Circ. 21528) is 5.5e-7 erg/cm2/s in the 10-1000 keV band
+at 1 s exposure assuming no shielding by ISS structures.  This estimated upper
+limit is at the similar level to the reported peak flux, 7.3e-7 erg/cm2/s, of
+GRB 170817A by Fermi-GBM.  We further noticed that the position of SSS17a
+was covered by the large structure of ISS at the time of the trigger.  Because
+of this, the SGM sensitivity should be worse than what we reported above.
+Therefore, it is consistent that no signal of GRB 170817A is seen by the SGM data.
+
+The CALET Calorimeter (CAL) was operating in the high energy trigger mode at the
+trigger time of G298048.  However, no LVC high probability region was included
+in the CAL's field of view at the time of the trigger.
+

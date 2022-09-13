@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22044
+SUBJECT: Swift Trigger 781740 is not a burst
+DATE:    17/10/23 09:17:55 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+A. P. Beardmore (U Leicester), A. A. Breeveld (UCL-MSSL),
+P. A. Evans (U Leicester), N. P. M. Kuin (UCL-MSSL),
+A. Y. Lien (GSFC/UMBC) and K. L. Page (U Leicester) report on behalf
+of the Swift Team:
+
+At 08:33:58 UT, the Swift Burst Alert Telescope (BAT) triggered on a marginal
+peak in the image domain in the vicinity of a nearby galaxy (trigger=781740). 
+Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 10.633, +41.165 which is 
+   RA(J2000) = 00h 42m 32s
+   Dec(J2000) = +41d 09' 54"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty). The BAT raw (non mask-weighted) light curve 
+shows some periodic behavior with a ~ 10 s period, and a bright short 
+spike at ~T0. The oscillation in the BAT light curve is caused by 
+Swift J0243.6+6124. The full downloaded dataset will be required to determine 
+whether the short spike at T0 is due to Swift J0243.6+6124, another source, 
+or noise fluctuation. 
+
+The XRT began observing the field at 08:35:13.0 UT, 74.3 seconds after
+the BAT trigger. In 1.17 ks of promptly-downlinked data we find seven X-ray
+sources. One of these appears to be an artefact caused by optical loading,
+the remaining sources are all known X-ray emitters, previously detected
+by Swift-XRT (see http://www.swift.ac.uk/1SXPS/Fields/90000007801/?refSource=1SXPS%20J004232.0%2B411314), 
+and show no evidence for being in outburst. 
+
+This trigger occurred close to the galaxy NGC224 which is a bright
+optical source. Therefore, no UVOT data are available. 
+
+Given that this is a low significance detection in BAT (5.9 sigma) and
+that there is no new source in the XRT data, it is likely that this is merely
+a statistical fluctuation in the image and not an astrophysical
+source, however we are awaiting the full dataset to confirm this. 
+

@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7225
+SUBJECT: A new website of high-level data products for Swift GRBs
+DATE:    08/01/29 00:01:13 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), T. Sakamoto (GSFC/UMBC), P. Evans, J. P. Osborne
+(U. Leicester), N. Gehrels (GSFC)
+on behalf of the Swift team, report:
+
+There is a new website which contains high-level data products
+of GRBs detected Swift-BAT and have follow-up observations by Swift-XRT.
+    http://gcn.gsfc.nasa.gov/gcn/swift_gnd_ana.html
+
+These are all ground-processed data products done via automated pipelines
+within an hour after the data are downlinked.  With each telelmetry downlink,
+if more data are received, the webpages are automatically updated.
+The time delay (after the burst) ranges from an initial posting typically
+at ~T+2 hours and a final update after ~20 hours for BAT products and for XRT
+the updates continue for as long the target is observed (days to weeks).
+In addition to the automated posting of the data poducts, an assessment
+is made by humans as to the cause of the trigger (eg GRB, noise,
+XYZ J1234+456, etc) and posted within 1-4 days.
+
+The data products available are:  BAT mask-weighted lightcurves on several
+timescales and binnings (text and graphical) and fitted spectra; and
+XRT afterglow lightcurves (text and graphical), and hardness ratios
+as a function of time.  The text-forms of the lightcurves are suitable
+for plotting to your needs and incorporation into papers.  Further details
+are described on the webpage.
+

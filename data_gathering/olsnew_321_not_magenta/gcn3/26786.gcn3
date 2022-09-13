@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26786
+SUBJECT: LIGO/Virgo S200115j: no counterpart candidate in SVOM/GWAC observations
+DATE:    20/01/16 14:10:19 GMT
+FROM:    Xuhui Han at NAOC/SVOM  <hxh@nao.cas.cn>
+
+J. Y. Wei (NAOC), S. Guillot (CNRS/IRAP), J. Wang (GXU), 
+S. Basa (CNRS/LAM), X. H. Han (NAOC)
+
+report on behalf of the SVOM Multi Messenger Astronomy and GWAC teams
+(http://www.svom.fr/en/svom-mma-and-gwac-team):
+
+We observed 17 (~2550 square deg) sky regions to cover the skymap of the
+advanced LIGO/Virgo trigger S200115j  (GCN # 26759), with SVOM/GWAC,
+at Xinglong Observatory. SVOM/GWAC is equipped with two sets of
+wide angle cameras:
+- FFOV cameras (FOV~900 square degrees/camera, aperture = 3.5 cm),
+- JFOV cameras (FOV~150 square degrees/camera, aperture = 18 cm).
+
+SVOM/GWAC currently comprises 4 FFOV cameras and 16 JFOV cameras,
+working in the unfiltered band. The observations are operated in
+time-series mode, taking one exposure every 25 seconds
+(20s exposure + 5s readout). The observed and processed regions enclosed
+an estimated 67.1% of the probability of the advanced LIGO/Virgo skymap.
+Images were taken between ~7 hours and ~18 hours after the GW trigger
+time. The coordinates of the 17 sky regions observed and
+their observation times and covered probability are listed below:
+
+Id Ra           Dec         start (UTC)       end (UTC)         Proba. Cam.
+1  05:50:26.3 51:50:22  2020-01-15 14:18:51 2020-01-15 14:46:00 0.003 JFOV
+2  07:26:21.8 64:13:01  2020-01-15 14:18:51 2020-01-15 14:46:00 0.004 JFOV
+3  09:44:22.8 68:18:18  2020-01-15 15:24:38 2020-01-15 15:53:38 0.010 JFOV
+4  16:31:30.7 -3:13:56  2020-01-15 22:03:45 2020-01-15 22:05:47 0.020 JFOV
+5  16:39:37.9 -14:35:58 2020-01-15 22:04:20 2020-01-15 22:14:51 0.040 JFOV
+6  03:19:17.3 13:34:55  2020-01-15 12:43:57 2020-01-15 13:12:07 0.116 JFOV
+7  03:19:57.0 01:29:44  2020-01-15 12:50:14 2020-01-15 13:12:07 0.058 JFOV
+8  02:29:35.0 01:23:54  2020-01-15 12:55:06 2020-01-15 13:12:07 0.251 JFOV
+9  02:42:06.7 -14:20:52 2020-01-15 12:53:27 2020-01-15 13:12:52 0.030 JFOV
+10 03:29:53.5 -2:41:46  2020-01-15 12:57:06 2020-01-15 13:12:52 0.001 JFOV
+11 04:20:51.2 47:50:40  2020-01-15 11:26:49 2020-01-15 11:56:36 0.071 JFOV
+12 04:10:55.1 36:07:24  2020-01-15 11:26:49 2020-01-15 11:56:38 0.043 JFOV
+13 02:59:22.0 35:09:36  2020-01-15 11:33:18 2020-01-15 14:15:11 0.005 JFOV
+14 04:06:04.5 47:32:04  2020-01-15 11:34:00 2020-01-15 14:15:11 0.070 JFOV
+15 04:00:51.0 35:21:07  2020-01-15 11:50:37 2020-01-15 14:15:11 0.050 JFOV
+16 05:51:31.2 64:35:19  2020-01-15 13:16:53 2020-01-15 13:44:55 0.033 JFOV
+17 05:32:23.9 52:57:41  2020-01-15 13:35:13 2020-01-15 13:44:55 0.018 JFOV
+
+The sky coverage map is available at:
+http://cmm.svom.cn/gwpub/O3/S200115j/S200115j.png
+(user:svomo3 pwd:gwo3).
+
+Weather conditions were clear during the observations. The sky regions are
+> 80 degrees from the moon (~0.72 of lunar phase). An average 3-sigma
+limiting magnitude of 16 mag in the R band was obtained in the single
+frames. No credible new source was detected by our online pipeline during
+follow-up observations. A more detailed image analysis including
+co-addition is ongoing with our offline pipeline to search for transient
+candidates.
+

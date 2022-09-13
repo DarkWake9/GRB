@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26938
+SUBJECT: LIGO/Virgo S200129m: NED Galaxies in the 50% Localization Volume
+DATE:    20/01/29 20:02:14 GMT
+FROM:    David Cook at IPAC/Caltech  <dcook@ipac.caltech.edu>
+
+David O. Cook (Caltech/IPAC), Angela Van Sistine (UW Milwaukee), Leo Singer (NASA/GSFC), Igor Andreoni (Caltech), Michael Coughlin (Caltech), Bob Aloisi (UW Milwaukee), Patrick R. Brady (UW Milwaukee), Rick Ebert (Caltech/IPAC), George Helou (Caltech/IPAC), David Kaplan (UW Milwaukee), Mansi M. Kasliwal (Caltech), Joseph M. Mazzarella (Caltech/IPAC), and Marion Schmitz (Caltech/IPAC)
+
+On behalf of the Global Relay of Observatories Watching Transients Happen (GROWTH) collaboration and the NASA/IPAC Extragalactic Database (NED) Team.
+
+We spatially cross-matched the LIGO/Virgo S200129m trigger sky localization with the galaxies in NED and found 909 galaxies within the 90% containment. Due to the large number of candidates in this volume, we provide here the top 20 (out of 252) galaxies located in the 50% volume sorted by 2MASS absolute K-band magnitude. 
+
+For an extended list of galaxies in the 90% volume go to the NED Gravitational Wave Followup service at https://ned.ipac.caltech.edu/uri/NED::GWF/. This service provides downloadable galaxy lists and visualizations for candidate host galaxies. For each GW alert, these products are automatically generated and made available within minutes to expedite efficient electromagnetic followup observations. 
+
+
+         objname               ra      dec    DistMpc k_m_k20fe    M_Ks     dP_dV  
+---------------------------- -------- -------- ------- --------- ---------- --------
+2MASX J21112414+0730549 317.8505  7.5152  885.09    13.093 -26.641947 3.91e-07
+2MASX J21153810+0154415 318.9088  1.9116  948.02    13.333 -26.551079 3.40e-07
+2MASX J21075194+0554019 316.9664  5.9004  757.87    12.925 -26.472973 1.69e-07
+2MASX J21185415+0124556 319.7257  1.4155  976.72    13.498  -26.45084 2.08e-07
+2MASX J21103552+0750027 317.6480  7.8342  833.18    13.163 -26.440691 3.93e-07
+2MASX J21155885+0200085 318.9952  2.0024  938.12    13.421 -26.440298 3.70e-07
+2MASX J21143195+0414596 318.6333  4.2500  919.87    13.418 -26.400635 6.34e-07
+2MASX J21094540+0607107 317.4393  6.1197  714.28    12.901 -26.368343 3.20e-07
+2MASX J21162901+0410260 319.1210  4.1739  949.09    13.546  -26.34054 3.98e-07
+2MASX J21164905+0117390 319.2043  1.2943  996.72    13.672 -26.320866 2.38e-07
+2MASX J21145876+0432013 318.7448  4.5338  872.70    13.384 -26.320324 5.53e-07
+2MASX J21135815+0637355 318.4923  6.6264  832.72     13.32 -26.282505 2.63e-07
+2MASX J21145735+0527483 318.7390  5.4633  846.10    13.389 -26.248108 3.80e-07
+2MASX J21082698+0811032 317.1124  8.1842  629.96    12.818  -26.17855 2.09e-07
+2MASX J21104382+0450527 317.6825  4.8479  811.92    13.412  -26.13556 4.01e-07
+2MASX J21141482+0644183 318.5617  6.7384  884.61    13.632 -26.101768 2.27e-07
+2MASX J21103115+0658277 317.6298  6.9744  774.34    13.354 -26.090672 4.70e-07
+2MASX J21114509+0726560 317.9379  7.4488  779.98    13.413 -26.047419 3.54e-07
+2MASX J21080192+0652462 317.0081  6.8794  749.31    13.341  -26.03231 2.62e-07
+2MASX J21172667+0309342 319.3611  3.1595  947.08    13.862 -26.019924 3.69e-07
+
+
+Table: Top 20 galaxies in NED that fall in the 90% probability volume for S200129m sorted by 2MASS absolute K-band magnitude. Column descriptions are as follows. name: galaxy name. ra: RA (J2000, decimal degrees). dec: Dec (J2000, decimal degrees). distmpc: galaxy distance (Mpc). k_m_k20fe: the 2MASS apparent magnitude. M_Ks: the absolute K-band magnitude derived using the 'DistMpc' column. dP_dV: the 3D probability density per cubic megaparsec at the position of each galaxy.
+

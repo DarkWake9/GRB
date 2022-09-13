@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22191
+SUBJECT: Possible blackbody component in the X-ray spectrum of GRB171205A
+DATE:    17/12/06 17:31:56 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+S. Campana (INAF-OAB), A. Beardmore (U. Leicester), A. D'Ai (INAF-IASFPA),
+V. D'Elia (ASDC), P. Evans (U. Leicester), J. Kennea (PSU), J.P. Osborne
+(U. Leicester), K.L. Page (U. Leicester), R.L.C. Starling (U. Leicester)
+
+report on a preliminary analysis of the Swift XRT data. Swift XRT started
+observing GRB171205A (D'Elia et al. 2017, GCN 22177) 145 s after the 
+trigger.
+XRT detected a bright X-ray source decreasing from ~80 c/s to ~10 c/s
+from 150 s to 400 s, remaining in Windowed Timing (WT) mode (Kennea et al.
+2017, GCN 22183).
+The hardness ratio light curve does not imply appreciable spectral
+variations during this time interval.
+We fit the WT spectrum binned to 20 counts per energy bin with an absorbed
+power law (with the column density fixed to 5.9e20 cm-2, Willingale et al.
+2013, MNRAS 431 394).
+We obtain a reduced chi2=1.23 (239 degrees of freedom, dof, and 9e-3 null
+hypothesis probability, nhp).
+The inclusion of an intrinsic absorption component at the GRB redshift
+(z=0.0368, Izzo et al. 2017, GCN 22180) does not improve the fit, rather
+we can only put a 90% confidence level upper limit of N_H(z)<0.3e20 cm-2.
+
+Given the relatively low nhp of the fit we include a soft blackbody 
+component.
+The fit improves considerably with kT_BB=0.10+-0.02 keV (90% c.l.) and
+equivalent radius R_BB~5e11 cm (for a source distance of 163 Mpc).
+The fit is good with a reduced chi2=1.09 (237 dof and 0.15 nhp).
+F-test provides a probability for a chance improvement of 6e-8.
+The 0.3-10 keV blackbody contribution to the total flux is ~4%.
+
+We checked that the fit does not improve using different values for the
+Galactic column density (NH_DL=4.82e20 cm-2 or NH_Kalberla=4.91e20
+cm-2), reaching similar results.
+Using a spectrum made from grade 0 events does not change the
+results and the blackbody component is still significant.
+

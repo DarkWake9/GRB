@@ -1,0 +1,65 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25417
+SUBJECT: LIGO/Virgo S190814bv: Further Pan-STARRS observations and transient sources
+DATE:    19/08/20 21:44:10 GMT
+FROM:    Stephen Smartt at Queen's U/Belfast  <s.smartt@qub.ac.uk>
+
+S. Srivastav (QUB), M. Huber (IfA), S. J. Smartt, K. W. Smith (QUB),
+K. Chambers (IfA), D. R. Young, O. McBrien, J. Gillanders, D. O'Neil,
+P. Clark, S. Sim (QUB), T. de Boer, J. Bulger, J. Fairlamb, C.-C. Lin,
+T. Lowe, E. Magnier A. Schultz, R. J. Wainscoat, M. Willman, (IfA,
+University of Hawaii) A. Rest (STScI), C. Stubbs (Harvard)
+
+We report further observations of the LALInference skymap of the NSBH
+event S190814bv (The LIGO Scientific Collaboration and the Virgo
+Collaboration, GCN 25324, 25333) with the Pan-STARRS1 telescope
+(Chambers et al. 2016 arXiv :161205560C, Huber et al. GCN25356).
+Images were taken in the PS1 z-band between 2019-08-18 11:03:19 UT
+ and 2019-08-18 14:54:11 UT (58713.46 - 58713.62). A sequence of
+ 53 x 240 sec dithered exposures was taken covering the central 
+(approximately) 50% probability region. Given the moon position, and 
+the time lapsed after s190814bv, and the low probability of a bright 
+transient at this epoch, we made the choice to focus on the central part 
+of the skymap, with extra depth and one filter. The 240s sec exposures 
+were combined into a single epoch stack, covering the GPC1 camera chip gaps.
+
+The images were processed with the IPP (Magnier et al. 2016,
+arXiv:1612.05240) and difference images for the co-added stacks were
+produced using the Pan-STARRS1 Science Consortium 3Pi data to detect
+transient objects. The median 5-sigma depth of the stacked sky cells
+was z < 21.6 (AB mag). We may be able to significantly improve on
+depth by collecting a deep reference frame during the next lunation.
+
+Standard filtering procedures, combined with a machine learning
+algorithm (Wright et al. 2015, MNRAS, 449, 451) were applied and all
+candidates were spatially cross-matched with known minor planets, and
+major star, galaxy, AGN and multi-wavelength catalogues (as described
+in Smartt et al. 2016, MNRAS, 462 4094).
+
+Given the extra depth compared to our first epoch (z < 20.4) on
+2019-08-15 12:40:37 UT (58710.5282 ; see Huber et al. GCN 25356), we
+detected a significant number of fainter new transients, given in the
+table below. Examining potential host galaxies, and the weak
+constraints we have from earlier epoch data, we do not find a source
+that appears consistent with being a candidate for the counterpart to
+s190814bv. All candidates have been registered on the IAU TNS.
+
+We recovered several of the DECam GROWTH and DESGW transients (e.g.
+those reported in Goldstein et al. GCN 25393, Herner et al. GCN 25398
+and related GCNs). We find that the combination of photometric
+evolution and redshift constraints (through possible hosts) leaves no
+obvious counterpart candidate for the objects in common.
+
+Name    | TNS Name  | RA (J2000)  | Dec (J2000) | Disc MJD |  z Mag err 
+PS19epz | AT2019nuw | 00:50:26.34 | -25:52:57.8 | 58713.54 |  21.85 0.24
+PS19eqa | AT2019nux | 00:50:21.01 | -23:42:46.7 | 58713.54 |  21.75 0.20
+PS19eqc | AT2019nuz | 00:49:52.26 | -25:31:25.6 | 58713.54 |  21.89 0.22
+PS19eqd | AT2019nva | 00:52:43.39 | -23:37:54.0 | 58713.54 |  21.49 0.18
+PS19eqe | AT2019nvb | 00:46:51.16 | -25:25:39.3 | 58713.54 |  21.72 0.22
+PS19eqf | AT2019nvc | 00:52:18.32 | -26:19:42.0 | 58713.54 |  21.31 0.18
+PS19eqg | AT2019nvd | 00:55:42.30 | -24:41:50.2 | 58713.54 |  21.47 0.17
+PS19eqh | AT2019nve | 00:56:05.51 | -24:38:26.3 | 58713.54 |  21.30 0.15
+PS19eqo | AT2019nvr | 00:48:16.08 | -25:28:14.9 | 58713.54 |  20.89 0.13
+PS19eqp | AT2019nvs | 00:52:37.75 | -26:11:41.4 | 58713.55 |  21.44 0.24
+
+

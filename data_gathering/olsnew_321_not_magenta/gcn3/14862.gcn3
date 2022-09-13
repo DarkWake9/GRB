@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14862
+SUBJECT: GRB 130609B, Swift-BAT refined analysis
+DATE:    13/06/10 21:39:05 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+A. Y. Lien (NASA/GSFC/ORAU), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-60 to T+243 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 130609B (trigger #557828)
+(Krimm, et al., GCN Circ. 13841).  The BAT ground-calculated position is
+RA, Dec = 53.776, -40.168 deg which is
+     RA(J2000)  =  03h 35m 06.2s
+     Dec(J2000) = -40d 10' 04.0"
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 43%.
+
+The mask-weighted light curve shows an initial complex of two main
+overlapping peaks with numerous subsidiary peaks, with strong emission
+between T-10 and T+50 sec and low-level emission between T-30 and T+120 sec.
+The highest points are at T+4 and T+18 sec.  Then there is a second, weaker
+and softer pair of overlapping peaks between T+160 sec and T+220 sec.  This
+second set of peaks is consistent with a flare seen in the Swift-XRT.
+T90 (15-350 keV) is 191.98 +- 2.44 sec (estimated error including systematics)
+We note that receipt of the full event data for GRB 130609B may reveal
+further late-time peaks and require a revision of the T90 estimate.  We will
+report on the full data set in a later Circular.
+
+The time-averaged spectrum from T-7.84 to T+213.25 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.23 +- 0.04.  The fluence in the 15-150 keV band is 1.6 +- 0.0 x 10^-05
+erg/cm2. The 1-sec peak photon flux measured from T+16.78 sec in the 15-150 keV
+band is 8.5 +- 0.4 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/557828/BA/
+

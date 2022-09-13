@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18000
+SUBJECT: Swift trigger 648437: A GRB or a burst from 1RXS J125754.7+141850
+DATE:    15/07/10 00:56:43 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+M. G. Bernardini (INAF-OAB), S. D. Barthelmy (GSFC),
+P. D'Avanzo (INAF-OAB), A. Melandri (INAF-OAB), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU) and M. H. Siegel (PSU) report on behalf
+of the Swift Team:
+
+At 00:28:02 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a short burst consistent with the location of the
+ROSAT faint source 1RXS J125754.7+14185 (trigger=648437).  Swift 
+slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 194.497, +14.305 which is 
+   RA(J2000) = 12h 57m 59s
+   Dec(J2000) = +14d 18' 18"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single spike
+structure with a duration of about 0.25 sec.  The peak count rate
+was ~8000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 00:28:51.6 UT, 49.2 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 194.4710, 14.3183 which is
+equivalent to:
+   RA(J2000)  = 12h 57m 53.03s
+   Dec(J2000) = +14d 19' 05.8"
+with an uncertainty of 3.5 arcseconds (radius, 90% containment). This
+location is 102 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper.  We cannot determine whether the source is
+fading at the present time. This position is 28.6 arcseconds from that
+of a known X-ray source: 1RXS J125754.7+141850 in the ROSAT RASSFSC
+catalogue. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 53 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.03. 
+
+This source location is consistent with the source 1RXS J125754.7+141850,
+an object in the ROSAT RASSFSC.  This catalog has 106k sources,
+and so the possibility of a chance coincidence cannot be ruled out. 
+This burst is comparable in hardness and other aspects to a typical
+short GRB.  For this reason, we cannot confirm whether this burst
+comes from the previously-known source or a new sGRB with the 
+immediately-available data. 
+
+The complete downlinked dataset and further observations will be required
+to determine the nature of this source. 
+
+Burst Advocate for this burst is M. G. Bernardini (grazia.bernardini AT brera.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

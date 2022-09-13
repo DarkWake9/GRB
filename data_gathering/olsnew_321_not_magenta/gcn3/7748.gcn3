@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7748
+SUBJECT: GRB 080517, Swift-BAT refined analysis
+DATE:    08/05/18 19:34:04 GMT
+FROM:    Ann M. Parsons at NASA/GSFC/Swift  <Ann.M.Parsons@nasa.gov>
+
+C. Markwardt (GSFC/UMD), S. D. Barthelmy (GSFC), W. Baumgartner (GSFC/ 
+UMBC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm
+(GSFC/USRA), K. McLean (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU)  (i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+962 sec from the recent telemetry  
+downlink,
+we report further analysis of BAT GRB 080517 (trigger #311874)  
+(Parsons, et al.,
+GCN Circ. 7742).
+
+The BAT ground-calculated position is RA, Dec = 102.274, 50.741 deg  
+which is
+    RA(J2000)  =  06h 49m 05.8s
+    Dec(J2000) = +50d 44' 28.5"
+with an uncertainty of 2.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 50%.
+
+The mask-weighted lightcurve shows a single, FRED-like peak rising  
+quickly to
+its maximum at ~T+4.4 sec with a roughly exponential decay down to  
+background
+at ~T+60 sec. T90 (15-350 keV) is 64.6 +- 27.2 sec (estimated error  
+including
+systematics).
+
+The time-averaged spectrum from T-0.9 to T+68.3 sec is best fit by a  
+simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.54 +- 0.33.  The fluence in the 15-150 keV band is 5.6 +- 1.2 x 10^-07
+erg/cm2. The 1-sec peak photon flux measured from T+3.88 sec in the
+15-150 keV band is 0.6 +- 0.2 ph/cm2/sec.  All the quoted errors are  
+at the
+90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/311874/BA/
+
+This burst satisfies Sakamoto/Ukwatta Swift-BAT possible high-z criteria
+(Ukwatta et al. arXiv:0802.3815).
+1) PL photon index = 1.54 (PL photon index < 2)
+2) 1-s peak photon flux = 0.627459 (1-s peak photon flux < 1.0 ph/cm2/s)
+3) Light curve variance = 6.818773e-05 (Variance < 0.0001)
+4) T90/(Peak photon flux) = 103.0 (T90/(Peak photon flux) > 100)
+Based on a limited sample of bursts, these criteria yield an 85%  
+chance it
+has a redshift greater than 3.5. As noted in the initial Swift circular
+(Parsons, et al., GCN Circ. 7742), the observed X-ray absorption implies
+that the burst is most likely at z<4.8.
+

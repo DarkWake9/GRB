@@ -1,0 +1,68 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3293
+SUBJECT: GRB050326: analysis of the XMM-Newton observation
+DATE:    05/04/19 12:45:48 GMT
+FROM:    Andrea De Luca at IASF-CNR,Milano  <deluca@mi.iasf.cnr.it>
+
+Andrea De Luca (IASF Mi), Diego Gotz (IASF Mi), Sergio Campana (OAB)
+on behalf of a larger collaboraton report:
+
+We have analyzed the data from the XMM-Newton observation of
+GRB050326, discovered by Swift on 2005, Mar 26, 09:53:55 UTC
+(Markwardt et al., GCN3143).
+
+The XMM-Newton observation started on 2005, Mar. 26 at 18:25 UTC
+and lasted for ~45.8 ks.
+
+A high particle background level affects the whole observation,
+with several soft proton flares, particularly evident in pn data.
+
+We improved the astrometry of the XMM-Newton/EPIC images
+by matching X-ray sources in the field to stars in the USNO-B1
+catalogue. The refined position (J2000) for the X-ray afterglow is
+
+RA: 00h 27m 49.1s  Dec: -71d 22' 16.3"
+
+The 1 sigma error radius is 1.5 arcsec (including the rms error on
+the cross-correlation as well as systematic uncertainties in the
+optical catalogue). The position is fully consistent with the XRT
+coordinates (Moretti et al., GCN3147) as well as with the preliminary
+XMM-Newton position by Ehle & Perez-Martinez (GCN3149).
+
+The MOS light curve (0.3-8 keV) is well fitted by a power law decay
+with index delta=1.81+/-0.11 (90% confidence level), with a reduced
+chi2 of 0.6 (21 dof). Adding pn data (with a larger bkg contamination)
+yields fully consistent results (delta=1.85+/-0.10), but with a poorer
+fit quality (owing to bkg fluctuations).
+
+We extracted time-averaged spectra from the three EPIC cameras and
+we generated ad-hoc response files. We quote here errors at 90%
+confidence level for a single interesting parameter unless otherwise
+specified.
+A simultaneous fit with an absorbed power law model yields a reduced
+chi2 of 1.11 (241 dof). The resulting NH=(1.20+/-0.15)x10^21 cm^-2
+is higher than the expected Galactic value in the burst direction
+(NH=4.5x10^20 cm^-2, Dickey & Lockman, 1990); the best fitting power
+law photon index is Gamma=2.10+/-0.05.
+
+A better fit (reduced chi2=1.05, 240 dof) may be obtained
+fixing the NH to the expected Galactic value (NH=4.5x10^20 cm^-2) and
+adding a neutral, redshifted absorber component to the spectral model.
+With a simple F-test we evaluate the chance occurrence probability of
+the improvement to be of 2.6x10^-4. Such model yields an intrinsic
+NH>3x10^21 and a redshift z>1 (90% confidence level for 2 parameters
+of interest). However, neither the intrinsic column density nor the
+redshift are well constrained towards large values, owing to the lack
+of absorption edges in the spectrum.
+The resulting power law photon index is Gamma=2.01+/-0.05.
+The observed flux is of 5.2x10^-13 erg cm^-2 s^-1 in 0.2-10 keV;
+the corresponding unabsorbed flux is of 7.4x10^-13 erg cm^-2 s^-1.
+
+Finally, we divided the dataset into two time intervals of ~15900 s and
+~27600 s (each containing about half of the counts from the afterglow)
+and we repeated the spectral analysis. We found no significant spectral
+changes in the two considered intervals.
+
+This message may be cited.
+
+

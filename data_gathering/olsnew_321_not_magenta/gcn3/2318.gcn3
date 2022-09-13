@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2318
+SUBJECT: XRF030723, ROTSE-III Early Observations
+DATE:    03/07/24 19:48:57 GMT
+FROM:    Don Smith at U michigan  <dasmith@rotse2.physics.lsa.umich.edu>
+
+D. A. Smith (U. of Michigan) & R. Quimby (U. of Texas) report on behalf of the
+ROTSE collaboration:
+
+The ROTSE-IIIb instrument at McDonald Observatory, Texas, responded
+automatically to HETE-2 alert 2777, and began taking images within 5 s of when
+the alert was distributed.  The first exposure began 47 seconds after the burst
+trigger time.  All objects in the SXC 2' (radius) error circle that appear in
+more than four individual ROTSE images match to sources in the USNO 2.0
+catalog.  Unfiltered limiting magnitudes, calibrated to USNO R-band, for the
+first ten (5-s) images were around 16.5, for the second ten (20-s) images
+around 17.5, and for the next 40 (60-s) images around 18.0.  We then co-added
+sets of ten frames each to drive the limiting magnitudes down to 18.1, 18.7,
+and 19.1, respectively.  We also co-added the first twenty frames as a check
+against false positives in the first two co-added images.
+
+Only two non-USNO sources within the error circle appear in more than the first
+of the co-added, composite images.  We find no sources that appear in the five
+later co-adds that are not in the first one.  Both of the non-USNO sources in
+the first image are dimmer in the second and third images, and both vanish by
+the fourth image.  Neither source appears to be in the DSS or the 2MASS J and K
+archival images of this field, and neither source appears in images taken the
+following night (to a limiting magnitude of 18.6) at 0.95 d after the burst.
+
+One of the sources is too close to a USNO-cataloged star for SExtractor to
+de-blend the two.  The star is at coordinates 21h 49m 24s.8, -27o 40' 10".16
+(J2000.0), and its derived ROTSE magnitude (which would contain emission from
+both sources) fades by 1.6 mag from 17.3+-0.1 to 18.9+-0.2 as the nearby source
+(which is about 7.5" East and 3" South) disappears.  The following night, this
+star was measured at 18.9+-0.2.
+ 
+The second source was isolated, and we derive the following light curve:
+R.A.            Dec.  (J2000.0)  Magnitude
+21h 49m 24s.379 -27o 40' 35".04  17.9+-0.2  18.2+-0.2 18.2+-0.1  > 19.1   > 19.1   > 19.1
+(Time from burst)                (47.3 s)   (191.9 s) (8.1 m)    (19.7 m) (31.3 m) (42.9 m)
+
+We cannot at this time determine if either of these sources is related to the
+HETE-2 event.  Images and finding charts can be found at
+http://grad40.as.utexas.edu/~quimby/HETE2777
+

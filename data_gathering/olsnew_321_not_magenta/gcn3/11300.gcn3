@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11300
+SUBJECT: MAXI J1659-152: Swift-BAT refined analysis (triggers 434928 and 434931)
+DATE:    10/09/25 18:55:41 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), V. Mangano (INAF-IASFPA),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (GSFC/UMBC),
+M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using only a partial data set from T+247 to T+303, T+706 to T+723 and
+T+728 to T+963 sec (T=08:05:06 UT) from recent downlinks, we report further analysis
+of MAXI J1659-152 (Swift-BAT trigger #434928) (Negoro, ATEL 2873 and
+initially reported as GRB 100925A in Mangano, et al., GCN Circ. 11296).
+The BAT ground-calculated position is RA, Dec = 254.750, -15.206 deg, which is 
+   RA(J2000)  =  16h 59m 00.0s 
+   Dec(J2000) = -15d 12' 20.1" 
+with an uncertainty of 2.9 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 38%.
+ 
+No statement can be given about the BAT lightcurve because of the fragmented
+coverage of the transient.  This fragmentation is caused by (a) a second
+Swift-BAT trigger on the same source (a 64-sec image trigger, #434931,
+at 09:47:13 UT) and (b) the very long integration time of the first trigger (26.5 min).
+The normal set of event-by-event data used to do this "refined" analysis
+is not fully available (the on-board event ring buffer has been nearly
+completely wrapped).
+ 
+The time-averaged spectrum in the 3 time intervals listed above
+is best fit by a simple power-law model.  The power law index
+of the time-averaged spectrum is 1.79 +- 0.43.  We caution even this
+limited analysis because of the partial coverage of the time interval
+of the event. 
+
+Further, the time-averaged spectrum from T+0.0 to T+64.0 sec (T=09:47:13 UT,
+the second trigger) is best fit by a simple power-law model.  The power law
+index of the time-averaged spectrum is 2.36 +- 0.61.  All the quoted errors
+are at the 90% confidence level.
+
+The GCN Notices for the first trigger were distributed with a GRB label,
+because the location did not match any known source in the on-board and
+ground catalogs.  However, the GCN Notices for the second trigger were
+labeled as a transient because the location matched the location of the
+first trigger (AT trigger locations are maintained in the on-board catalog
+up to the 4th trigger in a 3-deep ring buffer).
+

@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15915
+SUBJECT: GRB 140304A: Swift detection of a burst
+DATE:    14/03/04 13:57:15 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. A. Evans (U Leicester), A. P. Beardmore (U Leicester),
+D. N. Burrows (PSU), N. Gehrels (NASA/GSFC), S. T. Holland (STScI),
+J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+C. B. Markwardt (NASA/GSFC), F. E. Marshall (NASA/GSFC),
+A. Maselli (INAF-IASFPA), K. L. Page (U Leicester),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. H. Siegel (PSU) and
+T. N. Ukwatta (MSU) report on behalf of the Swift Team:
+
+At 13:22:31 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 140304A (trigger=590206).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 30.668, +33.485 which is 
+   RA(J2000) = 02h 02m 40s
+   Dec(J2000) = +33d 29' 07"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multi-peaked
+structure with a total duration of about 20 sec.  The peak count rate
+was ~3600 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 13:23:46.2 UT, 75.2 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+uncatalogued X-ray source with an enhanced position: RA, Dec 30.6412,
+33.4744 which is equivalent to:
+   RA(J2000)  = 02h 02m 33.90s
+   Dec(J2000) = +33d 28' 27.9"
+with an uncertainty of 2.2 arcseconds (radius, 90% containment). This
+location is 89 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 5.98
+x 10^20 cm^-2 (Kalberla et al. 2005). 
+
+The initial flux in the 2.5 s image was 6.28e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+137 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image processing FAILED
+because of no aspect solution. Results from the list of sources generated
+on-board are not available at this time. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.08. 
+
+This GRB will enter a Moon observing constraint around 20:00 UT and
+will not be observable again by Swift until March 6 (Thursday) around
+05:30 UT. 
+
+Burst Advocate for this burst is P. A. Evans (pae9 AT star.le.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

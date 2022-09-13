@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29564
+SUBJECT: Konus-Wind detection of GRB 210222A
+DATE:    21/02/24 15:02:52 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, A.Lysenko, D. Svinkin,
+A. Ridnaya, A. Tsvetkova,  M. Ulanov, and T. Cline, report:
+
+The long GRB 210222A (MAXI/GSC detection: Nakajima et al., GCN 29543;
+CALET Gamma-Ray Burst Monitor detection: Marrocchesi et al., GCN 29553)
+was detected by Konus-Wind (KW) in the waiting mode starting from
+~T0 = 57443.990 (15:57:23.990) UT (or ~2 minutes before the MAXI trigger).
+
+A Bayesian block analysis of the KW waiting mode data in the 20-400 keV band
+reveals a ~30 sigma count rate increase over background in the interval
+from ~T0 to ~T0+177 s.
+The KW light curve of this burst is available
+at http://www.ioffe.ru/LEA/GRBs/GRB210222A/
+
+Modeling the KW 3-channel time-integrated spectrum
+(measured from T0+0.115 s to T0+176.755 s)
+by a power law with exponential cutoff (CPL) model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.33(-0.11,+0.15) and Ep = 317(-72,+108) keV.
+
+A CPL fit to the spectrum near the peak count rate,
+measured from T0+0.115 s to T0+14.835 s, gives
+alpha -0.48(-0.14,+0.15), and Ep of 375(-40,+40) keV.
+
+In the 10 keV -10 MeV band, the total burst fluence is (4.2 ± 0.6)x10^-5 erg/cm^2,
+and the 2.944 s peak energy flux is (9.3 ± 0.8)x10^-7 erg/cm^2.
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.
+

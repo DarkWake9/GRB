@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24660
+SUBJECT: LIGO/Virgo S190521r: No optical counterpart from SVOM/GWAC-F30 observations.
+DATE:    19/05/24 11:46:57 GMT
+FROM:    Damien Turpin at NAOC (CAS)  <dturpin-astro@hotmail.com>
+
+LIGO/Virgo S190521r: No optical counterpart from SVOM/GWAC-F30 observations.
+
+D. Turpin (NAOC), N. Dagoneau (CEA/AIM), L.P. Xin (NAOC),
+X.H. Han (NAOC), J.Y. Wei (NAOC), C. Wu (NAOC),  L. Huang (NAOC),
+Y. Xu (NAOC), H.B. Cai (NAOC), J. Wang (NAOC), X.M. Lu (NAOC),
+Y.L. Qiu (NAOC), J.S. Deng (NAOC), L. Jia (NAOC), S.C. Zou (NAOC), 
+S.F. Liu (NAOC), Q.C. Feng (NAOC), H.L. Li (NAOC), D.W. Xu (NAOC),
+Y.J. Xiao (NAOC), W.L. Dong (NAOC), Y.T. Zheng (NAOC), P.P. Zhang (NAOC),
+R.S. Zhang (NAOC), E.W. Liang (GXU), X.G. Wang (GXU), Z.G. Dai (NJU),
+X.Y. Wang (NJU), Y.G. Yang (HBNU), J.R. Mao (YNAO), B. Cordier (CEA/AIM),
+S. Basa (CNRS/LAM), J.L. Atteia (UPS/IRAP), D. Götz (CEA/AIM),
+A. Claret (CEA/AIM), N. Leroy (CNRS/LAL), C. Lachaud (CNRS/APC), 
+E. Le Floc'h (CEA/AIM), S.N. Zhang (IHEP), B.B. Wu (IHEP),
+report on behalf of the SVOM Ground Follow-up Group:
+
+
+We observed 12 sky regions to cover the initial skymap of the 
+LIGO/Virgo trigger S190521r (GCN24632), with the SVOM/GWAC-F30 
+telescope operated by Huaibei Normal University and NAOC, CAS 
+at Xinglong Observatory, China. 
+The SVOM/GWAC-F30 is equipped with Standard Johnson filters
+and 3Kx3K FLI CCD (FOV~1.8x1.8 degree). The GWAC-F30 is using
+tiling observation strategy. The tiles are calculated to cover
+the most probable regions of the 90% localization area given in the
+GW probability skymap. Several images with a single exposure of 60s
+time in R band are taken for each tile.
+
+The 12 tile coordinates and the observation periods are listed below:
+
+# Ra[hms] Dec[dms] start-obs[UTC] Total_exp[s] N_image R_lim
+1 18:21:52.801 +14:27:00.00 2019-05-21T14:25:25.305 300.0 5 14.26
+2 18:32:50.399 +17:51:00.00 2019-05-21T14:32:37.560 300.0 5 14.11
+3 18:30:21.600 +16:08:60.00 2019-05-21T14:35:33.417 300.0 5 16.38
+4 19:08:35.999 +22:57:00.00 2019-05-21T14:45:16.739 300.0 5 13.38
+5 19:15:40.799 +24:39:00.00 2019-05-21T14:55:28.205 300.0 5 14.23
+6 18:02:52.800 +09:21:00.00 2019-05-21T15:04:44.953 300.0 5 14.72
+7 18:37:23.999 +16:08:60.00 2019-05-21T15:13:00.797 300.0 5 15.53
+8 18:08:12.001 +11:03:00.00 2019-05-21T15:21:21.874 300.0 5 14.03
+9 18:07:33.600 +12:45:00.00 2019-05-21T15:29:22.493 300.0 5 14.85
+10 18:23:19.201 +16:08:60.00 2019-05-21T15:37:16.618 240.0 4 13.47
+11 18:01:16.799 +11:03:00.00 2019-05-21T15:45:37.945 300.0 5 14.83
+12 19:01:14.401 +22:57:00.00 2019-05-21T15:52:45.649 300.0 5 15.20
+
+The covering map is available at:
+http://cmm.svom.cn/gwpub/O3/S190521r/S190521r_GWAC-F30.png
+(user:svomo3 pwd:gwo3)
+
+The first image was taken ~7.3 hours after the event trigger time. The
+weather conditions were partly cloudy during the night. 
+No credible new source is detected by our online pipeline.
+A more detailed image analysis is in progress with our offline pipeline
+to search for any fainter transient candidate.
+

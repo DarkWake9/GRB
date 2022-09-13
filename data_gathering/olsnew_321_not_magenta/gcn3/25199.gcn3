@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25199
+SUBJECT: LIGO/Virgo S190728q: Optical Candidate from the Zwicky Transient Facility ZTF19abjethn
+DATE:    19/07/28 15:06:42 GMT
+FROM:    Mansi M. Kasliwal at Caltech/Carnegie  <mansikasliwal@gmail.com>
+
+Mansi M. Kasliwal (Caltech), Leo P. Singer (NASA GSFC), Eric C. Bellm (UW),
+Michael W. Coughlin (Caltech), Daniel A. Perley (LJMU), Jesper Sollerman
+(OKC), Igor Andreoni (Caltech), Erik Kool (OKC), Danny Goldstein (Caltech),
+Rahul Biswas (OKC), Richard Walters (Caltech), Varun Bhalerao (IITB), G. C.
+Anupama (IIA), Shreya Anand (Caltech), Tomas Ahmuda (UMD), Brad Cenko (NASA
+GSFC), Sara Webb (Swinburne), Jeff Cooke (Swinburne), Kirsty Taggart
+(LJMU), Sudhanshu Barway (IIAP), Alessandra Corsi (TTU), Mattia Bulla
+(OKC), Albert Kong (Taiwan), Chris Copperwheat (LJMU)
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of
+Observatories Watching Transients Happen (GROWTH) collaborations
+
+We observed the localization region of the gravitational wave trigger
+S190728q (GCN 25187) with the Palomar 48-inch telescope equipped with the
+47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). A new
+tiling was automatically optimally determined and triggered using the
+GROWTH Target of Opportunity marshal (Coughlin et al. 2019a, Kasliwal et
+al. 2019b). We enclosed 64% of the probability and obtained a sequence of
+300s exposures in g-band, r-band and g-band before sunrise.
+
+The images were processed through the ZTF reduction and image subtraction
+pipelines at IPAC to search for potential counterparts (Masci et al. 2019).
+We applied standard filtering criterion including rejecting stellar sources
+(Tachibana and Miller 2018) and moving objects and applying machine
+learning algorithms (Mahabal et al. 2019, Duev et al. 2019).
+
+A promising candidate with the first detection after the GW merger time and
+a fast intra-night rise in both filters is:
+-------------------------------------------------------------------------------------------------------------------
+ ZTF Name     | RA (deg)    | DEC (deg)   | Filter | Mag   |  Magerr |
+Filter | Mag   | Magerr
+--------------------------------------------------------------------------------------------------------------------
+ZTF19abjethn  | 326.395431 | 20.690590    | r      | 19.65 |  0.11   | g
+  | 19.82 |  0.16
+--------------------------------------------------------------------------------------------------------------------
+
+We reported this candidate to TNS and it was given the name AT2019lvs. The
+candidate is offset from a galaxy with SDSS phot-z estimate of 0.228 ±
+0.0286. We serendipituously observed this field the previous night with ZTF
+and did not detect the candidate.
+
+Additional analysis and continued follow-up is in progress and encouraged.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC,
+USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan;
+IIT-B, India; IIA, India; LJMU, UK; TTU, USA; and USyd, Australia. ZTF
+acknowledges the generous support of the NSF under AST MSIP Grant No
+1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant
+No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et
+al. 2019). Alert filtering and follow-up co-ordination is being undertaken
+by the GROWTH marshal system (Kasliwal et al. 2019).

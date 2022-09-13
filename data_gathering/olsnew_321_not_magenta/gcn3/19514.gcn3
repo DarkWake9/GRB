@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19514
+SUBJECT: Trigger 689956: Swift detection of a source near the Galactic center
+DATE:    16/06/09 03:15:50 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), D. M. Palmer (LANL), T. G. R. Roegiers (PSU)
+and M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 02:21:03 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible new source (trigger=689956).  Swift did not immediately
+slew to the source due to its low merit value. 
+The BAT on-board calculated location is 
+RA, Dec 266.422, -29.008, which is 
+   RA(J2000)  =  17h 45m 41s
+   Dec(J2000) = -29d 00' 29"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for image triggers (especially
+long triggers such as this 15 min one), the real-time TDRSS
+data does not show anything significant. 
+
+The XRT began observing the field at 02:56:14.5 UT, 2110.9 seconds
+after the BAT trigger. Using promptly downlinked data we find an X-ray
+source located at RA, Dec 266.41879, -29.01122 which is equivalent to:
+   RA(J2000)  = 17h 45m 40.51s
+   Dec(J2000) = -29d 00' 40.4"
+with an uncertainty of 3.7 arcseconds (radius, 90% containment). This
+position may be improved as more data are received; the latest position
+is available at http://www.swift.ac.uk/sper. This position is 2.2
+arcseconds from that of a known X-ray source: 1BMC 174540.6-290039 in
+the CHANDRA BMWCHANCAT catalogue
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 2113 seconds after the BAT trigger. No credible afterglow candidate
+has been found in the initial data products. The 2.7'x2.7' sub-image covers
+100% of the XRT error circle. The typical 3-sigma upper limit has been about
+19.6 mag. The 8'x8' region for the list of sources generated on-board covers
+100% of the XRT error circle. The list of sources is typically complete to
+about 18 mag. No correction has been made for the large, but uncertain
+extinction expected. 
+
+This source is presumably the same as the source that triggered 
+2.5 days earlier (Barthelmy et al. GCN 19499).  This may
+be the recently-detected source SWIFT J174540.2-290037 which
+has continued to brighten in the XRT during routine monitoring
+(Degenaar et al. Atel #9109), the previously detected and currently-
+active SWIFT J174540.7-290015 (Reynolds et al; ATel #8649) or some
+other source such as 1BMC 174540.6-290039, located by XRT in
+the initial exposure. Due to the crowded field this close to the
+Galactic center (~4 arcminutes) we cannot definitively determine 
+which source produced either trigger with the currently-available data. 
+

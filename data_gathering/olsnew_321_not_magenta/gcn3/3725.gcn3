@@ -1,0 +1,33 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3725
+SUBJECT: GRB050801: Swift-BAT detection of a burst
+DATE:    05/08/01 19:25:50 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+D.L. Band (GSFC), S. Barthelmy (GSFC), J. Cummings (GSFC/NRC),
+N. Gehrels (GSFC), C. Gronwall (PSU) S. Hunsberger (PSU),
+J. Kennea (PSU), D. Palmer (LANL), M. Perri (ASDC)
+on behalf of the Swift team:
+
+At 18:28:02.07 UT, Swift-BAT triggered and located GRB050801 (trigger=148522).
+The spacecraft slewed immediately.  The BAT on-board calculated location
+is RA,Dec 204.139d,-21.950d {+13h 36m 33s,-21d 57' 00"} (J2000), with an
+uncertainty of 3 arcmin (radius, 90% containment, stat+sys).  The BAT
+light curve shows a single FRED structure with a total duration of 3 sec.
+The peak count rate was ~900 counts/sec (15-350 keV), which peaks
+at ~T+0.5 seconds.
+
+The XRT began observing at 18:29:03 UT, 61 seconds after the BAT trigger.
+XRT did centroid on a position, but on-ground examination of the image
+revealed that the object found by the centroiding algorithm is a CCD
+artifact (Kennea, GCN 3724).
+
+Swift-UVOT began observations of GRB 050801 after the slew, however,
+the UVOT dark burst image did not come down via TDRSS so no information
+is available at this time.  Detailed analysis will be performed
+when data is available after the next Malindi pass.
+
+Because of orbit trajectory with respect to the Malindi ground station,
+we will not have access to the full data sets to produce the refined analyses
+for several hours.
+

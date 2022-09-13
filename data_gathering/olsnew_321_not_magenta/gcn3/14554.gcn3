@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14554
+SUBJECT: GRB 130504A, Swift-BAT refined analysis
+DATE:    13/05/04 11:08:22 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+D. M. Palmer (LANL), S. D. Barthelmy (GSFC),  W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (NASA/GSFC/ORAU), C. B. Markwardt (GSFC),
+T. Sakamoto (AGU), G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC),
+T. N. Ukwatta (MSU)
+  
+Using the data set from T-61 to T+242 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 130504A (trigger #555096)
+(Cummings, et al., GCN Circ. 14551).  The BAT ground-calculated position is
+RA, Dec = 272.459, -16.320 deg which is
+    RA(J2000)  =  18h 09m 50.1s
+    Dec(J2000) = -16d 19' 13.1"
+with an uncertainty of 1.7 arcmin, (radius, sys+stat, 90% containment).  The
+partial coding was 100%.
+
+This position is 5.3 arcmin away from the automated flight position reported
+in GCN circular# 14551.  The imaging interval selected onboard was not optimum.
+The refined error circle includes the position of the XRT afterglow candidate
+reported by D'Avanzo et al. in GCN circular# 14553, hence we believe that
+fading x-ray source to be the correctly identified afterglow of GRB 130504A.
+
+The mask-weighted light curve shows multiple weak peaks.  T90 (15-350 keV) is
+50 +- 10 sec (estimated error including systematics).
+  
+The time-averaged spectrum from T-31.07 to T+36.84 sec is best fit by a power
+law with an exponential cutoff.  This fit gives a photon index 0.52 +- 0.68,
+and Epeak of 84.5 +- 47.6 keV (chi squared 82.16 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 1.0 +- 0.1 x 10^-06 erg/cm2
+and the 1-sec peak flux measured from T-0.06 sec in the 15-150 keV band is
+0.9 +- 0.2 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.41 +- 0.15 (chi squared 88.43 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+  
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/555096/BA/
+

@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20833
+SUBJECT: LIGO/Virgo G275697: Updated localization from LIGO data
+DATE:    17/03/07 20:44:12 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and Virgo report:
+
+We have completed an initial Bayesian parameter estimation analysis of the
+LIGO data around the time of the compact binary coalescence (CBC) event
+candidate G275697 (GCN 20763) using LALInference (Veitch et al., PRD 91,
+042003). This analysis used the IMRPhenomPv2 waveform approximant, which
+includes the inspiral, merger, and ringdown phases of the signal and
+accounts for the effects of spin precession. We accounted for systematic
+errors due to uncertainty in the calibration of the detectors' responses
+of up to 10% in amplitude and 10 degrees in phase.
+
+This parameter estimation analysis does not influence our estimation of
+the significance of this event. It remains a marginal candidate with a
+false alarm rate of about one in two months as reported in our original
+Circular. If the signal is astrophysical, then the mass estimates are
+consistent with a NSNS or NSBH binary.
+
+An updated localization, LALInference.fits.gz, is available for retrieval
+from the GraceDB event page:
+
+https://gracedb.ligo.org/events/G275697
+
+This is the preferred sky map at this time. The localization is similar to
+the rapid BAYESTAR sky map, but it is coarser due to the inclusion of
+systematic errors due to calibration. The 50% credible region spans 1020
+deg2 and the 90% credible region spans 3890 deg2. The luminosity distance
+is found to be 193 +/- 61 Mpc (mean +/- std. dev.).
+
+Further updates on our analysis of this event will be sent as they become
+available.
+

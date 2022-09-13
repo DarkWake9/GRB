@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18330
+SUBJECT: LIGO/Virgo G184098: Burst candidate in LIGO engineering run data
+DATE:    15/09/20 00:53:16 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+Dear colleagues,
+
+We would like to bring to your attention a trigger identified by the
+online Burst analysis during the ongoing Engineering Run 8 (ER8).
+Normally, we would send this in the form of a private GCN Circular, but
+the LIGO/Virgo GCN Circular list is not ready yet.
+
+The LIGO Scientific Collaboration and Virgo report that the cWB unmodeled
+burst analysis identified candidate G184098 during real-time processing of
+data from LIGO Hanford Observatory (H1) and LIGO Livingston Observatory
+(L1) at 2015-09-14 09:50:45 UTC (GPS time: 1126259462.3910). Alerts were
+not sent in real-time because the candidate occurred in ER8 data; however,
+we have now sent GCN notices through our normal channel.
+
+G184098 is an unvetted event of interest, as the false alarm rate (FAR)
+determined by the online analysis would have passed our stated alert
+threshold of ~1/month. The event's properties can be found at this URL:
+
+https://gracedb.ligo.org/events/G184098
+
+There are important caveats associated to this event:
+ * It occurred before the initiation of the planned observing run;
+ * The detectors were not in their final O1 configuration;
+ * Calibration is not finalized.
+In particular, calibration uncertainties may imply systematic errors in
+sky localization.
+
+Nevertheless, the trigger is of sufficient interest to present an
+important opportunity to exercise the EM follow-up process, and we invite
+you to make use of the information in the above link.
+
+Two sky maps are available at the moment: the rapid localization from cWB
+itself, and a refined localization from LALInference Burst (LIB). They are
+in good qualitative agreement with each other. The 50% credible region
+spans about 200 deg2 and the 90% region about 750 deg2.
+
+Updates on our analysis of this event will be sent as they become
+available.
+
+***PLEASE REMEMBER*** that this message is being sent only to groups that
+have signed MOUs with LIGO and Virgo and have observing capabilities
+during O1, and that this event and the LIGO/Virgo data related to it
+remain confidential at this time.
+
+We are looking forward to learn what you will see, and to an exciting time
+in the Advanced LIGO/Virgo era.
+
+Best wishes,
+Leo, Marica, Peter
+
+[GCN OPS NOTE(19sep15): This Circular was originally published on 05:39 16-Sep-2015 UT.]
+

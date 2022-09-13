@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7677
+SUBJECT: GRB 080503, Swift-BAT lag and time-resolved spectral analysis
+DATE:    08/05/04 18:39:40 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Ukwatta (GWU), M. Stamatikos (GSFC/ORAU), T. Sakamoto (GSFC/UMBC),
+J. Norris (U. of Denver), S. D. Barthelmy (GSFC)
+(for the Swift-BAT team):
+ 
+For GRB 080503 (Trigger 310785, GCNs 7665 & 7673),
+the spectral lag analysis of the data from T-1 sec to T+1 sec
+(the initial spike), yields a lag of -13 +/- 9 msec for the
+15-25 to 50-100 keV bands using lightcurve binnings of 4, 8 and 16 msec.
+For the on-going emission (T+10 to T+220 sec), the signal is too weak
+and lacking sufficient structure to yield a significant lag measurement.
+
+Expanding on the total-burst spectral analysis in GCN 7673,
+we have divided the burst into an initial phase (T+0.0 to T+0.7 sec)
+and the extended phase (T+10 to T+170 sec).  The simple power law fits are:
+  Phase     PLI            Norm(@50keV)         Chi2/DoF
+  Initial   1.59 +/-0.28  (8.15 +- 1.5)E-3      69/59
+  Extended  1.91 +/-0.12  (1.19 +- 0.08)E-3     52/59
+The units of Normalization are ph/cm2/s/keV.
+
+This lag value plus the spectral results puts this burst
+in the short hard burst category.
+

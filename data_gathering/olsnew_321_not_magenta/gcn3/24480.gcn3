@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24480
+SUBJECT: LIGO/Virgo S190510g: DESGW counterpart candidates over 80% of the GW localization area
+DATE:    19/05/11 11:06:55 GMT
+FROM:    M. Soares-Santos at Fermi Lab  <marcelle.soares.santos@gmail.com>
+
+LIGO/Virgo S190510g: DESGW counterpart candidates over 80% of the GW localization area
+
+Marcelle Soares-Santos for the DESGW collaboration
+
+
+We report candidate counterparts to the binary neutron star merger S190510g reported by the LIGO/VIRGO Collaboration (GCN Circular No. 24442, updated GCN Circular No. 24448). The region was imaged by DECam on the night of 2019 May 10 (GCN Circular No. 24467) in g,r,z bands.
+
+
+These candidates were identified by our difference imaging pipeline. All newly obtained images were subtracted from deep pre-existing Dark Energy Survey images. The total coverage difference imaged is 28 fields of 3 square degrees each, i.e., a total of 84 square degrees which overlap ~80% of the total localization probability of S190510g.
+
+
+After processing the entire area, we select high-confidence detections (machine learning score>0.7, rejecting dipoles) and perform post-processing vetting of the candidates (rejection of variable objects, matching to host galaxies, and visual inspection).
+
+
+The resulting list of candidates is provided. We encourage followup:
+
+NAME           RA DEC       MAG MAGERR BAND MJD     HOST_Z COMMENT
+
+desgw-190510a  91.526744 -35.541616  21.05 0.03 r 58613.958  0.08 Also reported in GCN No. 24474
+
+desgw-190510b  93.704382 -36.980727  21.13 0.01 r 58613.989  -1.0 Hostless candidate
+
+desgw-190510c  92.851468 -36.517324  20.41 0.01 r 58613.989  0.30 Also reported in GCN No. 24467
+
+desgw-190510d  87.311398 -35.955853  19.85 0.02 r 58613.991  0.31 Also reported in GCN No. 24467
+
+desgw-190510e  89.100926 -30.473987  20.64 0.02 r 58613.986  0.13 Second possible host at z=0.3
+
+desgw-190510f  92.294458 -34.884684  21.30 0.02 r 58613.983  -1.0 Hostless candidate
+
+desgw-190510g  92.468923 -34.08657   21.89 0.01 r 58613.987  -1.0 Hostless candidate
+
+desgw-190510h  87.762354 -27.956502  20.31 0.03 r 58613.988  -1.0 Host found via visual inspection, no redshift
+
+desgw-190510i  91.936973 -30.824747  20.14 0.01 r 58613.996  0.61 Probably not associated with S190510g
+
+desgw-190510j  92.307977 -35.149829  20.75 0.02 r 58613.983  0.17 Redshift suggests possible association with S190510g
+
+desgw-190510k  87.146843 -35.994357  19.75 0.02 z 58613.966  -1.0 Host redshift not available
+
+
+As an alternative means of selecting high interest candidates, we used KN-Classify, a random forest classifier trained on transient light curves from PLAsTiCC models to determine the probability of a transient being a kilonova. The only such candidate found that survived the vetting process was also found by the normal method and is listed in the table above (desgw-190510c).
+
+
+Transients matched to a galaxy at a redshift beyond distances plausible for the S190510g event are interpreted as supernova unassociated with S190510g.
+
+
+
+DESGW collaboration:
+
+Sahar Allam (Fermilab),  James Annis (Fermilab), Iair Arcavi (Tel Aviv University),  Paulo Barchi (INPE/Brazil), Keith Bechtol (LSST), Federico Berlfein (Brandeis U),  Antonio Bernardo (IAG-USP/Brazil), Dillon Brout (University of Pennsylvania), Robert Butler (Indiana University),  Melissa Butner, (Fermilab), Annalisa Calamida (STScI), Hsin-Yu Chen (Harvard U), Chris Conselice (University of Nottingham),  Carlos Contreras (STScI), Jeff Cooke (Swinburne University), Chris D’Andrea (University of Pennsylvania), Tamara Davis (UQ/Australia),  Reinaldo de Carvalho (NAT - Universidade Cruzeiro do Sul/Universidade Cidade de Sao Paulo), H. Thomas Diehl (Fermilab), Zoheyr Doctor (U Chicago),  Alex Drlica-Wagner (Fermilab), Maria Drout (U Toronto), Maya Fishbach (U Chicago), Francisco Forster (U de Chile/Chile), Ryan Foley (UCSC), Joshua Frieman (Fermilab & University of Chicago),  Chris Frohmaier (University of Portsmouth), Ori Fox (STScI), Alyssa Garcia (Brandeis U), Juan Garcia-Bellido (Universidad Autonoma de Madrid), Mandeep Gill (SLAC/Stanford U), Robert Gruendl (NCSA),  Will Hartley (University College London), Kenneth Herner (Fermilab), Daniel Holz (U Chicago), Jorge Horvath (IAG-USP/Brazil), D. Andrew Howell (Las Cumbres Observatory), Richard Kessler (University of Chicago),  Charles Kilpatrick (UCSC), Nikolay Kuropatkin (Fermilab), Ofer Lahav (University College London), Huan Lin (Fermilab), Andrew Lundgren (Portsmouth), Martin Makler (CBPF/Brazil), Curtis McCully (Las Cumbres Observatory),  Robert Morgan (University of Wisconsin-Madison), Gautham Narayan (STScI), Eric Neilsen (Fermilab), Robert Nichol (University of Portsmouth), Antonella Palmese (Fermilab), Francisco Paz-Chinchon (NCSA & UIUC), Maria Pereira (Brandeis University),  Sandro Rembold (UFSM/Brazil), Armin Rest (STScI & JHU), Livia Rocha (IAG-USP/Brazil), Russell Ryan (STScI), Masao Sako (University of Pennsylvania), Samir Salim (Indiana University), David Sand (U of Arizona), Daniel Scolnic (Duke University), J. Allyn Smith (Austin Peay State University),  Mathew Smith (University of Southampton), Marcelle Soares-Santos (Brandeis U), Lou Strolger (STScI), Riccardo Sturani (UFRN/Brazil), Mark Sullivan (University of Southampton), Masaomi Tanaka (NAOJ/Japan), Nozomu Tominaga (Konan U/Japan), Douglas Tucker (Fermilab), Yousuke Utsumi (Stanford U), Stefano Valenti (UC Davis),  Kathy Vivas (NOAO/CTIO), Alistair Walker (NOAO/CTIO), Sara Webb (Swinburne University), Matt Wiesner (Benedictine University), Brian Yanny (Fermilab), Michitoshi Yoshida (NAOJ/Japan), Alfredo Zenteno (NOAO/CTIO), Luidhy Santana-Silva (Valongo Observatory)
+
+
+This project used data obtained with the Dark Energy Camera (DECam), which was constructed by the Dark Energy Survey collaboration, and draws on upon data as distributed by the Science Data Archive at NOAO. NOAO is operated by the Association of Universities for Research in Astronomy (AURA) under a cooperative agreement with the National Science Foundation.
+
+
+

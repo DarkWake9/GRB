@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6648
+SUBJECT: Swift/UVOT Observations of GRB070721A
+DATE:    07/07/21 18:56:56 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL-UCL) and H. Ziaeepour (MSSL-UCL) report on behalf of the 
+Swift/UVOT team:
+
+The Swift/UVOT observed the field of GRB 070721A starting 69 s after the 
+BAT trigger (Ziaeepour et al. GCN Circ.6639). We do not find any source, 
+in any of the UVOT observations inside the refined XRT error circle (Evans 
+et al., GCN Circ.6644). However, we note that there is an 18th mag star 4 
+arcseconds from the XRT refined position.
+
+The 3-sigma upper limits for detecting a source inside the XRT error 
+circle are:
+
+Filter  T_mid(s)  Exp(s)  Mag (3-sig upper limit)
+=================================================
+White   1088      156     > 21.7
+V       1194      453     > 20.9
+B       1509      97      > 19.5
+U       1359      117     > 20.0
+UVW1    1334      117     > 19.6
+UVM2    1309	  117     > 19.2
+UVW2    1530      97      > 19.4
+
+where T_mid is the weighted mid time of the coadded exposure. The values 
+quoted above are not corrected for the expected Galactic extinction 
+corresponding to a reddening of E(B-V) = 0.01 mag in the direction of the 
+burst (Schlegel et al. 1998).
+

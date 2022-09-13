@@ -1,0 +1,42 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3479
+SUBJECT: GRB 050525A: Swift-BAT refined analysis
+DATE:    05/05/25 15:20:37 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+J. Cummings (GSFC/NRC), L. Barbier (GSFC), S. Barthelmy (GSFC),
+M. Chester (PSU), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (UMD), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+F. Marshall (GSFC), T. Mitani (ISAS), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/NRC), G. Sato (ISAS),
+M. Suzuki (Saitama), J. Tueller (GSFC),
+
+on behalf of the Swift - BAT team:
+
+At 00:02:53 UT Swift-BAT detected GRB 050525A (trigger=130088) (GCN
+Circ 3466, Band, et al.). The refined BAT ground position is (RA,Dec)
+= 278.140,+26.344, [deg; J2000] {18:32:34, +26:20:38} +- 0.5 arcmin,
+(95% containment).  This position is consistent with the reported
+optical transient positions to within 20 arcsec (GCN Circ 3468, 
+Rykoff et al.; GCN Circ 3470, Torii et al.).
+
+The image significance is 148 sigma, making GRB 050525 the most
+significant BAT-imaged GRB to date.  The burst was 26 degrees off
+axis, and the partial coding fraction was 85%.
+
+The mask-weighted light curve shows two peaks with duration of 2
+and 5 seconds respectively.  Each peak has two sub-pulses, which
+become more distinct at higher energies.  T90 is (8.8 +- 0.5) seconds
+and T50 is (5.2 +- 0.5) seconds (15-350 keV; estimated errors include
+systematics).
+
+The spectrum has significant curvature, and is not consistent with a
+single power law model.  Fitting to a cut-off power law yields a
+low-energy photon index of 1.0 +- 0.1, Epeak is 79 +- 4 keV.  Fitting 
+to a "Band" GRB spectral model yields the same spectral parameters, 
+but the "beta" index is unconstrained.  Chi2 for the Band model is
+the same as for the cutoff power law.  The fluence in the 15-350 keV 
+band is (2.0 +- 0.1) x 10^-5 erg/cm2.  The 1-s peak photon flux, 
+starting at T0+1.63 second in the 15-350 keV band is (48 +- 1) 
+ph/cm2/s.  All the quoted errors are at the 90% confidence level.
+

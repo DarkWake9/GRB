@@ -1,0 +1,83 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25302
+SUBJECT: LIGO/Virgo S190728q: New optical candidates from the DESGW program
+DATE:    19/08/09 05:17:38 GMT
+FROM:    M. Soares-Santos at Fermi Lab  <marcelle.soares.santos@gmail.com>
+
+Marcelle Soares-Santos (Brandeis U), Kenneth Herner (Fermilab), Alyssa Garcia (Brandeis U), Antonella Palmese (Fermilab), Robert Morgan (U. of Wisconsin-Madison), Nora Sherman (Fermilab), Tristan Bachmann (U Chicago), James Annis (Fermilab)
+
+
+On behalf of the DESGW collaboration*
+
+
+
+We report five new candidate counterparts to the LIGO/Virgo binary black hole merger S190728q (LVC, GCN No. 25187) found by our target of opportunity program, and provide additional photometry on one candidate discovered by GROWTH (PIs: Andreoni & Goldstein, GCN No. 25215).
+
+
+DESGW observed 108 square degrees, covering 81% of the LALInference localization probability (LVC, CGN No. 25208) to 23rd r-band magnitude in five epochs distributed within one week from the time of merger:
+
+
+EPOCH DELTA_MJD NIGHT
+
+1 1.254 20190728
+
+2 1.307 20190728
+
+3 2.193 20190729
+
+4 5.419 20190801
+
+5 7.411 20190803
+
+
+Images were processed by our difference imaging pipeline (Herner et al. 2017; see also Soares-Santos et al. 2015, 2017; Doctor et al. 2018; Morgan et al. 2019 for recent applications) using publicly available DECam images as templates. We employ a machine learning code (autoscan, Goldstein et al. 2015) to reject subtraction artifacts. Candidates were initially selected by requiring at least two high signal to noise detections on any two nights, rejecting asteroids. We then applied catalog-based vetting to reject variable stars, variable AGNs, and candidates with hosts at redshifts inconsistent with the distance reported by the LVC for S190728q (874 +/- 171 Mpc). Those catalogs included Gaia DR2, SDSS DR15, and DECaLS DR8. The final vetting was done via visual inspection. We matched our remaining candidates using the Transient Name Server to avoid reporting those previously reported by other groups. In our final sample, we find 5 new candidates that show a significant (2 sigma) decrease in flux. This requirement is motivated by the fact that our primary contaminant, supernovae, typically vary in timescales that are much longer than one week. The five candidates that meet all of our criteria are:
+
+
+NAME TNS_NAME RA DEC DISCOVERY_MJD DISCOVERY_MAG LASTOBS_MJD LASTOBS_MAG
+
+desgw-190728a 2019myj 316.871395 13.250478 58693.129 22.41 58699.286 22.65
+
+desgw-190728b 2019myf 318.831885 17.605576 58693.152 21.83 58699.309 22.00
+
+desgw-190728c 2019myg 314.8038    8.559899 58693.146 22.77 58699.303 22.66
+
+desgw-190728d 2019myh 317.40364  12.125172 58693.149 22.29 58699.306 22.64
+
+desgw-190728e 2019myi 316.382118 12.397139 58693.149 21.91 58699.306 22.17
+
+
+We also checked for increasing flux at the same significance level and found no additional candidates.
+
+
+The host galaxy redshift is available for desgw-190728b and is marginally consistent with the LVC estimate of distance to the merger. Candidate desgw-190728e has a clear host without redshift information. The other three candidates appear to be hostless.
+
+
+CANDIDATE_ID HOST_ID HOST_MAG HOST_Z HOST_ZERR
+
+desgw-190728b SDSS J211519.63+173623.6 18.65 0.1147 0.0253
+
+desgw-190728e 2MASX J21053105+1221566  18.22 -- --
+
+
+We did detect all of the nine candidates previously reported by GROWTH (Goldstein et al., GCN 25215). Two of them met our selection criteria: 2019lvy and 2019lvu. The former we exclude due to a pre-merger detection in ZTF. We provide additional photometry for their remaining candidate:
+
+
+NAME TNS_NAME RA DEC DISCOVERY_MJD DISCOVERY_MAG LASTOBS_MJD LASTOBS_MAG
+
+2019lvu DG19jufnb 317.097475 14.326338 58693.129 20.84 58699.288 21.78
+
+
+All magnitudes reported are observed magnitudes. We encourage spectroscopic followup of these candidates.
+
+
+Data processing of images from all five epochs has concluded and a detailed analysis is ongoing. We expect to report updates soon.
+
+
+The DECam Search & Discovery Program for Optical Signatures of Gravitational Wave Events (DESGW) is carried out by the Dark Energy Survey (DES) collaboration in partnership with wide ranging groups in the community. DESGW uses data obtained with the Dark Energy Camera (DECam), which was constructed by the DES collaboration with support from the Department of Energy and member institutions, and utilizes data as distributed by the Science Data Archive at NOAO. NOAO is operated by the Association of Universities for Research in Astronomy (AURA) under a cooperative agreement with the National Science Foundation.
+
+
+*DESGW collaboration:
+
+
+Sahar Allam (Fermilab), James Annis (Fermilab), Iair Arcavi (Tel Aviv University), Tristan Bachmann (U Chicago), Paulo Barchi (INPE/Brazil), Thomas Beatty (U of Arizona) Keith Bechtol (U of Wisconsin-Madison), Federico Berlfein (Brandeis U), Antonio Bernardo (IAG-USP/Brazil), Dillon Brout (University of Pennsylvania), Robert Butler (Indiana University), Melissa Butner, (Fermilab), Annalisa Calamida (STScI), Hsin-Yu Chen (Harvard U), Chris Conselice (University of Nottingham), Carlos Contreras (STScI), Jeff Cooke (Swinburne University), Chris D’Andrea (University of Pennsylvania), Tamara Davis (UQ/Australia), Reinaldo de Carvalho (NAT - Universidade Cruzeiro do Sul/Universidade Cidade de Sao Paulo), H. Thomas Diehl (Fermilab), Zoheyr Doctor (U Chicago), Alex Drlica-Wagner (Fermilab), Maria Drout (U Toronto), Maya Fishbach (U Chicago), Francisco Forster (U de Chile/Chile), Ryan Foley (UCSC), Joshua Frieman (Fermilab & University of Chicago), Chris Frohmaier (University of Portsmouth), Ori Fox (STScI), Alyssa Garcia (Brandeis University), Juan Garcia-Bellido (Universidad Autonoma de Madrid), Mandeep Gill (SLAC/Stanford U), Robert Gruendl (NCSA), Will Hartley (University College London), Kenneth Herner (Fermilab), Daniel Holz (U Chicago), Jorge Horvath (IAG-USP/Brazil), D. Andrew Howell (Las Cumbres Observatory), Richard Kessler (University of Chicago), Charles Kilpatrick (UCSC), Nikolay Kuropatkin (Fermilab), Ofer Lahav (University College London), Huan Lin (Fermilab), Andrew Lundgren (Portsmouth), Martin Makler (CBPF/Brazil), Clara Martinez-Vazquez (CTIO/NOAO), Curtis McCully (Las Cumbres Observatory), Mitch McNanna (U of Wisconsin-Madison), Robert Morgan (U of Wisconsin-Madison), Gautham Narayan (STScI), Eric Neilsen (Fermilab), Robert Nichol (University of Portsmouth), Antonella Palmese (Fermilab), Francisco Paz-Chinchon (NCSA & UIUC), Matthew Penny (OSU), Maria Pereira (Brandeis University), Sandro Rembold (UFSM/Brazil), Armin Rest (STScI & JHU), Livia Rocha (IAG-USP/Brazil), Russell Ryan (STScI), Masao Sako (University of Pennsylvania), Samir Salim (Indiana University), David Sand (U of Arizona), Daniel Scolnic (Duke University), Nora Sherman (Fermilab), J. Allyn Smith (Austin Peay State University), Mathew Smith (University of Southampton), Marcelle Soares-Santos (Brandeis U), Lou Strolger (STScI), Riccardo Sturani (UFRN/Brazil), Mark Sullivan (University of Southampton), Masaomi Tanaka (NAOJ/Japan), Nozomu Tominaga (Konan U/Japan), Douglas Tucker (Fermilab), Yousuke Utsumi (Stanford U), Stefano Valenti (UC Davis), Kathy Vivas (NOAO/CTIO), Alistair Walker (NOAO/CTIO), Sara Webb (Swinburne University), Matt Wiesner (Benedictine University), Brian Yanny (Fermilab), Michitoshi Yoshida (NAOJ/Japan), Alfredo Zenteno (NOAO/CTIO), Luidhy Santana-Silva (Valongo Observatory), and the Dark Energy Survey (DES) Collaboration.
+

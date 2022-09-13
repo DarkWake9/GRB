@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28174
+SUBJECT: Fermi-GBM Sub-Threshold candidate for GRB 200729A
+DATE:    20/07/30 04:09:25 GMT
+FROM:    Christian Malacaria at NASA-MSFC/USRA  <cmalacaria@usra.edu>
+
+C. Malacaria (NASA-MSFC/USRA), E. Burns (NASA-GSFC), C. M. Hui (NASA-MSFC) 
+and P. Veres (UAH) report on behalf of the Fermi-GBM team:
+
+At 19:38:05 UT on 29 July 2020, the Swift Burst Alert Telescope (BAT)
+triggered and located GRB 200729A (Evans et al. 2020, GCN 28165).
+
+There was no Fermi-GBM onboard trigger around the event time of GRB 200729A. 
+An automated, blind search for short gamma-ray 
+bursts below the onboard triggering threshold in Fermi-GBM also 
+identified no counterpart candidates.
+The GBM targeted search [1], 
+the most sensitive, coherent search for GRB-like signals, 
+was run from +/-30 s around the GRB 200729A time.
+
+The targeted search identified a transient source with an offset 
+of about 7 s with respect to the Swift-BAT trigger time, 
+consistent with the Swift-BAT light curve peak.
+The candidate most significant timescale is 8.192 s centered at the offset time, 
+with a log likelihood ratio of 62.
+The Swift-XRT location is slightly out of the 3 sigma Fermi-GBM contours.
+However, given the reasonable coincidence of trigger time, 
+light curve peak-time and morphology,
+this candidate is likely coincident with GRB 200729A.
+The source spectrum at all significant time scales identified by the search 
+is best fit by a power law function with an exponential
+high-energy cutoff. 
+The fit was performed between the Fermi-GBM trigger time T0 and T0+33 s.
+The power law index is 0.70 +/- 0.53, 
+and the cutoff energy, parameterized as Epeak, is 159 +/- 19 keV. 
+
+The spectral analysis results presented above are preliminary.
+
+[1] Goldstein et al. 2019 arXiv:1903.12597
+

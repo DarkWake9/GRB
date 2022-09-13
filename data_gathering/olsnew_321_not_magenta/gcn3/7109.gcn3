@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7109
+SUBJECT: GRB 071118, Swift-BAT refined analysis
+DATE:    07/11/18 20:39:20 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. Markwardt (GSFC/UMD), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+D. Palmer (LANL), T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+303 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 071118 (trigger #296856)
+(Cummings, et al., GCN Circ. 7106).  The BAT ground-calculated position is
+RA, Dec = 299.839, 70.130 deg, which is 
+   RA(J2000)  = 19h 59m 21.4s 
+   Dec(J2000) = 70d 07' 47" 
+with an uncertainty of 2.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+ 
+The mask-weighted light curve shows a broad single peak starting at ~T-25 sec,
+peaking at ~T+55 sec, and ending at ~T+110 sec.
+T90 (15-350 keV) is 71 +- 20 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T+4.5 to T+81.2 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.63 +- 0.29.  The fluence in the 15-150 keV band is 5.0 +- 1.0 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+80.26 sec in the 15-150 keV band
+is 0.3 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+This burst satisfies Sakamoto/Ukwatta Swift-BAT possible high-z criteria:
+1) Power law photon index = 1.63 (PL photon index < 2)
+2) 1-s peak photon flux = 0.3    (1-s peak photon flux < 1.0 ph/cm2/s)
+3) Light curve variance = 4e-05  (Variance < 0.0001)
+4) T90/(Peak photon flux) = 220  (T90/(Peak photon flux) > 200)
+Based on a limited sample of bursts, these criteria yield
+an 85% chance it has a redshift greater than 3.5.
+Deep IR observations are strongly encouraged.
+

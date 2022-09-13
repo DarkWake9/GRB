@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21369
+SUBJECT: Swift triggers on a new galactic source: Swift J181723.1-164300
+DATE:    17/07/28 17:33:02 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), A. P. Beardmore (U Leicester),
+D. N. Burrows (PSU), A. Cholden-Brown (PSU), N. P. M. Kuin (UCL-MSSL),
+A. Y. Lien (GSFC/UMBC), F. E. Marshall (NASA/GSFC),
+K. L. Page (U Leicester), D. M. Palmer (LANL), P. Romano (INAF-OAB),
+B. Sbarufatti (INAF-OAB/PSU), M. H. Siegel (PSU) and
+E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift Team:
+
+At 16:57:57 UT on 28 July 2017, the Swift Burst Alert Telescope (BAT) triggered and
+located a new galactic source Swift J181723.1-164300 (trigger=765081). 
+Swift slewed immediately to the source.  The BAT on-board calculated location is 
+RA, Dec 274.368, -16.722 which is 
+   RA(J2000)  =  18h 17m 28s
+   Dec(J2000) = -16d 43' 17"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows several peaks
+with a total duration of about 20 sec.  The peak count rate
+was ~600 counts/sec (15-350 keV), at ~1 sec after the trigger. 
+
+The XRT began observing the field at 16:59:22.4 UT, 84.5 seconds after
+the BAT trigger. Using promptly downlinked data we find a fading,
+uncatalogued X-ray source located at RA, Dec 274.34646, -16.71671 which
+is equivalent to:
+   RA(J2000)  = 18h 17m 23.15s
+   Dec(J2000) = -16d 43' 00.2"
+with an uncertainty of 3.6 arcseconds (radius, 90% containment). This
+location is 76 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 90 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+Due to the proximity of this source to the Galactic plane and center
+(lon = 14.23 deg, lat = -0.28 deg) and the very soft and absorbed
+spectrum seen in initial XRT analysis, we believe that this is
+a Galactic source and not a GRB. 
+
+GCN OPS NOTE(30july17):  Per author's request, the date of the event
+was added for clarity.]
+

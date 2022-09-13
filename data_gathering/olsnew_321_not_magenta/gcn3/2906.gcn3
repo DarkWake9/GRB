@@ -1,0 +1,43 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2906
+SUBJECT: Swift-BAT Time History of GRB041219
+DATE:    04/12/24 14:58:45 GMT
+FROM:    Ed Fenimore at LANL  <efenimore@lanl.gov>
+
+E. Fenimore (LANL), S. Barthelmy (GSFC), J. Cummings (GSFC), N. Gehrels
+(GSFC), D. Hullinger (GSFC/UMD), H. Krimm (GSFC/USRA), C. Markwardt (UMD),
+K. McLean (LANL), D. Palmer (LANL), A. Parsons (GSFC), J. Tueller (GSFC)  
+on behalf of the Swift BAT team.
+
+The INTEGRAL-Swift Burst of 041219 (GCN 2866, Gotz et al, GCN 2874,
+Barthelmy et al.) had a time history that is rather rare: a precursor was
+followed by 200 sec of mostly quiet emission before a huge spiky outburst
+that lasted an additional 300 sec. This is one of the few events for which
+there have been simultaneous ground observations. It is the first event
+with simultaneous IR observations (GCN 2870, Blake and Bloom) and there
+has been a near-threshold detection in the optical (GCN 2889, Wren et
+al.). Given the large interest in this burst and the scientific value of
+combining the simultaneous gamma-ray and ground observations, we provide
+at the web site below the GRB041219 4-channel data (15-25 keV, 25-50 keV,
+50-100 keV, 100-350 keV) for -341 s before to +558 s after the BAT trigger
+with 0.064 s resolution. Provided are figures for each energy band, the 15
+- 350 keV energy band, and a text table of the data. We have not corrected
+for the deadtime. Testing has shown that our saturation level is > 1E6 Hz,
+so we were orders of magnitude below our saturation limit.
+
+The background was very smooth before the event and, apparently, also
+within the 8 minute long burst. Beyond 560 s after the trigger, there is a
+long smooth increase in the count rate, but it does not image to a point
+source, so it is probably due to trapped radiation. We used 300 s of data
+ending at 41 s before the trigger to determine background. Many features
+are common to other GRBs: peaks that are narrower at higher energy, peaks
+with FWHM of ~ 1 s, and a general softening of the event with time. Time in
+the figure is from the BAT initial trigger at 6138.68 UT. BAT located
+the event 14 s later, at which time Swift would have slewed XRT and UVOT
+as well as sent out a TDRSS notice if slewing and TDRSS messages had been
+enabled.
+
+See http://gcn.gsfc.nasa.gov/gcn/other/041219_swift_bat.html
+
+
+

@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6019
+SUBJECT: GRB 070110:  Continued Detection and Request for Ground Followup
+DATE:    07/01/19 20:02:14 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+H. A. Krimm (GSFC/USRA),  D. N. Burrows (PSU), M. Chester (PSU),
+D. Grupe (PSU), V. Mangano (INAF-IASFPA), F. Marshall (GSFC),
+J. Nousek (PSU), B. Sbarufatti (INAF-IASFPA), N. Gehrels (GSFC)
+report on behalf of the Swift Team
+
+GRB070110 has been identified as a "Swift Burst of Interest"
+(Krimm et al, GCN 6014) due to the remarkable irregular light curve
+seen in X rays, and the long duration and slow fading of the optical
+emission.  We report that the U band emission has now faded below
+the  UVOT threshold of detectability (roughly 23rd magnitude),
+so the UVOT can no longer follow this GRB, but we project that the
+optical brightness will continue to slowly fade, making it a possible
+candidate for late-time optical detection.  We are continuing
+observations with the XRT and we encourage ground-based observers
+to attempt measurements of the afterglow, if they are capable of
+detecting an afterglow to our estimate of V=22.7 over the next five days.
+
+The UVOT light curves (Figure 4 in GCN Report 26.3
+http://gcn.gsfc.nasa.gov/reports/report_26_3.pdf )  show
+power-law decays with the following indices.  V and B bands
+(T+1ksec to T+200 ksec): -0.5; U band (T+ 10 ksec to T+500 ksec):
+-0.7.  Converting to magnitudes using the zero points for the
+filters yields the following fits:
+Vmag = 21.2 + 1.25*log10(t)
+Bmag = 21.9 + 1.25*log10(t)
+Umag = 21.8 + 1.75*log10(t).
+where the time, t, is measured in days from the trigger.  For example
+at 7:00 UT on Jan. 20, 2007, the predicted V magnitude is 22.4.
+
+The X-ray light curve (see Figure 2 in GCN Report 26.3) is decaying
+very slowly and in fact the three most recent data points suggest a
+slight upward trend.  Fitting the data after the steep drop in flux
+(from T+35 ksec to T+800 ksec), but excluding the big rise at
+around T+65 ksec, the best fit decay index is -0.6 +/- 0.1.  If the
+source follows this decay law we predict a count rate in the XRT
+(0.3-10.0 keV) of 1.5 X 10^-3 cts/sec on Jan. 22, 2007.  If it
+continues to decay at this rate, the source will continue to be bright
+enough to be observed with the XRT during the month of February 2007.
+
+We note that this source (RA/dec:   0h 03m 39.27s, -52s 58' 26.9",
+epoch 2000.0) is currently observable from an observatory at
+-29 degrees latitude and is currently above 30 degrees elevation
+for approximately 2 hours after astronomical twilight.  This time
+will be only about one hour by the end of January.
+

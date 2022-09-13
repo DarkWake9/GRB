@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18634
+SUBJECT: Swift-BAT refined analysis of trigger 664624 from SGR J1819-1600
+DATE:    15/11/22 21:22:32 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+D. M. Palmer (LANL), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), K. L. Page (U Leicester), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-120 to T+242 sec from the recent telemetry downlinks,
+we report further analysis of an outburst from SGR J1819-1600  (trigger #664624)
+(Page, et al., GCN Circ. 18632).  The BAT ground-calculated position is
+RA, Dec = 274.714, -15.981 deg, which is 
+   RA(J2000)  =  18h 18m 51.4s 
+   Dec(J2000) = -15d 58' 52.6" 
+with an uncertainty of 2.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 86%.
+ 
+The mask-weighted light curve shows a single spike starting at T_zero.
+T90 (15-350 keV) is 0.032 +- 0.14 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T+0.000 to T+0.032 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.93 +- 0.38.  The fluence in the 15-150 keV band is 1.5 +- 0.4 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.00 sec in the 15-150 keV band
+is 4.8 +- 1.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/664624/BA/
+

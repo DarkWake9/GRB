@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27667
+SUBJECT: Konus-Wind observation of a very intense bursting activity of SGR 1935+2154
+DATE:    20/04/28 18:47:28 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The onset of a new period of activity of SGR 1935+2154
+(Swift-BAT detection: Barthelmy et al., GCN Circ. 27657,
+Palmer, GCN Circ. 27665;
+Fermi-GBM observation: Fletcher, GCN Circ. 27659;
+MAXI-GSC detection: Sugawara et al., GCN Circ. 27661;
+CALET-GBM observation: Ricciarini et al., GCN Circ. 27663;
+AstroSat-CZTI detection: Marathe et al., GCN Circ. 27664)
+has been detected by Konus-Wind on 2020 April 27.
+
+A series of several tens of bursts triggered Konus-Wind at
+66696.729 s UT (18:31:36.729). The series consists of
+two very crowded clusters:
+from -0.252 s to 8 s and
+from 77 s to 116 s relative to the trigger time
+(numerous weaker bursts are seen between intense bursts).
+
+The most intense episode of the cluster started at ~85 s
+after trigger time. It had a duration of ~23.6 s,
+a fluence of 1.09(-0.02,+0.02)x10^-4 erg/cm2,
+and a 64-ms peak flux, measured from T0+95.680 s,
+of 2.28(-0.27,+0.29)x10^-5 erg/cm2/s
+(both in the 20 - 200 keV energy range).
+
+The time-integrated spectrum of this cluster
+(measured from T0+74.496 to T0+91.392)
+is well fit by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.48(-0.17,+0.18)
+and Ep = 35(-1,+1) keV (chi2 = 47/29 dof).
+A double blackbody function fits this spectrum equally well
+(chi2 = 38/28 dof), with
+the cold BB temperature of 4.7 (-0.5,+0.6) keV and
+the hot BB temperature of 12.5 (-0.4,+0.5) keV.
+
+The Konus-Wind light curve of this trigger is available at
+http://www.ioffe.ru/LEA/SGRs/200427_T66696/
+
+Further SGR 1935+2154 bursts have triggered KW on 2020
+April 27, so far, at 71024.348 s UT (19:43:44.348),
+79162.174 s UT (21:59:22.174), and 85471.654 s UT
+(23:44:31.654).
+
+This burst cluster resembles the series of bursts from
+SGR 1900+14 and SGR 1806-20 detected about three months
+before giant flares from these sources observed on
+1998 August 27 and 2004 December 27, respectively
+(Aptekar et al., ApJSS v. 137, p. 227, 2001, Golenetskii
+et al., GCN Circ. 2769, Golenetskii et al., GCN Circ. 2896).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

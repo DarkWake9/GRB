@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24469
+SUBJECT: LIGO/Virgo  S190510g: Insight-HXMT/HE updated observation
+DATE:    19/05/11 04:45:33 GMT
+FROM:    Qi Luo at IHEP  <luoqi@ihep.ac.cn>
+
+Q. Luo, C. Cai, Q. B. Yi, S. Xiao, C. K. Li, 
+X. B. Li, G. Li, J. Y. Liao, S. L. Xiong, 
+C. Z. Liu, X. F. Li, Z. W. Li, Z. Chang, A. M. Zhang, 
+Y. F. Zhang, X. F. Lu, C. L. Zou (IHEP), Y. J. Jin, 
+Z. Zhang (THU), T. P. Li (IHEP/THU), F. J. Lu, L. M. Song, 
+M. Wu, Y. P. Xu, S. N. Zhang (IHEP), 
+report on behalf of the Insight-HXMT team: 
+
+Following up on the updated localization (GCN #24448), we have 
+re-analyzed Insight-HXMT/HE data of S190510g (GCN #24451). 
+The previous estimated location we used (GCN #24451) is 
+RA = 190.0, Dec = 0.0 (J2000, degrees).
+And the updated estimated location we used is
+RA = 90.0, Dec = -34.0 (J2000, degrees).
+
+Insight-HXMT was taking data normally around the GW trigger time
+(T0=2019-05-10 02:59:39 UTC). For the preferred sky map (GCN #24448),
+at T0, all of the LIGO localization region was covered 
+by Insight-HXMT without occultation by the Earth.
+
+Within T0 +/- 100 s, no significant excess events (SNR > 3 sigma) are 
+found in a search of the Insight-HXMT/HE raw light curves.
+
+Assuming the GW counterpart GRB with three typical GRB Band spectral 
+models, two typical duration timescales (1 s, 10 s) from the peak 
+position of the LIGO-Virgo location probability map, the 5-sigma 
+upper-limits fluence (0.2 - 5 MeV, incident energy) are reported below:
+
+Band model 1 (alpha=-1.9, beta=-3.7, Ep=70 keV):
+1 s:   5.5e-08 erg cm^-2
+10 s:  1.5e-07 erg cm^-2
+
+Band model 2 (alpha=-1.0, beta=-2.3, Ep=230 keV):
+1 s:   9.2e-08 erg cm^-2
+10 s:  2.6e-07 erg cm^-2
+
+Band model 3 (alpha=-0.0, beta=-1.5, Ep=1000 keV):
+1 s:   2.4e-07 erg cm^-2
+10 s:  8.3e-07 erg cm^-2
+
+All measurements above are made with the CsI detectors operating in the
+regular mode with the energy range of about 80-800 keV (deposited energy).
+Only gamma-rays with energy greater than about 200 keV can penetrate
+the spacecraft and leave signals in the CsI detectors installed inside
+of the spacecraft.
+
+Insight-HXMT is the first Chinese space X-ray telescope, which was 
+funded jointly by the China National Space Administration (CNSA) and 
+the Chinese Academy of Sciences (CAS). 
+More information could be found at: http://www.hxmt.org.

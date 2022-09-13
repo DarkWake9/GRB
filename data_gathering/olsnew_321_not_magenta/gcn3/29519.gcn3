@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29519
+SUBJECT: IceCube-210210A: Two Additional Optical Candidate Counterparts Found by DECam
+DATE:    21/02/17 19:42:49 GMT
+FROM:    Robert Morgan at U. of Wisconsin-Madison  <robert.morgan@wisc.edu>
+
+Robert Morgan (U of Wisconsin-Madison), Alyssa Garcia (U of Michigan), Alex Drlica-Wagner (Fermilab), Kathy Vivas (NOIRLab), Ken Herner (Fermilab), Keith Bechtol (U of Wisconsin-Madison), Kyoungsoo Lee (Purdue U), Eric Gawiser (Rutgers U), Yi-Kuan Chiang (Ohio State U), Hwihyun Kim (NOIRLab), and Yujin Yang (KASI) report:
+
+
+We expand on the DECam follow-up of IceCube-210210A (GCN 29461) presented in GCN 29501. We collected an additional epoch of gri observations on 2021-02-15 at 09:00 UT using 150 second exposures and reaching 10-sigma limiting magnitudes of approximately 23 mag. Approximately 75.1% of the 90% localization area was covered by DECam. We reduced the DECam images using the DESGW difference imaging pipeline (Herner et al. 2020), using pre-existing DECaLS and Blink images as templates.
+
+
+We required that candidate counterparts are (1) not found in GAIA DR3, (2) detected on two nights in the same filter by Source Extractor with 1 of the detections also passing a machine learning artifact detection program (autoscan, Goldstein et. al 2015), (3) not found in a spatial-temporal look-up in the Minor Planet Center or Near Earth Object Catalog, (4) not ruled out as an artifact by visual inspection.
+
+
+Previously (in GCN 29501) we reported four optical counterpart candidates (AT2021ctp, AT2021ctq, AT2021ctr, and AT2021cts). AT2021ctp shows no temporal evolution in our recent observing epoch and we no longer consider it to be a candidate counterpart. We also find two additional candidate counterparts:
+
+| NAME           | TNS (IAU) | RA         | DEC      | HOST                  |
+
+| DESNU-e-892577 | AT2021dcz | 206.769807 | 4.089444 | PSO J206.7696+04.0897 |
+
+| DESNU-f-893888 | AT2021ddb | 206.257085 | 4.321923 | PSO J206.2572+04.3211 |
+
+
+With recent photometry:
+
+| NAME           | MJD_NITE_3  | MAG_NITE_3 | FILTER |
+
+| DESNU-e-892577 | 59260.368   | 23.24      | i      |
+
+| DESNU-f-893888 | 59260.359   | 23.16      | g      |
+
+
+Notes:
+
+- DESNU-e-892577 showed an initial rise in brightness on the first two nights after IceCube-210210A and is now fading, making a strong case for temporal coincidence with the neutrino.
+
+
+We will continue to monitor the five total DECam candidates (AT2021ctq, AT2021ctr, AT2021cts, AT2021dcz, and AT2021ddb) as well as one ZTF candidate (AT2021clu) over the next 2 weeks, as well as the 90% localization area of IceCube-210210A. Spectroscopic characterization of all above candidates, and / or a spectroscopic redshift of the host is encouraged. The TNS reports for these candidates contain DECam discovery images in the Comments section.
+
+

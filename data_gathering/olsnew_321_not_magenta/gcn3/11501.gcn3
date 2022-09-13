@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11501
+SUBJECT: Tentative redshift of GRB101225A (Christmas's burst) from Swift-XRT data
+DATE:    10/12/27 16:29:52 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+S. Campana (INAF-OAB), S. Covino (INAF-OAB),
+J.L. Racusin (NASA/GSFC) and K. L. Page (U Leicester)
+report on behalf of the Swift Team:
+
+GRB 101225A was detected by Swift BAT as an image trigger (Racusin
+al. 2010, GCN 11493). Swift XRT started observing 1383 s after the
+trigger observing the main event. The afterglow is very bright and
+the XRT remained in the Windowed Timing (WT) mode for two consecutive
+orbits. Within each orbit the spectrum remain constant as judged from
+the hardness ratio and from the power law photon index.
+We extract the XRT spectra for each of the first two orbits, separately.
+We then fit the two spectra within XSPEC using the model
+tbabs * ztbabs * (cutoff), keeping the same absorption pattern and leaving
+free the cutoff power-law model for the two spectra (the cutoff power-law
+model provides much better results in terms of column density evaluation
+with respect to a simple power-law model when small spectral variations
+are present).
+We assume a Galactic column density of 7.9x10^20 cm-2 (Kalberla et al.
+2005, A&A 440 775) and we allow for a 30% uncertainty in the fit. We
+binned the spectra to 50 counts per energy bin and used the latest (v12)
+response matrix. The detection in the UVW2 filter by UVOT (Siegel &
+Racusin 2010, GCN 11499) constrains the redshift to be <1.4.
+The fit with the cutoff power-law is relatively good with a reduced
+chi^2 of 1.13 (508 dof).
+Motivated by the similarities with GRB 060218 (extremely long duration,
+soft prompt-emission spectrum, bright smoothly decaying X-ray afterglow
+light curve, UV detection with optical non-detection), we fit the X-ray
+spectrum including a blackbody component.
+The fit improves considerably (and the cutoff energy goes well above the
+XRT energy band, becoming unimportant for both spectra).
+The new fit provides a reduced chi^2 of 1.07 (504 dof), based on an F-test
+the addition of the blackbody component improves the fit by 4.2 sigma.
+In the intrinsic column density vs. redshift plane there is just one
+deep minimum hinting for a redshift z=0.07^+0.13_-0.04 (90% confidence
+level) and an intrinsic column density N_H(z)=(1.5^+0.5_-0.2)x10^21 cm^-2.
+The power law component shows a small softening from the first to the
+second orbit, with a photon index around 2.2-2.4.
+The blackbody component is hot with a temperature of ~1 keV, consistent
+among the two observations. The blackbody radius decreases from the first
+observation to the second from ~2x10^10 cm to ~0.6x10^10 cm.
+
+Ground-based optical follow-up observations are strongly encouraged in order
+to get spectroscopic confirmation for the redshift estimate and, eventually,
+to monitor the coming out of a supernova.
+

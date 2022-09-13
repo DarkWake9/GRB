@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27497
+SUBJECT: GRB 200405B: Swift/BAT-GUANO detection and *possible* arcminute localization of a short GRB
+DATE:    20/04/05 22:52:50 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+James DeLaunay (PSU), Aaron Tohuvavohu (U Toronto), and Jamie Kennea
+(PSU) report:
+
+Swift/BAT did not trigger on GRB 200405B (T0: 2020-04-05 03:53:38 UTC).
+
+The INTEGRAL/SPI-ACS Notice #8579, distributed at T0+35 seconds
+triggered the Swift Mission Operations Center operated Gamma-ray
+Urgent Archiver for Novel Opportunities (GUANO; Tohuvavohu et al.
+2020, in prep).
+
+Upon trigger by these notices, GUANO sent a command to the Swift Burst
+Alert Telescope (BAT) to save 90 seconds of BAT event-mode data from
+[-45,+45] seconds around the time of the burst.
+All the requested event mode data was delivered to the ground.
+
+In a ground analysis of the data, we detect the burst in the full
+detector-summed rates (no localization information) with an SNR of ~9.
+The detected duration is ~0.5 seconds.
+
+With a maximum likelihood analysis (DeLaunay et al. 2020, in prep.) on
+the event-mode data we detect a location for the burst with a square
+root of the test statistic, sqrt(TS), of 12.4. The sqrt(TS) behaves
+similarly to SNR.
+Using the normal BAT imaging technique, we find an SNR of ~4 at the
+same location.
+
+The BAT ground-calculated position is
+RA, Dec = 62.7894, -51.5326 deg which is
+   RA(J2000)  = 4h 11m 9.5s
+   Dec(J2000) =  -51d 31’ 57.4”
+with an uncertainty of 4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 11.6%.
+
+Due to the low partial coding, and the lack of any localization
+information from SPI-ACS for a consistency check, we stress that while
+this localization is significant, we cannot be certain of whether or
+not the burst actually originated from outside the BAT coded field-of-view.
+
+XRT and UVOT follow-up has been triggered and observations of this
+region have already begun. Results of follow-up observations will be
+reported in future circulars.
+
+GUANO is a fully autonomous, extremely low latency, spacecraft
+commanding pipeline designed for targeted recovery of BAT event mode
+data around the times of compelling astrophysical events to enable
+more sensitive GRB searches.
+
+A live reporting of Swift/BAT event data recovered by GUANO can be
+found at: https://www.swift.psu.edu/guano/
+

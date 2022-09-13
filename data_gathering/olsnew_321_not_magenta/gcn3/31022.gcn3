@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31022
+SUBJECT: Konus-Wind detection of GRB 211023A
+DATE:    21/10/28 21:24:26 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, D. Frederiks, S. Golenetskii, A. Lysenko,
+D. Svinkin, A. Tsvetkova,  M. Ulanov, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 211023A (Fermi-GBM detection:
+Fermi GBM Team, GCN 30958; Lesage et al., GCN 30965;
+Fermi-LAT detection: Di Lalla et al., GCN 30961;
+AGILE detection: Ursi et al., GCN 30969)
+triggered Konus-Wind at T0=47199.142 s UT (13:06:39.142).
+
+The burst light curve shows a multipeaked structure
+started at ~T0-65.3 s with a total duration of ~207.9 s.
+The emission is seen up to ~6 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB211023_T47199/
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.13(-0.04,+0.05)x10^-4 erg/cm2,
+and a 64-ms peak flux, measured from T0+6.368 s,
+of 5.12(-1.01,+1.01)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+103.936 s)
+is best fit in the 20 keV - 6 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.85(-0.03,+0.03)
+and Ep = 122(-12,+15) keV (chi2 = 100/79 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.4
+(chi2 = 99/78).
+
+The spectrum near the maximum count rate
+(measured from T0+5.888 to T0+10.496 s)
+is best fit in the 20 keV - 6 MeV range
+by a power law with exponential cutoff model
+with  alpha = -1.27(-0.06,+0.06)
+and Ep = 267(-22,+27) keV (chi2 = 76/72 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.6
+(chi2 = 75/71).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

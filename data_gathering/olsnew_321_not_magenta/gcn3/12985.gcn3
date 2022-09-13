@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12985
+SUBJECT: Swift Trigger 516027 is CC Eri
+DATE:    12/02/24 19:35:10 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+M. M. Chester (PSU), N. Gehrels (NASA/GSFC),
+S. T. Holland (CRESST/USRA/GSFC), J. A. Kennea (PSU),
+N. P. M. Kuin (UCL-MSSL), O. M. Littlejohns (U Leicester),
+C. B. Markwardt (NASA/GSFC), F. E. Marshall (NASA/GSFC),
+A. Melandri (INAF-OAB), C. J. Mountford (U Leicester),
+S. R. Oates (UCL-MSSL), P. T. O'Brien (U Leicester),
+C. Pagani (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), P. Romano (INAF-IASFPA), T. Sakamoto (NASA/UMBC),
+B. Sbarufatti (INAF-OAB/PSU), M. Stamatikos (OSU/NASA/GSFC),
+C. A. Swenson (PSU), G. Tagliaferri (INAF-OAB),
+E. Troja (NASA/GSFC/ORAU) and B.-B. Zhang (PSU) report on behalf of
+the Swift Team:
+
+At 19:05:44 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located emission from the location of the flare star CC Eri (trigger=516027). 
+Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 38.526, -43.825 which is 
+  RA(J2000) = 02h 34m 06s
+  Dec(J2000) = -43d 49' 30"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual for a 5-minute image trigger
+there is no obvious variation in the immediately available lightcurve. 
+
+The XRT began observing the field at 19:12:21.5 UT, 397.5 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+38.5956, -43.7978 which is equivalent to:
+  RA(J2000)  = +02h 34m 22.94s
+  Dec(J2000) = -43d 47' 52.1"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 205 arcseconds from the BAT onboard position. This position
+is 5.4 arcseconds from that of a known X-ray source: the flare star, CC Eri. 
+No event data are yet available to determine the column density using X-ray
+spectroscopy. 
+
+The initial flux in the 2.5 s image was 7.03e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 27 seconds with the White filter
+starting 406 seconds after the BAT trigger. This source is very
+bright, as expected for a flaring star with a quiescent magnitude
+of V=8.8. More analysis will be required to provide an estimate of the
+magnitude. The expected extinction corresponds to an E(B-V) of 0.02. 
+

@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17938
+SUBJECT: Konus-Wind observation of Galactic transient V404 Cyg in outburst
+DATE:    15/06/17 10:40:37 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A.Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+On June 15, 2015 Konus-Wind detected a hard X-ray transient
+activity lasting from ~65300 s UT (18:08:20) to
+~69000 s UT (19:10:00).
+Taking into account the proximity of this burst
+to the Swift/BAT trigger due to V404 Cygni
+(T0=T0(BAT)=18:31:38 UT; Barthelmy et al., GCN 17929),
+two subsequent Fermi/GBM triggers due to
+the same source (Younes, GCN 17932), and
+consistency of the KW ecliptic latitude response with
+the position of V404 Cygni we suggest that KW observed
+the ~1 hour-long flare from this Galactic black hole candidate.
+
+The KW light curve recorded in the waiting mode shows
+a multi-peaked complex which started at ~T0(BAT)-1400 s,
+peaked at ~T0(BAT)+1640 s, and lasted until ~T0+2300 s.
+The emission is visible in the instrument's
+G1 (20-75 keV) and G2 (75-300 keV) bands.
+
+The K-W light curve is available at
+http://www.ioffe.rssi.ru/LEA/V404_Cyg/KW150615_V404_Cyg/
+
+As observed by Konus-Wind, the burst had a fluence of
+(1.8 ± 0.1)x10^-4 erg/cm2, and a 2.944-s peak flux,
+measured from ~T0+1642 s, of (2.3 ± 0.4)x10^-7 erg/cm2/s
+(both in the 20 - 1200 keV energy range).
+
+Modeling the 3-channel time-integrated spectrum
+(from T0-1394.283 s to T0+2315.157 s) by a power law
+with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.28 ± 0.16, and Ep = 122 ± 9 keV.
+
+Assuming the distance 2.4 kpc (Miller-Jones et al. 2009)
+the energy release in the flare is E ~ 8.9x10^40 erg,
+and the peak luminosity L is ~1.1x10^38 erg/s.
+
+Further KW observations of the activity of the source will
+be reported (there are at lest two episodes detected
+by the instrument on June 16, 2015).
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+

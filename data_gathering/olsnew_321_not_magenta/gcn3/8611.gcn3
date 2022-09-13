@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8611
+SUBJECT: Konus-Wind observation of GRB 081203A
+DATE:    08/12/04 16:01:56 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin,
+D. Frederiks, P. Oleynik, D. Svinkin, M. Ulanov,
+and T. Cline, on behalf of the Konus-Wind team report:
+
+The long GRB 081203A (Parsons et al., GCN 8595, Ukwatta et al., GCN 
+8599) was detected by Konus-Wind in the same trigger record as GRB 
+081203B (Copete et al., GCN 8600, 8602; Golenetskii et al., GCN 8610) at 
+~T0(KW)+260s.
+(T0(KW)=49890.368 s UT (13:51:30.368). Correcting for the propagation 
+time delay from Wind to Swift of 0.7s, one sees that T0(BAT) corresponds 
+to T0(KW)+339.9s).
+
+Since this burst occurred after the end of the time history record 
+(=T0(KW)+229s) we do not have the light curve of this GRB with good time 
+resolution. Instead we have KW multichannel spectra accumulated until 
+T0(KW)+490s (that is until T0(BAT)+150s), which were converted to a 
+3-band light curve with a time resolution of 8.192 s.
+
+The burst light curve shows a weak emission starting at ~T0(BAT)-80s 
+(=T0(KW)+260s), the main double-peaked pulse starting at ~T0(BAT)-14s 
+(=T0(KW)+326s) and the decaying tail seen at least until T0(BAT)+134s 
+(=T0(KW)+474s).
+
+As observed by Konus-Wind the burst
+had a fluence of 3.05(-0.89, +1.40)x10^-5 erg/cm2
+(in the 20 keV - 3 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0(BAT)-79s to T0(BAT)+134 s) is well fitted
+(in the 20 keV-3 MeV range) by a simple power law model
+with index 1.54 +/- 0.08 (chi2 = 65.8/69 dof).
+Fitting by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep) yields
+alpha = -1.33(-0.20, +0.27)
+and Ep = 578(-290, +2398)  keV (chi2 = 61.2/68 dof).
+
+The spectrum of the main pulse
+(from T0(BAT)-14s to T0(BAT)+52s) is well fitted
+(in the 20 keV-3 MeV range) by a power law
+with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -1.29(-0.13, +0.15)
+and Ep = 497(-156, +383) keV (chi2 = 66.2/68 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.ru/LEA/GRBs/GRB081203A/
+

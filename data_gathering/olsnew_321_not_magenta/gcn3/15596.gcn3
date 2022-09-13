@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15596
+SUBJECT: Trigger 581129: Swift-BAT triggered on noise
+DATE:    13/12/15 03:46:03 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (NASA/UMBC), C. Gronwall (PSU), D. Grupe (PSU),
+S. T. Holland (STScI), J. A. Kennea (PSU), F. E. Marshall (NASA/GSFC),
+M. H. Siegel (PSU), M. C. Stroh (PSU) and C. A. Swenson (PSU) report
+on behalf of the Swift Team:
+
+At 03:26:43 UT, the Swift Burst Alert Telescope (BAT) triggered (581129).  
+Swift slewed immediately to the location.  The BAT on-board calculated location
+is RA, Dec 178.342, +47.942, which is 
+   RA(J2000)  =  11h 53m 22s
+   Dec(J2000) = +47d 56' 32"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single very weak peak 
+structure with a duration of about 0.1 sec.  The peak count rate
+was ~700 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 03:28:03.5 UT, 80.5 seconds after
+the BAT trigger. No source was detected in 604 s of promptly downlinked
+data, which covered 96% of the BAT error circle. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 83 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+Due to the low significance in the BAT image and the lack of a detection
+in XRT and UVOT, we believe this trigger to be a noise event. 
+

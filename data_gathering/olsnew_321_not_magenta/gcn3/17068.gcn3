@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17068
+SUBJECT: Trigger 618634: Swift detection of Vela X-1
+DATE:    14/11/14 21:35:50 GMT
+FROM:    Caryl Gronwall at PSU/Swift-UVOT  <caryl@swift.psu.edu>
+
+S. D. Barthelmy (GSFC), M. M. Chester (PSU), C. Gronwall (PSU),
+T. Sakamoto (AGU) and B. Sbarufatti (INAF-OAB/PSU) report on behalf of
+the Swift Team:
+
+At 21:11:12 UT, the Swift Burst Alert Telescope (BAT) triggered on
+Vela X-1 (trigger=618634).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 135.536, -40.534, which is 
+   RA(J2000)  =  09h 02m 09s
+   Dec(J2000) = -40d 32' 02"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a cluster of peaks
+with a duration of about 40 sec.  The peak count rate
+was ~500 counts/sec (15-350 keV), at ~1 sec after the trigger. 
+
+The XRT began observing the field at 21:13:29.8 UT, 137.6 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+135.5254, -40.5558 which is equivalent to:
+   RA(J2000)  = +09h 02m 6.10s
+   Dec(J2000) = -40d 33' 20.9"
+with an uncertainty of 5.2 arcseconds (radius, 90% containment). This
+location is 83 arcseconds from the BAT onboard position, within the BAT
+error circle. This position is 9.5 arc seconds from Vela X-1. 
+This source is in the Swift XRT 1SXPS
+catalogue with a mean 0.3-10 keV count-rate of 7.20 +/- 0.21 ct/sec;
+see http://www.swift.ac.uk/1SXPS/1SXPSJ090206.7-403318 for details of
+these previous observations. No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.88e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter
+starting  143 seconds after the BAT trigger. The optical counterpart
+to Vela X-1 is readily detected. 
+

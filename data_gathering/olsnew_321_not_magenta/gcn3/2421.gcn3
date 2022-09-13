@@ -1,0 +1,34 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2421
+SUBJECT: HETE Prompt GRB Light Curves and Color-Color Diagrams
+DATE:    03/10/15 19:49:22 GMT
+FROM:    Roland Vanderspek at MIT  <roland@space.mit.edu>
+
+HETE Prompt GRB Light Curves and Color-Color Diagrams
+
+The HETE team has implemented software which will automatically post to 
+the HETE web site (http://space.mit.edu/HETE/Bursts) lightcurves from 
+localized GRBs within minutes of the reception of the full burst data 
+set.  The lightcurves are in ASCII format and include time since trigger 
+(seconds), and Fregate band A, B, and C counts/second, where band A is
+7-40 keV, band B is 7-80 keV, band C is 30-400 keV, and the bin size is 
+160ms.  The lightcurves will typically cover a five-minute time period 
+starting roughly two minutes before the burst trigger time, and so will 
+include ample data for fitting the background.
+
+A sample of such a lightcurve file can be found at
+
+  http://space.mit.edu/HETE/Bursts/GRB030723/GCN_LCs-H2777.dat
+
+The burst web page will also include a color-color diagram calculated 
+from the counts fluence in Fregate bands A, B, and C.  This color-color 
+diagram, which plots the ratio of band B to band A counts fluence vs. 
+the ratio of band C to band A counts fluence, is useful in distinguishing
+XRFs from classical GRBs, and X-ray rich GRBs form a bridge between the 
+two distributions:  for an example, see
+
+  http://space.mit.edu/HETE/Bursts/GRB030723
+
+Further improvements in the prompt data to the web page are being 
+implemented and will be announced soon.
+

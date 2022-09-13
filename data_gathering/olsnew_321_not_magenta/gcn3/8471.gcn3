@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8471
+SUBJECT: GRB 081102: MASTER prompt optical limit
+DATE:    08/11/03 20:06:42 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+MASTER-Net Team (http://observ.pereplet.ru):
+
+V. Lipunov, V.Kornilov,  E.Gorbovskoy,
+A.Belinski, N.Shatskiy, N.Tyurina, D.Kuvshinov, P.Balanutsa
+Sternberg Astronomical Institute, Moscow State University
+
+A. Tlatov, A.Parkhomenko
+Kislovodsk Solar Station of the Pulkovo observatory
+
+V.Krushinski, I.Zalognikh
+Ural State University, Kourovka
+
+
+S.Yazev, K.Ivanov
+Irkutsk State University
+
+
+MASTER Very Wide Field Camera located at Kislovodsk (2000 m)
+(http://apollo.sai.msu.ru/, D=50 mm, 4x1000 square degrees, 35'' per pix) 
+has observed the Swift-BAT GRB081102 error box  (Ukwatta et al., GCN Circ 8642) 
+with 5s exposures during all night without windows between images. 
+There are two  separeted (~702m) mount with double cameras.
+
+Now we present results from North camera.
+
+These unfiltered images are calibrated relative to Tycho stars (V).
+We do not detect any new source at the XRT position
+reported in GCN Circ. 8467 ( Osborne et al.) brighter than 12.4 mag 
+before and after trigger time.
+The photometry results +-4 min around trigger time:
+
+
+  T-T_trigger            m_lim (S/N=3)         Exposure         Coadd
+
+-255s... 0... 255 s       11.6                  5s              no 
+-2min...0...+2 min        12.2                 30s               6
+-2min...0...+2 min        12.4                 60s              12
+
+The optical fluence during the 60s-GRburst is limited by <= 6x10_-9 
+erg/cm_2    including 2.5 magnitude  absorbtion (Ukwatta et al., Circ 
+8462). The BAT-fluence is aboute 3 10_-6 erg/cm_2 (15-150 Kev) 
+(http://gcn.gsfc.nasa.gov/notices_s/333427/BA/).
+So
+
+Optical Fluence/Gamma-Fluence ~ < 1/500
+
+Same ratio for GRB080319B is ~ 1/200 (Naked Eye GRB).
+
+The  light curve  is available at
+http://observ.pereplet.ru/images/GRB081102/lc1.png
+
+
+The  video  are available at
+http://observ.pereplet.ru/images/GRB081102/grb.gif
+You can see 200 sets.
+Note: the GRB was at the edge of the FOW.
+
+The reduction is continuing.
+
+mailto: lipunov@sai.msu.ru
+
+

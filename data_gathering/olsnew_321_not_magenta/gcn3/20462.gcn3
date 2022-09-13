@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20462
+SUBJECT: GRB 170115A: Swift detection of a burst
+DATE:    17/01/15 21:15:39 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+K. L. Page (U Leicester), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+A. Cholden-Brown (PSU), C. Gronwall (PSU), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/NSF/USRA), F. E. Marshall (NASA/GSFC) and
+D. M. Palmer (LANL) report on behalf of the Swift Team:
+
+At 20:50:08 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 170115A (trigger=733103).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 332.154, +13.781 which is 
+   RA(J2000) = 22h 08m 37s
+   Dec(J2000) = +13d 46' 51"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve is only immediately
+available until T+8 seconds due to a telemetry gap, showing a
+rise to a maximum rate of ~800 counts/s at the end of that period. 
+
+The XRT began observing the field at 20:51:39.5 UT, 91.5 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 332.1390, 13.7283 which is equivalent to:
+   RA(J2000)  = +22h 08m 33.36s
+   Dec(J2000) = +13d 43' 41.9"
+with an uncertainty of 6.3 arcseconds (radius, 90% containment). This
+location is 196 arcseconds from the BAT onboard position, outside the
+BAT error circle. No event data are yet available to determine the
+column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 5.14e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 99 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.07. 
+
+Burst Advocate for this burst is K. L. Page (klp5 AT leicester.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

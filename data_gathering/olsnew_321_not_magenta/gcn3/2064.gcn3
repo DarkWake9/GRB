@@ -1,0 +1,48 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2064
+SUBJECT: GRB 030329: fitting parameters and re-brightening
+DATE:    03/04/01 22:32:03 GMT
+FROM:    Weidong Li at UC Berkeley KAIT/LOSS  <weidong@astron.berkeley.edu>
+
+Weidong Li, Ryan Chornock, Saurabh Jha, and Alexei V. Filippenko (UC Berkeley)
+report:
+
+We selected from the GCN literature all available R-band measurements of
+the GRB 030329 afterglow. We fitted a smoothly broken power-law model
+(Beuermann et al. 1999, A&A 352, L26; Stanek et al. 2001, ApJ 563, 592)
+to the data within 24 hours of the burst, and obtained the following
+parameters: alpha_1 = -0.75 +/- 0.06, alpha_2 = -1.90 +/- 0.05, t_break
+= 0.44 +/- 0.04 days, and s = 5 +/- 2. Our fitting parameters are similar
+to those reported by Zeh et al. (GCN 2047) except for alpha_2 (ours is much 
+steeper). A plot showing the fit can be found at
+
+http://astron.berkeley.edu/~bait/grb/grb030329.fit.ps
+
+while a table of GCN R-band photometry of GRB 030329 can be found at
+
+http://astron.berkeley.edu/~bait/grb/gcn030329.r.dat
+
+which includes citations for all the data points used in the plot.
+
+The substantial re-brightening reported by Lipkin et al. (GCN 2045) and
+Burenin et al (GCN 2046) is apparent in the plot. Applying the above fitting
+parameters to epochs after t = 24 hours, we found that the residual component
+brightened steeply starting from t = 22 hours and reached a peak of 16.8 mag
+at t = 40 hours, then declined gradually thereafter. Attempts to fit this
+component with the R-band light curve of the hypernova SN 1998bw all failed;
+thus the re-brightening may not be caused by a SN component.
+
+Analysis of the color of the GRB from KAIT photometry during this phase
+suggests the afterglow has a roughly constant color of (B-V) = 0.26 +/-
+0.02 mag, (V-R) = 0.36 +/- 0.02 mag, and (V-I) = 0.78 +/- 0.02. (The data
+of Fitzgerald & Orosz, GCN 2056, suggests a constant (B-V) = 0.39 +/- 0.02
+mag; there is an offset from the KAIT B photometry, perhaps due to a color
+term). The constant color during the phase of the re-brightening is additional
+evidence against a SN component explanation, in which significant color
+changes are expected when the SN rises to the maximum.
+
+Density inhomogeneities and extra energy sources are possible explanations 
+for the re-brightening. 
+
+This message may be cited.
+

@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6642
+SUBJECT: GRB 070721A, Swift-BAT refined analysis
+DATE:    07/07/21 14:07:31 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/ORAU), L. Barbier (GSFC), S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), D. Palmer (LANL),
+A. Parsons (GSFC), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU), H. Ziaeepour (UCL-MSSL)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+352 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 070721A (trigger #285653)
+(Ziaeepour, et al., GCN Circ. 6639).  The BAT ground-calculated position is
+RA, Dec = 3.144, -28.530 deg which is 
+   RA(J2000)  =   0h 12m 34.5s 
+   Dec(J2000) = -28d 31' 47" 
+with an uncertainty of 2.3 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 72%.
+ 
+The mask-weighted lightcurve has a single peak starting at ~T-4 sec,
+peaking at ~T+1 sec, and ending at ~T+8 sec.  T90 (15-350 keV) is
+3.4 +- 0.2 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.1 to T+3.7 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.46 +- 0.41.  The fluence in the 15-150 keV band is 7.1 +- 1.8 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T+0.12 sec in the 15-150 keV band
+is 0.7 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+We note that the fluence ratio in a simple power-law fit between the
+25-50 keV band and the 50-100 keV band is 1.38.  This fluence ratio is larger
+than 1.32 which can be achieved in the Band function of alpha=-1.0, beta=-2.5,
+and Epeak=30 keV.  Thus, preliminary analysis shows that Epeak of the burst
+is very likely around or below 30 keV.  Therefore the burst can be classified
+as an X-ray flash. 
+

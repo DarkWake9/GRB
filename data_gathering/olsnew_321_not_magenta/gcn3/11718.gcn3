@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11718
+SUBJECT: GRB 110213A: Swift/UVOT refined analysis
+DATE:    11/02/13 22:57:40 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N.P.M. Kuin (MSSL/UCL) and V. D'Elia (ASDC)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 110213A
+100 s after the BAT trigger (D'Elia et al., GCN Circ. 11705). This GRB
+was reported by many observers. We see an initial peak around T+300s
+after which the GRB declines in brightness until around T+1500s when
+a small rebrightening occurs. A tentative redshift was reported by
+P.A. Milne (GCN Circ. No 11708) of z=1.46, which is consistent with
+the much fainter magnitudes we find in the uvm2 and uvw2 filters.
+
+The refined uvot position (90% confidence limit, 0.5" accuracy) with
+reference to USNO-B1 is:
+
+RA  (J2000) =  02h 51m 51.39s
+DEC (J2000) =  49d 16' 23.54"
+
+Preliminary magnitudes and 3-sigma upper limits in the UVOT
+photometric system (Poole et al. 2008, MNRAS, 383, 627) for
+the first finding chart (FC) exposures and summed with subsequent
+exposures up to about 2500s are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)     Mag (VEGA)
+
+white_FC           100          250          147         16.36 +/- 0.05
+u_FC               312          562          246         15.54 +/- 0.04
+
+white              100         2579          517         16.57 +/- 0.01
+v                  642         2455          227         16.19 +/- 0.04
+b                  568         2206          178         16.77 +/- 0.03
+u                  312         2529          448         15.94 +/- 0.02
+uvw1               692         2505          198         17.28 +/- 0.08
+uvm2               667         2479          218         18.72 +/- 0.20
+uvw2               618         2606          238         19.10 +/- 0.18
+
+The values quoted above are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.32 in the direction of the burst
+(Schlegel et al. 1998).
+

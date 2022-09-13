@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6516
+SUBJECT: GRB 070612B: KAIT limits
+DATE:    07/06/12 08:32:16 GMT
+FROM:    Weidong Li at UC Berkeley KAIT/LOSS  <weidong@astron.berkeley.edu>
+
+W. Li, R. J. Foley, D. A. Perley, J. S. Bloom, and A. V. Filippenko,
+University of California, Berkeley, on behalf of the KAIT GRB team, report:
+
+The robotic 0.76-m Katzman Automatic Imaging Telescope (KAIT)
+at Lick Observatory observed GRB 070612B detected with Swift
+(Trigger 282073; Grupe et al. GCN 6511). The automatic sequence
+started at 06:22:01, 44 s after the burst. The BAT location 
+and the XRT position (Grupe & Evans GCN 6514) have been monitored
+in V, I, and clear filters, with varying exposure times. The observations
+are still on-going.  Our image processing pipeline did not find any
+new objects within the XRT error circle, with the following photometry
+limits (calibrated with USNO B1.0). These magnitudes have not been
+corrected for Galactic extinction, which as estimated by the NED
+extinction calculator is approximately E(B-V) = 0.838 mag in this
+direction. 
+
+======================================================================
+
+Start UT   t(GRB)   Filter    Exp(s)  3sigma-limit      
+
+06:22:01     44s    clear      5.0      18.1 
+06:22:09     52s    clear      5.0      18.2 
+06:22:17     60s    clear      5.0      18.2 
+06:22:25     68s    clear      5.0      18.1 
+06:22:34     77s    clear      5.0      18.1 
+06:22:42     85s    clear      5.0      18.1 
+06:23:10    113s    V         15.0      17.1
+06:23:36    139s    I         15.0      18.0
+06:24:00    163s    clear     15.0      18.8
+06:24:31    194s    V         45.0      17.6
+06:25:27    250s    I         45.0      18.5
+06:26:21    304     clear     45.0      19.3
+========================================================================
+
+More images, mostly 60 s exposures in the I and clear filters,
+have been obtained. No obvious OA was found in the XRT error
+circle to a limiting magnitude of 19.0 - 19.9 mag, at 
+t= 304s to 6642s after the burst. 
+
+More analyses are in progress.
+

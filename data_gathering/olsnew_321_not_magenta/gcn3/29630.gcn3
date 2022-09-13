@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29630
+SUBJECT: GRB 210308A: Swift/UVOT Detection
+DATE:    21/03/09 01:16:01 GMT
+FROM:    Sam LaPorte at PSU  <sjl5346@psu.edu>
+
+ GRB 210308A: Swift/UVOT Detection
+
+J. D. Gropp (PSU) and V. D'Elia (SSDC)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 210308A
+95 s after the BAT trigger (D'Elia et al., GCN Circ. 29619).
+A source consistent with the XRT position
+(D'Elia et al., GCN Circ. 29619)
+is detected in the initial UVOT exposures.
+
+The preliminary UVOT position is:
+    RA  (J2000) =  04:28:17.73 =  67.07389 (deg.)
+    Dec (J2000) = +37:26:02.1  =  37.43391 (deg.)
+with an estimated uncertainty of 0.46 arc sec. (radius, 90% confidence).
+
+Preliminary detections and 3-sigma upper limits using the UVOT photometric
+system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures
+are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+b                       765            1189            38        >18.62
+uvm2                864            1115            38        >17.52
+u                       338            1164          284        >19.50
+v                       667            1090            58        >17.84
+uvw1               1120            1140            19        >17.25
+uvw2                 815            1231            50        >17.91
+white                 126             275           292
+18.54+-0.07
+white                 618            1213          205        >20.20
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 1.296 in the direction of the burst
+(Schlegel et al. 1998).

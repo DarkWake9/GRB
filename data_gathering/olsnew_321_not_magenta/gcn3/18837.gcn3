@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18837
+SUBJECT: Konus-Wind observation of GRB 151225A
+DATE:    16/01/07 12:36:03 GMT
+FROM:    Anastasia Tsvetkova at Ioffe Institute  <tsvetkova@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, P. Oleynik, M. Ulanov,
+D. Svinkin, A. Tsvetkova, A. Lysenko, A. Kozlova and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration, intense GRB 151225A
+(CALET detection: Kawakubo et al., GCN 18724;
+IPN triangulation: Golenetskii et al., GCN 18836)
+triggered Konus-Wind at T0=68946.508 s UT (19:09:06.508).
+
+The burst light curve shows a  multipeaked structure
+with a total duration of ~1.1 s.
+The emission is seen up to ~2 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 3.17(-0.85,+1.79)x10^-6 erg/cm2,
+and a 16-ms peak energy flux, measured from T0+0.416 s,
+of 2.22(-0.79,+1.46)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum of the burst
+(measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.13(-0.48,+0.74),
+and Ep = 360(-153,+741) keV (chi2 = 56/62 dof).
+Fitting by the GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index:
+beta < -1.7 (chi2 = 56/61 dof).
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB151225_T68946/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

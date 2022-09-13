@@ -1,0 +1,86 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24405
+SUBJECT: IceCube-190504A: Swift-XRT Follow-up Observations
+DATE:    19/05/06 11:00:22 GMT
+FROM:    Azadeh Keivani at Columbia U  <azadeh.keivani@columbia.edu>
+
+IceCube-190504A: Swift-XRT Follow-up Observations
+
+A. Keivani (Columbia U.), D. B. Fox (PSU), P. A. Evans (U. Leicester), J.
+A. Kennea (PSU), M. Santander (U. Alabama), & F. Krauss (GRAPPA/API,
+University of Amsterdam) report:
+
+
+The Neil Gehrels Swift Observatory observed the field of the IceCube HESE
+astrophysical neutrino candidate event IceCube-190504A (revision 1,
+https://gcn.gsfc.nasa.gov/gcn3/24392.gcn3) beginning May 4, 20:09:37 UT
+(1.74 hours after the neutrino arrival time).
+
+Swift utilized its onboard 19-point tiling pattern to cover a region
+centered on R.A., Dec. (J2000) = 65.7866d, -37.4431d, with a radius of
+approximately 0.8 deg; estimated 90%-containment radius for this event is
+1.23 deg. Swift-XRT collected ~800 s per field of PC mode data per tile
+between 20:12:40 UT on 4 May and 09:08:01 UT on 5 May. Data have been
+reduced using the analysis approach and software routines of Evans et al.
+2014 (ApJS, 210, 8).
+
+Several X-ray sources are detected in these observations, most of which are
+previously uncataloged and relatively low in flux, consistent with
+expectations for serendipitous (unrelated) sources over a region of this
+extent. The highest-significance X-ray source is located at R.A. 66.17568d,
+Dec. -37.93938d (J2000), 35 arcmin away from the neutrino direction, and
+matches the known (SIMBAD) X-ray source QSO B0422-380 (1.4 arcsec away) as
+well as 1SXPS J042442.5-375618 (6 arcsec away). We recover it at a mean
+observed XRT count rate of 3.2 (+0.8, -0.7) e-2 ct s^-1, consistent with
+(1.5-sigma above) the cataloged flux from 1SXPS. Although the brightness of
+this object does not look significantly elevated over the previous Swift
+observations, it is catalogued as a blazar and would be interesting if
+there is other electromagnetic emission from this source. Fermi-LAT has
+reported (GCN Circular #24401) significant emission at gamma ray over a
+timescale of one week before the neutrino arrival time (at a flux level
+consistent with the 10 years average) but no recent remarkable activity at
+gamma rays.
+
+Excluding identified sources, the 3-sigma upper limit on the count rate of
+any point-like counterpart over the rest of the tiled region is 0.01 ct
+s^-1, which corresponds to a 0.3-10 keV flux of 4.0e-13 erg cm^-2 s^-1 for
+a typical AGN spectrum (nH=3e20 cm^-2, Gamma=1.7).
+
+Coordinates, count rates, and possible counterparts for the X-ray sources
+are provided below.
+
+Source, RA, Dec, Error_90 (arcsec), XRT count rate (ct s^-1), Possible
+counterparts
+
+------------------------------------------------------------------------------------------------------------------
+
+#1: 66.17568d, -37.93938d, 7.9, 3.2 (+0.8, -0.7) e-2, QSO B0422-380 (1.4
+arcsec away) & 1SXPS J042442.5-375618 (6 arcsec away)
+
+------------------------------------------------------------------------------------------------------------------
+
+#2: 66.39382d, -37.70566d, 6.6, 1.3 (+0.7, -0.5) e-2, 1RXS J042532.5-374212
+(25.4 arcsec away)
+
+------------------------------------------------------------------------------------------------------------------
+
+#3: 65.19589d, -37.26399d, 9.5, 1.0 (+0.6, -0.4) e-2, 1RXS J042449.3-365537
+(13.2 arcsec away)
+
+------------------------------------------------------------------------------------------------------------------
+
+#4: 66.20972d, -36.92833d, 6.3, 1.4 (+0.6, -0.5) e-2, --
+
+------------------------------------------------------------------------------------------------------------------
+
+#5: 65.70905d, -37.94807d, 7.5, 1.2 (+0.6, -0.5) e-2, --
+
+------------------------------------------------------------------------------------------------------------------
+
+#6: 66.39458d, -37.70534d, 7.9, 1.3 (+0.7, -0.5) e-2, 1RXS J042532.5-374212
+(27.1 arcsec away)
+
+------------------------------------------------------------------------------------------------------------------
+
+#7: 65.29548d, -38.09169d, 10.5, 1.3 (+0.6, -0.5) e-2, 1RXS
+J042110.9-380533 (2.9 arcsec away)

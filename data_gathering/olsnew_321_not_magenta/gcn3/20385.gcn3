@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20385
+SUBJECT: LIGO/Virgo G268556: Updated sky map from gravitational-wave data
+DATE:    17/01/06 21:44:29 GMT
+FROM:    Giuseppe Greco at U degli Studi di Urbino  <giuseppe.greco@uniurb.it>
+
+The LIGO Scientific Collaboration and Virgo report:
+
+We have re-analyzed LIGO data around the time of the compact binary
+coalescence (CBC) event candidate G268556 (GCN 20364) taking into account
+our current understanding of calibration uncertainties.  Although a full
+recalibration remains to be done, we expect that this event will be
+confirmed with a false alarm rate (FAR) of less than 1 per 100 years.
+
+Parameter estimation has been performed using LALInference (Veitch et al.,
+PRD 91, 042003) and a new sky map, LALInference_skymap.fits.gz, is
+available for retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/events/G268556
+
+This is the preferred sky map at this time.  This map has two arcs in
+nearly the same positions as the original BAYESTAR sky map but the
+probability is divided more equally between the northern and southern
+arcs.  The 50% and 90% credible regions span about 500 deg2 and 2000 deg2,
+respectively, which are somewhat larger than the initial BAYESTAR sky map
+due to marginalizing over calibration uncertainties.
+
+We will recalculate the sky map once the full recalibration is complete
+and will share it at that time, but that is likely at least a few weeks
+away.

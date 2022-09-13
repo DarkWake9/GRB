@@ -1,0 +1,33 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3871
+SUBJECT: GRB 050824: BAT refined analysis of a soft weak burst
+DATE:    05/08/25 04:40:32 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+H. Krimm (GSFC/USRA), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/NRC), K. Gendreau (GSFC), D. Hullinger (GSFC/UMD),
+E. Fenimore (LANL), N. Gehrels (GSFC), C. Markwardt (GSFC/UMD),
+P. Meszaros (PSU), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/NRC), G. Sato (ISAS), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the full data set from the recent telemetry downlink, we
+report further analysis of Swift-BAT GRB 050824 (trigger #151905)
+(Campana, et al., GCN 3866).  The ground-analysis position is
+RA,Dec 12.256 +22.618 (J2000) with an uncertainty of 3 arcmin
+(radius, 90%, stat+sys).  This is 1.9 arcmin from the onboard
+position and 1.4 arcmin from the optical candidate reported by 
+Gorosabel et al. in GCN Circ. 3865.
+
+The light curve shows a single peak with slow rise and slow decay.  
+T90 is 25 +- 5 seconds.  Fitting a simple power law over the 
+interval from T+38 to T+64 sec, the photon index is 2.7 +/- 0.4 
+with a fluence of 2.3 +/- 0.5 x 10^-7 erg/cm^2 in the 15-150 keV 
+band (90% c.l).  The peak flux in a 1-second wide window starting 
+at T+53 sec is 0.5 +/- 0.2 ph/cm^2/sec (15-150 keV). 
+
+The original GCN Notices were delayed in transmission to the ground 
+by 500 sec due to the burst happening during a telemetry downlink 
+session when the TDRSS real-time messages are held in a buffer until 
+the end of the downlink.
+

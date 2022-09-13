@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10108
+SUBJECT: GRB091029: Swift/UVOT observations
+DATE:    09/10/29 21:13:14 GMT
+FROM:    Frank Marshall at GSFC  <marshall@milkyway.gsfc.nasa.gov>
+
+F. E. Marshall (GSFC) and D. Grupe (PSU) report on  
+behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 091029
+91 sec. after the BAT trigger (Grupe et al., GCN Circ. 10097). 
+We detect the optical afterglow at the refined UVOT position
+RA, Dec 60.17745, -55.95557, which is
+
+     RA  (J2000)  04:00:42.59
+     Dec (J2000) -55:57:20.0
+
+with an estimated uncertainty of 0.55 arcsec (radius, 90% confidence).
+This position is consistent with the enhanced XRT position (Goad
+et al., GCN 10102). The detection in the white, v, b and u filters and
+not in the UV filters is consistent with the redshift
+of 2.752 (Chornock et al., GCN 10053).
+
+The afterglow brightened by a factor of 4 between the first two
+observations in the white filter, which had mean observing times
+of T+166 s. and T+594s. The afterglow then decayed following
+an approximately power law form with a decay index of -0.45.
+This decay form lasted until at least T+8231 s.
+A similar optical light curve was reported by LaCluze et al.
+(GCN Circ. 10099 and 10107).
+
+Preliminary magnitudes and 3 sigma upper limits are reported below.
+
+Filter    T_start(s) T_stop(s)  Exposure(s)   Mag  Err
+------------------------------------------------------------------------
+white        91        240       147          20.22 +/- 0.13
+white       584        603        19          18.75 +/- 0.14
+v           635        654        19          17.81 +/- 0.26
+b           559        578        19          19.04 +/- 0.28
+u           303        552        19          18.42 +/- 0.08
+uvw1        684       1280        58          > 19.32
+uvm2       1930       1949        19          > 18.74
+uvw2        611       1206        58          > 20.45
+-------------------------------------------------------------------------
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E_{B-V} = 0.02 mag (Schlegel et al.,
+1998, ApJS, 500, 525).  The photometry is on the UVOT photometric system
+described in Poole et al. (2008, MNRAS, 383,627).
+

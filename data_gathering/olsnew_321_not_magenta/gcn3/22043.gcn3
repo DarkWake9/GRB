@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22043
+SUBJECT: Fermi GBM Observations of IceCube-171015A
+DATE:    17/10/23 01:11:41 GMT
+FROM:    Rachel Hamburg at UAH  <rkh0007@uah.edu>
+
+R. Hamburg (UAH) and A. Goldstein (USRA) report on behalf
+of the Fermi GBM team:
+
+We have searched the Fermi Gamma-ray Burst Monitor data
+for a gamma-ray counterpart to the IceCube neutrino 171015A
+(GCN 22016). The location of the neutrino was observed by
+GBM with good geometry.
+
+There were no associated on-board triggers +/- 15 hours of
+the neutrino event time. The ground-based untargeted search
+of GBM data (Briggs et al., in prep) did not find any candidates
++/- 1 hour of the event time. The targeted search of GBM data
+([1],[2]) also searched +/- 30 s around the neutrino event time,
+processing timescales of 0.256 s to 8.192 s. No significant
+candidates were found.
+
+Using a hard Band function with (Epeak, alpha, beta) =
+(500 keV, -0.5,-2.5), we set 3 sigma flux-averaged upper limits
+for any transient within 30 s of the neutrino event time.
+Averaged over (0.1 s, 1 s, and 10 s) timescales, the
+corresponding upper limits in the 10-1000 keV band are
+(16.4, 4.82, 1.47) E-7 erg/s/cm^2. Using an exponentially cut-off
+power law parametrized with (Epeak, index) = (566 keV, -0.42),
+which represents the average GBM-triggered short GRB, the
+flux-averaged upper limits are (18.0, 5.26, 1.61) E-7 erg/s/cm^2.
+
+
+[1] L. Blackburn et al. 2015, ApJS 217, 8
+[2] A. Goldstein et al. arXiv:1612.02395

@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5242
+SUBJECT: GRB 060607: Swift-BAT Refined Analysis
+DATE:    06/06/07 19:41:47 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+J. Tueller (GSFC), L. Barbier (GSFC),  S. Barthelmy (GSFC),
+J. Cummings (GSFC/ORAU), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (BYU-Idaho), M. Koss (GSFC/UMD), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL),  A. Parsons (GSFC),
+T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/JSPS/USRA), M. Stamatikos (GSFC/ORAU),
+on behalf of the Swift-BAT team:
+
+Using the data set from T-119.6 to T+182.5 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 060607
+(trigger #213823)  (Ziaeepour, et al., GCN 5233).  The BAT 
+ground-calculated position
+is (RA,Dec) = 329.712, -22.500 deg {21h 58m 50.8s, -22d 30' 0.0"} (J2000)
++- 0.8 arcmin, (radius, sys+stat, 90% containment).  The partial 
+coding was 99%.
+
+The mask weighted light curve consists of two overlapping FRED peaks from
+T-5 sec to T+40 sec.  There is a second double peaked structure between
+T+95 sec and T+105 sec. T90 (15-350 keV) is 100 +- 5 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T-14.1 to T+104.5 is best fit by
+a simple power-law model.   The power law index of the time-averaged
+spectrum is 1.45 +- 0.07. The fluence in the 15-150 keV band is
+2.6 +- 0.1 x 10^-06 erg/cm2.  The 1-sec peak photon flux measured
+from T-0.97 sec in the 15-150 keV band is 1.4 +- 0.1 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level.
+
+Using the redshift of 3.082 reported by Ledoux et al (GCN 5237) and a
+cosmology of Omega_M - 0.3, Omega_lamba = 0.7 H0 = 65, we find
+Eiso (1-1000 keV in the rest frame) to be 1.1 X 10^53 ergs.  This is based
+on an extrapolation of the BAT power law fit into the corresponding
+observer energy band.
+
+

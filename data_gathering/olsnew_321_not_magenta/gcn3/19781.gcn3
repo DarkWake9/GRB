@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19781
+SUBJECT: Swift Trigger 707545 is likely 4U 1850-03/GS1843-02
+DATE:    16/08/06 11:32:39 GMT
+FROM:    Judith Racusin at GSFC  <judith.racusin@nasa.gov>
+
+P. D'Avanzo (INAF-OAB), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), A. Melandri (INAF-OAB),
+K. L. Page (U Leicester) and J. L. Racusin (NASA/GSFC) report on
+behalf of the Swift Team:
+
+At 10:58:23 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located an outburst from 4U 1850-03 (= GS1843-02; trigger=707545).  Swift slewed 
+immediately to the location.  The BAT on-board calculated location is 
+RA, Dec 282.077, -2.446 which is 
+   RA(J2000) = 18h 48m 18s
+   Dec(J2000) = -02d 26' 44"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for an image trigger, 
+the BAT light curve shows no significant features. 
+
+The XRT began observing the field at 11:06:22.2 UT, 478.9 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 282.0707, -2.4236 which is
+equivalent to:
+   RA(J2000)  = 18h 48m 16.97s
+   Dec(J2000) = -02d 25' 24.9"
+with an uncertainty of 2.3 arcseconds (radius, 90% containment). This
+location is 83 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. This
+position is 6.9 arcseconds from a known X-ray source: 1SXPS
+J184816.5-022522. This source is in the Swift XRT 1SXPS catalogue with
+a mean 0.3-10 keV count-rate of (2.97 [+1.01, -0.85]) x 10^-3 ct/sec;
+see http://www.swift.ac.uk/1SXPS/1SXPSJ184816.5-022522 for details of
+these previous observations. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 482 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+Note that BAT has previously triggered on this source (GCNs 18675,
+16677,  ATel #4350). The above positions appear to be consistent with
+the known high mass X-ray binary  4U 1850-03, and we believe the BAT
+trigger indicates activity from this known  source.   The identifier
+1SXPSJ184816.5-022522, derived from the Swift XRT point  source
+survey, is most consistent with the current Swift XRT localization, 
+but it is possible this source is the same as the 4U 1850-03. 
+However, as this  is a location 0.4 deg from the Galactic Plane, we
+cannot rule out the possibility  of a distinct Galactic source, nearby
+to 4U 1850-03. 
+

@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25905
+SUBJECT: LIGO/Virgo S190828h: Updated Sky Localization
+DATE:    19/10/01 18:48:58 GMT
+FROM:    Geoffrey Mo at LIGO  <geoffrey.mo@ligo.org>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have conducted further analysis of the data from LIGO Hanford
+Observatory (H1), LIGO Livingston Observatory (L1) and Virgo Observatory
+(V1) around the time of the compact binary merger (CBC) candidate S190924h
+(GCN Circular 25829). Parameter estimation has been performed using
+LALInference [1] and a new sky map, LALInference.fits.gz, distributed via
+GCN Notice, is available for retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S190924h
+
+The preferred sky map at this time is LALInference.fits.gz. The 90%
+credible region is 303 deg2. Marginalized over the whole sky, the a
+posteriori luminosity distance estimate is 548 +/- 112 Mpc (a posteriori
+mean +/- standard deviation).
+
+For further information about analysis methodology and the contents of this
+alert, refer to the LIGO/Virgo Public Alerts User Guide <
+https://emfollow.docs.ligo.org/userguide/>.
+
+ [1] Veitch et al. PRD 91, 042003 (2015)
+
+[GCN OPS NOTE(02oct19): Please note, see Circ 25909 for a reissue
+of this Circ with the correction made.  And after that reissue,
+GCN OPS has changed this archive copy of 25905's Subject-line
+from "S190828j" to "S190828h".]
+

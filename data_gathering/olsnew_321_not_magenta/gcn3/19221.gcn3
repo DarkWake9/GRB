@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19221
+SUBJECT: Swift detects GX 301-2 in very high state
+DATE:    16/03/24 04:02:38 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+K. L. Page (U Leicester) report on behalf of the Swift Team:
+
+At 03:26:39 UT, the Swift Burst Alert Telescope (BAT) detected
+the known source GX 301-2 at a level that exceeds the
+on-board threshold (trigger=680331).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 186.676, -62.760 which is 
+   RA(J2000) = 12h 26m 42s
+   Dec(J2000) = -62d 45' 33"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows an increase
+of ~1500 counts/s when the source first came into the field of
+view, with substantial variability of +/-500 counts/s over
+a timescale of 10s of seconds during the observation. 
+
+The XRT began observing the field at 03:28:44.2 UT, 124.3 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+186.6531, -62.7693 which is equivalent to:
+   RA(J2000)  = +12h 26m 36.74s
+   Dec(J2000) = -62d 46' 09.5"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). This
+position is 3.0 arcseconds from a known X-ray source: GX 301-2, also known as 
+1SXPS J122637.1-624610. This source is in the Swift XRT 1SXPS catalogue with
+a mean 0.3-10 keV count-rate of 1.73 +/- 0.11 ct/sec; see
+http://www.swift.ac.uk/1SXPS/1SXPSJ122637.1-624610 for details of these
+previous observations. No event data are yet available to determine the
+column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.08e-08 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 140 seconds with the U filter starting
+341 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image covers 25% of the
+XRT error circle. Because of the density of catalogued stars, further analysis
+is required to report an upper limit for any afterglow in the sub-image. The
+8'x8' region for the list of sources generated on-board covers 100% of the XRT
+error circle. Because of the density of catalogued stars, further analysis is
+required to report an upper limit for any afterglow in the region. No
+correction has been made for the large, but uncertain extinction expected. 
+
+GX 301-2 is currently undergoing one of its periodic (41.5 day)
+outbursts, and this is a stronger one than usual. 
+
+We note that this is the second strongest detection of
+BAT during any 64 second imaging interval over the lifetime
+of the mission. (The strongest was on 2005-11-22 during another
+outburst.)
+

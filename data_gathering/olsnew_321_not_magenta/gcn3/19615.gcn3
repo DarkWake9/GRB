@@ -1,0 +1,104 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19615
+SUBJECT: Pi of the Sky detection of an optical flash accompanying GRB 160625B
+DATE:    16/06/28 19:34:52 GMT
+FROM:    Lech Wiktor Piotrowski at U Warsaw  <lewhoo@fuw.edu.pl>
+
+T. Batsch, A.J. Castro-Tirado, R. Cunniffe, H. Czyrkowski, A. Ćwiek, M. Ćwiok, R. Dąbrowski,
+M. Jelínek, G. Kasprowicz, A.Majcher, K. Małek, L. Mankiewicz, K. Nawrocki, Ł. Obara,
+R. Opiela, M. Siudek, M. Sokołowski, L. W. Piotrowski, R. Wawrzaszek, G. Wrochna,
+A Zadrożny, M. Zaremba, A.F. Żarnecki (Pi of the Sky Collaboration)
+
+Following GCN 19603 we present the reconstructed light curve of GRB 160625B.
+One of four Pi of the Sky North detectors located at INTA - El Arenosillo
+observatory in Mazagón near Huelva, Spain imaged the region of GRB 160625B
+(Swift-XRT error circle (Melandri, et al., GCN 19585), at a position RA, Dec =
+20:34:23.50, +6:55:8.1) before, during and after the GRB with 10s exposures
+(the exposures were taken in white light, IR-cut and UV-cut filters only,
+to achieve deepest detection limit).
+
+Cameras of the Pi of the Sky North observatory were observing the position of the GRB160625B
+48s after Fermi GBM trigger 488587220 time (Jun 25 22:40:16.28 UT) 140 seconds 
+before the LAT 488587408 trigger (Jun 25 22:43:24.82 UT). We observed optical emission
+at the position given by Swift XRT recording a bright light curve starting -5.9 s 
+before the LAT trigger. The first 10 s exposure shows initial magnitude of ~9.18 (unfiltered)
+brightening to ~8.04 on the second exposure, than becoming gradually dimmer. 
+It is important to note that both cameras, 35 and 39, identified a new object
+on exposures starting just  before the time of the trigger. Below we give the light curve of 
+GRB 160625B separately for two cameras:
+
+For camera id = 35
+
+t - t0            MagV           ErrV
+-5.90351900 9.17858000 0.01979590
+7.30034010 8.04185240 0.00692530
+20.50411000 8.85256720 0.01464740
+33.70891000 9.16411390 0.01958250
+46.91391000 9.35221170 0.02310580
+60.12562000 9.48356820 0.02605830
+73.33060000 9.76273220 0.03348310
+86.53484000 9.88869010 0.03764580
+110.75906000 10.36167800 0.05831040
+123.96549000 10.36315500 0.05835510
+137.17366000 10.65792100 0.07717340
+150.37855000 10.78365300 0.08672800
+163.58296000 10.90103300 0.09643880
+176.79191000 11.10503700 0.11532510
+190.00141000 11.27645400 0.13539200
+203.20498000 11.43088800 0.15646540
+216.40969000 11.52125300 0.16944510
+229.59719000 11.66219300 0.19535900
+242.80196000 11.97388500 0.26215110
+255.98556000 11.44272600 0.15893520
+269.18835000 12.22780400 0.33061590
+282.39288000 11.70644300 0.20138410
+295.59737000 12.10355100 0.29637090
+308.80171000 12.01954200 0.27279960
+348.41412000 12.14943500 0.30407830
+388.02095000 12.20940300 0.32526530
+
+For camera id = 39
+
+t-t0               MagV            ErrV
+-0.21738000 8.08332450 0.00848860
+15.13208000 8.39624730 0.01125160
+30.48032000 9.30388780 0.02600590
+45.83497000 9.38090950 0.02766380
+61.69324000 9.60060770 0.03356240
+77.04026000 9.76118030 0.03894990
+92.38808000 10.00068600 0.04923380
+107.71683000 10.23761200 0.05958340
+123.06963000 10.43917000 0.07335490
+138.42439000 10.63567700 0.08856020
+153.77331000 10.78614800 0.10097800
+169.12145000 10.99128200 0.12175100
+184.46995000 11.23445500 0.15126550
+199.82483000 11.04686000 0.12786780
+215.17292000 11.27135000 0.15866670
+232.56505000 11.47398300 0.19109480
+247.89472000 11.99905600 0.31466480
+263.75136000 11.78799000 0.25153010
+279.09823000 12.08530200 0.33607390
+294.44611000 11.95412600 0.30025650
+325.14680000 12.14188100 0.35312590
+432.59537000 12.18551500 0.36922680
+
+Indicated errors are statistical only. Estimated systematic uncertainty of the image calibration is around 0.06-0.08 mag.
+
+T0 is the Fermi GBM trigger 488587408 time (Jun 25 22:43:24.82 UT) and t is the time of shutter oppening. Each image taken covers approximately 400 square degrees. The 
+magnitudo limit was about 12.5 mag.
+
+Pi of the Sky observations are performed in wide visible band, with IR-cut and UV-cut filters only. We calibrate our observations to the reference stars from Tycho 2 using 
+the transformation from Tycho to Pi of the Sky system given by:
+
+VPi =  VT + 0.235313 - 0.292266*(BT - VT)
+
+Due to the proximity of the burst to the edge of our FoV, the transient was not detected automatically. However, this allowed us to record it with two cameras, with 
+exposures slightly shifted in time.
+
+The light curve is available at:  http://grb.fuw.edu.pl/results/gamma-ray-bursts/grb160625b/.
+More information will be published at http://grb.fuw.edu.pl and  http://grb.fuw.edu.pl/results/gamma-ray-bursts/grb160625b/
+
+[GCN OPS NOTE(04jul16): Per author's request, the GRB name in the 2nd paragraph was corrected,
+and RC was added to the author list.]
+

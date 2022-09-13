@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31868
+SUBJECT: GRB 220408A: 1.3m DFOT Optical upper limit
+DATE:    22/04/10 12:07:00 GMT
+FROM:    Amit Kumar at ARIES, India  <amitkundu515@gmail.com>
+
+ Amit Kumar, Rahul Gupta, Amit K. Ror, Nikita Rawat, Dimple, Ankur Ghosh,
+Amar Aryan, Brajesh Kumar, Shashi B. Pandey and Kuntal Misra (ARIES)
+report:
+
+We observed the field of the Swift-BAT (Caputo et al., GCN 31848) and
+Fermi-GBM (GBM Team, GCN 31847) detected GRB 220408A with the 1.3m
+Devasthal Fast Optical Telescope (DFOT) located at Devasthal observatory of
+Aryabhatta Research Institute of Observational Sciences (ARIES), India. We
+started the observations on 2022-04-08 at 16:27:57 UT, i.e., ~10.698 hours
+after the GBM trigger. We have observed 300s*23 frames in each Bessel R and
+I filters. We stacked the images after the pre-processing and alignment. We
+did not detect the optical afterglow at the Swift-XRT position (Beardmore
+et al., GCN 31852) in our stacked images; see also Caputo et al., GCN
+31848; Zheng & Filippenko, GCN 31850; Jiang et al., GCN 31853; Oates &
+Caputo, GCN 31855; Kumar et al., GCN 31857; Hu et al., GCN 31859;
+Strausbaugh et al., GCN 31862; Zhu et al., GCN 31864; and Gregory et al.,
+GCN 31867.
+
+
+We obtain the following 3-sigma upper limits in the stacked images.
+
+Date Start_UT T_start-T0 (hour) Filter Exp time(s) Limiting magnitude
+====================================================
+2022-04-08 16:27:57 ~10.698 R 300s*23 >22.5
+2022-04-08 18:29:56 ~12.731 I  300s*23 >22.1
+
+
+The magnitudes are not corrected for the Galactic extinction in the burst
+direction. Photometric calibration is performed using the standard stars
+from the USNO-B1.0 catalogue.
+
+During our observations, the moon phase and its distance were ~45% and
+~55-66 degrees, respectively, which affected our deeper limits
+significantly; see Kumar et al. 2021, JAA, arXiv:2111.13018 (
+https://ui.adsabs.harvard.edu/abs/2000A%26A...363..705M/abstract) for the
+sky brightness of the Devasthal site w.r.t. the moon phase and distance.
+
+Assuming a typical temporal flux decay index of the early afterglows
+(alpha~0.7), the extrapolated brightness at the epoch of our observation is
+consistent with the quoted non-detection. Deeper observations using the
+larger facilities will be useful to establish the fast decaying nature of
+the burst and to investigate for this burst to happen in any
+distant/background galaxy rather than Whirlpool Galaxy (M51a).
+
+This message may be cited.

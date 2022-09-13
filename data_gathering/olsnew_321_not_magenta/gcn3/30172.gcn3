@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30172
+SUBJECT: GRB 210606A: Swift-XRT afterglow detection
+DATE:    21/06/10 20:13:23 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+B. Sbarufatti (PSU), D.N. Burrows (PSU), J. D. Gropp (PSU), K.L. Page
+(U. Leicester), A.P. Beardmore (U. Leicester), A. Melandri (INAF-OAB),
+T. Sbarrato (INAF-OAB), P. D'Avanzo (INAF-OAB) and P.A. Evans (U.
+Leicester) report on behalf of the Swift-XRT team:
+
+Swift-XRT has performed follow-up observations of the Swift/BAT-GUANO
+detected burst GRB 210606A (James DeLaunay et al. GCN Circ. 30134),
+collecting 7.3 ks of Photon Counting (PC) mode data between T0+62.3 ks
+and T0+385.7 ks. 
+
+Four uncatalogued X-ray sources are detected consistent with being
+within 394 arcsec of the Swift/BAT position, of which one ("Source 1")
+is fading with 4.6-sigma significance, and is therefore likely the GRB
+afterglow. Using 4521 s of PC mode data and 5 UVOT images, we find an
+enhanced XRT position (using the XRT-UVOT alignment and matching UVOT
+field sources to the USNO-B1 catalogue): RA, Dec = 170.94110, +0.81293
+which is equivalent to:
+
+RA (J2000): 11h 23m 45.86s
+Dec(J2000): +00d 48' 46.5"
+
+with an uncertainty of 2.3 arcsec (radius, 90% confidence). This
+position is 6.1 arcmin from the Swift/BAT position. 
+
+The light curve can be modelled with a power-law decay with a decay
+index of alpha=1.1 (+0.9, -0.6).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 1.8 (+0.5, -0.4). The
+best-fitting absorption column is  1.4 (+1.6, -1.0) x 10^21 cm^-2,
+consistent with the Galactic value of 3.8 x 10^20 cm^-2 (Willingale et
+al. 2013). The counts to observed (unabsorbed) 0.3-10 keV flux
+conversion factor deduced from this spectrum  is 3.5 x 10^-11 (4.3 x
+10^-11) erg cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     1.4 (+1.6, -1.0) x 10^21 cm^-2
+Galactic foreground: 3.8 x 10^20 cm^-2
+Excess significance: <1.6 sigma
+Photon index:	     1.8 (+0.5, -0.4)
+
+The results of the XRT-team automatic analysis of the likely afterglow
+are at https://www.swift.ac.uk/ToO_GRBs/00021451/Source1.php.
+The results of the full analysis of the XRT observations are available
+at https://www.swift.ac.uk/ToO_GRBs/00021451.
+
+This circular is an official product of the Swift-XRT team.
+

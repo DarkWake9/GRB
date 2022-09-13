@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22932
+SUBJECT: GRB 180703B: further analysis of CGBM data
+DATE:    18/07/09 14:07:10 GMT
+FROM:    Takanori Sakamoto at AGU  <tsakamoto@phys.aoyama.ac.jp>
+
+V. Pal'shin, Y. Kawakubo, A. Yoshida, T. Sakamoto, S. Sugita, A. Tezuka,
+S. Matsukawa, H. Onozawa, T. Ito, H. Morita, Y. Sone (AGU),
+K. Yamaoka (Nagoya U), S. Nakahira (RIKEN), I. Takahashi (IPMU),
+Y. Asaoka, S. Ozawa, S. Torii (Waseda U), Y. Shimizu, T. Tamura (Kanagawa U),
+W. Ishizaki (ICRR), M. L. Cherry (LSU), S. Ricciarini (U of Florence),
+A. V. Penacchioni, P. S. Marrocchesi (U of Siena)
+and the CALET collaboration:
+
+Using the CALET Gamma-ray Burst Monitor (CGBM) event data
+we report further analysis of the bright, short-duration, soft spectrum
+GRB 180703B (Fermi-LAT detection: Racusin et al. GCN Circ. 22884;
+CGBM detection: Takahashi et al. GCN Circ. 22888;
+Fermi-GBM detection: Poolakkil and Meegan GCN Circ. 22897;
+IPN localization: Hurley et al. GCN Circ. 22908;
+Konus-Wind observation: Frederiks et al. GCN Circ. 22914).
+
+Using a 16-ms binned light curve of the sum of HXM1 and HXM2 detectors,
+the estimated spectral lag for the 25-50 keV to 100-300 keV bands is
+43 ± 30 ms (68% CL).  This value is more consistent with lags of long rather
+than short GRBs.
+
+We also obtained more precise estimates of T90 and T50 using the SGM 16-ms lc:
+1.44 s +- 0.10 s and 0.34 +- 0.06 sec (40-1000 keV), respectively.
+
+The time-averaged spectrum of the burst (measured by the SGM from T0+0.032 sec
+to T0+1.856 sec, where T0=22:46:51.183 UTC) is best fit in the 30-1000 keV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -0.83(-0.32, +0.36) and Ep = 143(-13, +15) keV (chi2 = 62/59 dof).
+The resulting fluence in this energy range is 5.98(-0.43, +0.46)x10^-6 erg/cm2.
+The quoted errors are at 90% CL.
+
+All the quoted values are preliminary.
+

@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8908
+SUBJECT: GRB 090217: Suzaku WAM observation of the prompt emission
+DATE:    09/02/19 04:55:52 GMT
+FROM:    Yoshitaka Hanabata at Hiroshima U  <hanabata@hep01.hepl.hiroshima-u.ac.jp>
+
+Y. Hanabata, Y. Fukazawa, T. Takahashi, T. Uehara, C. Kira (HiroshimaU.),
+Y. Terada, M. Tashiro, Y. Urata, A. Endo, K. Onda, N. Kodaka,
+K. Morigami, T. Sugasahara, W. Iwakiri (Saitama U.), M. Ohno,
+M. Kokubun, M. Suzuki, T. Takahashi (ISAS/JAXA), K. Yamaoka,
+S. Sugita (Aoyama Gakuin U.), T. Enoto, K. Nakazawa, K. Makishima
+(Univ. of Tokyo), Y.E. Nakagawa, T. Tamagawa (RIKEN),
+E. Sonoda, M. Yamauchi, H. Tanaka, R. Hara, N. Ohmori, K. Kono,
+H. Hayashi (Univ. of Miyazaki), S. Hong (Nihon U.),
+N. Vasquez (Tokyo Tech), on behalf of the Suzaku WAM team, report:
+
+The bright, long Fermi-LAT detected GRB 090217 (Fermi-GBM
+trigger #256539404 ; von Kielin et al., GCN 8902;
+Fermi-LAT detection ; Ohno et al., ; GCN 8903)
+triggered the Suzaku Wide-band  All-sky Monitor (WAM) which covers an
+energy range of 50 keV - 5 MeV at 04:56:42.98 UT (=T0).
+The observed light curve shows a multi-peaked structure
+starting at T0-3s, ending at T0+19s with a duration
+(T90) of about 14 seconds. The fluence in 100 - 1000 keV
+was 1.56(+0.05,-0.09)x10^-5 erg/cm^2.  The 1-s peak flux measured
+from T0+7s was 3.0 (+0.2,-0.3) photons/cm^2/s in the same  energy range.
+Preliminary result shows that the time-averaged spectrum from
+T0-3s to T0+20s is well fitted by a power-law with exponential cutoff model:
+
+ dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak) with
+ alpha       0.81(+0.26,-0.31), and
+ Epeak       780(+187,-126) keV (chi^2/d.o.f. = 41.0/24).
+
+The GRB Band model also gives a good fit with only
+an upper limit on the high-energy photon index as follows:
+
+the low-energy photon index alpha: -0.75(+0.50,-0.28),
+the high-energy photon index beta: < -2.33,
+and the peak energy Epeak: 748(+195,-175) keV (chi^2/d.o.f = 40.4/23).
+
+Please note that this GRB comes from the WAM 2 on-axis direction, which
+has a large uncertaintiy only in absolute flux.
+All the quoted errors are at statistical 90% confidence level,
+in which the systematic uncertainties are not included.
+
+The light curves for this burst will be available soon at:
+
+http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/trig/grb_table.html
+

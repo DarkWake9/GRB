@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11303
+SUBJECT: GRB100925A/MAXI J1659-152: Galactic origin from SED analysis
+DATE:    10/09/26 00:44:23 GMT
+FROM:    Dong Xu at Weizmann Inst  <dong@astro.ku.dk>
+
+Dong Xu (Weizmann Institute) reported on a larger collaboration:
+
+GRB100925A happened in the error circle of MAXI J1659-152 (Negoro et
+al., ATel 2873; Magano et al., GCN 11296). Spectroscopy or a broadband
+SED is critical to pin down its origin. The Swift UVOT and XRT data
+were analyzed, covering 2000-1x10^4 s since the BAT trigger.
+Generally, UVOT light curves are rather flat as the X-ray does.
+
+The flux densities in the six UVOT filters without Galactic extinction
+correction are rather low compared with the X-ray flux density. The
+UVW2 flux density is almost comparable to that of the X-ray.  Assuming
+the source being extragalactic and correction of E(B-V)~0.61 (Magano
+et al., GCN 11296) applied, then UVOT flux densities are too high
+compared with the downward extrapolation of the X-ray, if interpreted
+with synchrotron radiation mechanism. Additionally, the UVOT spectral
+index has \beta~2 (F_\nu \propto \nu^\beta) in this case, which is
+unusual for GRB afterglows. To make UVOT-XRT SED explained by one
+single mechanism, a moderate extinction is required. We found
+E(B-V)~0.35 would naturally give rise to a good SED modeling: the
+synchrotron radiation lies in the slow cooling phase with the minimum
+frequency ~3x10^15 Hz, above which X-ray has \beta_X~-(p-1)/2~0.7
+(i.e., p~2.4) and below which UVOT has \beta_opt~1/3. Therefore, we
+suggest this source is of Galactic origin.
+
+If the above synchrotron mechanism governs the broadband SED from
+radio to X-ray, then MAXI J1659-152 is likely not detectable at radio,
+especially when the synchrotron-self absorption frequency is above the
+radio band. Therefore, radio follow-up is encouraged.
+
+[GCN OPS NOTE(28sep10): Per auther's request, "100525A" was changed
+to "100925A" in both the Subject line and text.]
+

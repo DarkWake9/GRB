@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7893
+SUBJECT: Swift trigger 314975 is not a GRB
+DATE:    08/06/22 13:10:03 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+K. McLean (GSFC/UMD), S. D. Barthelmy (GSFC), W. Baumgartner (GSFC/UMBC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+S. Immler (CRESST/GSFC/UMD), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD),
+K. L. Page (U. Leicester), D. Palmer (LANL), T. Sakamoto (GSFC/UMBC),
+G. Sato (ISAS), M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the BAT data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of trigger #314975 (Immler, et al., GCN Circ. 7892).
+Ground processing of the full data set does not show any significant emission.
+There is a pair of cosmic ray shower events within the trigger time interval plus
+a small ~3-sigma fluctuation in the 25-100 keV band.
+
+The XRT did not detect any sources, down to a conservative 3-sigma upper limit
+of 2.5x10^-3 count s^-1 (using 3.4 ks of data obtained between 2 and 15 hours
+after the trigger).
+
+Given no other indications within the data, we conclude that this trigger
+was caused by these temporally coincident noise events and not due to
+anything astrophysical.
+

@@ -1,0 +1,93 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26243
+SUBJECT: LIGO/Virgo S191110af: Potential pulsar counterparts
+DATE:    19/11/13 19:39:30 GMT
+FROM:    David Kaplan at UW-Milwaukee  <kaplan@uwm.edu>
+
+David Kaplan and John Friedman (University of Wisconsin-Milwaukee),
+and Jocelyn Read (CSU Fullerton, Caltech) report on behalf of the
+GROWTH collaboration:
+
+The unmodelled GW burst S191110af (LVC, GCN 26222) consisted of a
+narrow-band signal near 1781.72 Hz with duration 0.1 s.  This
+frequency is consistent with the frequency of the fundamental
+quadrupole mode of a star with mass in the range of 1.2 to 1.45 Msun
+and radii within current estimates. We use Andersson & Kokkotas (1998,
+MNRAS, 299, 10591068) Eqs. (1), (5) and (8) for the frequency, damping
+time, and effective amplitude of the quadrupole f mode.  In
+particular, for a neutron star with mass 1.25 Msun, a frequency of
+1782 Hz corresponds to radius 13.3 km, and the damping time is then
+0.2 s, consistent with observations.  Similarly, the range of EOS
+considered in Chirenti et al. (2015, Phys. Rev. D 91, 044034) generate
+f-modes along a band in frequency and decay time that seems compatible
+with this candidate.
+
+While we do not know the strain amplitude associated with this burst,
+we can estimate a minimum detectable strain based on the observed
+frequency, duration, and the LIGO noise properties.  At the observed
+frequency we estimate a noise level of 1.5e-23 Hz**-0.5
+(https://www.gw-openscience.org/detector_status/day/20191110/).
+Following Eqs. (3) and (4) of Kokkotas et al. (2001, MNRAS, 320, 307)
+we estimate that a signal with f=1782Hz and duration 0.15s will have
+amplitude 5e-22, and SNR~10 in a detector with noise 1.5e-23 Hz**-0.5,
+for a source at 1kpc emitting 2.5e-9 Msun c**2 of energy in
+gravitational waves. Comparably, in a physical model where similar
+oscillations come from a pulsar triggered by a significant glitch,
+Keer & Jones (2015, MNRAS, 446, 865) estimate a stain of 3e-22 at a
+distance of 1 kpc.
+
+Motivated by this, we searched for potential counterparts among known
+pulsars (note that if such a signal originates with a neutron star it
+need not be visible as a pulsar). Based on the amplitude estimates
+referenced above, we restrict our search to Galactic pulsars and do
+not consider significantly more distant objects.
+
+We looked at the latest version (1.61) of the ATNF pulsar catalog
+(Manchester et al. 2005, AJ, 129, 1993;
+http://www.atnf.csiro.au/research/pulsar/psrcat) and computed the
+probability of the GW sky map at the position of each pulsar.  The top
+3 pulsars ranked by probability are:
+
+PSR J0045-7042 1.6e-3
+PSR J0101-6422 2.4e-4
+PSR B2045-16   4.9e-5
+
+All other pulsars have probabilities <3e-5, and do not stand out from
+the rest of the population, with 394 other sources at probabilities
+>1e-6.
+
+For these three pulsars:
+
+PSR J0045-7042 is a slow (0.6s period) pulsar in the Small Magellanic
+Cloud, and would not appear to be sufficiently energetic or close
+enough to give rise to a significant GW signal.
+
+PSR J0101-6422 is a nearby (~1 kpc), energetic (rotational energy loss
+1.2e34 erg/s) millisecond pulsar in a 1.8d orbit, which is also a
+Fermi gamma-ray source (Kerr et al. 2012, ApJ, 748, 2; Nolan et
+al. 2012, ApJS, 199, 31).
+
+PSR J2045-16 is a nearby (~0.8 kpc) slow (2.0s period) pulsar, which
+does not appear otherwise notable.
+
+Unfortunately, PSRs J0045-7042 and B2045-16 do not have sufficient
+timing data to search for a recent glitch.  PSR J0101-6422 is timed
+regularly with the Fermi Large Area Telescope, but detecting a
+putative glitch will take weeks to months, depending on the magnitude
+of the glitch (M. Kerr and P.S. Ray, private communication).  As
+mentioned above, any or none of these sources could be the origin of
+the possible gravitational wave emission, or the candidate could be
+terrestrial in origin.  It also may be worth searching for short GW
+bursts associated with known glitches, especially those from the Vela
+pulsar (as in Abadie et al. 2011, PRD 83, 042001).
+
+We thank Joe Swiggum, Sinead Walsh, Nils Andersson, and Cecilia
+Chirenti for helpful conversations.  GROWTH is a worldwide
+collaboration comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC,
+Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan;
+UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA,
+India; LJMU, UK; TTU USA and USyd, Australia. GROWTH acknowledges
+generous support of the NSF under PIRE Grant No 1545949.
+
+
+

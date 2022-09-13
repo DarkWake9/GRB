@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8421
+SUBJECT: GRB 081028: Swift detection of a burst
+DATE:    08/10/28 00:44:50 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+C. Guidorzi (INAF-OAB), W. H. Baumgartner (GSFC/UMBC),
+A. P. Beardmore (U Leicester), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), S. T. Holland (CRESST/USRA/GSFC),
+E. A. Hoversten (PSU), K. L. Page (U Leicester), D. M. Palmer (LANL),
+T. Sakamoto (NASA/UMBC), M. Stamatikos (NASA/ORAU) and
+T. N. Ukwatta (GSFC/GWU) report on behalf of the Swift Team:
+
+At 00:25:00 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 081028 (trigger=332851).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 121.890, +2.311 which is 
+   RA(J2000) = 08h 07m 34s
+   Dec(J2000) = +02d 18' 40"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Although this is a BAT image trigger,
+the BAT light curve showed at least two slowly rising and falling 
+peak structure with a duration of about 250 sec.  The peak count rate
+of the first peak was ~600 counts/sec (15-350 keV), at ~70 sec after the 
+trigger.  The second peak was comparable in size peaking at ~210 sec. 
+
+The XRT began observing the field at 00:28:11.5 UT, 190.7 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 121.8953, +2.3086 which is equivalent to:
+   RA(J2000)  = 08h 07m 34.87s
+   Dec(J2000) = +02d 18' 30.9"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 20 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 5.50e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+
+UVOT took a finding chart exposure of nominal 150 seconds with the White
+(160-650 nm) filter starting 200 seconds after the BAT trigger. No afterglow
+candidate has been found in the initial data products. Image catalog data are
+not available at this time. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.03. 
+
+
+
+
+Burst Advocate for this burst is C. Guidorzi (cristiano.guidorzi AT brera.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

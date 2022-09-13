@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16334
+SUBJECT: Swift Trigger 600114: Preliminary BAT analysis
+DATE:    14/05/28 05:58:06 GMT
+FROM:    Craig Markwardt at NASA/GSFC  <craigm@milkyway.gsfc.nasa.gov>
+
+W. H. Baumgartner (GSFC/UMBC), S. D. Barthelmy (GSFC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (NASA/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU), J. Tueller (GSFC),
+T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-120 to T+180 sec from a recent telemetry
+downlink, we report preliminary analysis of BAT trigger 600114,
+tentatively associated with the M31 galaxy (Barthelmy, et al., GCN
+Circ. 16332).  The BAT ground-calculated position is
+RA, Dec = 10.371, 41.520 deg which is
+    RA(J2000)  =  00h 41m 29.0s
+    Dec(J2000) = +41d 31' 11.7"
+with an uncertainty of 3.6 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 50%.
+
+The mask-weighted light curve is consistent with a sharp rise
+(~10 sec rise time) near T+0sec, followed by a ~60 sec decay.  The
+excess counts are primarily in the 15-50 keV band.
+T90 (15-350 keV) is 55.2 +- 15.9 sec (estimated error including 
+systematics).
+
+The time-averaged spectrum from T-4 to T+55 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.35 +- 0.57.  The fluence in the 15-150 keV band is (3.1 +- 1.1) x
+10^-7 erg/cm2. The 1-sec peak photon flux measured from T+22.42 sec in
+the 15-150 keV band is 0.6 +- 0.2 ph/cm2/sec.  All the quoted errors
+are at the 90% confidence level.
+
+We caution that this is a faint BAT transient and the significance is
+lower than typical for GRBs.  We urge confirmation at other wavelengths.
+Significance, light curve and spectral properties may be revised after
+further refined analysis.  If confirmed as real and associated with
+the M31 galaxy at a distance of 778 kpc, the mean luminosity averaged
+over the T90 duration in the 15-150 keV band would be 2-6 x 10^41
+erg/s.
+
+Such a luminosity, if isotropic, would be highly super Eddington for a
+1 solar mass object (by a factor in the 2000-5000 range).
+Alternatively, the source could be highly beamed in our observer
+direction.  Although either interpretation suggests a tantalizingly
+energetic event as the progenitor, we again urge caution until the
+presence of a bright source at this location is confirmed
+independently.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/600114/BA/
+

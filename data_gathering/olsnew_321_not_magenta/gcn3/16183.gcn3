@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16183
+SUBJECT: Trigger 597570: Swift detection of SGR 1806-20
+DATE:    14/04/29 13:32:17 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), J. K. Cannizzo (NASA/UMBC), V. D'Elia (ASDC),
+J. A. Kennea (PSU), F. E. Marshall (NASA/GSFC),
+K. L. Page (U Leicester), M. H. Siegel (PSU) and
+E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift Team:
+
+At 13:13:28 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located SGR 1806-20 (trigger=597570).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 272.159, -20.404 which is 
+   RA(J2000)  =  18h 08m 38s
+   Dec(J2000) = -20d 24' 12"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single spike
+with a duration of about 0.128sec.  The peak count rate
+was ~11,000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 13:14:29.8 UT, 61.7 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 272.1632, -20.4116 which is
+equivalent to:
+   RA(J2000)  = 18h 08m 39.16s
+   Dec(J2000) = -20d 24' 41.7"
+with an uncertainty of 3.8 arcseconds (radius, 90% containment). This
+location is 30 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. This
+position is 3.1 arcsec from the known position of SGR 1806-20. No spectrum
+from the promptly downlinked event data is yet available to determine
+the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 63 seconds after the BAT trigger. No credible optical counterpart has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+The last previous detection of this Soft Gamma Repeater by 
+BAT was on April 5, 2014. 
+

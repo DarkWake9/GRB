@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6210
+SUBJECT: GRB 070318: Swift detection of a burst with an optical afterglow
+DATE:    07/03/18 07:49:43 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. R. Cummings (NASA/UMBC), S. D. Barthelmy (GSFC),
+D. N. Burrows (PSU), G. Cusumano (INAF-IASFPA),
+N. Gehrels (NASA/GSFC), C. Gronwall (PSU),
+V. La Parola (INAF-IASFPA), T. Mineo (INAF-IASFPA) and
+D. M. Palmer (LANL) report on behalf of the Swift Team:
+
+At 07:28:56 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070318 (trigger=271019).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 48.540, -42.962 which is 
+   RA(J2000)  =  03h 14m 10s
+   Dec(J2000) = -42d 57' 42"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single FRED-like peak
+with a duration of about 70 sec.  The peak count rate
+was ~4000 counts/sec (15-350 keV), at ~2 sec after the trigger. 
+
+The XRT began observing the field at 07:29:59 UT, 64 seconds after the
+BAT trigger. XRT found a bright, fading, uncatalogued X-ray source
+located at RA, Dec 48.4856, -42.9468 which is
+   RA(J2000)  =  03h 13m 56.5s
+   Dec(J2000) = -42d 56' 48.4"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). 
+This location is 153 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 2.6e-09 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 400 seconds with the V filter starting
+180 seconds after the BAT trigger. There is a candidate afterglow in the
+rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	03:13:56.83 =  48.4868
+  DEC(J2000) = -42:56:46.3  = -42.9462
+with a 1-sigma error radius of about 0.5 arc sec. This position is 3.8 arc sec. 
+from the center of the XRT error circle. The estimated magnitude is 15.4 with a
+1-sigma error of about 0.5 mag. No correction has been made for the expected
+extinction of about 0.1 magnitudes. 
+

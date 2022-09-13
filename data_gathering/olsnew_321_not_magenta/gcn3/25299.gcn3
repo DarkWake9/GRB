@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25299
+SUBJECT: LIGO/Virgo S190808ae: CLU/NED Galaxies in the 50% Localization Volume 
+DATE:    19/08/09 00:41:54 GMT
+FROM:    David Cook at IPAC/Caltech  <dcook@ipac.caltech.edu>
+
+David O. Cook (Caltech/IPAC), Angela Van Sistine (UW Milwaukee), Leo Singer (NASA/GSFC), Igor Andreoni (Caltech), Michael Coughlin (Caltech), Bob Aloisi (UW Milwaukee), Patrick R. Brady (UW Milwaukee), Rick Ebert (Caltech/IPAC), George Helou (Caltech/IPAC), David Kaplan (UW Milwaukee), Mansi M. Kasliwal (Caltech), Joseph M. Mazzarella (Caltech/IPAC), and Marion Schmitz (Caltech/IPAC)
+
+On behalf of the Global Relay of Observatories Watching Transients Happen (GROWTH) collaboration and the NASA/IPAC Extragalactic Database (NED) Team.
+
+We spatially cross-matched the LIGO/Virgo S190808ae trigger sky localization (50% containment volume) with the Census of the Local Universe (CLU; Cook et al. 2017; arxiv:1710.05016) galaxy catalog and found 11018 galaxies within the volume. The CLU catalog is a compilation of galaxies with existing redshifts from many sources (e.g., NED, SDSS, etc) and new galaxies from a 3PI narrow-band survey to look for redshifted Halpha emission out to 200 Mpc with the Palomar Oschin 48-inch telescope (Cook et al. 2017; arxiv:1710.05016). We list here the top 20 galaxies sorted by stellar mass (Mstar) for galaxies whose location on the sky and distance falls in the 50% volume reported by the BAYESTAR probability sky map (Singer et al. 2016). We also list the dust-corrected star formation rates (SFRs) for galaxies with GALEX FUV detections and a 'nan' for those with no detection.
+
+For an extended list of galaxies in the 90% volume go to the NED Gravitational Wave Followup service at https://ned.ipac.caltech.edu/uri/NED::GWF/. This service provides downloadable galaxy lists and visualizations for candidate host galaxies. For each GW alert, these products are automatically generated and made available within minutes to expedite efficient electromagnetic followup observations. The NED top 20 list is sorted by 2MASS absolute K-band magnitude, but users can sort the entire list on a variety of other criteria (probability density, UV magnitudes, etc) after download.
+
+
+          name              ra      dec   distmpc logsfr_fuv logmstar  dP_dV  
+------------------------ -------- ------- ------- ---------- -------- --------
+                NGC 6196 249.4747 36.0731  141.00        nan    11.33 6.38e-07
+                NGC 6240 253.2453  2.4009  101.93        nan    11.27 1.63e-06
+            CGCG 169-020 254.5317 29.9106  160.64       0.58    11.19 1.69e-07
+            CGCG 081-001 250.8074  9.9044  196.84       0.79    11.17 2.00e-07
+                NGC 6113 244.7939 14.1336  124.09       0.49    11.16 3.61e-07
+                NGC 6185 248.3243 35.3423  143.07      -0.11    11.16 7.34e-07
+                 IC 4395 214.3378 26.8574  152.04       1.18    11.13 1.83e-07
+            CGCG 074-028 209.9276 12.7368  188.00      -0.33    11.13 2.21e-07
+                NGC 6097 243.6091 35.1092  153.00        nan    11.11 4.26e-07
+                NGC 6078 243.0227 14.2088  130.25      -0.83    11.11 2.31e-07
+            CGCG 049-183 232.4576  3.5109  160.00      -0.16    11.10 1.62e-07
+SDSS J161948.55+374633.4 244.9523 37.7759  129.68        nan    11.09 3.39e-07
+                 IC 1121 231.9336  6.8039  181.16        nan    11.09 1.52e-07
+ 2MASS J12545245+0353033 193.7186  3.8842  198.99        nan    11.08 1.58e-07
+                NGC 6120 244.9504 37.7745  127.56       1.25    11.07 3.38e-07
+ 2MASX J16164545+1320492 244.1893 13.3469  138.64      -0.22    11.07 3.53e-07
+          NGC 6230 NED01 252.6781  4.6050  133.49       0.50    11.07 1.24e-06
+ 2MASS J16224730+3733145 245.6972 37.5540  124.54      -0.77    11.06 3.92e-07
+               UGC 10412 247.4005 15.6584  142.06      -0.29    11.05 4.64e-07
+                NGC 6086 243.1481 29.4848  141.00      -0.77    11.05 2.05e-07
+
+                                  
+Table: Top 20 galaxies in CLU that fall in the 50% probability volume for S190808ae sorted by stellar mass. Column descriptions are as follows. name: galaxy name. ra: RA (J2000, decimal degrees). dec: Dec (J2000, decimal degrees). distmpc: galaxy distance (Mpc). logsfr_fuv: log10 of the star formation rate (SFR, Msun per year), derived from GALEX All Sky Kron FUV magnitudes via the prescription of Murphy et al. (2011), corrected for internal dust extinction using a combination of GALEX FUV and 22um ALLWISE fluxes (Hao et al. 2011). logmstar: log10 of the galaxy stellar mass (Msun), estimated from 3.4um ALLWISE fluxes and a mass-to-light ratio of 0.5 (McGaugh & Schombert et al. 2015). 
+
+
+
+

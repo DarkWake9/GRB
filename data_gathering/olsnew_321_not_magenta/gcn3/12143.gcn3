@@ -1,0 +1,18 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12143
+SUBJECT: GRB 110709B: burst detection from Swift-BAT slew data
+DATE:    11/07/10 22:39:52 GMT
+FROM:    Antonio Copete at Harvard U  <acopete@head.cfa.harvard.edu>
+
+A. Copete, J. Grindlay (Harvard)
+S. Barthelmy, C. Markwardt, N. Gehrels (NASA/GSFC)
+
+We report the detection of the early emission from GRB 110709B (GCNs 12122, 12124) by the BAT Slew Survey (BATSS) in the slew that started at 21:32:53 UT and lasted 55 sec, immediately following the original on-board detection. The ground-calculated position is RA, Dec = 164.654, -23.464 deg, which is
+ RA  (J2000) = 10h 58m 37.0s
+ Dec (J2000) = -23d 27' 51"
+with an uncertainty of 1.8 arcmin (90% confidence radius, incl. systematics). The trigger was issued as a result of simultaneous independent detections of 44.0 and 31.3 sigma from imaging in the 15-50 keV and 50-150 keV energy bands, respectively. The burst mask-tagged lightcurve in the 15-150 keV band shows a fading profile with several overlapping peaks within it, from the start of the the slew at T+14s until fading into the background at T+48s during the course of the slew.
+
+The time-averaged spectrum over the 34 sec duration of the burst within the slew is best fit by a power law with an exponential cutoff, with photon index 1.06 +- 0.18, and Epeak of 175.7 (+151.3/-44.5) keV. The fluence in the 15-150 keV band is 4.9 +- 0.4 x 10^-6 erg/cm2. The 1-sec peak photon flux (from T+17.0s, 15-150 keV) is 3.35 +- 0.25 photons/cm2/sec. All errors are quoted at 90% confidence level.
+
+The analysis software for the BAT Slew Survey has undergone a thorough revision, and its burst-finding function to process downlinked slew data and issue automated real-time alerts is now fully operational. At the current rate of ~80 ksec of instrument exposure time downlinked per month (about 30% of all slew data), it is expected to to detect ~0.5 new bursts per month, separate from those already detected in pointing mode. BATSS alert notices are distributed through the GCN:
+http://gcn.gsfc.nasa.gov/gcn/swift.html#tc2x2

@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29819
+SUBJECT: GRB 210413B: Swift/BAT detection and probable localization of a short burst
+DATE:    21/04/16 00:04:06 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+Swift/BAT did not successfully trigger on GRB 210413B (T0: 2021-04-13
+23:46:52.45 UTC, Fermi/GBM TRIGGER 640050417).
+
+The GUANO system is currently offline, thus no extended GUANO data is
+available for this time, and so the sensitive GUANO MLL analysis
+(DeLaunay et al. 2021, in prep) can not be run.
+
+Swift/BAT triggered in real-time onboard in the rates domain (trigger
+#1043009), but no strong source was found to be associated in the
+onboard imaging. This 'failed trigger' resulted in 10s of BAT TTE data
+being saved and sent to the ground.
+
+The duration of the burst, as seen by BAT, is T90 = 1.088 s +/- 0.09 s.
+
+In ground analysis of the available TTE data, we find a source using
+typical imaging analysis, that is the likely location of the GRB, with
+SNR 6 in the image domain.
+The BAT position is
+RA, Dec = 182.558 +55.965, which is:
+    RA (J2000)     12h 10m 13.920s
+    Dec (J2000)  +55d 57' 54.00"
+with an estimated uncertainty of 3 arcminutes.
+
+This location is consistent with the Fermi/GBM localization
+distributed in the Final Position notice.
+
+XRT and UVOT follow-up has been requested. Results of follow-up
+observations will be reported in future circulars.
+

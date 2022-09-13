@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31909
+SUBJECT: Konus-Wind detection of GRB 220412B
+DATE:    22/04/15 22:23:55 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, D. Frederiks, M. Ulanov, A. Tsvetkova, A. Lysenko,
+A. Ridnaia, and T. Cline on behalf of the Konus-Wind team, report:
+
+The short-duration GRB 220412B
+(Swift-BAT detection: Gropp et al., GCN Circ. 31886;
+Fermi-GBM observation: Veres and Meegan, GCN Circ. 31908)
+triggered Konus-Wind at T0=26885.231 s UT (07:28:05.231).
+
+The burst light curve shows a single pulse
+with a total duration of ~86 ms.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220412_T61606/
+
+As observed by Konus-Wind, the burst
+had a fluence of 3.2(-0.1,+1.2)x10^-7 erg/cm2,
+and a 16-ms peak flux, measured from T0-42 ms,
+of 1.1(-0.1,+0.4)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Since the main fraction of the burst emission was detected
+before the trigger, the spectral analysis was performed using
+the KW 3-channel light curve data.
+
+Modelling the KW 3-channel time-integrated spectrum
+(measured from T0-52 ms to T0+34 ms)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep),
+yields alpha = -0.03(-0.47,+0.59) and Ep = 283(-52,+68) keV.
+
+All the quoted errors are at the 68% confidence level.
+All the quoted values are preliminary.
+

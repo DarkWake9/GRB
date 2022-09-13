@@ -1,0 +1,70 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26006
+SUBJECT: ANTARES 191011A: MASTER optical observation befor and after trigger
+DATE:    19/10/14 18:12:43 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, O.Gress, E. Gorbovskoy, V.Kornilov, N.Tyurina, F.Balakin,P.Balanutsa,A.Kuznetsov, V.Vladimirov, D. Vlasenko,
+I.Gorbunov, D. Zimnukhov, V.Senik, T.Pogrosheva, D.Kuvshinov(Lomonosov Moscow State University, SAI, Physics Department),
+R. Rebolo, M. Serra(The Instituto de Astrofisica de Canarias),
+R. Podesta, C.Lopez, F. Podesta, C.Francile(Observatorio Astronomico Felix Aguilar OAFA), 
+H. Levato(Instituto de Ciencias Astronomicas, de la Tierra y del Espacio ICATE),
+D. Buckley(South African Astronomical Observatory),
+N.M. Budnev, O.Ershova(Irkutsk State University, API),
+A. Tlatov, D. Dormidontov(Kislovodsk Solar Station of the Pulkovo Observatory),
+V. Yurkov, A. Gabovich, Yu. Sergienko(Blagoveschensk Educational State University)
+
+MASTER Global Robotic Net (http://observ.pereplet.ru, Lipunov et al.,2010, Advances in Astronomy, vol.2010, 30L)
+observed ANTARES 191011A
+(Turley et al. GCN 26005, Ttrig=2019-10-11 15:54:32UT,Tnotice=2019-10-14 14:18:07UT,RA,Dec(2000)=03:19:51.8 +18:48:27 +-0.4d )
+at MASTER-IAC and MASTER-Kislovodsk during MASTER own survey.
+
+MASTER didn't receive this alert through usual GCN socket system.
+
+MASTER-IAC robotic telescope   located in Spain, IAC Teide Observatory, 
+observed  Antares 191011A alert errorbox during own survey 1 day 24617 sec after trigger time at
+2019-10-12 22:44:49 UT, with upper limit up to  18.4 mag on single images .
+The observations began at zenit distance = 60 deg. The sun  altitude  was -54.1 deg.
+
+MASTER-Kislovodsk robotic telescope  located in Russia, Kislovodsk Solar Station of Pulkovo observatory,
+observed Antares 191011A alert errorbox  1 days 28366 sec after trigger time at 
+2019-10-12 23:47:18 UT, with upper limit up to  18.2 mag.
+The observations began at zenit distance = 26 deg. The sun  altitude  was -38.6 deg.
+The galactic latitude b = -60 deg., longitude l = 98 deg.
+
+Also we have a several images (4 square degrees) ~14 hours before trigger 
+time at MASTER-IAC with upper limit up to 18.8, made during MASTER own survey.
+
+We obtained the following upper limits:
+
+Tmid-T0  |      Date Time      |          Site       |             Coord (J2000) _         |Filt.| Expt. | Limit| Comment
+_________|_____________________|_____________________|_____________________________________|_____|_______|______|________
+   -50486 | 2019-10-11 01:52:35 |          MASTER-IAC | (03h 24m 41.758s ,+17d 56m 09.20s) |   C |    60 | 18.8 |
+   -50486 | 2019-10-11 01:52:36 |          MASTER-IAC | (03h 16m 09.822s ,+18d 00m 05.97s) |   C |    60 | 18.7 |
+   -50047 | 2019-10-11 01:59:54 |          MASTER-IAC | (03h 27m 10.598s ,+19d 56m 45.10s) |   C |    60 | 18.8 |
+   -50047 | 2019-10-11 01:59:54 |          MASTER-IAC | (03h 18m 32.410s ,+20d 00m 35.27s) |   C |    60 | 18.6 |
+   111048 | 2019-10-12 22:44:49 |          MASTER-IAC | (03h 24m 45.696s ,+17d 57m 08.38s) |   C |    60 | 17.7 |
+   111078 | 2019-10-12 22:44:49 |          MASTER-IAC | (03h 24m 45.697s ,+17d 57m 08.49s) |   C |   120 | 18.3 |  Coadd
+   111049 | 2019-10-12 22:44:50 |          MASTER-IAC | (03h 16m 13.118s ,+18d 00m 55.10s) |   C |    60 | 17.5 |
+   111079 | 2019-10-12 22:44:50 |          MASTER-IAC | (03h 16m 13.118s ,+18d 00m 55.06s) |   C |   120 | 18.2 |  Coadd
+   111185 | 2019-10-12 22:47:06 |          MASTER-IAC | (03h 18m 31.476s ,+20d 00m 25.29s) |   C |    60 | 17.6 |
+   111215 | 2019-10-12 22:47:06 |          MASTER-IAC | (03h 18m 31.481s ,+20d 00m 25.33s) |   C |   120 | 18.3 |  Coadd
+   111185 | 2019-10-12 22:47:06 |          MASTER-IAC | (03h 27m 10.213s ,+19d 56m 38.51s) |   C |    60 | 17.9 |
+   111215 | 2019-10-12 22:47:06 |          MASTER-IAC | (03h 27m 10.214s ,+19d 56m 38.66s) |   C |   120 | 18.4 |  Coadd
+   113619 | 2019-10-12 23:27:40 |          MASTER-IAC | (03h 16m 10.561s ,+18d 00m 52.50s) |   C |    60 | 17.8 |
+   113619 | 2019-10-12 23:27:40 |          MASTER-IAC | (03h 24m 44.154s ,+17d 57m 10.10s) |   C |    60 | 18.0 |
+   113757 | 2019-10-12 23:29:59 |          MASTER-IAC | (03h 18m 29.321s ,+20d 00m 31.83s) |   C |    60 | 17.9 |
+   113757 | 2019-10-12 23:29:59 |          MASTER-IAC | (03h 27m 09.160s ,+19d 56m 49.43s) |   C |    60 | 18.1 |
+   114797 | 2019-10-12 23:47:18 |   MASTER-Kislovodsk | (03h 26m 21.586s ,+18d 04m 20.23s) |   C |    60 | 17.7 |
+   114797 | 2019-10-12 23:47:18 |   MASTER-Kislovodsk | (03h 17m 35.971s ,+18d 29m 50.56s) |   C |    60 | 18.0 |
+   114894 | 2019-10-12 23:48:56 |   MASTER-Kislovodsk | (03h 19m 58.458s ,+20d 28m 33.57s) |   C |    60 | 18.2 |
+Filter C is a clear (unfiltred) band.
+
+Real time updated cover map and OT discovered available here:
+https://master.sai.msu.ru/site/master2/observ.php?id=1166369
+
+The observation,reduction, analysys will be continued.
+
+This message can be cited.
+
+

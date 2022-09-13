@@ -1,0 +1,25 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25418
+SUBJECT: Fermi GBM-190816: One candidate counterpart from the Zwicky Transient Facility 
+DATE:    19/08/20 22:12:39 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+Robert Stein (DESY),  Anna Franckowiak (DESY), Mansi M. Kasliwal (Caltech), Igor Andreoni (Caltech), Michael W. Coughlin (Caltech), Shreya Anand (Caltech), report on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+ 
+We serendipitously observed the localization region of the subthreshold joint Fermi GBM-LVC gravitational wave trigger Fermi GBM-190816 (GCN 25406) with the Palomar 48-inch telescope equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). Observations were conducted on multiple nights, as part of the public survey, with exposures of 30s and a typical depth of ~20.5 mag. In total, 31% of the localisation region was observed at least twice by ZTF. This coverage estimate does not account for chip gaps. The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to vet candidates based on their light curves. After rejecting stellar sources (Tachibana and Miller 2018) and moving objects and applying machine learning algorithms (Mahabal et al. 2019), and after removing candidates with history of variability prior to the merger time, one new transient candidates were identified by our pipeline in the 90% localization.
+-------------------------------------------------------
+ ZTF Name       | RA (deg)    | DEC (deg)   
+-------------------------------------------------------
+ZTF19abqanpy | 56.264326 | 41.998417  
+-------------------------------------------------------
+This candidate was detected three times since merger, it is rising and offset from its putative host galaxy. The light curve is below:
+--------------------------------------------------------------------
+ Filter     | Mag    | Mag Err | Observation Time (JD) 
+-------------------------------------------------------------------
+      r      |  19.53  |    0.14    |  2458712.9510 
+     g      |  19.67  |    0.21    |  2458712.9893
+     r       |  18.59  |    0.07    |  2458715.9438
+ 
+ 
+--------------------------------------------------------------------
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).

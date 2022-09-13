@@ -1,0 +1,41 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3645
+SUBJECT: Swift-BAT detection of a possible GRB
+DATE:    05/07/19 14:54:41 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S. Vaughan, A. Beardmore, M. Goad, O. Godet, J. Osborne, K. Page (U. Leicester),
+S. Barthelmy (GSFC), D. Burrows (PSU), J. Cummings (GSFC/NRC), N. Gehrels (GSFC),
+J. Kennea (PSU), H. Krimm (GSFC/USRA), D. Palmer (LANL), A. Blustin (MSSL),
+S. Holland (GSFC/USRA), M. De Pasquale (MSSL)
+on behalf of the Swift team:
+
+At 13:58:52.85 UT, the Swift-BAT instrument triggered (trigger=146731)
+on a weak event.  Using only the TDRSS lightcurve data we can not confirm
+or reject that this is a real GRB.  If it is a real GRB, then it might 
+be a short GRB.  There was a single spike of duration less than 128 msec
+in the 100-350 keV band, and no apparent emission in the lower energy bands.
+The BAT trigger duration was 32 msec which is consistent, but not definitive,
+with the short nature of this event.  The rate data currently available
+is also consistent with a cosmic ray event interacting in the instrument
+or spacecraft and showering the BAT detector.  Such events do not produce
+a point source in the image, so if that were the case, the 6.24 sigma peak
+detection in the image would be an unlikely, but still feasible,
+statistical deviation.  The on-board calculated position
+is 213.420d,+9.444 {+14h 13m 41s, +09d 26' 38"}  (J2000) +- 3arcmin
+(radius, 90%, sys+stat).  We will know more about this event when
+the full data set arrives in a couple hours.
+
+The XRT began observing the burst at 14:00:04 UT, 71 seconds after
+the BAT trigger.  No source was found by the on board software due to
+low flux.  The full field XRT lightcurve does not show any significant
+enhancement over background, and ground processing will be necessary
+to determine if a faint afterglow is detected.
+
+The Swift Ultra Violet/Optical Telescope (UVOT) observations began
+at 14:00:02 (69 seconds after the BAT trigger).  The first data taken
+after the spacecraft settled was a 100 sec exposure using the V filter
+with the midpoint of the observation at 119 sec after the BAT trigger.
+Based on comparison with the DSS, we detect no new source within
+the Genie image down to a 5 sigma upper limit magnitude of V=18.3.
+

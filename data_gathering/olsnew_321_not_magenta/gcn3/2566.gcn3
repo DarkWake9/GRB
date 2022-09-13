@@ -1,0 +1,86 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2566
+SUBJECT: HETE/IPN localization of GRB040403A (=H3143, a long burst) and GRB040403B(=H3144, a short/hard burst)
+DATE:    04/04/09 21:16:39 GMT
+FROM:    Kevin Hurley at UCBerkeley/SSL  <khurley@sunspot.ssl.berkeley.edu>
+
+K. Hurley, on behalf of the HETE GRB Team,
+
+E. Mazets and S. Golenetskii, on behalf of the Konus-Wind GRB team,
+
+G. Ricker, J-L Atteia, N. Kawai, D. Lamb, S. Woosley, J. Doty, R.
+Vanderspek, J. Villasenor, G. Crew, A. Dullighan, N. Butler, J.G.
+Jernigan, A. Levine, F. Martel, E. Morgan, G. Prigozhin, J. Braga, R.
+Manchanda, G.  Pizzichini, Y. Shirasaki, C. Graziani, M. Matsuoka, T.
+Tamagawa, K. Torii, T. Sakamoto, A. Yoshida, E. Fenimore, M. Galassi,
+T. Tavenner, T.  Donaghy, M. Boer, J-F Olive, and J-P Dezalay, on
+behalf of the HETE GRB team, and
+
+T. Cline, on behalf of the HETE and Konus-Wind GRB teams, report:
+
+HETE detected two GRBs on 2004 April 03; the presence of Sco X-1 in the
+WXM field-of-view made analyses and reporting of their results somewhat
+complicated.  Both events were also detected by Konus-Wind, but by no
+other instruments in the IPN.
+
+GRB040403A was detected as trigger #H3143 at 16:55:03 UT (60903 SOD).
+It was detected primarily in the Fregate 30-400 keV band.  The absence
+of a signal in the 7-40 and 7-80 keV bands indicates that the burst was
+detected at the edge of the Fregate FOV; there was no discernable
+signal in the WXM.  The WXM flight software looked for a real-time
+localization for GRB040403A, but was able only to localize Sco X-1:
+this position was distributed to the GCN 27 seconds after burst
+detection.  After detailed analysis of the WXM data, the localization
+was retracted two hours after the initial report.  Due to a software
+error, the retraction Notice indicated that the trigger was not a real
+GRB;  H3143 is indeed a real GRB, but the position distributed in real
+time was not that of the burst.
+
+A combination of triangulation, the Konus ecliptic latitude
+response, and HETE Earth-blocking give a large 5-sided error box whose
+shape is complex, and whose corners are at:
+
+RA(2000)	Decl(2000)
+
+263		+20.5
+282		+33.1
+302		+37.4
+308		+37.8
+304		+25.7
+
+A map has been posted at ssl.berkeley.edu/ipn3/040403A.
+
+As observed by Konus-Wind, this burst had a duration of 98s, a 20-2000
+keV fluence of 6E-5 erg/cm2 (or 4E-5 in 30-400 keV range), a 20-2000
+keV peak flux ~ 2.6E-6 erg/cm2 s, and an Epeak=340+/-20 keV.
+
+GRB040403B was detected as trigger #H3144 at 23:23:55 UT (84236 SOD).
+As observed by FREGATE, it consists of two short (0.5s) spikes
+separated by ~0.8s.  The burst is seen most strongly in the 30-400 keV
+band with an Epeak well above this range.  GRB040403B therefore
+qualifies as a short/hard burst.  The burst was marginally detected by
+the WXM; unfortunately, the presence of Sco X-1 in the WXM FOV makes
+localization of this burst impossible.  The SXC was not operating at
+this time because of the full moon.
+
+Triangulation gives an annulus of location centered at
+RA, Decl=127.559, +21.669, whose radius is 70.529 +/- 2.155
+degrees (3 sigma).  The WXM field of view limits this annulus
+to an error box with the following corners:
+
+RA(2000)  Decl(2000)
+
+188.213    -1.116
+191.330   -15.436
+199.758   +36.566
+212.802   +40.309
+
+A map may be viewed at ssl.berkeley.edu/ipn3/040403B.
+
+As observed by Konus-Wind, this burst had a 20-2000 keV fluence
+~  2E-6 erg/cm2, a peak flux ~ 4.5E-6 erg/cm2 s, and an
+Epeak=1300+/-1000 keV.
+
+This message can be cited.
+
+

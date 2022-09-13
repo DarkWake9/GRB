@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18056
+SUBJECT: IGR J00291+5934: Swift-BAT refined analysis
+DATE:    15/07/24 14:18:11 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. R. Cummings (GSFC/UMBC), S. D. Barthelmy (GSFC), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+603 sec from recent telemetry downlinks,
+we report further analysis of the trigger #650140 on IGR J00291+5934
+(Cummings, et al., GCN Circ. 18051).  The BAT ground-calculated position is
+RA, Dec = 7.221, 59.546 deg, which is 
+   RA(J2000)  =  00h 28m 53.0s 
+   Dec(J2000) = +59d 32' 44.3" 
+with an uncertainty of 3.1 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 70%.
+ 
+The mask-weighted light curve shows constant low-level emission (0.03 cnts/cm2/sec
+in the 15-350 keV band)) starting at ~T-118, when the source location came
+into the BAT FoV during a pre-planned slew, out to at least T+603 sec
+when we no long have data.
+ 
+The time-averaged spectrum from T+0 to T+603 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.01 +- 0.32.  The fluence (over this window of data) in the 15-150 keV band
+is 1.4 +- 0.3 x 10^-6 erg/cm2.  All the quoted errors are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/650140/BA/
+

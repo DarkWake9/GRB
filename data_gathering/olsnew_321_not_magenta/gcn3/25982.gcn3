@@ -1,0 +1,19 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25982
+SUBJECT: TESS Detection of the Optical Emission from the Possible Untriggered GRB Associated with ZTF19abvizsw
+DATE:    19/10/08 14:16:56 GMT
+FROM:    Roland Vanderspek at MIT  <roland@space.mit.edu>
+
+M. M. Fausnaugh, R. Vanderspek, on behalf of the TESS team
+
+TESS observed the location of the optical transient ZTF19abvizsw (Kool et al. 2019, GCN 25616) and associated new X-ray source (Ho et al. 2019, GCN 25658) nearly continuously during Sector 15 from 2019-08-15 to 2019-09-10 in Camera 2, CCD 2.  The location was imaged in nearly 2400 30-minute full-frame images (FFIs) over that period.
+
+A light curve for ZTF19abvizsw was constructed from the FFIs using difference imaging.  First, we constructed a reference image by median stacking 20 FFIs with low background levels.  We then subtracted the reference image from each epoch using the ISIS software (Alard & Lupton 1998; Alard 2000), which solves for a spatially variable kernel that matches the PSF of the reference image to individual FFIs.  This procedure removes systematic errors due to pointing shifts/jitter and thermal variations.  We extracted a light curve by fitting a model of the PSF to the difference images at the predicted location of the transient in the FFIs based on the coordinates of ZTF19abvizsw reported to the Transient Name Server, and subtracted a local background based on the median of pixel values in an annulus of inner/outer radius 8/12 pixels.  Uncertainties were estimated from the photon noise of the source and the observed scatter of the light curve at early times.
+
+We flux-calibrated the differential light curve by shifting the baseline before the transient to zero.  We estimated the 3-sigma TESS limiting magnitude at each epoch by taking a factor of 3 times the flux uncertainty at each epoch and converting to TESS magnitudes (the TESS passband spans 600-1000 nm). The average 3-sigma limiting magnitude during the time of the transient is 19.11 and is dominated by the background flux in each FFI.  
+
+ZTF19abvizsw was seen to brighten above the limiting magnitude in the FFI centered at UT 2019-09-02 03:15 - - one hour before the ZTF measurement at 2019-09-02 04:19:12 (https://wis-tns.weizmann.ac.il/object/2019pim <https://wis-tns.weizmann.ac.il/object/2019pim>) - - and peak at a TESS magnitude of 18.37 +/- 0.18 at in the FFI centered at UT 2019-09-02 04:15.  The discrepancy between this measurement and the ZTF r-band magnitude of 19.45 may be due to the redness of the source (Kool et al. 2019, GCN 25616) or brightness variations within the 30-minute FFI integration.
+
+The light curve has a sharp rise and a slower decline.  The duration (T90) of the transient over the background limit is 1.44 days, and the integrated S/N of the transient was 10.4.  We also fit a fast rise/exponential decay model to the light curve, from which we estimate the rise time to be 1.21 +/- 0.30 hours.  The fit yields a peak magnitude of 18.40 +/- 0.07 at 2019-09-02 04:19:29.  This is in family with the measured early brightness of optical counterparts of GRBs with redshifts near the measured redshift of ZTF19abvizsw of 1.26 (Levan et al. 2019, GCN 25653).
+
+The differenced image is seen at approximately RA=18:37:53.57, Dec=+61:29:55.58, with an estimated error of 3 arcseconds, based on the flux-weighted centroid.  This position is in excellent agreement with the discovery coordinates of ZTF19abvizsw.

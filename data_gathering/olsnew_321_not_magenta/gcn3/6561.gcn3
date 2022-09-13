@@ -1,0 +1,30 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6561
+SUBJECT: GRB 070621: ROTSE-III Prompt Optical Limits
+DATE:    07/06/21 23:46:58 GMT
+FROM:    Eli Rykoff at U of Michigan/ROTSE  <erykoff@umich.edu>
+
+E.S. Rykoff (U Mich), W. Rujopakarn (Steward), B. E. Schaefer (Louisiana 
+State), H. Swan (U Mich), J. Aretakis (U Mich), R. Quimby (U Texas), 
+report on behalf of the ROTSE collaboration:
+
+ROTSE-IIIc, located at the H.E.S.S. site at Mt. Gamsberg, Namibia, 
+responded to GRB 070621 (Swift trigger 282808, Sbarufatti, et al., GCN 
+6560), producing images beginning 6.1 s after the GCN notice time. An 
+automated response took the first image at 23:18:03.1 UT, 23.3 s after 
+the burst, and during gamma-ray emission. We took 10 5-sec, 10 20-sec 
+and 10 60-sec exposures. These unfiltered images are calibrated relative 
+to USNO A2.0 (R). Imaging is ongoing.
+
+Comparison to the DSS (second epoch) reveals no new sources within the 
+3-sigma Swift/BAT error circle or the XRT error circle, for both single 
+images and coadding into sets of 10. Individual images have limiting 
+magnitudes ranging from 16.4-17.8; we set the following specific limits.
+
+start UT       end UT      t_exp(s)   mlim   t_start-tGRB(s)  Coadd?
+--------------------------------------------------------------------
+23:18:03.1   23:18:08.1         5     16.6           23.3       N
+23:18:03.1   23:19:20.7        77     17.5           23.3       Y
+23:19:28.5   23:24:16.3       287     18.5          108.7       Y
+23:24:25.7   23:35:51.6       685     18.8          405.9       Y
+

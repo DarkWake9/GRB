@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22462
+SUBJECT: GRB 180305A: Swift-XRT afterglow detection
+DATE:    18/03/06 15:38:42 GMT
+FROM:    Boris Sbarufatti at PSU  <bxs60@psu.edu>
+
+P. D'Avanzo (INAF-OAB), D.N. Burrows (PSU), A. Tohuvavohu (PSU), S. J.
+LaPorte (PSU), J.P. Osborne (U. Leicester), K.L. Page (U. Leicester),
+A.P. Beardmore (U. Leicester), V. D'Elia (ASDC), A. D'Ai (INAF-IASFPA)
+and P.A. Evans (U. Leicester) report on behalf of the Swift-XRT team:
+
+Swift-XRT has performed follow-up observations of the
+Fermi/LAT-detected burst GRB 180305A (Axelsson et al. GCN Circ. 22457),
+collecting 4.7 ks of Photon Counting (PC) mode data between T0+30.6 ks
+and T0+53.0 ks. 
+
+Four uncatalogued X-ray sources are detected, of which one ("Source 2")
+is above the RASS limit and fading with 3-sigma significance, and is
+therefore likely the GRB afterglow. Using 3574 s of PC mode data and 6
+UVOT images, we find an enhanced XRT position (using the XRT-UVOT
+alignment and matching UVOT field sources to the USNO-B1 catalogue):
+RA, Dec = 49.61821, +32.10994 which is equivalent to:
+
+RA (J2000): 03h 18m 28.37s
+Dec(J2000): +32d 06' 35.8"
+
+with an uncertainty of 1.7 arcsec (radius, 90% confidence). This
+position is 2.7 arcmin from the Fermi/LAT position. 
+
+The light curve can be modelled with a power-law decay with a decay
+index of alpha=2.7 (+0.5, -0.8).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 1.5 (+/-0.4). The
+best-fitting absorption column is  4.7 (+3.2, -2.3) x 10^21 cm^-2,
+consistent with the Galactic value of 2.4 x 10^21 cm^-2 (Willingale et
+al. 2013). The counts to observed (unabsorbed) 0.3-10 keV flux
+conversion factor deduced from this spectrum  is 5.4 x 10^-11 (6.9 x
+10^-11) erg cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     4.7 (+3.2, -2.3) x 10^21 cm^-2
+Galactic foreground: 2.4 x 10^21 cm^-2
+Excess significance: <1.6 sigma
+Photon index:	     1.5 (+/-0.4)
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00020789.
+The results of the full analysis of the XRT observations are available
+at http://www.swift.ac.uk/ToO_GRBs/00020789.
+
+This circular is an official product of the Swift-XRT team.
+

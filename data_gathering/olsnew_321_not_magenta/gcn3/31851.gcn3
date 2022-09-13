@@ -1,0 +1,22 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31851
+SUBJECT: Chandra upper limit at the location of GRB 220408A
+DATE:    22/04/08 10:23:23 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+S. Campana (INAF - Osservatorio astronomico di Brera) reports
+
+that Chandra serendipitously observed the location of GRB 220408A 
+(Caputo et al. 2022, GCN 31848; Fermi team 2022, GCN 31847).
+The UVOT position (Caputo et al. 2022) falls at the edge of the S4 chip 
+of ACIS-S. The obsid 23474 observation lasted 36.6 ks and was taken on 
+Dec 21, 2020.
+No source is visible at this position.
+We run srcflux (under CIAO 4.13 and CALDB 4.9.7) and derive a 3-sigma 
+upper limit of 0.000206 c/s (2.38E-05,0.000432) on the 0.5-7 keV count 
+rate. Assuming a power law photon index of 2 and a column density of 
+2x10^20 cm^-2, we derive an upper limit on the 0.5-7 keV unabsorbed flux 
+of 2.1e-14 erg/cm2/s.
+If the GRB were at the M51 distance (8.58 Mpc), this translates into an 
+upper limit on the 0.5-7 keV luminosity of 1.8e38 erg/s.
+

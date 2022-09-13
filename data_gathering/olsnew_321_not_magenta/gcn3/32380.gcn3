@@ -1,0 +1,25 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32380
+SUBJECT: GRB 220711B: GIT optical upper limits
+DATE:    22/07/13 02:48:45 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+V. Swain (IITB), H. Kumar (IITB), K. Angail (IAO), V. Bhalerao (IITB), G. C. Anupama (IIA), S. Barway (IIA) report on behalf of the GIT team:
+
+We observed GRB 220711B detected by Fermi (Fermi GBM Team, GCN 32365; Lesage, GCN 32369), Swift (D'Ai et al., GCN 32366) and NOT optical (Malesani et al., GCN 32368), with the 0.7m GROWTH-India Telescope (GIT). The observations started at 18:22:15 UT on 2022-07-11, 5.78 mins after the Fermi trigger. We obtained multiple 300-sec exposures in the g', r' and i' filters. We did not detect any new source in our stacked images within the 2.1 arcsec radius circle around R.A.= 17h 28m 4.56s, Dec.= +24d 40' 51.5" (Beardmore et al. GCN #32370). The obtained upper limits follow as:
+-------------------------------------------------------------------
+ JD (mid) | T_mid-T0(hrs) | Exposure (sec) | Filter | Lim_mag (5-sigma) |
+-------------------------------------------------------------------
+ 2459772.307085455 | 1.09 | 10 x 300 (stacked) | r' | > 21.03 |
+ 2459772.313860030 | 1.25 | 5 x 300 (stacked) | g' | > 20.50 |
+ 2459772.330168085 | 1.65 | 5 x 300 (stacked) | i' | > 20.34 | 
+-------------------------------------------------------------------
+
+While the first image was observed within just 6 minutes of the burst, the observing conditions were suboptimal and the first r' image has a limiting magnitude of ~19. No source is detected in that single 300-s exposure either. 
+
+These upper limits are consistent with Strausbaugh et al.(GCN #32367), and Klingler et al.(GCN #32371), and with detection by Malesani et al (GCN #32368, 32377) given the high r-z colour they have inferred. The magnitudes are calibrated against PanSTARRS DR1 (Chambers et al., 2016) and not corrected for Galactic extinction.
+
+
+The GROWTH India Telescope (GIT) is a 70-cm telescope with a 0.7-degree field of view, set up by the Indian Institute of Astrophysics (IIA) and the Indian Institute of Technology Bombay (IITB) with funding from DST-SERB and IUSSTF. It is located at the Indian Astronomical Observatory (Hanle), operated by IIA. We acknowledge funding by the IITB alumni batch of 1994, which partially supports operations of the telescope. Telescope technical details are available at https://sites.google.com/view/growthindia/.
+
+

@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6779
+SUBJECT: GRB 070911: Swift XRT refined analysis
+DATE:    07/09/12 17:21:52 GMT
+FROM:    Milvia Capalbi at ISAC/ASDC  <capalbi@asdc.asi.it>
+
+Giulia Stratta (ASDC), Matteo Perri (ASDC) and David
+Burrows (PSU) report, on behalf of the Swift XRT team:
+
+We have analyzed the first 9 orbits of Swift-XRT
+data on GRB 070911 (GCN 6777, Krimm et al.) for a
+total of 6.8 ks of exposure taken in Photon Counting
+mode starting 14.5 hours after the burst.
+This is the first BAT GRB after Swift safe-hold recovery.
+Swift-XRT detected an uncatalogued, fading source
+at the following coordinates
+RA,Dec 25.8094,-33.4842 which is
+
+  RA(J2000)  = 01h 43m 14.26s
+  Dec(J2000) = -33d 29' 03.1"
+
+with an estimated error radius of 6 arcseconds
+(90% confidence). This error radius has been increased
+to take into account the uncertainties in the pointing
+calibration during Swift's reactivation phase.
+This position is 0.5' from the BAT refined position
+(GCN 6778, Palmer et al.). We note however that XRT position
+uncertanties are currently being re-validated.
+
+The 0.3-10 keV X-ray light curve from T0+14.5 h to T0+27.3 h
+can be fit with a simple power law model.
+The best fit decay index is alpha=-1.5+/-0.2
+
+The 0.3-10.0 keV X-ray spectrum with 6.8 ks of integration
+time, is well fit by an absorbed power law with a
+photon index of 2.2 +/- 0.3 and a total column density of
+NH=(1.3+/-0.5)e21 cm**-2 (chi2/dof=0.8/6).
+The Galactic column density in the direction of the source
+is 2.4e20 cm**-2 (Dickey & Lockmann 1990).
+The 0.3-10 keV observed flux is 1.9e-12 erg cm**-2 s**-1
+(unabsorbed: 2.8e-12 erg cm**-2 s**-1).
+We note that the XRT CCD is now operating with a raised
+substrate voltage, and thus has a different gain.
+The new gain is not yet well calibrated, and so our spectral
+results are only preliminary.
+
+Assuming the X-ray emission continues to decline at the same
+rate, we predict a 0.3-10 keV count rates of 0.02 cts/s 2 days
+after the burst trigger, that corresponds to a flux of
+1.3e-12 erg cm**-2 s**-1.
+
+This is an official product of the Swift XRT team.
+

@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25727
+SUBJECT: LIGO/Virgo S190910h: Four additional candidates from the Zwicky Transient Facility
+DATE:    19/09/11 16:11:01 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+Robert Stein (DESY),  Igor Andreoni (Caltech), Michael Coughlin (Caltech), Harsh Kumar (IITB), Varun Bhalerao (IITB), Shreya Anand (Caltech), Maitreya Khandagale (IITB), Kunal Deshmukh (IITB), Pradip Gatkine (UMD), Viraj Karambelkar (Caltech), Yashvi Sharma (Caltech), Mansi Kasliwal (Caltech), Tomas Ahumada (UMD), Leo P. Singer (NASA GSFC), Eric Bellm (UW):
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+We have continued serendipitous observations of the localization region of the gravitational wave trigger S190910h (LVC et al. GCN 25707) with the Palomar 48-inch telescope equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). These observations began at UT 2019-09-04 10:18 UT (GCN 25722). Each exposure was 30s, with a typical median depth of 20.6 mag. Since merger, we now have covered 40.4% of the enclosed probability at least twice. This estimate does not account for chip gaps.
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the alerts database for candidates. We rejected stellar sources (Tachibana and Miller 2018) and moving objects, applied machine learning algorithms (Mahabal et al. 2019), and removed candidates with history of variability prior to the merger time. Four additional candidates were found by our pipeline, lying within the 95% probability region.
+ 
++------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name  | RA (deg)   | DEC (deg)  | Filter | Mag   | MagErr |
++------------------------------------------------------------------------------+
+| ZTF19abygvmp | AT2019pzg | 28.9759767 | +41.0910268| g      | 19.97 | 0.21   | 
+| ZTF19abyiwiw | AT2019pzi | 340.5214408| +55.2202438| g      | 20.03 | 0.20   | 
+| ZTF19abylleu | AT2019pyu | 355.3382246| -23.4507064| g      | 18.80 | 0.18   | 
+| ZTF19abymhyi | AT2019pzh | 340.8557195| +34.1863443| g      | 20.47 | 0.21   | 
++------------------------------------------------------------------------------+
+
+ZTF19abygvmp was first detected approximately 1 hour after merger, and has now been detected a second time, with a small offset from its host. Since the last non-detection, it has risen at least 0.5 mag in g. ZTF19abyiwiw was also first detected approximately 1 hour after merger. We note that ZTF19abyiwiw object is additionally spatially and temporally coincident with the updated localisation of gravitational wave trigger S190910d (LVC et al. GCN 25695, GCN 25723), and is thus a potential counterpart to that event too. ZTF19abylleu, already reported to the TNS as AT2019pyu, is a bright transient that was not detected to a depth of 20.4 mag in observations 4 days ago. It was first detected approximately 23 hours after merger. ZTF19abymhyi is faint, apparently hostless, and was first detected approximately 2 hours after merger. 
+We encourage spectroscopic and photometric observations to discern the nature of these candidates.
+ 
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd,Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert database searches are done by AMPEL (Nordin et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).

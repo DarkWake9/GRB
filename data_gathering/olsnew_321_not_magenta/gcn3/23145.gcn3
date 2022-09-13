@@ -1,0 +1,35 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23145
+SUBJECT: Swift Trigger 853790 is probably not an astrophysical source
+DATE:    18/08/17 21:16:48 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+K. L. Page (U Leicester), D. M. Palmer (LANL), B. Sbarufatti (PSU) and
+M. H. Siegel (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 20:58:18 UT, the Swift Burst Alert Telescope (BAT) triggered on a
+low significance image peak near the line of sight to a nearby 
+galaxy (trigger=853790).  Swift did not slew due to an observing 
+constraint.  The BAT on-board calculated location is 
+RA, Dec 192.885, +25.921 which is 
+   RA(J2000) = 12h 51m 32s
+   Dec(J2000) = +25d 55' 15"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for an image trigger, there
+no obvious structure in the immediately available lightcurve. 
+
+This position is too close to the Sun for Swift to observe until 
+2018 November 02. Thus there will be no XRT or UVOT data for this 
+trigger. 
+
+Due to the low significance of the image peak (6.1 sigma on-board,
+with an even lower significance in the ground analysis of the 
+immediately-available detector plane data), the
+lack of a rate trigger, and the offset from the putative
+nearby galaxy (9 arcminutes) we believe that this is probably
+just a statistical fluctuation in the image plane and not
+an astrophysical source.  The complete downlinked BAT data will
+be used to confirm or refute this.  There will be no XRT or UVOT
+follow-up due to the observing constraint. 
+

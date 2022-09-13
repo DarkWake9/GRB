@@ -1,0 +1,104 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22115
+SUBJECT: IceCube-171106A: Swift Observations
+DATE:    17/11/10 00:24:52 GMT
+FROM:    Azadeh Keivani at PSU  <keivani@psu.edu>
+
+A. Keivani (PSU), D.B. Fox (PSU), J.J. DeLaunay (PSU), J.A. Kennea (PSU),
+P.A. Evans (U. Leicester),  D.F. Cowen (PSU), J.P. Osborne (U. Leicester),
+and F.E. Marshall (GSFC) report on behalf of the Swift-IceCube
+collaboration:
+
+Swift has observed the field of the IceCube EHE event, IceCube-171106A
+(Revision 0, <https://gcn.gsfc.nasa.gov/notices_amon/50579430_130033.amon>
+https://gcn.gsfc.nasa.gov/notices_amon/17569642_130214.amon; subsequently
+updated to Revision 1, GCN #22105), utilizing the on-board 19-point tiling
+pattern to cover a region centered on RA,Dec (J2000) = (340.0d, +7.4d),
+with a radius of approximately 0.8 degrees. Swift-XRT collected ~750 s per
+field of PC mode data per tile. The observations were taken between 21:51:12
+UT on 2017 November 06 and 11:52:10 UT on 2017 November 07 (i.e. from 11.5
+ks to 62.0 ks after the neutrino trigger), and covered 2.1 square degrees.
+Fourteen X-ray sources are detected in the observations, of which five lie
+within the refined neutrino localization.
+
+Of the fourteen identified sources, two correspond to known X-ray emitters,
+X1 to 1RXS J224124.3+071253, and X3 to UGC 12138. Two further sources, X4
+and X14, have positions consistent with ROSAT Faint Source Catalog objects.
+
+Five further sources have potential counterparts from the SIMBAD database.
+X2 matches to HD 215109; detection of this optically bright star may be due
+to optical loading rather than bona fide X-ray emission. X5 matches to 87GB
+223537.9+070825 (5BZQJ2238+0724 in BZcat), which is a flat-spectrum radio
+quasar and known blazar, not previously reported to emit in X-rays. X6
+matches to PMN J2243+0716, a radio-bright quasar. X8 matches to the GALEX
+“blue object” source 2690384041306227301. X10 matches to WISE
+J224206.68+073148.3, a known BL Lac-type blazar. Observing X-ray emission
+(or in the case of HD 215109, an optical loading detection) at the level
+seen here from any of these sources would not be remarkable.
+
+Given the recent observation of high-energy gamma-ray activity from TXS
+0506+056, potentially associated with the high-energy neutrino
+IceCube-170922A (GCN #21916, ATel #10791, ATel #10817), we note in
+particular the two X-ray luminous blazars within the neutrino localization,
+87GB 223537.9+070825 and WISE J224206.68+073148.3.
+
+Identified sources:
+
+Source         RA            Dec           r_90 R_x** Catalog/Notes
+
+=================================================================
+
+ X1* 22:41:24.15   +07:12:57.6 4.1” 61(9) 1RXS J224124.3+071253
+
+ X2 22:42:48.20 +06:40:14.2 4.4” 82(3) HD 215109 (optical loading)
+
+ X3 22:40:17.14 +08:03:13.4 2.1” 410(3) UGC 12138
+
+ X4 22:41:20.34 +06:48:58.7 5.4” 32(9) 1RXS J224122.2+064851 (?)
+
+ X5* 22:38:10.41 +07:24:12.8 5.2” 30(8) 87GB 223537.9+070825
+
+ X6 22:43:05.82 +07:16:34.7 5.7” 9(5) PMN J2243+0716
+
+ X7 22:37:54.30 +07:22:02.9 6.8” ?
+
+ X8 22:38:59.95 +07:02:43.7 6.3” 4(4) GALEX 2690384041306227301
+
+ X9* 22:38:47.59 +07:22:24.8 6.1” ?
+
+ X10* 22:42:06.68 +07:31:52.6 7.4” 7(4) WISE J224206.68+073148.3
+
+ X11 22:40:15.96 +07:48:42.2 5.9” 9(4)
+
+ X12 22:40:26.17 +06:50:14.3 5.9” 4(4)
+
+ X13 22:38:21.18 +08:04:20.7 4.9” 3(5)
+
+ X14* 22:39:52.53 +07:11:57.1 6.7” 9(5) 1RXS J223951.8+071132 (?)
+
+=================================================================
+
+* inside the refined 90%-confidence neutrino localization
+
+** R_x indicate count rate in units of counts ks^-1.
+
+Of the identified sources, the following lie outside the refined
+90%-confidence neutrino localization reported by IceCube (GCN #22105):  X2,
+X3, X4, X6, X7, X8, X11, X12, X13. The remaining sources (indicated with
+asterisks by their source names) lie within the neutrino localization.
+
+Excluding identified sources, the 3-sigma upper limit on the count rate in
+the rest of the field is 0.01 ct s^-1, which corresponds to a 0.3-10 keV
+flux of 4.1e-13 erg cm^-2 s^-1 for a typical AGN spectrum (NH=3e20 cm^-2,
+Gamma=1.7). Overlaps between the different tiles account for 0.5 square
+degrees: in these regions the 3-sigma upper limit is 0.009 ct s^-1,
+corresponding to 3.7e-13 erg cm^-2 s^-1.
+
+The neutrino localization was in the Swift's Burst Alert Telescope's (BAT)
+field of view from 404 seconds to 117 seconds prior to the EHE alert time.
+There were no triggered GRBs during this time. Using the 287 second BAT
+survey exposure (starting at 18:32:55 UT on 2017 November 06) we searched
+for any hard X-ray emission inside the 90%-confidence neutrino
+localization. We found no point source and set a 4-sigma upper limit on the
+fluence during that time period of 5e-7 erg cm^-2 (15-150 keV) assuming a
+photon index of -2.

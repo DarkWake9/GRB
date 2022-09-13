@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8937
+SUBJECT: GRB 090305: Swift-XRT refined analysis
+DATE:    09/03/06 01:17:55 GMT
+FROM:    Andy Beardmore at U Leicester  <apb@star.le.ac.uk>
+
+A.P. Beardmore, K. L. Page, P.A. Evans (U. Leicester), C. Pagani, J. Kennea,
+D.N. Burrows (PSU) report on behalf of the Swift-XRT team :
+
+The Swift-XRT began observing the field of the short GRB 090305
+(Beardmore et al. GCN Circ. 8932) in photon counting mode at
+2009-03-05T05:21:37, 103.4 s after the trigger.  The first orbit of
+data lasted only 90 s before the spacecraft slewed to another target
+because of an observing constraint.
+
+The default data processing does not reveal any X-ray source during
+the first orbit (103.4 to 193.5 s post trigger), either within the BAT
+refined error circle (Krimm et al. GCN Circ. 8936) or at the location
+of the optical afterglow (Cenko et al. GCN Circ. 8933) - the latter
+occurring close to a bad-column on the XRT CCD.  However, by relaxing
+the default screening criteria we find 8 counts in a 10 pixel radius
+circle extraction region at the location of the optical afterglow,
+compared with a predicted background level of 1.0 count (where an
+annulus with radii 15 to 100 pixels was used to sample the local
+background level), implying a greater than 99.99 percent confidence
+detection (Kraft, Burrows, and Nousek 1991, Ap. J., 374, 344). The
+clustering of the counts, their proximity to the location of the
+optical afterglow and their detection significance allow us to
+conclude the afterglow was detected by the XRT at this time. The
+estimated count rate is 0.112 +0.051 -0.041 count/s (where a
+systematic error of 5 percent has been included in the 1 sigma error
+estimate to account for the PSF correction uncertainty).  Applying a
+canonical GRB count to observed flux conversion factor of 5e-11 erg
+cm^-2 count^-1 (for a photon index of 1.98, Evans et al. 2009, MNRAS,
+submitted. arXiv:0812.3662, http://www.swift.ac.uk/xrt_spectra), we
+estimate the observed 0.3-10 keV flux was (5.5 +2.6 -2.0)e-12 
+erg cm^-2 s^-1.
+
+A further 2.05 ks of data was taken in orbit two, from 3.92 to 5.97 ks
+after the trigger, where the optical afterglow position was located
+away from the XRT CCD bad column. This showed the source was no longer
+detected and a 3 sigma upper limit to the count rate of 7.0e-3 count/s
+was obtained.  Using all of the available data after the first orbit
+(i.e. presently an exposure of 12.64 ks from 3.92 to 46.1 ks post
+trigger) reduces the 3 sigma upper limit to 1.7e-3 count/s.  The X-ray
+data suggest the source faded with a decay slope of at least ~0.8.
+
+This circular is an official product of the Swift-XRT team.
+

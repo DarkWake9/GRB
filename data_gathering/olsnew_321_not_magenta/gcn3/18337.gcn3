@@ -1,0 +1,142 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18337
+SUBJECT: LIGO/Virgo G184098: iPTF Optical Transient Candidates
+DATE:    15/09/20 01:39:01 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+L. P. Singer (NASA/GSFC), M. M. Kasliwal (Caltech), S. B. Cenko
+(NASA/GSFC), V. Bhalerao (IUCAA), A. Miller (Caltech), T. Barlow
+(Caltech), E. Bellm (Caltech), I. Manulis (WIS), A. Singhal (IUCAA), and
+J. Rana (IUCAA) report on behalf of the intermediate Palomar Transient
+Factory (iPTF) collaboration:
+
+We have performed tiled observations of LIGO/Virgo G184098 using the
+Palomar 48-inch Oschin telescope (P48). We imaged 18 fields spanning 135
+deg2. Based on the LIB localization, we estimate a 2.3% prior probability
+that these fields contain the true location of the source. The small
+containment probability is because the southern mode of the updated
+("LIB") localization was too far south to be observable from Palomar,
+whereas most of the northern mode rose after 12° twilight.
+
+Sifting through candidate variable sources using image subtraction by both
+our NERSC and IPAC pipelines, and applying standard iPTF vetting
+procedures, we flagged the following optical transient candidates for
+further follow-up:
+
+
+iPTF15cyo, at the coordinates:
+  RA(J2000)  =  8h 19m 56.18s (124.984069 deg)
+  Dec(J2000) = +13d 52' 42.0" (+13.878337 deg)
+
+Our P48 photometry includes:
+  -483 days: R > 20.88
+    +3 days: R = 17.75 +/- 0.01
+
+The position is consistent with the galaxy SDSS J081956.62+135241.7, whose
+spectroscopic redshift of z = 0.02963 implies an absolute magnitude for
+the transient of M_R = -17.8, suggestive of a supernova.
+
+
+iPTF15cyq, at the coordinates:
+  RA(J2000)  =  8h 10m 00.86s (122.503586 deg)
+  Dec(J2000) = +18d 42' 18.1" (+18.705039 deg)
+
+Our P48 photometry includes:
+  -172 days: R > 20.90
+    +3 days: R = 20.05 +/- 0.10
+
+The position is consistent with the galaxy SDSS J081000.49+184213.1, whose
+spectroscopic redshift of z = 0.063192 implies an absolute magnitude of
+M_R = -17.2, also suggestive of a supernova.
+
+
+iPTF15cys, at the coordinates:
+  RA(J2000)  =  8h 11m 55.59s (122.981632 deg)
+  Dec(J2000) = +16d 43' 10.1" (+16.719465 deg)
+
+Our P48 photometry includes:
+  -611 days: R > 19.99
+    +3 days: R = 17.84 +/- 0.03
+
+The position is consistent with the galaxy SDSS J081155.51+164313.6 with
+a photometric redshift of z ~ 0.087.
+
+
+iPTF15cyk, at the coordinates:
+  RA(J2000)  =  7h 42m 14.87s (115.561947 deg)
+  Dec(J2000) = +20d 36' 43.4" (+20.612062 deg)
+
+Our P48 photometry includes:
+  -614 days: R > 22.59
+    +3 days: R = 20.28 +/- 0.12
+
+This position is consistent with the faint object SDSS
+J074215.02+203648.7, which is classified by SDSS as a galaxy. The
+photometric redshift is z ~ 0.77.
+
+
+iPTF15cym, at the coordinates:
+  RA(J2000)  =  7h 52m 35.67s (118.148623 deg)
+  Dec(J2000) = +16d 45' 59.6" (+16.766542 deg)
+
+Our P48 photometry includes:
+  -157 days: R > 20.84
+    +3 days: R = 19.88 +/- 0.20
+
+This position is consistent with the faint galaxy SDSS
+J075235.81+164600.4, whose photometric redshift is z ~ 0.341.
+
+
+iPTF15cyn, at the coordinates:
+  RA(J2000)  =  7h 59m 14.93s (119.812227 deg)
+  Dec(J2000) = +18d 12' 54.9" (+18.215261 deg)
+
+Our P48 photometry includes:
+  -232 days: R > 21.69
+    +3 days: R = 20.34 +/- 0.28
+
+The position is in the nucleus of the galaxy SDSS J075914.91+181255.1,
+whose spectroscopic redshift of z = 0.06158 implies an absolute magnitude
+of M_R = -16.9, also consistent with a supernova.
+
+
+iPTF15cyt, at the coordinates:
+  RA(J2000)  =  7h 38m 59.35s (114.747288 deg)
+  Dec(J2000) = +21d 45' 43.2" (+21.761996 deg)
+
+Our P48 photometry includes:
+  -240 days: R > 20.26
+    +3 days: R = 19.65 +/- 0.09
+
+The position is in the nucleus of the galaxy SDSS J073859.32+214543.1,
+whose photometric redshift is z ~ 0.077.
+
+
+iPTF15cyp, at the coordinates:
+  RA(J2000)  =  8h 21m 43.68s (125.432006 deg)
+  Dec(J2000) = +16d 12' 42.0" (+16.211667 deg)
+
+Our P48 photometry includes:
+    +3 days: R = 19.48 +/- 0.05
+
+Earlier limits may be unreliable due to the presence of a nearby saturated
+star.
+
+The position is in the nucleus of the galaxy SDSS J082143.68+161241.6,
+whose spectroscopic redshift of z = 0.02822 implies an absolute magnitude
+of M_R = -16.0.
+
+
+We have obtained Keck II + DEIMOS spectra of all of the above targets.
+We will report our analyses of these spectra shortly.
+
+Times are relative to the LIGO/Virgo trigger. Magnitudes are in the Mould
+R filter and in the AB system, calibrated with respect to point sources in
+SDSS as described in Ofek et al. (2012, http://dx.doi.org/10.1086/664065).
+
+The diagram https://gracedb.ligo.org/apiweb/events/G184098/files/iptf.pdf
+shows the locations of our candidates and the P48 fields in relation to
+the LIGO/Virgo localization.
+
+[GCN OPS NOTE(19sep15): This Circular was originally published on 03:09 18-Sep-2015 UT.]
+

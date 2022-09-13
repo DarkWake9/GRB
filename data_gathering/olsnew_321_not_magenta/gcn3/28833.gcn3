@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28833
+SUBJECT: GRB 201104C: Fermi GBM Final Real-time Localization
+DATE:    20/11/04 21:35:03 GMT
+FROM:    Fermi GBM Team at MSFC/Fermi-GBM  <do_not_reply@GIOC.nsstc.nasa.gov>
+
+The Fermi GBM team reports the detection of a likely LONG GRB
+
+At 19:23:25 UT on 4 Nov 2020, the Fermi Gamma-ray Burst Monitor (GBM) triggered and located GRB 201104C (trigger 626210610.205754 / 201104808).
+
+The on-ground calculated location, using the Fermi GBM trigger data, is RA = 240.3, Dec = -36.7 (J2000 degrees, equivalent to J2000 16h 01m, -36d 42'), with a statistical uncertainty of 7.7 degrees.
+
+The angle from the Fermi LAT boresight is 90.0 degrees.
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2020/bn201104808/quicklook/glg_skymap_all_bn201104808.png
+
+The HEALPix FITS file, including the estimated localization systematic, can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2020/bn201104808/quicklook/glg_healpix_all_bn201104808.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2020/bn201104808/quicklook/glg_lc_medres34_bn201104808.gif
+
+[GCN OPS NOTE(06Nov20): Due to the uncertainty of the arrival time with respect 
+to the downtime window (15 hours) of the GCN Circulars processing system, 
+the error in the date-time in the header of this Circular can be off anywhere from 0-15 hours.]
+

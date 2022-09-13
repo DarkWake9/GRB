@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20964
+SUBJECT: IceCube-170321A: Swift-XRT observations
+DATE:    17/03/31 19:53:20 GMT
+FROM:    Azadeh Keivani at PSU  <keivani@psu.edu>
+
+A. Keivani (PSU), D. B. Fox (PSU), P.A. Evans (U. Leicester), J.A.
+Kennea (PSU), G. Tesic (PSU), D.F. Cowen (PSU), and J.P. Osborne (U.
+Leicester) report on behalf of the Swift-IceCube collaboration:
+
+
+Swift has observed the field of the IceCube EHE neutrino,
+IceCube-170321A (https://gcn.gsfc.nasa.gov/gcn3/20929.gcn3), utilizing
+the on-board 7-point tiling pattern to cover a region centered on the
+initial automated alert position RA,Dec (J2000) = (98.3268, -14.4861),
+with a radius of approximately 0.55 degrees. This covers about 21% of
+the 90% error region of the refined IceCube localization.
+
+Swift-XRT collected ~880 s per field of PC mode data per tile. The
+observations were taken between 14:09:02 on 2017-03-21 and 18:03:00 on
+2017-03-21 (i.e. from 23.7 ks to 37.8 ks after the neutrino trigger),
+and covered 0.77 square degrees.
+
+Analysis using standard Swift tools yields >3-sigma detection of a
+single X-ray source, 1SXPS J063214.5-143300, which is also seen in
+previous observations of the field by Swift XRT, in a similar flux and
+spectral state. As such we conclude that there are no candidate X-ray
+counterparts to the possibly-cosmic high-energy neutrino within the
+covered region. Our 3-sigma upper limit on the count rate of any such
+counterpart is 3.6e-3 XRT ct s-1, which corresponds to a 0.3-10 keV
+flux of 1.48e-13 erg cm-2 s-1 for a typical afterglow/AGN power-law
+spectrum with photon index gamma=1.7 and equivalent hydrogen column
+density N_H=3e+20 cm-2.
+
+Details of the detected X-ray source are below.
+
+Source 1
+========
+RA:          06h 32m 14.5s = 98.06042d 	
+Dec:         -14d 32' 59.9" = -14.55000d
+Error:       6.0 arcsec (90% confidence radius)
+Count rate:  (2.2 +/- 0.6) x 10^-2 ct s^-1
+Flux:        (9.0 +/- 2.5) x 10^-13 erg cm^-2 s^-1     Notes:
+This source has been previously detected by Swift (1SXPS
+J063214.5-143300) and the observed flux is consistent with the
+catalogued value.

@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19735
+SUBJECT: Trigger 706396: Swift detection of a short burst from PSR 1119-6127
+DATE:    16/07/28 01:54:29 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. A. Kennea (PSU), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL),
+T. G. R. Roegiers (PSU) and B. Sbarufatti (INAF-OAB/PSU) report on
+behalf of the Swift Team:
+
+At 01:27:51 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located PSR J1119-6127 (trigger=706396).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 169.828, -61.477 which is 
+   RA(J2000) = 11h 19m 19s
+   Dec(J2000) = -61d 28' 38"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single spike
+structure with a duration of about 0.1 sec.  The peak count rate
+was ~8000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 01:28:53.8 UT, 62.8 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 169.8088, -61.4634 which is
+equivalent to:
+   RA(J2000)  = 11h 19m 14.11s
+   Dec(J2000) = -61d 27' 48.3"
+with an uncertainty of 2.1 arcseconds (radius, 90% containment). This
+position may be improved as more data are received; the latest position
+is available at http://www.swift.ac.uk/sper. This position is 1.2
+arcseconds from that of a known X-ray source: 3XMM J111914.2-612749 in
+the XMM-NEWTON XMMSSC catalogue. The catalogued count-rate of this
+source is equivalent to approximately 0.0049 XRT count/sec; the mean
+count-rate in the promptly-available XRT data is 0.31 count/sec
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 67 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+This burst looks like the burst from a Soft Gamma Repeater,
+although this is the first onboard detection of this source in the 
+BAT history.  The pulsar is categorized as a high magnetic field pulsar, 
+(see, e.g., Antonopoulou et al. MNRAS 447, 3924–3935 (2015)) with a
+field comparable or a little below the definition of a magnetar. 
+Its period is less than half a second, similar but less than most 
+SGR/AXP/magnetars that are previously known to produce bursts. 
+It is not in the McGill online magnetar catalog. 
+
+This burst places the pulsar in the same general category. 
+

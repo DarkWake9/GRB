@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20624
+SUBJECT: GRB 170206A: POLAR observation
+DATE:    17/02/07 21:13:46 GMT
+FROM:    Yuanhao Wang at IHEP/CAS  <wangyuanhao@ihep.ac.cn>
+
+Yuanhao Wang (IHEP), Shaolin Xiong (IHEP), Yi Zhao (IHEP)
+report on behalf of the POLAR collaboration:
+
+At 2017-02-06T10:51:57.70 UT (T0), during a routine on-ground 
+search of data, POLAR detected the GRB 170206A, which was 
+also detected by Fermi/GBM
+(trigger 508071122/170206453; A. von Kienlin et al. GCN 20616), 
+Fermi/LAT(F. Fana Dirirsa et al. GCN 20617) and 
+INTEGRAL/SPIACS(trigger_num 7680).
+
+The POLAR light curve consists of multiple peaks,
+with a duration (T90) of 1.194 s measured from T0+0.147 s.
+The 0.1s peak rate measured from T0+0.4s is 16145.2 cnts/s.
+The total counts is about 12918 cnts.
+LC_URL:
+http://polar.ihep.ac.cn/grb/2017/02/GRB170206A/lc/POLAR_lc_grb170206A.png
+
+The above result is not dead time corrected. The above 
+measurements are in the energy range of about 20-500 keV.
+
+Using the best location from the Fermi/LAT, which is (J2000):
+RA:   212.79 [deg]
+Dec:  +14.48 [deg]
+Err:  0.85  [deg] (90% containment, statistical error only)
+
+the incident angle in POLAR coordinate at T0 is:
+theta: 19.5   [deg]
+phi:   148.70 [deg]
+
+The Minimum Detectable Polarization(MDP) for this burst is
+estimated to be ~5.7% [1-sigma, statistical only]. 
+Follow-up observations are strongly encouraged.
+
+All analysis results presented above are preliminary.
+
+POLAR is a dedicated Gamma-Ray Burst polarimeter (50-500 keV)
+on-board the Chinese space laboratory Tiangong-2 launched on
+Sep 15,2016. More information about POLAR can be found at 
+http://polar.ihep.ac.cn/en/ , http://isdc.unige.ch/polar/
+and http://polar.psi.ch/pub/ .
+

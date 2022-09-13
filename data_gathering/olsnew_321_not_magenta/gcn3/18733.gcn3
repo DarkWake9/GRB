@@ -1,0 +1,88 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18733
+SUBJECT: LIGO/Virgo G211117: Further Swift-XRT sources
+DATE:    15/12/28 13:04:39 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), Scott Barthelmy
+(NASA/GSFC), Dave Burrows (PSU), Sergio Campana (INAF-OAB), Brad Cenko
+(NASA/GSFC), Neil Gehrels (NASA/GSFC), Paolo Giommi (ASI), Frank
+Marshall (NASA/GSFC), John Nousek (PSU), Paul O'Brien (U. Leicester),
+Julian Osborne (U. Leicester), Kim Page (U. Leicester), David Palmer
+(LANL), Matteo Perri (ASDC), Judy Racusin (NASA/GSFC), Mike Siegel
+(PSU), Gianpiero
+Tagliaferri (INAF-OAB) report on behalf of the Swift team:
+
+Further Swift observations have been downlinked. The observations
+currently span from 140 ks to 164 ks after the aLIGO trigger, and cover
+
+2.8 sq degrees on the sky (corrected for overlaps), and are ongoing.
+
+Since the last Swift GCN, we have detected 3 extra X-ray sources, these
+are. Each source is assigned a rank of 1-4 which describes
+how likely it is to be related to the GW trigger, with 1 being the most
+
+likely and 4 being the least likely. The ranks are described at
+http://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+* 0 sources of rank 1
+* 0 sources of rank 2
+* 3 sources of rank 3
+* 0 sources of rank 4
+
+We assumed a power-law spectrum with NH=3e20 cm^2, and Gamma=1.7
+
+
+RANK 3 sources
+==============
+
+These are uncatalogued X-ray sources, however they are not brighter
+than previous upper limits, so do not stand out as likely counterparts
+to the GW trigger.
+
+Source 3:
+=============
+RA: 202.5552 ( = 13h 30m 13.25s) J2000
+Dec: -20.9046 ( = -20d 54' 16.6") J2000
+Error: +5.3 (radius, 90% confidence).
+Peak Rate: 9.6e-03 +/- 5.2e-03 ct/sec (0.3-10 keV)
+Peak Flux: 4.1e-13 +/- 2.2e-13 erg cm^-2 s^-1 (0.3-10 keV)
+1SXPS UL: 1.2e-03 ct/sec, (0.3-10 keV)
+So the source is not significantly above the 1SXPS 3-sigma limit
+RASS UL: 5.1e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+So the source is not significantly above the RASS 3-sigma limit
+There is no evidence for fading
+NOTE: this source is not within 200 kpc of a GWGC galaxy.
+There is 1 2MASS object within the source's 3-sigma error radius
+
+Source 4:
+=============
+RA: 202.5674 ( = 13h 30m 16.18s) J2000
+Dec: -20.9240 ( = -20d 55' 26.4") J2000
+Error: +5.5 (radius, 90% confidence).
+Peak Rate: 1.5e-02 +/- 6.5e-03 ct/sec (0.3-10 keV)
+Peak Flux: 6.6e-13 +/- 2.8e-13 erg cm^-2 s^-1 (0.3-10 keV)
+1SXPS UL: 1.2e-03 ct/sec, (0.3-10 keV)
+So the source is not significantly above the 1SXPS 3-sigma limit
+RASS UL: 5.2e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+So the source is not significantly above the RASS 3-sigma limit
+There is no evidence for fading
+NOTE: this source is not within 200 kpc of a GWGC galaxy.
+There is 1 2MASS object within the source's 3-sigma error radius
+
+Source 5:
+=============
+RA: 202.3542 ( = 13h 29m 25.01s) J2000
+Dec: -21.2270 ( = -21d 13' 37.2") J2000
+Error: +5.7 (radius, 90% confidence).
+Peak Rate: 2.7e-02 +/- 8.4e-03 ct/sec (0.3-10 keV)
+Peak Flux: 1.1e-12 +/- 3.6e-13 erg cm^-2 s^-1 (0.3-10 keV)
+RASS UL: 2.5e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+So the source is not significantly above the RASS 3-sigma limit
+There is no evidence for fading
+NOTE: this source is not within 200 kpc of a GWGC galaxy.
+
+This circular is an official product of the Swift team.
+

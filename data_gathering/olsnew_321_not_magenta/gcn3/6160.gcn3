@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6160
+SUBJECT: GRB 070227: Swift/UVOT Upper Limits
+DATE:    07/02/28 23:52:35 GMT
+FROM:    Shashi Pandey at MSSL  <sbp2@mssl.ucl.ac.uk>
+
+S. B. Pandey (UCL-MSSL) and C. Pagani (PSU) report on behalf of
+the Swift/UVOT Team:
+
+The Swift/UVOT started observing the field of GRB 070227 (trigger 262347)
+56680 s after the BAT trigger (Pagani et al., GCN Circ. 6156). UVOT
+observations started late because the BAT observation did not result
+in an automated response, but was found during the ground analysis.
+
+The 3-sigma upper limits for detecting a source inside the XRT error 
+circle (Pagani, Grupe & Burrows, GCN Circ. 6157) in the co-added
+exposures are:
+
+Filter     T_start   T_stop   Exp(s)  Mag (3-sigma upper limit)
+---------------------------------------------------------------
+     V       56680     57586    885    20.90
+     B       63392     64113    702    21.58
+     U       62480     63386    885    21.31
+   UVW1      61573     62473    886    21.17
+   UVM2      57592     58329    726    21.34
+   UVW2      55773     56673    886    21.04
+---------------------------------------------------------------
+
+Caution should be taken due to the presence of a nearby bright star. The 
+XRT error circle lies lies within the wings of the PSF of the bright star 
+in all the UVOT frames. This complicates the photometry, so these limits 
+could possibly be underestimated.
+
+The values quoted above are not corrected for the expected Galactic
+extinction E_{B-V} = 0.34 mag towards the direction of the burst
+(Schlegel et al. 1998).
+

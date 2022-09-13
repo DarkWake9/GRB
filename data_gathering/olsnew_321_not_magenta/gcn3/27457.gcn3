@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27457
+SUBJECT: GRB 200325B: Swift-XRT and UVOT observations
+DATE:    20/03/27 17:35:01 GMT
+FROM:    Paolo D'Avanzo at INAF-OAB  <pda.davanzo@gmail.com>
+
+P. D'Avanzo (INAF-OAB), M.G. Bernardini (INAF-OAB), A. Melandri (INAF-OAB), 
+T. Sbarrato (INAF-OAB), S. R. Oates (U. of Birmingham), M. H. Siegel (PSU), 
+F. E. Marshall (NASA/GSFC), S. Dichiara (NASA/GSFC/UMCP) and P.A. Evans 
+(U.Leicester) report on behalf of the Swift-XRT and UVOT teams:
+
+
+Swift-XRT has performed follow-up observations of the Fermi-detected
+burst GRB 200325B (Fermi GBM team, GCN Cir. 27441), collecting 1.1
+ks of Photon Counting (PC) mode data between T0+102.4 ks and T0+124.8 ks 
+in a single pointing covering the region of the candidate GRB optical 
+counterpart initially reported by Lipunov et al. (GCN Circ. 27446).
+
+An uncatalogued X-ray source has been detected: 
+
+Source 1:
+ RA (J2000.0):  167.55381  =  11:10:12.91
+ Dec (J2000.0):  +27.8196  =  +27:49:10.5
+ Error: 4.9 arcsec (radius, 90% conf. [Enhanced position])
+ Count-rate: 0.020 [+/-0.005] ct s^-1   
+ Flux: (7.2 [+/-1.8])e-13 erg cm^-2 s^-1 (observed, 0.3-10 keV)
+
+The source is below the RASS limit and, due to the limited amount of
+data available so far, shows no signs of fading.
+
+The position of this source is consistent with the one reported for the 
+GRB optical afterglow (Lipunov et al., GCN Circ. 27446; Pozanenko et al., 
+GCN Circ. 27452; Belkin et al., GCN Circ. 27455; Strausbaugh & Cucchiara, 
+GCN Circ. 27456). We therefore conclude that this is the X-ray afterglow of 
+GRB 200325B.
+
+The results of the XRT-team automatic analysis of the XRT observations,
+including a position-specific upper limit calculator, are available at
+https://www.swift.ac.uk/ToO_GRBs/00020978 <https://www.swift.ac.uk/ToO_GRBs/00020978>.
+
+
+
+The Swift/UVOT began settled observations of the field of GRB 200325B
+102ks after the Fermi/GBM trigger. An optical source consistent with the 
+GRB optical afterglow (Lipunov et al., GCN Circ. 27446; Pozanenko et al., 
+GCN Circ. 27452; Belkin et al., GCN Circ. 27455; Strausbaugh & Cucchiara, 
+GCN Circ. 27456) is detected in the initial UVOT white exposure. 
+A preliminary magnitude in white using the UVOT photometric system 
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) is:
+
+Filter         T_start(ks)   T_stop(ks)      Exp(s)         Mag
+
+white             102.39       124.75         1044        21.27 ± 0.24
+
+This magnitude is not corrected for the Galactic extinction due to the reddening 
+of E(B-V) = 0.03 in the direction of the burst (Schlegel et al. 1998).
+

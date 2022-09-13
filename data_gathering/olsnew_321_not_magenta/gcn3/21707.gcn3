@@ -1,0 +1,82 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21707
+SUBJECT: LIGO/Virgo G299232: Nearby Galaxies in the Localization Volume
+DATE:    17/08/26 01:19:16 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+David O. Cook (Caltech), Angela Van Sistine (UW Milwaukee), Leo Singer
+(NASA/GSFC), M. M. Kasliwal (Caltech), and David Kaplan (UW Milwaukee)
+
+report on behalf of the iPTF and GROWTH collaborations
+
+We spatially cross-matched the LIGO/Virgo G299232 trigger (90% containment
+volume using bayestar-HLV.fits; LVC GCN 21693) with our Census of the Local
+Universe (CLU; Cook et al. in prep) galaxy catalog and found 17,593
+galaxies. This catalog is a compilation of galaxies with existing redshifts
+from many sources (e.g., NED, SDSS, etc) and new galaxies from a 3PI
+four-filter narrow-band survey to look for redshifted Halpha emission out
+to 200 Mpc with the Palomar Oschin 48-inch telescope. Currently, the
+narrow-band survey is only calibrated inside the footprint of SDSS. Of the
+17,593 galaxies in the error volume, 17,120 come from a compilation of
+known galaxies and 473 are new, emission-line CLU galaxy candidates derived
+from our Halpha survey.
+
+We list here the top 20 galaxies sorted by stellar mass (Mstar) for
+galaxies whose location on the sky and distance falls in the 90% volume
+reported by the BAYESTAR probability sky map (Singer et al. 2016). We also
+list the dust-corrected star formation rates (SFRs) for galaxies with GALEX
+FUV detections and a 'nan' for those with no detection.
+
+
+
+                 name_NED                    ra      dec    distmpc
+logsfr_fuv logmstar     P
+----------------------------------------- -------- -------- -------
+---------- --------  ---------------
+                          [HB89] 0241+622  41.2405  62.4685  191.43
+nan    12.05   0.140963304855
+                                LDCE 1285 271.5879 -25.4311  103.44
+nan    11.91   0.800186835374
+                           ESO 344- G 016 333.6750 -38.8064  170.09
+1.540    11.72   0.886386086915
+                                UGC 00774  18.4626  13.2719  209.58
+1.593    11.69   0.528731713093
+                                  IC 0260  42.7537  46.9548  123.80
+nan    11.54   0.882625900958
+                      6dF J1741553-121157 265.4803 -12.1990  152.05
+nan    11.44   0.753441530388
+                           NGC 0326 NED01  14.5943  26.8662  208.72
+-0.405    11.33     0.7901652699
+                                 NGC 6958 312.1785 -37.9975   99.86
+nan    11.31   0.789778583289
+                  2MASX J01571097+4715588  29.2956  47.2666  207.11
+nan    11.30   0.281525733779
+                                  IC 1695  21.2818   8.6995  210.38
+nan    11.30   0.431687269372
+                                UGC 01400  29.0184  36.1313   77.62
+nan    11.29   0.335875843118
+                                 NGC 6099 243.8982  19.4534  207.50
+nan    11.28   0.714631039094
+                                 MRK 0567  19.8255   4.5781  141.83
+1.304    11.26   0.572392023225
+                           NGC 6240 NED01 253.2453   2.4010  100.61
+nan    11.26   0.752082522541
+                 SDSS J005601.73-010352.2  14.0072  -1.0645  189.66
+nan    11.26   0.737619298894
+                  2MASX J01543532+6437570  28.6470  64.6326  149.45
+nan    11.26   0.593543567206
+                  2MASX J20145535-3240004 303.7306 -32.6668  409.11
+nan    11.24   0.892450247448
+                                UGC 00959  21.1875  32.1657  173.33
+0.907    11.24   0.422381064489
+                 SDSS J162220.44+115214.9 245.5852  11.8708  215.90
+nan    11.21   0.636472864491
+             GALEXASC J015114.07+223457.6  27.8086  22.5827  133.44
+nan    11.20    0.34030312252
+
+
+The SFRs are derived from GALEX all sky kron FUV magnitudes via the
+prescription of Murphy et al. (2011) and have been corrected for internal
+dust extinction using a combination of GALEX FUV and 22um ALLWISE fluxes
+(Hao et al. 2011). The quoted stellar masses are derived from 3.4um ALLWISE
+fluxes and a mass-to-light ratio of 0.5 (McGaugh & Schombert et al. 2015).

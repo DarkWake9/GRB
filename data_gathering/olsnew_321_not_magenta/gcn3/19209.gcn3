@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19209
+SUBJECT: IPN Triangulation of GRB 160310A
+DATE:    16/03/19 21:42:04 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks, A. Kozlova,
+and T. Cline on behalf of the Konus-Wind team,
+
+K. Hurley, on behalf of the IPN,
+
+V. Connaughton, M. S. Briggs, C. Meegan, V. Pelassa,
+and A. Goldstein, on behalf of the Fermi GBM team, and
+
+S. Barthelmy, J. Cummings, N. Gehrels, H. Krimm, and D. Palmer,
+on behalf of the Swift-BAT team, report:
+
+The long-duration GRB 160310A was detected by Konus-Wind (Frederiks et 
+al., GCN Circ. 19167), Fermi (LAT: Vianello et al., GCN Circ. 19158  and 
+GBM: Toelge & Hui GCN Circ. 19167), and Swift (BAT), at about 1378 s UT 
+(00:22:58). The burst was outside the coded field of view of the BAT.
+
+We have triangulated it to a Konus-GBM annulus centered at 
+RA(2000)=178.455 deg (11h 53m 49s)  Dec(2000)=-2.131 deg (-2d 07' 52"), 
+whose radius is 76.571 +/- 0.876 deg (3 sigma) and to a Konus-BAT 
+annulus centered at RA(2000)=178.592 deg (11h 54m 22s)  Dec(2000)=-2.265 
+deg (-2d 15' 53"), whose radius is 76.187 +/- 1.716 deg (3 sigma).
+
+While the GBM position is in a good agreement with both the Konus-GBM 
+and the Konus-BAT annuli, the LAT position reported in GCN 19158 is 2.9 
+deg (~10 sigma) from the Konus-GBM annulus center line. So we encourage 
+further investigation of the LAT position.
+
+Using the method suggested by Pal'shin, et al., ApJS 207, 38, 2013 (sec. 
+4.2.1) and assuming a LAT error radius of 6 deg, we obtain the following 
+joint LAT/IPN error box:
+--------------------------------
+  RA(2000), deg    Dec(2000), deg
+--------------------------------
+Center:
+    101.726         -7.1445
+Corners:
+    100.850         -13.082
+    102.648         -13.076
+    102.726         -1.228
+    100.975         -1.191
+---------------------------------
+The error box area is 21 sq. deg, and its maximum
+dimension is 12 deg (the minimum one is 1.8 deg).
+
+A triangulation map is posted at
+http://www.ioffe.ru/LEA/GRBs/GRB160310_T01391/IPN/
+

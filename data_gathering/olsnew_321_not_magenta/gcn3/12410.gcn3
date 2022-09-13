@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12410
+SUBJECT: GRB 110921A: MITSuME-Akeno Optical photometry
+DATE:    11/09/30 16:46:34 GMT
+FROM:    Yoichi Yatsu at Tokyo Tech.  <yatsu@hp.phys.titech.ac.jp>
+
+K. Tokoyoda, M. Hayashi, Y. Yatsu, Y. Aoki, K. Kawakami, S. Song,
+R. Usui, and N. Kawai (Tokyo Tech)  report on behalf of the MITSuME
+collaboration:
+
+As reported in GCN12378 (Tokoyoda et al.), we detected a very faint object
+within the XRT error circle of GRB 110921A (W. H. Baumgartner et al, GCN12373)
+with the MITSuME-Akeno 50cm telescope.
+Here we report the results of aperture photometry.
+
+We started the follow-up observation at 13:53:08 (UT), ~108 sec after the BAT
+trigger(W. H. Baumgartner et al, GCN12373).  The optical counterpart can be seen
+both in R and I band only in the earliest data-set from T0+108s to T0 + 348s.
+
+For zero-point calibration we used GSC2.3 catalog.
+The g' magnitudes of the reference stars were estimated based on Sesar
+et al. (2006).
+For I-band data we could not find any usable catalog data, therefore we
+performed a field photometry.
+The Photometric results are summarized below.
+
+Filter  T0+[s]  MID-UT  T-EXP[sec]   Mag  Mag_err   LimitMag
+-----------------------------------------------------------------------------------
+g'        +108    13:55:31        240        ---      ---           >19.4
+Rc      +108    13:55:31        240       18.8    0.2            ---
+Ic        +108    13:55:13        210       18.8    0.3           ---
+-----------------------------------------------------------------------------------
+

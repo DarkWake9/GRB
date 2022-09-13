@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7487
+SUBJECT: Konus-Wind observation of GRB 080319C
+DATE:    08/03/20 14:34:46 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 080319C (Swift-BAT trigger #306778: Pagani et al., GCN
+7442, Stamatikos et al., GCN 7483)
+triggered Konus-Wind at T0=44757.938 s UT (12:25:57.938).
+
+The burst light curve shows a multipeaked structure
+with a total duration of ~15 s.
+
+As observed by Konus-Wind the burst
+had a fluence of 1.50(-0.21, +0.34)x10^-5 erg/cm2,
+and a 256-ms peak flux measured from T0+0.256 s
+of 3.35(-0.70, +0.79)x10^-6 erg/cm2/s
+(both in the 20 keV - 4 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+16.640 s) is well fitted (in the 20 keV-4 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -1.20 +/- 0.10,
+and Ep = 594(-131, +224) keV (chi2 = 79.3/73 dof).
+Fitting by GRBM (Band) model yields:
+the low-energy photon index is alpha = -1.01 +/- 0.13,
+the high energy photon index beta = -1.87(-0.63, +0.15),
+the peak energy Ep = 307(-92, +141) keV (chi2 = 76.1/72 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB080319_T44757/
+

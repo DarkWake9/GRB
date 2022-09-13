@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4376
+SUBJECT: Swift-BAT detection of a possible burst
+DATE:    05/12/21 20:51:54 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+P. Boyd (GSFC), S. Barthelmy (GSFC), D. Burrows (PSU),
+J. Cummings (GSFC/NRC), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), F. Marshall (GSFC), K. Page (U Leicester),
+D. Palmer (LANL), A. Parsons (GSFC), J. Racusin (PSU), P. Roming (PSU),
+T. Sakamoto (GSFC)
+on behalf of the Swift team:
+
+At 20:03:20 UT, Swift-BAT triggered and located a source (trigger=173904).
+The spacecraft slewed promptly after the end of the image trigger.
+The BAT on-board calculated location is RA,Dec 312.395d,+53.054d
+{20h 49m 35s,+53d 03' 14"} (J2000), with an uncertainty of 3 arcmin
+(radius, 90% containment, stat+sys).  All we have at this time is
+the TDRSS lightcurve.  This plus the fact that this is a 192-sec
+image trigger means that we can not say if this trigger is due to a real GRB,
+a hard x-ray transient, or a noise event.  We note that the galactic
+latitude is 6 deg.
+
+The XRT began observing the location at 20:07:56 UT, 276 sec after the
+BAT trigger.  The on-board detection algorithm did not centroid
+on a source due to insufficient counts, so no prompt X-ray position
+is available.  However, both the prompt XRT light-curve and raw spectrum
+indicate there is a faint X-ray source in the field.  More information
+will be available after the next Malindi pass in a few hours.
+
+UVOT took a finding chart exposure of 200 seconds with the V filter
+starting 275 seconds after the BAT trigger.  No afterglow candidate
+has been found in the initial data products.  The 2.7'x2.7' sub-image
+covers 25% of the BAT error circle.  The typical 3-sigma upper limit has
+been about 18th mag.  The 8'x8' region for the list of sources generated
+on-board covers 100% of the BAT error circle.  The list of sources is
+typically complete to about 18.0 mag.  No correction has been made for
+the expected visual extinction of about 4.6 magnitudes.
+

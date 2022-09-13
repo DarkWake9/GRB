@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6086
+SUBJECT: GRB 070209: Swift detection of a short hard burst
+DATE:    07/02/09 03:53:23 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+G. Sato (GSFC/ISAS), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+M. M. Chester (PSU), C. Gronwall (PSU),
+S. T. Holland (CRESST/GSFC/USRA), S. Immler (GSFC/USRA),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL), M. Perri (ASDC),
+M. Stamatikos (NASA/ORAU), G. Stratta (ASDC) and
+D. E. Vanden Berk (PSU) report on behalf of the Swift Team:
+
+At 03:33:41 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070209 (trigger=259803).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 46.237, -47.370 which is 
+   RA(J2000)  =  03h 04m 57s
+   Dec(J2000) = -47d 22' 11"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single spike
+with a duration of about 0.2 sec.  The peak count rate
+was ~2500 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began taking data at 03:34:59 UT, 78 seconds after the BAT
+trigger.  The XRT on-board centroid algorithm did not find a source in the
+image and no prompt position is available.  We are waiting for down-linked
+data to detect and determine a position for the source. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 83 seconds after the BAT trigger. No
+afterglow candidate has been found in the initial data products. The
+2.7'x2.7' sub-image covers 25% of the BAT error circle. The typical
+3-sigma upper limit has been about 18.5 mag. The 8'x8' region for the
+list of sources generated on-board covers 100% of the BAT error
+circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to
+E(B-V) of 0.01. 
+

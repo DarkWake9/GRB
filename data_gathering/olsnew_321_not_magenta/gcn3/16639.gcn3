@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16639
+SUBJECT: Swift Trigger 607506 is probably noise
+DATE:    14/07/29 20:24:09 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+W. H. Baumgartner (GSFC/UMBC), M. G. Bernardini (INAF-OAB),
+P. D'Avanzo (INAF-OAB), C. B. Markwardt (NASA/GSFC),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL) and
+B. Sbarufatti (INAF-OAB/PSU) report on behalf of the Swift Team:
+
+At 19:54:27.67 UT, the Swift Burst Alert Telescope (BAT) found a
+low-significance peak in an untriggered image at a location near
+NGC3109 (trigger=607506).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 150.766d, -26.028d which is 
+ RA(J2000) = 10h 03m 04s
+ Dec(J2000) = -26d 01' 39"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT lightcurve shows a rapidly
+increasing count rate, consistent with Swift's entry into the SAA. 
+
+The XRT began observing the field at 19:57:03.3 UT, 155.6 seconds after
+the BAT trigger. No source was detected in 37 s of promptly downlinked
+data, which covered 94% of the BAT error circle. We are waiting for the
+full dataset to detect and localise the XRT counterpart. 
+
+UVOT took a finding chart exposure of 118 seconds with the White filter
+starting 159 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.06. 
+
+When BAT finds a marginal significance image peak in the vicinity
+of a nearby galaxy, as in this case, Swift makes follow-up observations
+with the narrow-field instruments to test the reality of the
+event.  The expectation is that most such events will be noise. 
+
+Due to the lack of a rate trigger, the marginal significance of the 
+image peak (5.92 sigma), and the lack of a detection in the
+narrow field instruments, we do not believe that this is an
+astrophysical source.  A final determination will require
+the full downlinked dataset. 
+

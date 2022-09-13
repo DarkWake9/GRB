@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28548
+SUBJECT: GRB 201001A: MITSuME Akeno optical upper limits
+DATE:    20/10/02 09:42:14 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, S. Ogata, K. L. Murata, R. Adachi, M. Niwano, F. Ogawa,
+N. Nakamura, N. Ito, H. Takamatsu, H. Hara, Y. Yatsu, and N. Kawai
+(TokyoTech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 201001A(Fermi GBM Team, GCN 28538; David
+et al., GCN 28539) with the optical three color (g', Rc, and Ic) CCD
+cameras attached to the MITSuME 50 cm telescope of Akeno Observatory,
+Yamanashi, Japan.
+
+The observation with a series of 60 sec exposures started at
+2020-10-01 16:44:38UT. Since some images were heavily affected by the
+moon, we stacked the images with good conditions. We did not find any
+new point sources within the enhanced Swift/XRT error circle (Evans et
+al., GCN 28540) in the 60 sec exposure images and the stacked images.
+We obtained the 5-sigma limits of the stacked images as follows.
+
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+6.8 2020-10-01T19:06:10.46 4020 g'>19.0, Rc>19.3, Ic>18.9
+------------------------------------------------------------------------------------------------
+T0+: Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used the PS1 catalog for flux calibration. The magnitudes are
+expressed in the AB system. The images were processed in real-time
+through the MITSuME GPU reduction pipeline (Niwano et al., accepted
+for publication in PASJ, https://arxiv.org/abs/2008.11486;
+https://github.com/MNiwano/Eclaire).
+
+-- 
+＿＿＿＿＿＿＿＿＿＿＿＿
+
+東京工業大学
+河合研究室　修士1年
+細川稜平
+hosokawa@hp.phys.titech.ac.jp
+

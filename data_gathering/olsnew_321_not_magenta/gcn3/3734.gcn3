@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3734
+SUBJECT: GRB 050802: Swift Gamma-ray Burst
+DATE:    05/08/02 11:53:01 GMT
+FROM:    David L. Band at NASA/GSFC  <dband@lheapop.gsfc.nasa.gov>
+
+D. Band (GSFC-UMBC), C. Markwardt (GSFC-UMD), M. Perri
+(ASDC), K. McGowan (MSSL), C. Gronwall (PSU), K. Page (U.
+Leicester), J. Racusin (PSU), D. Burrows (PSU), N. Gehrels
+(GSFC), J. Kennea (PSU), report on behalf of the Swift
+Team:
+
+At 10:08:02 UT, Swift-BAT triggered and located GRB050802
+(trigger=148646).  The spacecraft slewed immediately.  The
+BAT on-board calculated location is RA,Dec 219.287, +27.806
+{+14h 37m 09s, +27d 48' 23"} (J2000), with an uncertainty
+of 3 arcmin (radius, 90% containment, stat+sys).  The BAT
+light curve has a total duration of ~20 sec.  The peak
+count rate was ~2000 counts/sec (15-350 keV).
+
+The XRT began observing at 10:12:51 UT, 289 seconds after
+the BAT trigger. XRT was unable to centroid on any source,
+however the downlinked lightcurve and raw spectrum show a
+bright variable source is present in the XRT field of view.
+There are no catalogued X-ray sources in the field,
+suggesting that this bright source is the GRB afterglow.
+
+Swift-UVOT began observations after the slew, however, the
+UVOT dark burst image did not come down via TDRSS so no
+information is available at this time.  Detailed analysis
+will be performed when data is available after the next
+Malindi pass.
+
+[GCN OPS NOTE(02aug05): Per author's request, The "05080"
+in the Subject-line was changed "050802".]

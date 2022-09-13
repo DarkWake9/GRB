@@ -1,0 +1,28 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4965
+SUBJECT: SGR 1900+14:  Refined analysis of the Swift-BAT outburst
+DATE:    06/04/14 21:01:50 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S.D. Barthelmy (GSFC), L. Barbier (GSFC), J. Cummings (GSFC/NRC),
+A. Falcone (PSU), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (BYU-Idaho), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), 
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/NRC),
+G. Sato (ISAS), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the data set from T-240 to T+323 sec from recent telemetry downlinks,
+we report further analysis of the outburst detected by BAT of SG1900+14
+(trigger #205164)  (Falcone, et al., GCN 4962).  The BAT ground-calculated
+position is RA,Dec = 286.886,+9.524 deg {19h 7m 32.6s, 9d 31' 27.3"} (J2000)
++- 1.0 arcmin, (radius, sys+stat, 90% containment). The partial coding was 100%.
+ 
+The mask-weighted lightcurve shows two slightly overlapping pulses
+with a FWHM of ~0.030 sec.  T90 (15-350 keV) is 0.040 +- 0.010 sec
+(estimated error including systematics).
+ 
+The best fit is a thermal bremsstrahlung model with 
+kT [keV] = 43.5 -11/+14 and the normalization = 48.9 -10.6/+14.3.
+The fluence is 1.3 +/- 0.2 x10^-8 erg/cm2.  All values are
+in the 15-150 keV band at the 90% confidence level.
+

@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20745
+SUBJECT: LIGO/Virgo G275404: SVOM/Mini-GWAC: Observations of initial skymap
+DATE:    17/02/26 03:01:37 GMT
+FROM:    Chao Wu at NAOC  <wuchao.lamost@gmail.com>
+
+J.Y. Wei (NAOC), X.H. Han (NAOC), X.M. Meng (NAOC), N. Leroy (LAL),
+ S. Antier (LAL), C. WU (NAOC), L.P. Xin (NAOC), L. Huang (NAOC),
+Y. Xu (NAOC), H.B. Cai (NAOC), J. Wang (NAOC), X.M. Lu (NAOC),
+Y.L. Qiu (NAOC), J.S. Deng (NAOC), L. Cao (NAOC), S. Wang (NAOC),
+L. Jia (NAOC), S.C. Zou (NAOC), S.F. Liu (NAOC), Q.C. Feng (NAOC),
+H.L. Li (NAOC), D.W. Xu (NAOC), Y.J. Xiao (NAOC), W.L. Dong (NAOC),
+Y.T. Zheng (NAOC), E.W.Liang (GXU), X.G.Wang (GXU), Y.G. Yang (HBNU),
+B. Cordier (CEA), S.N. Zhang (NAOC), D. Dornic (CPPM), B.B. Wu (IHEP),
+J.L. Atteia (IRAP), D. G?tz (CEA), C.Lachaud (APC),
+on behalf of the SVOM Gravitational Astronomy group report:
+
+We observed about 3200 square degree (8 sky regions) of the skymap
+of the advanced LIGO trigger G275404, with SVOM/Mini-GWAC, at Xinglong
+Observatory of NAOC equipped with U9000 camera (FOV~400 square
+degree/camera).
+SVOM/Mini-GWAC comprises 12 wide field angle cameras (aperture=7cm),
+working with unfiltered band. The observations are operated in time-series
+mode, taking one exposure in 15 seconds (10s exposure + 5s readout).
+The limit magnitude is ~12 mag in R band. We estimate a 46.6% prior
+probability that these 8 regions contain the true location of the
+source.
+
+The coordinates of the 8 regions and observation time are list following:
+
+start-obs(UTC)  end-obs(UTC)    Ra      Dec     Camera_ID
+2017-02-25      19:23:51.9      2017-02-25      20:41:04.7      10:33:59.6
+     +30:12:22                       C3
+2017-02-25      19:23:51.9      2017-02-25      20:41:06.2      10:38:05.6
+     +10:07:57                       C4
+2017-02-25      19:23:42.2      2017-02-25      22:13:19.6      17:18:04.0
+     +69:28:00                       C5
+2017-02-25      19:23:44.7      2017-02-25      22:13:38.0      17:21:47.1
+     +50:28:32                       C6
+2017-02-25      13:01:04.2      2017-02-25      21:37:38.1      09:21:25.5
+     +69:40:01                       C7
+2017-02-25      13:01:04.2      2017-02-25      21:37:39.7      09:23:01.6
+     +50:00:25                       C8
+2017-02-25      21:39:38.3      2017-02-25      22:13:28.5      20:00:36.6
+     +69:38:42                       C7
+2017-02-25      21:39:38.3      2017-02-25      22:13:25.5      20:01:12.7
+     +50:00:21                       C8
+
+The first image (which is covered in our routine survey) was taken
+ ~5 hours 29 minutes before the event trigger. No any significant
+transient is found in our online pipeline. The image analysis is
+ongoing in detailed processing with our offline pipeline.

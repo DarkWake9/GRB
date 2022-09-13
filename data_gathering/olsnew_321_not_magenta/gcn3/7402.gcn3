@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7402
+SUBJECT: GRB 080310, Swift-BAT refined analysis
+DATE:    08/03/10 21:21:53 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+J. Tueller (GSFC),
+S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL),
+N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD),
+K. McLean (GSFC/UMD),
+D. Palmer (LANL),
+A. Parsons (GSFC),
+T. Sakamoto (GSFC/UMBC),
+G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU),
+T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 080310 (trigger #305288)
+(Cummings, et al., GCN Circ. 7382).  The BAT ground-calculated position is
+RA, Dec = 220.040, -0.164 deg which is
+   RA(J2000)  = 14h 40m 9.6s
+   Dec(J2000) = -0d 9' 49"
+with an uncertainty of 1.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 68%.
+ 
+The mask-weighted lightcurve shows many peaks starting at ~T-60 sec.  The
+main peak extends from ~T-12 to T+7 sec, then there is a period with no
+detectable emission, then a broad, weaker peak from T+180 to T+360 sec.
+The later peak corresponds to the first strong flare seen in the XRT (Beardmore
+et al., GCN circ. 7399).  BAT sees no emission at the time of the second flare
+seen in the XRT, even though in the XRT energy range it was of similar intensity
+at the peak to the first flare.
+
+The location of the burst entered the BAT field of view at about T-80 sec during
+a preplanned slew.  It is possible that some very weak emission preceded that
+time, but the BAT raw lightcurve, which is partially sensitive to photons from
+outside the FOV rules out strong emission. T90 (15-350 keV) is 365 +- 20 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-71.8 to T+318.7 sec is best fit by a simple
+power-law model.  The burst does not appear to have significant emission above
+about 150 keV however.  The power law index of the time-averaged spectrum is
+2.32 +- 0.16.  The fluence in the 15-150 keV band is 2.3 +- 0.2 x 10^-06 erg/cm2.
+The 1-sec peak photon flux measured from T+1.27 sec in the 15-150 keV band
+is 1.3 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/305288/BA/
+
+[GCN OPS NOTE(10mar08): Per author's request, the missing minus sign
+on the Dec specification was added (-0d 9' 49").]
+

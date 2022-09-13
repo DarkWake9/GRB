@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6766
+SUBJECT: Konus-Wind observation of very bright GRB 070821
+DATE:    07/08/28 15:42:39 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team:
+
+The very bright long GRB 070821 localized by the IPN (Hurley et al.,
+GCN 6764) triggered Konus-Wind at T0=46164.332 s UT (12:49:24.332).
+
+The Konus-Wind light curve shows a soft precursor started at T-T0 ~-6 s 
+(with a duration of ~8 s), followed by a very intense multipeaked pulse 
+at T-T0 ~120 s and a weaker pulse at T-T0 ~180 s
+(there is an emission between these two intense pulses).
+The total burst duration is ~215 s.
+
+As observed by Konus-Wind the burst
+had a fluence of 1.02(-0.04, +0.03)x10^-4 erg/cm2,
+and a 256-ms peak flux measured from T0+126.720 s
+of 1.38(-0.11, +0.09)x10^-5 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the main episode
+(from T0+114.944 s to T0+203.776 s) can be fitted
+(in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 1.299  +/- 0.037
+and Ep = 268 (-17, +19) keV (chi2 = 67.8/59 dof).
+
+The spectrum of the most intense pulse
+(accumulated from T0+114.944 s to T0+146.432 s)
+is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model
+with alpha = 1.215  +/- 0.030
+and Ep = 289 (-14, +15) keV (chi2 = 68.3/59 dof).
+This pulse had a fluence of 8.34(-0.24, +0.17)x10^-5 erg/cm2.
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB070821_T46164/
+

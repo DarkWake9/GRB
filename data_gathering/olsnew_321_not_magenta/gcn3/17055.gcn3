@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17055
+SUBJECT: Konus-Wind observation of GRB 141109A
+DATE:    14/11/10 17:35:48 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, V. Pal'shin, D. Frederiks, P. Oleynik, 
+M.Ulanov, D. Svinkin, and T. Cline on behalf of the Konus-Wind
+team report:
+
+The most intense part of the long GRB 141109A (Swift-BAT trigger 
+#618024: D'Avanzo, et al., GCN Circ. 17037, Baumgartner, et al., GCN 
+Circ. 17044) was detected by Konus-Wind in the waiting mode.
+
+The burst light curve shows two pulses started at ~T0(BAT)+31 s with a 
+total duration of ~94 s, and a weak tail seen in the soft energy range 
+G1 up to ~T0(BAT)+300 s.
+
+As observed by Konus-Wind, the burst had a fluence of
+1.37(-0.18,+0.20)x10^-5 erg/cm2 and a 2.944-s peak flux,
+measured from ~T0(BAT)+81 s, of (4.9 +/- 0.8)x10^-7 erg/cm2 (both in the 
+20 - 1200 keV energy range).
+
+Modeling the K-W 3-channel time-integrated spectrum (from T0(BAT)+31 s
+to T0(BAT)+125 s) by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.24(-0.25,+0.37), and Ep = 191(-43,+76) keV.
+
+Assuming z = 2.993 (Xu et al., GCN 17040) and a standard cosmology model 
+with H_0 = 71 km/s/Mpc, Omega_M = 0.27, Omega_Lambda = 0.73, the 
+isotropic energy release is E_iso = 3.31(-0.59,+0.78)x10^53 erg, and
+the isotropic peak luminosity is L_iso = (4.8 +/- 0.9)x10^52 erg/s in 1 
+keV to 10 MeV at the GRB rest frame extrapolating the best exponential 
+cutoff function fit.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB141109A/
+

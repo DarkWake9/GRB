@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9349
+SUBJECT: GRB 090509, further Swift-BAT refined analysis
+DATE:    09/05/11 17:15:49 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+H. A. Krimm (GSFC/USRA), S. D. Barthelmy (GSFC), and J. R. Cummings (GSFC/UMBC) 
+for the Swift-BAT team.
+
+Here we report on further analysis of GRB 090509 (Grupe et al., GCN Circ. 9325) 
+based on additional event data received since GCN Circ. 9335 (Tueller et al.) 
+was issued.  The results given here supersede those from GCN Circ. 9335.
+
+Using the data set from T-239 to T+316 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 090509 (trigger #351525). The BAT 
+ground-calculated position is
+RA, Dec = 241.422, -28.385 deg which is
+    RA(J2000)  =  16h 05m 41.3s
+    Dec(J2000) = -28d 23' 04.4"
+with an uncertainty of 2.1 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 29%.
+
+The mask weighted light curve consists of two sets of peaks widely separated in 
+time.  The first complex contains multiple overlapping peaks starting at ~T-4 
+sec, peaking at ~T+21 sec, and ending at ~T+40 sec.  The second complex also 
+contains multiple overlapping peaks starting at ~T+240 sec, peaking at ~T+250 
+sec and continuing until at least ~T+300 sec, when a pre-planned slew caused the 
+source to move out of the BAT field of view.  However until ~T+950 sec the 
+source was at a location outside the field of view where high energy (> 50 keV) 
+photons from the source could have penetrated the BAT shield and contributed to 
+the non-maskweighted light curve.  Examination of the raw light curve shows no 
+additional peaks comparable in intensity to those described above.  We cannot 
+rule out weak source activity or activity below about 50 keV. Based on the 
+available data, T90 (15-350 keV) is 335 +- 32 sec (estimated error including 
+systematics).
+
+The time-averaged spectrum from T-62.6 to T+298.7 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.75 +- 0.20.  The fluence in the 15-150 keV band is 3.3 +- 0.4 x 10-6 erg/cm2.
+The 1-sec peak photon flux measured from T+20.73 sec in the 15-150 keV band
+is 1.5 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/351525/BA/
+

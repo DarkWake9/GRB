@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25138
+SUBJECT: LIGO/Virgo S190720a: Updated localization from LIGO and Virgo data
+DATE:    19/07/22 18:40:13 GMT
+FROM:    John Veitch at U of Glasgow  <john.veitch@ligo.org>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+
+We have re-analyzed LIGO and Virgo data around the time of the compact
+binary coalescence (CBC) candidate S190720a (GCN 25115). Parameter
+estimation has been performed using LALInference [1] and a new sky
+map, LALInference.offline.fits.gz, is available for retrieval from the
+GraceDB event page:
+
+
+https://gracedb.ligo.org/superevents/S190720a/
+
+
+This is currently the preferred skymap. For the LALInference.offline.fits.gz 
+sky map, the 90% credible region is 443 deg2.
+Marginalized over the whole sky, the a posteriori luminosity
+distance estimate is 869 +/- 283 Mpc (a posteriori mean +/- standard
+deviation). This is the preferred sky map at this time. The LALInference 
+skymap is generated using data from three detectors, while the sky map
+shared in GCN 25115, was generated from data obtained from two detectors.
+This partly contributed to the better localization.
+
+
+For further information about analysis methodology and the contents
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+
+
+[1] Veitch et al. PRD 91, 042003 (2015)
+
+
+
+
+

@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14155
+SUBJECT: Swift/BAT trigger 547142 is new source Swift J1753.7-2544
+DATE:    13/01/29 18:40:34 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+H. A. Krimm (CRESST/GSFC/USRA), S. D. Barthelmy (GSFC),
+W. Baumgartner  (CRESST/GSFC/UMBC), J. Cummings (CRESST/GSFC/UMBC),
+N. Gehrels (GSFC), C. B.  Markwardt (GSFC), D. Palmer (LANL),
+T. Sakamoto (AGU),  M. Stamatikos  (OSU/GSFC), J. Tueller (GSFC),
+T. Ukwatta (MSU)
+
+We report a follow-up to Cummings et al, GCN  Circ. 14151, which reported
+on a possible galactic transient as Swift/BAT trigger 547142.  We now know
+that this is a new galactic transient source.
+
+The source, to which we give the name Swift J1753.7-2544, was first detected
+by  the BAT on 2013 January 24 (MJD 56316) and has been mostly brightening
+ever since.
+
+The BAT rates in the 15-50 keV band have been
+Jan 24: 0.0050 ± 0.001 ct/s/cm^2 (23 mCrab)
+Jan 25: 0.0074 ± 0.001 ct/s/cm^2 (33 mCrab)
+Jan 26: 0.014  ± 0.002 ct/s/cm^2 (64 mCrab)
+Jan 27: 0.0090 ± 0.001 ct/s/cm^2 (41 mCrab)
+Jan 28: 0.017  ± 0.002 ct/s/cm^2 (80 mCrab)
+Jan 29: 0.017  ± 0.002 ct/s/cm^2 (80 mCrab)
+
+The best BAT position is:
+RA(J2000) = 268.429, Dec(J2000) = -25.742
+RA = 17h 53m 43s,  Dec = -25d 44' 31"
+Glon= 3.664, Glat = +0.099
+
+The estimated error (statistical plus systematic) is 3 arc minutes (90%
+confidence)  This position is derived from the BAT transient monitor.
+
+At 06:16:29 UT on February 28, 2013 (MJD 56320), Swift J1753.7-2544 triggered
+BAT in a 1280-second image trigger.  On-board software identified it as
+a gamma-ray burst, but the Swift team suggested that it is more likely a
+galactic transient (Cummings et al, GCN Circ. 14151).
+
+Using the BAT event data set from T+165 to T+963, we report further analysis
+of Swift J1753.7-2544 The BAT ground-calculated position from the event data
+is RA, Dec = 268.429, -25.745 deg which is within 0.2 arcminutes of the BAT
+monitor  position. The partial coding was 92%.   The mask-weighted light curve 
+shows no significant structure and an average count rate in the 15-100 keV
+band of roughly 0.03 ct/s/cm^2.
+
+The time-averaged spectrum from T+165 to T+963 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.07 +- 0.25.  The fluence in the 15-150 keV band is 2.1 +- 0.3 x 10^-6
+erg/cm2. (90% confidence level.
+
+Sakamoto et al (GCN Circ. 14153) reported no detection in MAXI (4-10 keV)
+during short observations near the time of the BAT trigger.
+
+A Swift target of opportunity observation has been requested.  However, due to a 
+Sun constraint, there will be no Swift XRT or UVOT observations before
+Feb. 4, 2013.
+
+The BAT hard X-ray transient monitor light curve for Swift J1753.7-2544 can be 
+found at
+http://swift.gsfc.nasa.gov/docs/swift/results/transients/weak/SWIFTJ1753.7-2544/
+

@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30134
+SUBJECT: GRB 210606A: Swift/BAT-GUANO detection and arcminute localization
+DATE:    21/06/06 17:43:04 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+James DeLaunay (PSU), Aaron Tohuvavohu (U Toronto), Jamie A. Kennea
+(PSU), Gayathri Raman (PSU) report:
+
+Swift/BAT did not trigger on GRB 210606A (T0: 2021-06-06 03:56:02 UTC,
+Fermi/GBM GCN 30131).  
+
+The Fermi/GBM notice, distributed in near real-time, triggered the
+Swift Mission Operations Center operated Gamma-ray Urgent Archiver for
+Novel Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1).
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst
+Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from
+[-50,+150] seconds around the time of the burst. All the requested
+event mode data was delivered to the ground.
+
+The burst is detected in BAT with a duration of ~8 seconds.
+With a maximum likelihood analysis (DeLaunay et al. 2021, in prep.) on
+the event-mode data we detect a location for the burst with a square
+root of the test statistic, sqrt(TS), of 15. The sqrt(TS) behaves
+similarly to SNR.
+Using the normal BAT imaging technique, we find the same location for
+the GRB with an SNR of 5.2.
+
+The BAT position is
+RA, Dec = 170.904,  +0.718 deg which is
+   RA(J2000)  = 11h 23m 36.96s
+   Dec(J2000) =  00d 43′ 04.8″
+with an estimated uncertainty of 4 arcmin.
+The partial coding was 8%.
+
+This position is consistent with the Ferm/GBM localization (GCN 30131).
+
+XRT and UVOT follow-up has been requested. Results of follow-up
+observations will be reported in future circulars.
+
+GUANO is a fully autonomous, extremely low latency, spacecraft
+commanding pipeline designed for targeted recovery of BAT event mode
+data around the times of compelling astrophysical events to enable
+more sensitive GRB searches.
+
+A live reporting of Swift/BAT event data recovered by GUANO can be
+found at: https://www.swift.psu.edu/guano/
+
+[GCN OPS NOTE(06Jun21): Per author's request, the two places that cited
+GCN 31031 have been changed to GCN 30131.]
+

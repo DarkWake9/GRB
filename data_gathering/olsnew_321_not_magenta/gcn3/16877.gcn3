@@ -1,0 +1,87 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16877
+SUBJECT: Swift observations of HD 305560
+DATE:    14/10/02 19:55:27 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+A. Maselli (INAF-IASFPA), K. L. Page (U. Leicester), H. A. Krimm
+(CRESST/GSFC/USRA) and S. R. Oates (IAA-CSIC, MSSL-UCL) report on behalf
+of the Swift team:
+
+At 04:44:43 on 2014 October 02, the Swift Burst Alert Telescope (BAT)
+triggered on what appears to be the Be star HD 305560 (GCN Circ. #16874).
+
+Using the data set from T-239 to T+963 sec from the recent telemetry
+downlink, we report further analysis of the BAT data. The BAT
+ground-calculated position is RA, Dec = 161.562, -60.604 which is
+equivalent to
+
+RA(J2000)  =  10h 46m 15.0s
+Dec(J2000) = -60d 36' 13.9"
+
+with an uncertainty of 3.1 arcmin (radius, sys+stat, 90% containment).
+The partial coding was 53%.
+
+The mask-weighted light curve shows that the source entered the field of
+view during a slew at around T-100 seconds and that the count rate was
+relatively flat through the duration of the event data. In the 15-50 keV
+range, the count rate during this period averaged 0.04 +/- 0.005
+ct/s/cm^2. Examination of the BAT transient monitor images before the
+trigger shows no detection in earlier intervals going back to 2014
+September 01, the most recent observation ending 13 minutes before the
+trigger.
+
+Observations made after the burst response interval show the source fading
+rapidly in the BAT monitor 15-50 keV band.  By 09:36:32.0 UT, the rate was
+down to 0.005 +/- 0.003 ct/s/cm^2 and by 10:49:28.0, the source had faded
+to a level consistent with background. This rapid fading is not consistent
+with the typical behaviour of a high-mass X-ray binary system in outburst.
+
+The time-averaged spectrum from T+0.00 to T+320.00 sec is best fit by a
+simple power-law model.  The power law index of the time-averaged spectrum
+is 2.42 +/- 0.39.  The fluence in the 15-150 keV band is 1.0 +/- 0.2 x
+10^-6 erg/cm2. The 1-sec peak photon flux measured from T+0.00 sec in the
+15-150 keV band is 0.1 +/- 0.0 ph/cm2/sec.  All the quoted errors are at
+the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/614193/BA/
+
+The Swift X-Ray Telescope (XRT) started observing HD 305560 at T0+424 s
+(where T0 corresponds to the time at which HD 305560 entered the BAT
+field of view). Using data from the whole available dataset we found a
+bright, uncatalogued X-ray source located at RA, Dec 161.6173, -60.5644
+which is equivalent to
+
+RA(J2000)  =  10h 46m 28.14s
+Dec(J2000) = -60d 33' 51.7"
+
+with an uncertainty of 3.6 arcseconds (radius, 90% confidence). This
+location is 2.9 arcmin from the BAT ground-calculated position, within the
+BAT error circle, and is 2.5 arcsec from the SIMBAD position of the Be
+star HD 305560.
+
+Initially, the soft X-ray 0.3-10 keV count rate was at the level of ~15
+ct/s; then, after reaching a peak of 20 ct/s (corresponding to
+1.8e-9 erg/cm^2/s, observed) at ~T0+540 s, it was followed by a moderate
+decay, reaching a count rate of ~6 ct/s by ~1.2 ks after the trigger.
+The second snapshot of XRT data started at T0+5.7 ks, with the soft
+X-ray emission showing a flaring phase, with the count rate rapidly
+rising from ~0.6 ct/s to ~18 ct/s at T0+6.4 ks and keeping at that
+count rate level until this snapshot concluded, at T0+6.9 ks. Data
+collected at T0+11.5 ks caught the source in an evident decaying phase
+with a count rate of ~7.6 ct/s down to 0.6 ct/s when the
+observation concluded, at T0+18.4 ks.
+
+The XRT data collected between T0+424 s and 18.4 ks can be fitted with a
+hard power-law (Gamma = 0.81 +0.07/-0.12) plus an optically thin thermal
+component (kT = 0.45 +/- 0.15 keV), with a high absorbing column of (3.4
++0.7/-0.4)x10^22 cm^-2. Time-slicing the XRT spectra provides no strong
+evidence for changes in these temperatures during this interval.
+
+Because of the brightness of the optical source (V~9.8 mag), the
+UV/Optical Telescope (UVOT) data are saturated in all 6 optical and UV
+filters and have therefore not been analysed in detail.
+
+This information has also been posted as ATel 6526.
+

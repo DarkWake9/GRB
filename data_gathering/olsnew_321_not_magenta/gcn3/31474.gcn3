@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31474
+SUBJECT: GRB 220117B: MITSuME Akeno optical upper limits
+DATE:    22/01/18 02:45:51 GMT
+FROM:    Naohiro Ito at Tokyo Tech  <n.ito@hp.phys.titech.ac.jp>
+
+N. Ito, R. Hosokawa, K. L. Murata, M. Niwano, Y. Imai, Y. Takamatsu, R.
+Yamaguchi, R. Noto, S. Sato, M. Takaku, Y. Yatsu, and N. Kawai (Tokyo Tech)
+report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 220117B (A. Melandri et al. GCN Circular
+#31468, V. Lipunov et al. GCN Circular #31469) with the optical three color
+(g', Rc, and Ic) CCD cameras attached to the MITSuME 50 cm telescope Akeno.
+The observation started at 2022-01-17 20:06:58 UT (1.5 minutes after Swift
+trigger). We stacked the images with good conditions. We did not detect any
+sources within the XRT error region (A. Melandri et al. GCN Circular
+#31468). We obtained the 5-sigma limits of the stacked images as follows.
+
+T0+[minutes] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+2.9 2022-01-17 20:08:19 80 g'>16.3, Rc>16.4, Ic>15.8
+28.7 2022-01-17 20:34:10 2280 g'>16.5, Rc>17.0, Ic>16.5
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU reduction
+pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages 4-24;
+https://github.com/MNiwano/Eclaire).

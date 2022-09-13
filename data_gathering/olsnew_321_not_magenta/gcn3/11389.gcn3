@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11389
+SUBJECT: GRB 101030A: Swift/UVOT Upper Limits
+DATE:    10/10/31 04:17:28 GMT
+FROM:    Erik Hoversten at Swift/Penn State  <hoversten@astro.psu.edu>
+
+E. A. Hoversten (PSU) and A. Melandri (INAF-OAB) report
+on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB
+101030A 73s after the BAT trigger (Melandi et al., GCN 11386).
+We do not detect any source at the enhanced Swift XRT position
+(Evans et al., GCN 11387).  UVOT magnitude 3-sigma upper limits
+are reported in the following table:
+
+Filter  T_start  T_stop  Exp(s)  Mag (3-sigma upper limit)
+-------------------------------------------------------------
+white(fc)  73      223    146      > 20.32
+white      73     1008    327      > 20.75
+v         617      808     38      > 17.89
+b         542      735     38      > 18.83
+u         285      710    260      > 19.68
+uvw1      666      857     38      > 18.39
+uvm2      641      833     38      > 18.18
+uvw2      592      784     38      > 18.61
+
+The quoted upper limits have not been corrected for the expected
+Galactic extinction along the line of sight of E_(B-V) = 0.04
+(Schlegel et al. 1998). All photometry is on the UVOT photometric
+system described in Poole et al. (2008, MNRAS, 383, 627).
+

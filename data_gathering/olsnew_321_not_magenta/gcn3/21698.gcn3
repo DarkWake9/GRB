@@ -1,0 +1,21 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21698
+SUBJECT: LIGO/Virgo G299232: COINCIDENT IceCube neutrino observation UPDATE
+DATE:    17/08/25 15:52:28 GMT
+FROM:    Stefan Countryman at LIGO Scientific Collaboration  <stefan.countryman@ligo.org>
+
+I. Bartos, S. Countryman (Columbia), C. Finley (U Stockholm), E. Blaufuss (U Maryland), R. Corley, Z. Marka, S. Marka (Columbia) on behalf of the IceCube Collaboration
+
+In GCN 21694 we reported the identification of an IceCube neutrino candidate that is temporally (within [-500s,500s]) and directionally (within 90% CL) coincident with LIGO/Virgo G298048.
+
+We reran our analysis using the updated three-detector skymap, bayestar-HLV.fits.gz. The same neutrino candidate is still COINCIDENT with the updated map. The properties of the neutrino candidate are below:
+
+
+#            dt[s]     RA[deg]    Dec[deg]      E[TeV]  Sigma[deg]
+------------------------------------------------------------------
+1.         -233.82        28.2        44.8        0.39         3.8
+
+(dt--time from GW in [seconds]; RA/Dec--sky location in [degrees]; E--reconstructed secondary muon energy in [TeV]; Sigma--uncertainty of direction reconstruction in [degrees])
+
+A coincident neutrino-GW skymap has been posted to GraceDB (<https://gracedb.ligo.org/apiweb/events/G299232/files/coinc_skymap_initial_icecube.png,1>). A JSON-formatted list of the neutrinos used can be downloaded from GraceDB at: <https://gracedb.ligo.org/apiweb/events/G299232/files/IceCubeNeutrinoList.json,1>
+

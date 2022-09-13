@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10280
+SUBJECT: Trigger 379449: Swift detection of a possible burst
+DATE:    09/12/15 16:04:52 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+T. Sakamoto (NASA/UMBC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), S. Campana (INAF-OAB),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+O. Godet (U Leicester), C. Guidorzi (U Ferrara),
+S. T. Holland (CRESST/USRA/GSFC), E. A. Hoversten (PSU),
+W.B Landsman (GSFC), V. Mangano (INAF-IASFPA),
+F. E. Marshall (NASA/GSFC), P. T. O'Brien (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+J. L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-IASFPA),
+G. Stratta (ASDC), M. C. Stroh (PSU), E. Troja (NASA/GSFC/ORAU) and
+T. N. Ukwatta (GSFC/GWU) report on behalf of the Swift Team:
+
+At 15:39:06 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located trigger=379449.  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 242.043, +51.395 which is 
+   RA(J2000) = 16h 08m 10s
+   Dec(J2000) = +51d 23' 42"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual for an image trigger, the BAT light 
+curve shows nothing of note. 
+
+The XRT began observing the field at 15:41:31.1 UT, 144.5 seconds after
+the BAT trigger. No source was detected in the promptly available XRT
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 150 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+Because this was an image trigger of marginal significance with no
+obvious variation in the BAT light curve, and because there is no
+source found in the immediate XRT follow-up, we cannot confirm
+that this is an actual GRB.  Final determination will require
+analysis of the data downlinked through Malindi. 
+
+Burst Advocate for this burst is T. Sakamoto (Taka.Sakamoto AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

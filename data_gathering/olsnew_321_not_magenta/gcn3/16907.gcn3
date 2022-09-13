@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16907
+SUBJECT: Konus-Wind observation of GRB 141011A
+DATE:    14/10/13 11:51:35 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration, hard-spectrum GRB 141011 (Fermi-GBM detection: von 
+Kienlin, GCN Circ. 16905; IPN triangulation: Golenetskii et al., GCN 
+Circ. 16906) triggered Konus-Wind at T0=24377.666 s UT (06:46:17.666).
+
+The burst light curve shows a short pulse with
+a total duration of ~0.1 s.
+The emission is seen up to ~4 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB141011_T24377/
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.24(-0.20,+0.02)x10^-6 erg/cm2,
+and a 2-ms peak flux, measured from T0-0.012 s,
+of 7.1(-1.7,+0.7)x10^-5 erg/cm2/s
+(both in the 20 keV - 1.2 MeV energy range).
+
+Modeling the K-W 3-channel time-integrated spectrum
+(from T0-0.014 s to T0+0.048 s)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep) yields
+alpha = 0.1(-0.4, +0.4), and
+Ep = 521(-75,+120) keV.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the quoted values are preliminary.
+

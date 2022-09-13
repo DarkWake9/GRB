@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22212
+SUBJECT: Swift Trigger 796098 is probably a noise peak near M31
+DATE:    17/12/09 15:02:58 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. D'Avanzo (INAF-OAB), J.D. Gropp (PSU), J. A. Kennea (PSU),
+S. J. LaPorte (PSU), A. Y. Lien (GSFC/UMBC), A. Melandri (INAF-OAB)
+and D. M. Palmer (LANL) report on behalf of the Swift Team:
+
+At 14:29:45 UT on 2017-09-17, the Swift Burst Alert Telescope (BAT) was 
+observing the bright source Swift J0243.6+6124 .  The pulsations from 
+this bright source cause BAT to trigger and image continuously while 
+it is in the FOV. In one of these images, there was a low-significance 
+(5.97 sigma) peak in the image within the boundaries of M31.  
+
+The BAT on-board software has lowered thresholds in the regions around nearby 
+galaxies. As a result, BAT reported this image peak and attempted an automated
+follow-up.  Due to the Earth limb constraint, Swift could not immediately
+observe the location. 
+The BAT on-board calculated location is 
+RA, Dec 12.177, +40.635 which is 
+   RA(J2000) = 00h 48m 42s
+   Dec(J2000) = +40d 38' 07"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty). 
+
+We do not believe this is a true source.  We may make follow-up observations
+with XRT as time permits to verify that this.  However, this will be of
+lower priority than GRB 171209A which occurred a few minute later. 
+

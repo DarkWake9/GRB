@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30838
+SUBJECT: Konus-Wind observation of the recent SGR 1935+2154 activity
+DATE:    21/09/13 17:56:37 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, D. Frederiks, M. Ulanov,
+D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+Since the last KW GCN on the ongoing SGR 1935+2154 activity
+(Ridnaia et al., GCN 30803) the instrument triggered on
+four bright bursts from the source.
+
+The following is a list of the Konus-Wind triggers with preliminary
+estimates of the burst fluences and peak fluxes.
+------------------------------------------------------------------
+#  Date       T0(KW) s UT                  Fl*           PF**
+------------------------------------------------------------------
+1 20210911 54406.825 s UT(15:06:46.825)  5.38 +/-0.15  22.6 +/-1.6
+2 20210911 61274.025 s UT(17:01:14.025)  7.84 +/-0.21  18.5 +/-1.4
+3 20210912 24677.185 s UT(06:51:17.185)  4.96 +/-0.14  26.6 +/-1.7
+4 20210912 28904.121 s UT(08:01:44.121)  1.25 +/-0.02  17.0 +/-1.4
+------------------------------------------------------------------
+*  -  Fluence (20-500 keV) in units of 1e-6 erg/cm2
+
+** - Peak Flux (20-500 keV) on 16-ms time scale
+        in units of 1e-6 erg/cm2/s
+
+The time-averaged spectra of the bursts are well fit in the
+20 - 200 keV range by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep) with the following parameters:
+------------------------------------------------------------------
+#   T100   Tbeg-Tend         alpha            Ep(keV)    chi2/dof
+------------------------------------------------------------------
+1  0.392   0 - 0.256    0.47(-0.32,+0.33)    42(-2,+2)     30/20
+2  1.243   0 - 8.448    0.40(-0.37,+0.39)    37(-2,+1)     36/28
+3  0.452   0 - 0.256    0.20(-0.35,+0.37)    38(-2,+2)     17/19
+4  1.600   0 - 8.448   -0.10(-0.21,+0.22)    35(-1,+1)     43/29
+------------------------------------------------------------------
+The emission in all bursts is seen up to ~200 keV.
+
+The Konus-Wind light curves of the bursts are available at
+http://www.ioffe.ru/LEA/SGRs/210911_T54406/
+http://www.ioffe.ru/LEA/SGRs/210911_T61274/
+http://www.ioffe.ru/LEA/SGRs/210912_T24677/
+http://www.ioffe.ru/LEA/SGRs/210912_T28904/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

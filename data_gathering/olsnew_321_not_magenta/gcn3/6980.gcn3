@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6980
+SUBJECT: GRB 071021: (Relatively shallow) IR non-detections; motivation for optical spectroscopy 
+DATE:    07/10/23 06:05:13 GMT
+FROM:    Josh Bloom at UC Berkeley  <jbloom@astron.berkeley.edu>
+
+J. S. Bloom (UC Berkeley), J. X. Prochaska (UCO/Lick), D. A. Perley  
+(UC Berkeley), H.-W. Chen (U Chicago), D. L. Starr (UC Berkeley &  
+LCOGT), M. Modjaz, D. Poznanski (UC Berkeley) report:
+
+"We observed the field of GRB 071021 (Sakamoto et al. GCN 6958) with  
+PAIRITEL (*) starting at 2007-10-22 04:53 UT in high wind and poor  
+seeing conditions at Mt Hopkins, Arizona. In the first 1340 second  
+stack, the IR source noted by Castro-Tirado et al. (GCN 6968/6971) is  
+not detected to J=18.35 mag, H=16.87 mag, Ks=16.43 (2.5 sigma upper  
+limit). This is not particularly constraining in light of the deep  
+Subaru imaging (Terada et al. GCN 6976) at a similar epoch.
+
+  We note that despite the z-band detection (Malesani et al. GCN  
+#6972) the very high-redshift hypothesis of Sakamoto et al. (GCN  
+6967) is not yet ruled out. In particular, in high z QSO spectra  
+there can be some transmitted flux (in the z-band filter  
+transmission) through the Lyman-alpha forest between ~8000 Ang and  
+8500 Ang (see, e.g., Fan et al. 2006 **) for z > 6.3 sources. So long  
+as the redshifted Lyman limit at the redshift of the emitting source  
+is blueward of ~8500 Ang, this light would not be entirely  
+suppressed. This consideration yields an upper limit:
+
+                         (1 + z_GRB)*912 Ang < 8500 Ang
+                                     z_GRB <~ 8.3
+
+  At such redshifts, say z_GRB = 8, all reported long-wavelength  
+observations to-date would be naturally accommodated:
+
+  - the deep non-detections at R and i-band (Berger & Covarrubias,  
+GCNs 6973,6974), being blueward of 912*[1+z_GRB])
+   - the faint detection at z-band (GCN 6972) due transmitted flux  
+between 912*[1+z_GRB] = 8200 and 8500 Ang is allowed (as above)
+   - the afterglow detections at H and K (GCN 6968; Terada et al. GCN  
+6976)
+   - the apparent faintness of J-band flux (GCN 6968) relative to H  
+and K given the Gunn-Peterson trough would extend to (1 + z_GRB)*1216  
+Ang =~ 1.1 micron.
+
+  All of this assumes that the z-band source is not a foreground  
+galaxy (in which case a higher-z GRB suggested by Castro-Tirado et  
+al. is allowed).  If indeed the GRB originated from z > 7, we would  
+expect to see what would resemble emission lines between lam_obs =  
+912*[1+z_GRB] and ~8500 Ang, motivating the utility of *optical*  
+spectroscopy of this source. Even without spectroscopy, when final  
+magnitudes are reported along with filter transmission curves, a full  
+SED should be illuminating."
+
+This message may be cited.
+
+(*)  http://pairitel.org
+(**) http://www.journals.uchicago.edu/AJ/journal/issues/ 
+v132n1/205115/205115.web.pdf
+
+

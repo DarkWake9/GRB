@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29663
+SUBJECT: GRB210318B: Swift detection of a burst
+DATE:    21/03/18 16:04:20 GMT
+FROM:    Eleonora Troja at NASA/GSFC/UMD  <eleonora@umd.edu>
+
+E. Troja (NASA/GSFC, UMCP), K. L. Page (U. Leicester), A. Lien (GSFC/UMBC),
+M. Siegel (PSU), and P. Evans (U. Leicester) report on behalf of the Neil
+Gehrels Swift Observatory Team:
+
+At 03:08:33 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 210318B (trigger=1037335).  Swift slewed immediately to the
+burst.
+The BAT on-board calculated location is
+RA, Dec 264.227, -35.819 which is
+   RA(J2000) = 17h 36m 55s
+   Dec(J2000) = -35d 49' 08"
+with an uncertainty of 3 arcmin (radius, 90% containment, including
+systematic uncertainty).  The BAT light curve showed several overlapping
+pulses with a duration of about 20 sec.  The peak count rate
+was ~22000 counts/sec (15-350 keV), at ~3 sec after the trigger.
+
+We have analysed 1.4 ks of XRT data for GRB 210318B, from 52 s to 1.5
+ks after the  BAT trigger. The data comprise 584 s in Windowed Timing
+(WT) mode (the first 9 s were taken while Swift was slewing) with the
+remainder in Photon Counting (PC) mode. The refined XRT position is RA,
+Dec = 264.2328, -35.8220 which is equivalent to:
+
+RA (J2000): 17 36 55.88
+Dec(J2000): -35 49 19.2
+
+with an uncertainty of 3.5 arcsec (radius, 90% confidence).
+
+The light curve can be modelled with an initial power-law decay with an
+index of alpha=0.71 (+0.03, -0.04), followed by a break at T+564 s to
+an alpha of 1.23 (+0.18, -0.24).
+
+A spectrum formed from the WT mode data can be fitted with an absorbed
+power-law with a photon spectral index  of 1.78 (+/-0.09). The
+best-fitting absorption column is  1.43 (+/-0.13) x 10^22 cm^-2, in
+excess of the Galactic value of 7.1 x 10^21 cm^-2 (Willingale et al.
+2013). The PC mode spectrum has a photon index of 1.69 (+0.27, -0.25)
+and a best-fitting absorption column of 1.6 (+/-0.4) x 10^22 cm^-2. The
+counts to observed (unabsorbed) 0.3-10 keV flux conversion factor
+deduced from this spectrum  is 6.5 x 10^-11 (1.1 x 10^-10) erg cm^-2
+count^-1.
+
+A summary of the PC-mode spectrum is thus:
+Total column:        1.6 (+/-0.4) x 10^22 cm^-2
+Galactic foreground: 7.1 x 10^21 cm^-2
+Excess significance: 4.0 sigma
+Photon index:        1.69 (+0.27, -0.25)
+
+If the light curve continues to decay with a power-law decay index of
+1.23, the count rate at T+24 hours will be 0.011 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 6.9 x
+10^-13 (1.1 x 10^-12) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/01037335.
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 57 seconds after the BAT trigger. No credible afterglow candidate
+has been found in the initial data products. The 2.7'x2.7' sub-image
+covers 100% of the XRT error circle with a 3-sigma upper limit of 20.1 mag.
+No correction has been made for the large, but uncertain, extinction
+expected.
+
+Due to a temporary TDRSS outage, no automatic GCN notices or alerts were
+promptly distributed.
+
+Burst Advocate for this burst is E. Troja (eleonora@umd.edu).
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)

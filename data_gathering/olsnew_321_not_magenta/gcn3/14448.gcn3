@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14448
+SUBJECT: GRB 130427A: Swift detection of a very bright burst with a likely bright optical counterpart
+DATE:    13/04/27 08:24:13 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. Maselli (INAF-IASFPA), A. P. Beardmore (U Leicester),
+A. Y. Lien (NASA/GSFC/ORAU), V. Mangano (INAF-IASFPA),
+C. J. Mountford (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL) and M. H. Siegel (PSU) report on behalf of the
+Swift Team:
+
+At 07:47:57 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 130427A (trigger=554620).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 173.139, +27.692 which is 
+   RA(J2000) = 11h 32m 33s
+   Dec(J2000) = +27d 41' 29"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows an extremely bright
+complex peak about 20 seconds long starting at T-50, while Swift was 
+slewing from the previous pre-planned target, followed by a smaller 
+peak during the slew to the burst with emission through at least T+200. 
+The peak count rate was ~ 100,000 counts/sec (15-350 keV), 
+at T-40 sec, before the trigger. 
+
+The XRT began observing the field at 07:50:17.7 UT, 140.2 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 173.1362, 27.7129 which is equivalent to:
+   RA(J2000)  = +11h 32m 32.69s
+   Dec(J2000) = +27d 42' 46.4"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). This
+location is 75 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 147 seconds after the BAT trigger.  A blurred bright source
+appears to be located near the XRT position in the initial 2.7'x2.7'
+sub-image.  However, the lack of reference stars and lack of star tracker
+lock prevents a definitive identification and the measurement of a position
+or magnitude. 
+
+This is an extremely bright burst in all three instruments,
+and it was also seen by Fermi/GBM. 
+
+After the slew to the burst, the star trackers had trouble
+locking on to give a spacecraft attitude, so the XRT position
+may be inaccurate at the arcminute level. 
+
+The apparent optical counterpart appears extremely blurred, 
+possibly due to the lack of star tracker lock, but more likely to be 
+due to instrumental effects on a very bright optical counterpart. 
+
+
+Further follow-up is warranted for all ground-based observatories. 
+
+Burst Advocate for this burst is A. Maselli (maselli AT ifc.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

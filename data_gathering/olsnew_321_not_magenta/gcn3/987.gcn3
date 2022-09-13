@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  987
+SUBJECT: GRB010222, field photometry
+DATE:    01/02/25 00:44:50 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired preliminary UBVRcIc all-sky photometry for
+the field of GRB010222 with the USNOFS 1.0-m telescope on one
+photometric night with poor seeing.  This 11x11arcmin field includes
+the proposed counterpart and extends to approximately V=20.
+All stars brighter than V=14 are saturated and should be used
+with care.  We have placed the photometric data on our
+anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb010222.dat
+The current photometry has a potential external zero-point
+error of about two percent that needs to be added in
+quadrature to the Poisson errors given in the datafile and
+also below.  The astrometry in this file is based on linear
+plate solutions with respect to USNO-A2.0. The internal errors
+are less than 100mas.
+
+In particular, the values for the two comparison stars noted
+in the literature are:
+
+      ID           U       B       V       Rc      Ic
+Henden A GCN967  13.311  14.318  14.570  14.688  14.829
+                  0.002   0.002   0.002   0.002   0.004
+
+Stanek A GCN970  18.680  18.349  17.613  17.175  16.761
+                  0.045   0.014   0.010   0.015   0.017
+
+Note that Henden star A has nearly identical R-magnitude to
+the value listed in USNO-A2.0, whereas observations made with
+respect to Stanek star A will have to be adjusted fainter.
+
+At least two additional nights of photometry will be added to the data
+file when weather conditions permit.
+

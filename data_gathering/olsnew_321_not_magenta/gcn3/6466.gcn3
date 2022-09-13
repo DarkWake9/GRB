@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6466
+SUBJECT: GRB 070529: Swift detection of a burst with an optical aterglow
+DATE:    07/05/29 13:13:10 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. T. Holland (CRESST/GSFC/USRA), L. M. Barbier (NASA/GSFC),
+S. D. Barthelmy (GSFC), P. J. Brown (PSU), S. Campana (INAF-OAB),
+G. Cusumano (INAF-IASFPA), P. A. Evans (U Leicester),
+N. Gehrels (NASA/GSFC), O. Godet (U Leicester), C. Gronwall (PSU),
+C. Guidorzi (Univ Bicocca&INAF-OAB), H. A. Krimm (GSFC/USRA),
+V. La Parola (INAF-IASFPA), V. Mangano (INAF-IASFPA),
+F. E. Marshall (NASA/GSFC), J. P. Osborne (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+P. Romano (Univ. Bicocca & INAF-OAB), G. Sato (GSFC/ISAS),
+B. Sbarufatti (INAF-IASFPA), R. L. C. Starling (U Leicester),
+G. Tagliaferri (INAF-OAB), E. Troja (INAF-IASFPA),
+D. E. Vanden Berk (PSU), S. D. Vergani (DIAS-DCU), L. Vetere (PSU)
+and H. Ziaeepour (UCL-MSSL) report on behalf of the Swift Team:
+
+At 12:48:28 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070529 (trigger=280706).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 283.750, +20.639 which is 
+   RA(J2000) = 18h 55m 00s
+   Dec(J2000) = +20d 38' 21"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multi-peaked
+structure at least 40 seconds long.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~2 sec after the trigger. 
+
+The XRT began observing the field at 12:50:39 UT, 131 seconds after the
+BAT trigger. XRT found a moderately bright, uncatalogued X-ray source. 
+From downlinked data, we determined the position RA, Dec 283.7427, +20.6586 
+which is
+   RA(J2000)  =  18h 54m 58.26s
+   Dec(J2000) =  +20d 39' 31.04"
+with an uncertainty of 3.7 arcseconds (radius, 90% containment). 
+This location is 76 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 7.2e-10 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 400 seconds with the V filter
+starting 134 seconds after the BAT trigger. There is an afterglow
+candidate with V=17.4 mag located at RA, Dec 283.7425, +20.6594 which
+is     
+   RA(J2000) = 18h 54m 58.19s     
+   Dec(J2000) = 20d 39' 34.0"  with
+an uncertainty of 0.5 arcsec (radius, 90% containment). The 2.7'x2.7'
+sub-image covers 100% of the XRT error circle.   No correction has been
+made for the expected extinction of about 1.0 magnitudes. 
+

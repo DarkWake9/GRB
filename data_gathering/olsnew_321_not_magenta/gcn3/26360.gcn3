@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26360
+SUBJECT: LIGO/Virgo S191205ah: SAGUARO observations and identification of an optical candidate
+DATE:    19/12/06 06:58:12 GMT
+FROM:    Kerry Paterson at Northwestern  <kerry.paterson@northwestern.edu>
+
+Kerry Paterson (Northwestern), Michael J. Lundquist, David J. Sand (UA), Jillian Rastinejad, Wen-fai Fong (Northwestern), Jennifer Andrews (UA), Sam Wyatt (UA), Eric Christensen, Alex Gibbs, Frank Shelly, Greg Leonard (UA/LPL), report on behalf of the SAGUARO collaboration:
+
+We initiated observations of 12 fields (each 5 deg^2, totalling 60 deg^2) within the LVC localization region for the GW trigger S191205ah (LVC Circ 26350) starting on 2019-12-06 at 02:13:30 UT (4.36 hours after the GW trigger) with the 1.5m Catalina Sky Survey (CSS) telescope on Mt. Lemmon, AZ.
+
+Below are the field centers observed.
+
+RA   Dec
+349.8120  14.3541
+349.9380 12.1458
+349.9995 7.72917
+349.9995 9.93747
+350.0610 5.52081
+350.0610 3.3125
+350.1210 1.10417
+350.1210 -1.10417
+352.0755 14.3541
+352.1730 12.1458
+352.2225 9.93747
+352.2225 7.72917
+
+We perform real-time processing and image subtraction (described in Lundquist et al. 2019, ApJL, 881, 2). After discarding known moving objects, stellar sources and known transients (cross-correlating with the Transient Name Server and the ZTF alert stream), we find one candidate with S/N>5:
+
+------------------------------------------------------------------------
+Name     | RA (deg)   | Dec (deg)  | Filter | Mag   | Magerr
+------------------------------------------------------------------------
+SAGUARO19j | 348.98484 | 10.68373 | Gaia G | 20.8 | 0.2
+------------------------------------------------------------------------
+
+The last non-detection at the position of SAGUARO19j was on 2019-11-25 UT to a 3-sigma limit of G>19.3 AB mag. We otherwise find no new transients within the 60 deg^2 searched down to a 3-sigma limit of G~21.3 AB mag (calibrated to Gaia DR2) relative to deep CSS reference images.
+
+We obtained V- and R-band imaging observations of SAGUARO19j with the Mont4K imager mounted on the Kuiper 1.5m telescope on Mt. Bigelow, AZ starting on 2019-12-06 at 05:31:46 UT (7.66 hours after the GW trigger and 3.30 hours after the start of our CSS observations). SAGUARO19j is clearly detected in both bands, with analysis ongoing.
+
+We have posted our pointings to the Treasure Map, and encourage others to do the same:
+http://treasuremap.space/index?graceids=S191205ah&alert_type=Initial&pointing_status=completed
+
+SAGUARO is supported by the National Science Foundation under Award Nos. AST-1909358 and AST-1908972.
+
+
+
+

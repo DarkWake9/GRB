@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20336
+SUBJECT: Trigger 728094, Swift-BAT refined analysis
+DATE:    16/12/24 23:58:48 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+M. Stamatikos (OSU), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), N. Gehrels (GSFC),
+H. A. Krimm (NSF/USRA), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT trigger #728094 (Cholden-Brown, et al.,
+GCN Circ. 20333).  The BAT ground-calculated position is
+RA, Dec = 259.877, -25.010 deg which is
+   RA(J2000)  =  17h 19m 30.5s
+   Dec(J2000) = -25d 00' -37.4"
+with an uncertainty of 3.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 12%.
+
+The mask-weighted light curve is featureless, with a hint of some weak emission
+throughout the duration when the source was in the BAT field of view from
+~T-39.0 to ~T+644.0 sec. However, the very low significance (5.7 sigma)
+suggests that this might be due to noise fluctuation. With the lack of afterglow
+observations because of the Sun constraint, it remains difficult to determine the
+source nature.
+
+The time-averaged spectrum from T-39.0 to T+644.0 sec is best fit by a simple
+power-law model. The power law index of the time-averaged spectrum
+is 1.70 +- 0.20.  The fluence in the 15-150 keV band is 7.5 +- 1.0 x 10^-6 erg/cm2.
+All the quoted errors are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/728094/BA/

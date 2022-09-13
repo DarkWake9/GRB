@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29332
+SUBJECT: GRB 210119A (Swift J1851.2-6148): Swift-BAT refined analysis
+DATE:    21/01/20 02:44:32 GMT
+FROM:    Hans Krimm at NSF/NASA-GSFC  <hkrimm@nsf.gov>
+
+T. N. Ukwatta (LANL), S. D. Barthelmy (GSFC), H. A. Krimm (NSF),
+S. Laha (GSFC/UMBC), M. J. Moss (GWU), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of Swift/BAT trigger #1017711
+(Moss, et al., GCN Circ. 29323).  The BAT ground-calculated position is
+RA, Dec = 282.822, -61.767 deg which is 
+  RA(J2000)  =  18h 51m 17.4s 
+  Dec(J2000) = -61d 45' 59.7" 
+with an uncertainty of 1.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 92%.
+
+The mask-weighted light curve shows a single spike with a FRED-like shape,
+rising sharply at T+0 sec and decaying to background by T+0.1 sec. 
+T90 (15-350 keV) is 0.06 +- 0.02 sec (estimated error including systematics).
+
+The time-averaged spectrum from T+0.00 to T+0.08 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.41 +- 0.22.  The fluence in the 15-150 keV band is 7.1 +- 0.9 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.46 sec in the 15-150 keV band
+is 1.0 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+In the original GCN circular, it was discussed that this event could be either a
+previously unknown Soft Gamma Repeater (Swift J1851.2-6148) or short GRB 210119A.
+While the BAT data alone is insufficient for us to make a definitive judgement as to the
+nature of the source, our assessment of these data suggests that the event was more 
+likely a short GRB for the following reasons.  First, the spectrum is rather hard, and the
+position of the burst on the T90-hardness diagram is within the population of short GRBs.
+Second, the light curve shows a FRED (fast rise, exponential decay) profile, more 
+consistent with a GRB than with an SGR flare.  Third, the event location is 35 degrees 
+away from the center of the galactic bulge.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/01017711000/BA/
+
+

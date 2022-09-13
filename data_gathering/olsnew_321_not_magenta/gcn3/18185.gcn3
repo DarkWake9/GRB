@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18185
+SUBJECT: Swift Trigger 652824: Is most likely a noise fluctuation in the direction of M31
+DATE:    15/08/21 02:51:09 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), M. G. Bernardini (INAF-OAB),
+P. D'Avanzo (INAF-OAB), J. A. Kennea (PSU), A. Melandri (INAF-OAB) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 02:17:28 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a noise fluctuation in the direction of M31 (trigger=652824). 
+There was no immediate slew because of an observing constraint. 
+The BAT on-board calculated location is
+RA, Dec 10.241, +41.081, which is 
+   RA(J2000)  =  00h 40m 58s
+   Dec(J2000) = +41d 04' 51"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for image triggers (7 min),
+there is nothing significant in the real-time TDRSS light curve. 
+
+This highly marginal image trigger (6.04 sigma) had a nominal
+direction in the vicinity of M31, and so the onboard software
+alerted the ground and requested Swift to make follow-up 
+observations to confirm or refute the existence of an 
+astrophysical source. 
+
+However, due to the observing constraint,  Swift will 
+not able to follow up on the trigger until around 03:30 UT. 
+Based on past experience with marginal detection follow-ups,
+it is most likely that this is a noise fluctuation rather
+than an astrophysical source. 
+
+A final determination of the reality of this source will
+require the XRT follow-up observations, and analysis of the 
+full downlinked data.  We further caution that it is likely
+that XRT will find multiple unrelated source in its FOV due
+to the location in M31.  If so it will not necessarily be
+the case that any of these are correlated with the image trigger. 
+

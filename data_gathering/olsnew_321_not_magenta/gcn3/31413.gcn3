@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31413
+SUBJECT: GRB 220107A: MITSuME Akeno optical observation
+DATE:    22/01/08 14:40:52 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, Y. Imai, M. Niwano, K. L. Murata, N. Ito, Y. Takamatsu,
+M. Takaku, R. Noto, S. Sato, R. Yamaguchi, Y. Yatsu, and N. Kawai
+(TokyoTech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 220107A (The Fermi GBM team et al. GCN
+Circular #31399, F. Kunzweiler et al. GCN Circular #31400, James
+DeLaunay et al. GCN Circular #31402, V. Lipunov et al. GCN Circular
+#31403, P. A. Evans et al. GCN Circular #31404, P. Veres et al. GCN
+Circular #31406, A. Suresh et al. GCN Circular #31408, D.N. Burrows et
+al. GCN Circular #31410) with the optical three color (g', Rc, and Ic)
+CCD cameras attached to the MITSuME 50 cm telescope Akeno. The
+observation with a series of 60 sec exposures was carried out from
+2022-01-07 20:21:55 UT (~5.6 hours after the Fermi GBM trigger). We
+stacked the images with good conditions.
+
+Our observation covered 100% of the Swift/BAT-GUANO error region
+(James DeLaunay et al. GCN Circular #31402). Comparing our co-added
+images with the GSC2.3 and PS1 catalog, we marginally detected one
+uncatalogued source at RA, Dec = (169.80774, 34.17079), which is
+equivalent to:
+RA (J2000): 11h19m13.859s
+Dec(J2000): +34d 10' 14.845"
+This position is 4.4 arcsec from the center of Swift XRT position
+(D.N. Burrows et al. GCN Circular #31410).
+The magnitudes of the source are as follows.
+
+T0+[hour] | MID-UT | T-EXP[sec] | candidate magnitude | 5-sigma limits
+------------------------------------------------------------------------------------------------
+5.4 | 2022-01-07 20:55:27 | 1620 | g'=19.8 +/- 0.5, Rc=18.9 +/- 0.2,
+Ic=18.3 +/- 0.2 | g'>20.9, Rc>21.0, Ic>20.3
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used PS1 catalog for flux calibration. The conversion from PS1 r
+and i band to our Rc and Ic band is by the equation of Tonry et al.
+(2012), Table. 6. The magnitudes are expressed in the AB system. The
+images were processed in real-time through the MITSuME GPU reduction
+pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages 4-24;
+https://github.com/MNiwano/Eclaire).
+

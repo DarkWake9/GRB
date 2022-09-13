@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26238
+SUBJECT: LIGO/Virgo S191110af: Swift XRT observations, no secure afterglow found
+DATE:    19/11/12 08:11:56 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), K.L. Page (U.Leicester), J.A. Kennea (PSU),
+A. Tohuvavohu (U. Toronto), S.D. Barthelmy (NASA/GSFC), A.P. Beardmore
+(U. Leicester), M.G. Bernardini (INAF-OAB), A.A. Breeveld (UCL-MSSL),
+P. Brown (TAMU), D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko
+(NASA/GSFC), G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P.
+D'Avanzo (INAF-OAB), V. D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P.
+Giommi (ASI), C. Gronwall (PSU), D. Hartmann (U. Clemson), H.A. Krimm
+(CRESST/GSFC/USRA), N.J. Klingler (PSU), N.P.M. Kuin (UCL-MSSL), A.Y.
+Lien (GSFC/UMBC), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+J.A. Nousek (PSU), S.R. Oates (U. Warwick), P.T. O'Brien (U.
+Leicester), J.P. Osborne (U. Leicester), C. Pagani (U. Leicester),
+M.J.Page (UCL-MSSL), D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin
+(NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G.
+Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP) report on behalf of
+the Swift team:
+
+Swift has carried out 449 observations of the LVC error region for the
+GW trigger S191110af, using the 'cWB' GW localisation map. Because this
+was a 'burst' pipeline trigger with a high frequency, observations were
+weighted towards the Galactic plane.The observations currently span
+from 10 ks to 88 ks after the LVC trigger, and the XRT has covered 53.5
+degrees^2 on the sky (corrected for overlaps). This covers 0.441% of
+the probability in the 'cWB' skymap, and 16% after weighting towards
+the Galactic plane is accounted for.
+
+We have detected 11 X-ray sources. Each source is assigned a rank of
+1-4 which describes how likely it is to be related to the GW trigger,
+with 1 being the most likely and 4 being the least likely. The ranks
+are described at https://www.swift.ac.uk/ranks.php.
+
+We note that a number of GCN/COUNTERPART notices were issued with ranks
+1 or 2; these also all had the WARN_FLAG field set to 1. These were
+spurious sources caused by stray light from a bright X-ray source
+outside of the nominal field of view. Counterpart notices are
+automatically produced before any human vetting of the sources has been
+carried out.
+
+After vetting, we have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 5 sources of rank 3
+  * 6 sources of rank 4
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3x10^20 cm^-2, and photon index (Gamma)=1.7
+
+The results of the XRT automated analysis are online at
+https://www.swift.ac.uk/LVC/S191110af
+
+This circular is an official product of the Swift XRT team.
+
+

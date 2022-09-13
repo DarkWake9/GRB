@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10282
+SUBJECT: Swift trigger 379449 (possible GRB) is not a burst
+DATE:    09/12/15 22:36:03 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+T. Sakamoto (NASA/UMBC), J. R. Cummings (CRESST/GSFC/UMBC),
+D. M. Palmer (LANL),  G. Stratta (ASDC), V. D'Elia (ASDC), 
+M. Perri (ASDC), F.E. Marshall (NASA/GSFC), on behalf of the Swift team.
+
+Using the Swift/BAT data set from T-60 to T+243 sec from the recent 
+telemetry downlink, we report that BAT trigger 379449 (reported as 
+possible GRB, Sakamoto et al, GCN Circ. 10280) is probably not a GRB.  
+We base this conclusion on the low significance in the BAT and the lack 
+of a counterpart in the XRT and the UVOT.  However, we can not rule out 
+that this is an astrophysical event which was extended in duration in 
+the BAT (the original trigger was a 64-sec integration), but rapidly 
+fading prior to the XRT/UVOT observations.
+
+The BAT image shows a 5.8 sigma bump in the 15-50 keV band and the 
+mask-weighted light curve shows an integrated 5-sigma positive excess out
+to T+64 sec.  If the source is real, it is at RA, Dec =
+242.038, +51.399 deg with an uncertainty of 4 arcmin, 
+(radius, sys+stat, 90% containment). The partial coding is 77%.
+
+We analyzed the first 3.2 ks of the XRT data.  Data are in Photon Counting (PC) 
+mode and start 144.5 seconds after the BAT trigger.  No source is detected 
+within the BAT error circle. The 3-sigma upper limit on the count rate is 
+3e-3 count s-1, corresponding to an approximate 0.3-10 keV flux of 
+1.5e-13 erg cm-2 s-1 (using a standard counts to flux conversion factor).
+
+UVOT took an exposure of 150 seconds with the White filter starting 150 seconds 
+after the BAT trigger.  No credible afterglow candidate has been found in the image, 
+which covers about 95% of the BAT error circle.  The estimated 3-sigma upper limit 
+is 20.2 mag.  A subsequent exposure of 250 seconds with the U filter started
+308 seconds after the trigger and covers all of the BAT error circle.
+The estimated 3-sigma upper limit for this image is 19.8 mag. 
+No correction has been made for the expected extinction corresponding 
+to E(B-V) of 0.02.
+

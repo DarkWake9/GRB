@@ -1,0 +1,99 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16092
+SUBJECT: Fermi418277210: iPTF optical observations
+DATE:    14/04/10 02:32:55 GMT
+FROM:    Leo Singer at CIT/PTF  <lsinger@caltech.edu>
+
+L. P. Singer (Caltech), S. B. Cenko (NASA/GSFC), M. M. Kasliwal
+(Carnegie Observatories/Princeton), Adam Waszczak (Caltech),
+Sagi Ben-Ami (Weizmann), Joel Johansson (Stockholm University), and
+Avishay Gal-Yam (Weizmann) report on behalf of the intermediate
+Palomar Transient Factory (iPTF) collaboration:
+
+We have searched for optical counterparts of Fermi GBM trigger
+Fermi418277210 (2014-04-04 04:06:47.51) using the Palomar 48-inch
+Oschin telescope (P48). Based on the last automated Fermi ground
+software localization sent at 04:07:29, we began observing 10 fields
+covering 73 deg2, 12 minutes after the trigger. Since the final Fermi
+localization sent at 05:16:07 differed by 3 deg (well within the
+1-sigma statistical-only uncertainty), we observed five more fields
+for a total area of 109 deg2. We estimate a 68% chance that one of
+these 15 fields contains the location of the source.
+
+Sifting through candidate variable sources using image subtraction
+and standard iPTF vetting procedures including photometry with the
+robotic Palomar 60" telescope (P60), we detected several optical
+transients, none of which showed evidence of significant fading.
+
+For the following sources, we obtained spectra with the Double
+Spectrograph (DBSP) on the Palomar 200" Hale telescope (P200):
+
+14ain, detected at r = 18.67 +/- 0.03 mag and possibly rising,
+coincident with galaxy SDSS J111725.00+293457.4, identified as SN Ia,
+at z = 0.08, also reported by MASTER (Rufanov et al. 2014, ATel 6055),
+at the coordinates:
+ RA(J2000)  =  11h 17m 25.04s (169.354352 deg)
+ Dec(J2000) = +29d 34' 58.3"  (+29.582861 deg)
+
+14ait, detected at r = 20.5 +/- 0.1 mag, on the outskirts of the
+galaxy SDSS J113303.95+330719.3, with the nebular spectrum of an old
+SN Ib/c at z = 0.039, at the coordinates:
+ RA(J2000)  =  11h 33m 04.04s (173.266841 deg)
+ Dec(J2000) = +33d 07' 23.9"  (+33.123292 deg)
+
+14aiz, detected at r = 19.28 +/- 0.04 mag, coincident with the
+z=0.09701 galaxy SDSS J111407.50+390243.0, with an inconclusive
+spectrum showing only host light, at the coordinates:
+ RA(J2000)  =  11h 14m 07.28s (168.530319 deg)
+ Dec(J2000) = +39d 02' 43.2"  (+39.045337 deg)
+
+The following transient candidates were placed on the P200 queue,
+but not observed due to other higher-priority targets:
+
+14aim, detected at r = 19.68 +/- 0.06 mag and coincident with the
+galaxy SDSS J114155.45+351813.9, at the coordinates:
+ RA(J2000)  =  11h 41m 55.57s (175.481562 deg)
+ Dec(J2000) = +35d 18' 14.9"  (+35.304133 deg)
+
+14aip, detected at r = 19.40 +/- 0.05 mag and rising, clearly offset
+from the galaxy SDSS J111215.58+313056.2, at the coordinates:
+ RA(J2000)  =  11h 12m 16.02s (168.066732 deg)
+ Dec(J2000) = +31d 30' 57.9"  (+31.516089 deg)
+
+14aiq, detected at r = 20.62 +/- 0.17 mag, coincident at the galaxy
+SDSS J111506.79+292025.1, at the coordinates:
+ RA(J2000)  =  11h 15m 06.89s (168.778719 deg)
+ Dec(J2000) = +29d 20' 24.0"  (+29.340007 deg)
+
+14ais, detected at r = 20.33 +/- 0.08 mag, with no clearly associated
+host in SDSS, at the coordinates:
+ RA(J2000)  =  11h 51m 08.46s (177.785253 deg)
+ Dec(J2000) = +31d 17' 03.2"  (+31.284218 deg)
+
+14aiu, detected at r = 20.20 +/- 0.14 mag and apparently hostless, at
+the coordinates:
+ RA(J2000)  =  11h 15m 09.30s (168.788748 deg)
+ Dec(J2000) = +34d 26' 35.8"  (+34.443280 deg)
+
+14aiy, detected at r = 20.30 +/- 0.09 mag, coincident with the galaxy
+SDSS J114936.42+374417.3, at the coordinates:
+ RA(J2000)  =  11h 49m 36.47s (177.401968 deg)
+ Dec(J2000) = +37d 44' 18.2"  (+37.738379 deg)
+
+Due to the relative promptness of our first 10 observations, we were
+concerned that a bright (r <~ 14 mag) afterglow would have saturated
+on the P48 CCD and have been missed by our automated image
+subtraction pipeline. We therefore also visually inspected the 110
+single-chip images from the first epoch of observations. We found no
+saturated objects that were absent from both the SDSS and the
+USNO-B1.0 catalogs. We also performed a semi-automated search over
+all of the P48 source extractions that contained saturated pixels.
+There were 6579 saturated objects, of which all were either present
+in the USNO-B1.0 catalog or clearly visible in archival SDSS images.
+
+The diagram
+http://www.its.caltech.edu/~lsinger/iptf/Fermi418277210.pdf shows the
+fifteen P48 fields (dark gray: the 10 prompt fields, light gray: the
+remaining 5) in relation to the Fermi GBM 1- and 2-sigma
+statistical+systematic contours.
+

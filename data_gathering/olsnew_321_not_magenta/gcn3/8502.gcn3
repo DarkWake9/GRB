@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8502
+SUBJECT: Swift-BAT Trigger 334129: possible burst
+DATE:    08/11/09 14:11:03 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. Immler (CRESST/GSFC/UMD), A. P. Beardmore (U Leicester),
+D. N. Burrows (PSU), J. R. Cummings (NASA/UMBC),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+C. Guidorzi (INAF-OAB), S. T. Holland (CRESST/USRA/GSFC),
+S. D. Hunsberger (PSU), N. P. M. Kuin (MSSL), J. Mao (INAF-OAB),
+F. E. Marshall (NASA/GSFC), P. T. O'Brien (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+P. Romano (INAF-IASFPA), R. L. C. Starling (U Leicester),
+G. Tagliaferri (INAF-OAB) and L. Vetere (PSU) report on behalf of the
+Swift Team:
+
+At 13:47:16 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible source (trigger=334129).  Swift slewed immediately to 
+the location.  The BAT on-board calculated location is 
+RA, Dec 350.157, -55.904 which is 
+   RA(J2000) = 23h 20m 38s
+   Dec(J2000) = -55d 54' 12"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  This was a 128-second image trigger. 
+As is usual for image triggers, the BAT light curve showed 
+no significant peaks. 
+
+The XRT began observing the field at 13:50:19.9 UT, 183.1 seconds after
+the BAT trigger. No source was detected in the promptly available XRT
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 187 seconds after the BAT trigger.  We do not detect
+an optical afterglow in any of the UVOT data.  The 2.7'x2.7' sub-image
+covers 25%  of the BAT error circle with a typical 3-sigma upper limit
+has been about 19.6  mag.  The 8'x8' region for the list of sources
+generated on-board covers 100% of  the BAT error circle.  The list of
+sources is typically complete to about 18  mag.  No correction has
+been made for the expected extinction corresponding to  E(B-V) of
+0.01. 
+
+Due to the marginal significance of the BAT image and
+the non-detection of any source by XRT and UVOT, we
+cannot confirm that this is a real source.  Further
+analysis will require the Malindi data, which will 
+be downlinked at T+8 hours. 
+
+Burst Advocate for this trigger is S. Immler (immler@milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this trigger. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18858
+SUBJECT: LIGO/Virgo G184098: Refined localizations from CBC parameter estimation
+DATE:    16/01/13 20:15:04 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and Virgo report:
+
+We have completed a Bayesian parameter estimation analysis of the GW
+candidate G184098 (GCN 18330) under the assumption that the signal
+arises from a compact binary coalescence (CBC) and using the latest
+offline calibration of the GW strain data (GCN 18851). The data is
+still found to be most consistent with a binary black hole merger
+(GCN 18388).
+
+Two refined sky maps are now available and can be retrieved from
+GraceDB (https://gracedb.ligo.org/events/G184098):
+
+ * bayestar_gstlal_C01.fits.gz, produced by rapid triangulation of
+   times, phases, and amplitudes on arrival. It was not available in
+   low latency because at the time of the event our online CBC template
+   banks were configured for neutron star but not binary black hole
+   mergers. This localization is based upon the recovery of the CBC
+   candidate from the offline GSTLAL search (GCN 18851), though it is
+   practically interchangeable with the BAYESTAR sky map based on the
+   PyCBC recovery.
+
+ * LALInference_skymap.fits.gz, using Bayesian Markov-chain Monte Carlo
+   and nested sampling to perform forward modeling of the full GW
+   signal including spin precession and regression of systematic
+   calibration errors. We regard the LALInference sky map as the most
+   accurate and *authoritative* localization for this event. Though
+   additional parameter estimation runs with different waveform
+   approximants are ongoing, we expect that they will agree closely
+   with this one.
+
+Both of the sky maps above agree with the initial LALinference Burst
+(LIB) localization (GCN 18330, LIB_skymap.fits.gz) on favoring the
+southern portion of the annulus determined by an arrival time
+difference between LIGO Hanford and LIGO Livingston of about 7 ms.
+
+The table below presents a quantitative comparison of the available
+localizations along the lines of Sec. 4.5 of Essick et al. (2015,
+http://adsabs.harvard.edu/abs/2015ApJ...800...81E). The first column
+gives the area in deg2 of the 90% credible region, and the second
+column gives the area in deg2 of the overlap with the LALInference 90%
+credible region.
+
+ Area  Overlap   Algorithm (filename)         
+-------------------------------------------------------------
+  310    230     cWB (skyprobcc_cWB_complete.fits)
+  750    270     LIB (LIB_skymap.fits.gz)
+  400    350     BAYESTAR (bayestar_gstlal_C01.fits.gz)
+  600     -      LALInference (LALInference_skymap.fits.gz)
+
+

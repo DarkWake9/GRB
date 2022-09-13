@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31621
+SUBJECT: IPN triangulation of GRB 220219A
+DATE:    22/02/21 16:12:59 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+A.S. Kozyrev, D.V. Golovin, M.L. Litvak, I.G. Mitrofanov, and A.B. Sanin
+on behalf of the HEND/Mars-Odyssey team,
+
+D. Svinkin, D. Frederiks, A. Ridnaia, A. Lysenko,
+and T. Cline on behalf of the Konus-Wind team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team, and
+
+W. Boynton, C. Fellows, K. Harshman, H. Enos, R. Starr,
+and A.S. Gardner on on behalf of the GRS-Odyssey GRB team,
+report:
+
+The long-duration GRB 220219A
+(Fermi-GBM detection: The Fermi GBM team, GCN Circ. 31609;
+BALROG localization: Kunzweiler et al.,  GCN Circ. 31610;
+AGILE-MCAL detection: Ursi et al., GCN Circ. 31611)
+has been detected by Fermi (GBM trigger 666962499), AGILE (MCAL),
+Konus-Wind, and Mars-Odyssey (HEND), so far,
+at about 40894 s UT (11:21:34).
+
+We have triangulated it to a preliminary, 3 sigma error box
+whose coordinates are:
+  ---------------------------------------------
+   RA(2000), deg                 Dec(2000), deg
+  ---------------------------------------------
+  Center:
+    42.243 (02h 48m 58s) +10.588 (+10d 35' 17")
+  Corners:
+    43.946 (02h 55m 47s)  +6.216 ( +6d 12' 57")
+    39.857 (02h 39m 26s) +17.180 (+17d 10' 49")
+    39.457 (02h 37m 50s) +18.548 (+18d 32' 54")
+    43.844 (02h 55m 23s)  +6.598 ( +6d 35' 54")
+  ---------------------------------------------
+The error box area is 2243 sq. arcmin, and its maximum
+dimension is 13.1 deg (the minimum one is 3.1 arcmin).
+The Sun distance was 72 deg.
+
+This box may be improved.
+
+The IPN localization is consistent with, but reduces the area of, the
+Fermi GBM Final Real-time position (GCN Circ. 31609) and BALROG
+(GCN 31610) localizations.
+
+A triangulation map and HEALPix FITS file are posted at
+http://www.ioffe.ru/LEA/GRBs/GRB220219_T40894/IPN/
+
+The Konus-Wind time history and spectrum will be given in a forthcoming
+GCN Circular.
+

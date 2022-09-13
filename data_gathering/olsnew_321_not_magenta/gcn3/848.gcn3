@@ -1,0 +1,77 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  848
+SUBJECT: HETE positions added to GCN
+DATE:    00/10/13 19:03:33 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+INTRODUCTION
+This is to announce the addition of the GCN/HETE Notices to the GCN system.
+HETE will produce GRB positions in real-time for about 30-50 bursts per year.
+These will be distributed by GCN to any sites and people wishing
+to receive them -- see the sign-up details below.
+
+NOTICE TYPES
+There are 4 GCN/HETE Notice subtypes.  They are: 
+  1)  HETE_ALERT just notifies users that HETE has seen a burst,
+      but does not guarantee a localization or even that the burst was valid.
+      Strength of burst, timescale, and a first cut at a spectrum are supplied.
+      This is the first Notice for a given trigger; it appears only once
+      for each trigger.
+
+  2)  HETE_UPDATE packets contain any new burst information
+      and, most importantly, the best localizations to date 
+      from the WXM and/or SXC, along with "goodness" indicators for each.
+      Multiple messages of this type are possible.
+
+  3)  HETE_FINAL gives a summary of the flight analyses of the burst.
+      This includes the ultimate timescale of the burst, peak brightness,
+      best (if any) localizations by the WXM and SXC, and, if appropriate,
+      a "never mind" word and the reason for the burst's invalidation.
+      This is the last of the realtime Notices; it appears only once
+      for each trigger.
+
+  4)  HETE_GND_ANALYSIS contains the best positions available
+      from ground post-processing at the time of the message.
+      Multiple messages of this type are possible.
+
+THE HETE-to-GCN-to-World PROCEDURE
+Like the other missions that contribute GRB positions, GCN receives those
+positions messages from the respective mission operations teams, reformats
+them into the standard GCN formats, and distributes to the sites
+using the usual distribution methods and filtering.  HETE is no different.
+Roland Vanderspek (of MIT) has contributed significantly to the software
+enabling this HETE connection to the GCN system.
+
+THE DETAILS
+This announce is not the full-blown announcement typical of GCN for a new
+service or capability, but is instead a short-form announcement.  The details
+about error box sizes, occurance rates, and formats will be covered
+in a later announcement (a few weeks).  My apologies if you receive
+this announcement twice.  I am distributing it both through the normal
+GCN Notices list and through the Circulars list to assure the widest
+possible distribution for this important addition to the GCN system.
+
+SCHEDULE
+Even though the HETE2 launch was 09 Oct 2000, the positions
+will not be available until about late November.  The HETE team will be
+performing an extensive and lengthy on-orbit check-out, during which
+the positions will not be made available.  There are numerous cross-checks
+and calibrations that must be performed to guarantee the safety of the s/c &
+instrument operations and the accuracy of the burst positions.
+After this check-out period, the positions will be available and distributed
+through GCN, and even then they will not be available in real-time -- the
+positions will be generated and/or checked on the ground (not on-board).
+After this interim period, the HETE-s/c-to-GCN link will become fully automatic
+with burst-to--site-recipt times in the 5-20sec range.
+
+YOUR ACTION REQUIRED
+If you wish to receive these GCN/HETE Notices (by any of the usual
+distribution methods: email, sockets, cell phones or pagers), please
+send a request to Scott Barthelmy (scott@lheamail.gsfc.nasa.gov).
+As with all the GCN Notice types, filtering can be used on a 
+per-site basis to select which HETE Notices you will receive.
+Please be advised that I will be at the Rome2000 Afterglow workshop
+until 21 Oct, and so will not be able to respond to your requests. 
+I will take care of all requests shortly after I return.  And then everyone
+will be ready for the turn-on of GCN/HETE burst location Notices.
+

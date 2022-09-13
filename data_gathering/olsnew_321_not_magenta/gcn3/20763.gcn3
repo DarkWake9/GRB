@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20763
+SUBJECT: LIGO/Virgo G275697: Identification of a GW CBC Candidate
+DATE:    17/02/27 19:51:32 GMT
+FROM:    Karelle Siellez at Georgia Inst of Tech  <karelle.siellez@ligo.org>
+
+The LIGO Scientific Collaboration and Virgo report:
+
+The pycbc CBC analysis (Usman et al. 2016, CQG 33, 215004) identified
+candidate G275697 during real-time processing of data from LIGO
+Hanford Observatory (H1) and LIGO Livingston Observatory (L1) at
+2017-02-27 18:57:31.375 UTC (GPS time: 1172257069.375).
+
+G275697 is an event of interest because its false alarm rate, as
+determined by the online analysis, is 1.43e-07 Hz or about one in 2
+months, passing our alert threshold of ~1/month. The event's
+properties can be found at this URL:
+
+https://gracedb.ligo.org/events/G275697
+
+No other GW event candidates were identified within a 300 s window
+before or after G275697.
+
+Based on preliminary matched-filter estimates of the masses and spins,
+if astrophysical, there is a 100% chance that the less massive companion
+in the binary has a mass less than 3 Msun. Based on the tidal disruption
+condition and disk mass formula of Foucart (PRD 86, 124007), using an
+implementation based on Pannarale & Ohme (ApJL 791, 7), we estimate
+that there is a 100% chance that the system ejected enough neutron-rich
+material to power an electromagnetic transient.
+
+One sky map with directional distance information (e.g., Singer et al.
+2016, ApJL 829, 15) is available at this time and can be retrieved from
+the GraceDB event page: bayestar.fits.gz, an initial localization generated
+by the BAYESTAR pipeline. The probability is concentrated in two
+sections of an annulus. The 50% credible region spans about 480 deg2 and
+the 90% region about 1800 deg2. The luminosity distance is estimated to
+be 181 +/- 55 Mpc (mean +/- standard deviation). This is the preferred sky
+map at this time.
+
+Updates on our analysis of this event will be sent as they become
+available.
+

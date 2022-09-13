@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5882
+SUBJECT: GRB 061201, Swift-BAT refined analysis of the SHB
+DATE:    06/12/01 21:30:20 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. Markwardt (GSFC/UMD), L. Barbier (GSFC), S.D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), F.E. Marshall (NASA/GSFC), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+ 
+Using the data set from T-239 to T+366 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 061201 (trigger #241840)
+(Marshall, et al., GCN Circ. 5881).  The BAT ground-calculated position
+is RA, Dec = 332.079, -74.569 deg which is 
+   RA(J2000)  =  22h 08m 19.0s 
+   Dec(J2000) = -74d 34'  6.6" 
+with an uncertainty of 1.2 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 48%.
+ 
+The mask-weighted lightcurve shows two main peaks separated by ~0.7 sec,
+the first starting at T+0 sec, and the second ending at T+1.1 sec.
+A visual scan of the lightcurve (from T+2 to T+300 sec) places an
+upper limit of 0.01 ph/cm2/sec for any extended emission.
+T90 (15-350 keV) is 0.8 +- 0.1 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T+0.0 to T+0.9 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum
+is 0.81 +- 0.15.  The fluence in the 15-150 keV band is 3.3 +- 0.3 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.05 sec in the 15-150 keV
+band is 3.9 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90%
+confidence level. 
+
+The burst shows significant hard to soft spectral evolution.  A fit to the
+first peak (T+0.0 to T+0.7) gives a simple power law index of 0.57 +/- 0.15,
+while a fit to the second peak (T+0.7 to T+0.9) has a power law index of
+2.10 +/- 0.35.  Similarly, the light curve shows that the emission in the
+15-25 keV channel extends to T+1.5 sec, while emission in the
+100-350 keV channel lasts only until ~T+0.6 sec.
+

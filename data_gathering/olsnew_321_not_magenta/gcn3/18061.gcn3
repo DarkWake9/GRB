@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18061
+SUBJECT: Trigger 650221: Swift detection of a IGR J00291+5934
+DATE:    15/07/25 02:32:31 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), J. A. Kennea (PSU), F. E. Marshall (NASA/GSFC)
+and T. Sakamoto (AGU) report on behalf of the Swift Team:
+
+At 02:12:04 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located IGR J00291+5934 (trigger=650221).  Swift slewed immediately 
+to the source location.  The BAT on-board calculated location is 
+RA, Dec 7.256, +59.596 which is 
+   RA(J2000)  =  00h 29m 01s
+   Dec(J2000) = +59d 35' 45"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows weak and complex structure
+with a duration of about 20 sec.  The peak count rate
+was ~1281 counts/sec (15-350 keV), at ~5 sec after the trigger. 
+
+The XRT began observing the field at 02:14:04.4 UT, 119.5 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+7.2571, 59.5736 which is equivalent to:
+   RA(J2000)  = +00h 29m 1.70s
+   Dec(J2000) = +59d 34' 25.0"
+with an uncertainty of 6.1 arcseconds (radius, 90% containment). This
+position is 12.6 arcseconds from a known X-ray source: 1SXPS
+J002903.1+593418. This source is in the Swift XRT 1SXPS catalogue with
+a mean 0.3-10 keV count-rate of 1.740 +/- 0.037 ct/sec; see
+http://www.swift.ac.uk/1SXPS/1SXPSJ002903.1%2B593418 for details of
+these previous observations. No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 0.1 s image was 1.57e-08 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 128 seconds after the BAT trigger. There is a candidate counterpart in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	00:29:03.06 =	7.26274
+  DEC(J2000) = +59:34:19.2  =  59.57199
+with a 90%-confidence error radius of about 0.62 arc sec. This position is 11.8
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+17.49 with a 1-sigma error of about  0.14. No correction has been made for the
+large, but uncertain extinction expected. 
+

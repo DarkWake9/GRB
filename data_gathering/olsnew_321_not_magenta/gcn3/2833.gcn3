@@ -1,0 +1,53 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2833
+SUBJECT: GRB 040924:  Afterglow Color
+DATE:    04/11/08 17:34:49 GMT
+FROM:    Matt Bayliss at UNC,Chapel Hill  <mbayliss@physics.unc.edu>
+
+J. Silvey, D. Allen, M. Bayliss, M. Nysewander, T. Tilleman, A. Henden, M.
+Leake, A. Homewood, R. Canterna, D. Reichart, D. H. Hartmann, and M.
+Schwartz report on behalf of the U. Wyoming, U. North Carolina, USNO, and
+SARA GRB teams of the FUN GRB collaboration:
+
+We observed the afterglow location (Fox & Moon, GCN 2734) of the short/soft
+GRB 040924 (Fenimore et al., GCN 2735) in VRcIcH beginning 16.2 hours after
+the burst.  Using the field calibrations of Henden (GCN 2811) and 2MASS, we
+report the following magnitudes:
+
+Start       Mean Time  Filter  Exposure     Magnitude     Telescope
+Date        Since GRB          Time (sec)   (1)
+            (hours)            x Exposures
+Sep 25.171  16.44      Rc      300 x 4      >18.9         0.9m SARA
+Sep 25.191  16.89      Ic      300 x 4      >20.6         0.9m SARA
+Sep 25.209  17.31      V       300 x 4      >19.6         0.9m SARA
+Sep 25.228  18.32      H       800 x 4      >19.5         1.55m NOFS
+Sep 25.328  21.18      Ic      300 x 24     >21.7         0.8m TII(2)
+Sep 25.391  21.86      Rc      300 x 3      22.68+/-0.07  2.3m WIRO
+Sep 25.395  21.96      V       300 x 3      23.06+/-0.07  2.3m WIRO
+
+(1) Limiting magnitudes are 2 sigma.
+(2) Tenagra II
+
+Compared to the R observations of Fox (GCN 2741) and Pavlenko et al. (GCN
+2753), our Rc observation is generally consistent with a temporal index of
+approx. -1.
+
+Assuming a temporal index of -1.16 (Khamitov et al., GCN 2749) and using
+this index to scale our observations and the K' observation of Terada et
+al. (GCN 2750) to 21.9 hours after the burst, and correcting for Galactic
+extinction along the line of sight assuming that R_V = 3.1, yields a
+spectral index of -0.61 +/- 0.08:
+
+www.physics.unc.edu/~mbayliss/grbdata/grb040924spec.eps
+
+If source-frame extinction is negligible, this is consistent with either a
+constant-density or wind-swept medium with the cooling break blueward of
+the observed bands.  It is inconsistent with either a constant-density or
+wind-swept medium with the cooling break redward of the observed bands
+(e.g., Sari, Piran & Narayan 1998, ApJ, 497, L17; Chevalier & Li 2000; ApJ,
+536, 195).
+
+However, if source-frame extinction is non-negligible this is only
+consistent with a wind-swept medium with the cooling break blueward of the
+observed bands.
+

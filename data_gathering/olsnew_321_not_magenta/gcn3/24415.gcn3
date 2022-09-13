@@ -1,0 +1,22 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24415
+SUBJECT: LIGO/Virgo S190503bf: AstroSat CZTI upper limits
+DATE:    19/05/07 07:54:16 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+A. Anumarlapudi (IITB), Aarthy E. (PRL), P. Ghumatkar (IUCAA), V. Bhalerao (IITB), D. Bhattacharya (IUCAA), A. R. Rao (TIFR), S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+We have carried out a search for X-ray candidates in Astrosat CZTI data in a 100 sec window around the trigger time of the BBH merger event S190503bf (UTC 2019-05-03 18:54:04, GraceDB event). CZTI is a coded aperture mask instrument that has considerable effective area for about 29% of the entire sky, but is also sensitive to brighter transients from the entire sky. At the time of merger, Astrosat's nominal pointing is (RA=270.41, DEC=-20.569), which is 107 deg away from the maximum probability location. At the time of merger event, the highest probability point of the localisation is entering into the earth occultation cone, with an Earth-satellite-transient angle ~ 67 deg which is close to the Earth's limb. In a time interval of 50 sec around the event, 38% of sky locations in the 90% probability region for the event is visible in the satellite's frame and the remaining 62% is occulted by the Earth. 
+
+CZTI data were de-trended to remove orbit-wise background variation. We then searched data from three of the four independent, identical quadrants to look for coincident spikes in the count rates. Searches were undertaken by binning the data in 0.1s, 1s, and 10s respectively. Statistical fluctuations in count rates were estimated by using data from 10 (+-5) neighbouring orbits. We selected confidence levels such that the probability of a false trigger in a 1000 sec window is 10^-4. We do not find evidence for any hard X-ray transient in this window, in the CZTI energy range of 20-200 keV.
+
+We convert our count rates into flux by assuming that the source spectrum is a power law with alpha = -1.0. We use a detailed mass model of the satellite to calculate the instrument response for every htm grid point that fall in 90% LIGO localization region and calculate flux limit in that direction. We get the following upper limits for source flux in the 20-200 keV band by taking a probability weighted mean of flux limits:  
+
+0.1 s: flux limit= 6.0 e-7 ergs/cm^2/s 
+1.0 s: flux limit= 1.8 e-6 ergs/cm^2/s 
+10.0 s: flux limit= 3.5 e-6 ergs/cm^2/s
+
+We note that AstroSat was in the South Atlantic Anomaly at the instants of S190425z and S190426c, hence no data are available for those events.
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, ISAC, IUCAA, SAC and PRL. The Indian Space Research Organisation funded, managed and facilitated the project.
+

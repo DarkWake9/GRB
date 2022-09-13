@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5583
+SUBJECT: GRB 060923: Swift detection of a burst
+DATE:    06/09/23 05:41:32 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+M. Stamatikos (NASA/ORAU), D. N. Burrows (PSU), M. Capalbi (ASDC),
+M.L. Conciatore (ASDC), N. Gehrels (NASA/GSFC),
+C. Guidorzi (Univ Bicocca&INAF-OAB), S. T. Holland (GSFC/USRA),
+D. M. Palmer (LANL), M. Perri (ASDC), T. Sakamoto (NASA/ORAU) and
+D. E. Vanden Berk (PSU) report on behalf of the Swift Team:
+
+At 05:12:15 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060923 (trigger=230662).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA,Dec 254.623, +12.379 {16h 58m 30s, +12d 22' 45"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed at least two peaks,
+lasting 12 seconds.  The peak count rate
+was ~1200 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began taking data at 05:13:36 UT, 81 seconds after the BAT
+trigger.  The XRT found a previously uncatalogued X-ray source in 
+the field of view at the following coordinates:
+   RA(J2000) =  16 58 28.27
+   Dec(J2000)=  +12 21 43.3
+with an uncertainty of 6.9 arcseconds radius (90% containment). 
+This position lies 67 arcseconds from the center of the BAT error circle. 
+The approximate initial flux is 1.7e-11 erg/cm2/sec (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 85 seconds after the BAT trigger. No
+afterglow candidate has been found in the initial data products. The
+overlap of the sub-image and the XRT error circle is 100%. The
+overlap of the 8'x8' region for the list of sources generated
+on-board and the XRT error circle is 100%.  The limiting magnitude of
+the finding chart image is approximately 18.5.   No correction has
+been made for the expected extinction corresponding to E(B-V) of
+0.06. 
+

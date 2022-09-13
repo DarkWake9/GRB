@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3314
+SUBJECT: Swift Detection of GRB 050422
+DATE:    05/04/22 09:26:09 GMT
+FROM:    Louis M Barbier at NASA/GSFC/Swift  <lmb@cosmicra.gsfc.nasa.gov>
+
+L. Barbier (GSFC), D. Palmer (LANL), D. Burrows (PSU), A. Blustin (MSSL),
+H. Krimm (GSFC/USRA), N. Gehrels (GSFC), K. McGowan (MSSL),
+M. Chester (PSU) 
+
+At 07:52:40 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located on-board GRB050422  (trigger #115214).   The BAT on-board
+calculated location is RA, dec 324.454, +55.799 (J2000) with an
+uncertainty of 4 arcmin (radius, 3-sigma, including estimated
+systematic uncertainty). The BAT light curve showed a multipeak 
+structure with a duration of  about 60 seconds. The peak
+count rate measured by BAT was about 1000 counts/sec in the 15 - 
+350 keV band, occurring 50 seconds after the trigger.
+
+The Swift spacecraft slewed at about T+60 seconds onto the BAT position.
+No BAT position message was received from TDRSS due to the fact that
+the burst occurred during a Malindi pass.
+
+The spacecraft executed a prompt slew and the XRT began taking data
+on the target at 07:54:29.4 UT.  The XRT image looks like a cosmic 
+ray hit, not a real source.  Therefore the XRT position may be incorrect.  
+However, the XRT spectra and lightcurve look like there is a real source 
+in the field of view.  Verification of the XRT position will require 
+analysis of ground-processed data following the next ground station pass.
+
+The Swift Ultra Violet/Optical (UVOT) observations began at
+07:54:32.2 UT, 112 seconds after the BAT trigger.  The 
+first data taken after the spacecraft settled was a 100 sec exposure
+using the V filter with the midpoint of the observation at 162 sec after 
+the BAT trigger. This image was sent directly to
+the ground via TDRSS with the FOV pixel binning set at 8x8 pixels to
+reduce telemetry. A comparison against the Digitized Sky Survey
+reveals no new source inside the BAT error circles at RA, dec
+324.454, 55.799 (J2000) with a radius of 4 arcmin.
+

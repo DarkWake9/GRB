@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26708
+SUBJECT: Fermi-LAT ANTARES coincidence: No significant detection in HAWC
+DATE:    20/01/11 17:52:51 GMT
+FROM:    Hugo Ayala at Pennsylvania State University  <hgayala@psu.edu>
+
+On 2020-01-08 at 09:30:14 UTC, the AMON Fermi-LAT+ANTARES stream
+detected a coincident event with a false alarm rate of 2.39 per year.
+Location of the coincidence is at
+RA: 43.48 J2000
+Dec: -18.06 J2000
+with an uncertainty of  0.832 deg (90% containment)
+https://gcn.gsfc.nasa.gov/gcn3/26674.gcn3
+(GCN circular 26674).
+
+We performed two types of analyses for the follow-up. The first is for
+a steady source in archival data and the second is a search for a
+transient source. We assume a power-law spectrum with an index of -2.3
+for both analyses.
+
+Search for a steady source in archival data:
+The archival data spans from November 2014 to November 2019.
+We searched inside the reported error region from the circular.
+The highest significance, 1.76 sigma (0.17 post-trials),
+is at RA 44.52 deg, Dec -18.52 deg (+-1.8 deg 68% containment) J2000.
+We set a time-integrated 95% CL  upper limit on gamma rays at the
+maximum position of:
+E^2 dN/dE = 9.24e-13 (E/TeV)^-0.3 TeV cm^-2 s^-1
+
+Search for a transient source.
+Since the coincident alert fall outside the HAWC field of view,
+we report on the result for the transit before and after the event.
+Data acquisition started on Data Start: 2020/01/07 03:54:26 UTC and ended
+2020/01/09 04:01:36 UTC.
+The most significant location, with 1.60 sigma (-0.26 post-trials),
+is at RA 44.03 deg, Dec -18.41 deg (+- 1.80 deg 68% containment) J2000.
+We set a time-integrated 95% CL upper limit at the position of
+maximum significance of:
+E^2 dN/dE = 2.38e-11 (E/1TeV)^-0.3 TeV cm^-2 s^-1
+
+HAWC is a very-high-energy gamma-ray observatory operating in Central
+Mexico at latitude 19 deg. north. Operating day and night with over
+95% duty cycle, HAWC has an instantaneous field of view of 2 sr and
+surveys 2/3 of the sky every day. It is sensitive to gamma rays from
+300 GeV to 100 TeV.

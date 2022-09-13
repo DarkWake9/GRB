@@ -1,0 +1,100 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24331
+SUBJECT: LIGO/Virgo S190426c: Additional Candidates from the Zwicky Transient Facility
+DATE:    19/04/28 16:30:41 GMT
+FROM:    Daniel Perley at Liverpool JMU  <d.a.perley@ljmu.ac.uk>
+
+Daniel A. Perley (LJMU), Ariel Goobar (OKC), Mansi M. Kasliwal 
+(Caltech), Michael W. Coughlin (Caltech), Adam A. Miller (Northwestern), 
+Tomas Ahumada (UMD), Jacob Jencson (Caltech), Harsh Kumar (IITB), David 
+Kaplan (UWM), Shreya Anand (Caltech),  Leo P. Singer (NASA GSFC), Igor 
+Andreoni (Caltech), Varun Bhalerao (IITB), Danny Goldstein (Caltech), 
+Dmitry Duev (Caltech), S. Bradley Cenko (NASA GSFC),  Eric C. Bellm 
+(UW), Kishalay De (Caltech),  Rahul Biswas (OKC), Kishalay De (Caltech), 
+and Joshua Bloom (UCB) report on behalf of the Zwicky Transient Facility 
+(ZTF) and Global Relay of Observatories Watching Transients Happen 
+(GROWTH) collaborations:
+
+We continued observations of the gravitational wave trigger S190426c 
+(LVC et al. GCN 24237) with ZTF on UT 2019-04-28. We covered 1150 sq deg 
+in g-band and r-band with over 54% of the enclosed probability targeted 
+based on the latest sky map (LALInference1.fits.gz, GCN 24277). Each 
+exposure on the second night was 300s, with a typical depth of 22 mag. 
+In total, over both nights, we have covered 4420 sq deg, enclosing 56% 
+of the the total probability. See details in Coughlin et al. (GCN 24283) 
+for additional details on data processing.
+
+Additional candidates with no detections prior to merger, inside the 90% 
+localization area of the LALInference sky map, and not consistent with 
+the locations of known AGN or other variable objects, are:
+
+------------------------------------------------------------------------------------------------
+ZTF Name     | RA (deg)    | DEC (deg)  | Filt.| Mag.  | Magerr | Notes
+------------------------------------------------------------------------------------------------
+ZTF19aasmftm | 325.9004479 | 77.8315634 |    g | 21.16 | 0.12   | [rising]
+ZTF19aaslvwn | 299.059846  | 46.463559  |    g | 20.83 | 0.12   | [lowb]
+ZTF19aasmdir | 300.2360007 |  9.504002  |    g | 20.35 | 0.09   | [lowb] 
+[nuc] [agn?]
+ZTF19aaslzjf | 320.6262982 | 65.8134516 |    r | 20.54 | 0.09   | [lowb]
+ZTF19aassfws | 298.6678611 | 61.2400121 |    r | 21.41 | 0.20   | 
+photz~0.07 +/- 0.03 [nuc]
+ZTF19aasmddt | 299.25055   |  9.7016748 |    g | 20.00 | 0.08   | 
+photz~0.08 +/- 0.04 [lowb]
+ZTF19aaslszp | 301.3434628 | 53.3990477 |    g | 20.84 | 0.11   | 
+photz~0.062 [lowb] [nuc?]
+ZTF19aasmekb | 300.6013987 | 14.2873159 |    g | 18.29 | 0.03   | [lowb] 
+[hostless] [fading]
+ZTF19aaslolf | 288.7838539 | 79.4357187 |    g | 21.33 | 0.19   | 
+photz~0.42+/-0.20 [nuc] [agn?]
+ZTF19aaslphi | 297.3809977 | 61.9605925 |    g | 21.24 | 0.17   | 
+photz~0.16+/-0.02
+ZTF19aaslpds | 306.2625186 |  61.521461 |    r | 20.99 | 0.13   | [lowb]
+ZTF19aaslozu | 306.3144981 | 65.1093759 |    r | 20.87 | 0.16   |
+ZTF19aasshpf | 315.4768651 | 70.2055771 |    r | 21.42 | 0.18   |
+ZTF19aasmzee | 296.8366485 |  5.1534971 |    r | 20.33 | 0.09   | [lowb]
+ZTF19aasmzqf | 353.5204911 | 78.9577781 |    g | 20.53 | 0.09   |
+----------------------------------------------------------------------------------------------
+Notes:
+[rising] : Rising light curve
+[lowb] : Galactic latitude less than 15 degrees
+[agn?] : WISE colors consistent within an AGN within 1" of the transient.
+[hostless] : No discernable host galaxy or other counterpart.
+[nuc] : Close to the host nucleus.
+[fading] : Clear fading is observed over the past two nights, with no 
+prior rise.  This may indicate a CV / dwarf nova.
+
+Three candidates (ZTF19aassfws, ZTF19aasmddt, ZTF19aaslszp) are 
+interesting given that their photometric redshifts are consistent with 
+the LVC error volume.  ZTF19aaslzjf is also in a galaxy that is likely 
+nearby, although no redshift estimate is available.  ZTF19aasmftm is 
+interesting given a (probable) rising light curve that suggests a young 
+object, although its galaxy counterpart is very faint (r=21.2 in PS1). 
+Deep upper limits preceding the detections are not available for any of 
+these sources, and they could be unrelated SNe.
+
+Additional follow-up and analysis is ongoing.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; 
+IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; 
+DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, 
+Japan; IIT-B, India; IIA, India; LJMU, UK; TTU USA and USyd, Australia. 
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 
+1440341. GROWTH acknowledges generous support of the NSF under PIRE 
+Grant No 1545949. Alert distribution service provided by DIRAC@UW 
+(Patterson et al. 2019). Alert filtering and follow-up co-ordination is 
+being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).
+
+
+
+
+
+
+
+
+
+
+
+
+
+DisclaimerNone
+

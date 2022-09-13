@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24467
+SUBJECT: LIGO/Virgo S190510g: Optical Counterpart Candidates from DECam-GROWTH
+DATE:    19/05/11 02:18:53 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Daniel A. Goldstein (Caltech), Shreya Anand (Caltech), Mansi M. Kasliwal (Caltech), Michael S. Medford (UC Berkeley), Christoffer Fremling (Caltech), Michael Coughlin (Caltech), Tomas Ahumada (UMD), Pradip Gatkine (UMD), Peter E. Nugent (LBNL), Joshua S. Bloom (UC Berkeley), Keming Zhang (UC Berkeley), Jeff Cooke (Swinburne/OzGrav), Jorge Martínez Palomera (UC Berkeley), Ashish Mahabal (Caltech), Leo P. Singer (NASA GSFC), Sara Webb (Swinburne/OzGrav), Ariel Goobar (OKC), Harsh Kumar (IITB), Varun Bhalerao (IITB), Samaya Nissanke (UvA) on behalf of the Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations:
+
+Starting on 2019 May 10 22:56 UTC, we observed the high-probability region of the LALInference skymap of gravitational wave source S190510g (LIGO/VIRGO Collaboration, GCN #24448) using the Dark Energy Camera (DECam) on the Victor M. Blanco 4m Telescope at Cerro Tololo Inter-American Observatory, Chile, continuing the observations described in Andreoni et al. (2019; GCN #24443). We covered 78.9 deg^2 of the localization region and 66% of the probability in the r and z filters to average limiting magnitudes of 23.1 (r-band) and 21.9 (z-band), obtaining 1 epoch in z and 1 in r. We obtained g-band for roughly 85% of the fields to a limiting magnitude of 22.9. We performed difference imaging in real-time using an automated  pipeline we developed for gravitational wave counterpart searches, taking reference images from the Dark Energy Survey and the Dark Energy Camera Legacy Survey, covering 100% of the observed area.
+
+Below is a preliminary list of interesting candidates based on our real-time pipeline. Each candidate has at least two detections in two different filters and a prominent host galaxy.
+----------------------------------------------------------------------------------
+Name     |    RA    |    Dec   |filter| mag | err |filter| mag | err
+----------------------------------------------------------------------------------
+DG19lcnl | 87.14690 | -35.99441 | r | 19.45 | 0.02 | g | 20.27 | 0.04
+DG19ukvo | 89.21146 | -33.44248 | r | 21.57 | 0.07 | g | 21.54 | 0.12 
+DG19nanl | 87.31139 | -35.95584 | r | 20.01 | 0.03 | g | 20.33 | 0.05
+DG19zaxn | 92.30795 | -35.14981 | r | 20.81 | 0.06 | g | 20.88 | 0.06
+DG19etsk | 89.10091 | -30.47397 | r | 20.83 | 0.06 | g | 20.61 | 0.06
+DG19yhhm | 91.93699 | -30.82476 | r | 20.13 | 0.03 | g | 20.06 | 0.04
+DG19llhk | 90.86311 | -32.38554 | r | 21.14 | 0.07 | z | 21.12 | 0.12 
+DG19fqqk | 92.85149 | -36.51731 | r | 20.43 | 0.03 | z | 20.59 | 0.09
+DG19yhhm | 91.93699 | -30.82476 | r | 20.13 | 0.03 | z | 20.35 | 0.10 
+DG19bexl | 90.45378 | -28.66039 | r | 21.10 | 0.08 | z | 21.03 | 0.16
+DG19ootl | 87.03556 | -36.07611 | r | 21.74 | 0.10 | z | 21.51 | 0.14
+DG19nouo | 92.00130 | -31.66915 | r | 21.19 | 0.08 | g | 21.43 | 0.11
+DG19oahn | 86.33527 | -26.84768 | r | 19.30 | 0.02 | z | 18.97 | 0.03 
+
+We note that the host of DG19llhk is at z=0.07, consistent with the current LVC distance estimate. At this distance, the absolute magnitude would be -16.4, consistent with GW170817 at +1 day. We also note that the colors of DG19lcnl appear consistent with GW170817, but we do not have a host redshift. However, we caution that we do not have any constraints on the light curve history and hence, the phase of this event. We strongly encourage spectroscopic follow-up to classify these transients. 
+
+We thank the CTIO staff, Steve Heathcote, Kathy Vivas, Tim Abbott, for facilitating these Target of Opportunity observations.
+
+GROWTH is a worldwide collaboration comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU USA and USyd, Australia. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. An optimized schedule was generated using the ToO marshal system (Coughlin et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).
+
+This research draws upon DECam data as distributed by the Science Data Archive at NOAO. NOAO is operated by the Association of Universities for Research in Astronomy (AURA) under a cooperative agreement with the National Science Foundation. This project used data obtained with the Dark Energy Camera (DECam), which was constructed by the Dark Energy Survey (DES) collaboration.
+
+This message may be cited.
+
+
+

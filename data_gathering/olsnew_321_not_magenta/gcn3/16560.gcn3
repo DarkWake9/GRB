@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16560
+SUBJECT: GRB 140709B: Swift-BAT refined analysis
+DATE:    14/07/10 02:19:39 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+D. M. Palmer (LANL), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+A. Y. Lien (NASA/UMBC), C. B. Markwardt (GSFC), T. Sakamoto (AGU),
+M. Stamatikos (OSU), C. A. Swenson (PSU), J. Tueller (GSFC),
+T. N. Ukwatta (MSU) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 140709B (trigger #603866)
+(Swenson, et al., GCN Circ. 16551).  The BAT ground-calculated position is
+RA, Dec = 146.040, 63.536 deg which is
+    RA(J2000)  =  09h 44m 09.5s
+    Dec(J2000) = +63d 32' 10.0"
+with an uncertainty of 1.1 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 99%.
+
+The mask-weighted light curve shows a complex structure.  The first peak has a
+broad, symmetrical shape, starting at T-20 sec, peaking at T+25 sec and ending
+at T+60 sec.  Then the second episode begins at T+80 sec, with multiple short
+(~1-2 second) peaks extending to T+140 sec, before cutting off.  The highest of
+these short peaks is at T+125 sec. T90 (15-350 keV) is 155.0 +- 22.3 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T-13.94 to T+197.51 sec is best fit by a power 
+law with an exponential cutoff.  This fit gives a photon index 0.79 +- 0.30,
+and Epeak of 152.6 +- 111.0 keV (chi squared 48.15 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 4.2 +- 0.2 x 10^-06 erg/cm2
+and the 1-sec peak flux measured from T+123.63 sec in the 15-150 keV band is
+0.9 +- 0.1 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.22 +- 0.07 (chi squared 54.91 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/603866/BA/
+

@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27883
+SUBJECT: Konus-Wind observation of GRB200528A
+DATE:    20/06/02 09:06:41 GMT
+FROM:    Anastasia Tsvetkova at Ioffe Institute  <tsvetkova@mail.ioffe.ru>
+
+A. Tsvetkova, S. Golenetskii, R.Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Lysenko, A. Ridnaia and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration, soft-spectrum GRB200528A
+(Swift detection: Ambrosi et al., GCN 27832;
+Barthelmy et al., GCN 27839;
+Fermi GBM Observation: Fletcher, von Kienlin & Meegan, GCN 27841;
+CALET Gamma-Ray Burst Monitor detection: Pal'shin et al., GCN 27855)
+triggered Konus-Wind at T0=37675.256 s UT (10:27:55.256).
+
+The burst light curve shows a complex structure
+which starts at ~T0-33.8 s, with a total duration of~60.0 s,
+and comprises two double-peaked emission episodes.
+The emission is seen up to ~1 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 2.12(-0.07,+0.07)x10^-5 erg/cm2,
+and a 64-ms peak energy flux, measured from T0+1.696 s,
+of 2.38(-0.35,+0.35)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum of the burst
+(measured from T0 to T0+33.024 s)
+is best fit in the 20 keV - 1 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.41(-0.14,+0.14),
+and Ep = 64(-5,+5) keV (chi2 = 50/60 dof).
+Fitting by the GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index:
+beta < -2.89 (chi2 = 49/59 dof).
+
+The spectrum near the peak count rate
+(measured from T0+0.256 to T0+8.448 s)
+is best fit in the 20 keV - 1 MeV range
+by the power law with exponential cutoff model
+with  alpha = -1.14(-0.15,+0.16),
+and Ep = 75(-4,+5) keV (chi2 = 52/60 dof).
+Fitting by the GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index:
+beta < -3.03 (chi2 = 51/59 dof).
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB200528_T37675/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+
+

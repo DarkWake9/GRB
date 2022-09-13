@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25336
+SUBJECT: LIGO/Virgo S190814bv: Candidates found in initial DESGW search
+DATE:    19/08/15 11:39:15 GMT
+FROM:    M. Soares-Santos at Fermi Lab  <marcelle.soares.santos@gmail.com>
+
+Marcelle Soares-Santos, Douglas Tucker, Sahar Allam, James Annis, Alyssa Garcia, Ken Herner, Tamara Davis, Nora Sherman, Robert Morgan, Kathy Vivas, Chris Lidman, Umang Malik
+
+
+On behalf of the DESGW team*:
+
+
+We report initial results of our DECam search for an optical counterpart of S190814bv (LVC, GCN 25324) using DECam. Starting at 2019-08-15 06:32 UTC (9.5h post merger), we observed 54 sq-deg, covering the 90% localization region provided in the updated sky map released on Aug 14, 2019 22:58:20 UTC. Observations were performed through clouds which limited the depth of our observations to 20.2 mag (10-sigma point source).
+
+
+Images were processed by our difference imaging pipeline (Herner et al. 2017; see also Soares-Santos et al. 2015, 2017; Doctor et al. 2018; Morgan et al. 2019 for recent applications) using DES images as templates. We employ a machine learning code (autoscan, Goldstein et al. 2015) to reject subtraction artifacts. Candidates were initially selected by requiring at least two high signal to noise detections, rejecting asteroids. We then applied catalog-based vetting to reject variable stars, variable AGNs, and candidates with hosts at redshifts inconsistent with the distance reported by the LVC for S190814bv (276 +/- 56 Mpc). Those catalogs included Gaia DR2, and DES. The final vetting was done via visual inspection. We matched our remaining candidates using the Transient Name Server to avoid reporting those previously reported by other groups. In our initial analysis, we find 2 new transient candidates: one hostless and one with a host at marginally consistent redshift:
+
+
+NAME TNS_NAME RA DEC DISCOVERY_MJD DISCOVERY_MAG_I DISCOVERY_MAG_Z
+
+desgw-190814a  2019nmd 12.870848 -22.471377  58710.278 20.59 20.26
+
+desgw-190814b  2019nme 12.635660  -22.226027 58710.278   19.33 19.39
+
+
+CANDIDATE_ID HOST_ID  HOST_MAG HOST_Z HOST_ZERR ANG_SEP
+
+desgw-190814b  2MASS J00503145-2213363   20.3 0.23 0.20 14’’
+
+
+All magnitudes reported are observed magnitudes. We encourage spectroscopic followup of these candidates.
+
+
+We detected also a transient previously reported by ZTF: AT2019mbq
+
+
+Since the start of our observations, S190814bv has been reclassified as a NSBH.  We notice that if such a source caused a GW170817-like kilonova it would peak at magnitude 21.6 at this distance. Such a source would not be detectable in our data.
+
+
+
+The DECam Search & Discovery Program for Optical Signatures of Gravitational Wave Events (DESGW) is carried out by the Dark Energy Survey (DES) collaboration in partnership with wide ranging groups in the community. DESGW uses data obtained with the Dark Energy Camera (DECam), which was constructed by the DES collaboration with support from the Department of Energy and member institutions, and utilizes data as distributed by the Science Data Archive at NOAO. NOAO is operated by the Association of Universities for Research in Astronomy (AURA) under a cooperative agreement with the National Science Foundation.
+
+
+*DESGW collaboration:
+
+
+Sahar Allam (Fermilab), James Annis (Fermilab), Iair Arcavi (Tel Aviv U), Tristan Bachmann (U Chicago), Paulo Barchi (INPE & Brandeis U), Thomas Beatty (U of Arizona) Keith Bechtol (U of Wisconsin-Madison), Federico Berlfein (Brandeis U), Antonio Bernardo (U of Sao Paulo), Dillon Brout (U Penn), Robert Butler (Indiana U), Melissa Butner, (Fermilab), Annalisa Calamida (STScI), Hsin-Yu Chen (Harvard U), Chris Conselice (U of Nottingham), Carlos Contreras (STScI), Jeff Cooke (Swinburne U), Chris D’Andrea (U Penn), Tamara Davis (U Queensland), Reinaldo de Carvalho (UNICSUL), H. Thomas Diehl (Fermilab), Zoheyr Doctor (U Chicago), Alex Drlica-Wagner (Fermilab), Maria Drout (U Toronto), Maya Fishbach (U Chicago), Francisco Forster (U de Chile), Ryan Foley (UCSC), Joshua Frieman (Fermilab & U Chicago), Chris Frohmaier (U of Portsmouth), Ori Fox (STScI), Alyssa Garcia (Brandeis U), Juan Garcia-Bellido (U Autonoma de Madrid), Mandeep Gill (SLAC & Stanford U), Robert Gruendl (NCSA), Will Hartley (U College London), Kenneth Herner (Fermilab), Daniel Holz (U Chicago), Jorge Horvath (U of Sao Paulo), D. Andrew Howell (Las Cumbres Observatory), Richard Kessler (U Chicago), Charles Kilpatrick (UCSC), Nikolay Kuropatkin (Fermilab), Ofer Lahav (U College London), Huan Lin (Fermilab), Andrew Lundgren (U of Portsmouth), Chris Lidman (ANU), Martin Makler (CBPF), Clara Martinez-Vazquez (CTIO/NOAO), Curtis McCully (Las Cumbres Observatory), Mitch McNanna (U of Wisconsin-Madison), Robert Morgan (U of Wisconsin-Madison), Gautham Narayan (STScI), Eric Neilsen (Fermilab), Robert Nichol (U of Portsmouth), Antonella Palmese (Fermilab), Francisco Paz-Chinchon (NCSA & UIUC), Matthew Penny (OSU), Maria Pereira (Brandeis U), Sandro Rembold (UFSM), Armin Rest (STScI & JHU), Livia Rocha (U Sao Paulo), Russell Ryan (STScI), Masao Sako (U Penn), Samir Salim (Indiana U), David Sand (U of Arizona), Luidhy Santana-Silva (Valongo Observatory), Daniel Scolnic (Duke U), Nora Sherman (Fermilab), J. Allyn Smith (Austin Peay State U), Mathew Smith (U of Southampton), Marcelle Soares-Santos (Brandeis U), Lou Strolger (STScI), Riccardo Sturani (UFRN), Mark Sullivan (U of Southampton), Masaomi Tanaka (NAOJ), Nozomu Tominaga (Konan U), Douglas Tucker (Fermilab), Yousuke Utsumi (Stanford U), Stefano Valenti (UC Davis), Kathy Vivas (NOAO/CTIO), Alistair Walker (NOAO/CTIO), Sara Webb (Swinburne U), Matt Wiesner (Benedictine U), Brian Yanny (Fermilab), Michitoshi Yoshida (NAOJ), Alfredo Zenteno (NOAO/CTIO)
+

@@ -1,0 +1,98 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20802
+SUBJECT: LIGO/Virgo G275697: Additional iPTF Optical Transient Candidates
+DATE:    17/03/03 04:29:33 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+S. M. Adams (Caltech), C. Cannella (Caltech), A. A. Miller
+(Northwestern/Adler), S. Papadogiannakis (OKC), R. Lunnan (Caltech), N.
+Blagorodnova (Caltech), L. P. Singer (NASA/GSFC), S. B. Cenko (NASA/GSFC),
+R. Walters (Caltech), T. Barlow (Caltech), J. Rana (IUCAA), V. Bhalerao
+(IIT-B),  Y. Cao (UW), R. Laher (IPAC), F. Masci (IPAC) and M.M. Kasliwal
+(Caltech)
+
+report on behalf of the iPTF (intermediate Palomar Transient Factory) and
+GROWTH (Global Relay of Observatories Watching Transients Happen)
+collaborations:
+
+We have continued tiled observations of LIGO/Virgo G275404 (LVC, GCN
+20738) and LIGO/Virgo G275697 (LVC, GCN 20763) using the Palomar 48-inch
+Oschin telescope (P48). Including our first night of observations on
+2017-03-01 UTC (GCN 20791) and a second night on 2017-03-02, we have
+observed a total of 240 fields spanning 1747 square degrees. We estimate a
+20% chance that these fields contain the true location of G275404 and a
+25% chance that they containing the true location of G275697.
+
+During preliminary sifting through candidate variable sources using image
+subtraction by our IPAC (Masci et al. 2016) and NERSC (Cao et al. 2016)
+pipelines, a total of 115 candidates were saved in the fields imaged.
+Applying standard iPTF vetting procedures and removing transients with a
+history of previous variability, we flagged 16 optical transient candidates
+in the 90% localization contour of G275697, listed below, for further
+follow-up.
+
+We encourage spectroscopic classification of these candidates. In
+particular, we highlight 17bub and 17buo as fast-evolving by more than 0.3
+mag in the same night.
+
+We are grateful to the Palomar crew (John Henning, Jeff Zolkower, Carolyn
+Heffner, Jamey Eriksen, Nick Ganciu) for their hard work in reviving a
+faulty declination encoder essential to collecting this dataset during the
+last two days of iPTF survey operations.
+
+iPTF17bti   0.800077        67.402379       02:38  18.67
+pstar=0.957; nuclear/stellar?
+iPTF17btj   27.422253       68.506993       02:53  18.34
+pstar=0.91; nuclear/stellar?
+iPTF17bto   53.02396        70.025567       03:38  17.87
+nuclear/stellar?
+iPTF17btp   68.216762       72.512217       03:46  19.23
+pstar=0.969; nuclear/stellar?
+iPTF17bub   85.525185       70.159774       04:32  18.72
+pstar=0.946; nuclear/stellar?; fading (0.84 mag intra-night)
+iPTF17bue   54.623802       71.407755       03:38  18.04
+off-center from host galaxy
+iPTF17bun   57.584087       72.275187       03:35  18.63
+pstar=0.909; nuclear/stellar?
+iPTF17buo   49.553246       73.391128       03:35  18.39
+pstar=0.166; nuclear/stellar?; fading (0.69 mag intra-night)
+iPTF17buq   41.070946       69.589982       03:28  18.9
+pstar=0.996; nuclear/stellar?
+iPTF17bvd   83.199221       71.328788       04:32  20.1            hostless
+in iPTF reference; possible marginal counterpart seen in PS1.
+iPTF17bvw   85.92019        70.584375       04:32  19.74           hostless
+in iPTF and PS1
+iPTF17bvx   72.69051        69.373832       04:17  19.36
+pstar=0.918; nuclear/stellar?
+iPTF17bvz   66.258018       69.031885       04:17  19.81
+pstar=0.889; nuclear/stellar?
+iPTF17bwi   82.2476         71.146032       04:24  20.16
+pstar=0.958; nuclear/stellar?
+iPTF17bwj   141.533287      7.757573        07:09  19.39   0.441   specz;
+nuclear; SDSS QSO
+iPTF17bxa   76.262387       69.156295       04:26  19.66           nuclear;
+pstar=0.01
+
+Two known transients detected in early January also fall in the
+localization region and were recovered with iPTF: PS17m (=iPTF17D) and
+PS17n/Gaia17aan (=iPTF17G).
+
+Positions are stated in the ICRS. Discovery times are noted in UTC hh:mm on
+2017-03-02. Magnitudes are based on image subtraction and in the Mould R
+filter, calibrated with respect to point sources in SDSS as described in
+Ofek et al. 2012.
+
+We caution that many candidates are outside the SDSS footprint and lack a
+secure star/galaxy classification for the underlying source. We flag these
+as "nuclear/stellar?". Where available, we provide machine-learning
+probability scores on whether the underlying source is a galaxy/star (0/1)
+(Miller et al. 2016).
+
+We encourage spectroscopic classification of these candidates. In
+particular, we highlight 17bub and 17buo as fast-evolving by more than 0.3
+mag in the same night.
+
+We are grateful to the Palomar crew (John Henning, Jeff Zolkower, Carolyn
+Heffner, Jamey Eriksen, Nick Ganciu) for their hard work in reviving a
+faulty declination encoder essential to collecting this dataset during the
+last two days of iPTF survey operations.

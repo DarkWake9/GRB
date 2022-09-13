@@ -1,0 +1,63 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3698
+SUBJECT: GRB050726: Swift UVOT observations
+DATE:    05/07/29 15:26:48 GMT
+FROM:    Tracey Poole at MSSL  <tsp@mssl.ucl.ac.uk>
+
+T. Poole (MSSL), A. Moretti (OAB), S. T. Holland (GSFC), M. Chester
+(PSU), L. Angelini (GSFC-JHU), N. Gehrels (GSFC) on behalf of the Swift
+UVOT team
+
+The Swift Ultra-Violet/Optical Telescope (UVOT) began observations of
+GRB050726 (Barthlemy et al. GCN 3682) on 26th July 2005 at 05:02:07 UT.
+We confirm the detection of a source inside the BAT and XRT error circle
+(Barthlemy et al. GCN 3682, A. Moretti et al. GCN 3683) in the V band
+only. The source is detected in the initial V band observation, then 
+drops below the 3 sigma detection threshold. It is not detected in
+the U, B or the UV filters.
+
+The aperture used for all observations was 6 arcsec. The limiting
+magnitudes are given to a 3 sigma limit.
+
+V filter
+
+start  exposure mid     magnitude
+time   time     time
+after           after
+burst           burst
+(s)    (s)      (s)
+123    100      173    17.35+/-0.09 - source detection
+298    10       303    17.47        - limiting magnitude
+382    10       387    17.43        - limiting magnitude
+466    10       471    17.36        - limiting magnitude
+551    10       556    17.29        - limiting magnitude
+635    10       640    17.49        - limiting magnitude
+720    10       725    17.40        - limiting magnitude
+9825   900      10275  19.76        - limiting magnitude
+21647  900      22097  19.83        - limiting magnitude
+
+Other filters - limiting magnitudes
+
+Filter    start  exposure mid     limiting
+           time   time     time    magnitude
+           after           after
+           burst           burst
+           (s)    (s)      (s)
+b         269    59       485     19.38
+b         4992   1800     6189    21.31
+b         29659  12       29665   18.72
+u         255    59       216     19.23
+u         4124   2700     16888   21.06
+uvw1      241    59       457     19.29
+uvw1      4020   100      4070    19.49
+uvw1      11639  2003     17763   21.44
+uvm2      352    68       196     19.41
+uvm2      10731  1800     19738   21.48
+uvw2      284    89       500     19.88
+uvw2      5939   1300     13820   21.62
+
+The magnitudes are based on preliminary zero points, measured in orbit,
+and will require refinement with further calibration.
+
+This message may be cited.
+

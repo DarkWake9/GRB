@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4564
+SUBJECT: Konus-Wind observation of GRB 060121
+DATE:    06/01/22 18:37:03 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The GRB 060121 (=H4010; Arimoto et al., GCN 4550;
+Prigozhin et al., GCN 4551)
+triggered Konus-Wind at T0=80700.890 s UT (22:25:00.890).
+
+The Konus-Wind light curve shows a single pulse with
+a duration of ~2 sec.
+
+As observed by Konus-Wind the burst had
+a fluence of 4.71(-3.71,+0.44)x10^-6 erg/cm2 and
+peak flux measured from T0+0.448 sec on 64 msec time scale
+1.64(-1.32,+0.18)x10^-5 erg/cm2/sec
+(both in the 20 keV - 1 MeV energy range).
+
+The time-integrated spectrum of the GRB is well fitted (in the 20 keV - 
+1 MeV range) by GRBM (Band) model for which:
+the low-energy photon index is alpha = -0.51(-0.60,+0.55),
+the high energy photon index beta = -2.39(-1.41,+0.27),
+the break energy E0 = 70(-52, +90) keV (chi2 = 59/59 dof).
+The fitting by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-E*(2-alpha)/Ep)
+in the same energy range gives
+alpha = 0.82(-0.21,+0.38)
+and Ep = 134(-17, +32) keV (chi2 = 63/60 dof).
+
+All the quoted errors are at the 90% confidence level.
+

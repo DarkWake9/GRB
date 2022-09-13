@@ -1,0 +1,41 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3414
+SUBJECT: GRB 050509b: RAPTOR deep, early limits.
+DATE:    05/05/11 22:18:35 GMT
+FROM:    Przemyslaw R. Wozniak at LANL  <wozniak@lanl.gov>
+
+P. Wozniak, W.T. Vestrand, J. Wren, S. Evans, and R. White,
+on behalf the RAPTOR team at Los Alamos National Laboratory
+
+
+The RAPTOR-S telescope at Los Alamos National Laboratory responded to
+Swift trigger 118749 (Hurkett et al. GCN 3381) and collected a series of
+113 unfiltered images starting at 26.57 s and continuing for the first
+90 minutes after the trigger. The exposure durations are 10 s for the
+first 10 images, 30 s for the next 10 images and 60 s for the remaining
+93 images.
+
+Using difference imaging techniques, comparing individual images as well
+as stacks of images, we have placed limits on early time variability at
+the locations of sources S1-S4 (Cenko et al. GCN 3401) within the XRT
+error circle (Rol et al. GCN 3395). We find no evidence for transient
+emission at the four candidate locations with the following 5 sigma
+limits.
+
+time of mid  limiting  # of    effective  t-t_trig  t-t_trig  UT
+exp. (s)     mag (R)   images  duration   start (s) end (s)   start
+             (5 sigma)
+ 
+  31.6       18.8       1        10.0       26.6      36.6    04:00:45.8
+ 193.9       20.0      10       100.0       26.6     220.4    04:00:45.8
+ 395.3       20.8      10       300.0      234.0     629.3    04:04:13.3
+1399.5       21.7      20      1200.0      642.9    2042.4    04:11:02.1
+1402.7       21.8      19      1140.0     2052.9    3455.6    04:34:32.1
+1399.8       21.6      19      1140.0     3466.0    4865.8    04:58:05.2
+
+The conversion of our unfiltered PSF fluxes to R-band magnitudes was
+performed using measurements of 10 nearby comparison stars from the USNO
+B1.0 catalog. Sample RAPTOR-S images will be posted at
+http://www.raptor.lanl.gov/images/GRB050509/grb050509_raptorS.gif.
+
+

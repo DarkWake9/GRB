@@ -1,0 +1,69 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26863
+SUBJECT: LIGO/Virgo S200115j: Zwicky Transient Facility search for optical counterparts to Swift X-ray sources
+DATE:    20/01/23 05:39:23 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Mansi M. Kasliwal (Caltech), S. Brad Cenko (NASA GSFC), Yuhan Yao (Caltech)
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations
+
+The Zwicky Transient Facility (ZTF; Graham et al. 2019, Bellm et al. 2019) has repeatedly observed the location of nine X-ray sources, found with the Neil Gehrels Swift Observatory (Swift), that Evans et al. (GCN #26855) reported as candidate counterparts to S200115j (GCN #26759, GCN #26807) with rank = 2.
+
+We searched the ZTF alert database using Kowalski (Duev et al., 2019). We found that only the Swift source S200115j_X136 has a ZTF alert within the spatial uncertainty indicated in GCN #26855. The ZTF source, labelled ZTF20aafapey, was found on 2020-01-13 (before the detection of S200115j) and it is located on top of the nucleus of the galaxy 2MASS 02401222-0233442 at redshift z=0.04333 (6dF Galaxy Survey; Jones et al., 2009). We performed forced photometry of ZTF20aafapey using ForcePhotZTF (Yao et al., 2019). The light curve (Table 1) shows rapid variability days before S200115j, with a significant brightening of >0.5 mag on 2020-01-13. Our results are in agreement with Oates et al. (GCN #26808) and further suggest that S200115j_X136/ZTF20aafapey is caused by AGN activity. We conclude that S200115j_X136 is unlikely associated with S200115j.
+
+Table 1: Light curve of ZTF20aafapey
++---------------------+------+------+-----+
+|       date_obs      |filter| mag  | err |
++---------------------+------+------+-----+
+| 2020-01-12 04:52:53 |  r   | 19.4 | 0.1 |
+| 2020-01-13 04:15:19 |  r   | 19.5 | 0.1 |
+| 2020-01-13 04:15:59 |  r   | 19.3 | 0.1 |
+| 2020-01-13 04:43:20 |  r   | 19.5 | 0.2 |
+| 2020-01-13 04:43:59 |  r   | 18.9 | 0.1 |
+| 2020-01-13 05:28:55 |  r   | 19.5 | 0.2 |
+| 2020-01-13 05:29:33 |  r   | 19.0 | 0.1 |
++---------------------+------+------+-----+
+
+
+For other Swift X-ray sources no ZTF alerts were issued, although the transient candidate locations were recently observed in most cases. In Table 2 we report ZTF detection upper limits at the approximate location of the Swift sources - other than S200115j_X136 - from 2020-01-13 to 2020-01-22. The exposure times are provided in seconds.
+
+Table 2: ZTF upper limits
++---------------+---------------------+---------+--------+----------+
+|  source_name  |       date_obs      | exptime | filter | maglimit |
++---------------+---------------------+---------+--------+----------+
+| S200115j_X130 | 2020-01-13 02:28:48 |    30   |   g    |  >20.6   |
+| S200115j_X130 | 2020-01-13 02:29:28 |    30   |   g    |  >20.5   |
+| S200115j_X130 | 2020-01-15 03:12:49 |    30   |   g    |  >20.9   |
+| S200115j_X130 | 2020-01-15 06:34:05 |   300   |   g    |  >20.7   |
+| S200115j_X130 | 2020-01-18 05:45:35 |   300   |   g    |  >21.3   |
+| S200115j_X136 | 2020-01-13 04:15:20 |    30   |   r    |  >20.0   |
+| S200115j_X136 | 2020-01-13 04:15:59 |    30   |   r    |  >20.1   |
+| S200115j_X136 | 2020-01-13 04:43:21 |    30   |   r    |  >19.5   |
+| S200115j_X136 | 2020-01-13 04:44:00 |    30   |   r    |  >19.5   |
+| S200115j_X136 | 2020-01-13 05:28:55 |    30   |   r    |  >19.4   |
+| S200115j_X136 | 2020-01-13 05:29:34 |    30   |   r    |  >19.3   |
+| S200115j_X487 | 2020-01-13 04:43:21 |    30   |   r    |  >19.5   |
+| S200115j_X487 | 2020-01-13 04:44:00 |    30   |   r    |  >19.5   |
+| S200115j_X488 | 2020-01-13 04:43:21 |    30   |   r    |  >19.6   |
+| S200115j_X488 | 2020-01-13 04:44:00 |    30   |   r    |  >19.6   |
+| S200115j_X707 | 2020-01-15 06:28:56 |   300   |   g    |  >21.0   |
+| S200115j_X707 | 2020-01-15 07:20:39 |   300   |   g    |  >20.6   |
+| S200115j_X707 | 2020-01-18 05:40:26 |   300   |   g    |  >21.4   |
+| S200115j_X717 | 2020-01-13 05:28:55 |    30   |   r    |  >19.4   |
+| S200115j_X717 | 2020-01-13 05:29:34 |    30   |   r    |  >19.4   |
+| S200115j_X745 | 2020-01-13 05:28:55 |    30   |   r    |  >19.4   |
+| S200115j_X745 | 2020-01-13 05:29:34 |    30   |   r    |  >19.4   |
+| S200115j_X746 | 2020-01-13 04:13:23 |    30   |   r    |  >20.0   |
+| S200115j_X746 | 2020-01-13 04:14:02 |    30   |   r    |  >19.9   |
+| S200115j_X746 | 2020-01-15 06:34:05 |   300   |   g    |  >20.6   |
+| S200115j_X746 | 2020-01-18 05:45:35 |   300   |   g    |  >21.2   |
+| S200115j_X748 |          -          |    -    |   -    |    -     | 
++---------------+---------------------+---------+--------+----------+
+
+Evans et al. (GCN #26855) recommended the investigation of three sources in particular: S200115j_X136, S200115j_X707, and S200115j_X746. A discussion on S200115j_X136 is presented above. The coordinates of both S200115j_X707 and S200115j_X746 were observed with ZTF 2 days before S200115j, 2-3 hours after S200115j, and 3 days after S200115j. The non-detection of counterparts in ZTF data well constrains the presence of a bright optical transient evolving on hours to days timescales associated with S200115j_X707 or S200115j_X746. Further follow-up is encouraged.
+
+
+
+Forced photometry was performed on images processed through the ZTF reduction and image subtraction pipelines at IPAC (Masci et al. 2019). ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+
+

@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29501
+SUBJECT: IceCube-210210A: Four Candidate Optical Counterparts from DECam Observations
+DATE:    21/02/13 05:00:26 GMT
+FROM:    Robert Morgan at U. of Wisconsin-Madison  <robert.morgan@wisc.edu>
+
+Robert Morgan (U of Wisconsin-Madison), Alyssa Garcia (U of Michigan), Alex Drlica-Wagner (Fermilab), Kathy Vivas (NOIRLab), Ken Herner (Fermilab), Keith Bechtol (U of Wisconsin-Madison), Kyoungsoo Lee (Purdue U), Eric Gawiser (Rutgers U), Yi-Kuan Chiang (Ohio State U), and Hwihyun Kim (NOIRLab) report:
+
+
+We triggered the Dark Energy Camera (DECam) at Cerro Tololo Inter-American Observatory in Chile on the localization area of the GOLD neutrino event detected by IceCube (IceCube-210210A, GCN 29454). Observations took place on 2021-02-11 at 09:00 UT (approximately 21 hours after the alert) and on 2021-02-12 at 09:00 UT in the gri bands, using 150 second exposures, and reaching 10-sigma limiting magnitudes of approximately 23 mag. Each night, the 75.1% of the 90% localization area was covered by DECam. We reduced the DECam images using the DESGW difference imaging pipeline (Herner et al. 2020), using pre-existing DECaLS images as templates.
+
+
+We required that candidate counterparts are (1) not found in GAIA DR3, (2) detected on both nights in the same filter by Source Extractor with 1 of the detections also passing a machine learning artifact detection program (autoscan, Goldstein et. al 2015), (3) not found in a spatial-temporal look-up in the Minor Planet Center or Near Earth Object Catalog, (4) not ruled out as an artifact by visual inspection.
+
+
+
+We find four optical counterpart candidates:
+
+
+| NAME           | TNS (IAU) | RA         | DEC      | HOST                  |
+
+| DESNU-a-893025 | AT2021ctp | 206.361822 | 4.602091 | PSO J206.3618+04.6020 |
+
+| DESNU-b-892671 | AT2021ctq | 206.453649 | 4.329346 | PSO J206.4539+04.3285 |
+
+| DESNU-c-893197 | AT2021ctr | 205.841861 | 3.960848 | PSO J205.8419+03.9613 |
+
+| DESNU-d-891087 | AT2021cts | 206.437552 | 4.011537 | PSO J206.4375+04.0115 |
+
+
+With photometry:
+
+| NAME           | MJD_NITE_1  | MAG_NITE_1 | MJD_NITE_2  | MAG_NITE_2 | FILTER |
+
+| DESNU-a-893025 | 59256.379   | 22.98      | 59257.373   | 22.89      | r      |
+
+| DESNU-b-892671 | 59256.381   | 22.81      | 59257.375   | 23.10      | i      |
+
+| DESNU-c-893197 | 59256.379   | 21.69      | 59257.373   | 21.69      | r      |
+
+| DESNU-d-891087 | 59256.375   | 23.30      | 59257.367   | 23.07      | g      |
+
+
+Notes:
+
+- DESNU-c-893197 is bright enough for most spectroscopic instruments to target and is well separated from the host
+
+- DESNU-a-893025 and DESNU-d-891087 are both faint and coincident with the host center, but characterization is still encouraged
+
+- DESNU-b-892671 is well separated from the host
+
+
+We also report the detection of and photometry for the one of the candidates detected by ZTF (GCN 29461). The second candidate detected by ZTF was outside the field of view of DECam in these observations.
+
+| TNS (IAU)      | MJD_NITE_1  | MAG_NITE_1 | MJD_NITE_2  | MAG_NITE_2 | FILTER |
+
+| AT2021clu      | 59256.379   | 20.77      | 59257.373   | 20.78      | r      |
+
+
+We will continue to monitor these candidates with DECam over the next 3 weeks, as well as the 90% localization area of IceCube-210210A. Spectroscopic characterization of all above candidates, and / or a spectroscopic redshift of the host is encouraged. The TNS reports for these candidates contain DECam discovery images in the Comments section.
+
+
+

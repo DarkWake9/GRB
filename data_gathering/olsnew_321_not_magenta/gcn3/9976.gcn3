@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9976
+SUBJECT: Konus-Wind observation of GRB 090929A
+DATE:    09/09/30 16:16:53 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+P. Oleynik, M. Ulanov, D. Svinkin, and T. Cline on behalf of the 
+Konus-Wind team, report:
+
+The bright GRB 090929A (Fermi-GBM trigger trigger 275891585:
+Rau, GCN 9962) localized by Swift-BAT (Cummings and Krimm, GCN 9966)
+triggered Konus-Wind at T0=16387.790 s UT (04:33:07.790).
+
+As observed by Konus-Wind the burst
+had a fluence of 1.32(-0.24, +0.23)x10^-5 erg/cm2,
+and a 16-ms peak flux measured from T0+0.736 s
+of 2.04(-0.61, +0.60)x10^-5 erg/cm2/s
+(both in the 20 keV - 3 MeV energy range).
+
+The time-integrated spectrum of the burst (from T0 to T0+8.448 s)
+is well fitted (in the 20 keV - 3 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep), with
+alpha = -0.47(-0.22, +0.25),  and
+Ep = 574(-100, +151) keV (chi2 = 66.2/65 dof).
+Fitting by GRB (Band) model yields:
+the low-energy photon index alpha = -0.36(-0.29, +0.62),
+the high energy photon index beta = -2.16(-1.41, +0.43),
+the peak energy Ep = 494(-191, +175) keV (chi2 = 62.1/64 dof).
+
+These values are consistent with the Konus-RF results (Golenetskii et 
+al., GCN 9968).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.ru/LEA/GRBs/GRB090929_T16384/
+

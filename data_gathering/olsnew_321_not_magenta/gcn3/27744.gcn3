@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27744
+SUBJECT: GRB 200514A: MITSuME Akeno optical upper limits
+DATE:    20/05/15 15:35:39 GMT
+FROM:    Adachi Ryo at Tokyo Institute of Tech  <adachi@hp.phys.titech.ac.jp>
+
+N. Nakamura, R. Hosokawa, R. Adachi, K. L. Murata, M. Niwano, F.
+Ogawa, Y. Yatsu, and N. Kawai (Tokyo Tech) report on behalf of the
+MITSuME collaboration:
+
+We performed tiling observation for the MAXI/GSC error region of GRB
+200514A (Y. Okamoto et al., GCN Circular #27735; Ricciarini et al.,
+GCN Circular #27743) with an optical tri-color (g', Rc, and Ic) camera
+attached to the MITSuME 50cm telescopes at Akeno Observatory in Japan.
+
+The follow up observation started at 2020-05-14 10:36:15 UT, 495
+minutes after the trigger.
+
+Our tiling observation covered almost ~65% of the MAXI/GSC error
+region (GCN Circular #27735). Compared our co-added images with the
+GSC2.3 and UCAC4 catalogs, we found no bright optical transient in the
+observed region except a high proper motion star (R.A.=11:20:26.73,
+Dec.=+19:53:14) listed in the NEOWISE/AllWISE high proper motion
+objects (Schneider et al. 2016). Because the elevation of the target
+field had dropped from 75 deg to 16 deg during the observations and
+the sky condition was unstable, the obtained upper limits are
+different for each field. The 5-sigma upper limits of the co-added
+images are listed below.
+
+Field num. | center position(R.A., Dec.) | size of field(R.A.(arcmin)
+x Dec.(arcmin)) | 5-sigma upper limit | MID-UT(UT) | exposure
+time(sec)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Field 0 | 11:21:03, +19:43:24 | 24.9 x 25.9 | g' > 18.4, Rc > 18.2, Ic
+> 16.5 | 12:24:50 14 May | 870
+Field 1 | 11:19:53, +19:52:19 | 25.6 x 26.1 | g' > 18.0, Rc > 17.7, Ic
+> 16.9 | 12:35:31 14 May | 480
+Field 2 | 11:20:25, +19:26:36 | 25.8 x 25.9 | g' > 16.8, Rc > 16.7, Ic
+> 16.1 | 12:44:04 14 May | 1170
+Field 3 | 11:19:15, +19:35:00 | 25.7 x 26.0 | g' > 18.3, Rc > 17.9, Ic
+> 17.1 | 12:05:44 14 May | 660
+Field 4 | 11:21:41, +19:59:30 | 25.6 x 26.1 | g' > 17.8, Rc > 17.6, Ic
+> 16.7 | 11:18:32 14 May | 360
+Field 5 | 11:20:30, +20:08:15 | 25.6 x 25.9 | g' > 18.0, Rc > 17.4, Ic
+> 16.8 | 12:33:09 14 May | 570
+Field 6 | 11:19:49, +19:09:39 | 25.7 x 25.9 | g' > 18.7, Rc > 18.3, Ic
+> 17.5 | 12:11:34 14 May | 660
+Field 7 | 11:18:42, +19:18:54 | 25.7 x 26.1 | g' > 18.0, Rc > 17.6, Ic
+> 16.8 | 11:26:50 14 May | 210
+Field 8 | 11:21:55, +20:24:47 | 25.9 x 26.0 | g' > 17.1, Rc > 17.0, Ic
+> 15.9 | 16:21:30 14 May | 150
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+We used the UCAC4 catalog for the flux calibration. The magnitudes are
+expressed in the AB system. The images were processed in real-time
+through the MITSuME GPU reduction pipeline (Niwano et al., in prep;
+https://github.com/MNiwano/Eclair).
+

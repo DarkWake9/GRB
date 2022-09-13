@@ -1,0 +1,57 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2568
+SUBJECT: INTEGRAL-SPI/ACS GRB data: timing correction 
+DATE:    04/04/14 11:04:09 GMT
+FROM:    Arne Rau at MPI  <arau@xray.mpe.mpg.de>
+
+A. Rau, A. von Kienlin, G. Lichti on behalf of the INTEGRAL SPI-ACS GRB
+team (Garching);
+
+K. Hurley on behalf of the IPN team;
+
+M. Beck on behalf of the INTEGRAL Science Data Center (ISDC) Geneva;
+
+report:
+
+The Anti-Coincidence Shield (ACS) of the Spectrometer onboard INTEGRAL
+(SPI) has provided more than one hundred GRB triggers for the 3rd
+Interplanetary Network (IPN) over the last 16 months.  By studying IPN
+triangulations involving the ACS and one or more distant spacecraft,
+such as Ulysses and Mars Odyssey, it was determined that the absolute
+timing uncertainty of the ACS lightcurves was of the order of 100 ms at
+most.  These triangulations involved bursts with known positions, such
+as SGRs and GRBs with long-wavelength counterparts.  Accordingly, IPN
+triangulations up to now involving the ACS and distant spacecraft have
+included a conservative estimate of the systematic uncertainty of this
+order.
+
+Recently, for cases involving precisely known IPN positions, an
+additional triangulation of some of these bursts using Konus-Wind
+and/or Helicon-Coronas-F data in conjunction with ACS INTEGRAL revealed  a
+systematic inaccuracy in the ACS timing such that the ACS was lagging
+behind UTC by 134 +- 12 ms (S. Golenetskii, E. Mazets, V. Pal'shin and D.
+Frederiks, private communication).  Further investigations by the
+INTEGRAL SPI/ACS Team confirmed this timing error by comparing the rise
+times of (most likely) particle-induced short events in the ACS and
+corresponding saturation signatures in the Ge-detectors of SPI.
+Using this method, the error was found to be 125 +/- 10 ms.
+The cause of this error is still unresolved.
+
+Starting with bursts which occurred after April 2 2004 11:00 UTC, a
+correction of 125 ms has been added to the publicly available ACS light
+curve files (http://isdcarc.unige.ch/arc/FTP/ibas/spiacs/).  Bursts which
+occurred before this date remain uncorrected at this time, but it
+is emphasized that a timing correction of ~125 ms should be added to
+all data files since the start of the mission.
+
+Application of this correction to IPN bursts with known positions
+yields better agreement with the triangulated positions.  Accordingly,
+the value of the ACS systematic uncertainty will now be reduced.
+
+
+This message is citable.
+
+
+
+
+

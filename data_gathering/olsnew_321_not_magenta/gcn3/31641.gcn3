@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31641
+SUBJECT: ZTF22aaajecp/AT2022cmc: Swift Observation and a UV Detection
+DATE:    22/02/23 19:00:52 GMT
+FROM:    Yuhan Yao at Caltech  <yyao@astro.caltech.edu>
+
+Yuhan Yao (Caltech), Igor Andreoni (JSI), Sergio Campana (INAF-OAB), Brad Cenko (GSFC)
+
+AT2022cmc was discovered by the Zwicky Transient Facility (ZTF) on 2022 Feb 11 as a fast and red optical transient (GCN 31590).  At z=1.193 (GCN 31602, 31612), its luminous radio, millimeter, and X-ray emission (GCN 31592, 31627, 31601) distinguish AT2022cmc from most extragalactic transients. The highly variable X-ray emission, the hardness evolution, and the power-law energy break revealed by NICER+NuSTAR observations make it similar to the relativistic TDE Swift J1644+57 (ATel 15230, 15232).
+
+On Feb 23, the Neil Gehrels Swift Observatory conducted a 2.6-ks observation at rest-frame 5.3 days after the first ZTF detection (i.e., 2022-02-11T10:42:40).
+
+AT2022cmc was detected by the X-Ray Telescope (XRT) at a count rate of 0.197+/- 0.0091 count/s. The Swift/XRT image shows just one source coincident with the radio position (GCN 31592), within the errors.
+We grouped the XRT spectrum to have at least 20 counts per bin and fitted the 0.3–6 keV spectrum with tbabs*ztbabs*zashift*powerlaw. We fixed the column density nH in tbabs at the Galactic value of 8.88 E+19 cm^-2 (HI4PI Collaboration et al. 2016). We obtained a good fit with a chi-square/degrees of freedom (chi2/dof) of 20.54/15. The best-fit power law index Gamma = 1.41 +0.26 -0.22, and host galaxy nH = 0.21 +0.43 -0.21 E+22 cm^-2 (errors are 90% confidence level for one parameter of interest). We note that the host nH is consistent with 0. The observed 0.3–6 keV flux is 5.4 +/- 0.6 E-12 erg/s/cm^2, which is similar to the NICER 0.3–6 keV flux of 8.7 +/- 0.1 E-12 erg/s/cm^2 on Feb 19 (Atel 15232).
+
+Photometry with the UltraViolet/Optical Telescope (UVOT) gives the following magnitudes (5” extraction region)
+Filter exptime (s) AB mag
+V       83.44 > 18.70
+B 83.44 > 19.63
+U 83.44 > 20.44
+UVW2 419.06 > 22.09
+UVM2 634.64 21.30 +/- 0.22 (stat) +/- 0.03 (sys)
+UVW1 251.73 > 21.35
+Upper limits are reported in 3-sigma.
+
+The detection in the M2 band testifies for a low intrinsic absorbing column density.

@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27288
+SUBJECT: LIGO/Virgo S200224ca: Transient found in Swift/UVOT counterpart search
+DATE:    20/03/02 17:34:15 GMT
+FROM:    Alice Breeveld at MSSL-UCL  <a.breeveld@ucl.ac.uk>
+
+A. A. Breeveld (MSSL-UCL), S. R. Oates (U. Birmingham), F. E. Marshall (NASA/GSFC), N. P. M. Kuin 
+(UCL-MSSL), P. Brown (TAMU), C. Gronwall (PSU), M.J. Page (UCL-MSSL), M. De Pasquale (Istanbul U.), 
+M. H. Siegel (PSU), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB), S. D. Barthelmy (NASA/GSFC), A. 
+P. Beardmore (U. Leicester), D. N. Burrows (PSU), S. Campana (INAF-OAB), S. B. Cenko (NASA/GSFC), G. 
+Cusumano (INAF-IASF PA), V. D'Elia(ASDC), P. A. Evans (U. Leicester), P. Giommi (ASI), D. Hartmann 
+(Clemson U.), J. A. Kennea (PSU), N. J. Klingler (PSU), H. A. Krimm (NSF), A. Y. Lien (GSFC/UMBC), 
+D. B. Malesani (DTU Space), A. Melandri (INAF-OAB), J. A. Nousek (PSU), P. T. O'Brien (U. 
+Leicester), J. P. Osborne (U. Leicester), C. Pagani (U. Leicester), K. L. Page (U.Leicester), D.M. 
+Palmer (LANL), M. Perri (ASDC), J. L. Racusin (NASA/GSFC), T. Sakamoto (AGU), B. Sbarufatti 
+(INAF-OAB/PSU), G. Tagliaferri (INAF-OAB), A. Tohuvavohu (U Toronto), and E. Troja (NASA/GSFC/UMCP) 
+report on behalf of the Swift team:
+
+We report a transient found in the UVOT search results of the LVC event S200224ca (LIGO/VIRGO 
+Collaboration GCN Circ. 27184).
+
+On 2020-02-25 at 16:05:25 UT Swift UVOT took a 75s exposure, 63.7ks after the GW trigger, in the u 
+band (exposure ID uu604339530, target ID 07031750) which showed a source that had brightened 
+significantly compared with archival images/catalogues. The source is not seen in the DSS, is not 
+listed in the Gaia DR2, 2MASS or GSC2.3 catalogues and is not listed as a minor planet. However, a 
+source is seen at this position in the Pan-STARRS catalogue (id 94241765879572233) with imag=21.6, 
+and in VISTA (id 473452322969).
+
+The position is:
+RA = 176.58794 deg
+Dec = -11.46508 deg
+which is RA=11:46:21.11, Dec=-11:27:54.3 (J2000).
+
+The magnitude using the UVOT photometric system  (Breeveld et al. 2011, AIP  Conf. Proc. 1358, 373) 
+is u=18.6 +/- 0.2 mag (Vega). In a followup observation with all filters, 275ks after the GW 
+trigger, the object had faded to u>19.6 mag, with upper limits in all filters.
+
+Filter    Date-obs              Exp(s)       Mag
+
+u         2020-02-25T16:05:25    75           18.6 +/- 0.2
+v         2020-02-28T02:44:02   334          >19.5
+b         2020-02-28T02:48:35   122          >19.9
+u         2020-02-28T02:47:27   143          >19.6
+w1        2020-02-28T02:46:19   307          >19.7
+m2        2020-02-28T02:45:10   333          >19.7
+w2        2020-02-28T02:42:54   333          >19.9
+
+No source is found at this position in the XRT, with a 3-sigma upper limit of  4.75 x 10-3 s^-1 
+which corresponds to a 0.3-10 keV observed flux of 1.9e-13 erg cm^-2 s^-1.
+
+At this position, the distance estimate from the LALInference sky map has a mean of 1556.46 Mpc with 
+a sigma of 320.357 Mpc.
+
+This circular is an official product of the Swift team.
+

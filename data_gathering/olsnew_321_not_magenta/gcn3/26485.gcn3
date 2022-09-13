@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26485
+SUBJECT: LIGO/Virgo S191213g: Pan-STARRS1 discovery of a potential optical counterpart
+DATE:    19/12/18 16:02:32 GMT
+FROM:    O. McBrien at QUB  <omcbrien02@qub.ac.uk>
+
+O. McBrien, S. J. Smartt, K. W. Smith, D. R. Young, J. Gillanders. S. Srivastav, P. Clark, D. O'Neill, M. Fulton, S. McLaughlin (QUB), K.C. Chambers , M. E. Huber, A.S.B. Schultz, T. de Boer, J. Bulger, J. Fairlamb, C.C. Lin, T. Lowe, E. Magnier , R. J. Wainscoat, M. Willman (IfA, Univ. Hawaii), A. Rest (STScI), C. Stubbs (Harvard), T.-W. Chen (Stockholm) on behalf of the Pan-STARRS collaboration report:
+
+We report the Pan-STARRS1 (Chambers et al. 2016, arXiv:1612.05560)
+discovery of an intrinsically faint optical transient in the 80%
+probability contour of the compact binary merger event S191213g (The
+LIGO Scientific Collaboration and the Virgo Collaboration, GCN 26402).
+
+The object, PS19hgw, was discovered on MJD 58833.305 (UTC 2019-12-16
+07:19:12) at a magnitude of 19.4 +/- 0.1 in the PS1-i band and
+coordinates RA = 01:55:41.94, Dec = +31:25:04.4. We have registered it
+on the TNS as AT2019wxt (McLaughlin et al. AstroNote 2019-154).
+Pan-STARRS1 was observing part of the skymap (LALInference.fits) of
+S191213g during routine survey operations and its ongoing Pan-STARRS
+search for kilonovae (Smartt et al. AstroNote 2019-48). We had two more
+detections on the same night, in the same filter. All exposures were
+45 seconds in duration.
+
+We have no previous detections at the location of the transient with
+Pan-STARRS, or indeed with ATLAS either (Tonry et al. 2018, PASP, 130,
+4505). There are no previous detections in the public ZTF transient
+stream (Bellm et al. 2018, PASP, 131, 995) as ingested in Lasair
+(Smith et al. 2019, RNAAS, 3, 26).
+
+We had no detection on the previous night, MJD 58832.305 (UTC
+2019-12-15 07:19:12), but only one frame was taken in poor conditions
+and the limit is not constraining (>19.4 in the PS1-i band).
+
+The most recent limits and photometry are: 
+
+MJD           | mag    | err   | filter
+58829.348 |  <21.0 |   ...   | z 
+58830.379 |  <20.3 |   ...   | z 
+58830.379 |  <20.3 |   ...   | z 
+58832.305 |  <19.4 |   ...   | i 
+58833.335 |  19.37 | 0.07 | i
+58833.320 |  19.32 | 0.07 | i 
+58833.305 |  19.38 | 0.05 | i 
+
+PS19hgw/AT2019wxt shows an association with the galaxy KUG 0152+311 at
+a redshift z = 0.036 (144 Mpc, NED). The current luminosity distance
+estimate accompanying the GW trigger, available through the
+LALInference.fits.gz skymap (GCN 26417), is 200 +/- 80 Mpc, placing
+PS19hgw/AT2019wxt within the plausible time-volume for association
+with this event. The distance modulus to PS19hgw/AT2019wxt is 35.8,
+giving an absolute magnitude at discovery of -16.5 in the PS1 i-band
+(assuming foreground extinction of A_i = 0.1). We note that this is 2
+magnitudes brighter than AT2017gfo was at +3days after merger, but no
+less encourage spectroscopic follow-up of this object.
+
+

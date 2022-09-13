@@ -1,0 +1,36 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4126
+SUBJECT: GRB 051021B: Swift detection of a burst
+DATE:    05/10/22 00:21:30 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+A. Retter (PSU), S. Barthelmy (GSFC), D. Burrows (PSU),
+M. Chester (PSU), N. Gehrels (GSFC), J. Kennea (PSU),
+F. Marshall (GSFC), D. Palmer (LANL), J. Racusin (PSU)
+on behalf of the Swift team:
+
+At 23:31:53 UT, Swift-BAT triggered and located GRB 051021B (trigger=160672).
+The BAT on-board calculated location is RA,Dec 126.037d,-45.519d
+{8h 24m 09s,-45d 31' 09"} (J2000), with an uncertainty of 3 arcmin
+(radius, 90% containment, stat+sys).  The BAT light curve shows
+a single FRED-like peak with structure with a total duration of ~25 sec.
+There is some pre-trigger emission starting at T-8 sec.  The peak count rate
+was ~1800 counts/sec (15-350 keV), at ~2 seconds after the trigger.
+
+The spacecraft slewed immediately and the XRT began observing at 23:33:14 UT
+(81 sec after the BAT trigger).  The on-board centroiding algorithm was not
+able to determine a position, but the prompt lightcurve and spectrum strongly
+suggest that a fading source is present in the field of view.  Further analysis
+will require ground-processed data.
+
+UVOT began observing 23:33:11 UT or 78 sec after the BAT trigger
+with a 200 sec V-band image.  It is a crowded field with high,
+but uncertain extinction.  No new sources are seen in either
+the small image or the list of sources produced in the on-board processing.
+The limiting magnitude in the small image is about 19th mag.
+The on-board list of sources covers the entire BAT error region and
+is typically complete to about 17th mag.
+
+Further analysis will be delayed due the lack of telemetry downlink passes
+for several hours.
+

@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21732
+SUBJECT: LIGO/Virgo G298936: HAWC follow-up
+DATE:    17/08/28 18:11:40 GMT
+FROM:    Israel Martinez-Castellanos at UMD/HAWC  <imc@umd.edu>
+
+I. Martinez-Castellanos (University of Maryland, College Park) and
+A.J. Smith (University of Maryland, College Park) on behalf of the
+HAWC Collaboration:
+
+HAWC was operating and our real-time all-sky GRB monitoring analysis was
+running at the time of the G298936 event. At the time of the event, the
+HAWC detector was oriented at (α, δ) = (165.9°, 19.0°), local zenith. 60%
+of the GW candidate location probability contour fell within our observable
+field (0-45 deg zenith angle), including the location with highest
+probability.
+
+We perform a real-time search for counts above the steady-state cosmic-ray
+background using 4 sliding time windows (0.1, 1, 10, and 100 seconds)
+shifted forward in time by 10% of their width over the course of the entire
+observing period. Within each time window, we search the HAWC sky within 45
+degrees of zenith using 2.1 deg x 2.1 deg square bins shifted by ~0.1 deg
+along the directions of Right Ascension and Declination. This analysis is
+optimized for detecting ~100 GeV photons and is sensitive to the most
+fluent GRBs. It did not report any significant post-trials events near the
+time of the LIGO trigger.
+
+After the LIGO trigger was reported, we re-analyzed the data collected
+around the trigger time (T0-dt to T0+3dt) on 3 timescales (dt = 1, 10, 100
+sec) with a reduced threshold to account for the reduced number of trials.
+No significant candidates were identified.
+
+Additionally, we searched for longer duration emission, integrating from
+the time of the trigger to the time when the overlapping 90% containment
+LIGO contour left our FOV. For reference, the maximum probability location
+(RA = 66.7 deg, Dec = 49.7 deg) was observed from T0 to T0 + 8 ks. This
+search covered the same 60% of the probability space as the prompt search.
+No significant excess was observed. HAWC has a 5-sigma point-source
+sensitivity to a flux >1 TeV of ~2x10^-11/cm^2/s, about ~1 “crab unit”, for
+a single transit observation.
+
+HAWC is a TeV gamma ray water Cherenkov array located in the state of
+Puebla, Mexico that monitors 2/3 of the sky every day with an instantaneous
+field-of-view of ~2 sr.

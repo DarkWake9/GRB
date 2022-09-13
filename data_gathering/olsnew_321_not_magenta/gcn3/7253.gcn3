@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7253
+SUBJECT: GRB 080205: Swift/UVOT observations
+DATE:    08/02/05 16:16:32 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S.R. Oates (MSSL-UCL) and C.B Markwardt (CRESST/GSFC/UMD) report
+on behalf of the UVOT team.
+
+The Swift/UVOT observed the field of GRB 080205 (trigger #302506)
+starting 111 seconds after the BAT trigger (Markwardt et al., GCN
+Circ. 7250). We detect the optical afterglow at the position:
+
+RA  (J2000) = 06:33:00.62
+Dec (J2000) =+62:47:31.98
+
+with an error of about 0.5". This is consistent with the position
+reported by Li et al.(GCN 7251) and lies within the revised
+XRT error circle (Osborne et al., GCN 7252).
+
+The optical afterglow initially brightens in the first few hundred seconds
+after the trigger and then begins to decay at around ~T+1000s. The
+afterglow is detected in the white and v filters only. The lack
+of detection in the b, u and uv filters suggests that this GRB is
+at a z ~ 4.0.
+
+The magnitudes and 3-sigma upper limits are listed:
+
+Filter    Tstart(s) Tstop(s) Exp    Magnitude
+--------------------------------------------------------------
+white       111	    211	      98   20.37 +/- 0.28 (3.7-sigma)
+             864	    964	      98   19.76 +/- 0.17 (6.2-sigma)
+             5436    5636     196   20.59 +/- 0.25 (4.2-sigma)
+v           217     617	     393   18.07 +/- 0.09 (11.4-sigma)
+             970	    1370     393   19.02 +/- 0.20 (5.4-sigma)
+b           697     686	     451   20.83   (3 sigma UL)
+u           672     6664     471   20.45   (3 sigma UL)
+uvw1        647     6458     286   20.13   (3 sigma UL)
+uvm2        622     7525     329   20.03   (3 sigma UL)
+uvw2        727     7279     452   20.39   (3 sigma UL)
+--------------------------------------------------------------
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E_{B-V} = 0.091 mag in the
+direction of the burst (Schlegel et al. 1998).
+

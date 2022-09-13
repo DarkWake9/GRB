@@ -1,0 +1,54 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4697
+SUBJECT: GRB 060206: Swift-BAT refined analysis
+DATE:    06/02/06 21:16:50 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+D. Palmer (LANL), L. Barbier (GSFC), S. Barthelmy (GSFC), 
+M. Chester (PSU), J. Cummings (GSFC/ORAU), E. Fenimore (LANL), 
+N. Gehrels (GSFC), D. Hullinger (UMD), H. Krimm (GSFC/USRA), 
+C. Markwardt (GSFC/UMD), F. Marshall (GSFC), T. Mitani (ISAS),  
+A. Parsons (GSFC), T. Sakamoto (GSFC/ORAU), G. Sato (ISAS), 
+M. Suzuki (Saitama), J. Tueller (GSFC), on behalf of the Swift/BAT team:
+
+Using the data set from T-60 to T+123 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 060206 (trigger 
+# 180455) (GCN Circ 4682, Morris et al.).  The BAT ground-calculated 
+position is (RA,Dec) = 202.932, 35.050 deg {13h 31m 43.8s, 35d 2' 58.7"}
+(J2000) +- 1.0 arcmin, (radius, sys_stat, 90% containment).  The partial 
+coding was 98%.
+
+The 1-second binned light curve shows a single peak which extends out to 
+around 8 seconds in the two lowest energy bins (15-25 and
+25-50 keV), but is shorter in duration in the two highest energy bins 
+(50-100 and 100-350 keV), extending out to only about 4 seconds.  This 
+could be an indication the burst is softening with time.  The highest 
+energy bin shows a possible double peak structure, with the first peak 
+at T0-1 second.  T90 (15-350 keV) is 7 +- 2 seconds (estimated error 
+including systematics).  
+
+The time-averaged spectrum from T-0.6 to T+13.7 is best fit by a 
+power law with an exponential cutoff. This fit gives a photon index 
+1.06 +- 0.34, and Epeak of 75.4 +- 19.5 keV (chi squared 57.88 
+for 56 d.o.f.).  For this model the total fluence in the 15 - 150 keV 
+band is (8.4 +- 0.4) x 10^-07 erg/cm2 and the 1-sec peak flux 
+measured form T+2.11 sec in the 15-150 keV band is (2.8 +- 0.2) 
+ph/cm2/sec.  A fit to a simple power law gives a photon index 
+of 1.69 +- 0.08 (chi squared 69.94 for 57 d.o.f.). 
+All the quoted errors are at the 90% confidence level.
+
+Using the best fit photon index and Epeak with a Band model with
+the high energy photon index fixed at beta = -2.5, and the redshift 
+of 4.045 (Fynbo et al. GCN 4692), the isotropic-equivalent energy, 
+Eiso, integrated from 1 to 1000 keV at the GRB rest frame is
+5.8 x 10^52 ergs.  This Eiso and the Epeak at the GRB rest frame
+((1+z)*Epeak = 380 keV) are consistent with the Epeak-Eiso (Amati)
+relation (Amati et al, 2002).  The Eiso in the BAT observed
+energy band (76 - 757 keV in the GRB rest frame) is 3.1 x 10^52 ergs. 
+
+The estimated jet break time using the Eiso-Epeak-t_break relation
+(Liang & Zhang, ApJ, 633, 611) would be 8.6 days after the burst
+at the observer's frame (using the Band model).  Using a cutoff 
+power-law for the analysis (which is also consistent with the 
+data) gives a 10.4 day estimate for the break time.
+

@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21061
+SUBJECT: LIGO/Virgo G284239: IceCube neutrino observations
+DATE:    17/05/03 15:05:09 GMT
+FROM:    Imre Bartos at Columbia/LIGO  <imrebartos@gmail.com>
+
+I. Bartos, S. Countryman (Columbia), C. Finley (U Stockholm), E. 
+Blaufuss (U Maryland), R. Corley, Z. Marka, S. Marka (Columbia) on 
+behalf of the IceCube Collaboration
+
+We searched IceCube online track-like neutrino candidates (GFU) detected 
+in a [-500,500] second interval about the LIGO-Virgo trigger G284239.  
+We compared the candidate source directions of 1 temporally-coincident 
+neutrinos to the LIB_SKYMAP skymap, with the following parameters:
+
+#            dt[s]     RA[deg]    Dec[deg]      E[TeV]  Sigma[deg]
+------------------------------------------------------------------
+1.            4.38       136.0        -2.9        0.79    28.2
+
+
+(dt--time from GW in [seconds]; RA/Dec--sky location in [degrees]; 
+E--reconstructed secondary muon energy in [TeV]; Sigma--uncertainty of 
+direction reconstruction in [degrees])
+
+The analysis found NO COINCIDENT ONLINE TRACK-LIKE NEUTRINO CANDIDATES 
+detected by IceCube within the 500 second window surrounding G284239 
+within the LIB_SKYMAP skymap.
+
+A coincident neutrino-GW skymap has been posted to GraceDB 
+(<https://gracedb.ligo.org/apiweb/events/G284239/files/coinc_skymap_initial_icecube.png,0>). 
+A JSON-formatted list of the above neutrinos can be downloaded from 
+GraceDB at: 
+<https://gracedb.ligo.org/apiweb/events/G284239/files/IceCubeNeutrinoList.json,0>
+
+In addition, we are performing coincident searches with other IceCube 
+data streams, including the high-energy starting events (HESE) and 
+Supernova triggers.  HESE events have typical energies > 60 TeV and 
+start inside the detector volume, leading to a relatively pure event 
+sample with a high fraction of astrophysical neutrinos.  The SN trigger 
+system is sensitive to sudden increases in photomultiplier counts across 
+the detector, which could indicate a burst of MeV neutrinos. We will 
+submit separate GCN circulars if coincident HESE or SN triggers are found.
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector 
+operating at the geographic South Pole, Antarctica.  For a description 
+of the IceCube realtime alert system, please refer to 
+<http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1610.01814>; for more 
+information on joint neutrino and gravitational wave searches, please 
+refer to <http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1602.05411>.
+

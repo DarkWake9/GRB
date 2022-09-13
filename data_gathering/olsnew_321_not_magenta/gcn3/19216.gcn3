@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19216
+SUBJECT: GRB 160321A: Swift-BAT refined analysis
+DATE:    16/03/22 14:47:19 GMT
+FROM:    Takanori Sakamoto at AGU  <tsakamoto@phys.aoyama.ac.jp>
+
+H. A. Krimm (GSFC/USRA), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 160321A (trigger #680017)
+(Stamatikos, et al., GCN Circ. 19211).  The BAT ground-calculated position is
+RA, Dec = 99.420, 5.753 deg which is
+     RA(J2000)  =  06h 37m 40.7s
+     Dec(J2000) = +05d 45' 09.3"
+with an uncertainty of 1.6 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 96%.
+
+The mask-weighted light curve shows a single-pulse structure that starts
+at ~ T0-22 sec, peaks at ~ T+2 sec, and ends at ~ T+23 sec.
+T90 (15-350 keV) is 33.6 +- 4.8 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-20.9 to T+19.0 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.89 +- 0.19.  The fluence in the 15-150 keV band is 5.3 +- 0.7 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+2.17 sec in the 15-150 keV band
+is 0.5 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+Based on the ground analysis result, this event is very likely a GRB.
+However, given that it is on the Galactic Plane (lat = -0.43 deg.),
+we cannot rule out a galactic origin.  We note that the BAT time averaged
+spectrum is soft but still in the typical range for BAT GRBs.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/680017/BA/
+

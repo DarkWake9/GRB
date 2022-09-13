@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26242
+SUBJECT: Konus-Wind observation of the recent SGR 1935+2154 activity
+DATE:    19/11/13 14:22:57 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+Since the renewal of bursting activity of the SGR 1935+2154
+on October 4 (Wood & Bissaldi et al., GCN 25975,
+Ambrosi et al., GCN 26153, GCN 26169, GCN 26171;
+Burgess et al., GCN 26160; Ukwatta et al., GCN 26162;
+von Kienlin, GCN 26163) Konus-Wind have triggered on
+two bursts from this source.
+
+The following is a list of the Konus-Wind triggers with preliminary
+estimates of the burst fluences and peak fluxes.
+------------------------------------------------------------------
+  Date         T0(KW) s UT                  Fl*           PF**
+------------------------------------------------------------------
+20191104 38666.612 s UT(10:44:26.612)  1.33 +/-0.07  17.0 +/-1.6
+20191105 22268.832 s UT(06:11:08.832)  4.85 +/-0.15  29.4 +/-1.9
+------------------------------------------------------------------
+*  -  Fluence (20-200 keV) in units of 1e-6 erg/cm2
+
+** - Peak Flux (20-200 keV) on 16-ms time scale
+        in units of 1e-6 erg/cm2/s
+
+The time-averaged spectra of the bursts are well fit in the
+20 - 200 keV range by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep) with the following parameters:
+-------------------------------------------------------------
+#   Tbeg-Tend         alpha            Ep(keV)    chi2/dof
+-------------------------------------------------------------
+1   0 - 0.128    0.47(-0.81,+0.91)    35(-4,+3)     6/13
+2   0 - 0.192   -0.29(-0.34,+0.36)    42(-2,+2)     25/19
+-------------------------------------------------------------
+In terms of spectral parameters and peak fluxes these bursts are
+very similar to the intermediate flare from SGR 1935+2154 (Kozlova et 
+al.,
+MNRAS 460 2, 2016) and, assuming also their durations and fluences,
+are typical of short bursts detected by KW during the previous 
+activation
+of the source.
+
+The Konus-Wind light curves of the bursts are available at
+http://www.ioffe.ru/LEA/SGRs/191104_T38666/
+http://www.ioffe.ru/LEA/SGRs/191105_T22268/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

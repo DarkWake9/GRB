@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6124
+SUBJECT: Konus-Wind and Konus-A observations of GRB 070220
+DATE:    07/02/21 14:46:52 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 070220 (Swift-BAT trigger #261299:
+Stamatikos et al., GCN 6114; Parsons et al., GCN 6121)
+triggered Konus-Wind at T0=17076.976 s UT (04:44:36.976).
+Konus-A observed GRB 070220 in the waiting mode.
+
+The Konus-Wind light curve shows a multipeaked pulse
+with a long decaying tail clearly seen up to T-T0 ~130 sec
+in both G1(18-70 keV) and G2(70-300 keV) bands.
+So, the Swift XRT and UVOT were on target and begun
+observations during the hard prompt emission
+(Stamatikos et al., GCN 6114; Beardmore et al., GCN 6118;
+M. De Pasquale and M. Stamatikos 6120).
+
+As observed by Konus-Wind the burst had a
+fluence of (2.98 +/- 1.15)x10^-5 erg/cm2,
+and the 256-ms peak flux measured from T0+9.600 s
+(2.47 +/- 0.50)x10^-6  erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the GRB
+(from T0 to T0+123.136 s) is well fitted (in the 20 keV - 2 MeV range)
+by GRBM (Band) model for which:
+the low-energy photon index is alpha =  -1.21 (-0.19, +0.29),
+the high energy photon index beta = -2.02 (-0.44, +0.27),
+the peak energy Ep = 299 (-130, +204) keV (chi2 = 52/60 dof).
+Fitting by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-(2-alpha)*E/Ep)
+yields alpha = 1.33(-0.18, +0.15)
+and Ep = 443(-150, +420) keV (chi2 = 55/61 dof).
+
+The spectrum of the burst maximum
+(accumulated from T0 s to T0+16.640 s)
+is well fitted
+(in the 20 keV - 2 MeV range)
+by GRBM (Band) model for which:
+the low-energy photon index is alpha = -1.04 (-0.15, 0.18),
+the high energy photon index beta = -2.07 (-0.36, 0.18),
+the peak energy Ep = 261 (-57, +81) keV (chi2 = 59/60 dof).
+The fluence of this part is 1.62(-0.20, +0.19)x10^-5 erg/cm2.
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB070220_T17076/
+

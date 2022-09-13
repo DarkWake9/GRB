@@ -1,0 +1,87 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7540
+SUBJECT: GRB080330 - SDSS Pre-Burst Observations
+DATE:    08/03/30 04:24:11 GMT
+FROM:    Richard J. Cool at U.of AZ/Steward Obs  <rcool@as.arizona.edu>
+
+Richard J. Cool (Arizona), Daniel J. Eisenstein (Arizona),
+David W. Hogg (NYU), Michael R. Blanton (NYU), David J. Schlegel
+(LBNL), J. Brinkmann (APO), Donald Q. Lamb (Chicago), Donald
+P. Schneider (PSU), and Daniel E. Vanden Berk (PSU) report:
+
+The Sloan Digital Sky Survey (SDSS) imaged the field of burst
+GRB080330 prior to the burst.  As these data should be useful
+as a pre-burst comparison and for calibrating photometry,
+we are supplying the images and photometry measurements for
+this GRB field to the community.
+
+Data from the SDSS, including 5 FITS images, 3 JPGS, and
+3 files of photometry and astrometry, are being placed at
+http://mizar.as.arizona.edu/~grb/public/GRB080330
+
+We supply FITS images in each of the 5 SDSS bands of a 8'x8'
+region centered on the GRB position (ra=169.302 (11:17:12.5),
+dec=30.5700 (30:34:12.0); Swift-BAT 308041), as well as 3 gri
+color-composite JPGs (with different stretches). The units
+in the FITS images are nanomaggies per pixel.  A pixel is
+0.396 arcsec on a side. A nanomaggie is a flux-density unit
+equal to 10^-9 of a magnitude 0 source or, to the extent that
+SDSS is an AB system, 3.631e-6 Jy.  The FITS images have WCS
+astrometric information.
+
+In the file GRB080330_sdss.calstar.dat, we report photometry
+and astrometry of 219 bright stars (r<20.5) within 15' of the
+burst location.  The magnitudes presented in this file are asinh
+magnitudes as are standard in the SDSS (Lupton 1999, AJ, 118,
+1406). Beware that some of these stars are not well-detected
+in the u-band; use the errors and object flags to monitor
+data quality.
+
+In the files GRB080330_sdss.objects_flux.dat and
+GRB080330_sdss.objects_magnitudes.dat, we report photometry
+of 1512 objects detected within 6' of the GRB position.
+We have removed saturated objects and objects with model
+magnitudes fainter than 23.0 in the r-band.  The fluxes listed
+in GRB080330_sdss.objects_flux.dat are in nanomaggies while
+the magnitudes listed in GRB080330_sdss.objects_magnitudes.dat
+are asinh magnitudes.
+
+
+All quantities reported are standard SDSS photometry, meaning
+that they are very close to AB zeropoints and magnitudes are
+quoted in asinh magnitudes.  Photometric zeropoints are known
+to about 2% rms.  None of the photometry is corrected for
+dust extinction.  The Schlegel, Finkbeiner, and Davis (1998)
+predictions for this region are A_U=0.082 mag, A_g=0.060 mag,
+A_r = 0.044 mag, A_i=0.033 mag, and A_z=0.023 mag.
+
+The file GRB080330_sdss.spectro.dat contains a list of the
+2 objects with SDSS spectroscopy within 6 arcminutes of the
+GRB position.  In addition to the redshift and 1-sigma error
+for each object, this file also lists the object spectroscopic
+classification.
+
+
+SDSS astrometry is generally better than 0.1 arcsecond per
+coordinate.  Users requiring high precision astrometry should
+take note that the SDSS astrometric system can differ from
+other systems such as those used in other notices; we have
+not checked the offsets in this region.
+
+More detailed information pertaining to our SDSS GRB releases
+can be found in our initial data release paper (Cool et
+al. 2006, PASP 118, 733).  See the SDSS DR4 documentation for
+more details: http://www.sdss.org/dr5.
+
+These data have been reduced using a slightly different
+pipeline than that used for SDSS public data releases.
+We cannot guarantee that the values here will exactly match
+those in the data release in which these data are included.
+In particular, we expect the photometric calibrations to differ
+by of order 0.01 mag.
+
+This note may be cited, but please also cite the SDSS data
+release paper, Adelman-McCarthy et al. (2007, ApJS, 172, 634),
+when using the data or referring to the technical documentation.
+
+

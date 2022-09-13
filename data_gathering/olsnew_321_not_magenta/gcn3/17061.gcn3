@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17061
+SUBJECT: Swift Trigger 618402: probable noise event
+DATE:    14/11/12 10:14:17 GMT
+FROM:    Craig Markwardt at NASA/GSFC  <Craig.Markwardt@nasa.gov>
+
+M. G. Bernardini (INAF-OAB), P. D'Avanzo (INAF-OAB),
+D. Malesani (DARK/NBI) and C. B. Markwardt (NASA/GSFC) report on
+behalf of the Swift Team:
+
+At 09:06:27 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located image trigger 618402.  Swift slewed immediately 
+to the location. The BAT on-board calculated location is 
+RA, Dec 189.977, +15.479 which is 
+   RA(J2000) = 12h 39m 55s
+   Dec(J2000) = +15d 28' 44"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve does not show any significant
+variation, which is typical for an image trigger.  The on-board image 
+significance is 6.3 sigma, which is below the threshold for declaring
+a burst.  However, ground-based processing does find a slightly improved
+significance of 6.5 sigma.  More information will be known after processing
+the full BAT data set. 
+
+The XRT began observing the field at 09:08:42.0 UT, 134.8 seconds after
+the BAT trigger. 
+No X-ray source was detected in 590 s of promptly-downlinked data, 
+suggesting that the initial on-board centroid was likely due to a cosmic ray. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 142 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products.  Results from the list of sources
+generated on-board are not available at this time. 
+
+This was a low-significance image trigger in the direction of NGC 4595. 
+However, NGC 4595 is 11 arc minutes from the center of the 
+BAT error circle (error circle radius 3 arcminutes), so the association is 
+unlikely.  Given the lack of detection of XRT or UVOT counterparts, this
+trigger is likely the result of a noise fluctuation. 
+

@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17712
+SUBJECT: Swift Trigger 638217 is probably not an astrophysical source
+DATE:    15/04/17 05:09:59 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+N. Gehrels (NASA/GSFC), H. A. Krimm (CRESST/GSFC/USRA),
+A. Y. Lien (GSFC/UMBC), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU) and M. H. Siegel (PSU) report on behalf
+of the Swift Team:
+
+At 04:52:50 UT, the Swift Burst Alert Telescope (BAT) detected a
+marginal significance peak in an non-rate-triggered image
+(trigger=638217). Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 186.582, +15.433 which is 
+   RA(J2000) = 12h 26m 20s
+   Dec(J2000) = +15d 25' 58"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with an image trigger, 
+the available BAT light curve shows no significant structure. 
+
+The XRT began observing the field at 04:55:03.4 UT, 132.9 seconds after
+the BAT trigger. No source was detected in 147 s of promptly downlinked
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 135 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+This event triggered as part of program to follow-up marginal
+image triggers in proximity to nearby galaxies to confirm or refute
+weak events.  In this case, the low significance (5.96 sigma),
+lack of a rate trigger, distance from the potential host galaxy
+(10 arcminutes from NGC 4421, which has a nominal diameter of 2.5 arcmin)
+and non-detection of any afterglow by XRT and UVOT implies that 
+this is a noise fluctuation in the image, and not an astrophysical source. 
+

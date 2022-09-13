@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30316
+SUBJECT: GRB 210610B: T-CAT optical observations
+DATE:    21/06/25 14:40:15 GMT
+FROM:    Denis Marchais at Amateur astronomer  <denis.marchais@free.fr>
+
+I observed the field of GRB 210610B (Page et al., GCN #30170) with the
+T-CAT telescope 0.4-meter f/4 Newton with a f/3 reducer, IR-cut filter
+at 630nm and ZWO ASI533MC camera, located in Cintegabelle, France, on
+June 11, 12 and 13.
+
+The camera has a Sony sensor with Bayer filters R,G,B, that fairly 
+match the standard Bc, Vc, and r' filters considering the additional
+IR-cut filter. Each observation results from stacking 120x 32s exposures.
+
+The GRB OT is clearly detected in the stacked frames at the following
+location, matching other observations (e.g. , Fynho et al. GCN #30182,
+Osborne et al. GCN #30186) though approaching the detection limit on
+third observation, June 13th.
+   RA(J2000)  = 16h 15m 40.39s
+   Dec(J2000) = +14d 23' 56.3"
+
+The following magnitudes were obtained thanks to PixInsight photometric 
+calibration using nearby APASS DR10 stars.
+
+Date        UT start     Filter   Exp. (s)    OT     err
+2021-06-11  23:52:21     Bc       120x 32     20.53  +/- 0.05
+2021-06-11  23:52:21     Vc       120x 32     20.00  +/- 0.04
+2021-06-11  23:52:21     r'       120x 32     19.64  +/- 0.04
+2021-06-12  22:48:22     Bc       120x 32     21.79  +/- 0.11
+2021-06-12  22:48:22     Vc       120x 32     20.91  +/- 0.07
+2021-06-12  22:48:22     r'       120x 32     20.90  +/- 0.10
+2021-06-13  22:45:36     Bc       120x 32     21.77  +/- 0.1
+2021-06-13  22:45:36     Vc       120x 32     21.42  +/- 0.09
+2021-06-13  22:45:36     r'       120x 32     21.76  +/- 0.2
+
+I thank A. Taylor, H.-B. Eggenstein and E. Broens (GCN#30205) for sharing
+information through the KNCatcher citizen-science programme initiated by
+S. Antier and A. Klotz as part of GRANDMA initiative (GRANDMA Observations
+of Advanced LIGO's and Advanced Virgo's Third Observational Campaign,
+Antier et al. https://arxiv.org/abs/2004.04277v2).
+

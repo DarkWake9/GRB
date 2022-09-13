@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4013
+SUBJECT: GRB 050922C: Swift detection of a bright burst
+DATE:    05/09/22 21:05:45 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+J. Norris (GSFC), L. Barbier (GSFC), D. Burrows (PSU), A. Cucchiara (PSU),
+J. Cummings (GSFC/NRC), N. Gehrels (GSFC), M. Goad (U. Leicester),
+O. Godet (U. Leicester), S.T. Holland (GSFC/USRA), J. Kennea (PSU),
+F. Marshall (GSFC), D. Palmer (LANL), T. Sakamoto (GSFC/NRC),
+on behalf of the Swift team:
+
+At 19:55:50 UT Swift-BAT triggered and located GRB 050922C (Trigger=156467)
+and immediately slewed.  The BAT on-board calculated position is RA,Dec= 
+317.391d, -8.772d {21h 09m 34s, -08d 46' 17"} (J2000) with an uncertainty
+of 3 arcmin (radius, 90% containment, stat+sys).  The TDRSS light curve 
+shows an intense GRB with a rising precursor starting at T-5 seconds, 
+followed by 5-second long main peak surmounted by three spikes.  The third 
+and most intense spike has a maximum count rate at T+1 sec of 15,000 
+counts/sec (15-350 keV).
+
+XRT began observing the field at 19:57:38 UT, 108 seconds after the BAT
+trigger. XRT performed an onboard centroid and found a previously
+uncataloged fading source in the field of view at the following coordinates:
+
+RA(J2000):  21:09:33.4,
+Dec(J2000): -8:45:30.5,
+
+with an estimated uncertainty of 8 arcseconds radius (90% containment). This
+position is 49 arcseconds from the BAT position and within 4.5 arcsec of the
+optical transient reported by Rykoff et al. (GCN circ 4011 [mistitled]).
+
+UVOT began observing at 111 sec after the trigger.  The small UVOT TDRSS 
+image does not overlap the XRT error circle. However, the full-field UVOT 
+source list contains a bright, uncataloged source within the XRT error
+circle.  We estimate the V magnitude at 15.5 +- 0.5 uncorrected for 
+extinction.  The V-band extinction in this field is A_V = 0.34 mag.
+
+[GCN OPS NOTE(22sep05): Per author's request, the Subject-line
+was changed from "050822" to "050922".]

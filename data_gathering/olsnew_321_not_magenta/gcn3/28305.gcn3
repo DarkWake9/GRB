@@ -1,0 +1,92 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28305
+SUBJECT: Zwicky Transient Facility discovery of ZTF20abtxwfx/AT2020sev, a fast optical transient and candidate afterglow
+DATE:    20/08/29 02:48:17 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Anna Ho (UCB), Michael Coughlin (UMN), Mansi
+Kasliwal (Caltech), Eric Burns (LSU), Dmitry Svinkin (Ioffe
+Institute), Tomas Ahumada (UM), Yuhan Yao (Caltech), Daniel Perley
+(LJMU), Shreya Anand (Caltech), Erik Kool (OKC), Ana Sagues Carracedo
+(OKC)
+on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of
+Observatories Watching Transients Happen (GROWTH) collaborations
+
+We report the discovery of the fast optical transient
+ZTF20abtxwfx/AT2020sev with the Zwicky Transient Facility (ZTF, Bellm
+et al. 2019, Graham et al. 2019) at coordinates:
+
+RAJ2000 = 16:41:21.21 (250.338384d)
+DecJ2000 = +57:08:20.5 (+57.139027d)
+
+ZTF20abtxwfx was found during the science validation of the new "ZTF
+Realtime Search and Triggering" (ZTF-ReST) project. ZTF-ReST will aim
+at near real-time identification of kilonova candidates in ZTF data
+using the methods described in Andreoni et al. (2020d), independently
+of gravitational-wave or gamma-ray triggers.
+
+ZTF20abtxwfx was first detected on 2020-08-18 05:20 UT, heareafter
+labelled T_det. ZTF20abtxwfx faded by ~1.3 mag in r-band in the first
+2 days since T_det. The transient was last detected on 2020-08-23
+04:51 UT at r = 20.98 +- 0.24 mag. Stringent upper limits constrain
+the transient onset time to be within ~1 day from T_det. The color of
+the transient appears to be red, with g-r~0.1 and g-i~0.3 one day
+after T_det. The Galactic extinction on the line of sight is low, with
+E(B-V)=0.015 mag (Planck Collaboration et al., 2015).
+
+In the table below, we report forced photometry obtained with
+ForcePhotZTF (Yao et al., 2019) on images processed in real-time
+through the ZTF reduction and image subtraction pipelines at IPAC
+(Masci et al. 2019).
+
+-----------------+--------+------+------
+    Date (UT)    |  mag   | emag | band
+-----------------+--------+------+------
+2020-08-17 06:45 | > 21.0 |      |  r
+2020-08-18 05:20 | 19.22  | 0.04 |  r
+2020-08-19 04:19 | 20.03  | 0.11 |  r
+2020-08-19 05:23 | 20.16  | 0.09 |  g
+2020-08-19 05:53 | 19.83  | 0.14 |  i
+2020-08-20 04:47 | 20.54  | 0.15 |  r
+2020-08-20 05:46 | 20.66  | 0.16 |  g
+2020-08-21 04:25 | 20.71  | 0.17 |  r
+2020-08-21 06:54 | > 20.8 |      |  g
+2020-08-23 04:12 | > 21.0 |      |  g
+2020-08-23 04:51 | 20.98  | 0.24 |  r
+2020-08-24 04:26 | > 20.5 |      |  r
+-----------------+--------+------+------
+
+
+ZTF20abtxwfx is located at high Galactic latitude b_Gal = 40.0 deg.
+Deep Legacy Survey, Pan-STARRS1, and CFHT images of the field do not
+reveal any permanent source at the transient location. The spatially
+closest source reported in the Legacy Survey DR8 catalog (RA, Dec =
+250.3368d, 57.1377d) has a separation of 5.7 arcsec from ZTF20abtxwfx,
+is extended (not point-like), has photometric redshift of z = 0.73 +-
+0.2, and has reported magnitudes of g=23.37 mag, r=22.63 mag, and
+z=21.86 mag.
+
+We searched the GCN archives, the Fermi GBM catalog, the Fermi GBM
+subthreshold catalog, and the Konus-Wind triggered and waiting mode
+data for any possible gamma-ray burst (GRB) counterpart. We found one
+possible counterpart, GRB 200817A (Fermi GBM Team, GCN #28254). The
+trigger time of GRB 200817A was on 2020-08-17 09:25:20 UT, which lies
+in the time interval between our last optical non-detection and T_det.
+ZTF20abtxwfx is located in the 93rd percentile of the localization
+region, at an angular distance of about 32 degrees from the central
+GRB position. We confirm that the position of ZTF20abtxwfx was within
+the GBM field-of-view at the time of the GRB.
+
+Multi-wavelength follow-up of ZTF20abtxwfx is encouraged.
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC,
+USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan;
+IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No
+1440341. GROWTH acknowledges generous support of the NSF under PIRE
+Grant No 1545949. Alert distribution service provided by DIRAC@UW
+(Patterson et al. 2019). Alert database searches are done with
+Kowalski (Duev et al. 2019).
+

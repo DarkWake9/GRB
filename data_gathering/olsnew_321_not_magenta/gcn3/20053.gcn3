@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20053
+SUBJECT: GRB161004A: Further analysis of the burst nature
+DATE:    16/10/16 00:06:51 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. D. Barthelmy (GSFC), P.A. Evans (U Leicester), N. Gehrels (GSFC),
+A. Y. Lien (GSFC/UMBC), J. P. Norris (BSU), P. O'Brien (U Leicester),
+K. L. Page (U Leicester), J. L. Racusin (NASA/GSFC),
+and H. Ziaeepour report on behalf of the Swift Team:
+
+We performed further analysis of GRB161004A (trigger #715084;
+Evans et al., GCN Circ. 19979), to explore the possibility to
+clarify its short/long nature.
+
+Using the full BAT event data set from T-240 to T+962 sec,
+the updated T90 is 3 +/- 1.4 s (using the 1-s binned light curve).
+This T90 is longer than the 1.08 +- 0.21 s originally reported
+(Palmer et al, GCN Circ. 20001). However, we note that due to
+the weakness of the burst, the standard pipeline finds a T90 that
+varies from ~ 1.3 s to ~ 3 s when using light curves with different
+bin sizes.
+
+The image analysis with the BAT data in 15-150 keV finds no significant
+detections for extended emission within several hundred seconds
+after the trigger. However, the BAT image from T+250 s to T+350 s,
+which is the time period around the peak of the XRT flare,
+does show a slight increase of significance of 3.8 sigma (comparing
+to ~ 1 to 2 sigma detections for other periods). Therefore, it is possible
+that the XRT flare might be the second peak of the prompt emission, but
+was close to the detection limit of the BAT.
+
+The time averaged spectrum is best fit by a simple power-law model,
+with an index of 1.3 +/- 0.33. This value is consistent with the average
+value of the short GRB distribution, and slightly on the harder side of the
+long burst distribution, but still within the majority (Lien & Sakamoto et al.
+2016).
+
+The lag analysis is still unavailable due to the weakness of the burst
+(Palmer et al, GCN Circ. 20001).
+
+The bright flare in the XRT light curve around T+300 s is unusual
+for short GRBs. However, Swift have detected short GRBs with
+flares before (e.g., GRB 070724A, GRB 100816A; Margutti et al., 2011,
+MNRAS, 417, 2144), and thus we cannot rule out the short-burst
+possibility base on this.
+
+Therefore, we conclude that the burst nature remains ambiguous
+with current information.

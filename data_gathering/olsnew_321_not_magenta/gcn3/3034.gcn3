@@ -1,0 +1,66 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3034
+SUBJECT: GRB 050215b: XRT confirmation of IR afterglow candidate
+DATE:    05/02/18 18:35:51 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+M. Goad, K. Page, J. P. Osborne, P. O'Brien (U. Leicester), D. C.
+Morris,  J. A. Kennea, D. N. Burrows, J. L. Racusin, J. E. Hill, M. M.
+Chester, J. A. Nousek (PSU), P. Giommi, M. Capalbi, M. Perri, F. Tamburelli
+(ASDC), P. Romano, G. Tagliaferri, S. Campana, A. Moretti, C. Pagani,  G.
+Chincarini (INAF-OAB), G. Cusumano, V. Mangano, V. La Parola
+(INAF-IASF/Palermo), A. A. Wells (U. Leicester),  B. Zhang (U. Nevada), T.
+Sakamoto, L. Angelini, N. Gehrels (GSFC), W. Voges (MPE), L. Cominsky
+(Sonoma State U.), M. Tripicco (GSFC-SSAI) report on behalf of the Swift
+XRT team:
+
+We confirm that the fading IR object discovered by Tanvir et al. 2005 (GCN 
+3031) is the afterglow of GRB 050215b.
+
+We have discovered an error in the astrometry for previously-reported XRT 
+positions on the field of GRB050215b.  This affects both the position 
+reported by Page et al. 2005 (GCN 3027) and some of the information in Goad 
+et al. 2005 (GCN 3032).  We recommend that those GCNs not be referenced, 
+and that this Circular be referenced instead for XRT observations of this 
+burst.
+
+The corrected XRT position for the afterglow of GRB 050215b is
+
+RA(J2000) = 11 37 47.7 , Dec(J2000) =  +40 47 44.0
+
+The estimated uncertainty in this position is 6 arcseconds radius.  We note 
+that this corrected error circle now includes the UKIRT counterpart 
+candidate (Tanvir et al. 2005, GCN 3031).  Further, the new XRT position 
+puts the USNO/2MASS object mentioned in GCN 3032 outside of the XRT error 
+circle.  We can therefore definitely confirm this object as the afterglow 
+of GRB 050215b.
+
+We can also now definitely say that the XRT counterpart is fading, but with 
+a fairly flat decay curve (slope of -0.76 +/- 0.26).
+
+The Swift XRT has continued to  monitor the X-ray source (now designated SWIFT
+J113747.7+404744) discussed in GCN 3027 (Page et al. 2005) in the field of
+GRB 050215b.  We now have data over two epochs, indicating a decaying light
+curve for this object.
+
+First epoch:
+	We obtained 5155 seconds of data in Photon-Counting mode (our most
+sensitive observing mode) from six orbits beginning at 04:09:52 UT on
+2005-02-15.  The average count rate for SWIFT J113747.7+404744 in the first
+two orbits is 0.0231 +/- 0.0050 cps (0.2-10 keV).  The average count rate
+for this source over orbits 3-6 is 0.0108 +/- 0.0018 cps, consistent with a
+decreasing rate.
+
+Second epoch:
+	We obtained 1640 seconds on SWIFT J113747.7+404744 between 01:36:37 UT and
+09:39:42 UT on 2005-02-17 in Photon-Counting mode.  The source is
+undetectable in this second epoch, with a 95% confidence upper limit on the
+count rate of 0.0018 cps (0.2-10 keV, calculated using the method of Kraft,
+Burrows, and Nousek 1993, ApJ, 1991, 374, 344).
+
+
+Further Swift observations of this field are planned through the weekend.
+
+[GCN OPS NOTE (18feb05): Per author's request some typos were corrected:
+In lines 42 and 55, "J1137477+404744" was changed to "J113747.7+404744".
+In line 49 "J113746.1+404754" was changed to "J113747.7+404744".]

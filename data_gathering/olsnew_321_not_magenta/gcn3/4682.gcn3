@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4682
+SUBJECT: GRB060206: Swift-BAT detection of a burst
+DATE:    06/02/06 05:36:23 GMT
+FROM:    David Palmer at LANL  <dmpalmer@mac.com>
+
+D. Morris (PSU), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/ORAU), N. Gehrels (GSFC), S. Hunsberger (PSU),
+C. Markwardt (GSFC/UMd), D. Palmer (LANL), and E. Rol (U. Leicester)
+on behalf of the Swift team:
+
+At 04:46:53 UT, Swift-BAT triggered and located GRB060206  
+(trigger=180455).
+The spacecraft slewed immediately. The BAT on-board location is
+RA,Dec 202.946d,+35.075d {13h 31m 47s,+35d 04' 29"} (J2000), with
+an uncertainty of 3 arcmin (radius, 90% containment, stat+sys).
+The BAT light curve showed a single bright gaussian-peak
+structure from T-1 to T+10 sec. The peak count rate was ~6000
+counts/sec (15-350 keV), at ~2 seconds after the trigger.
+
+The XRT began taking data at 04:47:52, 58 seconds after the BAT trigger.
+The XRT on-board centroid  algorithm did not find a source in the image
+and no prompt position is available. The burst occurred shortly before
+entry into the SAA, and therefore the count-rate lightcurve may be
+insensitive to a fading source.  We are waiting for down-linked data
+to determine a position.
+
+UVOT took a finding chart exposure of 72 seconds with the V filter
+starting 58 seconds after the BAT trigger. No afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image
+covers 25% of the BAT error circle.  The 8'x8' region for the list
+of sources generated on-board covers 100% of the BAT error circle.
+No correction has been made for the expected extinction of
+about 0.04 magnitudes.
+

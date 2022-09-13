@@ -1,0 +1,52 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5558
+SUBJECT: GRB 060912: Swift detection of a burst with an optical afterglow
+DATE:    06/09/12 14:24:06 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. P. Hurkett (U Leicester), S. D. Barthelmy (GSFC),
+P. J. Brown (PSU), D. N. Burrows (PSU), M. M. Chester (PSU),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+O. Godet (U Leicester), C. Guidorzi (Univ Bicocca&INAF-OAB),
+S. T. Holland (GSFC/USRA), S. Immler (GSFC/USRA), J. A. Kennea (PSU),
+H. A. Krimm (GSFC/USRA), F. E. Marshall (NASA/GSFC),
+K. M. McLean (LANL/UTD), P. T. O'Brien (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL), A. M. Parsons (GSFC),
+P. Romano (INAF-OAB), T. Sakamoto (NASA/ORAU), G. Sato (GSFC/ISAS),
+M. Stamatikos (NASA/ORAU) and H. Ziaeepour (UCL-MSSL) report on
+behalf of the Swift Team:
+
+At 13:55:54 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060912 (trigger=229185).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA,Dec 5.286, +20.971 {00h 21m 09s, +20d 58' 17"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single FRED-like peak
+(FWHM ~3 sec) with a total duration of about 7 sec.  The peak count rate
+was ~6000 counts/sec (15-350 keV), at ~1 sec after the trigger.  We note that the 
+spectrum is hard and the main emission is confined to ~3 sec.  It is possible that 
+the burst is short, although it appears with existing data to be long.  A lag 
+analysis will be done with the event data in ~3 hours. 
+
+The XRT began taking data at 13:57:43 UT, 109 seconds after the BAT
+trigger. The XRT on-board centroid algorithm did not find a source in
+the image but ground analysis of flight data reveals a fading source
+at Ra, Dec 00h 21m 08.2 +20 58 18.6 (J2000), with an uncertainty of
+3.9" (radius, 90% containment). This is 7 arcseconds from the BAT
+position and 1 arcsecond from the UVOT position. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 113 seconds after the BAT trigger. There
+is a candidate afterglow in the rapidly available 2.7'x2.7' sub-image
+at RA(J2000) = 00:21:08.16 (5.2840) DEC(J2000) = +20:58:17.8
+(20.9716) with a 1-sigma error radius of about 0.5 arc sec. This
+position is 7.0 arc sec. from the center of the BAT error circle. The
+estimated magnitude is 16.1 with a 1-sigma error of about 0.5 mag. The
+afterglow fades to about 18th magnitude in the subsequent white
+finding chart. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.05. 
+
+We note that there is a 2MASS galaxy in the Hyperleda catalog
+at  00:21:08.6 20:58:08 (PGC # 1639821), 11.5 arc sec from the UVOT 
+position.  The diameter of the galaxy is 0.36 arcmin. 
+

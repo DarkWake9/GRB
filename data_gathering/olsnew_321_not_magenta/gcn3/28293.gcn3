@@ -1,0 +1,114 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28293
+SUBJECT: GRB200826A: Zwicky Transient Facility Follow-Up of a Fermi Short GRB (Trigger 620108997)
+DATE:    20/08/26 22:32:02 GMT
+FROM:    Tomas Ahumada at U. of Maryland  <tahumada@astro.umd.edu>
+
+Ana Sagues Carracedo (OKC), Harsh Kumar (IITB), Tomas Ahumada (UMD), Igor
+Andreoni (Caltech), Shreya Anand (Caltech),  Robert Stein (DESY), Michael
+Coughlin (UMN), Leo Singer (NASA/GSFC) on behalf of the Zwicky Transient
+Facility (ZTF) and Global Relay of Observatories Watching Transients Happen
+(GROWTH) collaborations
+
+
+We observed the localization region of the short GRB200826A (trigger
+620108997) detected by the Gamma-Ray Burst Monitor (GBM) on the Fermi
+satellite with the Palomar 48 inch telescope equipped with the 47 square
+degree Zwicky Transient Facility (ZTF) camera.
+We obtained a series of g- and r-band images covering 185.5 square degrees
+beginning at 09:22:55 UT on 2020 Aug 26 (about 5 hours after the burst
+trigger time). This corresponds to ~77.5% of the probability enclosed in
+the GRB localization map (GCN 28284). Each exposure was 300s, reaching a
+g-band median depth of 22.3 mag and r-band median depth of 22.1 mag. The
+median limiting magnitude of the last 5 survey-mode nights (30 sec
+exposures) was g ~ 20.6 mag and r ~ 20.0 mag, limiting our capability to
+temporally constrain some of our faintest transients. The images were
+processed in real-time through the ZTF reduction and image subtraction
+pipelines at IPAC (Masci et al. 2019).
+
+We queried the ZTF alert stream using Kowalski (Duev et al. 2019) and AMPEL
+(Nordin et al. 2019). We required at least 2 detections separated by at
+least 15 minutes to select against moving objects. Furthermore, we
+cross-matched our candidates with the Minor Planet Center to flag known
+asteroids, reject stellar sources (Tachibana and Miller 2018), and apply
+machine learning algorithms (Duev et al. 2019, Mahabal et al. 2019). We
+require no spatially coincident ZTF alert to be issued before the detection
+time of the GBM trigger. The candidates within the 95% probability contour
+of the GRB localization map that passed the automatic selection criteria
+and human vetting are presented in the table below.
+
+
++----------------------------------------------------------------------------------------------------+
+| ZTF Name      | IAU Name  | RA (deg)  | DEC (deg)  | Filter | Mag   |
+MagErr | g-r |MJD      | Notes |
++----------------------------------------------------------------------------------------------------+
+| ZTF20abwyple  | AT2020sbi | 1.3824038 | 37.3638915 | r | 21.2 | 0.11 |
+0.13 | 2459087.9109491 | (a) |
+| ZTF20abwyueq  | AT2020sbn | 9.2615748 | 39.6340049 | r | 21.8 | 0.13 |
+0.08 | 2459087.9219444 | (a) |
+| ZTF20abwyzdb  | AT2020sbp | 9.2046817 | 43.6712369 | r | 21.7 | 0.17 |
+0.4  | 2459087.9219444 | (b) |
+| ZTF20abwytgj  | AT2020sbc | 5.7051754 | 29.8539268 | r | 22.0 | 0.19 |
+0.09 | 2459087.9181366 | (a) |
+| ZTF20abwysgz  | AT2020sbm | 8.2746333 | 30.7142518 | r | 20.2 | 0.05 |
+0.1  | 2459087.9181366 | (a) |
+| ZTF20abwywiz  | AT2020sbv | 1.4094587 | 36.2573281 | r | 21.9 | 0.21 |
+0.45 | 2459087.9145486 | (b) |
+| ZTF20abwyrop  | AT2020sbd | 359.33861 | 31.1190224 | r | 21.5 | 0.12 |
+0.22 | 2459087.9145486 | (c) |
+| ZTF20abwyxpj  | AT2020sbs | 12.411974 | 31.7868639 | r | 21.8 | 0.16 |
+0.35 | 2459087.9181366 | (c)(d) |
+| ZTF20abwypor  | AT2020sbk | 6.8956443 | 37.2409844 | r | 21.5 | 0.13 |
+0.15 | 2459087.9109491 | (c) |
+| ZTF20abwyvrl  | AT2020sbj | 2.7749043 | 37.6768649 | r | 21.9 | 0.21 |
+0.34 | 2459087.9109491 | (a) |
+| ZTF20abwypqf  | AT2020sbl | 5.1321015 | 39.4099175 | r | 21.8 | 0.21 |
+0.0  | 2459087.9109491 | (a) |
+| ZTF20abwyrzs  | AT2020sbo | 359.79701 | 32.1773094 | r | 21.6 | 0.17 |
+0.09 | 2459087.9145486 | (a)(d)(e) |
+| ZTF20abwzabz  | AT2020sbr | 12.580528 | 42.6494866 | r | 21.9 | 0.16 |
+0.02 | 2459087.9219444 | (b)(e) |
+| ZTF20abwysmm  | AT2020sbt | 11.333202 | 33.4189371 | r | 21.5 | 0.14 |
+0.0  | 2459087.9181366 | (d)(e) |
++----------------------------------------------------------------------------------------------------+
+Notes:
+(a) offset from a galaxy
+(b) nuclear
+(c) hostless
+(d) PS1 detection at source position
+(e) possible point-like source underneath
+
+
+We checked for galaxies in the GLADE catalog (Dalya et al. 2018) around 100
+arcsec of each candidate in the table above. We found crossmatches for
+ZTF20abwysgz, which is 25.8 arcsec or 81.7 kpc away from a GLADE galaxy,
+and ZTF20abwyrzs, 35.9 arcsec or 163.1 kpc offset. However, there are
+several ZTF sources closer in the image to both candidates, which makes an
+association between the ZTF candidates and GLADE galaxies improbable. In
+fact, many candidates (including ZTF20abwysgz and ZTF20abwyrzs) appear to
+be a few arcseconds offset from their possible host galaxies:
+
+name         | separation  |
+-------------+--------------
+ZTF20abwyple | ~2.7 arcsec |
+ZTF20abwypqf | ~1.1 arcsec |
+ZTF20abwyple | ~2.6 arcsec |
+ZTF20abwyueq | ~1.9 arcsec |
+ZTF20abwytgj | ~2.0 arcsec |
+ZTF20abwysgz | ~1.6 arcsec |
+ZTF20abwyvrl | ~2.3 arcsec |
+ZTF20abwypqf | ~5.3 arcsec |
+ZTF20abwyrzs | ~5.0 arcsec |
+
+Follow-up observations of these candidates is encouraged.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC,
+USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan;
+IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No
+1440341.
+GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+Alert distribution service provided by DIRAC@UW (Patterson et al. 2019).
+Alert database searches are done by AMPEL (Nordin et al. 2019) and Kowalski
+(Duev et al. 2019).

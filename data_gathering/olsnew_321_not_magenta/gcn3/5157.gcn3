@@ -1,0 +1,51 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5157
+SUBJECT: XMM-Newton observation of GRB060510b
+DATE:    06/05/23 14:45:56 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+Sergio Campana (INAF/OAB) and Andrea DeLuca (INAF/IASF
+Milano) report:
+
+We have analyzed the XMM-Newton observation of the field
+of GRB060510B, discovered by Swift/BAT on May 10 2006,
+08:22:14 UT (Krimm et al., GCN 5096).
+
+The XMM-Newton observation started ~5 hours after the
+GRB trigger and lasted for ~40 ks. The observation is
+affected by a high particle background, resulting in
+about 17 ks of usable data.
+
+We report here on data collected by the EPIC/pn camera.
+The afterglow of GRB060510B is detected at the following
+coordinates:
+RA(J2000): 15h 56m 29s.2,
+Dec(J2000): +78d 34' 12.0",
+with an uncertainty of 1.5 arcsec (1sigma), fully
+consistent with the reported Swift/XRT (Krimm et al.)
+and optical (Mirabal et al. GCN5097) positions.
+
+Extracting source events from a circle of 30 arcsec
+radius, the pn time-averaged, background-subtracted count
+rate in the 0.5-8 keV range is of 0.11+/-0.003 cts/s.
+
+The source is clearly fading with a power law decay
+with alpha=-0.7+/-0.1 (error at 90% c.l. for a single
+parameter) with reduced chi2=1.3, 16 d.o.f.
+
+The time-integrated X-ray spectrum is well fit (reduced
+chi2=1.0, 72 d.o.f.) by a power law absorbed by a column
+NH=(9.4+/-3.5)x10^20 cm^-2 (error at 90% confidence level),
+slightly larger than the Galactic value of NH_gal=3.8x10^20
+cm^-2 (Dickey & Lockman 1990), and with a photon index
+Gamma=2.7+/-0.3.
+Since the redshift of the GRB afterglow is known we consider
+also an intrinsic absorption at z=4.9 (Price, GCN5104). The
+fit is similarly good (reduced chi2=0.99, 72 d.o.f.) with
+NH_z=(2.1+/-1.2)x10^22 cm^-2 and Gamma=2.5+/-0.2.
+The observed flux (0.5-10 keV) is of 1.4x10^-13 erg
+cm^-2 s^-1, corresponding to an unabsorbed flux of
+1.8x10^-13 erg cm^-2 s^-1.
+No spectral evolution as a function of time
+(first 16 ks vs. remaining 22 ks of data) has been observed.
+

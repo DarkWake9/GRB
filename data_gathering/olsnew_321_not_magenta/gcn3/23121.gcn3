@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23121
+SUBJECT: Swift Trigger 852625: Swift/BAT/XRT/UVOT observations 
+DATE:    18/08/10 17:52:21 GMT
+FROM:    Valerio D'Elia at ASDC  <valerio.delia@ssdc.asi.it>
+
+V. D’Elia (SSDC), A. D’Aì (INAF-IASFPA), F. E. Marshall (NASA/GSFC), A. Y. Lien (GSFC/UMBC) and M. J. Moss (George Washington University)
+report on behalf of the Swift team:
+
+We analysed the full Swift dataset for the possible burst which triggered BAT (Trigger 852625, Moss et al., GCN Circ. 23115).
+
+The BAT ground analysis uses data from T-60 to T+243 sec. The BAT image significance is only 4.9 sigma (15-350 keV).  Also, the mask-weighted light curve does not show anything significant. 
+
+The XRT data consist of 2.64 ks and are entirely in PC mode. No new X-ray source is found inside the BAT error region, down to a limit of ~0.001 cts/s, corresponding to a 0.3-10 keV observed flux of ~4e-14 erg cm^-2 s^-1 (assuming a typical GRB spectrum) The results of the XRT-team automatic analysis of the XRT observations, including a position-specific upper limit calculator, are available at http://www.swift.ac.uk/possible_GRBs/00852625/index.php
+
+The Swift/UVOT began settled observations 154 s after the BAT trigger. No optical afterglow consistent with the BAT position is detected in the initial UVOT exposures. Preliminary 3-sigma upper limits using the UVOT photometric system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the first finding chart (FC) exposures are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+white_FC           154          304          147         >19.9
+u_FC               312          562          246         >19.2
+
+We thus conclude that this trigger was just a noise fluctuation.
+
+This circular is an official product of the Swift team.
+
+

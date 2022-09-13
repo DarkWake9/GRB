@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7459
+SUBJECT: GRB 080319B: Swift-XRT Team Refined Analysis
+DATE:    08/03/19 20:06:16 GMT
+FROM:    Judith Racusin at PSU  <racusin@astro.psu.edu>
+
+J. Racusin (PSU), D. N. Burrows (PSU), P. A. Evans (U Leicester), C.
+Pagani (PSU), report on behalf of the Swift-XRT Team:
+
+We have analysed the first four orbits of Swift-XRT data obtained for GRB
+080319B (Racusin et al. GCN Circ. 7427), totaling 1.1 ks of Windowed
+Timing (WT) data beginning 64 s after the BAT trigger, and 4 ks of Photon
+Counting (PC) data beginning 5 ks after the BAT trigger.
+
+The UVOT-enhanced XRT position has been given by Evans et al. in GCN Circ
+7449.
+
+The bright X-ray light-curve can be fit by a broken power-law, with an
+initial decay index of 1.46 +/- 0.01 followed, after a break at 6100 +/-
+440 seconds, by a steeper decay index of 2.48 +/- 0.10.
+
+Both the WT and PC spectra are strongly affected by photon pile-up, which
+can alter the spectral fits.  To eliminate these effects, we exclude the
+central 8 pixel radius region of the WT data, and the central 3 pixel
+radius region of the PC data when creating the spectra.  Preliminary fits
+to the WT spectrum (64-4943 seconds), modeled with an absorbed power-law,
+result in a photon index of 1.65 +/- 0.02 and an absorbing column at
+z=0.937 (Vreeswijk et al., GCN Circ. 7444) of NH = (5.28 +/- 1.03)e20
+cm^-2, in addition to Galactic absorption of 1.12e20 cm^-2 in the
+direction of the burst, with a reduced Chi^2=1.05.  The PC spectrum (5-19
+ks) can be modeled as an absorbed power-law, with photon index of 1.92 +/-
+0.07 and an absorbing column at z=0.937 of NH = (23.5 +/- 5.6)e20 cm^-2,
+in addition to the Galactic absorption, with a reduced Chi^2=1.06.  If we
+freeze the NH in the PC model to the WT fitted value, we fit a photon
+index of 1.73 +/ 0.04, with a reduced Chi^2=1.4, which excludes this model
+as a viable fit.  As another attempt to model the spectra without NH
+evolution, we freeze the WT NH to the value from the PC spectral fits and
+add an additional low energy thermal component.  The resulting fits yield
+a photon index of 1.73 +/- 0.02, kT=0.06 +/- 0.01 keV, and a reduced
+Chi^2=1.07.  Therefore, the extra thermal component is a possible
+explanation for the apparent spectral evolution.
+
+Assuming the source continues to decay with the same decay index of 2.5,
+we predict an XRT count rate of 8.8e-4 counts/s at T+24 hours, which
+corresponds to an 0.3-10.0 keV observed (unabsorbed) flux of 6.1e-14
+(6.2e-14) ergs cm^-2 s^-1.
+
+This circular is an official product of the Swift-XRT team.
+

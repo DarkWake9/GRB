@@ -1,0 +1,65 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5477
+SUBJECT: GRB 060813: Swift/BAT, Konus-Wind, and Suzaku/WAM joint prompt spectral analysis
+DATE:    06/08/25 12:32:34 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/ISAS), S. D. Barthelmy (GSFC), 
+J. Cummings (GSFC/ORAU), N. Gehrels (GSFC), H. Krimm (GSFC/USRA), 
+A. Parsons (GSFC), J. Tueller (GSFC), L. Barbier (GSFC), 
+E. Fenimore (LANL), D. Hullinger (BYU-Idaho), M. Koss (GSFC/UMD), 
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), M. Stamatikos (GSFC/ORAU), 
+on behalf of the Swift-BAT team, 
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, 
+and T. Cline on behalf of the Konus-Wind team, 
+
+M. Ohno, T. Takahashi, T. Asano, T. Uehara, Y. Fukazawa (Hiroshima U.),
+K. Yamaoka, S. Sugita (Aoyama Gakuin U.), 
+Y. Terada, T. Tamagawa, M. Suzuki (RIKEN), 
+K. Abe, K. Onda, Y. Urata, M. Suzuki, M. Tashiro (Saitama U.),
+S. Hong (Nihon U.), K. Nakazawa, T. Takahashi (ISAS/JAXA), 
+T. Enoto, R. Miyawaki, K. Kokubun, K. Makishima (Univ. of Tokyo)
+on behalf of the Suzaku-WAM team, 
+
+report:
+
+We performed the Swift/BAT, Konus-Wind, and Suzaku/WAM joint fit spectral 
+analysis of GRB 060813 (Swift-BAT trigger #224364; Moretti, et al., 
+GCN Circ. 5442).  The time interval of the spectral data for each instrument 
+is chosen as the same interval as the Konus-Wind time-averaged spectrum 
+reported by Golenetskii et al. (GCN Circ. 5446).  The energy ranges which we 
+used in the joint spectral analysis are 14-150 keV, 20-1000 keV, 
+and 100-1000 keV, for Swift/BAT, Konus-Wind and Suzaku/WAM respectively.  
+The spectral data of three instruments are fitted with the spectral model 
+multiplied by the constant factor to take into account the systematic 
+uncertainties in the response matrices of each instrument.  
+
+The spectrum is well fitted with a power-law time exponential cutoff model 
+(dN/dE ~ E^{alpha} * exp(-(2+alpha)*E/Epeak)).  The constant factors of each 
+instrument agree within 10%.  No systematic residual from the best fit model 
+is seen in the spectral data of each instrument.  The best fit spectral 
+parameters are: alpha = -0.83 +- 0.05 and Epeak = 240 (-10/+11) keV 
+(chi2/dof = 135/125).  Although there is no significant improvement in the 
+fit, the best fit parameters in the Band function are: the low-energy 
+photon index alpha = -0.79 +- 0.06, the high energy photon index 
+beta = -2.71 (-0.70/+0.24) and Epeak = 230 (-14/+15) keV 
+(chi2/dof = 133/124).  The energy fluence in the 15-1000 keV band calculated 
+by the Band function is 1.22 +- 0.05 x 10^-5 erg/cm2 (in case the constant 
+factor of the Konus-Wind is fixed to 1).  The spectral paramters in a 
+power-law time exponential cutoff model for Swift/BAT and Suzaku/WAM were 
+reported by Cummings et al. (GCN Circ. 5443) and by Yamaoka, et al. 
+(GCN Circ. 5462).  The Konus-Wind best fit spectral parameters for a 
+power-law time exponential cutoff model are:  alpha = -0.65 (-0.12, +0.11), 
+Epeak = 214 (-15, +17) keV (chi2/dof = 81/59).  Our joint fit spectral 
+parameters in a power-law time exponential cutoff model are consistent 
+within 90% confidence level with the spectral parameters derived by individual 
+instruments.  However, we do see a systematic difference in the spectral 
+parameters in the Band function fit especially in the low energy photon 
+index alpha.  We are still working on the cross-calibration among three 
+instruments.  
+
+All the quoted errors are at the 90% confidence level. 
+
+[GCN OPS NOTE(25aug06): Per author's request, the last two words were added
+to the Subject line.]

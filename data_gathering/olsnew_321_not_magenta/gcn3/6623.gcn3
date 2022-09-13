@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6623
+SUBJECT: GRB 070714B, Swift-BAT refined analysis of the short hard burst
+DATE:    07/07/14 21:47:27 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+L. Barbier (GSFC), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+J. Racusin (PSU), T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-120 to T+182 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 070714B (trigger #284856)
+(Racusin, et al., GCN Circ. 6620).  The BAT ground-calculated position is
+RA, Dec = 57.853, 28.294 deg  which is
+   RA(J2000)  =  3h 51m 24.8s
+   Dec(J2000) = 28d 17' 37"
+with an uncertainty of 1.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 93%.
+
+The BAT mask-weighted light curve shows multiple short spikes starting from 
+T-0.8 sec with a duration of 3 sec.  There is extended softer emission from 
+T+20 sec to T+70 (and possibly T+100) sec.  T90 (15-350 keV) is 64 +- 5 sec 
+(estimated error including systematics).  The light curve looks similar to 
+previous short bursts such as GRB 050724 with a short-hard initial episode 
+followed by a softer extended episode, so we think it is likely that this 
+burst is in the short category.
+
+The time-averaged spectrum from T-0.8 to T+65.6 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.36 +- 0.19.  The fluence in the 15-150 keV band is 7.2 +- 0.9 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.39 sec in the 15-150 keV band
+is 2.7 +- 0.2 ph/cm2/sec.  Separating out the initial "spike" of emission
+(from T-0.8 to T+2 sec), the photon index in a simple power-law fit is
+0.99 +- 0.08.  The fluence in the 15-150 keV band of this part is
+5.1 +-0.3 x 10^-7 erg/cm2.  All the quoted errors are at the 90% confidence
+level.
+

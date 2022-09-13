@@ -1,0 +1,74 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29103
+SUBJECT: IceCube-201221A: No counterpart candidates in INTEGRAL SPI-ACS and IBIS prompt observation
+DATE:    20/12/21 16:45:57 GMT
+FROM:    Volodymyr Savchenko at ISDC,U of Geneve  <savchenk@in2p3.fr>
+
+V. Savchenko, C. Ferrigno (ISDC/UniGE, Switzerland)
+J. Rodi (IAPS-Roma, Italy)
+A. Coleiro (APC, France)
+S. Mereghetti (INAF IASF-Milano, Italy)
+
+on behalf of the INTEGRAL multi-messenger collaboration:
+https://www.astro.unige.ch/cdci/integral-multimessenger-collaboration
+
+Using combination of INTEGRAL all-sky detectors (following [1]):
+SPI/ACS, IBIS/Veto, and IBIS we have performed a search for a prompt
+gamma-ray counterpart of IceCube-201221A (GCN 29102).
+
+At the time of the event (2020-12-21 12:36:53 UTC, hereafter T0),
+INTEGRAL was operating in nominal mode. The peak of the event
+localization probability was at an angle of 63 deg with respect to the
+spacecraft pointing axis. This orientation implies strongly suppressed
+(13% of optimal) response of ISGRI, strongly suppressed (33% of
+optimal) response of IBIS/Veto, and near-optimal (79% of optimal)
+response of SPI-ACS.
+
+The background within +/-300 seconds around the event was very stable
+(excess variance 1.1).
+
+We have performed a search for any impulsive events in INTEGRAL SPI-
+ACS (as described in [2]), IBIS, and IBIS/Veto data.
+
+We do not detect any significant counterparts and estimate a 3-sigma
+upper limit on the 75-2000 keV fluence of 2.2e-07 erg/cm^2 (within the
+50% probability containment region of the source localization) for a
+burst lasting less than 1 s with a characteristic short GRB spectrum
+(an exponentially cut off power law with alpha=-0.5 and Ep=600 keV)
+occurring at any time in the interval within 300 s around T0. For a
+typical long GRB spectrum (Band function with alpha=-1, beta=-2.5, and
+Ep=300 keV), the derived peak flux upper limit is ~1.9e-07 (6.1e-08)
+erg/cm^2/s at 1 s (8 s) time scale in 75-2000 keV energy range.
+
+We report for completeness and in order of FAP, all excesses
+identified in the search region. We find: 1 possibly associated
+excess:
+
+T-T0   | scale | S/N | flux ( x 1e-06 erg/cm2/s) | FAP
+0.588  | 0.4   | 3.1 | 0.379 +/- 0.119 +/- 0.127 | 0.0246
+
+3 likely background excesses:
+
+T-T0   | scale | S/N | flux ( x 1e-06 erg/cm2/s) | FAP
+-1.39  | 0.05  | 3.1 | 1.06 +/- 0.342 +/- 0.355  | 0.382
+-18.2  | 0.65  | 3.1 | 2.97 +/- 0.935 +/- 0.991  | 0.532
+-296   | 1.5   | 3.7 | 2.28 +/- 0.614 +/- 0.76   | 0.995
+
+Note that FAP estimates (especially at timescales above 2s) may be
+possibly further affected by enhanced non-stationary local background
+noise. This list excludes any excesses for which FAP is close to
+unity.
+
+
+
+All results quoted are preliminary.
+
+This circular is an official product of the INTEGRAL Multi-Messenger
+team.
+
+[1] Savchenko et al. 2017, A&A 603, A46 
+[2] Savchenko et al. 2012, A&A 541A, 122S
+
+
+-- 
+

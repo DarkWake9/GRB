@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8712
+SUBJECT: GRB081222: Swift/UVOT further observations
+DATE:    08/12/23 12:15:56 GMT
+FROM:    Alice Breeveld at MSSL-UCL  <aab@mssl.ucl.ac.uk>
+
+Alice Breeveld (MSSL), Wayne Landsman (GSFC), Paul Kuin (MSSL) and  
+Dirk Grupe (PSU) report on behalf of the Swift/UVOT team:
+
+Further analysis of Swift/UVOT data of GRB081222 (Grupe et al., GCN  
+Circ. 8691), shows that the burst was detected in the v and b filters  
+in addition to the white and u filters described in the initial  
+circular (Breeveld et al., GCN Circ. 8696). The source is not detected  
+in any of the UV filters, in single or co-added exposures. The initial  
+magnitudes and upper limits are given in the table below:
+
+Filter    Tstart(s) Tstop(s)     Exp(s)   Magnitude
+white   60            210           147        14.84+/-0.02
+white   873          1023         147       17.36+/-0.03
+v           602          622           20          16.20+/-0.02
+b           528          548           20          16.86+/-0.02
+u           272           522           246       16.32+/-0.03
+uvw1    652          1815         142        >20.9  (3-sigma UL)
+uvm2    627          1790         127        >21.0  (3-sigma UL)
+uvw2    577          1914         124        >21.1  (3-sigma UL)
+
+A 49s UV grism spectrum was obtained beginning 216s after the  
+trigger.  The very low S/N quicklook spectrum shows a continuum of  
+about 3e-15 erg/s/cm2/A longward of ~3400 A.  No flux is detected  
+shortward of 3400 A, even though the grism sensitivity increases  
+toward shorter wavelengths.  If this is the wavelength of the Lyman  
+edge, then the redshift of GRB081222 is ~2.7.  The detection of  
+GRB081222 in the u filter and the non-detection in UVW1 filter are  
+consistent with this redshift.
+
+The values quoted above are in the UVOT photometric system (Poole et  
+al. 2008, MNRAS, 383, 627) and are not corrected for the expected  
+Galactic extinction corresponding to a reddening of E(B-V)=0.021 mag  
+in the direction of the burst (Schlegel et al. 1998).
+
+

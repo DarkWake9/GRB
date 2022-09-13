@@ -1,0 +1,47 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4500
+SUBJECT: GRB 060108: Evidence for an XRT Position Offset
+DATE:    06/01/13 18:08:21 GMT
+FROM:    Nat Butler at MIT/CSR  <nrbutler@space.mit.edu>
+
+N. Butler and J. S. Bloom (UC Berkeley) report:
+
+We find 34 X-ray sources with S/N>3 in the XRT PC mode data for GRB
+060108 (Oates et al., GCN 4443; Page et al. GCN 4444) using wavdetect,
+neglecting the first observation where the GRB afterglow dominated.
+The PC mode data from the 2nd through 5th XRT observations have a total
+effective exposure of 57.8 ksec.  Comparing the wavdetect centroids to
+positions of nearby optical sources detected in SDSS DR4 r-band images
+(the DR4 data release is described in Adelman-McCarthy et al. 2005;
+astro-ph/0507711), we note that very few (1 in 34) of the X-ray positions
+are within 3."4 (the XRT error radius reported by Page et al. GCN 4453)
+of an optical source.  However, 40% of the X-ray sources have optical
+counterparts in a narrow cluster of displacements to the North-East.
+This is a reasonable number of associations (e.g., Giacconi, et al. 2001,
+ApJ, 551, 624), given the depths of the SDSS r-band images (r<~22.2)
+and the XRT observations (fx>~5x10^-15 erg cm^-2 s^-1).  We note that
+most of the optical counterparts are categorized as galaxies or faint
+QSOs in the SDSS DR4.
+
+Using these optical/X-ray associations and also accounting for the
+sources with no apparent association, we derive an XRT frame offset of
+(dRA,dDec) = ( 4.29 , 2.75 ) arcsec, with a 0."7 error (90% conf.).
+
+We calculate a refined position for the GRB 060108 X-ray afterglow of:
+
+         RA  =  09h 48m 01.92s ; Dec = +31d 55' 07."8 (J2000),
+
+with an uncertainty of 0."9 (90% conf.).
+
+The optical - X-ray offsets are plotted at:
+http://astro.berkeley.edu/~nat/060108/060108_offsets.ps , and
+http://astro.berkeley.edu/~nat/060108/060108_Xsources.jpg .
+
+At this position, we find a faint galaxy in our z-band Gemini imaging
+(GCN 4475) taken at Jan 10.60 UT. We suggest that this is the host of
+GRB 060108. An image of the field is posted at:
+http://astro.berkeley.edu/~jbloom/grb060108-xcorr.ps.gz
+
+We urge others with earlier-time imaging to inspect this location in
+search of an afterglow.
+

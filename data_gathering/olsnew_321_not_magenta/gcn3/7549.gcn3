@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7549
+SUBJECT: GRB 080330, Swift-BAT refined analysis
+DATE:    08/03/30 16:39:37 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. Markwardt (GSFC/UMD), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+J. Mao (INAF-OAB), K. McLean (GSFC/UMD), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-240 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 080330 (trigger #308041)
+(Mao, et al., GCN Circ. 7537).  The BAT ground-calculated position is
+RA, Dec = 169.278, 30.607 deg, which is 
+   RA(J2000)  =  11h 17m 06.7s 
+   Dec(J2000) = +30d 36' 24.1" 
+with an uncertainty of 1.8 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 53%.
+ 
+The mask-weighted light curve shows an initial set of 3 overlapping peaks
+(the brightest first) starting at ~T_zero, and the 3rd ending at ~T+15 sec,
+then it returns to baseline.  A 4th peak starts at roughly T+50 sec and
+ends at roughly T+70 sec.  T90 (15-350 keV) is 61 +- 9 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.5 to T+71.9 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.53 +- 0.45.  The fluence in the 15-150 keV band is 3.4 +- 0.8 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.44 sec in the 15-150 keV band
+is 0.9 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/308041/BA/
+ 
+We note that the fluence ratio in a simple power-law fit between the
+25-50 keV band and the 50-100 keV band is 1.44.  This fluence ratio is larger
+than 1.32 which can be achieved in the Band function of alpha=-1.0, beta=-2.5,
+and Epeak=30 keV.  Thus, preliminary analysis shows that Epeak of the burst
+is very likely around or below 30 keV.  Therefore the burst can be classified
+as an X-ray flash (e.g. Sakamoto et al. ApJ in press, arXiv:0801.4319).
+

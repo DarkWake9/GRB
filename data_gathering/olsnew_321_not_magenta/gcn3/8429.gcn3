@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8429
+SUBJECT: GRB 081028: Swift-XRT refined analysis
+DATE:    08/10/28 12:05:18 GMT
+FROM:    Cristiano Guidorzi at INAF-OAB  <cristiano.guidorzi@brera.inaf.it>
+
+C. Guidorzi, R. Margutti, J. Mao (INAF-OAB) on behalf of the Swift-XRT
+team report:
+
+We have analysed the first 6 orbits of Swift-XRT data obtained for GRB
+081028 (Guidorzi et al., GCN Circ. 8421), covering 650 s of Windowed
+Timing and 12.5 ks of Photon Counting (PC) mode data, between 197 s and
+29 ks after the trigger. The UVOT-enhanced XRT position was given by
+Evans et al. in GCN Circ. 8427.
+
+The light-curve shows a very complex evolution. In the first orbit data,
+covered entirely in WT mode, from 200 to 300 s it can be fit with a
+power law decay with an index of ~0.5. This temporally coincides with
+the decay of the second peak observed by BAT, which peaked at 220 s
+(Barthelmy et al. GCN Circ. 8428). Afterwards, there
+is flaring activity up to 400 s. From 400 to 700 s the afterglow
+undergoes a steep decay with a power-law index of 3.4, followed by
+a large flare with a peak rate of ~30 counts/s and lasting longer
+than 150 s. First orbit data stopped during the peak of this flare.
+ From 4.1 to 8 ks the curve exhibits a steep decay with
+a power-law index of 3.8 +- 1.2 and the count rate drops to a value
+of ~5e-2 counts/s, after which it experiences a long rebrightening
+(at least up to 29 ks) with flaring activity, reaching a peak count
+rate of ~0.3 counts/s.
+
+During the first orbit, the WT data spectrum undergoes a significant
+hard-to-soft evolution, with Gamma changing from 1 to 3.
+A WT spectrum extracted during the steep decay from 400 to 700 s
+can be modelled with an absorbed power-law, with Gamma = 2.51 +- 0.07
+and NH = (8.0 +- 1.1)e20 cm^-2, in excess of the Galactic column
+in this direction of 4.0e20 cm^-2. The observed (unabsorbed) flux
+over this time interval is 7.8e-10 (1.1e-9) erg cm^-2 s^-1.
+A PC spectrum extracted from 5.0 to 23.2 ks can be modelled with an
+absorbed power-law, with Gamma = 2.25 +- 0.16 and
+NH = (9.3 +- 3.4)e20 cm^-2. The observed (unabsorbed) flux
+over this time interval is 7.3e-12 (1.0e-11) erg cm^-2 s^-1.
+
+Presently, given the ongoing flaring behaviour, we cannot provide a
+reliable projection of the count rate over the next hours.
+
+The results of the xrt automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/00332851.
+
+This is an official product of the Swift-XRT team.
+

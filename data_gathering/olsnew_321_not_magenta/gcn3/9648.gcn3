@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9648
+SUBJECT: GRB 090709A: evidence for a very red afterglow at low z
+DATE:    09/07/10 12:02:42 GMT
+FROM:    Cristiano Guidorzi at Ferrara U,Italy  <guidorzi@fe.infn.it>
+
+C. Guidorzi (U. Ferrara), A. Melandri, C.G. Mundell, D. Bersier,
+Z. Cano, S. Kobayashi, I.A. Steele, R.J. Smith (Liverpool JMU),
+and A. Gomboc (U. Ljubljana) report, on behalf of a large collaboration:
+
+We re-analysed the data promptly acquired with the 2-m Faulkes
+Telescope North in the R and i' filters (Cano et al. GCN 9630)
+of the Swift GRB 090709A (Morris et al. GCN 9625).
+ From the stacked images, we marginally detect a source in the
+r' frame at the position of the NIR afterglow found by PAIRITEL
+(Morgan et al. GCN 9635), identified as source 'B' by Subaru
+(Aoki et al. GCN 9634) and possibly detected in the r' and z' bands
+(Cenko et al. GCN 9646). The same object is not detected in the
+i' band frame (although with a shorter total exposure).
+
+Start time        End time        Exposure      Filter    mag
+(min)             (min)           (s)
+-------------------------------------------------------------------
+2.88             55.02           720            R        22.7 +/- 0.5
+7.55             47.05           520            i'       > 20.6
+-------------------------------------------------------------------
+
+Calibration was performed against the I and R2 values of the USNOB1
+nearby star at 19:19:44.575, +60:43:27.44 assuming I=14.68 and R2=15.70.
+
+We built a tentative SED at the PAIRITEL observation mid time of 438 s
+(Morgan et al. GCN 9635), combining the P60 values in the z' filter
+(Cenko et al. GCN 9646) and the assuming for the r' filter an
+intermediate value comprising both the P60 and our own value.
+This value as well as our i' band upper limits were backextrapolated
+to the chosen time assuming a range of power-law decay indices, from
+0.3 to 1. The SED was finally corrected for the Galactic reddening
+of E(B-V)=0.09. We found that the SED can be fitted with a simple
+power-law with spectral index beta=3.4 +/- 0.8 (90%cl) and no
+evidence for a Lyman drop.
+We therefore support the nature of a very red afterglow at low z
+(Butler et al. GCN 9639) and possibly associated with a non-GRB
+progenitor as suggested by the quasi-periodic oscillations found
+in the gamma-ray profile (Markwardt et al. GCN 9645; Golenetskii
+et al. GCN 9647).
+
+Our stacked R band frame is available at the following link (red
+and green circles show the Swift-XRT and PAIRITEL circles, respectively):
+
+http://www.fe.infn.it/u/guidorzi/GRB090709A/090709A_R.jpg
+

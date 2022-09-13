@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27148
+SUBJECT: GRB 200219A, Swift-BAT refined analysis
+DATE:    20/02/20 04:14:14 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. Laha (GSFC/UMBC), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), H. A. Krimm (NSF),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+J. P. Norris (BSU), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+962 sec from the recent telemetry
+downlink,
+we report further analysis of BAT GRB 200219A (trigger #957271)
+(Lien et al., GCN Circ. 27125).  The BAT ground-calculated position is
+RA, Dec = 342.595, -59.101 deg which is
+   RA(J2000)  =  22h 50m 22.7s
+   Dec(J2000) = -59d 06' 04.5"
+with an uncertainty of 2.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 99%.
+
+The mask-weighted light curve shows a short pulse that starts and peaks at
+~T0,
+and ends at ~T+0.5 s. It is followed by an extended emission that lasting
+until ~T+90 s. In addition, there may be some even weaker emission until
+~T+300 s.
+T90 (15-350 keV) is 288.0 +- 50.6 sec (estimated error including
+systematics).
+
+The time-averaged spectrum from T-0.2 to T+86.7 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.47 +- 0.25.  The fluence in the 15-150 keV band is 7.4 +- 1.1 x 10^-7
+erg/cm2.
+The 1-sec peak photon flux measured from T-0.268 sec in the 15-150 keV band
+is 2.4 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+Because the burst seems to be similar to short GRBs with extended emission,
+we perform further spectral analysis for the short pulse and the extended
+emission. The short pulse from T-0.224 s to T+0.496 s (determined by the
+Bayesian block analysis) is best fit by a simple power-law model.
+The power law index of the time-averaged spectrum is 0.69 +- 0.14. The
+fluence in the 15-150 keV band is 2.5 +- 0.2 x 10^-7 erg/cm2.
+The extended emission from T+0.496 s to T+86.704 s is best fit by a
+simple power-law model. The power law index of the time-averaged
+spectrum is 1.78 +- 0.33.  The fluence in the 15-150 keV band is
+4.9 +- 1.0 x 10^-7 erg/cm2.
+
+The spectral lag of the short pulse is 14 (+5, -5) ms for the 100-350 keV
+to 25-50 keV bands, and 20 (+15, -10) ms for the 50-100 keV to 15-25 keV
+bands. These values are more consistent with those of long GRBs.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/957271/BA/

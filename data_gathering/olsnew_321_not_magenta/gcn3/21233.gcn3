@@ -1,0 +1,185 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21233
+SUBJECT: LIGO/Virgo G288732: Swift-XRT follow up of the putative LAT counterpart
+DATE:    17/06/09 14:10:32 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), S.D. Barthelmy
+(NASA/GSFC), A.P. Beardmore (U. Leicester), A.A. Breeveld (UCL-MSSL),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G.
+Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V.D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P. Giommi (ASI), C. Gronwall
+(PSU), H.A. Krimm (CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL), A.Y. Lien
+(GSFC/UMBC), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB), J.A.
+Nousek (PSU), S.R. Oates (U. Warwick), P.T. O'Brien (U. Leicester),
+J.P. Osborne (U. Leicester), C. Pagani (U. Leicester), K.L. Page
+(U.Leicester), D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin
+(NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G.
+Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP) report on behalf of
+the Swift team:
+
+Swift performed a four-pointing follow up of the possible LAT source in
+the error region of GW trigger G288732 (Omodei et al., LVC Circ.
+21227). The observations currently span from 63 ks to 91 ks after the
+LVC Trigger, and we obtained 1.4-3.9 ks per field.
+
+We have detected 7 X-ray sources. Sources 4&5 are known X-ray emitters
+(1RXS J083249.9+432322 and 1RXS J083409.3+431912 respectively). The
+remaining sources are uncatalogued and have fluxes consistent with
+catalogue upper limits, and show no evidence for fading. We therefore
+cannot reliably associate any of these with either the possible LAT
+detection or the GW event. Unfortunately, this region of the sky is now
+in Swift's Sun observing constraint until September, so no further
+follow up will be conducted before that time.
+
+The automated analysis assigns each source is a rank of 1-4 which
+describes how likely it is to be related to the GW trigger, with 1
+being the most likely and 4 being the least likely. The ranks are
+described at http://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 4 sources of rank 3
+  * 2 sources of rank 4
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3e20 cm^2, and photon index (Gamma)=1.7
+
+
+RANK 3 sources
+==============
+
+These are uncatalogued X-ray sources, however they are not brighter
+than previous upper limits, so do not stand out as likely counterparts
+to the GW trigger.
+  
+  Source 1:
+  =============
+    RA: 	 128.2633 ( = 08h 33m 3.19s) J2000
+    Dec:	 +43.2130 ( = +43d 12' 46.8") J2000
+    Error:	 +8.6 (arcsec, radius, 90% confidence).
+    Peak Rate:	 1.4e-02 +/- 1.1e-02 ct/sec (0.3-10 keV)
+    Peak Flux:	 6.1e-13 +/- 4.6e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    RASS UL:	 1.4e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+       so the source is not above the RASS 3-sigma upper limit.
+    The source may be fading, at the 0.6-sigma level.
+    There is 1 GWGC or 2MPZ galaxy within 200 kpc of the source
+    and consistent (within 3-sigma) with the distance to the GW object.
+
+    A SIMBAD object `LEDA 2215540' is 6.4" away.
+    There is 1 2MASS object within the source's 3-sigma error radius.
+  
+  Source 2:
+  =============
+    RA: 	 128.0321 ( = 08h 32m 7.70s) J2000
+    Dec:	 +43.4975 ( = +43d 29' 51.0") J2000
+    Error:	 +5.7 (arcsec, radius, 90% confidence).
+    Peak Rate:	 3.9e-03 +/- 2.4e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 1.7e-13 +/- 1.0e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    RASS UL:	 1.6e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+       so the source is not above the RASS 3-sigma upper limit.
+    There is no evidence for fading.
+    NOTE: this source is NOT within 200 kpc of a GWGC or 2MPZ galaxy
+      which is consistent (within 3-sigma) with the distance to the GW 
+
+      object.
+  
+  Source 3:
+  =============
+    RA: 	 127.8821 ( = 08h 31m 31.70s) J2000
+    Dec:	 +43.4300 ( = +43d 25' 48.0") J2000
+    Error:	 +6.3 (arcsec, radius, 90% confidence).
+    Peak Rate:	 1.3e-02 +/- 9.7e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 5.4e-13 +/- 4.2e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    RASS UL:	 4.2e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+       so the source is not above the RASS 3-sigma upper limit.
+    The source may be fading, at the 0.4-sigma level.
+    NOTE: this source is NOT within 200 kpc of a GWGC or 2MPZ galaxy
+      which is consistent (within 3-sigma) with the distance to the GW 
+
+      object.
+  
+  Source 6:
+  =============
+    RA: 	 128.4283 ( = 08h 33m 42.79s) J2000
+    Dec:	 +43.2892 ( = +43d 17' 21.1") J2000
+    Error:	 +5.0 (arcsec, radius, 90% confidence).
+    Peak Rate:	 5.1e-03 +/- 2.0e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 2.2e-13 +/- 8.6e-14 erg cm^-2 s^-1 (0.3-10 keV)
+    RASS UL:	 2.1e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+       so the source is not above the RASS 3-sigma upper limit.
+    There is no evidence for fading.
+    NOTE: this source is NOT within 200 kpc of a GWGC or 2MPZ galaxy
+      which is consistent (within 3-sigma) with the distance to the GW 
+
+      object.
+    There is 1 2MASS object within the source's 3-sigma error radius.
+
+ Source 7:
+  =============
+    RA: 	 127.8022 ( = 08h 31m 12.53s) J2000
+    Dec:	 +43.4288 ( = +43d 25' 43.7") J2000
+    Error:	 +7.6 (arcsec, radius, 90% confidence).
+    Peak Rate:	 1.2e-02 +/- 7.4e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 5.1e-13 +/- 3.2e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    RASS UL:	 3.2e-02 ct/sec, 3-sigma, converted to XRT (0.3-10 keV)
+
+       so the source is not above the RASS 3-sigma upper limit.
+    There is no evidence for fading.
+    NOTE: this source is NOT within 200 kpc of a GWGC or 2MPZ galaxy
+      which is consistent (within 3-sigma) with the distance to the GW
+      object.
+    There is 1 2MASS object within the source's 3-sigma error radius.
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+  
+  Source 4:
+  =============
+    RA: 	 128.2174 ( = 08h 32m 52.18s) J2000
+    Dec:	 +43.3858 ( = +43d 23' 08.9") J2000
+    Error:	 +6.0 (arcsec, radius, 90% confidence).
+    Peak Rate:	 8.7e-03 +/- 5.4e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 3.7e-13 +/- 2.3e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J083249.9+432322 in the ROSAT/RASSFSC catalogue
+    Separation:  28.2" from the XRT source
+    Cat Rate:	 1.7e-02 +/- 8.5e-03 ct/sec 
+    Cat Flux:	 4.9e-13 +/- 2.4e-13 erg cm^-2 s^-1 (0.3-10 keV)
+       so the source is not above the catalogued flux.
+    There is no evidence for fading.
+    NOTE: this source is NOT within 200 kpc of a GWGC or 2MPZ galaxy
+      which is consistent (within 3-sigma) with the distance to the GW
+      object.
+  
+  Source 5:
+  =============
+    RA: 	 128.5303 ( = 08h 34m 7.27s) J2000
+    Dec:	 +43.3192 ( = +43d 19' 09.1") J2000
+    Error:	 +7.2 (arcsec, radius, 90% confidence).
+    Peak Rate:	 9.4e-03 +/- 5.8e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 4.0e-13 +/- 2.5e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J083409.3+431912 in the ROSAT/RASSFSC catalogue
+    Separation:  22.5" from the XRT source
+    Cat Rate:	 2.3e-02 +/- 1.1e-02 ct/sec 
+    Cat Flux:	 6.5e-13 +/- 3.1e-13 erg cm^-2 s^-1 (0.3-10 keV)
+       so the source is not above the catalogued flux.
+    The source may be fading, at the 0.3-sigma level.
+    NOTE: this source is NOT within 200 kpc of a GWGC or 2MPZ galaxy
+      which is consistent (within 3-sigma) with the distance to the GW 
+
+      object.
+
+This circular is an official product of the Swift team.
+
+

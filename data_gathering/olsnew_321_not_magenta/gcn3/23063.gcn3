@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23063
+SUBJECT: GRB 180701A/MAXI J2119-045: CALET Gamma-Ray Burst Monitor data search
+DATE:    18/07/31 03:04:31 GMT
+FROM:    Takanori Sakamoto at AGU  <tsakamoto@phys.aoyama.ac.jp>
+
+V. Pal'shin, Y. Kawakubo, T. Sakamoto, A. Yoshida, S. Sugita, A. Tezuka,
+S. Matsukawa, H. Onozawa, T. Ito, H. Morita, Y. Sone (AGU),
+K. Yamaoka (Nagoya U), S. Nakahira (RIKEN), I. Takahashi (IPMU),
+Y. Asaoka, S. Ozawa, S. Torii (Waseda U), Y. Shimizu, T. Tamura (Kanagawa U),
+W. Ishizaki (ICRR), M. L. Cherry (LSU), S. Ricciarini (U of Florence),
+A. V. Penacchioni, P. S. Marrocchesi (U of Siena)
+and the CALET collaboration:
+
+We have performed a search of hard X-ray/gamma-ray emission
+from GRB 180701A/MAXI J2119-045 (Maruyama et al., GCN Circ. 22880)
+in the CALET Gamma-ray Burst Monitor (CGBM) data around
+the MAXI trigger time at T0=06:47 UT on 2018 July 1.
+
+The source position (RA, Dec (J2000) = 319.919 deg, -4.500 deg)
+at the trigger time was in the CGBM FOV at favorable angles (the off-axis
+angles 22.1 deg and 12.2 deg for HXM and SGM detector respectively).
+
+No CGBM on-board trigger occurred around T0.
+By using the CGBM time-history data (0.125 sec time resolution),
+we found no statistically significant signal between +-50 sec from T0.
+We estimate 7-sigma upper limit in the 30-1000 keV band as
+6x10^-7 erg/cm2/s assuming a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -1.0 and Ep = 200 keV in 1 s exposure.
+
+At the time of the Konus-Wind event at 06:37:44 UTC (=T0-556 sec)
+suggested to be the main part of GRB 180701A (Kozlova et al.,
+GCN Circ. 22915), the position of the MAXI source was in the CGBM FoV
+at favorable angles (the off-axis angles 44.9 deg and 40.4 deg
+for HXM and SGM detector respectively).
+For the reported Konus-Wind spectral parameters, the estimated response
+in the CGBM detectors for the MAXI position would have a signal-to-noise
+ratio up to 15 in individual TH channel and up to 18 in combination
+of channels, while we do not see any hint of emission around this time.
+Hence, we conclude that the Konus-Wind event is likely not related
+to GRB 180701A/MAXI J2119-045.
+
+The CALET data used in this analysis are provided by the Waseda
+CALET Operation Center located at the Waseda University.
+

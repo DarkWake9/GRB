@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23042
+SUBJECT: GRB 180720B: CALET Gamma-Ray Burst Monitor detection
+DATE:    18/07/27 04:11:45 GMT
+FROM:    Takanori Sakamoto at AGU  <tsakamoto@phys.aoyama.ac.jp>
+
+M. L. Cherry (LSU), A. Yoshida, T. Sakamoto, V. Pal'shin, S. Sugita, Y. Kawakubo,
+A. Tezuka, S. Matsukawa, H. Onozawa, T. Ito, H. Morita, Y. Sone (AGU),
+K. Yamaoka (Nagoya U), S. Nakahira (RIKEN), I. Takahashi (IPMU),
+Y. Asaoka, S. Ozawa, S. Torii (Waseda U), Y. Shimizu, T. Tamura (Kanagawa U),
+W. Ishizaki (ICRR), S. Ricciarini (U of Florence),
+A. V. Penacchioni, P. S. Marrocchesi (U of Siena)
+and the CALET collaboration:
+
+The extremely bright, long GRB 180720B (Swift-BAT trigger #848890:
+Siegel et al., GCN Circ. 22973, Barthelmy et al. GCN Circ. 22998;
+Fermi-LAT detection: Bissaldi and Racusin, GCN Circ. 22980;
+Fermi-GBM observation: Roberts and Meegan, GCN Circ. 22981;
+MAXI/GGS detection: Negoro et al., GCN Circ. 22993;
+Konus-Wind observation: Frederiks et al., GCN Circ. 23011)
+triggered the CALET Gamma-ray Burst Monitor (CGBM)
+at 14:21:40.948 UTC on 20 July 2018.  Because of a problem in
+one of the ground alert processing script, the GCN notice was not
+distributed automatically for this event.  The burst signal was seen
+by all CGBM detectors.
+
+The CGBM data cover the time interval from T-243 sec to T+1449 sec
+(when the HV was on and the source was in the CGBM FoV).
+
+The burst light curve shows the main emission episode comprised
+of several bright overlapped pulses which starts
+at T-2.9 sec, peaks at 15.3 sec, and ends at T+54.0 sec,
+followed by the weak tail seen at least up to T+120.1 sec.
+The T90 and the T50 durations measured by the SGM data are
+51.1 +- 3.0 sec and 15.4 +- 1.4 sec (40-1000 keV), respectively.
+
+No any precursor is seen in the time interval from T-243 sec to T-2.9 sec.
+
+The time-averaged spectrum of the main episode (measured by the SGM
+from T+0.8 sec to T+52.8 sec) is best fit in the 30 keV - 20 MeV range
+by a GRB (Band) model with alpha = -1.29 +- 0.04,
+Epeak =  686(-77, +88) keV, and beta = -2.23(-0.12, +0.09)
+(chi2 = 254.4/236 dof).  The emission is seen up to ~20 MeV.
+The resulting fluence in the 30 keV - 10 MeV range is
+5.79(-0.19, +0.20)x10^-4 erg/cm2 .
+
+Assuming a redshift of z=0.654 (Vreeswijk et al., GCN 22996)
+and a FlatLambdaCDM cosmology with H0=68 km/s/Mpc and Omega_M=0.308
+(Planck Collaboration 2016, A&A, 594, A13 (Paper XIII)),
+the isotropic energy release, Eiso, is 6.82(-0.22, 0.24)x10^53 erg.
+
+The quoted errors are at the 90% CL.
+
+The ground processed light curve is available at
+
+http://cgbm.calet.jp/cgbm_trigger/ground/1216131585/
+
+All the quoted values are preliminary.
+
+The CALET data used in this analysis are provided by the Waseda CALET
+Operation Center located at the Waseda University.
+

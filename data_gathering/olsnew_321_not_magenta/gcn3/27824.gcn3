@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27824
+SUBJECT: GRB 200524A: optical upper limits from further MITSuME Akeno observation
+DATE:    20/05/26 07:22:56 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, N. Nakamura, K. L. Murata, R. Adachi, M. Niwano, F.
+Ogawa, Y. Yatsu, and N. Kawai (TokyoTech) report on behalf of the
+MITSuME collaboration:
+
+We performed further observation of the field of GRB 200524A
+(Fermi-LAT detection: Dirirsa et al., GCN #27797, Fermi-GBM detection:
+Pookalil et al., GCN #27809, Swift-XRT afterglow detection: Capalbi et
+al. GCN #27811, and others) with the optical three color (g', Rc, and
+Ic) CCD cameras attached to the MITSuME 50 cm telescope of Akeno
+Observatory, Yamanashi, Japan.
+
+The observation started on 2020-05-25 11:27:25.65 UT. We did not
+detect the optical afterglow (Ho et al., GCN #27799, Kumar et al., GCN
+#27800, Rumyantsev et al., GCN #27802, Sanwal et al., GCN #27803,
+Perley et al., GCN #27805, Kumar et al., GCN #27806, de Ugarte Postigo
+et al., GCN #27807, Blazek et al., GCN #27810, Ogawa et al., GCN
+#27813, Zheng et al., GCN #27814, Izzo et al., GCN #27817, Belkin et
+al., GCN #27820, Belkin et al., GCN #27821) in the stacked images. We
+obtained the 5-sigma limits as follows.
+
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+30.5 2020-05-25 11:34:26 660 g'>18.7, Rc>18.7, Ic>18.0
+------------------------------------------------------------------------------------------------
+T0+: Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used the GSC2.3 catalog for flux calibration. The magnitudes are
+expressed in the Vega system. The images were processed in real-time
+through the MITSuME GPU reduction pipeline (Niwano et al. ,in prep;
+https://github.com/MNiwano/Eclair)
+

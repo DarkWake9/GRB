@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25333
+SUBJECT: LIGO/Virgo S190814bv: Update on Sky-Localization and Source-Classification
+DATE:    19/08/15 10:41:01 GMT
+FROM:    Geoffrey Mo at LIGO  <geoffrey.mo@ligo.org>
+
+The LIGO Scientific Collaboration and Virgo Collaboration report:
+
+We have conducted further analysis of the LIGO and Virgo data around
+the time of the compact binary coalescence (CBC) candidate S190814bv
+(GCN 25324). Parameter estimation has been performed using
+LALInference [1] and a new sky map, LALInference.v1.fits.gz,
+distributed via GCN Notice, is available for retrieval from the
+GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S190814bv/
+
+LALInference.v1.fits.gz is the preferred sky map at this time.
+The 90% credible region is 23 deg2. Marginalized over the whole sky,
+the a posteriori luminosity distance estimate is 267 +/- 52 Mpc
+(a posteriori mean +/- standard deviation).
+
+Based on posterior support from parameter estimation [1, 2], under the
+assumption that the candidate S190814bv is astrophysical in origin,
+there is strong evidence that the lighter compact object has a
+mass < 3 solar masses (HasNS > 99%) and a
+negligible probability of having disrupted material outside the final
+compact object (HasRemnant < 1%). The parameter estimation based
+classification of the GW signal, in order of descending probability,
+is NSBH (>99%), MassGap (<1%), BBH (<1%), or BNS (<1%).
+
+The above mentioned probabilities are the preferred classification
+results that supersede the ones stated in GCN 25324. The probability
+of non-astrophysical origin and the false alarm rate are not being
+updated at this time.
+
+For further information about analysis methodology and the contents
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+[1] Veitch, et al. PRD 91, 042003 (2015)
+[2] Abbott, et al. PRL 116, 241102 (2016)

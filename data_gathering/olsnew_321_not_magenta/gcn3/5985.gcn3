@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5985
+SUBJECT: erratum : SDSS Pre-burst Observations of GRB061126
+DATE:    06/12/30 04:01:42 GMT
+FROM:    Richard J. Cool at U.of AZ/Steward Obs  <rcool@as.arizona.edu>
+
+It has come to our attention that the SDSS photometry released for  
+the burst GRB061126 was not calibrated with the correct photometric  
+zero-points measured for the runs associated with these images.  We  
+have found the problem in the scripts use to generate our GRB  
+followup messages and it has been corrected so this will not affect  
+any other future bursts. We have also verified that this problem does  
+not affect any other data previously released for other bursts.     
+The photometry previously released for GRB061126 should not be used  
+for photometric calibration of new data.  This includes both the  
+photometric zero-points in the catalogs we released for this burst as  
+well as the photometric zero-points of the associated images.
+
+We would like to emphasize that this error occurred due to a mistake  
+in our GRB pre-burst scripts and is not due to a problem with the  
+SDSS reductions themselves.
+
+At the URL:
+
+http://mizar.as.arizona.edu/grb/public/GRB061126/
+
+We have replaced our previously released data with the official SDSS  
+reduction of these data (which does not suffer from the same zero- 
+point error).  This data is suitable for photometric calibration.    
+At this time, we have only included an updated version of the bright  
+star photometry and astrometry in the file  
+GRB061126_sdss.calstar_v2.dat.  The format for this file is identical  
+to that of previous releases.  We have also included images for this  
+field from SDSS.  *These images have not been corrected for the  
+incorrect photometric zero-points, so no photometric measurements  
+should me made directly from the images*.
+
+We regret this mistake and apologize for any confusion or  
+inconvenience it may have caused.
+

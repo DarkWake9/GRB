@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6691
+SUBJECT: GRB 070731, Swift-BAT refined analysis
+DATE:    07/07/31 14:00:59 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. Tueller (GSFC), L. Barbier (GSFC), S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), D. Palmer (LANL),
+A. Parsons (GSFC), P. Romano (INAF/OAB), T. Sakamoto (GSFC/ORAU),
+G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-240 to T+302 sec from the recent telemetry downlink,
+we report analysis of BAT GRB 070731 (trigger #286574).  The spacecraft
+did not slew to the location because of a Moon constraint.  It will come out
+of Moon constraint 02 Aug 07 UT.  The BAT ground-calculated position is
+RA, Dec = 328.581, -15.740 deg  which is 
+   RA(J2000)  =  21h 54m 19.5s 
+   Dec(J2000) = -15d 44' 23" 
+with an uncertainty of 1.9 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 49%.
+ 
+The mask-weighted lightcurve shows a single peak starting at ~T-0.5 sec,
+peaking at ~T+0.7, and ending at ~T+3 sec.  There is no indication 
+of any other emission prior and past the trigger.  We note that there is a gap 
+in the currently downloaded data set from T+120 to T+190 sec.
+T90 (15-350 keV) is 2.9 +- 0.2 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.1 to T+3.0 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.65 +- 0.23.  The fluence in the 15-150 keV band is 1.6 +- 0.3 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.14 sec in the 15-150 keV band
+is 1.2 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+This burst occurred during a 42-min outage in the TDRSS service and so all
+the normal real-time messages were not sent to the ground.
+

@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25107
+SUBJECT: LIGO/Virgo S190718y: Analysis update
+DATE:    19/07/19 16:31:52 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We performed a preliminary follow-up investigation of the compact
+binary merger candidate S190718y reported in GCN 25087. We removed
+glitches reported therein, using the PyCBC [1] gating method and
+reanalyzed the data with PyCBC / Bayestar [2], and also using the same
+template as the gstlal event. The analysis yields no evidence for
+retracting this event. There are no updates to the p_astro or
+significance of this event at this time.
+
+The event's properties can be found at this URL:
+https://gracedb.ligo.org/superevents/S190718y
+
+For further information about analysis methodology and the contents of
+this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+[1] Nitz et al. PRD 98, 024050 (2018)
+[2] Singer & Price PRD 93, 024013 (2016)
+

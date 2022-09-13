@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25434
+SUBJECT: Fermi GBM-190816: Upper Limits from Swift/BAT Observations
+DATE:    19/08/21 19:22:00 GMT
+FROM:    Aaron Tohuvavohu at PSU/Swift  <auc444@psu.edu>
+
+James DeLaunay (PSU) and Aaron Tohuvavohu (PSU) report:
+
+We report the upper limits from additional deeper searches of the BAT
+data for a counterpart to LVC-Fermi event GBM-190816 (GCN Circ.
+25406).
+
+As reported in GCN Circ. 25415, Swift was in the middle of a slew at
+the time of the event. The BAT FOV with >10% partial coding, contained
+~22.5% of the joint LVC-Fermi probability at LVC trigger time
+(2019-08-16T21:22:13.027 UTC). Event data was captured during the slew
+and is available from T0-65.5s to T0+150.36.
+
+Using a likelihood based approach (DeLaunay et al., in prep), a search
+was performed on the BAT event data for any short transient on the
+scale of 0.128s within +/-15s of the GBM-190816 event time. The search
+is performed by maximizing the likelihood of a power-law signal plus
+background model over the signal parameters (sky position, power-law
+index, and spectral normalization) in each time bin being tested.
+Longer time scales would need to take into account the slewing effect
+and are not yet implemented in this search.
+
+No significant counterparts were found using this method. Upper limits
+can be set by finding what flux needs to be injected on top of the
+background to be detected above a certain threshold (signal-to-noise
+>~ 5 sigma) 90% of the time. For the upper limits we assume the same
+spectral shape as the hard template used by the GBM team for te
+claimed detection (GCN Circ. 25406).
+
+The sensitivity varies across the BAT field-of-view, so we report here
+the average upper limit over the joint LVC-Fermi localization that
+lands within the >10% coded BAT field-of-view.
+
+Average upper limit for Hard Spectral Template for 0.128s time scale:
+3.1e-7 erg/cm2/s (14-195 keV)
+
+We also perform a search in events sensitive to all gamma-ray
+transients, even those originating from outside of the coded
+field-of-view. At T0, ~86% of the Fermi/LVC localization was above the
+Earth limb with respect to the spacecraft, and thus capable of
+depositing flux onto the detector array. We find no evidence for a
+gamma-ray transient within T0 +/- 10. We set the following average
+sensitivity limit for a 1-s long sGRB occurring in the part of the
+Fermi-LVC joint localization covered by the BAT field-of-view.
+
+Average upper limit for Hard Spectral Template for 1.024s time scale:
+7.1 E-8 erg/cm2/s (14-195 keV)
+
+However, we cannot currently calculate an upper limit for the 63% of
+the localization outside of the coded field-of-view due to the varying
+and unknown detector response function at wide off-boresight angles.
+Upper limits are typically an order of magnitude higher for events
+outside of the field-of-view. Work is ongoing to better characterize
+this response.
+

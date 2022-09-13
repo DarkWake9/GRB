@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14551
+SUBJECT: Trigger 555096: Swift detection of a possible burst
+DATE:    13/05/04 02:29:39 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. R. Cummings (NASA/UMBC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), D. N. Burrows (PSU),
+P. D'Avanzo (INAF-OAB), V. D'Elia (ASDC), N. Gehrels (NASA/GSFC),
+J. A. Kennea (PSU), H. A. Krimm (CRESST/GSFC/USRA),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU), M. H. Siegel (PSU),
+E. Troja (NASA/GSFC/UMCP) and T. N. Ukwatta (MSU) report on behalf of
+the Swift Team:
+
+At 02:05:34 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located trigger=555096.  Swift slewed immediately to the transient. 
+The BAT on-board calculated location is 
+RA, Dec 272.365, -16.344 which is 
+   RA(J2000) = 18h 09m 27s
+   Dec(J2000) = -16d 20' 38"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed two FRED peaks
+with a duration of about 25 sec.  The peak count rate was ~1617 counts/sec 
+(15-350 keV), at ~2 sec after the trigger. 
+
+The XRT began observing the field at 02:07:00.2 UT, 85.9 seconds after
+the BAT trigger. No source was detected in 1.1 ks of promptly
+downlinked data. We are waiting for the full dataset to detect and
+localise the XRT counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 88 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+The event is unusual in that it is a long burst in BAT with no 
+detected X-ray counterpart after an immediate slew.  We also note
+that this location is in the Galactic bulge near the plane
+(lon = 13.65, lat=1.56).  Ground analysis of the detector
+plane histogram finds only a marginal image detection (5.9 sigma). 
+
+For these reasons, we will not be able to determine the reality
+or nature of this event until ground-linked data is available. 
+
+Burst Advocate for this burst is J. R. Cummings (jayc AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

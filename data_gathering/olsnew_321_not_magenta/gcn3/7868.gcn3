@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7868
+SUBJECT: Swift observations of BAT Slew Survey event (Trigger=010)
+DATE:    08/06/11 14:43:43 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@star.le.ac.uk>
+
+E. Troja (U. Leicester/INAF-IASFPA), S. T. Holland (CRESST/USRA/GSFC),
+A. Copete (Harvard), J. Grindlay (Harvard), K. L. Page (U. Leicester),
+P. A. Evans (U. Leicester), S. Barthelmy (GSFC) report:
+
+
+At 09:50:17 UT on 2008-06-02, BAT detected a source during a spacecraft
+slewing interval (when normal BAT triggering is disabled). This event
+(ID Num=010) was detected using the BAT Slew Survey (BATSS) method.
+The location is
+    RA(J2000) = 00h 17m 41s
+   Dec(J2000) = +48d 34m 12s
+with an uncertainty of 6.3 arcmin.
+This was initially distributed as a GCN/BAT_SLEW_POS Notice at 21:12 UT,
+11.3 hrs after the slew.
+
+A 6 ks ToO observation of the location started at 22:01 UT, 12.2 hrs
+after the slew. XRT observation revealed a faint source (~3 x 10-3 cts/s)
+with a possible fading behavior. This source is located at :
+
+RA(J2000)= 00h 18h 05.37s
+Dec(J2000)=+48d 38h 29.4s
+
+with an uncertainty of 8.6 arcsec (90% confidence). No other candidate
+afterglow was found, down to a 3 sigma upper limit of 3 x 10-3 cts/s.
+
+UVOT observations detected two sources within the XRT error circle, whose
+positions are consistent with catalogued objects. The colours of these
+sources are:
+
+(v-b)_0 = 0.76, (u-b)_0 = 0.51, suggestive of a G2I star
+(v-b)_0 = 0.48, (u-b)_0 =-0.45
+
+The colours have been corrected for the Galactic reddening of
+E(B-V)=0.11 mag along the line of sight (Schlegel et al., 1998). No
+evidence for variability is observed in either of these sources, and it
+is not possible to determine whether one of them is the counterpart of the
+XRT source.
+
+In order to check the variability of the XRT source, further observations
+with Swift were performed. The source is not detected in 6 ks of exposure,
+taken from 2.6 d to 3.5 d after the slew. In later observations,
+taken from 7.6 d to 8.1 d after the slew (6 ks of exposure in PC mode),
+the X-ray source is clearly detected at a count rate of
+(2.2+/-0.7) x 10-3 cts/s, consistent with the first detection.
+
+We conclude that this source is unassociated to the BATSS event.
+
+

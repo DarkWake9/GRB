@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18226
+SUBJECT: Konus-Wind observation of GRB 150831A
+DATE:    15/09/01 15:51:15 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A.Lysenko, A. Kozlova,
+and T. Cline on behalf of the Konus-Wind team, report:
+
+The short-duration GRB 150831A (Swift trigger 648437:
+Lien, et al., GCN Circ. 18209; Ukwatta, et al., GCN Circ. 18214;
+INTEGRAL detection: Mereghetti et al., GCN Circ. 18210)
+triggered Konus-Wind at T0=38049.519 s UT (10:34:09.519).
+
+The burst light curve shows a short pulse with
+a total duration of ~1 s.
+
+As observed by Konus-Wind, the burst had a fluence of
+(2.4 +/- 0.4)x10^-6 erg/cm2, and a 16-ms peak flux,
+measured from T0-0.082 s, of (9.1 +/- 2.5)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Since the most intense part of the burst was detected before
+the trigger, the spectral analysis was performed using
+the KW 3-channel light curve data.
+
+Modeling the 3-channel time-integrated spectrum
+(from T0-0.108 s to T0+0.912 s) by a power law
+with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -0.5 +/- 0.3, and Ep = 564 +/- 122 keV.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB150831_T38049/
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+

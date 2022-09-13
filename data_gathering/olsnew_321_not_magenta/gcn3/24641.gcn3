@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24641
+SUBJECT: LIGO/Virgo S190521g : Upper limits from Fermi-GBM observations
+DATE:    19/05/21 17:44:12 GMT
+FROM:    Suraj Poolakkil at UAH  <sp0076@uah.edu>
+
+S. Poolakkil (UAH) and A. Goldstein (USRA) report on behalf of the
+Fermi-GBM Team and the GBM-LIGO/Virgo group:
+
+For S190521g, and using the updated LALInference skymap, Fermi-GBM was
+observing 70.9% of the localization probability at event time.
+
+There was no Fermi-GBM onboard trigger around the event time of the
+LIGO/Virgo detection of GW trigger S190521g (GCN 24621). An automated,
+blind search for short gamma-ray bursts below the onboard triggering
+threshold in Fermi-GBM also identified no counterpart candidates. The GBM
+targeted search, the most sensitive, coherent search for GRB-like signals,
+was run from +/-30 s around merger time, and also identified no counterpart
+candidates.
+
+Part of the LVC localization region is behind the Earth for Fermi,
+located at RA = 172.7 and Dec = -25.4 with a radius of 67.5 degrees.
+We therefore set upper limits on impulsive gamma-ray emission. Using the
+representative soft, normal, and hard GRB-like spectral templates described
+in arXiv:1612.02395, we set the following 3 sigma flux upper limits over
+10-1000 keV, weighted by the remaining visible GW localization probability
+(in units of erg/s/cm^2):
+
+Timescale  soft     norm     hard
+--------------------------------------
+0.128 s:   7.6e-07  9.7e-07  1.8e-06
+1.024 s:   2.6e-07  3.4e-07  5.2e-07
+8.192 s:   6.7e-08  1.1e-07  1.9e-07
+
+Assuming the median luminosity distance of ~3931 Mpc from the GW detection,
+we estimate intrinsic luminosity upper limits of (1.9-22.5)E50 erg/s for the
+soft template, (2.7-24.5)E50 erg/s for the normal template, and
+(8.1-77.3)E50 erg/s for the hard template over the 1 keV-10 MeV energy
+range.

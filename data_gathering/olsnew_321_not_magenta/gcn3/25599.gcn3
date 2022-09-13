@@ -1,0 +1,89 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25599
+SUBJECT: LIGO/Virgo S190814bv : No significant candidates in TAROT-GRANDMA observations
+DATE:    19/09/01 21:07:56 GMT
+FROM:    Nelson Christensen at Obs.de la Cote dAzur,Nice  <nelson.christensen@oca.eu>
+
+D. Corre (LAL), M. Blazek (HETH/IAA-CSIC), A. Klotz (IRAP),
+N. Christensen (Artemis), M. Boer (Artemis), L. Eymar (Artemis),
+K. Noysena (Artemis, IRAP), S. Antier (APC), S. Basa (LAM),
+D. Coward (OzGrav-UWA), J.G. Ducoin (LAL), B. Gendre (OzGrav-UWA),
+P. Hello (LAL),  D. A. Kann (HETH/IAA-CSIC), C. Lachaud (APC), N. Leroy (LAL),
+D. Turpin (NAOC), X. Wang (THU)
+
+report on behalf of the TAROT network and GRANDMA collaborations:
+
+We performed tiled observations of LIGO/Virgo event S190814bv
+(GCN #25324) with the TAROT-Reunion (Les Makes Observatory,
+La Reunion Island, France) telescope operating in clear filter.
+
+The observations started on 08/14/19 21:41:19 UTC which corresponds
+approximately to 31 minutes after the GW trigger time.
+
+We performed the following tiled observations :
+
++------------+------------+---------+---------+---------+
+| TStart     | TEnd       | RA      | DEC     |   Proba |
+| [UTC]      | [UTC]      | [deg]   | [deg]   |     [%] |
+|------------+------------+---------+---------+---------|
+| 2019-08-14 | 2019-08-14 | 9.3506  |-28.6364 |    0.4  |
+| 21:41:19   | 23:12:44   |         |         |         |
+| 2019-08-14 | 2019-08-14 | 0.0000  |-32.7273 |  < 0.1  |
+| 22:02:49   | 23:25:55   |         |         |         |
+| 2019-08-14 | 2019-08-16 | 13.500  |-24.5454 |   76.0  |
+| 22:14:55   | 00:48:18   |         |         |         |
+| 2019-08-14 | 2019-08-14 | 20.6897 | -8.1818 |  < 0.1  |
+| 22:28:09   | 23:51:15   |         |         |         |
+| 2019-08-14 | 2019-08-15 |354.8571 |-36.8182 |  < 0.1  |
+| 22:47:06   | 00:09:59   |         |         |         |
+| 2019-08-14 | 2019-08-14 | 4.6753  |-28.6364 |  < 0.1  |
+| 23:00:04   | 23:04:30   |         |         |         |
+| 2019-08-15 | 2019-08-15 | 9.0000  |-24.5454 |    6.3  |
+| 00:15:59   | 00:46:01   |         |         |         |
+| 2019-08-15 | 2019-08-21 | 24.324  |-32.727  |    7.4  |
+| 19:54:58   | 01:01:29   |         |         |         |
++------------+------------+---------+---------+---------+
+
+TStart and TEnd refer respectively to the time of the first and last
+exposure for a given tile. Observations are not necessarily continuous
+in this interval.
+
+The Probability refers to the 2D spatial
+probability of the GW skymap enclosed in a given tile. Each tile is
+4.2x4.2 degrees. These observations cover about 89% of the cumulative
+probability of the LALInference skymap with HLV (posted at Aug 15,
+2019 09:07:19 UTC)
+
+The typical limiting magnitude is 16.0 for a 60.0 s exposure due to
+bad conditions of observations.
+
+No serious transient candidates were found during our low latency
+analysis.
+
+The coverage map is available at:
+https://grandma-owncloud.lal.in2p3.fr/index.php/s/0aSCYiO1XqzHJkx
+
+Further analysis of the field (ra:13.500,dec:-24.5454) observed 64
+min after the GW trigger time covering 76% of the LALInference skymap
+has been performed.
+
+No sources were found giving an upper limit at 16 mag for
+a possible optical counterpart.
+
+We have also found no source (3 sigma) at locations of desgw-190814j,
+desgw-190814m, desgw-190814o (GCN #25425), DG19hqpgc, DG19tzyhc,
+DG19wgmjc, DG19sevhc (GCN #25362), DG19vodmc, DG19gcwjc, DG19rzhoc,
+DG19tvtnc, DG19sbzkc, DG19hqhjc (GCN #25393), PS19epf, PS19eph
+(GCN #25356), desgw-190814a (GCN #25336), desgw-190814q (GN #25438).
+
+GRANDMA (Global Rapid Advanced Network Devoted to the Multi-messenger
+Addicts) is a network of robotic telescopes connected all over the
+world with both photometry and spectrometry capabilities for Time-
+domain Astronomy (https://grandma.lal.in2p3.fr/).
+Details on the TRE telescope  are available on the GRANDMA web pages
+or on
+http://tarot.obs-hp.fr/.
+
+[GCN OPS NOTE(02sep19): Per author's request, MB's affiliation was corrected,
+and DAK was added to the author list.]
+

@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28893
+SUBJECT: VLASS identifies possible radio counterparts to IceCube-201115A, including a bright BL Lac candidate
+DATE:    20/11/15 17:05:18 GMT
+FROM:    Gregory R Sivakoff at U of Alberta  <sivakoff@ualberta.ca>
+
+The following is an abbreviated form of Astronomers Telegram #14177. Here
+we fix the link to the original IceCube GCN for the source (we originally
+missed the N, which prevents auto linking in ATels).
+
+IceCube-201115A is a recently detected (gold-track) astrophysical neutrino
+(GCN #28889), localized at 90% PSF containment to (J2000):
+RA: 195.12 (+ 1.27 / - 1.49) deg
+Dec: 1.38 (+ 1.30 / - 1.11) deg.
+Here, we present potential counterparts with precursor (2019 April 21)
+radio emission at 2-4 GHz from the catalog of the Very Large Array Sky
+Survey Epoch 1 Quick Look Components catalog (Gordon et al. 2020, RNAAS, 4,
+175). We highlight the brightest component in particular, VLASS1QLCIR
+J125908.35+013606.4 (with a peak radio flux density of 172.3 +/- 0.2 mJy,
+and an association to SDSS J125908.28+013605.3). This source may be
+associated with a BL Lac type object.
+
+The VLASS detection consists of multiple components. Visual inspection
+shows a bright source and a ~2.5x fainter source about 6" to the south
+east. We interpret these as either two radio lobes (or less likely two jet
+knots) as SDSS J125908.28+013605.2 (aka SDSS J125908.28+013605.3) lies
+directly between the sources. This optical source has a photo-z of
+0.62+/-0.05. While the Initial Gaia Source List (Smart and Nicastro 2013)
+indicates a 5.2 sigma non-zero proper motion, this catalog states it should
+be used for care for individual sources. We discount the likelihood that
+this is a Galactic source, given the two radio detections.
+
+We adopt the Sloan position of the source, specifying positional errors
+that contain the VLASS radio emission, after accounting for potential 0.5"
+accuracy issues with VLASS Epoch 1 data in their current processing stage:
+RA: 194.78452 +/- 0.00028 deg
+Dec: 1.601466 +/- 0.000018 deg.
+The VLASS QL position (RA = 194.784795+/- 0.000003, Dec = 1.601785 +/-
+0.000002) is 1.5" offset from the SDSS position due to the asymmetry in the
+radio emission. The radio "source" that typically describes the two VLASS
+components is PKS 1256+018 (PKS J1259+0136), which is a known radio
+variable source (Ofek et al. 2011, ApJ, 737, 45). The radio spectral index
+(-0.59; Vollmer 2010, A&A, 511, 53) is consistent with optically thin
+synchrotron emission (flux density S_ν proportional to ν^-0.6, where ν is
+the frequency).
+
+Burbidge & Hewitt (1992, Variability of Blazars, 4) list "1E 1256+018" as a
+BL Lac and is likely to be the same source as PKS 1256+018. However, the
+nearest Second Einstein catalog source is 4.7' away, and has a positional
+error of 0.7'.
+
+Given this potential radio source associated with a BL Lac and an
+astrophysical neutrino, we strongly suggest multi-wavelength observations
+of SDSS J125908.28+013605.3.

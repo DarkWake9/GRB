@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21495
+SUBJECT: LIGO/Virgo G297595: REM optical/NIR observations
+DATE:    17/08/16 12:32:51 GMT
+FROM:    Paolo D'Avanzo at INAF-OAB  <pda.davanzo@gmail.com>
+
+P. D'Avanzo (INAF-OAB), G. Greco (Urbino University/INFN Firenze), A. Melandri (INAF-OAB), M. Branchesi (GSSI), D. Fugazza, S. Covino (INAF-OAB), L. Amati (INAF-IASF Bo), L. A. Antonelli, (INAF-OAR), S. Ascenzi (INAF-OAR), S. Benetti (INAF-OAPD), M.T. Botticella (INAF-OAC),  S. Campana (INAF-OAB), E. Cappellaro (INAF-OAPD), V. D'Elia (INAF-ASDC), F. Getman (INAF-OAC), A. Grado (INAF-OAC), L. Limatola (INAF-OAC), M. Lisi (INAF-OAR), L. Nicastro (INAF-IASF Bo), E. Palazzi (INAF-IAFS Bo), E. Pian (SNS-Pisa), S. Piranomonte (INAF-OAR), L. Pulone (INAF-OAR), A. Rossi (INAF-IASF Bo), G. Stratta (Urbino University/INFN Firenze), G. Tagliaferri (INAF-OAB), V. Testa (INAF-OAR), L . Tomasella (INAF-OAPD), S. Yang (INAF-OAPD), E. Brocato (INAF-OAR) on behalf of GRavitational Wave Inaf TeAm report:
+
+
+We carried out optical/NIR follow-up observations of the LIGO/Virgo GW trigger G297595 (LVC GCN Circ. 21474) with the 60-cm robotic telescope REM located at the La Silla Observatory (Chile). The observations were carried out on 2017 Aug 15 from 02:31:48 UT (i.e. 16 hours after the event detection) to 08:20:50 UT, simultaneously in the g, r, i, z and H bands. We observed 21 galaxies within the 50% probability region reported in LVC GCN Circ. 21474. The targets were selected with a distance consistent with the one reported in the FITS header of the initial skymap (488 +/- 111 Mpc; see also LVC GCN Circ. 21489) and an absolute B-band magnitude brighter than -21.9 mag. The targets were selected using the information of distance and magnitude reported in the GLADE catalogue (Dalya et al. 2016). The pointing sequence was generated using the GWsky script (https://github.com/ggreco77/GWsky <https://github.com/ggreco77/GWsky>) starting from the high probability region of the skymap and taking into account the airmass:
+
+RA(J2000)    Dec(J2000)    Distance (Mpc)    
+02:33:12.75    -49:31:02.0    289.73 
+02:34:00.15    -49:36:58.4    288.40*
+02:39:27.05    -45:24:52.1    204.17* 
+02:41:50.25    -46:51:52.1    396.28 
+02:42:55.60    -44:21:38.0    442.59 
+02:42:05.63    -45:20:14.8    432.51 
+02:44:39.93    -47:29:02.5    409.26 
+02:45:34.23    -44:32:22.5    316.23 
+02:45:13.34    -46:27:19.4    413.05 
+02:46:37.00    -42:22:01.5    307.61 
+02:47:31.97    -41:50:11.4    642.69 
+02:48:15.67    -41:39:12.3    295.12* 
+02:48:54.66    -42:03:02.1    411.15 
+02:48:03.81    -44:06:41.6    476.43 
+02:48:33.66    -45:16:36.1    636.80 
+02:49:44.35    -42:19:38.6    322.11 
+02:51:39.04    -42:57:58.8    317.69 
+02:53:45.59    -41:11:22.9    688.89 
+02:54:07.10    -41:37:32.6    676.08 
+02:56:35.81    -40:57:39.4    746.57 
+02:56:03.08    -42:47:25.0    313.33 
+*: no NIR images were collected for this target
+
+
+A preliminary analysis (also based on visual comparison with the DSS) reveals no obvious optical/NIR candidate counterpart in the above galaxies down to the following magnitudes: r > 19.5, H > 17.3 (AB, 3sigma UL). We note that among our targets there is the host galaxy of the transient PS17edh reported by Chambers et al. (LVC GCN Circ. 21488). It is not possible, however, to resolve such object in our images. 
+
+

@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5451
+SUBJECT: GRB 060814: Swift XRT refined analysis
+DATE:    06/08/15 13:20:59 GMT
+FROM:    Alberto Moretti at Obs Brera Merate  <alberto.moretti@brera.inaf.it>
+
+A. Moretti (INAF-OAB), C. Guidorzi (Univ. Bicocca & INAF-OAB),
+P. Romano (INAF-OAB) report on behalf of the Swift-XRT team:
+
+We have analysed the first 4 orbits of Swift-XRT data obtained for GRB
+060814 (trigger number 224552). The data consist of 428 s in Windowed
+Timing (WT) mode, starting 72 seconds after the BAT trigger and 9.2 ks
+in Photon Counting (PC) mode. Using PC data we obtain a refined
+position of:
+
+RA(J2000) =   14 45 21.48
+Dec(J2000) = +20 35 11.8
+
+with an estimated uncertainty radius of 3.5 arcsec (90% containment).
+
+The light-curve, initially, shows a steep decay (alpha1=2.3+/-0.1) up to a
+break at t_break1=1292+/-140.s. On top of this steep decay there is a
+flare peaking at 150 s. After the break, the afterglow shows a
+shallow decay (alpha2=0.3+/-0.1) up to t_break2=7500+/-2000 s, when
+the light-curve steepens (alpha3=1.0+/-0.2).
+
+The spectrum formed from all the WT data (< t_break1) can be modelled
+with a power-law of photon index Gamma = 1.67 +/- 0.03, with an excess
+absorbing column of NH = (2.7 +/- 0.2)e21 cm^-2 in addition to the
+Galactic value of 2.40e20 cm^-2. The spectrum formed from the PC data
+(> t_break1) is significantly softer than the pre-break spectrum: it
+can be modelled with a power-law of photon index Gamma = 2.2 +/- 0.10,
+with an absorbing column of NH = (3.6 +/- 0.4)e21 cm^-2, which is
+marginally consistent with the previous one.
+
+Assuming the light-curve continues to decay with alpha3=1.0, the
+count rate at 24 hours is predicted to be 0.030 count s^-1. This
+corresponds to an observed (unabsorbed) flux of 1.5e-12 (2.7e-12)
+erg cm^-2 s^-1.
+
+This circular is an official product of the Swift-XRT team.
+
+
+[GCN OPS NOTE(15aug06): This Circular was delayed by ~4 hrs due to problems
+at the GCN end.]

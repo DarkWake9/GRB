@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3975
+SUBJECT: Swift-BAT trigger 155072 ground analysis
+DATE:    05/09/14 18:35:54 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+L. Barbier (GSFC), L. Angelini (GSFC), Alex Blustin (UCL-MSSL), 
+D. Burrows (PSU), S. Barthelmy (GSFC), S. Campana (INAF-OAB), 
+J. Cummings (GSFC/NRC), E. Fenimore (LANL), N. Gehrels (GSFC), 
+O. Godet (U. Leicester), J. Greiner (MPE), D. Hullinger (UMD), 
+J. Kennea (PSU), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), 
+F. Marshall (GSFC), J. Osborne (U Leicester), K. Page (U. Leicester), 
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/NRC), 
+G. Sato (ISAS), J. Tueller (GSFC),
+on behalf of the Swift team:
+
+Swift-BAT trigger 155072 (Greiner et al. GCN circ. 3974) appears to be
+consistent with a statistical fluctuation in the intersection of the
+rate and image domains.  We cannot completely rule out that the rate and
+image excesses are due to a very weak GRB, based on the BAT data.
+
+If the excesses are due to a very weak GRB, the burst would appear to be
+short (~1 sec) and to have a hard spectrum with no emission < 50 keV in
+the BAT energy range. The spectral parameters are poorly constrained.
+
+The BAT refined ground analysis position is RA, Dec 59.512d, -16.655d
+(3h 58m 2.8s, -16d 39' 19") J2000, with an error radius of 4 arcmin
+(90% confidence including systematic errors).
+
+The initial XRT image (a single 2.5 sec integration at 11:28:53.8 UT, 
+99 sec after the BAT trigger) has no indication of an X-ray source.  
+Further XRT observations in PC mode began at 12:35:30 (T+3996 sec).  In 
+2.1 ks of PC mode data there is no detectable X-ray source.  The 3-sigma 
+unabsorbed flux upper limit is 2.5e-13 erg cm^-2 sec^-1 (0.3-10 keV).  We 
+note that this is highly unusual for a long GRB at this epoch, but does 
+not rule out a short GRB.
+
+UVOT began observing 4084 sec after the BAT trigger.  No new source
+is seen in the 100 second exposure with the V filter to a 5-sigma limit
+of 18.4 magnitudes.  This magnitude is uncorrected for extinction and is
+based on a preliminary zero-point, measured in orbit, and will require
+refinement with further calibration.
+
+No further observations are planned.
+

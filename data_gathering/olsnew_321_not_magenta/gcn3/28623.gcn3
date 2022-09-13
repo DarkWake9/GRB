@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28623
+SUBJECT: Swift Trigger 1000255 is probably not a GRB
+DATE:    20/10/14 23:12:04 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+E. Ambrosi (INAF-IASFPA), S. D. Barthelmy (GSFC),
+A. D'Ai (INAF-IASFPA), V. D'Elia (SSDC), J.D. Gropp (PSU),
+J. A. Kennea (PSU), N. P. M. Kuin (UCL-MSSL), A. Y. Lien (GSFC/UMBC),
+D. M. Palmer (LANL), B. Sbarufatti (PSU),
+M. Stamatikos (OSU/NASA/GSFC) and A. Tohuvavohu (U Toronto) report on
+behalf of the Neil Gehrels Swift Observatory Team:
+
+At 22:48:38 UT, the Swift Burst Alert Telescope (BAT) found a peak in 
+a waiting mode image (trigger=1000255).  Swift slewed immediately to 
+the location. 
+The BAT on-board calculated location is 
+RA, Dec 20.847, +27.692 which is 
+   RA(J2000) = 01h 23m 23s
+   Dec(J2000) = +27d 41' 32"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for an image trigger, no
+obvious variation is apparent in the immediately available lightcurve. 
+
+No source was detected in 666 s of promptly downlinked data. We are
+waiting for the full dataset to detect and localise the XRT
+counterpart. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 176 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.08. 
+
+Due to the marginal detection in the BAT image (7.4 sigma), the lack
+of a rate trigger, and the non-detection of an afterglow by XRT,
+we believe that this is probably not an astrophysical event. 
+Determination of the nature of this trigger will require the
+full downlinked dataset. 
+

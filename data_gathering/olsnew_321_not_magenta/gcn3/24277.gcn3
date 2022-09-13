@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24277
+SUBJECT: LIGO/Virgo S190426c: Updated localization from LIGO and Virgo data
+DATE:    19/04/27 11:27:08 GMT
+FROM:    Deep Chatterjee at University of Wisconsin, Milwaukee  <deep@uwm.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+
+We have re-analyzed LIGO and Virgo data around the time of the compact
+binary coalescence (CBC) candidate S190426c (GCN 24237). Parameter
+estimation has been performed using LALInference [1] and a new sky
+map, lalinference.fits.gz, is available for retrieval from the
+GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S190426c/
+
+For the lalinference.fits.gz skymap, the 90% credible region is 1131
+deg2. Marginalized over the whole sky, the a posteriori luminosity
+distance estimate is 377 +/- 100 Mpc (a posteriori mean +/- standard
+deviation). This is the preferred sky map at this time.
+
+For further information about analysis methodology and the contents
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https://emfollow.docs.ligo.org/userguide/>.
+
+
+[1] Veitch et al. PRD 91, 042003 (2015)
+

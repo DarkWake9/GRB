@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8057
+SUBJECT: GRB 080804: Swift detection of a burst with optical afterglow
+DATE:    08/08/04 23:37:27 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. L. Racusin (PSU), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), M. M. Chester (PSU),
+N. Gehrels (NASA/GSFC), D. Grupe (PSU),
+S. T. Holland (CRESST/USRA/GSFC), J. A. Kennea (PSU),
+C. Pagani (PSU), D. M. Palmer (LANL), M. C. Stroh (PSU) and
+T. N. Ukwatta (GSFC/GWU) report on behalf of the Swift Team:
+
+At 23:20:14 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080804 (trigger=319016).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 328.701, -53.195 which is 
+   RA(J2000)  =  21h 54m 48s
+   Dec(J2000) = -53d 11' 40"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows multiple overlapping
+peaks with a duration of about 20 sec.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~3 sec after the trigger. 
+
+The XRT began observing the field at 23:21:53.7 UT, 99.0 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+uncatalogued X-ray source located at RA, Dec 328.66583, -53.18532 which
+is equivalent to:
+   RA(J2000)  = 21h 54m 39.80s
+   Dec(J2000) = -53d 11' 07.2"
+with an uncertainty of 3.0 arcseconds (radius, 90% containment). This
+location is 83 arcseconds from the BAT onboard position, within the BAT
+error circle. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of
+1.63e+20 cm^-2 (Kalberla et al. 2005). 
+
+The initial flux in the 2.5 s image was 5.50e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of nominal 100 seconds with the White
+(160-650 nm) filter starting 109 seconds after the BAT trigger. There is a
+candidate afterglow in the list of sources generated on-board at
+  RA(J2000)  =  21:54:40.2 = 328.6675
+  DEC(J2000) = -53:11:05   = -53.18472
+with a 1-sigma error radius of about 1.0 arc sec. The estimated white
+magnitude is 16.8 with a 1-sigma error of about 0.5 mag. No correction
+has been made for a Galactic extinction corresponding to a reddening of
+0.02 mag along the line of sight. 
+
+Burst Advocate for this burst is J. L. Racusin (racusin AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

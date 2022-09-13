@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14099
+SUBJECT: Swift-BAT refined analysis of SGR 1E 1841-045 (Trigger=543763)
+DATE:    12/12/24 19:38:58 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+E. E. Fenimore (LANL), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-119 to T+183 sec from recent telemetry downlinks,
+we report further analysis of BAT trigger #543763 on SGR 1E 1841-045
+(Barthelmy, et al., GCN Circ. 14098).  The BAT ground-calculated position is
+RA, Dec = 280.303, -4.916 deg, which is 
+   RA(J2000)  =  18h 41m 12.8s 
+   Dec(J2000) = -04d 54' 58.0" 
+with an uncertainty of 2.3 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 35%.
+ 
+The mask-weighted light curve shows a single spike where
+T90 (15-350 keV) is 0.012 +- 0.009 sec (estimated error including systematics).
+ 
+Several models are fit over the time-averaged spectrum from T+0.000 to T+0.016 sec.
+A simple power-law model yields a poor fit with the power law index of 2.60 +- 0.32
+(chi squared 55.89 for 57 d.o.f.).  The fluence in the 15-150 keV band is 1.2 +- 0.3 x 10^-8 erg/cm2.
+The cutoff power-law model yields a fit with E_peak = 40.6 +- 4.6 keV,
+power law indix = 3.6 +- 3.8, and chi squared 32.18 using 59 d.o.f.
+A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 9.8 +- 1.0 keV (chi squared 34.05 for 59 d.o.f.).
+A thermal bremsstrahlung model fit shows the temperature of 34.36 +- 9.34 keV
+(chi squared 46.93 for 57 d.o.f.).
+All the quoted errors are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/543763/BA/
+
+We note the previous activity of this source: Swift BAT triggers 526660 15 Jul 2012
+(GCN 13475 & 13480), 456505 on 02 Jul 2011 (GCN 12103 & 12104), 455904 on 23 Jun 2011
+(GCN 12079 & 12082), and 445776 on 11 Feb 2011 (GCN 11673).
+

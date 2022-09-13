@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19153
+SUBJECT: Swift trigger 677890 is noise
+DATE:    16/03/05 21:03:09 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), J. A. Kennea (PSU), K. L. Page (U Leicester)
+and D. M. Palmer (LANL) report on behalf of the Swift Team:
+
+At 20:42:32 UT, the Swift Burst Alert Telescope (BAT) triggered on a noise event
+that was spatially near Ser X-1 (trigger=677890).  Swift slewed immediately to the
+location.  The BAT on-board calculated location is 
+RA, Dec 279.868, +5.113, which is 
+   RA(J2000)  =  18h 39m 28s
+   Dec(J2000) = +05d 06' 45"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for images triggers (64 sec in this case)
+the real-time light curve does not show anything.  We believe this trigger is
+non-astrophysical. 
+
+The XRT began observing the field at 20:44:52.5 UT, 140.4 seconds after
+the BAT trigger. The position determined from promptly downlinked data
+differs significantly from the on-board position, suggesting that the
+XRT may have centroided on a cosmic ray; the initial XRT position
+notice should be treated with caution. The source in the promptly downlinked 
+data is only a marginal detection and is likely due to background variations. 
+We do not believe it is related to this trigger. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+146 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image covers none of the
+BAT error circle. The overlap of the 8'x8' region for the list of sources
+generated on-board and the XRT error circle is uncertain. No correction has
+been made for the large, but uncertain extinction expected. 
+
+This trigger was due to a low-significance image fluctuation
+in an image without a corresponding rate trigger.  Although
+the derived location of the image peak was close enough
+to Ser X-1 to trigger automated follow-up observations,
+its 9 arc minute offset is inconsistent with being a 
+true detection of the source. 
+
+Therefore, we believe that this event is merely a statistical
+fluctuation in the image plane, and not an astrophysical event. 
+

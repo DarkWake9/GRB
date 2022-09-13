@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5837
+SUBJECT: Konus-Wind and Konus-A observations of GRB 061121
+DATE:    06/11/22 18:00:35 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind and Konus-A teams report:
+
+The second, brightest pulse of the long GRB 061121 (Swift-BAT trigger
+#239899: Page et al., GCN 5823; Fenimore et al., GCN 5831)
+triggered Konus-Wind at T0=55412.445 s UT(15:23:32.445).
+The first pulse which triggered Swift-BAT was detected
+by Konus-Wind in the waiting mode.
+
+The Konus-Wind spectrum integrated over the main episode of emission
+(from T0 to T0+21.504 s) can be fitted (in the 20 keV - 5 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-(2-alpha)*E/Ep)
+with alpha = 1.32(-0.05, +0.04)
+and Ep = 606(-72, +90) keV (chi2 = 95/75 dof).
+
+The fluence of this part is 5.67(-0.50, +0.30)x10^-5 erg/cm2
+and the 64-ms peak flux measured from T0+12.960 s
+1.28(-0.19, +0.16)x10^-5  erg/cm2/s
+(both in the 20 keV - 5 MeV range).
+
+The fluence of the precursor is estimated as ~10^-6 erg/cm2,
+so the total burst fluence equals to the
+fluence of the main episode in the limits of its uncertainty.
+
+Assuming z = 1.314 (Bloom, Perley, and Chen, GCN 5826)
+and a standard cosmology model with H_0 = 70 km/s/Mpc,
+Omega_M = 0.3, Omega_\Lambda = 0.7,
+the isotropic bolometric energy release is E_iso ~2.5x10^53 erg, and
+the maximum bolometric luminosity is (L_iso)_max ~1.3x10^53 erg/s.
+
+All the quoted errors are at the 90% confidence level.
+
+The GRB 061121 also triggered Konus-A at T0=55350.15 s UT
+(15:22:10.15) (so Konus-A triggered on the precursor).
+The Konus-A instrument has been operating onboard Cosmos-2421 spacecraft
+since June 25, 2006. The instrument consists of 3 NaI(Tl) detectors
+200 mm in diameter and 50 mm in height with beryllium entrance windows.
+It is designed to study temporal and spectral characteristics
+of gamma-ray bursts in the wide energy range from 10 keV up to 10 MeV.
+
+The Konus-Wind and Konus-A light curves of this GRB are available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB061121_T55412/
+

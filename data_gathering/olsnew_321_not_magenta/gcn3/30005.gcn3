@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30005
+SUBJECT: GRB210510A: Optical afterglow candidate from the Zwicky Transient Facility
+DATE:    21/05/13 03:13:19 GMT
+FROM:    Shreya Anand at GROWTH Caltech  <sanand@caltech.edu>
+
+Shreya Anand (Caltech), Igor Andreoni (Caltech), Tomas Ahumada (UMD), Erik Kool (SU), Ana Sagues-Carracedo (SU), Simeon Reusch (DESY), Mansi Kasliwal (Caltech), Michael Coughlin (UMN), Harsh Kumar (IIT-B), Robert Stein (DESY), Leo Singer (NASA/GSFC), Matthew Graham (Caltech) on behalf of the ZTF collaboration
+
+We observed the localization region of the short GRB210510A (trigger 642367205) detected by the Gamma-Ray Burst Monitor (GBM) on the Fermi satellite with the Palomar 48 inch telescope equipped with the 47 square degree Zwicky Transient Facility (ZTF; Bellm et al., 2019; Graham et al., 2019) camera. We obtained a series of g- and r-band images covering about 1105 square degrees beginning at 05:02:53.10 UT on 2021-05-11 (~ 10 hours after the burst trigger time). This corresponds to ~84% of the probability enclosed in the region of the GRB localization map that was unocculted by the Earth for the Fermi GBM (GCN 28965). Exposures reached a median depth of 22.1 mag in the g-band and 22.0 mag in the r-band.  On 2021-05-12, we obtained another epoch of r-band follow-up observations, beginning at 05:01:58.00 UT with exposures reaching a median depth of 22.1 mag and and covering ~81% of the enclosed probability.
+
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC (Masci et al. 2019). We queried the ZTF alert stream using Kowalski (Duev et al. 2019). We required at least 2 detections separated by at least 15 minutes to select against moving objects. Furthermore, we cross-matched our candidates with the Minor Planet Center to flag known asteroids, reject stellar sources (Tachibana and Miller 2018), and apply machine learning algorithms (Duev et al. 2019, Mahabal et al. 2019). We require no spatially coincident ZTF alert to be issued before the detection time of the GBM trigger. 
+
+We identified 186 transient candidates located within the 95% probability contour of the skymap that passed automatic selection criteria and human vetting from two nights of follow-up. Amongst these candidates, only one candidate (ZTF21abaytuk, shown below) passes these criteria and evolves faster than 0.3 mag/day.
+
++--------------+-----------+-------------+--------------+--------+-------+-----------+
+|     Name     |  IAU Name |      RA     |     Dec      | filter | mag   |   MJD     |
++--------------+-----------+-------------+--------------+--------+-------+-----------+
+| ZTF21abaytuk | AT2021meo | 13:48:49.89 | +35:32:13.05 |   g    | 21.76 | 59345.224 |
++--------------+-----------+-------------+--------------+--------+-------+-----------+
+
+ZTF21abaytuk has a decay rate of 0.36 mag/day in the r-band from ZTF IPAC Forced photometry (Masci et al. 2018), and a color of g-r~0.5 mag, consistent with the expected red colors of an afterglow. This transient was discovered in a galaxy host with an SDSS photometric redshift of 0.221 ± 0.0742, whose WISE colors indicate that it may be an AGN. ZTF21abaytuk was found to be significantly variable by the ZTF Realtime Search and Triggering (ZTFReST) pipeline (Andreoni & Coughlin et al. 2021). We encourage further photometric and spectroscopic observations.
+
+Based on observations obtained with the Samuel Oschin Telescope 48-inch and the 60-inch Telescope at the Palomar Observatory as part of the Zwicky Transient Facility project. ZTF is supported by the National Science Foundation under Grant No. AST-2034437 and a collaboration including Caltech, IPAC, the Weizmann Institute for Science, the Oskar Klein Center at Stockholm University, the University of Maryland, Deutsches Elektronen-Synchrotron and Humboldt University, the TANGO Consortium of Taiwan, the University of Wisconsin at Milwaukee, Trinity College Dublin, Lawrence Livermore National Laboratories, and IN2P3, France. Operations are conducted by COO, IPAC, and UW.
+

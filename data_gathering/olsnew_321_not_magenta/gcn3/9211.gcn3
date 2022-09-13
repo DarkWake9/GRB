@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9211
+SUBJECT: GRB090418A Rc-band photometry
+DATE:    09/04/23 19:03:44 GMT
+FROM:    Arne A. Henden at AAVSO  <arne@aavso.org>
+
+A. Henden (AAVSO), J. Gross (SRO), B. Denny (DC-3),
+D. Terrell (SwRI), and W. Cooney (SRO) report:
+
+We obtained photometry of the GRB090418A afterglow
+reported by Chornock et al. (GCN 9148) using the Sonoita
+Research Observatory (SRO) 35cm telescope in southern
+Arizona, utilizing an automatic VOevent trigger.  The
+Rc-band exposures began about 2 minutes after the burst
+and continued until twilight.  Ten 60-second and five
+180-second exposures were acquired.
+
+Astrometry of the afterglow from several images and
+using UCAC as the reference catalog yields coordinates:
+17:57:15.151 +33:24:20.93 J2000 (+/- 50mas)
+
+Photometry, assuming that the star at
+17:57:42.53 +33:25:47.2
+has an R magnitude of 13.12
+
+UT(mid)  delT  exp  Rc      err
+11.1728   162  60  15.802  0.044
+11.1919   231  60  16.185  0.048
+11.2111   300  60  16.500  0.043
+11.2303   369  60  16.818  0.058
+11.2494   438  60  17.019  0.066
+11.2686   507  60  17.249  0.067
+11.2878   576  60  17.440  0.063
+11.3069   645  60  17.605  0.105
+11.3261   714  60  17.680  0.089
+11.3450   782  60  17.855  0.115
+11.3958   965 180  18.007  0.104
+11.6522  1888 180  18.778  0.129
+11.7067  2084 180  18.919  0.138
+11.7592  2273 180  18.960  0.142
+11.8114  2461 180  18.891  0.196
+
+Where delT is the time in seconds from the burst (Mangano et al.,
+GCN 9149), and the exposure is in seconds. The optical afterglow
+candidate is in the filter reflection halo from HD163948,
+a 6.9mag star about 2arcmin distant, so the last
+few magnitudes may have a systematic bias.
+
+We note that this field was not calibrated by SDSS through DR6.
+We will perform a BVRI calibration over the next few nights.
+
+

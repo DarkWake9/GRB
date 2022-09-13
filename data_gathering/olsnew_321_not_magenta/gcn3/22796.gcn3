@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22796
+SUBJECT: GRB 180618A: Swift-BAT refined analysis (a short GRB with extended emission)
+DATE:    18/06/18 18:27:23 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), H. A. Krimm (NSF/USRA),
+S. J. LaPorte (PSU), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), J. P. Norris (BSU),
+D. M. Palmer (LANL), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 180618A (trigger #842475)
+(LaPorte et al., GCN Circ. 22790).  The BAT ground-calculated position is
+RA, Dec = 169.948, 73.825 deg which is
+  RA(J2000)  =  11h 19m 47.6s
+  Dec(J2000) = +73d 49' 29.3"
+with an uncertainty of 1.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 70%.
+
+The mask-weighted light curve shows a short multi-peaked structure from ~ T0
+to ~T+0.3, followed by some extended emission that lasts till ~T+50 s.
+T90 (15-350 keV) is 47.4 +- 11.1 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-0.06 to T+56.33 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.39 +- 0.27.  The fluence in the 15-150 keV band is 6.7 +- 1.0 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.08 sec in the 15-150 keV band
+is 2.2 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The structure of the burst shows similarity to those of short GRBs with
+extended emission, as mentioned in Hamburg et al., GCN Circ. 22794.
+We thus perform further analysis on the short spike and the extended emission.
+
+The spectrum of the short multi-peaked structure from T-0.056 to T+0.264 sec
+is best fit by a simple power-law model, with power-law index of 0.60 +- 0.24
+and fluence (15-150 keV) of 1.3 +- 0.2 x 10^-7 erg/cm2. The spectrum of the
+extended emission from T+0.264 to T+56.328 sec is best fit by a simple power-law
+model, with power-law index of 1.53 +- 0.31 and fluence (15-150 keV) of
+5.5 +- 1.0 x 10^-7 erg/cm2. These values are consistent with those of short GRBs
+with extended emission (Lien & Sakamoto et al. 2016).
+
+Using a 4-ms binned light curve, the lag analysis of the first two tallest pulses
+(from ~T0 to ~T+0.1 s) finds a lag of 0.7 +/- 0.9 ms for the 100-350 keV to 25-50 keV
+band, and 1.5 (+1.8, -1.2) ms for the 50-100 keV to 15-25 keV band. Therefore, the
+lag values of these short pulses are consistent with those of short GRBs.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/842475/BA/

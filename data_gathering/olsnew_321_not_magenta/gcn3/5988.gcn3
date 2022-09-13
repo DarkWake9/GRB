@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5988
+SUBJECT: GRB 070103: Swift detection of a burst
+DATE:    07/01/03 21:12:06 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (NASA/ORAU), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+M. M. Chester (PSU), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), S. T. Holland (CRESST/GSFC/USRA),
+S. Immler (GSFC/USRA), J. A. Kennea (PSU), H. A. Krimm (GSFC/USRA),
+V. Mangano (INAF-IASFPA), F. E. Marshall (NASA/GSFC),
+K. M. McLean (LANL/UTD), C. Pagani (PSU), S. B. Pandey (UCL-MSSL),
+A. M. Parsons (GSFC), P. Romano (Univ. Bicocca & INAF-OAB),
+B. Sbarufatti (INAF-IASFPA), D. E. Vanden Berk (PSU) and
+H. Ziaeepour (UCL-MSSL) report on behalf of the Swift Team:
+
+At 20:46:39.41 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB  (trigger=254532).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA=352.557, Dec=+26.875 (J2000),  which is 
+   RA(J2000)  = 23h 30m 14s
+   Dec(J2000) = +26d 52' 32"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows two peaks separated
+by ~10 sec and a few more weak peaks extending out to ~T+20 sec. 
+The peak count rate was ~2400 counts/sec (15-350 keV), at ~0 sec
+after the trigger. 
+
+The XRT began taking data at 20:47:48 UT, 69 seconds after the BAT
+trigger.  The XRT on-board centroid algorithm did not find a source in the
+image, however analysis of downlinked data reveals an uncatalogued point source 
+at the position RA=352.5576, Dec=+26.8751 (J2000), which is
+   RA(J2000)  = 23h 30m 13.82s
+   Dec(J2000) = +26d 52' 30".21
+with 4.74 arcsec error radius (90% containment). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 74 seconds after the BAT trigger, and a
+400 second exposure with the V filter starting 179 seconds after the
+trigger. No afterglow candidate has been found in the initial data
+products. The 2.7'x2.7' sub-image covers 100% of the XRT error
+circle. The 3-sigma upper limit is 19.5 in white, 18.8 in V. No
+correction has been made for the expected extinction corresponding to
+E(B-V) of 0.07. 
+

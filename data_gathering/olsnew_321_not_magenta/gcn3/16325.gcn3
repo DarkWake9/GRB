@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16325
+SUBJECT: Swift trigger 599860 probably not real
+DATE:    14/05/24 14:03:58 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. D. Barthelmy (GSFC), V. D'Elia (ASDC), N. Gehrels (NASA/GSFC),
+L. Izzo (URoma/ICRA), A. Y. Lien (NASA/GSFC/ORAU),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 13:25:47 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 140524A (trigger=599860).  Swift slewed immediately to the burst.
+The BAT on-board calculated location is
+RA, Dec 53.405, -36.096 which is
+   RA(J2000) = 03h 33m 37s
+   Dec(J2000) = -36d 05' 46"
+with an uncertainty of 3 arcmin (radius, 90% containment, including
+systematic uncertainty).  This is a low-threshold trigger due to its position
+matching a nearby galaxy in the on-board catalog. As is usual with an image
+trigger, the available BAT light curve shows no significant structure.
+
+The XRT began observing the field at 13:28:12.0 UT, 144.2 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 53.4016, -36.1396 which is
+equivalent to:
+   RA(J2000)  = 03h 33m 36.39s
+   Dec(J2000) = -36d 08' 22.5"
+with an uncertainty of 2.6 arcseconds (radius, 90% containment). This
+location is 157 arcseconds from the BAT onboard position, within the
+BAT error circle; and in the nearby AGN NGC1365 in the BAT catalogue. The
+XRT position may be improved as more data are received; the latest position is
+available at http://www.swift.ac.uk/sper. This position is 3.0 arcseconds from
+that of a known X-ray source: 3XMM J033336.4-360825 in the XMM-NEWTON XMMSSC
+catalogue which we assume is the AGN X-ray emission from the galaxy.
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.39
+x 10^20 cm^-2 (Willingale et al. 2013).
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 148 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag.
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02.
+

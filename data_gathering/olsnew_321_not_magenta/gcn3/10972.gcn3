@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10972
+SUBJECT: GRB 100724A: Swift-BAT refined analysis
+DATE:    10/07/24 15:12:20 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. B. Markwardt (GSFC/UMD), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+D. M. Palmer (LANL), T. Sakamoto (GSFC/UMBC), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+644 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 100724A (trigger #429868)
+(Markwardt, et al., GCN Circ. 10968).  The BAT ground-calculated position is
+RA, Dec = 194.569, -11.095 deg, which is 
+   RA(J2000)  =  12h 58m 16.5s 
+   Dec(J2000) = -11d 05' 41.7" 
+with an uncertainty of 1.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 43%.
+ 
+The mask-weighted light curve shows several overlapping peaks starting
+at T+0.0 sec and ending at T+4.0 sec.  There is a weak roughly exponential tail
+extending out to ~T+20 sec.  T90 (15-350 keV) is 1.4 +- 0.2 sec (estimated error
+including systematics).  The initial description of the lightcurve given
+in GCN Circ 10968 as being 70 sec long was confused by the nearly simultaneous,
+but different burst detected by Fermi.  The BAT mask-weighted lightcurve
+clearly shows that the 100724A burst is only single episode around T_zero.
+There is nothing in the mask-weighted lightcurve in the T+40 to T+70sec range.
+ 
+The time-averaged spectrum from T+0.1 to T+1.6 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.92 +- 0.21.  The fluence in the 15-150 keV band is 1.6 +- 0.2 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.09 sec in the 15-150 keV band
+is 1.9 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/429868/BA/
+

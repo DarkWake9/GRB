@@ -1,0 +1,106 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14770
+SUBJECT: GRB 130603B: MASTER-Net early observations and  optical sloap limit
+DATE:    13/06/05 17:11:24 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+Maria Pruzhinskaya, D.Denisenko, E. Gorbovskoy, V. Lipunov, V.Kornilov, 
+D.Kuvshinov, N.Tyurina, N.Shatskiy, P.Balanutsa, D.Zimnukhov, A.Kuznetsov, 
+V.V.Chazov
+Sternberg Astronomical Institute, Lomonosov Moscow State University
+
+
+K.Ivanov, S.Yazev, N.M.Budnev, O.Gres, O.Chuvalaev, V.A.Poleshchuk
+Irkutsk State University, Irkutsk
+
+V.Yurkov, Yu.Sergienko, D.Varda, E.Sinyakov, A.Gabovich
+Blagoveschensk Educational State University, Blagoveschensk
+
+A. Tlatov, A.V. Parhomenko, D. Dormidontov, V.Sennik
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+V.Krushinski, I.Zalozhnih,  A. Popov
+Ural Federal University, Kourovka
+
+Hugo Levato and Carlos Saffe
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+Claudio Mallamaci, Carlos Lopez and Federico Podest
+Observatorio Astronomico Felix Aguilar (OAFA)
+
+
+
+MASTER II  robotic telescope (MASTER-Net: http://observ.pereplet.ru)
+located in Tunka was pointed to GRB130603B 35 sec after Notice time
+and 52 sec after Trigger time (Melandri et al., GCN 14735) in two
+mutually perpendicular polarizations.
+
+We didn't find OT at the position reported by Levan et al., GCN 14742
+and A. de Ugarte Postigo et al., GCN 14743.
+
+Our photometry (upper limits) during the first 20 minutes until the
+clouds started coming in is as follows:
+
+
+t_UT                   Exp T-T_trig Limit Filter   Tube
+-------------------------------------------------------
+2013-06-03 15:50:06    10     52    15.4    P|       EAST
+2013-06-03 15:50:07    10     53    15.1    P-       WEST
+2013-06-03 15:51:06    20    112    15.9    P|       EAST
+2013-06-03 15:51:07    20    113    15.8    P-       WEST
+2013-06-03 15:52:08    30    174    16.2    P|       EAST
+2013-06-03 15:52:08    30    174    16.1    P-       WEST
+2013-06-03 15:53:18    50    244    16.7    P|       EAST
+2013-06-03 15:53:19    50    245    16.7    P-       WEST
+2013-06-03 15:55:01    70    348    16.7    P|       EAST
+2013-06-03 15:55:02    70    349    16.6    P-       WEST
+2013-06-03 15:56:48    90    454    17.2    P|       EAST
+2013-06-03 15:56:49    90    455    16.9    P-       WEST
+2013-06-03 15:58:57   120    583    17.6    P|       EAST
+2013-06-03 15:58:58   120    584    17.5    P-       WEST
+2013-06-03 16:01:43   150    749    18.0    P|       EAST
+2013-06-03 16:01:43   150    749    17.6    P-       WEST
+2013-06-03 16:04:54   180    940    18.0    P|       EAST
+2013-06-03 16:04:54   180    940    17.5    P-       WEST
+
+The OT upper limit available on the plot :
+
+http://master.sai.msu.ru/static/OT/grb130306B.gif
+
+We have tried to compare our data with the photometry from the large
+telescopes in the filters similar to ours. In fact, we have used the
+observations in r filter.
+The following data have been published so far.
+
+Afterglow:
+
+t+5.8 hours r=20.94  WHT  Levan et al., GCN 14742
+t+5.8 hours r=20.9   NOT  A. de Ugarte Postigo et al., GCN 14743
+t+7.5 hours r=21.2   Gemini-South  Cucchiara et al., GCN 14748
+
+Large aperture to include both objects:
+
+t+12.2 hours r'=20.8  P60 (Palomar 60 inch)  Cenko et al., GCN 14761
+t+14.78 hours r'=20.78 RATIR (1.5m Harold Johnson)  Eleonora Troja et
+al., GCN 14764
+
+We were not able to use the Swift UVOT data in the white light (De
+Pasquale et al., GCN 14759) since their exact times of mid-exposures
+are not easy to determine.
+Obviously, the last two points involve the host galaxy.
+In order to constrain the slope we have used the data from WHT, NOT
+and Gemini South.
+The results are presented here:
+
+http://master.sai.msu.ru/static/OT/grb130306B_all.gif
+
+Thus, supposing the power law of the fading afterglow
+
+F ~ t^-alpha
+
+we are providing the following limitation:
+
+alpha < 0.84.
+
+The message may be cited.
+

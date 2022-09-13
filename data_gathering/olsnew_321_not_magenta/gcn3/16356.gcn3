@@ -1,0 +1,22 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16356
+SUBJECT: Swift XRT status update
+DATE:    14/06/06 20:32:18 GMT
+FROM:    David Burrows at PSU/Swift  <dnburrows@gmail.com>
+
+D. N. Burrows and J. A. Kennea report on behalf of the Swift XRT team:
+
+At about 15:22 UT today the Swift XRT instrument resumed observations in a somewhat degraded mode while we continue to investigate the underlying anomaly (GCN Circ. 16349).  Our intention is to remain in this mode at least through the end of Monday June 9.  
+
+XRT is now operating in a special calibration mode that was used occasionally in the first several years of operations.  In this mode XRT is being manually commanded for each observation, through commands embedded in the uploaded spacecraft timeline.  This differs from its normal mode of automated robotic observations in several key respects:
+
+	1) XRT will observe each target in a predefined instrument mode, either Photon Counting (PC) or Windowed Timing (WT).  It will not switch automatically between modes based on the observed count rate, as it usually does.
+
+	2) All targets for which WT mode was requested will be observed in WT mode.  WT mode appears to be operating normally and the data should not be compromised in comparison to our normal operating mode.
+
+	3) All targets for which Auto or PC mode was requested will be observed in a modified PC mode.  This differs from our normal PC mode in that the observations will be taken without bias frame subtraction.  The bias level correction applied by our normal ground processing software does a good job of compensating for the lack of on-board bias subtraction.  However, we have also had to raise the lower energy threshold to eliminate hot pixels and other detector artifacts in the downlinked data; this imposes a low energy cutoff of about 0.5 keV and affects the spectral calibration.   A calibration observation of Cas A conducted yesterday suggests that this mode works well, but there appears to be a larger systematic uncertainty in the energy calibration than usual (of order 20 eV).   Source positions determined from PC mode data should have the normal accuracy, but the spectral data and flux determination will not be properly calibrated and should be used with caution.  Note that bright sources will be saturated in PC mode.
+
+	4) XRT will operate and return data following BAT triggers, but will not produce its usual automated response.  This means that XRT will not provide on-board centroid positions or the prompt data that normally allows us to determine accurate GRB positions within minutes of the BAT detection.  Instead, XRT will continue to collect data in whatever mode the pre-planned observation was in.  In most cases this will be PC mode and XRT position information will eventually become available once the full data set is downloaded to the ground and processed.  In the event that XRT happens to be in WT mode when a burst occurs, no position information will be produced.
+
+We emphasize that the XRT team is continuing to acquire diagnostic information in an effort to determine the root cause of the original anomaly and to allow us to return to normal operations as soon as possible.  During this period of anomalous operations, some observations are being terminated to permit diagnostic and calibration information to be collected from the instrument.  We thank you for your patience as we continue to recover the instrument to its normal configuration.
+

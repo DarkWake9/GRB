@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10054
+SUBJECT: GRB091020 Swift/UVOT observations
+DATE:    09/10/21 11:18:58 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (MSSL-UCL) and J. L. Racusin (NASA/GSFC/ORAU) report on  
+behalf of the Swift/UVOT team:
+
+The Swift/UVOT began observerving the field of GRB 091020 89 s
+after the BAT trigger (Racusin et al., GCN Circ. 10048). We detect the
+optical afterglow in all filters at the refined UVOT position
+RA, Dec 175.730, +50.97833, which is
+
+     RA  (J2000)  11:42:55.20
+     Dec (J2000)  50:58:42.0
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence).
+This position is consistent with the enhanced XRT position (Beardmore
+et al., GCN 10050). The detection in the white, v, b and u filters and
+the weak detection in the uvw1 filter is consistent with a redshift
+z~1.7, which is consistent with redshift reported by NOT (Xu, et al.,  
+GCN 10053).
+
+Preliminary magnitudes and 3 sigma upper limits are reported below.
+
+Filter    T_start(s) T_stop(s)  Exposure(s)   Mag  Err
+------------------------------------------------------------------------
+white       89        239        147          15.73 +/- 0.01
+white       874       1024       147          17.27 +/- 0.03
+v           799       819        19           16.40 +/- 0.15
+b           1153      1173       19           17.27 +/- 0.15
+u           707       727        19           17.06 +/- 0.16
+uvw1        683       6929       490          20.29 +/- 0.35
+uvm2        657       6723       490          > 20.29
+uvw2        608       6314       303          > 20.27
+-------------------------------------------------------------------------
+
+The above magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E_{B-V} = 0.02 mag (Schlegel et al.,
+1998, ApJS, 500, 525).  The photometry is on the UVOT photometric system
+described in Poole et al. (2008, MNRAS, 383,627).
+
+
+

@@ -1,0 +1,56 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3935
+SUBJECT: GRB 050906:  Swift-BAT refined analysis
+DATE:    05/09/06 21:44:01 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+A. Parsons (GSFC),  C. Sarazin (U. Virginia), L. Barbier (GSFC),
+S. Barthelmy (GSFC), J. Cummings (GSFC/NRC), D. Hullinger (GSFC/UMD),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), F. Marshall (GSFC), D. Palmer (LANL),
+T. Sakamoto (GSFC/NRC), G. Sato (ISAS), T. Takahashi (ISAS),
+J. Tueller (GSFC) on behalf of the Swift-BAT team:
+
+Using the data set from T-60 to T+120 sec from the recent telemetry
+downlink, we report further analysis of Swift-BAT GRB 050906
+(trigger #153866)  (Krimm, et al., GCN 3926).  The refined BAT ground position
+is (RA,Dec) = 52.841,-14.652 {+03h 31m 22s,  -14d 39' 00"} [deg; J2000]
++- 2.6 arcmin, (90% containment).  This is 2.7 arcmin from the position
+reported in Krimm et al. 2005, GCN 3926. The partial coding was 77%.
+
+The mask weighted light curve shows a small excess mostly in the
+25-100 keV energy range.  This a short burst of duration T90 (15-350 keV)
+128 +- 16 milliseconds. (estimated error including systematics).
+
+The power law index of the time-averaged spectrum fit over T+0 to T+0.128 sec
+is 1.91 +- 0.42.   The fluence in the 15-150 keV band is (5.9 +/- 
+3.2) x 10^-8 erg/cm2.
+The 1-s peak photon flux measured from T0 in the 15-150 keV
+band is (0.22 +/- 0.11) ph/cm2/s.  All the quoted errors are at the 90%
+confidence level.
+
+The BAT error circle includes the relatively bright, nearby galaxy
+IC 328 (Levan & Tanvir GCN 3927).  The 2MASS K magnitude of this galaxy
+is K20 = 11.51.  The density of galaxies this bright on the sky is
+about 1 per square deg (Kochanek, C. S., et al. 2001, ApJ, 560, 566).
+Thus, the probability of finding a galaxy this bright in the BAT 3 arcmin
+error circle is about 0.008.  The redshift of IC 328 is 0.0308
+(da Costa, L. N., et al. 1998, AJ, 116, 1), giving a luminosity distance
+of dL = 133 Mpc for the WMAP cosmology.  At this distance, the galaxy
+luminosity is ~10^11 Lsun(K), which is slightly greater than L*.
+The number density of galaxies at least this luminous is ~0.0006/Mpc^3.
+Thus, the probability of finding a galaxy at least this luminous at a
+redshift as small as that of IC 328 within 3 arcmin of the BAT position
+is about 0.001.
+
+IC 328 appears to be a spiral galaxy, and is quite blue (U-B = -0.6;
+Coziol, R. et al., 1994, AJ, 108, 405).  With these colors, it is
+likely to have active star formation.  Thus, this host is quite different
+than the hosts of the two short-hard bursts GRB 050509b and GRB 050724,
+which appear to have occurred in or near red elliptical galaxies.
+
+It is possible that this GRB was caused by an SGR superflare in IC 328
+  (Levan & Tanvir GCN 3927, Palmer, D.M., et al. 2005, Nature, 434, 1107;
+Hurley, K. et al. 2005, Nature, 434, 1098), although an underluminous
+collapsar or NS-NS merger can not be ruled out.
+

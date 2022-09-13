@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21385
+SUBJECT: Swift J181723.1-164300: Swift-BAT refined analysis
+DATE:    17/07/29 20:08:51 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. D. Barthelmy (GSFC), J. R. Cummings (CPI),
+H. A. Krimm (NSF/USRA), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of Swift J181723.1-164300 (trigger #765081)
+(Barthelmy et al., GCN Circ. 21369).  The BAT ground-calculated position is
+RA, Dec = 274.360, -16.721 deg which is
+  RA(J2000)  =  18h 17m 26.5s
+  Dec(J2000) = -16d 43' 16.5"
+with an uncertainty of 2.3 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 88%.
+
+The mask-weighted light curve shows a single pulse that starts at ~T-5 s,
+peaks at ~T0, and ends at ~T+5 s. T90 (15-350 keV) is 9.34 +- 1.07 sec
+(estimated error including systematics).
+
+The spectral fit of the time-averaged spectrum from T-4.44 to T+5.45 sec
+using a simple power-law model gives a power law index of 4.70 +- 0.74.
+The fluence in the 15-150 keV band is 1.1 +- 0.2 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.82 sec in the 15-150 keV band
+is 0.6 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The power-law index is much softer than any BAT-detected GRBs
+(Lien & Sakamoto et al. 2016), we thus conclude that this is a Galactic source
+and not a GRB.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/765081/BA/

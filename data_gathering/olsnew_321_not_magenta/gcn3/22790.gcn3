@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22790
+SUBJECT: GRB 180618A: Swift detection of a burst with an optical counterpart
+DATE:    18/06/18 00:53:53 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. J. LaPorte (PSU), S. D. Barthelmy (GSFC), J. A. Kennea (PSU),
+A. Y. Lien (GSFC/UMBC), F. E. Marshall (NASA/GSFC),
+D. M. Palmer (LANL), M. H. Siegel (PSU) and A. Tohuvavohu (PSU) report
+on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 00:43:13 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 180618A (trigger=842475).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 169.937, +73.848 which is 
+   RA(J2000) = 11h 19m 45s
+   Dec(J2000) = +73d 50' 52"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single FRED
+structure with a duration of about 20 sec.  The peak count rate
+was ~10000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 00:44:30.5 UT, 77.6 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 169.9415, 73.8358 which is equivalent to:
+   RA(J2000)  = +11h 19m 45.96s
+   Dec(J2000) = +73d 50' 08.9"
+with an uncertainty of 5.4 arcseconds (radius, 90% containment). This
+location is 44 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.27e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 86 seconds after the BAT trigger. There is a candidate afterglow in
+the list of sources generated on-board at
+  RA(J2000)  =	11:19:45.78 = 169.94074
+  DEC(J2000) = +73:50:13.3  =  73.83704
+with a 90%-confidence error radius of about 1.10 arc sec. This position is 4.5
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+17.81. No correction has been made for the expected extinction corresponding to
+E(B-V) of 0.07. 
+
+Burst Advocate for this burst is S. J. LaPorte (extragsam AT gmail.com). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

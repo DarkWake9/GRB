@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25899
+SUBJECT: LIGO/Virgo S190930t: Candidates from the Zwicky Transient Facility 
+DATE:    19/10/01 16:26:31 GMT
+FROM:    Robert Stein at DESY  <robert.stein@desy.de>
+
+Robert Stein (DESY), Mansi M. Kasliwal (Caltech), Erik Kool (OKC), Eric Bellm (UW), Igor Andreoni (Caltech), Tomas Ahumada (UMD), Michael Coughlin (Caltech), Shreya Anand (Caltech), Leo Singer (NASA GSFC), Brad Cenko (NASA GSFC), Albert Kong (NTHU), Kunal Deshmukh (IITB), Maitreya Khandagale (IITB), Gaurav Waratkar(IITB), Varun Bhalerao (IITB), G C Anupama (IIA)
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations
+
+We observed the localization region of the gravitational wave trigger S190930t (LVC et al. GCN 25876) with the Palomar 48-inch telescope equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). Some observations were serendipitously obtained as part of the public ZTF survey. We enhanced this coverage with additional tiles that were optimally determined and triggered using the GROWTH Target of Opportunity marshal (Coughlin et al. 2019a, Kasliwal et al. 2019b). We started obtaining observations in the g-band and r-band beginning at UT 2019-10-01T02:29:18, approximately 11.9 hours after merger time. We covered 55% of the enclosed probability (44.5% observed twice). This estimate does not account for chip gaps. Each exposure was 30s with a typical depth of ~20.4 mag.
+
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) was used to search the alerts database for candidates. After rejecting stellar sources (Tachibana and Miller 2018) and moving objects and applying machine learning algorithms (Mahabal et al. 2019), and after removing candidates with history of variability prior to the merger time, 31 high-significance transient candidates were identified by our pipeline in the 95% localization of the bayestar map. We highlight two candidates whose putative host galaxies are nearby and have a distance consistent within 2-sigma of the GW localization.
+
++------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name  | RA (deg)   | DEC (deg)  | Filter | Mag   | MagErr |
++------------------------------------------------------------------------------+
+| ZTF19acbpqlh | AT2019rpn | 319.9216636| +37.5220721 | r     | 20.02 | 0.15   |
+| ZTF19acbwaah | AT2019rpp | 162.3277489| +22.9827302 | r     | 17.68 | 0.09   |
++------------------------------------------------------------------------------+
+
+In addition, we detected a candidate first reported to TNS by ATLAS:
++------------------------------------------------------------------------------+
+| ATLAS19wyn   | AT2019rpj | 339.8367397| +31.4916262 | r     | 19.56 | 0.09   |
++------------------------------------------------------------------------------+
+
+ZTF19acbpqlh, first detected 13.4 hours after merger, was not detected 3.0 days prior to a depth of 20.77. It is located at a galactic latitude of -8.49 degrees, but has an apparent host at redshift z=0.026, giving an absolute magnitude of -14.91. ZTF19acbwaah, first detected 22.0 hours after merger, is offset from a possible host at redshift z=0.03182. This would give an absolute magnitude of -18.069. AT2019rpj (ZTF19acbpsuf), detected by ZTF 13.8 hours after merger, was first reported to the TNS by ATLAS. Their reported discovery date is also post-merger, 4 hours after the ZTF detection. It was not detected by ZTF 5.9 days prior to a depth of 20.42. It has a host at redshift z=0.0297, giving an absolute magnitude of -15.987.
+
+We strongly encourage photometric and spectroscopic follow-up to confirm the nature of these transients. 
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert database searches are done by AMPEL (Nordin et al. 2019). Alert filtering and follow-up co-ordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).

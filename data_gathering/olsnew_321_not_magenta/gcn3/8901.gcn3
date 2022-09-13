@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8901
+SUBJECT: SGR activity seen by BAT during ICSP Ionospheric Events
+DATE:    09/02/12 01:13:04 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+David Palmer, on behalf of the Swift-BAT team, reports:
+
+S.K Chakrabarti, et al. (GCN #8881) report disturbances in the  
+ionosphere observed by ICSP as measured by 18.2 kHz radio  
+propagation.  Some of these were correlated with reported bursts from  
+AXP 1E1547.0-5408 (== SGR J1550-5418) and it was suggested that the  
+other disturbances indicated unreported activity.
+
+Swift-BAT has seen over 800 bursts from this source, but a complete  
+catalog is still being prepared.  However, the times of the ICSP  
+events can be examined to see how reliably VLF measurements of  
+ionospheric disturbances can determine SGR activity in a 'blind search'.
+
+Of the 9 ionospheric events in GCN #8881 which did not correspond to  
+reported SGR events, all fortuitously occurred at times when the SGR  
+was above the horizon as seen by BAT, and five occurred when the SGR  
+was in BAT's Field of View.  The BAT 15-100 keV count rate light  
+curves were examined with 64 ms resolution within one minute of the  
+times of these ICSP events to search for correlated SGR bursts.  the  
+results are given in the following table:
+
+Time of ICSP event  Exposure
+(UT from GCN #8881)   cm^2  Detection
+2009-01-21T19:50:57  1413   None
+2009-01-21T21:16:50     0   None
+2009-01-21T21:35:01  1300   None
+2009-01-21T23:19:56  1361   None
+2009-01-21T23:56:07     0   Possibly real[1]
+2009-01-22T00:32:32     0   None
+2009-01-22T05:41:22  4364   Coincidence[2]
+2009-01-22T05:56:02  4364   Coincidence[3]
+2009-01-22T09:34:09     0   None
+
+[1] Double burst at T-10 seconds, peaking at 3 kcount/s. Due to the  
+orientation of the spacecraft, the SGR could illuminate the back of  
+the BAT detector only through the body of the Swift spacecraft, so  
+this would correspond to a much more intense burst than the comparable  
+count rate from a source in the FOV.  If this is an SGR burst, it  
+marks the earliest known detection during this episode.  (Previous  
+earliest was Fermi-GBM Trigger 254278434, at 2009-01-22T00:53:52.)
+
+[2] Strong burst at T+15 (~100kcounts/s), midsize burst (~20 kcount/s)  
+at T+32, weaker bursts (<5 kcount/s) at T-42,T+8,T+11.
+
+[3] Weak burst (5k/s) at T-8
+
+The 2009-01-21T23:56:07 disturbance [1] is the most compelling one for  
+blind detection of activity.  The non-detections by BAT on 2009-01-21  
+in those cases where the SGR location was in the FOV indicate that  
+those ionospheric disturbances were unrelated to the SGR.  The burst  
+activity around the 2009-01-22T05:41:22 [2] and 2009-01-22T05:56:02  
+[3] disturbances is likely to be coincidental, considering the large  
+amount of activity occurring around that time: during the 40 minute  
+BAT observation from 5:37-6:17, there were 6 bursts comparable to or  
+stronger than the 05:41:37 strong burst (which came after the  
+ionospheric disturbance), and at least 32 bursts total seen by BAT.
+
+ From this we conclude that ionospheric disturbances are not a  
+reliable measure of SGR bursts in the absence of high energy  
+confirmation.
+
+

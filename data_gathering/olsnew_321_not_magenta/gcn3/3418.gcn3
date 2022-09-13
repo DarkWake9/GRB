@@ -1,0 +1,98 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3418
+SUBJECT: GRB050509b, SDSS pre-burst observations
+DATE:    05/05/12 16:38:13 GMT
+FROM:    Daniel Eisenstein at U of Arizona  <deisenstein@as.arizona.edu>
+
+Daniel J. Eisenstein (Arizona), David W. Hogg (NYU), and Nikhil
+Padmanabhan (Princeton) report on behalf of the Sloan Digital Sky Survey
+(SDSS) Collaboration:
+
+The Sloan Digital Sky Survey imaged the region of GRB 050509b on Dec 15,
+2004 (MJD 53354.48, 145 days before the burst trigger).  These data will
+be part of a future SDSS data release, but as they should be useful as
+a pre-burst comparison image and for calibrating photometry, we are
+supplying the images and photometry measurements for this GRB field.
+SDSS spectroscopy has not yet been performed here.
+
+Data from the SDSS is being placed at 
+    http://www.sdss.org/dr3/products/value_added/grb050509b/
+These include 5 FITS images, 3 JPGs, and 2 files of photometry and 
+astrometry.  
+
+We supply FITS images in each of the 5 SDSS bands of a 8'x8' region
+centered on the BAT position (ra=189.073, dec=28.991; Barthelmy et
+al. GCN 3385), as well as 3 gri color-composite JPGs (with different
+stretches).  The units in the FITS images are nanomaggies per pixel.
+A pixel is 0.396 arcsec on a side.  A nanomaggie is a flux unit equal
+to 10^-9 of a magnitude 0 source or, to the extent that SDSS is an AB
+system, 3.631e-6 Jy.  The FITS images have WCS astrometric information.
+
+The cluster NSC J123610+285901 (Gal et al., AJ, 125, 2064, 2003) is
+clearly visible in the JPGs.
+
+The bright galaxy close to the XRT error circle (ra=189.0537, dec=28.9830)
+has SDSS photometry of r_Petrosian = 17.18 +- 0.02 mag and model colors
+of u-g = 1.78 +- 0.13 mag, g-r = 1.42 +- 0.02 mag, r-i = 0.52 +- 0.01,
+i-z = 0.35 +- 0.02 mag.  The galaxy is selected by both the Luminous
+Red Galaxy and Main galaxy sample targeting algorithms, and at z=0.225
+(Prochaska et al. GCN 3390 & 3399), this is a rather luminous galaxy.
+Using the r-band Petrosian magnitude, we compute a rest-frame g-band
+luminosity M_g = -21.90, applying evolution corrections to z=0.3
+(not z=0! see Zehavi et al. ApJ, 621, 22, 2005 for an explanation).
+This is about 1.5 magnitudes brighter than L* (Blanton et al., ApJ, 582,
+819, 2003).  The comoving number density of galaxies more luminous than
+this is only about 2x10^-5 h^3 Mpc^-3.  This is all in keeping with the
+large velocity dispersion reported by Prochaska et al. (GCN 3399).
+
+A posteriori statistics are always suspicious, but we note that the sky
+density of galaxies this bright is about 40 per square degree, while
+that of galaxies this luminous at z<0.3 is about 1 per square degree.
+These are far smaller than 40,000 deg^-2, the inverse of the area of a
+10 arcsecond circle.  Hence, the chance association with a low-redshift
+galaxy is unlikely (at the 10^-3 level), although unless additional
+evidence for the association is found, it will be hard to draw a firm
+conclusion from this one object.
+
+
+In the file grb050509b.sdss_objects.dat, we report photometry of 335
+objects detected by SDSS within 4' radius of the Swift BAT position.
+We have removed saturated objects and objects fainter than 23.0 in the
+r-band model magnitude.
+
+All quantities are standard SDSS photometry, meaning that they are
+very close to AB zeropoints and are quoted in asinh magnitudes.
+Photometric zeropoints are known to about 2% rms; photon noise can be
+much worse, of course.  See documentation for details.  None of this
+photometry is corrected for dust extinction.  The Schlegel, Finkbeiner,
+and Davis (1998) predictions for this region are A_u = 0.098 mag, A_g =
+0.072 mag, A_r = 0.052 mag, A_i = 0.040 mag, and A_z = 0.028 mag.
+
+SDSS astrometry is generally better than 0.1 arcsecond per coordinate.
+Users requiring high precision astrometry should take note that the SDSS
+astrometric system can differ from the 2MASS system used in GCN 3392;
+we have not checked the offsets in this region.  
+
+See the SDSS DR3 documentation for more details: http://www.sdss.org/dr3.
+
+These data have been reduced with the DR3 data pipelines; however, they
+are not part of that data release.  We cannot guarantee that the values
+here will exactly match those of the data release in which these data
+are included.
+
+Moreover, the calibration of the FITS image may differ by a small amount
+(~1%) from the calibration of the quoted photometry; these came from
+different pipelines.
+
+
+To aid with calibration of other data sets, we also report the photometry
+of 90 brighter stars (r<20.5) in a wider region (0.3 by 0.2 degrees) around 
+the burst.  These data are in the file grb050509b.sdss_calibstars.dat.  
+Beware that some of these stars are not well-detected in the u-band;
+use the errors to monitor this.
+
+
+This note can be cited, but please also cite the SDSS data release paper,
+Abazajian et al. (AJ, 129, 1755, 2005), when using the data or refering
+to the technical documentation.
+

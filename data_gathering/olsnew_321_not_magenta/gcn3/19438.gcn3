@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19438
+SUBJECT: Konus-Wind observation of a bright burst from SGR 1935+2154
+DATE:    16/05/19 14:45:17 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The bright, short-duration burst from SGR 1935+2154
+(Swift-BAT trigger #686761: D'Avanzo et al., GCN Circ. 19433;
+Fermi GBM trigger #bn160518382: Younes, GCN Circ. 19437)
+triggered Konus-Wind at T0=32964.102 s UT (09:09:24.102).
+
+The burst light curve shows a single pulse with a total
+duration of 150 ms. The emission is seen up to ~200 keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/SGRs/160518_T32964/
+
+As observed by Konus-Wind, the burst had a fluence
+of 1.62(-0.07,+0.07)x10^-6 erg/cm2, and a 16-ms peak flux,
+measured from T0+0.014 s, of 1.53(-0.15,+0.15)x10^-5 erg/cm2/s
+(both in the 20 - 200 keV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+0.128 s)
+is equally well fit in the 20 - 200 keV range
+by a power law with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+and by a sum of two blackbody functions (2BB).
+The CPL model best fit parameters are:
+alpha = 0.23 (-0.55,+0.61)
+and Ep = 29 (-3,+2) keV (chi2 = 8/15 dof).
+The 2BB fit to this spectrum yields
+the cool BB temperature kT1 = 4.9 (-2.2,+2.1) keV
+and the hot BB temperature kT2 = 9.8 (-1.0,+2.5) keV
+(chi2=8/14 dof).
+
+Assuming isotropic emission and  the distance to the source
+of 9.1 kpc (Gaensler, GCN Circ.16533; Pavlovic et al., 2013;
+Kozlova et al., 2016, arXiv:1605.02993), we estimate the
+total energy release in the burst E_tot is ~1.6x10^40 erg
+and the peak luminosity, L_max, is ~1.5x10^41 erg/s
+(both in the 20-200 keV range).
+
+Although this burst is more than order of magnitude less
+energetic than the 1.7s-long "intermediate" flare (IF) from
+this source on 2015 April 12 (Kozlova et al., 2016), its peak
+luminosity is almost comparable to that of the IF.
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

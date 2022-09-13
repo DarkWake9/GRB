@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24587
+SUBJECT: GRB 190511A: Swift/UVOT further analysis
+DATE:    19/05/17 20:15:07 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N. P. M. Kuin (UCL-MSSL) and M. G. Bernardini (INAF-OAB)
+report on behalf of the Swift/UVOT team:
+
+In GCN Circ. 24494 (Kuin and Bernardini) we described how we detect
+the afterglow of the GRB, but that the photometry was affected by
+an object located at a distance of 1.3 arcsec. Further Swift
+observations show that the uv-optical afterglow was no longer
+detected in white beyond 26ks after the trigger. Data that were taken
+after that time are considered template observations that
+provide the background contribution to the photometry.
+
+The template net corrected count rates, with instrumental effects
+removed, are found to be as follows for a 3" radius circular aperture
+at the location of the GRB as reported in GCN 24494:
+White = 1.066 +/- 0.031 c/s; u = 0.149 +/- 0.016 c/s;
+b = 0.509 +/- 0.061 c/s; uvw2 =  0.011 +/- 0.011 c/s;
+v = 0.272 +/- 0.042 c/s; while uvm2 and uvw1 were not observed
+until after the afterglow became too faint.
+
+After removal of the template contribution, the following preliminary
+detections and 3-sigma upper limits were determined from the count rates
+using the zeropoints in the UVOT photometric system (Poole et al. 2008,
+MNRAS 383, 627; Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for
+the image mode exposures:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white              131          281          147          15.96 +/- 0.05
+u                  290          385           93          19.62 +/- 0.42
+b                 5684         5884          197          > 20.13
+white             5888         6088          197          20.61 +/- 0.37
+uvw2              6094        11850          518          > 17.81
+v                17150        17450          300          > 19.35
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.09 in the direction of the burst
+(Schlegel et al. 1998).

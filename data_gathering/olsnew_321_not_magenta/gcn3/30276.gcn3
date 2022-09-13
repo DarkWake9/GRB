@@ -1,0 +1,71 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30276
+SUBJECT: Konus-Wind detection of GRB 210619B
+DATE:    21/06/20 15:56:25 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, D. Frederiks, M. Ulanov,
+A. Tsvetkova, A. Lysenko, A. Ridnaia, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The very bright, long-duration GRB 210619B
+(Swift-BAT detection: D'Avanzo et al., GCN Circ. 30261;
+GECAM detection: Zhao et al., GCN Circ. 30264;
+Fermi-LAT detection: Axelsson et al., GCN Circ. 30270)
+triggered Konus-Wind at T0=86368.157 s UT (23:59:28.157).
+
+The burst light curve shows a bright hard initial episode,
+which starts at ~T0 and has a duration of ~10 s,
+followed by weaker pulses. The total burst duration is ~80 s.
+The emission is seen up to ~15 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB210619_T86368/
+
+As observed by Konus-Wind, the burst
+had a fluence of 4.60(-0.13,+0.13)x10^-4 erg/cm2,
+and a 64-ms peak flux, measured from T0+0.640 s,
+of 1.54(-0.12,+0.12)x10^-4 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+66.816 s)
+is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -1.02(-0.03,+0.04),
+the high energy photon index beta = -2.10(-0.04,+0.03),
+the peak energy Ep = 261(-13,+14) keV
+(chi2 = 118/96 dof).
+
+The spectrum near the maximum count rate
+(measured from T0+0.512 to T0+0.768 s)
+is best fit in the 20 keV - 15 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.41(-0.11,+0.12),
+the high energy photon index beta = -2.06(-0.12,+0.09),
+the peak energy Ep = 572(-81,+98) keV
+(chi2 = 76/60 dof).
+
+Assuming the redshift z=1.937
+(de Ugarte Postigo et al., GCN Circ. 30272)
+and a standard cosmology model with H_0 = 67.3 km/s/Mpc,
+Omega_M = 0.315, and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the following rest-frame parameters:
+the isotropic energy release E_iso is 4.41(-0.12,+0.12)x10^54 erg,
+the peak luminosity L_iso is 4.34(-0.34,+0.34)x10^54 erg/s,
+the rest-frame peak energy of the time-integrated spectrum,
+Ep,i,z, is 767(-38,+41) keV, and the rest-frame peak energy of
+the 'peak' spectrum, Ep,p,z, is 1680(-238,+288) keV.
+With these energetics, the burst lies within the 90% prediction bands
+for both 'Amati' and 'Yonetoku' relations built for the sample
+of 138 long KW GRBs with known redshifts
+(Tsvetkova et al., ApJ 850 161, 2017),
+see http://www.ioffe.ru/LEA/GRBs/GRB210619_T86368/GRB210619B_rest_frame.pdf.
+
+Among the KW GRB sample, GRB 210619B is within top 4% in the terms
+of E_iso and have L_iso comparable to the most luminous GRB 110918A 
+(Frederiks et al., ApJ 779, 151, 2013).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

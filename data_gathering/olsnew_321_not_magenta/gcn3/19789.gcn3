@@ -1,0 +1,73 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19789
+SUBJECT: INTEGRAL/SPI-ACS and IBIS_VETO search for prompt gamma-ray counterpart of IceCube-160806A
+DATE:    16/08/10 16:40:10 GMT
+FROM:    Volodymyr Savchenko at ISDC,U of Geneve  <savchenk@in2p3.fr>
+
+V. Savchenko (APC, Paris, France) , C. Ferrigno (ISDC, University of 
+Geneva, CH), P. Ubertini,  A. Bazzano, L. Natalucci (IAPS-Roma, Italy), 
+S. Mereghetti (IASF-Milano, Italy),  P. Laurent (CEA, Saclay, France),  
+E. Kuulkers (ESAC/ESA, Madrid, Spain)
+
+Using INTEGRAL/SPI-ACS and INTEGRAL/IBIS VETO we have performed a search 
+for prompt gamma-ray counterpart of cosmic neutrino candidate 
+IceCube-160806A (Cowen 2016, GCN 19787).
+
+At the time of the event (2016-08-06T12:21:33 UTC, hereafter T0), 
+INTEGRAL IBIS was operating in the nominal mode. INTEGRAL/SPI was 
+finishing the annealing cycle: at this stage of the procedure it has no 
+effect on SPI-ACS.
+The spacecraft was pointing in the direction of Norma Arm Region, and 
+the neutrino localization was at 110 deg angle with respect to the 
+pointing axis.
+This orientation enables high response of both SPI-ACS and IBIS_VETO.
+
+The nearest confirmed GRB (GRB160806A), was triggered by 
+INTEGRAL/SPI-ACS at 2016-08-06 14:00:57, 1h 40m after the event. This 
+GRB is also detected in the IBIS_VETO light curve.
+
+SPI-ACS and  IBIS_VETO (bottom) light-curves around the time of the 
+neutrino candidate event can be found at:
+
+http://isdc.unige.ch/~savchenk/IceCube-160806A/
+
+The count rate data around the event reveals variability, including 
+smooth background instabilities as well as burst-like events.
+
+Several burst-like excesses can be seen, most prominent ones at T0+50s, 
+T-150s, T0-2000s, and T0-10000s.
+Ratio of SPI-ACS to IBIS_VETO rates for these events is compatible with 
+a gamma-ray source from the direction of IceCube-160806A.
+However, we note that these flares are coincident with GOES proton 
+background flares.
+
+Although we can not exclude cosmic origin of some of these bursts, 
+judging from long-lasting background instability near the region of 
+interest, as well as the activity observed by GOES, we are inclined to 
+conclude that these bursts are associated with background variability 
+introduced by solar activity.
+
+We estimate a 3-sigma upper limit on fluence in 75-2000 keV energy range 
+in the interval ±1000 s around the IceCube trigger of 3.3x10^-7 erg/cm^2 
+for a burst with duration less than 1 s with a characteristic short GRB 
+spectrum (an exponentially cut off power law with alpha=-0.5 and Ep=500 
+keV).
+For a typical long GRB spectrum (the Band function with alpha=-1, 
+beta=-2.5, and Ep=250 keV), the corresponding limiting peak flux is 
+~2.2x10^-7 erg/cm^2/s at 1 s time scale in 75-2000 keV energy range.
+
+The SPI-ACS light curves, binned at 50 ms, are derived from 91 
+independent detectors with different lower energy thresholds (mainly 
+between 50 keV and 150 keV) and an upper threshold at about 100 MeV.
+
+The IBIS_VETO light curves, binned at 8 s, are derived from 16 
+independent detectors with lower energy thresholds near 80 keV and an 
+upper threshold at about 50 MeV. Two groups of detector rates are 
+recorded independently: bottom and lateral IBIS VETO. The response of 
+the bottom IBIS VETO peaks in the direction opposite to satellite 
+pointing axis, where the response of SPI-ACS is suppressed.
+
+Due to solar angle constrains, INTEGRAL can not perform pointed 
+observation of the location of IceCube-160806A until September 22, so no 
+pointed follow-up will be scheduled.
+

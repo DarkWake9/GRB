@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20126
+SUBJECT: GRB 160928A: The first GRB detected by POLAR
+DATE:    16/11/04 15:30:06 GMT
+FROM:    Shaolin Xiong at IHEP  <xiongsl@ihep.ac.cn>
+
+S. L. Xiong (IHEP), N. Produit (UniGe), T. W. Bao (IHEP), T. Batsch (NCBJ),
+T. Bernasconi, F. Cadoux, I. Cernuda (UniGe), J. Y. Chai, Y. W. Dong, M.  Z. Feng (IHEP),
+N. Gauvin (UniGe), M. Y. Ge (IHEP), W. Hajdas (PSI), J. J. He, Y. Huang (IHEP),
+M. R. Kole (UniGe), M. N. Kong (IHEP), C. Lechanoine-Leluc (UniGe), H.  C. Li,
+L. Li, Z. H. Li, J. T. Liu, X. Liu, F. J. Lu (IHEP), R. Marcinkowski (PSI), S. Orsi, M. Pohl,
+D. Rapin (UniGe), A. Rutczynska, D. Rybka (NCBJ), H. L. Shi, L. M. Song, J. C. Sun (IHEP),
+J. Szabelski (NCBJ), R. J. Wang, Y. H. Wang, X. Wen, B. B. Wu (IHEP), X.  Wu (UniGe),
+H. L. Xiao (PSI), H. H. Xu, M. Xu, J. Zhang, L. Zhang, L. Y. Zhang (IHEP), P. Zhang (PSI),
+S. N. Zhang, X. F. Zhang, Y. J. Zhang, Y. Zhao, S. J. Zheng (IHEP), A. 
+Zwolinska (NCBJ)
+(i.e. the POLAR team):
+
+POLAR, a dedicated Gamma-Ray Burst polarimeter, has been launched successfully
+on-board the Chinese space laboratory Tiangong-2 (TG-2) on Sep 15, 2016.
+
+During the commissioning operation phase, at 19:48:05.00 UT on 28 
+September 2016 (T0),
+POLAR detected the GRB160928A in a routine ground search of the data,
+which was also observed by the Fermi/GBM (trigger 496784887/160928825),
+INTEGRAL/SPI-ACS (trigger #7579) and Konus-WIND (trig #4385).
+
+POLAR can localize bursts within its FOV (~ half sky) to an accuracy of degrees
+(Suarez-Garcia et al., NIM A, 2010, 624). However, since this burst is 
+not very bright and
+falls on the edge of the FOV, the localization is difficult and still on-going.
+
+Using the best location from the Fermi/GBM, which is (J2000):
+RA:   130.39    [deg]
+Dec:    8.14    [deg]
+Err:    3.19    [deg]
+
+the incident angle at T0 in POLAR detector coordinate is:
+theta:   94.7   [deg]
+phi:    -26.8   [deg]
+
+The distribution of the GRB signal among its 25 detector modules is 
+consistent with this incident geometry.
+
+In addition, the timing and structures in the POLAR light curve is well 
+consistent with that of other instruments mentioned above.
+Thus we conclude that this event is the first confirmed GRB which POLAR detected,
+and that POLAR works as expected.
+
+The POLAR light curve consists of multiple peaks
+with a duration (T90) of 5.1 s measured from T0-1.7 s.
+The 50-ms peak flux, measured from T0+0.55 s, is 1406.7 cnts/sec.
+The above measurements are in the energy range of about 80-500 keV.
+
+The analysis results presented above are preliminary;
+final results will be published in the POLAR paper.
+
+The POLAR mission is a joint effort of the international collaboration 
+between the Institute of High Energy Physics (IHEP) in China, the University of 
+Geneva (UniGe) and the Paul Scherrer Institute (PSI) in Switzerland, and the National 
+Center for Nuclear Research (NCBJ) in Poland. More information about POLAR could be 
+found at http://polar.ihep.ac.cn/en/.
+
+[GCN OPS NOTE(05nov16):  Per author's request, the affiliation in the FROM:-line
+was changed from "POLAR" to "IHEP".  And some line-wrapping was fixed.
+

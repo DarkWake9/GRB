@@ -1,0 +1,64 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29350
+SUBJECT: GECAM detection of a burst possibly from the X-ray burster 4U 0614+09 or GRB 210124A
+DATE:    21/01/24 14:53:02 GMT
+FROM:    Shaolin Xiong at IHEP  <xiongsl@ihep.ac.cn>
+
+S. L. Xiong, F. J. Lu, S. N. Zhang, Y. Huang, Y. P. Chen,
+S. Xiao, C. Cai, X. Y. Zhao, B. X. Zhang,
+Z. H. An, C. Chen, G. Chen, W. Chen, M. Gao, K. Gong, D. Y. Guo,
+J. J. He, B. Li, C. Li, C. Y. Li, J. H. Li, Q. X. Li,
+X. B. Li, X. Q. Li, Y. G. Li, X. H. Liang, J. Y. Liao, J. C. Liu,
+X. J. Liu, Y. Q. Liu, Q. Luo, X. Ma, G. Ou, W. X. Peng, R. Qiao,
+D. L. Shi, J. Y. Shi, L. M. Song, X. Y. Song, G. X. Sun, X. L. Sun,
+Y. L. Tuo, C. W. Wang, J. Z. Wang, P. Wang, X. Y. Wen, Y. B. Xu,
+Y. P. Xu, W. C. Xue, S. Yang, M. Yao, Q. B. Yi, C. Y. Zhang,
+D. L. Zhang, Fan Zhang, Fei Zhang, H. M. Zhang, K. Zhang, P. Zhang,
+Y. Q. Zhang, Z. Zhang, S. Y. Zhao, Y. Zhao, C. Zheng,
+S. J. Zheng, X. Zhou (IHEP),
+report on behalf of GECAM team:
+
+During the commissioning phase, GECAM-B was triggered in-flight by
+a long burst at 2021-01-24T11:50:03.600 UTC (denoted as T0).
+Its alert data was promptly downlinked to the ground through the
+short message service of BeiDou Navigation Satellite System (BDS).
+The time latency of the first BeiDou message relative to the trigger time
+is about 1 minute.
+
+According to the BDS alert data, this burst mainly consists of
+a single pulse with a duration of about 60 s.
+The spectrum is very soft with not much emission above about 30 keV.
+An automatic on-ground localization was calculated using the light curves
+and spectrum. Although the in-flight calibration of energy response and
+localization has not been finalized yet, GECAM-B localized this burst to
+the following position (J2000):
+
+Ra: 94.9 deg Dec: 6.6 deg
+Galactic lon: 188.4 deg, lat: 12.1 deg
+Err: 2.7 deg (1-sigma, statistical only)
+
+The current systematic error of location is estimated to be several degrees
+which could be minimized by the ongoing calibration.
+
+The GECAM light curve could be found here:
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/gecamb_lc_grd_21-22-11_65188203.png
+
+The GECAM preliminary location could be found here:
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/gecamb_skymap_65188203_V01.png
+
+Based on the light curve, spectral hardness and location, we suggest that
+this burst is likely from a galactic source. We note that 4U 0614+09 lies
+within the location error which could produce such an X-ray burst.
+However, the GRB nature could not be ruled out yet.
+
+As the detailed science data are downloaded, all analyses would be improved.
+
+Please note that all GECAM results here are preliminary. The final analysis
+will be published in journal papers or GECAM online catalog.
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor
+(GECAM) mission consists of two small satellites (GECAM-A and GECAM-B) in
+Low Earth Orbit (600 km, 29 deg), launched on Dec 10, 2020 (Beijing Time),
+which was funded by the Chinese Academy of Sciences (CAS).
+
+

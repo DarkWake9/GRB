@@ -1,0 +1,61 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  275
+SUBJECT: ASM/IPN error box for GRB 990308 (BATSE #7457)
+DATE:    99/03/14 19:43:32 GMT
+FROM:    Don Smith at MIT  <dasmith@space.mit.edu>
+
+D. A. Smith, A. Levine, and R. Remillard (MIT), on behalf of the
+RXTE/ASM team at MIT and NASA/GSFC, K. Hurley (UCB), on behalf of the
+Ulysses GRB team, and S. Barthelmy (NASA/GSFC) report:
+
+GRB 990308 was detected by the All-Sky Monitor on RXTE during a 90-s
+observation that began at MJD 51245.218333 (03/08/99 05:14:24 UTC).
+This burst was also observed by BATSE (Trigger #7457), and the BATSE
+trigger time was 05:15:07 UTC.  At this time, SSC 3 of the ASM (the
+camera aligned with the rotation axis of the ASM assembly) observed an
+interval of enhanced count rates that lasted until the end of the
+observation.  The light curve of the event was highly variable, with a
+mean 1.5-12 keV flux of about 400 mCrab.  SSC 3 has lost the use of
+four of its eight resistive anodes over its the three years of
+operation, but we could still localize this GRB with the remaining
+anodes to a 10 deg by 6.6 arcmin error box (full-width at 90%
+confidence, including estimates of both statistical and systematic
+effects), centered at R.A. = 182.761832, Decl. = +4.282319 (J2000) and
+rotated 51.2 deg east from north.
+
+GRB 990308 was also detected, very weakly, by Ulysses, and it was
+therefore possible to obtain an IPN annulus by triangulation of burst
+arrival times at Ulysses and BATSE.  This annulus is centered at
+R.A. = 154.0761 degrees, Decl. = -9.6383 degrees, with a radius of
+35.583 degrees, and a 3 sigma half-width of 0.399 degrees.  This
+annulus is based on preliminary data, but we do not expect it to
+improve much, if at all.
+
+The IPN annulus and the ASM error box cross each other, yielding a
+joint error box 48 arcmin by 6.6 arcmin.  The corners of this box lie
+within the BATSE LOCBURST error circle, and their celestial
+coordinates are:
+
+R.A.(J2000)  Decl. (J2000)
+186.142867     +6.921870
+186.091377     +7.021754
+185.502582     +6.412172
+185.451355     +6.512323
+
+This position was still in the FOV of SSC 3 after its 6-deg rotation,
+and examination of the instrument response at the center of the joint
+error box yields a ~4-sigma detection of a ~50 mCrab flux (1.5-12
+keV), averaged over the next 90-s ASM observation (56-146 s after the
+burst trigger).  This is an average of less than 2 c/s in the
+time-series data during this observation, which shows an average total
+count rate of 27 c/s, so it is not possible to directly measure the
+burst behavior on any shorter time-scales.  By the second observation
+after the burst (t=152-242 s), the average flux had fallen below 30
+mCrab (3-sigma upper limit). 
+
+Figures showing localizations of GRB 990308, as well as the time-
+series data from the first ASM observation, can be seen on the WWW at
+
+http://xte.mit.edu/grb/trig7457.24/web_trig7457_24.html
+
+This report may be cited.

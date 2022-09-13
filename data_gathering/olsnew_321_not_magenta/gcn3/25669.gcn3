@@ -1,0 +1,65 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25669
+SUBJECT: LIGO/Virgo S190814bv: GRAWITA VST-ESO PARANAL observations and independent transient candidates discovery.
+DATE:    19/09/05 19:31:31 GMT
+FROM:    Aniello Grado at INAF-OAC  <aniello.grado@gmail.com>
+
+AUTHORS: A. Grado (INAF-Napoli), E. Cappellaro (INAF-Padova), E. Brocato
+(INAF-Abruzzo),
+S. Covino (INAF-Brera), F. Getman (INAF-Napoli), G. Greco (University
+Urbino) , P. D'avanzo
+(INAF-Brera), A. Rossi (INAF-OAS), E. Palazzi (INAF-OAS), S. Yang
+(INAF-Padova) on behalf of GRAWITA.
+
+We observed the field of S190814bv (GCN 25324 and updated GCN 25333) in r'
+band with the VLT Survey
+Telescope (VST) equipped with Omegacam (1 sqdeg FOV) (Proposal ID ESO
+0103.D-0070 ).
+The field was observed for a total of 5 epochs distributed as reported in
+the following table.
+
+epoch 1 2019-08-15 from 08:50:26.860 to 10:13:47.602
+epoch 2 2019-08-16 from 05:29:37.904 to  07:20:36.231
+epoch 3 2019-08-19 from 04:55:59.697 to 06:08:28.809
+epoch 3 2019-09-20 from 03:45:54.370 to 04:39:27.598
+epoch 4 2019-8-22 from 03:01:00.585 to 05:41:44.089
+epoch 5 2019-08-29 from 09:07:41.251 to 09:36:29.055
+epoch 5 2019-08-30 from 07:49:42.449 to 09:34:10.334
+all time are in UTC.
+
+In the first night we imaged 18 sqdeg covering 65% of the localization
+probability region.
+Starting from the second epoch we modified the pointings to improve the
+updated skymap coverage.
+The area imaged is 23 sqdeg covering 87% of the localization region.
+Each 1 sqdeg pointing was observed three times for a total exposure time of
+135 seconds.
+
+Images were analized using the our photometric pipelines (Brocato et al.
+2018 MNRAS, 474,1).
+The final vetting was done via visual inspection. The candidates were
+matched against the Minor
+Planet Center to further filter against slow moving asteroids. The three
+most outstanding candidates,
+already reported in TNS, and visible in at least three epochs are:
+
+Name       | TNS Name |    RA | Dec   | Night | Mag   | MAGERR
+
+VST J004656.70-252236.7 | AT2019npd   | 00:46:56.711 |  -25:22:36.43    |
+2019-08-21 | 19.874 +/- 0.062
+VST J004847.88-251823.5 | AT2019noq   | 00:48:47.882 |  -25:18:23.46    |
+2019-08-15 | 19.962 +/- 0.033
+VST J005605.55-243826.4 | AT2019nve   | 00:56:05.510  | -24:38:26.40    |
+2019-08-14 | 20.531 +/- 0.083
+VST J004659.45-230559.5 | AT2019nyv   | 00:46:59.451  | -23:05:59.50    |
+2019-8-15   | 21.200 +/- 0.087
+
+where the magnitude and night refers to the peak value.
+
+Automatic VST data processing was done with the VSTTube pipeline (Grado et
+al. 2012 Mem.SAIt 19, 362).
+The pointing sequence was generated using the GWsky script (
+https://github.com/ggreco77/GWsky).
+We acknowledge excellent support from the ESO User Support Department and
+from ESO observing staff
+in Paranal.

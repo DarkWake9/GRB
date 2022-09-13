@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31848
+SUBJECT: GRB 220408A: Swift detection of a burst with an optical counterpart, possibly associated with M51
+DATE:    22/04/08 06:04:40 GMT
+FROM:    Kim Page at U.of Leicester  <kimlpage1978@gmail.com>
+
+R. Caputo (GSFC), K. L. Page (U Leicester), D. M. Palmer (LANL),
+B. Sbarufatti (PSU) and A. Tohuvavohu (U Toronto) report on behalf of
+the Neil Gehrels Swift Observatory Team:
+
+At 05:46:04 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 220408A (trigger=1101675).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 202.402, +47.061 which is 
+   RA(J2000) = 13h 29m 36s
+   Dec(J2000) = +47d 03' 41"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a double-peaked
+structure with a duration of about 5 sec.  The peak count rate
+was ~3500 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 05:47:53.1 UT, 109.0 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source located at RA, Dec 202.41670, 47.06870 which is equivalent
+to:
+   RA(J2000)  = 13h 29m 40.01s
+   Dec(J2000) = +47d 04' 07.3"
+with an uncertainty of 3.7 arcseconds (radius, 90% containment). This
+location is 45 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at https://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (1.98 x
+10^20 cm^-2, Willingale et al. 2013), with an excess column of 4.6
+(+4.76/-3.79) x 10^21 cm^-2 (90% confidence). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 112 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	13:29:39.72 = 202.41548
+  DEC(J2000) = +47:04:09.5  =  47.06931
+with a 90%-confidence error radius of about 0.91 arc sec. This position is 5.1
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+20.76 with a 1-sigma error of about  0.22. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.042. 
+
+We note that this GRB is in a direction near to that of M51, the 
+Whirlpool Galaxy, although well outside of its optical disk. 
+Determining whether this is a coincidence will require further study. 
+
+Burst Advocate for this burst is R. Caputo (regina.caputo AT nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

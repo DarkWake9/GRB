@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31468
+SUBJECT: GRB 220117B: Swift detection of a burst
+DATE:    22/01/17 20:18:29 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. Melandri (INAF-OAB), M. G. Bernardini (INAF-OAB), J.D. Gropp (PSU),
+N. J. Klingler (GSFC/UMBC/CRESSTII), A. Y. Lien (U Tampa),
+F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL),
+T. M. Parsotan (GSFC/UMBC/CRESSTII), T. Sbarrato (INAF-OAB) and
+M. H. Siegel (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 20:05:28 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 220117B (trigger=1093611).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 191.947, -28.744 which is 
+   RA(J2000) = 12h 47m 47s
+   Dec(J2000) = -28d 44' 38"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 20 sec.  The peak count rate
+was ~1000 counts/sec (15-350 keV), at ~1 sec after the trigger. 
+
+The XRT began observing the field at 20:07:04.0 UT, 95.9 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 191.9514, -28.7446 which is equivalent to:
+   RA(J2000)  = 12h 47m 48.34s
+   Dec(J2000) = -28d 44' 40.6"
+with an uncertainty of 6.5 arcseconds (radius, 90% containment). This
+location is 14 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 4.69e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of nominal 150.000 seconds with the White
+filter starting 104 seconds after the BAT trigger. No credible afterglow
+candidate has been found in the initial data products. Data from the 2.7'x2.7'
+sub-image are not available at this time. The 8'x8' region for the list of
+sources generated on-board covers 100% of the XRT error circle. The list of
+sources is typically complete to about 18 mag. No correction has been made for
+the expected extinction corresponding to E(B-V) of 0.075. 
+
+Burst Advocate for this burst is A. Melandri (andrea.melandri AT brera.inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

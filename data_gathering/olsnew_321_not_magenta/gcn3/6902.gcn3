@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6902
+SUBJECT: GRB 071011: Swift-XRT refined analysis
+DATE:    07/10/12 15:07:59 GMT
+FROM:    Boris Sbarufatti at INAF-IASF-Pa  <sbarufatti@ifc.inaf.it>
+
+B. Sbarufatti, V. Mangano, V. La Parola, E. Troja (INAF-IASFPA),
+P. Evans, A. Beardmore (U Leicester), D. N. Burrows (PSU),
+F. E. Marshall (NASA/GSFC) report on behalf of the Swift-XRT team
+
+We have analysed the first orbits of Swift-XRT data obtained for
+GRB 071011 (trigger=293924, GCN 6882). The observation consists
+of 6.6 ks exposure in Photon Counting (PC) mode, starting 2.7 ks
+after the trigger. The GRB afterglow is clearly detected inside
+the XRT field of view (FoV) at a large off axis angle only in the
+initial 1.6 ks. During the following 5 ks the source was outside
+the FoV because of an incorrect spacecraft pointing.
+Using an improved algorithm that takes into account the presence
+of the underlying hot column we obtain a refined position of:
+
+RA, Dec= 8.38816, 61.13327 (degrees)
+
+    RA(J2000)=    00h 33m 33.1s
+    Dec(J2000)=  +61d 07' 59.77"
+
+
+with an estimated uncertainty radius of 4.1 arcsec (90% containment
+radius). This is 2.7 arcsec away from the previous XRT position
+(GCN 6891) and 5.5 arcsec away from the optical afterglow reported
+by Cenko (GCN 6895) and Perley et al. (GCN 6898). We note that the
+position uncertainty of 4.1 arcseconds includes both systematic and
+statistical uncertainty, but the systematic component may be
+underestimated for a source this close to the edge of the field of
+view.
+
+The light curve shows a behavior consistent with a powerlaw decay
+with slope -1 +/- 0.7. Due to the large uncertainty we need more
+data to constrain the afterglow evolution.
+
+The spectrum extracted from the initial 1.6 ks PC data can be
+modelled with an absorbed  power-law with photon index
+Gamma = 2.6 +/- 0.5, and an absorbing column of
+NH = (1.5 +/- 0.7)E22 cm-2, in excess with respect to the Galactic
+value of 5.18E21 cm-2. The observed (unabsorbed) flux is
+1.26 (6.00)E-11 ergs cm-2 s-1.
+
+All errors are quoted at 90% confidence level.
+
+Additional X-ray observations planned for Oct 14-15 should help
+improve both the counterpart position accuracy and the measurement
+of the decay rate and spectral parameters.
+
+This circular is an official product of the Swift-XRT team.
+

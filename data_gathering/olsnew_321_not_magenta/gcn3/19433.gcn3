@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19433
+SUBJECT: Trigger 686761: Swift detection of a bright burst from SGR 1935+2154
+DATE:    16/05/18 09:46:00 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. D'Avanzo (INAF-OAB), P.A. Evans (U Leicester), J. A. Kennea (PSU),
+A. Melandri (INAF-OAB), K. L. Page (U Leicester) and
+D. M. Palmer (LANL) report on behalf of the Swift Team:
+
+At 09:09:23 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a burst from the Soft Gamma Repeater SGR 1935+2154 
+(trigger=686761).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 293.722, +21.891 which is 
+   RA(J2000) = 19h 34m 53s
+   Dec(J2000) = +21d 53' 28"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed single short spike
+of 0.192 ms duration. The peak count rate was 350k counts/s
+for 0.064 s, at ~0.1 sec after the trigger. 
+
+The XRT began observing the field at 09:10:22.9 UT, 59.1 seconds after
+the BAT trigger. Using promptly downlinked data we find a catalogued
+X-ray source located at RA, Dec 293.73098, 21.89458 which is equivalent
+to:
+   RA(J2000)  = 19h 34m 55.44s
+   Dec(J2000) = +21d 53' 40.5"
+with an uncertainty of 5.0 arcseconds (radius, 90% containment). This
+position may be improved as more data are received; the latest position
+is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.27
+x 10^22 cm^-2 (Willingale et al. 2013). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 64 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+We note that this burst is ~100x brighter in BAT than the burst from
+this source 36 hours earlier. 
+

@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22959
+SUBJECT: GRB 180718A short GRB detected by IPN and found in ground analysis of BAT data
+DATE:    18/07/18 23:38:33 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin and K. Hurley, on behalf of the IPN,
+
+A. Y. Lien, D. Palmer, S. Barthelmy, J. Cummings,
+and H. Krimm, on behalf of the Swift-BAT team,
+
+A. Goldstein, M. S. Briggs, and C. Wilson-Hodge
+on behalf of the Fermi GBM team, and
+
+A. von Kienlin, X. Zhang, A. Rau, V. Savchenko, E. Bozzo,
+and C. Ferrigno, on behalf of the INTEGRAL SPI-ACS GRB team,
+report:
+
+The short-duration GRB 180718A was detected by
+Fermi (GBM; trigger 553571869), INTEGRAL (SPI-ACS), and Swift (BAT),
+at about 7065 s UT (01:57:45).
+
+We have triangulated this GRB to a GBM-INTEGRAL annulus centered at
+RA(2000)=260.736 deg (17h22m57s) Dec(2000)=+48.285 deg (+48d17'07"),
+whose radius is 79.182 +/- 2.067 deg (3 sigma).
+
+ From the ground analysis using the available Swift/BAT event data
+from T-1 to T+2 sec, we found a 6.3 sigma detection in an image with
+intervals from T0-0.026 s to T0+0.165 s and energy range 15-150 keV,
+where T0 = 2018-07-18 01:57:44.530 UTC.
+
+The BAT ground-calculated position of this detection is
+RA, Dec = 336.019, 2.790 deg which is
+    RA(J2000)  =  22h 24m 04.6s
+    Dec(J2000) = +02d 47' 23.3"
+with an uncertainty of 3.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 25%.
+The position is consistent with the annulus.
+
+The BAT mask-weighted light curve shows
+a single-pulse structure that starts at ~T0 and ends at ~T+0.1 s.
+T90 (15-350 keV) is 0.08 +- 0.02 sec (estimated error including 
+systematics).
+
+Due to the weakness of this burst, the BAT spectrum is
+not well-constrained. However, the burst seems to be relatively soft
+comparing to regular short GRBs.
+
+The results of the batgrbproduct analysis are available at
+https://gcn.gsfc.nasa.gov/notices_s/848489/BA/
+
+A ToO observation with Swift/XRT has been requested.
+

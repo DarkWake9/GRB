@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29765
+SUBJECT: GRB 210402A: MASTER prompt and follow up optical observation 
+DATE:    21/04/06 08:33:46 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+K.Zhirkov, V. Lipunov, V.Kornilov, E.Gorbovskoy,P.Balanutsa,V.Vladimirov, A.Kuznetsov,
+D. Vlasenko, N.Tiurina, I.Gorbunov, A.Chasovnikov, D.Zimnukhov, V.Senik, V.Topolev,
+F.Balakin, D.Cheryasov (Lomonosov Moscow State University,SAI, Physics Department),
+D. Buckley (South African Astronomical Observatory),
+O.A. Gres, N.M. Budnev (Irkutsk State University, API),
+R. Podesta, C.Lopez, F. Podesta, C.Francile (Observatorio Astronomico Felix Aguilar OAFA),
+R. Rebolo, M. Serra(The Instituto de Astrofisica de Canarias),
+A. Tlatov, D. Dormidontov (Kislovodsk Solar Station of the Pulkovo Observatory),
+A. Gabovich, V.Yurkov (Blagoveschensk Educational StateUniversity)
+
+MASTER Global robotic net (MASTER-Net:http://observ.pereplet.ru 
+Lipunov et al.,2010,Advances in Astronomy,2010,30L)
+observed GRB 210402A (Swift trigger 1040123 Page et al. GCN 29743,
+Evans et al. GCN 29750, Laha et al. 29761, Ttrigger=2021-04-02T22:03:17.22, 
+also Fermi trigger #639093861   T_trigger(Fermi) = 22 04 17 Roberts et al. GCN 29763)
+at MASTER-IAC, -Tavrida, -SAAO, -Kislovodsk, -OAFA, -Tunka (Lipunov et al. GCN 29741)
+by MASTER-VWF cameras (two 24.3x16.2sq.deg.) with mlim=13
+and by MASTER-II (two 4sq.deg.)  with mlims at MASTER cover map 
+https://master.sai.msu.ru/site/master2/observ.php?id=1582249
+
+We observed this field with the MASTER-VWFC of MASTER-IAC, covering the Swift/XRT position from 
+2021-04-02 22:04:21 to 2021-04-02 22:07:17, i.e. during the prompt emission.
+Frames were taken with the exposure time of 5s and with no filter .
+
+Calibrated with NOMAD V-filter, we  marginally see optical source inside 
+T90 at 2 images:
+started at 2021-04-02 22:05:36(79 from Fermi trigger time) and
+at 2021-04-02 22:05:46(89 from Fermi trigger)
+with m_OT~11
+at XRT position, but the pixel of this camera is 21".
+
+Comparing to the GAIA EDR3, we see no optical counterpart down to the
+magnitude of 10.5 at other images. It puts the upper limit on the flux of 
+the prompt
+optical emission at ~5e-10 erg cm^-2 s^-1. Considering that the x-ray flux
+was ~1e-08 erg cm^-2 s^-1, we constrain the relation between optical flux
+and x-ray flux at ~10^-2.
+

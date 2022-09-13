@@ -1,0 +1,52 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3082
+SUBJECT: Swift-BAT trigger 107873 (GRB050309): possible X-ray counterparts
+DATE:    05/03/09 23:09:32 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+S. Barthelmy (GSFC), D.Burrows (PSU), L. Barbier (GSFC), J. Cummings 
+(GSFC/NRC), E. Fenimore (LANL), N. Gehrels (GSFC), D. Hullinger (GSFC/UMD), 
+J. Kennea (PSU), H. Krimm (GSFC/USRA), D. Malesani (SISSA), C. Markwardt 
+(GSFC/UMD), A. Moretti (INAF-OAB), K. Page (U. Leicester), D. Palmer 
+(LANL), A. Parsons (GSFC), P. Romano (INAF-OAB), T. Sakamoto (GSFC), G. 
+Sato (ISAS), M. Suzuki (Saitama), J. Tueller (GSFC)
+on behalf of the Swift-BAT/-XRT teams:
+
+Further analysis of Swift data on BAT trigger #107873 has led to an 
+ambiguous situation regarding the reality of this marginal BAT trigger.
+
+The Swift-BAT triggered (#107873) at 10:43:21 UT.  The trigger occurred on 
+the rising edge of the SAA.  Ground analysis has confirmed the very low 
+image-domain detection significance of this trigger.  A visual inspection 
+of the mask-tagged light curve also shows very marginal emission.
+As a result, a retraction GCN Notice was issued earlier today.  We are now
+ammending that Notice.
+
+The BAT position was within the Swift Earth limb constraint at the time of 
+the burst, so Swift did not execute a prompt automated slew.  The spacecraft 
+executed a delayed slew to the BAT location at about 11:33 UT and XRT 
+observations began at 11:35:54 UT.  Two orbits of data were collected by 
+the XRT, for a total of 4157s of exposure.  Preliminary analysis indicates 
+that there are four X-ray sources in the XRT field of view, two of which 
+fall inside the BAT error circle.  These are:
+
+Source #1: RA(J2000) = 12 10 29.1, Dec(J2000) = +77 37 04.8. This is a very 
+weak source (about 0.006 cps).  It appears to be roughly constant in 
+intensity, but the source is so faint that we cannot determine with 
+confidence whether or not it is varying in flux.
+
+Source #2: RA(J2000) = 12 09 37.2, Dec(J2000) = +77 35 56.5.  This source
+is brighter (about 0.01 cps) and may be fading.  Again, we cannot be certain 
+with the data currently in hand.
+
+The other two sources are a bright star and a very faint object well 
+outside the BAT error circle.  The estimated uncertainty in the XRT 
+positions is 6 arcseconds radius.
+
+A 20 ks Target of Opportunity observation has been initiated to provide a 
+second set of data beginning at about 19:45 UT.  This should help us 
+determine the likelihood that either XRT source is related to the BAT trigger.
+
+In light of these XRT observations, the BAT team cannot rule out the 
+possibility that this trigger represents a threshold-level GRB. 
+

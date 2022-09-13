@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9032
+SUBJECT: GRB 090323: UVOT Detection of Afterglow
+DATE:    09/03/24 19:40:58 GMT
+FROM:    Erik Hoversten at Swift/Penn State  <hoversten@astro.psu.edu>
+
+E. A. Hoversten (PSU) reports on behalf of the Swift UVOT team:
+
+The Swift/UVOT began settled observations of the field of
+GRB 090323 70 ks after the Fermi LAT trigger (Ohno et al., GCN 9021).
+The afterglow is detected in the UVOT white filter at:
+
+     RA (J2000)  12:42:50.29
+    Dec (J2000)  17:03:11.8
+
+with an estimated uncertainty of 0.8 arcsec (radius, 90% confidence).
+This position is consistent with the UVOT enhanced XRT position (Kennea
+et al., GCN 9024) as well as the optical position determined by
+GROND (Updike et al., GCN 9026)  The afterglow candidate does not
+appear in the DSS images.  Photometry from the second set of Swift
+observations may be indicative of fading, but is not deep enough to be
+conclusive.
+
+UVOT magnitudes and 3-sigma upper limits are reported in the following
+table:
+
+Filter   T_start   T_stop   Exp(s)  Mag (3-sigma upper limit)
+-----------------------------------------------------
+WHITE     70287     75931    1196   21.66 +/- 0.28
+WHITE    115572    121460     601      > 21.60
+V         70667     76062     517      > 19.88
+U         69906     75078    1200      > 21.02
+
+The quoted upper limits have not been corrected for the expected
+Galactic extinction along the line of sight of E(B-V) = 0.03 mag.
+All photometry is on the UVOT photometric system described in Poole et al.
+(2008, MNRAS, 383, 627).
+
+

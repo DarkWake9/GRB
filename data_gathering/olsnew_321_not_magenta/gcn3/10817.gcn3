@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10817
+SUBJECT: Konus-Wind observation of GRB 100528A
+DATE:    10/05/31 15:33:58 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, P.
+Oleynik, M. Ulanov, D. Svinkin, and T. Cline on behalf of the Konus-Wind
+team, report:
+
+The long GRB 100528A localized by SuperAGILE (Del Monte et al., GCN 
+10810) triggered Konus-Wind at T0=6483.610 s UT (01:48:03.610).
+
+The burst light curve shows a main pulse with a duration of ~30 s 
+followed by a much weaker and softer pulse at ~T0+44 s with a duration 
+of ~15 s.
+
+As observed by Konus-Wind the burst
+had a fluence of 2.85(-0.19, +0.21)x10^-5 erg/cm2,
+and a 256-ms peak flux measured from T0+6.688 s
+of 3.99(-0.58, +0.59)x10^-6 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+23.296 s) is well fitted (in the 20 keV - 2 MeV
+range) by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep), with
+alpha = -1.28(-0.06, +0.07),  and
+Ep = 382(-52, +69) keV (chi2 = 55.0/61 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and only an upper limit on the high energy
+photon index: beta < -2.28 (chi2 = 55.0/60 dof).
+
+The spectrum accumulated over the burst maximum (from T0 to T0+6.912 s) 
+is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model with
+alpha = -1.18 +/- 0.07,  and
+Ep = 558(-85, +115) keV (chi2 = 71.4/61 dof).
+Fitting by GRB (Band) model yields the same alpha and Ep,
+and only an upper limit on the high energy
+photon index: beta < -2.43 (chi2 = 71.4/60 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.ru/LEA/GRBs/GRB100528_T06483/
+

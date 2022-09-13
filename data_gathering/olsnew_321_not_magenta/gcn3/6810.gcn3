@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6810
+SUBJECT: GRB 070911: Swift/BAT and Suzaku/WAM joint spectral analysis
+DATE:    07/09/21 13:14:44 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+L. Barbier (GSFC), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU)
+on behalf of the Swift-BAT team,
+
+M. Ohno, T. Uehara, T. Takahashi, Y. Fukazawa, C. Kira (Hiroshima U.),
+Y. E. Nakagawa, K. Yamaoka, S. Sugita (Aoyama Gakuin U.),
+Y. Terada, T. Tamagawa (RIKEN), K. Morigami, N. Kodaka, K. Onda,
+M. Tashiro, M. Suzuki, Y. Urata, A. Endo (Saitama U.), T. Enoto,
+R. Miyawaki, K. Nakawaza, K. Makishima (Univ. of Tokyo), E. Sonoda,
+M. Yamauchi, S. Maeno, H. Tanaka, R. Hara (Univ. of Miyazaki),
+M. Kokubun, M. Suzuki, T. Takahashi (ISAS/JAXA), S. Hong (Nihon U.),
+on behalf of the Suzaku-WAM team,
+
+report:
+
+We performed the Swift/BAT, and Suzaku/WAM joint fit spectral
+analysis of GRB 070911 (Swift-BAT trigger #290624; Krimm, et al.,
+GCN Circ. 6777).  The time interval of the spectral data for each
+instrument is chosen from T0(WAM)-56 to T0(WAM)+149 sec where
+T0(WAM) is the trigger time of WAM at 05:58:20.069 UTC.
+The energy ranges which we used in the joint spectral analysis
+are 14-150 keV and 100-1000 keV for Swift/BAT and Suzaku/WAM
+respectively.  The spectral data of two instruments are fit
+with the spectral model multiplied by the constant factor to
+take into account the systematic uncertainties in the response
+matrices of each instrument.
+
+The spectrum is well fit with a power-law with exponential cutoff
+model (dN/dE ~ E^{alpha} * exp(-(2+alpha)*E/Epeak)).  The constant
+factors of each instrument agree within 10%.  No systematic residual
+from the best fit model is seen in the spectral data of each instrument.
+The best fit spectral parameters are: alpha = -1.6 +- 0.1 and
+Epeak = 170 (-50/+280) keV (chi2/dof = 59/74).  The energy fluence
+in the 15-1000 keV band calculated by a power-law with exponential
+cutoff model for this 205 sec interval is 2.1 (-0.2/+0.4) x 10^-5 erg/cm2
+(assuming the constant factor of the BAT is fixed to 1).
+
+All the quoted errors are at the 90% confidence level.
+

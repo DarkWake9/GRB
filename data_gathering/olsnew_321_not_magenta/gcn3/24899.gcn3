@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24899
+SUBJECT: GRB 190627A: Swift-BAT refined analysis (short-soft burst)
+DATE:    19/06/28 15:01:57 GMT
+FROM:    Hans Krimm at NSF/NASA-GSFC  <hkrimm@nsf.gov>
+
+S. D. Barthelmy (GSFC),  J. R. Cummings (CPI), H. A. Krimm (NSF),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), E. Sonbas (Adiyaman Univ.),  M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 190627A (trigger #911609)
+(Sonbas, et al., GCN Circ. 24888).  The BAT ground-calculated position is
+RA, Dec = 244.843, -5.302 deg which is 
+  RA(J2000)  =  16h 19m 22.3s 
+  Dec(J2000) = -05d 18' 08.6" 
+with an uncertainty of 2.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 73%.
+
+The mask-weighted light curve shows a single peak, visible only in the softest
+energy channels, with a duration of about four seconds.  The burst location
+went out of the BAT field soon after T+400 sec due to a spacecraft slew.
+T90 (15-350 keV) is 1.60 +- 0.28 sec (estimated error including systematics).
+
+The time-averaged spectrum from T+0.04 to T+1.78 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.38 +- 0.38.  The fluence in the 15-150 keV band is 9.9 +- 2.2 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T+0.78 sec in the 15-150 keV band
+is 1.1 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+Although GRB 190627A has a brief duration, it is not clear that it is a short GRB.  
+The duration and relative softness of the spectrum place it intermediate between 
+most short and long bursts detected by BAT.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/911609/BA/
+

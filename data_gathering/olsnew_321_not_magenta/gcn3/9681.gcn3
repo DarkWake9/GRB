@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9681
+SUBJECT: GRB 090715B: MASTER optical limit
+DATE:    09/07/16 13:32:17 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+D.Kuvshinov, V. Lipunov, V.Kornilov,  E. Gorbovskoy,
+A.Belinski,  A. Krylov, N.Shatskiy, N.Tyurina, P.Balanutsa, V.V.Chazov, 
+P.V.Kortunov
+Sternberg Astronomical Institute, Moscow State University
+
+A. Tlatov, A.V. Parkhomenko,
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+V.Krushinski, I.Zalognikh, T.Kopytova, Alexander Popov
+Ural State University, Kourovka
+
+S.Yazev, K.Ivanov
+Irkutsk State University
+
+
+
+MASTER  robotic telescope (MASTER-Net: http://observ.pereplet.ru, 
+355 mm, 6 square degrees, 16Mpx Apogee CCD) located
+at Vostrykovo (Moscow) responded to the  GRB 090715B (Swift 
+trigger 357512,  L. Vetere , GCN 9668), producing images
+beginning 19 s after the GCN notice time. An automated response took
+the first image at 21:11:18 UT, 8m 04s after the  burst, under summer 
+Moscow sky.
+We have 160 images with 30 sec exposition each.
+These unfiltered images are calibrated relative to USNO 08.R+0.2B (Usno 
+A2.0).
+
+Individual images have limiting magnitudes ranging from 17.8-17.0; we
+set the following specific limits.
+
+GRB_time     start UT       end UT      t_exp(s)   mlim     Coadd?
+-------------------------------------------------------------------
+
+484 - 514s    21:11:18      21:41:18        30      17.8       no
+484 - 699s    21:11:18      21:14:57        90      18.5        3 
+484 - 6699S   21:11:18      22:54:27      3330      20.0       111
+
+
+
+Robot do not detect OT with limit 20.0 .
+
+The message may be cited.
+
+mailto: lipunov@sai.msu.ru
+
+

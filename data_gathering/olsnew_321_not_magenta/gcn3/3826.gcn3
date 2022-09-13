@@ -1,0 +1,36 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3826
+SUBJECT: GRB050819: Swift-BAT detection of a weak burst
+DATE:    05/08/19 17:23:53 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+M. De Pasquale (MSSL), S. Barthelmy (GSFC), A.P. Beardmore (U Leicester),
+D. Burrows (PSU), M. Chester (PSU), A. Cucchiara (PSU), J. Cummings (GSFC/NRC),
+N. Gehrels (GSFC), M.R. Goad (U Leicester), J. Kennea (PSU), H. Krimm (GSFC/USRA),
+S.T. Holland (GSFC/USRA), S. Hunsberger (PSU), F. Marshall (GSFC),
+C. Markwardt (GSFC/UMD), J.P. Osborne (U Leicester), K.L. Page (U Leicester),
+D. Palmer (LANL), A. Parsons (GSFC), P. Roming (PSU), T. Sakamoto (GSFC),
+M. Still (GSFC)
+on behalf of the Swift team:
+
+At 16:23:55 UT, Swift-BAT triggered and located GRB050819 (trigger 151131).
+The BAT on-board calculated location is RA,Dec 358.735d,+24.854d
+{23h 54m 56s,+24d 51' 13"} (J2000), with an uncertainty of 2 arcmin
+(radius, 90% containment, stat+sys).  The BAT light curve
+shows a very broad shallow peak of about 40 seconds duration. 
+The peak count rate was ~400 counts/sec (15-350 keV) at ~10 seconds
+after the trigger.
+
+The spacecraft slewed immediately and the XRT began taking data at
+16:26:15.8, 141 seconds after the BAT trigger.  There were not enough
+counts in the first 2.5 s image for a successful on-board centroid.
+However, the light-curve shows evidence for a decaying X-ray source
+in the field of view and the spectrum appears consistent with that of a GRB.
+
+The UVOT began observing the position of the trigger at 16:26:13.5 UT,
+138 s after the BAT trigger.  In a 100 s V-band image, no new source
+is detected with respect to the DSS down to a 5 sigma upper limit
+of 18.1 mag.  The estimated extinction in this direction is A_V ~ 0.4
+magnitudes.  The UVOT image gives 50% coverage assuming a BAT error circle
+of 2 arcmin radius.
+

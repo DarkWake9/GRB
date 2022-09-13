@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  10524
+SUBJECT: GRB 100316D: Pre-burst emission measured by BAT
+DATE:    10/03/18 21:13:59 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), C. B. Markwardt (GSFC/UMD), 
+D. M. Palmer (LANL), M. Stamatikos (GSFC/OSU) 
+(i.e. the Swift-BAT team):
+
+Using the BAT hard X-ray survey data (Detector Plane Histogram data), we have 
+processed the BAT survey data for pre- and post-trigger periods using the batsurvey 
+script and have extracted the flux at the location of the GRB.  While Swift was pointing at 
+GRB 100316C from T-2650 s to T-80 s, the GRB 100316D location was in the FOV of BAT.  
+At 12:43, Swift slewed to a pre-planned target (1E 1048.1-5937), and triggered on GRB 100316D.  
+After re-pointing to the location of GRB 100316D, Swift slewed away from GRB 100316D 
+at T+750 s due to an observational constraint.  GRB 100316D came back into the FOV of BAT 
+at T+5050 s (a pre-planned observation of 1E 1048.1-5937).  
+
+The BAT light curve in the 14-195 keV band around the trigger time is available at:
+
+-Light curve from T-6000 sec to T+6000 sec:
+http://gcn.gsfc.nasa.gov/other/GRB100316D_bat_lc.gif
+
+-Zoom-in light curve from T-2000 sec to T+1000 sec:
+http://gcn.gsfc.nasa.gov/other/GRB100316D_bat_lc_zoomin.gif
+
+The light curve produced by the BAT event-by-event data is overlaid with the survey light 
+curve in the figure. There is a probable early low-level emission starting from T-1500 s. 
+The emission then rises at T-500 s, peaks at T-100 s, and decays with an exponential 
+decay constant of ~750 s.  The emission continues through the slew at T+750 s.  
+The emission is no longer detected by BAT after T+5050 s.
+
+As pointed out in Sakamoto et al. (GCN Circ. 10511), the BAT light curve profile of 
+GRB 100316D is very similar to the GRB 060218-SN2006aj burst 
+(Camapana, et al.; Nature, v224, p1008).  The BAT light curve of GRB 060218 shows 
+a rise at T-300 s, a peak at T+450 s, and an exponential decay constant of ~500 s, 
+with a duration of ~2000 sec.  GRB 100316D was detected in Swift-BAT from ~T-500 sec 
+to at least ~T+800 sec, hence the lower limit on the duration of GRB 100316D is ~1300 sec.  
+The fluence in the 15-150 keV band measured with the available 955 seconds of event data 
+is 3.4 x 10^-6 erg/cm2.  This corresponds to an isotropic equivalent 
+energy (Eiso) of 3.1x10^49 ergs in the 15.88 keV - 158.85 keV band at the GRB rest frame 
+assuming a redshift z=0.059 of a potential source and a galaxy inside the XRT error 
+circle (Vergani et al. GCN Circ. 10512, 10513).  This unusually long duration in 
+concert with a soft spectrum and a low Eiso (Eiso of GRB 060218 was  
+6.2x10^49 ergs) strengthens the similarity between GRBs 100316D and 060218.  Although 
+the lack of a clear optical counterpart to GRB 100316D at this stage is distinctly 
+different than GRB 060218, the prompt emission characteristics are very much like 
+supernova-associated GRB 060218.  Hence, we suggest additional follow-up observations 
+especially in the IR that may confirm the presence of a host supernova.  
+
+

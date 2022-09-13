@@ -1,0 +1,101 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21931
+SUBJECT: LIGO/Virgo G298048: Summary of Pi of the Sky observations
+DATE:    17/09/26 21:17:49 GMT
+FROM:    Adam Zadrozny at Pi of the Sky  <grb@fuw.edu.pl>
+
+T. Batsch, A.J. Castro-Tirado, H. Czyrkowski, A. Æwiek, M. Æwiok,
+R. D±browski, M. Jelínek, G. Kasprowicz, A.Majcher, K. Ma³ek,
+L. Mankiewicz, K. Nawrocki, £. Obara, R. Opiela, L. W. Piotrowski,
+M. Siudek, M. Soko³owski, R. Wawrzaszek, G. Wrochna, A. Zadro¿ny,
+M. Zaremba, A.F. ¯arnecki (Pi of the Sky Collaboration)
+
+Pi of the Sky robotic wide field of view telescopes search for the
+possible EM transients in the sky scans performed twice a night. Each
+of the two observation sites (South telescope in Chile and the North
+one in Spain) can cover up to about 20000 sq. deg. with range up to
+about 12.5m. Dedicated algorithms search for brightness changes of
+objects listed in GLADE to detect optical transients that might be
+connected with those galaxies.
+
+In the analysis related to G29048 we considered data collected by Pi
+of the Sky North telescope located in Spain, near Huelva, between
+August 17 and August 21, while the earlier data collected between
+August 10 and August 16 were used as a reference. The observations
+were performed in wide visible band, with IR-cut and UV-cut filters
+only, to achieve deepest detection limit. For each scan field 10
+images with 10s exposure were taken and stacked for the analysis. On
+the night of 20170817 we surveyed area that overlaped partially with 
+the initial bayesstar skymap for G298048. Unfortunatly, the dedicated 
+scan procedure was interupted twice that night by the GCN alerts, 
+resulting in the event coverage reduced to only about 29% probability, 
+even after including other data collected that night. Coverage of 
+about 51% was expected for uninterupted scan procedure, as 
+obtained on the following nights. Data was searched for any type of 
+transients connected with objects from GLADE catalogue. No 
+significant transient candidate remained after all selection cuts.
+
+We acknowledge hospitality and support of the INTA El Arenosillo 
+Test Centre in Mazagón near Huelva, Spain.
+
+
+Fields covered with the sky scan procedure on 20170817
+------------------------------------------------------
+
+Pointing (RA[deg],Dec[deg]) gives the center of 20x20 deg^2 FOV.
+
+Field name     Pointing
+S0120_10_10   ( 10.8, -0.2)
+S0000+50_35   ( 16.9, 57.1)
+S0200+50_10   ( 17.7, 39.5)
+S0120_10_35   ( 29.4, 18.1)
+S0200+50_35   ( 47.0, 57.1)
+S0000+90_35   ( 61.0, 77.4)
+S1600+50_35   (227.7, 40.7)
+S1600+10_10   (230.2,  0.1)
+S0000+90_10   (244.6, 76.8)
+S1600+10_35   (249.2, 18.0)
+S1600+50_10   (257.5, 58.5)
+S1840+10_10   (270.4,  0.0)
+S2000+50_10   (287.8, 39.5)
+S1840+10_35   (289.3, 18.0)
+S2120+10_10   (310.6, -0.1)
+S2000+50_35   (317.1, 56.9)
+S2299+50_10   (317.6, 39.5)
+S2120+10_35   (329.4, 18.1)
+S2240+10_10   (330.5, -0.1)
+S2299+50_35   (347.0, 57.3)
+S0000+50_10   (348.0, 39.4)
+S2240+10_35   (349.5, 18.2)
+
+Fields covered with other sky observations on 20170817
+------------------------------------------------------
+
+GRB170817_35  ( 39.2, 79.9),
+GRB170817_10  (250.2, 73.4),
+GRB170818_35  (312.4, 10.7),
+
+S0000-10_35   (  9.0, -1.9),
+R0000+30_10   ( 11.3, 39.0),
+S0200+50_10   ( 17.7, 39.4),
+S0326+70_10   ( 33.0, 58.8),
+S0326+70_10   ( 33.2, 58.8),
+S0200+50_35   ( 47.0, 57.1),
+S0326+70_35   ( 89.9, 75.9),
+S1440+10_10   (210.2,  0.3),
+S1440+10_35   (229.0, 18.2),
+S1630+30_10   (236.9, 20.1),
+S1630+30_35   (258.5, 38.0),
+S2000-10_10   (289.8,-19.8),
+S2000-10_35   (308.7, -1.7),
+S2120-10_10   (309.8,-19.7),
+S2200+50_10   (317.4, 39.4),
+S2120-10_35   (328.9, -1.8),
+S2240+10_10   (330.4, -0.2),
+R0000+30_35   (349.6, 21.0),
+S2200+50_35   (346.7, 57.2),
+S2240+10_35   (349.3, 18.2),
+S0000-10_10   (350.0,-19.8),
+
+This message can be cited.
+

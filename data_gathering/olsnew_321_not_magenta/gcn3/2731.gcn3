@@ -1,0 +1,80 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2731
+SUBJECT: GRB040912(=H3557): Chandra Candidate X-ray Afterglow
+DATE:    04/09/22 14:23:36 GMT
+FROM:    Nat Butler at MIT/CSR  <nrbutler@space.mit.edu>
+
+GRB040912(=H3557): Chandra Candidate X-ray Afterglow
+
+P. Ford, N. Butler, G. Ricker, R. Vanderspek, J. Villasenor,
+P. Csatorday (MIT); D.  Lamb (U. Chicago); and J.G. Jernigan (UCB), on 
+behalf of a Chandra GRB ToO Team,
+
+write:
+
+On 21 September 2004, the Chandra Observatory targeted the field of 
+GRB040912, an X-ray flash localized by the HETE satellite (=H3557; 
+Butler et al., GCN 2701; Olive et al., GCN 2723).  This was a 20 ksec 
+followup observation to the observation beginning on 15 September 
+reported by Butler et al. (GCN 2716).  It spanned the interval 10:56 UT 
+to to 17:01 UT on September 21, 8.86-9.12 days after the burst.  The 
+WXM error circle from Butler et al. (GCN 2701) was completely contained 
+within the field-of-view of the Chandra ACIS-I array.
+
+At the location of the 22 X-ray sources reported in our Epoch 1 (E1)
+observation (GCN 2716), we find:
+
+ #    Chandra Name         <Cts_E1>  Cts_E2  Null_Prob
+ 1 CXOU J235631.0-005946     55        53     0.421
+ 2 CXOU J235700.0-010009     35        40     0.703
+ 3 CXOU J235712.2-005942     39        37     0.404
+ 4 CXOU J235642.9-005520     36        15     0.003
+ 5 CXOU J235645.7-005655     30        20     0.068
+ 6 CXOU J235707.6-005713     30        21     0.108
+ 7 CXOU J235716.4-010109     33        41     0.791
+ 8 CXOU J235639.1-005556     19        30     0.921
+ 9 CXOU J235651.2-005513     15        13     0.359
+10 CXOU J235636.7-005431     18        27     0.874
+11 CXOU J235711.1-005637     15         8     0.090
+12 CXOU J235637.3-010160      7         9     0.675
+13 CXOU J235656.4-005839     10         8     0.325
+14 CXOU J235700.1-005713     13        19     0.848
+15 CXOU J235659.8-005903     12         9     0.259
+16 CXOU J235649.1-010344     10         3     0.047
+17 CXOU J235700.4-010018     16         7     0.042
+18 CXOU J235646.4_005621      3         3     0.386
+19 CXOU J235647.0-010045     16         7     0.042
+20 CXOU J235648.8-010319     10         7     0.297
+21 CXOU J235704.0-005859      3         1     0.213
+22 CXOU J235707.2-010420     12         3     0.032
+
+In this table, "<Cts_E1>" refers to the number of counts detected in
+E1, scaled to the exposure in E2.  The number of counts detected in E2 for 
+each source is reported in the column labeled "Cts_E2," and the probability 
+that the source remained constant given the E1 and E2 detected count rates 
+is presented under "Null_Prob."  
+
+We note that source #13 has not faded between our two epochs, and this 
+strongly dis-favors the candidate OT of Butler et al. (GCN 2728).
+
+Several sources appear to have faded at or beyond the 2-sigma significance
+level (#'s 4,17,19,and 22).  However, given the 22 trials conducted to find 
+the candidate X-ray afterglow, only source #4 exhibits a statistically 
+significant decline in brightness (3-sigma single trial, ~2-sigma in 22 
+trials).  The decrease in count rate from source #4 between E1 and E2 
+implies a temporal decay index of alpha=-0.9+/-0.3.  We determine a refined 
+position for this source of:
+
+RA= 23h 56m 42.96s, Dec= -0d 55' 19.8" (J2000), 
+
+with an uncertainty of 1".  A faint (R~24) optical source, spatially 
+coincident with this position, was reported by Butler et al. (GCN 2728).  
+However, this source did not appear to decrease in flux between t_burst 
++ 13.57 hours and t_burst + 38.65 hours.
+
+We gratefully acknowledge the timely assistance of the observatory staff 
+at the Chandra Science Center in arranging for the acquisition and 
+preliminary processing of these data.
+
+This message may be cited.
+

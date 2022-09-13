@@ -1,0 +1,72 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27596
+SUBJECT: Konus-Wind observation of GRB 200415A (a magnetar Giant Flare in Sculptor Galaxy?)
+DATE:    20/04/16 16:48:53 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, S. Golenetskii, R. Aptekar, A. Lysenko,
+A. Ridnaia, D. Svinkin, A. Tsvetkova, M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The extremely-bright, short-duration GRB 200415A
+(IPN localization: Svinkin et al., GCN Circ. 27585, 27595;
+Fermi-GBM observation: Bissaldi et al., GCN Circ. 27587)
+triggered Konus-Wind at T0=31681.401 s UT (08:48:01.401).
+
+The burst light curve starts at ~T0-2 ms with the sharp
+rise of extremely-bright pulse, with a duration of ~5 ms.
+This pulse is followed by a weaker, steadily decaying
+emission which is visible up to ~T0+200 ms.
+The emission is seen up to ~10 MeV.
+
+As observed by Konus-Wind, the burst had a fluence of
+8.1(-0.8, +0.9)x10^-6 erg/cm2,
+and a 2-ms peak flux, measured from T0-0.002 s,
+of 1.0(-0.08,+0.08)x10^-3 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum (measured from T0 to T0+0.192 s)
+is best fit in the 20 keV - 15 MeV range
+by a power law with exponential cutoff (CPL) model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = +0.10(-0.23,+0.27)
+and Ep = 818(-112,+136) keV (chi2 = 34/49 dof).
+Fitting by a GRB (Band) model yields similar alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.5
+(chi2 =33/49 dof).
+
+The spectrum measured near the peak count rate (from T0 to T0+0.064 s)
+is best fit in the 20 keV - 15 MeV range by the CPL model
+with alpha = +0.12(-0.24,+0.20) and Ep = 1060(-160,+190) keV
+(chi2 = 25/36 dof). Fitting by a GRB (Band) model yields similar
+alpha and Ep, and an upper limit on the high energy photon index:
+beta < -2.6 (chi2 =24/35 dof).
+
+Assuming the likely GRB 200415A association with the nearby Sculptor
+galaxy at ~3.5 Mpc (Svinkin et al., GCN 27585, GCN 27595),
+we estimate the burst isotropic energy to ~1.3x10^46 erg and
+the 2-ms peak luminosity to ~1.6x10^48 erg/s.
+These values closely resemble the energetics of the initial pulse of
+the SGR 1806-20 giant magnetar flare (GF) measured by KW and HELICON
+(Frederiks et al., 2007 AstL 33 1).
+
+GRB 200415A also shows a striking similarity, in light curve, spectrum,
+and energy, with GRB 051103 (Frederiks et al., 2007 AstL 33 19),
+the extragalactic GF candidate in the M81/M82 group of galaxies
+located at nearly the same distance, ~3.6 Mpc.
+
+Even the giant magnetar flare origin of GRB 200415A and GRB 051103
+cannot be established unequivocally (the key evidence, pulsating tail,
+could hardly be detected by KW or Fermi-GBM from ~3.5 Mpc),
+the common nature of the two ultra-bright flares is highly probable.
+
+The Konus-Wind light curve of GRB 200415A is available at
+http://www.ioffe.ru/LEA/GRBs/GRB200415_T31681/
+
+A comparison of Konus-Wind light curves of GRB 200415A and GRB 051103
+can be found at http://www.ioffe.ru/LEA/GRBs/GRB200415_T31681/051103_200415.pdf
+
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26806
+SUBJECT: LIGO/Virgo S200114f: More candidates from the Zwicky Transient Facility
+DATE:    20/01/17 18:25:53 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Tomas Ahumada (UMD), Simeon Reusch (DESY), Harsh Kumar (IITB), Michael W. Coughlin (Caltech), Leo Singer (NASA GSFC), Mansi M. Kasliwal (Caltech), Viraj Karambelkar (Caltech), Gaurav Waratkar (IITB), Shreya Anand (Caltech), Matthew Graham (Caltech), Jesper Sollerman (OKC)
+on behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations
+
+We continued observing the localization region of the unmodeled gravitational wave trigger S200114f (LVC, GCN #26734) on 2020-01-15 starting at 08:04:13 UTC with the Palomar 48-inch telescope equipped with the 47 square degree Zwicky Transient Facility camera (ZTF, Bellm et al. 2019, Graham et al. 2019). The tiling was optimally determined and triggered using the GROWTH Target of Opportunity marshal (Coughlin et al. 2019a, Kasliwal et al. 2019b). The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC (Masci et al. 2019).
+
+We queried the ZTF alert stream using Kowalski (Duev et al., 2019) and AMPEL (Nordin et al., 2019), requiring at least 2 detections separated by at least 15 minutes to select against moving objects. Furthermore, we cross-matched our candidates with the Minor Planet Center to flag known asteroids. We require no spatially coincident ZTF alert to be issued before the detection time of S200114f. New candidates were found within the 96% probability contour of S200114f, in addition to those reported in GCN #26741. The new transient candidates are presented in the table below.
+
++--------------+-----------+-------------+--------------+--------+------+----------+-------+--------+
+|     Name     |  IAU Name |      RA     |     Dec      | filter | mag  |   MJD    | b_Gal | Notes  |
++--------------+-----------+-------------+--------------+--------+------+----------+-------+--------+
+| ZTF20aafefpy | AT2020acf | 07:33:43.01 | +09:31:14.29 |   g    | 21.2 | 58863.38 | 13.7  | (a)(c) |
+| ZTF20aafrviq | AT2020ace | 07:05:04.36 | +25:07:09.97 |   g    | 20.5 | 58863.38 | 14.0  | (a)    |
+| ZTF20aafeglp | AT2020acn | 07:01:37.68 | +21:02:59.38 |   g    | 19.9 | 58863.38 | 11.6  | (b)    |
+| ZTF20aafedfu | AT2020ack | 07:08:37.86 | +23:30:00.66 |   g    | 21.4 | 58863.37 | 14.1  | (c)    |
+| ZTF20aafeaxv | AT2020ach | 07:12:02.81 | +15:11:55.51 |   r    | 20.3 | 58862.18 | 11.3  | (d)    |
+| ZTF20aafemdh | AT2020acg | 07:17:40.10 | +17:55:10.62 |   g    | 21.5 | 58863.37 | 13.7  | (e)    |
+| ZTF20aafemxx | AT2020acj | 07:18:56.78 | +16:54:18.65 |   r    | 21.6 | 58862.17 | 13.6  | (e)    |
+| ZTF20aafeszi | AT2020acm | 07:21:12.76 | +27:10:34.94 |   r    | 20.4 | 58862.18 | 18.1  | (e)(c) |
+| ZTF20aafmdlx | AT2020zf  | 03:46:00.66 | -26:50:41.00 |   g    | 19.5 | 58863.12 | -51.3 | (e)(f) |
+| ZTF20aafshty | AT2020ada | 07:07:39.73 | +19:10:51.54 |   g    | 21.9 | 58862.15 | 12.1  | (c)    |
+| ZTF20aafeiec | AT2020acp | 07:02:31.43 | +16:10:53.08 |   g    | 21.1 | 58862.16 | 9.7   | (g)    |
+| ZTF20aafeogg | AT2020aci | 07:15:47.17 | +14:16:17.56 |   r    | 21.2 | 58862.18 | 11.8  | (g)    |
+| ZTF20aafsfki | AT2020aco | 07:09:11.26 | +09:21:16.02 |   g    | 21.3 | 58863.38 | 8.2   | (g)(c) |
+| ZTF20aafsero | AT2020acl | 07:15:09.53 | +13:26:43.86 |   r    | 21.4 | 58862.18 | 11.3  | (g)    |
+| ZTF20aafecav | AT2020acx | 07:06:03.61 | +23:09:39.54 |   g    | 21.3 | 58863.37 | 13.3  | (e)(h) |
+| ZTF20aafeolw | AT2020acy | 07:13:24.59 | +11:23:30.79 |   r    | 21.4 | 58862.18 | 9.9   | (g)    |
+| ZTF20aafryfe | AT2020acz | 07:38:29.43 | +12:55:02.75 |   g    | 21.3 | 58863.38 | 16.1  | (c)    |
+| ZTF20aafesaq | AT2020xb  | 06:55:56.55 | +26:34:29.20 |   r    | 21.3 | 58863.39 | 12.6  | (e)(h) |
++--------------+-----------+-------------+--------------+--------+------+----------+-------+--------+
+(a) offset from possible host
+(b) close to a bright star, but not coincident
+(c) AGN?
+(d) Possible flaring activity
+(e) on top of an apparently small galaxy
+(f) first reported by ALeRCE
+(g) coincident with a faint point source
+(h) stellar?
+
+We note that ZTF detections from 2018 and 2019 are present at the location of the SAGUAROc candidate (Lundquist et al., GCN #26753), which further suggests that it could be a stellar variable source.
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert filtering and follow-up coordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019). Alert database searches are done with using the Kowalski infrastructure (Duev et al., 2019) and with AMPEL (Nordin et al. 2019).
+
+
+
+
+

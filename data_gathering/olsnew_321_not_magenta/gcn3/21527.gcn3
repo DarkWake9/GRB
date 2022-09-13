@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21527
+SUBJECT: LIGO/Virgo G298048: Updated sky map from gravitational-wave data
+DATE:    17/08/17 23:54:40 GMT
+FROM:    Reed Clasey Essick at MIT  <ressick@mit.edu>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+Parameter estimation has been performed using LALInference (Veitch et
+al., PRD 91, 042003) and a revised sky map, preliminary-LALInference.fits.gz, is
+available for retrieval from the GraceDB event page:
+https://gracedb.ligo.org/events/G298048
+
+
+We caution that this is a preliminary map from the offline parameter 
+estimation. This analysis uses data from the LIGO Hanford, LIGO Livingston,
+and Virgo detectors with the noise transient in Livingston
+removed from the data prior to the analysis, as described in GCN 21513. 
+Posterior chains in the parameter estimation may not yet have fully converged.
+
+The 50% and 90% credible regions span about 8.6 and 33.6 square
+degrees, respectively, which are somewhat larger than the initial
+BAYESTAR sky map. The centroid (maximum a posteriori) sky 
+location is R.A.=13h09m, Dec.=-25d37m.
+
+We will continue to refine the sky map as offline parameter estimation
+improves and as we apply additional methods of cleaning the data.
+

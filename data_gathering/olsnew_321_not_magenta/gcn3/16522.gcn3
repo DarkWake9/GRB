@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16522
+SUBJECT: GRB 140705A: Swift-BAT refined analysis of a possible newly discovered SGR 1935+2154
+DATE:    14/07/05 14:24:49 GMT
+FROM:    Takanori Sakamoto at AGU  <tsakamoto@phys.aoyama.ac.jp>
+
+A. Y. Lien (NASA/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-61 to T+242 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 140705A (trigger #603488)
+(Stamatikos, et al., GCN Circ. 16520).  The BAT ground-calculated position is
+RA, Dec = 293.751, 21.912 deg which is 
+  RA(J2000)  =  19h 35m 00.3s 
+  Dec(J2000) = +21d 54' 41.7" 
+with an uncertainty of 1.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 94%.
+
+The 2 ms mask-weighted light curve shows at least two spikes peaking at 
+T+0 sec and T+0.05 sec.  T90 (15-350 keV) is 0.08 +- 0.01 sec (estimated 
+error including systematics).
+
+The time-averaged spectrum from T-0.02 to T+0.06 sec fit by a simple
+power-law model shows the power law index of 2.74 +- 0.15 (chi squared 75.65 for 57 d.o.f.).
+The fluence in the 15-150 keV band is 3.8 +- 0.4 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.48 sec in the 15-150 keV band
+is 0.9 +- 0.2 ph/cm2/sec.
+
+A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 8.2 +- 1.0 keV (chi squared 74.30 for 57 d.o.f.).
+A thermal bremsstrahlung model fit shows the temperature of 35.7 +- 6.1 keV
+(chi squared 56.05 for 57 d.o.f.).  A double blackbody fit shows the lower temperature
+of 4.8 +1.3 keV and the higher temperature of 13.7 (error not unconstrained) keV
+(chi squared 54.60 for 55 d.o.f.).  All the quoted errors are at the 90% confidence level. 
+
+Because 1) the burst is located at the galactic plane (l, b) = (57.25 deg, 0.83 deg.) and 
+2) the BAT burst spectrum is rather soft, we believe this could be a short event from 
+a newly discovered SGR 1935+2154.  
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/603488/BA/
+

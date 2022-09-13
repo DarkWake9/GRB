@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15139
+SUBJECT: GRB 130831A: Swift detection of a burst with an optical counterpart
+DATE:    13/08/31 13:21:11 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+L. M. Z. Hagen (PSU), M. M. Chester (PSU), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), D. Grupe (PSU), J. A. Kennea (PSU),
+V. Mangano (PSU), F. E. Marshall (NASA/GSFC),
+C. J. Mountford (U Leicester), P. T. O'Brien (U Leicester),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/PSU), M. H. Siegel (PSU),
+E. Troja (NASA/GSFC/UMCP) and B.-B. Zhang (UAH) report on behalf of
+the Swift Team:
+
+At 13:04:16 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 130831A (trigger=568849).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 358.649, +29.448 which is 
+   RA(J2000) = 23h 54m 36s
+   Dec(J2000) = +29d 26' 53"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multi-peaked
+structure with a duration of about 50 sec.  The peak count rate
+was ~10000 counts/sec (15-350 keV), at ~2 sec after the trigger. 
+
+The XRT began observing the field at 13:06:22.3 UT, 125.8 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+fading, uncatalogued X-ray source located at RA, Dec 358.62398,
+29.42849 which is equivalent to:
+   RA(J2000)  = 23h 54m 29.76s
+   Dec(J2000) = +29d 25' 42.6"
+with an uncertainty of 3.7 arcseconds (radius, 90% containment). This
+location is 105 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 4.80
+x 10^20 cm^-2 (Kalberla et al. 2005). 
+
+The initial flux in the 2.5 s image was 8.87e-10 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+190 seconds after the BAT trigger. There is a candidate afterglow in the
+rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	23:54:29.89 = 358.62453
+  DEC(J2000) = +29:25:46.2  =  29.42950
+with a 90%-confidence error radius of about 0.74 arc sec. This position is 5.8
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+14.56 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.04. 
+
+Burst Advocate for this burst is L. M. Z. Hagen (lea.zernow.hagen AT gmail.com). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

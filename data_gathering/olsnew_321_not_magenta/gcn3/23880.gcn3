@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23880
+SUBJECT: Konus-Wind observation of GRB 190206A
+DATE:    19/02/06 18:33:33 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov,  D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The extremely bright, short-duration, hard-spectrum
+GRB 190206A (IPN triangulation: Svinkin et al., GCN Circ. 23879)
+triggered Konus-Wind at T0=13763.926 s UT (03:49:23.926).
+
+The burst light curve shows a single smooth pulse
+which starts at ~T0 s and has a total duration of ~0.1 s.
+There is no evidence of an extended emission following the burst.
+The emission is seen up to ~10 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.64(-0.17,+0.17)x10^-5 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.004 s,
+of 6.44(-0.75,+0.76)x10^-4 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+0.064 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.58(-0.10,+0.12)
+and Ep = 1600(-223,+248) keV (chi2 = 31/30 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.3
+(chi2 = 30/29 dof).
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB190206_T13763/
+
+The spectrum of the burst is typical of short-hard GRBs.
+Assuming the measured fluxes, GRB 190206A is the third-brightest
+short GRB detected by KW since November, 1994 in terms of peak flux,
+and among the dozen brightest short GRBs, in terms of the fluence
+(Svinkin et al. 2016, ApJS 224 10).
+
+Although the redshift of GRB 190206A is not available (yet),
+a comparison of the provisional track of the burst in the Ep,z-Eiso
+and Ep,z-Liso planes with the KW sample of GRBs with known redshifts
+(Tsvetkova et al., 2017, ApJ 850 161) suggests z < 0.5
+(see http://www.ioffe.ru/LEA/GRBs/GRB190206_T13763/GRB190206A_z.pdf).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

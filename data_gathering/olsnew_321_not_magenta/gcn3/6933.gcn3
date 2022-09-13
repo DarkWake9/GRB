@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6933
+SUBJECT: GRB 071018, Swift-BAT refined analysis
+DATE:    07/10/18 20:35:53 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+G. Sato (GSFC/ISAS),  L. Barbier (GSFC), S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/UMBC), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+844 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 071018 (trigger #294645)
+(Krimm, et al., GCN Circ. 69342).  The BAT ground-calculated position is
+RA, Dec = 164.617, 53.857 deg which is
+    RA(J2000)  = 10h 58m 28.0s
+    Dec(J2000) = 53d 51' 26"
+with an uncertainty of 2.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 97%.
+
+We confirm that this event has the characteristics of a true gamma-ray burst.
+
+The mask-weighted light curve shows an enlongated multi-peaked structure.
+The burst location came into the BAT field of view at T-70 sec.and there was
+an initial peak at T-50 sec, followed by low-level emission from T+20 to T+80,
+followed by the main emission in several peaks from T+120 sec to T+420 sec.
+There is also possible emission at later times (~T+600 and ~T+800), although
+statistics are poorer for this late time since the spacecraft slewed to a new
+target, moving the burst nearer the edge of the field of view.
+T90 (15-350 keV) is 376.0 +- 20 sec (estimated error including systematics).
+
+The time-averaged spectrum from T+113.1 to T+417.7 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.63 +- 0.26.  The fluence in the 15-150 keV band is 1.0 +- 0.2 x 
+10^-06 erg/cm2.
+The 1-sec peak photon flux measured from T+124.18 sec in the 15-150 keV band
+is 0.2 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+This burst has several characteristics which are typical of high
+redshift bursts. Its duration is long (T90 = 376 sec) with relatively
+few (three) significant peaks.  The 1-s peak flux is < 1.0 ph/cm2/s
+and the power-law photon index (1.65) is < 2.
+

@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26574
+SUBJECT: GRB 191221B: Swift/UVOT Detection
+DATE:    19/12/24 12:08:39 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N. P. M. Kuin (UCL-MSSL) and S. L. Laha (GSFC/UMBC/CRESST)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 191221B
+92 s after the BAT trigger (Laha et al., GCN Circ. 26534).
+A source consistent with the XRT position (Beardmore et al. GCN Circ. 26540)
+and ALMA position (Laskar et al., GCN Circ. 26564)  was detected in the
+initial UVOT exposures.
+
+The preliminary UVOT position is:
+    RA  (J2000) =  10:19:19.24 = 154.83017 (deg.)
+    Dec (J2000) = -38:09:27.64 = -38.15768 (deg.)
+with an estimated uncertainty of 0.42 arc sec. (radius, 90% confidence).
+
+Preliminary detections using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures
+are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white               92          241          147         see below
+u                  304          554          246         12.30 +/- 0.02
+b                  560          579           20         13.54 +/- 0.04
+uvw2               610          630           20         13.20 +/- 0.06
+v                  635          655           20         13.42 +/- 0.05
+uvm2               659          679           20         12.79 +/- 0.06
+uvw1               684          704           20         12.82 +/- 0.05
+
+Aperture photometry shows initially a completely saturated detector,
+leading
+to wh < 13.8 mag. The first exposure in the white filter (tstart=T0+92s)
+shows a readout streak but the readout streak traverses also another
+relatively bright star which leads to a saturated readout streak
+and precludes using that method of determining the magnitude (Page
+et al, 2013 MNRAS 436, 1684).   Analysis continues.
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.08 in the direction of the burst
+(Schlegel et al. 1998).

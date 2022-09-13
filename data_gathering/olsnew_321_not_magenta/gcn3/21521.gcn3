@@ -1,0 +1,72 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21521
+SUBJECT: LIGO/Virgo G298048: Nearby Galaxies in the Localization Volume with Face-on Assumption
+DATE:    17/08/17 20:12:41 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+David O. Cook (Caltech), Angela Van Sistine (UW Milwaukee), Leo Singer
+(NASA/GSFC), and M. M. Kasliwal (Caltech)
+
+report on behalf of the GROWTH (Global Relay of Observatories Watching
+Transients Happen) collaboration
+
+We spatially cross-matched the LIGO/Virgo G298048 trigger with the
+assumption of face-on orientation (90% containment volume using
+bayestar-HLV-face-on.fits; LVC GCN 21513) with our Census of the Local
+Universe (CLU; Cook et al. in prep) galaxy catalog and found 13 galaxies.
+This catalog is a compilation of galaxies with existing redshifts from many
+sources (e.g., NED, SDSS, etc) and new galaxies from a 3PI four-filter
+narrow-band survey to look for redshifted Halpha emission out to 200 Mpc
+with the Palomar Oschin 48-inch telescope. The narrow-band survey is
+limited to a declination above -20 degrees, thus all galaxies within the
+90% volume come from the compiled CLU catalog with no Halpha overlap.
+
+We list here all 13 galaxies sorted by stellar mass (Mstar) for galaxies
+whose location on the sky and distance falls in the 90% volume reported by
+the BAYESTAR probability sky map (Singer et al. 2016). We also list the
+dust-corrected star formation rates (SFRs) for galaxies with GALEX FUV
+detections and a 'nan' for those with no detection.
+
+Of the 13 galaxies, 4 galaxies are not in the list of 54 galaxies reported
+in GCN #21519 without the face-on assumption. The new galaxies are marked
+with a ‘*’.
+
+                 name_NED                    ra      dec    distmpc
+logsfr_fuv logmstar dm_kin       P
+----------------------------------------- -------- -------- -------
+---------- -------- ------ --------------
+                                 NGC 4830 194.3663 -19.6913   47.90
+-1.419    10.41  33.40 0.600362551579
+                           MCG -04-31-042 198.5739 -26.5827   54.70
+nan     9.98  33.69 0.820306676922*
+                  2MASX J12525109-1529300 193.2130 -15.4916   52.26
+nan     9.31  33.59 0.807651962502
+                  2MASX J12573271-1942006 194.3863 -19.7002   52.39
+-1.788     9.25  33.60 0.723692228565
+                  2MASX J12551928-1456593 193.8304 -14.9499   48.56
+nan     9.22  33.43 0.801217259508*
+                                  IC 3825 192.6544 -14.4828   51.04
+-0.985     9.17  33.54 0.776579689512
+                  2MASX J13073768-2356181 196.9071 -23.9384   49.73
+nan     8.92  33.48 0.634606246205
+                WINGS J125412.84-153523.6 193.5534 -15.5899   50.96
+nan     8.64  33.54 0.595385148382
+                      6dF J1254495-160308 193.7063 -16.0523   48.02
+nan     8.52  33.41 0.197814505144
+             GALEXASC J125259.36-152150.9 193.2474 -15.3639   49.87
+-1.321     8.41  33.49 0.419676266799
+             GALEXASC J125157.02-160617.8 192.9872 -16.1047   50.30
+nan     8.06  33.51 0.410982650697
+             GALEXASC J125404.25-145044.4 193.5173 -14.8457   50.85
+-1.659     7.75  33.53 0.823290805821*
+                           MCG -02-33-014 192.3380 -13.3512   49.57
+nan      nan  33.48  0.82251638918*
+
+* Galaxies not reported in the CLU crossmatch to LIGO with no orientation
+assumptions (GCN #21519).
+
+The SFRs are derived from GALEX all sky kron FUV magnitudes via the
+prescription of Murphy et al. (2011) and have been corrected for internal
+dust extinction using a combination of GALEX FUV and 22um ALLWISE fluxes
+(Hao et al. 2011). The quoted stellar masses are derived from 3.4um ALLWISE
+fluxes and a mass-to-light ratio of 0.5 (McGaugh & Schombert et al. 2015).

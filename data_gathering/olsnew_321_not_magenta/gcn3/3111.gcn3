@@ -1,0 +1,31 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3111
+SUBJECT: Swift-BAT detection of GRB 050318
+DATE:    05/03/18 16:36:28 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+H. Krimm (GSFC/USRA), S. Barthelmy, L. Barbier (GSFC),
+J. Cummings (GSFC/NRC), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (GSFC/UMD), C. Markwardt (GSFC/UMD), T. McMahon (Langston U.),
+P. Meszaros (PSU), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/NRC), G. Sato (ISAS), M. Still (GSFC/USRA),
+M. Suzuki (Saitama), M. Tripicco (GSFC-SSAI) J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+At 15:44:37 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located on-board GRB 050318.  The spacecraft did not automatically slew
+to the burst location because of an observing constraint.  The orbit is such
+that we just started the approximate 6-hour gap in telemetry downlink orbits,
+so it will be ~7 hours before we get the full data set on this burst
+and can say anything more than what is available from the real-time
+TDRSS messages.
+
+Using the time interval of the trigger of the burst (0.5 sec),
+the ground-calculated location is RA,Dec 49.651,-46.392 (J2000)
+with an uncertainty of 3 arcmin (radius, including a systematic uncertainty,
+90% containment).  The burst was 22 degrees off the BAT boresight (75% coding).
+
+The burst lightcurve has 2 peaks.  The first peak is ~3 sec long with a peak
+count rate of 4000 cnts/sec.  The second peak starts at T+25 and lasts ~15 sec
+with a peak rate of 4500 cnts/sec (15-350 keV) .
+

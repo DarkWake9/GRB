@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31217
+SUBJECT: GRB 211211A: MITSuME Akeno optical observation
+DATE:    21/12/12 13:18:20 GMT
+FROM:    Naohiro Ito at Tokyo Tech  <n.ito@hp.phys.titech.ac.jp>
+
+N. Ito, R. Hosokawa, K. L. Murata, Y. Imai, Y. Takamatsu, M. Takaku, M.
+Niwano, R. Noto, S. Sato, R. Yamaguchi, Y. Yatsu, and N. Kawai (TokyoTech)
+report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 211211A (The Fermi GBM team GCN Circular
+#31201, A. D'Ai et al. GCN Circular #31202, WeiKang Zheng and Alexei V.
+Filippenko GCN Circular #31203, A.P. Beardmore et al. GCN Circular #31205,
+V. Lipunov et al. GCN Circular #31206, M. Stamatikos et al. GCN Circular
+#31209, J.Mangan et al. GCN Circular #31210, J.P. Osborne et al. GCN
+Circular #31212, S.Q. Jiang et al. GCN Circular #31213, R. Strausbaugh and
+A. Cucchiara GCN Circular #32214) with the optical three color (g', Rc, and
+Ic) CCD cameras attached to the MITSuME 50 cm telescope Akeno. The
+observation with a series of 60 sec exposures was carried out from
+2021-12-11 17:32:12 UT (~4.4 hours after the Fermi trigger) to 2021-12-11
+21:20:21 UT. We stacked the images with good conditions.
+
+We marginally detected the optical afterglow candidate reported by the KAIT
+observation (WeiKang Zheng and Alexei V. Filippenko GCN Circular #31203),
+Nanshan/NEXT observation (S.Q. Jiang et al. GCN Circular #31213) and LCO
+observation (R. Strausbaugh and A. Cucchiara GCN Circular #32214) in our
+g'-, Rc- and Ic- band images. The candidate in our images is blended with
+the nearby SDSS galaxy (SDSS ID: 1237665429707096375, reported by GCN
+Circular #31203). We performed forced photometry at the position of the
+candidate against the nearby galaxy. The magnitudes and the 5-sigma limits
+of the stacked images are as follows.
+
+T0+[hour] | MID-UT | T-EXP[sec] | candidate magnitude | 5-sigma limits
+------------------------------------------------------------------------------------------------
+6.3 | 2021-12-11 19:25:34 | 6600 | g'=20.4 +/- 0.2, Rc=20.3 +/- 0.1,
+Ic=20.4 +/- 0.3 | g'>20.2, Rc>20.7, Ic>19.7
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used id 141492123232234127 of PS1 catalog for flux calibration. The
+conversion from PS1 r and i band to our Rc and Ic band is by the equation
+of Tonry et al. (2012), Table. 6. The magnitudes are expressed in the AB
+system. The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages 4-24;
+https://github.com/MNiwano/Eclaire).

@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14594
+SUBJECT: GRB 130505B: Swift Candidate Afterglow
+DATE:    13/05/06 23:15:51 GMT
+FROM:    Frank Marshall at GSFC  <femarsha@khamseen.gsfc.nasa.gov>
+
+D. Kocevski (NASA/GSFC/ORAU), F. E. Marshall (NASA/GSFC), 
+M. De Pasquale (MSSL-UCL), P. D'Avanzo (INAF-OAB), 
+and A. Melandri (INAF-OAB) report on behalf of the Swift team:
+
+The Swift began tiling observations of the field of GRB 130505B
+16 hours after the MAXI trigger (Serino et al., GCN Circ. 14586).
+A bright source not in the DSS is seen in the UVOT observation
+at a preliminary position of 
+   RA(J2000)  =    09:17:22.18 = 139.34124
+   DEC(J2000) =   +01:42:03.1  =  +1.70085
+with a 90%-confidence error radius of about 0.6 arc sec.
+It is not possible to determine whether the source is varying
+with the currently available data.
+
+The position is consistent with that of SDSS J091721.89+014203.2,
+but more than 5 magnitudes brighter in the u band.
+The SDSS source could be the host galaxy for the burst,
+or could indicate that the MAXI source is a galactic transient.
+
+The preliminary detection using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the exposure is:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)        Mag
+u                58617        59042         425        18.0 +/- 0.1
+
+The magnitude is not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.024 in the direction of the burst
+(Schlegel et al. 1998).
+
+We have also analysed 426 s of Swift-XRT data from 58.6 ks 
+to 59.0 ks after the MAXI trigger. The data are all in 
+Photon Counting (PC) mode. A preliminary
+analysis reveals the presence of a source at the following position 
+RA, Dec = 139.34180, +1.70215 which is equivalent to:
+
+RA (J2000): 09 17 22.03
+Dec(J2000): +01 42 07.7
+
+with an uncertainty of 4.5 arcsec (radius, 90% confidence). 
+This position is consistent with the UVOT one. The observed count rate 
+is (3.0 +/- 1.0) x 10^-2 cts/s.  Given the low significance of 
+the detection, at the present stage, it is not possible to determine 
+whether the source is variable.
+
+Automated analysis of the XRT data can be found online at
+http://www.swift.ac.uk/xrt_products/TILED_GRB00015/
+
+Details of the XRT automated analysis methods are detailed in 
+Evans et al. (2007, A&A, 469, 379; and 2009, MNRAS, 397, 1177).
+
+Additional observations with Swift are scheduled. Observations
+with other observatories of this interesting object are encouraged.
+

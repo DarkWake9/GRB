@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7426
+SUBJECT: GRB 080319A: Swift detection of a burst
+DATE:    08/03/19 06:18:20 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+C. Pagani (PSU), P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+S. T. Holland (CRESST/USRA/GSFC), J. A. Kennea (PSU),
+C. B. Markwardt (CRESST/GSFC/UMD), D. M. Palmer (LANL),
+J. L. Racusin (PSU) and M. Stamatikos (NASA/ORAU) report on behalf of
+the Swift Team:
+
+At 05:45:42 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080319A (trigger=306754).  The Swift slew to the burst was
+delayed because of an earth constraint. The BAT on-board calculated 
+location is RA, Dec 206.354, +44.079 which is 
+   RA(J2000) = 13h 45m 25s
+   Dec(J2000) = +44d 04' 44"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multiple peaks
+with a duration of about 40 sec.  The peak count rate
+was ~800 counts/sec (15-350 keV), at ~10 sec after the trigger. 
+
+The XRT began observing the field at 05:54:59.4 UT, 557.4 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source with an enhanced position: RA, Dec 206.33306, 44.08029
+which is equivalent to:
+   RA(J2000)  = 13h 45m 19.94s
+   Dec(J2000) = +44d 04' 49.1"
+with an uncertainty of 2.6 arcseconds (radius, 90% containment). This
+location is 54 arcseconds from the BAT onboard position, within the BAT
+error circle. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density, so we cannot provide limits
+on the redshift using spectroscopy and the relation from Grupe et al. 
+(2007). A summary of the promptly downlinked data is given at
+http://www.swift.ac.uk/sper/306754/. 
+
+UVOT took a finding chart exposure of 100 seconds with the White 
+(160-650 nm)  filter starting 562 seconds after the BAT trigger. A 
+possible low-significance afterglow candidate has  been found at the
+XRT  position in the  initial data products.  The magnitude is white
+= 21.7 mag.  No  correction has been made for the expected extinction
+ corresponding to E(B-V) of  0.01. 
+
+Burst Advocate for this burst is C. Pagani (pagani AT astro.psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21751
+SUBJECT: LIGO/Virgo G298936: Updated localization from parameter estimation on LIGO and Virgo data 
+DATE:    17/08/29 15:55:12 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have re-analyzed data from LIGO Hanford Observatory (H), LIGO
+Livingston Observatory (L), and Virgo (V) around the time of the binary
+black hole merger candidate G298936 (GCNs 21656 and 21661) taking into
+account our current understanding of calibration uncertainties.
+
+Parameter estimation has been performed using LALInference (Veitch et al.,
+PRD 91, 042003) and a new sky map, LALInference_r1.fits.gz, can be
+retrieved from the GraceDB event page:
+
+https://gracedb.ligo.org/events/G298936
+
+This is the preferred sky map at this time.
+
+The new localization is consistent with but slightly smaller than the
+BAYESTAR localization using HLV data (GCN 21661, bayestar-HLV.fits.gz).
+The 50% area has decreased from 277 to 207 deg2 and the 90% area has
+decreased from 1219 to 952 deg2. The all-sky, marginalized luminosity
+distance estimate is 1738 +/- 477 Mpc (a posteriori mean +/- standard
+deviation), largely consistent with the original estimate.
+

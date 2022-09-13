@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19207
+SUBJECT: SGR 0755-2933, Swift-BAT refined analysis
+DATE:    16/03/17 22:10:48 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-60 to T+303 sec from the recent telemetry
+downlink,
+we report further analysis of SGR 0755-2933 (trigger #679432)
+(Barthelmy, et al., GCN Circ. 19204).  The BAT ground-calculated position is
+RA, Dec = 118.863, -29.572 deg which is
+  RA(J2000)  =  07h 55m 27.0s
+  Dec(J2000) = -29d 34' 20.3"
+with an uncertainty of 3.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 64%.
+
+The mask-weighted light curve shows a single short spike of duration ~ 30
+ms.
+There is significant emission only below 50 keV. T90 (15-25 keV)
+is 0.024 +- 0.009 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-0.004 to T+0.024 sec is best fit by a
+simple
+power-law model.  The power law index of the time-averaged spectrum is
+3.81 +- 0.74.  The fluence in the 15-150 keV band is 5.9 +- 1.8 x 10^-9
+erg/cm2.
+The 1-sec peak photon flux measured from T-0.49 sec in the 15-150 keV band
+is 0.3 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+As of T+19 hours, BAT has detected no further bursts from this source, and
+the
+BAT on-board detection history shows no previous signs of activity over the
+life
+of the mission since 2005.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/679432/BA/

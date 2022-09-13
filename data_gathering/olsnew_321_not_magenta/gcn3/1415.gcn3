@@ -1,0 +1,73 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1415
+SUBJECT: GRB020531: Observations with the Chandra X-ray Observatory
+DATE:    02/06/06 21:59:33 GMT
+FROM:    George Ricker at MIT  <grr@space.mit.edu>
+
+GRB020531: Observations with the Chandra X-ray Observatory
+
+N. Butler, A. Dullighan, P. Ford, G. Monnelly, G. Ricker, R. Vanderspek
+(MIT); K. Hurley (U.C.- Berkeley); and D. Lamb (U.Chicago)
+
+on behalf of the Chandra GRB ToO Team and the HETE Science Team
+
+write:
+
+On 5 June, the Chandra Observatory targeted the field of the short
+duration gamma-ray burst GRB020531 that was initially localized by
+the HETE satellite (Ricker et al., GCN1399). The observations, lasting
+20 ksec, spanned the interval 04:00-10:04 UT, 5.15 - 5.40 days after
+the burst. The refined IPN error region from Hurley et al. (GCN1407)
+was completely contained within the field-of-view of the Chandra
+ACIS-I array. The ACIS-I data set for the 20 ksec observation was
+received at 22:23 UT, 18.4 hours after the observation began.
+
+Within the refined IPN error region, we detect 10 sources in the
+0.5-8 keV band:
+
+#      Chandra Name           RA           DEC       dR(s)  dD(") Cts
+28 CXOU J151459.7-192532  15 14 59.74  -19 25 31.91  0.019   1.36  12
+36 CXOU J151459.2-192609  15 14 59.18  -19 26  8.50  0.021   1.36   8
+41 CXOU J151503.6-192423  15 15  3.59  -19 24 23.49  0.022   1.36   7
+47 CXOU J151514.7-192221  15 15 14.69  -19 22 21.42  0.020   1.37   6
+48 CXOU J151455.8-192454  15 14 55.76  -19 24 54.02  0.023   1.36   6
+51 CXOU J151513.3-192450  15 15 13.30  -19 24 49.94  0.019   1.36   5
+52 CXOU J151501.9-192358  15 15  1.86  -19 23 58.48  0.022   1.36   5
+55 CXOU J151457.0-192439  15 14 56.96  -19 24 39.26  0.022   1.36   4
+56 CXOU J151514.1-192428  15 15 14.14  -19 24 27.58  0.022   1.37   4
+58 CXOU J151508.0-192338  15 15  7.96  -19 23 37.69  0.021   1.36   3
+
+The # column refers to the source's relative ranking (in terms of total
+counts) among all the sources detected in the entire ACIS-I field-of-view.
+In addition, we detect 3 bright sources just outside of the refined IPN
+error region:
+
+  0 CXOU J151515.3-192511  15 15 15.31  -19 25 10.71  0.019   1.35  67
+  5 CXOU J151517.8-192102  15 15 17.80  -19 21  2.20  0.020   1.36  44
+ 15 CXOU J151458.3-192322  15 14 58.34  -19 23 22.32  0.020   1.35  19
+
+For these three bright sources, we note that there are conspicuous
+optical counterparts visible in an observation carried out with the
+Baade 6.5 meter telescope at the Magellan Observatory on 1 June, 1.19
+days after the GRB (see Dulligan et al., GCN1411, for observation
+details).  The three counterparts for #0, #5, and #15 have approximate
+R magnitudes of 20.4, 23.6, and 20.8, respectively.
+
+For both the TAROT A and B source locations (Boer et al., GCN1408), no
+X-ray counts are detected in excess of the background rate.
+
+The astrometry was calibrated using three USNO A2 catalog stars with
+detectable X-ray emission and lying within the ACIS-I field-of-view.
+
+In the above 2 tables, dR, the uncertainty in RA, and dD, the uncertainty
+in DEC, were established by summing the following in quadrature for each
+coordinate: the error reported by celldetect, the correlation error
+between the X-ray and optical positions, and the error estimate from the
+star reference catalog.
+
+We gratefully acknowledge the timely assistance of the personnel at the
+Chandra Science Center in the acquisition and preliminary processing of
+these data.
+
+This message may be cited.
+

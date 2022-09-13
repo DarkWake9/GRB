@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16707
+SUBJECT: Swift detection of SAX J1712.6-3739
+DATE:    14/08/18 17:58:29 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. R. Cummings (NASA/UMBC), N. Gehrels (NASA/GSFC),
+D. Malesani (DARK/NBI), F. E. Marshall (NASA/GSFC) and
+B. Sbarufatti (INAF-OAB/PSU) report on behalf of the Swift Team:
+
+At 17:10:03 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a source consistent with the position of SAX J1712.6-3739
+(trigger=609878).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 258.161, -37.657 which is 
+   RA(J2000) = 17h 12m 39s
+   Dec(J2000) = -37d 39' 22"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a ~10-second peak at ~T+130.  
+This was a 332-second image trigger.  BAT retriggered on the same source 
+with the next 320-second image trigger attempt (trigger=609879), with a 
+higher flux.  The lightcurve shows rapid fluctuations.  The peak count 
+rate was ~200 counts/sec (15-350 keV), at 130 sec after the trigger. 
+
+The XRT began observing the field at 17:16:59.4 UT, 415.8 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+258.1547, -37.6444 which is equivalent to:
+   RA(J2000)  = +17h 12m 37.13s
+   Dec(J2000) = -37d 38' 39.8"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). This
+location is 48 arcseconds from the BAT onboard position, within the BAT
+error circle. This is 4.5 arcseconds away from the position of SAX J1712.6-3739
+(Wiersema et al. 2009, MNRAS 397, 6). This source is in the Swift XRT 1SXPS
+catalogue as 1SXPS J171236.9-373842 with a mean 0.3-10 keV count-rate of 
+3.830 +/- 0.033 ct/sec; see http://www.swift.ac.uk/1SXPS/1SXPSJ171236.9-373842 
+for details of these previous observations. No event data are yet available to
+determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.69e-08 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter  starting 425 seconds after the BAT trigger. No credible
+afterglow candidate has  been found in the initial data products. The
+2.7'x2.7' sub-image covers 100% of  the XRT error circle. The typical
+3-sigma upper limit has been about 19.6 mag.   The 8'x8' region for
+the list of sources generated on-board covers   100% of the XRT error
+circle.  The list of sources is typically complete to about 18 mag.  
+We note that this is a crowded field with large expected  extinction. 
+No correction has been made for the large, but uncertain extinction 
+expected. 
+
+This source has been detected by BAT many times, with the most recent
+on-board detection in 2014 May, and it is variable but persistently
+visible in BAT ground analysis. 
+

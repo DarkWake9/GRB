@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17329
+SUBJECT: GRB 150120A: Swift-BAT refined analysis
+DATE:    15/01/20 22:50:07 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+A. Y. Lien (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), V. D'Elia (ASDC), N. Gehrels (GSFC), J. Norris (BSU),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-60 to T+243 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 150120A (trigger #627137)
+(D'Elia, et al., GCN Circ. 17310).  The BAT ground-calculated position is
+RA, Dec = 10.330, 33.980 deg which is
+   RA(J2000)  =  00h 41m 19.1s
+   Dec(J2000) = +33d 58' 48.6"
+with an uncertainty of 1.5 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 71%.
+
+The mask-weighted light curve shows a single short spike that starts at ~ T-0.4 s, peaks
+at ~ T+0.4 s, and ends at ~ T+1.0 s. T90 (15-350 keV) is 1.20 +- 0.16 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T-0.40 to T+0.95 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.81 +- 0.18.  The fluence in the 15-150 keV band is 1.4 +- 0.2 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.06 sec in the 15-150 keV band
+is 1.8 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The burst spectrum appears to be at the softer end of short bursts, which have an
+average spectral index of 1.2 when fitting with a simple power-law model
+(Sakamoto et al. 2011). However, the fast fading shown in the X-ray light curve
+(http://www.swift.ac.uk/xrt_curves/00627137/) suggests that this is indeed a short burst.
+The lag analysis of this burst does not show a constraining result due to
+the low intensity.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/627137/BA/
+

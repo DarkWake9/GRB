@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31230
+SUBJECT: GRB 211211A: redshift estimation and SPI-ACS/INTEGRAL detection
+DATE:    21/12/14 17:35:39 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+P. Minaev (IKI), A. Pozanenko (IKI) report on behalf of GRB IKI FuN:
+
+We analyzed GRB 211211A (D'Ai et al. GCN 31202; Mangan et al. GCN 31210; 
+Tamura et al. GCN 31226) using publicly available data of GBM/Fermi and 
+SPI-ACS/INTEGRAL. Using GBM/Fermi we estimate a duration in 7 - 850 keV 
+energy band T_90 = 50.6 +/- 0.1 s, while the emission is seen at least 
+up to 130 s after the trigger. We performed spectral analysis in time 
+interval of (-0.5, 60) s, covering the main part of GRB activity. The 
+best fit is obtained for (Band model + thermal component) with following 
+parameters: E_p = 758 +/- 13 keV, alpha = -1.21 +/- 0.01, beta = -2.54 
++/- 0.03 and thermal spectral component with kT = 13.9 +/- 0.3 keV. The 
+fluence of F = (5.47 +/- 0.01)E-4 erg/cm**2 is obtained in 10 - 1000 keV 
+energy band. The  parameter E_p = 758 +/- 13 keV is higher than 
+preliminary value presented by GBM team (Mangan et al., GCN 31210) due 
+to inclusion of the thermal component in the fit.
+
+Assuming a redshift of z = 0.076 (Malesani et al., GCN 31221) we 
+estimated E_iso = (1.161 +/- 0.006)E52 erg in the 1 keV - 10 MeV energy 
+band. The burst is placed very close but outside the 2 sigma correlation 
+region at E_p,i - E_iso and T_90,i - EH diagrams [1,2], see the Figures in
+
+http://grb.rssi.ru/GRB211211A/GRB211211A_Ep-Eiso-2.png
+http://grb.rssi.ru/GRB211211A/GRB211211A_EHD.png
+
+Using T_90,i - EH diagram we found minimal possible redshift value of z 
+= 0.080, very close to the redshift of z = 0.076 (Malesani et al., GCN 
+31221). Therefore, we consider GRB 211211A as not a significant outlier.
+
+The burst was also detected by SPI-ACS/INTEGRAL. Its duration in the 
+SPI-ACS energy band (> 80 keV) is T_90 = 30.0 +/- 0.2 s, while the 
+emission is seen up to 70 s. Comparing fluences of long-duration GRBs 
+simultaneously recorded by SPI-ACS and Fermi/GBM (Chelovekov et al., in 
+preparation) we estimated the GRB 211211A fluence to be 5.5E-4 erg/cm**2 
+in the 10-1000 keV energy band (the 95% confidence region 1.6-4 – 1.9E-3 
+erg/cm**2, incl. systematics). GRB 211211A is one of the brightest GRBs 
+of SPI-ACS/INTEGRAL sample in terms of peak flux (about 40000 cnts/50 
+ms). The SPI-ACS light curve of GRB 211211A can be found in
+
+http://grb.rssi.ru/GRB211211A/GRB211211A_SPI-ACS_lc-2.png
+
+[1] - Minaev et al., MNRAS, 492, 1919, 2020
+[2] - Minaev et al., Astronomy Letters, 46, 9, 573, 2020
+
+

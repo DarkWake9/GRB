@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19357
+SUBJECT: GRB 160425A: Swift/UVOT Detection
+DATE:    16/04/27 20:10:02 GMT
+FROM:    Mike Siegel at PSU/Swift MOC  <siegel@swift.psu.edu>
+
+M. H. Siegel (PSU) and H. A. Krimm (CRESST/GSFC/USRA)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 160425A
+208 s after the BAT trigger (Krimm et al., GCN Circ. 19343).
+A fading source consistent with the XRT position (Beardmore et al. GCN Circ. 19347)
+is detected in the initial UVOT exposures.  This source is consistent
+with the optical transient reported by MASTER (Lipunov et al, GCN Circ. 19344)
+and  GROND (Bodensteiner et al., GCN Circ. 19349). The source has plateaud over
+the last day, which may indicate detection of the host galaxy reported
+by MASTER (Balanutsa et al., GCN Circ. 19351).
+
+The preliminary UVOT position is:
+   RA  (J2000) =  18:41:18.58 = 280.32743 (deg.)
+   Dec (J2000) = -54:21:36.3  = -54.36007 (deg.)
+with an estimated uncertainty of 0.53 arc sec. (radius, 90% confidence).
+
+Preliminary detections and 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures are: 
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white (fc)         208          358          147         19.57 +/- 0.10
+white              859         1009          147         20.70 +/- 0.35
+white             1164         2397          155        >20.19
+white             6727         8221          254        >20.79
+white            11858        12765          885         21.03 +/- 0.19
+white            35282        41433         2162         21.48 +/- 0.23
+white            46310        58620         3898         21.48 +/- 0.16
+white           104099       111153         2061         21.80 +/- 0.30
+v                  365         2447          233         19.22 +/- 0.31
+b                  465         1852          156         20.16 +/- 0.32
+u                  440         6517          410         20.07 +/- 0.26
+w1                 415         7748          607         20.24 +/- 0.30
+m2                 390         7542          430        >19.7
+w2                 515        13672         1296        >20.8
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.06 in the direction of the burst
+(Schlegel et al. 1998).
+

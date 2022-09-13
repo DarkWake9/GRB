@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13527
+SUBJECT: Trigger 529076: Swift possible detection of SwJ1910.2-0546
+DATE:    12/07/29 08:21:55 GMT
+FROM:    Tilan Ukwatta at MSU  <tilan.ukwatta@gmail.com>
+
+M. M. Chester (PSU), V. Mangano (INAF-IASFPA),
+A. Maselli (INAF-IASFPA) and T. N. Ukwatta (MSU) report on behalf of
+the Swift Team:
+
+At 07:13:42 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a source (trigger=529076).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 287.652, -5.699 which is 
+   RA(J2000) = 19h 10m 37s
+   Dec(J2000) = -05d 41' 54"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a multi-peak
+structure with a duration of about 20 sec.  The peak count rate
+was ~1464 counts/sec (15-350 keV), at ~11 sec after the trigger. 
+
+The XRT began observing the field at 07:16:01.7 UT, 139.3 seconds after
+the BAT trigger. XRT found a bright X-ray source located
+at RA, Dec 287.5950, -5.8003 which is equivalent to:
+   RA(J2000)  = +19h 10m 22.80s
+   Dec(J2000) = -05d 48' 01.1"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 417 arcseconds from the BAT onboard position and 66 arcseconds 
+from the known source SwJ1910.2-0546. As this position is significantly 
+outside the BAT error circle, it is probably unrelated to the trigger. 
+No event data are yet available to determine the column density using 
+X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 6.25e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+306 seconds after the BAT trigger. There is a counterpart to the XRT source in the
+rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	19:10:22.80 = 287.59499
+  DEC(J2000) = -05:47:55.8  =  -5.79884
+with a 90%-confidence error radius of about 0.62 arc sec. This position is 4.2
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+16.17 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.61. 
+

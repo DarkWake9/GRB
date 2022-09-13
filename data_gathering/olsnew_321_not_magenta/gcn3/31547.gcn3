@@ -1,0 +1,20 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31547
+SUBJECT: Swift Reaction Wheel Anomaly Update (4 Feb 2022)
+DATE:    22/02/04 17:29:59 GMT
+FROM:    Brad Cenko at NASA/GSFC  <brad.cenko@nasa.gov>
+
+Since Swift entered safe hold on 18 January, the Swift team has been working hard to 1) diagnose the cause of the anomaly, 2) determine if / how to attempt to recover the failed reaction wheel, and 3) prepare for operations in a 5-wheel configuration. Here we provide a brief update on the status of these efforts.
+
+As indicated with preliminary analysis, the anomaly was triggered by a failure of reaction wheel #5 (of 6). The failure mode is believed to be mechanical in nature. All other wheels are performing as expected while in safe hold.
+
+In consultation with attitude control engineers, we determined that we will not attempt to recover wheel #5 for the time being. After several more weeks of resting, we will reconsider whether to attempt recovery.
+
+In the mean time, we’ve been preparing to configure the spacecraft for 5-wheel operations. We are finalizing testing of these configuration settings, with the current intention of uploading them to the spacecraft next week. 
+
+Analysis of 5-wheel operations indicates that, due to unused margin in the attitude control settings, the vast majority (> 99%) of spacecraft slews will be minimally affected by the change to 5-wheel operations. The primary impact will be for the initial slews following on-board GRB triggers, where the mean response time is estimated to increase by ~ 20 s. 
+
+Once the new configuration is uploaded to the spacecraft and verified in orbit, we will begin a phased return to science operations. We will update on the time scale for this once we have verified a successful configuration change.
+
+If you have further questions, please feel free to reach out to the Swift PI, Brad Cenko, at brad.cenko@nasa.gov
+

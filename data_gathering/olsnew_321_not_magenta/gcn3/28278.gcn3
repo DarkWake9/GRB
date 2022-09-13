@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28278
+SUBJECT: Swift Trigger 992444: a possible GRB 200821A
+DATE:    20/08/21 14:04:25 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. Dichiara (NASA/GSFC/UMCP), S. D. Barthelmy (GSFC),
+D. N. Burrows (PSU), P. A. Evans (U Leicester), C. Gronwall (PSU),
+J.D. Gropp (PSU), J. A. Kennea (PSU), N. J. Klingler (PSU),
+N. P. M. Kuin (UCL-MSSL), S. Laha (GSFC/UMBC/CRESST),
+K. L. Page (U Leicester), D. M. Palmer (LANL) and M. H. Siegel (PSU)
+report on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 13:15:05 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible GRB 200821A (trigger=992444).  Swift slewed 
+immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 353.570, -48.277 which is 
+   RA(J2000) = 23h 34m 17s
+   Dec(J2000) = -48d 16' 37"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a sequence of
+short peaks covering about 20 seconds.  The peak count rate
+was ~1200 counts/sec (15-350 keV), at ~9 sec after the trigger. 
+
+The XRT began observing the field at 13:17:33.3 UT, 147.9 seconds after
+the BAT trigger. No source was detected in 1.3 ks of promptly
+downlinked data. We are waiting for the full dataset to detect and
+localise the XRT counterpart. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter
+starting  310 seconds after the BAT trigger. There is a candidate
+afterglow in the  rapidly available 2.7'x2.7' sub-image at 
+  RA(J2000)  =	23:34:24.51 = 353.60212 
+  DEC(J2000) = -48:16:28.4  = -48.27456  with a 90%-confidence error
+radius of about 0.83 arc sec. This position is 77.5  arc sec. from the
+center of the BAT error circle. The estimated magnitude is  19.92 with
+a 1-sigma error of about  0.23. No correction has been made for the 
+expected extinction corresponding to E(B-V) of 0.01.  We note there is
+a known faint source at this position in the DSS. 
+
+This source lies within the current (Sector 28) field-of-view of TESS camera 2. 
+
+This event has a highly unusual lightcurve for a GRB in BAT. 
+The XRT data is dominated by a single hot pixel, which is preventing
+rapid analysis of the data to find a counterpart.  The UVOT
+detection may be due to the known DSS source. 
+
+For these reasons we cannot confidently say whether this is an instrumental
+artifact or an astrophysical source.  Further analysis will require the
+downlinked data set. 
+
+Burst Advocate for this burst is S. Dichiara (dichiara AT umd.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

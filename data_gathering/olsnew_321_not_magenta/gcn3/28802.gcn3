@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28802
+SUBJECT: GRB 201027A: MITSuME Akeno optical upper limits
+DATE:    20/10/29 01:29:33 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, H. Hara, R. Adachi, M. Niwano, F. Ogawa, K. L. Murata, N.
+Nakamura, N. Ito, S. Ogata, H. Takamatsu, Y. Yatsu, and N. Kawai
+(TokyoTech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 201027A (V. Lipunov et al., GCN #28787,
+S. B. Cenko et al., GCN #28788, Y.-D. Hu et al., GCN #28794 ) with the
+optical three color (g', Rc, and Ic) CCD cameras attached to the
+MITSuME 50 cm telescope of Akeno Observatory, Yamanashi, Japan. The
+observation with a series of 60 sec exposures started at 2020-10-27
+18:43:12 UT(17.2 hour after trigger). Since the first 18 images were
+taken under high airmass conditions, we stacked the images with good
+conditions. We did not find any new point sources within the enhanced
+Swift/XRT circle (J.P. Osborne et al., GCN #28792) in all three bands.
+We obtained the 5-sigma limits of the stacked images as follows.
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+17.6 19:19:32 3180 g'>19.5,Rc>20.0,Ic>19.1
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+We used the PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al.,
+https://doi.org/10.1093/pasj/psaa091,
+https://arxiv.org/abs/2008.11486; https://github.com/MNiwano/Eclaire).
+

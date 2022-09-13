@@ -1,0 +1,46 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5590
+SUBJECT: GRB 060923B: Swift detection of a burst
+DATE:    06/09/23 12:02:46 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+M. Stamatikos (NASA/ORAU), S. D. Barthelmy (GSFC),
+D. N. Burrows (PSU), M. Capalbi (ASDC), M.L. Conciatore (ASDC),
+N. Gehrels (NASA/GSFC), C. Guidorzi (Univ Bicocca&INAF-OAB),
+S. T. Holland (GSFC/USRA), J. A. Kennea (PSU),
+C. B. Markwardt (GSFC/UMD), D. M. Palmer (LANL), M. Perri (ASDC),
+T. Sakamoto (NASA/ORAU), D. E. Vanden Berk (PSU) and
+H. Ziaeepour (UCL-MSSL) report on behalf of the Swift Team:
+
+At 11:38:06 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060923B (trigger=230702).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA,Dec 238.201, -30.907 {15h 52m 48s, -30d 54' 25"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a single peak
+with a duration of about 10 sec.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~4 sec after the trigger. 
+
+The XRT began observing the field at 11:40:00 UT, 114 seconds after
+the BAT trigger. XRT centroided on a cosmic ray on-board, so the
+position sent out in our first, automated XRT Position Notice is
+incorrect. From preliminary ground analysis of photon-counting mode
+data, XRT did find an uncatalogued X-ray source located at RA(J2000)
+= 15h 52m 46.83s, Dec(J2000) = -30d 54' 12.6", with an estimated
+uncertainty of 6.5 arcseconds (90% confidence radius). This position
+was sent out via BACODINE in a second XRT Position Notice with the
+correct position. This location is 21 arcseconds from the BAT
+on-board position, within the BAT error circle. The initial flux in
+the 2.5s image was 2.4e-11 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of nominal 200 seconds with the
+White (160-650 nm) filter starting 122 seconds after the BAT trigger. 
+No afterglow candidate has been found in the initial data products. 
+Image catalog data are not available at this time. The 8'x8' region
+for the list of sources generated on-board covers 100% of the XRT
+error circle. The list of sources is typically complete to about 18
+mag. The overlap of the sub-image and the XRT error circle is 100%. 
+No source is seen in the XRT error circle to a magnitude of
+approximately 18.5.  No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.15. 
+

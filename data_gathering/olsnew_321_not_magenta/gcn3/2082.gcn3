@@ -1,0 +1,49 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2082
+SUBJECT: GRB030329, new UBVRcIc field photometry
+DATE:    03/04/03 16:39:38 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired additional UBVRcIc all-sky photometry for
+an 11x11 arcmin field centered at the coordinates
+of the optical transient (Peterson and Price, GCN 1985)
+for the HETE burst GRB030329 (GCN 1997) with the USNOFS
+1.0-m telescope.  Stars brighter than V=13.5 are saturated and
+should be used with care.  We have replaced the photometric data
+with the same file name on our anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb030329.dat
+The astrometry in this file is based on linear plate solutions
+with respect to UCAC2.  The external errors are less than 100mas.
+The second night of photometry shows that the first night was
+acceptable, and that the external error is now about 0.02mag.
+     For those of you not used to doing high-accuracy
+photometry, here are some comments.  Star "A" of Martini et al.
+(GCN2012) has been used with either its USNO-A magnitude of
+R=16.2, or the more correct Rc=16.06, in various GCNs.  This
+will lead to confusion when trying to fit light curves.  However,
+the larger problem is that this star is red (B-V=1.19,
+V-I=1.41), while the afterglow itself is blue (B-V=0.35,
+V-I=0.77).  Using this star as a comparison and following
+it over a large airmass will generally lead to fading/brightening
+trends that correlate with airmass due to differential
+color corrections unless proper transformations are made.
+This will be even more apparent when comparing Johnson R,I
+magnitudes with the Cousins Rc,Ic values reported here.
+You should also be aware of the nice eclipsing binary discovered
+by Fitzgerald and Orosz (GCN 2056), as this is the brightest
+object near the afterglow and might be used when performing
+early-time photometry or U-band photometry.  Finally, as
+several observers have mentioned, there are not many real stars
+in this field; most of the objects are extended.  You should
+look at the good-seeing finding charts that have been posted
+before selecting comparison stars, especially as the afterglow
+fades.  Many extended objects are near-enough to stellar that
+they will appear in our field photometry file.
+
+We intend to extend this file with more nights and to fainter
+magnitudes as the afterglow fades.  As always, you should check
+the dates on the .dat file prior to final publication to get the
+latest photometry.
+

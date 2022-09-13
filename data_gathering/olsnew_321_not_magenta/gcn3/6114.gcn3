@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6114
+SUBJECT: GRB 070220: Swift detection of a burst
+DATE:    07/02/20 05:05:13 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+M. Stamatikos (NASA/ORAU), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), D. N. Burrows (PSU),
+N. Gehrels (NASA/GSFC), S. Immler (GSFC/USRA), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC), C. Pagani (PSU),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+T. Sakamoto (NASA/ORAU), P. Schady (MSSL-UCL) and
+D. E. Vanden Berk (PSU) report on behalf of the Swift Team:
+
+At 04:44:33 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070220 (trigger=261299).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 34.819, +68.818 which is 
+   RA(J2000)  = +02h 19m 17s
+   Dec(J2000) = +68d 49' 06"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows multiple peaks
+with a duration of about 60 sec.  The peak count rate
+was ~7000 counts/sec (15-350 keV), at ~15 sec after the trigger. 
+
+The XRT began observing the field at 04:45:51 UT, 79 seconds after the
+BAT trigger. XRT found a bright, fading, uncatalogued X-ray source
+located at RA, Dec 34.7765, +68.8052 which is
+   RA(J2000)  =  02h 19m 06.3s
+   Dec(J2000) =  68d 48' 18.7"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). 
+This location is 72 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 4.5e-09 erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 88 seconds after the BAT trigger. No
+afterglow candidate has been found in the initial data products. The
+2.7'x2.7' sub-image covers 100% of the XRT error circle. The 3-sigma
+upper limit in a 100s white band exposure is 19.6 mag. The 8'x8'
+region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about
+18 mag. No correction has been made for the expected extinction
+corresponding to E(B-V) of 0.90. 
+

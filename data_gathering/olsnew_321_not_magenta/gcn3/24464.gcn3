@@ -1,0 +1,71 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24464
+SUBJECT: LIGO/Virgo S190510g: J-GEM optical/NIR follow-up observations
+DATE:    19/05/10 22:34:06 GMT
+FROM:    Koji S. Kawabata at JGEM  <kawabtkj@hiroshima-u.ac.jp>
+
+Kawabata, K. S., Sasada, M., Nakaoka, T., Akitaya, H., Imazato, F.,
+Nishinaka, Y. (Hiroshima U.), Yanagisawa, K., Yoshida, M. (NAOJ),
+Morokuma, T. (U. of Tokyo), Tominaga N. (Konan U.), Utsumi, Y.
+(Stanford/SLAC), Yatsu, Y., Murata, K. L. (Tokyo Tech.), Kamei, Y.
+(Nagoya U.), Tristram, P. (Mt. John U. Observatory), Suematsu, H.,
+Yamawaki, T. (Osaka U.), Matsubayashi, K. (Kyoto U.),  Saito, T.,
+Onozato, H. (Nishi-Harima Astronomical Observatory),
+Itoh, R. (Bisei Astronomical Observatory), Sekiguchi, Y. (Toho U.),
+Oasa, Y., Takarada, T., Kanai, K., Takeuchi, H., Shigeyoshi, T.
+(Saitama U.) on behalf of J-GEM collaboration
+
+We report our optical and near-infrared imaging observations for
+the gravitational wave event S190510g. We started our observations
+about 7.5 hours after the alert.
+
+We performed galaxy-targeted observations for 28 galaxies (see the
+table below) selected from the GLADE catalog (Dalya et al. 2016)
+in the probability skymap of S190510g using the following
+telescopes and instruments.
+
+ - 50 cm MITSuME telescope at Akeno Observatory and a 3 color imager (g, Rc, Ic)
+ - 50 cm MITSuME telescope at Okayama Astrophysical Observatory and a 3 color imager (g, Rc, Ic)
+ - 55 cm SaCRA telescope at Saitama University and MuSaSHI (r, i, z)
+ - 61 cm Boller & Chivens telescope at Mt. John Observatory in New Zealand (B&C) and a three color imager Tripole5 (g, r, i)
+ - 91 cm Okayama Astrophysical Observatory NIR Wide‐Field Camera, OAOWFC (J) (Yanagisawa, K., et al. 2016, Proc. SPIE, 9908, 99085D)
+ - 150 cm Kanata telescope at Higashi-Hiroshima Observatory and HONIR -- a 2 channel imager (Rc and H or J) (Akitaya et al. 2014, 9147, 91474O)
+ - 200 cm Nayuta telescope at Nishi-Harima Astronomical Observatory and Nishiharima Infrared Camera, NIC (J, H, Ks)
+ - 380 cm Seimei telescope at Okayama Observatory and optical-fiber integral field spectrograph, KOOLS-IFU
+
+We found no apparent transient object in these galaxies to 5 sigma
+limiting magnitudes listed below, except for a few marginal cases
+that are being carefully investigated by spectroscopy. We will post
+it if it is likely an actual transient.
+ 
+galid            ra        dec       G      g      r      R      i      I      z      J      H      K                                     obsid
+GL055116-310617   87.8176  -31.1046     --  19.51  20.06     --  19.47     --     --     --     --     --                              BandC-Tripol
+GL055150-314446    87.958  -31.7461     --  19.82  19.81     --  19.32     --     --     --     --     --                              BandC-Tripol
+GL054828-325838    87.115  -32.9772     --  18.61  19.01     --  18.31     --     --     --     --     --                              BandC-Tripol
+GL055050-314427   87.7077  -31.7407     --  17.25  17.05     --  16.56     --     --     --     --     --                              BandC-Tripol
+GL055504-313735   88.7683  -31.6263     --  16.75  16.91     --  16.25     --     --     --     --     --                              BandC-Tripol
+GL055140-313123   87.9168  -31.5231     --  18.70  18.97     --  18.29     --     --     --     --     --                              BandC-Tripol
+GL055352-324437   88.4666  -32.7436     --  17.75     --     --  17.18     --     --     --     --     --                              BandC-Tripol
+GL054902-312929   87.2593  -31.4913     --  14.98  14.89     --  17.76     --     --     --     --     --                              BandC-Tripol
+GL055123-310146   87.8458  -31.0294     --  17.40  17.77     --  17.25     --     --     --     --     --                              BandC-Tripol
+GL055552-320353   88.9671  -32.0647     --  13.71  13.00     --  13.38     --     --     --     --     --                              BandC-Tripol
+GL055050-314426   87.7074  -31.7404     --  17.25  17.05     --  16.56     --     --     --     --     --                              BandC-Tripol
+GL055349-324625   88.4551  -32.7736     --  17.75     --     --  17.18     --     --     --     --     --                              BandC-Tripol
+GL055054-314721    87.726  -31.7891     --  17.25  17.05     --  16.56     --     --     --     --     --                              BandC-Tripol
+GL055137-313213   87.9051   -31.537     --  18.70  18.97     --  18.29     --     --     --     --     --                              BandC-Tripol
+GL054835-330005    87.147  -33.0013     --  18.61  19.01     --  18.31     --     --     --     --     --                              BandC-Tripol
+GL145211+044054  223.0459    4.6818     --     --     --  21.88     --     --     --  16.08  19.77     --                       OAOWFC,Kanata-HONIR
+GL055045-314528   87.6857  -31.7579     --  17.25  17.05     --  16.56     --     --     --     --     --                              BandC-Tripol
+GL134200+003605  205.4958    0.6015     --     --  17.40  18.07  18.78     --  18.78  16.89  15.72     --         OAOWFC,Kanata-HONIR,SaCRA-MuSaSHI
+GL142718+044810  216.8261    4.8029  18.74     --     --  21.84     --  18.04     --  18.49  19.94     --         OAOWFC,Kanata-HONIR,MITSuME-Akeno
+GL133953+005024    204.97    0.8399     --     --  16.64  20.94  18.37     --  16.64  18.98  18.56     --                Kanata-HONIR,SaCRA-MuSaSHI
+GL144043+032756  220.1787    3.4654  18.18     --     --  21.41     --  17.63     --  19.01  19.44  99.99  MITSuME-Akeno,Kanata-HONIR,OAOWFC,Nayuta
+GL134511+000710  206.2954    0.1194     --     --     --  20.62     --     --     --  17.57  19.18     --                       Kanata-HONIR,OAOWFC
+GL133648+010914  204.1999    1.1538     --     --     --  20.34     --     --     --     --  18.84     --                              Kanata-HONIR
+GL145412+044501  223.5521    4.7502  19.10     --     --  19.08     --  18.36     --     --     --     --                             MITSuME-Akeno
+GL133644-032952  204.1844   -3.4978  17.95     --     --  18.36     --  17.94     --     --     --     --                             MITSuME-Akeno
+GL133614-010217  204.0588   -1.0381  16.19     --     --  19.15     --  16.83     --     --  17.82     --                MITSuME-Akeno,Kanata-HONIR
+GL134042-044642   205.175   -4.7784  13.92     --  15.82  13.34  18.78  13.41  18.78     --     --     --             MITSuME-Okayama,SaCRA-MuSaSHI
+GL133715-045629  204.3112   -4.9413  14.85     --     --  20.78     --  14.39     --     --  19.27     --                MITSuME-Akeno,Kanata-HONIR
+
+

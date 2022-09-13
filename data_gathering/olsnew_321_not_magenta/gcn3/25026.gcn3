@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25026
+SUBJECT: LIGO/Virgo S190707q: Upper limits from Fermi-GBM Observations
+DATE:    19/07/07 21:42:02 GMT
+FROM:    Adam Goldstein at Fermi-GBM, USRA  <adam.michael.goldstein@gmail.com>
+
+A. Goldstein (USRA) reports on behalf of the Fermi-GBM Team and the
+GBM-LIGO/Virgo group:
+
+For the LIGO/Virgo detection of GW trigger S190707q (GCN 25012) and using
+the initial BAYESTAR skymap, Fermi-GBM was observing 46.3% of the
+localization probability at event time.
+
+There was no Fermi-GBM onboard trigger around the event time of S190707q.
+An automated, blind search for short gamma-ray bursts below the onboard
+triggering threshold in Fermi-GBM also identified no counterpart
+candidates. The GBM targeted search, the most sensitive, coherent search
+for GRB-like signals, was run from +/- 30 s around merger time, and also
+identified no counterpart candidates.
+
+Part of the LVC localization region is behind the Earth for Fermi, located
+at RA = 171.8 and Dec = -21.4 with a radius of 67.4 degrees. We therefore
+set upper limits on impulsive gamma-ray emission. Using the representative
+soft, normal, and hard GRB-like templates described in arXiv:1612.02395, we
+set the following 3 sigma flux upper limits over 10-1000 keV, weighted by
+the GW localization probability, (in units of 10^-7 erg/s/cm^2):
+
+Timescale  soft    norm    hard
+--------------------------------------
+0.128 s:   2.5     4.0     8.9
+1.024 s:   0.8     1.2     2.2
+8.192 s:   0.4     0.4     0.8
+
+Assuming the median luminosity distance of 809.8 Mpc (z=0.167) from the GW
+detection, we estimate the following intrinsic luminosity upper limits over
+the 1 keV-10 MeV energy range (in units of 10^49 erg/s):
+
+Timescale  soft    norm    hard
+--------------------------------------
+0.128 s:   3.0     4.4     16.
+1.024 s:   1.0     1.3     4.0
+8.192 s:   0.5     0.5     1.5

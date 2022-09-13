@@ -1,0 +1,77 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29446
+SUBJECT: ZTF21aahifke/AT2021clk: ZTF discovery of an optical fast transient (possible afterglow)
+DATE:    21/02/10 06:45:25 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Michael Coughlin (UMN), Tomas Ahumada (UMD), Harsh
+Kumar (IITB), Mansi Kasliwal (Caltech), Erik Kool (OKC), Leo Singer
+(NASA/GSFC), Shreya Anand (Caltech), Ana Sagues Carracedo (OKC) on
+behalf of the Zwicky Transient Facility and GROWTH collaborations
+
+We report the discovery of the fast optical transient
+ZTF21aahifke/AT2021clk with the Zwicky Transient Facility (ZTF, Bellm et
+al. 2019, Graham et al. 2019) at coordinates (J2000, <0.5''):
+
+RA = 02:54:27.54 (43.61475d)
+Dec = +36:31:56.80 (+36.53244d)
+
+ZTF21aahifke was first detected on 2021-02-06 03:14 UT, hereafter labelled
+T_det. It faded by ~0.9 mag in r-band in the first 24 hours since T_det.
+The transient was last detected by ZTF on 2021-02-07 03:58 UT at r = 20.9
++- 0.2 mag. Upper limits constrain the transient onset time to be within ~1
+day from T_det. The color of the transient appears to be red, with g-r~0.3
+(un-corrected) at T_det. The Galactic extinction on the line of sight is
+E(B-V)=0.12 mag (Planck Collaboration et al., 2015). ZTF21aahifke is
+located at Galactic latitude b_Gal = -20.1 deg.
+
+
+In the table below, we report photometry obtained using ForcePhotZTF (Yao
+et al., 2019) on images processed in real-time through the ZTF reduction
+and image subtraction pipelines at IPAC (Masci et al. 2019).
+-------------------------------------
+Date (UT) | mag | emag | band
+-------------------------------------
+2021-02-05 04:53 | > 20.6 | - | g
+2021-02-06 03:14 | 20.2 | 0.1 | g
+2021-02-06 04:16 | 19.9 | 0.1 | r
+2021-02-07 03:58 | 20.9 | 0.2 | r
+2021-02-09 03:59 | > 21.0 | - | r
+-------------------------------------
+
+Forced photometry on 1109 ZTF images taken before T_det did not reveal any
+previous activity. Previous activity was also not found in the Pan-STARRS
+(Chambers et al., 2016) DR2 catalog and in ATLAS images, explored via the
+public forced photometry server (Tonry et al., 2018; Smith et al., 2020).
+
+A possible host galaxy, SDSS J025427.89+363151.5 (r=21.4), is located ~6.6
+arcsec away from ZTF21aahifke. The source has SDSS photometric redshift of
+zphot = 0.433 +- 0.1735.
+
+We do not find any Fermi-identified gamma-ray bursts consistent with the
+detection location and explosion time of this object, assuming that a GRB
+happened between the last non-detection and T_det.
+
+The nature of ZTF21aahifke remains uncertain and we cannot exclude the
+possibility that it is the afterglow of an un-triggered (or off-axis) GRB,
+or Galactic in origin.
+
+Follow-up observations are encouraged.
+
+
+ZTF21aahifke was found by the ''ZTF Realtime Search and Triggering''
+(ZTFReST) project, which aims at near real-time identification of
+compelling kilonova candidates in ZTF data using the methods described in
+Andreoni et al. (2020, ApJ, 904, 2), independently of gravitational-wave or
+gamma-ray triggers.
+
+Based on observations obtained with the Samuel Oschin Telescope 48-inch and
+the 60-inch Telescope at the Palomar Observatory as part of the Zwicky
+Transient Facility project. ZTF is supported by the National Science
+Foundation under Grant No. AST-2034437 and a collaboration including
+Caltech, IPAC, the Weizmann Institute for Science, the Oskar Klein Center
+at Stockholm University, the University of Maryland, Deutsches
+Elektronen-Synchrotron and Humboldt University, the TANGO Consortium of
+Taiwan, the University of Wisconsin at Milwaukee, Trinity College Dublin,
+Lawrence Livermore National Laboratories, and IN2P3, France. Operations are
+conducted by COO, IPAC, and UW.

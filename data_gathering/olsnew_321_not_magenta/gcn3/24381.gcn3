@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24381
+SUBJECT: IceCube-190503A: INTEGRAL prompt observation
+DATE:    19/05/03 21:42:22 GMT
+FROM:    James Rodi at IAPS-INAF  <james.rodi@inaf.it>
+
+James Rodi (IAPS-Roma, Italy), Sandro Mereghetti (INAF IASF-Milano, Italy)
+V. Savchenko, C. Ferrigno (ISDC/UniGE, Switzerland) A. Coleiro (APC, France)
+
+on behalf of the INTEGRAL multi-messenger collaboration:
+https://www.astro.unige.ch/cdci/integral-multimessenger-collaboration
+
+Using combination of INTEGRAL all-sky detectors (following Savchenko
+et al. 2017, A&A 603, A46): SPI/ACS, IBIS/Veto, and IBIS  we have
+performed a search for a prompt gamma-ray counterpart of
+IceCube190503A (GCN 24378).
+
+At the time of the event (2019-05-03 17:23:08 UTC, hereafter T0),
+INTEGRAL was operating in nominal mode. The peak of the event
+localization probability was at an angle of 170 deg with respect to
+the spacecraft pointing axis. This orientation implies strongly
+suppressed (3% of optimal) response of ISGRI, near-optimal (84% of
+optimal) response of IBIS/Veto, and strongly suppressed (38% of
+optimal) response of SPI-ACS.
+
+
+
+https://analyse.reproducible.online/transients/dashboard/event?utc=2019-...
+<https://analyse.reproducible.online/transients/dashboard/event?utc=2019-05-03T17:23:08.72&ra_deg=120.304&dec_deg=6.3568&notice_key=received-1556904219-hash-b82233148e2c3f8a635819b5055c4fff-random-OJANNL2D&parsed=%7B%22dec_deg%22%3A%206.3568%2C%20%22eventid%22%3A%20%22unknown%22%2C%20%22ivorn%22%3A%20%22ivo%3A//nasa.gsfc.gcn/AMON%23ICECUBE_EHE_Event2019-05-03T17%3A23%3A08.72_132508_042419327-463%22%2C%20%22location_kind%22%3A%20%22position%22%2C%20%22lvc_data%22%3A%20%7B%7D%2C%20%22observatory%22%3A%20%22AMON%20%28via%20VO-TAN%29%22%2C%20%22ra_deg%22%3A%20120.304%2C%20%22role%22%3A%20%22observation%22%2C%20%22utc_isot%22%3A%20%222019-05-03T17%3A23%3A08.72%22%7D&integral=%7B%22observations%22%3A%20%7B%22data_readiness%22%3A%20%22NO%20DATA%22%2C%20%22data_readiness_fraction%22%3A%200%2C%20%22hist_png%22%3A%20%22ohist.png%22%2C%20%22history_png%22%3A%20%22ohistory.png%22%2C%20%22in_15deg_fov_ks%22%3A%200%2C%20%22last_cons%22%3A%207045.12982358209%2C%20%22nearest_cons%22%3A%207045.12982358209%2C%20%22orientation_comment%22%3A%20%22bottom%22%2C%20%22sc_phi%22%3A%2010.770955906339958%2C%20%22sc_theta%22%3A%20170.37286701883434%2C%20%22summary_card%22%3A%20%22summary_card.html%22%2C%20%22t0_ijd%22%3A%207062.725207222222%2C%20%22t0_utc%22%3A%20%222019-05-03T17%3A23%3A08.72%22%2C%20%22telapse_cons%22%3A%200%2C%20%22telapse_nrt%22%3A%20856298.7028505537%7D%2C%20%22planning_advice%22%3A%20%7B%22advices%22%3A%20%5B%7B%22importance%22%3A%20%22high%22%2C%20%22reason%22%3A%20%22small%20region%22%7D%5D%2C%20%22distance%22%3A%20null%2C%20%22followup_grade%22%3A%20%22high%22%2C%20%22hasNS%22%3A%200%2C%20%22recommended_action%22%3A%20%7B%22comment%22%3A%20%22small%20region%20%28high%29%22%2C%20%22destination%22%3A%20%5B%22shift%22%2C%20%22core%22%5D%2C%20%22route%22%3A%20%22email%22%7D%2C%20%22visibility_data%22%3A%20%7B%7D%7D%2C%20%22revnum%22%3A%20%222086%22%2C%20%22scwid%22%3A%20%22208600510021%22%2C%20%22visibility%22%3A%20%7B%22visible%22%3A%200.9999999999999999%7D%7D&event_uid=b397a521147cd75e45c864325729d4fb44b002f8b2f658f643695bbe>
+
+The background within +/-300 seconds around the event was very stable
+(excess variance 1.2).We have performed a search for any impulsive events
+in INTEGRAL SPI-
+ACS (as described in Savchenko et al. 2012, A&A 541A, 122S), IBIS, and
+IBIS/Veto data.We do not detect any significant counterparts and estimate a
+3-sigma
+upper limit on the 75-2000 keV fluence of 4e-07 erg/cm^2 for a burst
+lasting less than 1 s with a characteristic short GRB spectrum (an
+exponentially cut off power law with alpha=-0.5 and Ep=600 keV)
+occurring at any time in the interval within 300 s around T0. For a
+typical long GRB spectrum (Band function with alpha=-1, beta=-2.5, and
+Ep=300 keV), the derived peak flux upper limit is ~4.1e-07 (9e-08)
+erg/cm^2/s at 1 s (8 s) time scale in 75-2000 keV energy range.

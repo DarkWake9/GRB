@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14377
+SUBJECT: GRB 130418A: Swift detection of a burst with an optical counterpart
+DATE:    13/04/18 19:16:51 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+M. De Pasquale (UCL-MSSL), W. H. Baumgartner (GSFC/UMBC),
+A. P. Beardmore (U Leicester), M. M. Chester (PSU),
+S. T. Holland (STScI), J. A. Kennea (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), N. P. M. Kuin (UCL-MSSL),
+C. B. Markwardt (NASA/GSFC), F. E. Marshall (NASA/GSFC),
+A. Maselli (INAF-IASFPA), P. T. O'Brien (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+B. Sbarufatti (INAF-OAB/PSU), E. Sonbas (NASA/GSFC/Adiyaman Univ.),
+M. C. Stroh (PSU), C. A. Swenson (PSU) and E. Troja (NASA/GSFC/UMCP)
+report on behalf of the Swift Team:
+
+At 19:00:53 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 130418A (trigger=553847).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 149.043, +13.649 which is 
+   RA(J2000) = 09h 56m 10s
+   Dec(J2000) = +13d 38' 58"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with image triggers, the BAT light 
+curve shows no significant features. 
+
+The XRT began observing the field at 19:03:03.2 UT, 129.7 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 149.0377, 13.6654 which is equivalent to:
+   RA(J2000)  = +09h 56m 9.05s
+   Dec(J2000) = +13d 39' 55.4"
+with an uncertainty of 5.3 arcseconds (radius, 90% containment). This
+location is 61 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 138 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	09:56:08.92 = 149.03718
+  DEC(J2000) = +13:40:02.8  =  13.66744
+with a 90%-confidence error radius of about 0.74 arc sec. This position is 7.6
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+14.96 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.03. 
+
+This source was detected on the first image trigger after it came
+within the BAT's field of view, so its start time may be significantly
+before the nominal trigger time.  There is no significant fading
+in the XRT over the ~300 second XRT observation time.  Thus
+it is likely that this is a very long duration event.  The position
+of the source is 47 degrees from the Galactic plane, but that
+doesn't preclude a nearby source.  Further determination of the
+characteristics of the source will await further data analysis. 
+
+Burst Advocate for this burst is M. De Pasquale (m.depasquale AT ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

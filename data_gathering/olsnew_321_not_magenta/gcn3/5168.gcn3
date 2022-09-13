@@ -1,0 +1,61 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5168
+SUBJECT: GRB 060526: Swift/XRT Team refined analysis
+DATE:    06/05/26 22:53:23 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+S. Campana (INAF-OAB), A. Moretti (INAF-OAB), C. Guidorzi
+(Bicocca Univ. & INAF-OAB), G. Chincarini (Bicocca Univ. &
+INAF-OAB), D.N. Burrows (PSU) on behalf of the Swift-XRT team
+report:
+
+We have analysed the first orbit of Swift/XRT data of GRB 060526
+(Campana et al., GCN 5162 and GCN 5163) summing up 1773 s of data
+in Photon Counting (PC) and 334 s in Window Timing (WT) mode,
+respectively. We find a refined XRT position for this burst of:
+
+RA(J2000)  = 15 31 18.41
+Dec(J2000) = +00 17 05.7
+
+with an error of 3.6 arcseconds radius (90% containment).
+This position is 2.8 arcseconds from the XRT position quoted by
+Campana et al. (GCN 5163) and 1.1 arcseconds from the UVOT position.
+
+The afterglow shows several states: the XRT started observing the
+GRB at T+73 s. For the first 53 s (up to T+126 s) the XRT remained
+in WT mode with a slowly decaying count rate (power law decay of
+-1.4+/-0.9, 90% confidence). Then it switched to PC mode continuing
+its slow decay up to T+206 s when a bright flare carry back the
+XRT in WT mode. The flare is made of two flares with FRED-like
+shape. The first peak reached >335 c/s (being slightly piled-up at
+level count rate level) around T+240 s and the second about 200 c/s
+around T+295 s. The decay from the first peak is very steep (as
+measured from T), with an power law index of -7.7+/-0.7 and also
+from the second with -8.6+/-0.2. The second flare shows some
+structures close to the peak.
+The PC data show the latest stages of the flare and then a break
+to a much flatter decay (-0.7+/-0.5) around 600 s (further data
+will improve the determination of the time of this break).
+This does not allow a first prediction of the flux at one day.
+
+ From the spectral point of view, PC data before and after the flare
+are consistent with a simple power law (photon index 1.8+/-0.2) at
+a column density consistent with the Galactic value NH<1x10^21 cm^-2
+(NH_g=6x10^20 cm^-2).
+Flux in the first WT data is 1.7x10^-10 erg s^-1 cm^-2 (unabsorbed
+0.3-10 keV) and in the last PC data 1.6x10^-10 erg s^-1 cm^-2.
+Considering pre- and post-flare WT and PC data some spectral evolution
+is observed, this can be explained with a spectral softening or a
+column density decrease.
+The spectrum of the first flare (excluded the brightest piled-up
+portion) is consistent with a simple power law with photon index
+around 1.8 and a column density larger than the values reported above,
+likely indicating a fast evolving cut-off power law.
+The second flare is much softer with with a power law photon index
+around 2.6. Also in this case the column density is slightly larger
+than the previous values. Being not piled-up we can estimate a mean
+0.3-10 keV unabsorbed flux of 8x10^-9 erg s^-1 cm^-2 (from T+215 to
+T+304 s).
+
+This Circular is an official product of the Swift XRT Team.
+

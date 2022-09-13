@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19652
+SUBJECT: GRB 160703A: MITSuME Akeno Optical Observations 
+DATE:    16/07/04 17:56:53 GMT
+FROM:    Taketoshi Yoshii at Tokyo Tech  <yoshii.t.ac@m.titech.ac.jp>
+
+Y. Tachibana,  Y. Saito, Y. Muraki, Y. Ono, T. Fujiwara, T. Yoshii, K. Saisho,
+H. Ohuchi, Y. Yano, S. Harita, Y. Yatsu, and N. Kawai (Tokyo Tech)
+report on behalf of the MITSuME collaboration:
+
+We report the optical follow-up observations of GRB 160703A (S. B. Cenko et al., GCN Circular #19645) with a tricolor camera (g', Rc, and Ic) attached to the MITSuME 50 cm telescope of Akeno Observatory, Yamanashi, Japan.
+
+The observation started at 2016-07-03 12:10:54 UT (~30 sec after the burst).
+Although the first eight frames (each exposure time is 30 sec) are covered by thick clouds, we detected a bright optical transient source in the refined BAT error circle (A. Y. Lien et al., GCN Circular #19648)  ~5 min after the trigger.
+The position of the counterpart is
+RA(J2000) = 19h 09m 40.1s
+Dec(J2000) = +36d 55' 08.1"
+with an uncertainty of ~0.5 arc sec. 
+
+Nearby the optical transient, a known source N2JN062852 (RA, Dec = 19h 09m 40.212s, +36d 55' 06.9816”)
+catalogued in GSC2.3 is located. 
+In the photometric analysis, we ignored the contamination from the nearby source because its 
+flux is substantially lower (Fmag = 20.27) comparing with the optical counterpart.
+The results were shown below:
+
+  T0+[min]    MID-UT    T-EXP[sec]    g’    g’_err    Rc    Rc_err    Ic    Ic_err
+----------------------------------------------------------------------------------------------------------------------
+   5.82          12:15:54        30          15.46    0.06        14.59    0.06        14.25    0.09
+   58.35        13:08:26      3900        18.18    0.05        17.08    0.04        16.87    0.06
+   330.52      15:40:36      7680        19.13    0.06        17.96    0.05        17.61    0.06
+----------------------------------------------------------------------------------------------------------------------
+  T0+ : Elapsed time after the burst
+  T-EXP: Total Exposure time
+
+We used GSC2.3 catalog for flux calibration.
+Further analysis is ongoing.
+

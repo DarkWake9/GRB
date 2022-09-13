@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8669
+SUBJECT: Possible GRB 081211B: Swift/UVOT Upper Limits
+DATE:    08/12/15 17:27:44 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/GSFC/USRA) reports, on the behalf of the Swift
+UVOT team:
+
+       The Swift/UVOT observed the field of the possible BAT Slew
+Survey burst GRB 081211B (Copete et al., GCN Circ. 8661) starting 81.7
+ks after the start of the slew that this source was detected in.  We
+find no new source, relative to the DSS, USNO-B1.0, or 2MASS, or a
+variable source, inside the UVOT-enhanced XRT error circle (Page et
+al. 2008, GCN Circ. 8666).  Preliminary 3-sigma upper limits for
+detecting a source in the co-added images, using an aperture-corrected
+2.5 arcsecond radius circular aperture, are
+
+Filter   T_start   T_stop  Exp(s)      Mag
+------------------------------------------
+    v      81,651  132,774    2318    >21.4
+    b      85,687  126,980    1770    >22.5
+  uvm2    132,780  133,265     478    >20.8
+  uvw2     87,513  128,664    1426    >21.8
+  white    86,600  127,893    1770    >23.1
+------------------------------------------
+
+The quoted upper limits have not been corrected for the expected
+Galactic extinction along the line of sight corresponding to a
+reddening of E_{B-V} = 0.01 mag (Schlegel et al., 1998, ApJS, 500,
+525).  All photometry is on the UVOT photometry system described in
+Poole et al. (2008, MNRAS, 383, 627).
+

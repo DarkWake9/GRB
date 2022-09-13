@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25706
+SUBJECT: LIGO/Virgo S190910d: Candidates from the Zwicky Transient Facility
+DATE:    19/09/10 09:16:46 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Shreya Anand (Caltech), Igor Andreoni (Caltech), Maitreya Khandagale (IITB), Kunal Deshmukh (IITB), Varun Bhalerao (IITB), Pradip Gatkine (UMD), Viraj Karambelkar (Caltech), Yashvi Sharma (Caltech), Robert Stein (DESY), Mansi Kasliwal (Caltech), Tomas Ahumada (UMD), Michael Coughlin (Caltech), Jakob Nordin (HU Berlin), Leo P. Singer (NASA GSFC), Eric Bellm (UW)
+
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations
+
+We observed the localization region of the gravitational wave trigger S190910d (LVC et al. GCN 25695) with the Palomar 48-inch telescope equipped with the 47 square degree ZTF camera (Bellm et al. 2019, Graham et al. 2019). The tiling was optimally determined and triggered using the GROWTH Target of Opportunity marshal (Coughlin et al. 2019a, Kasliwal et al. 2019b). We started obtaining target-of-opportunity observations in the g-band and r-band beginning at 2019-09-10 02:58:42.5 UT. We covered 34% of the enclosed probability based on the bayestar map in 2118 sq deg mapped over 90 minutes of observations. Each exposure was 30s with a typical depth of 20.8 mag.
+
+The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). AMPEL (Nordin et al. 2019) and Kowalski (Duev et al. 2019) was used to search the alerts database for candidates. After rejecting stellar sources (Tachibana and Miller 2018) and moving objects and applying machine learning algorithms (Mahabal et al. 2019), and after removing candidates with history of variability prior to the merger time, the following high-significance transient candidates were identified by our pipeline in the 90% localization of the bayestar skymap (LVC et al. GCN 25695).
+
++--------------------------------------------------------------------------------+
+| ZTF Name     | IAU Name  | RA (deg)   | DEC (deg) | JD         | Filter | Mag  | 
++--------------------------------------------------------------------------------+
+| ZTF19abyfhov | AT2019pvu | 260.693429 | 11.424436 | 2458736.70 | r      | 20.3 | 
+| ZTF19abyfhaq | AT2019pvv | 303.148593 | 49.392607 | 2458736.70 | r      | 20.5 |
+| ZTF19abyfbii | AT2019pvz | 255.441620 | 11.602254 | 2458736.70 | r      | 20.2 |
+| ZTF19abyfazm | AT2019pwa | 290.535876 | 48.069162 | 2458736.70 | r      | 18.2 |
++--------------------------------------------------------------------------------+
+
+Amongst our candidates, we note that ZTF19abyfazm is a blue transient (g-r~0.4) with the last non-detection one day before the merger.  There is a faint object detected in Pan-STARRS images about 2.5 arcsec from the source.
+
+Also ZTF19abyfbii is a candidate of interest because of its proximity to a galaxy with SDSS photometric redshift z=0.124, corresponding to a luminosity distance of about 580 Mpc.
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert database searches are done by AMPEL (Nordin et al. 2019). Alert filtering and follow-up coordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).
+
+

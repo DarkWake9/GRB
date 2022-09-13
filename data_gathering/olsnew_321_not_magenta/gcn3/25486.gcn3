@@ -1,0 +1,159 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25486
+SUBJECT: LIGO/Virgo S190814bv: Final list of candidates from the DESGW coadd analysis from the week long search campaign
+DATE:    19/08/27 08:22:13 GMT
+FROM:    M. Soares-Santos at Fermi Lab  <marcelle.soares.santos@gmail.com>
+
+Marcelle Soares-Santos, James Annis, Ken Herner, Antonella Palmese, Alyssa Garcia, Douglas Tucker, Sahar Allam, Robert Morgan, Tristan Bachmann, Nora Sherman, Alfredo Zenteno, Kathy Vivas, Clara Martinez, Tamara Davis, Melissa Butner, Matt Wiesner, Luidhy Santana, Ósmar Rodríguez, Felipe Olivares, Nicolas meza retamal, Jonathan Quirola, Sean Points, Regis Cartier, Chris Lidman, Umang Malik, Andre Luiz Figueiredo, Jhon Joel Yana Galar
+
+
+*On behalf of the DESGW Team
+
+
+We present our assessment of transients from our 5 nights of DECam/Blanco data. We find 23 candidate counterparts, 18 of which are new reports to the GCN. This is a complete catalog of candidates from our data. We provide a ranking of candidates based on detection images, light curves and host galaxy properties to allow workers to prioritize observations. Our reading of the GCN archive suggests this note discusses all remaining viable candidates.
+
+
+The black hole/neutron star merger S190814bv reported by the LIGO/VIRGO Collaboration  (GCN Circular No. 25324, and updated GCN Circular No. 25333) has a sky localization inside the DES footprint. The DESGW collaboration used the DECam on the CTIO Blanco telescope to image the region of interest five nights within one week of the merger (20190814, 20190815, 20190816, 20190817, 20190820).  Each night we obtained several i & z band images of an area containing 92% of the spatial localization, with images of the same place on the sky separated by either ~30 to 60 minutes. The individual images have 10 sigma PSF limiting magnitudes of i: 19.8 to 22.7 with median=21.4; z: 19.3 to 22.2 with median=21.5, depending on conditions, which were poor (full moon, clouds, poor seeing) the first few nights but improved over time. The data were immediately made public.
+
+
+In the DESGW reduction, we coadd all images from a given night, bandpass, & location to improve S/N. Images were processed by our difference imaging pipeline (Herner et al. 2017; see also Soares-Santos et al. 2015, 2017; Doctor et al. 2018; Morgan et al. 2019 for recent applications) using DES images as templates. The initial list of difference objects were through a machine learning code (Goldstein et al. 2015) to reject subtraction artifacts. Candidates were selected from the new list by requiring  >=2 high S/N detections, rejecting asteroids and many spurious objects. We then subjected the candidate list to a vetting process. We reject variable stars and quasars via identification of pre-existing stellar objects in the template images as well as matching against GAIA DR2 and the MILLIQUAS catalog. Asteroids are rejected by our 2 images per night observing strategy and by matching against the Minor Planet Center. The final vetting step was a human inspection of every remaining candidate’s difference image stamps, rejecting any remaining bad subtractions. The remaining candidates, 23 in all, make up the full catalog of candidates by DESGW on this event.
+
+
+The table below is ordered from highest priority to lowest. PRI is a discretized ranking showing grouping of similar priorities and hence our confidence that the transient is related to S190814bv.
+
+
+
+Table 1: Candidates
+
+
+NAME    | INTERNAL_NAME  | RA | DEC   | MJD | MAG | BAND | PRI
+
+2019omt |  desgw-190814v | 14.8614 | -25.9948 |  58716.220 | 22.9 | z | 1
+
+2019onj | desgw-190814ab | 11.8584 | -25.4486 |  58716.182 | 22.4 | z | 1
+
+2019odc |  desgw-190814r | 11.5070 | -25.4592 |  58716.234 | 22.6 | i | 1
+
+2019omw |  desgw-190814y | 12.2344 | -23.1701 |  58716.212 | 22.8 | i | 1
+
+2019nzr |  desgw-190814m | 11.8392 | -24.5768 |  58716.234 | 22.9 | z | 1
+
+2019ntr |      DG19sbzkc | 15.0078 | -26.7143 |  58716.198 | 21.4 | z | 1
+
+2019nxd |  desgw-190814i | 10.6858 | -24.9556 |  58716.234 | 22.5 | i | 1
+
+2019ntm |      DG19jqzkc | 12.0184 | -23.7975 |  58716.177 | 21.7 | z | 2
+
+2019omx |  desgw-190814z | 24.1844 | -33.3027 |  58716.230 | 22.1 | z | 2
+
+2019obc |  desgw-190814q | 14.5667 | -24.1397 |  58716.193 | 21.8 | z | 2
+
+2019ntp |      DG19gcwjc | 12.5503 | -26.1979 |  58716.182 | 21.3 | z | 2
+
+2019nuq |      DG19kxdnc | 11.1440 | -22.0291 |  58716.209 | 23.4 | z | 2
+
+2019nte |  desgw-190814f | 23.5574 | -31.7217 |  58716.223 | 22.4 | i | 2
+
+2019oac |      DG19zujoc | 13.2621 | -21.6513 |  58716.214 | 21.6 | z | 2
+
+2019nzd |      DG19kzvqc | 14.5269 | -24.8373 |  58716.220 | 22.5 | z | 3
+
+2019omu |  desgw-190814w | 23.4954 | -34.3389 |  58716.230 | 22.4 | z | 3
+
+2019omv |  desgw-190814x | 24.9784 | -33.3837 |  58716.230 | 22.6 | z | 3
+
+2019nys |  desgw-190814k | 14.4871 | -24.5668 |  58716.220 | 22.2 | z | 3
+
+2019opp | desgw-190814ac | 14.4094 | -25.2792 |  58716.220 | 22.3 | z | 3
+
+2019oks |  desgw-190814u | 15.5347 | -24.9060 |  58716.220 | 22.5 | z | 3
+
+2019okr |  desgw-190814t | 11.8487 | -25.4585 |  58716.234 | 22.1 | i | 3
+
+2019nxe |  desgw-190814j | 11.5701 | -24.3726 |  58716.177 | 22.4 | z | 3
+
+2019oab |  desgw-190814o | 14.7475 | -25.7702 |  58716.220 | 23.2 | z | 3
+
+
+All magnitudes reported are observed magnitudes.  The MJD is the date of observation.
+
+
+We encourage spectroscopic followup of these candidates.
+
+
+In order to help  plan followup strategies,  we provide a table with information related to our prioritization. In particular, we provide each candidate’s host galaxy, including how far away their redshifts are from S1901814bv’s distance (NSIG). We noticed during visual inspection that a few candidates reside within a few arcseconds of their host’s nucleus. Our analysis does not support accurate detection of a counterpart on top of an AGN, so we use the DES data to flag candidates that are close to the center of a galaxy with AGN-like colors.  We also provide the probability of each transient’s evolution being consistent with a non-flat light curve (LC) and the LVC localization probability covered by the exposure in which that candidate was detected (GWPROB).
+
+
+
+Table 2: Host galaxies and other information
+
+
+NAME    | HOST                         | Z | ZERR | NSIG | SEP | AGN | LC | GWPROB
+
+2019omt | GALEXMSC J005926.52-255943.1   | 0.07 | 0.09 | 0.1 | 2.3 | 0 | 0.95 | 0.68
+
+2019onj | GALEXASC J004724.99-252657.2   | 0.68 | 0.29 | 2.1 | 12.4 | 0 | 0.66 | 2.81
+
+2019odc | 2MASS J00460172-2527330        | 0.08 | 0.02 | 1.2 | 2.0 | 1 | 1.00 | 12.73
+
+2019omw | DES J004855.43-231011.4        | 0.68 | 0.36 | 1.7 | 11.4 | 0 | 0.75 | 1.29
+
+2019nzr | MRSS 474-057474                | 0.17 | 0.18 | 0.6 | 1.0 | 1 | 1.00 | 7.47
+
+2019ntr | DES J010001.73-264252.6        | 0.19 | 0.12 | 1.1 | 2.7 | 0 | 0.91 | 0.55
+
+2019nxd | DES J004245.24-245716.88       | 1.34 | 0.49 | 2.6 | 9.5 | 0 | 0.83 | 0.27
+
+2019ntm | MRSS 474-053630                | 0.51 | 0.20 | 2.3 | 0.7 | 1 | 0.83 | 5.90
+
+2019omx | DES J013644.21-331810.1        | 0.59 | 0.28 | 1.9 | 0.6 | 0 | 0.83 | 2.30
+
+2019obc | DES J005815.91-240823.4        | 0.28 | 0.18 | 1.2 | 1.5 | 0 | 0.79 | 0.57
+
+2019ntp | GALEXASC J005012.14-261153.4   | 0.18 | 0.04 | 2.8 | 1.2 | 0 | 0.45 | 2.79
+
+2019nuq |                                | | | | | 1 | 0.65 | 1.03
+
+2019nte | GALEXASC J013413.83-314318.3   | 0.07 | 0.00 | 1.0 | 0.6 | 1 | 0.66 | 0.60
+
+2019oac | 2MASS J00530289-2139035        | 0.14 | 0.02 | 4.0 | 1.6 | 0 | 0.75 | 0.22
+
+2019nzd | DES J005806.51-245015.7        | 0.43 | 0.15 | 2.5 | 1.6 | 0 | 0.35 | 0.21
+
+2019omu | GALEXASC J013358.90-342020.7   | 0.66 | 0.03 | 22.1 | 1.7 | 0 | 0.53 | 0.65
+
+2019omv | DES J013954.76-332300.4        | 0.36 | 0.02 | 11.5 | 1.2 | 0 | 0.54 | 0.33
+
+2019nys | DES J005756.95-243400.6        | 0.41 | 0.06 | 5.9 | 0.7 | 1 | 0.56 | 0.35
+
+2019opp | DES J005738.22-251645.6        | 0.42 | 0.07 | 5.1 | 0.7 | 1 | 0.67 | 0.24
+
+2019oks | DES J010208.25-245422.0        | 0.13 | 0.10 | 0.7 | 0.9 | 1 | 0.54 | 0.02
+
+2019okr |                                | | | | | 0 | 0.38 | 0.01
+
+2019nxe | APMUKS(BJ) B004349.14-243846.0 | 0.21 | 0.21 |  0.7 | 2.5 | 0 | 0.49 | 0.00
+
+2019oab | DES J005859.33-254612.8        | 0.53 | 0.19 | 2.4 | 0.2 | 1 | 0.38 | 0.00
+
+
+In the table above, Z and ZERR are the host redshift and its uncertainty, from the DES photometric redshift catalog. In the few cases where a spectroscopic redshift is publicly available, we provide that instead of photometric estimates. SEP is the candidate to host galaxy separation, in arcseconds. AGN denotes where a PSF magnitude of the host galaxy has DES colors consistent with DES PSF colors of the MILLIQUAS AGN in the DES footprint.
+
+
+Prior to this report, the GCN archive contained 12 viable candidates, all from DECam data. Five of them pass our selection process and are included in the list above: AT2019obc, AT2019nte, AT2019ntp, AT2019ntr, AT2019nuq.
+
+
+The following 7 previously reported candidates fail our quality criteria: AT2019nqz, AT2019nsm, AT2019nts, AT2019nuj, AT2019nuk, AT2019nul, AT2019nun. We suggest that these are unrelated to S190814bv.
+
+
+Spectroscopic followup is required to confidently confirm or reject the association of the remaining viable candidates with the black hole-neutron star merger event discovered by the LVC.
+
+
+The DECam Search & Discovery Program for Optical Signatures of Gravitational Wave Events (DESGW) is carried out by the Dark Energy Survey (DES) collaboration in partnership with wide ranging groups in the community. DESGW uses data obtained with the Dark Energy Camera (DECam), which was constructed by the DES collaboration with support from the Department of Energy and member institutions, and utilizes data as distributed by the Science Data Archive at NOAO. NOAO is operated by the Association of Universities for Research in Astronomy (AURA) under a cooperative agreement with the National Science Foundation.
+
+
+*The DESGW Collaboration:
+
+
+Sahar Allam (Fermilab), James Annis (Fermilab), Iair Arcavi (Tel Aviv U), Tristan Bachmann (U Chicago), Paulo Barchi (INPE & Brandeis U), Thomas Beatty (U of Arizona) Keith Bechtol (U of Wisconsin-Madison), Federico Berlfein (Brandeis U), Antonio Bernardo (U of Sao Paulo), Dillon Brout (U Penn), Robert Butler (Indiana U), Melissa Butner, (Fermilab), Annalisa Calamida (STScI), Hsin-Yu Chen (Harvard U), Chris Conselice (U of Nottingham), Carlos Contreras (STScI), Jeff Cooke (Swinburne U), Chris D’Andrea (U Penn), Tamara Davis (U Queensland), Reinaldo de Carvalho (UNICSUL), H. Thomas Diehl (Fermilab), Zoheyr Doctor (U Chicago), Alex Drlica-Wagner (Fermilab), Maria Drout (U Toronto), Maya Fishbach (U Chicago), Francisco Forster (U de Chile), Ryan Foley (UCSC), Joshua Frieman (Fermilab & U Chicago), Chris Frohmaier (U of Portsmouth), Ori Fox (STScI), Alyssa Garcia (Brandeis U), Juan Garcia-Bellido (U Autonoma de Madrid), Mandeep Gill (SLAC & Stanford U), Robert Gruendl (NCSA), Will Hartley (U College London), Kenneth Herner (Fermilab), Daniel Holz (U Chicago), Jorge Horvath (U of Sao Paulo), D. Andrew Howell (Las Cumbres Observatory), Richard Kessler (U Chicago), Charles Kilpatrick (UCSC), Nikolay Kuropatkin (Fermilab), Ofer Lahav (U College London), Huan Lin (Fermilab), Andrew Lundgren (U of Portsmouth), Martin Makler (CBPF), Clara Martinez-Vazquez (CTIO/NOAO), Curtis McCully (Las Cumbres Observatory), Mitch McNanna (U of Wisconsin-Madison), Robert Morgan (U of Wisconsin-Madison), Gautham Narayan (STScI), Eric Neilsen (Fermilab), Robert Nichol (U of Portsmouth), Antonella Palmese (Fermilab), Francisco Paz-Chinchon (NCSA & UIUC), Matthew Penny (OSU), Maria Pereira (Brandeis U), Sandro Rembold (UFSM), Armin Rest (STScI & JHU), Livia Rocha (U Sao Paulo), Russell Ryan (STScI), Masao Sako (U Penn), Samir Salim (Indiana U), David Sand (U of Arizona), Luidhy Santana-Silva (Valongo Observatory), Daniel Scolnic (Duke U), Nora Sherman (Fermilab), J. Allyn Smith (Austin Peay State U), Mathew Smith (U of Southampton), Marcelle Soares-Santos (Brandeis U), Lou Strolger (STScI), Riccardo Sturani (UFRN), Mark Sullivan (U of Southampton), Masaomi Tanaka (NAOJ), Nozomu Tominaga (Konan U), Douglas Tucker (Fermilab), Yousuke Utsumi (Stanford U), Stefano Valenti (UC Davis), Kathy Vivas (NOAO/CTIO), Alistair Walker (NOAO/CTIO), Sara Webb (Swinburne U), Matt Wiesner (Benedictine U), Brian Yanny (Fermilab), Michitoshi Yoshida (NAOJ), Alfredo Zenteno (NOAO/CTIO)
+

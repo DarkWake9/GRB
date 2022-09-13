@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16597
+SUBJECT: Swift observations of a flare from UX Ari
+DATE:    14/07/16 20:44:36 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+H. A. Krimm (CRESST/GSFC/USRA), S. A. Drake (CRESST/GSFC/USRA), L. M. Z. Hagen 
+(PSU), P. Kuin (UCL/MSSL), R. Osten (STScI), C. Pagani (U Leicester), D. M. 
+Palmer (LANL)
+
+The Swift team reports on its observations of a flare from the RS CVn star UX 
+Ari.  This source triggered the Swift/BAT onboard (Baumgartner, et al., GCN 
+Circ. 16594) and observations were carried out by all Swift instruments.  The 
+trigger time was 21:14:11 UT on 15 July 2014.
+
+For the BAT, using the event data set from T-239 to T+963 sec from the recent 
+telemetry downlink, the time-averaged spectrum from T+0 to T+320 sec (with some 
+short data gaps) is best fit by a simple power-law model.  The power law index 
+of the time-averaged spectrum is 2.94 +- 0.38.  The fluence in the 15-150 keV 
+band is 7.2 +- 1.4 x 10^-7 erg/cm2.  All the quoted errors are at the 90% 
+confidence level.
+
+The BAT mask weighted light curve shows a flat peak from T-40, when the source 
+came into the BAT field of view, until T+963, at the end of the event data.  The 
+source was already in outburst when the observations started. Data from the 
+Swift/BAT transient monitor show activity from the source beginning at 15 July 
+2014, 19:38:37 UT (96 minutes before the trigger) and continuing until 16 July 
+2014, 00:48:37 UT.  There was no detection in an observation starting at 
+starting at 01:58 UT on July 16. The peak rate in the monitor (15-50 keV) is 
+0.03 ± 0.004 ct/s/cm^2 (~135 mCrab).
+
+The XRT observations consist of a total of 6.0 ks of Windowed Timing mode data.
+The XRT light curve can be modeled with a broken power-law, with an initial 
+shallow decay with index alpha1 = 0.06 (+/-0.02) followed by a steeper decay 
+after a break at T0+4.3 ks with an index alpha1 = 0.92 (+/-0.01)
+The XRT spectrum can be fitted with an absorbed two APEC model, with 
+temperatures kT1 = 1.66 (+0.04, -0.05) keV and kT2 = 7.84 (+/-0.20) keV and a 
+best-fitting absorption column of 3.8 (+/-0.1) x 10^20 cm^-2. The observed 
+(unabsorbed) 0.3-10 keV flux is 4.37 x 10^-9 (4.51 x 10^-9) erg cm^-2 s^-1. The 
+temperatures are consistent with what is expected for a large flare from this 
+type of source.  The column density to UX Ari (based on EUVE and other soft 
+X-ray observations) is typically a few times 10^18 cm^-2, so the column derived 
+from the flare spectrum, if real, would imply a major associated coronal mass 
+ejection.
+
+UX Ari is too bright for UVOT aperture photometry, and during the flare 
+initially exceeded the brightness limits for using UVOT readout streak 
+photometry (Page et al, 2013, MNRAS Vol. 436, p. 1684.). The lower limits to the 
+flare brightness exceeded uvw2 < 8.80, uvm2 < 8.27, uvw1 < 8.86. On 2014-07-15 
+at 22:50 UT the uvm2 magnitude had faded within the observable range, with 
+uvm2=8.46+/-0.13, while on 2014-07-16 at 1:43UT the magnitude was uvm2=9.64+/-0.24.
+
+We note that the recent flare was also detected by MAXI (Kawagoe et al., ATel 
+#6315). This source has been detected several times earlier in the BAT as 
+reported by Krimm et al. (ATel #5907), the most recent being in mid-February 
+2014.  The only other on board trigger was on 7 January 2012, reaching a peak of 
+0.013 ± 0.002 ct/s/cm^2 (~60 mCrab).
+
+We note that this Notice has also been posted as ATel #6319.
+

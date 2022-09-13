@@ -1,0 +1,24 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23736
+SUBJECT: The Swift-XRT WT mode spectrum of GRB190114C
+DATE:    19/01/16 11:57:45 GMT
+FROM:    Andy Beardmore at U Leicester  <ab271@leicester.ac.uk>
+
+A. P. Beardmore (U. Leicester) reports on behalf of the Swift-XRT Team:
+
+The Swift-XRT Windowed Timing (WT) mode spectrum of GRB 190114C shows
+an apparent strong excess of emission below ~0.8 keV when compared to
+a simple absorbed powerlaw model. The excess is not thought to be
+intrinsic to the GRB (e.g. an additional spectral component), but is
+instead caused by a well-known instrumental effect whereby charge from
+deep charge traps (formed by radiation damage to the CCD) is released
+on a timescale comparable to the WT readout time (1.78ms). The
+released charge is subsequently detected in trailing readout rows
+as additional low energy events, causing excess emission to be seen at
+low energies (see http://www.swift.ac.uk/analysis/xrt/digest_cal.php#trail).
+The excess is more apparent in strongly absorbed sources such as this.
+
+The XRT Team is developing software to identify and remove occurences
+of such trailing charge from WT data. In the meantime, the WT spectra
+can be reliably modelled above ~0.8 keV.
+

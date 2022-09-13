@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27010
+SUBJECT: Swift J0840.7-3516 (AKA GRB 200205A): Swift-BAT refined analysis
+DATE:    20/02/07 15:48:03 GMT
+FROM:    Sibasish Laha at GSFC  <sibasish.laha@nasa.gov>
+
+M. Stamatikos (OSU), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), P. A. Evans (U. Leicester),
+H. A. Krimm (NSF), S. Laha (GSFC/UMBC),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+255 sec from the recent telemetry downlink,
+we report further analysis of BAT source Swift J0840.7-3516 (trigger #954304)
+(Evans et al., GCN Circ. 26982).  The BAT ground-calculated position is
+RA, Dec = 130.168, -35.275 deg which is
+   RA(J2000)  =  08h 40m 40.4s
+   Dec(J2000) = -35d 16' 30.9"
+with an uncertainty of 3.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 94%.
+
+The mask weighted light curve shows some weak emission which started before the source
+ came into BAT field of view (which is ~ T-100 sec).
+Kennea et al. 2020 (Atel #13452) discuss the properties of this newly discovered X-ray transient.
+The lower limit of the duration of the burst as detected by BAT is ~ 200 sec.
+The source went out of BAT field of view at ~T+260 sec, with a possibility of continuing emission
+which may be detected by other telecopes.
+
+
+The time-averaged spectrum from -81.88 to 132.86 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 0.84 +- 0.91,
+and Epeak of 31.5 +- 8.4 keV (chi squared 67.17 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is (1.3 +- 0.1) x 10^-06 erg/cm2
+and the 1-sec peak flux measured from T-81.90 sec in the 15-150 keV band is
+0.3 +- 0.2 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 2.26 +- 0.17 (chi squared 77.17 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/954304/BA/
+
+

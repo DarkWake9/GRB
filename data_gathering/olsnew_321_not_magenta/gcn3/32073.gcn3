@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32073
+SUBJECT: Konus-Wind detection of GRB 220519A
+DATE:    22/05/20 20:10:25 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A.Ridnaia, D. Frederiks, A.Lysenko, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline,
+on behalf of the Konus-Wind team, report:
+
+The short-duration GRB 220519A
+(IPN triangulation: Kozyrev at al., GCN Circ. 32072)
+triggered Konus-Wind at T0=42339.403 s UT (11:45:39.403).
+
+The burst light curve shows a single emission pulse,
+which starts at T0-0.1 s and has a total duration of ~0.7 s.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB220519_T42339/
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.66(-0.02,+0.48)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0-0.048 s,
+of 6.05(-3.24,+3.66)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Since the main fraction of the burst emission was detected
+before the trigger, the spectral analysis was performed using
+the KW 3-channel light curve data.
+
+Modelling the KW 3-channel time-integrated spectrum
+(measured from T0-0.096 s to T0+0.640 s)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep),
+yields alpha = -0.13(-0.35,+0.44) and Ep = 507(-77,+117) keV.
+
+All the quoted errors are at the 68% confidence level.
+All the quoted values are preliminary.

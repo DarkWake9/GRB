@@ -1,0 +1,37 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4509
+SUBJECT: GRB 060115: Swift detection of a burst
+DATE:    06/01/15 13:54:08 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+G. Tagliaferri (INAF-OAB), S. Barthelmy (GSFC), A. Beardmore (U Leicester),
+D. Burrows (PSU), D. Fox (PSU), N. Gehrels (GSFC), C. Gronwall (PSU),
+J. Kennea (PSU), F. Marshall (GSFC), D. Palmer (LANL), M. Perri (ASDC)
+on behalf of the Swift team:
+
+At 13:08:00 UT, Swift-BAT triggered and located GRB 060115 (trigger=177408).
+The spacecraft slewed immediately.  The BAT on-board calculated location is
+RA,Dec 54.044d,+17.344d {03h 36m 11s,+17d 20' 38"} (J2000), with an uncertainty
+of 3 arcmin (radius, 90% containment, stat+sys).  The BAT light curve shows
+an ~10-sec peak at T_zero.  There is a probable second peak at T+90 sec
+(~20 sec width).  The peak count rate was ~1000 counts/sec (15-350 keV),
+at ~5 seconds after the trigger.  We note that this probably long total duration
+and smooth lightcurve may indicate a high redshift burst.
+
+XRT began observing the field at 13:09:53 UT, 113 sec after the BAT trigger.
+On-board centroiding found a previously uncatalogued bright fading X-ray
+source in the field of view at the following coordinates:
+RA(J2000) = 03h 36m 08.6s
+Dec(J2000)= +17d 20' 46.3"
+This location is 36 arcseconds from the BAT position.  The estimated uncertainty
+is 6 arcseconds (90% confidence radius).  The initial flux was
+4.1E-9 ergs/cm2/s (0.2-10 keV).
+
+UVOT took a finding chart exposure of nominal 200 seconds with the V filter
+starting 119 seconds after the BAT trigger.  No afterglow candidate
+has been found in the initial data products.  Image catalog data
+are not available at this time.  The 8'x8' region for the list of sources
+generated on-board covers 100% of the XRT error circle.  The list of sources
+is typically complete to about 18.0 mag.  No correction has been made
+for the expected visual extinction of about 0.4 magnitudes.
+

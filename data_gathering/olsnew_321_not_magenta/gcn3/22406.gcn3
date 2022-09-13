@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22406
+SUBJECT: Trigger 809374: Swift detection of a possible non-burst faint source
+DATE:    18/02/10 01:05:50 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+J. R. Cummings (NASA/UMBC), A. D'Ai (INAF-IASFPA), V. D'Elia (ASDC),
+A. Deich (PSU), J.D. Gropp (PSU), B. Sbarufatti (PSU) and
+A. Tohuvavohu (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 00:09:15 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a possible faint non-burst source (trigger=809374).  Swift slewed 
+immediately to the location of the source. 
+The BAT on-board calculated location is 
+RA, Dec 299.747, +35.038 which is 
+   RA(J2000)  =  19h 58m 59s
+   Dec(J2000) = +35d 02' 18"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows nothing significant, 
+which is as expected for a 5-minute image trigger. 
+
+The XRT began observing the field at 00:16:09.6 UT, 414.1 seconds after
+the BAT trigger. No credible source was detected in 850 s of promptly 
+downlinked data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 417 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The coverage of the BAT error circle by the 8'x8' region for the list of
+sources generated on-board is uncertain because the large number of sources
+filled the available telemetry. The list of sources is typically complete to
+about 18 mag. No correction has been made for the large, but uncertain,
+extinction expected. 
+
+Since the nature of this trigger is uncertain at the moment we will
+wait for the full dataset to determine if the source is real. 
+

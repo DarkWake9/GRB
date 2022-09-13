@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31187
+SUBJECT: Chandra observation of GW170817 at ~1573 days since merger (Epoch 1 of 4)
+DATE:    21/12/08 14:05:45 GMT
+FROM:    Aprajita Hajela at Northwestern U  <AprajitaHajela2015@u.northwestern.edu>
+
+A. Hajela (Northwestern U.), R. Margutti (UC Berkeley), K. D. Alexander
+(Northwestern U.), T. Laskar (Radboud U.), R. Chornock (UC Berkeley), E.
+Berger (Harvard), V. Ashley Villar (PSU)  report:
+
+We have acquired X-ray observations of GW170817 with the Chandra X-ray
+Observatory (CXO) at t ~ 1573 days (~ 4.3 years) after the binary neutron
+star merger. We report here the preliminary results from the first epoch
+(ObsID 23869; PI Margutti; program 22510329), for a total exposure time of
+28.5 ks (out of a total of 100 ks requested; we will report on the results
+from the complete data set in the next few days).
+
+After aligning the images to a common astrometric solution as described in
+Hajela et al., 2021, we find evidence for X-ray emission at the location of
+GW170817 with a statistical significance of  3.8 sigma (Gaussian
+equivalent) corresponding to a net count-rate of  (1.31 +/- 0.72)e-04 c/s
+(0.5 - 8 keV). Assuming a simple absorbed power-law spectral model with a
+photon index Gamma ~ 1.6, no intrinsic absorption (NH,int = 0 cm-2 as found
+in e.g. Hajela et al. 2019) and Galactic neutral hydrogen column density
+NH,gal = 7.8e+20 cm-2  (Kalberla et al., 2005), we derive an unabsorbed
+flux of ~ 1.7e-15 erg/cm2/s (0.3-10 keV), corresponding to a luminosity of
+~3.4e+38 erg/s at the distance of 40.7 Mpc (Cantiello et al., 2018).
+
+Based on the extrapolation of the jet afterglow models calculated with
+JetFit (gammaB=12) and the universal post jet break models with start time
+tstart=196 days as calculated in Hajela et al., 2021, and the observed
+background, the expected number of photons within a 1” region at the
+location of GW170817  is ~0.55 (0.5-8 keV, exposure time of 28.5 ks). The
+observed number of counts after Xspec filtering corresponds to a ~10%
+chance fluctuation probability for universal post jet break models (~12%
+for JetFit). For this choice of tstart and gammaB,  the total probability
+of observing at least as many counts as those collected for GW170817 at
+t>900 days based on jet afterglow models as a result of a chance
+fluctuation is ~6e-5 (~ 4.0 sigma Gaussian equivalent, for the universal
+post jet break model) and ~3e-5 (~ 4.2 sigma Gaussian equivalent for
+JetFit). The remaining ~75 ks of planned CXO observations will further
+constrain the statistical evidence of an excess of X-ray emission in
+GW170817 with respect to jet afterglow models as reported in Hajela et al.,
+2021.
+
+We thank the entire Chandra team for scheduling and executing these
+observations.

@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16874
+SUBJECT: Swift possible detection of the Be star HD 305560
+DATE:    14/10/02 05:17:13 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+M. De Pasquale (INAF-IASFPA), N. Gehrels (NASA/GSFC),
+H. A. Krimm (CRESST/GSFC/USRA), C. B. Markwardt (NASA/GSFC),
+A. Maselli (INAF-IASFPA), K. L. Page (U Leicester),
+D. M. Palmer (LANL), B. Sbarufatti (INAF-OAB/PSU) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 04:44:43 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a source consistent with the position of the Be star HD 305560
+(trigger=614193).  Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 161.614, -60.581 which is 
+   RA(J2000) = 10h 46m 27s
+   Dec(J2000) = -60d 34' 51"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT lightcurve shows variation due to
+Vela X-1, which is also in the BAT FOV, but no other obvious variation
+that can be attributed to the new source, as is usual for an image trigger. 
+
+The trigger time corresponds to the start of the observation, so the
+source may have been active before it came into the BAT field of view. 
+
+The XRT began observing the field at 04:51:41.0 UT, 417.7 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+fading, uncatalogued X-ray source located at RA, Dec 161.61728,
+-60.56433 which is equivalent to:
+   RA(J2000)  = 10h 46m 28.15s
+   Dec(J2000) = -60d 33' 51.6"
+with an uncertainty of 4.1 arcseconds (radius, 90% containment). This
+location is 60 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 1.42
+x 10^22 cm^-2 (Willingale et al. 2013). 
+
+The initial flux in the 2.5 s image was 1.36e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the U filter
+starting 873 seconds after the BAT trigger. The X-ray source is
+spatially coincident with HD 305560, which is saturated in the UVOT
+image, consistent with its listed U magnitude of 9.5.  Further
+analysis will be needed to determine if there is any variation in
+the optical flux. No new optical source is seen in the 2.7'x2.7'
+sub-image. The typical 3-sigma upper limit has been about 19.2 mag. 
+
+Although high energy emission has not been previously detected
+from HD 305560, its status as a bright Be star in close
+coincidence with the XRT location leads us to believe that this
+star is the detected source. 
+

@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22221
+SUBJECT: GRB 171209A: Swift/UVOT Analysis of the burst
+DATE:    17/12/10 02:13:55 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N. P. M. Kuin (UCL-MSSL) and and S. J. LaPorte (PSU) report on
+behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 171209A
+107 s after the BAT trigger (LaPorte et al., GCN Circ. 22213).
+The proposed possible transient position was confirmed by independent
+observations of the LCO telescopes in Siding Springs in the SDSS r and
+i filters (Guidorzi et al, GCN Corc. 22214) and by the XRT (d'Avanzo
+et al. GCN Circ. 22218).
+
+Due to the nearby star (at 3.7"), the count rates were determined using
+a smaller than normal aperture of 2.5 arcsec, and for the reported
+magnitudes no aperture correction has been applied.
+The brightness is seen to rise to 16th magnitude around 400s past the
+trigger at which time there is a break in the UVOT observations until
+4000s past the trigger at which time the source is seen to be decaying.
+After binning the white filter data in 10s bins, half a magnitude large
+variability is seen up to 175s after the trigger.
+There is no measurable flux in the uvw1,uvm2, and uvw1 filters
+which were observed after the gap, which suggests a redshifted source
+with a redshift in the range z = 1.8 - 2.8.
+
+Preliminary 3-sigma upper limits using the UVOT photometric system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)         Mag
+
+white              175          185          541         17.4
+v                 4630         6265          393         17.3
+b                 4014         5649          393         18.2
+u                  320          350           30         16.5
+w1                5039         6480          201         >19.6
+m2                4834         6470          393         >20.2
+w2                4425         6060          393         >20.1
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.15 in the direction of the burst
+(Schlegel et al. 1998).

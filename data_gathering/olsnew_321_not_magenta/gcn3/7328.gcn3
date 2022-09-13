@@ -1,0 +1,73 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7328
+SUBJECT: Swift-XRT improved positions, and new redshift limits.
+DATE:    08/02/25 11:40:47 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@star.le.ac.uk>
+
+P.A. Evans, A.P. Beardmore, J.P. Osborne and M.R. Goad (U. Leicester),
+J. Kennea and D.N. Burrows (PSU) and N. Gehrels (NASA/GSFC) report on
+behalf of the Swift-XRT team:
+
+The Swift-XRT team announces the availability of two new products:
+significantly improved `enhanced' XRT positions, including promptly
+available positions; and prompt XRT data analysis, including nH
+estimates and redshift limits.
+
+1) Improved XRT positions.
+
+The technique of using the UVOT as a super-star-tracker to improve XRT
+positions of GRBs was presented by Goad et al. (2007, A&A, 476, 1401).
+We have made improvements to this process, reducing the typical position
+uncertainty by a further 30-50% in radius. We now find positions with
+90% confidence error radii <2" 90% of the time. The percentage of
+Swift-observed GRBs with enhanced XRT positions has also risen from ~55%
+to ~70%. To achieve this we use more UVOT filters and more Swift
+observations per burst, and other algorithm improvements (see
+http://www.swift.ac.uk/xrt_positions/changes.php).
+
+The table of XRT GRB positions at http://www.swift.ac.uk/xrt_positions
+has been updated using the new software. The old table of positions is
+still available at http://www.swift.ac.uk/xrt_positions/v1/, this will
+not be updated with new GRBs.
+
+The new software can also be used to enhance the promptly available
+ground-calculated XRT positions: those produced within ~20 minutes of a
+trigger from the TDRSS single pixel Photon Counting mode event (SPER)
+data, and reported in the first GCN circular from the Swift team and via
+the GCN Notices system. These SPER positions are not as precise as those
+described above which use the full ground-based data set (available ~2-3
+hours post-trigger), however the 90% confidence position error radius is
+<3" 90% of the time which represents a significant improvement on the
+`standard' positions available at this early time.
+
+A full table of prompt positions is available at
+http://www.swift.ac.uk/sper, this table updates automatically as soon as
+new positions are deduced. SPER-derived positions are distributed
+automatically as GCN Position Notices, and the positions determined from
+ground data will be announced in automatic GCN Circulars (see Osborne et
+al., GCN Circ. 6726, for details).
+
+Full documentation of the enhancement process, including verification of
+the error-circle radius, is available at
+http://www.swift.ac.uk/xrt_positions/docs.php
+and for the prompt positions further information is available at
+http://www.swift.ac.uk/sper/docs.php.
+
+2) Prompt data analysis.
+
+We have developed tools to produce light curves and spectra from the
+promptly available SPER data. The light curve will be used by the XRT
+team to rapidly determine whether a source is fading or variable; the
+spectra will be used to measure the column density towards the GRB. If
+the column density is in excess of the Galactic value we use the
+relation given in Grupe et al. (2007, AJ, 133, 2216) to derive an upper
+limit on the redshift of the GRB. We use the 90% confidence lower limit
+on the excess column. If this provides a limit in the range 2-5, as it
+does for 18% of GRBs, we will quote it in the initial GCN circular.
+
+A summary page for each GRB with prompt event data, showing the prompt
+position, light curve and spectrum, can be found at
+http://www.swift.ac.uk/sper/ which also shows the XRT-derived redshift
+limits. Full documentation of the prompt data analysis and verification
+of the results is here as well.
+

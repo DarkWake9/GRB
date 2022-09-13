@@ -1,0 +1,39 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4757
+SUBJECT: GRB 060211A:  Further refined analysis of the Swift burst
+DATE:    06/02/13 18:39:23 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+H. Krimm (GSFC/USRA), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/ORAU), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (GSFC/UMD), C. Hurkett (U Leicester),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/ORAU), G. Sato (ISAS), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the data set from T-300 to T+303 sec from a recent telemetry
+downlink, we report further analysis of the results from BAT GRB 060211A
+(trigger #181126) (Hurkett, et al., GCN 4736, Sato, et all, GCN 4751).
+The BAT ground-calculated position is  RA,Dec = 58.380, 21.489  deg
+{3h 53m 31.1s, 21d 29' 20.0"} (J2000) +- 1.5 arcmin, (radius,
+sys+stat, 90% containment).  The partial coding was 100%.
+
+The mask-weighted lightcurve shows that this was a very long burst.
+There was a weak, soft precursor starting at T-180 secs and lasting,
+in the lowest energy band, until T-90 secs.  There is another episode
+of weak emission from T-10 to T+50, and then two prominent peaks
+from T+50 to T+100 and from T+130 to T+180 secs.  The first of
+the main peaks is harder than the second.  There is no significant
+emission beyond T+190 secs.  T90 (15-350 keV) is (126 +- 5) sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T+47.8 to T+191.0 is best fit by
+a power law with an exponential cutoff.  This fit gives a photon
+index of 0.85 +- 0.53, and Epeak of 58.3 +- 13.2 keV (chi squared 59
+for 56 d.o.f.).  For this model the total fluence in the 15-150 keV band
+is (1.5 +- 0.1) x 10^-06 erg/cm2 and the 1-sec peak flux measured
+from T+145.58 sec in the 15-150 keV band is (0.4 +- 0.1) ph/cm2/sec.
+A fit to a simple power law gives a photon index of 1.76 +- 0.11
+(chi squared 70 for 57 d.o.f.).  All the quoted errors are at the 90%
+confidence level.
+

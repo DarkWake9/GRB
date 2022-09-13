@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19844
+SUBJECT: GRB 160821B: Swift-BAT refined analysis
+DATE:    16/08/22 21:17:29 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+D. M. Palmer (LANL), S. D. Barthelmy (GSFC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), J. P. Norris (BSU),
+T. Sakamoto (AGU), M. H. Siegel (PSU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL), G. Younes (GWU) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+690 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 160821B (trigger #709357)
+(Siegel, et al., GCN Circ. 19833).  The BAT ground-calculated position is
+RA, Dec = 280.005, 62.387 deg which is
+  RA(J2000)  =  18h 40m 01.2s
+  Dec(J2000) = +62d 23' 13.2"
+with an uncertainty of 1.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 85%.
+
+The mask-weighted light curve shows a FRED-like structure that starts
+and peaks at ~T0, and ends at ~T+0.5 s. T90 (15-350 keV) is
+0.48 +- 0.07 sec (estimated error including systematics).
+
+The time-averaged spectrum from T+0.00 to T+0.54 sec is best fit by a
+power law with an exponential cutoff. This fit gives a photon index of
+0.11 +/- 0.88 and an Epeak of 46.3 +/- 6.4 keV (chi squared 58.76 for 56 d.o.f.).
+For this model the total fluence in the 15-150 keV band is
+1.0 +/- 0.1 x 10^-7 erg/cm2, and the 1-sec peak flux measured from
+T-0.23 sec in the 15-150 keV band is 1.7 +/- 0.2 ph/cm2/sec.
+A fit to a simple power law gives a photon index of 1.88 +- 0.15
+(chi squared 75.26 for 57 d.o.f.).  All the quoted errors are at the
+90% confidence level.
+
+The burst spectrum is on the softer end of the BAT short GRB distribution.
+Using a 4-ms binned light curve, the lag analysis finds a lag of
+8 +/- 4 ms for the 50-100 keV to 15-25 keV band, which is consistent with
+those of a short GRB.
+
+In addition to a short GRB, the BAT light curve and spectrum are also consistent
+with those expected from an SGR. In particular, the double blackbody model
+also produces an acceptable fit to the time-averaged spectrum
+(chi squared 56.65 for 55 d.o.f.), with the blackbody temperatures
+(kT1=4.05 and kT2=13.22 keV) consistent with those from an SGR. However,
+the location of this burst (Galactic latitude of 25.13 deg and not in SMC or LMC),
+and the fast decay of the XRT light curve makes it unlikely to be an SGR.
+
+We therefore conclude that this burst is likely to be a short GRB.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/709357/BA/

@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  23667
+SUBJECT: IceCube-190104A: AstroSat CZTI counterpart search
+DATE:    19/01/10 06:17:41 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+A. Anumarlapudi (IITB), E. Aarthy (PRL), V. Bhalerao (IITB), D. Bhattacharya (IUCAA), A. R. Rao (TIFR) and S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+We have carried out a search for hard X-ray candidates in Astrosat CZTI data in a 1000 sec window around the high-energy neutrino event IceCube-190104A (IceCube Collaboration, GCN #23605) on 2019-01-04 T08:34:38.23. CZTI is a coded aperture mask instrument that has considerable effective area for about 29% of the entire sky, but is also sensitive to brighter transients from the entire sky. At this instance, AstroSat's nominal pointing is (RA=196.02, DEC=-10.34), approximately 137 deg away from the transient. The source direction was not occulted by earth in Astrosat's frame. 
+
+CZTI data were de-trended to remove orbit-wise background variation. We then searched the data from the four independent, identical quadrants to look for coincident spikes in the count rates. Searches were undertaken by binning the data in 0.1s, 1s, and 10s respectively. Statistical fluctuations in count rates were estimated by using data from 10 neighbouring orbits. We selected confidence levels such that the probability of a false trigger in this 1000s window is 10^-4. We do not find any evidence for any Gamma-ray transient in this window, in the CZTI energy range of 20-200 keV.
+
+We convert our count rates into flux by assuming that the source spectrum is a power law with photon index alpha = -2.0. We use a detailed mass model of the satellite to calculate the instrument response in the direction of the event. We get the following upper limits for source flux in the 20-200 keV band: 
+
+0.1 s: flux limit= 2e-6 ergs/cm^2/s 
+1.0 s: flux limit= 6e-6 ergs/cm^2/s
+10.0 s: flux limit= 9e-6 ergs/cm^2/s
+
+If, instead, we assume a power law with photon index alpha = -1.0, the upper limits are:
+
+0.1 s: flux limit= 3e-6 ergs/cm^2/s 
+1.0 s: flux limit= 8.5e-6 ergs/cm^2/s
+10.0 s: flux limit= 1.3e-5 ergs/cm^2/s
+
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, ISAC, IUCAA, SAC and PRL. The Indian Space Research Organisation funded, managed and facilitated the project.
+
+

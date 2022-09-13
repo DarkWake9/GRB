@@ -1,0 +1,70 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5027
+SUBJECT: GRB 060428B: KAIT observations
+DATE:    06/04/28 17:18:35 GMT
+FROM:    Weidong Li at UC Berkeley KAIT/LOSS  <weidong@astron.berkeley.edu>
+
+From alex@wormhole.Berkeley.EDU  Fri Apr 28 10:07:14 2006
+Return-Path: <alex@wormhole.Berkeley.EDU>
+X-Spam-Checker-Version: SpamAssassin 3.1.0 (2005-09-13) on chandra
+X-Spam-Level: 
+X-Spam-Status: No, score=-103.8 required=5.0 tests=ALL_TRUSTED,AWL,BAYES_00,
+	USER_IN_WHITELIST autolearn=ham version=3.1.0
+X-Original-To: wli@astro.berkeley.edu
+Delivered-To: weidong@astro.berkeley.edu
+Received: from wormhole.Berkeley.EDU (wormhole [128.32.92.127])
+	by chandra.berkeley.edu (Postfix) with ESMTP id 77CD2793AF
+	for <wli@astro.berkeley.edu>; Fri, 28 Apr 2006 10:07:14 -0700 (PDT)
+Received: (from alex@localhost)
+	by wormhole.Berkeley.EDU (8.11.7/8.11.4) id k3SH7D222376
+	for wli@astro.berkeley.edu; Fri, 28 Apr 2006 10:07:13 -0700 (PDT)
+Date: Fri, 28 Apr 2006 10:07:13 -0700 (PDT)
+From: Alex Filippenko <alex@astro.berkeley.edu>
+Message-Id: <200604281707.k3SH7D222376@wormhole.Berkeley.EDU>
+To: Weidong Li<wli@astro.berkeley.edu>
+Subject: here it is, slightly edited
+Status: R
+Content-Length: 2096
+
+
+W. Li, R. Chornock, N. Butler, J. Bloom, and A. V. Filippenko (University of
+California, Berkeley), on behalf of the KAIT GRB team, report:
+
+The robotic 0.76-m Katzman Automatic Imaging Telescope (KAIT)
+at Lick Observatory observed GRB 060428B, detected with Swift
+(Trigger 207399; Campana et al. GCN 5017). The automatic sequence
+started at 08:57:50, 192 s after the burst. In a 15 s unfiltered 
+image, no afterglow candidate is detected to a limiting magnitude
+of 18.7 (from comparison with the USNO B1.0 catalog). Our real-time
+image processing software detected the optical afterglow candidate
+reported by Price et al. (GCN 5019) in a 60 s unfiltered image started
+at 642 s after the burst, with the following precise (+/- 0.3") position:
+
+RA = 15:41:25.63   Dec = +62:01:30.3 (J2000.)
+
+A table of photometry (3-sigma limits and detections) is reported 
+below. The photometry of the afterglow candidate suggests a flat
+luminosity evolution from 10 to 35 minutes after the burst, but
+we caution that the photometry may suffer larger uncertainties than
+reported due to relatively poor detections and the contamination of a 
+nearby source.
+
+======================================================================
+
+Start UT   t(GRB)   exposure(s)   Filter   3sigma-limit       detection 
+
+08:57:50   192s    15.0          clear    18.7       
+08:58:27   229s    15.0          V        16.9
+08:58:57   259s    15.0          I        17.2
+08:59:28   290s    20.0          clear    19.0
+09:00:04   326s    45.0          V        17.7
+09:01:04   386s    45.0          I        18.3
+09:02:05   427s    45.0          clear    19.2
+09:03:07   489s    60.0          V        17.9
+09:04:23   565s    60.0          I        18.3
+09:05:40   642s    60.0          clear                       19.58 +/- 0.13
+09:10:51   953s    120.0         clear                       19.64 +/- 0.13
+09:18:51   1433s   240.0         clear                       19.40 +/- 0.11
+09:30:55   2157s   360.0         clear                       19.52 +/- 0.11
+========================================================================
+

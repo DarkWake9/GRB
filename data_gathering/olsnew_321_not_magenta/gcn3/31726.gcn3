@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31726
+SUBJECT: GRB 220308B: Fermi GBM detection
+DATE:    22/03/10 01:57:07 GMT
+FROM:    Cori Fletcher at USRA  <cfletcher@usra.edu>
+
+C. Fletcher (USRA), O. J. Roberts (USRA) and C. Meegan (UAH)
+report on behalf of the Fermi GBM Team:
+
+"At 05:35:30.10 UT on 08 March 2022, the Fermi Gamma-Ray Burst Monitor (GBM) triggered and located GRB 220308B (trigger 668410535 / 220308233).
+
+The on-ground calculated location, using the GBM trigger
+data, is RA = 292, DEC = 26 (J2000 degrees,
+equivalent to 19 h 27 m, 26 d 26'), with a statistical uncertainty
+of 5 degrees (radius, 1-sigma containment,
+statistical only; there is additionally a systematic
+error which we have characterized as a core-plus-tail model, with 90% of
+GRBs having a 3.7 deg error and a small tail suffering a larger than 10 deg
+systematic error. [Connaughton et al. 2015, ApJS, 216, 32] ).
+
+The angle from the Fermi LAT boresight at the GBM trigger time is 78 degrees.
+
+The GBM light curve consists of multiple peaks
+with a duration (T90) of about 33 s (50-300 keV).
+The time-averaged spectrum from T0+0.003 s to T0+32.769 s is
+best fit by a power law function with an exponential
+high-energy cutoff.  The power law index is -1.0 +/- 0.1 and
+the cutoff energy, parameterized as Epeak, is 342 +/- 93 keV,
+
+The event fluence (10-1000 keV) in this time interval is
+(4.4 +/- 0.5)E-06 erg/cm^2. The 1-sec peak photon flux measured
+starting from T0-0.512 s in the 10-1000 keV band
+is 1.9 +/- 0.2 ph/s/cm^2.
+
+The spectral analysis results presented above are preliminary;
+final results will be published in the GBM GRB Catalog:
+https://heasarc.gsfc.nasa.gov/W3Browse/fermi/fermigbrst.html
+
+For Fermi GBM data and info, please visit the official Fermi GBM Support Page:
+https://fermi.gsfc.nasa.gov/ssc/data/access/gbm/"
+FSSC: Data » Data Access » GBM - Fermi Gamma-ray Space Telescope<https://fermi.gsfc.nasa.gov/ssc/data/access/gbm/>
+ID Name Description; GS-001: CTIME (daily version) The counts accumulated every 0.256 seconds in 8 energy channels for each of the 14 detectors. GS-002
+fermi.gsfc.nasa.gov
+

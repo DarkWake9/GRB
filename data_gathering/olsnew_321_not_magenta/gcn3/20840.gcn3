@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20840
+SUBJECT: LIGO/Virgo G275404: Updated localization from LIGO data
+DATE:    17/03/08 22:30:50 GMT
+FROM:    Alex Urban at Caltech  <aurban@ligo.caltech.edu>
+
+The LIGO Scientific Collaboration and Virgo report:
+
+We have completed an initial Bayesian parameter estimation analysis of
+the LIGO data around the time of the compact binary coalescence (CBC)
+event candidate G275404 (GCN 20738) using LALInference (Veitch et al.,
+PRD 91, 042003). This analysis used the IMRPhenomPv2 waveform
+approximation, which includes the inspiral, merger, and ringdown
+phases of the signal and accounts for the effects of spin precession.
+We accounted for systematic errors due to uncertainty in the
+calibration of the detectors' responses of up to 10% in amplitude and
+10 degrees in phase. This follow-up analysis also used different, more
+conservative assumptions on the detector noise properties.
+
+The updated localization, LALInference.fits.gz, is available for
+retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/events/G275404 <https://gracedb.ligo.org/events/G275404>
+
+The localization has arcs similar to the rapid BAYESTAR sky map, but
+broader, and the conservative assumptions mentioned above result in
+this case in a much larger area in the sky consistent with the
+observed data. The 50% credible region spans 2000 deg2 and the 90%
+credible region spans 17000 deg2 due to a diffuse component in the
+probability distribution.
+
+This parameter estimation analysis does not influence our estimation
+of the significance of this event. It remains a marginal candidate
+with a false alarm rate of about one in two months as reported in our
+original Circular. If the signal is astrophysical, then the mass
+estimates are consistent with a NSNS or NSBH binary.

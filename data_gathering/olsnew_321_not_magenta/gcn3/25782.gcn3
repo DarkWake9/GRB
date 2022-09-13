@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25782
+SUBJECT: LIGO/Virgo S190828l: Updated Sky Localization
+DATE:    19/09/19 14:56:25 GMT
+FROM:    Olivier Minazzoli at LIGO Virgo Collaboration  <olivier.minazzoli@ligo.org>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have conducted further analysis of the data from LIGO Hanford
+Observatory (H1), LIGO Livingston Observatory (L1) and Virgo
+Observatory (V1) around the time of the compact binary merger (CBC)
+candidate S190828l (GCN Circular 25503). Parameter estimation has
+been performed using LALInference [1] and a new sky map,
+LALInference.v2.fits.gz, distributed via GCN Notice, is available for
+retrieval from the GraceDB event page:
+ https://gracedb.ligo.org/superevents/S190828l
+
+The preferred sky map at this time is LALInference.v2.fits.gz. The 90%
+credible region is 359 deg2. Marginalized over the whole sky, the a
+posteriori luminosity distance estimate is 1528 +/- 387 Mpc (a posteriori
+mean +/- standard deviation).
+
+For further information about analysis methodology and the contents of
+this alert, refer to the LIGO/Virgo Public Alerts User Guide
+ <https://emfollow.docs.ligo.org/userguide/>.
+
+ [1] Veitch et al. PRD 91, 042003 (2015)
+

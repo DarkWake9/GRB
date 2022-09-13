@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21553
+SUBJECT: LIGO/Virgo G298048: Pan-STARRS detections and izy photometry of the possible optical/NIR counterpart in NGC4993
+DATE:    17/08/18 08:37:20 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+K. C. Chambers (IfA), M. E. Huber (IfA), S. J. Smartt, (QUB),
+K. W. Smith (QUB), D. R. Young, M. Coughlin (Harvard), T.-W. Chen
+(MPE), L. Denneau, H. Flewelling, A. Heinze, E. Kankare (QUB),
+T. Lowe, E. A. Magnier (IfA), A. Rest (STScI), B. Stalder (IfA),
+A. S. B. Schultz, C. W. Stubbs (Harvard) J. Tonry, C. Waters,
+R. J. Wainscoat, H. Weiland, M. Willman (IfA), D. E. Wright (QUB)
+
+We report Pan-STARRS imaging observations of the the skymap of
+G298048. A set of six images were taken, in twilight and at low
+airmass. We had planned to tile the northern part of the skymap, but
+after the discovery of the transient SSS17a/DLT17ck in GCN 21529
+(Coulter et al) and 21531 (Valenti et al.) we immediately switched to
+cover the NGC4993 in 2x30s in each of Pan-STARRS i, z, y, ensuring the
+postion of the transient object was on a good, clean CCD cell.
+
+Difference images were produced by subtracting the Pan-STARRS1 3Pi
+reference image from these separate 30s exposures (Chambers et
+al. arXiv:1612.05560, and available at http://panstarrs.stsci.edu).
+
+We recover the transient as Pan-STARRS object PS17gl at coordinates 
+
+RA = 13:09:48.08  DEC = -23:22:53.2 
+RA = 197.45033    DEC = -23.38144 
+
+Image log and photometry in the Pan-STARRS system (Tonry et al. 2012
+Magnier et al. arXiv:1612.05242)  : 
+
+
+Date (UT)             RA            DEC            Exp  Filt Airmass
+2017-08-18T05:33:01  198.347081   -23.075627 2000  30.0 y    2.83   17.28 0.13
+2017-08-18T05:33:46  198.347076   -23.075658 2000  30.0 z    2.84   17.31 0.09
+2017-08-18T05:34:31  198.347062   -23.075632 2000  30.0 i    2.86   17.23 0.10
+2017-08-18T05:35:45  198.347073   -23.075633 2000  30.0 y    2.89   17.47 0.16
+2017-08-18T05:36:30  198.347070   -23.075638 2000  30.0 z    2.91   17.21 0.08
+2017-08-18T05:37:14  198.347060   -23.075617 2000  30.0 i    2.93   17.26 0.08
+
+There is no evidence, within the uncertainties for fading between the
+exposures. If the Swope 1m photometry point of i=16 (Coulter et al.)
+is correct then this would imply substantial fading. But this needs
+checked, since DLT17ck was reported at R=17.3, is more consistent with 
+the colours we measure :
+
+i - z = -0.02 +/- 0.02
+z - y = -0.26 +/- 0.18 
+
+This is consistent with the DECam photometry by Nicholl et
+al. (GCN21541) and that within the uncertainties, the colours are
+consistent with 0, and being flat in Fnu as reported by the J-band
+detection of Tanvir & Levan (GCN21544). Further observations are
+planned with the same filter setup as long as the target is
+observable, or firmly ruled out as a counterpart to G298048.
+
+
+
+
+
+
+
+
+

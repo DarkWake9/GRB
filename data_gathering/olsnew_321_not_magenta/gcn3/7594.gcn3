@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7594
+SUBJECT: GRB 080413: Swift detection of a burst with an optical afterglow
+DATE:    08/04/13 03:06:53 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. P. Beardmore (U Leicester), D. N. Burrows (PSU),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+S. T. Holland (CRESST/USRA/GSFC), S. D. Hunsberger (PSU),
+J. A. Kennea (PSU), C. B. Markwardt (CRESST/GSFC/UMD),
+K. L. Page (U Leicester), D. M. Palmer (LANL),
+T. Sakamoto (NASA/UMBC), M. Stamatikos (NASA/ORAU) and
+E. Troja (U Leicester/INAF-IASFPA) report on behalf of the Swift
+Team:
+
+At 02:54:19 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 080413 (trigger=309096).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 287.290, -27.679 which is 
+   RA(J2000) = 19h 09m 10s
+   Dec(J2000) = -27d 40' 44"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a triple-peaked
+structure with a duration of about 55 sec.  The peak count rate
+was ~10000 counts/sec (15-350 keV), at ~1 sec after the trigger. 
+
+The XRT began observing the field at 02:55:20.0 UT, 60.7 seconds after
+the BAT trigger. XRT found a bright, fading uncatalogued X-ray source
+located at RA, Dec 287.2978, -27.6779 which is equivalent to:
+   RA(J2000)  = 19h 09m 11.4s
+   Dec(J2000) = -27d 40' 40.4"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). This
+location is 25 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to assess possible
+redshift constraints using X-ray spectroscopy and the nH-z relation
+from Grupe et al. (2007). 
+
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 76 seconds after the BAT trigger. There is a candidate
+afterglow in the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	19:09:11.76 = 287.2990
+  DEC(J2000) = -27:40:40.1  = -27.6778
+with a 1-sigma error radius of about 0.6 arc sec. This position is 3.9 arc sec. 
+from the center of the XRT error circle. The estimated magnitude is 15.2 with a
+1-sigma error of about 0.5 mag. No correction has been made for the expected
+extinction corresponding to E(B-V) of 0.16. 
+
+
+
+

@@ -1,0 +1,97 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18331
+SUBJECT: LIGO/Virgo G184098: Swift follow-up observations
+DATE:    15/09/20 01:08:38 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), Scott Barthelmy
+(NASA/GSFC), Dave Burrows (PSU), Sergio Campana (INAF-OAB), Brad Cenko
+(NASA/GSFC), Neil Gehrels (NASA/GSFC), Paolo Giommi (ASI), Frank
+Marshall (NASA/GSFC), John Nousek (PSU), Paul O'Brien (U. Leicester),
+Julian Osborne (U. Leicester), David Palmer (LANL), Matteo Perri
+(ASDC), Judy Racusin (NASA/GSFC), Mike Siegel (PSU), Gianpiero
+Tagliaferri (INAF-OAB) report on behalf of the Swift team:
+
+Swift is observing part of the aLIGO error region for the aLIGO trigger
+G184098, using the 'LIB_skymap' GW localisation map, and has so far
+observed 2 fields, covering the locations of galaxies (from the GWGC
+catalogue) within the aLIGO error region. The observations currently
+span from 192 ks to 198 ks after the aLIGO trigger, and cover 0.3 sq
+degrees on the sky (corrected for overlaps).
+
+We have detected a 3 X-ray sources. Each source is assigned a rank of
+1-4 which describes how likely it is to be related to the GW trigger,
+with 1 being the most likely and 4 being the least likely. The ranks
+are described athttp://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 0 sources of rank 3
+  * 3 sources of rank 4
+
+We assumed a power-law spectrum with NH=3e20 cm^2, and Gamma=1.7
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+  Source 1:
+  =============
+    RA:          138.5272 ( = 09h 14m 6.53s)  J2000
+    Dec:         -60.5355 ( = -60d 32' 07.8")  J2000
+    Error:   +4.8 (radius, 90% confidence).
+    Peak Rate:   4.5e-02 +/- 1.1e-02 ct/sec (0.3-10 keV)
+    Peak Flux:   1.9e-12 +/- 4.5e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  XMMSL1 J091406.5-603212 in the XMM-NEWTON/XMMSLEWCLN catalogue
+    Separation:  4.0" from the XRT source
+    Cat Rate:    1.1e+00 +/- 3.3e-01 ct/sec (0.3-10 keV)
+    Cat Flux:    1.2e-11 +/- 3.4e-12 erg cm^-2 s^-1 (0.3-10 keV)
+       So the source is not above the catalogued flux
+    There is no evidence for fading
+    NOTE: this source is not within 200 kpc of a GWGC galaxy.
+    A SIMBAD object `HD  79905' is 2.4" away
+    There are 2 2MASS objects within the source's 3-sigma error radius
+    This source lies outside the UVOT field of view, but the HD 79905 star is in USNO-B1 with R=7.42, B=7.47
+  Source 2:
+  =============
+    RA:          138.3760 ( = 09h 13m 30.24s)  J2000
+    Dec:         -60.7884 ( = -60d 47' 18.2")  J2000
+    Error:   +6.1 (radius, 90% confidence).
+    Peak Rate:   1.2e-02 +/- 4.6e-03 ct/sec (0.3-10 keV)
+    Peak Flux:   5.3e-13 +/- 2.0e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J091330.1-604707 in the ROSAT/RASSFSC catalogue
+    Separation:  11.2" from the XRT source
+    Cat Rate:    4.6e-02 +/- 1.1e-02 ct/sec (0.3-10 keV)
+    Cat Flux:    1.3e-12 +/- 3.1e-13 erg cm^-2 s^-1 (0.3-10 keV)
+       So the source is not above the catalogued flux
+    There is no evidence for fading
+    There is 1 GWGC galaxy within 200 kpc of the source.
+    A SIMBAD object `ESO 126-2' is 4" away
+    There are 3 2MASS objects within the source's 3-sigma error radius
+    ESO 126-2, a known AGN, is clearly detected in the UVOT image at the XRT position.
+  Source 3:
+  =============
+    RA:          124.3776 ( = 08h 17m 30.62s)  J2000
+    Dec:         -67.7344 ( = -67d 44' 03.8")  J2000
+    Error:   +4.7 (radius, 90% confidence).
+    Peak Rate:   2.1e-02 +/- 5.5e-03 ct/sec (0.3-10 keV)
+    Peak Flux:   8.8e-13 +/- 2.4e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Cat Source:  1RXS J081731.6-674414 in the ROSAT/RASSFSC catalogue
+    Separation:  11.9" from the XRT source
+    Cat Rate:    3.1e-02 +/- 9.6e-03 ct/sec (0.3-10 keV)
+    Cat Flux:    8.6e-13 +/- 2.7e-13 erg cm^-2 s^-1 (0.3-10 keV)
+       So the source  is 0.1-sigma above the catalogued flux
+    There is no evidence for fading
+    NOTE: this source is not within 200 kpc of a GWGC galaxy.
+    There is 1 2MASS object within the source's 3-sigma error radius.
+    UVOT detects an object consistent with this source (RA=124.37690, Dec=-69.73395),
+    with a u magnitude of 17.53 with a 1-sigma statistical error of about 0.05.
+
+This circular is an official product of the Swift team.
+
+[GCN OPS NOTE(19sep15): This Circular was originally published on 20:47 16-Sep-2015 UT.]
+

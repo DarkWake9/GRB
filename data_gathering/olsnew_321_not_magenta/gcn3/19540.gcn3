@@ -1,0 +1,85 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19540
+SUBJECT: LIGO/Virgo G211117/GW151226: serendipitous XMM-Newton slew observations
+DATE:    16/06/16 19:31:59 GMT
+FROM:    Eleonora Troja at GSFC  <eleonora.troja@nasa.gov>
+
+A. M. Read (U. Leicester), A. Tiengo (IUSS Pavia), R. Salvaterra 
+(INAF-IASF Milano), E. Troja (NASA/GSFC), R. D. Saxton (ESAC) report:
+
+We analyzed the XMM-Newton slews made in the two weeks after the 
+LIGO/Virgo G211117 / GW151226 event. Five slews intercept the BAYESTAR 
+localization map in this period of time for a total coverage of about 26 
+square degrees:
+
+Obs ID     |    date    |  T-T_GW   |coverage of localization map
+9294000002 | 2015-12-28 |   2.7 d   |  3 deg2
+9294300002 | 2016-01-03 |   8.7 d   |  4 deg2
+9294400002 | 2016-01-06 |  11.6 d   |  2 deg2
+9294500002 | 2016-01-08 |  13.6 d   |  2 deg2
+9294600002 | 2016-01-10 |  15.5 d   | 15 deg2
+
+For each dataset (EPIC pn data with the Medium filter) we performed the 
+source detection following the method described in Troja et al. 2016 
+(ApJ, 822, L8).
+Typical sensitivity limits of slew observations are ~6e-13 ergs cm-2 s-1 
+in the 0.2-2 keV band and ~4e-12 ergs cm-2 s-1 in the 2-12 keV band. The 
+list of the most significant 0.2-12 keV band detections (DET_ML>12) in 
+each slew intersecting the GW151226 localization map with no counterpart 
+within 30 arcsec in the ROSAT All Sky Survey (Boller et al. 2016, A&A 
+588, A103) is reported below. The flux and counts are computed in the 
+0.2-12 keV energy band.
+
+----------
+Revolution 2940, Observation ID 9294000002
+RA (deg)    DEC (deg)  POS_ERR (")   CTS  CTS_ERR  DET_ML EXPOSURE (s) 
+FLUX (ergs cm-1 s-1)
+27.3262   -1.1849         4.1           6.2    2.6 20.1          
+12.0               5.2e-12
+
+----------
+Revolution 2943, Observation ID 9294300002
+RA (deg)    DEC (deg)  POS_ERR (")   CTS  CTS_ERR  DET_ML EXPOSURE (s) 
+FLUX (ergs cm-1 s-1)
+15.6690   -20.0254       3.3             6.6     2.8 18.7         
+7.8                 8.5e-12
+14.6309   -17.6256       4.7             4.8     2.4 12.9         
+3.3                 1.4e-11
+
+----------
+Revolution 2944, Observation ID 9294400002
+RA (deg)    DEC (deg)  POS_ERR (")   CTS  CTS_ERR  DET_ML EXPOSURE (s)  
+FLUX (ergs cm-1 s-1)  Notes
+186.5515   5.5650         5.1             5.0     2.4 14.8         
+9.4                 5.3e-12     Detected also in Revolution 2945
+186.7524   6.0297         3.5             4.8     2.3 17.9         
+11.3               4.2e-12
+186.2499   5.0154         4.5             4.7     2.3 13.7         
+10.8               4.3e-12
+185.0333   2.4117         4.2             7.8     3.0 20.0          
+6.2                1.2e-11
+
+----------
+Revolution 2945, Observation ID 9294500002
+RA (deg)    DEC (deg)  POS_ERR (")   CTS  CTS_ERR  DET_ML EXPOSURE (s)  
+FLUX (ergs cm-1 s-1)   Notes
+186.5545   5.5635        3.3               8.6     3.0 34.1        
+8.8                 9.8e-12     Detected also in Revolution 2944
+186.9961   6.5894        3.6               4.5     2.2 18.6        
+13.4               3.3e-12
+186.6783   5.9833        5.2               5.5     2.5 16.8        
+12.0               4.5e-12
+185.7506   3.7284        5.4               4.4     2.2 14.4        
+10.3               4.3e-12
+
+----------
+Revolution 2946, Observation ID 92946 00002
+RA (deg)     DEC (deg)  POS_ERR (")   CTS  CTS_ERR  DET_ML EXPOSURE 
+(s)   FLUX (ergs cm-1 s-1)
+187.2622    7.6581       4.5               8.2      3.2 12.4        
+5.8                 1.4e-11
+192.9292  -2.5083       4.9               5.7      2.6 15.4        
+5.5                 1.0e-11
+201.3687  -17.3449     8.7               4.9      2.3 12.5        
+8.0                 6.2e-12
+

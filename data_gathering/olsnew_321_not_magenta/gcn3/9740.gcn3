@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9740
+SUBJECT: Swift-BAT trigger 358760 is most likely not a GRB
+DATE:    09/07/31 17:30:56 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+T. Sakamoto (GSFC/UMBC), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC/UMD), D. M. Palmer (LANL),
+A. M. Parsons (GSFC), G. Sato (ISAS), M. Stamatikos (GSFC/ORAU),
+B. Sbarufatti (INAF-IASFPA), J. Tueller (GSFC), T. N. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-61 to T+242 sec from the recent telemetry downlink,
+we report further analysis of trigger #358760 (Subrufatti, et al., GCN Circ. 9739).
+The BAT ground-calculated position is RA, Dec = 189.693, -15.363 deg,
+with an uncertainty of 3.3 arcmin, (radius, sys+stat, 90% containment).
+This is 2.7 arcmin from the flight position.  The partial coding was 100%.
+This is only a 5.5 sigma detection in the image domain.  The mask-weighted
+lightcurve shows a very marginal detection in the 25-100 keV band in a single
+64 msec time bin and nothing in the other two energy bands.  There is also
+a weak cosmic ray shower during this 64-msec bin.  Given this very maginal
+evidence, we do not think this trigger is due to a GRB.  It is very
+probably a noise fluctution coupled with a weak CR Shower. However, we can not
+rule out a GRB origin.
+

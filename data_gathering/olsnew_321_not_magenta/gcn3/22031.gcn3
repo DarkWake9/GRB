@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22031
+SUBJECT: GRB 171020A: Confirmation of OT fading
+DATE:    17/10/21 03:32:12 GMT
+FROM:    Moskvitin Alexander at SAO RAS  <mosk@sao.ru>
+
+A. Moskvitin (SAO RAS), O. Spiridonova (SAO RAS), A. Volnova (IKI RAS)
+
+We observed the field of GRB 171020A (Page et al., GCN 22028)
+with the 1-m telescope of SAO RAS, Zeiss-1000 on 2017.10.20,
+starting at 23:18 UT, i.e. ~11 minutes after the trigger.
+The OT (Malesani et al., GCN 22029) is clearly detected
+in the individual 300 sec. frames. The coordinates of OT:
+R. A. = 02:36:59.62; Dec. = +15:12:15.6 (J2000).
+
+
+Date       UT start  t - T0       Filter Exp.  OT       Err.  UL
+                     (mid, days)         (s)
+
+2017.10.20 23:18:05  0.02016      Rc     6*300 20.9 +/- 0.1   22.3
+           23:55:27  0.04827      Rc     7*300 21.5 +/- 0.1   22.5
+
+
+
+The temporal decay slope is about -0.3, F ~ (t-T0)^alpha.
+
+The calibration were made against the nearby USNO-B1.0 stars
+(R2 magnitudes):
+1051-0026883 02:37:00.38 +15:11:09.6 18.59
+1052-0027787 02:36:57.49 +15:12:36.8 16.62
+1052-0027776 02:36:50.26 +15:12:39.8 18.15

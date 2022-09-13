@@ -1,0 +1,63 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24020
+SUBJECT: GRB 190326A: Swift-BAT refined analysis - a soft-short GRB or an SGR
+DATE:    19/03/27 21:08:28 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+C. B. Markwardt (GSFC), S. D. Barthelmy (GSFC),
+S. B. Cenko (GSFC), J. R. Cummings (CPI),
+H. A. Krimm (NSF/USRA), A. Y. Lien (GSFC/UMBC),
+D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL), G. Younes (GWU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+963 sec from the recent telemetry
+downlink,
+we report further analysis of BAT GRB 190326A (trigger #895006)
+(Siegel et al., GCN Circ. 24009).  The BAT ground-calculated position is
+RA, Dec = 341.652, 39.914 deg which is
+   RA(J2000)  =  22h 46m 36.6s
+   Dec(J2000) = +39d 54' 50.3"
+with an uncertainty of 1.6 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 57%.
+
+The mask-weighted light curve shows a FRED-like pulse structure that starts
+and peaks at ~T0, and ends at ~T+0.1 s. T90 (15-350 keV) is 0.08 +- 0.03
+sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T+0.00 to T+0.10 sec is best fit by
+a power law with an exponential cutoff.  This fit gives a photon index
+-0.67 +- 0.92,
+and Epeak of 33.9 +- 4.9 keV (chi squared 97.5 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 6.3 +- 0.8 x 10^-8 erg/cm2
+and the 1-sec peak flux measured from T-0.45 sec in the 15-150 keV band is
+1.55 +- 0.30 ph/cm2/sec. All the quoted errors are at the 90% confidence
+level.
+
+The unusually soft spectrum (for a short GRB) and the very short duration
+show resemblance with an SGR. Therefore, we also compare the spectral fit
+from a blackbody model, which yields a similar reduced chi square
+(i.e., chi squared 99.89 for 55 d.o.f.) with kT = 9.39 keV. This kT is
+consistent
+with small-flare events from SGRs. However, the source location is not
+really
+close to the galactic plane (b = -16.9 deg), nor does it match with any
+known SGRs.
+
+If this is a GRB, this is one of the softest short bursts detected by BAT
+(based on a sample with constrained spectral fits from the 3rd BAT GRB
+catalog;
+Lien & Sakamoto et al. 2016). Another BAT-detected short GRB with similar
+softness and duration is GRB140622A, which was classified to be a short GRB
+because the XRT light curve is consistent with the normal behavior of a
+short burst
+(Sakamoto et al. 2014; Burrows et al. 2014). Unfortunately, due to the
+observing
+constraint, we do not have information from XRT/UVOT, and thus it is
+difficult to
+determine the burst origin at this point. Further X-ray observations may
+clarify the physical origin.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/895006/BA/

@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13934
+SUBJECT: GRB 121031A: Swift detection of a burst
+DATE:    12/10/31 23:17:04 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+V. D'Elia (ASDC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), D. N. Burrows (PSU),
+M. M. Chester (PSU), J. R. Cummings (NASA/UMBC),
+N. Gehrels (NASA/GSFC), S. T. Holland (STScI), J. A. Kennea (PSU),
+F. E. Marshall (NASA/GSFC) and D. M. Palmer (LANL) report on behalf of
+the Swift Team:
+
+At 22:50:30 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 121031A (trigger=537195).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 170.771, -3.511 which is 
+   RA(J2000)  =  11h 23m 05s
+   Dec(J2000) = -03d 30' 37"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a large peak
+with several smaller peaks riding on top with a total duration
+of about 50 sec.  The peak count rate was ~4000 counts/sec (15-350 keV),
+at ~4 sec after the trigger. 
+
+The XRT began observing the field at 22:51:32.6 UT, 61.9 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 170.7694, -3.5153 which is equivalent to:
+   RA(J2000)  = +11h 23m 4.66s
+   Dec(J2000) = -03d 30' 55.1"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 17 arcseconds from the BAT onboard position, within the BAT
+error circle. Despite the onboard localisation, no X-ray source was
+detected in 732 s of promptly-downlinked data, suggesting that the
+initial centroid may equally have been a cosmic ray. This position
+should	therefore be treated with caution. 
+
+The initial flux in the 2.5 s image was 5.90e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White 
+filter starting 70 seconds after the BAT trigger. No aspect solution
+is available for the 2.7'x2.7' sub-image; results from the list of 
+sources  generated on-board are not available at this time. The 
+expected extinction corresponding to E(B-V) of 0.05. 
+
+We note that the XRT position is 1.4 arcminutes from the galaxy 
+2MASX J11225935-0331287, at redshift 0.1126, which has a nominal 
+radius of 0.3 arcminutes according to NED. 
+
+Burst Advocate for this burst is V. D'Elia (delia AT asdc.asi.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

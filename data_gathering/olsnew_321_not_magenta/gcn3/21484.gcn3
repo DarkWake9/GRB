@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21484
+SUBJECT: LIGO/Virgo G297595: Fermi GBM Observations
+DATE:    17/08/14 22:03:05 GMT
+FROM:    Adam Goldstein at Fermi/GBM  <adam.michael.goldstein@gmail.com>
+
+A. Goldstein (USRA) reports on behalf of the GBM-LIGO Group:
+L. Blackburn (CfA), M. S. Briggs (UAH), J. Broida (Carleton College), E.
+Burns (NASA/GSFC), J. Camp (NASA/GSFC), T. Dal Canton (NASA/GSFC), N.
+Christensen (Carleton College), V. Connaughton (USRA), R. Hamburg (UAH), C.
+M. Hui (NASA/MSFC), P. Jenke (UAH), D. Kocevski (NASA/MSFC), N. Leroy
+(LAL), T. Littenberg (NASA/MSFC), J. McEnery (NASA/GSFC), R. Preece (UAH),
+J. Racusin (NASA/GSFC), P. Shawhan (UMD), K. Siellez (GATech), L. Singer
+(NASA/GSFC), J. Veitch (Birmingham), P. Veres (UAH), C. Wilson-Hodge
+(NASA/MSFC)
+
+At the G297595 event time, GBM was taking data and viewing the entire
+un-occulted sky approximately 67 degrees from Earth center (RA = 29.7, DEC
+= +22.9), which includes 62% of the LIGO Bayestar LHV map.
+
+There were no on-board triggers associated within a few hours of the GW
+trigger time. The untargeted ground-based search of GBM data for
+short-duration GRBs (Briggs et al., in prep) did not find any candidate
+within an hour of the GW trigger.
+
+The targeted search of the GBM data ([1], [2]) processes time scales of
+0.256 to 8.192 s within 30 s of the LIGO event.  This search identified a
+hard transient on the 2.048 s timescale 16.6 s after the GW trigger with an
+initial estimated False Alarm Rate (FAR) of 7.1e-5 Hz (90% confidence).
+Using the assumption that an EM signal closer in time to a GW event is more
+likely to be associated, the initial False Alarm Probability (FAP) is
+estimated at 2.5%  The localization of the event by the targeted search
+(7700 sq. deg.; 90% containment) found that the LHV Bayestar map was
+outside the 3 sigma statistical-only localization region. We can calculate
+an associated FAR and FAP using this spatial information[2], however, the
+FAR distribution that we have measured thus far assumes LIGO localizations
+using L1 and H1, and may be different for the three-detector localization
+maps. For completeness, we report the associated FAR including spatial
+information as 1.7e-4 Hz (90% confidence) and FAP = 9.1%. The localization,
+by itself, is highly suggestive of a Galactic source, encompassing the
+location of two X-ray sources known to be currently active: Vela X-1 and
+GRO J1008-57, however, the observed count spectrum is harder than typical
+Galactic sources.
+
+Although it has been determined that a systematic component to the GBM
+localization uncertainty exists[3], this component has not yet been modeled
+for un-triggered events. A follow-up human-in-the-loop inspection of the
+lightcurve and the localization, incorporating the usual localization
+systematic[3] for on-board triggered events, reveals that the un-occulted
+LHV map is still outside the GBM 2-sigma region, but within the 3-sigma
+region. A ten minute lightcurve shows some evidence for flaring with the
+localization of the flares consistent with the localization of this
+transient.
+
+
+[1] L. Blackburn et al. 2015, ApJS 217, 8
+[2] A. Goldstein et al. arXiv:1612.02395
+[3] V. Connaughton et al. 2015, ApJS 216, 32

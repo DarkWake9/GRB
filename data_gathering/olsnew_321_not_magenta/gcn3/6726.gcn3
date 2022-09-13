@@ -1,0 +1,68 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6726
+SUBJECT: GCN Swift XRT update position notices and enhanced position circulars
+DATE:    07/08/09 12:32:42 GMT
+FROM:    Julian Osborne at U.of Leicester  <julo@star.le.ac.uk>
+
+J. P. Osborne (U Leicester), M. R. Goad (U Leicester), P. A. Evans (U 
+Leicester), A. P. Beardmore (U Leicester), L. G. Tyler (U Leicester),
+D. N. Burrows (PSU), N. Gehrels (GSFC) and S. D. Barthelmy (GSFC), report on 
+behalf of the Swift Team:
+
+The Swift XRT team will from now be providing better positions earlier for 
+most GRBs by automatically issuing: 1) an early position update notice 
+based on ground processing; 2) a circular giving an enhanced XRT position 
+and error derived from a rectification of the UVOT field with USNO B1. See 
+http://www.swift.ac.uk/xrtpos.php.
+
+1) Position Update Notices
+
+GCN Swift XRT position update notices will soon be routinely distributed.
+The position and error will be based upon fully automated ground processing
+of SPER data (TDRSS-downlinked Single Pixel Event Report data in Photon
+Counting mode), fit using a PSF model with the dead columns to give a
+more reliable position than is possible on-board. This position update notice
+will typically be sent within 15 minutes of the start of the XRT observation.
+Robotic telescopes may want to adapt their reaction strategy.
+
+SPER data come only during the first snap-shot observation of a burst,
+it is distributed to the XRT team at ~5 minute intervals; the notice will be 
+generated from the combined first and second SPER datasets, as this offers the 
+best position improvement for the shortest delay (notice distribution will be 
+forced if a second SPER is not received within 9 minutes of the first).  If this 
+is not the first XRT_Position notice for a burst then the notice UPDATE_FLAG 
+keyword is set, the email subject line will have 'UPDATE' added, and in the 
+packets to socket sites the 2^25 bit will be set in the PKT_MISC field 
+(http://gcn.gsfc.nasa.gov/gcn/sock_pkt_def_doc.html).
+
+Subsequent SPER data may allow further improvement of the early position 
+information. This will not be distributed by GCN notice, but will be 
+immediately available at http://www.swift.ac.uk/spertable.php.  A link from that 
+page describes the derivation of positions from SPER data in detail.  Over 80% 
+of bursts can have a position derived in this way; for these, the 90% position 
+error radius is <3.9" half of the time.
+
+2) Enhanced Position Circulars
+
+GCN Swift XRT position circulars will soon be routinely distributed when a 
+first UVOT-enhanced XRT position becomes available.  Use of the XRT-UVOT 
+boresight alignment and the UVOT-USNO B1 astrometric registration for the 
+bursts simultaneously covered by the XRT PC mode and UVOT V band gives more 
+precise and accurate XRT positions than those based on star tracker data 
+previously distributed.  Around 60% of XRT bursts can have their positions 
+improved by this method; such UVOT-enhanced XRT burst positions have a 90% 
+confidence error radius <2.1" half of the time, and are typically available 
+within 2-3 hours of the burst (Goad et al. A&A submitted, arXiv:0708.0986,
+http://www.swift.ac.uk/xrt_positions/Goad.pdf).  These rapidly available 
+enhanced positions have an accuracy comparable to that obtainable in one to 
+several days using serendipitous X-ray sources (eg Butler AJ 133, 1027, 2007).
+
+Improvement of a UVOT-enhanced XRT position is possible as more data become 
+available after the initial enhanced position circular.  Such subsequently 
+improved positions will not be announced via the GCN but will be immediately 
+available at http://www.swift.ac.uk/xrt_positions/index.php
+
+It is not yet possible to enhance a larger fraction of positions due to the 
+need for simultaneous V band and XRT PC mode data when Swift is still and for 
+at least 10 XRT counts. We hope to improve this in the future.
+

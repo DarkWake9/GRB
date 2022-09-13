@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  12640
+SUBJECT: GRB 111209A, Swift-BAT refined analysis
+DATE:    11/12/09 18:58:12 GMT
+FROM:    Takanori Sakamoto at NASA/GSFC  <takanori@milkyway.gsfc.nasa.gov>
+
+D. M. Palmer (LANL), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. R. Cummings (GSFC/UMBC), E. E. Fenimore (LANL), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), T. Sakamoto (GSFC/UMBC),
+G. Sato (ISAS), M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from the recent telemetry downlink, we report further 
+analysis of BAT GRB 111209A (trigger #509336 and #509337) 
+(Hoversten, et al., GCN Circ. 12632).  The BAT ground-calculated position 
+using the event data of trigger #509337 (on-axis observation) 
+is RA, Dec = 14.350, -46.799 deg which is 
+
+ RA(J2000)  =  00h 57m 24.1s 
+ Dec(J2000) = -46d 47' 57.1" 
+
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+
+The mask-weighted light curve shows an excess rate already around T-150 s 
+when the spacecraft settled to the pre-planned target (T is the BAT trigger 
+time of #509336, which is 07:12:08.3 UT).  A gradual increase in the rate 
+continues up to T+850s.  And then, the rate started to decay.  The positive 
+rate is still seen at T+1400 s where the end of the event data.  Further 
+analysis using the BAT survey data is on-going to address the duration of 
+this event detected by BAT.   
+
+The time-averaged spectrum from 358 to 1337 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.48 +- 0.03.  The fluence in the 15-150 keV band measured during this 
+time interval is 3.6 +- 0.1 x 10^-05 erg/cm2.  The 1-sec peak photon flux 
+measured from T+824 sec in the 15-150 keV band is 0.5 +- 0.1 ph/cm2/sec.  
+All the quoted errors are at the 90% confidence level. 
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/509336/BA/
+http://gcn.gsfc.nasa.gov/notices_s/509337/BA/
+

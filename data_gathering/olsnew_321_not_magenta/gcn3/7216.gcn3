@@ -1,0 +1,85 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7216
+SUBJECT: SNe 2008D and 2007uy: Chandra Detections
+DATE:    08/01/25 13:58:13 GMT
+FROM:    Dave Pooley at UW,Madison  <dave@astro.wisc.edu>
+
+David Pooley and Alicia Soderberg report on behalf of a large collaboration:
+the Chandra X-ray Observatory performed a 17.9 ks ACIS-S3 observation
+of the field of SNe 2008D (associated with XRB 080109; Berger & Soderberg,
+GCN 7159, ATEL #1353; Kong & Maccarone, ATEL #1355) and 2007uy
+(Nakano et al., IAUC 8908) starting at 2008 Jan 19 20:41 UT.
+
+In a 1'x1' box around SN 2008D, four X-ray sources are detected,
+including SN 2008D at R.A. = 09:09:30.625, Decl. = +33:08:20.16 (J2000)
+with an error circle of 0.19" radius, in agreement with the radio
+(Soderberg, GCN 7178), optical (Deng & Shu, GCN 7160), and UVOT
+(Kong et al., GCN 7170; Immler et al., GCN 7168) positions.
+Ten counts are detected from 2008D in the 0.5--8 keV band,
+the lowest at ~0.9 keV and the highest at ~3.2 keV.  Spectral analysis
+was performed in Sherpa using Cash statistics with two models,
+an absorbed power law (PL) and an absorbed thermal bremsstrahlung (TB).
+The best-fit parameters are:
+
+PL:  nH = 1.3(+1.0/-1.3)e22 cm^-2 ,   Photon Index = 3.6(+1.7/-1.4)
+TB:  nH = 1.0(+0.7/-0.5)e22 cm^-2 ,   kT = 1.2(+1.9/-0.5) keV
+
+The PL model gave an unabsorbed 0.5--8 keV flux of 2.8e-14 erg/cm^2/s,
+and the TB gave 1.2e-14 erg/cm^2/s.
+
+Fixing the column at 6e21 cm^-2 (Kong & Maccarone, ATEL 1355),
+the best-fit PL photon index is 2.4(+0.7/-0.6) with an unabsorbed flux
+of 0.9e-14 erg/cm^2/s, and the best-fit TB temperature is kT = 1.8(+2.3/-0.7) keV
+with an unabsorbed flux of 0.8e-14 erg/cm^2/s.
+
+At a distance of 27 Mpc, the X-ray luminosity of SN 2008D is 2e39 erg/s
+at ~10 days after the X-ray burst.  This is at least a factor of 100 less luminous
+than GRB afterglows on the same timescale, including sub-energetic bursts
+similar to GRB-SNe 1998bw and 2006aj, but it is comparable to optically selected SNe Ibc.
+
+A Kolmogorov-Smirnov analysis of the photon arrival times gives only a 3.1% chance
+of being consistent with a constant count rate.  (Note: all of the above fluxes
+are time-averaged over the 17.9 ks observation.)
+
+The positions and spectral parameters of the three other sources (X1, X2, X3) are listed below.
+
+Src RA (J2000)    Dec (J2000)  err   Cts  nH              Phot.Ind.       Fx
+X1  09:09:31.800  +33:08:05.03 0.05  166  1.6(+0.9/-0.8)  1.4(+0.2/-0.2)  10.8
+X2  09:09:31.215  +33:08:21.83 0.09   41  6.5(+3.3/-2.6)  2.5(+0.7/-0.6)   3.9
+X3  09:09:30.686  +33:08:05.79 0.19   11  0.3(+3.2/-0.3)  1.1(+0.9/-0.5)   0.7
+
+Notes: err is the radius of the position error circle in arcsec.  Cts is the number
+of detected counts in the 0.5--8 keV band.  nH is in units of 10^21 cm^-2.
+Phot.Ind. is the best-fit PL photon index.  Fx is the unabsorbed luminosity
+in units of 10^-14 erg/cm^2/s.
+
+These sources are within the PSF of the Swift XRT (and therefore contaminate
+the Swift X-ray light-curve).
+
+In addition, SN 2007uy and three other sources are detected in NGC 2770.
+Their parameters are given below.
+
+Src  RA (J2000)    Dec (J2000)  err   Cts  nH              Phot.Ind.       Fx
+07uy 09:09:35.273  +33:07:09.09 0.36    5  0.2(+2.8/-0.2)  1.8(+1.2/-0.8)  0.2
+X4   09:09:36.962  +33:06:33.97 0.27   12  4.6(+5.2/-1.8)  1.6(+1.0/-0.9)  1.0
+X5   09:09:33.092  +33:07:18.83 0.28    7  4.1(+5.6/-4.1)  2.4(+1.5/-1.2)  0.5
+X6   09:09:36.170  +33:07:08.12 0.33    6  0.2(+4.7/-0.2)  0.5(+1.0/-0.7)  0.6
+
+The columns are the same as above.
+
+The Chandra position of SN 2007uy is in agreement with the radio (Soderberg, ATEL #1350)
+and optical (Nakano et al., IAUC 8908) positions.
+
+None of the sources besides SN 2008D show evidence for short-term variability.
+
+"True-color" images of the fields can be found at:
+http://www.astro.wisc.edu/~pooley/sn2008d.png (60"x60")
+http://www.astro.wisc.edu/~pooley/sn2007uy.png (80"x80")
+(0.5--1.2 keV in red, 1.2--2.5 keV in green, 2.5--6 keV in blue)
+
+A plot of the photon distribution of SN 2008D produced by ACIS Extract can be found at:
+http://www.astro.wisc.edu/~pooley/sn2008d-photon_dist.png
+
+[GCN OPS NOTE(25jan08): Per author's request, the "010809" string in the
+first sentence was changed to "080109".  Line breaks were also added.]
+

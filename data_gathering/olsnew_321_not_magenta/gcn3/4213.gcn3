@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4213
+SUBJECT: GRB051109: Swift detection of a burst 
+DATE:    05/11/09 02:14:42 GMT
+FROM:    David Palmer at LANL  <dmpalmer@mac.com>
+
+G. Tagliaferri (INAF-OAB), S. Barthelmy (GSFC), D. Burrows (PSU),
+M. Chester (PSU), N. Gehrels (GSFC), J. Hill (GSFC/USRA),
+S. T.  Holland (GSFC/USRA), J. Kennea (PSU), F. Marshall (GSFC),
+T. Mineo (INAF-IASFPA),  D. Palmer (LANL), T. Sakamoto (GSFC),
+on behalf of the Swift team:
+
+At 01:12:20 UT, Swift-BAT triggered and located GRB051109  
+(trigger=163136).
+The spacecraft slewed immediately. The BAT on-board calculated location
+is RA,Dec= 330.296d, +40.837d {22h 01m 11s, +40d 50' 15"} (J2000),  
+with an
+uncertainty of 3 arcmin (radius, 90% containment, stat+sys). The BAT
+light curve showed a multi-peak structure with a total duration of
+at least 25 sec. The peak count rate was ~2000 counts/sec (15-350 keV),
+at ~2 seconds after the trigger.
+
+
+The XRT began observing at 01:14:20 UT, 120 seconds after the BAT
+trigger. The XRT on-board software located a bright, previously
+uncatalogued, fading point source in the field at the following  
+location:
+RA(J2000):   22:01:15.5,
+Dec(J2000): +40:49:21.7,
+with an estimated uncertainty of 5.8 arcseconds (90% containment).
+This position lies 74 arcseconds from the BAT position reported above,
+and 2.8 arcseconds from the ROTSE position (Rykoff et al., GCN 4211).
+The initial flux estimate of this source is 1.1 x 10^-9 erg/s/cm^2.
+
+The UVOT began observing at 01:14:23, 123 seconds after the BAT trigger.
+A bright, uncataloged source is apparent at RA,dec=330.3136,+40.8231
+{22h01m15.26s, +40o49'23.2"} (J2000), coincident with the position
+of the ROTSE detection.  The V-band magnitude is approximately 17;
+this magnitude is based on an on-board source detection algorithm
+and a more accurate brightness will be available  following
+analysis of the full data set.  V-band extinction in the direction
+of the UVOT position is A_V = 0.63.
+
+
+

@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3910
+SUBJECT: GRB050904: Swift-BAT detection of a probable burst
+DATE:    05/09/04 03:07:21 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+J. Cummings (GSFC/NRC), L. Angelini (GSFC), S. Barthelmy (GSFC), A. Cucchiara (PSU),
+N. Gehrels (GSFC), C. Gronwall (PSU), S.T. Holland (GSFC), V. Mangano (INAF-IASF),
+F. Marshall (GSFC), C. Pagani (PSU), D. Palmer (LANL)
+on behalf of the Swift team:
+
+At 01:51:44 UT, Swift-BAT triggered and located GRB050904 (trigger=153514).
+The spacecraft slewed immediately.  The BAT on-board calculated location
+is RA,Dec 13.670d,+14.138d {00h 54m 41s,+14d 08' 17"} (J2000), with an
+uncertainty of 3 arcmin (radius, 90% containment, stat+sys).  This was a 64-sec
+image trigger.  The BAT light curve shows hints of emission, but it is
+not possible to separate source variations from background variations
+at this early stage in the analysis.  Given that this is at high galactic
+latitude, we believe this is a burst rather than a hard x-ray transient.
+There is nothing in SIMBAD nor in the BAT Active Source list near this location.
+
+XRT slewed promptly to the target and observation started at 01:54:25 UT
+(T+161 sec) with XRT in auto state.  XRT revealed an uncatalogued fading
+point source at RA (J2000): 00h 54m 50.4s  Dec (J2000): +14d 05' 08.5"
+with an uncertainty of 6 arsec (radius), 3.9 arcmin from the BAT position.
+
+The UVOT began observing at 01:54:28 UT, 164 s after the BAT trigger.
+The UVOT image is 3 arcmin away from the XRT position, so it does not
+intersect the XRT or BAT error circle.  We cannot tell whether there
+is an optical counterpart at this time.
+
+We are currently in the portion of the orbits where the spacecraft does not 
+pass over the Malindi downlink station.  Therefore, it will be 4 hours
+before we have access to the full data set for the refined analyses.
+

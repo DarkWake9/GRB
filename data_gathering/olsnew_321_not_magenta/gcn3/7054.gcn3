@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7054
+SUBJECT: Swift/UVOT initial analysis of GRB071109
+DATE:    07/11/11 01:41:58 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@googlemail.com>
+
+N.P.M. Kuin (MSSL/UCL) and M. Perri (ASDC) report on behalf of the
+Swift-UVOT team:
+
+The Swift/UVOT observed the INTEGRAL burst GRB 071109 (Mereghetti
+et al. GCN Circ. 7046) starting at 22:21 UT, 105 minutes after the
+trigger, cycling through exposures in the the uvw1, u, b, uvw2, v
+and uvm2 filters. No afterglow is detected at the position of the VLA
+measurement (Chandra et al. GCN Circ. 7049). A possible source at
+position RA=19:19:42.303,DEC=+02:01:21.14(J2000) was investigated,
+since it was detected at the 3-sigma level (u=20.9+/-0.6 mag) in
+the coadded U-filter images. This source is considered spurious
+since it was not found in any of the other filters, taken before
+or after the U-filter exposures.
+
+No other fading source is found within the INTEGRAL error circle
+in this is a crowded field.
+
+The following 3-sigma upper limits were determined at the position
+of the VLA detection (RA=19:19:51.67,DEC=+02:01:49.88):
+
+Filter  Tstart(s)  Tstop(s)  Exp(s)  Mag (3-sigma Upper Limits)
+
+uvw1    6350       24158     1678     > 21.47
+ u      6782       24373      835     > 21.17
+ b      7000       24588      835     > 21.56
+uvw2    7220       25435     3346     > 22.25
+ v      8078       25651      835     > 20.58
+uvm2    8300       26033     2189     > 21.73
+
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E_{B-V} = 0.61 mag in the
+direction of the burst (Schlegel et al. 1998).
+

@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17562
+SUBJECT: GRB 150309A: Swift-BAT refined analysis
+DATE:    15/03/10 19:58:42 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <james.r.cummings@nasa.gov>
+
+W. H. Baumgartner (GSFC/UMBC), S. D. Barthelmy (GSFC), J. R. Cummings (CPI),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+471 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 150309A (trigger #634200) (Cummings, et
+al., GCN Circ. 17553).  The BAT ground-calculated position is
+RA, Dec = 277.004, 86.417 deg which is
+   RA(J2000)  =  18h 28m 01.0s
+   Dec(J2000) = +86d 25' 02.7"
+with an uncertainty of 1.9 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 50%.
+
+The mask-weighted light curve shows that the main peak of the burst, which
+occurred during a Swift preplanned slew maneuver, started at about T-200 seconds.
+The roughly symmetrical peak with multiple maxima lasted until about T-160
+seconds.  A weaker overlapping peak followed at about T-150 seconds and declined
+to background by about T-60 seconds.  BAT triggered on a smaller peak that lasted
+from about T+0 seconds to about T+120 seconds.  T90 (15-350 keV) is
+242 +- 6 sec (estimated error including systematics).  Because the source came
+into the BAT field of view during the slew, it is possible that there was some
+additional low-level emission before T-200 seconds.
+
+The time-averaged spectrum from T-197.32 to T+119.08 sec is best fit by a power
+law with an exponential cutoff.  This fit gives a photon index 1.05 +- 0.16,
+and Epeak of 175.8 +- 76.0 keV (chi squared 37.47 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 1.7 +- 0.0 x 10^-05 erg/cm2
+and the 1-sec peak flux measured from T-177.49 sec in the 15-150 keV band is
+9.0 +- 0.3 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.36 +- 0.04 (chi squared 49.55 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/634200/BA/
+

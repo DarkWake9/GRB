@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28858
+SUBJECT: Swift XRT and UVOT detection of ZTF20acozryr/AT2020yxz/GRB201103B 
+DATE:    20/11/06 17:44:52 GMT
+FROM:    Boris Sbarufatti at PSU  <bxs60@psu.edu>
+
+P. A. Evans (U Leicester), N. P. M. Kuin (UCL-MSSL) and B. Sbarufatti (PSU) report on behalf of the Swift team:
+
+Swift-XRT has performed follow-up observations of the ZTF-detected afterglow candidate ZTF20acozryr/AT2020yxz, (Coughlin et al., GCN 28841) proposed to be associated with the AGILE and IPN-detected GRB 201103B (Ursi et al., GCN Circ. 28831, Svinkin et al., GCN Circ. 28844), collecting 1.2 ks of Photon Counting (PC) mode data between T0+199.5 ks and T0+206.0 ks. 
+
+An uncatalogued X-ray source is detected, at RA, Dec=42.1842, +12.1382 which is equivalent to:
+
+RA (J2000): 02:48:44.21
+Dec(J2000): +12:08:17.6
+
+with an uncertainty of 5.3 arcsec (radius, 90% confidence).  This position is 3.8 arcsec from the ZTF position, consistent with that source. We cannot determine at the present time whether the source is fading.
+
+The mean count-rate of the source is (1.5 +/- 0.5) x 10^-3 ct/sec, and we cannot yet confirm any variability.
+
+This location has been previously observed by Swift in 2014 November, and these observations are in the 2SXPS catalogue (Evans et al., 2020): 
+https://www.swift.ac.uk/2SXPS/doSimpleSearch.php?searchpos=42.18421+12.1382&searchrad=750&getWhat=1&subset=1&dssubset=0&coordType=0&retType=0&searchWhat=1
+
+The stacked image (field 10000005379) created from the 2014 observation contained about 2043 s of exposure at this position, and contained only 2 events at the ZTF location, giving a 3-sigma upper limit of 5.4 x 10^-3 ct/sec. Thus the XRT source reported above is a transient event, and we identify it as the X-ray afterglow to GRB 201103B.
+
+It has been pointed out to us that we incorrectly stated in GCN 28849 that the nature of the object had not been confirmed, whereas Xu et al (GCN Circ. 28847) has in fact confirmed the associated with the GRB via their spectroscopy. We apologize for the confusion.
+
+The automated analysis of this object is available at https://www.swift.ac.uk/xrt_products/00021039 
+
+A source is also detected in UVOT data with magnitude  B=20.25+-0.26 at ~T+205 ks. A weak signal is also detected in the V band at less than 3 sigma significance (V > 19.6) with some evidence of fading.
+
+This circular is an official product of the Swift XRT and UVOT teams.
+
+

@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  656
+SUBJECT: GRB 000418, UBVRI field photometry
+DATE:    00/04/29 21:45:53 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO) reports on behalf of the USNO GRB team:
+
+We have acquired preliminary UBVRcIc all-sky photometry for
+the field of GRB000418 with the USNOFS 1.0-m telescope on one
+marginally photometric night.  This 11x11arcmin field includes
+the proposed counterpart and extends a little fainter than V=20.
+All stars brighter than V=14 are saturated and should be used
+with care.  We have placed the photometric data on our
+anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb000418.dat
+The current photometry has a potential external zero-point
+error of about three percent.  The astrometry in this file
+is based on linear plate solutions with respect to USNO-A2.0.
+The internal errors are less than 100mas.
+
+We suggest the use of five comparison stars in the field
+until further photometry is obtained:
+
+ID   x    y     U       B       V       R       I
+A   000  000  16.726  16.682  16.037  15.686  15.313
+               0.009   0.004   0.002   0.003   0.004
+
+B  -158 +050  19.695  18.530  17.480  16.834  16.329
+               0.110   0.013   0.007   0.009   0.012
+
+C  -060 +134  18.899  19.172  18.302  17.874  17.369
+               0.063   0.024   0.014   0.021   0.029
+
+D  -094 -006    -     20.489  19.663  19.168  18.046
+                       0.091   0.046   0.065   0.150
+
+E  -200 -042    -     19.874  18.982  18.549  18.046
+                       0.044   0.025   0.036   0.050
+
+Notes: star A is the Mirabal et. al. comparison star
+located at RA 12:25:25.65, DEC +20:04:57.4 J2000;
+x,y offsets are in arcsec with respect to this star,
+positive east and north.
+

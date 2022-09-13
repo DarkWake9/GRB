@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21550
+SUBJECT: LIGO/VIRGO G298048: Swift UVOT detection and XRT upper limits
+DATE:    17/08/18 07:24:04 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), A.A. Breeveld (UCL-MSSL),
+S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), E. Troja 
+(NASA/GSFC/UMCP), P.T. O'Brien (U. Leicester), S.D. Barthelmy 
+(NASA/GSFC), A.P. Beardmore (U. Leicester), D.N. Burrows (PSU),  G. 
+Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB), 
+V.D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P. Giommi (ASI), C. Gronwall 
+(PSU), H.A. Krimm (CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL), A.Y. Lien 
+(GSFC/UMBC), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB), J.A. 
+Nousek (PSU), S.R. Oates (U. Warwick),  J.P. Osborne (U. Leicester), C. 
+Pagani (U. Leicester), K.L. Page (U.Leicester), D.M. Palmer (LANL), M. 
+Perri (ASDC), J.L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), 
+M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB), A. Tohuvavohu (PSU) report 
+on behalf of the Swift team:
+
+Swift has performed ToO observations of  the proposed optical
+counterpart of LIGO/Virgo G298048 (Coulter et al. LVC GCN 21529).
+We obtained 2 ks of data from 53.8 to 55.8 ks after the LVC trigger.
+
+No X-ray source is detected at the location of the transient reported by 
+Coulter et al. The 3-sigma upper limit at this location is 4.5e-3 
+ct/sec. For a typical GRB spectrum this corresponds to 1.8e-13 
+erg/cm^2/s (0.3-10 keV). Assuming a distance of 40 Mpc this corresponds 
+to a 0.3-10 keV luminosity of 3.5e40 erg/s.
+
+D'Avanzo et al (2014, MNRAS, 442, 2342) compiled the observed 2-10 keV 
+luminosity at 11 hours post-trigger for a complete sample of 
+Swift-detected short GRBs; these were typically of order 1e41-1e43 
+erg/s. Our measurement corresponds to a 2-10 keV luminosity of 2.3e40 
+erg/s, ~an order of magnitude fainter than all of the other sGRBs in 
+that paper apart from GRB 080905. However those authors also showed a 
+correlation between Eiso and X-ray afterglow luminosity, so given the 
+low Eiso (Goldstein et al., LVC Circ. 21528) this may not be surprising.
+
+The afterglow is detected in the Swift-UVOT data. Analysis is 
+complicated by the nearby presence the galaxy NGC4993, but we obtain the 
+following magnitudes:
+
+Filter  Magnitude     Start time     Stop time
+u      16.9 ± 0.06    T0+53.8 ks     T0+54.5 ks
+w1     17.74 ± 0.09   T0+55.0 ks     T0+55.3 ks
+m2     19.26 ± 0.18   T0+54.5 ks     T0+55.0 ks
+w2     19.12 ± 0.17   T0+55.3 ks     T0+55.8 ks
+
+
+We note that it is very unusual for an optical counterpart to be found 
+but no X-ray counterpart, especially given the brightness of the optical 
+counterpart. Therefore, if this object is a GRB afterglow, it is 
+atypical compared to the sample of Swift-BAT triggered objects observed 
+to date. We suggest therefore that the object may be a blue (i.e. 
+lanthanide-free) kilonova.
+
+This circular is an official product of the Swift team.
+
+[GCN OPS NOTE(18aug17):  Per author's request, the trigger ID
+in the Subject-line was corected from 298045 to 298048.]
+

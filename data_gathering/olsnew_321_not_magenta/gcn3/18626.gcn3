@@ -1,0 +1,28 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18626
+SUBJECT: LIGO/Virgo G194575: Updated significance from offline GW analysis
+DATE:    15/11/20 13:33:17 GMT
+FROM:    Leo Singer at NASA/GSFC  <leo.p.singer@nasa.gov>
+
+The LIGO Scientific Collaboration and Virgo report:
+
+The routine offline compact binary coalescence (CBC) analysis of the span
+of data containing the gravitational-wave candidate G194575 (GCN 18442)
+has completed. The offline CBC analysis consists of a pair of matched
+filter search pipelines, gstlal and pycbc. They are similar to the
+low-latency CBC searches that generate real-time alerts, but analyze the
+data in discrete two-week chunks, are sensitive to both neutron star and
+black hole binary mergers, use additional data quality vetoes, and employ
+more live time to estimate the significance of candidates.
+
+In our initial circular, we had reported the false alarm rate (FAR)
+estimated by the low-latency gstlal search, 9.654e-08, or about 1/120
+days. As estimated by the offline gstlal search, the candidate has a FAR
+of 5.87e-06 Hz, or 1/1.97 days. As estimated by the offline pycbc
+search, G194575 has a FAR of 8.19e-6 Hz, or 1/1.41 days.
+
+Though the low-latency FAR estimate for this event met our threshold for
+distribution of an alert, from the offline analysis we conclude that
+G194575 is no longer an event of interest.
+
+

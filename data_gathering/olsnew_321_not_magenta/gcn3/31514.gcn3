@@ -1,0 +1,80 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31514
+SUBJECT: Fermi-LAT-ANTARES 220121a Coincidence
+DATE:    22/01/21 16:44:54 GMT
+FROM:    Timothee Gregoire at Penn State  <tmg5746@psu.edu>
+
+ANTARES 220121A: AMON + ANTARES Identification of a Low False-Alarm Rate 
+High-Energy Neutrino + Fermi LAT Coincidence
+
+C. F. Turley, D. B. Fox and T. Gregoire (for AMON 
+https://www.amon.psu.edu/) + M. Ageron (CNRS/CPPM), A. Coleiro (Univ. de 
+Paris/APC), D. Dornic (CNRS/CPPM), A. Kouchner (Univ. de Paris/APC) (for 
+ANTARES) report:
+
+During operations of the AMON ANTARES neutrino + Fermi LAT gamma-ray 
+multimessenger alerts, at 21 January 2022 at 01:02:01 UT, we identified 
+a low false alarm-rate (1.497 per year) coincidence between one ANTARES 
+neutrino and one Fermi LAT photon. An alert was automatically generated 
+and, after human review, distributed to AMON partner facilities and here 
+publicly. Alert details are as follows:
+
+     Date:  21 January 2022
+     Time:  01:02:01 UT
+     R.A.:  300.984 (J2000)
+     Dec.:  -69.3334 (J2000)
+     r_90:  0.109 deg (90%-containment)
+     FAR:   1.497 yr-1
+
+ANTARES 220121A is a high-energy neutrino-induced muon event detected by 
+ANTARES (Ageron et al. 2011) with coordinates R.A. 307.21, Dec. -67.163 
+(J2000) at 01:02:32 UT, and a p-value based on the number of hits used 
+for the reconstruction of 0.7853, which relates to the deposited energy.
+
+The minimum false alarm rate coincidence from our analysis associates 
+this neutrino with one Fermi LAT photon. The photon was detected at 
+01:01:30 UT with coordinates R.A. 301, Dec. -69.3347 (J2000) and energy 
+16.0 GeV.  The best-fit localization and uncertainty for a point source 
+yielding the ANTARES 220121A neutrino and the photon is as quoted above. 
+The false alarm rate for ANTARES neutrino + Fermi LAT gamma-ray 
+coincidences of this quality or better is 1 per 0.668 years. There is no 
+know GeV emitter (based on the Fermi-LAT 4FGL catalog) in the vicinity 
+of the found coincidence. The nearest one is 4FGL J1956.6-7011 (with is 
+1.06deg away).
+
+Details of the ANTARES + Fermi LAT coincidence search procedures are 
+provided in Ayala Solares et al. 2019 (ApJ 886, 98). False alarm rates 
+are established from 73,000 years of simulated observation and take into 
+account the point spread functions of the associated neutrino + photons, 
+the known backgrounds at this sky position, the energy of the neutrino, 
+and the energies of the Fermi LAT photons (within broad ranges).
+
+We provide the associated AMON alert for this coincidence in GCN Alert 
+format, below.
+
+//////////////////////////////////////////////////////////////////////
+TITLE: GCN/AMON NOTICE
+NOTICE_DATE: Fri 21 Jan 2022 09:02:09 UT
+NOTICE_TYPE: Fermi-LAT ANTARES coincidence
+AMON_NUM: 1475022503
+SRC_RA: 300.984d {+20h03m56.3s} (J2000),
+         301.493d {+20h05m58.2s} (current),
+         299.705d {+19h58m49.1s} (1950)
+SRC_DEC: -69.3334d {-4h37m20.0s} (J2000),
+          -69.2756d {-4h37m06.2s} (current),
+          -69.474d {-4h37m53.8s} (1950)
+
+SRC_ERROR90: 0.109 [deg, stat, 90% containment]
+DISCOVERY_DATE: 19600 TJD;  021 DOY; 22/01/21 (yy/mm/dd)
+DISCOVERY_TIME: 3721 SOD {1:02:01.400} UT
+REVISION: 0
+DELTA_T: 61.20 [sec]
+SIGMA_T: 30.60 [sec]
+FAR: 1.497 [yr^-1]
+SUN_POSTN: 302.851d {+20h11m24s} -20.0102d {-20d00m37s}
+SUN_DIST: 49.34 [deg] Sun_angle= 12.0584 [hr]
+MOON_POSTN: 159.214d {+10h36m51s} 14.1667d {+14d10m00s}
+MOON_DIST: 119.85 [deg]
+GAL_COORDS: 326.13, -31.6249 [deg] galactic lon,lat of the event
+COMMENTS: ALERT FROM FERMI-LAT ANTARES COINCIDENCE STREAM
+

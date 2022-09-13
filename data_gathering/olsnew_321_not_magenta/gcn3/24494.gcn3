@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24494
+SUBJECT: GRB 190511A: Swift/UVOT Detection
+DATE:    19/05/11 23:50:25 GMT
+FROM:    Paul Kuin at MSSL  <npkuin@gmail.com>
+
+N. P. M. Kuin (UCL-MSSL), M. de Pasquale (U. of Istanbul) and
+M. G. Bernardini (INAF-OAB) report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began settled observations of the field of GRB 190511A
+131 s after the BAT trigger (Bernardini et al., GCN Circ. 24472).
+A source consistent with the XRT position
+(Goad et al. GCN Circ. 24481)
+is detected in the initial UVOT exposures.
+
+The preliminary UVOT position is:
+    RA  (J2000) =  08:25:46.44 = 126.44350 (deg.)
+    Dec (J2000) = -20:15:33.6  = -20.25933 (deg.)
+with an estimated uncertainty of 0.42 arc sec. (radius, 90% confidence).
+
+There is a catalogued star at a distance of 1.3 arcsec. The extrapolated
+brightness using the SED from the Vizier photometry tool
+(
+http://cdsportal.u-strasbg.fr/gadgets/ifr?url=http://cdsportal.unistra.fr/widgets/SED_plotter.xml&SED_plot_object=126.442680%2C%20-20.259685&SED_plot_radius=2
+)
+shows a brightness consistent with that of the white count rate seen at
+several
+ks after the trigger. We subtract here therefore the late time count rate
+in the
+following preliminary UVOT photometry of this GRB, knowing that this has to
+be
+refined using truely late time data. Where we did not have a late time
+measurement yet available, the photometry will be reported in due time.
+
+Preliminary detections and 3-sigma upper limits using the UVOT photometric
+system
+(Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) for the early exposures
+are:
+
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white              131          281          147         16.0 +/- 0.1
+b                 5684         5884          197         21.6 +/- 0.3
+
+The magnitudes in the table are not corrected for the Galactic extinction
+due to the reddening of E(B-V) = 0.09 in the direction of the burst
+(Schlegel et al. 1998).
+
+The afterglow was also discovered by NOT (Malasani et al. GCN Circ. 24492).

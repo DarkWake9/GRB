@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7727
+SUBJECT: Swift-BAT refined analysis for Trigger 311603: Galactic source
+DATE:    08/05/15 14:08:55 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+W. Baumgartner (GSFC/UMBC), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), K. McLean (GSFC/UMD), D. Palmer (LANL),
+T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+489 sec from recent telemetry downlinks,
+we report further analysis of BAT trigger #311603
+(Krimm, et al., GCN Circ. 7713).  The BAT ground-calculated position is
+RA, Dec = 263.868, -35.675 deg, which is 
+   RA(J2000)  =  17h 35m 28.4s 
+   Dec(J2000) = -35d 40' 29.0" 
+with an uncertainty of 3.3 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 45%.
+ 
+The mask-weighted light curve shows the event starting at ~T-90 sec, slowly
+rising to a peak at ~T+25 sec, and returning to background around T+60 sec.
+The apparent peak at T+90 sec is due to the slewing and is not thought
+to be real.  The lightcurve rises again starting at ~T+120 sec, but this
+is though to be due entering the SAA.  All of this activity is solely 
+in the 15-25 keV band.  T90 (15-350 keV) is 120 +- 40 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-100 to T+90 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+5.8 - 0.6,+1.3.  The fluence in the 15-150 keV band is 6.3 +- 1.2 x 10^-7 erg/cm2.
+All the quoted errors are at the 90% confidence level. 
+
+Given the very soft spectrum and galactic coordinates of 353.18,-1.70 (l,b),
+it very likely that this is a galactic transient.  There will be an ATEL
+issued on this event.
+

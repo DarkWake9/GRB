@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24096
+SUBJECT: LIGO/Virgo S190408an: Pan-STARRS observations and transients in the skymap 
+DATE:    19/04/11 00:30:40 GMT
+FROM:    Ken Smith at Queen's University Belfast  <k.w.smith@qub.ac.uk>
+
+K. W. Smith, D. R. Young, M. Huber, K. C. Chambers, S. J. Smartt,
+O. McBrien, J. Gillanders. S. Srivastav, D. O'Neil,  P. Clark, 
+S. Sim (QUB), E. Magnier, A. Schultz, (IfA, Univ. Hawaii), 
+L. Denneau, H. Flewelling, A. Heinze, J. Tonry, H. Weiland,  
+A. Rest (STScI),  B. Stalder (LSST), C. Stubbs (Harvard)
+
+We report observations of the BAYESTAR skymap of the BBH event S190804an 
+(The LIGO Scientific Collaboration and the Virgo Collaboration, GCN 
+24069) with the Pan-STARRS1 telescope (Chambers et al. 2016, 
+arXiv:1612.05560C). Images were taken in the PS1 w,z and y-bands 
+(Tonry et al. 2012, ApJ 750, 99) in the standard NEO search sequence. 
+At each pointing position a sequence of quads (4 x 45 sec) was taken.
+This observing sequence ensures exactly the same pointing position 
+for each of the quads. We estimate that the active 
+pixel area covered 72 square degrees and a summed probability of 
+11% of the BAYESTAR skymap. We began taking data at 2019-04-09
+14:30 (UTC) 20hrs after the GW trigger.
+
+The images were processed with the IPP (Magnier et al. 2016, 
+arXiv:1612.05240) and difference images were produced using 
+the Pan-STARRS1 Science Consortium 3Pi images as reference 
+frames. Transient candidates were run through our standard 
+filtering procedures, combined with a machine learning algorithm 
+(Wright et al. 2015, MNRAS, 449, 451) were applied and all candidates were
+spatially cross-matched with known minor planets, and major 
+star, galaxy, AGN and multi-wavelength catalogues (as described in 
+Smartt et al. 2016, MNRAS, 462 4094). 
+
+We find 3 new transients. None of which appear to possess any 
+peculiar feature that indicates any link to S190804an. 
+
+bPC denotes the percentage probability contour within which 
+the transient is found according to the bayestar.fits map. 
+
+Object RA         DEC        Disc Mag  filt MJD         z      bPC  Notes
+-------------------------------------------------------------------------
+PS19pn 339.15090  +33.16465  20.40 0.21  w  58582.6099  -      60%  (1)
+PS19pm 337.33525  +25.26419  19.87 0.14  w  58582.6061  ~0.195 80%  (2)
+PS19pl 335.17707  +31.17752  19.44 0.12  w  58582.6086  ~0.083 90%  (3)  
+
+(1) Orphan, no host object 
+(2) Nuclear Transient coincident with SDSS J222920.46+251551.0; an r=18.31 
+mag galaxy found in the SDSS DR12 PhotoObjAll Table catalogue. It's located 
+0.2" from the galaxy core. A host photoZ=0.195 (±0.031) implies absolute
+mag of M = -20. There is some variability history at similar flux levels in 
+Pan-STARRS data.
+(3) Probably associated with SDSS J222042.60+311038.3; an r=17.26 mag
+galaxy found in the SDSS DR12 PhotoObjAll Table catalogue. It's located
+0.69" N, 1.35" W from the galaxy centre. A host photoZ=0.083 (±0.020)
+implies an absolute mag of M = -18.5
+

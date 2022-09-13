@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16649
+SUBJECT: Swift Trigger 607945: possible noise event in the direction of NGC2559
+DATE:    14/08/01 12:36:41 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), M. G. Bernardini (INAF-OAB),
+P. D'Avanzo (INAF-OAB), N. Gehrels (NASA/GSFC), L. M. Z. Hagen (PSU),
+A. Melandri (INAF-OAB) and B. Sbarufatti (INAF-OAB/PSU) report on
+behalf of the Swift Team:
+
+At 12:02:51 UT, the Swift Burst Alert Telescope (BAT) triggered on a location
+near NGC 2559 (trigger=607945).  Swift did not slew because of Sun constraint. 
+The BAT on-board calculated location is 
+RA, Dec 124.350, -27.332 which is 
+   RA(J2000)  =  08h 17m 24s
+   Dec(J2000) = -27d 19' 56"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical with image triggers, there is nothing
+to be seen in the real-time TDRSS lightcurve.  Further, this is a sub-threshold
+trigger (because of the spatial coincidence with the galaxy in the on-board catalog)
+and as such of low confidence. 
+
+Due to a Sun observing constraint, Swift cannot slew to the BAT
+position until 05:34 UT on 2014 August 22. There will thus be no XRT or
+UVOT data for this trigger before this time. 
+
+This was a low significance BAT trigger in the direction of NGC 2559. 
+Since the field is Sun constrained there will be no XRT or UVOT data
+to further ascertain the nature of the trigger, which is likely the
+result of a noise fluctuation. 
+

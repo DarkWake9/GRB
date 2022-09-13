@@ -1,0 +1,174 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20717
+SUBJECT: LIGO/Virgo G274296: iPTF Optical Transient Candidates
+DATE:    17/02/22 01:11:33 GMT
+FROM:    Mansi M. Kasliwal at Caltech  <mansi@astro.caltech.edu>
+
+R. Ferretti (OKC), R. Lunnan (Caltech), M. M. Kasliwal (Caltech), L. P.
+Singer (NASA/GSFC), S. B. Cenko (NASA/GSFC), D. Cook (Caltech), C. Cannella
+(Caltech),  A. van Sistine (UWM), T. Barlow (Caltech), V. Bhalerao (IUCAA),
+J. Rana (IUCAA), A. A. Miller (Northwestern/Adler), Y. Cao (UW)
+
+report on behalf of the iPTF (intermediate Palomar Transient Factory) and
+GROWTH (Global Relay of Observatories Watching Transients Happen)
+collaborations:-
+
+We performed tiled observations of LIGO/Virgo G274296 (LVC, GCN 20689)
+using the Palomar 48-inch Oschin telescope (P48) on the night of 2017-02-21
+UTC. We imaged 111 fields spanning 807 square degrees, with a 54% chance of
+containing the true location of the source. Of these, 69 fields (502 square
+degrees; 42% probability) were imaged twice and searched for transient
+candidates.
+
+During preliminary sifting through candidate variable sources using image
+subtraction by our IPAC pipeline (Masci et al. 2016), and applying standard
+iPTF vetting procedures, we flagged the following optical transient
+candidates (60 total) for further follow-up:
+
+name           RA            Dec          time             mag
+z         notes
+--------      ----------     ----------   -----           -----
+------     ---------
+iPTF17bed    234.991732     +34.088243    2457806.0160    20.17
+0.138       photz; at edge of galaxy
+iPTF17bec    232.665446     +33.928645    2457806.0160    19.90
+0.0482      specz; irregular galaxy; fading (0.34 mag intra-night)
+iPTF17beb    235.828735     +32.682827    2457806.01757   19.03
+0.07        photz
+iPTF17bdz    174.715936     +33.828372    2457805.90013   20.05
+0.0327      specz;  nuclear edge-on
+iPTF17bdy    178.129375     +35.456339    2457805.90162   20.30
+0.0943      specz;  slightly off-center
+iPTF17bdw    178.329915     +36.442293    2457805.90313   20.29
+0.18        photz
+iPTF17bds    183.323594     +39.266026    2457805.9061    20.11
+0.13        photz; fading (0.40 mag intra-night)
+iPTF17bdq    181.290430     +37.270222    2457805.90762   19.94
+0.0226      specz
+iPTF17bdp    182.529730     +36.393440    2457805.90762   20.08
+0.2432      specz; nuclear (SDSS QSO)
+iPTF17bdn    184.075520     +40.796273    2457805.93462   20.57
+0.136       photz
+iPTF17bdl    183.608407     +42.063649    2457805.9346    19.65
+0.0231      specz; nuclear?
+iPTF17bdk    186.611638     +40.726698    2457805.9346    20.55
+0.0699      specz; nuclear?
+iPTF17bdj    185.368397     +42.208415    2457805.93462   19.51
+0.1206      specz
+iPTF17bdf    188.315478     +36.824458    2457805.93763   19.68
+0.095       photz
+iPTF17bde    187.281321     +36.457123    2457805.93763   19.58
+0.0714      specz; slightly off-center
+iPTF17bdd    191.013043     +41.168996    2457805.93912   19.04
+0.0237      specz; nuclear?; rising (0.48 mag intra-night)
+iPTF17bdc    192.553197     +36.464676    2457805.9421    20.49
+0.1448      specz; at edge of galaxy
+iPTF17bda    193.915287     +39.855467    2457805.9436    19.21
+0.38        photz
+iPTF17bcz    196.354965     +39.004452    2457805.9436    19.59
+0.0808      specz; off-center
+iPTF17bcy    197.058084     +41.600850    2457805.9466    20.23
+0.0272      specz
+iPTF17bcw    201.468624     +39.173964    2457805.94814   20.65
+0.0636      specz
+iPTF17bcs    198.456906     +38.894402    2457805.94814   19.60
+0.0794      spez; nuclear
+iPTF17bcr    200.757880     +40.201309    2457805.9481    20.35
+0.0640      specz
+iPTF17bcn    201.030920     +42.445651    2457805.95116   19.99
+0.079       photz; nuclear
+iPTF17bcl    207.110772     +41.975701    2457805.95416   20.44
+0.183       photz
+iPTF17bck    208.258285     +40.302280    2457805.95715   19.85
+?           no photz available
+iPTF17bci    209.602490     +43.662936    2457805.95867   19.74
+0.065       specz; nuclear
+iPTF17bch    209.362268     +44.387701    2457805.95867   19.65
+0.072       specz; nuclear?
+iPTF17bcg    211.528986     +42.673631    2457805.96015   19.37
+0.088       specz
+iPTF17bce    212.679949     +37.081015    2457805.96316   20.37
+0.224       photz
+iPTF17bbv    174.674325     +36.232952    2457805.8986    18.27
+0.05996     specz
+iPTF17bbu    167.125966     +31.440313    2457805.8911    19.70
+0.06        photz
+iPTF17bbt    166.948991     +31.255977    2457805.8911    20.02
+0.087       photz
+iPTF17bbs    166.950771     +31.311975    2457805.8911    19.95
+0.072       specz
+iPTF17bbq    168.377846     +29.667545    2457805.8911    20.25
+0.0455      specz; =PS17bew (GCN 20699)
+iPTF17bbp    166.537702     +30.246383    2457805.8911    19.95
+0.030       specz
+iPTF17bbn    167.184990     +31.218324    2457805.8911    19.29
+0.073       specz; also detected 2017-02-17 (g=20.11); nuclear
+iPTF17bbg    169.748759     +35.743451    2457805.89411   19.89
+0.104       specz
+iPTF17bbf    170.901072     +34.765936    2457805.89411   19.60
+0.186       photz
+iPTF17bbe    170.036330     +34.312810    2457805.89411   20.49
+0.037       specz; nuclear (SDSS AGN)
+iPTF17bbb    170.475973     +33.961040    2457805.89411   20.11
+0.078       photz
+iPTF17bba    170.464827     +33.845571    2457805.89411   19.88
+0.044       specz
+iPTF17baz    170.427019     +34.363034    2457805.89411   19.05
+0.035       specz
+iPTF17bav    168.441386     +37.278479    2457805.8956    19.61
+0.100       specz
+iPTF17bat    171.393094     +40.511821    2457805.89712   20.01
+0.122       specz
+iPTF17baq    134.698013     +01.842508    2457805.78102   19.70
+0.058       specz; nuclear?
+iPTF17bap    134.438423     +00.933616    2457805.78102   19.80
+0.120       specz; nuclear
+iPTF17bao    133.976313     +00.853143    2457805.78102   19.41
+0.053       specz; nuclear (SDSS AGN)
+iPTF17bam    134.670596     +02.078209    2457805.78102   19.88
+0.125       specz; rising (0.35 mag intra-night)
+iPTF17bal    138.036706     +06.780975    2457805.78255   19.72
+0.143       specz; nuclear
+iPTF17bak    138.746540     +05.045414    2457805.78404   20.55
+0.143       specz; nuclear (SDSS AGN); rising (0.39 mag intra-night)
+iPTF17bai    141.156805     +08.409091    2457805.78853   19.97
+0.129       specz; nuclear?
+iPTF17bah    141.492784     +08.840897    2457805.78853   20.51
+0.107       specz; nuclear?; rising (0.59 mag intra-night)
+iPTF17bag    137.893562     +06.774493    2457805.78255   20.20
+0.225       photz; nuclear
+iPTF17bad    141.730214     +08.380390    2457805.78853   19.72
+0.122       specz; nuclear?
+iPTF17baa    133.693265     +01.183738    2457805.78102   19.46
+0.066       photz
+iPTF17aas    170.123758     +34.754070    2457805.89411   18.96
+0.042       specz; =SN2017aas=PTSS-17dib=PS17bey, known SNIa.
+iPTF17mf     214.129450     +39.586295    2457805.96167   17.21
+0.0257      specz; =SN2017mf, known SNIa.
+iPTF17jg     204.057109     +38.348005    2457805.94963   18.57
+0.014       specz; =ATLAS17aic, first discovered 2017-01-09
+iPTF17hy     202.138887     +39.486881    2457805.94963   20.18
+0.064       specz; =Gaia17abk=PS17hc, first discovered 2017-01-12.
+
+Positions are stated in the ICRS. Times are in UTC. Magnitudes are based on
+image subtraction; they are in the Mould R filter and in the AB system,
+calibrated with respect to point sources in SDSS as described in Ofek et
+al. 2012.
+
+None of the above transients show prior history of detection in iPTF
+archival images. All of the above transients coincide with a galaxy that is
+visible in iPTF and/or SDSS images. Archival spectroscopic or photometric
+redshifts of the transients' likely host galaxies are given above.
+
+We cross-matched this list to our ongoing effort to build a more complete
+Census of the Local Universe (CLU; Cook et al. 2017) by identifying
+redshifted Halpha emitters out to 200 Mpc. The hosts of iPTF17bdq,
+iPTF17bdl, iPTF17bcy, iPTF17bcn, iPTF17bbe, and iPTF17bbb, are viable
+emission line candidates.
+
+We encourage spectroscopic classification of these candidates. In
+particular, we highlight iPTF17bec, iPTF17bds, iPTF17bdd, iPTF17bam, and
+iPTF17bah as fast-evolving by more than 0.3 mag in the same night. In
+addition, our local transients (d < 100 Mpc) are iPTF17jg, iPTF17bdq,
+iPTF17bbp, iPTF17bdl, and iPTF17bdd, and our bright transients (R < 19 mag)
+are iPTF17bbv, iPTF17jg, iPTF17bdd, iPTF17baz, and iPTF17beb.

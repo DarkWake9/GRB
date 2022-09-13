@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7693
+SUBJECT: GRB080506: Swift/UVOT observations
+DATE:    08/05/07 16:22:15 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S.R. Oates (MSSL/UCL) and W. Baumgartner (NASA/GSFC) report on behalf of 
+the Swift/UVOT team
+
+The Swift/UVOT began settled observations of the field of GRB 080506, 143s 
+after the BAT trigger (Baumgartner et al., GCN 7685). We detect the 
+afterglow in the v and b filters at the position:
+
+RA(J2000.0)  =   21:57:41.84
+DEC(J2000.0) =  +38:59:06.1
+
+with an estimated uncertainty of 0.5 arcsec (radius, 90% confidence).
+This position is consistent with the UVOT enhanced XRT position (Osborne 
+et al., GCN 7687) and the TLS position (Kann et al., GCN 7688).
+
+No observations were performed with the white filter due to the presence 
+of 7.5mag B star (HD 208837) 6 arcmins from the GRB position.
+
+UVOT magnitudes and 3 sigma upper limits are reported below for the single
+and coadded images:
+
+Filter    Tstart(s)  Tstop   Expo(s)   Magnitude/3sigUL
+-----------------------------------------------------
+v            143     543     393       18.35 +/- 0.10
+v           6728    6928     197       19.88 +/- 0.52
+b            623     771      19       19.84 +/- 0.65 (1.7-sigma)
+b          10818   11118     295       20.64 +/- 0.28 (3.8-sigma)
+u            599    6311     254       > 20.29
+w1           574    7338     471       > 20.44
+m2          1284    7133     787       > 20.69
+w2           639    6723     432       > 20.46
+-----------------------------------------------------
+
+These magnitudes are not corrected for the Galactic extinction
+corresponding to a reddening of E{B-V} = 0.23 mag (Schlegel et al.
+1998). The photometry is on the UVOT flight system described in Poole
+et al. (2008,MNRAS,383,627).
+

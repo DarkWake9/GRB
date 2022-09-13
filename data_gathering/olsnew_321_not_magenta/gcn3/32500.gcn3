@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32500
+SUBJECT: Konus-Wind detection of GRB 220826A
+DATE:    22/08/29 17:46:51 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+D. Frederiks, A.Lysenko, A. Ridnaya, D. Svinkin, A. Tsvetkova,
+M. Ulanov, and T. Cline, on behalf of the Konus-Wind team, report:
+
+The long GRB 220826A (Swift detection: Caputo et al., GCN 32484;
+Fermi GBM observation: Veres & Meegan, GCN 32495)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in the 20-400 keV band
+reveals a >10 sigma count rate increase in the interval
+from T0-0.525 s to T0+37.747 s where T0 = T0(BAT) = 11:55:21.742 UT.
+
+The KW light curve of this burst is available
+at http://www.ioffe.ru/LEA/GRBs/GRB220826A/
+
+Modeling a time-integrated spectrum of the burst
+by a power law with exponential cutoff (CPL) model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -0.48 (-0.22, + 0.25) and Ep = 113(-4,+4) keV.
+In the 10 keV -10 MeV band, standard for the KW analysis,
+the burst fluence is (2.53 ± 0.29)x10^-6 erg/cm^2
+and the 2.944 s peak energy flux is (2.86 ± 0.18)x10^-7 erg/cm^2/s.
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.
+

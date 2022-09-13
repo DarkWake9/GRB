@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29056
+SUBJECT: GRB 201214B: MITSuME Akeno optical upper limits
+DATE:    20/12/16 13:52:03 GMT
+FROM:    Noriatsu Nakamura at Tokyo Inst. of Tech.  <nnakamura@hp.phys.titech.ac.jp>
+
+N. Nakamura,  R. Hosokawa, K. L. Murata, R. Adachi, M. Niwano, F.
+Ogawa, N. Ito, S. Ogata, H. Takamatsu, H. Hara, Y. Yatsu, and N. Kawai
+(TokyoTech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 201214B (The Fermi GBM team,  GCN #29039,
+P. Evans et al., GCN #29043, V. Lipunov et al., GCN #29044, D. Palmer
+et al., GCN #29045, B. Sbarufatti et al., GCN #29052 ) with the
+optical three color (g', Rc, and Ic) CCD cameras attached to the
+MITSuME 50 cm telescope of Akeno Observatory, Yamanashi, Japan. The
+observation with a series of 60 sec exposures started at 2020-12-15
+18:51:41 UT(28.8 hour after trigger). We did not find any new point
+sources within the enhanced Swift BAT circle (D. Palmer et al., GCN
+#29045) in all three bands.
+We obtained the 5-sigma limits of the stacked images as follows
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+28.8 18:51:41 10380 g'>20.9,Rc>21.0,Ic>20.3
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+We used the PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al.,
+https://doi.org/10.1093/pasj/psaa091,
+https://arxiv.org/abs/2008.11486; https://github.com/MNiwano/Eclaire).
+

@@ -1,0 +1,47 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4907
+SUBJECT: GRB 060322:  Refined analysis of the Swift-BAT burst
+DATE:    06/03/23 20:33:57 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+D. Palmer (LANL), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/NRC), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (BYU-Idaho), H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), 
+A. Parsons (GSFC), M. Perri (ASDC), T. Sakamoto (GSFC/NRC),
+G. Sato (ISAS), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 060322 (trigger #202442)
+(Perri, et al., GCN 4903).  The BAT ground-calculated position is
+RA,Dec = 274.235,-36.721 deg {18h 16m 56.4s, -36d 43' 14.7"} (J2000)
++- 1.0 arcmin, (radius, sys+stat, 90% containment).  The partial coding was 80%.
+ 
+The mask-weighted lightcurve shows two well separated episodes of emission.
+The first episode starts at T-22 sec and ends at T+40 sec with six main peaks
+within that interval.  Then the emission drops below the BAT sensitivity
+until the second episode.  The second episode starts at T+155 sec and
+ends at T+204 sec with six main peaks within that second interval.
+There is no further emission out to T+670 sec.  T90 (15-350 keV) is
+213 +- 5 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-21.7 to T+232.3 is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 1.04 +- 0.32, 
+and Epeak of 94.4 +- 44.7 keV (chi squared 57.29 for 56 d.o.f.).  
+For this model the total fluence in the 15-150 keV band is
+5.1 +- 0.2 x 10^-06 erg/cm2 and the 1-sec peak flux measured from T+182.19 sec
+in the 15-150 keV band is 2.1 +- 0.2 ph/cm2/sec.  A fit to a simple
+power law gives a photon index of 1.58 +- 0.07 (chi squared 65.5
+for 57 d.o.f.).  All the quoted errors are at the 90% confidence level.
+
+Additionally, separate spectral analyses of the two episodes
+in the light curve show that the second episode is spectrally softer
+than the first.  The best fit to the first episode is a simple power law
+with a photon index of 1.36 +- 0.09 (chi squared 30.3 for 56 d.o.f.).
+The second episode is best fit by a power law with an exponential
+cutoff.  This fit gives a photon index alpha = 0.89 +-0.31 and Epeak 
+of 72.8 +- 12.6 keV (chi squared 51.6 for 55 d.o.f.).  Fitting a
+simple power law to the second episode yields a power-law index
+of 1.69 +- 0.07 (chi squared 70.5 for 56 d.o.f.)  All the quoted errors
+are at the 90% confidence level.
+

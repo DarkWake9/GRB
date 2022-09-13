@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9679
+SUBJECT: Konus-Wind and Konus-RF observations of GRB 090715B
+DATE:    09/07/16 12:52:47 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, E. Mazets, V. Pal'shin,
+P. Oleynik, M. Ulanov, and D. Svinkin on behalf of
+the Konus-Wind and Konus-RF teams, and
+T. Cline on behalf of the Konus-Wind team, report:
+
+The long GRB 090715B (Vetere et al., GCN 9668)
+triggered Konus-Wind at T0=75799.008 s UT (21:03:19.008),
+and Konus-RF instrument onboard CORONAS-PHOTON s/c
+at T0(KRF)=75798.895 s UT (21:03:18.895).
+
+The burst had a multi-peaked structure with a duration of ~100 s.
+The Konus-Wind light curves of this GRB are available at
+http://www.ioffe.ru/LEA/GRBs/GRB090715_T75799/
+
+As observed by Konus-Wind, the burst had a fluence
+of 9.3(-1.1,+1.5)x10-6 erg/cm2,
+and a 256-ms peak flux, measured from T0+4.912 s,
+of 9.0(-2.5,+2.5)x10-7 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+82.176 s) is well fitted
+(in the 20 keV - 2 MeV range) by a power-law with
+exponential cutoff (CPL) model:
+dN/dE ~ E^{alpha}*exp(-(2+alpha)*E/Epeak), for which:
+the photon index alpha = -1.1(-0.34,+0.4), and
+the peak energy Ep = 134(-30,+56) keV (chi2 = 57/61 dof).
+
+The spectrum at the maximum count rate,
+measured from T0 to T0+8.448 s, is also well fitted
+(in the 20 keV - 2 MeV range) by CPL model, for which:
+the photon index alpha = -0.86(-0.20,+0.22), and
+the peak energy Ep = 178(-23,+33) keV (chi2 = 49/61 dof).
+
+All the quoted values are preliminary.
+The quoted errors are at the 90% confidence level.
+

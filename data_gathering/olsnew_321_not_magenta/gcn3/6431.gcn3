@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6431
+SUBJECT: GRB 070521: Swift detection of a burst
+DATE:    07/05/21 07:04:35 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. Guidorzi (Univ Bicocca&INAF-OAB), S. D. Barthelmy (GSFC),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC), C. Gronwall (PSU),
+C. B. Markwardt (GSFC/UMD), A. Moretti (INAF-OAB),
+P. T. O'Brien (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), P. Romano (Univ. Bicocca & INAF-OAB) and
+G. Tagliaferri (INAF-OAB) report on behalf of the Swift Team:
+
+At 06:51:10 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070521 (trigger=279935).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 242.669, +30.241 which is 
+   RA(J2000)  =  16h 10m 41s
+   Dec(J2000) = +30d 14' 27"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows multiple peaks
+with a duration of about 40 sec.  The peak count rate
+was ~7000 counts/sec (15-350 keV), at ~20 sec after the trigger. 
+
+The XRT began taking data at 06:52:27 UT, 77 seconds after the BAT
+trigger.  The XRT on-board centroid algorithm did not find a source in the
+image and no prompt position is available.  However, the downlinked X-ray
+spectrum and lightcurve show that there is an X-ray object in the
+field that appears to be fading. 
+Using prompt downlinked data, we find a position RA, Dec 242.6606, 30.2579 which is
+   RA(J2000)  = 16h10m 38.5s
+   Dec(J2000) = +30d 15' 28.3''
+with an uncertainty of 4.0 arcsec (radius, 90% containment). 
+
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 81 seconds after the BAT trigger. No afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 18.5 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.03. 
+

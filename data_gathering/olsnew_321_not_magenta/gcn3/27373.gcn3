@@ -1,0 +1,58 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27373
+SUBJECT: Swift-BAT trigger 960986: Swift detection of a new SGR Swift J1818.0-1607
+DATE:    20/03/12 21:47:38 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@star.le.ac.uk>
+
+P. A. Evans (U Leicester), J.D. Gropp (PSU), J. A. Kennea (PSU),
+N. J. Klingler (PSU), S. Laha (GSFC/UMBC/CRESST),
+A. Y. Lien (GSFC/UMBC), K. L. Page (U Leicester), T. Sakamoto (AGU)
+and A. Tohuvavohu (U Toronto) report on behalf of the Neil Gehrels
+Swift Observatory Team:
+
+At 21:16:47 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a new SGR (trigger=960986).  
+Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 274.471, -16.102 which is 
+   RA(J2000) = 18h 17m 53s
+   Dec(J2000) = -16d 06' 05"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single-peak
+structure with a duration of about 0.1 sec.  The peak count rate
+was ~1500 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 21:17:51.2 UT, 64.2 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source with an enhanced position: RA, Dec 274.5009, -16.1312
+which is equivalent to:
+   RA(J2000)  = 18h 18m 00.22s
+   Dec(J2000) = -16d 07' 52.3"
+with an uncertainty of 2.4 arcseconds (radius, 90% containment). This
+location is 147 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+https://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 68 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the large, but
+uncertain, extinction expected. 
+
+The extremely short and relatively soft nature of the BAT detection, combined 
+with the source's closeness to the Galactic Plane (b=-0.14 deg), is suggestive
+that this trigger is from a previously undiscovered SGR. If this is a new SGR
+and not a GRB, we name the source Swift J1818.0-1607. 
+
+Burst Advocate for this burst is P. A. Evans (pae9 AT star.le.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

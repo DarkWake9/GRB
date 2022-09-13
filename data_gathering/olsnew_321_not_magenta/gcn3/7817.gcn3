@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7817
+SUBJECT: GRB 080604, Swift-BAT refined analysis
+DATE:    08/06/04 18:03:17 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. Baumgartner (GSFC/UMBC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA),
+V. La Parola (INAF-IASFPA), C. Markwardt (GSFC/UMD), K. McLean (GSFC/UMD),
+D. Palmer (LANL), T. Sakamoto (GSFC/UMBC), G. Sato (ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 080604 (trigger #313116)
+(La Parola, et al., GCN Circ. 7800).  The BAT ground-calculated position is
+RA, Dec = 236.960, 20.557 deg, which is 
+   RA(J2000)  =  15h 47m 50.3s 
+   Dec(J2000) = +20d 33' 25.4" 
+with an uncertainty of 2.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 100%.
+ 
+The mask-weighted light curve shows a single peak starting at ~T-25 sec
+and ending at ~T+100 sec.  T90 (15-350 keV) is 82 +- 13 sec (estimated error
+including systematics).
+ 
+The time-averaged spectrum from T-27.3 to T+67.2 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.78 +- 0.18.  The fluence in the 15-150 keV band is 8.0 +- 0.9 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-3.02 sec in the 15-150 keV band
+is 0.4 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/313116/BA/
+ 
+This burst satisfies Sakamoto/Ukwatta Swift-BAT possible high-z criteria
+(Ukwatta et al. arXiv:0802.3815):
+1) Pawer Law photon index = 1.78 (PL photon index < 2)
+2) 1-s peak photon flux   = 0.4 (1-s peak photon flux < 1.0 ph/cm2/s)
+3) Light curve variance   = 1.1e-05 (Variance < 0.0001)
+4) T90/(Peak photon flux) = 218 (T90/(Peak photon flux) > 100)
+Based on a limited sample of bursts, these criteria yield an 85% chance
+it has a redshift greater than 3.5.  We note that the Cucchiara (GCN Circ 7805)
+HET spectrum yields a z = 1.28.
+

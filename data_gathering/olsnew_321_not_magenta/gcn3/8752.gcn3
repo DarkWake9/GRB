@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8752
+SUBJECT: GRB 081228: GROND confirmation of the optical/NIR afterglow 
+DATE:    08/12/29 18:29:33 GMT
+FROM:    Thomas Kruehler at MPE/MPI  <kruehler@mpe.mpg.de>
+
+P. Afonso, T. Kruehler, J. Greiner (all MPE), and S. Klose 
+(Tautenburg) report on behalf of the GROND team:
+
+We report on further analysis of the GROND data of the optical 
+afterglow candidate of GRB 081228 (Swift trigger 338338, Page et al., 
+GCN #8742).
+
+The optical/NIR source inside the XRT errorcircle, previously reported 
+in GCN #8745 by P. Afonso et al., is found to be clearly variable. The 
+position of the afterglow is:
+
+RA(J2000): 02:37:50.94
+DEC(J2000): +30:51:10.5
+
+with uncertainties of 0.5" in each coordinate.
+
+Preliminary photometry yields the following r' band magnitudes, 
+uncorrected for Galactic foreground reddening:
+
+T_mid[s]  Exp[s] Mag     MagErr
+-------------------------------
+449       35     19.81   0.04
+667       35     20.25   0.04
+872       35     20.59   0.06
+1380      115    21.21   0.05
+1581      115    21.34   0.05
+3308      375    22.09   0.08
+
+The quoted error is statistical only. There is an additional 
+systematic error in the absolute calibration using the GROND zeropoint 
+which is expected to be in the 0.2 mag range. As the GROND photometric 
+system is based on the SDSS in g'r'i'z' these values are AB magnitudes.
+
+The complete light curve obtained during the first night post burst 
+can be reasonably well described with a power law of index 1.1 +- 0.2.
+
+A broad band SED from g' to K was constructed using data obtained 
+simultaneously at a midtime of 1500 s after the trigger. After 
+correcting for a Galactic foreground extinction corresponding to a 
+reddening of E_(B-V)= 0.16 (Schlegel et al. 1998), the r' to K band 
+SED is well described with a power law of spectral index beta = 0.85 
++- 0.15.
+
+We tentatively associate the large, foreground extinction corrected 
+g'-r' color of around 1.4 mag with Ly-alpha absorption in the host at 
+a redshift of 3.8 +- 0.4. This photometric redshift estimate has been 
+obtained using hyperZ (Bolzonella et al. 2000). We caution, however, 
+that this might be subject to changes due to a future improved 
+calibration.
+

@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21278
+SUBJECT: Konus-Wind observation of GRB 170626A
+DATE:    17/06/28 12:47:29 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 170626A (Swift-BAT trigger #758766:
+Marshall et al., GCN 21264; Barthelmy et al., GCN 21271;
+Fermi GBM observation: Hamburg et al., GCN 21266;
+Insight-HXMT observation: Xu et al., GCN 21274)
+triggered Konus-Wind at T0=34640.048 s UT (09:37:20.048).
+
+The burst light curve shows a multipeaked structure
+started at ~T0-0.4 s with a total duration of ~12.8 s.
+The emission is seen up to ~10 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.22(-0.05,+0.05)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+0.576 s,
+of 6.70(-0.97,+0.98)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+15.360 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.23(-0.10,+0.11)
+and Ep = 110(-7,+8) keV (chi2 = 92/99 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+the high energy photon index beta = -3.3 (-0.9,+0.4)
+(chi2 = 90/98 dof)
+
+The spectrum near the maximum count rate
+(measured from T0+0.256 to T0+7.168 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model
+with  alpha = -1.17(-0.10,+0.11)
+and Ep = 123(-8,+9) keV (chi2 = 78/95 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+the high energy photon index beta = -3.5 (-3.1,+0.4)
+(chi2 = 77/94 dof)
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB170626_T34640/
+
+All the quoted errors are at the 90% confidence level,
+except for beta errors, which are at the 68% confidence level.
+All the quoted values are preliminary.
+

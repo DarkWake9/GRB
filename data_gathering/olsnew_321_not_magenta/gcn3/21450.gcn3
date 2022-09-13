@@ -1,0 +1,66 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21450
+SUBJECT: GRB 170810A: Swift detection of a burst with a bright optical counterpart
+DATE:    17/08/10 22:39:41 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+S. L. Gibson (U Leicester), D. N. Burrows (PSU), J. A. Kennea (PSU),
+S. J. LaPorte (PSU), A. Y. Lien (GSFC/UMBC), K. L. Page (U Leicester),
+D. M. Palmer (LANL) and A. Tohuvavohu (PSU) report on behalf of the
+Swift Team:
+
+At 22:01:41 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 170810A (trigger=767284).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 187.950, +3.647 which is 
+   RA(J2000) = 12h 31m 48s
+   Dec(J2000) = +03d 38' 48"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of 160 sec. The peak count rate 
+was ~2600 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 22:02:57.5 UT, 76.5 seconds after
+the BAT trigger. Using promptly downlinked data we find a bright,
+fading, uncatalogued X-ray source with an enhanced position: RA, Dec
+187.9389, 3.6603 which is equivalent to:
+   RA(J2000)  = 12h 31m 45.33s
+   Dec(J2000) = +03d 39' 37.0"
+with an uncertainty of 2.1 arcseconds (radius, 90% containment). This
+location is 62 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density in excess of the Galactic value (2.23 x
+10^20 cm^-2, Willingale et al. 2013), with an excess column of 3.2
+(+1.98/-1.79) x 10^21 cm^-2 (90% confidence). 
+
+The initial flux in the 2.5 s image was 4.45e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 876 seconds after the BAT trigger. There is a candidate afterglow in
+the list of sources generated on-board at
+  RA(J2000)  =	12:31:45.31 = 187.93881
+  DEC(J2000) = +03:39:38.9  =	3.66080
+with a 90%-confidence error radius of about 1.10 arc sec. This position is 3.5
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+17.87. No correction has been made for the expected extinction corresponding to
+E(B-V) of 0.03. 
+
+An earlier UVOT finding chart exposure, starting 85 seconds after the 
+BAT trigger, showed that the counterpart was much brighter at that time. 
+However, this brightness precluded automatic analysis.  
+Results for this early bright detection will be presented later. 
+
+The original GCN notice of this burst suggested an association with the
+galaxy NGC4496A.  However, the apparent separation from this galaxy,
+0.295 deg, implies that these two objects are not related. 
+
+Burst Advocate for this burst is S. L. Gibson (slg44 AT le.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

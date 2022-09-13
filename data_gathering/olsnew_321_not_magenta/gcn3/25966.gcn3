@@ -1,0 +1,71 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25966
+SUBJECT: LIGO/Virgo S190930t: Swift XRT observations, no secure afterglow found
+DATE:    19/10/07 07:20:45 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), K.L. Page (U.Leicester), J.A. Kennea (PSU),
+A. Tohuvavohu (U. Toronto), S.D. Barthelmy (NASA/GSFC), A.P. Beardmore
+(U. Leicester), M.G. Bernardini (INAF-OAB), A.A. Breeveld (UCL-MSSL),
+P. Brown (TAMU), D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko
+(NASA/GSFC), G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P.
+D'Avanzo (INAF-OAB), V. D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P.
+Giommi (ASI), C. Gronwall (PSU), D. Hartmann (U. Clemson), H.A. Krimm
+(CRESST/GSFC/USRA), N.J. Klingler (PSU), N.P.M. Kuin (UCL-MSSL), A.Y.
+Lien (GSFC/UMBC), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+J.A. Nousek (PSU), S.R. Oates (U. Warwick), P.T. O'Brien (U.
+Leicester), J.P. Osborne (U. Leicester), C. Pagani (U. Leicester),
+M.J.Page (UCL-MSSL), D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin
+(NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G.
+Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP) report on behalf of
+the Swift team:
+
+Swift has carried out 649 observations of the LVC error region for the
+GW trigger S190930t convolved with the 2MPZ catalogue (Bilicki et al.
+2014, ApJS, 210, 9), using the 'bayestar' GW localisation map. As this
+is a 3D skymap, galaxy distances were taken into account in selecting
+which ones to observe. The observations currently span from 7.6 ks to
+345 ks after the LVC trigger, and the XRT has covered 71.6 deg^2 on the
+sky (corrected for overlaps). This covers 0.5% of the probability in
+the 'bayestar' skymap, and 2.5% after convolving with the 2MPZ galaxy
+catalogue, as described by Evans et al. (2016, MNRAS,  462, 1591). Our
+pointings have been uploaded to the "Treasure Map" web service:
+http://treasuremap.space/alerts?graceids=S190930t.
+
+We have detected 14 X-ray sources. Each source is assigned a rank of
+1-4 which describes how likely it is to be related to the GW trigger,
+with 1 being the most likely and 4 being the least likely. The ranks
+are described at https://www.swift.ac.uk/ranks.php.
+
+One rank 3 source, "source 12", is of potential interest as it appears
+to be fading. This source is at RA,Dec = 07h 47m 58.93s +43d 18' 20.1",
+
+which is equivalent to:
+
+RA(J2000.0)   = 116.99554
+Dec(J2000)    = +43.3056
+
+with an uncertainty of 8 arcsec (radius, 90% confidence). There is no
+galaxy in 2MPZ near this location at a position consistent with the LVC
+
+distance along this line of sight (105 Mpc), however, 2MPZ is only 75%
+complete to this distance.
+
+
+In total, we have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 5 sources of rank 3
+  * 9 sources of rank 4
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3x10^20 cm^-2, and photon index (Gamma)=1.7
+
+The results of the XRT automated analysis are online at
+https://www.swift.ac.uk/LVC/S190930t
+
+This circular is an official product of the Swift XRT team.
+
+

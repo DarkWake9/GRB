@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6749
+SUBJECT: Swift Trigger 287421: False trigger due to star tracker loss
+DATE:    07/08/10 20:29:15 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. J. Brown (PSU), J. R. Cummings (NASA/UMBC),
+P. A. Evans (U Leicester), C. Guidorzi (Univ Bicocca&INAF-OAB),
+J. A. Kennea (PSU), F. E. Marshall (NASA/GSFC),
+J. P. Osborne (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), P. Romano (Univ. Bicocca & INAF-OAB),
+T. Sakamoto (NASA/ORAU), G. Sato (GSFC/ISAS) and
+M. Stamatikos (NASA/ORAU) report on behalf of the Swift Team:
+
+At 19:54 UT, Swift suffered a loss of star tracker lock, and
+the Burst Alert Telescope (BAT) then interpreted Sco X-1 as a GRB
+(trigger=287421).
+
+The BAT position notice correctly contained the comment line:
+COMMENTS:        This trigger occured while the StarTracker had lost 
+lock, so it is possibly bogus.
+
+Star tracker recovery is currently underway.
+
+[GCN OPS NOTE(02July15): Per F.Marshall (Swift Team), the trigger
+number in the Subject line was changed from "28742" to "287421".]
+

@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30261
+SUBJECT: GRB 210619B: Swift detection of a bright burst and optical counterpart
+DATE:    21/06/20 00:12:00 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. D'Avanzo (INAF-OAB), M. G. Bernardini (INAF-OAB),
+A. Y. Lien (GSFC/UMBC), A. Melandri (INAF-OAB),
+K. L. Page (U Leicester), D. M. Palmer (LANL) and
+T. Sbarrato (INAF-OAB) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 23:59:25 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 210619B (trigger=1056757).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 319.713, +33.860 which is 
+   RA(J2000) = 21h 18m 51s
+   Dec(J2000) = +33d 51' 35"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+structure with a duration of about 100 sec.  The peak count rate
+was ~100,000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 00:04:53.4 UT, 328.1 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 319.7161, 33.8495 which is equivalent to:
+   RA(J2000)  = 21h 18m 51.86s
+   Dec(J2000) = +33d 50' 58.2"
+with an uncertainty of 11.1 arcseconds (radius, 90% containment). This
+location is 38 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 4.27e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 135 seconds after the BAT trigger. There is a candidate afterglow in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	21:18:52.39 = 319.71831
+  DEC(J2000) = +33:51:01.6  =  33.85044
+with a 90%-confidence error radius of about 0.61 arc sec. This position is 7.5
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+14.71 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.173. 
+
+Burst Advocate for this burst is P. D'Avanzo (paolo.davanzo AT inaf.it). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/)
+

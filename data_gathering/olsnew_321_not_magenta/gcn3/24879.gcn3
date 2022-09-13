@@ -1,0 +1,21 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24879
+SUBJECT: IceCube-190619A: prompt emission upper limits from AstroSat-CZTI
+DATE:    19/06/25 05:39:37 GMT
+FROM:    Varun Bhalerao at Indian Inst of Tech  <varunb@iitb.ac.in>
+
+A. Anumarlapudi (IITB), Aarthy E. (PRL), V. Bhalerao (IITB), D. Bhattacharya (IUCAA), A. R. Rao (TIFR), S. Vadawale (PRL) report on behalf of the AstroSat CZTI collaboration:
+
+We have carried a search for X-ray candidates in Astrosat CZTI data in a 1000 sec window around the trigger time of the ICECUBE event ICECUBE190619A (UTC 2019-06-19 13:14:18.040, GCN 24854). CZTI is a coded aperture mask instrument that has considerable effective area for about 29% of the entire sky, but is also sensitive to brighter transients from the entire sky. At the time of merger, Astrosat's nominal pointing is (RA=299.58, DEC=35.21), whcich is 46.53 deg away from the transient likely location (RA=343.26, Dec=10.73). At the time of event, the Earth-satellite-transient angle is 160.27, hence the transient is not occulted by Earth in the satellite's frame. 
+
+CZTI data were de-trended to remove orbit-wise background variation. We then searched data from the four independent, identical quadrants to look for coincident spikes in the count rates. Searches were undertaken by binning the data in 0.1s, 1s, and 10s respectively. Statistical fluctuations in count rates were estimated by using data from 10 (+-5) neighbouring orbits. We selected confidence levels such that the probability of a false trigger in a 1000 sec window is 10^-4. We do not find any evidence for any hard X-ray transient in this window, in the CZTI energy range of 20-200 keV.
+
+We convert our count rates into flux by assuming that the source spectrum is a power law with alpha = -1.0. We use a detailed mass model of the satellite to calculate the instrument response in the direction of transient and calculate flux limit in that direction. We get the following upper limits for source flux in the 20-200 keV band as :  
+
+0.1 s: flux limit= 2.85 e-7 ergs/cm^2/s 
+1.0 s: flux limit= 9.5 e-7 ergs/cm^2/s 
+10.0 s: flux limit= 2.0 e-6 ergs/cm^2/s
+
+CZTI is built by a TIFR-led consortium of institutes across India, including VSSC, ISAC, IUCAA, SAC and PRL. The Indian Space Research Organisation funded, managed and facilitated the project.
+
+

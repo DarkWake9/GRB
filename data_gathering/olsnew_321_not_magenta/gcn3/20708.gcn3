@@ -1,0 +1,82 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20708
+SUBJECT: LIGO/Virgo G274296:  PESSTO classification of 9 Pan-STARRS transients 
+DATE:    17/02/20 12:59:08 GMT
+FROM:    S. J. Smartt at Queens U Belfast  <s.smartt@qub.ac.uk>
+
+F. Taddia, C. Barbarino, A. Nyholm, C. Fremling, J. Sollerman (OKC),
+M. T. Botticella (INAF-Capodimonte), M. Fraser (UCD), C. Inserra,
+E. Kankare, K. Maguire, S. J. Smartt, K. W. Smith, D. Wright, D. Young
+(QUB), M. Sullivan (Southampton), S. Valenti (UC Davis), O. Yaron,
+I. Manulis (Weizmann), E. Cappellaro (INAF-Padova), K. C. Chambers
+(IfA), M. E. Huber (IfA), M. Coughlin (Harvard), T.-W. Chen (MPE),
+L. Denneau, H. Flewelling, A. Heinze, T. Lowe, E. A. Magnier (IfA),
+A. Rest (STScI), B. Stalder, A. S. B. Schultz (IfA), C. W. Stubbs
+(Harvard) J. Tonry, C. Waters, R. J. Wainscoat, H. Weiland, M. Willman
+(IfA)
+
+
+PESSTO, the Public ESO Spectroscopic Survey for Transient Objects (see
+Smartt et al. 2015, A&A, 579, 40 http://www.pessto.org), reports the
+following supernova classifications related to G274296 within the cWB
+map skyprobcc_cWB.fits (GCN 20689).
+
+Targets were supplied by Pan-STARRS as in Chambers et al.
+(GCN20699). For Pan-STARRS information, see Chambers et al. 2016
+(arXiv:1612.05560, and http://pswww.ifa.hawaii.edu).  We selected
+targets brighter than i=20.5 and accessible from La Silla.
+
+All observations were performed on the ESO New Technology Telescope at
+La Silla on 2017 February 19, using EFOSC2 and Grism 13 (3985-9315A,
+18A resolution).  Classifications were done with SNID (Blondin &
+Tonry, 2007, ApJ, 666, 1024) and GELATO (Harutyunyan et al., 2008,
+A&A, 488, 383). Classification spectra and additional details can be
+obtained from http://www.pessto.org (via WISeREP).
+
+Name        RA (J2000)  Dec (J2000)  Disc. Date  Disc Mag   z      Type      Phase        Notes
+PS17bcv     09 16 27.70 +03 35 25.2   20170218     19.9    0.104   IIn        ?                  (1)
+PS17bda     09 30 36.08 +11 29 53.6   20170218     19.4    0.090   Ia         -3 to +3 d    (2) 
+PS17bgx     09 20 37.01 +12 53 17.8   20170218     20.4    ?          ?          ?                  (3)
+PS17bdt      10 17 28.88 +22 24 57.5   20170218     20.3    0.048   II         +12 d            (4)
+PS17bdv     10 21 15.88 +23 38 53.2   20120218     20.4    0.14     Ia         +8 to +10 d  (5)
+PS17bel      10 50 34.64 +30 25 30.7   20120218     20.0    0.116   Ia           +4 to +7 d   (6)
+PS17beo     10 53 24.68 +28 51 27.1   20120218     19.6    0.217   IIn          +30 d          (7)
+PS17bgn     11 31 52.98 +29 59 45.1   20120218     18.3    0.148   SLSN II   >+50d        (8)
+PS17bek     10 47 41.90 +26 50 06.0   20120218     19.7    0          Stellar        -              (9)
+
+Notes 
+
+(1) Narrow Halpha and Hbeta in emission. Offset from the host-galaxy
+center.
+
+(2) Best SNID matches to several 1991T-like SNe Ia before and around
+maximum. Redshift from SDSS.
+
+(3)  Blue featureless spectrum. 
+
+(4) Best SNID fit to SN 2004et at +12 d. Other good fits with SNe II
+at +0 d and +20 d. Redshift from SDSS.
+
+(5) Best SNID match with normal SN Ia 2002dj at +9 d. Several other
+good matches with normal SNe Ia at similar age.
+
+(6) Best SNID match with several normal SNe Ia at +4 to +7 d. Redshift
+from SDSS.
+
+(7) Good GELATO match to SN IIn 2010jl at +28 d. Absolute magnitude
+-20.2 mag.
+
+(8) Redshift and phase based on the best SNID match to SN IIL
+1979C. Broad double-peaked Halpha and Hbeta, similar to 
+nebular type II spectra.  Absolute magnitude -20.8 mag, very 
+bright for inferred phase. 
+
+(9) Narrow Halpha detection at z=0. Blue spectrum with black body
+temperature of about 10000 K.
+
+
+
+
+
+
+

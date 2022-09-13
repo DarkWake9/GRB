@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28037
+SUBJECT: Konus-Wind detection of short/hard GRB 200623B
+DATE:    20/06/28 18:08:03 GMT
+FROM:    Anastasia Tsvetkova at Ioffe Institute  <tsvetkova@mail.ioffe.ru>
+
+A. Tsvetkova, S. Golenetskii, R.Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Lysenko, A. Ridnaia and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration, hard-spectrum GRB200623B
+(IPN triangulation: Ridnaia et al., GCN 28024)
+triggered Konus-Wind at T0=64972.561 s UT (18:02:52.561).
+
+The light curve of the burst shows two pulses
+in the interval from ~T0-0.2 s to ~T0+0.3  s.
+The emission is seen up to ~1 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.02(-0.23,+0.57)x10^-6 erg/cm2,
+and a 64-ms peak energy flux, measured from T0-0.086 s,
+of 6.65(-1.47,+3.74)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Fitting the time-integrated 3-channel spectrum of the burst
+(measured from T0-0.118 s to T0+0.304 s)
+in the 20 keV - 1.5 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -0.37(-0.41,+0.59),
+and Ep = 753(-217,+582) keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB200623_T64972/
+
+All the quoted errors are at the 68% confidence level.
+All the quoted values are preliminary.
+
+

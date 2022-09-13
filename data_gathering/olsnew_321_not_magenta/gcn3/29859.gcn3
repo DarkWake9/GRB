@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29859
+SUBJECT: GRB 210419C: MITSuME Akeno optical upper limits
+DATE:    21/04/21 09:18:53 GMT
+FROM:    Katsuhiro L. Murata at Nagoya U  <murata@u.phys.nagoya-u.ac.jp>
+
+K. L. Murata, R. Hosokawa, M. Niwano, N. Ito, H. Takamatsu, Y. Yatsu, and
+N.Kawai (TokyoTech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 210419C (M. J. Moss et al. GCN Circular
+#29834, A.P. Beardmore et al. GCN Circular #29839, WeiKang Zheng and Alexei
+V. Filippenko report on et al. GCN Circular #29840, Simone Leonini et al.
+GCN Circular #29842, Nat Butler et al. GCN Circular #29843, T. Sakamoto et
+al. GCN Circular #29856) with the optical three color (g', Rc, and Ic) CCD
+cameras attached to the MITSuME 50 cm telescope of Akeno Observatory,
+Yamanashi, Japan. The observation with a series of 60 sec exposures started
+at 2021-04-20 10:40:08 UT (11.2 hours after the Swift BAT trigger). We
+stacked the images with good conditions. We did not detect any sources
+within the enhanced XRT error region (A.P. Beardmore et al. GCN Circular
+#29839) in all three bands. We obtained the 5-sigma limits of the stacked
+images as follows.
+
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+11.6 11:38 3000 g'>19.6, Rc>19.9, Ic>19.3
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+We used the PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU reduction
+pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages 4-24;
+https://github.com/MNiwano/Eclaire).

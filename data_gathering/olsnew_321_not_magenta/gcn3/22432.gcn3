@@ -1,0 +1,69 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22432
+SUBJECT: Swift trigger 811074 (possible GRB 180221A): Swift refined analysis
+DATE:    18/02/22 04:48:13 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+A. P. Beardmore (U. Leicester), C. B. Markwardt (GSFC), M. H. Siegel (PSU),
+S. D. Barthelmy (GSFC), S. B. Cenko (GSFC), J. R. Cummings (CPI),
+P. A. Evans (U Leicester), J. A. Kennea (PSU), H. A. Krimm (NSF/USRA),
+A. Y. Lien (GSFC/UMBC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+report on behalf of the Swift team:
+
+Using the data set from the recent telemetry downlink, we report further
+analysis of the possible GRB 180221A (trigger #811074)
+(Stamatikos et al., GCN Circ. 22427).
+
+Using the BAT data from T-239 to T+963 sec,
+the BAT ground-calculated position is
+RA, Dec = 326.787, -72.891 deg which is
+   RA(J2000)  =  21h 47m 08.9s
+   Dec(J2000) = -72d 53' 27.3"
+with an uncertainty of 2.9 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 31%.
+
+The BAT mask-weighted light curve shows a hint of a weak pulse that starts
+at ~ T+2 s and ends at ~T+15 s. However, the mask-weighted light curve also
+suggests a negative average count rate for the background interval (~T-200 s
+to ~T0), which indicates incorrect background estimation that is likely caused
+by the high count rates around the SAA. When performing the analysis without
+subtracting the background image, the image significance of the pulse in the
+15-350 keV drops to ~ 3.5 sigma, which is consistent with noise fluctuation.
+
+Because of the uncertainty in the background estimation, it is difficult to
+confirm the nature of the source with BAT data alone.
+
+Swift-XRT observed the field of the possible GRB 180221A (BAT trigger
+811074) in Photon Counting mode for 5.73 ks from 3.1 ks to 16.4 ks
+after the trigger. We detect a candidate counterpart within the BAT
+error circle with an enhanced XRT position (using the XRT-UVOT
+alignment and matching UVOT field sources to the USNO-B1 catalogue) of
+RA, Dec (J2000) = 326.77306, -72.86947, which is equivalent to:
+
+RA (J2000):  21h 47m 05.53s
+Dec(J2000): -72d 52' 10.1"
+
+with an uncertainty of 2.2 arcsec (radius, 90% confidence).
+
+Although faint, with a peak rate of 0.035 c/s (over the 0.3-10.0 keV
+energy band), the source appears to be fading with a power-law decay
+slope alpha = 0.57 +/- 0.31.
+
+A spectrum formed from the PC mode data over this interval can be
+fitted with an absorbed power-law with a photon index 1.8 (+0.5 -0.4)
+and column density of 4.4(+14.2 -4.4)E20 cm^-2, in addition to the
+Galactic column density of 3.98e20 cm^-2 in the direction of the
+source. The observed 0.3-10 keV flux is 7.8E-13 erg cm^-2 s^-1.
+
+The Swift/UVOT began settled observations of the field of the possible
+GRB 180221A 2950 s after the BAT trigger.  No optical afterglow consistent
+with the XRT position is detected in the initial UVOT exposures nor is any
+other optical transient detected down to a 3-sigma upper limit of 21.4 in
+the white filter.
+
+Further Swift observations are planned to determine if the
+source fades further.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/811074/BA/

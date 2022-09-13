@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7248
+SUBJECT: GRB 080130: Swift-BAT refined analysis
+DATE:    08/02/02 20:16:21 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. Cummings (GSFC/UMBC), A. Copete, J. Grindlay, B. Allen, J. Hong (Harvard)
+S. D. Barthelmy, N. Gehrels (GSFC), M. Stamatikos (GSFC/ORAU)
+report:
+
+Using the data set from T-3 to T+107 sec from recent telemetry
+downlinks, we report further analysis of BAT GRB 080130
+(T_zero chosen as 11:13:59 UT) detected during a Swift slew maneuver
+(Copete, et al., GCN Circ. 7242).  The BAT ground-calculated position
+from postslew (after T+33 sec) data is RA, Dec = 261.632, -53.190 deg,
+which is
+   RA(J2000) =  17h 26m 31.6s
+  Dec(J2000) = -53d 11' 24"
+with an uncertainty of 2.8 arcmin, (radius, sys+stat, 90% containment).
+The burst was in the fully coded field of view after the slew.
+
+The mask-weighted light curve shows 3 peaks at about T+4, T+30, and
+T+63 sec.  T90 (15-350 keV) is 65 +- 5 sec (estimated error including
+systematics).
+
+The time-averaged spectrum from T-1 to T+68.0 sec is best fit by a
+simple power-law model.  The power law index of the time-averaged
+spectrum is 1.21 +- 0.12.  The fluence in the 15-150 keV band is
+(7.7 +- 2.8) x 10^-7  erg/cm2.  The 1-sec peak photon flux measured 
+from T+36 sec in the 15-150 keV band is 0.2 +- 0.1 ph/cm2/sec.
+All the quoted errors are at the 90% confidence level.
+

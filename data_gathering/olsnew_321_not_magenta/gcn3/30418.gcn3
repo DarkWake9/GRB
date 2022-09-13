@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30418
+SUBJECT: Konus-Wind detection of a burst from SGR 1935+2154 on 2021 July 7
+DATE:    21/07/08 15:20:32 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, D. Frederiks, S. Golenetskii, A. Lysenko,
+D. Svinkin, A. Tsvetkova,  M. Ulanov, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short burst from SGR 1935+2154
+(GECAM detection: Xiao et al., GCN 30400;
+Fermi GBM Observations: Hamburg et al., GCN 30407)
+triggered Konus-Wind on 2021 July 7 at
+T0=2015.644 s UT (00:33:35.644).
+
+The burst light curve shows a single pulse with a total
+duration of ~120 ms. The emission is seen up to ~200 keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/SGRs/210707_T02015/
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.48(-0.08,+0.08)x10^-6 erg/cm2,
+and a 2-ms peak flux, measured from T0-0.014 s,
+of 1.94(-0.39,+0.39)x10^-5 erg/cm2/s
+(both in the 20 - 500 keV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+0.064 s)
+is best fit in the 20 - 200 keV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = 0.43(-0.80,+0.88)
+and Ep = 38(-4,+3) keV (chi2 = 12/14 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

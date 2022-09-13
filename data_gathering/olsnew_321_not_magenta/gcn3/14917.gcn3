@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14917
+SUBJECT: Swift Trigger 558631 is not a real source
+DATE:    13/06/20 10:53:11 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+B. N. Barlow (PSU), D. N. Burrows (PSU), S. T. Holland (STScI),
+H. A. Krimm (CRESST/GSFC/USRA), F. E. Marshall (NASA/GSFC),
+D. M. Palmer (LANL), C. A. Swenson (PSU) and B.-B. Zhang (PSU) report
+on behalf of the Swift Team:
+
+At 02:21:57 UT, the Swift Burst Alert Telescope (BAT) triggered on
+a likely noise fluctuation (trigger=558631).  Swift slewed immediately 
+to the location.  The BAT on-board calculated location is 
+RA, Dec 271.805, -22.291, which is 
+   RA(J2000)  =  18h 07m 13s
+   Dec(J2000) = -22d 17' 26"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Since it is an image trigger, the light
+curve shows no significant features. 
+
+The XRT began observing the field at 02:29:59.5 UT, 482.3 seconds after
+the BAT trigger. No source was detected in 376 s of promptly downlinked
+data, which covered 39% of the BAT error circle. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 486 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+
+This was a marginal significance (5.8 sigma) image peak which was
+within 0.2 degrees (actual distance 0.176 degrees) of a known source. 
+Under this set of conditions, Swift is programmed to slew to determine
+the reality of the detection using the XRT and UVOT. 
+
+Due to the lack of an XRT detection, and the lack of a rate trigger,
+we believe that this is a statistical fluctuation and not a real
+source detection. 
+
+[GCN OPS NOTE(20jun13):  This Circular was delayed in distribution (~8 hrs)
+because none of the "magic" strings (eg "GRB", "Swift") was present
+in the Subject-line.]
+

@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5983
+SUBJECT: GRB 061210: Swift/XRT Astrometry Correction
+DATE:    06/12/26 14:57:29 GMT
+FROM:    Judith Racusin at PSU  <racusin@astro.psu.edu>
+
+J. L. Racusin (PSU), O. Godet, (U. Leicester), J. K. Cannizzo (NASA/UMBC), 
+D. Fox (PSU), and N. Gehrels (NASA/GSFC) report on behalf of the Swift XRT 
+team:
+
+We have re-analyzed the full XRT data set of GRB 061210.  XRT observed the 
+field of GRB 061210 for a total exposure time of 73 ks between December 12 
+and December 20, 2006 in Photon Counting mode.
+
+Godet et al. (GCN 5921) identified 2 potential X-ray afterglow candidates 
+(S1 & S2).  After further observations to characterize fading behavior, we 
+have concluded that S2 is the X-ray afterglow.
+
+To further improve the accuracy of the position previously quoted, we 
+performed an astrometric correction using 66 ks of the total exposure time 
+(when the satellite position was stable).  In this data set we find 22 
+serendipitous X-ray sources detected with the XIMAGE detect algorithm with 
+S/N > 3, 6 of which have near-by optical counterparts in the USNO-B1 
+catalog.  We match these sources to obtain a best fit mean frame shift, 
+carefully accounting for several instrumental factors including exposure 
+map correction, and additional hot pixel removal.
+
+We calculate the statistical position errors using the empirical fits as 
+described in Moretti et al. (2006, A&A, 448, L9), assuming that the 
+astrometric correction removes the 3.5" systematic error normally applied 
+to XRT positions to account for errors in the star tracker attitude 
+solution.
+
+The result of this analysis leads to a mean frame shift from the 
+previously reported position (Godet et al., GCN 5921) Source 2, of:
+
+RA offset: +0.036s +/- 0.055s   Dec offset: +0.13 +/- 0.8"
+
+and a new XRT astrometry corrected position of:
+
+RA(J2000): 09 38 05.24
+Dec(J2000): +15 37 16.5
+
+with an estimated uncertainty of 3.4 arcseconds (radius, 90% containment).
+
+This position is 1.1 arcseconds from the original refined XRT position of 
+S2 given in Godet et al. (GCN 5921), and 2.6 arcseconds from the potential 
+S2-G2 host galaxy described by Berger et al. (GCN 5922) and Mirabal et al. 
+(GCN 5925) with z=0.41 (Cenko et al., GCN 5946).
+
+A figure comparing all of these positions is available at: 
+http://www.swift.psu.edu/images/grb061210_astrometry.gif
+
+This circular is an official product of the Swift XRT team.
+

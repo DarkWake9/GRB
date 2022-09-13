@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25549
+SUBJECT: LIGO/Virgo S190426c: Update on Probability of Terrestrial Origin
+DATE:    19/08/29 14:46:43 GMT
+FROM:    Deep Chatterjee at University of Wisconsin, Milwaukee  <deep@uwm.edu>
+
+The LIGO Scientific Collaboration and Virgo Collaboration report:
+
+A revised computation of the classification of the candidate based on
+detection-pipeline-specific foreground and background models is
+available. The probability of the source being of terrestrial origin
+is now estimated to be 58% in contrast to the original estimation of
+14% in  GCN Circular 24237. This revision was necessitated by a
+bug-fix in the source-classification code. This same bug-fix was used
+to update the event candidate S190510g, as reported in GCN Circular
+24462. We apologize for the delay in updating the information for this
+event.
+
+The estimated false alarm rate is unchanged at 1.9e-08 Hz, or about
+one per 1.6 years. Note that future offline analyses may infer a
+different terrestrial probability and/or false alarm rate.
+
+The new p_astro.json file in GraceDB at
+https://gracedb.ligo.org/superevents/S190426c/ reports that the
+revised classification of the candidate is Terrestrial (58%),
+BNS (24%), MassGap (12%), NSBH (6%) and BBH (<1%). Note that the
+parameter estimation based classification reported in GCN Circular
+24411 is unchanged: Assuming that the candidate S190426c is
+astrophysical in origin, the relative probabilities amongst the signal
+categories NSBH : MassGap : BNS : BBH are approximately 12 : 5 : 3 : 0
+based on posterior support.
+

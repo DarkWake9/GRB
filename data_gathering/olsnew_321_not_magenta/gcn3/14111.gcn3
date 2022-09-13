@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14111
+SUBJECT: GRB 121226A, Swift-BAT refined analysis
+DATE:    12/12/27 14:27:06 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+W. H. Baumgartner (GSFC/UMBC), S. D. Barthelmy (GSFC),
+J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-61 to T+111 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 121226A (trigger #544027)
+(Krimm, et al., GCN Circ. 14105).  The BAT ground-calculated position is
+RA, Dec = 168.620, -30.413 deg which is
+    RA(J2000)  =  11h 14m 28.7s
+    Dec(J2000) = -30d 24' 47.0"
+with an uncertainty of 2.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 35%.  The mask-weighted light curve shows a single peak
+with duration approximately 1.5 seconds, with no sign of extended emission.
+T90 (15-350 keV) is 1.00 +- 0.20 sec (estimated error including systematics).
+
+The time-averaged spectrum from T-0.36 to T+0.80 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.51 +- 0.29.  The fluence in the 15-150 keV band is 1.4 +- 0.2 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T-0.21 sec in the 15-150 keV band
+is 1.6 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+When plotting GRB 121226A on the T90-hardness diagram (see web link below),
+we see that it falls within the short-hard region of phase space, with T90 = 1.0 
+sec and Hardness ratio (energy fluence ratio 50-100 keV/25-50 keV) = 1.4.
+Therefore we now suggest that GRB 121226A should be classified as a short-hard 
+burst.  We do not have a lag analysis available at this time.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/544027/BA/
+

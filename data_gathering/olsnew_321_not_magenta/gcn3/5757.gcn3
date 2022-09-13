@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5757
+SUBJECT: GRB061025: Swift/UVOT observations
+DATE:    06/10/26 14:09:09 GMT
+FROM:    Shashi Pandey at MSSL  <sbp2@mssl.ucl.ac.uk>
+
+S. B. Pandey (UCL-MSSL) & M. Stamatikos (NASA-GSFC), on behalf of the 
+Swift UVOT team.
+
+The Swift/UVOT began observing the field of long duration GRB 061025 
+around ~1.5 hours after the INTEGRAL trigger at 18:35:50 UT on October 25 
+(Mereghetti et al., GCN 5751). We do not find any source in the co-added 
+UVOT observations within the XRT position reported by Mineo et al. (GCN 
+5753).
+
+Following are the 3-sigma magnitude upper limits from the observations.
+
+Filter   T_start    T_stop   Exposure (s)    mag, 3 sigma UL
+V         11282      39711      875           20.5
+B         11112      38644      1082          21.4
+U         9302       38427      1267          21.2
+UVW1      8875       38210      2581          21.4
+UVM2      11318      40316      2468          22.0
+UVW2      11150      39494      3524          22.4
+
+T_start and T_stop are calculated from the time of the burst. The upper 
+limits are not corrected for Galactic extinction E(B-V) = 0.047 mag along
+the line of sight to the burst.
+
+[GCN OPS NOTE(26oct06): Per author's request, the typo 'Minoe' was changed
+to 'Mineo'.]

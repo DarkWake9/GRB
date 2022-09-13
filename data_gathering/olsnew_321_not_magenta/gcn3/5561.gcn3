@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5561
+SUBJECT: GRB 060912, Swift-BAT refined analysis
+DATE:    06/09/12 18:45:57 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+A. Parsons (GSFC), L. Barbier (GSFC), S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMD), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (BYU-Idaho), C. P. Hurkett (U Leicester), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), J. Norris (GSFC), D. Palmer (LANL),
+T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+ 
+Using the data set from T-120 to T+183 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 060912 (trigger #229185)
+(Hurkett, et al., GCN Circ. 5558).  The BAT ground-calculated position
+is RA,Dec = 5.286,+20.971 deg {0h 21m 8.7s,+20d 58' 16.3"} (J2000)
++- 0.9 arcmin, (radius, sys+stat, 90% containment).  The partial coding was 33%.
+ 
+The mask-weighted lightcurve has a single peak with a faster rise than decay.
+T90 (15-350 keV) is 5.0 +- 0.5 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.6 to T+6.1 is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.74 +- 0.09.  The fluence in the 15-150 keV band is 1.3 +- 0.1 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T-0.02 sec in the 15-150 keV
+band is 8.5 +- 0.4 ph/cm2/sec.  All the quoted errors are at the 90%
+confidence level. 
+
+The spectral lag calculation (Norris & Bonnell, ApJ, 2006) shows this
+burst to be clearly in the long-burst class.  The lag is 190 +28 -40 ms
+between the 15-25 and 50-100 keV bands and 83 +43 -43 ms
+between the 25-50 and 100-350 bands.
+

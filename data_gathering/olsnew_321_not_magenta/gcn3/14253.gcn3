@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14253
+SUBJECT: GRB 130219A: Suzaku WAM observation of the prompt emission
+DATE:    13/03/01 10:21:18 GMT
+FROM:    Makoto Tashiro at Saitama U/Swift  <tashiro@phy.saitama-u.ac.jp>
+
+A. Sakamoto, M. Tashiro, Y. Terada, W. Iwakiri, T. Yasuda, K. Takahara,
+M. Asahina, S. Kobayashi, Y. Ishida, H. Ueno, S. Sugimoto (Saitama U.),
+M. Akiyama, N. Ohmori, E. Mochinaga, M. Yamauchi (Univ. of Miyazaki),
+K. Yamaoka, M. Kokubun, T. Takahashi (ISAS/JAXA), Y. Hanabata,
+T. Kawano, K. Takaki, R. Nakamura, Y.Tanaka, M. Ohno, Y. Fukazawa
+(Hiroshima U.), S. Sugita (Nagoya U.), Y. E. Nakagawa (Waseda U.),
+Y. Urata, P. Tsai (NCU), K. Nakazawa, K. Makishima (Univ. of Tokyo),
+on behalf of the Suzaku WAM team, report:
+
+The long GRB 130219A (Collazzi, GCN 14243; Hurley et al., GCN 14246) was
+detected by the Suzaku Wide-band All-sky Monitor (WAM) which covers an
+energy range of 50 keV - 5 MeV at 2013/02/19 18:35:51.73 UT (=T0).
+
+The observed light curve exhibited two separated pulses; which are
+the 1st short pulse from T0+1 s to T0+3 s,
+and the following 2nd long pulse from T0+74 s to T0+96 s,
+with a total duration of 96 s. The fluence in 100 - 1000 keV was
+2.06 (+0.16/-0.36) x 10^-5 erg/cm^2. The 1-s peak flux measured from
+T0+81 s was 5.03 (+0.57/-0.72) photons/cm^2/s in 100 - 1000 keV.
+
+Preliminary result shows that the time-averaged spectrum from T0-2s to
+T0+98s is marginally described as a power-law with exponential cutoff
+model:
+dN/dE ~ E^{-alpha} * exp(-(2-alpha)*E/Epeak) with
+alpha 1.23(-0.45 +0.39), and
+Epeak 502(-96 +151) keV (chi^2/d.o.f. = 33.2/24).
+
+On the other hand, the two separate pulse spectra are well fitted
+by different models. The 1st pulse spectrum is well fitted by a single
+power-law with a photon index of 2.12(+0.57/-0.37) (chi^2/d.o.f = 21.6/25).
+The 2nd pulse spectrum is well fitted by a GRB Band model:
+  the low-energy photon index alpha: -1.16(-0.35 +0.49),
+  the high-energy photon index beta: -2.5(fixed),
+  and the peak energy Epeak: 515(-84, +145) keV (chi^2/d.o.f = 26.1/24).
+
+All the quoted errors are at statistical 90% confidence level,
+  in which the systematic uncertainties are not included.
+
+The light curves for this burst will be available at:
+ 
+http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/trig/grb_table.html
+

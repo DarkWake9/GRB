@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17079
+SUBJECT: GRB 141118A: iPTF Optical Observations
+DATE:    14/11/21 07:37:46 GMT
+FROM:    Leo Singer at CIT/PTF  <lsinger@caltech.edu>
+
+L. P. Singer (Caltech), M. M. Kasliwal (Carnegie Observatories/Princeton),
+V. B. Bhalerao (IUCAA), and S. B. Cenko (NASA/GSFC) report on behalf of
+the intermediate Palomar Transient Factory (iPTF) collaboration:
+
+We searched for optical counterparts of GRB 141118A (GCN 17073, Hurley
+et al.; GCN 17074, Golenetskii et al.) using the Palomar 48-inch Oschin
+telescope (P48). At about 18 hours after the burst, we began imaging 20
+fields spanning an area of 145 deg2, covering most of the 1-sigma
+statistical+systematic region of the final Fermi GBM localization (Fermi
+trigger 438020153 / 141118678). Based on the GBM localization, we estimate
+a 77% chance that these fields contain the true location of the source.
+Coincidentally, we estimate the same containment probability based on the
+IPN error box.
+
+Sifting through candidate variable sources using image subtraction and
+standard iPTF vetting procedures, we detect the optical transient
+iPTF14hvs, at the coordinates:
+  RA(J2000)  =  10h 26m 05.29s (156.522055 deg)
+  Dec(J2000) = +18d 34' 08.6"  (+18.569044 deg)
+This position is just inside the error box. It is also in the outskirts of
+the galaxy SDSS J102605.09+183411.6, which has a photoZ of ~0.1. In host-
+subtracted P48 photometry, we find marginal evidence that the source faded:
+  +18.41 hours:  R = 19.92 +/- 0.14
+  +19.06 hours:  R = 20.03 +/- 0.08
+Times are relative to the GBM trigger. Magnitudes are in the Mould R filter
+and in the AB system, calibrated with respect to point sources in SDSS as
+described in Ofek et al. (2012, http://dx.doi.org/10.1086/664065).
+
+We obtained a series of spectra of iPTF14hvs with the Gemini Multi-Object
+Spectrograph mounted on the 8 m Gemini North telescope beginning at 15:21
+UT on 2014 Nov 11. The spectra cover the wavelength range of 3900-9200 A.
+Cross-correlation with a library of supernova spectra using the
+``Supernova Identification'' code (SNID; Blondin and Tonry 2007, ApJ 666,
+1024) indicates the source is a type Ia supernova several weeks past
+maximum light at z ~ 0.11. Spatially offset from the transient location we
+identify narrow emission lines of H-alpha, [N II], and [S II] at a common
+redshift of z = 0.108.
+
+We conclude that iPTF14hvs is not related to the GRB.
+
+The diagram http://www.its.caltech.edu/~lsinger/iptf/Fermi438020153.pdf
+shows our P48 fields and the location of the optical transient in relation
+to the Fermi GBM 1- and 2-sigma statistical+systematic contours and the
+IPN annulus.
+
+We thank the IPN team for promptly sharing their analysis.
+

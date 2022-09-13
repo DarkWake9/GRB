@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28779
+SUBJECT: GRB 201024A: MITSuME Akeno optical upper limits
+DATE:    20/10/26 09:38:09 GMT
+FROM:    Katsuhiro L. Murata at Nagoya U  <murata@u.phys.nagoya-u.ac.jp>
+
+M. Niwano, K. L. Murata, R. Hosokawa, R. Adachi, F. Ogawa, N. Nakamura, N.
+Ito, S. Ogata, H. Takamatsu, H. Hara, Y. Yatsu, and N. Kawai (TokyoTech)
+report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 201024A (F. E. Marshall et al.,GCN Circular
+#28761) with the optical three color (g', Rc, and Ic) CCD cameras attached
+to the MITSuME 50 cm telescope of Akeno Observatory, Yamanashi, Japan.
+
+We observed for two nights. The observation with a series of 60 sec
+exposures started at 2020-10-24 16:04:04UT for the first night and
+2020-10-25 15:56:17UT for the second night. We stacked the images with good
+conditions each night. We did not detect the point source reported by other
+telescopes (Lipunov et al. GCN Circular #28760, Fernandez-Garcia et al.
+#28763, de Ugarte Postigo et al. #28764, Martin Jelinek et al. #28766). We
+obtained the 5-sigma limits of the stacked images as follows.
+
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+13.78 2020-10-24T18:27:11 11520 g'>20.2, Rc>20.4, Ic>19.7
+38.48 2020-10-25T17:17:59 1980 g'>19.4, Rc>19.6, Ic>18.8
+------------------------------------------------------------------------------------------------
+T0+: Elapsed time after the burst
+T-EXP: Total Exposure time
+
+We used the PS1 catalog for flux calibration. The magnitudes are expressed
+in the AB system. The images were processed in real-time through the
+MITSuME GPU reduction pipeline (Niwano et al., accepted for publication in
+PASJ, https://arxiv.org/abs/2008.11486; https://github.com/MNiwano/Eclaire).

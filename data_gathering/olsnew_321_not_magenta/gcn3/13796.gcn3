@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13796
+SUBJECT: GRB 120923A: Swift detection of a burst
+DATE:    12/09/23 05:28:11 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+V. N. Yershov (UCL-MSSL), S. D. Barthelmy (GSFC),
+H. A. Krimm (CRESST/GSFC/USRA), N. P. M. Kuin (UCL-MSSL),
+C. J. Mountford (U Leicester), S. R. Oates (UCL-MSSL),
+K. L. Page (U Leicester) and M. H. Siegel (PSU) report on behalf of
+the Swift Team:
+
+At 05:16:06 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 120923A (trigger=534402).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 303.795, +6.235 which is 
+   RA(J2000)  =  20h 15m 11s
+   Dec(J2000) = +06d 14' 05"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows several overlapping peaks
+with a total duration of about 35 sec.  The peak count rate
+was ~700 counts/sec (15-350 keV), at ~6 sec after the trigger. 
+
+The XRT began observing the field at 05:18:26.0 UT, 139.8 seconds after
+the BAT trigger. Using promptly downlinked data we find an uncatalogued
+X-ray source located at RA, Dec 303.79631, 6.22039 which is equivalent
+to:
+   RA(J2000)  = 20h 15m 11.11s
+   Dec(J2000) = +06d 13' 13.4"
+with an uncertainty of 4.1 arcseconds (radius, 90% containment). This
+location is 52 arcseconds from the BAT onboard position, within the BAT
+error circle. This position may be improved as more data are received;
+the latest position is available at http://www.swift.ac.uk/sper.  We
+cannot determine whether the source is fading at the present time. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data gives a column density consistent with the Galactic value of 9.80
+x 10^20 cm^-2 (Kalberla et al. 2005). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 143 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.16. 
+
+Burst Advocate for this burst is V. N. Yershov (vny AT mssl.ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

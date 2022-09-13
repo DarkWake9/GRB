@@ -1,0 +1,86 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19914
+SUBJECT: GRB 160910A: Global MASTER Net OT detection before LAT alert
+DATE:    16/09/12 19:16:03 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <lipunov@xray.sai.msu.ru>
+
+V. Lipunov, E. Gorbovskoy, N.Tyurina, V.Kornilov,
+P.Balanutsa, A.Kuznetsov, D.Kuvshinov
+Lomonosov Moscow State University, Sternberg Astronomical Institute
+
+D.Buckley, S. Potter, A.Kniazev, M.Kotze
+South African Astronomical Observatory
+
+R. Rebolo, M. Serra Ricart, N. Lodieu, G. Israelian
+The Instituto de Astrofisica de Canarias
+
+K.Ivanov, O.Gres, N.M.Budnev, S.Yazev,
+Irkutsk State University
+
+A. Tlatov, V.Senik, D. Dormidontov, A.Parkhomenko
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+V.Yurkov, Yu.Sergienko, A.Gabovich
+Blagoveschensk Educational State University, Blagoveschensk
+
+Hugo Levato, Carlos Saffe
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+R.Podesta, C.Lopez, F. Podesta
+Observatorio Astronomico Felix Aguilar (OAFA)
+
+
+MASTER-SAAO  robotic telescope (MASTER-Net: http://observ.pereplet.ru) 
+located in SAAO was pointed to the FERMI GBM  GRB160910.72 15 sec after 
+notice time and 65 sec after trigger time at 2016-09-10 17:20:45 UT.
+
+On our first (20s exposure started 75 sec after GBM trigger)  set we do 
+not found  optical transient within  FERMI error-box (ra=14 54 00 
+dec=+39 23 00 r=3.41, trigger 495220783 / 160910722
+(Veres  and  C.Meegan, GCN 19901)) because very low 
+altitude on horizont ~3 degrees (one tube was under the roof).
+
+Fortunatelly, we saw OT by one of two MASTER Very Wide Field Cameras (5 
+sec expositon, 0.25 sec readout) .
+On MASTER-SAAO VWF Camera  we see OT at 3 sigma confidence level with 
+magnitude 11.6 +- 0.5 mag on a co-added images with total exposure 95 
+seconds  (19 x 5 sec) starting at 17:20:45 i.e. 65 sec after trigger time. Mean 
+time is 113 sec after trigger.
+
+On our second MASTER-SAAO (30s 
+exposure)  set started at 2016-09-10 17:22:26 (167 sec after trigger time) 
+we  found OT  within FERMI error-box  with unfileterd
+magnitide m = 11.6+-0.1 . The second exposition was making after receiving 
+new Fermi GBM coordinates.
+
+Ra, Dec  =  14h 45m 46.03s   +39d 04m 00.52s
+err = +-0.5 arcsec
+
+(cf.  A. D'A. et al., GCN 19904; A. de Ugarte Postigo et al., 19907; 
+Malesani et al., GCN 19908 )
+
+MASTER-IAC  robotic telescope (MASTER-Net: http://observ.pereplet.ru) 
+located in IAC was starting survey on the FERMI GBM  GRB160910.72 
+error-box  (ra=14 46 14 dec=+39 25 10 r=1.0)  11142 sec after notice time 
+and 11239 sec after trigger time at 2016-09-10 20:26:58 UT. The 5-sigma upper 
+limit on our first (60s exposure)  set is about 18.3 mag .  The OT 
+unfiltered magnitude is 17.4+-0.4 .
+
+
+The light curve is available at
+http://master.sai.msu.ru/static/GRB160910A.png
+
+
+The MASTER-SAAO power law index  alpha  = 1.30+-0.07 ( I ~ t^-alpha) in 
+agreement with MASTER-IAC and some 
+contradiction with late point (Malesani  et al., GCN 19908 )
+
+The MASTER-SAAO and NOT combined   power law index  alpha  = 
+1.17+-0.02 .
+
+
+All MASTER observations was done  before LAT alert.
+
+
+The message may be cited.
+

@@ -1,0 +1,52 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22471
+SUBJECT: Swift detection of MAXI J1820+070
+DATE:    18/03/12 00:59:40 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. A. Kennea (PSU), F. E. Marshall (NASA/GSFC),
+K. L. Page (U Leicester), D. M. Palmer (LANL) and M. H. Siegel (PSU)
+report on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 00:11:39 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located MAXI J1820+070 (Kawamuro et al, 2018; ATel #11399) 
+(trigger=813771, retriggering as trigger=813772).  
+Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 275.025, +7.192 which is 
+   RA(J2000) = 18h 20m 06s
+   Dec(J2000) = +07d 11' 33"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Because of the of duration of this
+image trigger (17 minutes) no BAT lightcurve is immediately available. 
+
+The XRT began observing the field at 00:31:42.2 UT, 1202.8 seconds
+after the BAT trigger. XRT found a bright X-ray source located at RA,
+Dec 275.0895, 7.1832 which is equivalent to:
+   RA(J2000)  = +18h 20m 21.48s
+   Dec(J2000) = +07d 10' 59.5"
+with an uncertainty of 5.3 arcseconds (radius, 90% containment). This
+location is 232 arcseconds from the BAT onboard position. This position
+is 33.1 arcseconds from that of a known X-ray source: 1RXS
+J182022.9+071125 in the ROSAT RASSFSC catalogue. Assuming a typical GRB
+power-law spectrum (NH=3e21 cm^-2, gamma=2), the catalogue entry for
+this object  is equivalent to a 0.2-10 keV flux of 9.3e-13 erg cm^-2
+s^-1; the flux in the  2.5 s XRT image was 1.37e-09 erg cm^-2 s^-1. No 
+event data are yet available to determine the column density using X-ray 
+spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White
+filter starting 1212 seconds after the BAT trigger. There is a 
+16.8 mag source at 
+  RA(J2000) = 18:20:21.25 = 275.08856
+  DEC(J2000) = 07:10:54.7 = 7.18186
+with a 90%-confidence error radius of about 0.61 arc seconds. 
+This position is 5.9 arc seconds from the center of the XRT position. 
+No correction has been made for the expected extinction
+corresponding to E(B-V) of 0.23. 
+
+The XRT and UVOT locations of the counterpart are near the location 
+of ASASSN-18ey (distances=10.5 arcsec, 16 arcsec respectively), 
+which was suggested as the counterpart to the MAXI source by 
+Denisenko (ATel #11400). 
+

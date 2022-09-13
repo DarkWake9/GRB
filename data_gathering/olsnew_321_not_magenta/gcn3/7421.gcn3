@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7421
+SUBJECT: Swift/UVOT observations of GRB 080315
+DATE:    08/03/15 21:36:41 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL/UCL) and K. L. Page (U Leicester) report on behalf of the 
+Swift UVOT team:
+
+The Swift/UVOT observed the field of GRB 080315 starting 125 s after the 
+BAT trigger (Page et al., GCN 7416). We do not find any source in any of 
+the individual or co-added exposures, either within the BAT error circle 
+or at the location of the weak source detected by XRT (Barthelmy et al. 
+GCN 7420).
+
+The 5-sigma upper limits for detecting a source at the position of the XRT 
+candidate in the co-added images are:
+
+Filter  T_start T_stop Exp      Mag
+         (s)     (s)    (s)      (5-sigma upper limit)
+-----------------------------------------------------
+v       127     42160   6078.4  > 20.79
+b       608     40422   5815.6  > 21.84
+u       582     7467    620.7   > 20.30
+uvw1    558     7281    468.7   > 19.82
+uvm2    533     7075    858.7   > 20.00
+uvw2    113     41328   5847.3  > 21.63
+-----------------------------------------------------
+
+The quoted upper limits have not been corrected for the expected Galactic 
+extinction along the line of sight corresponding to a reddening of E(B-V) 
+= 0.01 mag. All photometry is on the UVOT light flight system described in 
+Poole et al. (2008, MNRAS, 383, 627).
+

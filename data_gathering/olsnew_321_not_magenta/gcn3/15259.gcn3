@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15259
+SUBJECT: Observation of possible GRB/TDE 130925A by INTEGRAL/SPI-ACS: three activity episodes
+DATE:    13/09/26 08:07:55 GMT
+FROM:    Volodymyr Savchenko at ISDC,U of Geneve  <savchenk@in2p3.fr>
+
+V. Savchenko, V. Beckmann (APC), C. Ferrigno, E. Bozzo, M. Beck (ISDC),
+J. Borkowski (CAMK/Torun), D. Götz (CEA/Saclay), S. Mereghetti
+(INAF/IASF-Milano), A. von Kienlin, A. Rau  (MPE), and K. Hurley
+(SSL/Berkeley)
+
+
+The possible GRB or tidal disruption event (Burrows et al, GCN 15253,
+15257) 130925A, detected by Swift/BAT (Lien et al. GCN 15246, Markwardt
+et al GCN 15257) and Fermi/GBM (Fitzpatrick et al, GCN 15255), has been
+independently detected by the SPI Anti-Coincidence System (ACS) on-board
+INTEGRAL.
+
+The SPI-ACS light curve reveals rich multi-peak structure with a total
+duration of about 5000 seconds and evolution on a time scale as small
+as 2 seconds.
+
+The initial burst, detected by Fermi/GBM at 2013-09-25T04:09:26, also
+triggered SPI-ACS at 04:09:25 (T0 hereafter). The light curve displays
+two fast-rise slow-decay pulses, typical for a GRB, lasting a total of
+about 200 seconds and reaching a peak count rate of about 3500
+counts/s  (approximately corresponding to 3.5e-7 erg/cm2/s in the 75
+keV-1 MeV range, Vigano' and Mereghetti 2009, arXiv:0912.5329, assuming
+a GRB-like spectrum) over 1s at T0+13s.
+
+The second episode is brighter. It starts at about T0+1800s,
+(04:42:00) and lasts for ~1700 seconds with a peak count rate of about
+5000 counts/s (approximately 5e-7 erg/cm2/s) over 1s at T0+2770s
+(04:55:10).
+We note that this episode was not observed by Swift.
+
+The last, weaker, episode spans from ~T0+4000 to ~T0+4500 seconds with a
+peak count rate of ~1000 count/s (1e-7 erg/cm2/s).
+
+A possible precursor observed by Fermi/GBM at 03:56:23.29 (T0-900) is
+not visible in the SPI-ACS data. (note, however, that Fermi/GBM is
+more sensitive to photons below 100keV than SPI-ACS).
+
+Since SPI-ACS has no imaging capabilities, it is not possible to
+conclude with absolute certainty that all three episodes, spanning
+over almost 5000 seconds, belong to the same source. However, a chance
+temporal coincidence of these events in the SPI-ACS data is unlikely.
+
+No strong solar activity was reported at the time of the event.
+
+Rapid X-ray flaring detected by XRT (Evans et al, GCN 15251, Burrows
+et al, GCN 15253) for at least 10000 seconds strengthens the hypothesis
+that this source was active much longer than a typical GRB.
+
+The SPI-ACS light curve of this burst, in 10s bins is available:
+http://www.apc.univ-paris7.fr/~savchenk/grb130925a/grb130925a_spiacs.png
+
+Zoomed on the first and the second peaks:
+http://www.apc.univ-paris7.fr/~savchenk/grb130925a/grb130925a_spiacs_peak1.png
+http://www.apc.univ-paris7.fr/~savchenk/grb130925a/grb130925a_spiacs_peak2.png
+
+The original SPI-ACS light curve of this event is available at:
+http://www.apc.univ-paris7.fr/~savchenk/grb130925a/grb130925a_spiacs.txt.gz
+
+Arbitrary interval of the SPI-ACS light curve can be accessed with:
+http://isdc.unige.ch/~savchenk/spiacs-online/spiacs-ipnlc.pl
+
+All SPI-ACS light curves are available (both as images and data files)
+at http://isdc.unige.ch/Soft/ibas/ibas_acs_web.cgi. The light curves,
+binned at 50 ms, are derived from 91 independent detectors with
+different lower energy thresholds (mainly between 50 keV and 150 keV).
+SPI-ACS has no upper energy threshold and can detect photons with
+energies up to at least 100 MeV. The ACS response varies as a function
+of the GRB incident angle. For these reasons we caution that the count
+rates cannot be easily translated into physical flux units.
+

@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25196
+SUBJECT: LIGO/Virgo S190728q: Upper limits from Fermi-GBM Observations
+DATE:    19/07/28 13:09:00 GMT
+FROM:    Rachel Hamburg at UAH  <rkh0007@uah.edu>
+
+R. Hamburg (UAH) reports on behalf of the Fermi-GBM Team and the
+GBM-LIGO/Virgo group:
+
+For the LIGO/Virgo detection of GW trigger S190728q (GCN 25187) and using
+the triple-detector BAYESTAR skymap, Fermi-GBM was observing 84.1% of the
+localization probability at event time.
+
+Approximately 15 min before the S190728q event, GBM triggered onboard
+to the short gamma-ray burst GRB 190728A (GCN 25181). However based
+on the large temporal offset and the difference in localization, this
+trigger is
+not considered a likely counterpart.
+
+An automated, blind search for short gamma-ray bursts below the onboard
+triggering threshold in Fermi-GBM also identified no counterpart
+candidates. The GBM targeted search, the most sensitive, coherent search
+for GRB-like signals, was run from +/- 30 s around merger time, and also
+identified no counterpart candidates.
+
+Part of the LVC localization region is behind the Earth for Fermi,
+located at RA = 129.9 and Dec = -11.1 with a radius of 67.5 degrees.
+We therefore set upper limits on impulsive gamma-ray emission for
+the LVC localization region visible to Fermi at merger time. Using
+the representative soft, normal, and hard GRB-like templates described
+in arXiv:1612.02395, we set the following 3 sigma flux upper limits
+over 10-1000 keV, weighted by GW localization probability, (in units
+of 10^-7 erg/s/cm^2):
+
+Timescale  soft   norm   hard
+--------------------------------------
+0.128 s:    5.3   6.0   15.0
+1.024 s:    2.0   2.7    4.2
+8.192 s:    0.6   0.8    1.1
+
+Assuming the median luminosity distance of 795 Mpc (z=0.165) from the GW
+detection, we estimate the following intrinsic luminosity upper limits over
+the 1 keV-10 MeV energy range (in units of 10^49 erg/s):
+
+Timescale  soft   norm   hard
+--------------------------------------
+0.128 s:   6.2    6.4    27.0
+1.024 s:   2.3    2.9    7.6
+8.192 s:   0.7    8.6    2.0

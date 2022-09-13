@@ -1,0 +1,81 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30728
+SUBJECT: POLAR detection of a SGR-like burst
+DATE:    21/08/27 13:34:35 GMT
+FROM:    Hancheng Li at IHEP/POLAR  <lihc@ihep.ac.cn>
+
+G. Koziol (UniGE), H. C. Li (UniGE), M. Kole (UniGE), Y. H. Wang (IHEP),
+
+N. Produit (UniGE), J. C. Sun (IHEP) and Y. Zhao (IHEP/BNU)
+
+report on behalf of the POLAR collaboration:
+
+ 
+
+During on-ground blind search of archive POLAR data, we found a SGR-like
+
+burst whick took place on 2017-01-18 16:16:25.5 UT (T0). The burst has a
+
+duration (T90) of 0.32 +/- 0.02 seconds, the light curve and data files
+
+(both in ROOT and FITS formats) can be found at:
+
+https://www.astro.unige.ch/polar/content/sgr-candidate-170118
+
+ 
+
+Using the localization method of POLAR (Y. H. Wang et al, 2021),
+
+the location of this event is best fitted as (in J2000):
+
+ 
+
+RA :   33.5   [deg] (l = 136.04)
+
+Dec:  +50.7   [deg] (b = -10.06)
+
+Err:    8.1   [deg] (radius, 1 sigma containment, statistical only)
+
+ 
+
+The incident angle in the POLAR local coordinate at T0 is:
+
+Theta: 60.0   [deg]
+
+Phi:   50.0   [deg]
+
+ 
+
+The spectra is better fitted with "bbody+powerlaw" model than Band function
+
+or single powerlaw. The temperature (kT) is 13.85 +/- 0.79 keV with a
+
+normalization of 99.34 +/- 7.93, and the power law index is 1.73 +/- 0.43
+
+with a normalization of 74.21 +/- 182.29. The fluence (50-500 keV) from
+
+T0 to T0 + 1.0 s is (5.09 +/- 1.33) E-06 erg/cm^2, and the average photon
+
+flux (50-500 keV) over this time period is 40 +/- 1 ph/s/cm^2.
+
+ 
+
+The results presented above are preliminary. Refined analyses are ongoing.
+
+Additionally, more burst events are expected to be found in the blind
+
+search of data which was recently started, and to be circulated by GCN.
+
+ 
+
+POLAR was a dedicated Gamma-Ray Burst polarimeter which was launched
+
+on-board the Chinese space laboratory Tiangong-2 (TG-2) on Sep 15, 2016,
+
+and ended operation in April 2017. More information about POLAR can be
+
+found at https://www.astro.unige.ch/polar/ , http://polar.ihep.ac.cn/en/ ,
+
+and http://polar.psi.ch/html/ .
+
+

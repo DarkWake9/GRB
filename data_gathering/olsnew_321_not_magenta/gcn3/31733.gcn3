@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31733
+SUBJECT: GRB 220308A: AGILE detection
+DATE:    22/03/10 14:05:01 GMT
+FROM:    Alessandro Ursi at INAF/IAPS  <alessandro.ursi@gmail.com>
+
+A. Ursi (INAF/IAPS), A. Di Piano (INAF/OAS-Bologna), F. Verrecchia, C.
+Pittori (SSDC, and INAF/OAR), M. Tavani (INAF/IAPS, and Univ. Roma Tor
+Vergata), A. Argan, M. Cardillo, C. Casentini, Y. Evangelista, E. Menegoni,
+L. Foffano, G. Piano (INAF/IAPS), F. Lucarelli (SSDC, and INAF/OAR), A.
+Bulgarelli, V. Fioretti, F. Fuschino, N. Parmiggiani (INAF/OAS-Bologna), M.
+Marisaldi (INAF/OAS-Bologna, and Bergen University), M. Pilia, A. Trois
+(INAF/OA-Cagliari), I. Donnarumma (ASI), F. Longo (Univ. Trieste and INFN
+Trieste), A. Giuliani (INAF/IASF-Mi), report on behalf of the AGILE Team:
+
+The AGILE satellite detected the long GRB 220308A at T0 = 2022-03-08
+05:43:08 (UTC), reported by INTEGRAL/SPI-ACS (trig#9761), Fermi/GBM
+(trigger no.668410535), CALET (GCN #31719), Konus-Wind (GCN #31723),
+Swift/BAT (GCN #31716), and triangulated by IPN (GCN #31715).
+
+The burst is clearly visible in the AGILE scientific ratemeters of the
+SuperAGILE (SA; 20-60 keV), MiniCALorimeter (MCAL; 0.4-100 MeV), and
+AntiCoincidence (AC; 50-200 keV) detectors. The event lasted about 22 s and
+it released a total number of 2675 counts in the SA detector (above a
+background rate of 140 Hz), 54840 counts in the MCAL detector (above a
+background rate of 1300 Hz), and 104080 counts in the AC detector (above a
+background rate of 3680 Hz). The AGILE ratemeter light curves can be found
+at https://tools.ssdc.asi.it/ImgView/Agile/GRB220308A_AGILE_RM29 .
+
+The event also triggered a partial high time resolution MCAL data
+acquisition, covering the main peaks of the burst, from T1 = 2022-03-08
+05:43:08.21 s +/- 0.01 (UTC) to T2 = 2022-03-08 05:43:15.06 +/- 0.01 s
+(UTC), and released 16490 counts in the detector, above a background rate
+of 640 Hz. The time-integrated spectrum of the burst in this time interval
+can be fitted in the energy range 0.4-10 MeV with a Band function with
+alpha = -0.70 (frozen), beta = -2.45 (-0.11/+0.09), and Epeak = 760
+(-98/+97) keV, resulting in a reduced chi-squared of 1.32 (47 d.o.f.) and a
+fluence of 1.4e-04 ergs/cm^2 (90% confidence level), in the same energy
+range. The MCAL light curve can be found at:
+https://tools.ssdc.asi.it/ImgView/Agile/077313_GRB_57380300810779330 .
+
+Additional analysis of AGILE data is in progress. Automatic MCAL GRB alert
+Notices can be found at: https://gcn.gsfc.nasa.gov/agile_mcal.html. Please
+note that in the MCAL notice #573803008 the T0 was affected by a temporal
+shift of about +19.5 sec due to episodic automated ground software problems
+which are then corrected offline.

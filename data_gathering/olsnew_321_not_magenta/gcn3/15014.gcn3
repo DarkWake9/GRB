@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15014
+SUBJECT: GRB 130715A: Suzaku WAM observation of the prompt emission
+DATE:    13/07/22 08:37:22 GMT
+FROM:    Makoto Tashiro at Saitama U/Swift  <tashiro@phy.saitama-u.ac.jp>
+
+Y. Ishida, M. Tashiro, Y. Terada, T. Yasuda, H. Ueno,
+S. Sugimoto (Saitama U.), M. Ohno, K. Takaki, T. Kawano,
+R. Nakamura, S. Furui, Y. Fukazawa (Hiroshima U.),
+M. Yamauchi, N. Ohmori, M. Akiyama (Univ. of Miyazaki),
+K. Yamaoka (Nagoya U.),  S. Sugita (Ehime U.), Y. E. Nakagawa,
+M. Kokubun, T. Takahashi (ISAS/JAXA), W. Iwakiri(RIKEN),
+Y. Hanabata (ICRR), Y. Urata (NCU), K. Nakazawa,
+K. Makishima (Univ. of Tokyo) on behalf of the Suzaku WAM team, report:
+
+The long GRB 130715A (Andrew et al GCN15005) was detected by the the
+Suzaku Wide-band All-sky Monitor (WAM) which covers an energy range of
+50 keV - 5 MeV at 21:44:38.377 UT (=T0).
+
+The observed light curve shows double-peaked structure starting at
+T0-30s, ending at T0+62s with a duration (T90) of about 46 seconds.
+The fluence in 100 - 1000 keV was 3.38(+0.31/-0.27)x10^-5 erg/cm^2.
+The 1-s peak flux measured from T0s was 2.66(+0.49/-1.36) photons/cm^2/s
+in the same energy range.
+
+Preliminary result shows that the time-averaged spectrum from T0-30s to
+T0+62s is well fitted by a power-law with exponential cutoff model :
+   dN/dE ~  E^{-alpha} * exp(-(2-alpha)*E/Epeak) with
+   alpha       1.66(+0.31/-0.65), and
+   Epeak       527(+429/-274) keV (chi^2/d.o.f. = 10.2/13).
+
+All the quoted errors are at statistical 90% confidence level, in which
+the systematic uncertainties are included.
+
+The light curves for this burst will be available at:
+
+http://www.astro.isas.jaxa.jp/suzaku/HXD-WAM/WAM-GRB/grb/trig/grb_table.html
+

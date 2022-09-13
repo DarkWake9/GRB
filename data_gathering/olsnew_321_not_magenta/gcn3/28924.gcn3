@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28924
+SUBJECT: IceCube 201114A: Swift followup of Fermi J0703.5+0505
+DATE:    20/11/19 14:28:48 GMT
+FROM:    Timothee Gregoire at Penn State  <tmg5746@psu.edu>
+
+J. DeLaunay (PSU), D. B. Fox (PSU), A. Keivani (Columbia U.),
+J.P. Osborne (U. Leicester), F. Krauss (PSU), T. Gregoire (PSU),
+P.A. Evans (U. Leicester), J.A. Kennea (PSU)
+and H. A. Ayala Solares (PSU),  D.F. Cowen (PSU) report:
+
+Swift has observed the region of Fermi J0703.5+0505 (Garrappa et al., GCN Circ. 28918), a possible counterpart to
+IceCube 201114A, gathering 3.6 ks of cleaned PC mode data between 05:32 UT and 21:20 UT on 2020 November 18.
+
+We find 2 sources in this image; the first is coincident with the 7th magnitude K0 star HD 53113 (according to
+SIMBAD) and is not an X-ray source at all, but the result of optical loading from this bright object
+(see https://www.swift.ac.uk/analysis/xrt/optical_loading.php).
+
+The second source is at RA, Dec = 105.7125, +5.0311 (degrees) which corresponds to:
+
+RA (J2000):  07h 02m 51.00s
+Dec (J2000): +05d 01’ 51.8”
+
+With an uncertainty of 4.4 arcsec (radius, 90% confidence). This position is 11.2 arcmin from the LAT position,
+within the 99% contour. This source corresponds to the position of 2MASS J07024956+0500399, which SIMBAD
+classifies as an RGB star. There is no known X-ray source at this position, however the RASS 3-sigma upper limit is
+the equivalent of 0.017 XRT count/s (0.3-10 keV), whereas the observed count rate is significantly below this, at
+(5.9 +/- 1.9, -1.6) x10^-3  ct/sec. The source shows no signs of variability, thus we cannot identify it as a new,
+outbursting or fading source.
+
+Given this, we do not believe we have found an X-ray counterpart to Fermi J0703.5+0505 or IceCube 201114A.
+
+The 3-sigma upper limit inside the 68% confidence LAT error circle is ~3.2 x 10^-3 ct/sec (0.3-10 keV). Assuming a
+power-law spectrum with nH=3 x 10^20 cm^-2 and Gamma=1.7, this corresponds to a 0.3-10 keV flux upper limit of
+1.4 x 10^-13 erg cm^-2 s^-1.
+

@@ -1,0 +1,44 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1893
+SUBJECT: GRB 030226 : Predicted light curve
+DATE:    03/02/27 03:25:19 GMT
+FROM:    James Rhoads at STScI  <rhoads@stsci.edu>
+
+J. E. Rhoads, J.M. Castro Cerón, J. Gorosabel, A. Fruchter, 
+and C. Kouveliotou report:
+
+Using the redshift lower limit (z > 2; Ando et al, GCNC 1884)
+and the GRB fluence (5.7e-6 erg/cm2, 30 keV < E < 400 keV; 
+Suzuki et al, GCNC 1888), we can predict the time of the break
+in GRB 030226 light curve, assuming the standard burst energy
+of Frail et al (2001) (or more precisely, exploiting their empirically
+demonstrated correlation between break time and apparent isotropic
+gamma ray energy).
+
+Based on the relations in Frail et al, we obtain
+ t_jet = 10.6 days
+for a redshift z=2.0 (and t_jet < 10.6 days for z > 2.0).
+Prior to that time the current slow decay may continue;
+thereafter a much steeper decay, t^-2 or faster, may
+occur (Rhoads 1999).
+
+The primary uncertainty in the predicted break time arises from
+the observed scatter in the E_isotropic - t_jet correlation.  The
+quoted one-sigma scatter in gamma ray energy in Frail et al (2001)
+is a factor of 2.  We infer a corresponding scatter of a factor
+of 2.5 in t_jet, placing a one-sigma lower limit  t_jet > 4 days.
+
+Together with the current decay slope (0.88; Price & Warren, GCNC 1890)
+and the t=3.5 hour flux (R=18.44; Garnavich et al, GCNC 1885)
+this suggests that the optical afterglow of GRB 030226 will be rather
+bright during the interval 1 day < t < t_jet, relative to most afterglows
+at the same observed age.  Representative fluxes using this naive
+extrapolation are
+
+       GRB age (days): 0.75  1.0   1.5   2.0   3.0   4.0   5.0  7.5   10.0
+Projected R magnitude: 20.0  20.3  20.7  20.9  21.3  21.6  21.8 22.2  22.5
+
+We stop our projections at the nominal 10 day jet break time, and
+further caution even a modest steepening of the decay index early on
+would substantially reduce the fluxes at a few days.
+

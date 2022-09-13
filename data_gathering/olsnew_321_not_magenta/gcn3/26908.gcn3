@@ -1,0 +1,92 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26908
+SUBJECT: LIGO/Virgo S200128d: No counterpart candidates in INTEGRAL SPI-ACS prompt observation
+DATE:    20/01/28 03:20:37 GMT
+FROM:    Francesca Onori at INAF/IAPS  <francesca.onori@inaf.it>
+
+LIGO/Virgo S200128d: No counterpart candidates in INTEGRAL SPI-ACS
+prompt observation
+
+Francesca Onori (IAPS, Italy), Alexis Coleiro
+V. Savchenko, C. Ferrigno (ISDC/UniGE, Switzerland)
+J. Rodi (IAPS-Roma, Italy)
+A. Coleiro (APC, France)
+S. Mereghetti (INAF IASF-Milano, Italy)
+
+on behalf of the INTEGRAL multi-messenger collaboration:
+https://www.astro.unige.ch/cdci/integral-multimessenger-collaboration
+
+Using INTEGRAL/SPI-ACS realtime data (following [1]) we have performed
+a search for a prompt gamma-ray counterpart of S200128d (GCN 26906).
+
+At the time of the event (2020-01-28 02:20:11 UTC, hereafter T0),
+INTEGRAL was operating in nominal mode. The peak of the event
+localization probability was at an angle of 135 deg with respect to
+the spacecraft pointing axis. This orientation implies strongly
+suppressed (3.4% of optimal) response of ISGRI, somewhat suppressed
+(42% of optimal) response of IBIS/Veto, and somewhat suppressed (43 %
+of optimal) response of SPI-ACS.
+
+The background within +/-300 seconds around the event was very stable
+(excess variance 1.1).
+
+We have performed a search for any impulsive events in INTEGRAL SPI-
+ACS (as described in [2]) data.
+
+We do not detect any significant counterparts and estimate a 3-sigma
+upper limit on the 75-2000 keV fluence of 2.6e-07 erg/cm^2 (within the
+50% probability containment region of the source localization) for a
+burst lasting less than 1 s with a characteristic short GRB spectrum
+(an exponentially cut off power law with alpha=-0.5 and Ep=600 keV)
+occurring at any time in the interval within 300 s around T0. For a
+typical long GRB spectrum (Band function with alpha=-1, beta=-2.5, and
+Ep=300 keV), the derived peak flux upper limit is ~2.3e-07 (5.4e-08)
+erg/cm^2/s at 1 s (8 s) time scale in 75-2000 keV energy range.
+
+For the mean reported distance 4031.0 Mpc this corresponds to the
+limit on the total i sotropic equivalent energy in 1 s of 5e+50 erg
+for the short GRB spectrum and for a long GRB spectrum isotropic
+equivalent luminosity in 1 s (8 s) of 3.2e+50 erg/s (1e+50 erg/s)
+
+We report for completeness and in order of FAP, all excesses
+identified in the search region. We find: 1 possibly associated
+excess:
+
+T-T0 | scale | S/N | luminosity ( x 1e+51 erg/s) | FAP
+4.73 | 0.5 | 4.1 | 16.5 +/- 5.64 +/- 14.1 | 0.0284
+
+9 likely background excesses:
+
+T-T0 | scale | S/N | luminosity ( x 1e+51 erg/s) | FAP
+-201 | 5 | 4.3 | 5.28 +/- 1.77 +/- 4.5 | 0.0959
+-128 | 1.5 | 5 | 11.3 +/- 3.25 +/- 9.64 | 0.128
+6.65 | 0.75 | 3.1 | 9.85 +/- 4.59 +/- 8.38 | 0.175
+-53.1 | 0.65 | 4 | 14.3 +/- 4.94 +/- 12.2 | 0.257
+9.78 | 0.2 | 3.5 | 22.4 +/- 8.95 +/- 19 | 0.316
+72.2 | 0.7 | 3.8 | 12.9 +/- 4.76 +/- 11 | 0.44
+-9.6 | 0.15 | 3.4 | 2.48 +/- 1.03 +/- 2.11 | 0.566
+271 | 3.3 | 3.5 | 5.06 +/- 2.18 +/- 4.31 | 0.577
+45.6 | 1.15 | 3.1 | 8.14 +/- 3.7 +/- 6.93 | 0.646
+
+Note that FAP estimates (especially at timescales above 2s) may be
+possibly further affected by enhanced non-stationary local background
+noise. This list excludes any excesses for which FAP is close to
+unity.
+
+
+
+All results quoted are preliminary.
+
+This circular is an official product of the INTEGRAL Multi-Messenger
+team.
+
+[1] Savchenko et al. 2017, A&A 603, A46 [2] Savchenko et al. 2012, A&A
+541A, 122S
+
+
+-- 
+Dr. Francesca Onori
+Postdoctoral Researcher
+IAPS, via Fosso del Cavaliere, 100, 00133 - Rome, Italy
+e-mail: francesca.onori@inaf.it
+Tel: +39 06 45488128

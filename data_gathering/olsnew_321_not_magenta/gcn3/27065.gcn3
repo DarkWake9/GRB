@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27065
+SUBJECT: LIGO/Virgo S200213t: More Candidates from the Zwicky Transient Facility
+DATE:    20/02/14 07:20:05 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Harsh Kumar (IITB), Viraj Karambelkar (Caltech), Mansi M. Kasliwal (Caltech), Varun Bhalerao (IITB), Shreya Anand (Caltech), Michael Coughlin (U Minn), Robert Stein (DESY), Eric Bellm (UW), Leo Singer (NASA GSFC), Tomas Ahmuda (UMd)
+
+on behalf of the ZTF and GROWTH collaborations
+
+We continued to observe the localization region of the gravitational wave trigger S200213t (BAYESTAR skymap; LVC, GCN #27042) with the Palomar 48-inch telescope equipped with the 47 square degree Zwicky Transient Facility camera (ZTF, Bellm et al. 2019, Graham et al. 2019). A first list of 8 candidates was presented in Kasliwal et al. (GCN #27051), 6 of which were spectroscopically classified with 10.4m GTC as transients unrelated with S200213t (Valeev et al., GCN #27060; Castro-Tirado et al., GCN #27063).
+
+The ZTF tiling was optimally determined and triggered using the GROWTH Target of Opportunity marshal (Coughlin et al. 2019a, Kasliwal et al. 2019b). The images were processed in real-time through the ZTF reduction and image subtraction pipelines at IPAC to search for potential counterparts (Masci et al. 2019). Alert filtering and follow-up coordination was undertaken by the GROWTH Marshal system (Kasliwal et al. 2019). The ZTF alert stream was also queried using Kowalski (Duev et al., 2019) and AMPEL (Nordin et al. 2019). We required at least 2 detections separated by at least 15 minutes to select against moving objects. Furthermore, we cross-matched our candidates with the Minor Planet Center to flag known asteroids. 
+
+In addition to those sources already reported by Kasliwal et al. (GCN #27051), candidates that passed our selection and that are enclosed in the 90% probability region of the BAYESTAR skymap are:
+
++--------------+-----------+-------------+--------------+--------+------+----------+-------+
+|     Name     |  IAU Name |      RA     |     Dec      | filter | mag  |   MJD    | Notes |
++--------------+-----------+-------------+--------------+--------+------+----------+-------+
+| ZTF20aanakwb | AT2020cls | 00:26:05.17 | +42:46:25.40 |   g    | 21.0 | 58893.11 |  (a)  |
+| ZTF20aanaltd | AT2020clt | 00:38:57.76 | +43:26:27.85 |   g    | 20.8 | 58893.11 |  (b)  |
+| ZTF20aanaksk | AT2020clu | 01:17:44.55 | +31:10:28.18 |   g    | 20.5 | 58893.11 |  (c)  |
+| ZTF20aanallx | AT2020clv | 00:25:28.00 | +51:13:24.20 |   g    | 21.1 | 58893.10 |  (b)  |
+| ZTF20aanaoyz | AT2020clw | 01:38:22.58 | +23:22:56.12 |   g    | 21.5 | 58893.11 |  (d)  |
+| ZTF20aamvpvx | AT2020clx | 02:07:45.67 | +20:01:50.21 |   g    | 20.3 | 58892.21 |  (e)  |
++--------------+-----------+-------------+--------------+--------+------+----------+-------+
+(a) Faint source underneath (star/galaxy?)
+(b) Offset from the possible host 
+(c) Blue; hostless
+(d) On top of a faint source with SDSS photoz = 0.504 (Alam et al., 2015)
+(e) Nuclear; SDSS photoz = 0.0755 +- 0.0176 (Alam et al., 2015); GLADE v2.3 catalog z = 0.0613 (Dalya et al., 2018) 
+
+We encourage follow-up to classify the new candidates.
+
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert filtering and follow-up coordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019). Alert database searches are done with using the Kowalski infrastructure (Duev et al., 2019) and with AMPEL (Nordin et al. 2019).
+
+

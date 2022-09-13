@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16374
+SUBJECT: Konus-Wind observation of GRB 140606B
+DATE:    14/06/10 12:20:20 GMT
+FROM:    Anastasia Tsvetkova at Ioffe Institute  <tsvetkova@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 140606B (Fermi-GBM detection: Burns, GCN 16319;
+IPN triangulation: Golenetskii et al., GCN 16369) triggered Konus-Wind
+at T0=11510.769 s UT (03:11:50.769).
+
+The burst light curve shows a single pulse with a duration of ~8 s.
+The emission is seen up to ~5 MeV.
+
+As observed by Konus-Wind, the burst had a fluence of
+6.6(-0.5,+0.5)x10^-6 erg/cm2, and a 64-ms peak flux, measured from
+T0+0.752 s, of 2.9(-0.7,+0.7)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum of the burst (measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 5 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.60(-0.18,+0.20),
+and Ep = 254(-27,+33) keV (chi2 = 78/73 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.9
+(chi2 = 78/72 dof).
+
+Assuming the redshift z=0.384 (Perley et al., GCN 16365)
+and a standard cosmology model with H_0 = 70 km/s/Mpc,
+Omega_M = 0.27, and Omega_Lambda = 0.73,
+we estimate the following rest-frame parameters:
+the isotropic energy release E_iso is 2.5(-0.2,+0.2)x10^51 erg,
+the peak luminosity L_iso is 1.5(-0.4,+0.4)x10^51 erg/s,
+and the rest-frame peak energy, Ep,i, is 352(-37,+46) keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB140606_T11510/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

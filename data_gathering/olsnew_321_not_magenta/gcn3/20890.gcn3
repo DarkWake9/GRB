@@ -1,0 +1,84 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20890
+SUBJECT: IceCube-170312A: Swift-XRT observations
+DATE:    17/03/17 14:59:20 GMT
+FROM:    Azadeh Keivani at PSU  <keivani@psu.edu>
+
+A. Keivani (PSU), P.A. Evans (U. Leicester), J.A. Kennea (PSU), D.B.
+Fox (PSU), G. Tesic (PSU), D.F. Cowen (PSU), J.P. Osborne (U.
+Leicester) and M.W.E. Smith (JPL) report on behalf of the
+Swift-IceCube collaboration:
+
+Swift has observed the field of the IceCube HESE neutrino,
+IceCube-170312A (https://gcn.gsfc.nasa.gov/gcn3/20857.gcn3), utilizing
+the on-board
+19-point tiling pattern to cover a region centered on RA,Dec (J2000) =
+(304.7300, -26.2380), with a radius of approximately 0.8 degrees.
+
+Swift-XRT collected ~800 s per field of PC mode data per tile. The
+observations were taken between 15:51:22 on 2017-03-12 and 05:04:48 on
+2017-03-13 (i.e. from 7.3 ks to 54.9 ks after the neutrino trigger),
+and covered 2.1 square degrees.
+
+Five X-ray sources are detected in the observations. One of these
+corresponds to a known X-ray emitter, and others are faint objects
+well below the RASS limits, therefore we do not consider any of them
+to be likely counterparts to the IceCube trigger. We conclude that we
+have not discovered a transient X-ray event associated with the
+IceCube trigger.
+
+The 3-sigma upper limit on the count rate in the rest of the field is
+0.01 ct s^-1, which corresponds to a 0.3-10 keV flux of 4.1e-13 erg
+cm^-2 s^-1 for a typical AGN spectrum (NH=3e20cm^-2, Gamma=1.7).
+Overlaps between the different tiles accounts for 0.5 square degrees:
+in these regions the 3-sigma upper limit is .007 ct s^-1,
+corresponding to 2.9e-13 erg cm^-2 s^-1.
+
+Details of the five detected X-ray sources are below. All fluxes are
+0.3-10 keV and assume the same AGN spectrum as above.
+
+Source 1
+========
+RA:          20h 21m 21.41s = 305.33920d 	
+Dec:         -26d 01' 32.3" = -26.02565d
+Error:       6.3 arcsec (90% confidence radius)
+Count rate:  (2.8 [+0.8, -0.7]) x 10^-2 ct s^-1
+Flux:        (1.1 [+0.3, -0.2]) x 10^-12 erg cm^-2 s^-1
+Notes:       Matches known X-ray source: 1RXS J202121.5-260149 (from
+ROSAT/RASSFSC), 16.7102046720847" away.
+
+Source 2
+========
+RA:          20h 21m 54.52s = 305.47717d
+Dec:         -26d 04′ 12.0″ = -26.07000d
+Error:       4.9 arcsec (90% confidence radius)
+Count rate:  (2.1 +/- 0.6) x 10^-2 ct s^-1
+Flux:        (8.6 +/- 2.5) x 10^-13 erg cm^-2 s^-1
+
+Source 3
+========
+RA:          20h 18m 26.48s = 304.61032d
+Dec:         -26d 50′ 24.6″ = -26.84017d
+Error:       6.5 arcsec (90% confidence radius)
+Count rate:  (1.0 [+0.6, -0.4]) x 10^-2 ct s^-1
+Flux:        (4.1 [+2.5, -1.6]) x 10^-13 erg cm^-2 s^-1
+
+Source 4
+========
+RA:          20h 16m 34.69s = 304.14452d
+Dec:         -26d 38′ 56.6″ = -26.64904d
+Error:       5.8 arcsec (90% confidence radius)
+Count rate:  (1.6 [+0.6, -0.5]) x 10^-2 ct s^-1
+Flux:        (6.6 [+2.5, -2.1]) x 10^-13 erg cm^-2 s^-1
+
+Source 5
+========
+RA:          20h 19m 25.94s = 304.85809d
+Dec:         -26d 06′ 09.9″ = -26.10276d
+Error:       5.5 arcsec (90% confidence radius)
+Count rate:  (6.4 [+3.5, -2.6]) x 10^-2 ct s^-1
+Flux:        (2.6 [+1.4, -1.1]) x 10^-12 erg cm^-2 s^-1
+
+[GCN OPS NOTE(17mar17): Per author's request, the Subject line
+now includes the event designation and the type of observation.]
+

@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25391
+SUBJECT: LIGO/Virgo S190814bv: Prioritization of Counterpart Candidates based on a Photometric Redshift Analysis by the DECam-GROWTH Team
+DATE:    19/08/18 04:49:45 GMT
+FROM:    Daniel Goldstein at Caltech  <danny@caltech.edu>
+
+D. A. Goldstein (Caltech), I. Andreoni (Caltech), R. Zhou (LBL), J. A. Newman (U. Pittsburgh), T. Ahumada (UMD), S. Anand (Caltech), M. Bulla (OKC), A. Dahiwale (Caltech), K. De (Caltech), S. Dhawan (OKC), A. K. H. Kong (NTHU), P. Gatkine (UMD), D. Perley (LJMU), Y. Sharma (Caltech), J. Sollerman (OKC), A. Tzanidakis (Caltech), K. Zhang (UCB), S. B. Cenko (NASA GSFC), C. Copperwheat (LJMU), M. W. Coughlin (Caltech), D. Kaplan (UWM), P. E. Nugent (LBL), M. M. Kasliwal (Caltech)
+
+report on behalf of the Global Relay of Observatories Watching Transients Happen (GROWTH) collaboration
+
+We estimated the photometric redshifts of the nearest static objects to over 151 detections of variability identified in subtractions produced by running the pipelines described in Goldstein, Andreoni et al. (2019) and Andreoni, Goldstein et al. (2019) on DECam images taken over the past three nights by the DESGW team (PI Soares-Santos, GCNs #25336, 25360). The observations covered the entire localization region to ~21 mag in i and z bands roughly six times over the past three nights.
+
+The redshifts have been determined by applying a random forest algorithm to the DECam Legacy Survey DR8 photometry (including both magnitude and size information) combined with spectroscopic redshifts from a variety of sources. Zhou et al. 2019 (in prep.) will provide a full description of the algorithm used.
+
+Restricting to the set of objects for which the nominal GW distance is within the 95% range of the photo-z’s luminosity distance  (calculated assuming a Planck Collaboration [2015] cosmology), we find that only three DECam-GROWTH counterpart candidates remain:
+
+Candidates reported by Andreoni et al. (25362):
+
+DG19qabkc/AT2019nqc                01:29:03.67 -32:42:18.5
+DG19wgmjc/AT2019npw                00:55:52.40 -25:46:59.8
+
+Candidates newly reported in this GCN (reported earlier to TNS):
+
+DG19ayfjc/AT2019nqz                00:46:46.42 -24:20:12.1
+
+We also estimated the photo-z of the remaining viable DESGW candidate, desgw-190814c, and find that its photo-z is consistent with the LIGO distance:
+
+desgw-190814c/AT2019nqq            01:23:49.22 -33:02:05.0
+
+We encourage spectroscopy to classify these transients.
+
+--
+Danny Goldstein
+http://astro.caltech.edu/~danny

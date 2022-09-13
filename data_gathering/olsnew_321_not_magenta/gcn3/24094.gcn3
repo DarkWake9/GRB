@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24094
+SUBJECT: IceCube-190331A: Swift-XRT Follow-up Observations
+DATE:    19/04/10 18:28:22 GMT
+FROM:    Azadeh Keivani at Columbia U  <azadeh.keivani@columbia.edu>
+
+A. Keivani (Columbia U.), M. Santander (U. Alabama), J. A. Kennea (PSU), P.
+A. Evans (U. Leicester), D. B. Fox (PSU), & F. Krauss (GRAPPA/API,
+University of Amsterdam) report:
+
+
+The Neil Gehrels Swift Observatory observed the field of the IceCube HESE
+astrophysical neutrino candidate event IceCube-190331A (revision 1,
+https://gcn.gsfc.nasa.gov/gcn3/24028.gcn3) beginning April 9, 07:42:23 UT.
+Prompt observation of the neutrino localization was not possible as it was
+initially within the Sun avoidance region for Swift. Observations commenced
+9 days after the event detection once the angular distance to the Sun had
+increased.
+
+Swift utilized its onboard 7-point tiling pattern to cover a region
+centered on R.A., Dec. (J2000) = 337.68d, -20.70d, with a radius of
+approximately 33 arcmin; estimated 90%-containment radii for this event are
+0.23d to 0.48d depending on position angle.
+
+Swift-XRT collected ~800 s per field of PC mode data per tile between 07:45:27
+UT and 11:18:04 UT on 9 April. Data have been reduced using the analysis
+approach and software routines of Evans et al. 2014 (ApJS, 210, 8).
+
+Four X-ray sources (one marginal) are detected in these observations, three
+of which are previously uncatalogued and relatively low in flux, consistent
+with expectations for serendipitous (unrelated) sources over a region of
+this extent. The highest-significance X-ray source is located at R.A.
+337.35513, Dec. -20.31324 (J2000), within the IceCube 90%-containment
+region, and matches the known X-ray source 1WGA J2229.4-2018 from
+ROSAT/WGACAT (15.37 arcsec distance). The source is listed in the Milliquas
+catalog (Flesch 2017) as the likely active galactic nucleus (AGN) WISEA
+J222925.59-201846.0, a 2MASS extended source with J~16 mag and photometric
+redshift z~0.6. We recover it at a mean observed XRT count rate of 1.2
+(+0.6, -0.5) e-2 ct s^-1, consistent with (1.5-sigma above) its WGACAT
+flux. Although this AGN is not an obvious counterpart to the high-energy
+neutrino, investigation of its properties continues.
+
+Excluding identified sources, the 3-sigma upper limit on the count rate of
+any point-like counterpart over the rest of the tiled region is 0.01 ct
+s^-1, which corresponds to a 0.3-10 keV flux of 4.0e-13 erg cm^-2 s^-1 for
+a typical AGN spectrum (nH=3e20 cm^-2, Gamma=1.7).
+
+Coordinates and count rates for the lower-significance X-ray sources are
+provided below.
+
+Source #2: R.A. 337.52845d, Dec. -21.09942d, 9 (+5, -3) e-3 XRT ct s^-1
+
+Source #3: R.A. 338.02509d, Dec. -21.04924d, 10 (+5, -4) e-3 XRT ct s^-1
+
+Source #4 (marginal): R.A. 338.01838d, Dec. -21.11994d, 9 (+7, -5) e-3 XRT
+ct s^-1

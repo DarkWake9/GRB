@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13851
+SUBJECT: Swift-BAT refined analysis of the SGR 1806-20 outburst (trigger 535747)
+DATE:    12/10/11 20:59:24 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC), J. R. Cummings (GSFC/UMBC),
+E. E. Fenimore (LANL), N. Gehrels (GSFC), S. T. Holland (STScI),
+H. A. Krimm (GSFC/USRA), C. B. Markwardt (GSFC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), G. Sato (ISAS), M. Stamatikos (OSU),
+J. Tueller (GSFC), T. N. Ukwatta (MSU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+807 sec from recent telemetry downlinks,
+we report further analysis of BAT trigger (#535747) from SGR1806-20
+(Barthelmy, et al., GCN Circ. 13844).  The BAT ground-calculated position is
+RA, Dec = 272.172, -20.448 deg, which is 
+   RA(J2000)  =  18h 08m 41.2s 
+   Dec(J2000) = -20d 26' 52.3" 
+with an uncertainty of 2.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 98%.
+ 
+The mask-weighted light curve shows a single FRED-like pulse
+starting at ~T-0.05 sec, peaking at ~T+0.1 sec, with a long low-level tail
+out to T+0.5 or T+1.0 sec.  T90 (15-350 keV) is 0.67 +- 0.16 sec
+(estimated error including systematics).  There is no evidence
+of additional outbursts in the post 800 sec of the lightcurve
+at the 0.13 ph/cm2/sec upper limit.
+ 
+The time-averaged spectrum from T-0.05 to T+0.68 sec fit by a simple
+power-law model shows the power law index of 2.38 +- 0.42 (chi squared 69.8 for 57 d.o.f.).
+The fluence in the 15-150 keV band is 3.3 +- 0.8 x 10^-8 erg/cm2.
+The 1-sec peak photon flux measured from T-0.18 sec in the 15-150 keV band
+is 0.6 +- 0.1 ph/cm2/sec.
+ 
+A single blackbody fit to the time-averaged spectrum shows the blackbody
+temperature of 8.1 +- 2.1 keV (chi squared 71.9 for 59 d.o.f.).
+A thermal bremsstrahlung model fit shows the temperature of 38.3 +- 21.6 keV
+(chi squared 68.1 for 57 d.o.f.).  All the quoted errors are at the 90% confidence level. 
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/535747/BA/
+

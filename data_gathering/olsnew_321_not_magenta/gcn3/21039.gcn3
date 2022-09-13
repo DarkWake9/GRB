@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21039
+SUBJECT: Swift Trigger 750096 is probably a noise fluctuation
+DATE:    17/04/26 23:00:26 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+A. Y. Lien (GSFC/UMBC), K. L. Page (U Leicester) and
+D. M. Palmer (LANL) report on behalf of the Swift Team:
+
+At 22:44:21 UT, the Swift Burst Alert Telescope (BAT) detected an 
+image peak in the vicinity of a nearby galaxy (trigger=750096).  
+Swift slewed immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 184.880, +5.656 which is 
+   RA(J2000) = 12h 19m 31s
+   Dec(J2000) = +05d 39' 21"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows no significant 
+activity. 
+
+The XRT began observing the field at 22:46:18.1 UT, 117.1 seconds after
+the BAT trigger. No source was detected in 513 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter starting
+117 seconds after the BAT trigger. No credible afterglow candidate has been
+found in the initial data products. The 2.7'x2.7' sub-image processing FAILED
+because of no aspect solution. Results from the list of sources generated
+on-board are not available at this time. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.02. 
+
+Due to the low significance of the image peak (5.80 sigma), the 
+large distance to the potential associated source (7.7 arcminutes),
+the lack of activity in the BAT count rates, and the non-detection 
+by XRT, we believe that this is merely a noise fluctuation in
+the image plane and not an astrophysical source. 
+
+This trigger, like the earlier Trigger #750044, was the result
+of a triggering strategy that locally depresses the threshold 
+significance in the vicinity of known sources and nearby galaxies 
+in order to gain greater sensitivity to such sources (at the
+expense of a higher proportion of false triggers). 
+

@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16594
+SUBJECT: Swift detection of UX Ari
+DATE:    14/07/15 21:42:34 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+W. H. Baumgartner (GSFC/UMBC), L. M. Z. Hagen (PSU),
+H. A. Krimm (CRESST/GSFC/USRA), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), C. J. Mountford (U Leicester),
+C. Pagani (U Leicester) and K. L. Page (U Leicester) report on behalf
+of the Swift Team:
+
+At 21:14:11 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located the RS CVn star UX Ari (trigger=604675).  Swift slewed 
+immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 51.649, +28.717 which is 
+   RA(J2000) = 03h 26m 36s
+   Dec(J2000) = +28d 43' 01"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual for image triggers, there is no
+obvious variation in the light curve.  Because BAT triggered on
+the first 5-minute image of a pointing, it is likely that the
+source was already in outburst at the nominal trigger time. 
+
+The XRT began observing the field at 21:20:38.6 UT, 386.9 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+51.6474, 28.7144 which is equivalent to:
+   RA(J2000)  = +03h 26m 35.38s
+   Dec(J2000) = +28d 42' 51.8"
+with an uncertainty of 4.8 arcseconds (radius, 90% containment). This
+location is 10 arcseconds from the BAT onboard position, within the BAT
+error circle. This position is consistent with UX Ari, also designated as 
+3XMM J032635.3+284254 in the XMM-NEWTON XMMSSC catalogue. 
+No event data are yet available to determine the column density using
+X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 7.65e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the U filter starting
+862 seconds after the BAT trigger. UVOT detects a very bright source
+consistent with the position of UX Ari. Because of dead time effects,
+more analysis is required to estimate a position or the magnitude. 
+

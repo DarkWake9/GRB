@@ -1,0 +1,203 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26947
+SUBJECT: LIGO/Virgo S200128d : No significant candidates in FRAM - TAROT - GRANDMA observations
+DATE:    20/01/31 09:00:44 GMT
+FROM:    Cosmin Stachie at Artemis, Nice, France  <scosmin@oca.eu>
+
+C. Stachie (Artemis), S. Beradze (Iliauni), D. A. Kann (HETH/IAA-CSIC), 
+Z. Vidadi (SHAO), S. Karpov (FZU), M. Masek (FZU), 
+M. Prouza (FZU), M. Boer (Artemis), N. Christensen (Artemis), 
+L. Eymar (Artemis), A. Klotz (IRAP), K. Noysena (Artemis, IRAP), 
+S. Antier (APC), A. Coleiro (APC), D. Corre (IJCLab), 
+M. Coughlin (UMN), D. Coward (OzGrav-UWA), J.G. Ducoin (IJCLab), 
+B. Gendre (OzGrav-UWA), P. Hello (IJCLab), N. Kochiashvili (Iliauni), 
+C. Lachaud (APC), N. Leroy (IJCLab), C. Thoene (HETH/IAA-CSIC), 
+D. Turpin (AIM-CEA), X. Wang (THU) 
+
+report on behalf of the FRAM, TAROT and GRANDMA collaborations. 
+
+We performed tiled observations of LIGO/Virgo S200128d event with the 
+FRAM-Auger, FRAM-CTA-N, TAROT-Calern (TCA), TAROT-Chili (TCH) 
+telescopes. 
+
+FRAM-Auger is located at Pierre Auger Observatory. FRAM-CTA-N is 
+located at Observatorio del Roque de los Muchachos. TCA is located at 
+Calern site at the Cote d'Azur observatory. TCH is located at La Silla 
+ESO observatory (LaS/ESO). 
+
+The following table shows for each telescope: the delay in minutes 
+from the trigger, which filter is used, the field of view of the 
+telescope in degrees and the typical limiting magnitude (AB mag) for a 
+given exposure in seconds (s). 
+
++-------------+---------+----------+-------------+------------+ 
+| Telescope | Delay | Filter | f.o.v. | Limiting | 
+| | [min] | | [deg] | Mag. | 
+|-------------+---------+----------+-------------+------------| 
+| FRAM-Auger | 27 | R | 1.0 x 1.0 | 18.0 (60s) | 
+| FRAM-CTA-N | 24 | R | 0.45 x 0.45 | 17.0 (90s) | 
+| TCA | 1148 | Clear | 1.9 x 1.9 | 18.0 (60s) | 
+| TCH | 155 | Clear | 1.9 x 1.9 | 18.0 (60s) | 
++-------------+---------+----------+-------------+------------+ 
+
+We performed the following joint tiled observations [1] : 
+
++-------------+------------+------------+---------+---------+---------+ 
+| Telescope | TStart | TEnd | RA | DEC | Proba | 
+| | [UTC] | [UTC] | [deg] | [deg] | [%] | 
+|-------------+------------+------------+---------+---------+---------| 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 60.583 | 33.568 | 0.1 | 
+| | 02:46:24 | 02:50:51 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 59.240 | 31.622 | 0.1 | 
+| | 02:51:26 | 02:55:53 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 233.660 | -44.270 | 0.1 | 
+| | 04:14:01 | 04:18:28 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 230.504 | -41.351 | 0.1 | 
+| | 04:19:04 | 04:23:31 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 226.623 | -34.541 | 0.1 | 
+| | 05:17:46 | 05:22:12 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 228.980 | -37.459 | 0.1 | 
+| | 05:22:47 | 05:27:14 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 229.655 | -38.432 | 0.1 | 
+| | 05:27:48 | 05:32:15 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 227.755 | -37.459 | 0.1 | 
+| | 05:32:50 | 05:37:17 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 230.350 | -39.405 | 0.1 | 
+| | 05:37:53 | 05:42:20 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 231.064 | -40.378 | 0.1 | 
+| | 05:42:54 | 05:47:21 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 236.250 | -46.216 | 0.1 | 
+| | 06:31:19 | 06:35:46 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 227.803 | -34.541 | 0.1 | 
+| | 06:36:24 | 06:40:51 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 234.483 | -45.243 | 0.1 | 
+| | 06:41:27 | 06:45:54 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 237.143 | -47.189 | 0.1 | 
+| | 06:46:29 | 06:50:56 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 230.204 | -37.459 | 0.1 | 
+| | 06:51:33 | 08:00:09 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 224.430 | -31.622 | 0.1 | 
+| | 08:00:46 | 08:05:13 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 228.414 | -38.432 | 0.1 | 
+| | 08:05:48 | 08:10:15 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 233.333 | -43.297 | 0.1 | 
+| | 08:10:52 | 08:15:18 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 235.862 | -45.243 | 0.1 | 
+| | 08:15:54 | 08:20:21 | | | | 
+| FRAM-Auger | 2020-01-28 | 2020-01-28 | 234.667 | -43.297 | 0.1 | 
+| | 08:20:55 | 08:25:22 | | | | 
+| ----- | ----- | ----- | ----- | ----- | ----- | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 71.752 | 42.604 | <0.1 | 
+| | 02:44:06 | 03:07:01 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 65.302 | 38.672 | <0.1 | 
+| | 02:48:28 | 03:11:23 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 67.761 | 40.419 | <0.1 | 
+| | 02:52:54 | 03:15:44 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 63.885 | 37.136 | <0.1 | 
+| | 03:16:00 | 03:20:06 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 66.531 | 38.672 | <0.1 | 
+| | 03:20:26 | 03:24:32 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 65.125 | 37.897 | <0.1 | 
+| | 03:24:45 | 03:28:51 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 64.770 | 37.361 | <0.1 | 
+| | 03:29:10 | 03:33:16 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 67.760 | 38.672 | <0.1 | 
+| | 03:33:33 | 03:37:39 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 65.980 | 39.645 | <0.1 | 
+| | 03:37:54 | 03:42:00 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 228.239 | -37.348 | <0.1 | 
+| | 07:00:51 | 07:04:57 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 228.425 | -36.812 | <0.1 | 
+| | 07:05:11 | 07:09:16 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 229.117 | -37.348 | <0.1 | 
+| | 07:09:29 | 07:13:35 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 230.179 | -38.334 | <0.1 | 
+| | 07:13:49 | 07:17:55 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 227.368 | -35.163 | <0.1 | 
+| | 07:18:28 | 07:22:34 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 227.361 | -37.348 | <0.1 | 
+| | 07:22:48 | 07:26:54 | | | | 
+| FRAM-CTA-N | 2020-01-28 | 2020-01-28 | 230.005 | -37.348 | <0.1 | 
+| | 07:27:08 | 07:29:08 | | | | 
+| ----- | ----- | ----- | ----- | ----- | ----- | 
+| TCA | 2020-01-28 | 2020-01-29 | 61.323 | 34.805 | 0.4 | 
+| | 21:27:35 | 00:33:56 | | | | 
+| TCA | 2020-01-28 | 2020-01-29 | 66.832 | 38.991 | 0.3 | 
+| | 21:34:18 | 00:40:37 | | | | 
+| TCA | 2020-01-28 | 2020-01-28 | 70.467 | 42.703 | 0.3 | 
+| | 21:46:45 | 22:53:03 | | | | 
+| TCA | 2020-01-28 | 2020-01-28 | 63.559 | 35.280 | 0.3 | 
+| | 21:53:29 | 22:59:48 | | | | 
+| TCA | 2020-01-28 | 2020-01-28 | 57.317 | 29.713 | 0.3 | 
+| | 22:00:14 | 23:06:33 | | | | 
+| TCA | 2020-01-28 | 2020-01-28 | 65.154 | 37.136 | 0.3 | 
+| | 23:21:05 | 23:23:05 | | | | 
+| ----- | ----- | ----- | ----- | ----- | ----- | 
+| TCH | 2020-01-28 | 2020-01-30 | 236.439 | -47.232 | 0.4 | 
+| | 04:55:03 | 09:27:07 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 232.208 | -39.959 | 0.4 | 
+| | 05:16:40 | 07:23:02 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 227.365 | -36.323 | 0.4 | 
+| | 05:23:26 | 07:29:47 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 232.731 | -41.777 | 0.4 | 
+| | 05:30:10 | 07:36:31 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 223.609 | -29.050 | 0.4 | 
+| | 05:42:41 | 07:48:57 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 237.200 | -49.050 | 0.4 | 
+| | 05:51:36 | 07:55:42 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 224.144 | -30.868 | 0.4 | 
+| | 05:56:12 | 08:02:14 | | | | 
+| TCH | 2020-01-28 | 2020-01-28 | 241.967 | -52.686 | 0.3 | 
+| | 06:12:54 | 08:42:48 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 240.950 | -50.868 | 0.3 | 
+| | 06:19:40 | 08:21:39 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 246.260 | -54.505 | 0.3 | 
+| | 06:24:14 | 08:28:21 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 230.265 | -41.777 | 0.3 | 
+| | 06:34:31 | 08:41:03 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 231.654 | -43.595 | 0.3 | 
+| | 06:41:17 | 08:47:37 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 225.394 | -34.505 | 0.3 | 
+| | 06:48:00 | 08:54:21 | | | | 
+| TCH | 2020-01-28 | 2020-01-28 | 229.824 | -39.959 | 0.4 | 
+| | 07:27:31 | 07:33:50 | | | | 
+| TCH | 2020-01-28 | 2020-01-30 | 240.012 | -49.050 | 0.4 | 
+| | 07:34:15 | 07:10:36 | | | | 
+| TCH | 2020-01-29 | 2020-01-29 | 227.617 | -34.505 | 0.3 | 
+| | 05:00:12 | 05:02:12 | | | | 
+| TCH | 2020-01-29 | 2020-01-30 | 249.525 | -56.323 | 0.3 | 
+| | 05:23:56 | 06:30:48 | | | | 
+| TCH | 2020-01-30 | 2020-01-30 | 234.189 | -43.595 | 0.4 | 
+| | 05:06:42 | 05:13:01 | | | | 
+| TCH | 2020-01-30 | 2020-01-30 | 235.733 | -45.414 | 0.4 | 
+| | 05:36:58 | 08:08:55 | | | | 
++-------------+------------+------------+---------+---------+---------+ 
+
+TStart and TEnd refers respectively to the time of the first and last 
+exposure for a given tile. Observations are not necessarily continuous 
+in this interval. 
+The Probability refers to the 2D spatial probability of the GW skymap 
+enclosed in a given tile. 
+
+These observations cover about 9.7% of the cumulative probability of 
+the BAYESTAR skymap created on 2020-01-28 02:22:21 (UTC). 
+
+
+The coverage map is available at: 
+https://grandma-owncloud.lal.in2p3.fr/index.php/s/XgtMhPRxcyL09gR/download?path=%2F&files=GRANDMA_S200128d_1580458038.svg 
+
+No significant transient candidates were found during our low latency 
+analysis [2,3]. 
+
+GRANDMA (Global Rapid Advanced Network Devoted to the Multi-messenger 
+Addicts) is a network of robotic telescopes connected all over the 
+world with both photometry and spectrometry capabilities for Time- 
+domain Astronomy [2](https://grandma.lal.in2p3.fr/). 
+
+Details on the different telescopes are available on the GRANDMA web 
+pages. 
+
+[1] M. W Coughlin et al., MNRAS 2019, https://doi.org/10.1093/mnras/stz2485 
+[2] S. Antier et al., MNRAS 2019, https://doi.org/10.1093/mnras/stz3142 
+[3] K. Noysena et al., ApJ 2019, arXiv:1910.02770 
+

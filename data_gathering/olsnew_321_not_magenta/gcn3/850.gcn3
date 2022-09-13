@@ -1,0 +1,79 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  850
+SUBJECT: V,R,I band observations of GRB000926
+DATE:    00/10/14 18:11:47 GMT
+FROM:    Evert Rol at U.Amsterdam  <evert@astro.uva.nl>
+
+E. Rol, P. M. Vreeswijk (U. of Amsterdam) and N. Tanvir (U. of
+Hertfordshire), on behalf of a larger collaboration, report:
+
+We have obtained Sloan i and Harris R & V band images of the field of
+GRB 000926 (GCN #801), using the Wide Field Camera on the 2.5m Isaac
+Newton Telescope at La Palma. Using aperture photometry (with a radius
+twice the FWHM), we find the magnitude of the OT, relative
+to the reference star of Halpern et al. (GCN #824), to be as follows:
+
+
+
+     date (UT)   filter   rel-mag    error   exp-time
+    (Sept 2000)                               (secs)
+    - ------------------------------------------------
+      27.919       i       2.406     0.007     300	     
+      27.924       i       2.439     0.007     300
+      27.929       i       2.454     0.008     300
+      30.850       i       5.403     0.009     600
+					       	  
+      27.892       R       2.369     0.007     300	     
+      27.896       R       2.386     0.007     300
+      27.901       R       2.396     0.008     300
+					       	  
+      27.906       V       2.271     0.009     300
+      27.910       V       2.298     0.009     300
+      27.915       V       2.301     0.010     300
+      30.839       V       5.352     0.096     600
+
+
+(errors are statistical only)
+
+
+We have fitted the R band data, together with all published data (GCNs
+#809, #814, #816, #819, #820, #824, #825, GCN #829, #831, #840), with a
+smoothly broken power-law, and a constant flux (presumably from the
+underlying host galaxy).  The fitted function is
+
+   F(t) = { F_1^(-n) + F_2^(-n) }^(-1/n) + F_host,
+
+                               with F_i = k_i t ^(-a_i), n > 0; i = 1, 2.
+
+a_1 and a_2 correspond to the early and late time power-law indices,
+respectively. The break time t_0 corresponds to the time when F_1 = F_2.
+
+(see e.g. Beuermann, K., et al 1999, A&A, 352, L26-L30)
+
+
+We obtain the following parameters for the R band data, with n fixed at 1:
+
+    a_1 = 1.1 +- 0.2
+    a_2 = 3.2 +- 0.4
+    t_0 = 2.0 +- 0.4
+    host:  R = 24.2 +- 0.3
+
+Errors are 1 sigma; chi^2/DOF = 69/31. Excluding the host,
+we find a chi^2/DOF = 83/32.
+
+The fit shows a rather large increase in the decay-rate of the OT flux
+around two days after the burst (from a power-law index of 1.1 to
+3.2). Fitting for n as well (which can be used to define the
+sharpness of the break) gives the same results as above, with n = 1.1
++- 0.8.
+
+
+Graphs of these fits can be found at
+
+	http://www.astro.uva.nl/~evert/grb000926/
+
+
+
+We acknowledge the help of the observers Chris Blake and Steve Rawlings
+(U. of Oxford), and the ING staff.
+

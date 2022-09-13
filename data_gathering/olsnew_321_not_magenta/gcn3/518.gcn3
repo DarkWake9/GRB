@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  518
+SUBJECT: GRB991216, UBVRIJHK field photometry
+DATE:    00/01/14 19:03:19 GMT
+FROM:    Arne A. Henden at USNO/USRA  <aah@nofs.navy.mil>
+
+A. Henden (USRA/USNO), H. Guetter and F. Vrba (USNO)
+report on behalf of the USNO GRB team:
+
+We have acquired UBVRcIc all-sky photometry for the field
+of GRB991216 with the USNOFS 1.0-m telescope on four
+photometric nights, but with some nights having
+poor seeing.  This field is reddened, with
+a mean color (B-V) ~ 1.2.  Because of this, many of
+the fainter sources do not have U or B magnitudes.  We have
+therefore created two files on our anonymous ftp site:
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb991216.dat
+ftp://ftp.nofs.navy.mil/pub/outgoing/aah/grb/grb991216f.dat
+where the first file contains multicolor observations, and
+the second file contains a smaller set of fainter stars
+surrounding the OT position, but with only R magnitudes
+listed.  In particular, the R magnitudes we obtain for
+stars A and B of Jha (GCN 476) and the comparison
+star of Henden (GCN 463) agree with those obtained by
+Dolan, et. al. (GCN 486) within the quoted errors.
+The astrometry in these files is based on linear plate
+solutions with respect to USNO-A2.0.  The internal errors
+are less than 100mas.
+
+We also observed this field with the USNO IRCAM on the
+1.55-m telescope on a single photometric night to obtain
+JHK photometry for 6 stars near the OT position. Observations
+were obtained of 11 standard stars to put the measures on the
+CIT photometric system. The errors reflect uncertainties in the
+in the extinction and color transformations. The data were
+reduced independently in K and H magnitudes and J-H and H-K
+colors:
+
+RA (J2000)     DEC           K          H          J-H       H-K
+77.375279   11.288480  11.77+/-.03 11.92+/-.03 0.69+/-.03 0.19+/-.03  
+77.374150   11.285729  12.48   .03 12.62   .03 0.70   .04 0.19   .03
+77.392377   11.290707  14.00   .04 14.19   .03 0.82   .04 0.27   .03 
+77.399284   11.290875  14.68   .08 14.85   .10 0.50   .10 0.25   .10
+77.377129   11.297201  14.61   .07 14.65   .05 0.61   .04 0.11   .05
+

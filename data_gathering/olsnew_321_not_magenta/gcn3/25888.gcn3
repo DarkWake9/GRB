@@ -1,0 +1,72 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25888
+SUBJECT: LIGO/Virgo S190930t: no counterpart candidates in the Swift/BAT observations
+DATE:    19/10/01 01:12:03 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. D. Barthelmy (NASA/GSFC), A. Y. Lien (GSFC/UMBC),
+D. M. Palmer (LANL), T. Sakamoto (AGU),
+A. P. Beardmore (U. Leicester), M. G. Bernardini (INAF-OAB),
+A. A. Breeveld (MSSL-UCL), D. N. Burrows (PSU),
+S. Campana (INAF-OAB), S. B. Cenko (NASA/GSFC),
+G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA),
+P. D'Avanzo (INAF-OAB), V. D'Elia (ASI-SSDC), S. Emery (UCL-MSSL),
+P. A. Evans (U. Leicester), P. Giommi (ASI), C. Gronwall (PSU),
+D. Hartmann (Clemson U.), J. A. Kennea (PSU),
+N. Klingler (PSU), H. A. Krimm (NSF),
+N. P. M. Kuin (UCL-MSSL), F. E. Marshall (NASA/GSFC),
+A. Melandri (INAF-OAB), J. A. Nousek (PSU),
+S. R. Oates (Uni. of Warwick), P. T. O'Brien (U. Leicester),
+J. P. Osborne (U. Leicester), C. Pagani (U. Leicester),
+K. L. Page (U.Leicester), M. J. Page (UCL-MSSL), M. Perri (ASDC),
+J. L. Racusin (NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU),
+M. H. Siegel (PSU), G. Tagliaferri (INAF-OAB), A. Tohuvavohu (Toronto),
+E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+We report the search results in the BAT data within T0 +/- 100 s of the
+LVC event S190930t (LIGO/VIRGO Collaboration GCN Circ. 25876),
+where T0 is the LVC trigger time (2019-09-30T14:34:07.685 UTC).
+
+The center of the BAT field of view (FOV) at T0 is
+RA = 213.258 deg,
+DEC = -65.410 deg,
+and the roll angle is 320.260 deg.
+The BAT FOV (>10% partial coding) covers 10.31% of the integrated
+LVC localization probability, and 7.34% of the galaxy convolved
+probability (Evans et al. 2016). Note that the sensitivity in the BAT FOV
+changes with the partial coding fraction. Please see the BAT FOV figure
+in the summary page (link below) for the specific location of the LVC
+region relative to the BAT FOV.
+
+Within T0 +/- 100 s, no significant detections (signal-to-noise
+ratio >~ 5 sigma) from astrophysical origins are found in the
+BAT raw light curves with time bins of 64 ms, 1 s, and 1.6 s.
+The short spike at ~T+4.9 s in the 15-25 keV light curve is due
+to a detector glitch (see more explanation in the "Investigation
+of the detector glitch" section in the link below). The background
+changes from ~T-200 s to ~T-80 s is likely due to spacecraft slews.
+
+Assuming an on-axis (100% coded) short GRB with a typical
+spectrum in the BAT energy range (i.e., a simple power-law model with a
+power-law index of -1.32, Lien & Sakamoto et al. 2016), the 5-sigma upper
+limit in the 1-s binned light curve corresponds to a flux upper
+limit (15-350 keV) of ~ 1.17 x 10^-7 erg/s/cm^2.
+Assuming a luminosity of ~ 2 x 10^47 erg/s (similar to GW170817)
+and an average Epeak of ~ 400 keV for short GRBs (Bhat et al. 2016),
+this flux upper limit corresponds to a distance of ~ 66.57 Mpc.
+
+Event data analysis is available from T0-101.407 s to T+98.543 s.
+No significant detections are found in the 15-350 keV images created
+using intervals of T0 to T0+0.1 s, T0-2 s to T0+8 s, and the whole
+event data range from T0-79.0 s to T0+98.543 s (i.e. the interval that
+does not include the spacecraft slew period).
+
+BAT retains decreased, but significant, sensitivity to rate increases for
+gamma-ray events outside of its FOV. About 66.38% of the integrated LVC
+localization probability was outside of the BAT FOV but above the
+Earth's limb from Swift's location, and the corresponding flux upper limits
+for this region are within roughly an order of magnitude higher than those
+within the FOV.
+
+The results of the BAT analysis are available at
+https://swift.gsfc.nasa.gov/results/BATbursts/team_web/S190930t/web/source_public.html

@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16904
+SUBJECT: Trigger 614903: Swift detection of IGR J17544-2619
+DATE:    14/10/10 15:38:21 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), M. G. Bernardini (INAF-OAB),
+D. N. Burrows (PSU), P. D'Avanzo (INAF-OAB), D. Malesani (DARK/NBI),
+V. Mangano (PSU), F. E. Marshall (NASA/GSFC), D. M. Palmer (LANL),
+P. Romano (INAF-IASFPA), B. Sbarufatti (INAF-OAB/PSU),
+M. H. Siegel (PSU) and T. N. Ukwatta (LANL) report on behalf of the
+Swift Team:
+
+At 15:04:19 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a transient (trigger=614903).  Swift slewed immediately to the transient. 
+The BAT on-board calculated location is 
+RA, Dec 268.607, -26.330 which is 
+   RA(J2000) = 17h 54m 26s
+   Dec(J2000) = -26d 19' 48"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty). This is an image trigger so details of the
+lightcurve can not yet be determined. 
+
+The XRT began observing the field at 15:06:31.7 UT, 132.4 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+268.6054, -26.3282 which is equivalent to:
+   RA(J2000)  = +17h 54m 25.30s
+   Dec(J2000) = -26d 19' 41.5"
+with an uncertainty of 5.8 arcseconds (radius, 90% containment). This
+location is 8.3 arcseconds from the BAT onboard position, within the
+BAT error circle. This position is 11.1 arcseconds from that of the 
+Supergiant Fast X-ray Transient IGR J17544-2619, which is likely to be 
+the transient that triggered the BAT.  No event data are yet available 
+to determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 0.1 s image was 2.08e-08 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 168 seconds with the U filter
+starting  138 seconds after the BAT trigger. The 2.7'x2.7' sub-image
+reveals the known  optical counterpart at a U magnitude of 15.27
+approximately 10.6" from the XRT source. No other source is detected
+to a typical 3-sigma upper limit of about  19.2 mag.  No correction
+has been made for the large, but uncertain extinction expected. 
+

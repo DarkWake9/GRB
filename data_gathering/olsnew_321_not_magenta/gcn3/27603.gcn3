@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27603
+SUBJECT: GRB 200410A: Optical upper limit
+DATE:    20/04/18 07:14:21 GMT
+FROM:    Amit Kumar at ARIES, India  <amitkundu515@gmail.com>
+
+A. Kumar (ARIES), A. Ghosh (ARIES), Dimple (ARIES), A. Aryan (ARIES), R.
+Gupta (ARIES), S. B. Pandey (ARIES), and K. Misra (ARIES) report:
+
+We observed the field of Swift GRB 200410A (Simpson et al., GCN Circ.
+27518, Gropp et al., GCN 27523, Kuin et al., GCN 27532, Pizzuto et al., GCN
+27552, Laha et al., GCN Circ. 27578, Valentin et al., GCN 27584) with the
+1.3m Devsthal Fast Optical Telescope (DFOT) at Aryabhatta Research
+Institute of Observational Sciences (ARIES), Nainital
+(India), from 2020-04-10 UT 21:34:29 to 2020-04-10 UT 23:31:07
+(corresponding to
+19.15 to 21.09 hours from the GRB trigger time). We observed 12 frames
+each of 300 seconds in Bessel R filter and a series of 11x300 seconds
+exposures in
+Bessel I filter. As mentioned by Jelinek et al., 27520, at the position of
+the optical afterglow of GRB 200410A there are two nearby stars, so to do
+the photometry we observed 300 seconds frame in Bessel R and I filter on
+2020-04-15 UT 21:26:22 (5.79 days since burst) to do the template
+subtraction. Template subtraction was done using the IRAF (
+http://iraf.noao.edu/).
+
+After the template subtraction, we do not find any new optical source
+within the Swift XRT enhanced error circle in any individual as well as the
+stacked frame.
+
+
+The 3-sigma upper limits are as follows:
+
+T_start-T0 (days)    Start Date (UTC)             End Date (UTC)
+ Filter        3-sigma upper limit (mag)
+---------------------------------------------------------------------------------------------------------------
+19.15                2020-04-10 21:34:29          2020-04-10 22:30:06
+ R               >22.2
+20.18                2020-04-10 22:35:46          2020-04-10 23:31:07
+ I               >22.4
+
+
+
+Photometry is done based on the USNO-B1.0 catalog. The quoted magnitudes
+are not corrected for Galactic extinction.
+
+[GCN OPS NOTE(18apr20): The author-constructed header was removed.  The header
+is supplied by the GCN processing system.]
+

@@ -1,0 +1,61 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19681
+SUBJECT: GRB 160709A, Swift-BAT detection and localization
+DATE:    16/07/11 23:01:33 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+T. Sakamoto (AGU), S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC),
+N. Gehrels (GSFC), H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC),
+C. B. Markwardt (GSFC), D. M. Palmer (LANL), J. P. Norris (BSU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+At 19:49:03.464 UT on 2016-07-09, BAT detected a count rate increase and
+a sub-threshold signal in the image. Due to the sub-threshold nature, this event
+did not trigger a normal burst event-by-event response. Using the data set from
+T-2 to T+8 sec from the recent telemetry downlink, the ground analysis found
+an 8.8 sigma detection in a 10-s image in 15-350 keV. As discussed below,
+this is likely the same burst, GRB160709A, that was detected by Fermi/GBM
+(Jenke et al. GCN Circ. 19676), Fermi/LAT (Guiriec et al. GCN Circ. 19675),
+and Konus-Wind (Frederiks et al. GCN Circ. 19677).
+
+The BAT ground-calculated position is RA, Dec = 235.996, -28.188 deg which is
+  RA(J2000)  =  15h 43m 59.1s
+  Dec(J2000) = -28d 11' 18.2"
+with an uncertainty of 2.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 19%.
+
+The mask-weighted light curve shows a multi-peaked structure that starts at ~T0
+and peaks at ~T+0.8 s. The main pulses end at ~T+1 s, but there are some
+weak emissions that continue beyond the event data range. T90 (15-350 keV)
+estimated from the raw light curve is 4.8 +- 1.6 sec (estimated error including
+systematics).
+
+The time-averaged spectrum from T+0.0 to T+4.8 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.11 +- 0.28.  The fluence in the 15-150 keV band is 4.5 +- 0.7 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.30 sec in the 15-150 keV band
+is 2.7 +- 0.4 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+Using a 16-ms binned light curve, the lag of the initial pulse (~T0 to ~T+1 s)
+for the 100-350 keV to 25-50 keV bands is 3 (+/-5) ms (with 1-sigma error).
+Using a 4-ms binned light curve, the lag of the initial pulse for the same energy
+bands is 6 (+/-5) ms. These values are consistent with those from a short GRB.
+
+The detection time of this burst is only ~0.04 s from the Fermi/GBM trigger
+time of GRB160709A (Jenke et al., GCN Circ. 19676). Also, the burst structure
+is very similar to the one seen in the GBM. We thus believe the BAT detection
+is highly likely to be GRB160709A.
+
+However, we note that the BAT location is ~0.33 degrees from the LAT location
+and outside of the reported LAT error circle of 0.18 deg (statistical error only;
+Guiriec et al. GCN Circ. 19675). The large dispersion in the position
+measurements may be explained by the unknown systematic uncertainty in the
+LAT position. Nonetheless, we cannot rule out the possibility that these are
+independent events.
+
+The BAT location for this burst is covered by the XRT tiling search. No XRT or
+UVOT afterglows are found within the BAT error circle.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/703769/BA/

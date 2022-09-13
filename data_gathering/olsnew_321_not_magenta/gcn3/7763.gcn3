@@ -1,0 +1,34 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7763
+SUBJECT: GRB 80516: Swift/UVOT Observations
+DATE:    08/05/22 14:57:08 GMT
+FROM:    Stephen Holland at USRA/NASA/GSFC/SSC  <sholland@milkyway.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/USRA/GSFC) reports on behalf of the Swift/UVOT
+team:
+
+      The Swift/UVOT began settled observations the field of GRB 080516
+starting 81 s after the BAT trigger (Holland et al., GCN Circ. 7733).
+We do not detect the GROND optical afterglow reported by Filgas et al.
+(2008a, GCN Circ. 7740) in any of the UVOT data.  The ground-based
+position of the afterglow is 10.6 arcsec from the USNO-B1.0 star
+638-018182, which has a magnitude of B = 12.  The afterglow is located
+in the scattered light halo, and in the coincidence loss pattern of
+this star, which makes our photometry somewhat uncertain.
+
+      Upper limits from the coadded data are reported below.
+
+Filter    T_start (s) T_stop  Exposure   Mag    Comment
+    v           81     41,277    2950   >21.1    3-sigma UL
+    b          560     47,700    2243   >22.2    3-sigma UL
+    u          536     47,184    4409   >22.3    3-sigma UL
+  uvw1         511     46,278    4913   >22.1    3-sigma UL
+  uvm2         486     41,915    3648   >22.1    3-sigma UL
+  uvw2         576     40,364    2223   >21.8    3-sigma UL
+
+These upper limits are not corrected for the Galactic extinction along
+the line of sight to the source corresponding to a reddening of
+E_{B-V} = 0.40 mag (Schlegel et al., 1998, ApJS, 500, 525).  The
+photometry is on the UVOT flight system described in Poole et
+al. (2008, MNRAS, 383,627).
+

@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6542
+SUBJECT: GRB 070616: Swift detection of a burst
+DATE:    07/06/16 17:02:59 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+R. L. C. Starling (U Leicester), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), D. N. Burrows (PSU),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+C. Guidorzi (Univ Bicocca&INAF-OAB), J. A. Kennea (PSU),
+C. B. Markwardt (CRESST/GSFC/UMD), F. E. Marshall (NASA/GSFC),
+P. T. O'Brien (U Leicester), J. P. Osborne (U Leicester),
+K. L. Page (U Leicester), D. M. Palmer (LANL), A. M. Parsons (GSFC),
+G. Sato (GSFC/ISAS), M. Stamatikos (NASA/ORAU),
+D. E. Vanden Berk (PSU) and L. Vetere (PSU) report on behalf of the
+Swift Team:
+
+At 16:29:33 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070616 (trigger=282445).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 32.155, +56.948 which is 
+   RA(J2000)  =  02h 08m 37s
+   Dec(J2000) = +56d 56' 53"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows nothing much 
+around T_zero (as is typical for image triggers).  We note that there
+is bright and variable activity in the TDRSS lightcurve starting at T+100 sec
+and lasting to 600 sec.  This may be long-term burst activity, although we can
+not rule out a contribution from a bright galactic source such as Cyg X-1
+coming into the FOV (due to the slew).  We will be able to separate this 
+ambiguity when we get the full Malindi data to construct a mask-weighted 
+lightcurve. 
+
+The XRT began observing the field at 16:31:44 UT, 131 seconds after the
+BAT trigger. XRT found a bright, variable and fading, uncatalogued X-ray source. 
+Using prompt downlinked data we find a position of 
+located at RA, Dec 32.1513, +56.9451 which is
+   RA(J2000)  =  02h 08m 36.3s
+   Dec(J2000) =  56d 56' 42.5"
+with an uncertainty of 4.9 arcseconds (radius, 90% containment). 
+This location is 12.7 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 7.6e-09 erg/cm2/s (0.2-10 keV). 
+We note that this is 3.1 arcseconds from source USNO-B1.0 1469-0076513. 
+
+
+UVOT took a finding chart exposure of 100 seconds with the White (160-650 nm)
+filter starting 142 seconds after the BAT trigger. No afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 100% of
+the XRT error circle. The typical 3-sigma upper limit has been about 18.5 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+XRT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the large, but uncertain extinction expected. 
+

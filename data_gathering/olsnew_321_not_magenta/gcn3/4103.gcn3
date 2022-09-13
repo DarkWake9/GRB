@@ -1,0 +1,38 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4103
+SUBJECT: GRB 051016B: Swift detection of a soft burst
+DATE:    05/10/16 19:18:13 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+A. Parsons (GSFC), S. Barthelmy (GSFC), A. Beardmore (U. Leicester),
+P. Boyd (GSFC), D. Burrows (PSU), J. Cummings (GSFC/NRC), N. Gehrels (GSFC),
+O. Godet (U. Leicester), C. Gronwall (PSU), J. Kennea (PSU),
+H. Krimm (GSFC/USRA), F. Marshall (GSFC), D. Palmer (LANL), T. Sakamoto (GSFC)
+on behalf of the Swift team:
+
+At 18:28:09 UT, Swift-BAT triggered and located GRB 051016B (trigger=159994).
+The BAT on-board calculated location is RA,Dec 132.067d,+13.658d
+{08h 48m 16s,+13d 39' 27"} (J2000), with an uncertainty of 3 arcmin
+(radius, 90% containment, stat+sys).  The BAT light curve shows a double peak
+structure with a total duration of at least 15 sec -- the slew started at
+T+15 sec, so determination of the full duration will have to wait until
+after the full data set is downlinked.  The peak count rate was ~2200
+counts/sec (15-150 keV), at ~1 and 3 seconds after the trigger.  Initial
+inspection of the 4-channel lightcurves shows this burst to be soft.
+
+The spacecraft slewed promptly and the XRT began observing the GRB
+at 18:29:24 UT, 75 sec after the BAT trigger.  An uncatalogued source
+was found by the on-board centroiding algorithm at
+RA(J2000)=08h 48m 27.6s
+Dec(J2000)=+13d 39' 25.5"
+with an uncertainty of 8 arcsec radius (90% containment).
+This position lies 168 arcsec from the center of the BAT error circle.
+The initial flux is approximately 4.6e-10 ergs/cm2/s.
+The count rate decreases during the first 100 seconds.
+
+UVOT began observing the field at 18:29:26 UT, 77 sec after the BAT trigger.
+The small image contains the entire XRT error circle.  This image contains
+no new sources down to a limiting magnitude of 18.7 (3-sigma).
+No new source was seen in the list of sources from the entire UVOT
+field of view.  E(B-V) in the direction of the XRT position is 0.037.
+

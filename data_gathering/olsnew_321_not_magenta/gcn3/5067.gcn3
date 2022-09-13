@@ -1,0 +1,66 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5067
+SUBJECT: GRB 060429: Refined IPN error box and Konus-Wind spectrum
+DATE:    06/05/03 09:42:10 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+  S. Golenetskii, R. Aptekar, E. Mazets, V. Pal'shin, and D. Frederiks
+  on behalf of the Konus-Wind team,
+
+  K.Yamaoka, M.Ohno, Y.Fukazawa, T.Takahashi, M.Tashiro, Y. Terada,
+  T.Murakami, and K.Makishima on behalf of the Suzaku-WAM team,
+
+  K. Hurley and T. Cline, on behalf of the Ulysses, Mars Odyssey,
+  and Konus GRB teams,
+
+  I. Mitrofanov, A. Kozyrev, M. Litvak, A. Sanin, V. Tret'yakov and
+  A. Parshukov, on behalf of the HEND-Odyssey GRB team,
+
+  W. Boynton, C. Fellows, K. Harshman, C. Shinohara and R. Starr, on
+  behalf of the GRS-Odyssey GRB team,
+
+  D. M. Smith, R. P. Lin, J. McTiernan, R. Schwartz, C. Wigger,
+  W. Hajdas, and A. Zehnder, on behalf of the RHESSI GRB team,
+
+  A. von Kienlin, G. Lichti, A. Rau, D. Gotz, and S. Mereghetti,
+  on behalf of the INTEGRAL GRB team,  report:
+
+  The short hard GRB 060429 (Hurley et al., GCN 5039) was also
+  detected by Suzaku-WAM and RHESSI, resulting in a smaller error box.
+
+
+  The refined 3 sigma error box is:
+  -----------------------
+  RA, deg   Dec, deg (J2000)
+  -----------------------
+  Center:
+    115.5126  -24.9525
+
+  Corners:
+    115.2478 -25.1930
+    115.4979 -25.1205
+    115.7763 -24.7102
+    115.5271 -24.7844
+  --------------------
+
+  The error box area is 267 sq. arcmin.
+
+  This error box may be improved.
+
+  As observed by Konus-Wind this burst had fluence
+  6.29(-2.69,+0.64)x10^-6 erg/cm2,
+  and the 16-ms peak flux measured from T0+0.012 s
+  1.07(-0.47,+0.16)x10^-4  erg/cm2/s
+  (both in the 20 keV - 5 MeV energy range).
+
+  The spectrum integrated over the most intense part
+  of the burst (from T0 to T0+0.064 s) is well
+  fitted (in the 20 keV - 5 MeV range)
+  by a power law with exponential cutoff model:
+  dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+  with alpha = 0.638 (-0.162, +0.141)
+  and Ep = 1558 (-320, +416) keV (chi2 = 18.5/26 dof).
+  The Konus-Wind trigger time T0=44389.712 s UT (12:19:49.712).
+
+  All the quoted errors are at the 90% confidence level.
+

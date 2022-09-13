@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21043
+SUBJECT: Swift Trigger 750337 is probably a noise fluctuation
+DATE:    17/04/28 15:02:16 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+J. A. Kennea (PSU), H. A. Krimm (CRESST/NSF/USRA),
+K. L. Page (U Leicester) and M. H. Siegel (PSU) report on behalf of
+the Swift Team:
+
+At 14:50:53 UT, the Swift Burst Alert Telescope (BAT) detected an image
+peak in the vicinity of a nearby galaxy (trigger=750337).  Swift slewed 
+immediately to the location. 
+The BAT on-board calculated location is 
+RA, Dec 187.781, -7.972 which is 
+   RA(J2000) = 12h 31m 08s
+   Dec(J2000) = -07d 58' 19"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows no significant activity. 
+
+The XRT began observing the field at 14:53:39.5 UT, 166.5 seconds after
+the BAT trigger. No source was detected in 288 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 169 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 97% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+Due to the low significance of the image peak (5.80 sigma), the 
+large distance to the potential associated galaxy (5.0 arcminutes),
+the lack of activity in the BAT count rates, and the non-detection 
+by XRT, we believe that this is merely a noise fluctuation in
+the image plane and not an astrophysical source. 
+

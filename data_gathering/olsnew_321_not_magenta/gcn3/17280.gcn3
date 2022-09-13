@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17280
+SUBJECT: Swift detection of 4U 1700+24 (= V* V934 Her)
+DATE:    15/01/04 16:08:43 GMT
+FROM:    David Burrows at PSU/Swift  <burrows@astro.psu.edu>
+
+D. N. Burrows (PSU), M. M. Chester (PSU), N. Gehrels (NASA/GSFC),
+M.E. Gropp (PSU), A. Y. Lien (GSFC/UMBC), F. E. Marshall (NASA/GSFC),
+D. M. Palmer (LANL) and M. H. Siegel (PSU) report on behalf of the
+Swift Team:
+
+At 15:39:06 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located 4U 1700+24 (= V934 Her) (trigger=623434).  Swift slewed 
+immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 256.627, +23.962 which is 
+   RA(J2000) = 17h 06m 30s
+   Dec(J2000) = +23d 57' 45"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty). As is usual with an image trigger, the available
+BAT light curve shows no significant structure. 
+
+The XRT began observing the field at 15:45:46.6 UT, 399.7 seconds after
+the BAT trigger. XRT found a bright X-ray source located at RA, Dec
+256.6423, 23.9712 which is equivalent to:
+   RA(J2000)  = +17h 06m 34.15s
+   Dec(J2000) = +23d 58' 16.3"
+with an uncertainty of 5.2 arcseconds (radius, 90% containment). This
+location is 60 arcseconds from the BAT onboard position, within the BAT
+error circle. This position is 5.5 arcseconds from a known X-ray
+source: 1SXPS J170634.5+235816, which is coincident with V* V934 Her. 
+This source is in the Swift XRT 1SXPS catalogue 
+with a mean 0.3-10 keV count-rate of 0.3810 +/- 0.0067 ct/sec; 
+see http://www.swift.ac.uk/1SXPS/1SXPSJ170634.5%2B235816 for
+details of these previous observations. No event data are yet available
+to determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.90e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 411 seconds after the BAT trigger. The 2.7'x2.7' sub-image only
+shows the bright (V=7.6) known source V* V934 Her. 
+
+This symbiotic star has been seen by Swift multiple times in the past 
+few months (e.g. Kennea et al., GCN 17173; Krimm et al. ATel 6482) in
+an escalating series of peaks.  The BAT lightcurve can be seen at
+
+http://swift.gsfc.nasa.gov/results/transients/weak/4U1700p24/
+

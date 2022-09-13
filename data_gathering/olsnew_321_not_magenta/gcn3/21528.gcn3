@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21528
+SUBJECT: LIGO/Virgo G298048 - Update on Fermi/GBM GRB 170817A Analysis
+DATE:    17/08/18 00:36:12 GMT
+FROM:    Adam Goldstein at Fermi/GBM  <adam.michael.goldstein@gmail.com>
+
+A. Goldstein (USRA), P. Veres (UAH), and A. von Kienlin (MPE) report on
+behalf of the GBM-LIGO Group:
+L. Blackburn (CfA), M. S. Briggs (UAH), J. Broida (Carleton College), E.
+Burns (NASA/GSFC), J. Camp (NASA/GSFC), T. Dal Canton (NASA/GSFC), N.
+Christensen (Carleton College), V. Connaughton (USRA), R. Hamburg (UAH), C.
+M. Hui (NASA/MSFC), P. Jenke (UAH), D. Kocevski (NASA/MSFC), N. Leroy
+(LAL), T. Littenberg (NASA/MSFC), J. McEnery (NASA/GSFC), R. Preece (UAH),
+J. Racusin (NASA/GSFC), P. Shawhan (UMD), K. Siellez (GATech), L. Singer
+(NASA/GSFC), J. Veitch (Glasgow), C. Wilson-Hodge (NASA/MSFC)
+
+
+The GBM trigger (Connaughton et al., LVC GCN 21506), which we determine to
+be a short GRB, occurred about 2 minutes before Fermi entered the South
+Atlantic Anomaly. To estimate the False Alarm Rate (FAR) of a chance
+coincident short GRB without using spatial information, we estimate the
+rate of short GRBs (defined as t90 <= 2 s) triggered by GBM.  GBM has a
+total of 351 triggered short GRBs over an estimated triggering livetime of
+3.23e8 s. This results in a FAR of one per 10.7 days. A simple estimate of
+the False Alarm Probability using only the temporal information of the two
+signals is 2.2e-6 (~4.5 sigma).
+
+The initial public report of the GRB (von Kienlin et al., GCN 21520)
+contained the spectral information using the maximum of the GBM
+localization posterior. Using the maximum of the updated LIGO/Virgo
+localization posterior (LVC, LVC GCN 21513), which is consistent with the
+GBM localization, we report the updated preliminary spectral information.
+
+The estimated GRB duration is ~ 2 s and is best fit by a power-law function
+with an exponential high-energy cutoff from T0-0.75 to T0+1.25 s.  The
+power-law index is -0.88 +/- 0.44 and the cutoff energy, parametrized as
+Epeak, is 128.0 +/- 48.7 keV. The event fluence (10-1000 keV) in this time
+interval is (2.2 +/- 0.5)e-7 erg/cm^2, which we estimate to be near the
+58th percentile of GBM-triggered short GRB fluences. The 64 ms peak photon
+flux estimated starting at T0 is 3.6 +/- 1.1 ph/s/cm^2 (10-1000 keV).  The
+corresponding spectrum over this peak flux interval is fit by an
+exponential high-energy power law with index = -0.29 +/- 1.01 and Epeak =
+124.2 +/- 52.6 keV.  The event peak energy flux (10-1000 keV) is (7.3 +/-
+2.4)e-7 erg/s/cm^2.
+
+Using this spectral information and the distance information provided by
+the LVC (40 +/- 8 Mpc) we estimate that the isotropic energy release in
+gamma-rays, Eiso ~ 4.3e46 erg in the 1 keV-10 MeV energy range and the
+isotropic peak luminosity, Liso ~1.4e47 erg/s.
+
+These results are preliminary and may be updated with further analysis.

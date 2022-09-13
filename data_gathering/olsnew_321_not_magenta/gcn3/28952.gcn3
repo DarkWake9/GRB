@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28952
+SUBJECT: IceCube-201120A in the Cygnus region: No enhanced TeV gamma-ray flux detected by HAWC
+DATE:    20/11/25 03:05:23 GMT
+FROM:    Hugo Ayala at Pennsylvania State University  <hgayala@psu.edu>
+
+Hugo Ayala (Penn State) reports on behalf of the HAWC
+collaboration (http://www.hawc-observatory.org/collaboration):
+
+On 2020/11/20 09:44:40 UTC, the IceCube collaboration reported a
+track-like very-high-energy event  that has a high probability of
+being an astrophysical neutrino, IceCube-201120A. Location is at
+RA: 307.53 (+ 5.34 - 5.59 deg 90% PSF containment) J2000
+Dec: 40.77 (+ 4.97 - 2.80 deg 90% PSF containment) J2000
+(GCN circular 28927).
+
+We performed two types of analyses for the follow-up. The first is for
+a steady source in archival data and the second is a search for a
+transient source.
+
+Search for a steady source in archival data:
+The archival data spans from November 2014 to June 2019. We searched
+inside the reported IceCube error region. This region corresponds to the
+Cygnus Cocoon region.
+The best position of the IceCube event is close to the HAWC catalog source
+3HWC J2031+415 RA 307.93, Dec: 41.51 (±0.06 deg 68% containment) J2000
+Significance: 23.56
+Flux: 30.7e-15 +1.3e-15 -1.4e-15 [Tev cm2 s]^-1 at 7 TeV
+Index: -2.36 ± 0.04
+
+Other 3HWC sources in the region:
+3HWC J2020+403 RA 305.16 Dec 40.37 (±0.09 deg 68% containment) J2000
+Significance: 9.69
+Flux: 11.4e-15 ±1.2e-15  [Tev cm2 s]^-1 at 7 TeV
+Index: -3.11 ± 0.07
+
+3HWC J2022+431 RA 305.522 Dec: 43.158 (±0.10 deg 68% containment) J2000
+Significance: 28.95
+Flux: 6.0e-15 ±1.1e-15  [Tev cm2 s]^-1 at 7 TeV
+Index: -2.34 ± 0.12
+
+3HWC J2043+443 RA 310.89 Dec: 44.30 (±0.24 deg 68% containment) J2000
+Significance: 5.35
+ Flux: 9.7e-15 +2.1e-15 -2.2e-15 [Tev cm2 s]^-1 at 7 TeV
+Index: -2.33 +0.14 -0.15
+
+Search for a transient source. We assume a power-law spectrum with an index
+of -2.3
+with pivot energy of 1 TeV.
+
+Since the event was not in our field of view at the time reported,
+we report the combined result for the transits before and after the
+IceCube event.
+
+Data acquisition started on 2020/11/20 01:52:08 UTC and ended
+2020/11/22 02:06:34 UTC.
+
+We found 4 hotspots in the region of the IceCube uncertainty.
+3 of them are consistent with 3HWC sources. One is not.
+
+|  RA  | Dec | Unc. |p-value|Flux [TeV^-1 cm^-2 s^-1]|Nearby source|
+|------|-----|-----|------|------------------------------|---------|
+|305.2|40.0|0.4| 0.20 |7.9e-12 (+8.0e-12 -5.2e-12)|3HWC J2020+403|
+|309.0|40.4|0.2| 0.25 |7.2e-12 (+8.3e-12 -5.1e-12)|None|
+|305.1|43.0|0.3| 0.84 |4.5e-12 (+7.1e-12 -3.6e-12)|3HWC J2020+431|
+|307.6|41.4|0.7| 0.91 |7.7e-12 (+9.1e-12 -5.8e-12)|3HWC J2031+415|
+
+Position and uncertainty (68%) are in degrees.
+P-values are post-trials. None of the hotspots is a significant detection,
+nor we see any significant flux enhancements.
+
+HAWC is a very-high-energy gamma-ray observatory operating in Central
+Mexico at latitude 19 deg. north. Operating day and night with over
+95% duty cycle, HAWC has an instantaneous field of view of 2 sr and
+surveys 2/3 of the sky every day. It is sensitive to gamma rays from
+300 GeV to 100 TeV.

@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17357
+SUBJECT: Konus-Wind observation of GRB 150126A reveals its ultra-long nature
+DATE:    15/01/28 16:45:07 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R. Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The GRB 150126A (MAXI/GSC detection: Takagi et al., GCN 17352; Fermi-GBM 
+detection: Stanbro, GCN 17353) triggered Konus-Wind at T0=75103.524 s UT 
+(20:51:43.524).
+
+The burst light curve shows several multi-peak emission episodes started 
+at ~T0-800 s with a total duration of ~870 s; the last, most intense 
+pulse triggered Konus-Wind. There is a hint of low-level ongoing 
+emission in the soft energy band G1 (~83-360 keV) out to about T0+230 s.
+The K-W light curve and the K-W ecliptic latitude response confirm a 
+common origin of all episodes. The position of the burst (Takagi et al., 
+GCN 17352) was below the horizon for Fermi until ~20:50 UT (=T0(KW)-103 
+s), so it missed all emission episodes except the last one.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB150126_T75103/
+
+As observed by Konus-Wind, the burst had a fluence of 
+8.56(-0.88,+1.30)x10^-5 erg/cm2, and a 1024-ms peak flux, measured from 
+T0+8.288 s, of 1.03(-0.23,+0.24)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The spectrum of the triggered part of the burst
+(measured from T0 to T0+24.832 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.04(-0.28,+0.33)
+and Ep = 208(-36,+57) keV (chi2 = 74/60 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < 2.1
+(chi2 = 74/59 dof)
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+
+The burst duration, light curve shape, and energetics are similar to 
+those of other multi-episode ultra-long GRBs with durations of ~1-2 ks 
+(e.g. GRB 020410A, GRB 080407A, GRB 091024A, GRB 110709B - see Virgili 
+et al. (2013), ApJ, 778:54 and references therein).
+
+[GCN OPS NOTE(28jan15): Per author's request, the "A" was added to the GRB name
+in the Subject-line.]
+

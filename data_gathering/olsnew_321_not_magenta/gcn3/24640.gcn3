@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24640
+SUBJECT: LIGO/Virgo S190521g: Updated sky localization
+DATE:    19/05/21 14:22:52 GMT
+FROM:    Geoffrey Mo at LIGO  <geoffrey.mo@ligo.org>
+
+The LIGO Scientific Collaboration and the Virgo Collaboration report:
+
+We have conducted further analysis of the LIGO and Virgo data around the
+time of the compact binary coalescence (CBC) candidate S190521g
+(GCN 24621). Parameter estimation has been performed using
+LALInference [1] and a new sky map, LALInference.fits.gz, distributed
+via GCN Notice, is available for retrieval from the GraceDB event page:
+
+https://gracedb.ligo.org/superevents/S190521g
+
+LALInference.fits.gz is the preferred sky map at this time.
+The 90% credible region is 765 deg2. Marginalized over the whole sky,
+the a posteriori luminosity distance estimate is 3931 +/- 953 Mpc
+(a posteriori mean +/- standard deviation).
+
+For further information about analysis methodology and the contents
+of this alert, refer to the LIGO/Virgo Public Alerts User Guide
+<https/emfollow.docs.ligo.org/userguide/>.
+
+[1] Veitch et al. PRD 91, 042003 (2015)

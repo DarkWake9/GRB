@@ -1,0 +1,90 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30109
+SUBJECT: GRB210529B: Zwicky Transient Facility Follow-Up of a Fermi Short GRB (Trigger 644025222)
+DATE:    21/06/01 10:04:08 GMT
+FROM:    Tomas Ahumada at U. of Maryland  <tahumada@astro.umd.edu>
+
+Tomas Ahumada (UMD), Shreya Anand (Caltech), Harsh Kumar (IIT-B), Igor
+Andreoni (Caltech), Albert Kong (NTHU), Erik Kool (SU), Ana
+Sagues-Carracedo (SU), Simeon Reusch (DESY), , Michael Coughlin (UMN),
+Mansi Kasliwal (Caltech), Robert Stein (DESY), Leo Singer (NASA/GSFC), and
+Matthew Graham (Caltech) report on behalf of the ZTF collaboration:
+
+We observed the localization region of the short GRB210529B (trigger
+644025222.097546) detected by the Gamma-Ray Burst Monitor (GBM) on the
+Fermi satellite with the Palomar 48 inch telescope equipped with the 47
+square degree Zwicky Transient Facility (ZTF; Bellm et al., 2019; Graham et
+al., 2019) camera. We obtained a series of g- and r-band images covering
+about 686 square degrees beginning at 05:06:36.18 UT on 2021-05-30 (~ 5.1
+hours after the burst trigger time). This corresponds to ~85% of the
+probability enclosed in the region of the GRB localization that was
+unocculted by the Earth for Fermi GBM (GCN 30101). Exposures reached a
+median depth of 22.2 mag in the g-band and 22.3 mag in the r-band.
+On 2021-05-31, we obtained another epoch of g- and r-band follow-up
+observations, beginning at 05:07:50.96 UT with exposures reaching a median
+depth of 22.2 mag and 22.2 mag respectively, and covering ~85% of the
+enclosed probability.
+
+The images were processed in real-time through the ZTF reduction and image
+subtraction pipelines at IPAC (Masci et al. 2019). We queried the ZTF alert
+stream using Kowalski (Duev et al. 2019). We required at least 2 detections
+separated by at least 15 minutes to select against moving objects.
+Furthermore, we cross-matched our candidates with the Minor Planet Center
+to flag known asteroids, reject stellar sources (Tachibana and Miller
+2018), and apply machine learning algorithms (Duev et al. 2019, Mahabal et
+al. 2019). We require no spatially coincident ZTF alert to be issued before
+the detection time of the GBM trigger.
+
+We identified 146 transient candidates located within the 95% probability
+contour of the skymap that passed automatic selection criteria. The
+majority of the transients showed no evolution between the two nights. We
+performed forced photometry (Masci et al. 2019) on the candidates reported
+below and found no previous history of variability.
+
++--------------+-----------+-------------+--------------+--------+-------+-----------+
+|     Name     |  IAU Name |      RA     |     Dec      | disc. mag |
+ notes     |
++--------------+-----------+-------------+--------------+--------+-------+-----------+
+| ZTF21abcwmzx | AT2021nzo | 14:42:28.10 | +31:56:34.19 | g = 21.51 |
+(1)(e)  |
+| ZTF21abcwnbm | AT2021nzp | 14:43:43.24 | +33:44:52.20 | g = 21.54 |
+(1)(d)  |
+| ZTF21abcwuxv | AT2021nzq | 15:30:34.50 | +43:05:52.27 | r = 21.82 |
+(a)(b) |
+| ZTF21abcwvzr | AT2021nzr | 14:49:49.23 | +35:05:43.32 | r = 21.9  |
+(a)(e) |
+| ZTF21abcwwaj | AT2021nzs | 14:40:59.49 | +32:07:24.64 | r = 21.24 |
+(a)(c) |
+| ZTF21abcwyoe | AT2021nzt | 15:58:56.54 | +33:08:01.79 | r = 21.83 |
+(a)(d) |
+| ZTF21abcwyvi | AT2021nzu | 15:58:53.27 | +33:39:12.74 | r = 21.98 |
+(a)(b) |
+
+Notes:
+(1) shows rise and rapid decay
+(a) Non-detection during the second night (2021-05-31). These have two or
+more detections separated by >50 min during the first night.
+(b) hostless
+(c) host at z=0.1
+(d) nuclear
+(e) likely offset from host
+
+Based on observations obtained with the Samuel Oschin Telescope 48-inch and
+the 60-inch Telescope at the Palomar Observatory as part of the Zwicky
+Transient Facility project. ZTF is supported by the National Science
+Foundation under Grant No. AST-2034437 and a collaboration including
+Caltech, IPAC, the Weizmann Institute for Science, the Oskar Klein Center
+at Stockholm University, the University of Maryland, Deutsches
+Elektronen-Synchrotron and Humboldt University, the TANGO Consortium of
+Taiwan, the University of Wisconsin at Milwaukee, Trinity College Dublin,
+Lawrence Livermore National Laboratories, and IN2P3, France. Operations are
+conducted by COO, IPAC, and UW.
+
+
+-- 
+Tomas Ahumada (he/him)
+Ph.D. Candidate
+Department of Astronomy
+University of Maryland, College Park
+NASA Goddard Space Flight Center, Code 661
+B.Sc. Astronomy, Pontificia Universidad Católica de Chile

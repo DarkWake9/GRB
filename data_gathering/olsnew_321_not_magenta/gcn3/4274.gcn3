@@ -1,0 +1,103 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4274
+SUBJECT: GRB050925: analysis of the XMM-Newton observation
+DATE:    05/11/15 18:44:45 GMT
+FROM:    Andrea De Luca at IASF-CNR,Milano  <deluca@iasf-milano.inaf.it>
+
+A.De Luca, P.Caraveo, P.Esposito, S.Mereghetti, A.Tiengo (INAF/IASF Mi),
+report:
+
+we have analyzed the data from the XMM-Newton observation of
+the soft short burst GRB050925, observed by Swift to have
+characteristics similar to that of Soft Gamma Repeaters (SGRs)
+(Holland et al., GCN4034). An independent analysis of the XMM
+data was reported by Rea et al.(GCN4264).
+
+We give here the detailed results of a source detection on the
+EPIC dataset. Such results will become an important reference
+in case the putative SGR will enter a phase of enhanced activity.
+
+We used independently the pn camera data and the combined
+MOS1+MOS2 data. We selected the energy ranges 0.3-2 keV,
+2-8 keV and 0.3-8 keV. The MOS and pn positions are found to
+be consistent within ~1.5 arcsec, in agreement with the known
+astrometric accuracy of the EPIC cameras. Thus, we assume 1.5
+arcsec as the 1sigma uncertainty on the X-ray sources' positions.
+In the source list below we quote the J2000 coordinates
+as derived from the pn camera (unless otherwise specified).
+
+Since the field of GRB050925 is very crowded we focus on the
+region closer to the 1.5 arcmin BAT error circle (Markwardt
+et al., GCN4037). 6 X-ray sources (named XMM1...XMM6) are
+detected within 2 arcmin of the BAT coordinates.
+
+Finding charts from pn and MOS data may be found at
+http://www.iasf-milano.inaf.it/~deluca/grb050925
+Please note that the circles around XMM sources are meant
+to help locate them. In the scale used for the figures the
+XMM error boxes are smaller than 1 pixel.
+
+Sources inside the BAT circle:
+
+XMM1 - RA 20:13:47.81, Dec +34:19:51.9 - it is the brightest
+       source located within the BAT error circle. It is the
+       steady source discovered in Swift/XRT data by Beardmore
+       et al. (GCN4043) and interpreted as a field star.
+       Its coordinates, within errors, are consistent with a bright
+       optical source (B~12.4, R~11.9, source id.1243-0400741 in
+       USNO-B1). Its spectrum is well described by a mekal plasma
+       model with NH<5x10^20 cm^-2, kT~0.6 keV, abundance ~0.3 solar
+       values and observed flux of 2.7x10^-14 erg cm^-2 s^-1
+       in 0.3-8 keV. The resulting Fx/Fopt is of ~3x10^-4.
+       Thus, in agreement with Beardmore et al.(GCN4043), we
+       conclude that source XMM1 is most likely a nearby star.
+       Rea et al.(GCN4264), assuming a smaller X-ray error circle,
+       questioned the association with the bright optical source
+
+XMM2 - RA 20:13:57.85, Dec +34:19:56.5 - detected with S/N~3,
+       in the 0.3-2 keV range only.
+       Assuming a Crab spectrum with Galactic absorption
+       (1.1x10^22 cm^-2 according to Dickey & Lockman, 1990), its
+       observed flux is (2-3)x10^-15 erg cm^-2 s^-1 (0.3-2 keV).
+       No obvious optical counterparts are found in the DSS plates.
+
+Sources outside the BAT circle:
+
+XMM3 - RA 20:13:54.97, Dec +34:18:22.4 - located at 1.55 arcmin
+       from the BAT position, it is detected with S/N~3
+       in MOS data only (in the pn detector it lies on a bad column),
+       with a flux  similar to source XMM2.
+       An optical source with R~17 is found within 3 arcsec.
+
+XMM4 - RA 20:13:56.06, Dec +34:21:28.9 - located at 1.61 arcmin
+       from the BAT position, it is detected with S/N~3
+       in MOS data only (in the pn detector  it lies on a bad column),
+       with a flux similar to source XMM2.
+       An optical source with R~16.5 is found within 2.2 arcsec.
+
+XMM5 - RA 20:14:01.59, Dec +34:21:03.1 - located at 1.89 arcmin
+       from the BAT position, it lies within 1.5 arcsec of a
+       bright optical source (B~13.1, R~11.4, source id.1243-0401091
+       in USNO-B1 catalog), its spectrum is consistent with a mekal
+       plasma model with absorption smaller than the Galactic value,
+       kT~0.67 keV and abundance ~0.4 solar values; the observed flux
+       is ~1x10^-14 erg cm^-2 s^-1 (0.2-5 keV). Fx/Fopt is ~10^-4.
+       It is most likely  a star.
+
+XMM6 - RA 20:13:45.17, Dec +34:20:23.8 - located at 1.93 arcmin
+       from the BAT position, its spectrum is consistent
+       with a power law (photon index ~1.8) absorbed by the Galactic
+       column. Its observed flux is ~2x10^-14 erg cm^-2 s^-1
+       (0.2-8 keV). No obvious optical counterparts.
+
+No other sources within 2 arcmin of the BAT position are seen.
+Using the present XMM observation we can estimate the upper limit
+flux as follows: assuming a Crab-like spectrum with Galactic
+absorption, a S/N=3 detection corresponds to a flux of ~3x10^-15 erg
+cm^-2 s^-1 in the 0.3-2 keV band and ~8x10^-15 erg cm^-2 s^-1 in
+the 0.3-8 keV band.
+
+We thank the XMM Project Scientist, N.Schartel, for approval of
+this TOO, and the XMM people at Vilspa for performing it.
+
+

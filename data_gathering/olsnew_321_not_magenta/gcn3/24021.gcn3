@@ -1,0 +1,50 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24021
+SUBJECT: Swift Trigger 895479: Detection of GRO J2058+42
+DATE:    19/03/27 21:49:05 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+J. A. Kennea (PSU), N. J. Klingler (PSU), A. Y. Lien (GSFC/UMBC),
+F. E. Marshall (NASA/GSFC), K. L. Page (U Leicester) and
+B. Sbarufatti (PSU) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 21:27:45 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRO J2058+42 (trigger=895479).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 314.705, +41.745 which is 
+   RA(J2000) = 20h 58m 49s
+   Dec(J2000) = +41d 44' 41"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is usual with an image trigger, the available
+BAT light curve shows no significant structure. 
+
+The XRT began observing the field at 21:30:58.4 UT, 193.0 seconds after
+the BAT trigger. Using promptly downlinked data we find an X-ray source
+with an enhanced position: RA, Dec 314.6977, 41.7766 which is
+equivalent to:
+   RA(J2000)  = 20h 58m 47.44s
+   Dec(J2000) = +41d 46' 35.6"
+with an uncertainty of 2.5 arcseconds (radius, 90% containment). This
+location is 115 arcseconds from the BAT onboard position, within the
+BAT error circle. This position may be improved as more data are
+received; the latest position is available at
+http://www.swift.ac.uk/sper. This position is 2.3 arcseconds from a
+known X-ray source: 1SXPS J205847.2+414637. This source is in the Swift
+XRT 1SXPS catalogue with a mean 0.3-10 keV count-rate of 1.350 +/-
+0.043 ct/sec; see http://www.swift.ac.uk/1SXPS/1SXPSJ205847.2%2B414637
+for details of these previous observations. No spectrum from the
+promptly downlinked event data is yet available to determine the column
+density. 
+
+UVOT took a finding chart exposure of 250 seconds with the U filter
+starting  193 seconds after the BAT trigger. UVOT detects a 16th mag
+source consistent with the XRT position. No  correction has been made
+for the large, but uncertain, extinction expected. 
+
+Swift-BAT previously triggered on this source on 2019 March 22 (GCN Circ. 23985)
+and earlier today on 2019 March 27 (GCN Circ. 24017)
+
+The BAT transient monitor of this source shows the source to be in outburst: 
+https://swift.gsfc.nasa.gov/results/transients/weak/GROJ2058p42/
+

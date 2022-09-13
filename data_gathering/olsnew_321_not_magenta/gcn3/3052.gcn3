@@ -1,0 +1,35 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3052
+SUBJECT: GRB050219b: CORRECTION to time of UVOT observations
+DATE:    05/02/21 20:34:24 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+T. Poole (MSSL), C. Gronwall (PSU), A. Blustin (MSSL), P. Brown (PSU), S.
+Rosen, K. McGowan, M. De Pasquale (MSSL), P. Boyd (GSFC/UMBC), S. Holland,
+M. Still (GSFC/USRA), W. Landsman (GSFC), S. Hunsberger (PSU), A. Breeveld
+(MSSL), P. Roming (PSU), K. Mason, P. Schady (MSSL), M. Ivanushkina (PSU),
+T. Kennedy, P. Smith, B. Hancock (MSSL), S. Koch (PSU), M. Carter, H.
+Huckle (MSSL),  P. Broos, J. Racusin (PSU), E. Fenimore (LANL),
+B. Zhang (UNLV), J. Nousek (PSU), N. Gehrels (GSFC), on behalf of the
+Swift UVOT team.
+
+CORRECTION: The time at which the UVOT began observations of GRB050219b 
+should read as 21:57:51 in GCN 3046 and GCN 3050. This was 52 minutes 
+after the initial Swift BAT trigger (Cummings et al, GCN 3044), the delay 
+being caused by the Earth-limb constraint.
+
+No new source was detected at the corrected XRT position (Racusin et al, 
+GCN 3049), and the 3-sigma limiting magnitudes given in GCN 3050 still 
+apply:
+
+Filter	Lim_Mag  Tot_Exposure(s)   T_start (s)
+  UVW2	~ 22.16		1154	     T+3120
+  UVM2	~ 22.24		1435	     T+3243
+  UVW1	~ 22.23   	940	     T+3349
+  U	~ 20.74   	100	     T+3455
+  B	~ 20.9    	100	     T+3561
+  V	~ 19.41   	100	     T+3136
+
+We caution that the instrument is not yet fully calibrated and that the
+magnitude limits presented here may need to be refined.
+

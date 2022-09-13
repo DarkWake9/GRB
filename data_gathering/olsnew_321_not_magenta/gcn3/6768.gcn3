@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6768
+SUBJECT: Konus-Wind observation of GRB 070824
+DATE:    07/08/31 12:05:53 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team:
+
+The bright long GRB 070824 localized by SuperAGILE/IPN
+(Donnarumma et al., GCN 6767) triggered Konus-Wind
+at T0=74999.585 s UT (20:49:59.585).
+
+The Konus-Wind light curve shows two pulses
+with a total duration of ~12 s.
+
+As observed by Konus-Wind the burst
+had a fluence of 2.84(-0.26, +0.09)x10^-5 erg/cm2,
+and a 16-ms peak flux measured from T0+8.368 s
+of 2.85(-0.38, +0.29)x10^-5 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 s to T0+16.986 s) is well fitted
+(in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 1.051 (-0.081, +0.078)
+and Ep = 253 (-19, +22) keV (chi2 = 66.2/60 dof).
+Fitting by a GRBM (Band) model yields:
+the low-energy photon index alpha = -1.025 +/- 0.084,
+the high energy photon index beta < -2.55,
+the peak energy Ep = 243(-20, +24) keV (chi2 = 64.5/59 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB070824_T74999/
+

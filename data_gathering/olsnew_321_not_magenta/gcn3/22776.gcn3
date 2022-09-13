@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22776
+SUBJECT: GRB 180613A, Swift-BAT refined analysis
+DATE:    18/06/14 03:12:15 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+C. B. Markwardt (GSFC), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), H. A. Krimm (NSF/USRA),
+A. Y. Lien (GSFC/UMBC), D. M. Palmer (LANL),
+T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+625 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 180613A (trigger #840853)
+(Tohuvavohu et al., GCN Circ. 22769).  The BAT ground-calculated position is
+RA, Dec = 211.545, -43.082 deg which is
+  RA(J2000)  =  14h 06m 10.9s
+  Dec(J2000) = -43d 04' 56.5"
+with an uncertainty of 1.8 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 96%.
+
+The mask-weighted light curve shows some weak emission that starts
+at ~T+25 s and ends at ~T+80 s. T90 (15-350 keV) is 50.8 +- 8.4 sec
+(estimated error including systematics).
+
+Because this trigger occurred when BAT was in the process of resuming to
+normal operation from the recent reboot. The entire detector array had the
+lower level discriminators set to a value higher than the level of normal operations.
+Therefore, the standard spectral analyses are unavailable.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/840853/BA/

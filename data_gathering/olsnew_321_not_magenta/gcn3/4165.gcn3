@@ -1,0 +1,47 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4165
+SUBJECT: GRB 051022: XRT Refined Spectral and Temporal Analysis
+DATE:    05/10/26 13:51:17 GMT
+FROM:    George Ricker at MIT  <grr@space.mit.edu>
+
+N. R. Butler (UC-Berkeley), G. R. Ricker (MIT), D. Q. Lamb 
+(U.Chicago), D. N. Burrows (PSU), J. Racusin (PSU), and N. Gehrels 
+(GSFC) report:
+
+We have performed spectral and temporal analyses of the first three 
+Swift XRT ToO follow-up observations of the HETE-2--localized burst 
+GRB 051022 (Olive et al., GCN 4131; Tanaka et al. 4137; Doty et al. 
+4145). Localization of the X-ray afterglow of the burst was reported 
+by Racusin et al. (GCN 4141) based on the first two orbits of XRT 
+data. The PC mode data that we have analyzed have an effective 
+exposure of 14.2 ksec for the time period of 12.5 to 182.3 ksec after 
+the burst. Modeling the count rate decay in the 0.5-10 keV band as a 
+power-law in time, the best-fit decay index is alpha = 1.33 +/- 0.07. 
+There is no evidence for a jet break in the XRT data that we have 
+analyzed.  The 0.2-10 keV spectrum is well-fit (Chi2/nu = 189/172) by 
+a power-law model with absorption.  We find n_H = (0.84 +/- 0.07) x 
+10^22 cm^-2, roughly consistent with the value derived from the 
+HETE-2 WXM and FREGATE data (Doty et al., GCN 4145) and greater than 
+the Galactic value in the direction of the burst at the 30-sigma 
+significance level, using the Likelihood Ratio test (Delta Chi2 = 890 
+for one additional degree freedom).  The photon index is gamma = 2.0 
++/- 0.1 and the mean unabsorbed flux is (1.9 +/- 0.1) x 10^-11 erg 
+cm^-2 s^-1.  The spectral parameters do not appear to evolve in time 
+during the observation.
+
+Assuming the relationship A_V = 0.56 N_H[10^21 cm^-2] + 0.23 found by 
+Predehl and Schmitt (1995; A&A, 293, 889); the expression for the 
+extinction curve given by Cardelli, Clayton, and Mathis (1989; ApJ, 
+345, 245); R_V = 3.1; and a redshift for the burst of z = 0.8 
+(Gal-Yam et al., GCN 4156), based on the positional coincidence 
+between the galaxy at this redshift and the IR/optical (Castro-Tirado 
+et al., GCN 4143; de Ugarte Postigo et al., GCN 4164) and radio 
+(Cameron and Frail, GCN 4154; van der Horst, Rol, and Wijers, GCN 
+4158) and X-ray afterglow (Patel, Kouveliotou, and Rol, GCN 4163) of 
+the burst, we derive the following values for the extinction in 
+magnitudes in the observer frame: A_V = 8.6 +/- 0.7, A_R = 7.7 +/- 
+0.6, A_I = 6.5 +/- 0.5, A_J = 3.8 +/- 0.3, A_H = 2.3 +/- 0.2, and 
+A_Ks = 1.5 +/- 0.1.
+
+[GCN OPS NOTE(26oct05):  This is a reissue of GCN Circ 4165 with the 
+binary-conversion characters removed and the line-break formating fixed.]

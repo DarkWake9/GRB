@@ -1,0 +1,56 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  2699
+SUBJECT: GRB040903 - A XRF?
+DATE:    04/09/09 11:22:45 GMT
+FROM:    Erik Kuulkers at ESA/ESTEC-Integral(ISOC)  <ekuulker@rssd.esa.int>
+
+E. Kuulkers (ESA/ESTEC), D. Gotz, S. Mereghetti (IASF-Milano), P. Goldoni, A. Goldwurm
+(CEA/Saclay) and S. Brandt (DSRI, Copenhagen)
+report:
+
+Prompted by the message (GCN #2695) that the possible GRB 040903 (GCN #2690, #2691)
+discovered by IBAS might be either a X-ray flash (XRF) or a type I X-ray burst (XRB),
+we further investigated this event.
+
+The inital light curve of GRB 040903 shows basically two peaks, which is
+reminiscent to that seen in hard X-ray light curves of strong photospheric radius
+expansion XRBs from, e.g., 4U 1812-12 (see Cocchi et al. 2000, A&A 357, 527).
+Also, both the GRB and XRBs reach peak intensities a few seconds after the
+start of the events. We compared in more detail the temporal and spectral behaviour 
+of GRB 040903 with that of XRBs from 4U 1812-12, both as seen with the IBIS/ISGRI 
+instrument onboard INTEGRAL. The XRBs we focussed on were observed on 2003 April 25 and 27.
+
+The 20-100 keV GRB spectrum integrated over the burst can be well fit by
+a power-law model with a photon index of 2.9 +/- 0.4 (1 sigma error;
+Chi^2_red = 0.6 for 16 dof), although a black-body model cannot be formally
+ruled out (Chi^2_red = 1.1 for 16 dof). The latter model gives for the effective 
+temperature a value of kT = 6.9 +/- 1.5 keV, which is significantly higher than
+the maximum value reached during any XRB (~3 keV). 
+The 20-100 keV spectrum of the XRB integrated over the burst can be well fit 
+by a black-body model with effective temperature kT = 2.9 +/- 0.3 
+(Chi^2_red = 0.5 for 5 dof), whereas a power-law model provides a rather bad fit 
+(Chi^2_red = 1.6 for 5 dof).
+
+We used three energy bands to investigate the temporal behaviour at a time resolution
+of 1 sec: 13-26 keV, 26-60 keV and 60-500 keV. The main differences between GRB 040903
+and the XRBs are the following. The GRB is clearly seen in the 13-26 keV and 26-60 keV
+bands, whereas the XRBs are only seen in the 13-26 keV band. During the first peak
+of the GRB the event is harder with respect to the second peak, whereas the XRB
+is soft during both peaks (as well as in between).
+
+The light curves (and the hardness curve, i.e., the ratio of the counts in the 26-60 keV 
+band to that of the counts in the 13-26 keV band, versus time) can be retrieved from
+ftp://astro.estec.esa.nl/pub/ekuulker/4u1812-12.ps and
+ftp://astro.estec.esa.nl/pub/ekuulker/grb040903.ps.
+
+Given that
+1) GRB 040903 is significantly harder than the XRBs from 4U 1812-12,
+2) the spectral evolution of the GRB is unlike that seen for the XRBs, but more common for
+GRBs (and XRFs),
+3) the integrated spectrum of the GRB is consistent with being due to power-law emission, 
+but not with black-body emission as expected during XRBs,
+4) the GRB is not significantly detected above ~60 keV,
+we favour GRB 040903 being a XRF.
+
+This message can be cited.
+

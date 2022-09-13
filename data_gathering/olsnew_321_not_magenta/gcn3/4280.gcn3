@@ -1,0 +1,34 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4280
+SUBJECT: GRB 051117: Swift detection of a bright burst
+DATE:    05/11/17 11:44:49 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+D. Band (GSFC), S. Barthelmy (GSFC), A. Beardmore (U Leicester),
+D. Burrows (PSU), N. Gehrels (GSFC), M. Goad (U. Leicester)
+O. Godet (U. Leicester), C. Gronwall (PSU), J. Kennea (PSU),
+K. Page (U Leicester), E. Rol (U. Leicester)
+on behalf of the Swift team:
+
+At 10:51:20 UT, Swift-BAT triggered and located GRB 051117 (trigger=164268).
+The spacecraft slewed immediately.  The BAT on-board calculated location
+is RA,Dec 228.405d, +30.870d {+15h 13m 37s, +30d 52' 11"} (J2000),
+with an uncertainty of 3 arcmin (radius, 90% containment, stat+sys).
+The BAT light curve shows a single peak with a total duration
+of about 20 sec.  The peak count rate was ~1500 counts/sec (15-350 keV),
+at ~3 sec after the trigger.
+
+XRT began observing at 10:53:07 UT, 107 seconds after the BAT trigger. 
+We find a bright, rapidly fading, uncataloged source at RA 15h 13m 33.7s 
+Dec +30d 52' 22.0" (J2000) with a positional uncertainty of 5.8 arcsec
+(90% containment).  This is 46 arcsec from the BAT position.  The 
+approximate initial flux is 1.0e-8 erg/cm2/sec (0.2-10 keV).  The XRT
+preliminary raw spectrum is well fit by an absorbed powerlaw with a
+photon index of 2.2+/- 0.1 with an excess NH of 2e21 cm^-2.
+
+UVOT began observing at UT 10:53:10, 111 seconds after the BAT trigger.
+In a 200 sec V image, we detect a faint source just outside the XRT 
+error circle at an approximate position of RA=15h 13m 33.6s, Dec=30d 52' 15.2"
+(J2000) that is not present in the DSS.  The magnitude is 19.9 mag.
+The extinction in this direction is A_V = 0.08.
+

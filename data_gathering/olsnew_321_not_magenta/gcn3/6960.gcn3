@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6960
+SUBJECT: Konus-Wind observation of GRB 071020
+DATE:    07/10/21 13:31:43 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 071020 (Swift-BAT trigger #294835:
+Holland et al., GCN 6949, Tueller et al., GCN 6954) triggered
+Konus-Wind at T0=25346.637 s UT (07:02:26.637).
+
+The burst light curve shows a multipeaked structure
+with a duration of ~3.5 s.
+As observed by Konus-Wind the burst
+had a fluence of 7.71(-4.76, +0.39)x10^-6 erg/cm2,
+and a 64-ms peak flux measured from T0+2.416 s
+of 6.04(-3.88, +1.12)x10^-6 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+8.448 s) is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 0.65(-0.32, +0.27)
+and Ep = 322(-53, +80) keV (chi2 = 64.4/61 dof).
+Fitting by GRBM (Band) model yields only an upper limit
+on the high energy photon index: beta < -1.97.
+All the quoted errors are at the 90% confidence level.
+
+Assuming z = 2.145 (Jakobsson et al., GCN 6952)
+and a standard cosmology model with H_0 = 70 km/s/Mpc,
+Omega_M = 0.3, Omega_\Lambda = 0.7,
+the isotropic bolometric energy release is E_iso ~8x10^52 erg, and
+the maximum bolometric luminosity is (L_iso)_max ~2x10^53 erg/s.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB071020_T25346/
+

@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31541
+SUBJECT: GRB 220131B: Swift/BAT-GUANO detection outside the coded FOV
+DATE:    22/02/01 18:46:38 GMT
+FROM:    Aaron Tohuvavohu at U Toronto  <aaron.tohu@gmail.com>
+
+Aaron Tohuvavohu (U Toronto), Gayathri Raman (PSU), James DeLaunay
+(UAlabama), Jamie A. Kennea (PSU), report:
+
+Swift/BAT did not localize GRB 220131B onboard (T0: 2022-01-31T01:09:16.7
+UTC, GECAM GCN 31534).
+
+The GECAM notice, distributed in near real-time, triggered the Swift
+Mission Operations Center operated Gamma-ray Urgent Archiver for Novel
+Opportunities (GUANO; Tohuvavohu et al. 2020, ApJ, 900, 1).
+
+Upon trigger by this notice, GUANO sent a command to the Swift Burst Alert
+Telescope (BAT) to save 90 seconds of BAT event-mode data from [-50,+150]
+seconds around the time of the burst. All the requested event mode data was
+delivered to the ground.
+
+The BAT likelihood search, NITRATES (DeLaunay + Tohuvavohu,
+arXiv:2111.01769), detects the burst with a sqrt(TS) of 9.2 in a 2.048 s
+analysis time bin.
+
+
+NITRATES results are consistent with a burst coming from outside the coded
+FOV, with DeltaLLHOut of 1.9. The best fit sky position from NITRATES is
+consistent with the GECAM localization within the stated error (GCN 31534).
+
+See Section 9.1 and Figure 20 in the NITRATES paper for brief descriptions
+and interpretation of sqrt(TS), DeltaLLHPeak, and DeltaLLHOut.
+
+GUANO is a fully autonomous, extremely low latency, spacecraft
+
+commanding pipeline designed for targeted recovery of BAT event mode
+
+data around the times of compelling astrophysical events to enable
+
+more sensitive GRB searches.
+
+A live reporting of Swift/BAT event data recovered by GUANO can be
+found at: https://www.swift.psu.edu/guano/

@@ -1,0 +1,69 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27526
+SUBJECT: LIGO/Virgo S200225q: Swift XRT observations, 1 X-ray sources
+DATE:    20/04/10 13:16:29 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), A. Tohuvavohu (U.
+Toronto), S.D. Barthelmy (NASA/GSFC), A.P. Beardmore (U. Leicester),
+M.G. Bernardini (INAF-OAB), A.A. Breeveld (UCL-MSSL), P. Brown (TAMU),
+D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G.
+Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB),
+V. D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P. Giommi (ASI), C. Gronwall
+(PSU), D. Hartmann (U. Clemson), H.A. Krimm (CRESST/GSFC/USRA), N.J.
+Klingler (PSU), N.P.M. Kuin (UCL-MSSL), A.Y. Lien (GSFC/UMBC), F.E.
+Marshall (NASA/GSFC), A. Melandri (INAF-OAB), J.A. Nousek (PSU), S.R.
+Oates (U. Birmingham), P.T. O'Brien (U. Leicester), J.P. Osborne (U.
+Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester), M.J.Page
+(UCL-MSSL), D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin
+(NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G.
+Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP) report on behalf of
+the Swift team:
+
+Swift has carried out 70 observations of the LVC error region for the
+GW trigger S200225q convolved with the 2MPZ catalogue (Bilicki et al.
+2014, ApJS, 210, 9), using the 'LALInference' (version 1) GW
+localisation map. As this is a 3D skymap, galaxy distances were taken
+into account in selecting which ones to observe. The observations
+currently span from 172 ks to 224 ks after the LVC trigger, and the XRT
+has covered 3.8 deg^2 on the sky (corrected for overlaps). This covers
+51% of the probability in the 'LALInference' (version 1) skymap, and
+51% after convolving with the 2MPZ galaxy catalogue, as described by
+Evans et al. (2016, MNRAS,  462, 1591). These pointings and associated
+metadata have been reported to the Treasure Map (Wyatt et al., arXiv
+2001.00588; http://treasuremap.space/alerts?graceids=S200225q).
+
+We have detected 1 X-ray source. Each source is assigned a rank of 1-4
+which describes how likely it is to be related to the GW trigger, with
+1 being the most likely and 4 being the least likely. The ranks are
+described at https://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+  * 0 sources of rank 1
+  * 0 sources of rank 2
+  * 0 sources of rank 3
+  * 1 source of rank 4
+
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+
+| Source ID	 | RA		  | Dec 	   | Err90   |
+|   S200225q_X1  | 06h 42m 40.91s | +88d 04' 42.7" |	9.0" |
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3x10^20 cm^-2, and photon index (Gamma)=1.7
+
+The results of the XRT automated analysis, including details of the
+sources listed above, are online at
+https://www.swift.ac.uk/LVC/S200225q
+
+This circular is an official product of the Swift XRT team.
+
+

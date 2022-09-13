@@ -1,0 +1,40 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5221
+SUBJECT: GRB 060605: Swift detection of a burst with optical counterpart
+DATE:    06/06/05 18:40:14 GMT
+FROM:    Jamie A. Kennea at PSU/Swift-XRT  <kennea@astro.psu.edu>
+
+M. J. Page (UCL-MSSL), A. J. Blustin (UCL-MSSL), P. J. Brown (PSU),
+O. Godet (U Leicester), S. T. Holland (GSFC/USRA),
+J. A. Kennea (PSU), H. A. Krimm (GSFC/USRA), C. Pagani (PSU),
+A. M. Parsons (GSFC), G. Sato (GSFC/JSPS/USRA) and
+M. Stamatikos (NASA/ORAU) report on behalf of the Swift Team:
+
+At 18:15:44 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060605 (trigger=213630).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA,Dec 322.144, -6.060 {21h 28m 35s, -06d 03' 36"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a FRED-like
+structure with a duration of about 20 sec.  The peak count rate
+was ~2000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began taking data at 18:17:17 UT, 93 seconds after the BAT
+trigger. The XRT on-board centroid algorithm did not find a source in
+the image, however analysis of downlinked PC mode data finds a faint,
+uncatalogued point source at the following location: 
+RA(J2000): 21h 28m 37.2s Dec(J2000): -06d 03m 35.3s, with an estimated 
+error of 4 arcsec radius (90% containment). This position is 39 arcsec 
+from the center of the BAT error circle and is 4.5 arcsec from the
+UVOT candidate. 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 98 seconds after the BAT trigger. There
+is a candidate afterglow in the rapidly available 2.7'x2.7' sub-image
+at (RA,DEC) (J2000) of (322.1555,-6.0587) or
+(21h28m37.32s,-06o03'31.3")  with a 1-sigma error radius of about 0.5
+arc sec. This position is 41.3 arc sec. from the centre of the BAT
+error circle. The estimated magnitude is 17.4 with a 1-sigma error of
+about 0.5 mag. No correction has been made for the expected extinction
+corresponding to E(B-V) of  0.05. 
+

@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9074
+SUBJECT: Swift/UVOT observations of GRB090401B
+DATE:    09/04/01 17:50:53 GMT
+FROM:    Patricia Schady at MSSL/Swift  <ps@mssl.ucl.ac.uk>
+
+P. Schady (MSSL-UCL) and S.R.Oates (MSSL-UCL) reports on behalf of the 
+Swift/UVOT team:
+
+Swift UVOT began settled exposures of GRB090401B (Schady et al, GCN 9066) 
+82 s after the burst trigger, and detected a bright optical transient at 
+the position reported in by Schady et al. (GCN 9067), consistent with the 
+enhanced XRT error circle (Osborne et al, GCN 9070).
+
+The source is detected in the white, v, b and u filter, but not in any of 
+UV filters, placing an upper limit on the redshift of z < 3. We note that 
+the afterglow lies close to a known source, which may be contaminating our 
+phometry. The light curve decays steeply at early times at a rate of 
+alpha_1~1.5, and then breaks at ~T+440s to a slope of alpha_2~0.7.
+
+Using 2.5arcsec aperture, the magnitudes and 3 sigma upper
+limits to our observations our reported below:
+
+Filt    T_start (s)  T_stop (s)  Exp (s)  Mag/3-sig UL
+white      82           232       147     16.83+/-0.02
+white      874          1024      147     19.14+/-0.08
+v          623          1248      78      18.31+/-0.20
+v          4753         4953      197     19.10+/-0.25
+b          549          1346      58      19.48+/-0.26
+b          5573         5773      197     20.39+/-0.28
+u          293          543       246     17.99+/-0.07
+u          698          1312      58      18.67+/-0.22
+uvw1       672          1297      78        > 19.42
+uvm2       647          1272      78        > 18.99
+uvw2       599          1387      78        > 19.39
+
+The above magnitudes have not been corrected for the Galactic extinction 
+corresponding to E(B-V) = 0.67 (Schlegel et al 1998). The photometry is on 
+the UVOT flight system described in Poole et al (2008, MNRAS, 383,627)
+
+
+
+

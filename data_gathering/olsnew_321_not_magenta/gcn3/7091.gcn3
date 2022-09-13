@@ -1,0 +1,29 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7091
+SUBJECT: GRB071112C: Errata of MITSuME Ic band photometry
+DATE:    07/11/15 01:05:31 GMT
+FROM:    Michitoshi Yoshida at Okayama Astrophysical Obs  <yoshida@oao.nao.ac.jp>
+
+M. Yoshida, K. Yanagisawa, Y. Shimizu, S. Nagayama, H. Toda (OAO, NAOJ)
+and N. Kawai (Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+The Ic band photometry results reported in GCN 7082 are not correct.
+The correct values are 1.5 magnitude brighter than those in GCN 7082.
+We made a mistake in calculating the zero point magnitudes of our Ic
+band frames. We also checked the results of other two bands (g' and Rc)
+photometry carefully and found they are correct.
+
+Please discard the results of GCN 7082. The reviced data are following.
+
+Observation date: 2007-11-12 UT
+
+start-UT  end-UT    mid-UT     exp-T  g'         Rc         Ic
+---------------------------------------------------------------------
+18:35:34  18:36:34  18:36:04   1min  17.1+-0.1  17.0+-0.1  16.4+-0.1
+18:35:34  18:39:00  18:37:17   3min  17.2+-0.1  17.2+-0.1  16.5+-0.1
+18:39:12  18:45:09  18:42:10   5min  17.9+-0.1  18.0+-0.1  17.1+-0.1
+18:45:19  18:56:20  18:50:49   7min  18.8+-0.2  18.5+-0.2  18.1+-0.2
+18:56:30  19:08:46  18:32:38  10min  19.3+-0.4  19.0+-0.2  >18.3
+19:08:56  19:57:01  19:32:58  40min  >19.5      19.6+-0.2  >18.5
+---------------------------------------------------------------------
+

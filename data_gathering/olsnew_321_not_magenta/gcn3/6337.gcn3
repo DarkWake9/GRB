@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6337
+SUBJECT: GRB 070420: Swift XRT refined analysis
+DATE:    07/04/20 18:34:49 GMT
+FROM:    Giulia Stratta at ASDC  <stratta@asdc.asi.it>
+
+G. Stratta (ASDC), M. Perri (ASDC), D.N. Burrows (PSU) and
+M. Stamatikos (NASA/ORAU) report on behalf of the Swift XRT
+team:
+
+We have analyzed the first four orbits of Swift-XRT data on
+GRB 070420 (Stamatikos et al. GCN 6330), with a total exposure
+of 573 s in Windowed Timing (WT) mode and of 7.5 ks in Photon
+Counting (PC) mode. This provides a refined XRT position at
+RA,Dec(deg)=121.230194683,-45.5562815181  which is:
+
+RA(J2000)=08h 04m 55.22s
+Dec(J2000)=-45d 33' 22.6"
+
+with an estimated error radius of 3.5 arcseconds (90% confidence).
+This position is 62.3 arcseconds from the BAT position
+(Stamatikos et al. GCN 6330), 0.8 arcseconds from the initial XRT
+position (Stamatikos et al. GCN 6330) and 2.6 arcseconds from the
+UVOT refined optical counterpart position
+(Holland et al. GCN 6336).
+
+The 0.3-10 keV X-ray light curve presents a steep decay between
+T+106 s and T+300 s followed by a plateau phase up to about
+T+2ks (end of the first orbit). The last three orbits of data
+taken in PC mode show a new steepening of the light curve,
+from T+5ks to T+18.5 ks (end of the third orbit).
+The light curve from T+106 s to T+18.5 ks is well fit by a
+double broken power law model with decay indices:
+d1=-4.4+/-0.2, d2=-0.2+/-0.1 and d3=-1.5+/-0.1 and with the
+first break at about t1=230s and the second break at about
+t2=3200s.
+
+The 0.3-10.0 keV X-ray spectrum from the XRT/WT data during the
+decay phase is well fit by an absorbed power law with a photon
+index of 2.6 +/- 0.1 and a total column density of
+NH=(4.1+/-0.3)e21 cm**-2. The X-ray spectrum from the XRT/PC
+data during the flat decay phase (corrected from the pileup
+effects) can be fit by an absorbed power law with a photon index
+of 2.0+/-0.2 and a total column density of
+NH=(5.0+/-1.0)e21 cm**-2. We note that the Galactic column
+density in the direction of the source is 3.7e21 cm**-2
+(Dickey & Lockman 1990).
+
+Assuming the X-ray emission continues to decline with decay index
+d3, we predict a 0.3-10.0 keV XRT count rate of 1.3e-2 count/s at
+T+24h and 4.7e-3 count/s at T+48h, which corresponds to an
+observed 0.3-10.0 keV flux of 7e-13 erg/cm**2/s and
+2.5e-13 erg/cm**2/s, respectively.
+
+This circular is an official product of the Swift Team.
+

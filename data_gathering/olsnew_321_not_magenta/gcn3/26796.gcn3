@@ -1,0 +1,27 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26796
+SUBJECT: LIGO/Virgo S200114f: ZTF Forced Photometry of the Swift Source S200114f_X2
+DATE:    20/01/17 06:19:19 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Mansi M. Kasliwal (Caltech), Matthew Graham (Caltech), Frank Masci (IPAC)
+On behalf of the Zwicky Transient Facility (ZTF) and Global Relay of Observatories Watching Transients Happen (GROWTH) collaborations
+
+The Zwicky Transient Facility (ZTF; Graham et al. 2019, Bellm et al. 2019) has repeatidly observed the location of Source S200114f_X2 (Evans et al., GCN #26787, GCN #26791), an X-ray transient candidate possibly associated with the gravitational wave event S200114f (LVC, GCN #26734). We used the Kowalski infrastructure (Duev et al., 2019) to query the ZTF database. Only one source, ZTF19aaehfwn, was found in ZTF data that generated >5sigma alerts within a 21-arcsec radius from Source S200114f_X2, whose position was reported with 7 arcsec uncertainty (Evans et al., GCN #26787, GCN #26791). ZTF19aaehfwn is spatially coincident with the candidate quasar WISEA J072127.41+170205.7 (Assef et al., 2018), that is consistent with the location of Source S200114f_X2 as previously noted by Evans et al. (GCN #26787, GCN #26791). ZTF19aaehfwn/WISEA J072127.41+170205.7 is located 3.9 arcsec away from Source S200114f_X2.
+
+We performed forced photometry on 57 ZTF images acquired between 2018-11-17 and 2020-01-14 08:23:13, with the last image taken about 6 hours after the S200114f detection time. Forced photometry was performed on images processed through the ZTF reduction and image subtraction pipelines at IPAC (Masci et al. 2019).
+
+The light curve of ZTF19aaehfwn shows possible long and short timescale variability, with upper limits at about r>20 before September 2019, followed by several detections at roughly 19.5 < r < 20.5 and 19.6 < g < 20.1. The light curve behavior does not appear atypical for an AGN and there is no evidence of strong flares. A decline in brightness is measured in the first hours after S200114f, as shown in the table below presenting the latest data points available.
+
++---------------------+--------+----------+------+
+| Date (UTC)          | filter | mag (AB) | err  |
++---------------------+--------+----------+------+
+| 2020-01-12 07:51:20 | r      | 19.52    | 0.19 |
+| 2020-01-14 08:22:34 | r      | 19.70    | 0.11 |
+| 2020-01-14 08:23:13 | r      | 20.28    | 0.18 |
++---------------------+--------+----------+------+
+
+
+The ZTF forced-photometry service was funded under the Heising-Simons Foundation grant #12540303 (PI: Graham). ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan; IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949.
+
+

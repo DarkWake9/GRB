@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29095
+SUBJECT: Konus-Wind observation of GRB 201218A
+DATE:    20/12/20 14:24:35 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, A. Tsvetkova, A. Lysenko, A. Ridnaia, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration, very bright GRB 201218A
+(Fermi-GBM detection: The Fermi GBM team, GCN Circ. 29081;
+BALROG localization: Biltzinger et al., GCN Circ. 29083;
+IPN triangulation: Hurley et al., GCN Circ. 29090)
+triggered Konus-Wind at T0=15253.184 s UT (04:14:13.184).
+
+The burst light curve shows a multipeaked structure
+which starts at ~T0-17 s and has a total duration of ~55 s,
+followed by a weak tail seen up to ~T0+120 s.
+The emission is seen up to ~5 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB201218_T15255
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.35(-0.07,+0.07)x10^-4 erg/cm2,
+and a 64-ms peak flux, measured from T0+8.544 s,
+of 2.23(-0.28,+0.29)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+20.736 s)
+is best fit in the 20 keV - 10 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.82(-0.03,+0.03),
+the high energy photon index beta = -3.00(-0.50,+0.27),
+the peak energy Ep = 472(-24,+23) keV
+(chi2 = 139/97 dof).
+
+The spectrum near the maximum count rate
+(measured from T0+8.192 to T0+8.704 s)
+is best fit in the 20 keV - 10 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.72(-0.09,+0.09)
+and Ep = 605(-68,+80) keV (chi2 = 51/63 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.5
+(chi2 = 50/62 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

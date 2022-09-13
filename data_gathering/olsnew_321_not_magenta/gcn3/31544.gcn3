@@ -1,0 +1,79 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31544
+SUBJECT: GRB 211227A: Konus-Wind detection and joint Konus-Wind+Swift-BAT spectral analysis
+DATE:    22/02/03 10:32:43 GMT
+FROM:    Anastasia Tsvetkova at Ioffe Institute  <tsvetkova@mail.ioffe.ru>
+
+A. Tsvetkova, D. Frederiks, A.Lysenko, D. Svinkin,
+A. Ridnaia, M. Ulanov (all Ioffe), and A.Y. Lien (U Tampa), report:
+
+The long GRB 211227A (Swift-BAT detection:
+Beardmore et al., GCN 31316; Lien et al., GCN 31326;
+MAXI/GSC detection: Tominaga et al., GCN 31319;
+CALET-GRBM detection: Cherry et al., GCN 31333),
+T0 (BAT) = 23:32:06.867, was detected by Konus-Wind (KW)
+in the waiting mode.
+
+A Bayesian block analysis of the KW waiting mode data in 25-400 keV range
+reveals two episodes with count rate excess >10 sigma over background.
+The first one, lasting from ~T0-50 s to ~T0-10 s, is due to the solar
+activity and is not associated with the GRB.
+The second episode, from ~T0-1.5 s to ~T0+81 s, is consistent in time
+with the BAT detection. It has a double-peaked structure,
+with the first, narrow pulse peaking at ~T0, and the second,
+more broad pulse - at ~T0 + 11 s.
+
+To derive broad-band spectral parameters of this burst,
+we performed a joint spectral analysis of the Swift/BAT data (15-150 keV)
+and the KW 3-channel spectral data (25-1700 keV).
+
+A fit to the time-averaged spectrum, measured from T0-1.540 s  to 
+T0+83.836 s,
+by the Band GRB function gives alpha = -1.34 (-0.08,+0.10),
+beta = -2.26 (-1.11,+0.24), and Ep = 192 (-42,+45) keV; chi^2 = 48.5/ 57 
+dof.
+
+A fit to the spectrum near the peak KW count rate, measured from 
+T0+10.236 s to T0+19.068 s,
+by the Band function gives alpha = -1.09 (-0.07,+0.08), beta = -2.29 
+(-0.11,+0.28),
+and Ep = 374 (-70,+66) keV; chi^2 = 47.1/58 dof.
+
+The spectrum of the short initial pulse, measured from T0-1.540 s to 
+T0+4.348 s,
+is well fit by a power law with an exponential cutoff (CPL), with
+alpha = -1.56 (-0.06,+0.15) and Ep = 366 (-179,+1201) keV; chi^2 = 
+49.3/59 dof.
+Although the Band model fit to this spectrum is not constrained,
+fixing beta to the value -2.26, obtained for the time-integrated spectrum,
+gives alpha = -1.49 (-0.18, +0.24) and Ep = 240 (-116, +759) keV; chi^2 
+= 49.0/59 dof.
+
+In the 15-1500 keV band, the total burst fluence is 
+2.60(-0.21,+0.21)x10^-5 erg/cm^2,
+and the 64 ms peak energy flux is 2.0(-0.4,+0.4)x10^-6 erg/cm^2/s.
+
+Assuming the redshift z=0.228 (Malesani et al., GCN 31324)
+of the host galaxy candidate (Fu et al., GCN 31320),
+and a standard cosmology with H_0 = 67.3 km/s/Mpc, Omega_M = 0.315,
+and Omega_Lambda = 0.685 (Planck Collaboration, 2014),
+we estimate the isotropic energy release E_iso to 4.9(-0.4,+0,4)x10^51 erg,
+the isotropic luminosity L_iso to 4.7(-1.0,+1,0)x10^50 erg/s,
+and the rest-frame peak energies of the time-integrated and peak spectra
+to 235(-51,+56) keV and 460 (-86, +81) keV, correspondingly.
+With these values, GRB 211227A is consistent with the 90% prediction 
+bands for the 'Amati'
+relation and is an outlier in the 'Yonetoku' relation for the sample of  
+ >300 long KW GRBs
+with known redshifts (Tsvetkova et al., 2021, ApJ, 908, 83).
+However, if we assume a higher burst redshift (z>0.5), GRB 211227A is 
+consistent
+with both 'Amati' and 'Yonetoku' relations,
+see http://www.ioffe.ru/LEA/GRBs/GRB211227A/GRB211227A_rest_frame.pdf
+
+All the quoted errors are estimated at the 68% confidence level.
+All the presented results are preliminary.
+
+The KW light curve of this burst is available at 
+http://www.ioffe.ru/LEA/GRBs/GRB211227A/
+

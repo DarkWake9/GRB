@@ -1,0 +1,53 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3745
+SUBJECT: GRB 050802: Swift/UVOT optical and UV detections
+DATE:    05/08/03 15:37:09 GMT
+FROM:    Katie McGowan at MSSL-UCL  <km2@mssl.ucl.ac.uk>
+
+K. McGowan (UCL-MSSL), A. Morgan (PSU), K. Mason (PPARC),
+T. Kennedy (UCL-MSSL) report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began observing the afterglow of
+GRB 050802 at 2005-08-02T10:15:14, 286 s after the
+BAT trigger (Band et al., GCN 3734).  In addition to our
+reported detection from the initial V filter observations
+(McGowan et al., GCN 3739), we now report that we detect
+the afterglow in all six filters.
+
+We extracted data using a 6 arcsec radius aperture
+centered on the source position (McGowan et al., GCN 3739)
+for the optical filters, a 12 arcsec radius for the W1 and
+M2 filters, and 4 arcsec for the W2 filter.  If the
+significance of the source detection was less than 2 sigma
+we determined a 3-sigma limiting magnitude.
+
+The detection in UVW2 implies that the Lyman Limit must be blueward
+of 2000 A, and we estimate that the burst is at redshift z < 1.2.
+
+We obtain the following photometry of the afterglow candidate:
+
+Filter   Exposure (s)  T_mid (s)   Magnitude      Notes
+
+V        100           336         17.07+/-0.09   detection
+V        900           12566       20.35+/-0.09   detection
+
+B        10            437         17.66+/-0.20   detection
+B        900           36405       21.10+/-0.08   detection
+
+U        10            423         16.82+/-0.24   detection
+U        899.79        35498       20.22+/-0.16   detection
+
+W1       10            409         17.08+/-0.29   detection
+W1       100           2296        19.22+/-0.23   detection
+
+M2       278           1316        18.79+/-0.26   detection
+M2       3753          28197       21.30+/-0.26   detection
+
+W2       268           1240.5      20.73+/-0.27   detection
+W2       3481          25890.5     >22.64         3-sig limit
+
+where T_mid is the midpoint of the exposure post-trigger in seconds.
+
+The magnitudes are based on preliminary zero points, measured in
+orbit, and will require refinement with further calibration.
+

@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17374
+SUBJECT: GRB 150201A, Swift-BAT refined analysis
+DATE:    15/02/02 18:23:30 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.a.krimm@nasa.gov>
+
+D. M. Palmer (LANL), S. D. Barthelmy (GSFC), W. H. Baumgartner (GSFC/UMBC),
+J. K. Cannizzo (NASA/UMBC), J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+T. Sakamoto (AGU), M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-240 to T+962 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 150201A (trigger #629302)
+(Cannizzo, et al., GCN Circ. 17368).  The BAT ground-calculated position is
+RA, Dec = 11.820 -37.620 deg which is
+    RA(J2000)  = 00h 47m 16.8s
+    Dec(J2000) =  -37d 37' 10"
+with an uncertainty of 1.7 arcmin,(radius, sys+stat, 90% containment).
+It is 0.6 arcmin from the XRT enhanced position. The partial coding was 3%.
+
+The burst was outside the BAT calibrated field of view.  It came into the field
+during the slew to point the narrow-field instruments. The earliest calibrated
+event data starts at about T+22 s. The non-weighted light curve shows two main
+peaks at about T-3 and T+1 seconds. The emission is detectable out to
+approximately T+50 sec.  T90 (15-350 keV) is 26.1 +- 5.2 sec (estimated error 
+including systematics).
+
+The time-averaged spectrum from T+22.2 to T+49.0 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+2.32 +- 0.24.  The fluence in the 15-150 keV band is 7.8 +- 1.2 x 10^-07 
+erg/cm2. This calibrated fluence is on the order of 5% of the total fluence.
+All the quoted errors are at the 90% confidence level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/629302/BA/
+

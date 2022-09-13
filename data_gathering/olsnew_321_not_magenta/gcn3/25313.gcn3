@@ -1,0 +1,39 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25313
+SUBJECT: Konus-Wind observation of GRB 190810A
+DATE:    19/08/12 11:39:06 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Kozlova, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short-duration GRB 190810A
+(IPN triangulation: Hurley et al., GCN 25312)
+triggered Konus-Wind at T0=58318.421 s UT (16:11:58.421).
+
+The burst light curve shows a single pulse
+which starts at T0-0.1 s and has a total duration of ~0.2 s.
+
+As observed by Konus-Wind, the burst
+had a fluence of 2.29(-0.40,+0.85)x10^-6 erg/cm2,
+and a 16-ms peak flux, measured from T0-0.042 s,
+of 2.23(-0.55,+0.92)x10^-5 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+Since the most intense part of the burst was detected before
+the trigger, the spectral analysis was performed using
+the KW 3-channel light curve data.
+
+Modeling the KW 3-channel time-integrated spectrum
+(from T0-0.098 s to T0+0.088 s)
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -0.61 (-0.22,+0.27), and Ep = 1120 (-266,+656) keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB190810_T58321/
+
+All the quoted errors are at the 68% confidence level.
+All the quoted values are preliminary.
+

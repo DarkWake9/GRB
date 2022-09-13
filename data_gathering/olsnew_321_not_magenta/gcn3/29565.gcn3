@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29565
+SUBJECT: GRB 210222B: MITSuME Akeno optical upper limits
+DATE:    21/02/25 08:30:41 GMT
+FROM:    Ryohei Hosokawa at Tokyo Institute of Technology  <hosokawa@hp.phys.titech.ac.jp>
+
+R. Hosokawa, K. L. Murata, R. Adachi, M. Niwano, F. Ogawa, N.
+Nakamura, N. Ito, S. Ogata, H. Takamatsu, H. Hara, Y. Yatsu, and N.
+Kawai (TokyoTech) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 210222B (Lipunov et al. GCN #29544, Gropp
+et al. GCN #29545, Hu et al. GCN #29546, Strausbaugh et al. GCN
+#29547, Mong et al. GCN #29548, Perley et al. GCN #29549, Mong et al.
+GCN #29550, Zhu et al. GCN #29551, Fernandez et al. GCN #29552,
+Lipunov et al. GCN #29554, Jelinek et al. GCN #29557, Zheng et al. GCN
+#29558, Siegel et al. GCN #29559, Page et al. GCN #29560, Ukwatta et
+al. GCN #29561, Gokuldass et al. GCN #29562, Belkin et al. GCN #29563)
+ with the optical three color (g', Rc, and Ic) CCD cameras attached to
+the MITSuME 50 cm telescope of Akeno Observatory, Yamanashi, Japan.
+The observation with a series of 60 sec exposures started at
+2021-02-23 11:00:13 UT(12.4hours after the Swift BAT trigger). We
+stacked the images with good conditions. We did not detect the optical
+afterglow reported previously (Gropp et al. GCN #29545, Hu et al. GCN
+#29546, Strausbaugh et al. GCN #29547, Mong et al. GCN #29548, Perley
+et al. GCN #29549, Mong et al. GCN #29550, Zhu et al. GCN #29551,
+Fernandez et al. GCN #29552, Lipunov et al. GCN #29554, Jelinek et al.
+GCN #29557, Siegel et al. GCN #29559, Gokuldass et al. GCN #29562,
+Belkin et al. GCN #29563) in all three bands.
+We obtained the 5-sigma limits of the stacked images as follows.
+
+T0+[hour] MID-UT T-EXP[sec] 5-sigma limits
+------------------------------------------------------------------------------------------------
+12.4 15:18:25 14100 g'>19.6, Rc>19.9, Ic>19.2
+------------------------------------------------------------------------------------------------
+T0+ : Elapsed time after the burst
+T-EXP: Total Exposure time
+We used the PS1 catalog for flux calibration.
+The magnitudes are expressed in the AB system.
+The images were processed in real-time through the MITSuME GPU
+reduction pipeline (Niwano et al. 2021, PASJ, Vol.73, Issue 1, Pages
+4-24; https://github.com/MNiwano/Eclaire).
+

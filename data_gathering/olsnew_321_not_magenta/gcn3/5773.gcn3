@@ -1,0 +1,71 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5773
+SUBJECT: GRB 060801: Swift/XRT Astrometry Correction
+DATE:    06/10/30 16:30:13 GMT
+FROM:    Judith Racusin at PSU  <racusin@astro.psu.edu>
+
+J. L. Racusin, D. N. Burrows (PSU), and N. Gehrels (NASA/GSFC) report on 
+behalf of the Swift XRT team:
+
+We have re-analyzed the full XRT data set of the short hard GRB 060801. 
+XRT observed the field of GRB 060801 for a total of 75 ks between August 1 
+and August 5, 2006 in Photon Counting mode in order to obtain a more 
+accurate position of the short-lived X-ray afterglow.
+
+In the full data set we find 23 serendipitous X-ray sources detected with 
+the XIMAGE detect algorithm with S/N > 3, 12 of which have near-by optical 
+counterparts in the SDSS.  We match these sources to obtain a best fit 
+mean frame shift, carefully accounting for several instrumental factors 
+described below.
+
+At the time of these observations there was a problem with the bias maps 
+that caused spurious hot pixels to remain in the cleaned event lists after 
+standard processing.  To remove this contamination, we filtered out events 
+with energies < 0.4 keV.  For more information on the bias map issue, see 
+http://www.swift.ac.uk/xrtdigest.shtml.
+
+We also apply an exposure map correction to the images before input into 
+XRTCENTROID to account for any sources landing on or near the bad columns 
+in the XRT CCD. In the first orbit, the GRB did in fact lie on one of 
+these columns.  We use XRTCENTROID to calculate the positions of the GRB 
+and the serendipitous sources.
+
+Additional position error arises from the Swift star tracker solution 
+uncertainty.  This error is small once the spacecraft has completely 
+settled after a slew, but is not achieved until ~100s after the XRT 
+observations begin.  Therefore, we exclude the first 100s of each orbit, 
+reducing the total used exposure used time to 69 ks.
+
+We calculate the statistical position errors using the empirical fits as 
+described in Moretti et al. (2006, A&A, 448, L9), assuming that the 
+astrometric correction removes the 3.5" systematic error normally applied 
+to XRT positions to account for errors in the star tracker attitude 
+solution.
+
+The result of this analysis leads to a mean frame shift from the 
+previously reported position (Racusin et al., GCN 5382), of:
+
+dRA: -3.60"   dDec: -0.90"  +/- 0.64"
+
+and a new XRT refined position of:
+
+RA(J2000):   14h 12m 01.31s
+Dec(J2000): +16d 58' 54.0"
+
+with an estimated uncertainty of 2.1 arcseconds (90% containment).
+
+This position is 4.2 arcseconds from the refined XRT position given in 
+Racusin et al. (GCN 5382), 1.9 arcseconds from the boresight corrected XRT 
+position using the new TELDEF described by Burrows et al. (GCN 5750), and 
+0.5 arcseconds from the frame shifted position given in Butler et al. (GCN 
+5389) based upon only the first 25 ks of data.  Potential host galaxies B 
+& D from Castro-Tirado et al. and Piranomonte et al. (GCNs 5384 & 5386) 
+both lie inside the new XRT refined error circle.  A figure comparing all 
+of these positions is available at: 
+http://www.swift.psu.edu/images/grb060801_astrometry.gif
+
+Galaxy B has a redshift of 1.131 as given by Cucchiara et al. (GCN 5460). 
+We encourage observations of galaxy D to obtain its redshift.
+
+This Circular is an official product of the Swift XRT team.
+

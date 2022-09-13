@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6172
+SUBJECT: GRB 070306: XRT Team Refined Analysis
+DATE:    07/03/06 23:32:49 GMT
+FROM:    Kim Page at U.of Leicester  <kpa@star.le.ac.uk>
+
+K.L. Page (U. Leicester) and S.B. Pandey (UCL-MSSL) report on behalf of 
+the Swift-XRT team:
+
+We have analysed the first three orbits of Swift-XRT data obtained for GRB
+070306 (Pandey et al., GCN Circ. 6169), which includes 156 s of Windowed
+Timing (WT) data and 3.3 ks of Photon Counting (PC) mode data. Using the
+PC data we derive a refined position of RA, Dec = 148.0974, 10.4820, which
+is equivalent to
+
+RA(J2000)  =  09 52 23.39
+Dec(J2000) = +10 28 55.3
+
+with an estimated error radius of 3.6 arcsec (90% confidence). This lies
+67 arcsec and 3.3 arcsec from the onboard BAT and XRT positions given in
+GCN Circ. 6169, respectively.
+
+The XRT light-curve initially decays between ~155 and 165 seconds after
+the trigger, followed by a small increase in count rate until 180 seconds;  
+after this time, the curve shows a steep decay, with alpha_1 = 6.3 +/- 0.2
+until 411 +/- 17 seconds post-trigger, at which point the decay flattens
+to alpha_2 = 0.22 +/- 0.08. All error bars are at the 90% confidence
+level. Note that Swift triggered on a precursor; if T0 for the light-curve
+fits were to be referenced to the main peak of the burst, around 100
+seconds later, this initial decay would not be so steep.
+
+The WT spectrum can be modelled by a power-law of Gamma = 2.29 +/- 0.05,
+with a total absorbing column of 3.9x10^21 cm^-2, compared to the Galactic
+column of 2.94x10^20 cm^-2 in this direction. This value of NH was
+calculated from the later PC data (Gamma = 2.14 +/- 0.17), when the
+spectral evolution apparent during the initial steep decay has ceased. The
+mean observed (unabsorbed) flux over 0.3-10 keV for this WT spectrum is
+1.73e-9 (3.48e-9) erg cm^-2 s^-1.
+
+If the decay continues with a slope of alpha = 0.22, the count rate is
+predicted to be 0.21 count s^-1 at 24 hours. This corresponds to an
+observed flux of 1.0e-11 erg cm^-2 s^-1 (over 0.3-10 keV), with the 
+unabsorbed value being 1.9e-11 erg cm^-2 s^-1, using the spectral fit to 
+the PC data.
+
+This circular is an official product of the XRT team.
+

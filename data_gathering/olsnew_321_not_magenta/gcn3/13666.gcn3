@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  13666
+SUBJECT: GRB 120815A: Swift/UVOT Detection of the Optical Afterglow
+DATE:    12/08/17 12:25:18 GMT
+FROM:    Stephen Holland at STScI  <sholland@stsci.edu>
+
+S. T. Holland (STScI) and
+C. Pagani (U Leicester)
+report on behalf of the Swift/UVOT team:
+
+     The Swift/UVOT observed the field of GRB 120815A starting 2672 s
+after the BAT trigger (Pagani et al., 2012, GCNC 13645).  Settled
+observations started at 2690 s.  We detect an uncatalogued source
+inside the UVOT-enhanced XRT error circle (Goad et al., 2012, GCNC
+13650) with preliminary coordinates
+
+   RA (J2000.0)  18:15:49.88  =  273.95783 (deg)
+  Dec (J2000.0) -52:07:52.1   =  -52.13114 (deg)
+
+and an estimated uncertainty of 0.6 arcsec (radius, 90% confidence,
+statistical + systematic).  The UVOT detection is consistent with the
+optical afterglow reported by Sudilovsky et al. (2012, GCNC 13648)
+Source magnitudes and 3-sigma upper limits at this location are given
+below.  The afterglow is 4.27 arcsec northeast of the USNO-B1.0 source
+0378-0977505, so the following photometry should be considered
+preliminary.
+
+Filter       TSTART   TSTOP   Exp Time       Mag  Err  Sigma
+------------------------------------------------------------
+    v         2847     3046        100     19.34 0.29    3.9
+    b         3667     4120        226     20.11 0.24    4.7
+    u         3462     3661        100    >20.5
+ uvw1         3257     3457        100    >20.2
+ uvm2         3052     3252        100    >19.9
+ uvw2         4330     4530        100    >20.3
+white         2690     2840         75     19.94 0.19    5.8
+------------------------------------------------------------
+
+    The quoted magnitudes and upper limits have not been corrected for
+the Galactic extinction along the line of sight to this burst of
+E_{B-V} = 0.10 mag (Schlafly et al. 2011, ApJS, 737, 103).
+
+

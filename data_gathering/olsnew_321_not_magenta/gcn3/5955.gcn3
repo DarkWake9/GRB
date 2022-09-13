@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5955
+SUBJECT: GRB 061222A: Prompt ROTSE-III Optical Limits
+DATE:    06/12/22 04:01:17 GMT
+FROM:    Eli Rykoff at U of Michigan/ROTSE  <erykoff@umich.edu>
+
+E.S. Rykoff (U Mich), F. Yuan (U Mich), B. E. Schaefer (Louisiana 
+State), report on behalf of the ROTSE collaboration:
+
+ROTSE-IIIb, located at McDonald Observatory, Texas, responded to GRB 
+061222A (Swift trigger 252588, GCN 5954, Gruppe, et al), producing 
+images beginning 7.3 s after the GCN notice time. An automated response 
+took the first image at 03:29:39.3 UT, 47.1 s after the burst, under 
+excellent conditions. We took 10 5-sec, 10 20-sec and 10+ 60-sec 
+exposures. These unfiltered images are calibrated relative to USNO A2.0 
+(R). We note that several of our images, with limiting magnitudes ~17.0, 
+overlap the main peak in the BAT emission.  Imaging is ongoing.
+
+Comparison to the DSS (second epoch) reveals no new sources within the 
+3-sigma BAT error circle or the XRT error circle, for both single images 
+and coadding into sets of 10; however, we are limited as the field is 
+somewhat crowded. Individual images have limiting magnitudes ranging 
+from 16.5-18.0; we set the following specific limits.
+
+start UT       end UT      t_exp(s)   mlim   t_start-tGRB(s)  Coadd?
+--------------------------------------------------------------------
+03:29:39.4   03:29:44.4         5     16.5           47.2       N
+03:30:14.4   03:30:19.4         5     17.0           82.2       N
+03:30:21.4   03:30:26.4         5     17.0           89.2       N
+03:29:39.4   03:30:47.4        68     18.1           47.2       Y
+03:30:55.4   03:35:50.8       295     18.5          123.2       Y
+

@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27107
+SUBJECT: GRB 200216A: Swift/BAT detection and arcminute localization from GUANO
+DATE:    20/02/16 21:19:11 GMT
+FROM:    Jamie A. Kennea at PSU/Swift-XRT  <kennea@swift.psu.edu>
+
+James DeLaunay (PSU), Aaron Tohuvavohu (U Toronto), and Jamie Kennea (PSU) report:
+
+Swift/BAT did not trigger on GRB 200216A.
+
+The Fermi/GBM Flight-Position notice, distributed at T0+24 seconds, from 
+the Fermi/GBM detected GRB 200216A (GCN. 27096) triggered the Swift 
+Mission Operations Center operated Gamma-ray Urgent Archiver for Novel 
+Opportunities (GUANO; Tohuvavohu et al. 2020, in prep).
+
+The GUANO is a fully autonomous, extremely low latency, spacecraft 
+commanding pipeline designed for targeted recovery of BAT event mode data 
+around the times of compelling astrophysical events to enable more 
+sensitive GRB searches.
+
+Upon trigger by the Fermi notice, GUANO sent a command to the Swift Burst 
+Alert Telescope (BAT) to save 200 seconds of BAT event-mode data from 
+[-50,+150] seconds around the time of GRB 200216A.
+
+All the requested event mode data was delivered to the ground.
+
+In a ground analysis of the data, using the normal BAT imaging technique, 
+we detect GRB 200216A with a SNR of 7.5.
+
+With a more sophisticated maximum likelihood analysis (DeLaunay et al., 
+2020 in prep.) on the event-mode data we detect GRB 200216A more 
+confidently, with a square root of the test statistic (sqrt(TS)) of 15.4. 
+The sqrt(TS) behaves similarly to SNR.
+
+The BAT ground-calculated position is
+RA, Dec = 311.4378, -11.6580 deg which is
+   RA(J2000)  = 311d 26' 16.08"
+   Dec(J2000) = -11d 39' 28.8"
+with an uncertainty of 3 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 40%.
+
+This arcminute location is consistent with the localization region 
+distributed by the Fermi/GBM team (GCN. 27096).
+
+No XRT or UVOT follow-up will take place due to the source's proximity to 
+the sun (1.2 hours). We encourage follow-up from instruments capable of 
+observing near the sun.
+

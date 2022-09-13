@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31635
+SUBJECT: ZTF22aabjpxh/AT2022cva: NICER X-ray detection is consistent with a GRB afterglow
+DATE:    22/02/22 17:27:01 GMT
+FROM:    Dheeraj R. Pasham at Mass. Inst. of Technology  <dheeraj@space.mit.edu>
+
+Dheeraj Pasham (MIT), Keith Gendreau (NASA/GSFC), Elizabeth Ferrara
+(NASA/GSFC),  Anna Ho (UC Berkeley)
+
+NICER observed the rapidly fading transient AT2022cva (Ho et al. GCN 31619)
+for 2.4 ks starting at 2022-02-21T22:56:03. X-rays are clearly detected
+above the background in the 0.3-5.0 keV band with a mean
+background-subtracted count rate of 0.92+-0.02 counts/seconds. We fit the
+0.3-5 keV X-ray spectrum with a redshifted powerlaw modified by neutral
+absorption in Milkway and host galaxy  (tbabs*ztbabs*zpow in XSPEC). Using
+a Galactic nH value for tbabs (0.023e22 cm^2; HI4PI Collaboration, Bekhti
+et al. 2016) and a redshift of 0.293 (Fremling et al., GCN 31619) gives a
+good fit with a c-stat/degrees of freedom of 57/57. The best-fit power law
+index and host column density values are 1.36(+0.14,-0.12) and <5e20 cm^-2,
+respectively. The 0.3-5 keV observed flux is (2.24+-0.07)e-12 erg/s/cm^2.
+This corresponds to an observed luminosity of 5.04(+0.03,-0.33)e44 erg/s at
+a redshift of 0.293, which is typical for a GRB afterglow at a similar
+phase.
+
+NICER can carry out prompt follow-up observations of transients and is
+planning to systematically follow up alerts from LIGO/Virgo and other X-ray
+bright extra-galactic transients in the future.
+
+NICER is a 0.2-12 keV X-ray telescope operating on the International Space
+Station. The NICER mission and portions of the NICER science team
+activities are funded by NASA.

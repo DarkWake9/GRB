@@ -1,0 +1,26 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  14240
+SUBJECT: GRB 130216A: Further Swift-BAT refined analysis
+DATE:    13/02/18 14:57:39 GMT
+FROM:    Takanori Sakamoto at AGU  <tsakamoto@phys.aoyama.ac.jp>
+
+T. Sakamoto (AGU) and S. D. Barthelmy (GSFC) reports on behalf of the Swift-BAT team:
+
+Due to a issue in our automatic pipeline analysis script of the BAT data, we only reported 
+the result based on a simple power-law fit at the spectral analysis section of the BAT refined 
+circular (GCN Circ. 14229).  However, this GRB had an enough signal-to-noise ratio in 
+the spectrum to obtain Epeak by the BAT data alone.  Therefore, we would like to update the 
+spectral analysis part of the circular to:
+
+"The time-averaged spectrum from T-6.16 to T+4.31 sec is best fit by a power law
+with an exponential cutoff.  This fit gives a photon index 0.80 +- 0.20, 
+and Epeak of 123.7 +- 27.1 keV (chi squared 47.17 for 56 d.o.f.).  For this
+model the total fluence in the 15-150 keV band is 3.0 +- 0.1 x 10^-06 erg/cm2
+and the 1-sec peak flux measured from T+1.11 sec in the 15-150 keV band is
+6.5 +- 0.3 ph/cm2/sec.  A fit to a simple power law gives a photon index
+of 1.35 +- 0.04 (chi squared 72.98 for 57 d.o.f.).  All the quoted errors
+are at the 90% confidence level. "
+
+We want to thank Alex Kann for pointing this out.  
+
+

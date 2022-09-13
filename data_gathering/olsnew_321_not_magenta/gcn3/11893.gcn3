@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11893
+SUBJECT: Konus-Wind observation of GRB 110406A
+DATE:    11/04/07 13:16:00 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, E. Mazets, V. Pal'shin,
+P. Oleynik, M. Ulanov, D. Svinkin, and T. Cline on behalf
+of the Konus-Wind team, report:
+
+The exceptionally bright GRB 110106A, (Savchenko et al., GCN 11890)
+triggered Konus-Wind at T0=13446.671s UT (03:44:06.671)
+
+The burst light curve consists of a single FRED-like pulse,
+the total duration of the burst is ~8 s.
+The emission is seen up to ~10 MeV.
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB110406_T13446/
+
+The non-zero spectral lag between the Konus-Wind light curves
+is evident, the following values are obtained:
+-------------------------------------------------------------
+LC1(keV)     LC2(keV)   Search interval(s) Scale   Lag(ms)
+-------------------------------------------------------------
+G2(70-300)   G1(18-70)   -0.048:+2.016     16 ms  +58 ± 6
+G3(300-1160) G1(18-70)   -0.016:+1.968     16 ms  +127 ± 6
+G3(300-1160) G2(70-300)  -0.048:+2.016     16 ms  +64 ± 5
+-------------------------------------------------------------
+
+As observed by Konus-Wind the burst
+had a fluence of (4.8 ± 0.5)x10-5 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.160s,
+of (1.5 ± 0.1)x10-4 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+9.216 s) can be fitted
+in the 20 keV - 10 MeV range by the GRB (Band)
+model, for which:
+the low-energy photon index alpha = -1.24 (-0.07, +0.08),
+the high energy photon index beta = -2.30 (-0.25, +0.15),
+the peak energy Ep = 326(-42, +49) keV,
+chi2 = 117/89 dof.
+
+The spectrum at the maximum count rate
+(measured from T0+0.064 to T0+0.256 s) is best fit
+in the 20 keV - 10 MeV range by the GRB (Band)
+model, for which:
+the low-energy photon index alpha = -0.61 (-0.13, +0.15),
+the high energy photon index beta = -2.05 (-0.12, +0.10),
+the peak energy Ep = 417(-64, +77) keV,
+chi2 = 56.5/56 dof.
+
+All the quoted results are preliminary.
+The lag errors are given on 1 sigma level.
+All other quoted errors are at the 90% confidence level.
+

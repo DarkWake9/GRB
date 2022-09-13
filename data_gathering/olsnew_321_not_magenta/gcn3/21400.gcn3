@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21400
+SUBJECT: Swift J181723.1-164300: Swift detection of another pulse of the new Galactic source
+DATE:    17/08/01 03:58:36 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+D. M. Palmer (LANL), S. D. Barthelmy (GSFC),
+J. R. Cummings (CPI), H. A. Krimm (NSF/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+T. Sakamoto (AGU), M. Stamatikos (OSU),
+T. N. Ukwatta (LANL) (i.e. the Swift-BAT team):
+
+At 21:32:04.55 UT on 2017-07-30, the Swift Burst Alert Telescope (BAT)
+detected another pulse from the new Galactic source Swift J181723.1-164300
+(trigger= 765422). The first trigger on this source occurred on 2017-07-28
+(Barthelmy et al., GCN Circ. 21369 and 21385). Due to the higher trigger
+threshold set after the first trigger, this detection did not result in a regular
+BAT trigger.
+
+Subsequent ground analysis using the data set from T-2 to T+8 sec from
+the recent telemetry downlink finds the source at a location of
+RA, Dec = 274.320, -16.700 deg which is
+   RA(J2000)  =  18h 17m 16.9s
+   Dec(J2000) = -16d -41' -60.0"
+with an uncertainty of 2.1 arcmin, (radius, sys+stat, 90% containment).
+This location is consistent with the one found by the previous trigger.
+The partial coding was 92%.
+
+The mask-weighted light curve shows a weak pulse that starts at ~T0 and lasts
+beyond the end of event data.
+
+The spectral fit of the time-averaged spectrum from T+0.0 to T+8.0 sec
+using a simple power-law model gives a power law index of 4.24 +- 0.60.
+The fluence in the 15-150 keV band is 1.1 +- 0.2 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+5.10 sec in the 15-150 keV band
+is 0.6 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/765422/BA/

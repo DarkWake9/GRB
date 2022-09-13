@@ -1,0 +1,114 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26855
+SUBJECT: LIGO/Virgo S200115j: Further Swift-XRT sources
+DATE:    20/01/22 16:27:48 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester),  K.L. Page (U.Leicester), J.A. Kennea (PSU),
+A. Tohuvavohu (U. Toronto), S.D. Barthelmy (NASA/GSFC), A.P. Beardmore
+(U. Leicester), M.G. Bernardini (INAF-OAB), A.A. Breeveld (UCL-MSSL),
+P. Brown (TAMU), D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko
+(NASA/GSFC), G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P.
+D'Avanzo (INAF-OAB), V. D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P.
+Giommi (ASI), C. Gronwall (PSU), D. Hartmann (U. Clemson), H.A. Krimm
+(CRESST/GSFC/USRA), N.J. Klingler (PSU), N.P.M. Kuin (UCL-MSSL), A.Y.
+Lien (GSFC/UMBC), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+J.A. Nousek (PSU), S.R. Oates (U. Birmingham), P.T. O'Brien (U.
+Leicester), J.P. Osborne (U. Leicester), C. Pagani (U. Leicester),
+M.J.Page (UCL-MSSL), D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin
+(NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G.
+Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP) report on behalf of
+the Swift team:
+
+Swift has continued to observe the LIGO/Virgo event S200115j (GCN Circ.
+26759). The XRT data cover 36.1 deg^2 covering 16% of the probability in
+the 'bayestar' (version 2) skymap (after convolution with 2MPZ
+galaxies), but only 10% of the probability from the 'LALInference'
+skymap (also after convolution with 2MPZ), due to the shift of
+probability towards the southern lobe in the latter map; this lobe is
+too close to the Sun to allow Swift observations. Observations were
+carried out in two phases; initial observations of 80 s per field, then 
+a second pass with 500 s per field. These pointings and associated
+metadata have been reported to the Treasure Map (Wyatt et al., arXiv
+2001.00588; http://treasuremap.space/alerts?graceids=S200115j).
+
+In total we have detected 146 X-ray sources, which can be viewed at
+https://www.swift.ac.uk/LVC/83/. 84 of these are uncatalogued in X-rays
+but with fluxes consistent with historical upper limits. 53 are known
+X-ray sources whose fluxes are consistent with historical values. 9
+further sources were identified as being of potential interest (rank 2;
+see https://www.swift.ac.uk/ranks.php). The table below gives the basic
+details of the sources; further comments are below.
+
+| Source ID      | RA             | Dec            | Err90   | Note |
+| S200115j_X130  | 02h 59m 36.73s | +07d 24' 13.9" |    5.2" | 4    |
+| S200115j_X136  | 02h 40m 12.18s | -02d 33' 45.6" |    5.2" | 1    |
+| S200115j_X487  | 02h 41m 59.74s | -03d 05' 23.0" |    4.8" | 5    |
+| S200115j_X488  | 02h 40m 53.34s | -03d 25' 12.0" |    6.2" | 4    |
+| S200115j_X707  | 02h 55m 31.95s | +12d 45' 26.6" |    4.5" | 2    |
+| S200115j_X717  | 02h 23m 42.05s | -04d 35' 36.2" |    4.5" | 4    |
+| S200115j_X745  | 02h 24m 04.01s | -04d 33' 05.6" |    5.1" | 5    |
+| S200115j_X746  | 03h 00m 13.78s | +03d 49' 53.8" |    5.1" | 3    |
+| S200115j_X748  | 02h 25m 37.24s | -05d 01' 07.2" |    5.9" | 4    |
+
+Note 1) Of these, sources S200115j_X136, S200115j_X707 and S200115j_X746 
+are those we deem most worthy of further investigation.
+
+S200115j_X136 is a known X-ray source, observed several times in the 
+past by Swift (see
+https://www.swift.ac.uk/2SXPS/2SXPS%20J024012.0-023340). In our GW
+follow up observations it is a factor of ~10 brighter than in our
+historical dataset, but with no signs of variability between our two
+epochs of GW follow up (data collected at ~100 ks and 300ks after the GW
+trigger). As reported by Oates et al (GCN Circ. 26808) the UVOT data
+also show an increase in flux compared to historical data. This source
+is 1.5" from the 2MASS galaxy 2MASX J02401221-0233438, which SIMBAD
+reports as having z=0.04; making its distant consistent with the
+GW-predicted distance along this line of sight at the ~1.1-sigma level.
+If the X-ray source is in this galaxy its observed 0.3-10 keV luminosity
+is ~3 x 10^43 erg cm^-2 s^-1. A Vizier search reveals no AGN catalogues
+containing this source.
+
+
+Note 2) S200115j_X707 is uncatalogued in X-rays and in our initial 
+detection is ~3.5 sigma above the historical 3-sigma upper limit from 
+the RASS. It also faded strongly between observations taken at 160 ks 
+after the GW trigger and at 390 ks after the trigger. A Vizier search 
+reveals no AGN catalogues containing this source. This source was only 
+flagged as "reasonable" by our source detection system, which means the 
+probability that it is a spurious detection is ~7%.
+
+Note 3) S200115j_X746 is also uncatalogued and in the first observation 
+(7.3 ks after the GW trigger) was 4.7 sigma above the historical 3-sigma 
+upper limit from the RASS. A further observation at 510 ks after the GW 
+trigger showed the source to have faded by a factor of ~15. A Vizier 
+search reveals no AGN catalogues containing this source.
+
+Note 4) Sources S200115j_X130, S200115j_X717 and S200115j_X748 are all 
+known X-ray sources whose flux in our GW follow-up observations is 
+increased compared to historical data; the latter two have previously 
+been observed with Swift and have elevated fluxes compared to those 
+previous datasets. However, all of these sources have been identified 
+with AGN, and are thus likely to indicate AGN activity although a 
+transient within the AGN cannot immediately be ruled out. S200115j_X488 
+is similar except that it is not a known X-ray emitter. Its current flux 
+is 3.5-sigma above catalogued values; and it shows strong evidence of 
+fading, however it corresponds to a source identified as an AGN in the 
+WISE AGN candidates catalogs (Assef et al., 2018) and therefore may 
+simply be a variable AGN.
+
+Further observations of all of these sources are planned.
+
+Note 5) Sources S200115j_X487 and S200115j_X745 are, upon manual 
+investigation, considered unlikely to be counterparts since their 
+classification as such depends upon a single, short-exposure data point. 
+For S200115j_X487 this datapoint is during a time of very high 
+background and is unreliable. S200115j_X745 is coincident with Mkn 1036, 
+and only one datapoint from our recent observations is above the 
+historical XMM flux.
+
+This circular is an official product of the Swift-XRT team.
+
+
+
+

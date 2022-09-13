@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21475
+SUBJECT: LIGO/Virgo G297595: IceCube neutrino observations
+DATE:    17/08/14 12:29:53 GMT
+FROM:    Stefan Countryman at LIGO Scientific Collaboration  <stefan.countryman@ligo.org>
+
+I. Bartos, S. Countryman (Columbia), C. Finley (U Stockholm), E. Blaufuss (U Maryland), R. Corley, Z. Marka, S. Marka (Columbia) on behalf of the IceCube Collaboration
+
+In an analysis completed at 2017-08-14 11:31:35 UTC, we searched IceCube online track-like neutrino candidates (GFU) detected in a [-500,500] second interval about the LIGO-Virgo trigger G297595. We compared the candidate source directions of 12 temporally-coincident neutrinos to the BAYESTAR skymap, with the following parameters:
+
+#            dt[s]     RA[deg]    Dec[deg]      E[TeV]  Sigma[deg]
+------------------------------------------------------------------
+1.         -442.72       117.9        30.6        0.95         1.2
+2.         -362.65         6.8        49.6        1.20         0.9
+3.         -358.50       240.1       -16.8       22.79         0.3
+4.         -181.80       187.1       -66.2       35.08         0.3
+5.         -143.66       215.1         6.2        1.56         1.4
+6.          -42.69       264.3       -44.4       51.30         0.3
+7.           99.62        85.0       -36.3       56.41         0.2
+8.          174.83       280.2        22.6        1.05         0.9
+9.          178.76       330.5        17.1        0.77         1.5
+10.         202.04       291.7        36.2        0.78         0.8
+11.         279.60       119.7       -15.8       18.31         0.7
+12.         329.09       188.6        -5.4        1.30         1.0
+
+
+(dt--time from GW in [seconds]; RA/Dec--sky location in [degrees]; E--reconstructed secondary muon energy in [TeV]; Sigma--uncertainty of direction reconstruction in [degrees])
+
+The analysis found NO COINCIDENT ONLINE TRACK-LIKE NEUTRINO CANDIDATES detected by IceCube within the 500 second window surrounding G297595 within the BAYESTAR skymap.
+
+A coincident neutrino-GW skymap has been posted to GraceDB (<https://gracedb.ligo.org/apiweb/events/G297595/files/coinc_skymap_initial_icecube.png,0>). A JSON-formatted list of the above neutrinos can be downloaded from GraceDB at: <https://gracedb.ligo.org/apiweb/events/G297595/files/IceCubeNeutrinoList.json,0>
+
+In addition, we are performing coincident searches with other IceCube data streams, including the high-energy starting events (HESE) and Supernova triggers.  HESE events have typical energies > 60 TeV and start inside the detector volume, leading to a relatively pure event sample with a high fraction of astrophysical neutrinos.  The SN trigger system is sensitive to sudden increases in photomultiplier counts across the detector, which could indicate a burst of MeV neutrinos.  We will submit separate GCN circulars if coincident HESE or SN triggers are found.
+
+The IceCube Neutrino Observatory is a cubic-kilometer neutrino detector operating at the geographic South Pole, Antarctica.  For a description of the IceCube realtime alert system, please refer to <http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1610.01814>; for more information on joint neutrino and gravitational wave searches, please refer to <http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1602.05411>.
+

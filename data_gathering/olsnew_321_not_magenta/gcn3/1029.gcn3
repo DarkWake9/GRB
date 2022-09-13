@@ -1,0 +1,56 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  1029
+SUBJECT: GRB 980326: Late-time HST/STIS observations
+DATE:    01/03/28 19:53:03 GMT
+FROM:    Andrew S. Fruchter at STScI  <fruchter@stsci.edu>
+
+Andrew Fruchter (STScI), Paul Vreeswijk (University of Amsterdam) and
+Peter Nugent (LBNL) report on behalf of a larger HST GRB collaboration:
+
+We observed the field of GRB 980326 with HST/STIS on 31 December 2000,
+just over 1000 days after the burst. The total exposure time was 7080
+seconds in the 50CCD aperture. The images were reduced by the standard
+HST pipeline, and drizzled to a combined image with a pixelscale of
+0."0254.
+
+We projected the location of the early afterglow from a KeckII/LRIS R
+band image, taken by Filippenko, Leonard and Riess on March 27, 1998
+(see GCN 33).  We estimate the 1-sigma error radius to be less than 1.5
+drizzled HST pixels, which includes both the scatter in the
+transformation (0.9 pixels, using 6 reference stars) and the
+measurement error of the transient in the Keck image (0.8 pixels).
+
+Within one pixel of the estimated position, there was evidence of a
+small source.  We therefore convolved the image with a gaussian with a
+FWHM equal to that of the PSF (3.5 drizzled pixels).  This procedure
+uses the PSF as a matched filter to enhance the the signal-to-noise
+ratio of unresolved sources.  In the convolved image an object is
+found, again offset by one pixel from the expected position with a
+significance of ~4.5 sigma.  We estimate a magnitude (in the broad STIS
+50ccd filter) of V = 29.25 +/- 0.25.
+
+Bloom et al., (1999, Nature, 401, 453) have suggested that the unusual
+light curve of this GRB might be explained by an underlying supernova,
+and on the basis of this estimated a redshift of about z~1.   A
+supernova at this redshift (which in this model peaks around a
+magnitude of 25) would be expected to be significantly fainter than
+V=29 by now (as would the rapidly decaying GRB afterglow).  Therefore,
+we may be detecting a faint host galaxy.  Deep HST images have in all
+other cases detected a host underlying the GRB, when good astrometry
+was available for the GRB.  If we are observing a host galaxy, then the
+above magnitude could underestimate its brightness by as much as a few
+tenths of a magnitude, due to extended emission missed in this
+measurement.  A galaxy at a z~1 with this observed magnitude would lie
+a rather remarkable 7 magnitudes below L*, the knee of the of the
+galaxy luminosity function at that redshift.
+
+Given the apparent point-source nature of the detected object, and the
+lack of color information, we cannot exclude the possibility (which we
+consider remote) that we are observing a light echo, from either the
+GRB or the supernova.
+
+Images of the field can be found at
+
+http://www.stsci.edu/~fruchter/GRB/980326
+
+

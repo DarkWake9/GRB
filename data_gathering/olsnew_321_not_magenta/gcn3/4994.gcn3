@@ -1,0 +1,41 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4994
+SUBJECT: GRB060421: Swift/UVOT observations
+DATE:    06/04/21 17:04:13 GMT
+FROM:    Peter Brown at PSU  <pbrown@astro.psu.edu>
+
+P. J. Brown (PSU), M. R. Goad (U Leicester),
+S. T. Holland (GSFC/USRA), & P. O'Brien (U Leicester)
+report on behalf of the Swift/UVOT team:
+
+The Swift/UVOT began taking settled exposures of the
+field of GRB0604213 at 2006-04-21 00:40:48,
+84 s after the BAT trigger (Goad et al., GCN 4985).
+Within the revised XRT error circle (Goad, Page,
+& Burrows GCN 4992) we detect a V=19.0 +/- 0.2 source at
+22:54:32.18, +62:43:49.5 (+/- 1") which is coincident
+with 2MASS 22543217+6243493 and also visible in the
+DSS.  This source does not vary over ~5 hours of
+observations and is not considered an afterglow
+candidate.
+
+We do not detect this or any other sources in
+summed images from any of the other filters down
+to the following three-sigma upper limits.
+
+Filter  T_range(s)  Exp(s) 3sig_UL
+
+V        84-17355   1700   19.0
+B       562-23873   1116   20.6
+U       538-23145   2035   20.5
+UVW1    514-22233   2204   20.2
+UVM2    490-18091   2074   20.4
+UVW2    578-16442   1318   20.2
+
+These upper limits are uncorrected for extinction.
+The Galactic latitude is +2.83 degrees and the
+Schlegel et al. (1998) reddening in this direction
+is E(B-V)=1.28 mag.  As noted in GCN 4985 the
+Cepheus OB3 molecular cloud association in our Galaxy
+is near this line of sight.
+

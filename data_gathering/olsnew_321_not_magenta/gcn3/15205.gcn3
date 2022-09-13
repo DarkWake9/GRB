@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15205
+SUBJECT: GRB 130907A:  Further Swift-BAT refined analysis
+DATE:    13/09/09 19:41:01 GMT
+FROM:    Hans Krimm at NASA-GSFC  <hans.krimm@nasa.gov>
+
+H. A. Krimm (GSFC/USRA), J. R. Cummings (GSFC/UMBC), D. M. Palmer (LANL),
+C. B. Markwardt (GSFC) for the Swift-BAT team):
+
+Using the complete data set from T-239 to T+963 sec, we report further analysis 
+of BAT GRB 130907A (trigger #569992) (Page, et al., GCN Circ. 15183).  The 
+initial report on the BAT data was presented in Cummings, et al., GCN Circ. 15202.
+
+The burst started while Swift was slewing from another target, and the burst 
+location came into the BAT coded field of view at about T-80 seconds. The 
+initial pair of peaks at T-117 that triggered Konus-Wind (Golenetskii, et al., 
+GCN Circ. 15203) and INTEGRAL/SPI-ACS  (Savchenko, et al., GCN Circ. 15204) were 
+seen from outside the coded field in the non-weighted rates.
+
+The mask-weighted light curve is described in Cummings, et al., GCN Circ. 15202. 
+Although there are no discrete peaks later than T+240 seconds, the burst is 
+still detected in the mask-weighted rate out to T+963 sec, when this data cuts 
+off and continues to be detected onboard in a 64-second image starting at 
+T+1388, and possibly later.  Since the BAT event data does not cover the full 
+extent of the burst, we cannot reliably calculate T90 at this point, but it is 
+at least 360 seconds.
+
+The time-averaged spectrum from T-73.7 to T+767.4 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.17 +- 0.02.  The fluence in the 15-150 keV band is 1.4 +- 0.01 x 10^-4 
+erg/cm2. We note that this time interval does not cover the entire burst 
+duration, so should be considered a lower limit.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/569992/BA/
+
+

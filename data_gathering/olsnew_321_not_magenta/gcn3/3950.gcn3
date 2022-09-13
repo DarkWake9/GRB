@@ -1,0 +1,80 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3950
+SUBJECT: GRB 050908: Optical observations
+DATE:    05/09/08 14:59:10 GMT
+FROM:    Arto Oksanen at Nyrola Obs., Finland  <oksanen@nyrola.jklsirius.fi>
+
+D. T. Durig, N. P. McLarty and J. R. Manning (Cordell-Lorenz 
+Observatory) report on behalf of the AAVSO International High Energy 
+Network on optical observations of GRB050908 (GCN #3942; Goad et al.):
+
+The optical afterglow reported by K. Torii (GCN #3943) was detected and 
+its fading behaviour was confirmed with observations starting 14 minutes 
+after the Swift trigger. Full details and URL to the FITS image are below.
+
+The AAVSO thanks the Curry Foundation for support of the AAVSO 
+International High Energy Network.
+
+Report filed on Thu Sep  8 06:22:58 2005:
+
+ Name: Dr. Douglas T. Durig
+ email: ddurig@sewanee.edu
+ Observer: D. T. Durig, N. P. McLarty, J. R. Manning
+ Site: Cordell-Lorenz Observatory
+ Location: Sewanee, Tenn., USA
+ LatitudeLongitude: 35 12 N 85 55 W
+ Elevation: 600 m
+ Scope: SCT 0.30 m
+ ScopeFocalRatio: 1770 mm f/5.9
+ CCDVendor: SBIG ST-8E
+ CCDDetector: KAF 1600
+ CCDSize: 1530x1020, binned 3x3
+ CCDPixelScale: 3.15 arc sec
+ CCDFOV: 26.7 x 17.8 arc min/13.35x8.9 shown
+ Object: GRB050908
+ ObsDate: 2005 09 08
+ ObsMidPointTime: 07:59:09
+ TimePerFrame: 300 sec
+ NumberOfFrames: 48
+ Filters: CR
+ Processing: dark, flat, register, add, 1/2 frame crop
+ Seeing: ~5 arc sec
+ LimitingMag: ~21.5-22 ???
+ Sky: mostly clear, occasional high clouds, no wind
+ afterglowmag: 19th fading to 21st
+ afterglowerr: 0.3 mag
+ compstars: 310 USNO B1.0 stars in field
+
+ Report: I had to use my backup CCD because my primary is in for repair. 
+I started imaging at 05:56:39 ( 2453621.7477 JD ) and did 30 x 300 sec 
+exposures followed by an additional 18. I was analysing the first 10 and 
+had identified the potential candidate on my own. I was checking the 
+fading behaviour when GCN 3943 from Torii announced the same candidate. 
+
+I then used my first 20 frames added in sets of 5 to confirm clear 
+fading 
+behaviour:
+
+8.25483 01 21 50.72 -12 57 17.4 19.3 R 
+8.27272 01 21 50.73 -12 57 17.0 19.8 R 
+8.29063 01 21 50.69 -12 57 17.1 20.4 R  
+8.30853 01 21 50.79 -12 57 17.0 21.0 R 
+
+I then used sets of 10 and 20 to get later data points for the full set 
+of images.
+
+Full data set:
+
+08.25483 01 21 50.72 -12 57 17.4 19.3 R      850
+08.26378 01 21 50.72 -12 57 17.2 19.6 R      850
+08.27272 01 21 50.73 -12 57 17.0 19.8 R      850
+08.28168 01 21 50.71 -12 57 17.2 19.9 R      850
+08.29063 01 21 50.69 -12 57 17.1 20.4 R      850
+08.29958 01 21 50.67 -12 57 17.8 20.7 R      850
+08.33539 01 21 50.73 -12 57 15.8 20.2 R      850
+08.35454 01 21 50.69 -12 57 16.9 21.0 R      850
+08.37369 01 21 50.64 -12 57 18.1 21.4 R      850
+
+A FITS image has been uploaded to: 
+ftp://ftp.aavso.org/grb/Dr.DouglasT.Durig_GRB050908_2453621.93262_.fits 
+

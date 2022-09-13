@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19558
+SUBJECT: GRB 160623A: Swift-XRT afterglow detection
+DATE:    16/06/23 21:03:42 GMT
+FROM:    Alessandro Maselli at INAF/IASF Palermo  <maselli@ifc.inaf.it>
+
+B. Mingo (U. Leicester), A.P. Beardmore (U. Leicester), A. D'Ai
+(INAF-IASFPA), A. Maselli  (INAF-IASFPA), A. Melandri (INAF-OAB), J.A.
+Kennea (PSU), B. Sbarufatti (INAF-OAB/PSU), D.N. Burrows (PSU) and P.A.
+Evans (U. Leicester) report on behalf of the Swift-XRT team:
+
+Swift-XRT has performed follow-up observations of the
+Fermi/LAT-detected burst GRB 160623A (Vianello et al. GCN Circ. 19553),
+collecting 1.9 ks of Photon Counting (PC) mode data between T0+40.3 ks
+and T0+45.4 ks. 
+
+Three uncatalogued X-ray sources are detected, of which one ("Source
+1") is above the RASS limit, and is therefore likely the GRB afterglow.
+ The position of this source is RA, Dec=315.2967, +42.2205 which is
+equivalent to:
+
+RA (J2000): 21:01:11.22
+Dec(J2000): +42:13:13.7
+
+with an uncertainty of 3.5 arcsec (radius, 90% confidence).  This
+position is 2.5 arcmin from the Fermi/LAT position. 
+
+The light curve can be modelled with a power-law decay with a decay
+index of alpha=2.3 (+0.5, -1.4).
+
+A spectrum formed from the PC mode data can be fitted with an absorbed
+power-law with a photon spectral index of 1.79 (+0.21, -0.20). The
+best-fitting absorption column is  1.69 (+0.32, -0.29) x 10^22 cm^-2,
+in excess of the Galactic value of 7.2 x 10^21 cm^-2 (Willingale et al.
+2013). The counts to observed (unabsorbed) 0.3-10 keV flux conversion
+factor deduced from this spectrum  is 6.3 x 10^-11 (1.1 x 10^-10) erg
+cm^-2 count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     1.69 (+0.32, -0.29) x 10^22 cm^-2
+Galactic foreground: 7.2 x 10^21 cm^-2
+Excess significance: 5.5 sigma
+Photon index:	     1.79 (+0.21, -0.20)
+
+If the light curve continues to decay with a power-law decay index of
+2.3, the count rate at T+24 hours will be 0.12 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 7.6 x
+10^-12 (1.4 x 10^-11) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis of the likely afterglow
+are at http://www.swift.ac.uk/ToO_GRBs/00020666/index_1.php.
+The results of the full analysis of the XRT observations are available
+at http://www.swift.ac.uk/ToO_GRBs/00020666.
+
+This circular is an official product of the Swift-XRT team.
+

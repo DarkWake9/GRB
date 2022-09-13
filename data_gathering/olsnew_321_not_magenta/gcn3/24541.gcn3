@@ -1,0 +1,65 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24541
+SUBJECT: LIGO/Virgo S190510g: Swift-XRT observations and results
+DATE:    19/05/14 14:56:23 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), A. Tohuvavohu (PSU), S.D.
+Barthelmy (NASA/GSFC), A.P. Beardmore (U. Leicester), A.A. Breeveld
+(UCL-MSSL), D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko
+(NASA/GSFC), G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P.
+D'Avanzo (INAF-OAB), V.D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P. Giommi
+(ASI), C. Gronwall (PSU), D. Hartmann (U. Clemson), H.A. Krimm
+(CRESST/GSFC/USRA), N.P.M. Kuin (UCL-MSSL), A.Y. Lien (GSFC/UMBC), F.E.
+Marshall (NASA/GSFC), A. Melandri (INAF-OAB), J.A. Nousek (PSU), S.R.
+Oates (U. Warwick), P.T. O'Brien (U. Leicester), J.P. Osborne (U.
+Leicester), C. Pagani (U. Leicester), K.L. Page (U.Leicester), D.M.
+Palmer (LANL), M. Perri (ASDC), J.L. Racusin (NASA/GSFC), B. Sbarufatti
+(INAF-OAB/PSU), M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB), E. Troja
+(NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+Swift has performed a series of 977 observations, covering 977 separate
+locations within the LVC error region for the GW trigger S190510g
+convolved with the 2MPZ catalogue (Bilicki et al. 2014, ApJS, 210, 9),
+using 226 fields from the 'bayestar' GW localisation map and 751 fields
+from the 'LALInference' GW localisation map. As these are 3D skymaps,
+galaxy distances were taken into account in selecting which ones to
+observe. The observations currently span from 7.2 ks to 270 ks after
+the LVC trigger, and cover 76.9 sq degrees on the sky (corrected for
+overlaps). This covers 58% of the probability in the 'LALInference'
+skymap, and 67% after convolving with the 2MPZ galaxy catalogue, as
+described by Evans et al., (2016, MNRAS,  462, 1591). Using the earlier
+'bayestar' skymap our observations cover 10% of the probability (14%
+when convolved).
+
+We have detected 33 X-ray sources. Each source is assigned a rank of
+1-4 which describes how likely it is to be related to the GW trigger,
+with 1 being the most likely and 4 being the least likely. The ranks
+are described at http://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+   * 0 sources of rank 1
+   * 0 sources of rank 2
+   * 5 sources of rank 3
+   * 28 sources of rank 4
+
+Details of these sources can be viewed online via 
+http://www.swift.ac.uk/LVC/
+
+For all GW triggers from O3 onwards, XRT results will appear on this 
+page, once human verification has taken place to remove spurious sources.
+
+Additionally, our search serendipitously covered the locations of some 
+of the other reported candidates. In particular the location of 
+DG19fqqk/desgw-190510c (GCNs 24467, 24480) was covered 4 times. No XRT 
+source was found with a 3-sigma upper limit of 6.1 x 10^-2 ct/sec, 
+corresponding to a 0.3-10 keV flux of 2.6 x 10^-12 erg cm^-2 s^-1. The 
+location of DG19llhk (GCNs 24467) was covered 3 times with no detection 
+found, down to a  3-sigma upper limit of 6.4 x 10^-2 ct/sec, 
+corresponding to 2.8e-12 erg cm^-2 s^-1. Both flux conversions assume a 
+power-law spectrum with photon index=1.7 and absorption column NH=3 x 
+10^20 cm^-2.
+
+This circular is an official product of the Swift-XRT team.
+

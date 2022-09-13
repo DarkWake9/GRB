@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  29029
+SUBJECT: GRB 200826A: GMOS-N detected source magnitude (Correction)
+DATE:    20/12/11 23:06:21 GMT
+FROM:    Tomas Ahumada at U. of Maryland  <tahumada@astro.umd.edu>
+
+Tomas Ahumada (UMD), Harsh Kumar (IITB), Christoffer Fremling (Caltech),
+Leo Singer (NASA GSFC) report on behalf of the ZTF and GROWTH
+collaborations:
+
+Reanalysing the data used in Ahumada et al. GCN 28727, we provide a revised
+magnitude of the source detected in the Gemini Multi-Object Spectrograph
+(GMOS-N) i-band image of ZTF20abwysqy/AT2020scz (Ahumada et al. GCN 28295).
+
+We imaged the region of GRB 200826A (GCN 28284) with GMOS-N, mounted on the
+Gemini-North 8-meter telescope on Mauna Kea, on three nights: 2020-09-23
+(2459115.9675 mjd), 2020-10-10 (2459133.8039 mjd) and 2020-11-08
+(2459167.9342 mjd). Each epoch consisted of 14 r- and i- band 200s
+exposures. We reduced and co-added the images from each epoch using
+DRAGONS, a Python-based data reduction platform provided by the Gemini
+Observatory. We subtracted the coadded images using HOTPANTS and PyZOGY
+independently. We now present the revised magnitudes using a zero-point
+calculated using 23 stars in the field from the SDSS catalog. We apologize
+for any possible confusion caused by the erroneously reported photometry in
+GCN 28727.
+
+In the 2020-09-23 images, a source is detected at the position of the
+afterglow with i = 25.49 +- 0.15 mag, but not in r-band up to r > 25.6 AB
+mag. In the 2020-10-10 images, we do not detect a transient in either
+filter up to a 5-sigma limit of i > 25.4 mag and r > 25.5 mag.
+
+At the host galaxy's redshift of z = 0.7481 (GCN 28319) and assuming Planck
+2015 cosmological parameters, the absolute magnitude of the GMOS-N
+detection is M_i = -17.9 AB mag.
+
+We thank the Gemini Observatory Director for awarding this observing time
+and the Gemini staff for help with planning and executing the observations.
+
+-- 
+Tomas Ahumada (he/him)
+Ph.D. Student
+Department of Astronomy
+University of Maryland, College Park
+NASA <tomas.f.ahumdamena@nasa.gov> Goddard Space Flight Center, Code 661
+B.Sc. Astronomy, Pontificia Universidad Católica de Chile

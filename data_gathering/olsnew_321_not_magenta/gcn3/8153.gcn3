@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  8153
+SUBJECT: Swift trigger 322590: BAT detection of a possible burst
+DATE:    08/08/28 08:50:57 GMT
+FROM:    Wayne Baumgartner at GSFC  <wayne@milkyway.gsfc.nasa.gov>
+
+W. H. Baumgartner (GSFC/UMBC), A. P. Beardmore (U Leicester),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+O. Godet (U Leicester), C. Guidorzi (INAF-OAB),
+S. D. Hunsberger (PSU), V. Mangano (INAF-IASFPA), J. Mao (INAF-OAB),
+C. B. Markwardt (CRESST/GSFC/UMD), P. T. O'Brien (U Leicester),
+J. P. Osborne (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), A. M. Parsons (GSFC), D. Perez (U Leicester),
+B. Preger (ASDC), P. Romano (INAF-IASFPA), M. Stamatikos (NASA/ORAU),
+R. L. C. Starling (U Leicester), G. Tagliaferri (INAF-OAB),
+E. Troja (INAF-IASFPA) and T. N. Ukwatta (GSFC/GWU) report on behalf
+of the Swift Team:
+
+At 08:15:09 UT, the Swift Burst Alert Telescope (BAT) found
+trigger 322590.  Swift slewed immediately to the trigger location. 
+The BAT on-board calculated location is 
+RA, Dec 323.467, +42.001 which is 
+   RA(J2000) = 21h 33m 52s
+   Dec(J2000) = +42d 00' 05"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a marginal excess,
+perhaps single-peaked with a duration of about 1 sec.  The peak count rate
+was ~500 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 08:16:19.1 UT, 69.7 seconds after
+the BAT trigger. No source was detected in 323 s of promptly available XRT
+data. We are waiting for the full dataset to detect and localise the
+XRT counterpart. 
+
+UVOT took a  finding chart exposure of 224
+seconds  with the V filter starting 180  seconds after the BAT
+trigger. There  is a candidate afterglow in the  list of sources
+generated on-board  at  
+  RA(J2000)  =	21:33:45.77 = 323.4407  
+  DEC(J2000) = +42:01:49.4  =  42.0304 with a 1-sigma error radius of
+about 0.7 arc sec, but the DSS shows a star extremely close to this 
+position. The estimated magnitude is 16.7 with a 1-sigma   error of
+about 0.5 mag. No correction has been made for the expected  
+extinction of about 1.7 magnitudes. 
+
+Due to the weaknesss of the BAT detection and the lack of an 
+XRT or of a reliable UVOT detection, we believe that this is not a GRB. 
+However we cannot immediately rule out the possibility that this 
+is a weak short burst.  Further analysis with the Malindi data
+is required to determine the reality of this event. 
+
+Burst Advocate for this burst is W. H. Baumgartner (wayne AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

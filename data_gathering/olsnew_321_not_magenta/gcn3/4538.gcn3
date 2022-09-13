@@ -1,0 +1,50 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4538
+SUBJECT: GRB 060117:  Refined analysis of the Swift-BAT burst
+DATE:    06/01/17 19:16:15 GMT
+FROM:    Hans Krimm at NASA-GSFC  <krimm@milkyway.gsfc.nasa.gov>
+
+J. Cummings (GSFC/NRC),  L. Barbier (GSFC), S. Barthelmy (GSFC)
+E. Fenimore (LANL), N. Gehrels (GSFC), K. Gendreau (GSFC),
+D. Hullinger (GSFC/UMD), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), P. Meszaros (PSU), J. Norris (GSFC),
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/NRC),
+G. Sato (ISAS), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the data set from T-60 to T+120 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 060117 (trigger
+#177666) (Campana, et al., GCN 4533).  The BAT ground-calculated
+position is RA,Dec = 327.917, -59.967 {21h 51m 40s, -59d 58' 1"}
+(J2000) +- 1.0 arcmin, (radius, sys+stat, 90% containment).  This
+position includes a small correction for small  BAT image distortions.
+We note that this error circle formally excludes the position of IRAS
+21482-6015 (GCN 4533, GCN4534).  We also note that fading afterglow
+discovered by the FRAM telescope group (Jelinek et al, GCN 4536) is
+0.8 arc min from the center of the BAT 90% error circle.  The partial
+coding was 25%.
+
+The light curve has multiple peaks, with the main peaks spanning the
+time range T-1 to T+17.  T90 (15-350 keV) is (16 +- 1) sec (estimated
+error including systematics).  There does appear to be weak emission
+extending out to T+100 seconds.
+
+The best fit to the spectral data for the time averaged period from
+T-1.98 to T+26.99 seconds is a power law with an exponential cutoff.
+This fit gives a photon index 1.51 +- 0.13, and Epeak of 71 +- 5 keV
+(chi squared 40 for 59 d.o.f).  For this model the total fluence in the
+15-150 keV band is (2.04 +- 0.04) x 10^-05 erg/cm2 and the 1-sec peak
+flux measured from T+11.12 sec is 48.9 +- 1.6 ph/cm2/sec.   A fit to a
+simple power law gives a photon index of 1.93 +- 0.03  (chi square 68
+for 59 d.o.f.)  All the quoted errors are at the 90% confidence level.
+
+Using the lag-luminosity method of Norris et al. (2000),
+and a lag measurement of 25 ms +- 5 ms (1 sigma; 100-350 keV
+to 25-50 keV bands), yields a pseudo-redshift of z ~ 1.3 +- 0.3
+(includes spectral uncertainties).
+
+The remainder of the expected event data for this burst (from T-300 to T-60
+sec and from T+120 to T+300) has not yet been received on the ground.  If
+we see evidence for emission after T+120 sec in these data, we will
+issue another circular.
+

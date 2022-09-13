@@ -1,0 +1,29 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4037
+SUBJECT: Refined analysis of the Swift-BAT soft short burst
+DATE:    05/09/25 21:25:39 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+C. Markwardt (GSFC/UMD), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/NRC), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (GSFC/UMD), K. Hurley (UC Berkeley), H. Krimm (GSFC/USRA),
+J. Norris (GSFC), D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/NRC),
+G. Sato (ISAS), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the full data set from the recent telemetry downlink, we report
+further analysis of Swift-BAT Trigger #156838 (Holland, et al., GCN 4034).
+The ground-analysis position is RA,Dec 303.476,+34.332
+{20h 13m 54.2s,34d 19' 54.0"} (J2000) with an uncertainty of 1.5 arcmin
+(radius, 90%, stat+sys).  T90 is 0.068 +- 0.027 sec.  The lightcurve is
+a single spike.  Other than the initial spike at the trigger time,
+there is no detectable emission from T-300 to T+454 sec.  Fitting our
+standard simple power law over the full interval from T-0.039 to T+0.614 sec,
+the photon index is 1.74 +/- 0.17 with a fluence of 7.5 +/- 0.9 X 10^-8
+erg/cm^2.  The flux in a 1-sec wide window starting at T-0.39 sec is
+1.5 +/- 0.3 ph/cm^2/sec.  We also fit a blackbody spectrum yielding
+a slightly improved reduced Chi2 with kT = 15.4 +/- 1.5 keV.  We note
+that this kT is consistant with small-flare events from SGRs and that
+the RA,Dec is not any of the known SGRs.  All values are
+in the 15-150 keV band at the 90% confidence level.
+

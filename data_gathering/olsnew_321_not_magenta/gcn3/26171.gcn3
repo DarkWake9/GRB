@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26171
+SUBJECT: Trigger 933285: Swift detection of the brightest burst so far from SGR 1935+2154
+DATE:    19/11/05 01:51:58 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+E. Ambrosi (INAF-IASFPA), V. D'Elia (SSDC), J. A. Kennea (PSU) and
+D. M. Palmer (LANL) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 01:36:25 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located a burst from SGR 1935+2154 (trigger=933285).  
+Swift did not slew due to merit considerations. 
+The BAT on-board calculated location is 
+RA, Dec 293.753, +21.896 which is 
+   RA(J2000) = 19h 35m 01s
+   Dec(J2000) = +21d 53' 46"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single peak
+structure with a duration of about 0.5 sec.  The peak count rate
+was ~130,000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The BAT software is designed to automatically set the trigger of each
+known source to twice the intensity seen with the previous trigger. 
+Thus, each GCN notice for retriggering on the source indicates a burst
+at least twice as bright as the previous burst.  
+
+In this case, the burst is about 7x as bright as reported in GCN 26169. 
+This is the brightest burst seen so far in the the current activation 
+of this source. 
+

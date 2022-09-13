@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6798
+SUBJECT: Konus-Wind observation of GRB 070917
+DATE:    07/09/18 11:56:48 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 070917 (Swift-BAT trigger #291292:
+Cummings et al., GCN 6791; Tueller et al., GCN 6792) triggered
+Konus-Wind at T0=27239.542 s UT (07:33:59.542).
+
+The burst light curve shows a single pulse with a duration of ~6 s.
+As observed by Konus-Wind the burst
+had a fluence of 4.90(-2.76, +0.26)x10^-6 erg/cm2,
+and a 64-ms peak flux measured from T0-0.016 s
+of 4.44(-2.65, +0.91)x10^-6 erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+8.448 s) is well fitted
+(in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 1.36(-0.25, +0.21)
+and Ep = 211(-48, +95) keV (chi2 = 58.9/60 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB070917_T27239/
+

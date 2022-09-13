@@ -1,0 +1,49 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31014
+SUBJECT: GRB 211024A: Possible afterglow candidate from GIT
+DATE:    21/10/27 11:35:56 GMT
+FROM:    Harsh Kumar at Indian Inst of Tech,Bombay  <harshkosli13@gmail.com>
+
+H. Kumar(IITB), V. Swain (IITB), U. Stanzin (IAO), V. Bhalerao(IITB), G. C.
+Anupama(IIA), S. Barway(IIA) report on behalf of the GIT team:
+
+We observed GRB 211024A detected by Fermi GBM (GCN 30962), localisation
+further refined by Swift/BAT-GUANO
+
+A. Tohuvavohu et al., (GCN #31006), with 0.7m GROWTH-India Telescope (GIT).
+We obtained 2 exposures of 300 sec each in the r' filter, separated by ~15
+min. We detected a potential candidate in our subtracted image at R.A.=
+1:52:46.98 , DEC.= -7:00:27.30. This is coincident with an X-ray source
+(#4) by Swift-XRT ToO observations (M. Perri et al. GCN # 31013). The
+photometric results follow as:
+
+-------------------------------------------------------------------
+
+ JD (Start) | T_start-T0(days) | Filter | Magnitude (AB) |
+
+-------------------------------------------------------------------
+
+ 2459514.2264 | 2.66 | r' | 19.83 +/- 0.038|
+
+ 2459514.2373 | 2.67 | r' | 19.87 +/- 0.046 |
+
+-------------------------------------------------------------------
+There was an underlying source at the position of the target in the raw
+image which was subtracted using reference images from PanSTARRS. The
+source magnitude is 17.86 mag in the r band with phot_z = 0.2108 +/- 0.02
+(SDSS Release 12: Alam+, 2015). This may be the host galaxy of the GRB.
+There is no minor planet at the location of the candidate in MPC. The gap
+between exposures was not sufficient to measure any decay. Further
+observations are planned. Follow-up observations for this source are
+strongly encouraged.
+
+The magnitudes are calibrated against PanSTARRS (Flewelling et al., 2018)
+and not corrected for Galactic extinction.
+
+The GROWTH India Telescope (GIT) is a 70-cm telescope with a 0.7-degree
+field of view, set up by the Indian Institute of Astrophysics (IIA) and the
+Indian Institute of Technology Bombay (IITB) with funding from DST-SERB and
+IUSSTF. It is located at the Indian Astronomical Observatory (Hanle),
+operated by IIA. We acknowledge funding by the IITB alumni batch of 1994,
+which partially supports operations of the telescope. Telescope technical
+details are available at https://sites.google.com/view/growthindia/.

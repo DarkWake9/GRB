@@ -1,0 +1,32 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  32130
+SUBJECT: GRB 220527A: Fermi GBM Final Localization
+DATE:    22/05/27 14:55:26 GMT
+FROM:    Joe Mangan at UCD  <joseph.mangan@ucdconnect.ie>
+
+The Fermi GBM team reports the detection of a likely Long GRB.
+
+At 09:17:15.73 UT on 27 May 2022, the Fermi Gamma-Ray Burst Monitor (GBM)
+triggered and located GRB 220527A (trigger 675335840 / 220527387).
+
+The on-ground calculated location, using the GBM trigger
+data, is RA = 323.8, DEC = -10.6 (J2000 degrees,
+equivalent to 21 h 35 m, -10 d 34 '), with a statistical uncertainty
+of 1 degrees (radius, 1-sigma containment,
+statistical only; there is additionally a systematic
+error which we have characterized as a core-plus-tail model, with 90% of
+GRBs having a 3.7 deg error and a small tail suffering a larger than 10 deg
+systematic error. [Connaughton et al. 2015, ApJS, 216, 32] ).
+
+The angle from the Fermi LAT boresight at the GBM trigger time is 43
+degrees.
+
+The skymap can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2022/bn220527387/quicklook/glg_skymap_all_bn220527387.png
+
+The HEALPix FITS file, including the estimated localization systematic, can
+be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2022/bn220527387/quicklook/glg_healpix_all_bn220527387.fit
+
+The GBM light curve can be found here:
+https://heasarc.gsfc.nasa.gov/FTP/fermi/data/gbm/triggers/2022/bn220527387/quicklook/glg_lc_medres34_bn220527387.gif

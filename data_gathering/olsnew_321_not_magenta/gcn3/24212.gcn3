@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24212
+SUBJECT: LIGO/Virgo S190425z: Swope follow-up observations
+DATE:    19/04/26 06:25:48 GMT
+FROM:    Ryan Foley at UC Santa Cruz  <foley@ucsc.edu>
+
+C. D. Kilpatrick, D. A. Coulter, C. Rojas-Bravo, J. S. Brown, G. Dimitriadis,
+R. J. Foley, T. Hung, D. O. Jones, M. R. Siebert, K. Siellez (UCSC),
+A. L. Piro (Carnegie), A. Rest (STScI), M. Drout (University of Toronto)
+
+report on behalf of the One Meter, Two Hemisphere (1M2H) collaboration:
+
+Using the 1-m Swope telescope at Las Campanas Observatory, we obtained
+images of ZTF19aarzaod and ZTF19aarykkb (Kasliwal et al., GCN 24191) in the
+localization region of LIGO/Virgo S190425z (LIGO-Virgo Collaboration,
+GCN 24168). We processed the data using photpipe (Rest et al., 2005)
+calibrating to the Pan-STARRS system (Chambers et al., 2016).  We performed
+PSF photometry on the images and did not perform any template subtraction.
+
+Target       | UTC                 | Filter | Mag (Err)
+ZTF19aarykkb | 2019-04-26 04:23:04 | r      | 18.4 (0.1)
+ZTF19aarykkb | 2019-04-26 04:28:49 | i      | 18.2 (0.1)
+ZTF19aarykkb | 2019-04-26 04:34:45 | g      | 19.2 (0.1)
+ZTF19aarzaod | 2019-04-26 04:45:24 | r      | 20.1 (0.1)
+ZTF19aarzaod | 2019-04-26 04:56:44 | i      | 19.5 (0.1)
+
+Note: Given the level of background emission and lack of template subtractions,
+we caution a systematic uncertainty of 0.1 mag.
+
+We note that all fluxes are similar to previous reports (Hiramatsu et al.,
+GCN 24194).  In particular, we note that ZTF19aarykkb has a similar r-band
+magnitude at 2019-04-25 17:53:45 UT (Tan et al., GCN 24193) and g-band
+magnitude at 2019-04-25 19:21:09 UT (Hiramatsu et al., GCN 24194).  We do not
+see evidence for significant fading as reported by Bhalerao et al. (Bhalerao
+et al., GCN 24201).
+
+The reported photometry is consistent with SNe II at z ~ 0.025, as suggested
+by their spectra (Pavana et al., GCN 24200; Perley et al., GCN 24204; Buckley
+et al., GCN 24205; Izzo et al., GCN 24208; Wiersema et al., GCN 24209; Nicholl
+et al., GCN 24211).
+

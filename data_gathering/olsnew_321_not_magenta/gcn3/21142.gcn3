@@ -1,0 +1,37 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21142
+SUBJECT: GRB 170524B: Swift detection of a burst 
+DATE:    17/05/25 18:29:03 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. D. Barthelmy (GSFC), A. Y. Lien (GSFC/UMBC), D. M. Palmer (LANL),
+and T. Sakamoto (AGU), report on behalf of the Swift Team:
+
+At 10:40:40 UT on 2017-05-24, the Swift Burst Alert Telescope (BAT) triggered on
+GRB 170524B (trigger=754265).  However, on-board analysis was truncated by
+a pre-planned slew to a scheduled target.  Subsequent ground analysis
+using data from T+2 to T+101 s finds the source at a location of
+RA, Dec 90.864, -17.086, which is
+RA(J2000)  =  06h 03m 27s
+Dec(J2000) = -17d 05' 11"
+with an uncertainty of 3 arcmin (radius, 90% containment, including
+systematic uncertainty).
+
+The BAT light curve shows a complex structure about 50 seconds long.
+The raw peak count rate was ~18000 counts/sec (15-350 keV), at ~7 sec after
+the trigger. T90 (15-350 keV) estimated using the raw light curve is 46.4 +- 1.6 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T+1.8 to T+49.6 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.15 +- 0.06.  The fluence in the 15-150 keV band is (6.6 +/- 0.2) x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+6.70 sec in the 15-150 keV band
+is 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+This event was also detected by CALET, KONUS-Wind, and INTEGRAL SPI ACS.
+
+A Swift Target of Opportunity observation has been requested.
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/00753445006/BA/

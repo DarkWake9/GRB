@@ -1,0 +1,60 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  28055
+SUBJECT: Trigger 980513: Swift detection of SGR Swift J1818.0-1607
+DATE:    20/07/02 07:41:35 GMT
+FROM:    Kim Page at U.of Leicester  <klp5@leicester.ac.uk>
+
+M. G. Bernardini (INAF-OAB), P. D'Avanzo (INAF-OAB),
+N. J. Klingler (PSU), A. Y. Lien (GSFC/UMBC), A. Melandri (INAF-OAB),
+K. L. Page (U Leicester), D. M. Palmer (LANL) and
+T. Sbarrato (INAF-OAB) report on behalf of the Neil Gehrels Swift
+Observatory Team:
+
+At 07:09:38 UT on 2020-07-02, the Swift Burst Alert Telescope (BAT) 
+triggered and located a burst from Soft Gamma Repeater 
+SGR Swift J1818.0-1607 (trigger=980513).  Swift slewed immediately 
+to the source.  The BAT on-board calculated location is 
+RA, Dec 274.471, -16.167 which is 
+   RA(J2000) = 18h 17m 53s
+   Dec(J2000) = -16d 09' 59"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single-peaked
+structure with a duration of about 100 ms.  The peak count rate
+was ~3000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 07:11:03.2 UT, 84.4 seconds after
+the BAT trigger. Using promptly downlinked data we find an 
+X-ray source with an enhanced position: RA, Dec 274.5017, -16.1317
+which is equivalent to:
+   RA(J2000)  = 18h 18m 00.40s
+   Dec(J2000) = -16d 07' 54.2"
+with an uncertainty of 3.0 arcseconds (radius, 90% containment). This
+location is 165 arcseconds from the BAT onboard position, within the
+BAT error circle, and consistent with the catalogued position of SGR 
+Swift J1818.0-1607. This position may be improved as more data are
+received; the latest position is available at
+https://www.swift.ac.uk/sper. 
+
+A power-law fit to a spectrum formed from promptly downlinked event
+data does not constrain the column density. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 87 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers none of
+the XRT error circle. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is typically
+complete to about 18 mag. No correction has been made for the large, but
+uncertain, extinction expected. 
+
+This is the fourth time Swift has triggered on SGR Swift J1818.0-1607;
+with 5 additional burst detections that did not reach the level needed for
+a burst response.  These detections were:
+2020-02-28T22:19:32
+2020-03-12T21:16:47 GCN 27373
+2020-04-13T19:34:18
+2020-05-06T17:36:50 GCN 27696
+2020-05-16T15:03:28 GCN 27746
+2020-05-17T14:29:54
+2020-05-25T20:23:45
+2020-06-01T16:52:09
+

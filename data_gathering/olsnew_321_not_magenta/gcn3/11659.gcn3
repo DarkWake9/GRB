@@ -1,0 +1,41 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  11659
+SUBJECT: Konus-Wind observation of GRB 110205A
+DATE:    11/02/07 11:34:21 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, P.
+Oleynik, M. Ulanov, D. Svinkin, and T. Cline on behalf of the Konus-Wind
+team report:
+
+The long GRB 110205A (Swift-BAT trigger #444643: Beardmore et al., GCN
+11629; Markwardt et al., GCN 11646) was detected by Konus-Wind in the
+waiting mode.
+
+The burst light curve shows a multipeaked pulse started at ~T0(BAT) with 
+a total duration of ~330 s. There is a weak pulse at ~T0(BAT)-1360 s 
+(seen by the same detector which observed GRB 110205A; the detection 
+significance is ~4.5 sigma in the G1+G2 (20-360 keV) band; the pulse 
+duration is ~25 s), which might be a burst precursor. There is a hint of 
+a weak soft tail seen up to ~T0+1200 s.
+
+As observed by Konus-Wind, the burst had a fluence of (3.66 +/- 
+0.35)x10^-5 erg/cm2 and a 3-s peak flux measured from T0+211.6 s
+of (5.1 +/- 0.7)x10^-7 erg/cm2/s (both in the 20 - 1200 keV energy range).
+
+Modeling the K-W 3-channel time-integrated spectrum (from T0 s to
+T0+330 s) by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.52 +/- 0.14, and Ep = 222 +/- 74 keV.
+
+Assuming z = 2.22 (Cenko & Hora, GCN 11638; Vreeswijk et al. GCN 11640) 
+and a standard cosmology model with H_0 = 71 km/s/Mpc, Omega_M = 0.27, 
+Omega_Lambda = 0.73, the isotropic energy release E_iso is (1.36 +/- 
+0.13)x10^54 erg, the peak luminosity (L_iso)_max is (5.9 +/- 0.8)x10^51 
+erg/s, and Ep_rest is 715 +/- 238 keV.
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+
+The K-W light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB110205A/
+

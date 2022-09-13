@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26484
+SUBJECT: Konus-Wind observation of GRB 191213A (ulong)
+DATE:    19/12/18 12:51:10 GMT
+FROM:    Anna Kozlova at Ioffe Institute  <ann_kozlova@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, R.Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A.Lysenko,
+and T. Cline on behalf of the Konus-Wind team, report:
+
+The ultra-long GRB 191213A (Swift-BAT trigger #944091:
+Cenko et al., GCN 26398; Lien et al., GCN 26418)
+was detected by Konus-Wind (KW) in the waiting mode.
+
+The burst light curve shows the main multipeaked episode of emission
+started at ~T0(BAT)-25 s and lasted until ~T0(BAT)+1815 s (the
+duration is ~1790 s; T0(BAT)=14781.499 s UT (04:06:21.499)).
+There is also a weaker broad pulse of emission seen before the main
+pulse from ~T0(BAT)-834 s to ~T0(BAT)-772 s. It might be related to
+GRB 191213A (it was detected by the same KW detector, and the KW
+ecliptic latitude response for it is consistent with the common
+origin with the main episode).
+
+As observed by KW, the burst (main episode) had a fluence of
+1.12(-0.06,+0.07)x10^-4 erg/cm2 and a 2.944-s peak flux,
+measured from ~T0(BAT)+676.012s, of 2.5(-0.41,+0.41)x10^-7 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The emission shows no signs of strong spectral variability.
+Modeling the KW 3-channel time-integrated spectrum
+(from ~T0(BAT)-24.660 s to ~T0(BAT)+1815.340 s)
+by a power law with exponential cutoff model
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+yields alpha = -1.16 (-0.12,+0.14), and Ep = 409 (-71,+110) keV.
+
+Thus, the prompt gamma-ray emission properties of this GRB:
+fluence, peak flux, Ep, and duration are similar to those
+observed in other ultra-long GRBs.
+
+The KW light curve of this burst is available at
+http://www.ioffe.rssi.ru/LEA/GRBs/GRB191213A/
+
+All the quoted errors are estimated at the 1 sigma confidence level.
+All the presented results are preliminary.
+

@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24268
+SUBJECT: LIGO/Virgo S190426c: Red and blue transients identified with DECam
+DATE:    19/04/27 07:52:43 GMT
+FROM:    Igor Andreoni at Caltech  <igor.andreoni@gmail.com>
+
+Igor Andreoni (Caltech), Daniel A. Goldstein (Caltech), Michael Coughlin (Caltech), Mansi M. Kasliwal (Caltech), Peter E. Nugent (LBNL), Keming Zhang (UC Berkeley), Jorge Martínez Palomera (UC Berkeley), Shreya Anand (Caltech), Joshua S. Bloom (UC Berkeley), S. Bradley Cenko (NASA GSFC), Jeffrey Cooke (Swinburne/OzGrav), Leo P. Singer (NASA GSFC), on behalf of the Global Relay of Observatories Watching Transients Happen (GROWTH) and ZTF collaborations:
+
+
+We report transients identified during the imaging of the localization region of the gravitational wave trigger S190426c (LIGO Scientific Collaboration and the Virgo Collaboration, GCN #24237) with the Victor M. Blanco 4m Telescope at Cerro Tololo Inter-American Observatory, equipped with the Dark Energy Camera (DECam).
+
+The observational tiling for the event was automatically and optimally determined and triggered using the GROWTH Target of Opportunity marshal (Coughlin et al. 2019a, Kasliwal et al. 2019b). Observations were performed under NOAO proposal ID 2019A-0205 (PIs Andreoni & Goldstein) and are publicly accessible (Goldstein et al., GCN 24257).
+
+Data are being processed in real time with an image-subtraction pipeline developed specifically for this program. References are taken from the Dark Energy Survey DR1 (https://www.darkenergysurvey.org/the-des-project/data-access/) and DECaLS DR6 & DR7 (http://legacysurvey.org/). The pipeline uses “autoscan” (Goldstein et al. 2015) to aid the rejection of spurious sources. 
+
+The following criteria were adopted to select the candidates reported here. The candidates were detected at least twice and were automatically identified in images taken in both r and z filters.  Photometric data points were separated at least by 30 minutes to reject moving objects.  
+
+In a first table we report red sources, with  r-z > 0.5 magnitude.  The photometry measurements are preliminary.
+
+     name |   ra  | dec  | filter | magpsf  | sigmamagpsf | filter | magpsf | sigmamagpsf
+ DG19ftnb | 167.595543634942 | -4.35881059496403 | z | 20.39 | 0.08 | r | 20.65| 0.05
+ DG19kqxe | 163.781652700717 | -0.23762887433652 | z | 21.05 | 0.11 | r | 22.07| 0.12
+ DG19nmaf | 163.752330220064 | -1.4870117224704 | z | 21.60 | 0.10 | r | 22.89| 0.20
+ DG19ouub | 171.473293011207 | -9.488486251543 | z | 21.61 | 0.11 | r | 22.12| 0.10
+ DG19vkgf | 165.844308606225 | -7.91746108580108 | r | 19.88 | 0.01 | z | 19.57| 0.03
+ DG19zdwb | 167.296767466399 | -2.26827548599056 | z | 22.00 | 0.09 | r | 22.80| 0.11
+ DG19zyaf | 163.471809253725 | -1.15111319177025 | z | 21.55 | 0.09 | r | 22.66| 0.12
+
+In a second table we report blue sources, with r-z < -0.4 magnitude.
+     name |   ra  | dec  | filter | magpsf  | sigmamagpsf | filter | magpsf | sigmamagpsf
+ DG19pklb | 168.658599720568 |  -6.9754468556027 | z | 21.27 | 0.14 | r | 20.66 | 0.08
+ DG19ytre | 167.760353542608 | 0.527178183535021 | r | 20.69 | 0.03 | z | 21.29 | 0.07
+
+The sources are not coincident with minor planets present in the Minor Planet Center or transients already reported in the Transient Name Server. 
+
+The contact people for this circular are Igor Andreoni (andreoni@caltech.edu) and Danny Goldstein (danny@caltech.edu)
+
+GROWTH and ZTF are worldwide collaborations comprising Caltech, USA; IPAC, USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY, Germany; MOST, Taiwan; UW Milwaukee, USA; TTU, USA; LANL USA; Tokyo Tech, Japan; IIT-B, India; IIA, India; LJMU, UK and USyd, Australia. ZTF acknowledges the generous support of the NSF under AST MSIP Grant No 1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et al. 2019). Alert filtering and follow-up coordination is being undertaken by the GROWTH marshal system (Kasliwal et al. 2019).
+
+This research draws upon DECam data as distributed by the Science Data Archive at NOAO. NOAO is operated by the Association of Universities for Research in Astronomy (AURA) under a cooperative agreement with the National Science Foundation.
+This project used data obtained with the Dark Energy Camera (DECam), which was constructed by the Dark Energy Survey (DES) collaboration.
+

@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31804
+SUBJECT: GRB 220325A: GRANDMA observations
+DATE:    22/03/29 18:08:27 GMT
+FROM:    Sarah Antier at OCA  <sarah.antier@oca.eu>
+
+C. Andrade, M. Coughlin (UNM), K. Noysena (NARIT), W. Kiendrebeogo (UJS),
+I. Tosta e Melo (INFN-LNS), X. F. Wang (TSU/BJP), F. Navarete (NOIRLab/SOAR)
+J. Zhu (BJP), L. Wang (XAO), A. Iskandar (XAO), X. Zeng (XAO), L. Abe,
+Ph. Bendjoya, J.-P. Rivet (Lagrange/OCA), D. Vernet (Galilee/OCA),
+S. Antier, A. de Ugarte Postigo (Artemis/OCA), A. M. Fouad, A. Taky,
+A. Shokry, I. Elhousiny, A. Eid, M. Farouk (NRIAG), P.A. Duverne (IJCLAB)
+report on behalf of the GRANDMA collaboration:
+
+The GRANDMA telescope network responded to the alert of GRB 220325A
+(Palmer et al. GCN 31787). The first observations started 4.28 h after
+the BAT trigger time.
+
+No new object was detected within the XRT enhanced error region (Evans et
+al. GCN 31794). In the following table we report the preliminary photometry
+of our observations. Upper limits are reported at the 3-sigma limit, in the
+AB system.
+
+T-T0 (hr)| MJD    | Observatory| Exposure| Filter   | Upp.Lim. (AB)
+_____________________________________________________________________
+04.28 |59663.89971| SNOVA      | 9x300s  | Bessel R | 20.1
+04.44 |59663.90475| NOWT       | 11x180s | Bessel R | 19.7
+08.11 |59664.05765| KAO        | 22x50s  |  SDSS i  | 21.2
+10.14 |59664.14304| C2PU       | 16x240s |  SDSS r  | 20.8
+
+These limits are consistent with the non-detections previously reported
+(Gupta et al. GCN 31793, Strausbaugh et al. GCN 31795, Nicuesa Guelbenzu et
+al. GCN 31797).
+
+The photometry of NOWT and SNOVA was performed using field stars from the
+APASS catalog. The KAO and C2PU image have been processed using field stars
+from the PanSTARRS-DR1 catalog and with the MUPHOTEN pipeline (Duverne et
+al. 2021).
+
+The magnitudes are not corrected for the Galactic extinction in the
+direction of the burst.
+
+GRANDMA is a worldwide telescope network (grandma.ijclab.in2p3.fr)
+devoted to the observation of transients in the context of multi-messenger
+astrophysics (Antier et al. 2020 MNRAS 497, 5518). Kilonova-Catcher (KNC) is
+the citizen science program of GRANDMA (http://kilonovacatcher.in2p3.fr/).
+
+

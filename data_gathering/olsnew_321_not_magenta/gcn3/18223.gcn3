@@ -1,0 +1,40 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  18223
+SUBJECT: GRB 150831B: Swift-BAT refined analysis
+DATE:    15/09/01 13:21:00 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), J. R. Cummings (GSFC/UMBC), N. Gehrels (GSFC),
+H. A. Krimm (GSFC/USRA), A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+F. E. Marshall (GSFC), D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 150831B (trigger #653978)
+(Marshall et al., GCN Circ. 18215).  The BAT ground-calculated position is
+RA, Dec = 271.030, -27.243 deg, which is 
+   RA(J2000)  =  18h 04m 07.2s 
+   Dec(J2000) = -27d 14' 34.4" 
+with an uncertainty of 2.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 7%.
+ 
+The mask-weighted light curve shows two peaks starting at ~T-0.5 sec,
+peaking at ~T+1 sec, and ending at ~T+8 sec.  T90 (15-350 keV)
+is 6.2 +- 1.0 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.58 to T+6.84 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.87 +- 0.19.  The fluence in the 15-150 keV band is 1.4 +- 0.2 x 10^-06 erg/cm2.
+The 1-sec peak photon flux measured from T-0.15 sec in the 15-150 keV band
+is 6.1 +- 1.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+In the BAT energy band, the hardness ratio vs T90 is typical of a GRB origin,
+but not inconsistant with a galactic origin.  The T90 is too long for a
+magnetar origin. We also note that the fading in the X-ray band is tyical
+for a GRB (D'Avanzo, GCN 18222).
+ 
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/653978/BA/
+

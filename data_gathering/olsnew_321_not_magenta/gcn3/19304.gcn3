@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19304
+SUBJECT: GRB 160409A found in Swift BAT ground analysis
+DATE:    16/04/12 19:20:11 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+GRB 160409A found in Swift BAT ground analysis
+
+P.A. Evans (U. Leicester),  J.P. Osborne (U Leicester), 
+K. L. Page (U Leicester), and  D.M. Palmer (LANL)
+report on behalf of the Swift Team
+
+At 05:54:14 UT on 2016-04-09 BAT triggered and located
+GRB 160409A (trigger #682162).  Swift did not immediately 
+slew to this source because its location approximately
+matched a known source (4U 1916-053) in its on-board catalog.  
+The BAT on-board calculated location is 
+RA, dec 289.705,-5.390 which is 
+RA(J2000) = 19h 18m 49s
+Dec(J2000) = -5d 23' 24"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a complex
+peak structure with a duration of about 30 sec.  The peak count rate
+was ~1300 counts/sec (15-350 keV), at ~2 sec after the trigger.
+
+The catalogued source, 4U 1916-053, is identified by Simbad as being
+the LXB V* V1405 Aql.  However, this object is 9 arcminutes from the 
+BAT position, and well outside the error circle.  BAT has detected a burst
+from that source (1.1 arcmin offset from the V1405 Aql location)
+in April 2006.  During the 6-minute accumulation that overlaps the
+trigger, SAX J2103.5+4545 is detected (at lower significance and 
+correspondingly larger position uncertainty) with a 3.3 arcmin offset.
+Therefore we can confidently state that this trigger did not come
+from the location of V1405 Aql and is due to a different source.
+
+A Swift Target of Opportunity was requested and XRT began
+observing the field at 00:34:58 UT on 2016-04-12, which is
+2.8 days after the BAT trigger. No unknown sources were 
+detected in the 3 kiloseconds of data, although two known 
+sources and possible scattered X-rays from V1405 Aql were seen.
+No new sources were detected in UVOT down to a limiting
+magnitude of 21.3 in white.
+
+Qualitatively, about half of long GRBs would be visible in a 
+3 ks XRT observation at that delay after the trigger, so the 
+non-detection of an afterglow does not rule out a GRB.
+
+

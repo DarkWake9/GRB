@@ -1,0 +1,59 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27421
+SUBJECT: LIGO/Virgo S200316bj: no counterpart candidate in SVOM/GWAC-F30 observations
+DATE:    20/03/23 14:46:30 GMT
+FROM:    Nicolas Dagoneau at CEA/IRFU/DAp/SVOM  <nicolas.dagoneau@cea.fr>
+
+J. Wang (GXU),  N. Dagoneau (CEA/AIM), J. Y. Wei (NAOC), S. Schanne (CEA/AIM),
+X. H. Han (NAOC), L. P. Xin (NAOC)
+
+report on behalf of the SVOM Multi Messenger Astronomy and GWAC teams
+(http://www.svom.fr/en/svom-mma-and-gwac-team):
+
+We observed 22 sky regions to cover the initial skymap of the LIGO/Virgo
+trigger S200316bj (GCN # 27388), with the SVOM/GWAC-F30 telescope operated
+by Huaibei Normal University and NAOC, CAS at Xinglong Observatory, China. 
+
+The SVOM/GWAC-F30 is equipped with Standard Johnson filters and 4Kx4K FLI
+CCD (FOV~1.8x1.8 degree). The GWAC-F30 is using tiling observation
+strategy. The tiles are calculated to cover the most probable regions of
+the 90% localization area given in the GW probability skymap. 5 images
+with a single exposure of 70s time in R band are taken for each tile. The
+typical limiting magnitude of our image is 17 mag in the R band calibrated
+to USNO B1.0 R2. The images of GWAC-F30 cover 31.7% of skymap.
+
+The 22 tile coordinates and the observation periods are listed below:
+
+Id Ra          Dec         start (UTC)         end (UTC)           Proba.
+0  05:46:52.80 46:45:00.00 2020-03-17 11:25:07 2020-03-17 11:31:54 0.054
+1  05:47:55.20 48:27:00.00 2020-03-17 15:28:44 2020-03-17 15:40:26 0.044
+2  05:56:38.40 46:45:00.00 2020-03-17 14:01:28 2020-03-17 14:14:58 0.034
+3  05:37:50.40 48:27:00.00 2020-03-17 12:51:40 2020-03-17 13:04:56 0.029
+4  05:46:12.00 45:02:60.00 2020-03-17 12:08:45 2020-03-17 12:22:03 0.034
+5  05:58:00.00 48:27:00.00 2020-03-17 13:19:43 2020-03-17 13:32:50 0.024
+6  05:37:07.20 46:45:00.00 2020-03-17 15:40:44 2020-03-17 15:55:06 0.028
+7  05:49:19.20 50:08:60.00 2020-03-17 15:00:34 2020-03-17 15:14:23 0.020
+8  05:38:55.20 50:08:60.00 2020-03-17 12:23:13 2020-03-17 12:36:36 0.017
+9  05:55:40.80 45:02:60.00 2020-03-17 11:25:07 2020-03-17 11:38:59 0.025
+10 05:59:45.60 50:08:60.00 2020-03-17 11:39:31 2020-03-17 11:52:53 0.010
+11 05:36:43.20 45:02:60.00 2020-03-17 13:06:07 2020-03-17 13:19:17 0.016
+12 06:06:26.40 46:45:00.00 2020-03-17 15:55:34 2020-03-17 16:00:11 0.011
+13 06:08:04.80 48:27:00.00 2020-03-17 15:15:32 2020-03-17 15:28:32 0.009
+14 04:39:48.00 45:02:60.00 2020-03-17 13:33:54 2020-03-17 13:47:11 0.008
+15 05:45:52.80 43:21:00.00 2020-03-17 11:53:55 2020-03-17 12:07:30 0.011
+16 05:55:04.80 43:21:00.00 2020-03-17 12:36:58 2020-03-17 12:50:27 0.010
+17 05:40:21.60 51:51:00.00 2020-03-17 13:47:28 2020-03-17 14:01:03 0.005
+18 05:27:45.60 48:27:00.00 2020-03-17 16:00:20 2020-03-17 16:15:05 0.008
+19 05:51:09.60 51:51:00.00 2020-03-17 14:16:16 2020-03-17 14:29:29 0.005
+20 06:05:09.60 45:02:60.00 2020-03-17 14:30:36 2020-03-17 14:43:53 0.008
+21 06:10:12.00 50:08:60.00 2020-03-17 16:15:45 2020-03-17 16:20:09 0.004
+
+The covering map is available at:
+http://cmm.svom.cn/gwpub/O3/S200316bj/S200316bj_F30.png
+(user:svomo3 pwd:gwo3)
+
+The first image was taken ~11.5 hours after the event trigger time. No
+credible new source is detected by our online pipeline. A more detailed
+image analysis is in progress with our offline pipeline to search for any
+fainter transient candidate.
+

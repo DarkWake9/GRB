@@ -1,0 +1,144 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26798
+SUBJECT: LIGO/Virgo S200115j: Swift-XRT sources
+DATE:    20/01/17 10:58:20 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester),  K.L. Page (U.Leicester), J.A. Kennea (PSU),
+A. Tohuvavohu (U. Toronto), S.D. Barthelmy (NASA/GSFC), A.P. Beardmore
+(U. Leicester), M.G. Bernardini (INAF-OAB), A.A. Breeveld (UCL-MSSL),
+P. Brown (TAMU), D.N. Burrows (PSU), S. Campana (INAF-OAB), S.B. Cenko
+(NASA/GSFC), G. Cusumano (INAF-IASF PA), A. D'Ai (INAF-IASFPA), P.
+D'Avanzo (INAF-OAB), V. D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P.
+Giommi (ASI), C. Gronwall (PSU), D. Hartmann (U. Clemson), H.A. Krimm
+(CRESST/GSFC/USRA), N.J. Klingler (PSU), N.P.M. Kuin (UCL-MSSL), A.Y.
+Lien (GSFC/UMBC), F.E. Marshall (NASA/GSFC), A. Melandri (INAF-OAB),
+J.A. Nousek (PSU), S.R. Oates (U. Birmingham), P.T. O'Brien (U.
+Leicester), J.P. Osborne (U. Leicester), C. Pagani (U. Leicester),
+M.J.Page (UCL-MSSL), D.M. Palmer (LANL), M. Perri (ASDC), J.L. Racusin
+(NASA/GSFC), B. Sbarufatti (INAF-OAB/PSU), M.H. Siegel (PSU), G.
+Tagliaferri (INAF-OAB), E. Troja (NASA/GSFC/UMCP) report on behalf of
+the Swift team:
+
+Swift has carried out 456 observations of the LVC error region for the
+GW trigger S200115j convolved with the 2MPZ catalogue (Bilicki et al.
+2014, ApJS, 210, 9), using 23 fields from the 'bayestar' (version 0) GW
+localisation map and 433 fields from the 'bayestar' (version 2) GW
+localisation map. As these are 3D skymaps, galaxy distances were taken
+into account in selecting which ones to observe. The observations
+currently span from 7.1 ks to 164 ks after the LVC trigger, and the XRT
+has covered 28.5 deg^2 on the sky (corrected for overlaps). This covers
+12% of the probability in the 'bayestar' (version 2) skymap, and 24%
+after convolving with the 2MPZ galaxy catalogue, as described by Evans
+et al. (2016, MNRAS,  462, 1591). Using the earlier  'bayestar'
+(version 0) skymap our observations cover 7.8% of the probability (16%
+when convolved). These pointings and associated metadata have been
+reported to the Treasure Map (Wyatt et al., arXiv 2001.00588;
+http://treasuremap.space/alerts?graceids=S200115j).
+
+2 rank 2 sources have been found. These are candidates to be the
+counterpart to the GW trigger. Details of these sources are:
+  
+  Source S200115j_X130:
+  =============
+    RA: 	 44.9028 ( = 02h 59m 36.67s) J2000
+    Dec:	 +7.4042 ( = +07d 24' 15.1") J2000
+    Error:	 4.7 (arcsec, radius, 90% confidence).
+    Peak Rate:	 2.7e-02 +/- 6.9e-03 ct/sec (0.3-10 keV)
+    Peak Flux:	 1.2e-12 +/- 3.0e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Catalogued:  Yes
+    Cat Source:  1WGA J0259.6+0724 in the ROSAT/WGACAT catalogue
+    Separation:  6.5" from the XRT source
+    Cat Rate:	 4.9e-03 +/- 1.8e-03 ct/sec 
+    Cat Flux:	 1.5e-13 +/- 5.5e-14 erg cm^-2 s^-1 (0.3-10 keV)
+		 So the source	is 3.4-sigma above the catalogued flux.
+
+    There is 1 GWGC or 2MPZ galaxy within 200 kpc of the source.
+    
+The determination that this source has brightened compared to the ROSAT
+data is of course dependent on the assumed X-ray spectrum: if the
+source is heavily absorbed then the brightness increase becomes less
+noteworthy. Unfortunately, we have insufficient data to investigate the
+spectrum at the present time. Further observations are expected.
+    
+  
+  Source S200115j_X136:
+  =============
+    RA: 	 40.0508 ( = 02h 40m 12.19s) J2000
+    Dec:	 -2.5626 ( = -02d 33' 45.4") J2000
+    Error:	 4.7 (arcsec, radius, 90% confidence).
+    Peak Rate:	 8.6e-02 +/- 1.7e-02 ct/sec (0.3-10 keV)
+    Peak Flux:	 3.7e-12 +/- 7.2e-13 erg cm^-2 s^-1 (0.3-10 keV)
+    Catalogued:  Yes
+    Cat Source:  2SXPS J024012.0-023340 in the 2SXPS catalogue
+    Separation:  4.9" from the XRT source
+    Cat Rate:	 6.7e-03 +/- 1.6e-03 ct/sec 
+    Cat Flux:	 2.9e-13 +/- 6.9e-14 erg cm^-2 s^-1 (0.3-10 keV)
+       so the source  is 4.7-sigma above the catalogued flux.
+
+This source has been observed multiple times by Swift-XRT before, and
+its historical light curve can be seen at
+https://www.swift.ac.uk/2SXPS/2SXPS%20J024012.0-023340. This source is
+coincident with a 2MASS galaxy, and given the historical data, we
+assume that this galaxy is an AGN. Therefore the flux increase compared
+to previous Swift observations may simply reflect AGN activity, or may
+indicate a transient within that galaxy (as was the case for GW 170817,
+whose host galaxy was an X-ray emitter). Further observations are
+expected.
+
+
+In total, we have detected 14 X-ray sources. Each source is assigned a
+rank of 1-4 which describes how likely it is to be related to the GW
+trigger, with 1 being the most likely and 4 being the least likely. The
+ranks are described at https://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+  * 0 sources of rank 1
+  * 2 sources of rank 2
+  * 3 sources of rank 3
+  * 9 sources of rank 4
+
+
+RANK 3 sources
+==============
+
+These are uncatalogued X-ray sources, however they are not brighter
+than previous upper limits, so do not stand out as likely counterparts
+to the GW trigger.
+
+| Source ID	 | RA		  | Dec 	   | Err90   |
+|  S200115j_X62  | 02h 48m 23.89s | +05d 34' 46.4" |	4.5" |
+|  S200115j_X63  | 02h 47m 25.18s | +05d 29' 41.7" |	7.0" |
+| S200115j_X135  | 02h 42m 11.50s | -03d 08' 13.8" |   28.4" |
+
+
+RANK 4 sources
+==============
+
+These are catalogued X-ray sources, showing no signs of outburst
+compared to previous observations, so they are not likely to be related
+to the GW trigger.
+
+| Source ID	 | RA		  | Dec 	   | Err90   |
+|  S200115j_X40  | 02h 46m 14.64s | +05d 35' 29.9" |	4.5" |
+|  S200115j_X73  |  02h 27m 0.61s | -04d 20' 20.3" |	6.9" |
+|  S200115j_X74  | 02h 47m 27.22s | -00d 12' 21.5" |	3.9" |
+|  S200115j_X75  | 02h 55m 14.42s | +09d 06' 26.6" |	8.3" |
+|  S200115j_X76  | 02h 38m 27.56s | +01d 54' 29.5" |	4.8" |
+| S200115j_X105  | 03h 57m 45.52s | +41d 55' 07.9" |	5.0" |
+| S200115j_X106  | 03h 56m 57.58s | +42d 55' 44.3" |	4.4" |
+| S200115j_X127  | 02h 58m 51.32s | +06d 22' 26.4" |	5.2" |
+| S200115j_X134  | 02h 42m 40.74s | +00d 57' 31.5" |	4.8" |
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3x10^20 cm^-2, and photon index (Gamma)=1.7
+
+The results of the XRT automated analysis, including details of the
+sources listed above, are online at
+https://www.swift.ac.uk/LVC/S200115j
+
+This circular is an official product of the Swift XRT team.
+
+

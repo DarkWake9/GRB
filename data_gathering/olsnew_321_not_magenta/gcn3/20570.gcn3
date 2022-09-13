@@ -1,0 +1,31 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  20570
+SUBJECT: GRB 170131A detected in Swift/BAT ground processing
+DATE:    17/02/01 19:19:04 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+GRB 170131A detected in Swift/BAT ground processing
+
+David Palmer (LANL), on behalf of the Swift team, reports:
+
+At 23:15:13 UT on 2017-01-31, the Swift Burst Alert Telescope (BAT) 
+detected a marginal peak in a rate-triggered image (Swift Trigger #736107).
+Because it was below the image significance threshold, it did not yield a GRB 
+follow-up.  However, ground analysis shows that it is at the same location 
+as a Fermi/GBM trigger (#507597304).  KONUS/WIND also reported a trigger
+at the same time.
+
+The BAT on-board calculated location is 
+RA, Dec 341.447, 64.006, which is 
+ RA(J2000)  =  22h 45m 55s
+ Dec(J2000) = +64d 00' 22"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a ~30 s long
+FRED structure starting at ~T-20 (consistent with the Fermi/GBM
+trigger time) superimposed with a ~5 second peak near the BAT
+trigger time.  The peak count rate was ~3000 counts/sec (15-350 keV),
+at ~3 sec after the BAT trigger. 
+
+A Swift ToO observation has been scheduled.
+
+

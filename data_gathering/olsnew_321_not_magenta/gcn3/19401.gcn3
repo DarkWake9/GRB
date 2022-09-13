@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  19401
+SUBJECT: LIGO/Virgo G211117: Astrosat CZTI upper limits
+DATE:    16/05/07 09:25:01 GMT
+FROM:    Varun Bhalerao at IUCAA  <varunb@iucaa.in>
+
+Varun Bhalerao (IUCAA), Dipankar Bhattacharya (IUCAA), Ajay Vibhute
+(IUCAA), Sukanta Bose (IUCAA), Gulab Chand Dewangan (IUCAA), Ranjeev
+Misra (IUCAA), Sanjit Mitra (IUCAA), A R Rao (TIFR), Tarun Souradeep
+(IUCAA), Santosh Vadawale (PRL), on behalf of the Astrosat CZTI team
+report:
+
+We carried out offline analysis of data from Astrosat CZTI in a 100
+second window centred on the G211117 trigger time, UT 2015-12-26
+03:38:53.648, to look for any coincident hard X-ray flash. CZTI is a
+coded aperture mask instrument that has considerable effective area for
+about 29% of the entire sky. Based on the pointing direction of Astrosat
+at the time of the GW event and the LALInference skymap provided by LVC
+(LALInference_skymap.fits.gz,0), the sky visible to CZTI has 32%
+probability of containing the EM counterpart.
+
+CZTI data were de-trended to remove orbit-wise background variation. We
+then searched data from the four independent, identical quadrants to
+look for coincident spikes in the count rates. Searches were undertaken
+by binning the data in 0.1s, 1s and 10s respectively. Statistical
+fluctuations in count rates were estimated by using data from 20
+neighbouring orbits. We selected confidence levels such that the
+probability of a false trigger in this 100s window is 10^-4. We do not
+find any evidence for any hard X-ray transient in this window. We
+convert our count rates into fluence and flux limits by assuming that
+the source spectrum is a power-law with a photon index Gamma = 1 and 2
+respectively ( N(E) \propto E^-\Gamma ). The upper limits for source
+fluence and flux in a 30-200 keV band at different timescales are:
+
+Calculating fluxes assuming photon power law index Gamma =  1.0
+0.1 s: Effective fluence limit= 2.3e-7 ergs/cm^2; flux= 2.3e-6 ergs/cm^2/s
+1.0 s: Effective fluence limit= 5.8e-7 ergs/cm^2; flux= 5.8e-7 ergs/cm^2/s
+10.0s: Effective fluence limit= 1.5e-6 ergs/cm^2; flux= 1.5e-7 ergs/cm^2/s
+
+Calculating fluxes assuming phton perlaw index Gamma = 2.0
+0.1 s: Effective fluence limit= 2.9e-7 ergs/cm^2; flux= 2.9e-6 ergs/cm^2/s
+1.0 s: Effective fluence limit= 7.5e-7 ergs/cm^2; flux= 7.5e-7 ergs/cm^2/s
+10.0s: Effective fluence limit= 1.9e-6 ergs/cm^2; flux= 1.9e-7 ergs/cm^2/s
+
+CZTI is built by a TIFR-led consortium of institutes across India,
+including VSSC, ISAC, IUCAA, SAC and PRL. The Indian Space Research
+Organisation funded, managed and facilitated the project.
+

@@ -1,0 +1,33 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  17605
+SUBJECT: GRB 150318A: Skynet PROMPT-CTIO Observations
+DATE:    15/03/18 18:23:19 GMT
+FROM:    Adam S. Trotter at UNC-Chapel Hill/PROMPT/Skynet  <atrotter@physics.unc.edu>
+
+A. Trotter, D. Reichart, J. Haislip, A. Aji, R. Beauchemin, T. Berger, A. Dow, A. Foster,
+N. Frank, M. Hinckle, K. Ivarsen, A. LaCluyze, M. Maples, J. Moore, M. Nysewander, C. Salemi,
+L. Zbinden, and J. A. Crain report:
+
+Skynet observed the Swift BAT/XRT localization of GRB 150318A (Pagani et al., GCN 17599, Swift
+trigger=635289) with with one 24" telescope (PROMPT 8; I band) and four 16" telescopes 
+(PROMPT 1,3,4,5; V,B,R,I bands) of the PROMPT array at CTIO, Chile. 
+Starting at 2015-03-18 06:06:54 UT and continuing until 09:52 UT (t=2m-2.8h post-trigger), 
+Skynet took a total of 376 exposures ranging from 10-160s. We stacked subsets of these images 
+to maximize the S/N ratio, and detected no optical source in any band at the XRT position.  
+Our 3-sigma limiting magnitudes are:
+
+==============================================
+tmid    scope   band    exposures   lim mag
+----------------------------------------------
+104m    PROMPT8  I      69 x 80s     >20.9
+104m    PROMPT5  I      43 x 160s    >20.9
+78m     PROMPT4  R      37 x 80s     >20.9
+104m    PROMPT1  V      42 x 160s    >21.6
+125m    PROMPT3  B      18 x 160s    >21.1
+
+Limiting magnitudes are in the Vega System, calibrated to 3 APASS stars in the field.  Magnitudes
+have not been corrected for line-of-sight Milky Way dust extinction, with expected E(B-V)=0.03
+(Schlafly & Finkbeiner 2011).
+
+No further Skynet observations are scheduled.
+

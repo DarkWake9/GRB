@@ -1,0 +1,62 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16288
+SUBJECT: GRB 140516A: MASTER early optical observations
+DATE:    14/05/17 01:13:41 GMT
+FROM:    Vladimir Lipunov at Moscow State U/Krylov Obs  <gcncirc@observ.inetcomm.ru>
+
+E. Gorbovskoy, V. Lipunov, V.Kornilov, D.Kuvshinov, A.Belinski, N.Tyurina, 
+N.Shatskiy, P.Balanutsa, D.Zimnukhov, A.Kuznetsov, V.V.Chazov, 
+D.Denisenko, A.Sankovich
+Lomonosov Moscow State University,
+Sternberg Astronomical Institute, Moscow State University
+
+A. Tlatov, A.V. Parhomenko, D. Dormidontov, V.Sennik
+Kislovodsk Solar Station of the Pulkovo Observatory
+
+V.Yurkov, Yu.Sergienko, D.Varda, E.Sinyakov
+Blagoveschensk Educational State University, Blagoveschensk
+
+K.Ivanov, S.Yazev, N.M.Budnev, O.Gres, O.Chuvalaev, V.A.Poleshchuk
+Irkutsk State University
+
+V.Krushinski, I.Zalozhnih,  A. Popov
+Ural Federal University, Kourovka
+
+Hugo Levato and Carlos Saffe
+Instituto de Ciencias Astronomicas, de la Tierra y del Espacio (ICATE)
+
+Claudio Mallamaci, Carlos Lopez and Federico Podest
+Observatorio Astronomico Felix Aguilar (OAFA)
+
+
+MASTER II  robotic telescope (MASTER-Net: http://observ.pereplet.ru) 
+located in Kislovodsk was pointed to the  GRB140516A 22 sec after notice 
+time 44 sec after trigger time at 2014-05-16 20:31:39 UT in two 
+polarizations. On our first (10s exposure) set we haven`t found optical 
+transient  within SWIFT error-box (Bernardini et. al GCN 16285). The 
+5-sigma upper limit has been about 17.0 mag.
+As we have a set of observations after that with exposures from 10 to 180 
+seconds during several hours.  In table 1 some limits are provided.
+
+Table 1
+-------
+T_start 	   Exptime   T-T_mead  T-T_start  T-T_stop  Filter  mlimit  Coadd
+2014-05-16 20:31:39     10     49 sec     44 sec     54 sec   P|     17.0    1
+2014-05-16 20:31:39     10     49 sec     44 sec     54 sec   P-     16.9    1
+2014-05-16 20:31:39    780    466 sec     44 sec    889 sec   P|     19.6    13*
+2014-05-16 20:31:39    780    466 sec     44 sec    889 sec   P|     19.3    13*
+2014-05-16 20:45:54   3600   2914 sec    899 sec   4930 sec   P|     20.6    20
+2014-05-16 20:45:54   3600   2914 sec    899 sec   4930 sec   P-     20.4    20
+2014-05-16 20:45:54   7200   2914 sec    899 sec   4930 sec P| + P-  21.0    40**
+---------------------------------------------------------------------------------
+*  This is a set images with diffrent exposure times from 10 to 180 seconds.
+** We has images synchronously in 2 channels. Therefore we can increase 
+twice exptime in case of constant t_start and t_stop.
+
+P- and P| is a polarization filter which are oriented at an angle 0 and 90 
+degrees to RA axis respectivel. T is a  GRB trigger time.
+
+
+The message may be cited.
+
+

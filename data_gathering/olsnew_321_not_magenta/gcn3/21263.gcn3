@@ -1,0 +1,70 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  21263
+SUBJECT: LIGO/Virgo G288732: Fermi GBM Upper Limits for the LIGO Trigger and LAT Candidate
+DATE:    17/06/22 22:04:03 GMT
+FROM:    Adam Goldstein at Fermi/GBM  <adam.michael.goldstein@gmail.com>
+
+Adam Goldstein (USRA), Rachel Hamburg (UAH), and Colleen Wilson-Hodge
+(NASA/MSFC) report on behalf of the GBM-LIGO Group:
+Lindy Blackburn (CfA), Michael S. Briggs (UAH), Jacob Broida (Carleton
+College), Eric Burns (UAH), Jordan Camp (NASA/GSFC), Tito Dal Canton
+(NASA/GSFC), Nelson Christensen (Carleton College), Valerie Connaughton
+(USRA), C. Michelle Hui (NASA/MSFC), Pete Jenke (UAH), Dan Kocevski
+(NASA/MSFC), Nicolas Leroy (LAL), Tyson Littenberg (NASA/MSFC), Julie
+McEnery (NASA/GSFC), Rob Preece (UAH), Judith Racusin (NASA/GSFC), Peter
+Shawhan (UMD), Karelle Siellez (GA Tech), Leo Singer (NASA/GSFC), John
+Veitch (Birmingham), Peter Veres (UAH)
+
+Fermi GBM observed 89% of the Bayestar sky map at the time of the LIGO
+trigger, and we set the following flux upper limits for the entire visible
+sky map (excluded region is a circle with radius of 68 degrees centered on
+RA, Dec = 197.9, 19.5).
+
+Using a hard Band function with (Epeak, alpha, beta) = (500 keV, -0.5,
+-2.5), we set a 3 sigma, 1-second-averaged flux upper limit for any
+transient within 30 s of the LIGO trigger time in the 10-1000 keV band
+ranging from 4.6e-7 to 9.2e-7 erg/s-cm^2.  Using an exponentially cut-off
+power law parametrized with (Epeak, index) = (566 keV, -0.42), which
+represents the average GBM-triggered short GRB, the upper limit ranges from
+5.1e-7 to 9.8e-7 erg/s-cm^2.
+
+Using the Earth Occultation technique [1] to estimate the amount of
+persistent emission during a 48-hour period centered on the LIGO trigger
+time, we place the following range of 3-sigma day-averaged flux upper
+limits based on observed sources over the entire LIGO sky map:
+
+Energy       min  max  median
+--------------------------------
+ 12- 27 keV: 0.07 0.50 0.09 Crab
+ 27- 50 keV: 0.12 0.71 0.16 Crab
+ 50-100 keV: 0.18 0.97 0.23 Crab
+100-300 keV: 0.33 1.88 0.41 Crab
+300-500 keV: 2.25 14.9 2.84 Crab
+
+These limits are based on the minimum requirement that each source in the
+Earth Occultation catalog was Earth-occulted at least 6 times in each of
+the 24 hour periods preceding and following the LIGO trigger and that the
+occultations were well separated from nearby bright sources.
+
+The location of the Fermi/LAT candidate (Omodei et al., LVC GCN #21227) was
+behind the Earth at the time of the LIGO trigger. The location came out
+from behind the Earth at ~85 s after the LIGO trigger and was visible until
+Fermi entered the South Atlantic Anomaly (SAA) ~1 hour later and was then
+behind the Earth again after Fermi exited the SAA. During this one hour
+window, the targeted search ([2], [3]) found three long and spectrally soft
+candidates (False Alarm Rates of 1 per 2.2 hours, 1 per 1.1 hours, and 1
+per 0.7 hours), all of which localize to the Galactic plane and far from
+the LAT candidate location.  At ~48 minutes into this one hour window
+(518583038.924 MET / 2017-06-08 02:50:33.924 UTC) another, spectrally
+harder, candidate was found with a duration of ~0.5 s with a False Alarm
+Rate of ~1 per 1.5 hours. An initial localization of this candidate
+indicates that the LAT candidate location is within the 2-sigma
+statistical-only confidence region.  Follow-up analysis and classification
+of this candidate is inconclusive at this time, as is any potential
+association with the LAT candidate.  Absent of any GBM counterpart to the
+LAT candidate, we set a 3-sigma, 1-second-averaged flux upper limit that
+ranges from 4.7e-7 to 5.6e-7 erg/s-cm^2 during this time window.
+
+[1] C. Wilson-Hodge et al. 2012, ApJS, 201, 33
+[2] L. Blackburn et al. 2015, ApjS 217, 8
+[3] A. Goldstein et al. arXiv:1612.02395

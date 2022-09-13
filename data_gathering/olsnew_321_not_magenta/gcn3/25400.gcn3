@@ -1,0 +1,83 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25400
+SUBJECT: LIGO/Virgo S190814bv: No strong counterpart candidates in Swift/XRT observations
+DATE:    19/08/19 13:58:13 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+P.A. Evans (U. Leicester), J.A. Kennea (PSU), A. Tohuvavohu (PSU), S.D.
+Barthelmy (NASA/GSFC), A.P. Beardmore (U. Leicester), M.G. Bernardini
+(INAF-OAB), A.A. Breeveld (UCL-MSSL), P. Brown (TAMU), D.N. Burrows
+(PSU), S. Campana (INAF-OAB), S.B. Cenko (NASA/GSFC), G. Cusumano
+(INAF-IASF PA), A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB), V.
+D'Elia(ASDC), S.W.K. Emery (UCL-MSSL), P. Giommi (ASI), C. Gronwall
+(PSU), D. Hartmann (U. Clemson), H.A. Krimm (CRESST/GSFC/USRA), N.P.M.
+Kuin (UCL-MSSL), A.Y. Lien (GSFC/UMBC), F.E. Marshall (NASA/GSFC), A.
+Melandri (INAF-OAB), J.A. Nousek (PSU), S.R. Oates (U. Warwick), P.T.
+O'Brien (U. Leicester), J.P. Osborne (U. Leicester), C. Pagani (U.
+Leicester), K.L. Page (U.Leicester), M.J.Page (UCL-MSSL), D.M. Palmer
+(LANL), M. Perri (ASDC), J.L. Racusin (NASA/GSFC), B. Sbarufatti
+(INAF-OAB/PSU), M.H. Siegel (PSU), G. Tagliaferri (INAF-OAB), E. Troja
+(NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+Swift has carried out 451 observations of the LVC error region for the
+GW trigger S190814bv convolved with the 2MPZ catalogue (Bilicki et al.
+2014, ApJS, 210, 9), using 128 fields from the 'bayestar' GW
+localisation map and 323 fields from the 'LALInference.v1' GW
+localisation map. As these are 3D skymaps, galaxy distances were taken
+into account in selecting which ones to observe. The observations
+currently span from 11 ks to 385 ks after the LVC trigger, and the XRT
+has covered 20.1 deg^2 on the sky (corrected for overlaps). This
+covers 81% of the probability in the 'LALInference.v1' skymap, and 89%
+after convolving with the 2MPZ galaxy catalogue, as described by Evans
+et al. (2016, MNRAS,  462, 1591). Using the earlier  'bayestar' skymap
+our observations cover 70% of the probability (78% when convolved).
+Approximately 40% of the fields, covering 60% of the (galaxy convolved) 
+GW probability, have been observed more than once.
+
+We have detected 40 X-ray sources. Each source is assigned a rank of
+1-4 which describes how likely it is to be related to the GW trigger,
+with 1 being the most likely and 4 being the least likely. The ranks
+are described at https://www.swift.ac.uk/ranks.php.
+
+We have found:
+
+   * 0 sources of rank 1
+   * 0 sources of rank 2
+   * 17 sources of rank 3
+   * 23 sources of rank 4
+
+The Swift-XRT observations also covered the locations of 17 sources
+reported by other observers, thus:
+
+* DG19dnjlc (GCN25393)		F < 1.7x10^-12 erg cm^-2 s^-1.
+* DG19gcwjc (GCN25393)		F < 2.2x10^-12 erg cm^-2 s^-1.
+* DG19hqpgc (GCN25362)		F < 4.2x10^-13 erg cm^-2 s^-1.
+* DG19kxdnc (GCN25393)		F < 1.1x10^-12 erg cm^-2 s^-1.
+* DG19qabkc (GCN25362)		F < 2.9x10^-12 erg cm^-2 s^-1.
+* DG19rtekc (GCN25393)		F < 1.6x10^-12 erg cm^-2 s^-1.
+* DG19rzhoc (GCN25393)		F < 4.1x10^-12 erg cm^-2 s^-1.
+* DG19sevhc (GCN25362)		F < 4.4x10^-12 erg cm^-2 s^-1.
+* DG19tvtnc (GCN25393)		F < 4.0x10^-12 erg cm^-2 s^-1.
+* DG19tzyhc (GCN25362)		F < 1.2x10^-12 erg cm^-2 s^-1.
+* DG19wgmjc (GCN25362)		F < 4.3x10^-12 erg cm^-2 s^-1.
+* DG19wlpmc (GCN25393)		F < 4.3x10^-12 erg cm^-2 s^-1.
+* DG19wxnjc (GCN25393)		F < 3.8x10^-12 erg cm^-2 s^-1.
+* desgw-190814a (GCN25336)	F < 5.2x10^-12 erg cm^-2 s^-1.
+* desgw-190814d (GCN25373)	Matches source 26, rank 3, 7.0" away.
+* desgw-190814e (GCN25373)	F < 2.8x10^-12 erg cm^-2 s^-1.
+* desgw-190814f (GCN25398)	F < 1.0x10^-12 erg cm^-2 s^-1.
+
+Flux limits are 3-sigma upper limits on the 0.3-10 keV observed flux.
+
+For all flux conversions and comparisons with catalogues and upper
+limits from other missions, we assumed a power-law spectrum with
+NH=3x10^20 cm^-2, and photon index (Gamma)=1.7
+
+The results of the XRT automated analysis are online at
+https://www.swift.ac.uk/LVC/S190814bv
+
+Swift is currently re-observing the GW error region with longer 
+exposures to look for any late-rising emission.
+
+This circular is an official product of the Swift XRT team.
+

@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27153
+SUBJECT: LIGO/Virgo S200213t: Swift UVOT and XRT observations of ZTF20aamvmzj (AT2020cja)
+DATE:    20/02/20 13:50:37 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (U. of Birmingham),  K. L. Page (U.Leicester), A. A. Breeveld (MSSL-UCL),
+P. Brown (TAMU), M. De Pasquale (Istanbul U.), C. Gronwall (PSU), N. P. M. Kuin (UCL-MSSL),
+F. E. Marshall (NASA/GSFC), M. J. Page (UCL-MSSL),  M. H. Siegel (PSU), A. D'Ai (INAF-IASFPA),
+P. D'Avanzo (INAF-OAB), S. D. Barthelmy (NASA/GSFC), A. P. Beardmore (U. Leicester),
+D. N. Burrows (PSU), S. Campana (INAF-OAB), S. B. Cenko (NASA/GSFC), G. Cusumano (INAF-IASF PA),
+V. D’Elia (ASDC), P. A. Evans (U. Leicester),P. Giommi (ASI), D. Hartmann (Clemson U.),
+J. A. Kennea (PSU), N. J. Klingler (PSU), H. A. Krimm (NSF), A. Y. Lien (GSFC/UMBC),
+D. B. Malesani (DTU Space), A. Melandri (INAF-OAB), J. A. Nousek (PSU), P. T. O'Brien (U. Leicester),
+J. P. Osborne (U. Leicester), C. Pagani (U. Leicester), D. M. Palmer (LANL), M. Perri (ASDC),
+J. L. Racusin (NASA/GSFC),  T. Sakamoto (AGU), B. Sbarufatti (INAF-OAB/PSU), G. Tagliaferri (INAF-OAB),
+A. Tohuvavohu (U Toronto), and E. Troja (NASA/GSFC/UMCP) report on behalf of the Swift team:
+
+We report Swift/UVOT and XRT follow-up observations of ZTF20aamvmzj (AT2020cja; Kasliwal et al.,
+GCN Circ. 27051) found by Zwicky Transient Facility during the search for the EM counterpart
+of the LVC event S200213t (LIGO/VIRGO Collaboration GCN Circ. 27042). This object was also
+observed by Lulin (Li et al., GCN Circ. 27082) and spectroscopically by DBSP
+(Ho et al., GCN Circ. 27074). 
+
+Swift/UVOT and XRT observations began 6.7 days after the LIGO/VIRGO trigger (LIGO/VIRGO 
+Collaboration GCN Circ. 27042). We detect ZTF20aamvmzj in the u and UV filters only. In the
+following we give preliminary magnitudes using the UVOT photometric system (Breeveld et al. 
+2011, AIP Conf. Proc. 1358, 373):
+
+Filter   T_start(s)   T_stop(s) Exp(s)     Mag
+
+v      577293     588978    228      >19.2
+b      576882	  588576    236      >19.92
+u      576797	  588492    236      19.05 +/- 0.27
+w1     576633	  588408    472      19.46 +/- 0.30
+m2     577377	  583756    753      19.82 +/- 0.29
+w2     576967	  588902    944      19.64 +/- 0.23
+
+The magnitudes in the table are not corrected for the Galactic extinction due to the
+significant reddening of E(B-V) = 0.23 in the direction of the burst (Schlegel et al. 1998).
+
+In XRT, no source was found at the location of ZTF20aamvmzj, down to a 3-sigma upper limit of
+3.1e-3 count s^-1 in 3 ks of exposure. Assuming a power-law spectrum with NH=3x10^20 cm^-2, and
+photon index (Gamma)=1.7, this equates to a upper limit of F < 1.2x10^-13 erg cm^-2 s^-1 on
+the 0.3-10 keV observed flux.
+
+This circular is an official product of the Swift team.
+

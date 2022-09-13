@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  30483
+SUBJECT: GRB 210722A: Swift-XRT refined Analysis
+DATE:    21/07/23 14:27:18 GMT
+FROM:    Phil Evans at U of Leicester  <pae9@leicester.ac.uk>
+
+K.L. Page (U. Leicester), A.P. Beardmore (U. Leicester), P.A. Evans (U.
+Leicester), M.G. Bernardini (INAF-OAB), E. Ambrosi  (INAF-IASFPA) , M.
+Capalbi (INAF-IASFPA), J. D. Gropp (PSU), J.A. Kennea (PSU), A.
+Tohuvavohu (U. Toronto) and P. D'Avanzo report on behalf of the
+Swift-XRT team:
+
+We have analysed 6.3 ks of XRT data for GRB 210722A (D'Avanzo et al.
+GCN Circ. 30475), from 91 s to 47.1 ks after the  BAT trigger. The data
+comprise 294 s in Windowed Timing (WT) mode with the remainder in
+Photon Counting (PC) mode. Using 3301 s of PC mode data and 8 UVOT
+images, we find an enhanced XRT position (using the XRT-UVOT alignment
+and matching UVOT field sources to the USNO-B1 catalogue): RA, Dec =
+27.03023, -6.34758 which is equivalent to:
+
+RA (J2000): 01h 48m 07.26s
+Dec(J2000): -06d 20' 51.3"
+
+with an uncertainty of 2.0 arcsec (radius, 90% confidence).
+
+The late-time light curve (from T0+4.5 ks) can be modelled with a
+power-law decay with a decay index of alpha=1.31 (+0.10, -0.09).
+
+A spectrum formed from the WT mode data can be fitted with an absorbed
+power-law with a photon spectral index	of 2.20 (+/-0.05). The
+best-fitting absorption column is  4.2 (+1.0, -0.9) x 10^20 cm^-2, in
+excess of the Galactic value of 2.2 x 10^20 cm^-2 (Willingale et al.
+2013). The PC mode spectrum has a photon index of 1.84 (+0.11, -0.10)
+and a best-fitting absorption column of 3.5 (+2.4, -1.2) x 10^20 cm^-2.
+The counts to observed (unabsorbed) 0.3-10 keV flux conversion factor
+deduced from this spectrum  is 3.5 x 10^-11 (3.8 x 10^-11) erg cm^-2
+count^-1. 
+
+A summary of the PC-mode spectrum is thus:
+Total column:	     3.5 (+2.4, -1.2) x 10^20 cm^-2
+Galactic foreground: 2.2 x 10^20 cm^-2
+Excess significance: <1.6 sigma
+Photon index:	     1.84 (+0.11, -0.10)
+
+If the light curve continues to decay with a power-law decay index of
+1.31, the count rate at T+24 hours will be 0.013 count s^-1,
+corresponding to an observed (unabsorbed) 0.3-10 keV flux of 4.4 x
+10^-13 (4.8 x 10^-13) erg cm^-2 s^-1.
+
+The results of the XRT-team automatic analysis are available at
+http://www.swift.ac.uk/xrt_products/01061223.
+
+This circular is an official product of the Swift-XRT team.
+

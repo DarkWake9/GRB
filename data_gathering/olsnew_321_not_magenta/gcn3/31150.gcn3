@@ -1,0 +1,48 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31150
+SUBJECT: GRB 211106A: GECAM detection
+DATE:    21/11/30 10:08:36 GMT
+FROM:    Y Q Zhang at IHEP  <yqzhang@ihep.ac.cn>
+
+Y. Q. Zhang, S. L. Xiong, C. Cai, S. Xiao, P. Zhang, 
+C. Y. Li, S. L. Xie, X. Y. Zhao, Y. Huang, X. Y. Song,
+J. C. Liu,  Y. Zhao, Z. W. Guo, C. Zheng, W. C. Xue, C. W. Wang, 
+Q. B. Yi, B. X. Zhang,  W. X. Peng, R. Qiao, D. Y. Guo, X. B. Li, 
+X. Ma, L. M. Song, P. Wang, J. Wang, Z. Zhang, S. J. Zheng, W. Chen, 
+J. J. He, G. Y. Zhao, Y. Q. Du, H. Wu, J. Liang, Q. Luo, X. L. Zhang, 
+H. M. Zhang, Z. H. An, M. Gao, K. Gong, B. Li, C. Li, J. H. Li, 
+X. Q. Li, Y. G. Li, X. H. Liang, X. J. Liu, Y. Q. Liu, X. L. Sun, 
+Y. L. Tuo, J. Z. Wang, X. Y. Wen, Y. B. Xu, Y. P. Xu, S. Yang, 
+C. Y. Zhang, D. L. Zhang, Fan Zhang, Fei Zhang,
+X. Zhou, F. J. Lu, S. N. Zhang (IHEP)
+report on behalf of GECAM team:
+
+During the commissioning phase, GECAM-B was triggered by a short burst, 
+GRB 211106A, at 2021-11-06T04:37:31.250 UTC (denoted as T0), which was 
+also observed by Swift/BAT-GUANO (GCN #31049), Fermi/GBM Sub-Threshold
+(GCN #31055), Konus-Wind (GCN #31054), INTEGRAL/SPI-ACS (TrigID #9504)
+and IPN (GCN #31078).
+
+According to the GECAM-B light curves, this burst mainly consists of 
+two pulses with duration of about 2 s.
+
+The GECAM light curve could be found here:
+http://twiki.ihep.ac.cn/pub/GECAM/GRBList/gecamb_lc_grd_89872651.PNG
+
+GECAM location is consistent with the Swift/BAT position within the error.
+
+The time-integrated spectrum (measured from T0-0.25 s to T0+1.85 s) 
+is best fit by the power law model (in the 20 keV - 5 MeV range):
+A(E) ~ k * E^(-alpha) with alpha = 1.32 (-0.13, 0.15).
+The burst had a fluence of 6.35 (3.72, 7.05)x10^-7 erg/cm^2 (20 - 200 keV)
+during the time interval metioned above. 
+All parameters in parenthesis are for 90% confidence level.
+
+Please note that all GECAM results here are preliminary. The final analysis
+will be published in journal papers or GECAM online catalog.
+
+Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor
+(GECAM) mission consists of two small satellites (GECAM-A and GECAM-B) in
+Low Earth Orbit (600 km, 29 deg), launched on Dec 10, 2020 (Beijing Time),
+which was funded by the Chinese Academy of Sciences (CAS).
+

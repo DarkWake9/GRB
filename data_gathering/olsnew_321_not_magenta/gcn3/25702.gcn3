@@ -1,0 +1,45 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25702
+SUBJECT: Swift Trigger 924641 is an outburst from MAXI J1807+132
+DATE:    19/09/10 07:35:07 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), F. E. Marshall (NASA/GSFC),
+B. Sbarufatti (PSU) and A. Tohuvavohu (Toronto) report on behalf of
+the Neil Gehrels Swift Observatory Team:
+
+At 07:02:29 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located MAXI J1807+132 (trigger=924641).  Swift slewed immediately to the source. 
+The BAT on-board calculated location is 
+RA, Dec 272.070, +13.258 which is 
+   RA(J2000)  =  18h 08m 17s
+   Dec(J2000) = +13d 15' 27"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows several overlapping peaks
+with a total duration of about 30 sec.  The peak count rate
+was ~700 counts/sec (15-350 keV), at ~3 sec after the trigger. 
+
+The XRT began observing the field at 07:04:04.1 UT, 94.7 seconds after
+the BAT trigger. XRT found a bright X-ray source located
+at RA, Dec 272.0331, 13.2514 which is equivalent to:
+   RA(J2000)  = 18h 08m 7.94s
+   Dec(J2000) = +13d 15' 05.0"
+with an uncertainty of 5.5 arcseconds (radius, 90% containment). This
+location is 131 arcseconds from the BAT onboard position, within the
+BAT error circle, and 5.5 arcseconds from the known position of MAXI J1807+132 
+(Kennea et al., ATel #10215). No event data are yet available to 
+determine the column density using X-ray spectroscopy. 
+
+The initial flux in the 2.5 s image was 1.11e-09 erg cm^-2 s^-1 (0.2-10
+keV). 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 105 seconds after the BAT trigger. There is a bright source in
+the rapidly available 2.7'x2.7' sub-image at
+  RA(J2000)  =	18:08:07.54 = 272.03143
+  DEC(J2000) = +13:15:05.7  =  13.25159
+with a 90%-confidence error radius of about 0.61 arc sec. This position is 5.9
+arc sec. from the center of the XRT error circle. The estimated magnitude is
+16.17 with a 1-sigma error of about  0.14. No correction has been made for the
+expected extinction corresponding to E(B-V) of 0.15. 
+

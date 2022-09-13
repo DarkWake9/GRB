@@ -1,0 +1,55 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  15131
+SUBJECT: GRB 130829A: Swift detection of a burst
+DATE:    13/08/29 18:20:10 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+D. Grupe (PSU), D. N. Burrows (PSU), S. T. Holland (STScI),
+J. A. Kennea (PSU), A. Y. Lien (NASA/GSFC/ORAU),
+C. J. Mountford (U Leicester), P. T. O'Brien (U Leicester) and
+M. H. Siegel (PSU) report on behalf of the Swift Team:
+
+At 05:43:33 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 130829A (trigger=568417).  Swift could not slew to the
+burst location due to a Sun constraint.  Due to this source's apparent 
+proximity to the Galaxy NGC 4144, this was originally reported as a 
+transient and no GCN circular was issued. 
+
+Using the data set from T-239 to T+303 sec from the recent telemetry downlink,
+we report the detection of BAT GRB 130829A (trigger #568417).  
+The BAT ground-calculated position is
+RA, Dec = 182.426, 46.520 deg which is
+   RA(J2000)  =  12h 09m 42.1s
+   Dec(J2000) = +46d 31' 10.8"
+with an uncertainty of 1.3 arcmin, (radius, sys+stat, 90% containment). 
+The partial coding was 84%. 
+
+The mask-weighted light curve shows a long peak starting from ~T+34 and 
+ending at ~T+77. T90 (15-350 keV) is 42.56 +- 7.08 sec (estimated error 
+including systematics). 
+
+The time-averaged spectrum from T+30.86 to T+87.50 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.36 +- 0.12.  The fluence in the 15-150 keV band is 1.2 +- 0.1 x 10^-06 erg/cm2. 
+The 1-sec peak photon flux measured from T+50.90 sec in the 15-150 keV band
+is 0.6 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/568417/BA/
+
+The nominal (Simbad) coordinates of galaxy NGC 4144 are
+2.8 arcmin East and 3.8 arcmin North of the BAT GRB location. 
+This places the entire BAT error circle outside of the bright
+visible area of the galaxy, but the position would be consistent
+with an extended spherical halo. 
+
+Due to an observing constraint, Swift XRT or UVOT cannot observe
+this region until September 24th, 2013. 
+
+Burst Advocate for this burst is D. Grupe (dxg35 AT psu.edu). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

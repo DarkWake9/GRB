@@ -1,0 +1,47 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  16445
+SUBJECT: Konus-Wind observation of GRB 140621A
+DATE:    14/06/23 17:42:22 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, D. Frederiks, V. Pal'shin, P. Oleynik,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lyssenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+GRB 140621A (IPN triangulation: Golenetskii at al., GCN 16444)
+triggered Konus-Wind at T0=71407.498 s UT (19:50:07.498).
+
+The burst light curve shows a multipeak structure
+from ~T0-0.1 s to ~T0+6.2 s;
+the total duration of the burst is ~6.3 s.
+The emission is seen up to ~5 MeV.
+
+As observed by Konus-Wind, the burst
+had a fluence of 7.8(-1.8,+2.9)x10^-6 erg/cm2,
+and a 64-ms peak flux, measured from T0-0.064 s,
+of 5.6(-1.2,+1.3)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum (measured from T0 to T0+8.448 s)
+is best fit in the 20 keV - 15 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with alpha = -1.11 (-0.24,+0.32),
+and Ep = 740(-260,+640) keV,
+chi2 = 82/98 dof.
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.0.
+
+The spectrum near the maximum count rate
+(measured from T0-0.064 to T0+0.064 s)
+is best fit in the 20 keV - 1.5 MeV range,
+by a power law with exponential cutoff model
+with alpha = -0.20(-0.35,+0.55),
+and Ep = 340(-80,+140) keV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB140621_T71407/
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

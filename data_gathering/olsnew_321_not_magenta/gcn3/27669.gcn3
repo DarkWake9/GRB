@@ -1,0 +1,53 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27669
+SUBJECT: Konus-Wind observation of hard X-ray counterpart of the radio burst from SGR 1935+2154
+DATE:    20/04/29 15:34:34 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, D. Svinkin, A. Tsvetkova, A. Lysenko, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The short burst from SGR 1935+2154
+(INTEGRAL detection: Mereghetti et al., GCN Circ. 27668,
+Atel #13685; AGILE detection: Tavani et al., Atel #13686)
+triggered Konus-Wind at T0=52464.084 s UT (14:34:24.084)
+on 2020 April 28. The burst Earth-crossing time,
+T0Earth = 52464.444 s UTC (14:34:24.444), is consistent
+with the radio burst from SGR 1935+2154 reported in
+Scholz, ATel #13681 and Bochenek et al., Atel #13684.
+
+The light curve shows a multipeaked structure
+started at ~T0-0.2 s with a total duration of ~0.5 s.
+The emission is seen up to ~250 keV.
+
+The Konus-Wind light curve of this burst is available at
+http://www.ioffe.ru/LEA/SGRs/200428_T52464/
+
+As observed by Konus-Wind, the burst
+had a fluence of 7.63(-0.75,+0.75)x10^-7 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.004 s,
+of 9.10(-2.29,+2.29)x10^-6 erg/cm2/s
+(both in the 20 - 200 keV energy range).
+
+The burst spectrum (measured from T0 to T0+0.256 s)
+is well fit by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -0.52(-0.50,+0.57)
+and Ep = 82(-9,+12) keV (chi2 = 14/24 dof).
+
+A double blackbody function fits this spectrum equally well
+(chi2 = 15/23 dof), with
+the cold BB temperature of 9.9 (-4.3,+3.9) keV and
+the hot BB temperature of 27.4 (-5.1,+9.2) keV.
+
+The burst temporal structure and hardness differ from a
+typical SGR burst and resemble the short hard bursts
+(Ep ~ 80 - 100 keV) associated with SGR 1900+14,
+observed on 1998 October 22 at 15:40:47.4 UT and on
+1999 January 10 at 08:39:01.4 UT (Woods et al., ApJL 527,
+47, 1999, Aptekar et al., ApJSS 137, 227, 2001), suggesting
+a possibly different emission mechanism of such SGR bursts.
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

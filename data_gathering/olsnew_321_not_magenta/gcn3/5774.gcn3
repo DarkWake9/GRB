@@ -1,0 +1,56 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  5774
+SUBJECT: GRB 061004: Swift/XRT Astrometry Correction
+DATE:    06/10/31 23:38:37 GMT
+FROM:    Judith Racusin at PSU  <racusin@astro.psu.edu>
+
+J. L. Racusin (PSU), D. N. Burrows (PSU), K. L. Page (U Leicester), H. 
+Ziaeepour (UCL-MSSL), and N. Gehrels (NASA/GSFC) report on behalf of the 
+Swift XRT team:
+
+We have re-analyzed the full XRT data set of GRB 061004.  XRT observed the 
+field of GRB 061004 for a total exposure time of 61 ks between October 4 
+and October 10, 2006 in Photon Counting mode.
+
+Applying the new XRT boresight definition (Burrows et al., GCN 5750), we 
+find a boresight corrected position of RA(J2000): 06h 31m 10.68s, 
+Dec(J2000): -45d 54' 22.7", with an estimated uncertainty of 3.6 
+arcseconds (radius, 90% containment).
+
+To further improve the accuracy of this position, we performed an 
+astrometry correction using 54 ks of the total exposure time (when the 
+satellite position was stable).  In this data set we find 26 serendipitous 
+X-ray sources detected with the XIMAGE detect algorithm with S/N > 3, 5 of 
+which have near-by optical counterparts in the USNO-B1 catalog.  We match 
+these sources to obtain a best fit mean frame shift, carefully accounting 
+for several instrumental factors including exposure map correction, and 
+additional hot pixel removal.
+
+We calculate the statistical position errors using the empirical fits as 
+described in Moretti et al. (2006, A&A, 448, L9), assuming that the 
+astrometric correction removes the 3.5" systematic error normally applied 
+to XRT positions to account for errors in the star tracker attitude 
+solution.
+
+The result of this analysis leads to a mean frame shift from the 
+previously reported position (Page et al., GCN 5695), of:
+
+RA offset: +0.49s +/- 0.07s   Dec offset: +1.3"  +/- 1.0"
+
+and a new XRT astrometry corrected position of:
+
+RA(J2000):   06h 31m 10.94s
+Dec(J2000): -45d 54' 23.3"
+
+with an estimated uncertainty of 2.0 arcseconds (radius, 90% containment).
+
+This position is 5.0 arcseconds from the original refined XRT position 
+given in Page et al. (GCN 5695), 2.8 arcseconds from the boresight 
+corrected XRT position, and 5.9 arcseconds from the faint VLT optical 
+object described in Jakobsson et al. (GCN 5698).
+
+A figure comparing all of these positions is available at: 
+http://www.swift.psu.edu/images/grb061004_astrometry.gif
+
+This Circular is an official product of the Swift XRT team.
+

@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22449
+SUBJECT: Swift Trigger 811686 is probably not an astrophysical source. 
+DATE:    18/02/25 20:44:51 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@milkyway.gsfc.nasa.gov>
+
+S. D. Barthelmy (GSFC), J.D. Gropp (PSU), J. A. Kennea (PSU),
+H. A. Krimm (NSF/USRA), A. Y. Lien (GSFC/UMBC),
+K. L. Page (U Leicester), D. M. Palmer (LANL) and A. Tohuvavohu (PSU)
+report on behalf of the Neil Gehrels Swift Observatory Team:
+
+At 20:30:51 UT, the Swift Burst Alert Telescope (BAT) triggered on a noise peak
+(trigger=811686).  Swift slewed immediately. 
+The BAT on-board calculated location is 
+RA, Dec 185.609, +29.293, which is 
+   RA(J2000)  =  12h 22m 26s
+   Dec(J2000) = +29d 17' 34"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  As is typical for an image trigger, there is nothing
+significant in the real-time light curve. 
+
+The XRT began observing the field at 20:33:42.7 UT, 171.3 seconds after
+the BAT trigger. No source was detected in 406 s of promptly downlinked
+data. 
+
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 178 seconds after the BAT trigger. No credible afterglow candidate has
+been found in the initial data products. The 2.7'x2.7' sub-image covers 25% of
+the BAT error circle. The typical 3-sigma upper limit has been about 19.6 mag. 
+The 8'x8' region for the list of sources generated on-board covers 100% of the
+BAT error circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the expected extinction corresponding to E(B-V) of
+0.02. 
+
+Swift followed up on this location due to a program of verifying
+marginal detections that happen to be near the locations of
+nearby galaxies.  However, due to the low significance (6.2 sigma)
+of the image peak, the lack of a corresponding count rate increase,
+and the non-detection of an XRT counterpart, we believe that this
+is probably a statistical fluctuation and not an astrophysical source. 
+
+Further determination of the reality of this event will require the 
+full downlinked data. 
+

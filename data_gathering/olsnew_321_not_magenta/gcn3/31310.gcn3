@@ -1,0 +1,42 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31310
+SUBJECT: GRB 211225A: MITSuME Akeno optical upper limits
+DATE:    21/12/26 13:16:55 GMT
+FROM:    Naohiro Ito at Tokyo Tech  <n.ito@hp.phys.titech.ac.jp>
+
+N. Ito, R. Hosokawa, M. Niwano, K. L. Murata, Y. Imai, Y. Takamatsu,
+R. Yamaguchi, R. Noto, S. Sato, M. Takaku, Y. Yatsu, and N. Kawai
+(Tokyo Tech) report on behalf of the MITSuME collaboration:
+
+We performed tiling observations for the MAXI/GSC error region of GRB
+211225A, MAXI J0827-071 (T. Kurihara et al. GCN Circular #31303, V.
+Lipunov et al. GCN Circular #31304) with an optical tri-color (g', Rc,
+and Ic) camera attached to the MITSuME 50 cm telescope Akeno.
+
+The follow up observation started at 2021-12-25 12:43:40 UT, 9.4 hours
+after the trigger.
+
+Our tiling observation covered almost ~90% of the MAXI/GSC elliptical
+error region (GCN Circular #31303). Comparing our co-added images with
+the GSC2.3 catalog, we found no optical transients in the observed
+region. The 5-sigma upper limits of the co-added images are listed
+below.
+
+Field num. | center position (R.A., Dec.) | size of field
+(R.A.(arcmin) x Dec.(arcmin)) | 5-sigma upper limit | MID-UT (UT) |
+exposure time (sec)
+--------------------------------------------------------------------------------------------------------------------------
+Field 00 | 8:27:04, -7:19:28 | 25.1 x 24.8 | g'>18.1, Rc>18.4, Ic>17.9
+| 2021-12-25 15:30:02 | 1260
+Field 01 | 8:28:39, -7:19:27 | 26.1 x 25.1 | g'>18.1, Rc>18.4, Ic>17.6
+| 2021-12-25 15:36:28 | 1380
+Field 02 | 8:27:01, -6:54:21 | 26.3 x 24.0 | g'>18.3, Rc>18.7 |
+2021-12-25 16:31:42 | 2400
+Field 03 | 8:28:37, -6:54:57 | 26.3 x 24.6 | g'>18.0, Rc>18.4, Ic>17.8
+| 2021-12-25 16:48:59 | 1620
+--------------------------------------------------------------------------------------------------------------------------
+We used PS1 catalog for flux calibration. The magnitudes are expressed
+in the AB system. The images were processed in real-time through the
+MITSuME GPU reduction pipeline (Niwano et al. 2021, PASJ, Vol.73,
+Issue 1, Pages 4-24; https://github.com/MNiwano/Eclaire).
+

@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6360
+SUBJECT: GRB 070429B: Swift XRT refined analysis
+DATE:    07/04/29 13:19:19 GMT
+FROM:    Andy Beardmore at U Leicester  <apb@star.le.ac.uk>
+
+A.P. Beardmore, K.L. Page, P.A. Evans, R.L.C. Starling (U. of Leicester),
+C. Guidorzi (INAF-OAB, Univ. Bicocca), and C. Markwardt (GSFC/UMD) report 
+on behalf of the Swift XRT team :
+
+We have analysed the first three orbits of Swift XRT data from
+GRB 070429B (trigger number 277582, Markwardt et al. GCN circular
+6358), which has a total photon counting mode exposure of 5.8ks.  Due
+to a delayed slew because of an Earth-limb constraint, the XRT arrived 
+on the source 244s after the BAT trigger. The tentative X-ray source
+identified in GCN 6358 is clearly detected in the first orbit of data,
+and is absent thereafter.  The refined XRT position from 2.4ks of data 
+in the first orbit is
+   RA, DEC (J2000) = 328.0159, -38.8284
+which is
+   RA(J2000)  =  21d 52m 03.82s
+   DEC(J2000) = -38d 49' 42.2"
+with an uncertainty of 5.1 arcsec (radius, 90% containment).
+This is 61 arcsec from the inital BAT position and 6.2 arcsec 
+from the initial X-ray position reported in GCN 6358.
+
+An XRT light curve created from the first orbit of data, binned with
+a minimum of 10 counts/bin, reveals a decaying source. A powerlaw
+fit yields a poorly constrained decay slope of 0.94+/-0.47.
+
+The X-ray spectrum from the first orbit (covering 254 to 2691 seconds
+after the BAT trigger), modelled with an absorbed powerlaw and fit
+using Cash statistics, gives a photon index of 2.5+1.3-1.2.  An upper
+limit of 5.9e21 cm^-2 on the column density was found, compared with
+the Galactic value of 1.8E+20 cm^-2 in this direction.  The absorbed
+(unabsorbed) 0.3-10.0keV flux for this spectrum was 5.9E-13 (1.1E-12)
+ergs cm^-2 s^-1.
+
+Assuming the source continues to decay at the same rate, we predict an
+XRT count rate of 3.0e-4 count/s at T+24 hours, which corresponds to an
+observed (unabsorbed) flux of 1.5E-14 (2.8E-14) ergs cm^-2 s^-1.
+
+This circular is an official product of the Swift XRT team.
+

@@ -1,0 +1,37 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  4848
+SUBJECT: GRB 060306: Swift detection of a bright burst
+DATE:    06/03/06 01:24:47 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <Scott@lheamail.gsfc.nasa.gov>
+
+L. Angelini (GSFC), S. Barthelmy (GSFC), D. Burrows (PSU),
+M. Chester (PSU), J. Cummings (GSFC/ORAU), N. Gehrels (GSFC),
+M. Goad (U Leicester), H. Krimm (GSFC/USRA), F. Marshall (GSFC),
+D. Palmer (LANL)
+on behalf of the Swift team:
+
+At 00:49:10 UT, Swift-BAT triggered and located GRB 060306 (trigger=200638).
+The spacecraft slewed immediately.  The BAT on-board calculated location is
+RA,Dec 41.099d,-2.153d {02h 44m 24s,-02d 09' 10"} (J2000), with an uncertainty
+of 3 arcmin (radius, 90% containment, stat+sys).  The BAT light curve shows
+a multi-peak structure with a total duration of 30 sec.  The peak count rate
+was ~8000 counts/sec (15-350 keV), at ~1 seconds after the trigger.
+
+The XRT began observing the field at 00:50:38 UT (88 sec after the trigger).
+The XRT found a bright, fading, uncataloged X-ray source at 
+RA(J2000)  = 2h 44m 22.7s
+Dec(J2000) = -2d 8' 54"
+with an estimated uncertainty of 5.4" (90% radius).  This position is
+24 arcseconds from the BAT position.  The initial flux is 1.2E-9 ergs/cm2/sec.
+
+UVOT took a finding chart exposure of 200 seconds with the V filter starting
+93 seconds after the BAT trigger.  No afterglow candidate has been found
+in the initial data products.  The 2.7'x2.7' sub-image covers 100% of the
+XRT error circle.  The 3-sigma upper limit is 18.4 mag.  The 8'x8' region
+for the list of sources generated on-board covers 100% of the XRT
+error circle.  The list of sources is typically complete to about 18.0 mag.
+No correction has been made for the expected extinction of about 0.1 magnitudes.
+
+We are currently in the Malindi downlink gap, and so we will not receive
+the complete data set for another 6 hours.
+

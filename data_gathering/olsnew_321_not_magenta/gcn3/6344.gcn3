@@ -1,0 +1,38 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  6344
+SUBJECT: Konus-Wind observation of GRB 070420
+DATE:    07/04/23 15:22:20 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 070420 (Stamatikos et al., GCN 6330; Parsons et al., GCN 
+6342), triggered Konus-Wind at T0=22693.706 s UT (06:18:13.706).
+
+The burst started at T-T0 ~-50 s and had a duration of ~120 s.
+As observed by Konus-Wind the burst
+had a fluence of 2.64(-0.88, +0.11)x10^-5 erg/cm2,
+and a 256-ms peak flux measured from T0-0.144 s
+1.28(-0.29, +0.19)x10^-6 erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+
+The spectrum of the most intense part integrated from T0 to T0+16.640 s
+is well fitted (in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) * exp(-(2-alpha)*E/Ep)
+with alpha = 1.08(-0.13, +0.12)
+and Ep = 167(-16, +20) keV (chi2 = 40/52 dof).
+The fluence of this part is 1.06(-0.19, +0.04)x10^5 erg/cm2.
+
+The spectrum integrated from T0 to T0+65.792 s
+is well fitted (in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model
+with alpha = 1.23(-0.18, +0.17)
+and Ep = 147(-19, +29) keV (chi2 = 54/52 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB070420_T22693/
+

@@ -1,0 +1,41 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5141
+SUBJECT: GRB 060515 BAT refined analysis
+DATE:    06/05/15 17:24:44 GMT
+FROM:    Jay R. Cummings at NASA/GSFC/Swift  <jayc@milkyway.gsfc.nasa.gov>
+
+E. Fenimore (LANL), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/ORAU), N. Gehrels (GSFC),
+D. Hullinger (BYU-Idaho), H. Krimm (GSFC/USRA), M. Koss (GSFC/UMD),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC),
+T. Sakamoto (GSFC/ORAU), G. Sato (GSFC/JSPS/USRA), 
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), 
+on behalf of the Swift-BAT team:
+
+Using the data set from T-239 to T+360 sec from recent telemetry
+downlinks, we report further analysis of BAT GRB 060515
+(trigger #210084)  (Cummings, et al., GCN 5132).  The BAT ground-
+calculated position is
+(RA,Dec) = 127.295, 73.562 deg {8h 29m 10.7s, 73d 33' 43.2"} (J2000)
++- 1.5 arcmin, (radius, sys+stat, 90% containment).  This position
+is 0.7 arcmin from the onboard-calculated position and 0.3 arcmin
+from the XRT refined position (Page et al. GCN 5139).  The partial 
+coding was 38%.
+ 
+The light curve shows a single weak, long FRED peak.  T90 (15-350 keV)
+is 52 +- 8 sec (estimated error including systematics). There is no
+indication of emission in the BAT energy band after T+70.  As noted
+earlier, Swift did not slew to the burst because of an Earth limb
+constraint.  At T+140 sec, Swift executed a preplanned slew away from 
+the burst, which was then in the extreme partially coded field of view,
+so constraints on emission are poor.  After T+360, Swift entered the 
+SAA and we have no further information on any possible extended 
+emission.
+ 
+The time-averaged spectrum from T+0.2 to T+57.5 is best fit by
+a simple power-law model.  The power-law index of the time-averaged
+spectrum is 1.15 +- 0.15.  The fluence in the 15-150 keV band is
+1.4 +- 0.1 x 10^-6 erg/cm2.  The 1-sec peak photon flux measured
+from T+5.58 sec in the 15-150 keV band is 0.8 +- 0.2 ph/cm2/sec.  All
+the quoted errors are at the 90% confidence level.
+

@@ -1,0 +1,219 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26219
+SUBJECT: LIGO/Virgo S191109d: No significant candidates in FRAM-TAROT-GRANDMA observations
+DATE:    19/11/10 22:12:12 GMT
+FROM:    Nelson Christensen at Obs.de la Cote dAzur,Nice  <nelson.christensen@oca.eu>
+
+N. Christensen (Artemis), M. Coughlin (Caltech), W. Lin (THU), C.
+Stachie (Artemis), S. Karpov, M. Masek, M. Prouza (FZU), M. Boer
+(Artemis), L. Eymar (Artemis), A. Klotz (IRAP), K. Noysena (Artemis,
+IRAP), S. Antier (APC), A. Coleiro (APC), D. Corre (LAL), D. A. Kann
+(HETH/IAA-CSIC), D.Coward (OzGrav-UWA), J.G. Ducoin (LAL), B. Gendre
+(OzGrav-UWA), N.Kochiashvili (Iliauni), P. Hello (LAL), C. Lachaud
+(APC), N. Leroy (LAL), C. C. Thoene (HETH/IAA-CSIC), D. Turpin (NAOC),
+X. Wang (THU)
+
+report on behalf of the FRAM network, TAROT network
+and GRANDMA collaborations:
+
+We performed tiled observations of the LIGO/Virgo S191109d event with
+the FRAM-Auger (FRAM-A), FRAM-CTA-N (FRAM-C), TAROT-Reunion (TRE),
+TAROT-Calern (TCA) and TAROT-Chili (TCH) telescopes operating
+in the r-band and visible located respectively at
+Pierre Auger observatory (Malargue, Argentina), Roque de los Muchachos
+observatory (La Palma, Spain), Les Makes astronomical
+observatory, the Cote d'Azur observatory and La Silla ESO
+observatory (LaS/ESO).
+
+The observation started on 11/09/19 01:32:55 UTC for FRAM-CTA-N which
+corresponds approximately to 26 minutes after the  GW trigger time.
+
+The observation started on 11/09/19 06:45:28 UTC for FRAM-Auger which
+corresponds approximately to 339 minutes after the GW trigger time.
+
+The observation started on 11/09/19 21:21:00 UTC for TRE which
+corresponds approximately to 1214 minutes after the GW trigger time.
+
+The observation started on 11/09/19 02:09:58 UTC for TCA which
+corresponds approximately to 63 minutes  after the GW trigger time.
+
+The observation started on 11/10/19  06:34:37 UTC for TCH which
+corresponds approximately to 1768 minutes after the GW trigger time.
+
+We performed the following joint tiled observations [1]:
+
++-------+------------+------------+---------+---------+---------+
+| Tele  | TStart     | TEnd       | RA      | DEC     |   Proba |
+| scope | [UTC]      | [UTC]      | [deg]   | [deg]   |     [%] |
+|-------+------------+------------+---------+---------+---------|
+|FRAM-A | 2019-11-09 | 2019-11-09 | 192.906 | -44.27  |	  0.1   |
+|       | 06:45:28   | 06:49:55   |	    | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 193.103 | -45.243 |	  0.1   |
+|       | 06:50:30   | 06:54:57   |	    | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 188.83  | -44.27  |	  0.1   |
+|       | 06:55:33   | 07:00:00   |	    | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 200     | -45.243 |	  0.1   |
+|       | 07:07:59   | 07:12:26   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 198.621 | -45.243 |	  0.1   |
+|       | 07:13:01   | 07:17:28   |	    | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 194.483 | -45.243 |	  0.1   |
+|       | 07:18:04   | 07:22:31   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 196.981 | -44.27  |	  0.1   |
+|       | 07:23:07   | 07:27:34   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 197.241 | -45.243 |	  0.1   |
+|       | 07:28:09   | 07:32:36   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 198.34  | -44.27  |	  0.1   |
+|       | 07:33:11   | 07:37:38   |	    | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 195.623 | -44.27  |	  0.2   |
+|       | 07:38:13   | 07:42:40   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 195.862 | -45.243 |	  0.1   |
+|       | 07:43:14   | 07:47:41   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 205.517 | -45.243 |	  0.2   |
+|       | 07:48:20   | 07:52:47   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 202.415 | -44.27  |	  0.1   |
+|       | 07:53:21   | 07:57:48   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 203.774 | -44.27  |	  0.2   |
+|       | 07:58:24   | 08:02:51   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 202.759 | -45.243 |	  0.2   |
+|       | 08:03:26   | 08:07:53   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 201.379 | -45.243 |	  0.2   |
+|       | 08:08:27   | 08:12:54   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 204.138 | -45.243 |	  0.2   |
+|       | 08:13:30   | 08:17:57   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 201.057 | -44.27  |	  0.1   |
+|       | 08:18:32   | 08:22:59   |	    | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 205.132 | -44.27  |	  0.1   |
+|       | 08:23:34   | 08:28:01   |         | 	      |	        |
+|FRAM-A | 2019-11-09 | 2019-11-09 | 199.698 | -44.27  |	  0.1   |
+|       | 08:28:37   | 08:33:04   |         | 	      |	        |
+|-------+------------+------------+---------+---------+---------|
+|FRAM-C | 2019-11-09 | 2019-11-09 | 132.926 | 4.045   |   0.03  |
+|       | 01:32:55   | 02:36:07   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 137.472 | -5.243  |   0.03  |
+|       | 01:37:17   | 04:08:52   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 135.714 | -2.833  |   0.03  |
+|       | 01:56:58   | 02:01:04   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 134.788 | -0.649  |   0.03  |
+|       | 02:01:20   | 02:05:26   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 135.874 | -2.409  |   0.03  |
+|       | 02:05:53   | 02:09:59   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 135.324 | -1.086  |   0.03  |
+|       | 02:10:14   | 02:14:20   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 135.662 | -1.96   |   0.03  |
+|       | 02:14:34   | 02:18:40   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 135.549 | -1.523  |   0.02  |
+|       | 02:18:54   | 02:23:00   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 135.324 | -0.212  |   0.03  |
+|       | 02:23:15   | 02:27:21   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 134.788 | 0.874   |   0.03  |
+|       | 02:27:36   | 02:31:42   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 133.202 | 3.383   |   0.03  |
+|       | 02:36:33   | 02:40:39   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 133.202 | 2.846   |   0.03  |
+|       | 02:40:54   | 02:45:00   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 133.914 | 0.986   |   0.03  |
+|       | 02:45:21   | 02:49:27   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 133.914 | 1.973   |   0.03  |
+|       | 02:49:43   | 02:53:49   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 135.549 | -0.649  |   0.03  |
+|       | 02:54:05   | 02:58:11   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 134.451 | 0.225   |   0.03  |
+|       | 02:58:27   | 03:02:33   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 137.976 | -6.878  |   0.03  |
+|       | 03:51:16   | 03:55:22   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 137.415 | -5.891  |   0.03  |
+|       | 03:55:38   | 03:59:44   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 136.429 | -3.707  |   0.03  |
+|       | 04:00:19   | 04:04:25   |         |         |         |
+|FRAM-C | 2019-11-09 | 2019-11-09 | 136.264 | -3.27   |   0.03  |
+|       | 04:09:18   | 04:13:23   |         |         |         |
+|-------+------------+------------+---------+---------+---------|
+|  TRE  | 2019-11-09 | 2019-11-09 | 135     | 0       |     1.4 |
+|       | 21:21:00   | 21:27:23   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-10 | 129.767 | 12.273  |     1.1 |
+|       | 21:40:11   | 00:16:41   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-09 | 142.326 | -12.273 |     1.1 |
+|       | 21:53:22   | 21:59:39   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-09 | 148.5   | -24.545 |     1.1 |
+|       | 22:05:48   | 22:12:05   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-09 | 132.414 | 8.182   |     1.1 |
+|       | 22:18:57   | 22:25:21   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-09 | 155.676 | -32.727 |     1   |
+|       | 22:31:13   | 22:37:31   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-09 | 140.69  | -8.182  |     1   |
+|       | 22:44:28   | 22:50:51   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-09 | 141.429 | -16.364 |     1   |
+|       | 22:57:03   | 23:03:20   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-09 | 135     | 4.091   |     0.9 |
+|       | 23:10:02   | 23:16:19   |         |         |         |
+|  TRE  | 2019-11-09 | 2019-11-09 | 185.806 | -45     |     1.6 |
+|       | 23:44:52   | 23:51:15   |         |         |         |
+|-------+------------+------------+---------+---------+---------|
+|  TCA  | 2019-11-09 | 2019-11-10 | 126.664 | 14.867  |     0.2 |
+|       | 02:09:58   | 02:46:56   |         |         |         |
+|  TCA  | 2019-11-09 | 2019-11-10 | 129.459 | 15.298  |     0.2 |
+|       | 02:16:42   | 05:23:09   |         |         |         |
+|  TCA  | 2019-11-09 | 2019-11-10 | 126.758 | 13.012  |     0.1 |
+|       | 03:40:47   | 01:47:23   |         |         |         |
+|  TCA  | 2019-11-09 | 2019-11-10 | 128.009 | 16.723  |     0.2 |
+|       | 04:33:53   | 05:10:44   |         |         |         |
+|  TCA  | 2019-11-09 | 2019-11-10 | 126.084 | 16.723  |     0.2 |
+|       | 22:38:39   | 03:45:32   |         |         |         |
+|  TCA  | 2019-11-09 | 2019-11-10 | 126.167 | 20.434  |     0.2 |
+|       | 22:58:04   | 04:04:42   |         |         |         |
+|  TCA  | 2019-11-10 | 2019-11-10 | 137.565 | -0.928  |     0.2 |
+|       | 01:02:28   | 03:38:47   |         |         |         |
+|  TCA	| 2019-11-10 | 2019-11-10 | 132.027 | 0.022   |     0.2 |
+|       | 01:21:38   | 03:57:57   |         |         |         |
+|  TCA	| 2019-11-10 | 2019-11-10 | 144.385 | -15.298 |     0.2 |
+|       | 02:20:50   | 04:57:14   |         |         |         |
+|  TCA	| 2019-11-10 | 2019-11-10 | 126.756 | 18.579  |     0.2 |
+|       | 03:06:18   | 03:12:38   |         |         |         |
+|  TCA	| 2019-11-10 | 2019-11-10 | 128.991 | 7.445   |     0.2 |
+|       | 03:25:40   | 03:31:59   |         |         |         |
+|  TCA	| 2019-11-10 | 2019-11-10 | 145.227 | -24.102 |     0.1 |
+|       | 04:05:08   | 04:07:08   |         |         |         |
+|-------+------------+------------+---------+---------+---------|
+|  TCH  | 2019-11-10 | 2019-11-10 | 144.95  | -17.273 |     0.3 |
+|       | 06:34:37   | 06:40:55   |         |         |         |
+|  TCH  | 2019-11-10 | 2019-11-10 | 196.161 | -43.595 |     0.4 |
+|       | 08:12:47   | 08:19:06   |         |         |         |
+|  TCH  | 2019-11-10 | 2019-11-10 | 184.931 | -42.252 |     0.3 |
+|       | 08:38:39   | 08:44:58   |         |         |         |
++-------+------------+------------+---------+---------+---------+
+TStart and TEnd refers respectively to the time of the first and last
+exposure for a given tile. Observations are not necessarily continuous
+in this interval.
+The Probability refers to the 2D spatial probability of the GW skymap
+enclosed in a given tile.
+
+Each FRAM-Auger tile is 1.0x1.0 degrees and 0.45x0.45 degrees for
+FRAM-CTA-N.
+Each TRE tile is 4.2x4.2 degrees and 1.9x1.9 degrees for TCA and TCH.
+
+These observations cover about 17% of the cumulative probability of the
+Bayestar skymap available on Nov 9, 2019 01:15:21 UTC.
+
+The typical limiting magnitude in R (AB mode) is 16.0 and 18.0 for a
+120 s exposure for FRAM-CTA-N and FRAM-Auger, respectively.
+
+The typical limiting magnitude in AB mode is 17.0 and 18.0
+for a 60.0 s exposure for TRE and TCA/TCH, respectively.
+
+The coverage map is available at:
+https://grandma-owncloud.lal.in2p3.fr/index.php/s/utGS2Zigv2qGp8S
+
+No significant transient candidates were found during our low latency
+analysis [2,3].
+
+GRANDMA (Global Rapid Advanced Network Devoted to the Multi-messenger
+Addicts) is a network of robotic telescopes connected all over the
+world with both photometry and spectrometry capabilities for Time-
+domain Astronomy [2].
+Details on the FRAM and TAROT telescopes are available on the GRANDMA
+web pages https://grandma.lal.in2p3.fr/.
+
+[1] M. W Coughlin et al., MNRAS 2019, doi.org/10.1093/mnras/stz2485
+[2] S. Antier et al., MNRAS 2019, arXiv:1910.11261, 2019
+[3] K. Noysena et al., ApJ 2019, arXiv:1910.02770
+

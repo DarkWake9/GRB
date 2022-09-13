@@ -1,0 +1,43 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3606
+SUBJECT: GRB 050713A: XRT refined analysis
+DATE:    05/07/14 00:16:56 GMT
+FROM:    David Morris at PSU/Swift-XRT  <morris@astro.psu.edu>
+
+D. Morris, D. N. Burrows, A. Falcone, P. Roming (PSU), K. Page, M. Goad (Leicester), M. Trippico (GSFC-SSAI), F. Marshall 
+and N. Gehrels (GSFC) report on behalf of the Swift XRT team:
+
+We have analysed the first three orbits of data for GRB050713a (GCN 3581, 
+Falcone et al., 2005).  Using xrtcentoid, the refined position is:
+
+RA(J2000) = 21h 22m 09.9s
+Dec(J2000) = +77d 04' 24.2"
+
+RA(J2000) = 320.5411
+Dec(J2000) = +77.0734
+
+with an uncertainty of 6 arcsec. This is 6 arcsec from the original 
+XRT position (GCN 3581, Falcone et al., 2005).
+
+The XRT began taking data at 04:30:14UT, just 72 seconds after the BAT trigger 
+and while the prompt gamma-ray emission was still in progress. The early XRT
+lightcurve shows flares coincident with the BAT reported peaks (GCN 3597,
+Palmer et al., 2005) at T+65 (caught on the tail end of the peak) and at T+105.
+A decay rate has not been determined for the first orbit due to the flaring
+nature of the emission at that point, with count rates varying between 10-300 cts/s.
+
+Data from the 2nd and 3rd orbits span the timeframe 5ks-10ks after the trigger and
+show a smoothly decaying afterglow at much lower flux, fit well by a powerlaw with
+alpha = 0.82+/- 0.11.
+
+The spectrum from all 3 orbits are well fit by an absorbed power-law with NH significantly 
+greater than the galactic value of 1.1e21
+
+gamma=2.1+/-0.05
+NH=4.5e21 ± 0.5e21
+
+The count rate at 5000s after the trigger is ~0.35 cts/s which converts to an 
+unabsorbed flux of 2.24e-11 ergs cm^-2 s^-1.
+
+
+

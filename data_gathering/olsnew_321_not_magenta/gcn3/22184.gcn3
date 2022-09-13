@@ -1,0 +1,44 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  22184
+SUBJECT: GRB 171205A: Swift-BAT refined analysis
+DATE:    17/12/05 17:49:14 GMT
+FROM:    Amy Lien at GSFC  <amy.y.lien@nasa.gov>
+
+S. D. Barthelmy (GSFC), J. R. Cummings (CPI),
+V. D'Elia (ASDC), H. A. Krimm (NSF/USRA),
+A. Y. Lien (GSFC/UMBC), C. B. Markwardt (GSFC),
+D. M. Palmer (LANL), T. Sakamoto (AGU),
+M. Stamatikos (OSU), T. N. Ukwatta (LANL)
+(i.e. the Swift-BAT team):
+
+Using the data set from T-239 to T+963 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 171205A (trigger #794972)
+(D'Elia et al., GCN Circ. 22177).  The BAT ground-calculated position is
+RA, Dec = 167.423, -12.599 deg which is
+ RA(J2000)  =  11h 09m 41.5s
+ Dec(J2000) = -12d 35' 58.0"
+with an uncertainty of 1.6 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 46%.
+
+The mask-weighted light curve shows some weak emissions with multiple
+overlapping peaks that starts at ~ T-40 s and ends at ~ T+200 s. The burst
+went out of the BAT FOV at T+478 s. T90 (15-350 keV) is 189.4 +- 35.0 sec
+(estimated error including systematics).
+
+The time-averaged spectrum from T-42.23 to T+197.80 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.41 +- 0.14.  The fluence in the 15-150 keV band is 3.6 +- 0.3 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+49.08 sec in the 15-150 keV band
+is 1.0 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+Assuming z = 0.0368 (Izzo et al., GCN Circ. 22180) and a standard cosmology model
+with H_0 = 70.5 km/s/Mpc, Omega_M = 0.274, Omega_\Lambda = 0.726 (Spergel et al. 2007),
+the isotropic energy release Eiso (in the observed 15-150 keV band) is 5.72e+49 erg.
+This Eiso is similar to other low-luminosity GRBs. For example, the Eiso
+(in the observed 15-150 keV band) for GRB060218 is 2.57e+49 erg (assuming
+T90 = 2100 s based on Campana et al. 2006) and GRB100316D has Eiso >= 3.70e+49 erg
+(assuming T90 >= 1300 s based on Starling et al. 2011).
+
+The results of the batgrbproduct analysis are available at
+http://gcn.gsfc.nasa.gov/notices_s/794972/BA/

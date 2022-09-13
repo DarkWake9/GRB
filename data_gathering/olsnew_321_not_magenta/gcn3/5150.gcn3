@@ -1,0 +1,37 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5150
+SUBJECT: GRB 060522: Swift detection of a burst with possible optical afterglow
+DATE:    06/05/22 02:47:17 GMT
+FROM:    Derek Fox at PSU  <dfox@astro.psu.edu>
+
+D. B. Fox (PSU), J. R. Cummings (NASA/ORAU), N. Gehrels (NASA/GSFC),
+S. T. Holland (GSFC/USRA), S. D. Hunsberger (PSU),
+J. A. Kennea (PSU), H. A. Krimm (GSFC/USRA),
+C. B. Markwardt (GSFC/UMD), F. E. Marshall (NASA/GSFC),
+D. C. Morris (PSU), D. M. Palmer (LANL) and
+M. Stamatikos (NASA/GSFC/ORAU) report on behalf of the Swift Team:
+
+At 02:11:18 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060522 (trigger=211117).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA,Dec 322.951, +2.876 {21h 31m 48s, +02d 52' 33"} (J2000)
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  Since this was a 64-sec BAT image trigger, there is not
+enough information in the light curve at this time to describe the time 
+profile of the burst. The peak count rate was ~500 counts/sec (15-350 keV), 
+at ~5 sec after the trigger. 
+
+The XRT began taking data at 02:13:40 UT, 142 seconds after the BAT
+trigger. The XRT on-board centroid algorithm did not find a source in
+the image, however analysis of initial downlinked data shows the
+presence of an uncatalogued point source at the following
+coordinates: RA (J2000) = 21:31:44.9, Dec(J2000) = +02:53:08.5, with
+an error radius of 4.0 arcseconds (90% containment). This source is
+61 arcseconds from the BAT position. 
+
+The UVOT began a 100 s white exposure at 02:13:47. A point source is
+detected in the XRT error circle with a white magnitude of 19.7. This
+source is not present in the DSS. The coordinates of this source are
+21:31:44.8, +02:53:10 (J2000) with an uncertainty of +/- 0.6 arcsec
+(90% containment). 
+

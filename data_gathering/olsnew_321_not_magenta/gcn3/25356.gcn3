@@ -1,0 +1,76 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25356
+SUBJECT: LIGO/VIRGO S190814bv: No candidates from Pan-STARRS and non-detection of AT2019nme 
+DATE:    19/08/15 23:15:05 GMT
+FROM:    Stephen Smartt at Queen's U/Belfast  <s.smartt@qub.ac.uk>
+
+M. Huber (IfA, Univ. of Hawaii), K. W. Smith (QUB), K. Chambers, A.
+Schulz (IfA), S. Smartt, D. R. Young, O. McBrien, J. Gillanders. S.
+Srivastav, D. O'Neil, P. Clark, S. Sim (QUB), T. de Boer, J. Bulger,
+J. Fairlamb, M. Huber, C.-C. Lin, T. Lowe, E. Magnier, R. J.
+Wainscoat, M. Willman (IfA, Univ. of Hawaii), T.-W, Chen (MPE), A.
+Rest (STScI), C. Stubbs (Harvard)
+
+We report observations of the LALInference skymap of the NSBH event
+S190814bv (The LIGO Scientific Collaboration and the Virgo
+Collaboration, 25333, 25324) with the Pan-STARRS1 telescope (Chambers
+et al. 2016, arXiv:1612.05560C). Images were taken in the PS1 i and z
+bands (Tonry et al. 2012, ApJ 750, 99).
+
+Beginning at 2019-08-15 12:40:37 UT (58710.5282) or 15.5hrs after the
+detection of S190814bv, observations started in the i-band. We used
+the updated LALInference.v1.fits.gz map for pointing coverage.
+Observations finished at 2019-08-15 15:13:38 UT.
+
+At each pointing position a dithered sequence of 45 sec i-band and
+z-band images were taken. These were combined into a single night
+stack, covering the GPC1 camera chip gaps. These dithered sequences
+were repeated, with overlaps, to map 18 square degrees of the
+LALInference.v1.gz map 90% credible region, corresponding to a summed
+probability 89% of the skymap. We did not cover the smaller
+probability blob to the south east at DEC=-32.
+
+Conditions were somewhat affected by clouds, and moon, seeing was
+around 1.2 - 1.3 arcsec. 5-sigma limiting magnitudes were around i ~
+20.8 and z ~ 20.3.
+
+The images were processed with the IPP (Magnier et al. 2016,
+arXiv:1612.05240) and difference images were produced using the
+Pan-STARRS1 Science Consortium 3Pi images as reference frames.
+Transient candidates were run through our standard filtering
+procedures, combined with a machine learning algorithm (Wright et al.
+2015, MNRAS, 449, 451) were applied and all candidates were spatially
+cross-matched with known minor planets, and major star, galaxy, AGN
+and multi-wavelength catalogues (as described in Smartt et al. 2016,
+MNRAS, 462 4094), and already reported transients in the TNS before
+S190814by.
+
+After removing these, and requiring detections in BOTH i and z-band
+stacks, we were left with two transients. Both of which we discount as
+possible counterparts.
+
+Name    | TNS Name  | RA (J2000)  | Dec (J2000) | Disc MJD |  i Mag err  | z Mag err
+PS19epf | AT2019noq | 00 48 47.88 | -25 18 23.4 | 58710.58 |  19.93 0.11 | 20.17 0.16
+PS19eph | AT2019nor | 00 49 51.99 | -24 16 17.7 | 58710.59 |  19.69 0.07 | 19.55 0.07 
+
+PS19epf is within the inner 20% contour. It is located 0.46"S 3.96"E
+from the centre of the galaxy PSO J012.1980-25.3064 (r = 18.3 Kron
+mag). The host has no measured photometric or spectroscopic redshift.
+However there are 4 separate, single night detections in the ZTF
+public stream, from Lasair (Smith et al. 2019;
+https://lasair.roe.ac.uk/object/ZTF19abkhnce/), across the last 12
+days. Hence it is most probably a SN exploding before the GW.
+
+PS19eph is within the inner 10% contour. However it is coincident with
+the core of the B=18.67 galaxy 6dF J0049520-241618 at z = 0.436522
+from NED, and hence is not likely related to S190814bv.
+
+We do not recover desgw-190814b (AT2019nme). Reported at i=19.33
+z=19.39, (58710.278) by Soares-Santos et al. GCN 25336. This is on the
+edge of our stack, but we estimate a 3-sigma limit of i~20.6 z~20.2.
+If it is real, it implies a very fast fade in i-band of 1 mag in about
+8hrs. Deeper follow-up is required, and confirmation from the DECam
+team if it is real.
+
+
+

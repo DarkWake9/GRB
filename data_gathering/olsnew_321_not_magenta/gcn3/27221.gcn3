@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27221
+SUBJECT: LIGO/Virgo S200225q: no counterpart candidate in SVOM/GWAC observations
+DATE:    20/02/26 09:41:33 GMT
+FROM:    Jirong Mao at Yunnan Obs  <jirongmao_obs@ynao.ac.cn>
+
+J. Mao (YNAO), N. Leroy (IJCLab), X. G. Wang (GXU), D. Corre (IJCLab),
+
+J. Y. Wei (NAOC)
+
+
+report on behalf of the SVOM Multi Messenger Astronomy and GWAC teams
+(http://www.svom.fr/en/svom-mma-and-gwac-team):
+
+
+We observed 6 (~900 square deg) sky regions to cover the skymap of the
+advanced LIGO/Virgo trigger S200225q (GCN # 27193), with SVOM/GWAC,
+at Xinglong Observatory. SVOM/GWAC is equipped with two sets of
+wide angle cameras:
+- FFOV cameras (FOV~900 square degrees/camera, aperture = 3.5 cm),
+- JFOV cameras (FOV~150 square degrees/camera, aperture = 18 cm).
+
+
+SVOM/GWAC currently comprises 4 FFOV cameras and 16 JFOV cameras,
+working in the unfiltered band. The observations are operated in
+time-series mode, taking one exposure every 25 seconds
+(20s exposure + 5s readout). The observed and processed regions enclosed
+an estimated 56.5% of the probability of the advanced LIGO/Virgo skymap.
+Images were taken between ~5.5 hours and ~6.5 hours
+after the GW trigger time. The coordinates of the 6 sky regions
+observed and their observation times and covered probability are
+listed below:
+
+Id    Ra      Dec    start (UTC)      end (UTC)    Proba.  Cam.
+1  05:56:47.7 65:08:15 2020-02-25 11:42:19 2020-02-25 12:33:05 0.001  JFOV
+2  07:26:34.3 52:57:54 2020-02-25 11:34:41 2020-02-25 12:02:57 0.197  JFOV
+3  06:34:13.4 31:32:25 2020-02-25 11:03:34 2020-02-25 11:31:49 0.142  JFOV
+4  06:19:52.5 30:20:19 2020-02-25 11:03:45 2020-02-25 11:31:57 0.085  JFOV
+5  07:28:23.2 63:59:54 2020-02-25 12:36:01 2020-02-25 12:36:25 0.165  JFOV
+6  07:04:46.5 36:07:24 2020-02-25 11:48:36 2020-02-25 12:32:32 0.170  JFOV
+
+
+The sky coverage map is available at:
+http://cmm.svom.cn/gwpub/O3/S200225q/S200225q.png
+(user:svomo3 pwd:gwo3).
+
+
+Weather conditions were hazy during the observations. An average 3-sigma
+limiting magnitude of 16 mag in the R band was obtained in the single
+frames. No credible new source was detected by our online pipeline during
+follow-up observations. A more detailed image analysis including
+co-addition is ongoing with our offline pipeline to search for transient
+candidates.
+

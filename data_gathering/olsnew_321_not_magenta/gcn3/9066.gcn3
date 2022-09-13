@@ -1,0 +1,57 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  9066
+SUBJECT: GRB 090401B: Swift detection of a burst
+DATE:    09/04/01 09:02:29 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+P. Schady (MSSL-UCL), S. D. Barthelmy (GSFC),
+A. P. Beardmore (U Leicester), O. Godet (U Leicester),
+H. A. Krimm (CRESST/GSFC/USRA), J. Mao (INAF-OAB),
+P. T. O'Brien (U Leicester), S. R. Oates (UCL-MSSL),
+J. P. Osborne (U Leicester), K. L. Page (U Leicester),
+D. M. Palmer (LANL), A. M. Parsons (GSFC), P. Romano (INAF-IASFPA),
+B. A. Rowlinson (U Leicester) and H. Ziaeepour (UCL-MSSL) report on
+behalf of the Swift Team:
+
+At 08:35:25 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 090401B (trigger=348152).  The BAT on-board calculated 
+location is RA, Dec 95.101d, -8.963d which is 
+   RA(J2000)  =  06h 20m 24s
+   Dec(J2000) = -8d 57' 47"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows at least four
+overlapping peaks with a total duration of ~20 seconds. 
+The peak count rate was ~55,000 counts/sec (15-350 keV), at ~8 sec
+after the trigger. 
+
+The XRT began observing the field at 08:36:37.9 UT, 73.2 seconds after
+the BAT trigger. XRT found a bright, uncatalogued X-ray source located
+at RA, Dec 95.0889, -8.9734 which is equivalent to:
+   RA(J2000)  = 06h 20m 21.33s
+   Dec(J2000) = -08d 58' 24.2"
+with an uncertainty of 4.7 arcseconds (radius, 90% containment). This
+location is 57 arcseconds from the BAT onboard position, within the BAT
+error circle. No event data are yet available to determine the column
+density using X-ray spectroscopy. 
+
+UVOT took a finding chart exposure of 150 seconds with the White      
+filter  starting 81 seconds after the BAT trigger. No credible      
+afterglow candidate has  been found in the automatic analysis. The   
+2.7'x2.7' sub-image covers 100% of  the XRT error circle. The typical 
+3-sigma upper limit has been about 19.6 mag, although we note that 
+there are two bright known sources within the XRT error circle that  
+ may be confusing source detection. One of these sources appears to   
+be brighter and slightly offset from the DSS position, suggesting the
+possible detection of the optical afterglow. However, we shall need
+more data to check for any variability. The coverage of the XRT error
+circle by the  8'x8' region for the list of  sources generated
+on-board is uncertain because the large number of sources  filled the
+available telemetry. No correction has been made for the expected 
+extinction   corresponding to E(B-V) of 0.67. 
+
+Burst Advocate for this burst is P. Schady (ps AT mssl.ucl.ac.uk). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+

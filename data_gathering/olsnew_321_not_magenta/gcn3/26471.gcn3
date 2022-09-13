@@ -1,0 +1,80 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  26471
+SUBJECT: LIGO/Virgo S191213g: Swift UVOT/XRT observations of three ZTF sources
+DATE:    19/12/17 13:49:08 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (Uni. of Birmingham), K. L. Page (U.Leicester), M. De Pasquale (Istanbul U.), 
+A. A. Breeveld (MSSL-UCL), N. P. M. Kuin (UCL-MSSL), F. E. Marshall (NASA/GSFC), 
+P. Brown (TAMU), C. Gronwall (PSU), M. J. Page (UCL-MSSL),  M. H. Siegel (PSU),
+A. D'Ai (INAF-IASFPA), P. D'Avanzo (INAF-OAB), S. D. Barthelmy (NASA/GSFC),
+A. P. Beardmore (U. Leicester), D. N. Burrows (PSU), S. Campana (INAF-OAB),
+S. B. Cenko (NASA/GSFC), G. Cusumano (INAF-IASF PA), V. D’Elia (ASDC),
+P. A. Evans (U. Leicester), P. Giommi (ASI), D. Hartmann (Clemson U.),
+J. A. Kennea (PSU), H. A. Krimm (NSF), A. Y. Lien (GSFC/UMBC),
+D. B. Malesani (DTU Space), A. Melandri (INAF-OAB), J. A. Nousek (PSU),
+P. T. O'Brien (U. Leicester), J. P. Osborne (U. Leicester), C. Pagani (U. Leicester),
+D.M. Palmer (LANL), M. Perri (ASDC), J. L. Racusin (NASA/GSFC), 
+T. Sakamoto (AGU), B. Sbarufatti (INAF-OAB/PSU), G. Tagliaferri (INAF-OAB), 
+A. Tohuvavohu (U Toronto), and E. Troja (NASA/GSFC/UMCP) 
+report on behalf of the Swift team:
+
+We report Swift/UVOT and XRT follow-up observations of 3 objects:
+ZTF19acykzsk, ZTF19acyldun and ZTF19acymixu reported by Zwicky Transient Facility
+(Andreoni et al., GCN Circ. 26424; Stein et al., GCN Circ. 26437) found during the search
+for the EM counterpart of the LVC event S191213g (LIGO/VIRGO Collaboration GCN Circ. 26402).
+ZTF19acyldun was also detected by UKIRT (Xu et al., GCN Circ. 26450). ZTF19acykzsk was
+reported to be a SN II using GMOS-N (Fremling et al., GCN Circ. 26427)
+and GRAWITA TNG (Elias-Rosa et al., GCN Circ. 26428) spectroscopy.
+
+Swift/UVOT and XRT observations began 1.6 days after the LIGO/VIRGO trigger
+(LIGO/VIRGO Collaboration GCN Circ. 26402). For the 3 ZTF objects we give
+preliminary magnitudes or 3 sigma upper limits using the UVOT photometric
+system (Breeveld et al. 2011, AIP Conf. Proc. 1358, 373) below:
+
+ZTF19acyldun:
+A point source is detected in the b, u, w1, m2 and w2 filters, but not in the v band.
+The host galaxy is detected in the v and b filters. The magnitudes have not been host subtracted.
+
+Filter   T_start(s)   T_stop(s) Exp(s)     Mag/3sigUL
+v         237713       238033    315      > 17.9
+b         236902       237062    157      18.83 +/- 0.13
+u         236737       236897    157      18.18 +/- 0.12
+w1        236413       236733    314      17.62 +/- 0.11
+m2        238037       238461    416      17.71 +/- 0.13
+w2        237068       237708    630      18.19 +/- 0.12
+
+ZTF19acymixu:
+A weak point source is detected in the b filter only.
+
+Filter   T_start(s)   T_stop(s) Exp(s)     Mag/3sigUL
+v        231843        232162    315      > 19.5
+b	 231032	       231192	 157      20.10 +/- 0.37
+u	 230867	       231027	 157      > 19.7
+w1	 230543	       230863	 315      > 19.7
+m2	 232167	       232532	 359      > 19.7
+w2	 231198	       231837	 630      > 20.3
+
+ZTF19acykzsk:
+The host galaxy is detected in all filters. At the location
+of ZTF19acykzsk (the type II SN) it is not clear if there
+is a point source, although there may be an enhancement
+in brightness. We therefore report 3 sigma upper limits:
+
+Filter   T_start(s)   T_stop(s) Exp(s)     Mag/3sigUL
+v        144979        145299    315      > 17.2
+b	 144169	       144329	 157	  > 17.8
+u	 144005	       144165	 157	  > 17.5
+w1	 143680	       144000	 315	  > 17.5
+m2	 145304	       145748	 437	  > 18.0
+w2	 144335	       144974	 630	  > 18.1
+
+The magnitudes in the tables are not corrected for the Galactic
+extinction.
+
+None of the three sources was detected by the XRT. In 2 ks of exposure
+time, the 3-sigma upper limits are as follows: 4.7e-3 count s^-1 (ZTF19acyldun),  
+5.0e-3 count s^-1 (ZTF19acymixu), 6.5e-3 count/s^-1 (ZTF19acykzsk).
+
+This circular is an official product of the Swift team.
+

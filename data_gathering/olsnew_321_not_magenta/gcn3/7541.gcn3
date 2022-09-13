@@ -1,0 +1,25 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  7541
+SUBJECT: GRB 080330: error in reported XRT position
+DATE:    08/03/30 04:36:19 GMT
+FROM:    David Burrows at PSU/Swift  <dnburrows@gmail.com>
+
+D. N. Burrows (PSU) reports on behalf of the Swift XRT team:
+
+The XRT position for GRB 080330 that was distributed in GCN Circ. 
+7537 was incorrect.   The initial on-board XRT position determined 
+immediately after the spacecraft slew was
+
+GRB_RA:          169.2707d {+11h 17m 04.9s} (J2000),
+GRB_DEC:         +30.6223d {+30d 37' 20.2"} (J2000),
+
+with a nominal error circle radius of 5.0 arcseconds.  This position 
+was 6.1 arcseconds from the UVOT position.  It appears that shortly 
+after arriving on-target, the spacecraft began slowly drifting 
+because the star tracker did not lock properly on the star 
+field.  The updated XRT position based on promptly downloaded data 
+was determined using inaccurate aspect information from the satellite 
+and was therefore incorrect.  We apologize for any confusion that 
+this may have caused.  We reiterate that the XRT position appears to 
+be consistent with the optical position.
+

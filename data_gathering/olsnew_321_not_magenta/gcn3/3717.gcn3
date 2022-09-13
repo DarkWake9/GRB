@@ -1,0 +1,67 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3717
+SUBJECT: Swift/UVOT photometry of GRB050730
+DATE:    05/07/31 20:48:41 GMT
+FROM:    Alexander Blustin at MSSL-UCL  <ajb@mssl.ucl.ac.uk>
+
+A. J. Blustin (UCL-MSSL), S. T. Holland (GSFC/USRA), A. Cucchiara (PSU),
+N. White (GSFC), D. Hinshaw (GSFC-SPSYS) on behalf of the Swift/UVOT
+team report:
+
+Swift/UVOT began observing GRB050730 at 2005-07-30T20:00:22, 119 s after
+the BAT trigger (Holland et al. GCN 3704). A bright source was detected
+in the genie image at 14h 08m 17.09s,-3d 46' 18.9" (Holland et al.
+GCN 3704). Further analysis of data returned via the Malindi ground
+station shows that this source is fading; we report the following V band
+lightcurve, including detections significant at greater than 2.8 sigma:
+
+Tmid (s) Exp (s)  Magnitude
+
+170      99.77    17.842 +/- 0.152
+300      9.78     17.473 +/- 0.380
+384      9.78     17.477 +/- 0.383
+468      9.78     16.737 +/- 0.238
+553      9.76     16.568 +/- 0.216
+637      9.76     17.119 +/- 0.302
+722      9.78     16.706 +/- 0.231
+3978     99.77    18.274 +/- 0.259
+11948    837.11   19.200 +/- 0.150
+23520    835.72   20.211 +/- 0.371
+35088    843.21   20.286 3-sigma upper limit
+
+Where Tmid is the time after trigger of the mid-point of the
+exposure.
+
+Additionally the source was detected at greater than 2.8 sigma 
+significance in the B-band in 3 images:
+
+Tmid (s) Exp (s)  Magnitude
+
+271      9.76     18.874 3-sigma upper limit
+355      9.77     18.303 +/- 0.321
+440      9.77     18.662 3-sigma upper limit
+524      9.76     18.492 +/- 0.364
+608      9.76     18.766 3-sigma upper limit
+693      9.77     18.076 3-sigma upper limit
+777      9.76     18.734 3-sigma upper limit
+10164    899.77   20.447 +/- 0.208
+21737    899.73   21.087 3-sigma upper limit
+33309    901.43   21.126 3-sigma upper limit
+
+There was no detection in U or in any of the UV filter exposures.
+The upper limits for the summed images in these bands are:
+
+Filter  T range (s) Exp (s)  3-sigma magnitude upper limit
+
+U       252-29724   2490.71  21.747
+UVW1    238-28880   3665.12  21.98
+UVM2    224-27972   3620.41  22.30
+UVW2    281-34660   2765.25  22.40
+
+where T range is the time range post-trigger over which the images
+were taken.
+
+The magnitudes are based on preliminary zero points, measured in
+orbit, and will require refinement with further calibration. All 
+magnitudes are uncorrected for Galactic reddening.
+

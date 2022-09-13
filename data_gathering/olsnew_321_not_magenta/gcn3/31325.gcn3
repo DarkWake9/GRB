@@ -1,0 +1,51 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  31325
+SUBJECT: Konus-Wind detection of the intermediate flare from SGR 1935+2154
+DATE:    21/12/28 15:49:02 GMT
+FROM:    Anna Ridnaia at Ioffe Institute  <ridnaia@mail.ioffe.ru>
+
+A. Ridnaia, D. Frederiks, A. Lysenko, D. Svinkin,
+A. Tsvetkova,  M. Ulanov, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The very bright burst from SGR 1935+2154
+(AGILE observations: Ursi et al., GCN Circ. 31296;
+Swift-BAT detection: Palmer et al., ATel #15141)
+triggered Konus-Wind at T0=13350.516 s UT (03:42:30.516)
+on 2021 December 24.
+
+The light curve shows a single pulse with a sharp(<10 ms) rise
+and a total duration of ~1.3 s.
+The emission is seen up to ~250 keV
+
+The Konus-Wind light curve of this SGR is available at
+http://www.ioffe.ru/LEA/SGRs/211224_T13350/
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.09(-0.02,+0.02)x10^-5 erg/cm2,
+and a 16-ms peak flux, measured from T0+0.640 s,
+of 1.33(-0.09,+0.09)x10^-5 erg/cm2/s
+(both in the 20 - 500 keV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+8.448 s)
+is best fit in the 20 - 250 keV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = 0.32(-0.26,+0.27)
+and Ep = 36(-1,+1) keV (chi2 = 35/29 dof).
+The 2BB fit to this spectrum yields
+the cool BB temperature kT1 = 5.2 (-1.5,+1.9) keV
+and the hot BB temperature kT2 = 11.3 (-0.6,+1.3) keV
+(chi2=37/28 dof).
+
+The rather long duration of the burst along with the
+large measured energy fluence put the burst in the class
+of "intermediate" SGR bursts. Among 43 bright bursts
+from SGR 1935+2154 detected by KW so far this event is
+the fourth most fluent. The measured spectral
+parameters are in typical range for bright short and
+intermediate SGR bursts.
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.

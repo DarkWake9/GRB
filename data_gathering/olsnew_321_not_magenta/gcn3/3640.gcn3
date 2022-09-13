@@ -1,0 +1,45 @@
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  3640
+SUBJECT: Konus-Wind observation of GRB 050717
+DATE:    05/07/18 14:22:55 GMT
+FROM:    Dmitry Frederiks at Ioffe Institute  <fred@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks, and
+T. Cline on behalf of the Konus-Wind team report:
+
+The long hard GRB 050717 (Swift-BAT trigger #146372;
+Hurkett et al., GCN 3633, 3636)
+triggered Konus-Wind at T0=37857.426s UT (10:30:57.426).
+As observed by Konus-Wind it had a steep rise and a long decaying tail.
+This tail is seen up to ~50 s after T0.
+
+The burst fluence is ~6.0x10-5 erg/cm2,
+peak flux on 64-ms time scale is ~1.2x10-5  erg/cm2 s
+(both in the 20 keV - 6 MeV energy range).
+The uncertainties in the derived fluence and peak flux are
+dominated by uncertainties in high energy part of
+the GRB's spectra
+(the fluence calculated in 20-350 keV energy range is 1.2x10-5 erg/cm2,
+which coincides with the value derived by Swift-BAT)
+
+The time-integrated spectrum (from T0 to T0+51.712 s)
+is well fitted (in 20 keV-6 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha) exp(-E/E0)
+with alpha = 1.12 (-0.17, +0.13),
+and E0 = 2150 (-1070, +2300)  keV.
+The peak energy Ep = 1890 (-760, +1600) keV.
+The spectrum can also be fitted by a GRBM (Band) model, but in this
+case the high energy photon index beta = -1.71 (-0.95, +0.21)
+and only lower limit on Ep can be found: Ep >= 900 keV.
+
+The spectrum of the main peak (from T0 to T0+5.376 s)
+is well fitted (in 20 keV-6 MeV range)
+by a power law with exponential cutoff model
+with alpha = 1.06 ± 0.10,
+and E0 = 2470 (-850, +1480)  keV.
+The peak energy Ep = 2300 (-670, +1100) keV.
+(For GRBM model, beta = -1.73 (-0.33, +0.21)).
+
+All quoted unceratinties are at 90% confidence level.
+

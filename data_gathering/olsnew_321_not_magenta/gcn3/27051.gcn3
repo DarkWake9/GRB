@@ -1,0 +1,73 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27051
+SUBJECT: LIGO/Virgo S200213t: Candidates from the Zwicky Transient Facility
+DATE:    20/02/13 07:32:59 GMT
+FROM:    Mansi M. Kasliwal at Caltech/Carnegie  <mansikasliwal@gmail.com>
+
+Mansi M. Kasliwal (Caltech), Daniel Perley (LJMU), Harsh Kumar (IITB), Igor
+Andreoni (Caltech), Kishalay De (Caltech), Viraj Karambelkar (Caltech),
+Varun Bhalerao (IITB), Erik Kool (OKC), Jesper Sollerman (OKC), Ana
+Carracedo (OKC), Michael Coughlin (U Minn), Eric Bellm (UW), Leo Singer
+(NASA GSFC), Shreya Anand (Caltech), Tomas Ahmuda (UMd)
+
+on behalf of the ZTF and GROWTH collaborations
+
+We observed the localization region of the gravitational wave trigger
+S200213t (LVC, GCN #27042) with the Palomar 48-inch telescope equipped with
+the 47 square degree Zwicky Transient Facility camera (ZTF, Bellm et al.
+2019, Graham et al. 2019).
+
+The tiling was optimally determined and triggered using the GROWTH Target
+of Opportunity marshal (Coughlin et al. 2019a, Kasliwal et al. 2019b). We
+started obtaining target-of-opportunity observations in the g-band and
+r-band beginning at 2020-02-13 04:36 UT, targeting ~77% of the enclosed
+probability based on the bayestar skymap (LVC, GCN #27042). Each exposure
+was 120s with a median depth of ~20.7 mag.
+
+The images were processed in real-time through the ZTF reduction and image
+subtraction pipelines at IPAC to search for potential counterparts (Masci
+et al. 2019). Alert filtering and follow-up coordination was undertaken by
+the GROWTH Marshal system (Kasliwal et al. 2019). The ZTF alert stream was
+also queried using the Kowalski infrastructure (Duev et al., 2019). We
+required at least 2 detections separated by at least 30 minutes to select
+against moving objects. Furthermore, we cross-matched our candidates with
+the Minor Planet Center to flag known asteroids. Candidates that passed our
+selection are:
+
++--------------+----------+-------------+--------------+--------+------+----------+-------+
+|     Name     | IAU Name |      RA     |     Dec      | filter | mag  |
+MJD    | Notes |
++--------------+----------+-------------+--------------+--------+------+----------+-------+
+| ZTF20aamvqxl |    AT2020ciy    | 01:56:57.10 | +53:40:07.97 |   r    |
+20.1 | 58892.22 | Offset from Host Galaxy |
+| ZTF20aamvnth |    AT2020cjb    | 01:13:21.05 | +49:38:43.94 |   g    |
+20.4 | 58892.20 | Offset from Host Galaxy      |
+| ZTF20aamvoxx |    AT2020cjg    | 02:37:35.78 | +26:55:14.22 |   g    |
+20.0 | 58892.21 | SDSS phot-z 0.110 +/- 0.008      |
+| ZTF20aamvtip |    AT2020cje    | 02:32:19.81 | +27:48:36.34 |   r    |
+20.6 | 58892.24 | SDSS phot-z 0.22 +/- 0.06 |
+| ZTF20aamvnat |    AT2020ciz    | 01:48:57.49 | +56:21:16.49 |   g    |
+19.0 | 58892.21 | Faint Red Counterpart in PS1      |
+| ZTF20aamvmzj |    AT2020cja    | 01:48:45.41 | +51:25:49.73 |   g    |
+20.6 | 58892.20 | Hostless       |
+| ZTF20aamvoeh |    AT2020cjc    | 02:14:00.48 | +38:56:10.74 |   g    |
+20.6 | 58892.21 | Nuclear/Stellar?       |
+| ZTF20aamvodd |    AT2020cjf    | 02:29:55.77 | +50:19:09.94 |   g    |
+19.7 | 58892.20 | Faint Red Counterpart in PS1      |
++--------------+----------+-------------+--------------+--------+------+----------+-------+
+
+We encourage follow-up to classify the candidates. We caution that these
+candidates are low Galactic latitude and the magnitudes reported are not
+extinction corrected.
+
+ZTF and GROWTH are worldwide collaborations comprising Caltech, USA; IPAC,
+USA, WIS, Israel; OKC, Sweden; JSI/UMd, USA; U Washington, USA; DESY,
+Germany; MOST, Taiwan; UW Milwaukee, USA; LANL USA; Tokyo Tech, Japan;
+IITB, India; IIA, India; LJMU, UK; TTU, USA; SDSU, USA and USyd, Australia.
+ZTF acknowledges the generous support of the NSF under AST MSIP Grant No
+1440341. GROWTH acknowledges generous support of the NSF under PIRE Grant
+No 1545949. Alert distribution service provided by DIRAC@UW (Patterson et
+al. 2019). Alert filtering and follow-up coordination is being undertaken
+by the GROWTH marshal system (Kasliwal et al. 2019). Alert database
+searches are done with using the Kowalski infrastructure (Duev et al.,
+2019) and with AMPEL (Nordin et al. 2019).

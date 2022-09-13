@@ -1,0 +1,46 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  24453
+SUBJECT: LIGO/Virgo S190510g: CLU/NED Galaxies in the Localization Volume 
+DATE:    19/05/10 13:46:34 GMT
+FROM:    David Cook at IPAC/Caltech  <dcook@ipac.caltech.edu>
+
+LIGO/Virgo S190510g: CLU/NED Galaxies in the Localization Volume
+
+David O. Cook (Caltech/IPAC), Angela Van Sistine (UW Milwaukee), Leo Singer (NASA/GSFC), Igor Andreoni (Caltech), Michael Coughlin (Caltech), Bob Aloisi (UW Milwaukee), Patrick R. Brady (UW Milwaukee), Rick Ebert (Caltech/IPAC), George Helou (Caltech/IPAC), David Kaplan (UW Milwaukee), Mansi M. Kasliwal (Caltech), Joseph M. Mazzarella (Caltech/IPAC), and Marion Schmitz (Caltech/IPAC)
+
+On behalf of the Global Relay of Observatories Watching Transients Happen (GROWTH) collaboration and the NASA/IPAC Extragalactic Database (NED) Team.
+
+We spatially cross-matched the LIGO/Virgo S190510g trigger sky localization (90% containment volume) with the Census of the Local Universe (CLU; Cook et al. 2017; arxiv:1710.05016) galaxy catalog and found 8044 galaxies within the volume. The CLU catalog is a compilation of galaxies with existing redshifts from many sources (e.g., NED, SDSS, etc) and new galaxies from a 3PI narrow-band survey to look for redshifted Halpha emission out to 200 Mpc with the Palomar Oschin 48-inch telescope (Cook et al. 2017; arxiv:1710.05016). We list here the top 20 galaxies sorted by stellar mass (Mstar) for galaxies whose location on the sky and distance falls in the 90% volume reported by the BAYESTAR probability sky map (Singer et al. 2016). We also list the dust-corrected star formation rates (SFRs) for galaxies with GALEX FUV detections and a 'nan' for those with no detection.
+
+For an extended list of galaxies in the 90% volume go to the NED Gravitational Wave Followup service at https://ned.ipac.caltech.edu/uri/NED::GWF/. This service provides downloadable galaxy lists and visualizations for candidate host galaxies. For each GW alert, these products are automatically generated and made available within minutes to expedite efficient electromagnetic followup observations. The NED top 20 list is sorted by 2MASS absolute K-band magnitude, but users can sort the entire list on a variety of other criteria (probability density, UV magnitudes, etc) after download.
+
+
+          name                ra       dec   distmpc logsfr_fuv logmstar  dP_dV
+------------------------     --------  ------- ------- ---------- -------- --------
+     2MASX J05580206-3820043  89.5083 -38.3346  141.03       1.50    11.84 1.17e-06
+              ESO 307- G 011  89.9994 -38.1782  186.91       0.14    11.62 1.14e-06
+              ESO 413- G 024  25.4956 -31.0094   83.04      -1.09    11.26 1.33e-07
+GALEXASC J132755.20+000653.7 201.9799   0.1149  198.20      -0.62    11.24 2.74e-08
+                    NGC 0612  23.4906 -36.4933  123.96       0.71    11.16 4.56e-08
+                   NGC 0526A  20.9766 -35.0655   79.52       0.74    11.12 5.77e-08
+              ESO 363- G 006  83.1713 -32.9618  193.70        nan    11.11 3.31e-08
+     2MASX J05453627-2555305  86.4012 -25.9252  188.60      -0.47    11.09 3.82e-07
+              ESO 365- G 005  94.6886 -35.3041  188.09        nan    11.09 5.73e-07
+     2MASX J05403062-3548505  85.1277 -35.8141  196.74        nan    11.09 3.94e-08
+              MCG -04-14-035  87.1797 -25.4773  181.00      -0.55    11.08 4.34e-07
+             TOLOLO 0611-379  93.3691 -37.9971  159.89       0.97    11.08 1.29e-06
+              MCG -07-13-001  89.9648 -39.1343  187.64      -0.54    11.08 2.83e-07
+     2MASX J06090797-2730329  92.2832 -27.5092  194.94        nan    11.06 3.59e-07
+                     GIN 298  86.1235 -26.0589  200.00      -0.41    11.05 3.42e-07
+              ESO 307- G 013  90.1712 -40.0445  194.07      -0.42    11.04 9.21e-08
+              ESO 364- G 033  92.1921 -33.9163  157.00        nan    11.03 6.75e-06
+              MCG -04-14-014  85.5302 -26.1982  158.50      -0.73    11.03 3.15e-07
+     2MASX J06004280-3925378  90.1783 -39.4271  194.96      -0.65    11.03 2.19e-07
+              ESO 488- G 013  86.7310 -25.6356  194.51      -0.56    11.03 3.47e-07
+
+
+Table: Top 20 galaxies in CLU that fall in the 90% probability volume for S190510g sorted by stellar mass. Column descriptions are as follows. name: galaxy name. ra: RA (J2000, decimal degrees). dec: Dec (J2000, decimal degrees). distmpc: galaxy distance (Mpc). logsfr_fuv: log10 of the star formation rate (SFR, Msun per year), derived from GALEX All Sky Kron FUV magnitudes via the prescription of Murphy et al. (2011), corrected for internal dust extinction using a combination of GALEX FUV and 22um ALLWISE fluxes (Hao et al. 2011). logmstar: log10 of the galaxy stellar mass (Msun), estimated from 3.4um ALLWISE fluxes and a mass-to-light ratio of 0.5 (McGaugh & Schombert et al. 2015).
+
+
+
+

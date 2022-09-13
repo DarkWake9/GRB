@@ -1,0 +1,36 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27144
+SUBJECT: LIGO/Virgo S200219ac: Fermi GBM transient event not confidently associated with GW signal
+DATE:    20/02/19 21:57:24 GMT
+FROM:    Rachel Hamburg at UAH  <rkh0007@uah.edu>
+
+R. Hamburg (UAH) reports on behalf of the Fermi-GBM Team:
+
+For S200219ac and using the initial BAYESTAR skymap, Fermi-GBM was
+observing 46.6% of the localization probability at event time; the southern
+lobe was Earth-occulted for GBM.
+
+There was a Fermi-GBM onboard trigger, GRB 200219B (GCN 27127),
+approximately 10 min after the LIGO/Virgo detection of the GW trigger (GCN
+27130). However due to the temporal offset and spatial inconsistency, we do
+not consider these two events associated. An automated, blind search for
+short gamma-ray bursts below the onboard triggering threshold in Fermi-GBM
+also identified no counterpart candidates +/- 1 hour around the GW event
+time.
+
+The GBM targeted search, the most sensitive, coherent search for GRB-like
+signals, was run from +/-30 s around merger time for S200219ac. The
+targeted search identified a transient at approximately T0+11 s that is
+consistent with a short GRB origin and spatially consistent with the
+initial S200219ac localization map. The SNR of this event is 5.6, and the
+False Alarm Rate for signals of this significance in GBM data is 3.0E-4 Hz.
+However, due to the weak nature of the event, the rate of events of similar
+significance in GBM, and the presence of multiple galactic transient
+signals around the time of interest, we are not confident in an association.
+
+For the interested observer, the GBM localization HEALPix file can be found
+on the Gravitational Wave Treasure Map (Wyatt et al. 2020,
+arXiv:2001.00588) at:
+http://treasuremap.space/static/S200219ac_GBM_Event1_healpix.fit.
+The skymap image can be found at:
+http://treasuremap.space/static/S200219ac_GBM_Event1_skymap.png.

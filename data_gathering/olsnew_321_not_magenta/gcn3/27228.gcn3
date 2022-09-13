@@ -1,0 +1,54 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  27228
+SUBJECT: Konus-Wind observation of GRB 200219C
+DATE:    20/02/26 19:03:50 GMT
+FROM:    Dmitry Svinkin at Ioffe Institute  <svinkin@mail.ioffe.ru>
+
+D. Svinkin, S. Golenetskii, R. Aptekar, D. Frederiks,
+M. Ulanov, A. Tsvetkova, A. Lysenko, A. Ridnaia, and T. Cline
+on behalf of the Konus-Wind team, report:
+
+The long-duration GRB 200219C
+(Fermi-GBM detection: The Fermi GBM team, GCN Circ. 27145;
+Hamburg et al., GCN Circ. 27155;
+Fermi-LAT detection: Dirirsa et al., GCN Circ. 27151;
+CALET-GBM detection: Sugita et al., GCN Circ. 27163)
+triggered Konus-Wind at T0=86229.162 s UT (23:57:09.162).
+
+The burst light curve shows a bright peak which starts at ~T0-3.4 s
+and has a duration of ~9.8 s, followed by a weaker emission
+seen up to ~T0+23 s. Total burst duration is ~27 s.
+The emission is seen up to ~4 MeV.
+
+The Konus-Wind light curve of this GRB is available at
+http://www.ioffe.ru/LEA/GRBs/GRB200219_T86229
+
+As observed by Konus-Wind, the burst
+had a fluence of 1.87(-0.11,+0.13)x10^-5 erg/cm2,
+and a 64-ms peak flux, measured from T0+3.488 s,
+of 5.40(-1.08,+1.23)x10^-6 erg/cm2/s
+(both in the 20 keV - 10 MeV energy range).
+
+The time-averaged spectrum of the burst
+(measured from T0 to T0+29.952 s)
+is best fit in the 20 keV - 2 MeV range
+by a power law with exponential cutoff model:
+dN/dE ~ (E^alpha)*exp(-E*(2+alpha)/Ep)
+with  alpha = -1.08(-0.12,+0.12)
+and Ep = 209(-21,+27) keV (chi2 = 60/61 dof).
+Fitting by a GRB (Band) model yields the same alpha and Ep,
+and an upper limit on the high energy photon index: beta < -2.6
+(chi2 = 60/60 dof).
+
+The spectrum near the maximum count rate
+(measured from T0+0.256 to T0+5.376 s)
+is best fit in the 20 keV - 4 MeV range
+by the GRB (Band) model with the following parameters:
+the low-energy photon index alpha = -0.83(-0.10,+0.12),
+the high energy photon index beta = -3.58(-6.42,+0.82),
+the peak energy Ep = 234(-22,+20) keV
+(chi2 = 62/75 dof).
+
+All the quoted errors are at the 90% confidence level.
+All the quoted values are preliminary.
+

@@ -1,0 +1,43 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25823
+SUBJECT: LIGO/Virgo S190923y: Upper limits from Fermi-GBM Observations
+DATE:    19/09/23 19:16:28 GMT
+FROM:    Bagrat Mailyan at UAH  <bm0054@uah.edu>
+
+B. Mailyan (UAH) and J. Wood (NASA) report on behalf of the Fermi-GBM Team
+and the GBM-LIGO/Virgo group
+
+For S190923y and using the initial bayestar skymap, Fermi-GBM was observing
+42.3% of the localization probability at event time.
+
+There was no Fermi-GBM onboard trigger around the event time of the
+LIGO/Virgo detection of GW trigger S190923y (GCN 25814).
+An automated, blind search for short gamma-ray bursts below the onboard
+triggering threshold in Fermi-GBM also identified no counterpart
+candidates.
+The GBM targeted search, the most sensitive, coherent search for GRB-like
+signals, was run from +/-30 s around merger time, and also identified no
+counterpart candidates.
+
+We therefore set upper limits on impulsive gamma-ray emission for the LVC
+localization region visible to Fermi at merger time.
+Using the representative soft, normal, and hard GRB-like templates
+described in arXiv:1612.02395, we set the following 3 sigma
+flux upper limits over 10-1000 keV, weighted by GW localization probability
+(in units of 10^-7 erg/s/cm^2):
+
+Timescale  soft     norm     hard
+--------------------------------------
+0.128 s:     2.2       4.1       8.8
+1.024 s:     0.74     1.3       2.4
+8.192 s:     0.26     0.4       0.79
+
+Assuming the median luminosity distance of 438 Mpc from the GW detection,
+we estimate the following intrinsic luminosity upper limits over
+the 1 keV-10 MeV energy range (in units of 10^48 erg/s):
+
+Timescale  Soft     Normal   Hard
+------------------------------------
+0.128s:      9.4         16.2     57.4
+1.024s:      3.2          5.1      15.6
+8.192s:      1.1         1.6       5.2

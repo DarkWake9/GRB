@@ -1,0 +1,84 @@
+TITLE:   GCN CIRCULAR
+NUMBER:  25922
+SUBJECT: LIGO/Virgo S190930t: Candidates from ATLAS observations and constraints on AT2019rpr and AT2019rpn
+DATE:    19/10/02 08:40:20 GMT
+FROM:    Stephen Smartt at Queen's U/Belfast  <s.smartt@qub.ac.uk>
+
+S. J. Smartt, S. Srivastav, K. W. Smith (QUB), T.-W. Chen (MPE), D. R.
+Young, M. Fulton, (QUB) L. Denneau, H. Flewelling, A. Heinze, J.
+Tonry, H. Weiland (IfA, Univ. Hawaii), A. Rest (STScI), B. Stalder
+(LSST), C. Stubbs (Harvard), O. McBrien, M. Dobson, J. Gillanders, D.
+O'Neil, P. Clark, S. Sim (QUB)
+
+We report observations of the Bayestar skymap of the NSBH event
+S190930t (The LIGO Scientific Collaboration and the Virgo
+Collaboration, GCN 25876) with the ATLAS telescope system (Tonry et
+al. 2018, PASP, 13, 164505). ATLAS is a twin 0.5m telescope system on
+Haleakala and Mauna Loa employing two filters - cyan and orange. While
+carrying out the primary mission for Near Earth Objects, we can adjust
+the schedule rapidly to point at LVC gravitational wave skymaps. The
+survey provides coverage from declination -40 to +80 every 2 nights to
+typical depths of 19.5 mag in the o-band.
+
+In this case we did not perturb the normal ATLAS sky survey footprint,
+given the large area of the Bayestar skymap. We estimate coverage
+of the 90% contour of 2451 square degrees and 14% of the total
+probability between MJD 58756.607097 and 58757.555924 (for reference,
+S190930t is reported with a discovery time 58756.60703339205 from the
+FITS header of bayestar.fits.gz).
+
+Normal survey operations provided a sequence of quads (4 x 30 sec) at
+each pointing position. The images were processed with the ATLAS
+pipeline and reference images subtracted from each one. Transient
+candidates were run through our standard filtering procedures,
+combined with machine learning algorithms (e.g. Wright et al. 2015,
+MNRAS, 449, 451). Candidates were spatially cross-matched with known
+minor planets, and star, galaxy, AGN and multi-wavelength catalogues
+(as described in Smartt et al. 2016, MNRAS, 462 4094; Stalder et al.
+2017, ApJ, 850, 149).
+
+We have reported all candidates to the IAU Transient name server.
+Candidates of note are : 
+
+Name      | ATLAS Name | RA (J2000)  | Dec (J2000) | Disc. MJD | Disc Mag | Notes
+AT2019rpq | ATLAS19wzl | 08:59:22.13 | -00:53:53.6 | 58756.61  |  17.81 o | 1. 
+AT2019rpi | ATLAS19wym | 07:41:17.77 | +03:37:18.6 | 58756.61  |  18.85 o | 2. 
+AT2019rog | ATLAS19wxr | 20:20:47.61 | +15:05:03.1 | 58757.29  |  16.77 o | 3.  
+AT2019rpt | ATLAS19xas | 08:23:32.96 | +21:20:24.7 | 58757.57  |  17.60 o | 4.
+AT2019rpj | ATLAS19wyn | 22:39:20.79 | +31:29:30.0 | 58753.49  |  19.93 o | 5.
+
+Notes on objects : 
+
+1. Host probably 2MASS 07411836+0337242; a J=14.60 mag galaxy found in
+the 2MASS XSC catalogue. It's located 5.65" S, 8.93" W, but could also
+be associated with a fainter galaxy which is closer. No previous
+observations in last 30 days due to RA and solar conjunction.
+
+2. No host detected. No previous observations in last 30 days due to RA
+and solar conjunction. 
+
+3. Very fast decline, 1 mag in 30 minutes. No host star in Pan-STARRS1 3Pi. Decline is
+similar to M-dwarf flare decline rate. 
+
+4. Host is PGC023546: transient is located 26.77" S, 17.48" W (11.7
+Kpc) from the galaxy centre. A host z=0.018 implies a distance of
+74Mpc. The distance modulus m - M = 34.46, implies M > -17, which is
+SN like.
+
+5. Detected also by ZTF in GCN 25899. We have Clear detections 3 days
+before S190930t. Host is AGC321427. Transient is located 21.00" S,
+16.40" W (17.2 Kpc) from the galaxy centre. A host distance of 133.5
+Mpc(z=0.030). Has been confirmed as type II SN (Karambelkar et al. GCN 25921). 
+
+Comments on other objects reported: 
+
+AT2019rpr (MASTER OT J205529.78+220725.5) reported by Lipunov et al. GCN 25900
+is a recurring variable/outbursting object in ATLAS and likely a Galactic CV. 
+
+AT2019rpn (ZTF19acbpqlh) has no previous detections in ATLAS. We
+observed the field on 58754, 58755, 58756, 58757, 58758 and there are
+no clear >5sigma detections above o ~ 19.5. The object is not rapidly
+rising (Tan et al. GCN 25916). Karambelkar et al. (GCN 25921) report
+possible broad H-alpha. Stacking of the ATLAS data is underway. 
+
+
