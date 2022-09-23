@@ -1,0 +1,582 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6951
+SUBJECT: GRB 071020: ROTSE-III Analysis of Optical Counterpart
+DATE:    07/10/20 08:07:20 GMT
+FROM:    Fang Yuan at ROTSE  <yuanfang@umich.edu>
+
+F. Yuan (U Mich), E.S. Rykoff (UCSB), T.A. McKay (U Mich), B. E. 
+Schaefer (Louisiana State), R. Quimby (Caltech), H. Swan (U Mich), 
+report on behalf of the ROTSE collaboration:
+
+ROTSE-IIIb, located at McDonald Observatory, Texas, responded to GRB 
+071020 (Swift trigger 294835; Holland, et al., GCN6949) and detected the 
+optical counterpart (Schaefer, et al., GCN 6948). During our first 80 
+seconds observation (starting 25.6 sec after the burst), the OT faded 
+with a decay index of 1.52 +/- 0.03.
+
+We notice that the burst location is 9.7h^-1 kpc from the central bulge 
+of SDSS J075843.38+325141.7, a galaxy with an old stellar population 
+located at z=0.0166. DR6 SDSS data suggest this galaxy as M_r ~ -19.4, 
+and a central velocity dispersion of 135 km/s.
+
+</yuanfang@umich.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6949
+SUBJECT: GRB 071020: Swift detection of a bright burst
+DATE:    07/10/20 07:18:57 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. T. Holland (CRESST/USRA/GSFC), S. D. Barthelmy (GSFC),
+W. H. Baumgartner (GSFC/UMBC), A. P. Beardmore (U Leicester),
+P. A. Evans (U Leicester), N. Gehrels (NASA/GSFC),
+C. Guidorzi (Univ Bicocca&amp;INAF-OAB), C. Pagani (PSU),
+K. L. Page (U Leicester), D. M. Palmer (LANL), A. M. Parsons (GSFC),
+T. Sakamoto (NASA/UMBC), R. L. C. Starling (U Leicester) and
+T. N. Ukwatta (GSFC/GWU) report on behalf of the Swift Team:
+
+At 07:02:26 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 071020 (trigger=294835).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is 
+RA, Dec 119.664, +32.861 which is 
+   RA(J2000)  =  07h 58m 39s
+   Dec(J2000) = +32d 51' 40"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve shows a double peak
+structure with a duration of about 5 sec.  The peak count rate
+was ~22000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+The XRT began observing the field at 07:03:28 UT, 61 seconds after the
+BAT trigger. In 268 s of promptly downlinked data XRT found a bright, fading,
+uncatalogued X-ray source located at RA, Dec 119.6656, 32.8611 which is
+   RA(J2000)  = 07 58 39.74
+   Dec(J2000) = +32 51 40.0
+with an uncertainty of 4.3 arcsec (radius, 90% containment). 
+This location is 5 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 1.8e-09 erg/cm2/s (0.2-10 keV). 
+
+There will be no UVOT data products for this burst, because it is still in
+engineering mode after the recent recovery to the new 3-gyro mode. 
+
+Burst Advocate for this burst is S. T. Holland (sholland AT milkyway.gsfc.nasa.gov). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+
+</scott@lheamail.gsfc.nasa.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6954
+SUBJECT: GRB 071020, Swift-BAT refined analysis
+DATE:    07/10/20 16:46:43 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+J. Tueller (GSFC), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), S. T. Holland (CRESST/USRA/GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), J. Norris (U. Denver),
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/UMBC),
+G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+625 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 071020 (trigger #294835)
+(Holland, et al., GCN Circ. 6949).  The BAT ground-calculated position is
+RA, Dec = 119.666, 32.857 deg, which is 
+   RA(J2000)  = 07h 58m 39.9s 
+   Dec(J2000) = 32d 51' 25" 
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 90%.
+ 
+The mask-weighted lightcurve shows at least 8 overlapping pulses in the initial
+burst.  They all have approximately the same peak flux values.  This emission
+starts at ~T-3 sec, peaks at ~T-1.5 sec, and ends at ~T+0.9 sec.
+T90 (15-350 keV) is 4.2 +- 0.2 sec (estimated error including systematics).
+
+The spectral lag for this burst is:
+59 +7-9 msec for the 150-300 to 25-50 keV bands, and
+10 +8-7 msec for the 50-100 to 15-25 keV bands.
+ 
+The time-averaged spectrum from T-3.0 to T+7.4 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.11 +- 0.05.  The fluence in the 15-150 keV band is 2.3 +- 0.1 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T-0.36 sec in the 15-150 keV band
+is 8.4 +- 0.3 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+Folding in the borderline results of the T90, the hardness ratio,
+the spectral lag, and very marginal detection of extended emission in the lightcurve;
+we think this is a Long burst, but we can not rule out the possibility
+of a SHB classification.
+
+</scott@lheamail.gsfc.nasa.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6984
+SUBJECT: GRB 071020: BTA spectroscopy 
+DATE:    07/10/24 15:00:41 GMT
+FROM:    Alberto Castro-Tirado at Inst.de Astro. de Andalucia  <ajct@iaa.es>
+
+T. A. Fatkhullin, V. V. Sokolov (SAO-RAS Nizhnij Arkhyz), S. Guziy 
+(Nikolaev St. Univ.), A. de Ugarte Postigo (ESO Santiago), D. 
+Pérez-Ramírez (Univ. de Jaén and U. Leicester), J. Gorosabel, M. Jelínek 
+and A. J. Castro-Tirado (IAA-CSIC Granada), on behalf of a larger 
+collaboration, report:
+
+"Following the detection of GRB 071020 by SWIFT (Holland et al. GCN 
+Circ. 6949)  we obtained optical spectroscopy with the 6.0m BTA 
+telescope (+SCORPIO) of the SAO-RAS.  In spite of poor weather 
+conditions (dense cirrus) we managed to get 4 x 1200s spectra of the 
+proposed optical afterglow (Schaefer et al. GCN Circ. 6948). The data 
+were taken on Oct 21.05 U.T. (i.e. 18 hr after the event), with the VPHG 
+400 grism (range 3700-9000 A).
+
+We identify absorption lines from Fe II (2344, 2586 and 2600) and 
+possibly C IV (1548-1550) and Fe II (1608), at z = 2.142 ± 0.002. This 
+confirms the lower limit to the GRB 071020 redshift derived from VLT 
+spectroscopy (Jakobsson et al., GCN Circ.  6952). Moreover, we do not 
+see any flux drop in the OA spectrum around 4300 A as the VLT spectrum 
+may suggest. However, there are indications of a flux drop at ~3870A but
+the low S/N ratio in this range prevents us to draw any further 
+conclusion."
+
+This message can be quoted.
+
+</ajct@iaa.es>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6952
+SUBJECT: GRB 071020: VLT spectroscopy
+DATE:    07/10/20 13:40:12 GMT
+FROM:    Pall Jakobsson at U Hertfordshire  <p.jakobsson@herts.ac.uk>
+
+Pall Jakobsson (U. Hertfordshire), Paul M. Vreeswijk,
+Jens Hjorth, Daniele Malesani, Johan P.U. Fynbo and 
+Christina C. Thoene (DARK, NBI) report:
+
+Using FORS2 on the Very Large Telescope, we have obtained 
+a 10 min spectrum (grism 300V) of the optical afterglow 
+(OA) of GRB 071020 (Holland et al., GCN 6949). The acquisition 
+image shows the proposed OA (Schaefer et al., GCN 6948) to 
+have R ~ 20.4 on Oct 20.377 (2.0 hours post burst).
+
+The spectrum displays Fe II (2586,2600) and the Mg II 
+doublet (2796,2803) in absorption corresponding to a redshift 
+of z = 2.145 (based on a preliminary wavelength calibration). 
+Hence, the GRB is unrelated to the nearby z = 0.0166 galaxy
+reported by Yuan et al. (GCN 6951).
+
+We note that this is a lower limit to the GRB redshift.
+There is some indication of a flux drop in the OA spectrum
+around 4300 A, implying that the GRB redshift could be 
+z ~ 2.5 if due to the Ly-alpha break.
+
+We thank the Paranal staff for excellent support, 
+especially Emanuela Pompei.
+
+</p.jakobsson@herts.ac.uk>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6978
+SUBJECT: Radio detection of GRB 071020 with the VLA
+DATE:    07/10/22 18:59:06 GMT
+FROM:    Poonam Chandra at U Virginia/NRAO  <pc8s@virginia.edu>
+
+P. Chandra (UVA/NRAO) and  D. A. Frail (NRAO) report on behalf of the
+Caltech-NRAO-Carnegie GRB Collaboration:
+
+"We observed the field centered on the XRT position of the Swift burst
+GRB 071020 (GCN 6949) using the VLA at a frequency of 8.46 GHz.
+The observations were taken at a mean time of 11.21 UT on 22nd Oct 07. 
+We detect the radio afterglow of GRB 071020 at the following position:
+RA(J2000) 07 58 39.78
+Dec(J2000) +32 51 39.56
+The flux density of the GRB is 186+/-26 uJy.
+
+
+The National Radio Astronomy Observatory is a facility of the National
+Science Foundation operated under cooperative agreement by Associated
+Universities, Inc."
+
+</pc8s@virginia.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7146
+SUBJECT: GRB071020: optical observations
+DATE:    07/12/11 22:46:19 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+S. Sergeev, V. Rumyantsev (CrAO),  A. Pozanenko (IKI) report on behalf of
+larger GRB  follow-up collaboration:
+
+We observed the optical afterglow (Schaefer et al. GCN 6948) of  GRB071020
+(Tueller et al. GCN 6954)  in I and B bands on Oct.10-11 between (UT)
+23:51:34 - 01:11:47  with AZT-8 telescope of CrAO. We detected the afterglow
+in I-band, and not detected it in B-band. Based on  SDSS stars (Cool  et al.
+GCN 6950) RA=119.66618,  Dec=32.84706; RA=119.68899,  Dec=32.84803;
+RA=119.66782, Dec=32.85465  we estimated brightness of  the optical
+afterglow on a stacked images:
+
+T0+,       Exposure,     Filter,    mag.,           UL
+(mid time)
+
+0.730 d    12x90 s        I         20.5  +/-0.3     20.5
+0.728 d   12x180 s      B               n/d            21.0
+
+The message may be cited.
+
+
+
+
+</apozanen@iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6981
+SUBJECT: Optical observations of GRB 071020
+DATE:    07/10/23 11:25:46 GMT
+FROM:    AAVSO GRB Network at AAVSO  <matthewt@aavso.org>
+
+Veli-Pekka Hentunen (Taurus Hill Observatory, Varkaus, Finland) reports to 
+the AAVSO International High Energy Network the following optical 
+observations of GRB071020 (GCN #6949, Holland et al.):
+
+Markku Nissinen, Henri Taino and Veli-Pekka Hentunen report the detection 
+of the optical afterglow of GRB 071020 (Holland et al., GCN 6949; Schaefer 
+et al., GCN 6948; Yuan et al., GCN 6951; Xin et al., GCN 6956). The 
+afterglow was observed unfiltered approximately 17 hours post-burst, using 
+a 0.3-meter Meade LX200 at Taurus Hill Observatory.  The source was 
+detected with marginal signal to noise at an unfiltered magnitude of 20.9 
++/- 0.3, with an observational mid-point time of 2007 October 20, 23:54:37 
+UT.  The magnitude is calibrated relative to GSC 0247201072 (GSC1.2) with 
+a magnitude of 13.54.  The afterglow magnitude is consistent with an 
+earlier observation by Xin et al. (GCN 6956) as well as with a later 
+observation by Im et al. (GCN 6970).
+
+The AAVSO thanks the Curry Foundation for their continued support of the
+AAVSO International High Energy Network.
+
+[GCN OPS NOTE(23oct07): Per submiter's request, "6979" was changed to "6949"
+in th 3rd line.]
+
+</matthewt@aavso.org>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7026
+SUBJECT: GRB 071020: MITSuME Akeno optical observations
+DATE:    07/10/31 11:38:14 GMT
+FROM:    Nobuyuki Kawai at Tokyo Tech  <nkawai@hp.phys.titech.ac.jp>
+
+T. Ishimura, Y. Yatsu, T. Shimokawabe, N. Kawai (Tokyo Tech) and
+M. Yoshida (NAOJ) report on behalf of the MITSuME collaboration:
+
+We observed the field of GRB 071020 (Holland et al. , GCN6949) with
+the 3-color 50cm MITSuME Telescope at Akeno, Japan from UT 16:21 to
+UT 19:53 on Oct. 20, 9.3 hours after the trigger.
+
+In the co-added images of Ic and Rc bands, we detected the optical
+afterglow reported by Schaefer et al. (GCN 6948).  Photometric
+calibration was done using the USNO-B1.0 (Ic-band) and NOMAD (g'- and
+Rc-bands) catalogs.  The results are following:
+
+Filter  start     end         Exposure      Mag
+------------------------------------------------------
+g'     16:21:13  19:53:55    149 x 60s  &gt;21.1  (3 sigma upper limit)
+Rc     16:21:13  19:53:55    149 x 60s  21.2 +/- 0.3
+Ic     16:21:13  19:53:55    149 x 60s  19.8 +/- 0.3
+------------------------------------------------------
+
+</nkawai@hp.phys.titech.ac.jp>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6979
+SUBJECT: GRB 071020: SARA observations
+DATE:    07/10/22 20:23:05 GMT
+FROM:    Adria C. Updike at Clemson U  <aupdike@clemson.edu>
+
+Adria C. Updike, Dieter H. Hartmann (Clemson University) and Todd 
+Hillwig (Valparaiso University) report on behalf of the Clemson GRB 
+Follow-Up Team:
+
+We observed the field of GRB 071020 (GCN 6949, Holland et al.) beginning 
+1 hour after the trigger with the SARA 0.9m telescope on Kitt Peak.   In 
+48 minutes of stacked exposures, we detect the afterglow (GCN 6948, 
+Schaefer et al.) in the R band at 19.7 +/- 0.2, calibrated relative to 
+10 field stars in the USNO B1.0 catalog.  Observations ended at 2 hours 
+and 11 minutes after the burst.
+
+This message may be cited.
+
+Information on the SARA observatory may be found at 
+http://astro.fit.edu/sara/sara.html .
+
+</aupdike@clemson.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6970
+SUBJECT: GRB 071020: Fading slowly?
+DATE:    07/10/22 01:04:37 GMT
+FROM:    Myungshin Im at Seoul Nat U  <mim@astro.snu.ac.kr>
+
+  M. Im, I. Lee (Seoul National University), and Y. Urata
+  (Saitama University) on behalf of the EAFON team:
+
+   Using the Mt. Lemmon (Arizona, US) 1.0m telescope
+  operated by the Korea Astronomy Space Science Institute,
+  we observed GRB071020 (GCN 6949, Holland et al.),
+  beginning at 09:01:45 UT on Oct 21. (1.0825 days after the burst).
+   We confirm the afterglow (GCN6948 Schaefer, McKay, &amp; Yuan; GCN6956,
+  Xin et al.; GCN6953, Bloom et al.).
+   Compared with the photometry in the report by Xin et al. (GCN6956),
+  our data suggest that the afterglow is not fading signficiantly over
+  the 12 hrs span and may even be brightenning by a small amount.
+   Since the target is still bright enough for small telescopes,
+  we encourage the further observations of this object.
+
+   Photometry of the object is given below.
+
+  t_start (UT)    Filter    exp (sec)    R-mag   err
+-----------------------------------------------------
+  Oct. 21,
+  09:01:45          R       15x300       20.93    0.09
+
+
+   This message may be cited.
+
+   We acknowldege the help for a series of LOAO GRB
+  observations by the LOAO operators, J.H. Yoon and I.K. Baek.
+
+
+</mim@astro.snu.ac.kr>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6950
+SUBJECT: GRB071020 - SDSS Pre-burst Observations
+DATE:    07/10/20 07:30:59 GMT
+FROM:    Richard J. Cool at U.of AZ/Steward Obs  <rcool@as.arizona.edu>
+
+Richard J. Cool (Arizona), Daniel J. Eisenstein (Arizona),
+David W. Hogg (NYU), Michael R. Blanton (NYU), David J. Schlegel
+(LBNL), J. Brinkmann (APO), Donald Q. Lamb (Chicago), Donald
+P. Schneider (PSU), and Daniel E. Vanden Berk (PSU) report:
+
+The Sloan Digital Sky Survey (SDSS) imaged the field of burst
+GRB071020 prior to the burst.  As these data should be useful
+as a pre-burst comparison and for calibrating photometry,
+we are supplying the images and photometry measurements for
+this GRB field to the community.
+
+Data from the SDSS, including 5 FITS images, 3 JPGS, and
+3 files of photometry and astrometry, are being placed at
+http://mizar.as.arizona.edu/~grb/public/GRB071020
+
+We supply FITS images in each of the 5 SDSS bands of a 8'x8'
+region centered on the GRB position (ra=119.664 (07:58:39.4),
+dec=32.8610 (32:51:39.6); Swift-BAT TRIGGER 294835), as well
+as 3 gri color-composite JPGs (with different stretches). The
+units in the FITS images are nanomaggies per pixel.  A pixel
+is 0.396 arcsec on a side. A nanomaggie is a flux-density unit
+equal to 10^-9 of a magnitude 0 source or, to the extent that
+SDSS is an AB system, 3.631e-6 Jy.  The FITS images have WCS
+astrometric information.
+
+In the file GRB071020_sdss.calstar.dat, we report photometry
+and astrometry of 741 bright stars (r&lt;20.5) within 15' of the
+burst location.  The magnitudes presented in this file are asinh
+magnitudes as are standard in the SDSS (Lupton 1999, AJ, 118,
+1406). Beware that some of these stars are not well-detected
+in the u-band; use the errors and object flags to monitor
+data quality.
+
+In the files GRB071020_sdss.objects_flux.dat and
+GRB071020_sdss.objects_magnitudes.dat, we report photometry
+of 975 objects detected within 6' of the GRB position.
+We have removed saturated objects and objects with model
+magnitudes fainter than 23.0 in the r-band.  The fluxes listed
+in GRB071020_sdss.objects_flux.dat are in nanomaggies while
+the magnitudes listed in GRB071020_sdss.objects_magnitudes.dat
+are asinh magnitudes.
+
+All quantities reported are standard SDSS photometry, meaning
+that they are very close to AB zeropoints and magnitudes are
+quoted in asinh magnitudes.  Photometric zeropoints are known
+to about 2% rms.  None of the photometry is corrected for
+dust extinction.  The Schlegel, Finkbeiner, and Davis (1998)
+predictions for this region are A_U=0.335 mag, A_g=0.246 mag,
+A_r = 0.179 mag, A_i=0.135 mag, and A_z=0.096 mag.
+
+The file GRB071020_sdss.spectro.dat contains a list of the
+3 objects with SDSS spectroscopy within 6 arcminutes of the
+GRB position.  In addition to the redshift and 1-sigma error
+for each object, this file also lists the object spectroscopic
+classification.
+
+SDSS astrometry is generally better than 0.1 arcsecond per
+coordinate.  Users requiring high precision astrometry should
+take note that the SDSS astrometric system can differ from
+other systems such as those used in other notices; we have
+not checked the offsets in this region.
+
+More detailed information pertaining to our SDSS GRB releases
+can be found in our initial data release paper (Cool et
+al. 2006, PASP 118, 733).  See the SDSS DR4 documentation for
+more details: http://www.sdss.org/dr5.
+
+These data have been reduced using a slightly different
+pipeline than that used for SDSS public data releases.
+We cannot guarantee that the values here will exactly match
+those in the data release in which these data are included.
+In particular, we expect the photometric calibrations to differ
+by of order 0.01 mag.
+
+This note may be cited, but please also cite the SDSS data
+release paper, Adelman-McCarthy et al. (2006, ApJS, 172, 634),
+when using the data or referring to the technical documentation.
+
+</rcool@as.arizona.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7006
+SUBJECT: GRB071020, optical upper limit
+DATE:    07/10/26 12:37:21 GMT
+FROM:    Eri Sonoda at U of Miyazaki/Japan  <sonoda@astro.miyazaki-u.ac.jp>
+
+R. Hara, E.Sonoda, H.hayasi, N.Ohmori, K.Kono H. Tanaka, M.Yamauchi
+(University of Miyazaki)
+
+
+We have observed the field covering the error circle of
+GRB071020 (GCN 6954, J. Tueller et al.) with
+the unfiltered CCD camera on the 30-cm telescope at
+University of Miyazaki.
+The observation was started 15:29:35 UT, ~507 min.
+after the Swift trigger time.
+
+We have compared our data of 30 sec exposures
+with the USNO-A2.0 catalog,there is no new source
+at the reported position (GCN 6948, B.E.Schaefer et al.
+GCN 6949, S.T.Holland et al. GCN 6978, P. Chandra et al.)
+
+
+the upper limits are as follows:
+--------------------------------------------------------------
+Start(UT) End(UT)	Num. of frames 	Limit (mag.)
+--------------------------------------------------------------
+15:31:27 15:31:57 	1 		~16.5
+15:31:27 16:24:39 	20 		~17.0
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+</sonoda@astro.miyazaki-u.ac.jp>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6960
+SUBJECT: Konus-Wind observation of GRB 071020
+DATE:    07/10/21 13:31:43 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+and T. Cline on behalf of the Konus-Wind team report:
+
+The long GRB 071020 (Swift-BAT trigger #294835:
+Holland et al., GCN 6949, Tueller et al., GCN 6954) triggered
+Konus-Wind at T0=25346.637 s UT (07:02:26.637).
+
+The burst light curve shows a multipeaked structure
+with a duration of ~3.5 s.
+As observed by Konus-Wind the burst
+had a fluence of 7.71(-4.76, +0.39)x10^-6 erg/cm2,
+and a 64-ms peak flux measured from T0+2.416 s
+of 6.04(-3.88, +1.12)x10^-6 erg/cm2/s
+(both in the 20 keV - 2 MeV energy range).
+
+The time-integrated spectrum of the burst
+(from T0 to T0+8.448 s) is well fitted (in the 20 keV - 2 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 0.65(-0.32, +0.27)
+and Ep = 322(-53, +80) keV (chi2 = 64.4/61 dof).
+Fitting by GRBM (Band) model yields only an upper limit
+on the high energy photon index: beta &lt; -1.97.
+All the quoted errors are at the 90% confidence level.
+
+Assuming z = 2.145 (Jakobsson et al., GCN 6952)
+and a standard cosmology model with H_0 = 70 km/s/Mpc,
+Omega_M = 0.3, Omega_\Lambda = 0.7,
+the isotropic bolometric energy release is E_iso ~8x10^52 erg, and
+the maximum bolometric luminosity is (L_iso)_max ~2x10^53 erg/s.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB071020_T25346/
+
+</val@mail.ioffe.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6955
+SUBJECT: GRB 071020: Swift-XRT refined analysis
+DATE:    07/10/20 19:03:38 GMT
+FROM:    Andy Beardmore at U Leicester  <apb@star.le.ac.uk>
+
+A.P. Beardmore, K.L. Page, P.A. Evans (U. Leicester) and S.T. Holland
+(CRESST/USRA/GSFC) report on behalf of the Swift-XRT team:
+
+The Swift-XRT began observing the BAT GRB 071020 (trigger #294835) at
+07:03:28 UT, 61 seconds after the BAT trigger.  In a 1.23ks
+exposure Photon Counting mode image obtained during the first orbit
+we find a refined XRT position of RA, Dec (J2000) = 119.66521, 32.86079 
+which is
+
+RA(J2000)  =  07:58:39.65
+Dec(J2000) = +32:51:38.8
+
+with an estimated uncertainty of 4.0 arcsec (radius, 90 percent
+containment).  This is 13.9 arcsec from the refined BAT position
+(Tueller et al., GCN 6954), 4.1 arcsec from the position
+of the ROTSE-IIIb afterglow (Schaefer et al., GCN 6948), and
+2.3 arcsec from the PAIRITEL position (Bloom et al., GCN 6953).
+
+Due to a high CCD operating temperature caused by the unfavourable sky
+position of the burst, along with bright Earth activated hot-pixels,
+the XRT remained in Windowed Timing mode for orbits 2 to 5 at which
+point the initial Swift observations were halted for today. However,
+using the XRT data available at these times, the 0.3-10.0keV X-ray
+light curve from T+68s to T+17.6ks shows a powerlaw decline with a
+decay index of 1.11+/0.02.
+
+The Windowed Timing mode spectrum from the first orbit (T+68s to
+T+315s) is well fit by an absorbed powerlaw with a photon index of
+1.86+/-0.07 and a redshifted column density of (4.3+/-1.7)e21 cm^-2
+(at z=2.145, Jakobsson et al., GCN 6952), in addition to the 5.1e20
+cm^-2 galactic column density in this direction. The observed 0.3-10.0
+keV flux during this time is (6.1+/-0.2)e-10 erg cm^-2 s^-1.
+
+Assuming the X-ray light curve decays at the same rate we predict an
+XRT count rate of 0.014 count s^-1 at T+24 hours, which corresponds to an
+observed 0.3-10keV flux of 6.0e-13 erg cm^-2 s^-1.
+
+This circular is an official product of the Swift-XRT team.
+
+</apb@star.le.ac.uk>

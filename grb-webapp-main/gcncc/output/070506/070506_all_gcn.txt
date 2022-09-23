@@ -1,0 +1,200 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6375
+SUBJECT: GRB 070506: Swift detection of a burst with optical afterglow
+DATE:    07/05/06 06:05:32 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+C. Pagani (PSU), M. M. Chester (PSU),
+C. Guidorzi (Univ Bicocca&amp;INAF-OAB), S. Immler (GSFC/USRA),
+C. B. Markwardt (GSFC/UMD), D. M. Palmer (LANL), J. L. Racusin (PSU),
+T. Sakamoto (NASA/ORAU), M. Stamatikos (NASA/ORAU) and L. Vetere (PSU)
+report on behalf of the Swift Team:
+
+At 05:35:58 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 070506 (trigger=278693).  Swift slewed to the burst
+immediately after the end of the 64 second image trigger. 
+The BAT on-board calculated location is RA, Dec 347.217, +10.728 which is 
+   RA(J2000) = 23h 08m 52s
+   Dec(J2000) = +10d 43' 42"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a double-peaked
+structure with a duration of about 6 sec.  The peak count rate
+was ~1700 counts/sec (15-350 keV), at ~6 sec after the trigger. 
+
+The XRT began observing the field at 05:38:05 UT, 127 seconds after
+the BAT trigger. Using ground-processed quick-look data, XRT found an
+uncatalogued X-ray source located at RA, Dec 347.2192, +10.7224 which
+is
+   RA(J2000) = 23h 08m 52.6s
+   Dec(J2000) = 10d 43' 20.7" 
+with an uncertainty of 9.0 arcseconds (radius, 90% containment). This
+location is 22 arcseconds from the BAT on-board position, within the
+BAT error circle. The initial flux in the 2.5s image was 2.5e-10
+erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 459 seconds after the BAT trigger. There
+is a candidate afterglow in the rapidly available 2.7'x2.7' sub-image
+at     
+   RA(J2000) =	23h 08m 52.39s (= 347.2183d)   
+   DEC(J2000) = +10d 43' 20.3" (= 10.7223d) 
+with a 1-sigma error radius of about 0.5 arc sec. This position is 
+3.0 arcseconds from the center of the XRT error circle. The estimated 
+magnitude is 19.4 with a 1-sigma error of about 0.5 mag. 
+No correction has been made for galactic reddening of E(B-V) = 0.040. 
+
+</palmer@lanl.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6379
+SUBJECT: GRB 070506: VLT redshift
+DATE:    07/05/07 11:03:32 GMT
+FROM:    Christina Thoene at Niels Bohr Institute,DARK Cosmo Ctr  <cthoene@astro.ku.dk>
+
+Christina C. Thoene (DARK), Andreas O. Jaunsen (Univ. Oslo), Johan P. U.
+Fynbo (DARK), Pall Jakobsson (Univ. of Hertfordshire) and Paul M.
+Vreeswijk (ESO) report:
+
+
+We obtained 2x15min spectra of the OT of GRB 070506 (Pagani et al., GCN
+6375 and 6378) on May 6.41 with FORS1/VLT during twilight. The grism used
+(300V) covers the wavelength range from 3000 to 9000 A.
+
+The identification of a strong Lyman-alpha absorption together with SiII,
+FeII, CIV, AlII, AlIII and ZnII absorption lines leads to a redshift of z=2.31
+for GRB 070506.
+
+
+We thank the staff at Paranal for excellent support.
+
+</cthoene@astro.ku.dk>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6378
+SUBJECT: GRB070506: Swift/UVOT Observations
+DATE:    07/05/07 02:58:56 GMT
+FROM:    Wayne Landsman at GSFC/SSAI  <landsman@milkyway.gsfc.nasa.gov>
+
+W. Landsman (SSAI/GSFC) and C. Pagani (PSU) report on behalf of the 
+Swift/UVOT team:
+
+The Swift/UVOT began taking data in the field of GRB070506 459s after 
+the BAT trigger (Pagani et al., GCN 6375). A fading afterglow is weakly 
+detected in the White, B and V UVOT  filters, but not in the U or UV 
+filters.      We use the combined white image to obtain an improved 
+position of
+
+RA(J2000) = 23h 08m 52.39s  Dec(J2000) = +10d 43' 20.8"
+
+with a 1-sigma uncertainty radius of about 0.5".    This is 0.5" from 
+the UVOT position reported by Pagani et al. (GCN 6375) and 2.9" from the 
+refined XRT position reported by Pagani et al. (GCN 6377).
+
+Photometry results are given for the 7 UVOT filters below.
+
+           Tstart   Tstop    Exp          Mag
+
+White        459      558      98         19.7+/-0.18
+             868      967      98         19.9+/-0.22
+            7371     7570     196         20.4+/-0.28
+
+V            974     1373     393         19.1+/-0.2
+            7781     7980     197        &gt;19.3 (3 sigma)
+ 
+B            638     2245     136         19.8+/-0.34
+            7167     7366     197        &gt;20.4 (3 sigma)
+
+U            638     5853     261        &gt;20.1 (3 sigma)
+UVW1         614     5741     352        &gt;20.4 (3-sigma)
+UWM2        7984     8142     155        &gt;19.6 (3-sigma)
+UVW2         840     7775     294        &gt;20.4 (3-sigma)
+
+No correction has been made for the expected Galactic reddening of 
+E(B-V)=0.04
+
+</landsman@milkyway.gsfc.nasa.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6377
+SUBJECT: GRB070506: Swift XRT refined analysis
+DATE:    07/05/06 17:16:51 GMT
+FROM:    Claudio Pagani at PSU/Swift-XRT  <pagani@astro.psu.edu>
+
+C. Pagani, L. Vetere, J. L. Racusin and J. A. Kennea (PSU) report on  
+behalf of the Swift Team:
+
+We have analysed the first two orbits of Swift XRT data from GRB  
+070506 (trigger number 278693, GCN Circ 6375.), for a total photon  
+counting mode exposure of 2.8ks.
+The XRT started collecting data in Image mode at 05:38:05 UT, 127  
+seconds after the BAT trigger, but observations in Photon Counting  
+mode were delayed due to the SAA, starting 432 seconds after the  
+trigger. The refined XRT position from 2.8ks of PC data is
+RA,DEC(J200) = 347.2179, +10.7217
+which is
+RA(J2000) = 23d 08m 52.30s
+DEC(J200) = +10d 43' 18.2"
+
+with an uncertainty of 5.4 arcsec (radius, 90% containment).
+This is  5.1 arcsec from the initial X-ray position and 2.4 arcsec  
+from the UVOT optical counterpart (GCN 6375).
+
+The XRT light curve created from the first two orbits of PC data  
+reveals a decaying source with hints of flaring activity. A power law  
+fit yields a decay slope of 0.55+/-0.06.
+
+The X-ray spectrum of the PC data, modeled with an absorbed power law  
+gives a photon index of 2.5+/-0.5 and a total column density of NH= 
+(1.8+/-1.1)e21 cm**-2, in excess of the Galactic value of 0.4e21 cm**-2.
+The absorbed (unabsorbed) 0.3-10.0keV flux for this spectrum was  
+3.0E-12 (5.5E-12) ergs cm^-2 s^-1.
+
+Assuming the source continues to decay at the same rate, we predict  
+an XRT count rate of 2.2e-2 count/s at T+24 hours, which corresponds  
+to an observed (unabsorbed) flux of 0.8E-12 (1.5E-12) ergs cm^-2 s^-1.
+
+This circular is an official product of the Swift XRT team.
+
+</pagani@astro.psu.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6376
+SUBJECT: GRB 070506, Swift-BAT Refined Analysis
+DATE:    07/05/06 16:38:17 GMT
+FROM:    Michael Stamatikos at GSFC  <michael@milkyway.gsfc.nasa.gov>
+
+L. Barbier (GSFC), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC), E.
+Fenimore (LANL), N. Gehrels (GSFC), H. Krimm (GSFC/USRA), C. Markwardt
+(GSFC/UMD), D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/ORAU),
+G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC) on behalf
+of the Swift-BAT team:
+ 
+Using the data set from T-239 to T+963 sec from the recent telemetry
+downlink, we report further analysis of BAT GRB 070506 (trigger #278693)
+(Pagani, et al., GCN Circ. 6375).  The BAT ground-calculated position is RA,
+Dec = 347.203, 10.711 deg which is 
+   RA(J2000) = 23h 8m 48.8s 
+   Dec(J2000) = 10d 42' 40.3" 
+with an uncertainty of 2 arcmin, (radius, sys+stat, 90% containment). The
+partial coding was 96%.
+ 
+The mask-weighted light curve begins to rises at ~T+2 sec, peaks at ~T+6.5
+sec, and returns to the background level by ~T+10 sec, with trivial emission
+above 100 keV. T90 (15-350 keV) is 4.3 +- 0.3 sec (estimated error including
+systematics).
+ 
+The time-averaged spectrum from T+4.1 to T+9.0 is best fit by a simple
+power-law model. The power law index of the time-averaged spectrum is 1.72
++- 0.17. The fluence in the 15-150 keV band is 2.1 +- 0.2 x 10^-7 erg/cm^2.
+The 1-sec peak photon flux measured from T+6.16 sec in the 15-150 keV band
+is 1.0 +- 0.1 ph/cm^2/sec.  All the quoted errors are at the 90% confidence
+level.
+
+
+</michael@milkyway.gsfc.nasa.gov>

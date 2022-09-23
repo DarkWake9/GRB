@@ -1,0 +1,97 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 6375
+
+SENTENCE DATA:
+
+The XRT began observing the field at 05:38:05 UT, 127 seconds after
+the BAT trigger. Using ground-processed quick-look data, XRT found an
+uncatalogued X-ray source located at RA, Dec 347.2192, +10.7224 which
+is
+   RA(J2000) = 23h 08m 52.6s
+   Dec(J2000) = 10d 43' 20.7" 
+with an uncertainty of 9.0 arcseconds (radius, 90% containment). This
+location is 22 arcseconds from the BAT on-board position, within the
+BAT error circle. The initial flux in the 2.5s image was 2.5e-10
+erg/cm2/s (0.2-10 keV). 
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 459 seconds after the BAT trigger. There
+is a candidate afterglow in the rapidly available 2.7'x2.7' sub-image
+at     
+   RA(J2000) =	23h 08m 52.39s (= 347.2183d)   
+   DEC(J2000) = +10d 43' 20.3" (= 10.7223d) 
+with a 1-sigma error radius of about 0.5 arc sec. This position is 
+3.0 arcseconds from the center of the XRT error circle. The estimated 
+magnitude is 19.4 with a 1-sigma error of about 0.5 mag. 
+No correction has been made for galactic reddening of E(B-V) = 0.040. 
+
+
+TABLE DATA:
+
+at	
+	RA(J2000) =	23h 08m 52.39s (= 347.2183d)	
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 6379
+
+SENTENCE DATA:
+
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 6378
+
+SENTENCE DATA:
+
+
+
+TABLE DATA:
+
+	Tstart	Tstop	Exp	Mag
+White	459	558	98	19.7+/-0.18
+	868	967	98	19.9+/-0.22
+	7371	7570	196	20.4+/-0.28
+V	974	1373	393	19.1+/-0.2
+	7781	7980	197	&gt;19.3 (3 sigma)
+B	638	2245	136	19.8+/-0.34
+	7167	7366	197	&gt;20.4 (3 sigma)
+U	638	5853	261	&gt;20.1 (3 sigma)
+UVW1	614	5741	352	&gt;20.4 (3-sigma)
+UWM2	7984	8142	155	&gt;19.6 (3-sigma)
+UVW2	840	7775	294	&gt;20.4 (3-sigma)
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 6377
+
+SENTENCE DATA:
+
+We have analysed the first two orbits of Swift XRT data from GRB  
+070506 (trigger number 278693, GCN Circ 6375.), for a total photon  
+counting mode exposure of 2.8ks.
+The XRT started collecting data in Image mode at 05:38:05 UT, 127  
+seconds after the BAT trigger, but observations in Photon Counting  
+mode were delayed due to the SAA, starting 432 seconds after the  
+trigger. The refined XRT position from 2.8ks of PC data is
+RA,DEC(J200) = 347.2179, +10.7217
+which is
+RA(J2000) = 23d 08m 52.30s
+DEC(J200) = +10d 43' 18.2"
+with an uncertainty of 5.4 arcsec (radius, 90% containment).
+This is  5.1 arcsec from the initial X-ray position and 2.4 arcsec  
+from the UVOT optical counterpart (GCN 6375).
+The XRT light curve created from the first two orbits of PC data  
+reveals a decaying source with hints of flaring activity. A power law  
+fit yields a decay slope of 0.55+/-0.06.
+The X-ray spectrum of the PC data, modeled with an absorbed power law  
+gives a photon index of 2.5+/-0.5 and a total column density of NH= 
+(1.8+/-1.1)e21 cm**-2, in excess of the Galactic value of 0.4e21 cm**-2.
+The absorbed (unabsorbed) 0.3-10.0keV flux for this spectrum was  
+3.0E-12 (5.5E-12) ergs cm^-2 s^-1.
+Assuming the source continues to decay at the same rate, we predict  
+an XRT count rate of 2.2e-2 count/s at T+24 hours, which corresponds  
+to an observed (unabsorbed) flux of 0.8E-12 (1.5E-12) ergs cm^-2 s^-1.
+
+

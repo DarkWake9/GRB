@@ -1,0 +1,440 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7115
+SUBJECT: GRB 071117: Swift-XRT revised position
+DATE:    07/11/19 15:51:59 GMT
+FROM:    Cristiano Guidorzi at INAF-OAB  <cristiano.guidorzi@brera.inaf.it>
+
+C. Guidorzi, P. Romano (Univ. Bicocca &amp; INAF-OAB),
+A. Moretti (INAF-OAB) and T.N. Ukwatta (GSFC/GWU),
+report on behalf of the Swift-XRT team:
+
+We recalculated the XRT refined position of GRB 071117
+(trigger=296805, Ukwatta et al., GCN Circ. 7098)
+by excluding the first orbit data, which were affected
+by the presence of a dead pixel column.
+In 8.3 ks of Photon Counting mode data spanning 8.7-28 ks after
+the trigger the position of the X-ray afterglow is
+RA,Dec =335.04336,-63.44278 degrees, which corresponds to
+
+RA(J2000) =  22 20 10.41
+Dec(J2000)= -63 26 34.0
+
+with error circle of radius 3.8 arcsec (90%, including
+boresight uncertainties). The optical afterglow reported by
+Bloom et al. (GCN Circ. 7110) now lies 1.5" away from the new
+XRT centroid.
+
+This circular is an official product of the Swift-XRT team.
+
+</cristiano.guidorzi@brera.inaf.it>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7102
+SUBJECT: GRB 071117, Swift-BAT refined analysis
+DATE:    07/11/17 21:56:13 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+H. Krimm (GSFC/USRA), S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC),
+E. Fenimore (LANL), N. Gehrels (GSFC), C. Markwardt (GSFC/UMD),
+D. Palmer (LANL), T. Sakamoto (GSFC/UMBC), G. Sato (GSFC/ISAS),
+M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-119 to T+183 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 071117 (trigger #296805)
+(Ukwatta, et al., GCN Circ. 7098).  The BAT ground-calculated position is
+RA, Dec = 335.026, -63.442 deg which is 
+   RA(J2000)  =  22h 20m 06.3s 
+   Dec(J2000) = -63d 26' 31" 
+with an uncertainty of 1.0 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 53%.
+ 
+The mask-weighted light curve shows a single FRED-like peak starting
+at ~T-0.5 sec, peaking at ~T+0.5 sec, and decaying away out to ~T+15 sec.
+T90 (15-350 keV) is 6.6 +- 1.8 sec (estimated error including systematics).
+ 
+The time-averaged spectrum from T-0.4 to T+13.9 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.57 +- 0.06.  The fluence in the 15-150 keV band is 2.4 +- 0.1 x 10^-6 erg/cm2.
+The 1-sec peak photon flux measured from T+0.02 sec in the 15-150 keV band
+is 11.3 +- 0.4 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+</scott@lheamail.gsfc.nasa.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7117
+SUBJECT: GRB 071117: VLT observations and probable redshift
+DATE:    07/11/19 16:51:43 GMT
+FROM:    Daniele Malesani at Niels Bohr Inst,Dark Cosmology Center  <malesani@astro.ku.dk>
+
+P. Jakobsson (Univ. Hertfordshire), J.P.U. Fynbo, D. Malesani 
+(DARK/NBI), N.R. Tanvir (Univ. Leicester), B. Milvang-Jensen (DARK/NBI), 
+A.O. Jaunsen (Univ. Oslo), P.M. Vreeswijk, J. Hjorth (DARK/NBI), report 
+on behalf of a larger collaboration:
+
+We observed the field of GRB 071117 (Ukwatta et al., GCN 7098) with the 
+ESO VLT, starting on 2007 Nov 18.005 UT (9.28 hr after the GRB). We 
+clearly detect the two sources indicated by Bloom (GCNs 7105, 7110), 
+including the afterglow s2. Source s1 appears extended in our images, 
+while source s2 is indeed pointlike (seeing 0.85"). A faint nebulosity 
+is apparent surrounding both objects.
+
+A VLT spectrum was obtained with the FORS1 instrument starting on 2007 
+Nov 18.03 UT, placing both sources on the slit. Three exposures of 30 
+min each were secured. The afterglow spectrum shows a faint, blue 
+continuum between 3700 to 9000 A, and a weak emission line is apparent 
+at 8688 A. Interpreting this as [OII], we infer a redshift of z=1.331, 
+which we consider as the likely redshift of the GRB. Interpreting the 
+observed line as [OIII] or Halpha, we would expect to detect [OII] at 
+6466 or 4934 A, respectively, which we do not see. A more conservative 
+upper limit to the GRB redshift comes from the nondetection of any 
+dropout in the blue down to 3800 A, which implies z &lt; 2.1.
+
+The spectrum of s1 is very red, with no significant flux below 5000 A. A 
+plot of the 2D spectrum and a finding chart showing the afterglow and 
+the various XRT error circles is posted at:
+
+https://grbtoo.dark-cosmology.dk/public/gcn-pages/grb-071117/
+
+We acknowledge excellent support from the ESO observing staff, in 
+particular Stephane Brillant and Emanuela Pompei.
+
+</malesani@astro.ku.dk>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7114
+SUBJECT: Konus-Wind and Konus-A observations of GRB 071117
+DATE:    07/11/19 15:11:42 GMT
+FROM:    Valentin Pal'shin at Ioffe Inst  <val@mail.ioffe.ru>
+
+S. Golenetskii, R.Aptekar, E. Mazets, V. Pal'shin, D. Frederiks,
+P. Oleynik, M. Ulanov and T. Cline on behalf of the Konus-Wind and
+Konus-A teams report:
+
+The GRB 071117 (Swift-BAT trigger #296805:
+Ukwatta et al., GCN 7098; Krimm et al., GCN 7102) triggered
+Konus-Wind at T0=53404.535 s UT (14:50:04.535).
+This burst also triggered Konus-A at T0=53408.587 s UT (14:50:08.587).
+
+The Konus-Wind light curve shows a single FRED-like pulse with a 
+duration of ~5 s.
+As observed by Konus-Wind the burst
+had a fluence of 5.84(-2.40, +0.30)x10^-6 erg/cm2,
+and a 64-ms peak flux measured from T0+0.160 s
+of 6.66(-2.95, +1.13)x10^-6 erg/cm2/s
+(both in the 20 keV - 1 MeV energy range).
+The burst shows strong hard-to-soft spectral evolution.
+
+The time-integrated spectrum of the burst
+(from T0 to T0+8.448 s) is well fitted (in the 20 keV - 1 MeV range)
+by a power law with exponential cutoff model:
+dN/dE ~ E^(-alpha)*exp(-E*(2-alpha)/Ep)
+with alpha = 1.53(-0.16, +0.15)
+and Ep = 278 (-79, +236) keV (chi2 = 37.5/52 dof).
+
+All the quoted errors are at the 90% confidence level.
+
+The Konus-Wind light curve of this GRB is available
+at http://www.ioffe.rssi.ru/LEA/GRBs/GRB071117_T53404/
+
+</val@mail.ioffe.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7099
+SUBJECT: GRB 071117: Initial Swift/UVOT observations
+DATE:    07/11/17 16:14:27 GMT
+FROM:    Daniel E. Vanden Berk at PSU/Swift  <danvb@astro.psu.edu>
+
+D. E. Vanden Berk (PSU) and T. N. Ukwatta (GSFC/GWU) report on
+behalf of the Swift UVOT Team:
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 2852 seconds after the BAT trigger. No
+afterglow candidate has been found in the initial data products. The
+2.7'x2.7' sub-image covers 100% of the XRT error circle. The typical
+3-sigma upper limit has been about 18.5 mag.  The 8'x8' region for
+the list of sources generated on-board covers 100% of the XRT error
+circle. The list of sources is typically complete to about 18 mag. No
+correction has been made for the extinction of E(B-V) = 0.024.
+
+</danvb@astro.psu.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7112
+SUBJECT: Swift/UVOT upper limits for GRB 071117
+DATE:    07/11/19 13:08:48 GMT
+FROM:    Samantha Oates at MSSL  <sro@mssl.ucl.ac.uk>
+
+S. R. Oates (MSSL-UCL) and T. N. Ukwatta (GSFC/GWU) report on behalf of 
+the Swift/UVOT team:
+
+The Swift/UVOT observed the field of GRB 071117 (Ukwatta et al., GCN 7098)
+48 minutes after the BAT trigger, once the Earth had come out of observing
+constraint. No new source is found in any of the UVOT observations in
+either single or co-added exposures at the position of s2 reported by
+Bloom et al. (GCN 7110) or within the XRT error circle (Guidorzi et al., 
+GCN 7103).
+
+The following 3-sigma upper limits were determined at the position
+of the Gemini detection (RA=22:20:10.42, DEC=-63:26:35.5, J2000 ):
+
+Filter  Tstart   Tend    Exp       Magnitude
+          (s)     (s)     (s)      (3-sigma UL)
+-------------------------------------------------
+v      2960     44497   1608        &gt;21.2
+white  2852     62512   1812        &gt;22.9
+b      3779     61600   3125        &gt;22.5
+u      3574     56599   3075        &gt;22.2
+uvw1   3369     55834   4154        &gt;22.4
+uvm2   3164     32613   2368        &gt;21.8
+uvw2   4190     62783   2227        &gt;22.1
+-------------------------------------------------
+The values quoted above are not corrected for the expected Galactic 
+extinction corresponding to a reddening of E(B-V) =
+0.024 mag in the direction of the GRB (Schlegel et al. 1998).
+
+</sro@mssl.ucl.ac.uk>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7100
+SUBJECT: GRB 071117: Swift/XRT position
+DATE:    07/11/17 16:41:11 GMT
+FROM:    Pat Romano at OAB-Swift  <patrizia.romano@brera.inaf.it>
+
+P. Romano, C. Guidorzi (Univ. Bicocca &amp; INAF-OAB), A. Moretti (OAB)
+and T. N. Ukwatta (GSFC/GWU) report on behalf of the Swift XRT Team:
+
+Using prompt downlinked data (482.4 s), we find an X-ray
+source located at RA, Dec 335.0437, -63.4424 which is
+   RA(J2000)  = 22 20 10.49
+   Dec(J2000) = -63 26 32.6
+with an uncertainty of 4.2 arcsec (radius, 90% containment).
+This is 37.2 arcseconds from the BAT position (Ukwatta et al., GCN Circ. 7098).
+Further analysis will be reported in a subsequent circular.
+
+This circular is an official product of the Swift XRT Team.
+
+</patrizia.romano@brera.inaf.it>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7104
+SUBJECT: GRB 071117: Las Campanas optical observations
+DATE:    07/11/18 02:09:12 GMT
+FROM:    Edo Berger at Princton U  <eberger@astro.princeton.edu>
+
+E. Berger (Princeton/OCIW) and S. Gonzalez (LCO) report:
+
+"We observed the XRT error circle of GRB 071117 (GCNs 7102,7103) with the 
+Swope 40-inch telescope at LCO starting on 2007 Nov. 18.07 UT (10.8 hours 
+after the burst).  In a single 300 sec exposure we do not detect any 
+source within the XRT error circle to a limit of i&gt;21 mag."
+
+</eberger@astro.princeton.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7105
+SUBJECT: GRB 071117: Gemini Observations	 
+DATE:    07/11/18 03:42:39 GMT
+FROM:    Josh Bloom at UC Berkeley  <jbloom@astron.berkeley.edu>
+
+J. S. Bloom (UC Berkeley), on behalf of the Gemini GRB collaboration,  
+reports:
+
+"Imaging observations of the field of GRB 071117 (Ukwatta et al., GCN  
+7098) were autonomously queued for Gemini South as part of the  
+program GS-2007B-Q-2  (PI = H.-W. Chen). Starting at 2007 Nov 18  
+00h24m UT, we obtained 5 x 180 sec images in r-band. Within the  
+revised XRT error circle (Guidorzi et al. GCN 7103) we find one  
+source (s1) at position:
+
+   s1:   ra=  22:20:10.63  dec = -63:26:33.7  (J2000)
+
+The uncertainty is 350 mas in each coordinate (relative to USNO  
+B1.0). This source, s1, is roughly R=23.3 mag at the time of  
+observation (based upon the USNO B.10 catalog magnitude of the source  
+at 22:20:13.33 -63:26:32.9).  There is another source straddling the  
+90% error circle, embedded in an apparent faint extension to the  
+southeast at:
+
+   s2:   ra= 22:20:10.42  dec = -63:26:35.5 (J2000)
+
+Further observations will be required to determine if either of these  
+sources are variable."
+
+A finder may be obtained at:
+  http://lyra.berkeley.edu/~jbloom/grb071117-gemini-ep1.ps.gz
+
+This message may be cited.
+
+</jbloom@astron.berkeley.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7110
+SUBJECT: GRB 071117: Gemini Optical Afterglow Discovery
+DATE:    07/11/19 04:17:43 GMT
+FROM:    Josh Bloom at UC Berkeley  <jbloom@astron.berkeley.edu>
+
+J. S. Bloom (UC Berkeley), on behalf of the Gemini GRB collaboration,  
+reports:
+
+"Starting at 2007 Nov 19 00h19m, deep r-band observations of the  
+field of GRB 071117 (Ukwatta et al., GCN 7098) were obtained with  
+Gemini (see Bloom, GCN 7105 for information about the first epoch).  
+Image differencing reveals that source s2 (just outside the formal  
+XRT error circle) is fading, and is the likely optical afterglow of  
+the GRB. To reiterate the position:
+
+   s2:   ra= 22:20:10.42  dec = -63:26:35.5 (J2000)
+
+The uncertainty is 350 mas in each coordinate (relative to USNO  
+B1.0). Further is analysis is ongoing."
+
+A finder may be obtained at:
+   http://lyra.berkeley.edu/~jbloom/grb071117-diff.pdf
+
+We thank the expert Gemini staff for carrying out this ToO.
+
+This message may be cited.
+
+
+</jbloom@astron.berkeley.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7108
+SUBJECT: GRB 071117: TAROT La Silla observatory optical observations
+DATE:    07/11/18 20:06:04 GMT
+FROM:    Alain Klotz at CESR-CNRS  <alain.klotz@free.fr>
+
+Klotz, A. (CESR-OMP), Boer M. (OHP), Atteia J.L. (LATT-OMP) report:
+
+We imaged the field of GRB 071117 detected by SWIFT
+(trigger 296805) with the TAROT robotic telescope (D=25cm)
+located at the European Southern Observatory,
+La Silla observatory, Chile.
+
+The observations started 9.5h after the GRB trigger
+(GRB occured during daytime). The elevation of the field
+decreased from from 54 degrees above horizon and weather
+conditions were excellents.
+
+We co-added series of exposures taken in VRI filters
+from t_trig+9.5h to t_trig+11.3h. There is no OT detected in
+V and R bands. A source is detected in the I-band
+close to the limiting magnitude I~20 at a position
+compatible with XRT (Romano et al. GCNC 7100) and
+s1,s2 sources of Bloom (GCNC 7105). Due to the spatial
+sampling of TAROT (3.3arcsec/pixel) and to the very low
+signal to noise ratio we cannot discriminate
+between s1 and s2.
+
+The source is also present in I-band in series
+11.6-13.3 h and also in the series 13.7-15.8 h but
+the actual processing does not allow to say if the
+brightness decreases or not.
+
+If we consider the I-band source TAROT is the same as the
+s1 source of Bloom (R=23.3), the corresponding (R-I)~3
+is very high. The galactic extinction in R band is only 0.06
+magnitude (estimated from D. Schlegel et al. 1998).
+As a consequence, we estimate that GRB 071117 is a good
+high redshift candidate (z&gt;4.5).
+
+This message may be cited.
+
+</alain.klotz@free.fr>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7098
+SUBJECT: GRB 071117: Swift detection of a bright burst
+DATE:    07/11/17 15:02:30 GMT
+FROM:    David Palmer at LANL  <palmer@lanl.gov>
+
+T. N. Ukwatta (GSFC/GWU), W. H. Baumgartner (GSFC/UMBC),
+D. N. Burrows (PSU), J. R. Cummings (NASA/UMBC),
+G. Cusumano (INAF-IASFPA), N. Gehrels (NASA/GSFC),
+C. Guidorzi (Univ Bicocca&amp;INAF-OAB),
+S. T. Holland (CRESST/USRA/GSFC), F. E. Marshall (NASA/GSFC),
+P. T. O'Brien (U Leicester), D. M. Palmer (LANL),
+P. Romano (Univ. Bicocca &amp; INAF-OAB) and D. E. Vanden Berk (PSU)
+report on behalf of the Swift Team:
+
+At 14:50:06 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 071117 (trigger=296805).  Swift did not slew immediately 
+to the burst due to an Earth constraint.  The BAT on-board calculated 
+location is RA, Dec 335.020, -63.441 which is 
+   RA(J2000) = 22h 20m 05s
+   Dec(J2000) = -63d 26' 27"
+with an uncertainty of 3 arcmin (radius, 90% containment, including 
+systematic uncertainty).  The BAT light curve showed a single FRED
+peak with a duration of about 5 sec.  The peak count rate
+was ~16000 counts/sec (15-350 keV), at ~0 sec after the trigger. 
+
+Because of an Earth limb constraint, the spacecraft did not slew promptly
+to the BAT position, and so there are no immediate XRT data products
+to analyze.  NFI observations are expected at T+43 minutes, when it comes
+out of constraint. 
+
+Burst Advocate for this burst is T. N. Ukwatta (tilan.ukwatta AT gmail.com). 
+Please contact the BA by email if you require additional information
+regarding Swift followup of this burst. In extremely urgent cases, after
+trying the Burst Advocate, you can contact the Swift PI by phone (see
+Swift TOO web site for information: http://www.swift.psu.edu/too.html.)
+
+</palmer@lanl.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  7103
+SUBJECT: GRB 071117: Swift-XRT refined analysis
+DATE:    07/11/17 23:01:27 GMT
+FROM:    Cristiano Guidorzi at INAF-OAB  <cristiano.guidorzi@brera.inaf.it>
+
+C. Guidorzi, P. Romano (Univ. Bicocca &amp; INAF-OAB),
+A. Moretti (INAF-OAB) and T.N. Ukwatta (GSFC/GWU),
+report on behalf of the Swift-XRT team:
+
+Swift XRT observed the GRB 071117 (trigger=296805, Ukwatta et al., GCN
+Circ. 7098) beginning 2.8 ks after the BAT trigger.
+In 4.4 ks of Photon Counting mode data spanning 2.8-14.7 ks after
+the trigger the position of the X-ray afterglow is
+RA,Dec =335.04579,-63.44278 degrees, which corresponds to
+
+RA(J2000) =  22 20 10.99
+Dec(J2000)= -63 26 34.0
+
+with error circle of radius 3.8 arcsec (90%, including
+boresight uncertainties). This lies 3.6 arcsec from the previous
+XRT position (Romano et al., GCN Circ. 7100) and 32 arcsec from
+the BAT refined position (Krimm et al., GCN Circ 7102).
+
+The X-ray light curve can be fit by a power law from
+T+2.8ks to T+14.7ks, with a decay index of 0.8 +/- 0.2.
+
+The Photon Counting spectrum can modelled with an absorbed power-law, with
+a photon index of 2.2 +0.4/-0.3 and a total absorbing column of NH = (2.3
++0.9/-0.8) e21 cm-2. The Galactic value is 2.3e20 cm-2 in the direction
+of the burst. The 0.3-10 keV observed (unabsorbed) flux during this time
+is 3.0e-12 (5.0e-12) erg cm-2 s-1. Uncertainties are given at 90% 
+confidence.
+
+Assuming the source continues to decay with the same rate,
+we predict an XRT count rate of 1.3e-2 counts/s at T+24 hours, which
+corresponds to an observed 0.3-10keV flux of 7.8e-13 ergs cm-2 s-1.
+
+This circular is an official product of the Swift-XRT team.
+
+</cristiano.guidorzi@brera.inaf.it>

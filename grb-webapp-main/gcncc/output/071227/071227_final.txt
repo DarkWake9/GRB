@@ -1,0 +1,206 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7154
+
+SENTENCE DATA:
+
+"We obtained three 900-s spectra of the candidate host galaxy of GRB 
+071227 (GCNs 7150,7151) with IMACS on the Magellan/Baade telescope.  We 
+find the same emission line noted by D'Avanzo et al. (GCN 7152), as well 
+as a second emission line which corresponds to [OIII]5006 at the same 
+redshift.  From preliminary wavelength calibration we find z=0.384.  If 
+this is the host galaxy of GRB 071227, the observed fluence of 2.2e-7 
+erg/cm^2 (GCN 7148) translates to an isotropic-equivalent gamma-ray energy 
+of 8e49 erg, typical of previous short GRBs."
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7156
+
+SENTENCE DATA:
+
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7150
+
+SENTENCE DATA:
+
+with an uncertainty of 0.6 arcsec (90% confidence).
+This position is 4.5 arcsec from the XRT position.
+The values quoted above are not corrected for the expected Galactic
+extinction corresponding to a reddening of E_{B-V} = 0.01 mag in the
+direction of the burst (Schlegel et al. 1998).
+
+
+TABLE DATA:
+
+Filter	Tstart	Tstop	Exp	Magnitude	
+	(s)	(s)	(s)	
+White	86	6129	609	21.73 +- 0.36
+v	68	6539	828	&gt; 20.46
+b	673	5923	409	&gt; 21.01
+u	648	5718	230	&gt; 20.33
+uvw1	624	5512	239	&gt; 20.17
+uvm2	599	10886	1191	&gt; 21.00
+uvw2	703	6334	419	&gt; 20.65
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7149
+
+SENTENCE DATA:
+
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7157
+
+SENTENCE DATA:
+
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7152
+
+SENTENCE DATA:
+
+We observed the field of GRB 071227 (Sakamoto et al., GCN 7147; Sato et 
+al. GCN 7148) with the ESO-VLT equipped with the FORS2 camera. A 
+spectrum (grism 300V) of the galaxy inside the XRT error box (Cucchiara 
+&amp; Sakamoto GCN 7150; Berger et al. GCN 7151) taken on Dec 28.1885 (about 
+8.3 hours after the burst) displays an emission line at 5154.77 A. 
+Interpreting this feature as [O II] 3728 we infer a tentative redshift 
+of z = 0.383 (based on a preliminary wavelength calibration).
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7147
+
+SENTENCE DATA:
+
+The XRT began observing the field at 20:15:06 UT, 79 seconds after the
+BAT trigger. From prompt downlinked data, XRT found a  variable, uncatalogued 
+X-ray source located at RA, Dec 58.1316, -55.9833 which is
+   RA(J2000)  =  03h 52h 31.58s
+   Dec(J2000) = -55d 58' 59.9"
+with an uncertainty of 3.7 arcseconds (radius, 90% containment). 
+This location is 112 arcseconds from the BAT on-board position,
+within the BAT error circle. The initial flux in the 2.5s image
+was 9.6e-10 erg/cm2/s (0.2-10 keV). 
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 86 seconds after the BAT trigger, and a
+second finding chart of 400 seconds in V starting 192 seconds after
+the trigger. No afterglow candidate has been found in the initial
+data products. The 2.7'x2.7' sub-image covers 100% of the XRT error
+circle. The 3-sigma upper limit at the XRT position is 19.9 mag in
+White, 19.0 in V. The 8'x8' region for the list of sources generated
+on-board covers 100% of the XRT error circle. The list of sources is
+typically complete to about 18 mag. No correction has been made for
+extinction corresponding to E(B-V) = 0.01. 
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7148
+
+SENTENCE DATA:
+
+G. Sato (GSFC/ISAS), L. Barbier (GSFC), S. D. Barthelmy (GSFC),
+J. Cummings (GSFC/UMBC), E. Fenimore (LANL), N. Gehrels (GSFC),
+H. Krimm (GSFC/USRA), C. Markwardt (GSFC/UMD), D. Palmer (LANL),
+A. Parsons (GSFC), T. Sakamoto (GSFC/UMBC), M. Stamatikos (GSFC/ORAU),
+J. Tueller (GSFC), T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-120 to T+183 sec from the recent telemetry downlink,
+we report further analysis of BAT GRB 071227 (trigger #299787)
+(Sakamoto, et al., GCN Circ. 7147).  The BAT ground-calculated position is
+RA, Dec = 58.132, -55.959 deg which is 
+   RA(J2000)  = 3h 52m 31.8s 
+   Dec(J2000) = -55d 57' 32" 
+with an uncertainty of 1.7 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 48%.
+ 
+The mask weighted light curve shows multiple peaks during ~2 sec 
+duration of the burst.  T90 (15-350 keV) is 1.8 +- 0.4 sec (estimated 
+error including systematics).  Therefore, this burst might be
+classified as a short burst.  Additional BAT analysis (e.g. spectral
+lag) is on-going, and will be presented later.  
+ 
+The time-averaged spectrum from T-0.1 to T+1.9 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+0.99 +- 0.22.  The fluence in the 15-150 keV band is 2.2 +- 0.3 x 10^-07 erg/cm2.
+The 1-sec peak photon flux measured from T-0.09 sec in the 15-150 keV band
+is 1.6 +- 0.2 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7153
+
+SENTENCE DATA:
+
+The Swift-XRT began observing GRB 071227 (trigger #299787) at
+20:15:04UT, 79.5 seconds after the BAT trigger (Sakamoto et al., GCN
+Circ. 7147). Using 382 s of overlapping XRT Photon Counting mode and
+UVOT V-band data, we find an astrometrically corrected X-ray position
+(using the XRT-UVOT alignment and matching UVOT field sources to the
+USNO-B1 catalogue) of RA, Dec = 58.13002, -55.98419, which is equivalent 
+to:
+with an uncertainty of 2.0 arcsec (radius, 90% confidence). This is
+4.5 arcsec away from the position derived from the promptly downlinked
+XRT data reported in Sakamoto et al. (GCN Circ. 7147), 91 arcsec from
+the refined BAT position of Sato et al. (GCN Circ. 7148) and 2.6 arcsec
+from the possible UVOT optical transient reported by Cucchiara and 
+Sakamoto (GCN Circ. 7150).
+The XRT light curve from 210s to 34.8ks after the BAT trigger can be
+modelled by a doubly broken power-law, with parameters alpha1 = 1.1
++/- 0.2, tbreak1 = 183 +/- 7s, alpha2 = 5.3 +1.2 -0.6, tbreak2 = 389
++/- 65s, alpha3 = 1.1 +/- 0.2.
+The XRT spectrum from a time interval spanning 104s to 208s after the
+BAT trigger is well fit by an absorbed power-law, with a photon index
+of 1.62+/-0.14 and a column density (9.3+/-4.3)e20 cm^-2, in addition
+to the Galactic column of 2.6e20 cm^-2 in this direction. The observed
+(unabsorbed) 0.3-10.0 keV flux from this period is 3.9e-10 (4.6e-10)
+ergs cm^-2 s^-1.
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7151
+
+SENTENCE DATA:
+
+"We observed the position of GRB 071227 (GCN #7148) with the IMACS 
+instrument on the Magellan/Baade telescope starting on 2007 Dec. 28 at 
+03:52 UT (7.7 hours after the burst).  In a 300-sec R-band exposure we 
+detect a single galaxy within the XRT error circle, coincident with the 
+position of the UVOT source (GCN #7150).  This object is also visible in 
+the DSS.  The galaxy has spiral, edge-on morphology, and a total magnitude 
+of R=19.3 mag.  There are no other sources within the XRT error circle to 
+a 3-sigma limiting magnitude of R~22.3 mag."
+
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+GCN Number: 7158
+
+SENTENCE DATA:
+
+The observed light curve shows a multi-peaked structure
+with a duration (T90) of about 1.5 seconds.
+The fluence in 100 - 1000 keV was (1.3 ± 0.2)*10^-6 erg/cm^2.
+The 1-s peak flux measured from T0-1s was
+2.1 (+0.1, -0.1) photons/cm^2/s in the same energy range.
+Preliminary result shows that the time-averaged spectrum from T0-1s to
+T0+1s is well fitted by a single power-law with a photon index
+of 1.2 (+0.2, -0.2) (chi^2/d.o.f = 18.5/17).
+
+

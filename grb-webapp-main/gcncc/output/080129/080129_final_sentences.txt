@@ -1,0 +1,202 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7238
+We imaged the field of GRB 080129 detected by Swift (trigger 301981;
+Immler et al. GCN 7226) with the robotic 0.76-m Katzman Automatic Imaging
+Telescope (KAIT) at Lick Observatory. The automatic sequence was not 
+executed due to poor weather, but a manual sequence was observed remotely.
+In total, 14 x 20 s  unfiltered observations were observed. Our first 20 s
+image started at 6:11:31 UT, 286 s after the GRB trigger. We did not detect 
+the optical/NIR afterglow candidate reported by Bloom (GCN 7229) and
+Kruehler et al. (GCN 7231) to a limiting magnitude of 17.9 (calibrated to 
+USNO B1). A 200 s co-added image with the middle exposure time at 643 s 
+after the GRB trigger did not detect the afterglow candidate to a limiting
+magnitude of 20.0. 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7236
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7229
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7228
+Analysis of prompt downlinked data finds an uncataloged X-ray source
+located at RA, Dec 105.2848, -7.8463 which is
+   RA(J2000) = 07 01 8.35
+   Dec(J2000) = -07 50 46.8
+with an uncertainty of 3.3 arcsec (radius, 90% containment). This location
+is 71 arcseconds from the BAT on-board position, within the BAT error
+circle (Immler et al., GCN Circ 7226). Further analysis will be
+reported in a subsequent circular.
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7233
+t=44 min: R = 22.93 +/- 0.06
+t=50 min: R = 22.86 +/- 0.05
+t=56 min: R = 22.78 +/- 0.04
+t=62 min: R = 22.56 +/- 0.04
+t=68 min: R = 22.87 +/- 0.05
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7235
+S. D. Barthelmy (GSFC), J. Cummings (GSFC/UMBC), E. Fenimore (LANL),
+N. Gehrels (GSFC), S. Immler (CRESST/GSFC/UMD), H. Krimm (GSFC/USRA),
+C. Markwardt (GSFC/UMD), D. Palmer (LANL), T. Sakamoto (GSFC/UMBC),
+G. Sato (GSFC/ISAS), M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC),
+T. Ukwatta (GWU)
+(i.e. the Swift-BAT team):
+ 
+Using the data set from T-239 to T+963 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 080129 (trigger #301981)
+(Immler, et al., GCN Circ. 7226).  The BAT ground-calculated position is
+RA, Dec = 105.297, -7.840 deg which is 
+   RA(J2000)  = 07h 01m 11.2s 
+   Dec(J2000) = -7d 50' 24" 
+with an uncertainty of 2.4 arcmin, (radius, sys+stat, 90% containment).
+The partial coding was 46%.
+ 
+The mask-weighted light curve shows a single broad peak starting at ~T-20 sec,
+peaking at ~T+20, and ending at ~T+50.  T90 (15-350 keV) is 48 +- 10 sec
+(estimated error including systematics).
+ 
+The time-averaged spectrum from T-15.0 to T+49.0 sec is best fit by a simple
+power-law model.  The power law index of the time-averaged spectrum is
+1.34 +- 0.26.  The fluence in the 15-150 keV band is 8.9 +- 1.4 x 10^-07 erg/cm2.
+The 1-sec peak photon flux measured from T+24.50 sec in the 15-150 keV band
+is 0.2 +- 0.1 ph/cm2/sec.  All the quoted errors are at the 90% confidence
+level. 
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7232
+We observed the field of GRB 080129 observed by Swift (Immler et al.
+2008, GCN#7226) simultaneously in grizJHK with GROND mounted at the 2.2m
+MPI/ESO telescope at La Silla (Chile).
+  
+Observations started at 06:11 UT, about 4 min after the GRB.
+  
+We find a point source not present in the Digital Sky Survey images
+inside the Swift/XRT error circle of the X-ray afterglow 
+(Perri et al. 2008, GCN#7228; Goad et al. 2008, GCN#7230).  
+  
+The coordinates are (+- 0.5 arcsec error):
+RA (2000.0) = 07h 01m 08.2s    
+Decl. (2000.0) = -07d 50' 47'
+consistent with the optical source reported by J. S. Bloom (GCN#7229).
+  
+We estimate magnitudes of 22.8 (r), 21.5 (i), 20.6 (z), 18.9 (J), 18.1
+(H) and 17.0 (K) calibrated against USNO and 2MASS field stars. These
+magnitudes are not corrected for galactic extinction.
+  
+The source is fading by about 0.5 mag during the first 90 min, suggesting 
+it to be the optical/NIR afterglow of GRB 080129.
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7241
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7240
+Using 2045 s of overlapping XRT Photon Counting mode and UVOT
+v-band data for GRB 080129, we find a refined astrometrically
+corrected X-ray position (using the XRT-UVOT alignment and
+matching UVOT field sources to the USNO-B1 catalogue):
+RA, Dec =  105.284125, -7.846722 which is equivalent to:
+with an uncertainty of 2.0 arcsec (radius, 90% confidence).
+This is 1.2 arcsec away from the previous position derived from the
+XRT and UVOT data reported in Goad et al. (GCN Circ. 7230),
+51 arcsec from the refined BAT position of Barthelmy et al.
+(GCN Circ. 7235) and 1.9 arcsec from the Gemini South position
+(GCN Circ. 7229).
+The X-ray light curve from T + 3.2 ks to T + 85.8 ks can be
+fitted by a broken power law model (chi2 of 39 for 28 degrees
+of freedom) with a temporal break at about T + 15.5 ks and
+decay indices alpha1 = 0.6 +/- 0.1 and alpha2 = 1.5 +/- 0.1
+before and after the break, respectively.
+The 0.3-10 keV spectrum from T + 3.2 ks to T + 32.2 ks
+is well fit by an absorbed power law
+(reduced chi2 of 1.02, with 20 degrees of freedom).
+The best fit photon index is 2.0 +/- 0.1, with an hydrogen column
+density of (2 +/- 1)e21 cm^-2, in addition to the Galactic column along
+the line of sight of 6.3e21 cm^-2 (Kalberla et al. 2005).
+The observed (unabsorbed) flux in the 0.3-10 keV band is
+4.2e-12 (8.5e-12) erg cm^-2 s^-1.
+G. Stratta (ASDC), M. Perri (ASDC) and D. N. Burrows (PSU) <br/>report on behalf of the Swift-XRT team:<br/> <br/>The Swift-XRT began observing GRB 080129 (trigger=301981) on <br/>2008-01-29 at 07:00:17 UT, 53 minutes after the BAT trigger  <br/>
+(Immler et al., GCN Circ. 7226). <br/><br/>Using 2045 s of overlapping XRT Photon Counting mode and UVOT<br/>v-band data for GRB 080129, we find a refined astrometrically <br/>corrected X-ray position (using the XRT-UVOT alignment and <br/>
+matching UVOT field sources to the USNO-B1 catalogue): <br/>RA, Dec =  105.284125, -7.846722 which is equivalent to:<br/><br/>RA (J2000): 07h 01m 8.19s<br/>Dec (J2000): -07d 50' 48.2"<br/><br/>with an uncertainty of 2.0 arcsec (radius, 90% confidence).<br/>
+This is 1.2 arcsec away from the previous position derived from the <br/>XRT and UVOT data reported in Goad et al. (GCN Circ. 7230),  <br/>51 arcsec from the refined BAT position of Barthelmy et al. <br/>(GCN Circ. 7235) and 1.9 arcsec from the Gemini South position <br/>
+(GCN Circ. 7229).<br/><br/>The X-ray light curve from T + 3.2 ks to T + 85.8 ks can be <br/>fitted by a broken power law model (chi2 of 39 for 28 degrees <br/>of freedom) with a temporal break at about T + 15.5 ks and <br/>decay indices alpha1 = 0.6 +/- 0.1 and alpha2 = 1.5 +/- 0.1 <br/>
+before and after the break, respectively. <br/><br/>The 0.3-10 keV spectrum from T + 3.2 ks to T + 32.2 ks <br/>is well fit by an absorbed power law <br/>(reduced chi2 of 1.02, with 20 degrees of freedom). <br/>The best fit photon index is 2.0 +/- 0.1, with an hydrogen column <br/>
+density of (2 +/- 1)e21 cm^-2, in addition to the Galactic column along <br/>the line of sight of 6.3e21 cm^-2 (Kalberla et al. 2005). <br/>The observed (unabsorbed) flux in the 0.3-10 keV band is <br/>4.2e-12 (8.5e-12) erg cm^-2 s^-1. <br/>
+<br/>The timing and spectral behaviors are completely consistent <br/>with those of a typical GRB X-ray afterglow, <br/>removing any uncertainty about the nature of this burst.<br/><br/>The predicted XRT count rate 48 hours after the trigger is 1.6e-3 <br/>
+count s^-1, which corresponds to an observed 0.3-10.0 keV flux of <br/>1.3e-12 ergs cm^-2 s^-1.<br/><br/>This circular is an official product of the Swift-XRT team.<br/><br clear="all"/><br/><br/>
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7231
+We observed the field of GRB 080129 observed by Swift (Immler et al.
+2008, GCN#7226) simultaneously in grizJHK with GROND mounted at the 2.2m
+MPI/ESO telescope at La Silla (Chile).
+  
+Observations started at 06:11 UT, about 4 min after the GRB.
+  
+We find a point source not present in the Digital Sky Survey images
+inside the Swift/XRT error circle of the X-ray afterglow 
+(Perri et al. 2008, GCN#7228; Goad et al. 2008, GCN#7230).  
+  
+The coordinates are (+- 0.5 arcsec error):
+RA (2000.0) = 07h 01m 08.2s    
+Decl. (2000.0) = -07d 50' 47'
+consistent with the optical source reported by J. S. Bloom (GCN#7229).
+  
+We estimate magnitudes of 22.8 (r), 21.5 (i), 20.6 (z), 18.9 (J), 18.1
+(H) and 17.0 (K) calibrated against USNO and 2MASS field stars. These
+magnitudes are not corrected for galactic extinction.
+  
+The source is fading by about 0.5 mag during the first 90 min, suggesting 
+it to be the optical/NIR afterglow of GRB 080129.
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7227
+      UVOT took a 100 s finding chart exposure of the field of the
+possible GRB 080129 (Immler et al., GCN Circ. 7226) with the white
+(160-650 nm) filter starting 3207 seconds after the BAT trigger.  No
+afterglow candidate has been found in the initial data products.  The
+2.7'x2.7' sub-image covers 25% of the BAT error circle.  The 3-sigma
+upper limit at the centre of the BAT position is white ~= 18.5 on the
+UVOT photometric system (Poole et al. 2008).  The 8'x8' region for the
+list of sources generated on-board covers 100% of the BAT error circle
+and contains no uncatalogued sources.  This list of sources is typically
+complete to about 18 mag.  This field is 1.42 degrees from the
+Galactic place, and no correction has been made for the expected
+Galactic extinction corresponding to a reddening of E(B-V) = 1.02.
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7230
+Using 399 s of overlapping XRT Photon Counting mode and UVOT
+V-band data for GRB 080129, we find an astrometrically corrected X-ray
+position (using the XRT-UVOT alignment and matching UVOT field sources
+to the USNO-B1 catalogue): RA, Dec = 105.28406, -7.84705 which is equivalent
+to:
+with an uncertainty of 2.7 arcsec (radius, 90% confidence).
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7234
+N.B. Galactic coordinates are lon=220.9983 lat= -1.4244
+and the galactic extinction in R band is about 9 magnitudes
+estimated from D. Schlegel et al. 1998ApJ...500..525S.
+
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+Number: 7226
+
