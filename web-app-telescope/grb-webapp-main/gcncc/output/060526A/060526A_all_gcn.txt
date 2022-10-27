@@ -1,0 +1,1351 @@
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5183
+SUBJECT: GRB 060526: RTT150 optical observations
+DATE:    06/05/29 05:42:12 GMT
+FROM:    Rodion Burenin at IKI, Moscow  <rodion@hea.iki.rssi.ru>
+
+I. Khamitov (TUG), I. Bikmaev, N. Sakhibullin (KSU/AST),
+Z. Aslan (TUG), U. Kiziloglu (METU), E. Gogus (Sabanci Uni.),
+R. Burenin, M. Pavlinsky, R. Sunyaev (IKI)
+
+report:
+
+We observed the field around position of optical counterpart of
+GRB060526 (Campana et al. GCN 5162; French &amp; Jelinek GCN 5165; Rykoff et
+al. GCN 5166) with Russian-Turkish 1.5-m telescope (RTT150,
+Bakirlitepe,TUBITAK National Observatory, Turkey). The observations were
+made in Rc in two epochs: May 28, 20:07UT and May 29, 00:53UT (~51.64
+and ~56.41 hours after the burst). The afterglow is detected clearly in
+Rc bands in both epochs.
+
+We estimate the following Rc magnitudes for the OT:
+
+    t-t0  m_R     err
+   51.64  21.464  0.04
+   56.41  21.816  0.05
+
+The last value indicates that the afterglow light curve had returned to
+the extrapolated power-law decay with index -1.2 which was found between
+5 and 16 hours of post-burst reported by Khamitov et al. (GCN 5173),
+Halpern et al. (GCN 5176) and Cobb et al. (GCN 5180).
+
+Our Rc lightcurve can be found at:
+
+http://hea.iki.rssi.ru/grb/060526/lc_0528.jpg
+
+This message may be cited.
+
+</rodion@hea.iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5188
+SUBJECT: GRB 060526: Multiple Optical Flares
+DATE:    06/05/30 21:34:18 GMT
+FROM:    Jules Halpern at Columbia U.  <jules@astro.columbia.edu>
+
+J. P. Halpern (Columbia U.), E. Armstrong (UCSD), &amp; N. Mirabal (U. Michigan) 
+report on behalf of the MDM Observatory GRB follow-up team:
+
+"We have continued to observe the afterglow of Swift GRB 060526 (Campana 
+et al. GCN 5162) in the R-band for four consecutive nights using the
+MDM 1.3m.  In combination with the GCN reported R-band photometry of 
+Khamitov et al. (GCNs 5173,5177,5183,5186), it is evident that there have
+been at least four flares, by which we mean alternating positive and
+negative deviations from a mean decay rate.  These are characterized
+as increases and decreases of at least 0.3 mag in as short a time as
+delta t = 0.04*(t-t0), where t0 is the burst time.  In view of these
+flares, it is problematic to fit a small number of power-law segments
+(as noted by Kann &amp; Thoene GCN 5187).  Rather, we observe that the most 
+recent point, r' = 22.87+/-0.07 on May 30 04:23 UT as calibrated with
+Cool et al. (GCN 5164) data, falls only 0.25 mag below the -1.18 power
+law originally fitted from 5.6 to 16 hours by Khamitov et al. (GCN 5173)
+and Halpern et al. (GCN 5176).  Other details of the MDM optical light
+curve and incorporated GCN data can be seen at:
+
+http://www.astro.columbia.edu/~jules/grb/060526/
+
+This type of light curve is not uncommon in GRB afterglows (see, e.g.,
+Stanek et al. astro-ph/0602495, and references therein), and is often
+apparent when the source is well placed for long observing runs at
+ground-based telescopes."
+
+</jules@astro.columbia.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5162
+SUBJECT: GRB 060526: Swift detection of a burst with x-ray and optical afterglow
+DATE:    06/05/26 16:45:41 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. Campana (INAF-OAB), S. D. Barthelmy (GSFC), P. T. Boyd (NASA/GSFC),
+P. J. Brown (PSU), D. N. Burrows (PSU), J. R. Cummings (NASA/ORAU),
+C. G. Guidorzi (Univ Bicocca&amp;OAB), S. T. Holland (GSFC/USRA),
+J. A. Kennea (PSU), C. B. Markwardt (GSFC/UMD),
+F. E. Marshall (NASA/GSFC), A. Moretti (INAF-OAB),
+K. L. Page (U Leicester), M. Stamatikos (NASA/ORAU),
+G. Tagliaferri (INAF-OAB) and D. E. Vanden Berk (PSU) report on
+behalf of the Swift Team:
+
+At 16:28:30 UT, the Swift Burst Alert Telescope (BAT) triggered and
+located GRB 060526 (trigger=211957).  Swift slewed immediately to the burst. 
+The BAT on-board calculated location is RA,Dec 232.845, +0.244
+{15h 31m 23s, +00d 14' 39"} (J2000) with an uncertainty of 3 arcmin
+(radius, 90% containment, including  systematic uncertainty). 
+The BAT light curve shows multiple peaks starting at T-3 sec out to
+T+15 sec.  The peak count rate was ~2600 counts/sec (15-350 keV),
+at ~1 sec after the trigger. 
+
+The XRT began observing the field at 16:29:43 UT, 73 seconds after the
+BAT trigger. XRT found an uncatalogued X-ray source  located at
+RA(J2000) = 15h 31m 18.4s, Dec(J2000) = +00d 17' 11.0", with an
+estimated uncertainty of 6.8 arcseconds (90% confidence radius). This
+location is 166 arcseconds from the BAT on-board position, within the
+BAT error circle. The initial flux in the 2.5s image was 3.6e-10
+erg/cm2/s (0.2-10 keV). 
+
+UVOT took a finding chart exposure of 100 seconds with the White
+(160-650 nm) filter starting 81 seconds after the BAT trigger. There
+is a candidate afterglow in the rapidly available 2.7'x2.7' sub-image
+at (RA,DEC) (J2000) of (232.8265,0.2847) or
+(15h31m18.36s,+00o17'04.9")  with a 1-sigma error radius of about 0.5
+arc sec. This position is 6.2 arc sec. from the center of the XRT
+error circle. The estimated magnitude is 17.6 with a 1-sigma error of
+about 0.5 mag. No correction has been made for the expected extinction
+corresponding to E(B-V) of  0.07. 
+
+</scott@lheamail.gsfc.nasa.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5169
+SUBJECT: GRB 060526 Lulin optical observation
+DATE:    06/05/27 02:40:24 GMT
+FROM:    Yuji Urata at Saitama U  <urata@crystal.heal.phy.saitama-u.ac.jp>
+
+C. S. Lin, K.Y Huang, W.H. Ip (NCU) Y. Urata (Saitama-U) 
+on behalf of EAFON team report:
+
+"We have observed the optical afterglow of GRB 060526 with B and R
+band using Lulin 1m telescope. After recovery of the weather
+condition, the first imaging was started at 17:48 UT (1.33 hours after
+the burst).  The afterglow is clearly detected in first image with R =
+17.64 +/- 0.05 calibrated relative to USNO-B1.0 catalog.
+
+Further analysis is in progress."
+
+This message may be cited.
+
+
+
+</urata@crystal.heal.phy.saitama-u.ac.jp>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5193
+SUBJECT: GRB 060526: RTT150 optical observations
+DATE:    06/06/01 11:35:00 GMT
+FROM:    Rodion Burenin at IKI, Moscow  <rodion@hea.iki.rssi.ru>
+
+I. Khamitov (TUG), I. Bikmaev, N. Sakhibullin (KSU/AST),
+Z. Aslan (TUG), U. Kiziloglu (METU), E. Gogus (Sabanci Uni.),
+R. Burenin, M. Pavlinsky, R. Sunyaev (IKI)
+
+report:
+
+We continue our observations of the optical counterpart of GRB060526
+(Campana et al. GCN 5162; French &amp; Jelinek GCN 5165; Rykoff et al. GCN
+5166) with Russian-Turkish 1.5-m telescope (RTT150, Bakirlitepe,TUBITAK
+National Observatory, Turkey). A series of frames were taken on May
+31. The afterglow is detected on combined images in both V and R bands.
+
+We estimate the following Rc magnitudes for the OT:
+
+    t-t0  m_R     err
+  125.74  23.69   0.19
+
+Our Rc lightcurve can be found at:
+
+http://hea.iki.rssi.ru/grb/060526/lc_0531.jpg
+
+This message may be cited.
+
+</rodion@hea.iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5171
+SUBJECT: GRB060526, optical observations
+DATE:    06/05/27 04:09:52 GMT
+FROM:    Adalberto Piccioni at Astronomy, Bologna U.  <adb@piccio.org>
+
+G. Greco (Bologna University), F. Terra, (Second University of Roma
+"Tor Vergata"), C. Bartolini, A. Guarnieri and A. Piccioni (Bologna
+University),  D. Nanni (INAF/OAR and Second University of Roma "Tor
+Vergata"), I. Bruni and S. Galleti (Bologna Observatory), and G.
+Pizzichini (INAF/IASF Bologna) report:
+
+We have imagined the field of GRB 060526  by means of the 152 cm
+telescope of Loiano equipped with Bfosc obtaining 6 frames in Rc,
+3 in V and 3 in I.
+Preliminary photometry, using USNO B1 (R1) stars, on May 27.0024
+(UT mean time) yields Rc = 19.34 +- 0.10.
+The Rc image has been posted in our public directory from where it
+can be retrieved by sftp using:
+hostname: ermione.bo.astro.it
+username: publicGRB
+password: GRB_bo.
+
+</adb@piccio.org>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5181
+SUBJECT: GRB060526: optical observations
+DATE:    06/05/28 21:42:04 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+V.Rumyantsev (CrAO),   A. Pozanenko (IKI)   on behalf   of larger GRB follow
+up collaboration report:
+
+We observed optical transient of GRB060526 (Campana et al. GCN  5162, French
+&amp; Jelinek GCN 5165, Rykoff et al. GCN 5166) with the Shajn 2.6m telescope of
+CrAO between May 27 (UT) 18:27 - 20:05 in R and B bands. In combined images
+we detect OT in R and do not detect it in B-band. The photometry  of the OT
+and upper limits are following:
+
+Mid time   Filter Exp.    OT, mag.    Limiting mag.
+(UT)              sec
+
+May 27.803  R    18x60    20.25 +/-0.04   23.0
+May 27.777  B     6x120     -             20.6
+
+The photometry calibration is based on USNO A2.0 field stars. (We note that
+R magnitudes of field stars in USNO A2.0 are somewhat brighter (~0.2m) than
+those in USNO B1.0). The R-combined image can be found in
+http://grb.rssi.ru/GRB060526
+
+This message may be cited.
+
+
+</apozanen@iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5202
+SUBJECT: GRB 060526: Tautenburg Second Epoch Observations
+DATE:    06/06/03 01:53:49 GMT
+FROM:    Alexander Kann at TLS Tautenburg  <kann@tls-tautenburg.de>
+
+D. A. Kann and U. Laux (Thueringer Landessternwarte Tautenburg) report:
+
+We observed the location of the afterglow of GRB 060526 (Campana et al., 
+GCN 5162) with the Tautenburg 1.34m Schmidt telescope. Observing 
+conditions were mediocre. While it was clear, transparency was low and sky 
+background was high due to moonlight and light pollution.
+
+We obtained 20 x 600 sec exposures for a total integration time of 12000 
+seconds. Observations commenced on June 2, 21:04:17 UT and ended June 3, 
+00:55:07 UT. Midexposure time is June 2.9546, which is 7.2682 days after 
+the burst.
+
+We do not detect the optical afterglow. Using the USNO calibration star 
+from Khamitov et al., GCN 5177, we derive the following 2 sigma limiting 
+magnitude:
+
+t-t_0	Rc limit
+7.2682	&gt; 23.5
+
+As Khamitov et al. (GCN 5193) already found a similar magnitude of the 
+afterglow two days earlier, this limit can only constrain that no further 
+very bright flares have occured.
+
+No further observations are planned.
+
+This message may be cited.
+
+</kann@tls-tautenburg.de>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5180
+SUBJECT: GRB 060526: SMARTS optical/IR afterglow observations
+DATE:    06/05/28 19:11:24 GMT
+FROM:    Bethany Cobb at Yale U  <cobb@astro.yale.edu>
+
+B. E. Cobb (Yale), part of the larger SMARTS consortium, reports:
+
+Using the ANDICAM instrument on the 1.3m telescope at CTIO, we
+obtained optical/IR imaging of the error region of GRB 060526
+(GCN 5162, Campana et al.) with a mid-exposure time of
+2006-05-27 01:13 UT (~8.7 hours post-burst) and
+again at 2006-05-27 04:07 UT (~11.6 hours post-burst).
+Total summed exposure times for each observation amounted
+to 36 minutes in I and 30 minutes in J.
+
+The afterglow of GRB 060526 is visible in each combine image.
+The preliminary magnitudes reported below were calibrated using
+several USNO-B1.0 stars in the I-band and two 2MASS standards in J.
+[The errors on the photometric calibration are ~0.2 in I and ~0.02
+in J; these errors are in addition to the statistical errors listed
+below.]
+
+time
+post-burst      I magnitude             J magnitude
+------------------------------------------------------
+ 8.7 hours      18.99 +/- 0.02          18.16 +/- 0.06
+11.6 hours      19.31 +/- 0.02          18.58 +/- 0.07
+
+
+The afterglow decay index is constrained by our observations to be
+alpha = 1.2 +/- 0.2 from 8.7 to 11.6 hours post-burst.  This
+value is in agreement with the decay value from 5 to 16 hours
+post-burst reported by Khamitov et al. (GCN 5173)
+and Halpern et al. (GCN 5176).
+
+
+
+</cobb@astro.yale.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5266
+SUBJECT: GRB060526: optical observations
+DATE:    06/06/16 17:06:26 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+D. Sharapov (MAO and NOT, La Palma),  T. Augusteijn (NOT, La Palma),
+A.Pozanenko (IKI), V.Rumyantsev (CrAO)  on behalf of larger GRB follow up
+collaboration report:
+
+We observed the error box of GRB060526 (Campana et al. GCN5162) in Nordic
+Optical Telescope with ALFOSC between (UT)  June 05 23:37 and June 06 00:41.
+We do not detect the optical afterglow. Limiting magnitude of a combined
+image of total exposure 10x300  is R~ 24.6.  Based on last 3 points of TT150
+(Khamitov et al.  GCNs 5186, 5189, 5193) the limiting magnitude R=24.6 at
+mid time (UT) June 06.0125 (T0+10.486d) is compatible with X-ray power law
+decay index   2.8+/-0.1 (Moretti et al., GCN5194). While no sources are
+detected within refined XRT error circle  (Campana et. GCN5168)  faint
+galaxy (R=24.4 +/- 0.3) is detected at (J2000) RA = 15:31:18.2  Dec =
++00:17:12.7.  Taking into account redshift of the OT of GRB060526 z=3.21
+(Berger and Gladders GCN5170) it is unlikely that the
+detected galaxy is connected with GRB060526.
+
+The combined image can be found at http://grb.rssi.ru/GRB060526/
+
+
+</apozanen@iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5168
+SUBJECT: GRB 060526: Swift/XRT Team refined analysis
+DATE:    06/05/26 22:53:23 GMT
+FROM:    Sergio Campana at INAF-OAB  <sergio.campana@brera.inaf.it>
+
+S. Campana (INAF-OAB), A. Moretti (INAF-OAB), C. Guidorzi
+(Bicocca Univ. &amp; INAF-OAB), G. Chincarini (Bicocca Univ. &amp;
+INAF-OAB), D.N. Burrows (PSU) on behalf of the Swift-XRT team
+report:
+
+We have analysed the first orbit of Swift/XRT data of GRB 060526
+(Campana et al., GCN 5162 and GCN 5163) summing up 1773 s of data
+in Photon Counting (PC) and 334 s in Window Timing (WT) mode,
+respectively. We find a refined XRT position for this burst of:
+
+RA(J2000)  = 15 31 18.41
+Dec(J2000) = +00 17 05.7
+
+with an error of 3.6 arcseconds radius (90% containment).
+This position is 2.8 arcseconds from the XRT position quoted by
+Campana et al. (GCN 5163) and 1.1 arcseconds from the UVOT position.
+
+The afterglow shows several states: the XRT started observing the
+GRB at T+73 s. For the first 53 s (up to T+126 s) the XRT remained
+in WT mode with a slowly decaying count rate (power law decay of
+-1.4+/-0.9, 90% confidence). Then it switched to PC mode continuing
+its slow decay up to T+206 s when a bright flare carry back the
+XRT in WT mode. The flare is made of two flares with FRED-like
+shape. The first peak reached &gt;335 c/s (being slightly piled-up at
+level count rate level) around T+240 s and the second about 200 c/s
+around T+295 s. The decay from the first peak is very steep (as
+measured from T), with an power law index of -7.7+/-0.7 and also
+from the second with -8.6+/-0.2. The second flare shows some
+structures close to the peak.
+The PC data show the latest stages of the flare and then a break
+to a much flatter decay (-0.7+/-0.5) around 600 s (further data
+will improve the determination of the time of this break).
+This does not allow a first prediction of the flux at one day.
+
+ From the spectral point of view, PC data before and after the flare
+are consistent with a simple power law (photon index 1.8+/-0.2) at
+a column density consistent with the Galactic value NH&lt;1x10^21 cm^-2
+(NH_g=6x10^20 cm^-2).
+Flux in the first WT data is 1.7x10^-10 erg s^-1 cm^-2 (unabsorbed
+0.3-10 keV) and in the last PC data 1.6x10^-10 erg s^-1 cm^-2.
+Considering pre- and post-flare WT and PC data some spectral evolution
+is observed, this can be explained with a spectral softening or a
+column density decrease.
+The spectrum of the first flare (excluded the brightest piled-up
+portion) is consistent with a simple power law with photon index
+around 1.8 and a column density larger than the values reported above,
+likely indicating a fast evolving cut-off power law.
+The second flare is much softer with with a power law photon index
+around 2.6. Also in this case the column density is slightly larger
+than the previous values. Being not piled-up we can estimate a mean
+0.3-10 keV unabsorbed flux of 8x10^-9 erg s^-1 cm^-2 (from T+215 to
+T+304 s).
+
+This Circular is an official product of the Swift XRT Team.
+
+</sergio.campana@brera.inaf.it>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5174
+SUBJECT: GRB 060526:  Refined analysis of the Swift-BAT burst
+DATE:    06/05/27 17:51:50 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+C. Markwardt (GSFC/UMD), L. Barbier (GSFC), S. Barthelmy (GSFC),
+J. Cummings (GSFC/ORAU), E. Fenimore (LANL), N. Gehrels (GSFC),
+D. Hullinger (BYU-Idaho), H. Krimm (GSFC/USRA), M. Koss (GSFC/UMD),
+D. Palmer (LANL), A. Parsons (GSFC), T. Sakamoto (GSFC/ORAU),
+G. Sato (GSFC/JSPS/USRA), M. Stamatikos (GSFC/ORAU), J. Tueller (GSFC)
+on behalf of the Swift-BAT team:
+
+Using the data set from T-119 to T+1000 sec from recent telemetry downlinks,
+we report further analysis of BAT GRB 060526 (trigger #211957)
+(Campana, et al., GCN 5162 &amp; 5163).  The BAT ground-calculated position
+is RA,Dec = 232.838,+0.292 deg {15h 31m 21.0s,+0d 17' 32.9"} (J2000)
++- 1.4 arcmin, (radius, sys+stat, 90% containment).  The partial coding
+was 61%.
+ 
+As noted in GCN 5163, there are two well separated episodes of emission
+detected in the BAT instrument.
+The initial emission contains two FRED-like peaks, the first starting at
+T-3sec, peaking at T+1, and ending at T+5 sec; and the second starts 
+at T+6 sec, peaks at T+7 sec, and returns back to the background level
+at T+13 sec.  T90 (15-350 keV) for this first episode is 13.8 +- 2 sec
+(estimated error including systematics).  The scond episode consists
+of a single symmetric peak at T+250 sec (230 to 270 sec).  This second
+episode is coicident with the XRT flare described in GCN 5168.
+ 
+For the first episode, the time-averaged spectrum from T-1.3 to T+17.0
+is best fit by a simple power-law model.  The power law index
+of the time-averaged spectrum is 1.66 +- 0.20.  The fluence
+in the 15-150 keV band is 4.9 +- 0.6 x 10^-7 erg/cm2.
+The 1-sec peak photon flux measured from T+0.17 sec in the
+15-150 keV band is 1.7 +- 0.2 ph/cm2/sec.
+For the second episode, the time-averaged spectrum from T+230 to T+270
+is best fit by a simple power-law model.  The power law index
+of the time-averaged spectrum is 2.07 +- 0.18.  The fluence
+in the 15-150 keV band is 5.9 +- 0.6 x 10^-7 erg/cm2.  This is slightly
+more fluence than the first episode, but only about half the peak flux.
+All the quoted errors are at the 90% confidence level. 
+
+</scott@lheamail.gsfc.nasa.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5173
+SUBJECT: GRB 060526: RTT150 optical observations
+DATE:    06/05/27 05:16:31 GMT
+FROM:    Rodion Burenin at IKI, Moscow  <rodion@hea.iki.rssi.ru>
+
+I. Khamitov (TUG), I. Bikmaev, N. Sakhibullin (KSU/AST),
+Z. Aslan (TUG), U. Kiziloglu (METU), E. Gogus (Sabanci Uni.),
+R. Burenin, M. Pavlinsky, R. Sunyaev (IKI)
+
+report:
+
+We observed the field around position of optical counterpart (Campana et
+al. GCN 5162; French &amp; Jelinek GCN 5165; Rykoff et al. GCN 5166) of
+GRB060526 (Swift trigger 211957) with Russian-Turkish 1.5-m telescope
+(RTT150, Bakirlitepe, TUBITAK National Observatory, Turkey), starting at
+May. 27, 00:56UT, i.e. ~5.45 hours after the burst. A series of frames
+was taken (200*30s exposures in R, 5*300 exposures in B and V).
+
+The power-law decay index in Rc is approximately -1.2 between 5.61 and
+8.88 hours after the burst. Using USNO-B1 star (RA=15:31:18.6, DEC=+00
+17 34.9, R2MAG=16.35) we estimate the following Rc magnitudes for the
+OT:
+
+   t-t0  m_R     err
+   5.61	 18.840  0.02
+   5.99  18.893  0.02
+   6.10  18.924  0.03
+   6.20  18.908  0.03
+   6.52  19.029  0.03
+   6.63  19.051  0.03
+   6.74  18.977  0.03
+   7.04  19.133  0.04
+   7.15  19.141  0.03
+   7.26  19.128  0.03
+   7.58  19.173  0.03
+   7.69  19.291  0.03
+   7.80  19.283  0.04
+   8.12  19.243  0.04
+   8.23  19.409  0.04
+   8.34  19.342  0.04
+   8.45  19.406  0.05
+   8.56  19.290  0.05
+   8.66  19.270  0.04
+   8.77  19.377  0.06
+   8.88  19.477  0.06
+
+The Rc lightcurve can be found at:
+
+http://hea.iki.rssi.ru/grb/060526/lc.jpg
+
+This message may be cited.
+
+
+</rodion@hea.iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5172
+SUBJECT: GRB060526: Further Swift-UVOT Observations
+DATE:    06/05/27 04:28:15 GMT
+FROM:    Peter Brown at PSU  <pbrown@astro.psu.edu>
+
+P. J. Brown (Penn State), S. Campana (INAF-OAB),
+P. T. Boyd (NASA/GSFC), &amp; F. E. Marshall (NASA/GSFC),
+report on behalf of the Swift UVOT team:
+
+The afterglow of GRB060526 (BAT Trigger 211957)
+reported in Campana et al. (GCN 5162) is also
+detected by UVOT in the B filter, as well as the
+previously reported V and White filters,
+and continues to fade.  We report the following
+additional UVOT detections:
+
+Filter	Tstart-Tstop(s)	Exp(s)	Mag	Err
+White	6335-6534	200	19.2	0.2
+V	5311-5511	200	18.2	0.2
+V	6744-6944	200	18.6	0.2
+B	665-675  	10	18.2	0.4
+B	6130-6330 	200	19.4	0.2
+
+The afterglow is not detected in any filters
+blueward of B, consistent with the z=3.21 redshift
+measured by Berger &amp; Gladders (GCN 5170).
+The 3 sigma upper limits in summed images are:
+
+Filter	Tstart-Tstop(s)	Exp(s)	UpperLimit(3sigma)
+U	641-1492	58	&gt;19.1
+W1	617-1468	58	&gt;19.1
+M2	593-1444	58	&gt;19.0
+W2	693-1554	78	&gt;19.6
+
+In addition, examination of the event mode data of
+the first V band observation, spanning 188 to 588
+seconds after the trigger, shows an optical flare
+coincident with the flare seen by BAT and XRT
+(Campana et al. GCN 5163).
+
+</pbrown@astro.psu.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5187
+SUBJECT: GRB060526: afterglow fitting and probable jet break
+DATE:    06/05/30 16:43:38 GMT
+FROM:    Christina Thoene at Niels Bohr Institute,DARK Cosmo Ctr  <cthoene@astro.ku.dk>
+
+D. A. Kann (TLS Tautenburg) and C. C. Thoene (DARK Cosmology Center)
+report:
+
+
+Gathering further data from the GCN (Khamitov et al., GCN 5183, 5186,
+Baliyan et al., GCN 5185) in addition to those referenced in Kann &amp;
+Hoegner (GCN 5182), we perform fits to the R afterglow light curve.
+
+A single power law fit to all data beyond 6000 seconds yields alpha = 1.04
++/- 0.01, but the late-time data beyond two days lie significantly beneath
+the fit.
+
+A broken power law gives a better fit, with alpha_1 = 0.98 +/- 0.10,
+alpha_2 = 2.06 +/- 0.13, and break time t_b = 1.76 +/- 0.1 days. The break
+smoothness parameter n is fixed to 10.
+Still, the fit is not acceptable, with strong deviations around 0.5 days.
+
+Fitting separate parts of the light curve, we find a better fit with a
+double broken power law. The first part (0.19 to 1.1 days) is described by
+alpha_1 = 1.35 +/- 0.07, alpha_2 = 0.85 +/- 0.08 and t_b = 0.44 +/- 0.08
+days, n = -10 fixed. The fit is marginally acceptable, with
+deviations due to scatter (different zero points and comparison stars).
+
+The second part (0.53 days to the end) is described by alpha_1 = 0.76 +/-
+0.04, alpha_2 = 1.87 +/- 0.07 and t_b = 1.42 +/- 0.08 days, n = 10 fixed.
+This fit is acceptable. Alpha_2 of the first part and alpha_1 of the
+second part are identical within errors, as expected. We note that the
+extension of this last fit to early times is consistent with the first
+ROTSE data point (Rykoff et al., GCN 5166) and marginally consisten with
+the very early Watcher data (French &amp; Jelinek, GCN 5165).
+
+This strengthens the picture that the break first described by Thoene et
+al. (GCN 5179) is the jet break. The post-break decay is relatively
+smooth.
+
+We caution that these fits do not include the dense data set presented by
+Halpern, Armstrong &amp; Mirabal (GCN 5176) and the optical flare they
+detected. Similar to early fits of GRB 030329 presented in the GCN, these fits may
+be the result of inhomogenous coverage of a highly variable light curve.
+
+Further deep monitoring is encouraged.
+
+The plots for the double broken power law fits can be found at
+www.astro.ku.dk/~cthoene
+
+</cthoene@astro.ku.dk>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5167
+SUBJECT: GRB 060526: TNG optical observations
+DATE:    06/05/26 22:12:02 GMT
+FROM:    Stefano Covino at Brera Astronomical Observatory  <stefano.covino@brera.inaf.it>
+
+S. Covino, G.L. Israel, F. Ghinassi, N. Pinilla, on behalf of the  
+CIBO collaboration, report:
+
+
+We observed the optical counterpart of GRB 060526 (Campana et al. GCN  
+5162; French &amp; Jelinek GCN 5165; Rykoff et al. GCN 5166) with the  
+3.6m TNG telescope located at the Canary Islands. V and R photometry  
+have been obtained with TNG+DOLoRES.
+
+The afterglow is clearly detected at 21:00:56 UT (about 4:32 after  
+the burst) with R = 18.43 +- 0.04, assuming R = 15.0 for the USNO  
+star at  RA,DEC 15:31:17.90, 00:15:28.8.
+
+Further observations are in progress.
+
+
+This message is citable.
+
+</stefano.covino@brera.inaf.it>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5179
+SUBJECT: GRB060526: possible break in the optical light curve
+DATE:    06/05/28 17:07:23 GMT
+FROM:    Christina Thoene at Niels Bohr Institute,DARK Cosmo Ctr  <cthoene@astro.ku.dk>
+
+Christina C. Thoene, Johan P.U. Fynbo (DARK Cosmology Centre), Uffe G.
+Joergensen (NBI Copenhagen) report:
+
+
+We observed the OT of GRB060526 (GCN 5162, GCN 5166) with the Danish 1.54m
+telescope and DFOSC on La Silla in the R-band at several epochs on May 26
+and May 27.
+
+A fit to our data from the first night gives a powerlaw decay with a
+temporal decay index of 0.86, whereas the data obtained at the second
+night are well fitted by a powerlaw with index 1.73. Therefore, in
+contrast to the flattening reported in GCN 5177, we observe a considerable
+steepening of the lightcurve between the first and the second night and a
+possible break between the two nights.
+
+A plot of the data and fit is available at:
+www.astro.ku.dk/~cthoene
+
+
+</cthoene@astro.ku.dk>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5182
+SUBJECT: GRB 060526: Tautenburg OT observation and light curve fitting
+DATE:    06/05/29 02:41:31 GMT
+FROM:    Alexander Kann at TLS Tautenburg  <kann@tls-tautenburg.de>
+
+D. A. Kann &amp; C. Hoegner (Thueringer Landessternwarte Tautenburg) report:
+
+The afterglow of GRB 060526 (Campana et al., GCN 5162) was observed with the 
+Tautenburg 1.34m Schmidt telescope in the R band in inclement conditions (passing 
+clouds). A total of four 600 sec exposures were obtained, each significantly deeper than the 
+DSS. The afterglow is detected in each image. We measure the magnitude from a stack of 
+all four images, using the magnitude Khamitov et al. (GCN 5177) derived for the USNO star 
+at RA=15:31:18.6, Dec=+00:17:34.9 (R=16.848):
+
+Epoch		dt (days)	Rc	dRc
+28.9768	2.2904		21.55	0.13
+
+We collect data from Rykoff et al. (GCN 5166), Covino et al. (GCN 5167), Greco et al. 
+(GCN 5171), Khamitov et al. (GCN 5173), Morgan &amp; Dai (GCN 5175), Khamitov et al. (GCN 
+5177), Thoene et al. (GCN 5179) and Rumyantsev &amp; Pozanenko (GCN 5181). This data set 
+can be fit by a single power law with slope alpha = 0.99 +/- 0.01, starting at 6000 seconds 
+after the burst (Rykoff et al., GCN 5166). But we find significant deviations from the power 
+law, as high as 0.3 mags above and below (cf. Halpern et al., GCN 5176) the fit, leading to 
+a high chi^2. This behaviour is reminiscent of GRBs 021004 and 030329. For the data 
+beyond 1.3 days, we find alpha = 1.64 +/- 0.17, in agreement with Thoene et al. (GCN 
+5179).
+
+Our data can not rule out that a break in the light curve has occured, lying well on the 
+extrapolation of the data of Thoene et al. (GCN 5179). If so, the post jet-break decay slope 
+is very shallow. The afterglow is thus well-suited for further follow-up, and dense R band 
+imaging is encouraged.
+
+This message may be cited.
+
+</kann@tls-tautenburg.de>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5192
+SUBJECT: GRB060526,  optical observations
+DATE:    06/05/31 18:48:03 GMT
+FROM:    Adalberto Piccioni at Astronomy, Bologna U.  <adb@piccio.org>
+
+F. Terra (Second University of Roma "Tor Vergata"), G. Greco,
+C. Bartolini, A. Guarnieri, A. Piccioni (Bologna University),
+D. Nanni (INAF/OAR and Second University of Roma "Tor Vergata"),
+I. Bruni, S. Galleti (Bologna Observatory) and G. Pizzichini
+(INAF/IASF Bologna) report:
+
+"We observed the field of GRB 060526 (Campana et. al., GCN 5162)
+with the 152 cm Cassini Telescope located in Loiano, equipped
+with BFOSC in the nights april 26-27 (seeing 2".0) and 27-28
+(seeing 1".7).
+The photometry is based on the SDSS stars (Cool et al. GCN 5164)
+and trasformation derived from Lupton (2005). Using this
+transformation we find for the USNO B-1 star (RA = 15 31 18.6,
+DE = +00 17 34.9) the magnitude Rc = 16.50, consistent with the 
+calibration of Khamitov et al. (GCN 5177).
+
+We find the following magnitudes:
+
+Mean...UT .......Filter........Exptime (s).......magnitude
+May...26.908........Rc............900............18.85+/-0.08
+May...26.921........Rc............900............18.92+/-0.07
+May...26.935........V............1200............19.37+/-0.08
+May...26.949........I.............900............18.60+/-0.06
+May...26.961........Rc............900............19.08+/-0.07
+May...26.975........V............1200............19.64+/-0.09
+May...26.990........I.............900............18.80+/-0.06
+May...27.002........Rc............900............19.28+/-0.09
+May...27.017........V............1200............19.79+/-0.11
+May...27.031........I.............900............18.94+/-0.08
+May...28.002........Rc............900............20.61+/-0.13
+May...28.017........Rc............900............20.44+/-0.10
+
+</adb@piccio.org>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5177
+SUBJECT: GRB 060526: RTT150 optical observations, afterglow flattening
+DATE:    06/05/28 15:00:31 GMT
+FROM:    Irek Khamitov at TUG  <irekk@tug.tug.tubitak.gov.tr>
+
+I. Khamitov (TUG), I. Bikmaev, N. Sakhibullin (KSU/AST),
+Z. Aslan (TUG), U. Kiziloglu (METU), E. Gogus (Sabanci Uni.),
+R. Burenin, M. Pavlinsky, R. Sunyaev (IKI)
+
+report:
+
+We observed the field around position of optical counterpart of
+GRB060526 (Campana et al. GCN 5162; French &amp; Jelinek GCN 5165; Rykoff et
+al. GCN 5166) with Russian-Turkish 1.5-m telescope (RTT150, Bakirlitepe,
+TUBITAK National Observatory, Turkey). The observations were made in BVR
+in two epochs: May. 27, 18:40UT and 23:20UT (26.19 and ~30.86 hours
+after the burst). The afterglow is detected clearly in VRc bands and
+marginally in B.
+
+Using Landolt standards we calibrate reference star used in our GCN 5173
+and estimate its Rc magnitude as 16.484+/-0.01, 0.13 mag fainter then
+R2MAG of USNO-B1.
+
+We estimate the following Rc magnitudes for the OT:
+
+    t-t0  m_R     err
+   26.31  20.581  0.04
+   31.57  20.641  0.04
+
+These magnitudes significantly deviates from power-law decay with index
+-1.2. The flare detected by Halpern et al. (GCN5176) is continued by the
+flattening of afterglow light curve.
+
+This message may be cited.
+
+</irekk@tug.tug.tubitak.gov.tr>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5166
+SUBJECT: GRB 060526: ROTSE-III Observations of Optical Counterpart 
+DATE:    06/05/26 21:36:39 GMT
+FROM:    Eli Rykoff at U of Michigan/ROTSE  <erykoff@umich.edu>
+
+E.S. Rykoff (U Mich), S.A. Yost (U Mich), H. Swan (U Mich), W. 
+Rujopakarn (U Mich), report on behalf of the ROTSE collaboration:
+
+ROTSE-IIIc, located at the H.E.S.S. site at Mt. Gamsberg, Namibia, 
+responded to GRB 060526 (Swift trigger 211957, GCN 5162). The first 
+image was at 17:15:11.1 UT, 2801.1 s after the burst.  The unfiltered 
+images are calibrated relative to USNO A2.0.  We detect a 17.5th 
+magnitude, fading source with coordinates:
+
+   15:31:18.3    +00:17:03.7 (J2000)
+
+This is consistent with the Swift/UVOT position reported in GCN 5162.
+
+The afterglow did not fade significantly between 2800s and ~6000s 
+post-burst, when it was at ~ 17.5 mag.  At 6000s the lightcurve had a 
+break, and started decaying as a smooth power-law with index ~-1.  At 
+13000 s post-burst, the afterglow is at 18.4+/-0.05 mag.  Observations 
+are continuing.
+
+A jpeg image is available at 
+http://www.rotse.net/images/gsb211957_3c091-100_key.jpg
+
+</erykoff@umich.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5170
+SUBJECT: GRB 060526: Magellan Redshift
+DATE:    06/05/27 03:25:00 GMT
+FROM:    Edo Berger at Carnegie Obs  <eberger@ociw.edu>
+
+E. Berger and M. Gladders (Carnegie) report:
+
+"We obtained a spectrum of the optical afterglow of GRB 060526 (GCN 5162)
+with the LDSS3 spectrograph on the Magellan/Clay telescope starting on
+2006, May 27.06 UT.  The spectrum reveals a strong aborption feature which
+we identify as Ly-alpha, as well as a large number of aborption features
+corresponding to SII, SiII, CII, FeII, etc., at a redshift of 3.21.  
+Further analysis is on-going"
+
+
+
+</eberger@ociw.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5185
+SUBJECT: GRB060526: Optical counterpart from MIRO
+DATE:    06/05/30 03:02:47 GMT
+FROM:    Kiran S Baliyan at Physical Research Lab, Ahmedabad,India  <baliyan@prl.res.in>
+
+   K.S. Baliyan, S. Ganesh, H.O. Vats and  J.K. Jain (MIRO-PRL, Ahmedabad,
+   India) report:
+   
+   We observed the field around position of the optical counterpart of 
+   GRB060526 (Campana et al. GCN 5162, 5163; French &amp; Jelinek GCN 5165; 
+   Rykoff et al. GCN 5166) beginning at 21:02 UT. The 1296*1154 CCD mounted 
+   on the 1.2 M telescope of Mt Abu IR Observatory, operated by Physical 
+   Research Laboratory, Ahmedabad- India, was used to observe OT in VRI bands
+   with 180 second exposures. 
+   The afterglow is detected clearly in all the bands. 
+
+We use Rc=16.484+/-0.01 mag for USNO B-1 star (RA=15:31:18.6, DEC=+00 17 34.9)
+as reference value to estimate preliminary R magnitudes for OT on May 26:
+
+ 21:02:59 UT	  18.65 +/- 0.19
+ 21:09:26 UT	  18.71 +/- 0.32
+ 21:32:38 UT	  19.06 +/- 0.19
+ 22:44:22 UT	  19.19 +/- 0.24
+
+
+This message may be cited.
+
+</baliyan@prl.res.in>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5186
+SUBJECT: GRB 060526: RTT150 optical observations
+DATE:    06/05/30 05:05:45 GMT
+FROM:    Rodion Burenin at IKI, Moscow  <rodion@hea.iki.rssi.ru>
+
+I. Khamitov (TUG), I. Bikmaev, N. Sakhibullin (KSU/AST),
+Z. Aslan (TUG), U. Kiziloglu (METU), E. Gogus (Sabanci Uni.),
+R. Burenin, M. Pavlinsky, R. Sunyaev (IKI)
+
+report:
+
+We observed the optical counterpart of GRB060526 (Campana et al. GCN
+5162; French &amp; Jelinek GCN 5165; Rykoff et al. GCN 5166) with
+Russian-Turkish 1.5-m telescope (RTT150, Bakirlitepe,TUBITAK National
+Observatory, Turkey), starting at May. 29, 18:44UT, i.e. ~74.26 hours
+after the burst. A series of frames were taken. The afterglow is
+detected in Rc band and marginally in V.
+
+We estimate the following Rc magnitudes for the OT:
+
+    t-t0  m_R     err
+   76.03  22.19  0.07
+   78.13  22.31  0.07
+   80.40  22.45  0.12
+
+These points lie approximately on the extrapolation of the first day
+power law decay (e.g., Khamitov et al., GCN 5173).
+
+Our Rc lightcurve can be found at:
+
+http://hea.iki.rssi.ru/grb/060526/lc_0529.jpg
+
+This message may be cited.
+
+</rodion@hea.iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5163
+SUBJECT: GRB 060526: Continued emission for the Swift burst
+DATE:    06/05/26 17:26:29 GMT
+FROM:    Scott Barthelmy at NASA/GSFC  <scott@lheamail.gsfc.nasa.gov>
+
+S. Campana (INAF-OAB), S. D. Barthelmy (GSFC), D. N. Burrows (PSU),
+N. Gehrels (NASA/GSFC), C. Guidorzi (Univ Bicocca&amp;INAF-OAB),
+J. A. Kennea (PSU), F. E. Marshall (NASA/GSFC),
+K. M. McLean (LANL/UTD), A. Moretti (INAF-OAB),
+M. Stamatikos (NASA/ORAU), G. Tagliaferri (INAF-OAB) and
+D. E. Vanden Berk (PSU) report on behalf of the Swift Team:
+
+Following up the report of the Swift GRB (Campana, et al., GCN 5162),
+we note that the BAT lightcurve shows a well separated second period
+of emission starting at ~T+220 sec and lasting until ~T+270 sec. 
+The shape of the emission is FRED-like.  Based on the 4-band TDRSS
+lightcurve, this second emission is significantly softer that the 
+original emission at T+0. 
+
+Based on initial data we find a refined XRT position of 
+RA(J2000): 15 31 18.27, DEC(J2000): +00 17 07.6, with an error 
+radius of 4.3 arcsec (90% confidence) and 3 arcsec from the previously 
+reported UVOT candidate position. The XRT light curve shows a sharp 
+increase in the count rate starting around T+220 s from burst trigger, 
+approximately coincident with the second BAT peak. 
+
+As shown in the table below, UVOT sees a fading afterglow in 
+the four finding chart exposures for this burst. In the table,
+T is the time in seconds since the BAT trigger at the start 
+of the exposure. 
+
+  T  Exposure Filter  Magnitude
+  83  100     White    17.6
+ 188  400     V        17.2
+ 866  400     V        17.8
+1274  100     White    18.4
+
+We note that the location of this burst is ~11.3 hours from the Sun
+and therefore well suited for ground-based follow-ups. 
+There is no bright galaxy at this location in the archived SDSS images. 
+We will start receiving the full downlinked data set around 18:00 UT. 
+
+</scott@lheamail.gsfc.nasa.gov>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5189
+SUBJECT: GRB 060526: RTT150 optical observations
+DATE:    06/05/31 06:17:36 GMT
+FROM:    Rodion Burenin at IKI, Moscow  <rodion@hea.iki.rssi.ru>
+
+I. Khamitov (TUG), I. Bikmaev, N. Sakhibullin (KSU/AST),
+Z. Aslan (TUG), U. Kiziloglu (METU), E. Gogus (Sabanci Uni.),
+R. Burenin, M. Pavlinsky, R. Sunyaev (IKI)
+
+report:
+
+We continue our observations of the optical counterpart of GRB060526
+(Campana et al. GCN 5162; French &amp; Jelinek GCN 5165; Rykoff et al. GCN 5166)
+with Russian-Turkish 1.5-m telescope (RTT150, Bakirlitepe,TUBITAK National
+Observatory, Turkey). A series of frames were taken on May 30. The afterglow
+is detected on combined images in both V and R bands.
+
+We estimate the following Rc magnitudes for the OT:
+
+    t-t0  m_R     err
+  104.05  23.14   0.09
+
+Our Rc lightcurve can be found at:
+
+http://hea.iki.rssi.ru/grb/060526/lc_0530.jpg
+
+In combination with MDM 1.3-m observations (Halpern et al., GCN 5188) these
+data suggest that the OT light curve can not be fitted by a combination of
+power laws and contain several optical flares.
+
+This message may be cited.
+
+</rodion@hea.iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5164
+SUBJECT: GRB060526 - SDSS Pre-burst Observations
+DATE:    06/05/26 17:43:57 GMT
+FROM:    Richard J. Cool at U.of AZ/Steward Obs  <rcool@as.arizona.edu>
+
+Richard J. Cool (Arizona), Daniel J. Eisenstein (Arizona),
+David W. Hogg (NYU), Michael R. Blanton (NYU), David
+J. Schlegel (LBNL), J. Brinkmann (APO), Donald Q. Lamb
+(Chicago), Donald P. Schneider (PSU), and Daniel E. Vanden
+Berk (PSU) report:
+
+The Sloan Digital Sky Survey (SDSS) imaged the field of
+burst GRB060526 prior to the burst.  As these data should
+be useful as a pre-burst comparison and for calibrating
+photometry, we are supplying the images and photometry
+measurements for this GRB field to the community.
+
+Data from the SDSS, including 5 FITS images, 3 JPGS, and
+3 files of photometry and astrometry, are being placed
+at http://mizar.as.arizona.edu/~grb/public/GRB060526
+
+We supply FITS images in each of the 5 SDSS bands of a
+8'x8' region centered on the GRB position (ra=232.827
+(15:31:18.4), dec=0.286400 (00:17:11.0); GCN 5162),
+as well as 3 gri color-composite JPGs (with different
+stretches). The units in the FITS images are nanomaggies
+per pixel.  A pixel is 0.396 arcsec on a side. A nanomaggie
+is a flux-density unit equal to 10^-9 of a magnitude
+0 source or, to the extent that SDSS is an AB system,
+3.631e-6 Jy.  The FITS images have WCS astrometric
+information.
+
+In the file GRB060526_sdss.calstar.dat, we report
+photometry and astrometry of 753 bright stars (r&lt;20.5)
+within 15' of the burst location.  The magnitudes presented
+in this file are asinh magnitudes as are standard in the
+SDSS (Lupton 1999, AJ, 118, 1406). Beware that some of
+these stars are not well-detected in the u-band; use the
+errors and object flags to monitor data quality.
+
+In the files GRB060526_sdss.objects_flux.dat and
+GRB060526_sdss.objects_magnitudes.dat, we report photometry
+of 1467 objects detected within 6' of the GRB position.
+We have removed saturated objects and objects with
+model magnitudes fainter than 23.0 in the r-band.
+The fluxes listed in GRB060526_sdss.objects_flux.dat
+are in nanomaggies while the magnitudes listed in
+GRB060526_sdss.objects_magnitudes.dat are asinh magnitudes.
+
+All quantities reported are standard SDSS photometry,
+meaning that they are very close to AB zeropoints
+and magnitudes are quoted in asinh magnitudes.
+Photometric zeropoints are known to about 2% rms.
+None of the photometry is corrected for dust extinction.
+The Schlegel, Finkbeiner, and Davis (1998) predictions
+for this region are A_U=0.337 mag, A_g=0.248 mag, A_r =
+0.180 mag, A_i=0.136 mag, and A_z=0.097 mag.
+
+The file GRB060526_sdss.spectro.dat contains a list of
+the 5 objects with SDSS spectroscopy within 6 arcminutes
+of the GRB position.  In addition to the redshift and
+1-sigma error for each object, this file also lists the
+object spectroscopic classification.
+
+
+SDSS astrometry is generally better than 0.1 arcsecond
+per coordinate.  Users requiring high precision astrometry
+should take note that the SDSS astrometric system can
+differ from other systems such as those used in other
+notices; we have not checked the offsets in this region.
+
+More detailed information pertaining to our SDSS GRB
+releases can be found in our initial data release paper
+(Cool et al. 2006, astro-ph/0601218).  See the SDSS DR4
+documentation for more details: http://www.sdss.org/dr4.
+
+These data have been reduced using a slightly different
+pipeline than that used for SDSS public data releases.
+We cannot guarantee that the values here will exactly match
+those in the data release in which these data are included.
+In particular, we expect the photometric calibrations to
+differ by of order 0.01 mag.
+
+This note may be cited, but please also cite the SDSS data
+release paper, Adelman-McCarthy et al. (2006, ApJS, in
+press, astro-ph/0507711), when using the data or referring
+to the technical documentation.
+
+</rcool@as.arizona.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5306
+SUBJECT: GRB060526: optical observations
+DATE:    06/07/13 14:05:29 GMT
+FROM:    Alexei Pozanenko at IKI, Moscow  <apozanen@iki.rssi.ru>
+
+V.Rumyantsev (CrAO),  A.Pozanenko (IKI), M.Ibrahimov, I.Asfandyarov (MAO) on
+behalf of larger GRB follow up collaboration report:
+
+We observed the afterglow  of GRB060526 (Campana et al. GCN5162) in Maidanak
+Astronomical Observatory (MAO) with 1.5 m telescope in R and B-passbands on
+May 26-31, and June 1-2.  Additinnaly we recalibrated observation  with CrAO
+Shajn 2.6m telescope (Rumyantsev et al. GCN5181). A photometry is based on
+the star USNO B1.0 RA=15 31 18.60   DEC=+00 17 35.00   R2=16.35 B2=16.42
+already used in GCNs (Khamitov  GCN5173, Morgan GCN5175,  Kann GCN5172,
+Baliyan GCN5185).  R-band photometry of the afterglow and upper limits  are
+following:
+
+ Mid_time (UT), Telescope,  R_mag
+
+26.7778  MAO1.5 17.98 +/- 0.01
+26.7829  MAO1.5 18.06 +/- 0.01
+26.7883  MAO1.5 18.11 +/- 0.01
+27.7799  CrAO2.6 20.38 +/- 0.07
+27.8143  CrAO2.6 20.47 +/- 0.06
+27.8233  MAO1.5  20.43 +/- 0.04
+28.8014  MAO1.5  21.31 +/- 0.13
+29.8053  MAO1.5  22.06 +/- 0.11
+30.8049  MAO1.5  22.84 +/- 0.24
+31.7938  MAO1.5  23.52 +/- 0.32
+01.8318  MAO1.5  &gt;23.6
+02.8648  MAO1.5  &gt;23.8
+
+The afterglow is clearly detected in B-filter up to May 29;  B-photometry
+is underway.
+
+The message may be cited.
+
+
+</apozanen@iki.rssi.ru>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5178
+SUBJECT: GRB 060526: REM observations
+DATE:    06/05/28 15:30:01 GMT
+FROM:    Stefano Covino at Brera Astronomical Observatory  <stefano.covino@brera.inaf.it>
+
+L. Calzoletti, L.A. Antonelli, S. Covino, E. Molinari, G. Chincarini,  
+F.M. Zerbi, V. Testa, G. Tosti, F. Vitali, P. Conconi, G. Cutispoto,  
+G. Malaspina, L. Nicastro, E. Palazzi, E. Meurs, P. Goldoni, on  
+behalf of the REM/ROSS Team, report:
+
+We observed the field of GRB 060526 (Campana et al. GCN 5162) with  
+the robotic 60 cm REM telescope located at La Silla ESO Observatory  
+(Chile). The GRB was not visible from La Silla at the trigger time  
+and REM started acquiring automatically a set of infrared images  
+(J,H,K filters) at 23:08:56 UT (about 6.67 hours after the burst)  
+when the target became visibile. The integration time was 100s in  
+each filter. A second set of images was taken starting at 03:56:19 UT  
+with the same observing setting.
+
+The analysis of both dataset do not show any infrared source at the  
+position of the optical afterglow (Rykoff et al. GCN 5166, Campana et  
+al. GCN 5168) down to the 3-sigma upper limit magnitudes J=16.5,  
+H=16.2, K=15.8.
+
+This message may be cited.
+
+[GCN OPS NOTE(29may06): Per author's request, the starting time for the images
+was changed from "16:28:30" to "23:08:56".]
+</stefano.covino@brera.inaf.it>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN CIRCULAR
+NUMBER:  6219
+SUBJECT: GRB 070311, deep optical photometry
+DATE:    07/03/20 19:00:21 GMT
+FROM:    Peter Garnavich at U of Notre Dame  <pgarnavi@nd.edu>
+
+X. Dai (Ohio State), P. Garnavich (Notre Dame), R. Pogge (Ohio State),
+J. Hill (LBTO/UAz), X. Fan (U Ariz), J. Prieto, K. Z. Stanek (Ohio State),
+R. M. Wagner (LBTO/OSU), J. Rhoads (Ariz State), E. Egami, J. Bechtold,
+S. Herbert-Fort (UAz) report:
+
+The Large Binocular Telescope (LBT) imaged the position of the GRB 070311
+afterglow (Mereghetti et al, GCN 6189; Covino et al. GCN 6190) with the
+LBC-blue CCD camera (http//lbc.mporzio.astro.it) and 8.4-m SX mirror on
+2007 March 17.14 (UT). Ten dithered, 200 second exposures were obtained
+with the Sloan-r filter in 0.65" seeing. After combining the images, the
+afterglow is clearly detected. No obvious GRB host galaxy is visible. The
+field is filled with clouds of faint emission due to the low Galactic
+latitude of the region.
+
+The comparison star used by Halpern &amp; Armstrong (GCN 6195; star "A"
+with USNO-B1.0 R2=16.67 mag) is heavily saturated in the LBT data,
+so we obtained short exposure images of the field with LBC-blue to
+calibrate a fainter star ("B") at 5:50:10.341, 03:23:02.58 (J2000).
+The difference in brightness between star A and B is 2.62+/-0.01 mag.
+in Sloan-r and this is confirmed with R-band images taken at MDM
+(E. Armstrong, private communication). From point-spread-function fitting
+photometry, the afterglow is 5.44+/-0.06 mag fainter than comparison
+star B or at a brightness of R2=16.67+2.62+5.44= 24.73+/-0.06 mag.
+
+The brightness of the afterglow 6.0 days after the GRB suggests that it
+has continued a very steep decline after its optical flare
+(Halpern &amp; Armstrong GCN 6203). The afterglow has not resumed the shallow
+decay it followed on the first day after the GRB. A late flare
+occurring just before the break resembles GRB 000301c (Garnavich, Loeb &amp;
+Stanek 2000, ApJ, 544, 11; Rhoads &amp; Fruchter 2001, ApJ 546, 117)
+and GRB 060526 (Dai et al. 2006, astro-ph/0609269).
+
+The light curve of 070311 is available at:
+http://www.astronomy.ohio-state.edu/~xinyu/grb/070311.jpg
+and uses photometry from GCNs 6198 (Wren et al. 2007), 6195
+(Halpern &amp; Armstrong 2007), 6199 (Halpern &amp; Armstrong 2007), 6203 (Halpern
+&amp; Armstrong 2007), 6204 (Greco et al. 2007), 6206 (Kann et al. 2007), 6208
+(Halpern &amp; Armstrong 2007).
+
+The LBT image is available at:
+http://www.nd.edu/~pgarnavi/grb070311/LBT_grb070311.jpg
+and a wide-field view is at:
+http://www.nd.edu/~pgarnavi/grb070311/LBT_grb070311_clr.jpg
+
+We thank Eve Armstrong for providing MDM images to calibrate
+fainter comparison stars.
+
+The LBT is an international collaboration between institutions in the
+U.S.A., Italy and Germany. LBT Corporation partners are The Universities
+of Arizona; Italy's Istituto Nazionale di Astrofisica; Germany's LBT
+Beteiligungsgesellschaft representing the Max-Planck Society, the
+Astrophysical Institute Potsdam, and Heidelberg University; The Ohio State
+University and The Research Corporation, which represents The
+University of Notre Dame, University of Minnesota and University of
+Virginia.
+
+This message may be cited.
+
+</pgarnavi@nd.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5194
+SUBJECT: GRB 060526: Break in X-ray light curve
+DATE:    06/06/01 18:54:41 GMT
+FROM:    David Burrows at PSU/Swift  <dxb15@psu.edu>
+
+A. Moretti (INAF-OAB), D.N. Burrows (PSU) , S. Campana (INAF-OAB),
+G. Chincarini (UNIMIB, INAF-OAB), and G. Tagliaferri (INAF-OAB)
+report on behalf of the Swift XRT team:
+
+We have analyzed six days of Swift XRT data from GRB 060526
+(Campana et al., GCN5162), with a total exposure of 70ks.  After the
+flaring episodes between 200s and 400s interval from the trigger,
+already reported in Campana et al. (GCN 5168), the light curve
+presents a shallow decay with slope -0.7(+-0.1) until (1.1+-0.3)e5
+seconds after the trigger (1.2+-0.3 days). Superimposed on the
+shallow decay a small bump is present at 7 ks.
+
+At (1.1+-0.3)e5 seconds the light curve breaks to a much steeper slope
+of (-2.8+-0.1).  We note that this slope is very similar to the optical decay
+slope of the last five data points obtained by the RTT150 telescope
+(Khamitov et al., GGNs 5186, 5189, and 5193, slope ~ -2.75), and that the
+X-ray break time also seems to correspond roughly to a break in the
+general trend of the optical light curve (e.g., Thoene et al., GCN 5179;
+Kann and Hoegner, GCN 5182; Kann and Thoene, GCN 5187;
+although the slopes reported in these circulars are shallower than
+those seen in the XRT light curve and in the last 5 RTT150 data points).
+On the other hand, the optical light curve is quite complex
+(Halpern, Amstrong, and Mirabel, GCNs 5176, 5188).
+
+If interpreted as a jet break, the jet opening half-angle for this burst is
+about 4.7 degrees x (Eiso/10^53)^(-1/8) x (n/10 cm^-3)^(1/8).
+Using the total BAT fluence, we obtain Eiso = 2.3e52 ergs
+(15-150 keV observed frame), which would correspond to 5.6 degrees
+for the jet opening angle.  We did not extrapolate Eiso into the usual
+energy band due to the limited energy range of the BAT and the single
+power law fit to the BAT spectrum, but we expect that the jet angle
+should be in the range of 4-5 degrees.  A lower density would reduce
+this angle.
+
+This Circular is an official product of the Swift XRT Team.
+
+</dxb15@psu.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5175
+SUBJECT: GRB 060526: MDM-2.4m Observations
+DATE:    06/05/27 18:38:09 GMT
+FROM:    Xinyu Dai at Ohio State U  <xinyu@astronomy.ohio-state.edu>
+
+N. D. Morgan and X. Dai (Ohio State Univ.)
+
+We observed GRB 060526 (GCN 5162, Campana et al. 2006) with MDM-2.4m for 
+three epochs.  The afterglow is detected in all three observations.
+
+Using USNO B-1 star as the reference (RA=15:31:18.6, DEC=+00 17 34.9, 
+R2MAG=16.35, same one used in GCN5173 Khamitov et al. 2006), we get
+
+Rc = 19.90 @ May 27, 03:33:00 UT
+Rc = 19.98 @ May 27, 06:02:00 UT
+Rc = 20.11 @ May 27, 09:49:00 UT
+
+This message may be cited.
+
+</xinyu@astronomy.ohio-state.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5176
+SUBJECT: GRB 060526: Optical Flare
+DATE:    06/05/27 23:08:55 GMT
+FROM:    Jules Halpern at Columbia U.  <jules@astro.columbia.edu>
+
+J. P. Halpern (Columbia U.), E. Armstrong (UCSD), &amp; N. Mirabal (U. Michigan) 
+report on behalf of the MDM Observatory GRB follow-up team:
+
+"Using the MDM 1.3m telescope on Kitt Peak, we obtained a continuous R-band
+time series of the afterglow of Swift GRB 060526 (Campana et al. GCN 5162), 
+consisting of 40 10-minute exposures, from 11.0 to 18.2 hours after the burst.  
+Preliminary photometry was performed using comparison stars in r' from the
+SDSS calibration (Cool et al. GCN 5164).  In addition, wherever possible, we 
+placed other GCN reported R-band photometry (Covino et al. GCN 5167; 
+Khamitov et al. GCN 5173; Morgan &amp; Dai GCN 5175) on a common scale using the 
+SDSS r' magnitudes of their indicated comparison stars.  As a result, we find 
+that a power-law decay index of -1.18 +/- 0.05 fitted to the Khamitov et al. 
+data alone from 5.6 to 8.9 hours also fits the MDM light curve very well, until 
+about 16 hours after the burst.  At that time, a flare began that had a rise 
+time of about 40 minutes, followed by a slower decay, and had not yet returned 
+to the extrapolated power law when the observations were terminated at twilight.
+The peak of the flare occurred around May 27 09:06 UT, and reached about 0.3 
+magnitudes above the extrapolation.
+
+In combination with the multiple episodes of gamma-ray and X-ray emission
+(Campana et al. GCNs 5163, 5168; Markwardt et al. GCN 5174) and the long
+plateau in the early optical light curve (Rykoff et al. GCN 5166), these
+results indicate the possibility of extended and complex activity from
+GRB 060526 that warrants intensive monitoring.
+
+A preliminary version of the MDM optical light curve and incorporated
+GCN data is available at
+
+http://www.astro.columbia.edu/~jules/grb/060526/
+
+The data contained in the figure are not yet suitable for publication."
+
+</jules@astro.columbia.edu>
+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+
+TITLE:   GCN GRB OBSERVATION REPORT
+NUMBER:  5165
+SUBJECT: GRB 060526: Watcher Observations
+DATE:    06/05/26 20:09:37 GMT
+FROM:    John French at UCD,Ireland  <jfrench@bermuda.ucd.ie>
+
+John French (University College Dublin),
+Martin Jelinek (IAA Granada),
+
+on behalf of the Watcher collaboration report:
+
+The Watcher 40cm robotic telescope, located at Boyden Observatory, South 
+Africa, began imaging the field of GRB 060526 (Barthelmy et al., GCN 
+5162) at 16:29:07, 36.2 seconds after the Swift trigger (19.6 seconds 
+after the GCN notice).
+
+Preliminary analysis shows a varying source, consistent with the 
+position of the OT detected in the UVOT observations, with an R-band 
+magnitude of ~15 at T~60s. Analysis is on-going.
+
+This message may be cited.
+
+
+
+
+
+</jfrench@bermuda.ucd.ie>

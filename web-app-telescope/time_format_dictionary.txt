@@ -1,0 +1,766 @@
+MASTER (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: T-Tmid
+Output example:
+ T-Tmid      Date      Time       Expt.        Ra                Dec           Mag
+---------|---------------------|-------|-----------------|-----------------|-------
+   13797   2022-10-09 17:58:45     180   (19h 13m 03.43s , +19d 46m 23.1s)     16.7
+
+
+/////////////////////////////////////////////////////
+
+
+BOOTES-2/TELMA and OSN (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: after trigger
+Output example: (~ 4.2 hours after trigger)
+
+/////////////////////////////////////////////////////
+
+MONDY (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: t-T0
+Output example:
+Date       UT start   t-T0       Filter Exp.   OT    Err.  UL(3sigma)
+                     (mid, days)        (s)
+
+2022-10-09 14:26:54  0.01223     R      120    14.84 0.09  20.8
+
+/////////////////////////////////////////////////////
+
+MeerLICHT (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: *the time is reported with the structure "hh:mm:ss UT", the date if not specified is the same of the GRB
+Output example:
+u > 17.91 at 18:06:27 UT
+g = 18.22 +/- 0.33 at 18:21:07 UT
+q = 17.19 +/- 0.07 at 18:05:00 UT
+r = 17.76 +/- 0.08 at 18:23:59 UT
+i = 15.58 +/- 0.03 at 18:26:56 UT
+z = 14.89 +/- 0.03 at 18:29:55 UT
+
+/////////////////////////////////////////////////////
+
+Xinglong(2.16m) (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: after the ... trigger (the dots are referred to the given satellite, may it be BAT or GBM)
+Output example:
+The observation mid time is 2022 Oct 10.63 UT, i.e., 0.95 hr after the BAT trigger.
+
+/////////////////////////////////////////////////////
+
+REM(60cm) (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: after the ... trigger (the dots are referred to the given satellite)
+Output example:
+at a mid time of t-t0 ~ 10.47 hours after the GBM trigger.
+
+/////////////////////////////////////////////////////
+
+PRIME near-infrared (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword:    after the ... detection;    after the ... trigger (the dots are referred to the given satellite)
+Output example: 
+5.5 hours after the Fermi/GBM detection;
+no significant fading between 5.5 hr and 10.5 hr after the GBM trigger
+
+/////////////////////////////////////////////////////
+
+SWIFT (UVOT finding chart + first detection) (https://gcn.gsfc.nasa.gov/other/090628.gcn3)
+Keyword: UVOT took a finding chart exposure of *NNN seconds with the *FFF filter
+starting *NNNN seconds after the BAT trigger
+Output example:
+UVOT took a finding chart exposure of 150 seconds with the White filter
+starting 2790 seconds after the BAT trigger
+
+/////////////////////////////////////////////////////
+
+ATTENTION: SOMETIMES WE HAVE T_START AND EXPOSURE INSTEAD OF T_START AND T_STOP
+SWIFT (UVOT data) (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: T_start(s)
+Output example: 
+Filter         T_start(s)   T_stop(s)      Exp(s)           Mag
+
+white              179          329          147         16.68 +/- 0.03
+v                  668          688           20         15.55 +/- 0.10
+b                  593          613           20         17.05 +/- 0.11
+u                  337          587          246         17.68 +/- 0.06
+w1                 718         1293           58        >18.2
+w2                 817         1219           39        >19.1
+
+/////////////////////////////////////////////////////
+
+LOAO (1m) (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: t-t0[days]
+Output example:
+------------------- ----------- ----------- ------ ----------- ----------
+----- ------ -----
+DATE-OBS[UTC]       JD          t-t0[days]  FILTER Observatory EXPTIME[s]
+MAG   MAGERR DEPTH
+------------------- ----------- ----------- ------ ----------- ----------
+----- ------ -----
+2022-10-10T04:18:54 2459862.680 0.626       B      LOAO        60s*5
+ None   None  19.66
+2022-10-10T04:20:38 2459862.681 0.628       V      LOAO        60s*5
+ 18.74  0.13  19.48
+2022-10-10T04:22:04 2459862.682 0.629       R      LOAO        60s*5
+ 17.55  0.06  19.75
+2022-10-10T04:23:31 2459862.683 0.630       I      LOAO        60s*5
+ 16.41  0.05  19.56
+2022-10-10T04:24:39 2459862.684 0.631       z      LOAO        60s*5
+ TBD    TBD   TBD
+2022-10-10T04:25:58 2459862.685 0.631       Y      LOAO        60s*5
+ TBD    TBD   TBD
+
+/////////////////////////////////////////////////////
+
+GROWTH India Telescope (https://gcn.gsfc.nasa.gov/other/221009A.gcn3)
+Keyword: T_mid-T0(hrs)
+Output example:
+-------------------------------------------------------------------
+
+ JD (mid) | T_mid-T0(hrs) | Filter | Magnitude (AB) |
+
+-------------------------------------------------------------------
+
+2459862.18181 | 2.19 | g' | 17.66 +/- 0.07 |
+
+2459862.18451 | 2.25 | r' | 16.16 +/- 0.07 |
+
+-------------------------------------------------------------------
+
+/////////////////////////////////////////////////////
+
+Burke-Gaffney
+Keyword: Time (UTC)
+Output example:
+Time (UTC)//Ic magnitude//Error
+02:06:45  15.54  0.12
+02:12:20  15.60  0.10
+02:17:55  15.54  0.11
+02:23:29  15.60  0.11
+02:29:04  15.64  0.12
+02:34:38  15.59  0.11
+02:41:08  15.67  0.11
+02:46:43  15.69  0.10
+02:52:18  15.69  0.11
+02:57:53  15.64  0.12
+03:03:27  15.70  0.13
+03:09:02  15.92  0.13
+
+/////////////////////////////////////////////////////
+
+Lulin SLT-40cm
+Keyword: after the ... trigger time
+Output example:
+Observations started at 12:25 UT on 10 of October 2022 (MJD = 59862.518), 1.04 days after the Fermi GBM trigger time.
+
+/////////////////////////////////////////////////////
+
+Lick/Nickel telescope
+Keyword: after the burst
+Output example:
+Observations started about 15.73 hours after the burst
+
+/////////////////////////////////////////////////////
+
+Assy 
+Keyword: t-T0
+Output example:
+Date       UT start  t-T0       Exp.   Filter  OT    Err.   UL(3sigma)
+                     (mid, days)  (s)
+2022-10-15 15:29:43  6,10259    30*60  g'      22.60  0.12  23.4
+2022-10-15 14:25:00  6,05765    30*60  r'      20.96  0.05  22.9
+2022-10-15 14:56:19  6,07939    30*60  i'      20.00  0.04  23.2 
+2022-10-15 16:01:07  6,11918    15*60  z'      19.31  0.08  21.0
+
+/////////////////////////////////////////////////////
+
+BlackGEM
+Keyword: (T0+
+Output example:
+2022-10-11 00:47UT q = 18.98 +/- 0.09 +/- 0.05 (T0+35h30m)
+2022-10-11 00:50UT z = 16.92 +/- 0.05 +/- 0.03 (T0+35h33m)
+2022-10-11 00:54UT i = 17.92 +/- 0.06 +/- 0.02 (T0+35h37m)
+
+/////////////////////////////////////////////////////
+
+Faulkes Telescope North
+Keyword: after the trigger
+Output example:
+2022 October 15 starting at 6:34:12.198 UT (~5.7 days after the trigger)
+
+/////////////////////////////////////////////////////
+
+GRANDMA
+Keyword: T-T0 (day)
+Output:
+T-T0 (day)| MJD   | Obser.   |Exposure| Filter | Mag +/- err |Upp.Lim. (AB)
+___________________________________________________________________________
+1.069 |59862.622720|UBAI-ST| 6x180s |R-Bessel| 18.3  +/- 0.1 | 19.2
+1.136 |59862.689664| KAO   | 11x100s| sdssr  | 18.57 +/- 0.05| 20.5
+1.134 |59862.687523| KAO   | 2x120s | sdssg  | 20.43 +/- 0.2 | 19.8
+1.154 |59862.707801| KAO   | 9x80s  | sdssi  | 17.56 +/- 0.05| 20.3
+1.166 |59862.719039| KAO   | 2x120s | sdssz  | 16.93 +/- 0.05| 19.7
+1.223 |59862.776151|Lisnyky| 10x30s |R-Bessel| 18.15 +/- 0.1 | 19.6
+1.258 |59862.811817| MOSS  | 20x60s | clear  | 18.5  +/- 0.1 | 20.3
+1.301 |59862.854179|C2PU-O | 2x300s | sdssr  | 18.96 +/- 0.1 | 20
+3.027 |59864.580925| SNOVA | 10x150s| clear  |        -      | 19.7
+3.047 |59864.600648|UBAI-ST| 5x240s |R-Bessel| 19.85  +/- 0.1| 19.3
+4.191 |59865.743981| KAO   | 21x110s| sdssz  | 18.8   +/- 0.1| 19.7
+
+/////////////////////////////////////////////////////
+
+
+iTelescope
+Keyword: after the trigger
+Output example:
+midtime of the stacked image is 06:12:42 UT (1d16h02m after
+the trigger)
+
+/////////////////////////////////////////////////////
+
+Sintez-Newton/CrAO
+Keyword: t-T0
+Output example:
+Date       UT start   t-T0    Filter Exp.    OT    err   UL(3)
+                      (mid, days)       (s)
+2022-10-10 17:24:54   1.16293  r'    40*120  18.43 0.10  20.9
+
+/////////////////////////////////////////////////////
+
+COATLI
+Keyword: after the trigger
+Output example:
+from 2022-10-11 06:05 UTC to 06:39 UTC (40.2 hours after the trigger)
+
+/////////////////////////////////////////////////////
+
+LCOGT
+Keyword: from the GRB trigger time
+Output example:
+corresponding to 29.38 to 29.66 hours from the GRB trigger time
+
+/////////////////////////////////////////////////////
+
+Konkoly
+Keyword: t-T0(hr)
+Output example:
+Date        UT-middle   t-T0(hr)  Exp(s)   r'(AB-mag)       i'(AB-mag)
+2022-10-10  19:26:51    30.16     600      18.74 (0.12)     17.50 (0.08)
+2022-10-12  20:18:24    79.02     300      20.58 (0.70)     18.74 (0.18)
+
+/////////////////////////////////////////////////////
+
+GMG
+Keyword: after the trigger
+Output example: 
+The observation began at UT 14:34:40, 12, Oct. 2022, about 3 days after the trigger
+
+/////////////////////////////////////////////////////
+
+Sayan/AZT-33IK
+Keyword: after the burst
+Output example:
+starting at
+2022/10/10 13:38 UT, i.e. approximately 24.4 hours after the burst
+
+/////////////////////////////////////////////////////
+
+MITSuME/Okayama
+Keyword: T0+[day]
+Output example:
+T0+[day] |MID-UT | T-EXP[sec] | magnitudes of forced-photometry
+------------------------------------------------------------------------------------------------
+0.9320 | 2022-10-10 11:39:09| 8340 | g'>18.3, Rc>17.0, Ic=17.1+/-0.2
+
+/////////////////////////////////////////////////////
+
+Lowell(4.3m)
+Keyword: after the GRB
+Output example: 
+Observations began on October 13, 2022 at 03:09:27 UT corresponding
+to ~3.6 d after the GRB
+
+/////////////////////////////////////////////////////
+
+RTT-150
+Keyword: T-T0
+Output example:
+JD               T-T0    Filter  mag   merr
+                 (hours)   
+2459863.2056537  27.653  g      20.13  0.08
+2459863.2131298  27.832  r      18.65  0.02
+2459863.2205018  28.009  i      17.52  0.01
+2459863.2278493  28.185  z      16.81  0.01
+2459863.3452805  31.004  g      20.44  0.25
+2459863.3681597  31.553  r      18.81  0.05
+2459863.3760363  31.742  i      17.69  0.02
+2459863.3840870  31.935  z      16.99  0.01
+(...)
+
+/////////////////////////////////////////////////////
+
+Gemini-South
+Keyword: post burst; after the GRB
+Output example: 
+mid-time of 2022 October 14 00:40:12 UT  (4.437 days post-burst);
+October 13, 2022 at 23:58:42 UT corresponding to ~4.4 d after the GRB
+
+/////////////////////////////////////////////////////
+
+OHP
+Keyword: after trigger
+Output example:
+(mid time ~78h after trigger)
+
+/////////////////////////////////////////////////////
+
+Pan-STARRS
+Keyword: MJD
+Output example:
+MJD          filter mag    dmag
+59866.22756  r      20.92  0.05
+59866.22504  i      19.88  0.02
+59866.22371  z      19.21  0.02
+59866.22239  y      18.77  0.03
+
+/////////////////////////////////////////////////////
+
+Large Binocular Telescope (LBT)
+Keyword: after the trigger; after the burst trigger
+Output example:
+(~2.5 days after the trigger); the midtime 03:11 UT on 2022-10-18, 8.58 
+days after the burst trigger
+
+/////////////////////////////////////////////////////
+
+VLT (spectroscopic detection)
+Keyword: after the ... trigger; after the GRB
+Output example: 
+(4.46 days after the Fermi/GBM trigger)
+
+/////////////////////////////////////////////////////
+
+BOAO
+Keyword: JD=
+Output example: 
+The observation started at
+2022-10-18-11:34 (UT) or JD=2459870.98230324, taking a series of images for
+about 1.25 hrs.
+
+/////////////////////////////////////////////////////
+
+TNG(3.6m)
+Keyword: after the ... trigger time
+Output example:
+7.3 days after the GBM trigger time
+
+/////////////////////////////////////////////////////
+
+DFOT(1.3m)
+Keyword: T-T0 (mid,
+Output example:
+Date Start UT   T-T0 (mid, days) Filter  Exp time (sec)   Magnitude
+
+=========================================================
+2022-10-16 14:41:41   ~7.09       R           200*25          21.30 +/- 0.04
+
+/////////////////////////////////////////////////////
+
+SARA-RM 1m
+Keyword: after the ... trigger
+Output example:
+at 14.90190 days (midpoint of stacked observations) after the Swift trigger
+
+/////////////////////////////////////////////////////
+
+ATHENS (GCN 17700)
+Keyword: Month. dd (UT) hh:mm:ss (mid-exposure time)
+Output example: 
+Data collection has started on Apr., 13 (UT) 17:38:58 and finishing on Apr. 13 (UT)
+18:08:08 (mid-exposure time)
+
+/////////////////////////////////////////////////////
+
+BISEI (GCN 25226)
+Keyword: MID-UT
+Output example:
+| telescope | MID-UT  | T-EXP [sec] | magnitudes |
+-----------------------------------------------------------------------------------------------
+| MITSuME Okayama 50cm | 15:09:47  | 10260 | g’ = 17.40 +/- 0.07 Rc = 17.70
++/- 0.06  Ic = 17.53 +/- 0.06 |
+| Bisei 101 cm | 15:55:09 | 600 | V = 17.23 +/- 0.02 |
+| Bisei 101 cm | 15:37:27 | 1200 | R = 17.41 +/- 0.02 |
+| Bisei 101 cm | 16:08:21 | 600 | I = 17.40 +/- 0.04 |
+---------------------------------------------------------------------------------------------------
+
+/////////////////////////////////////////////////////
+
+Carlos-Sanchez (GCN 051022)
+Keyword: after the GRB
+Output example:
+J and Ks-band filters were taken starting on October 22 (01:56 UT, i.e. 12.8 hr after the GRB)
+
+/////////////////////////////////////////////////////
+
+Challis(0.4m)
+Keyword: after the ... trigger
+Output example:
+Using seventeen 10-second frames in the R filter acquired in a clear sky,
+centered at ~ 06:06 UT, 22.3 hours after the Swift/BAT trigger
+
+/////////////////////////////////////////////////////
+
+Chilescope(RC-1000)
+Keyword: t-T0
+Output example:
+Date UT start       t-T0 Filter Exp.  OT(AB) Err. UL(AB)
+                     (mid, days) (s)
+
+2021-07-02 23:40:26 0.193202 r' 1*600 17.01  0.05  19.7
+
+/////////////////////////////////////////////////////
+
+Cima Rest Observatory (0.508m) (GCN 13189)
+Keyword: after the burst
+Output example: 
+The observations: 
+had started 5d 19h 49m after the burst (2012-03-31 at 21h 08m UTC) 
+and ended   6d 00h 33m after the burst (2012-04-01 at 01h 51m UTC)
+
+/////////////////////////////////////////////////////
+
+RATIR
+Keyword: NN to MM xxx after the BAT trigger.
+Output example:
+on the 1.5m Harold Johnson Telescope at the Observatorio
+Astronómico Nacional on Sierra San Pedro Mártir from 2019/11 1.09 to 2019/11
+1.12 UTC (4.65 to 5.49 hours after the BAT trigger)
+
+/////////////////////////////////////////////////////
+
+Palomar (GCN 14967)
+Keyword: after the burst trigger
+Output example:
+(28.1 hours after the burst trigger)
+
+/////////////////////////////////////////////////////
+
+Keck (GCN 23440)
+Keyword: post-burst
+Output example:
+9.2 hours post-burst
+
+/////////////////////////////////////////////////////
+
+SUBARU (GCN 5129)
+Keyword: after the burst
+Output example:
+11.8 hours after the burst
+
+/////////////////////////////////////////////////////
+
+Hubble Space Telescope (GCN 20222)
+Keyword: post-burst
+Output example:
+at epochs 3.6, 10.4 and 23.2 days post-burst
+
+/////////////////////////////////////////////////////
+
+RAPTOR
+Keyword: after the BAT trigger time
+Output example:
+arrived on target at 04:55:20.83 UT, T+27.98 seconds after the BAT trigger time
+
+/////////////////////////////////////////////////////
+
+GROND (GCN 21729)
+Keyword: after the GRB trigger; mid-time
+Output example: 19.5 hours after the GRB trigger;
+Based on combined images with 22 min total exposure in g'r'i'z' and 25 min 
+in JHK, at a mid-time of 23:55 UT on 2021-09-05 for the afterglow
+
+/////////////////////////////////////////////////////
+
+SAO RAS (Zeiss-1000) (GCN 30187)
+Keyword: T_mid-T0, h
+Output example:
+UT_mid     T_mid-T0, h  Exp., s   Rc mag (+/- 0.01 mag)
+20:22:03   0.510        20        16.15
+20:32:40   0.687        60        16.43
+20:48:12   0.946        60        16.75
+21:19:20   1.448        60        17.13
+21:28:10   1.612        60        17.22
+21:53:21   2.032        60        17.26
+22:13:03   2.360        60        17.19
+22:36:03   2.743       180        17.17
+23:04:20   3.215       120        17.20
+23:52:38   4.020       120        17.19
+
+/////////////////////////////////////////////////////
+
+LCO(1m) (GCN 20954)
+Keyword: since the GRB
+Output example: 
+(8.5 hours since the GRB)
+
+/////////////////////////////////////////////////////
+
+Skynet/PROMPT (GCN 13430)
+Keyword: Time    Tel
+Output example:
+Time	Tel	Filt	Mag	1sigERR
+112	P4	R	12.117	0.008 
+113	P1	V	12.593	0.014
+116	P3	B	14.061	0.014
+
+/////////////////////////////////////////////////////
+
+Skynet/DSO-14 (GCN 15191)
+Keyword: post-trigger
+Output example:
+Starting at 2013-09-08, 00:43 UT (t=3.03h post-trigger) and continuing 
+until 17:41 UT (t=35.5m-4.65h post-trigger)
+
+/////////////////////////////////////////////////////
+
+OSN T150
+Keyword: after the GRB
+Output example:
+The observation is centered 0.7321 days after the GRB
+
+/////////////////////////////////////////////////////
+
+TNT(0.8m)
+Keyword: after the burst
+Output example:
+with Xinglong TNT telescope, China, at 15:23:44 (UT), 
+20th. June. 2021,  about 14.43 hours after the burst
+
+/////////////////////////////////////////////////////
+
+GTC(10.4m)
+Keyword: after the GRB; after the ... trigger
+Output example:
+Imaging observations started on Jul 12 at 00:32:14 
+(~4.3 hrs after the GRB)
+
+/////////////////////////////////////////////////////
+
+TAROT/Calern
+Keyword: t0+TSTART to t0+TEND; after the GRB trigger
+Output example:
+t0+148.6s to t0+178.6s : R > 16.4
+to+193.7s to t0+223.7s : R > 16.4
+to+238.9s to t0+268.9s : R > 15.9
+to+284.0s to t0+314.0s : R > 15.9
+to+329.2s to t0+359.2s : R > 16.9;
+The observations started 40.8s after the GRB trigger
+
+/////////////////////////////////////////////////////
+
+Abastumani/AS-32
+Keyword: t-T0
+Output example:
+Date       UT start   t-T0    Filter Exp.    OT   Err.  UL(3sigma)
+                        (mid, days)    (s)
+
+2021-09-19 00:48:33   0.03194  R     52*60   n/d  n/d   22.1
+
+/////////////////////////////////////////////////////
+
+GMG(2.4m)
+Keyword: after the trigger
+Output example: about 3 days after the trigger
+
+/////////////////////////////////////////////////////
+
+Lulin(1m)
+Keyword: post burst; Start time
+Output example:
+(5.6 hours post burst);
+Start time     Exposure     Filter     Magnitude (AB)
+20:20:16       300s         SDSS-r     19.47+/-0.11
+20:25:50       300s         SDSS-i     18.97+/-0.09
+
+/////////////////////////////////////////////////////
+
+LOAO(1m)
+Keyword: after the GRB trigger
+Output example:
+September 19 at 10:42:02 UT , ~10.23 hours after the GRB trigger
+
+/////////////////////////////////////////////////////
+
+ZTSH(2.6m)
+Keyword: t-T0
+Output example:
+Date       UT start  t-T0    Filter Exp.   OT    Err. UL Telescope
+                     (mid, days)     (s)
+2020-07-17 19:17:52  0.84735 R      29*60  19.04 0.03 22.0 ZTSh
+2020-07-17 19:50:49  0.87023 R      30*60  19.21 0.03 21.9 ZTSh
+2020-07-18 18:33:32  1.83323 R      24*120 19.21 0.06 22.1 Zeiss-2000
+2020-07-18 19:25:19  1.85253 R      17*60  19.21 0.06 22.1 ZTSh
+2020-07-19 17:15:50  2.78066 r'     52*60  19.31 0.03 22.4 AZT-20
+
+/////////////////////////////////////////////////////
+
+TAROT/Chile
+Keyword: start end
+Output example:
+start end  r(AB) 1sig
+(sec) (sec)
+   28   36  14.30 0.04
+   36   43  14.24 0.03
+   43   51  14.40 0.03
+   51   58  14.61 0.04
+   58   66  14.98 0.05
+   66   73  15.42 0.06
+   73   81  15.52 0.09
+   81   88  15.83 0.15
+
+/////////////////////////////////////////////////////
+
+MAO/AZT-22
+Keyword: T0+; t-T0
+Output example:
+T0+         Filter  Exp.  mag.           UL
+mid., days                               (3 sigma)
+
+
+2.315      R      2700    21.36 +/-0.09  23.10
+4.326      R      3600    n/d            22.30;
+
+Date       UT start  t-T0      Filter Exp.   OT  Err.  UL(3sigma)
+                      (mid, days)        (s)
+2021-09-19 22:27:50   0.94950    R    32*180 n/d n/d 24.2
+2021-09-20 23:04:55   1.95651    R    14*180 n/d n/d 22.9
+
+/////////////////////////////////////////////////////
+
+Miyazaki(30cm)
+Keyword: after the ... trigger time; Start(UT)
+Output example:
+The observation was started 09:59:30 UT, about 9.5 min
+after the Swift trigger time;
+--------------------------------------------------------------
+Start(UT) End(UT) Num. of frames Limit (mag.)
+--------------------------------------------------------------
+09:59:30 10:00:00 1 15.9
+09:59:30 10:47:23 37 17.3
+---------------------------------------------------------------
+
+/////////////////////////////////////////////////////
+
+CTIO(0.9m)
+Keyword: Midtime of exposure
+Output example:
+Midtime of exposure     Exposure time     Filter     Magnitude
+--------------------------------------------------------------------------
+      12.7 hr               7x450s            R        > 20.7
+      12.8 hr               7x450s            V        > 20.3
+--------------------------------------------------------------------------
+
+/////////////////////////////////////////////////////
+
+AZT-11
+Keyword: T0+; UT start,
+Output example:
+T0+      Filter,   Exposure, mag.
+(mid, d)              (s)
+
+2.1910   R        36x180       21.3 +/-0.3;
+
+Date,       UT start,    OT,    OT_err
+
+2015-04-13  17 40 32.11  16.56  0.12
+2015-04-13  17 43 36.17  16.97  0.30
+2015-04-13  17 46 40.21  16.48  0.07
+2015-04-13  17 49 44.26  16.73  0.11
+(...)
+
+/////////////////////////////////////////////////////
+
+Loiano(1.52m)
+Keyword: *hh*h*mm*m*ss*s; NNNNN.MM UT
+Output example:
+The first observation started at 18h05m58s UT; 
+We obtained a total of 14 frames in Rc, V, B and I.
+ Rc magnitudes went from 19.47 +- 0.11 
+at 2454587.40325 UT to 20.53 +- 0.10
+    at 2454587.54819 UT
+
+/////////////////////////////////////////////////////
+
+Danish(1.54m)
+Keyword: Month Day hh:mm UT; Month Day.decimals UT
+Output example:
+starting on September 8 08:06 UT and ending at 08:52 UT;
+between Dec 5.6 and Dec 13.6 UT
+
+/////////////////////////////////////////////////////
+
+Super-LOTIS(0.6m)
+Keyword: after the trigger; UT midtime
+Output example:
+We detect the afterglow (Mundell et al., GCN 10063) in early stacked 20s exposures and
+individual 60s exposures beginning 5 min after the trigger;
+
+UT midtime     Exp Time        Filter      Upper Limit
+-------------------------------------------------------------------
+09:15:01          4 x 10 sec         R           16.5
+09:16:50          5 x 20 sec         R           17.4
+09:23:35         10 x 60 sec        R           19.0
+
+/////////////////////////////////////////////////////
+
+KANATA
+Keyword: time(UT)
+Output example: 
+time(UT)       mag.              exposure_time
+Aug. 2008                        (sec)
+10.553258      13.7  +- 0.1  V  33sec * 1
+
+/////////////////////////////////////////////////////
+
+MDM(1.3m)
+Keyword: post-burst; after the burst
+Output example:
+at a mean time of 02:47 UT, or 54 minutes post-burst;
+0.25-4 hours after the burst
+
+/////////////////////////////////////////////////////
+
+ISON-NM(0.45m)
+Keyword: t-t0; +T0
+Output example:
+t-t0             filter      Exp.        OT
+(mid, days)             (s)
+
+0.05234    none     600   18.97  +/-    0.09
+0.06039    none     600   18.84  +/-    0.08
+0.06837    none     600   19.13  +/-    0.11
+0.08321    none    1500  19.51  +/-    0.07
+0.10178    none    1500  19.70  +/-    0.08
+0.12128    none    1500  19.99  +/-    0.08
+0.13989    none    1500  19.86  +/-    0.08;
+
++T0 (hour)     Filter         Exp (sec)     Mag     Mag err     Limit
+7.606             unfiltered       2x120     17.1           0.1         18.4
+7.678             unfiltered       2x120     17.2           0.2         18.5
+10.607           unfiltered       3x300     17.3           0.1         19.6
+11.141           Rc                3x300     17.4            0.1         20.0
+11.228            B                 3x300     18.1            0.2         19.1
+
+/////////////////////////////////////////////////////
+
+Gemini-North
+Keyword: post-burst
+Output example: 
+approximately 5.75 hr post-burst
+
+/////////////////////////////////////////////////////
+
+Watcher(40cm)
+Keyword: T0+; after the burst trigger
+Output example:
+Observations started on May 19th at 16:30 UT (T0+11.5h);
+observations started at 19:31:13 UT, about 51.4 minutes 
+after the burst trigger (T0=18:39:48 UT)
+
+/////////////////////////////////////////////////////
+
